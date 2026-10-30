@@ -234,4 +234,4 @@ docker compose down
 
 * * *
 
-<div align="center"><sub>Parcel Desk · Self-hosted order management</sub></div>
+<div align="center"><sub>Created with ❤️ by Daniel Sichler</sub></div>
