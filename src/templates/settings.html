@@ -1,0 +1,18 @@
+<div class="page-head"><div><div class="eyebrow">Administration</div><h1>Einstellungen</h1><p class="subtitle">Standardwerte für neue Bestellungen verwalten.</p></div></div>
+<div class="grid settings-links" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr));max-width:760px"><a class="card" href="{{url_for('groups')}}" style="color:inherit;text-decoration:none"><div class="eyebrow">Zugriff</div><h2 style="margin:10px 0 5px">Gruppen verwalten ↗</h2><p class="muted" style="margin:0;font-size:13px">Zugriff auf Bestellungen nach Gruppen trennen.</p></a><a class="card" href="{{url_for('users')}}" style="color:inherit;text-decoration:none"><div class="eyebrow">Administration</div><h2 style="margin:10px 0 5px">Teamverwaltung ↗</h2><p class="muted" style="margin:0;font-size:13px">Mitarbeiterkonten und Zugriffsrechte verwalten.</p></a><a class="card" href="{{url_for('password')}}" style="color:inherit;text-decoration:none"><div class="eyebrow">Konto</div><h2 style="margin:10px 0 5px">Passwort ändern ↗</h2><p class="muted" style="margin:0;font-size:13px">Das eigene Zugangspasswort aktualisieren.</p></a></div>
+<form class="card" method="post" style="max-width:760px">
+  <input type="hidden" name="csrf" value="{{csrf}}">
+  <h2 style="margin-top:0">Bestellvorgaben</h2>
+  <p class="muted" style="font-size:13px">Die Werte werden beim Anlegen neuer Bestellungen vorausgefüllt und können dort geändert werden.</p>
+  <div class="grid">
+    <div><label>Standard-Lieferant / Shop</label><input name="default_supplier" maxlength="200" value="{{default_supplier}}" placeholder="Zum Beispiel Mouser"></div>
+    <div><label>Standard-Versanddienstleister</label><input name="default_carrier" maxlength="200" value="{{default_carrier}}" placeholder="Zum Beispiel DHL"></div>
+  </div>
+  <p style="margin:20px 0 0"><button class="btn primary">Einstellungen speichern</button></p>
+</form>
+<div class="card" style="max-width:760px;margin-top:20px">
+  <h2 style="margin-top:0">Telegram-Benachrichtigungen</h2>
+  <p class="muted" style="font-size:13px">{% if telegram_configured %}Bot und Zielchat sind konfiguriert. Benachrichtigungen gehen nur an diesen Chat.{% else %}Noch nicht konfiguriert. TELEGRAM_BOT_TOKEN und TELEGRAM_CHAT_ID müssen in der .env gesetzt und der Dienst neu gestartet werden.{% endif %}</p>
+  <form method="post" action="{{url_for('settings')}}" class="row telegram-language-form"><input type="hidden" name="csrf" value="{{csrf}}"><div class="field"><label>Sprache der Telegram-Benachrichtigungen</label><select name="telegram_language"><option value="en" {% if telegram_language=='en' %}selected{% endif %}>English</option><option value="de" {% if telegram_language=='de' %}selected{% endif %}>Deutsch</option></select></div><button class="secondary">Sprache speichern</button></form>
+  <form method="post" action="{{url_for('telegram_test')}}"><input type="hidden" name="csrf" value="{{csrf}}"><button class="secondary" {% if not telegram_configured %}disabled{% endif %}>Testnachricht senden</button></form>
+</div>

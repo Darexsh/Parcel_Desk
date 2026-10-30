@@ -1,0 +1,13 @@
+services:
+  order-management:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "${BIND_ADDRESS:-127.0.0.1}:${PORT:-8000}:8000"
+    volumes:
+      - order-data:/data
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  order-data:
