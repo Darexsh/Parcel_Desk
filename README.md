@@ -51,6 +51,28 @@ Application code, templates, styles, and import logic live under `src/`. The Doc
 
 * * *
 
+## 📸 Screenshots
+
+### Dashboard
+
+![Parcel Desk dashboard with example orders, status cards, search, and year filter](docs/screenshots/dashboard.png)
+
+<details>
+<summary>Order details</summary>
+
+![Order details with item list, Mouser XLS import, and activity](docs/screenshots/order-details.png)
+
+</details>
+
+<details>
+<summary>Team management</summary>
+
+![Team management with example users, roles, groups, and a pending registration](docs/screenshots/team-management.png)
+
+</details>
+
+* * *
+
 ## ✨ Feature Highlights
 
 ### Orders and shopping carts
