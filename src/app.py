@@ -96,6 +96,9 @@ def init():
         CREATE TABLE IF NOT EXISTS items(id INTEGER PRIMARY KEY, order_id INTEGER NOT NULL REFERENCES orders(id) ON DELETE CASCADE, name TEXT NOT NULL, quantity REAL NOT NULL DEFAULT 1, price REAL NOT NULL DEFAULT 0, link TEXT DEFAULT '');
         CREATE TABLE IF NOT EXISTS events(id INTEGER PRIMARY KEY, order_id INTEGER NOT NULL REFERENCES orders(id) ON DELETE CASCADE, user_id INTEGER REFERENCES users(id), action TEXT NOT NULL, created_at TEXT NOT NULL);
         CREATE TABLE IF NOT EXISTS settings(key TEXT PRIMARY KEY, value TEXT NOT NULL DEFAULT '');''')
+        event_columns={row['name'] for row in d.execute('PRAGMA table_info(events)').fetchall()}
+        if 'actor_name' not in event_columns:
+            d.execute("ALTER TABLE events ADD COLUMN actor_name TEXT NOT NULL DEFAULT ''")
         user_columns={row['name'] for row in d.execute('PRAGMA table_info(users)').fetchall()}
         if 'display_name' not in user_columns:
             d.execute("ALTER TABLE users ADD COLUMN display_name TEXT NOT NULL DEFAULT ''")
@@ -250,6 +253,8 @@ def order_form(o=None):
 
 def save_order(oid=None):
     title=request.form.get('title','').strip()[:200]; status=request.form.get('status','Warenkorb')
+    clear_pickup=request.form.get('clear_pickup')=='1'
+    if clear_pickup: status='Angekommen'
     if not title or status not in STATUSES: abort(400)
     vals=[request.form.get(k,'').strip()[:2000] for k in ('supplier','order_number','tracking_number','carrier','link','notes')]
     if not vals[0]: abort(400,'Lieferant / Shop erforderlich')
@@ -271,7 +276,16 @@ def save_order(oid=None):
         previous_status=old['status']
         if status=='Abgeholt' and previous_status!='Abgeholt':
             abort(400,'Bitte die Abholung über den Abholschritt dokumentieren')
-        d.execute('UPDATE orders SET title=?,supplier=?,order_number=?,tracking_number=?,carrier=?,link=?,notes=?,status=?,group_id=?,updated_at=? WHERE id=?',(title,*vals,status,group_id,t,oid))
+        pickup_collected_by='' if clear_pickup else request.form.get('pickup_collected_by',old['pickup_collected_by'] or '').strip()[:200]
+        pickup_destination='' if clear_pickup else request.form.get('pickup_destination',old['pickup_destination'] or '').strip()[:500]
+        pickup_documents_location='' if clear_pickup else request.form.get('pickup_documents_location',old['pickup_documents_location'] or '').strip()[:500]
+        if not clear_pickup and (status=='Abgeholt' or previous_status=='Abgeholt' or any((pickup_collected_by,pickup_destination,pickup_documents_location))) and not all((pickup_collected_by,pickup_destination,pickup_documents_location)):
+            abort(400,'Bitte alle Abholangaben ausfüllen')
+        d.execute('UPDATE orders SET title=?,supplier=?,order_number=?,tracking_number=?,carrier=?,link=?,notes=?,status=?,group_id=?,pickup_collected_by=?,pickup_destination=?,pickup_documents_location=?,updated_at=? WHERE id=?',(title,*vals,status,group_id,pickup_collected_by,pickup_destination,pickup_documents_location,t,oid))
+        if clear_pickup:
+            d.execute("UPDATE events SET actor_name='' WHERE id=(SELECT id FROM events WHERE order_id=? AND action LIKE '%→ Abgeholt' ORDER BY id DESC LIMIT 1)",(oid,))
+        elif previous_status=='Abgeholt' and pickup_collected_by!=(old['pickup_collected_by'] or ''):
+            d.execute("UPDATE events SET actor_name=? WHERE id=(SELECT id FROM events WHERE order_id=? AND action LIKE '%→ Abgeholt' ORDER BY id DESC LIMIT 1)",(pickup_collected_by,oid))
         action='Status: '+old['status']+' → '+status if old['status']!=status else 'Bestellung bearbeitet'
     else:
         if status=='Abgeholt': abort(400,'Neue Bestellungen können nicht direkt als abgeholt angelegt werden')
@@ -297,7 +311,7 @@ def edit_order(oid):
 def detail(oid):
     d=db();o=order_for_current_user(oid)
     items=d.execute('SELECT * FROM items WHERE order_id=? ORDER BY id',(oid,)).fetchall()
-    events=d.execute("SELECT e.*,COALESCE(NULLIF(u.display_name,''),u.username) username FROM events e LEFT JOIN users u ON u.id=e.user_id WHERE e.order_id=? ORDER BY e.id DESC",(oid,)).fetchall()
+    events=d.execute("SELECT e.*,COALESCE(NULLIF(e.actor_name,''),CASE WHEN e.action LIKE '%→ Abgeholt' THEN NULLIF(o.pickup_collected_by,'') END,NULLIF(u.display_name,''),u.username) username FROM events e JOIN orders o ON o.id=e.order_id LEFT JOIN users u ON u.id=e.user_id WHERE e.order_id=? ORDER BY e.id DESC",(oid,)).fetchall()
     total=sum(i['quantity']*i['price'] for i in items)
     return page('order_detail.html',o=o,items=items,events=events,total=total,oid=oid,user=g.user)
 
@@ -322,7 +336,8 @@ def change_status(oid):
             d.execute('UPDATE orders SET status=?,tracking_number=?,carrier=?,updated_at=? WHERE id=?',(s,tracking,carrier,t,oid))
         else:
             d.execute('UPDATE orders SET status=?,updated_at=? WHERE id=?',(s,t,oid))
-        d.execute('INSERT INTO events(order_id,user_id,action,created_at) VALUES(?,?,?,?)',(oid,g.user['id'],'Status: '+o['status']+' → '+s,t));d.commit()
+        event_actor=collected_by if s=='Abgeholt' else ''
+        d.execute('INSERT INTO events(order_id,user_id,action,actor_name,created_at) VALUES(?,?,?,?,?)',(oid,g.user['id'],'Status: '+o['status']+' → '+s,event_actor,t));d.commit()
         if s in ('Warenkorb fertig','Abgeholt'):
             telegram_order_notification(s,o['title'],o['supplier'],o['group_name'],o['tracking_number'])
     target=request.form.get('return_to','')
