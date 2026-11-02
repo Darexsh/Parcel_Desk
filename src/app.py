@@ -560,6 +560,15 @@ def settings():
         d.commit();flash('Einstellungen gespeichert');return redirect(url_for('settings'))
     return page('settings.html',default_supplier=setting('default_supplier'),default_carrier=setting('default_carrier'),telegram_language=setting('telegram_language','en'),telegram_configured=bool(os.getenv('TELEGRAM_BOT_TOKEN','').strip() and os.getenv('TELEGRAM_CHAT_ID','').strip()))
 
+@app.post('/settings/delete-orders')
+@admin_required
+def delete_all_orders():
+    d=db()
+    d.execute('DELETE FROM orders')
+    d.commit()
+    flash('Alle Bestellungen und deren Verlauf wurden gelöscht')
+    return redirect(url_for('settings'))
+
 @app.route('/settings/pickup-dropdowns',methods=['GET','POST'])
 @admin_required
 def pickup_dropdowns():

@@ -24,3 +24,8 @@
   <form method="post" action="{{url_for('settings')}}" class="row telegram-language-form"><input type="hidden" name="csrf" value="{{csrf}}"><div class="field"><label>Sprache der Telegram-Benachrichtigungen</label><select name="telegram_language"><option value="en" {% if telegram_language=='en' %}selected{% endif %}>English</option><option value="de" {% if telegram_language=='de' %}selected{% endif %}>Deutsch</option></select></div><button class="secondary">Sprache speichern</button></form>
   <form method="post" action="{{url_for('telegram_test')}}" class="telegram-test-form"><input type="hidden" name="csrf" value="{{csrf}}"><button class="secondary" {% if not telegram_configured %}disabled{% endif %}>Testnachricht senden</button></form>
 </div>
+<div class="card danger-zone" style="max-width:760px;margin-top:20px">
+  <h2 style="margin-top:0">Bestellungen löschen</h2>
+  <p class="muted" style="font-size:13px">Alle Bestellungen, Artikel und Verlaufseinträge werden unwiderruflich gelöscht. Mitarbeiterkonten, Gruppen und Einstellungen bleiben erhalten.</p>
+  <form method="post" action="{{url_for('delete_all_orders')}}"><input type="hidden" name="csrf" value="{{csrf}}"><button class="danger" onclick="return confirm('Alle Bestellungen und deren Verlauf unwiderruflich löschen?')">Alle Bestellungen löschen</button></form>
+</div>

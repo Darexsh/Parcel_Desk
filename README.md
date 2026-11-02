@@ -107,7 +107,7 @@ Import a saved Mouser shopping cart in `.xls` format into an existing order. Imp
 * New accounts remain pending until an administrator approves them.
 * Administrators assign groups before approving access. Users cannot choose their own groups during registration.
 * A user can belong to multiple groups. Each order is assigned to one group.
-* Administrators manage users, groups, defaults, application settings, pickup options, and shipping carrier dropdowns.
+* Administrators manage users, groups, defaults, application settings, pickup options, and shipping carrier dropdowns. They can also permanently delete all orders and their history from Settings.
 
 ### Telegram notifications
 
