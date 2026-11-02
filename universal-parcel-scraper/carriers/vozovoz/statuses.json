@@ -1,9 +1,0 @@
-{
-  "carrier": "vozovoz",
-  "entries": [
-    {"wording": "Заказ создан", "stage": "registered", "language": "ru", "confirmedBy": "bundle", "note": "The adapter's wording for the order's creation date (`dates.created`), which the tracker page labels «Дата создания»."},
-    {"wording": "Груз выдан", "stage": "delivered", "language": "ru", "confirmedBy": "live", "note": "The status message of an issued order, with its isGiven flag and issue date (`dates.given`) set; the adapter words that date with it."},
-    {"wording": "Групповой забор завершен", "stage": "accepted", "language": "ru", "confirmedBy": "live", "note": "The status message of a finished group pickup: one collection of several orders' cargo from a sender, booked as an order of its own, after which each order travels on under its own number. Its isGiven flag and issue date are set too, so that date takes this wording."},
-    {"wording": "Нет данных", "language": "ru", "confirmedBy": "bundle", "note": "What the tracker page shows in place of a missing status message. Over a reply without a date or a party it is an unknown number, and the adapter reads it as not found; it is never a scan."}
-  ]
-}

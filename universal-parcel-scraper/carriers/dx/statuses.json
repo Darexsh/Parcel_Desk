@@ -1,9 +1,0 @@
-{
-  "carrier": "dx",
-  "entries": [
-    {"wording": "Data Received", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "DX Freight holds the sender's consignment details; nothing is scanned yet."},
-    {"wording": "Scan at delivery depot", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Given for the sending depot's scans as well as the delivering one's."},
-    {"wording": "Scanned 1 of 1 items onto delivery vehicle.", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "The counts change with the consignment's items."},
-    {"wording": "1 of 1 items delivered.", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Followed by the name of whoever signed, which the adapter cuts. Fewer items than the consignment holds leave it in transit."}
-  ]
-}

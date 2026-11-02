@@ -1,1 +1,0 @@
-The synthetic secondary-history reply preserves the official envelope and novelty wording. All identifiers, clocks and observation text are invented. Free-text observations are excluded from parsed results.
