@@ -79,6 +79,16 @@ document.addEventListener('DOMContentLoaded', () => {
     element.dateTime = date.toISOString();
     element.textContent = new Intl.DateTimeFormat(language === 'en' ? 'en-GB' : 'de-DE',{dateStyle:'medium',timeStyle:'short'}).format(date);
   }
+  const currentMonth = new Date();
+  const currentMonthIndex = currentMonth.getFullYear() * 12 + currentMonth.getMonth();
+  for (const row of document.querySelectorAll('.order-row[data-created-at]')) {
+    const match = row.dataset.createdAt.match(/^(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}) UTC$/);
+    if (!match) continue;
+    const [,year,month,day,hour,minute] = match;
+    const createdAt = new Date(Date.UTC(Number(year),Number(month)-1,Number(day),Number(hour),Number(minute)));
+    const monthIndex = createdAt.getFullYear() * 12 + createdAt.getMonth();
+    if (Math.abs(currentMonthIndex - monthIndex) % 2 === 0) row.classList.add('month-tinted');
+  }
   if (toggle) toggle.addEventListener('click', () => {
     language = language === 'de' ? 'en' : 'de';
     try { localStorage.setItem('parcel-language', language); } catch (_) {}
