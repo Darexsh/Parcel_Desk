@@ -1,0 +1,7 @@
+<div class="page-head"><div><div class="eyebrow">Bestellvorgaben</div><h1>Versanddienstleister</h1><p class="subtitle">Vorgegebene Versanddienstleister für Bestellungen verwalten.</p></div><a class="btn secondary" href="{{url_for('settings')}}">← Zurück zu Einstellungen</a></div>
+<form class="card" method="post" style="max-width:900px">
+  <input type="hidden" name="csrf" value="{{csrf}}">
+  <p class="muted" style="font-size:13px">Ein Eintrag pro Zeile. Diese Werte stehen bei Bestellungen und beim Erfassen des Versands als Dropdown zur Verfügung.</p>
+  <div><label>Versanddienstleister</label><textarea name="shipping_carriers" rows="7" maxlength="8000" placeholder="DHL&#10;DPD&#10;UPS">{{shipping_carriers_text}}</textarea></div>
+  <p style="margin:20px 0 0"><button class="btn primary">Versanddienstleister speichern</button></p>
+</form>

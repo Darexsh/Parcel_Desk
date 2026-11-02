@@ -1,0 +1,8 @@
+{% macro carrier_dropdown(value='', field_id='carrier-custom') -%}
+<select name="carrier_option" data-carrier-select="{{field_id}}">
+  <option value="" disabled {% if shipping_carriers and (not value or value in shipping_carriers) %}selected{% endif %}>Bitte auswählen</option>
+  {% for carrier in shipping_carriers %}<option value="{{carrier}}" {% if value==carrier %}selected{% endif %}>{{carrier}}</option>{% endfor %}
+  <option value="__custom__" {% if not shipping_carriers or (value and value not in shipping_carriers) %}selected{% endif %}>Sonstiges (Eigene Eingabe)</option>
+</select>
+<div class="pickup-custom-field" data-carrier-field-wrapper {% if shipping_carriers and (not value or value in shipping_carriers) %}hidden{% endif %}><input id="{{field_id}}" name="carrier_custom" data-carrier-custom maxlength="200" value="{{value if value and value not in shipping_carriers else ''}}" placeholder="z. B. DHL" {% if shipping_carriers and (not value or value in shipping_carriers) %}hidden{% endif %}></div>
+{%- endmacro %}

@@ -158,6 +158,16 @@ def pickup_form_value(name,option_key,default=''):
         value=default
     return value.strip()[:500]
 
+def carrier_form_value(default=''):
+    option=request.form.get('carrier_option')
+    if option is None:
+        return request.form.get('carrier',default).strip()[:200]
+    if option=='__custom__':
+        return request.form.get('carrier_custom','').strip()[:200]
+    if option and option not in setting_list('shipping_carriers'):
+        abort(400,'Ungültiger Versanddienstleister')
+    return option.strip()[:200]
+
 def login_required(fn):
     @wraps(fn)
     def wrapper(*a,**kw):
@@ -196,7 +206,7 @@ def csrf():
 
 
 def page(template,**kwargs):
-    context={'csrf':session['csrf'],'statuses':STATUSES,'pickup_destinations':setting_list('pickup_destinations'),'pickup_document_locations':setting_list('pickup_document_locations')}
+    context={'csrf':session['csrf'],'statuses':STATUSES,'pickup_destinations':setting_list('pickup_destinations'),'pickup_document_locations':setting_list('pickup_document_locations'),'shipping_carriers':setting_list('shipping_carriers'),'default_carrier':setting('default_carrier')}
     context.update(kwargs)
     body=render_template(template,**context)
     return render_template('base.html',content=body,csrf=session['csrf'],user=getattr(g,'user',None))
@@ -260,7 +270,7 @@ def index():
     year_args=[]
     if not g.user['admin']: year_sql+=' AND group_id IN (SELECT group_id FROM user_groups WHERE user_id=?)';year_args.append(g.user['id'])
     years=sorted({current_year,*[int(r['year']) for r in db().execute(year_sql,year_args).fetchall()]},reverse=True)
-    sql="SELECT o.*,COALESCE(NULLIF(u.display_name,''),u.username) creator,(SELECT COUNT(*) FROM items i WHERE i.order_id=o.id) item_count FROM orders o LEFT JOIN users u ON u.id=o.created_by"
+    sql="SELECT o.*,COALESCE(NULLIF(u.display_name,''),u.username) creator,(SELECT COUNT(*) FROM items i WHERE i.order_id=o.id) item_count,(SELECT e.created_at FROM events e WHERE e.order_id=o.id AND (e.action LIKE '%→ Bestellt' OR e.action='Bestellung angelegt (Bestellt)') ORDER BY e.id DESC LIMIT 1) ordered_at,(SELECT e.created_at FROM events e WHERE e.order_id=o.id AND (e.action LIKE '%→ Angekommen' OR e.action='Bestellung angelegt (Angekommen)') ORDER BY e.id DESC LIMIT 1) arrived_at FROM orders o LEFT JOIN users u ON u.id=o.created_by"
     args=[]
     if not g.user['admin']: sql+=' WHERE o.group_id IN (SELECT group_id FROM user_groups WHERE user_id=?)';args.append(g.user['id'])
     rows=db().execute(sql+' ORDER BY o.updated_at DESC,o.id DESC',args).fetchall()
@@ -281,7 +291,8 @@ def save_order(oid=None):
     clear_pickup=request.form.get('clear_pickup')=='1'
     if clear_pickup: status='Angekommen'
     if not title or status not in STATUSES: abort(400)
-    vals=[request.form.get(k,'').strip()[:2000] for k in ('supplier','order_number','tracking_number','carrier','link','notes')]
+    vals=[request.form.get(k,'').strip()[:2000] for k in ('supplier','order_number','tracking_number')]
+    vals.extend((carrier_form_value(),request.form.get('link','').strip()[:2000],request.form.get('notes','').strip()[:2000]))
     if not vals[0]: abort(400,'Lieferant / Shop erforderlich')
     if vals[4] and not vals[4].startswith(('http://','https://')): abort(400,'Link muss mit http(s) beginnen')
     if g.user['admin'] or request.form.get('group_id'):
@@ -337,8 +348,9 @@ def detail(oid):
     d=db();o=order_for_current_user(oid)
     items=d.execute('SELECT * FROM items WHERE order_id=? ORDER BY id',(oid,)).fetchall()
     events=d.execute("SELECT e.*,COALESCE(NULLIF(e.actor_name,''),CASE WHEN e.action LIKE '%→ Abgeholt' THEN NULLIF(o.pickup_collected_by,'') END,NULLIF(u.display_name,''),u.username) username FROM events e JOIN orders o ON o.id=e.order_id LEFT JOIN users u ON u.id=e.user_id WHERE e.order_id=? ORDER BY e.id DESC",(oid,)).fetchall()
+    dates=d.execute("SELECT (SELECT e.created_at FROM events e WHERE e.order_id=? AND (e.action LIKE '%→ Bestellt' OR e.action='Bestellung angelegt (Bestellt)') ORDER BY e.id DESC LIMIT 1) ordered_at,(SELECT e.created_at FROM events e WHERE e.order_id=? AND (e.action LIKE '%→ Angekommen' OR e.action='Bestellung angelegt (Angekommen)') ORDER BY e.id DESC LIMIT 1) arrived_at",(oid,oid)).fetchone()
     total=sum(i['quantity']*i['price'] for i in items)
-    return page('order_detail.html',o=o,items=items,events=events,total=total,oid=oid,user=g.user)
+    return page('order_detail.html',o=o,items=items,events=events,total=total,oid=oid,user=g.user,ordered_at=dates['ordered_at'],arrived_at=dates['arrived_at'])
 
 @app.post('/order/<int:oid>/status')
 @login_required
@@ -356,7 +368,7 @@ def change_status(oid):
                 abort(400,'Bitte alle Abholangaben ausfüllen')
             d.execute('UPDATE orders SET status=?,pickup_collected_by=?,pickup_destination=?,pickup_documents_location=?,updated_at=? WHERE id=?',(s,collected_by,destination,documents_location,t,oid))
         elif tracking is not None and s=='Unterwegs':
-            tracking=tracking.strip()[:2000];carrier=request.form.get('carrier','').strip()[:200]
+            tracking=tracking.strip()[:2000];carrier=carrier_form_value(o['carrier'] or '')
             if not tracking: abort(400,'Sendungsnummer erforderlich')
             d.execute('UPDATE orders SET status=?,tracking_number=?,carrier=?,updated_at=? WHERE id=?',(s,tracking,carrier,t,oid))
         else:
@@ -563,6 +575,20 @@ def pickup_dropdowns():
             d.execute('INSERT INTO settings(key,value) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET value=excluded.value',(key,'\n'.join(values[:40])))
         d.commit();flash('Abholdropdowns gespeichert');return redirect(url_for('pickup_dropdowns'))
     return page('pickup_dropdowns.html',pickup_destinations_text=setting('pickup_destinations'),pickup_document_locations_text=setting('pickup_document_locations'))
+
+@app.route('/settings/shipping-carriers',methods=['GET','POST'])
+@admin_required
+def shipping_carriers():
+    if request.method=='POST':
+        values=[];seen=set()
+        for line in request.form.get('shipping_carriers','').splitlines():
+            value=line.strip()[:200]
+            marker=value.casefold()
+            if value and value!='__custom__' and marker not in seen:
+                values.append(value);seen.add(marker)
+        d=db();d.execute('INSERT INTO settings(key,value) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET value=excluded.value',('shipping_carriers','\n'.join(values[:40])));d.commit()
+        flash('Versanddienstleister gespeichert');return redirect(url_for('shipping_carriers'))
+    return page('shipping_carriers.html',shipping_carriers_text=setting('shipping_carriers'))
 
 @app.post('/settings/telegram-test')
 @admin_required
