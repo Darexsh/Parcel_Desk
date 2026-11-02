@@ -258,4 +258,19 @@ docker compose down
 
 * * *
 
+📜 License
+----------
+
+This project is licensed under the **Non-Commercial Software License (MIT-style) v1.0** and was developed as an educational project. You are free to use, modify, and distribute the code for **non-commercial purposes only**, and must credit the author:
+
+**Copyright (c) 2026 Darexsh by Daniel Sichler**
+
+Please include the following notice with any use or distribution:
+
+> Developed by Daniel Sichler aka Darexsh. Licensed under the Non-Commercial Software License (MIT-style) v1.0. See `LICENSE` for details.
+
+The full license is available in the [LICENSE](LICENSE) file.
+
+* * *
+
 <div align="center"><sub>Created with ❤️ by Daniel Sichler</sub></div>
