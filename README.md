@@ -10,7 +10,9 @@
 ![Flask](https://img.shields.io/badge/Flask-3.1-black?logo=flask)
 ![Docker](https://img.shields.io/badge/Deployment-Docker-2496ED?logo=docker&logoColor=white)
 ![Database](https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite&logoColor=white)
+
 ![Languages](https://img.shields.io/badge/Interface-German%20%7C%20English-405D37)
+![License](https://img.shields.io/badge/License-NonCommercial-blue)
 
 </div>
 
