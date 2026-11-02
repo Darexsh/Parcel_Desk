@@ -111,6 +111,9 @@ def init():
         order_columns={row['name'] for row in d.execute('PRAGMA table_info(orders)').fetchall()}
         if 'group_id' not in order_columns:
             d.execute('ALTER TABLE orders ADD COLUMN group_id INTEGER REFERENCES groups(id)')
+        for column in ('pickup_collected_by','pickup_destination','pickup_documents_location'):
+            if column not in order_columns:
+                d.execute(f'ALTER TABLE orders ADD COLUMN {column} TEXT NOT NULL DEFAULT \'\'')
         d.execute("UPDATE users SET display_name=username WHERE display_name=''")
         if not d.execute('SELECT 1 FROM groups LIMIT 1').fetchone():
             d.execute('INSERT INTO groups(name) VALUES(?)',('Standard',))
@@ -237,7 +240,7 @@ def index():
     count_args=[]
     if not g.user['admin']: count_sql+=' WHERE group_id IN (SELECT group_id FROM user_groups WHERE user_id=?)';count_args.append(g.user['id'])
     counts={r['status']:r['n'] for r in db().execute(count_sql+' GROUP BY status',count_args)}
-    return page('index.html',rows=rows,counts=counts,status=status,search=search,year=year,years=years)
+    return page('index.html',rows=rows,counts=counts,status=status,search=search,year=year,years=years,user=g.user)
 
 def order_form(o=None):
     groups=available_groups() if g.user['admin'] else current_user_groups()
@@ -266,9 +269,12 @@ def save_order(oid=None):
         old=d.execute('SELECT * FROM orders WHERE id=?',(oid,)).fetchone()
         if not old: abort(404)
         previous_status=old['status']
+        if status=='Abgeholt' and previous_status!='Abgeholt':
+            abort(400,'Bitte die Abholung über den Abholschritt dokumentieren')
         d.execute('UPDATE orders SET title=?,supplier=?,order_number=?,tracking_number=?,carrier=?,link=?,notes=?,status=?,group_id=?,updated_at=? WHERE id=?',(title,*vals,status,group_id,t,oid))
         action='Status: '+old['status']+' → '+status if old['status']!=status else 'Bestellung bearbeitet'
     else:
+        if status=='Abgeholt': abort(400,'Neue Bestellungen können nicht direkt als abgeholt angelegt werden')
         cur=d.execute('INSERT INTO orders(title,supplier,order_number,tracking_number,carrier,link,notes,status,created_by,group_id,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)',(title,*vals,status,g.user['id'],group_id,t,t));oid=cur.lastrowid;action='Bestellung angelegt ('+status+')'
     d.execute('INSERT INTO events(order_id,user_id,action,created_at) VALUES(?,?,?,?)',(oid,g.user['id'],action,t));d.commit()
     if status!=previous_status and status in ('Warenkorb fertig','Abgeholt'):
@@ -303,7 +309,14 @@ def change_status(oid):
     if s not in STATUSES: abort(400)
     if s!=o['status']:
         t=now();tracking=request.form.get('tracking_number')
-        if tracking is not None and s=='Unterwegs':
+        if s=='Abgeholt':
+            collected_by=request.form.get('pickup_collected_by','').strip()[:200]
+            destination=request.form.get('pickup_destination','').strip()[:500]
+            documents_location=request.form.get('pickup_documents_location','').strip()[:500]
+            if not collected_by or not destination or not documents_location:
+                abort(400,'Bitte alle Abholangaben ausfüllen')
+            d.execute('UPDATE orders SET status=?,pickup_collected_by=?,pickup_destination=?,pickup_documents_location=?,updated_at=? WHERE id=?',(s,collected_by,destination,documents_location,t,oid))
+        elif tracking is not None and s=='Unterwegs':
             tracking=tracking.strip()[:2000];carrier=request.form.get('carrier','').strip()[:200]
             if not tracking: abort(400,'Sendungsnummer erforderlich')
             d.execute('UPDATE orders SET status=?,tracking_number=?,carrier=?,updated_at=? WHERE id=?',(s,tracking,carrier,t,oid))
