@@ -58,3 +58,5 @@
 .telegram-language-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:end}.telegram-language-form .field{min-width:0}.telegram-language-form select,.telegram-language-form button{width:100%;height:44px}@media(max-width:760px){.telegram-language-form{grid-template-columns:1fr}}
 
 .pickup-info{margin:18px 0;padding:16px;border:1px solid var(--line);border-radius:12px;background:#fafaf6}.pickup-info .grid{gap:14px;margin-top:12px}.pickup-info strong{font-size:12px}.pickup-info p{margin:5px 0 0;overflow-wrap:anywhere}.pickup-dialog{width:min(520px,calc(100vw - 32px))}
+
+.orders td.actions>.row.single-action{display:flex;justify-content:flex-end}.orders td.actions>.row.single-action>a{width:auto}
