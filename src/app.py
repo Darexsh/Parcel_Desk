@@ -1,6 +1,6 @@
 import os, sqlite3, secrets, re, json, logging, html
 from datetime import datetime, timezone, timedelta
-from urllib.parse import urlsplit, urlencode
+from urllib.parse import quote, urlsplit, urlencode
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 from functools import wraps
@@ -13,6 +13,41 @@ app.secret_key=os.environ['SECRET_KEY']
 app.config.update(SESSION_COOKIE_HTTPONLY=True, SESSION_COOKIE_SAMESITE='Lax', SESSION_COOKIE_SECURE=os.getenv('COOKIE_SECURE','false').lower()=='true', MAX_CONTENT_LENGTH=10*1024*1024, PERMANENT_SESSION_LIFETIME=timedelta(days=30))
 DB='/data/app.sqlite3'
 STATUSES=['Warenkorb','Warenkorb fertig','Bestellt','Unterwegs','Angekommen','Abgeholt']
+_tracking_catalog=None
+
+def tracking_catalog():
+    global _tracking_catalog
+    if _tracking_catalog is None:
+        paths=(os.path.join(os.path.dirname(__file__),'carrier_catalog.json'),os.path.join(os.path.dirname(__file__),'..','universal-parcel-scraper','data','catalog.json'))
+        for path in paths:
+            try:
+                with open(path,encoding='utf-8') as source:
+                    _tracking_catalog=json.load(source)
+                break
+            except (OSError,ValueError):
+                continue
+        if _tracking_catalog is None: _tracking_catalog={}
+    return _tracking_catalog
+
+def tracking_url(carrier,number):
+    if not carrier or not number: return ''
+    normalize=lambda value:' '.join(str(value).casefold().split())
+    name=normalize(carrier);catalog=tracking_catalog();matches=[]
+    for identifier,details in catalog.items():
+        labels=[identifier,details.get('displayName',''),*details.get('aliases',[])]
+        if name in {normalize(label) for label in labels if label}:
+            matches.append(details)
+    if not matches:
+        german_ids={'dhl':'dhl','dhl express':'dhl-express','ups':'ups','fedex':'fedex','dpd':'dpd-de','gls':'gls-de','hermes':'hermes-de'}
+        details=catalog.get(german_ids.get(name,''),{})
+    else:
+        templates={details.get('trackingUrlTemplate','') for details in matches}
+        details=matches[0] if len(templates)==1 else {}
+    template=details.get('trackingUrlTemplate','')
+    if not template: return ''
+    target=template.replace('{trackingNumber}',quote(str(number).strip(),safe=''))
+    parsed=urlsplit(target)
+    return target if parsed.scheme=='https' and parsed.netloc else ''
 
 def telegram_notify(message,parse_mode=None):
     token=os.getenv('TELEGRAM_BOT_TOKEN','').strip()
@@ -273,7 +308,8 @@ def index():
     sql="SELECT o.*,COALESCE(NULLIF(u.display_name,''),u.username) creator,(SELECT COUNT(*) FROM items i WHERE i.order_id=o.id) item_count,(SELECT e.created_at FROM events e WHERE e.order_id=o.id AND (e.action LIKE '%→ Bestellt' OR e.action='Bestellung angelegt (Bestellt)') ORDER BY e.id DESC LIMIT 1) ordered_at,(SELECT e.created_at FROM events e WHERE e.order_id=o.id AND (e.action LIKE '%→ Angekommen' OR e.action='Bestellung angelegt (Angekommen)') ORDER BY e.id DESC LIMIT 1) arrived_at FROM orders o LEFT JOIN users u ON u.id=o.created_by"
     args=[]
     if not g.user['admin']: sql+=' WHERE o.group_id IN (SELECT group_id FROM user_groups WHERE user_id=?)';args.append(g.user['id'])
-    rows=db().execute(sql+' ORDER BY o.updated_at DESC,o.id DESC',args).fetchall()
+    rows=[dict(row) for row in db().execute(sql+' ORDER BY o.updated_at DESC,o.id DESC',args).fetchall()]
+    for row in rows: row['tracking_url']=tracking_url(row.get('carrier'),row.get('tracking_number'))
     count_sql='SELECT status,COUNT(*) n FROM orders'
     count_args=[]
     if not g.user['admin']: count_sql+=' WHERE group_id IN (SELECT group_id FROM user_groups WHERE user_id=?)';count_args.append(g.user['id'])
@@ -350,7 +386,7 @@ def detail(oid):
     events=d.execute("SELECT e.*,COALESCE(NULLIF(e.actor_name,''),CASE WHEN e.action LIKE '%→ Abgeholt' THEN NULLIF(o.pickup_collected_by,'') END,NULLIF(u.display_name,''),u.username) username FROM events e JOIN orders o ON o.id=e.order_id LEFT JOIN users u ON u.id=e.user_id WHERE e.order_id=? ORDER BY e.id DESC",(oid,)).fetchall()
     dates=d.execute("SELECT (SELECT e.created_at FROM events e WHERE e.order_id=? AND (e.action LIKE '%→ Bestellt' OR e.action='Bestellung angelegt (Bestellt)') ORDER BY e.id DESC LIMIT 1) ordered_at,(SELECT e.created_at FROM events e WHERE e.order_id=? AND (e.action LIKE '%→ Angekommen' OR e.action='Bestellung angelegt (Angekommen)') ORDER BY e.id DESC LIMIT 1) arrived_at",(oid,oid)).fetchone()
     total=sum(i['quantity']*i['price'] for i in items)
-    return page('order_detail.html',o=o,items=items,events=events,total=total,oid=oid,user=g.user,ordered_at=dates['ordered_at'],arrived_at=dates['arrived_at'])
+    return page('order_detail.html',o=o,items=items,events=events,total=total,oid=oid,user=g.user,ordered_at=dates['ordered_at'],arrived_at=dates['arrived_at'],tracking_url=tracking_url(o['carrier'],o['tracking_number']))
 
 @app.post('/order/<int:oid>/status')
 @login_required

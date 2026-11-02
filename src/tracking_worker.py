@@ -15,6 +15,15 @@ SCRAPER_URL = os.getenv("TRACKING_SCRAPER_URL", "http://tracking-scraper:8080").
 POLL_SECONDS = max(60, int(os.getenv("TRACKING_POLL_SECONDS", "900")))
 REQUEST_TIMEOUT = 45
 _carrier_ids = None
+GERMAN_CARRIER_IDS = {
+    "dhl": "dhl",
+    "dhl express": "dhl-express",
+    "ups": "ups",
+    "fedex": "fedex",
+    "dpd": "dpd-de",
+    "gls": "gls-de",
+    "hermes": "hermes-de",
+}
 
 logging.basicConfig(
     level=os.getenv("LOG_LEVEL", "INFO").upper(),
@@ -45,7 +54,9 @@ def carrier_id(label):
 
     normalized = " ".join((label or "").casefold().split())
     matches = _carrier_ids.get(normalized, set())
-    return next(iter(matches)) if len(matches) == 1 else None
+    if len(matches) == 1:
+        return next(iter(matches))
+    return GERMAN_CARRIER_IDS.get(normalized)
 
 
 def get_tracking_result(number, carrier):

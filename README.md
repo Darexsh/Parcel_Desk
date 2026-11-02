@@ -95,6 +95,7 @@ Cart → Cart ready → Ordered → In transit → Arrived → Picked up
 * Mark the cart ready when it can be ordered.
 * When moving an order to **In transit**, enter its tracking number and select a carrier from the administrator-configured dropdown. **Other (custom entry)** allows a one-off carrier.
 * If a tracking number is already present, mark the order in transit directly without reopening the tracking dialog.
+* Click a tracking number on the overview or order details to open the matching carrier's tracking page when the carrier provides a direct link.
 * A background worker checks in-transit orders through the self-hosted Universal Parcel Scraper. It changes an order to **Arrived** only when the scraper reports the `delivered` stage and uses the carrier's delivery scan time when available. Failed or inconclusive lookups leave the order unchanged.
 * When marking an order as **Picked up**, record who collected the package, where it was delivered, and where the delivery note and invoice were left. All three details are required and saved with the order. You can correct them in the edit form or remove them there to reset the order to **Arrived** and repeat the pickup flow. Administrators can configure reusable package destinations and document locations in Settings; **Other** allows custom entries.
 * Set a status manually when the normal next step does not apply; marking an order as picked up still requires the pickup details.
@@ -274,6 +275,7 @@ docker compose down
 ## ⚠️ Notes
 
 * The tracking worker checks in-transit orders through Universal Parcel Scraper every 15 minutes by default. It marks an order arrived only after a delivered status is confirmed. Carrier sites can block or limit automated lookups, so tracking results are not guaranteed.
+* Tracking coverage varies by carrier and shipment. Parcel Desk sends the tracking number and recognized carrier, but currently has no delivery-postcode or tracking-URL fields. Some carriers need one of these for complete tracking details. Only the UPU universal fallback is enabled; commercial fallback providers and a separate TRAWL browser service are not configured. DHL Express may return no history when its guest lookup is blocked. Failed or inconclusive lookups leave the order unchanged and are retried during a later poll.
 * Tracking numbers are sent to the carrier's website and, when enabled by the scraper, its configured fallback providers. See [Universal Parcel Scraper's privacy and limits](universal-parcel-scraper/README.md#privacy-and-limits).
 * Telegram notifications require outbound HTTPS access to `api.telegram.org`.
 * SQLite is intended for small teams. Consider PostgreSQL if the deployment grows substantially.
