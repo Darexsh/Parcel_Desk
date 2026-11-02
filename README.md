@@ -52,6 +52,8 @@ Docker Compose service
 
 Application code, templates, styles, and import logic live under `src/`. The Docker image runs as an unprivileged user. Persistent application data is stored in the `order-data` volume.
 
+Universal Parcel Scraper is included as a Git submodule pinned to a specific upstream commit. Docker builds use the checked-out submodule version; they do not update it automatically.
+
 * * *
 
 ## 📸 Screenshots
@@ -129,7 +131,23 @@ Order notifications include the order name, supplier, group, and tracking number
 ### Requirements
 
 * Linux server with Docker Engine and the Docker Compose plugin.
+* Git, to clone the project with its scraper submodule.
 * A modern browser for each team member.
+
+### Clone the project
+
+Clone Parcel Desk with its scraper submodule:
+
+```bash
+git clone --recurse-submodules https://github.com/Darexsh/Parcel_Desk.git
+cd Parcel_Desk
+```
+
+For an existing clone that does not have the scraper checked out yet, run:
+
+```bash
+git submodule update --init --recursive
+```
 
 ### Configure and start
 
@@ -244,6 +262,15 @@ View automatic tracking logs:
 ```bash
 docker compose logs -f tracking-worker tracking-scraper
 ```
+
+Update the scraper to the latest upstream commit and rebuild its services:
+
+```bash
+git submodule update --remote --merge universal-parcel-scraper
+docker compose up -d --build
+```
+
+This changes the pinned submodule commit. Commit the updated `universal-parcel-scraper` reference in Parcel Desk to share the update with other clones.
 
 Stop the service:
 
