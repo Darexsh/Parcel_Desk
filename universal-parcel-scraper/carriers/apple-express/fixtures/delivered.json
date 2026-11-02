@@ -1,0 +1,53 @@
+{
+  "orderDetails": {
+    "isECommerce": true,
+    "isNfo": false,
+    "reference": "APPL1234067890124",
+    "appleTrackingNumber": "12345679",
+    "lastUpdated": "2026-03-12T14:05:41",
+    "lastUpdatedTimeZone": "",
+    "pickupCity": "EXAMPLETON",
+    "pickupProvince": "ON",
+    "deliveryCity": "SAMPLEVILLE",
+    "deliveryProvince": "BC",
+    "statusId": 9,
+    "currentStatus": "Delivered",
+    "statusIconId": 5,
+    "statusChangeText": "Delivered March 12, 2026 2:05 PM",
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "deliveryInstructions": "Added",
+    "deliveryTime": ""
+  },
+  "statusDetails": [
+    {"status": "Delivery Notification Sent", "statusDescriptionOverride": null, "statusIconId": 5, "generatedAt": "2026-03-12T14:06:30.12", "generatedAtTimeZone": "", "location": "Sampleville, BC"},
+    {"status": "Delivered", "statusDescriptionOverride": null, "statusIconId": 5, "generatedAt": "2026-03-12T14:05:41", "generatedAtTimeZone": "", "location": "Sampleville, BC"},
+    {"status": "Pending Delivery Notification Sent", "statusDescriptionOverride": null, "statusIconId": 4, "generatedAt": "2026-03-12T08:32:02", "generatedAtTimeZone": "", "location": "Sampleville, BC"},
+    {"status": "Out for Delivery", "statusDescriptionOverride": null, "statusIconId": 4, "generatedAt": "2026-03-12T08:31:10", "generatedAtTimeZone": "PT", "location": "Sampleville, BC"},
+    {"status": "Exception - No Buzz Code", "statusDescriptionOverride": "Sorry, the Shipper did not give us a buzzer code to make this delivery.", "statusIconId": 6, "generatedAt": "2026-03-11T19:45:12", "generatedAtTimeZone": "", "location": "Sampleville, BC"},
+    {"status": "Out for Delivery", "statusDescriptionOverride": null, "statusIconId": 4, "generatedAt": "2026-03-11T09:15:00", "generatedAtTimeZone": "", "location": "Sampleville, BC"},
+    {"status": "Parcel Received, Out for Delivery Soon", "statusDescriptionOverride": null, "statusIconId": 2, "generatedAt": "2026-03-10T15:52:46", "generatedAtTimeZone": "", "location": "Demoburg, BC"},
+    {"status": "Package Arrived", "statusDescriptionOverride": null, "statusIconId": 2, "generatedAt": "2026-03-10T17:49:18", "generatedAtTimeZone": "", "location": "Demoburg, BC"},
+    {"status": "Delivery Instructions Added", "statusDescriptionOverride": null, "statusIconId": 4, "generatedAt": "2026-03-08T15:47:06", "generatedAtTimeZone": "", "location": ""},
+    {"status": "In Transit", "statusDescriptionOverride": null, "statusIconId": 2, "generatedAt": "2026-03-06T21:38:07", "generatedAtTimeZone": "", "location": ""},
+    {"status": "In Transit", "statusDescriptionOverride": null, "statusIconId": 2, "generatedAt": "2026-03-06T21:38:07", "generatedAtTimeZone": "", "location": ""},
+    {"status": "Package Processed", "statusDescriptionOverride": null, "statusIconId": 2, "generatedAt": "2026-03-06T21:07:09", "generatedAtTimeZone": "", "location": "Exampleton, ON A0A 0A0"},
+    {"status": "Waiting for Parcel", "statusDescriptionOverride": null, "statusIconId": 1, "generatedAt": "2026-03-06T19:31:24", "generatedAtTimeZone": "", "location": ""}
+  ],
+  "screenDetails": {
+    "trackAnotherButton": {"visible": true, "enabled": true, "caption": "Track another package"},
+    "cancelButton": {"visible": false, "enabled": true, "caption": "Cancel Order"},
+    "smsButton": {"visible": false, "enabled": true, "caption": "Sign up for SMS"},
+    "trackDriverButton": {"visible": false, "enabled": true, "caption": "Track Driver"},
+    "podButton": {"visible": true, "enabled": true, "caption": "View Proof of delivery"},
+    "addDeliveryInstructionsButton": {"visible": false, "enabled": true, "caption": "Add Delivery Instructions"},
+    "setDeliveryTimeButton": {"visible": false, "enabled": true, "caption": "Set Delivery Time"},
+    "statusDescription": "Your parcel has been successfully delivered.",
+    "deliveryTimeOptions": [{"optionNo": 0, "option": "9 AM - 3:00 PM"}, {"optionNo": 1, "option": "3:00 PM - 9:00 PM"}],
+    "pudoLocation": null,
+    "progressPercentage": 100,
+    "supportPhoneNumber": "",
+    "supportEmail": "support@example.com",
+    "supportEmailAction": 1
+  }
+}

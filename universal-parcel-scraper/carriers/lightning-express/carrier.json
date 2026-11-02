@@ -1,0 +1,76 @@
+{
+  "id": "lightning-express",
+  "displayName": "Lightning Express",
+  "aliases": [
+    "Lightening Express"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#4898e0"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "lightning-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://www.lightningexpressca.com/track.html?id={trackingNumber}",
+    "searchUrl": "https://www.lightningexpressca.com/",
+    "canaryUrl": "https://www.lightningexpressca.com/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "customer_reference",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code"
+    ],
+    "discarded": [
+      "progress_rail",
+      "customer_reference",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name",
+      "recipient_name",
+      "recipient_address",
+      "signatory",
+      "delivery_partner",
+      "delivered_at",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "lightningexpressca.com"
+      ],
+      "pathPattern": "^/track\\.html$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

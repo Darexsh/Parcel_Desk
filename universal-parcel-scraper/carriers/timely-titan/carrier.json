@@ -1,0 +1,91 @@
+{
+  "id": "timely-titan",
+  "displayName": "Timely Titan Express",
+  "aliases": [
+    "Timely Titan",
+    "TimelyTitan",
+    "Timely Titan International",
+    "TT Express",
+    "泰坦国际速递",
+    "Titan泰坦国际速递"
+  ],
+  "region": {
+    "countries": [
+      "NL",
+      "BE",
+      "LU",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#00bcd4"
+  },
+  "selectable": true,
+  "timezone": "Europe/Amsterdam",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "timely-titan",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://timelytitan.com/tracking.html?number={trackingNumber}",
+    "searchUrl": "https://timelytitan.com/tracking.html",
+    "canaryUrl": "https://timelytitan.com/tracking.html",
+    "shows": [
+      "history",
+      "location",
+      "signatory",
+      "driver_name",
+      "contact_details",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "history",
+      "location",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "signatory",
+      "driver_name",
+      "contact_details"
+    ],
+    "unavailable": [
+      "eta",
+      "provider_code",
+      "offset_timestamps",
+      "weight",
+      "service_name",
+      "destination_country",
+      "proof_of_delivery",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "timelytitan.com",
+        "www.timelytitan.com"
+      ],
+      "pathPattern": "^/tracking\\.html$",
+      "params": [
+        "number"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "timely-titan-1",
+      "pattern": "^TT\\d{13}CN$",
+      "confidence": "high"
+    }
+  ]
+}

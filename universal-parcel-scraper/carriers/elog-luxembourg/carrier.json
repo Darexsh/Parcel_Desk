@@ -1,0 +1,48 @@
+{
+  "id": "elog-luxembourg",
+  "displayName": "eLOG Luxembourg",
+  "aliases": [
+    "Elog Luxembourg",
+    "Post Luxembourg (LOG)",
+    "POST Luxembourg Logistics",
+    "eLOG"
+  ],
+  "region": {
+    "countries": [
+      "LU"
+    ]
+  },
+  "brand": {
+    "color": "#ffdd00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Luxembourg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.elog-luxembourg.com/tracking?q={trackingNumber}",
+    "searchUrl": "https://www.elog-luxembourg.com/",
+    "canaryUrl": "https://www.elog-luxembourg.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "elog-luxembourg.com",
+        "www.elog-luxembourg.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "q"
+      ]
+    }
+  ],
+  "detection": []
+}

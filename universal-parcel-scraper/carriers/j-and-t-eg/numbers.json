@@ -1,0 +1,49 @@
+{
+  "carrier": "j-and-t-eg",
+  "records": [
+    {
+      "number": "JEG000186450311",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240601011234/https://www.jtexpress-eg.com/trajectoryQuery?waybillNo=JEG000186450311",
+        "date": "2024-06-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "j-and-t-eg"
+        ]
+      },
+      "note": "An archived address of J&T Express Egypt's tracker for this waybill; the capture holds the page without a result, as the tracker asks for the recipient's phone digits first."
+    },
+    {
+      "number": "JEG000187312947",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240524221014/https://www.jtexpress-eg.com/trajectoryQuery?waybillNo=JEG000187312947",
+        "date": "2024-05-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "j-and-t-eg"
+        ]
+      },
+      "note": "An archived address of J&T Express Egypt's tracker for this waybill; the capture holds the page without a result, as the tracker asks for the recipient's phone digits first."
+    }
+  ]
+}

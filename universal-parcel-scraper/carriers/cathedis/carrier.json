@@ -1,0 +1,42 @@
+{
+  "id": "cathedis",
+  "displayName": "Cathedis",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "MA"
+    ]
+  },
+  "brand": {
+    "color": "#f20011"
+  },
+  "selectable": true,
+  "timezone": "Africa/Casablanca",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://cathedis.ma/shipment/?track_number={trackingNumber}",
+    "searchUrl": "https://cathedis.ma/shipment/",
+    "canaryUrl": "https://cathedis.ma/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "cathedis.ma"
+      ],
+      "pathPattern": "^/shipment/?$",
+      "params": [
+        "track_number"
+      ]
+    }
+  ],
+  "detection": []
+}

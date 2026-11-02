@@ -1,0 +1,194 @@
+{
+  "driverLocation": null,
+  "orderStatus": "DELIVERED",
+  "dropOffEstimatedTime": 1778594400000,
+  "destinationCountry": "ARE",
+  "dropOffLocation": {
+    "latitude": 25.1,
+    "longitude": 55.2
+  },
+  "originCountry": "ARE",
+  "orderCustomerSource": "SD",
+  "tel": {
+    "number": "600000000",
+    "text": "600 000000"
+  },
+  "orderDateCreated": 1778400000120,
+  "subsidiaryCountry": "United Arab Emirates",
+  "storyStatus": "Order Created",
+  "barcode": "SD000000002",
+  "pickUpLocation": {
+    "latitude": 24.4,
+    "longitude": 54.4
+  },
+  "vehicleType": null,
+  "orderStory": [
+    {
+      "date": 1778400000120,
+      "details": null,
+      "status": "Order Created",
+      "statusCode": "1"
+    },
+    {
+      "date": 1778416210500,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "city": "Abu Dhabi",
+          "name": "Sample Courier One"
+        },
+        "proofImageUrl": null
+      },
+      "status": "Pickup Completed",
+      "statusCode": "11"
+    },
+    {
+      "date": 1778416211200,
+      "details": null,
+      "status": "Pending Delivery Confirmation",
+      "statusCode": "13"
+    },
+    {
+      "date": 1778439600000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "hub": "Abu Dhabi hub",
+          "city": "Abu Dhabi",
+          "name": "Sample AUH"
+        }
+      },
+      "status": "Received By Origin Hub",
+      "statusCode": "42"
+    },
+    {
+      "date": 1778462130000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "hub": "Dubai hub",
+          "city": "Dubai",
+          "name": "OPS - Sample warehouse"
+        },
+        "locationId": "00000000-0000-0000-0000-000000000000"
+      },
+      "status": "Received By Destination Hub",
+      "statusCode": "12"
+    },
+    {
+      "date": 1778475600000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "city": "Dubai",
+          "name": "Sample Driver Two ND"
+        }
+      },
+      "status": "Out For Delivery",
+      "statusCode": "16"
+    },
+    {
+      "date": 1778491200000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "city": "Dubai",
+          "name": "Sample Driver Two ND"
+        }
+      },
+      "status": "On The Way To Delivery Location",
+      "statusCode": "17"
+    },
+    {
+      "date": 1778493900000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "city": "Dubai",
+          "name": "Sample Driver Two ND"
+        }
+      },
+      "status": "Arrived At Delivery Location",
+      "statusCode": "18"
+    },
+    {
+      "date": 1778493930000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "city": "Dubai",
+          "name": "Sample Driver Two ND"
+        },
+        "scheduledOn": "2026-05-12T14:00:00.000Z",
+        "failReason": "Can't reach the Customer - No Answer",
+        "failReasonId": "22"
+      },
+      "status": "Delivery Attempt Failed",
+      "statusCode": "82"
+    },
+    {
+      "date": 1778493931000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "city": "Dubai",
+          "name": "Sample Driver Two ND"
+        },
+        "scheduledOn": "2026-05-12T14:00:00.000Z",
+        "preferredTime": "2026-05-11T20:00:00.000Z"
+      },
+      "status": "Rescheduled",
+      "statusCode": "22"
+    },
+    {
+      "date": 1778562600000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "city": "Dubai",
+          "name": "Sample Driver Three ND"
+        }
+      },
+      "status": "Out For Delivery",
+      "statusCode": "16"
+    },
+    {
+      "date": 1778565600000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "city": "Dubai",
+          "name": "Sample Driver Three ND"
+        }
+      },
+      "status": "On The Way To Delivery Location",
+      "statusCode": "17"
+    },
+    {
+      "date": 1778568000000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "city": "Dubai",
+          "name": "Sample Driver Three ND"
+        }
+      },
+      "status": "Arrived At Delivery Location",
+      "statusCode": "18"
+    },
+    {
+      "date": 1778568075900,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "city": "Dubai",
+          "name": "Sample Driver Three ND"
+        },
+        "scheduledOn": "2026-05-12T14:00:00.000Z",
+        "proofImageUrl": "https://example.invalid/proof/sample.jpg"
+      },
+      "status": "Delivered",
+      "statusCode": "19"
+    }
+  ]
+}

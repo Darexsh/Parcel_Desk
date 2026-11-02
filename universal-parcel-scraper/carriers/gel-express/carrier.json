@@ -1,0 +1,54 @@
+{
+  "id": "gel-express",
+  "displayName": "GEL Express",
+  "aliases": [
+    "GEL Express Logistik",
+    "GEL Express Logistik GmbH"
+  ],
+  "region": {
+    "countries": [
+      "DE"
+    ]
+  },
+  "brand": {
+    "color": "#d9002b"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.gel-express.de/sendungsverfolgung/?snr={trackingNumber}",
+    "searchUrl": "https://www.gel-express.de/de/sendungsverfolgung/",
+    "canaryUrl": "https://www.gel-express.de/de/sendungsverfolgung/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "gel-express.de"
+      ],
+      "pathPattern": "^/(?:(?:de|en)/)?sendungsverfolgung/?$",
+      "params": [
+        "snr"
+      ]
+    },
+    {
+      "domains": [
+        "thalmaier.de"
+      ],
+      "pathPattern": "^/gelsend/suche\\.php$",
+      "params": [
+        "sean"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,182 @@
+{
+  "carrier": "pro-carrier",
+  "records": [
+    {
+      "number": "DG10529184204",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220527111312/https://tracking.weareprocarrier.com/wp-admin/admin-ajax.php",
+        "date": "2022-05-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "pro-carrier"
+        ]
+      },
+      "note": "Pro Carrier's tracker answered for it in the archived reply of its lookup script, captured with the lookup of this number, showing its service and a departure from the retailer."
+    },
+    {
+      "number": "DG30395036614",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230905220827/https://tracking.weareprocarrier.com//?tn=DG30395036614",
+        "date": "2023-09-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "pro-carrier"
+        ]
+      },
+      "note": "An archived lookup on Pro Carrier's own tracker shows its history and its hand-over to Colis Privé."
+    },
+    {
+      "number": "DG10018000758",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220317161552/https://tracking.weareprocarrier.com/?tn=DG10018000758",
+        "date": "2022-03-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "pro-carrier"
+        ]
+      },
+      "note": "An archived lookup on Pro Carrier's own tracker; the capture was opened but shows only the page shell, so the history is not visible."
+    },
+    {
+      "number": "UBG000623916",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261009213139/https://tracking.weareprocarrier.com/?tn=UBG000623916",
+        "date": "2026-10-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "An archived lookup on Pro Carrier's own tracker shows it as the tracking number of a parcel handed to Colis Privé, with a pre-advice event."
+    },
+    {
+      "number": "FO300968781GB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250807113633/https://tracking.weareprocarrier.com/?tn=FO300968781GB",
+        "date": "2025-08-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "royal-mail",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Pro Carrier's tracker shows it as a domestic parcel's tracking and carrier number, linked to Royal Mail's tracker; the number is Royal Mail's."
+    },
+    {
+      "number": "JJD0002219942529894",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261007142621/https://tracking.weareprocarrier.com/?tn=JJD0002219942529894",
+        "date": "2026-10-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "inpost",
+          "dhl"
+        ]
+      },
+      "note": "An archived lookup on Pro Carrier's tracker shows it as the tracking number of a parcel to the US handed to SpeedX; JJD labels belong to DHL and InPost UK, so its issuer is unsettled."
+    },
+    {
+      "number": "420114139400140109627837856192",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261016211929/https://tracking.weareprocarrier.com/?tn=420114139400140109627837856192",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "usps",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Pro Carrier's tracker shows this USPS label as the tracking number of a return to the UK, with USPS scans before Pro Carrier's own; the number is USPS's."
+    },
+    {
+      "number": "FDL230302WSP47L8",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230307060037/https://tracking.weareprocarrier.com/?tn=FDL230302WSP47L8",
+        "date": "2023-03-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Pro Carrier's tracker shows it under service FDL with Fast Despatch Logistics' depot scans and a link to that carrier's tracker; the number is Fast Despatch's."
+    }
+  ]
+}

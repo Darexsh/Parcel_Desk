@@ -1,0 +1,17 @@
+<p>No packages were found matching the barcode supplied.</p>
+	<script type="text/javascript">
+		window.addEventListener("load", postSize, false);
+		function postSize(e){
+			var target = parent.postMessage ? parent : (parent.document.postMessage ? parent.document : undefined);
+			if (typeof target != "undefined" && document.body.scrollHeight) {
+				target.postMessage(document.getElementById("frameBody").scrollHeight, "*");
+			}
+
+			var url = document.location.href;
+            var url_parts = url.split("?");
+            var qsa = url_parts[1];
+            target.postMessage('/track-a-shipment/?'+qsa, "*");
+		}
+	</script>
+
+</body>

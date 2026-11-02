@@ -1,0 +1,94 @@
+{
+  "id": "gobolt",
+  "displayName": "GoBolt",
+  "aliases": [
+    "Go Bolt",
+    "Second Closet"
+  ],
+  "region": {
+    "countries": [
+      "CA",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#00282b"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gobolt",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 765
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "offset_timestamps",
+    "eta",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://track.gobolt.com/tracking/{trackingNumber}",
+    "searchUrl": "https://track.gobolt.com/tracking",
+    "canaryUrl": "https://track.gobolt.com/tracking",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "offset_timestamps",
+      "eta",
+      "delivered_at",
+      "eta_window",
+      "sender_name",
+      "recipient_address",
+      "delivery_instructions",
+      "coordinates",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "eta",
+      "delivered_at"
+    ],
+    "discarded": [
+      "progress_rail",
+      "eta_window",
+      "sender_name",
+      "recipient_address",
+      "delivery_instructions",
+      "coordinates",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "weight",
+      "service_name",
+      "recipient_name",
+      "signatory",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "track.gobolt.com",
+        "galileo.gobolt.com"
+      ],
+      "path": "^/tracking/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

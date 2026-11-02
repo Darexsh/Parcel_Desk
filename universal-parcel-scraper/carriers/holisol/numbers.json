@@ -1,0 +1,27 @@
+{
+  "carrier": "holisol",
+  "records": [
+    {
+      "number": "HL60000000239",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210619144643/http://holisoldelivery.com/api/tracking/TrackAwb?awb=HL60000000239",
+        "date": "2021-06-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste"
+        ]
+      },
+      "note": "An archived address of Holisol's tracker for this airway bill; the capture holds the page without a result."
+    }
+  ]
+}

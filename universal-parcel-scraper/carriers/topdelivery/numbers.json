@@ -1,0 +1,84 @@
+{
+  "carrier": "topdelivery",
+  "records": [
+    {
+      "number": "8302175",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231202123631/https://www.topdelivery.ru/tracking/?order=8302175",
+        "date": "2023-12-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "An archived lookup on TopDelivery's own tracker, which shows the order's scans through to delivery."
+    },
+    {
+      "number": "925678",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170604080007/http://www.topdelivery.ru/tracking/?order=925678",
+        "date": "2017-06-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on TopDelivery's own tracker; the page drew its result in the browser, so the capture shows no status."
+    },
+    {
+      "number": "845692",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170410134522/http://www.topdelivery.ru/tracking/?order=845692",
+        "date": "2017-04-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on TopDelivery's own tracker; the page drew its result in the browser, so the capture shows no status."
+    },
+    {
+      "number": "864111",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170420000423/http://www.topdelivery.ru/tracking/?order=864111",
+        "date": "2017-04-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on TopDelivery's own tracker; the page drew its result in the browser, so the capture shows no status."
+    }
+  ]
+}

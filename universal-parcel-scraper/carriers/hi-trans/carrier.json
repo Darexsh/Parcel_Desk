@@ -1,0 +1,47 @@
+{
+  "id": "hi-trans",
+  "displayName": "Hi-Trans Express",
+  "aliases": [
+    "Hi-Trans",
+    "Hi Trans Express",
+    "Hi-Trans Express Pty Ltd",
+    "HiTrans"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#c82027"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://online.hi-trans.com.au/Connotes/ShowConsignmentSummary.aspx?Number={trackingNumber}",
+    "searchUrl": "https://www.hi-trans.com.au/",
+    "canaryUrl": "https://www.hi-trans.com.au/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "online.hi-trans.com.au"
+      ],
+      "pathPattern": "^/Connotes/ShowConsignmentSummary\\.aspx$",
+      "params": [
+        "Number"
+      ]
+    }
+  ],
+  "detection": []
+}

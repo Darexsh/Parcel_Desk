@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "trackings": [
+      {
+        "trackingNumber": "JP000000000101",
+        "externalOrderNumber": "SAMPLEORDER0001",
+        "createdAt": "2026-05-04T02:10:00.000Z",
+        "shipmentState": "COMPLETED",
+        "deliveryDate": "2026-05-05T16:00:00.000Z",
+        "sameDayDelivery": 0,
+        "itemType": "parcel",
+        "temperatureType": "non",
+        "courierContact": {
+          "name": "Sample Courier",
+          "secondaryNum": "00000000"
+        },
+        "statusLogs": [
+          { "createdAt": "2026-05-04T09:31:12.000Z", "status": "ON_THE_WAY_TO_WAREHOUSE" },
+          { "createdAt": "2026-05-04T13:02:45.000Z", "status": "ARRIVED_AT_WAREHOUSE" },
+          { "createdAt": "2026-05-04T13:02:45.000Z", "status": "ARRIVED_AT_WAREHOUSE" },
+          { "createdAt": "2026-05-05T01:15:20.000Z", "status": "CONFIRMED" },
+          { "createdAt": "2026-05-05T02:40:07.000Z", "status": "PASSED_TO_COURIER" },
+          { "createdAt": "2026-05-05T02:40:08.000Z", "status": "ON_THE_WAY_TO_CUSTOMER" },
+          { "createdAt": "2026-05-05T09:55:31.000Z", "status": "UNDELIVERED", "remarks": "NOBODY_ANSWER_THE_DOOR" },
+          { "createdAt": "2026-05-05T10:20:00.000Z", "status": "SCHEDULED_FOR_REDELIVER", "remarksEn": "Call Sample Person at 0000 0000", "remarksChi": "請致電 0000 0000" },
+          { "createdAt": "2026-05-06T02:05:44.000Z", "status": "ON_THE_WAY_TO_CUSTOMER" },
+          { "createdAt": "2026-05-06T06:48:09.000Z", "status": "COMPLETED", "remarks": "signed by Sample Person" }
+        ]
+      }
+    ]
+  }
+}

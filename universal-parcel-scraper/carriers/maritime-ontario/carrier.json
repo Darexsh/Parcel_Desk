@@ -1,0 +1,91 @@
+{
+  "id": "maritime-ontario",
+  "displayName": "Maritime-Ontario",
+  "aliases": [
+    "M-O",
+    "Maritime Ontario",
+    "M-O Freight Lines"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#0064b1"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "maritime-ontario",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "eta",
+    "eta_window"
+  ],
+  "portal": {
+    "url": "https://www.m-o.com/quick-track-form/?t={trackingNumber}",
+    "searchUrl": "https://www.m-o.com/quick-track-form/",
+    "canaryUrl": "https://cp.m-o.com/trace/external.msw",
+    "shows": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "eta",
+      "eta_window",
+      "departure_date",
+      "delivered_at",
+      "origin",
+      "destination",
+      "service_name",
+      "customer_reference",
+      "staff_details",
+      "parcel_count",
+      "order_contents",
+      "weight",
+      "volume"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "eta",
+      "eta_window"
+    ],
+    "discarded": [
+      "location",
+      "departure_date",
+      "delivered_at",
+      "origin",
+      "destination",
+      "service_name",
+      "customer_reference",
+      "staff_details",
+      "parcel_count",
+      "order_contents",
+      "weight",
+      "volume"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "signatory",
+      "proof_of_delivery",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [],
+  "detection": []
+}

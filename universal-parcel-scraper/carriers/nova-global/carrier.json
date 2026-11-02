@@ -1,0 +1,103 @@
+{
+  "id": "nova-global",
+  "displayName": "Nova Global",
+  "aliases": [
+    "Nova Poshta Global",
+    "NP Global",
+    "Нова Пошта Глобал",
+    "Nova Poshta International"
+  ],
+  "region": {
+    "countries": [
+      "UA",
+      "US",
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#da291c"
+  },
+  "selectable": true,
+  "timezone": "Europe/Kyiv",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "nova-global",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 834
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "offset_timestamps",
+    "delivered_at",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://nova.global/track/?Tracking_ID={trackingNumber}",
+    "searchUrl": "https://nova.global/track/",
+    "canaryUrl": "https://nova.global/track/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps",
+      "origin_country",
+      "destination_country",
+      "delivery_tracking_number",
+      "tracking_alias"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "offset_timestamps",
+      "delivered_at",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "origin_country",
+      "tracking_alias"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "pickup_point",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "nova.global",
+        "novaposhtaglobal.ua"
+      ],
+      "pathPattern": "^/(?:(?:en|ru|uk)/)?track/?$",
+      "params": [
+        "Tracking_ID"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "nova-global-1",
+      "pattern": "^[A-Z]{2}\\d{9,16}NPG$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "carrier": "globalpost",
+  "entries": [
+    {"wording": "Label Created", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "The shipper created the label; first row of the history."},
+    {"wording": "Data Received", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "GlobalPost received the shipment data from the shipper."},
+    {"wording": "Arrived at Partner Facility", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "A partner network, such as USPS on the way in or the final-mile post abroad, scanned the parcel."},
+    {"wording": "Departed Partner Facility", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Arrived at GlobalPost Facility", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "The parcel reached one of GlobalPost's own consolidation facilities; inbound partner scans can come before it."},
+    {"wording": "Departed GlobalPost Facility", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "In-Transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Hyphenated variant of In Transit, shown alongside it in the same histories."},
+    {"wording": "Departed from Origin Country", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-20"},
+    {"wording": "Arrived in Destination Country", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "In Customs", "stage": "customs", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Cleared Customs", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Customs let the parcel go on, so it is moving again."},
+    {"wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Attempted Delivery", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Exception, No Action Required", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Shown for a final-mile exception that the recipient does not need to act on."},
+    {"wording": "Delayed, No Action Required", "stage": "exception", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-20", "note": "The tracker's delay, in the same form as its exception the recipient need not act on."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Also ends a return to the sender; the adapter reads a delivery scan at the sender's town as returned."}
+  ]
+}

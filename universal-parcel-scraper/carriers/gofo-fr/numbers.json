@@ -1,0 +1,76 @@
+{
+  "carrier": "gofo-fr",
+  "records": [
+    {
+      "number": "PK-4948681651650700612-0",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://parcelplus.app/fr/carriers/gofo-fr/track",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipper reference"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gofo-fr"
+        ]
+      },
+      "note": "The public tracker sample. GOFO France returns the same complete reference paired with its French waybill and matching French history. The reference requires its original hyphens on the API."
+    },
+    {
+      "number": "GFFR26162070068751",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://parcelplus.app/fr/carriers/gofo-fr/track",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "gofo-fr",
+        "confidence": "high"
+      },
+      "note": "GOFO's anonymous national tracking service confirms the whole waybill and national destination. The official reply binds this waybill to the public tracker sample's shipper reference."
+    },
+    {
+      "number": "CIFR0000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "gofo-fr",
+        "confidence": "high"
+      },
+      "note": "Synthetic identifier following the national format described by GOFO customer support at https://www.gofo.com/fr/contact-us/."
+    },
+    {
+      "number": "GFFR0000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "gofo-fr",
+        "confidence": "high"
+      },
+      "note": "Synthetic identifier following the national format described by GOFO customer support at https://www.gofo.com/fr/contact-us/."
+    },
+    {
+      "number": "CIFR00000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "gofo-fr",
+        "confidence": "high"
+      },
+      "note": "Synthetic identifier following the national format described by GOFO customer support at https://www.gofo.com/fr/contact-us/."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pronto-lanka",
+  "displayName": "Pronto Lanka",
+  "aliases": [
+    "Pronto Lanka (Pvt) Ltd.",
+    "Pronto"
+  ],
+  "region": {
+    "countries": [
+      "LK"
+    ]
+  },
+  "brand": {
+    "color": "#ec1b24"
+  },
+  "selectable": true,
+  "timezone": "Asia/Colombo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.prontolanka.lk/",
+    "canaryUrl": "https://www.prontolanka.lk/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "prontolanka.lk"
+      ],
+      "pathPattern": "^/(?:trackinfo|t2)\\.asp$",
+      "params": [
+        "ID"
+      ]
+    }
+  ],
+  "detection": []
+}

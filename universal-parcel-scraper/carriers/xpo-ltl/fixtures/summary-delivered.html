@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Tracking Results</title>
+<script type="text/javascript">
+    var getQueryString = function (field) {
+      var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
+      var string = reg.exec(window.location.href);
+      return string ? string[1] : '';
+    };
+    var relPath = window.location.pathname;
+    if (relPath == '/webapp/manifestrpts_p_app/Tracking/TrackingRS.jsp') {
+      var proQuery = getQueryString('PRO');
+      window.location = proQuery != '' ? 'https://app.ltl.xpo.com/appjs/tracking/#/tracking/' + proQuery : 'https://app.ltl.xpo.com/appjs/tracking';
+    }
+</script>
+</head>
+<body>
+    <!-- !!! BEGIN apptemplate_start.html (1) !!! -->
+    <div id="header"><title>LTL &ndash; XPO Logistics</title><a href="/webapp/membership_app/registration_update/MembershipMain.jsp">Welcome</a></div>
+    <div id="content" class="legacy">
+        <!-- !!! END apptemplate_start.html !!! -->
+<font size=-1 face="Arial, Helvetica, sans-serif">
+<form action="TrackingRS.jsp" method="post" name="frm1" id="frm1">
+
+<table border=0 width=100% cellpadding=0 cellspacing=0 class=stdTableAsGroupBox><tr><td class=stdDisplayText valign=top></td><td class=stdDisplayText valign=top><TABLE width=100% align=center border=0 cellspacing=0 cellpadding=0><tr><th align=center>PRO Tracking <font size=-2>(as of 11/20/26 8:40 AM Eastern Time)</font></th><th align=right>&nbsp; <a href='#' onClick="Go_To_PagePrint()"> <img src=/private/images/buttons/print.gif border=0 alt=Print></a> &nbsp; <a href="TrackingEmail.jsp?Pro=[990000012]&rptFormat=&rptMX=&destZip="><img src=/private/images/buttons/email_this.gif border=0 alt=Send email/fax></a>&nbsp;</th></tr><tr><td class=stdDisplayText align=left valign=middle colspan=2>The version of the Tracking tool you are using is being discontinued. Please <a href="mailto:support@example.com?subject=Tracking via URL Update">contact</a> XPO LTL Customer Service today so you may continue using this system without interruption.</td></tr><tr><td style="height:2px;" class=stdDisplayText align=left valign=middle colspan=2><br></td></tr></TABLE></td></tr>
+<tr><td class=stdDisplayText valign=top colspan=2><TABLE width=640 align=center border=0 cellpadding=1 cellspacing=1 class=stdTableAsGroupBox>
+<tr><td class=stdDisplayText valign='top' align='left' colspan='2'><TABLE width=640 align=center border=1 cellpadding=1 cellspacing=1 class=stdTableAsGroupBox><tr><td class=stdLabelText valign='top' align='left' width='26%' nowrap><font color=#009900><a href='HTTPS://ltl.xpo.com/webapp/manifestrpts_p_app/Tracking/ShipmentStatusDefinitions.jsp?statusCode=23'>Status:</a> <b>PRO: 990000012</b></td><td class=stdDisplayText valign='top' align='left'><font color=#009900><b>Delivered by</b> 
+<a href='HTTPS://ltl.xpo.com/webapp/servicecenter_app/ServiceCenterInfo/ServiceCenterDetail.jsp?dest=fastmap2000display&logotoggle=S&SICInfo=Y&TTMapInfo=N&SIC=UMK'>Mockford, CO</a> 
+
+
+<br></font></td></tr>
+<tr><td class=stdLabelText valign='top' align='left' width='26%' nowrap>Pickup/Delivery</td><td class=stdDisplayText valign='top' align='left'>Pickup: 11/16/26&nbsp;&nbsp;&nbsp;Dlvr: 11/19/26</td></tr>
+<tr><td class=stdLabelText valign='top' align='left' width='26%' nowrap>Shipper</td><td class=stdDisplayText align='left'>Synthetic Supply Co<br>100 Example Way<br>Sampleton IL 60999</td></tr>
+<tr><td class=stdLabelText valign='top' align='left' width='26%' nowrap>Consignee</td><td class=stdDisplayText align='left'>Jane Placeholder <br>42 Fictional Rd<br>Mockford CO 80999</td></tr>
+<tr><td class=stdLabelText valign='top' align='left' width='26%' nowrap>Bill-To</td><td class=stdDisplayText align='left'>Invented Freight Payables<br>7 Nowhere Plaza<br>Testburg OH 43999 - 1234</td></tr>
+<tr><td class=stdLabelText valign='top' align='left' width='26%' nowrap>Destination Service Center</td><td class=stdDisplayText align='left'><a href='HTTPS://ltl.xpo.com/webapp/servicecenter_app/ServiceCenterInfo/ServiceCenterDetail.jsp?dest=fastmap2000display&logotoggle=S&SICInfo=Y&TTMapInfo=N&SIC=UMK'>Mockford, CO</a></td></tr>
+<tr><td class=stdLabelText valign='top' align='left' width='26%' nowrap>Origin Service Center</td><td class=stdDisplayText align='left'><a href='HTTPS://ltl.xpo.com/webapp/servicecenter_app/ServiceCenterInfo/ServiceCenterDetail.jsp?dest=fastmap2000display&logotoggle=S&SICInfo=Y&TTMapInfo=N&SIC=XSA'>Sampleton, IL</a></td></tr>
+<tr><td class=stdLabelText valign='top' align='left' width='26%' nowrap>Reference Nbr</td><td class=stdDisplayText valign='top' align='left'>PRO: 990000012<br>PO# 5550002<br><a href='HTTPS://ltl.xpo.com/webapp/manifestrpts_p_app/Tracking/ShipmentSupRefList.jsp?ProNumber=09900000012'>More</a></td></tr>
+<tr><td class=stdLabelText valign='top' align='left' width='26%' nowrap>Shipment Details</td><td class=stdDisplayText align='left'><table><tr><td class=stdDisplayText valign=top>Collect<br>Pcs 1<br>Wgt 480 lbs</td><td class=stdDisplayText valign=top></td></tr></table></td></tr>
+<tr><td class=stdLabelText valign='top' align='left' width='26%' nowrap>More info about this shipment</td><td class=stdDisplayText align='left'><select name=selectLinkDoc0 size=1 onchange=Go_To_PageDoc(0)><option value=''>View document</option><option value="HTTPS://ltl.xpo.com/webapp/imaging_app/imageretrieverequest.do?dest=fastdocview&PRO1=990000012&DocType1=BL">Bill of Lading</option><option value="HTTPS://ltl.xpo.com/webapp/imaging_app/imageretrieverequest.do?dest=fastdocview&PRO1=990000012&DocType1=DR">Delivery Receipt</option></select> &nbsp;&nbsp;&nbsp;&nbsp;<select name=selectLink0 size=1 onchange=Go_To_Page(0)>><option value=''>View More Info</option><option value=HTTPS://ltl.xpo.com/webapp/manifestrpts_p_app/Tracking/ShipmentHistory.jsp?proNbr=990000012&rptMX=&intlMXShipmentHistNote=N>Shipment History</option></select> <br>Some features require registration. <a 
+href='https://www.example.com/webapp/membership_app/registration_signup/MembershipSignup.jsp'>Register now</a> - it's quick and easy!</td></tr></table></td></tr><tr><td class=stdDisplayText colspan='2' height=3></td></tr>
+</table></td></tr>
+<form action="Tracking.jsp" name=frmTrackingResults method="post"><tr><td class=stdDisplayText colspan='2' valign='top' align=center><br><input type="button" name="rptAction" value="Track another shipment" onclick="Go_To_PageStart('')"><br>&nbsp;</td></tr></form>
+
+
+</table>
+
+
+
+</form>
+</font>
+
+    <!-- !!! BEGIN apptemplate_end.html !!! -->
+    </div>
+    <div id="footer" class="legacy-footer">&copy; XPO, Inc. All rights reserved.</div>
+</body>
+</html>

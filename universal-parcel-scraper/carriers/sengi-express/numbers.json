@@ -1,0 +1,21 @@
+{
+  "carrier": "sengi-express",
+  "records": [
+    {
+      "number": "SNGXP100000017MT",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-29",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "maltapost",
+          "sengi-express"
+        ]
+      },
+      "note": "Made-up number in the shape of a parcel the app tracked to Malta, for which ParcelsApp named Sengi and MaltaPost: five letters, nine digits and MT."
+    }
+  ]
+}

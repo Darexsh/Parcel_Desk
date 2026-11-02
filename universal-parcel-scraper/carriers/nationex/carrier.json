@@ -1,0 +1,85 @@
+{
+  "id": "nationex",
+  "displayName": "Nationex",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#006736"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "nationex",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 125
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://nationex.com/reperage/{trackingNumber}",
+    "searchUrl": "https://nationex.com/reperage",
+    "canaryUrl": "https://nationex.com/reperage",
+    "shows": [
+      "status",
+      "milestones",
+      "history",
+      "location",
+      "estimated_delivery",
+      "parcel_count",
+      "destination",
+      "proof_of_delivery",
+      "delivery_instructions",
+      "sender_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "estimated_delivery",
+      "provider_code"
+    ],
+    "discarded": [
+      "milestones",
+      "parcel_count",
+      "destination",
+      "proof_of_delivery",
+      "delivery_instructions",
+      "sender_name",
+      "recipient_address",
+      "postcodes",
+      "coordinates",
+      "references",
+      "weight",
+      "signatures",
+      "contacts"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "nationex.com"
+      ],
+      "path": "^/(?:reperage|tracking)/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,21 @@
+{
+  "carrier": "old-dominion",
+  "entries": [
+    { "wording": "Pickup Requested", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The shipper booked a pickup; the freight is not yet with Old Dominion." },
+    { "wording": "Pickup Completed", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "The trace page shows it as Picked Up." },
+    { "wording": "In Transit", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Its description names the service center it arrived at or departed from." },
+    { "wording": "Appointment Set/Confirmed", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "A delivery appointment was booked; the trace page files it under In Transit." },
+    { "wording": "Out for Delivery", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live" },
+    { "wording": "Arrived at Consignee", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live", "note": "At the consignee's site, just before Delivered." },
+    { "wording": "Delivered", "language": "en", "stage": "delivered", "confirmedBy": "live" },
+    { "wording": "Delivery Confirmed", "language": "en", "stage": "delivered", "confirmedBy": "live", "note": "Follows Delivered, which keeps the delivery time." },
+    { "wording": "Pickup Confirmed", "language": "en", "stage": "registered", "confirmedBy": "bundle", "note": "The trace page's progress rail lights nothing for it, as for Pickup Requested: the freight is not yet picked up." },
+    { "wording": "Received At Dock", "language": "en", "stage": "accepted", "confirmedBy": "bundle", "note": "The trace page shows it in the pickup's place." },
+    { "wording": "Appointment Attempted", "language": "en", "stage": "in_transit", "confirmedBy": "bundle", "note": "An attempt to book the delivery appointment, filed under In Transit by the trace page." },
+    { "wording": "Appointment Cancelled", "language": "en", "stage": "in_transit", "confirmedBy": "bundle" },
+    { "wording": "Delayed", "language": "en", "stage": "in_transit", "confirmedBy": "bundle" },
+    { "wording": "Weather Delay", "language": "en", "stage": "in_transit", "confirmedBy": "bundle" },
+    { "wording": "Returned To Dock", "language": "en", "stage": "in_transit", "confirmedBy": "bundle", "note": "Back at the service center's dock, not a return to the shipper; the trace page files it under In Transit." },
+    { "wording": "Agent Handoff", "language": "en", "stage": "out_for_delivery", "confirmedBy": "bundle", "note": "The trace page shows it as Out for Delivery." }
+  ]
+}

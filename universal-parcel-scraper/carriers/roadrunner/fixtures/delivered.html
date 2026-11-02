@@ -1,0 +1,410 @@
+
+<style>
+
+    #mid-container table {
+        font-family: 'Inter', sans-serif;
+    }
+
+    #mid-container h5 {
+        font-size: 20pt;
+        font-weight: 200;
+    }
+
+    .styled-table th {
+        font-size: 16pt;
+        font-weight: bold;
+        font-weight: 600;
+    }
+
+    .styled-table td {
+        font-size: 16pt;
+        font-weight: 200;
+    }
+
+    .warning-message {
+        width: fit-content;
+        padding: 5px;
+        margin: 5px 0;
+        font-family: Arial, sans-serif;
+    }
+</style>
+
+
+
+    <div class="warning-message">
+        You're seeing the same order status information that our Customer Service Team can access.
+    </div>
+    <div id="ShipmentTabContainer" style="position:relative">
+        <div class="row mb-5">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5 class="text-danger">Shipment Status</h5>
+                        <h5>Delivered</h5>
+                    </div>
+
+                        <div class="col-md-4">
+                            <!-- Label for Date of Delivery-->
+                                <h5 class="text-danger">Date Delivered</h5>
+                                <h5>03/17/2026</h5>
+                        </div>
+                        <div class="col-md-5">
+                        </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <form class="mt-4" id="subscribeForm" method="post">
+                            <input type="hidden" id="ProNumber" name="ProNumber" value="511122233" />
+                            <input type="hidden" id="PickupNumber" name="PickupNumber" value="50001111" />
+
+                            <label for="email" class="form-label">Want updates on this shipment? Enter your email and we will do the rest.</label>
+                            <div class="input-group">
+                                <div id="emailDiv">
+                                    <div style="display: flex;">
+                                        <input type="email" id="email" name="subscriptionEmail" class="form-control" placeholder="Your Email Here" required style="margin-right: 1rem;" />
+                                        <button type="submit" id="subscribeMobileButton" class="btn btn-rrts-primary" formnovalidate>Subscribe</button>
+                                    </div>
+                                    <button type="button" id="smsButton" class="btn btn-link">Prefer Text?</button>
+                                </div>
+                                <div id="smsDiv" hidden>
+                                    <div style="display: flex;">
+                                        <input type="tel" id="sms" class="form-control" name="subscriptionSms" inputmode="numeric"
+                                               maxlength="10" placeholder="Enter your phone number"
+                                               required oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                                               style="margin-right: 1rem;" />
+                                        <button type="submit" id="subscribeMobileButton" class="btn btn-primary" formnovalidate formaction="/LTLTrack/TrackingShipment/ShipmentDataTab/511122233?handler=SubscribeSms">Subscribe</button>
+                                    </div>
+                                    <button type="button" id="emailButton" class="btn btn-link">Prefer Email?</button>
+                                </div>
+                                <input type="hidden" id="subscriptionType" name="subscriptionType" value="1" />
+                            </div>
+                        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8SYNTHETIC-TOKEN-0000000000000000000000000000000000000000" /></form>
+                    </div>
+                </div>
+
+
+                <div class="row" style="margin-top:20px;">
+                    <input type="hidden" id="OrigLatitude" value="10.000001" />
+                    <input type="hidden" id="OrignLongitude" value="-10.000001" />
+                    <input type="hidden" id="DestinationLatitude" value="20.000002" />
+                    <input type="hidden" id="DestinationLongitude" value="-20.000002" />
+                    <input type="hidden" id="CurrentLongitude" value="-1" />
+                    <input type="hidden" id="CurrentLatitude" value="-1" />
+                    <input type="hidden" id="ShipmentCurrentStatus" value="Delivered" />
+                    <div id="map" style="height: 20rem; width: 45rem;"></div>
+                </div>
+            </div>
+            <!-- Right Section -->
+            <div class="col-md-3">
+                <div style="margin-left: 2rem">
+                    <h5>Tracking ID</h5>
+                    <h3>511122233</h3>
+
+                </div>
+                <div class="timeline-container" style="margin-left: 2rem">
+                    <!-- Image Column -->
+                    <div class="image-column">
+                            <img src="/LTLTrack/images/Level 4.png" alt="Timeline" style="height: 100%; width: auto;">
+                    </div>
+
+                    <!-- Text Column -->
+                    <div class="text-column">
+                                <div class="stage">
+                                    <strong>
+                                                From
+                                    </strong>
+                                    <div>SAMPLETON, CA</div>
+                                        <div>03/09/2026, 02:19 PM</div>
+                                </div>
+                                <div class="stage">
+                                    <strong>
+                                                We Have Your Shipment
+                                    </strong>
+                                    <div>SAMPLETON, CA</div>
+                                        <div>03/09/2026, 04:10 PM</div>
+                                </div>
+                                <div class="stage">
+                                    <strong>
+                                                        On the way
+                                    </strong>
+                                    <div>Testville, TN</div>
+                                        <div>03/15/2026, 05:41 AM</div>
+                                </div>
+                                <div class="stage">
+                                    <strong>
+                                                     In Transit
+                                    </strong>
+                                    <div>Testville, TN</div>
+                                        <div>03/17/2026, 08:07 AM</div>
+                                </div>
+                                <div class="stage">
+                                    <strong>
+                                                To
+                                    </strong>
+                                    <div>TESTVILLE, TN</div>
+                                        <div>03/17/2026, 12:07 PM</div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="mid-container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h5>Shipment Details</h5>
+                    <table id="package-details-table" class="table table-borderless  align-middle table-md styled-table">
+                        <thead>
+                            <tr>
+                                <th>From:</th>
+                                <th>To:</th>
+                                <th>Shipment:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    SAMPLE SUPPLY CO<br>100 EXAMPLE AVE STE 1<br>SAMPLETON, CA 00001
+
+                                </td>
+                                <td>
+                                    JANE EXAMPLE <br> 200 TEST ST <br> TESTVILLE, TN 00002
+                                </td>
+                                <td>Total Pieces:</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>Total Weight:</td>
+                                <td>250</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Shipment Overview</h5>
+                    <table class="table table-borderless  align-middle table-sm styled-table">
+                        <tbody>
+                                    <tr><td>Pro:</td><td>511122233</td></tr>
+                                    <tr><td>Pickup:</td><td>50001111</td></tr>
+                                    <tr><td>BOL:</td><td>SAMPLE-BOL-1</td></tr>
+                                    <tr><td>Ship Date:</td><td>03/09/2026</td></tr>
+                                            <tr>
+                                                <td>Due Date:</td>
+                                                <td>03/17/2026</td>
+                                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <!-- Travel History -->
+                    <h5>Travel History</h5>
+                    <table class="table table-borderless  align-middle table-sm styled-table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                    <td>03/09/2026</td>
+                                    <td>02:19 PM</td>
+                                    <td>Pickup Request Received.</td>
+                                </tr>
+                                <tr>
+                                    <td>03/09/2026</td>
+                                    <td>04:10 PM</td>
+                                    <td>Shipment was picked up</td>
+                                </tr>
+                                <tr>
+                                    <td>03/09/2026</td>
+                                    <td>11:59 PM</td>
+                                    <td>Trailer Closed - ready for dispatch</td>
+                                </tr>
+                                <tr>
+                                    <td>03/10/2026</td>
+                                    <td>12:08 AM</td>
+                                    <td>Trailer dispatched from Sampleton terminal to Exampleburg terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>03/10/2026</td>
+                                    <td>01:12 AM</td>
+                                    <td>Trailer arrived at Exampleburg terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>03/10/2026</td>
+                                    <td>04:50 AM</td>
+                                    <td>Trailer unloaded at Exampleburg terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>03/10/2026</td>
+                                    <td>06:38 PM</td>
+                                    <td>Trailer Closed - ready for dispatch</td>
+                                </tr>
+                                <tr>
+                                    <td>03/10/2026</td>
+                                    <td>06:42 PM</td>
+                                    <td>Trailer dispatched from Exampleburg terminal to Midtown terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>03/12/2026</td>
+                                    <td>06:33 PM</td>
+                                    <td>Trailer arrived at Midtown terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>03/14/2026</td>
+                                    <td>01:31 AM</td>
+                                    <td>Trailer unloaded at Midtown terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>03/14/2026</td>
+                                    <td>08:10 PM</td>
+                                    <td>Trailer Closed - ready for dispatch</td>
+                                </tr>
+                                <tr>
+                                    <td>03/14/2026</td>
+                                    <td>08:39 PM</td>
+                                    <td>Trailer dispatched from Midtown terminal to Testville terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>03/15/2026</td>
+                                    <td>05:41 AM</td>
+                                    <td>Trailer arrived at Testville terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>03/15/2026</td>
+                                    <td>05:48 AM</td>
+                                    <td>Trailer unloaded at Testville terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>03/15/2026</td>
+                                    <td>03:20 PM</td>
+                                    <td>Left voicemail message to schedule a delivery appointment.</td>
+                                </tr>
+                                <tr>
+                                    <td>03/17/2026</td>
+                                    <td>07:37 AM</td>
+                                    <td>Trailer Closed - ready for dispatch</td>
+                                </tr>
+                                <tr>
+                                    <td>03/17/2026</td>
+                                    <td>08:07 AM</td>
+                                    <td>Shipment out for delivery from Testville</td>
+                                </tr>
+                                <tr>
+                                    <td>03/17/2026</td>
+                                    <td>08:31 AM</td>
+                                    <td>Trailer Closed - ready for dispatch</td>
+                                </tr>
+                                <tr>
+                                    <td>03/17/2026</td>
+                                    <td>12:07 PM</td>
+                                    <td>Delivered </td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-3">
+                    <h5>Services</h5>
+                    <table class="table table-borderless table-sm  align-middle styled-table">
+                        <tbody>
+                                    <tr>
+                                        <td>
+                                            Service
+                                        </td>
+                                        <td>
+                                            Standard Service
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Terms
+                                        </td>
+                                        <td>
+                                                Prepaid
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                            <td>Special Handling: </td>
+                                        <td>Residential Site Delivery </td>
+                                    </tr>
+                                    <tr>
+                                            <td></td>
+                                        <td>Liftgate Delivery </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <hr>
+
+            <!-- Documents Sections -->
+            <div id="documents-section">
+                    <div class="row">
+                        <div class="col-md-10">
+
+                            <h5>Documents</h5>
+                            <table class="table table-borderless table-sm align-middle styled-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width:10%">Item</th>
+                                        <th style="width:20%">Description</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>POD</td>
+                                        <td>
+                                                <button class="btn btn-link"
+                                                        onclick="loadDocumentModal('511122233', 'POD')">
+                                                    View
+                                                </button>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="documentModal" tabindex="-1" aria-labelledby="documentModalLabel" aria-hidden="true">
+    </div>
+    <div class="modal" id="responseModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="responseModalTitle">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="responseModalBody">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="scheduleModal" tabindex="-1" aria-labelledby="scheduleModalLabel" aria-hidden="true">
+    </div>

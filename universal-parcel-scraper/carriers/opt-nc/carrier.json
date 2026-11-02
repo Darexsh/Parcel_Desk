@@ -1,0 +1,62 @@
+{
+  "id": "opt-nc",
+  "displayName": "OPT-NC",
+  "aliases": [
+    "OPT Nouvelle-Calédonie",
+    "Office des Postes et Télécommunications de Nouvelle-Calédonie",
+    "OPT New Caledonia",
+    "New Caledonia Post"
+  ],
+  "region": {
+    "countries": [
+      "NC"
+    ]
+  },
+  "brand": {
+    "color": "#28347c"
+  },
+  "selectable": true,
+  "timezone": "Pacific/Noumea",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://monespace.opt.nc/mes-suivis/{trackingNumber}",
+    "searchUrl": "https://monespace.opt.nc/",
+    "canaryUrl": "https://monespace.opt.nc/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "monespace.opt.nc"
+      ],
+      "path": "^/mes-suivis/([A-Za-z0-9]{13})/?$"
+    },
+    {
+      "domains": [
+        "webtrack.opt.nc"
+      ],
+      "pathPattern": "^/ipswebtracking/IPSWeb_item_events\\.asp$",
+      "params": [
+        "itemid"
+      ]
+    },
+    {
+      "domains": [
+        "webtracking-nca.ptc.post"
+      ],
+      "pathPattern": "^/(?:IPSWeb_item_events\\.aspx)?$",
+      "params": [
+        "itemid"
+      ]
+    }
+  ],
+  "detection": []
+}

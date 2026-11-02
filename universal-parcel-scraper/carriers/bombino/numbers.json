@@ -1,0 +1,221 @@
+{
+  "carrier": "bombino",
+  "records": [
+    {
+      "number": "7770020180",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180116162258/http://www.bombinoexp.com:80/Tracking.aspx?txtAwb=7770020180",
+        "date": "2018-01-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "An archived lookup on Bombino's own tracker shows this air waybill as SHIPMENT SENT TO DESTINATION from Mumbai, with an India Post number as its corresponding tracking number."
+    },
+    {
+      "number": "228629348",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20121207000918/http://bombinoexp.com:80/Tracking.aspx?txtAwb=228629348",
+        "date": "2012-12-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Bombino's own tracker shows this air waybill as REACHED OFFICE at its JFK office."
+    },
+    {
+      "number": "228659948",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20121025001945/http://www.bombinoexp.com:80/Tracking.aspx?txtAwb=228659948",
+        "date": "2012-10-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Bombino's own tracker shows this air waybill as Delivered with a delivery date and receiver."
+    },
+    {
+      "number": "94009203",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20150113181450/http://www.bombinoexp.com:80/Tracking.aspx?txtAwb=94009203",
+        "date": "2015-01-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Bombino's own tracker shows this air waybill as Enroute, with a US partner number as its corresponding tracking number."
+    },
+    {
+      "number": "2119721",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20100405192056/http://www.bombinoexp.com:80/Tracking.aspx?txtAwb=2119721",
+        "date": "2010-04-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "An archived lookup on Bombino's own tracker shows this air waybill with a FedEx departure scan in New Jersey and a FedEx corresponding tracking number."
+    },
+    {
+      "number": "3881896",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210709110938/https://www.bombinoexp.com/track.aspx?AwbNo=3881896%2C",
+        "date": "2021-07-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "An archived lookup on Bombino's own tracker; the capture was opened but shows only the page with the number, not the history."
+    },
+    {
+      "number": "321119864",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20100405192056/http://www.bombinoexp.com:80/Tracking.aspx?txtAwb=2119721",
+        "date": "2010-04-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt",
+          "tforce-freight",
+          "xpo-ltl"
+        ]
+      },
+      "note": "Bombino's own tracker gave this as the example air waybill in its hint for tracking several numbers at once."
+    },
+    {
+      "number": "925897117",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/68e396ec909e5c75470b8a3d",
+        "date": "2025-10-06",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A shipper's review on Bombino's Trustpilot page gives this as the reference of one of two parcels booked to Amazon in the United States; Bombino's current tracker knows it as an export from India returned to the shipper."
+    },
+    {
+      "number": "925897112",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/68e396ec909e5c75470b8a3d",
+        "date": "2025-10-06",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The other parcel of the same Trustpilot review; Bombino's current tracker knows it as an export from India returned to the shipper."
+    },
+    {
+      "number": "304079767",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-bombino-express.html",
+        "date": "2021-04-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A customer's review of Bombino on TrackingMore gives this air waybill for a parcel from New York to Delhi; Bombino's current tracker no longer knows it."
+    }
+  ]
+}

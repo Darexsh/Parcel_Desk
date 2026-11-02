@@ -1,0 +1,20 @@
+{
+  "carrier": "ctt-express",
+  "entries": [
+    { "code": "0000", "wording": "Pendiente de recepción en CTT Express", "language": "es", "stage": "registered", "confirmedBy": "live" },
+    { "code": "0500", "wording": "Recogido", "language": "es", "stage": "accepted", "confirmedBy": "live" },
+    { "code": "0600", "wording": "Recogida fallida", "language": "es", "stage": "exception", "confirmedBy": "live" },
+    { "code": "1000", "wording": "Enviado", "language": "es", "stage": "in_transit", "confirmedBy": "live" },
+    { "code": "3900", "wording": "En tránsito internacional. Pendiente de recepción en CTT Express", "language": "es", "stage": "in_transit", "confirmedBy": "live" },
+    { "code": "1500", "wording": "En reparto", "language": "es", "stage": "out_for_delivery", "confirmedBy": "live" },
+    { "code": "1600", "wording": "Incidencia en el reparto", "language": "es", "stage": "exception", "confirmedBy": "live" },
+    { "code": "1700", "wording": "Almacenado temporalmente", "language": "es", "stage": "exception", "confirmedBy": "live", "note": "Held at the depot after a failed delivery, until a new round or a return." },
+    { "code": "2400", "wording": "Nuevo reparto", "language": "es", "stage": "out_for_delivery", "confirmedBy": "live" },
+    { "code": "2310", "wording": "Disponible en Punto Collectt Express", "language": "es", "stage": "ready_for_pickup", "confirmedBy": "live" },
+    { "code": "2900", "wording": "Recogerán en Delegación", "language": "es", "stage": "failed_attempt", "confirmedBy": "live", "note": "The delivery failed and the recipient is to collect the parcel from the delivery office; CTT Portugal's failed attempt for the same delivery comes at the same moment, its pickup availability after." },
+    { "code": "2500", "wording": "En devolución", "language": "es", "stage": "exception", "confirmedBy": "live" },
+    { "code": "2700", "wording": "Devuelto a remitente", "language": "es", "stage": "returned", "confirmedBy": "live" },
+    { "code": "2100", "wording": "El envío fue entregado correctamente", "language": "es", "stage": "delivered", "confirmedBy": "portal" },
+    { "code": "2110", "wording": "El envío fue entregado correctamente", "language": "es", "stage": "delivered", "confirmedBy": "portal" }
+  ]
+}

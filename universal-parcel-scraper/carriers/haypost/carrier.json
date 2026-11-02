@@ -1,0 +1,79 @@
+{
+  "id": "haypost",
+  "displayName": "HayPost",
+  "aliases": [
+    "Haypost",
+    "Հայփոստ",
+    "Armenia Post"
+  ],
+  "region": {
+    "countries": [
+      "AM"
+    ]
+  },
+  "brand": {
+    "color": "#fa4616"
+  },
+  "selectable": true,
+  "timezone": "Asia/Yerevan",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "haypost",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 898
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "offset_timestamps",
+    "delivered_at",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://www.haypost.am/am/track-trace#{trackingNumber}",
+    "searchUrl": "https://www.haypost.am/am/track-trace",
+    "canaryUrl": "https://www.haypost.am/en/track-trace",
+    "shows": [
+      "history",
+      "location",
+      "event_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps",
+      "delivered_at",
+      "destination_country",
+      "event_details"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "postcodes",
+      "proof_of_delivery",
+      "provider_code"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "haypost-s10",
+      "pattern": "^[A-Z]{2}\\d{9}AM$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

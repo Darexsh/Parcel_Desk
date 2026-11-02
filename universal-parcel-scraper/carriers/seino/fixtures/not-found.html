@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="sixapart-standard" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=SHIFT_JIS" />
+<title>お届け状況確認｜西濃運輸</title>
+</head>
+<body id="mt-blog" class="layout-wm webservice simple-header simple-footer">
+  <div id="container">
+    <div id="container-inner">
+      <h2>お届け状況確認</h2>
+              <form name="gempyoNoShokaiListForm" method="post" action="/kamotsu/GempyoNoShokai.do;jsessionid=00000000000000000000000000000000" class="track" onsubmit="return sendCheck();">
+	<div style="clear:both;">
+	<p class="float-left">
+	  <input type="submit" name="action" value="　検 索　" onclick="hostExec(this)" class="button-150">
+	  <input type="reset" value="　クリア　" class="button-150">
+	</p>
+	</div>
+			<table  class="base clear-both kakuNinKenSaku" cellspacing="1" summary="お届け状況確認 検索" >
+			<tr>
+				<th class="col1">お問い合わせ番号[10桁]</th>
+				<th class="col2">受付日</th>
+				<th class="col3">お問い合わせ番号</th>
+				<th class="col4">お届け状況</th>
+				<th class="col9"><br /></th>
+				<th class="col5">メール</th>
+				<th class="col6">詳細表示</th>
+			</tr>
+<tr>
+	<td class="col1">
+		<input type="text" name="GNPNO1" size="15" maxlength="12"/>
+		<input type="hidden" class = "gnpNo" name="inputGNPNO1" value="0000000000"/>
+	</td>
+	<td class="col2">
+		<br />
+	</td>
+	<td class="col3">
+	0000000000
+	<br /></td>
+	<td class="col4">
+	入力されたお問合せ番号が見当りません
+<br />
+</td>
+<td class="col9">
+<br />
+</td>
+<td class="col5">
+<br /></td>
+	<td class="col6">
+<br /></td>
+</tr>
+<tr>
+	<td class="col1">
+		<input type="text" name="GNPNO2" size="15" maxlength="12"/>
+		<input type="hidden" class = "gnpNo" name="inputGNPNO2" value=""/>
+	</td>
+	<td class="col2">
+		<br />
+	</td>
+	<td class="col3">
+	<br /></td>
+	<td class="col4">
+<br />
+</td>
+<td class="col9">
+<br />
+</td>
+<td class="col5">
+<br /></td>
+	<td class="col6">
+<br /></td>
+</tr>
+			</table>
+                <input type="hidden" name="autoShowMapFlg" value="1" id="autoShowMapFlg">
+               </form>
+    </div>
+  </div>
+</body>
+</html>

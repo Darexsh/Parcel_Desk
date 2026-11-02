@@ -1,0 +1,16 @@
+{
+  "carrier": "overseas-express",
+  "entries": [
+    {"wording": "Pošiljka/povratni dokument preuzeti od pošiljatelja. Očekuje se isporuka u redovitom terminu.", "stage": "accepted", "language": "hr", "confirmedBy": "portal", "note": "Collected from the sender, with any return document. Former tracker page."},
+    {"wording": "Pošiljka vagana. Očekuje se isporuka u redovitom terminu.", "stage": "in_transit", "language": "hr", "confirmedBy": "portal", "note": "Weighed at the depot. Former tracker page."},
+    {"wording": "Pošiljka stigla u dostavni centar. Očekuje se isporuka u redovitom terminu.", "stage": "in_transit", "language": "hr", "confirmedBy": "portal", "note": "Arrived at the delivery centre. Former tracker page."},
+    {"wording": "Pošiljka utovarena za dostavu. Očekuje se dostava tijekom dana.", "stage": "out_for_delivery", "language": "hr", "confirmedBy": "portal", "note": "Former tracker page."},
+    {"wording": "Pošiljka neuručiva: primatelj odustan. Kontaktirajte Službu za korisnike", "stage": "failed_attempt", "language": "hr", "confirmedBy": "portal", "note": "Undeliverable, recipient absent; a note can follow. Former tracker page."},
+    {"wording": "Pošiljka neuručiva: dostavljač nije stigao na adresu. Očekivano kašnjenje isporuke 1 radni dan.", "stage": "exception", "language": "hr", "confirmedBy": "portal", "note": "The courier did not reach the address; delivery is expected a working day later. Former tracker page."},
+    {"wording": "Pošiljka privremeno uskladištena. Čekaju se upute. Kontaktirajte službu za korisnike.", "stage": "exception", "language": "hr", "confirmedBy": "portal", "note": "Held at the depot awaiting instructions. Former tracker page."},
+    {"wording": "Pošiljka napustila privremeno skladište. Očekuje se isporuka u redovitom terminu.", "stage": "in_transit", "language": "hr", "confirmedBy": "portal", "note": "Left temporary storage. Former tracker page."},
+    {"wording": "Pošiljka isporučena, dostava potvrđena", "stage": "delivered", "language": "hr", "confirmedBy": "portal", "note": "Former tracker page."},
+    {"wording": "Prikupljena gotovina (prijevoz, pouzeće).", "language": "hr", "confirmedBy": "portal", "note": "Cash collected for carriage or cash on delivery, after delivery; not a movement. Former tracker page."},
+    {"wording": "Pošiljka dostavljena", "stage": "delivered", "language": "hr", "confirmedBy": "portal", "note": "The overall status of a parcel in the former tracker's summary."}
+  ]
+}

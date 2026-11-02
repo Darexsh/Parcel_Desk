@@ -1,0 +1,24 @@
+{
+  "carrier": "postplus",
+  "records": [
+    {
+      "number": "LB046066520LT",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://post.plus/",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "The placeholder of PostPlus's own track-and-trace form; a checksum-valid S10 number issued by Lithuania Post."
+    }
+  ]
+}

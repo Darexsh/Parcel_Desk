@@ -1,0 +1,48 @@
+{
+  "id": "canada-air-express",
+  "displayName": "Canada Air Express",
+  "aliases": [
+    "Canada GTL Express",
+    "加拿大民航快递",
+    "民航快递",
+    "Golden Territory Logistic"
+  ],
+  "region": {
+    "countries": [
+      "CA",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#b1272d"
+  },
+  "selectable": true,
+  "timezone": "America/Vancouver",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://main.air-gtc.cn/WaybillInfo.aspx?KeyWord={trackingNumber}",
+    "searchUrl": "https://www.air-gtc.com/",
+    "canaryUrl": "https://www.air-gtc.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "main.air-gtc.cn"
+      ],
+      "pathPattern": "^/WaybillInfo\\.aspx$",
+      "params": [
+        "KeyWord"
+      ]
+    }
+  ],
+  "detection": []
+}

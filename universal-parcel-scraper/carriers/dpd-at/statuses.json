@@ -1,0 +1,265 @@
+{
+  "carrier": "dpd-at",
+  "entries": [
+    {
+      "code": "ORDER_DATA",
+      "wording": "Auftragsdaten übermittelt",
+      "stage": "registered",
+      "language": "de",
+      "confirmedBy": "live",
+      "note": "myDPD's state for the sender's data reaching DPD."
+    },
+    {
+      "code": "ON_THE_WAY",
+      "wording": "Paket unterwegs",
+      "stage": "in_transit",
+      "language": "de",
+      "confirmedBy": "live",
+      "note": "Collected at the first depot or scanned through a hub."
+    },
+    {
+      "code": "IN_DEPOT",
+      "wording": "Im Paketzustellzentrum",
+      "stage": "in_transit",
+      "language": "de",
+      "confirmedBy": "live",
+      "note": "At the depot that delivers the parcel."
+    },
+    {
+      "code": "IN_DELIVERY",
+      "wording": "In Zustellung",
+      "stage": "out_for_delivery",
+      "language": "de",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "IN_DELIVERY/BOX",
+      "wording": "In Zustellung an Pickup Paketstation",
+      "stage": "out_for_delivery",
+      "language": "de",
+      "confirmedBy": "live",
+      "note": "After a failed attempt the driver takes the parcel on to a Pickup station."
+    },
+    {
+      "code": "NAB",
+      "wording": "Empfänger leider nicht angetroffen.",
+      "stage": "failed_attempt",
+      "language": "de",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "HANDOVER/BOX",
+      "wording": "Paket wurde in der Pickup Paketstation hinterlegt",
+      "stage": "ready_for_pickup",
+      "language": "de",
+      "confirmedBy": "live",
+      "note": "Left in a Pickup station for the recipient to collect."
+    },
+    {
+      "code": "IN_DELIVERY/SHOP",
+      "wording": "In delivery to Pickup parcel shop",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "After a failed attempt the driver takes the parcel on to a Pickup parcelshop."
+    },
+    {
+      "code": "NAB/NABN",
+      "wording": "Unfortunately, consignee not present. Notification was left.",
+      "stage": "failed_attempt",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "HANDOVER/SHOP",
+      "wording": "Parcel was handed over to Pickup parcel shop",
+      "stage": "ready_for_pickup",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "Left at a Pickup parcelshop for the recipient to collect, after a failed attempt."
+    },
+    {
+      "code": "DRIVER_PICKUP/SHOP",
+      "wording": "Parcel was picked up by driver from Pickup parcel shop",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "A driver collected the parcel from a Pickup parcelshop. Its stage depends on the scans before it: the sender's drop-off collected is its acceptance, or a hand-over in transit; after the parcel waited at a Pickup point for its recipient, it starts the way back."
+    },
+    {
+      "code": "TAKEOVER/SHOP",
+      "wording": "Takeover by Pickup parcel shop",
+      "stage": "ready_for_pickup",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "The Pickup parcelshop took the parcel over."
+    },
+    {
+      "code": "ERROR/LOAD_ERROR",
+      "wording": "Unfortunately, parcel was loaded incorrectly and will be delivered soon.",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "Loaded onto the wrong vehicle at the depot. DPD takes the parcel through its network again, so another depot scans it before its delivery."
+    },
+    {
+      "code": "ERROR/DELIVERY_ERROR",
+      "wording": "Unfortunately, parcel was not delivered.",
+      "stage": "failed_attempt",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "The round did not deliver the parcel. It comes back to the depot, which scans it again before another round."
+    },
+    {
+      "code": "RECEIVER_PICKUP",
+      "wording": "Paket durch Empfänger abgeholt",
+      "stage": "delivered",
+      "language": "de",
+      "confirmedBy": "live",
+      "note": "Collected by the recipient from a Pickup point."
+    },
+    {
+      "code": "DELIVERED/ASG",
+      "wording": "Paket wurde erfolgreich abgestellt",
+      "stage": "delivered",
+      "language": "de",
+      "confirmedBy": "live",
+      "note": "Left at the place the recipient chose for parcels when nobody is in."
+    },
+    {
+      "code": "18",
+      "wording": "Auftragsdaten übermittelt",
+      "stage": "registered",
+      "language": "de",
+      "confirmedBy": "portal",
+      "note": "Seen on DPD's group tracker for DPD Austria parcels: the sender's data reached DPD."
+    },
+    {
+      "code": "18",
+      "wording": "Order information has been transmitted to DPD.",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "portal",
+      "note": "Seen on DPD's group tracker for DPD Austria parcels."
+    },
+    {
+      "code": "15",
+      "wording": "Paket an DPD übergeben",
+      "stage": "accepted",
+      "language": "de",
+      "confirmedBy": "portal",
+      "note": "Seen on DPD's group tracker at DPD Austria's Obertrum depot."
+    },
+    {
+      "code": "5",
+      "wording": "Paket unterwegs.",
+      "stage": "in_transit",
+      "language": "de",
+      "confirmedBy": "portal",
+      "note": "Seen on DPD's group tracker for DPD Austria parcels."
+    },
+    {
+      "code": "10",
+      "wording": "Paket unterwegs.",
+      "stage": "in_transit",
+      "language": "de",
+      "confirmedBy": "portal",
+      "note": "Seen on DPD's group tracker at a German hub for a parcel leaving Austria."
+    },
+    {
+      "code": "5",
+      "wording": "In transit.",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "portal",
+      "note": "Seen on DPD's group tracker for DPD Austria parcels."
+    },
+    {
+      "code": "2",
+      "wording": "Im Paketzustellzentrum.",
+      "stage": "in_transit",
+      "language": "de",
+      "confirmedBy": "portal",
+      "note": "At the delivering depot; seen on DPD's group tracker."
+    },
+    {
+      "code": "2",
+      "wording": "At parcel delivery centre.",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "portal",
+      "note": "At the delivering depot; seen on DPD's group tracker."
+    },
+    {
+      "code": "3",
+      "wording": "In Zustellung.",
+      "stage": "out_for_delivery",
+      "language": "de",
+      "confirmedBy": "portal",
+      "note": "Seen on DPD's group tracker for DPD Austria parcels."
+    },
+    {
+      "code": "3",
+      "wording": "Out for delivery.",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "portal",
+      "note": "Seen on DPD's group tracker for DPD Austria parcels."
+    },
+    {
+      "code": "14",
+      "wording": "Unsuccessful delivery attempt.",
+      "stage": "failed_attempt",
+      "language": "en",
+      "confirmedBy": "portal",
+      "note": "Seen on DPD's group tracker for DPD Austria parcels."
+    },
+    {
+      "code": "23",
+      "wording": "Delivered by driver to Pickup parcelshop.",
+      "stage": "ready_for_pickup",
+      "language": "en",
+      "confirmedBy": "portal",
+      "note": "The driver left the parcel at a Pickup parcelshop for collection."
+    },
+    {
+      "code": "13",
+      "wording": "Collected by consignee from Pickup parcelshop",
+      "stage": "delivered",
+      "language": "en",
+      "confirmedBy": "portal",
+      "note": "Seen on DPD's group tracker for DPD Austria parcels."
+    },
+    {
+      "code": "13",
+      "wording": "Erfolgreich zugestellt.",
+      "stage": "delivered",
+      "language": "de",
+      "confirmedBy": "portal",
+      "note": "Seen on DPD's group tracker at DPD Austria's Hörsching depot."
+    },
+    {
+      "wording": "Paket im Paketzustellzentrum",
+      "stage": "in_transit",
+      "language": "de",
+      "confirmedBy": "portal",
+      "note": "A step of the group tracker's progress bar, not a scan."
+    },
+    {
+      "wording": "Paket in Zustellung",
+      "stage": "out_for_delivery",
+      "language": "de",
+      "confirmedBy": "portal",
+      "note": "A step of the group tracker's progress bar, not a scan."
+    },
+    {
+      "wording": "Paket zugestellt",
+      "stage": "delivered",
+      "language": "de",
+      "confirmedBy": "portal",
+      "note": "A step of the group tracker's progress bar, not a scan."
+    }
+  ]
+}

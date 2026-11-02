@@ -1,0 +1,85 @@
+{
+  "id": "posta-faroe",
+  "displayName": "Posta (Faroe Islands)",
+  "aliases": [
+    "Posta",
+    "Postverk Føroya",
+    "Faroe Post",
+    "Faroe Islands Post",
+    "Posta Faroe Islands"
+  ],
+  "region": {
+    "countries": [
+      "FO"
+    ]
+  },
+  "brand": {
+    "color": "#006fb4"
+  },
+  "selectable": true,
+  "timezone": "Atlantic/Faroe",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "posta-faroe",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 814
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.posta.fo/en/private/send-receive/track-trace/{trackingNumber}",
+    "searchUrl": "https://www.posta.fo/en/private/send-receive/track-trace/",
+    "canaryUrl": "https://www.posta.fo/en/private/send-receive/track-trace/",
+    "shows": [
+      "status",
+      "history",
+      "location"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "origin_country",
+      "destination_country",
+      "offset_timestamps",
+      "pickup_point",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "posta.fo"
+      ],
+      "path": "^/(?:en|fo|da)/(?:private|business)/send-receive/track-trace/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "posta.fo"
+      ],
+      "pathPattern": "^/search/?$",
+      "params": [
+        "cc"
+      ]
+    }
+  ],
+  "detection": []
+}

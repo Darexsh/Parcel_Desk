@@ -1,0 +1,49 @@
+{
+  "carrier": "courier-plus-ng",
+  "records": [
+    {
+      "number": "2N14301296230",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240617220746/http://trackplus.courierplus-ng.com/track?query=2N14301296230",
+        "date": "2024-06-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste"
+        ]
+      },
+      "note": "Archived lookup on CourierPlus's own trackplus tracker address; the opened capture shows only the Trackplus app shell, so the history was not visible."
+    },
+    {
+      "number": "2N14301296233",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240617122006/http://trackplus.courierplus-ng.com/track?query=2N14301296233",
+        "date": "2024-06-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste"
+        ]
+      },
+      "note": "Archived lookup on CourierPlus's own trackplus tracker address; the capture was not opened and the address alone ties it to the carrier."
+    }
+  ]
+}

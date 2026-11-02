@@ -1,0 +1,29 @@
+{
+  "carrier": "integral-pack",
+  "records": [
+    {
+      "number": "2656 - P - 2732235",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20211028141221/https://www.integralpack.com.ar/seguimiento/",
+        "date": "2021-10-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "guía",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post",
+          "colis-prive"
+        ]
+      },
+      "note": "Integral Pack's former tracking page carries it as the guide in its result template, under 'Consulta de tracking.' with the state 'Entregado'; the page does not say whether it was a live shipment."
+    }
+  ]
+}

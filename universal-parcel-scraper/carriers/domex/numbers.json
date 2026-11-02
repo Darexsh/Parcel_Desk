@@ -1,0 +1,44 @@
+{
+  "carrier": "domex",
+  "records": [
+    {
+      "number": "300111725",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://domex.lk/api-document.php",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The first waybill number in the order-tracking example of Domex's own API documentation."
+    },
+    {
+      "number": "30140844",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://domex.lk/api-document.php",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The second waybill number in the order-tracking example of Domex's own API documentation."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "EstadoActual": {
+    "EstadoActualCodigo": 4,
+    "EstadoActualNombre": "Entregada",
+    "RazonActualCodigo": 0,
+    "RazonActualNombre": "",
+    "DescripcionEstadoActual": "¡Tu paquete ha sido entregado con éxito! Gracias por confiar en nosotros.",
+    "FechaUltimoEvento": "2026-05-12T11:40:05.997",
+    "UbicacionUltimoEvento": "VILLA EJEMPLO"
+  },
+  "Mapped": {
+    "step": 5,
+    "label": "Entregada"
+  },
+  "DatosEnvio": {
+    "Serie": 1234,
+    "Tipo": "P",
+    "Numero": 1,
+    "Remitente": "0000 -. S. S.",
+    "Destinatario": "Sample r. P.",
+    "Origen": "PUEBLO MUESTRA",
+    "Destino": "VILLA EJEMPLO",
+    "TipoPago": 2,
+    "TipoEntrega": 2,
+    "DireccionEntrega": "calle falsa, 123, X",
+    "AgenciaDestino": {
+      "Nombre": "VILLA EJEMPLO CENTRO",
+      "Direccion": "Avenida Muestra 100",
+      "TelefonoAtencionAlPublico": "Telefono",
+      "Latitud": -30.1234567,
+      "Longitud": -60.7654321
+    },
+    "DetalleBultos": {
+      "CantidadBultos": 2,
+      "PesoTotalKg": 3.5,
+      "Bultos": [
+        {
+          "Identificador": "1234-P-00000001-1",
+          "Talle": null,
+          "PesoKg": 2,
+          "AltoCm": 20,
+          "AnchoCm": 30,
+          "LargoCm": 40,
+          "UbicacionActual": "En VILLA EJEMPLO"
+        },
+        {
+          "Identificador": "1234-P-00000001-2",
+          "Talle": null,
+          "PesoKg": 1.5,
+          "AltoCm": 10,
+          "AnchoCm": 20,
+          "LargoCm": 30,
+          "UbicacionActual": "En VILLA EJEMPLO"
+        }
+      ]
+    }
+  },
+  "VentaEventos": [
+    {
+      "FechaYHora": "2026-05-08T18:25:44",
+      "LocalidadNombre": "PUEBLO MUESTRA",
+      "NombreEvento": "Creada"
+    },
+    {
+      "FechaYHora": "2026-05-10T17:31:23.347",
+      "LocalidadNombre": "VILLA EJEMPLO",
+      "NombreEvento": "En destino"
+    },
+    {
+      "FechaYHora": "2026-05-10T17:31:23.347",
+      "LocalidadNombre": "VILLA EJEMPLO",
+      "NombreEvento": "En destino"
+    },
+    {
+      "FechaYHora": "2026-05-12T11:40:05.997",
+      "LocalidadNombre": "VILLA EJEMPLO",
+      "NombreEvento": "Entregada"
+    }
+  ]
+}

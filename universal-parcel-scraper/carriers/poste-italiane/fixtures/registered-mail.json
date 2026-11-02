@@ -1,0 +1,61 @@
+{
+  "idTracciatura": "990000000010",
+  "tipoSpedizione": "C",
+  "tipoProdotto": "RACC. GENERICHE",
+  "esitoRicerca": "3",
+  "stato": "4",
+  "flagRitorno": false,
+  "sintesiStato": "Disponibile per il ritiro",
+  "azioni": "",
+  "flagNotifica": false,
+  "actionsMap": {
+    "Prenota": [
+      "https://www.poste.it/gestore-attese/index.html#/prenotazione/:frazionario/0000"
+    ]
+  },
+  "statoDaVerificare": false,
+  "listaMovimenti": [
+    {
+      "dataOra": 1767261600000,
+      "statoLavorazione": "da un nostro operatore presso l'Ufficio Postale",
+      "luogo": "Ufficio Postale PROVA 99 di VIA DI PROVA 1 PROVA XX.",
+      "flagRitorno": false,
+      "idUfficio": "99999",
+      "denominazioneUfficio": "PROVA 99",
+      "indirizzoUfficio": "VIA DI PROVA 1",
+      "capUfficio": "00000",
+      "comuneUfficio": "PROVA",
+      "provinciaUfficio": "XX",
+      "orarioUfficio": "08:20-13:35",
+      "box": "2"
+    },
+    {
+      "dataOra": 1767389400000,
+      "statoLavorazione": "in data",
+      "luogo": "PROVA XX",
+      "flagRitorno": false,
+      "idUfficio": "99998",
+      "denominazioneUfficio": "CENTRO DI PROVA",
+      "indirizzoUfficio": "VIA DI PROVA 2",
+      "capUfficio": "00000",
+      "comuneUfficio": "PROVA",
+      "provinciaUfficio": "XX",
+      "orarioUfficio": "",
+      "box": "3"
+    },
+    {
+      "dataOra": 1767427200000,
+      "statoLavorazione": "la spedizione sarà disponibile per il ritiro presso l'Ufficio Postale a partire dal 04/01/26 ",
+      "luogo": "Ufficio Postale PROVA CENTRO di VIA DI PROVA 3 PROVA XX.",
+      "flagRitorno": false,
+      "idUfficio": "99997",
+      "denominazioneUfficio": "PROVA CENTRO",
+      "indirizzoUfficio": "VIA DI PROVA 3",
+      "capUfficio": "00000",
+      "comuneUfficio": "PROVA",
+      "provinciaUfficio": "XX",
+      "orarioUfficio": "08:20-19:05",
+      "box": "4"
+    }
+  ]
+}

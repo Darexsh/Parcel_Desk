@@ -1,0 +1,82 @@
+{
+  "searchVO": {
+    "isAdmin": false,
+    "searchWord": "",
+    "type1": "",
+    "orderBy": "",
+    "status": "",
+    "addOnly": "N",
+    "tab": "",
+    "pdt": ""
+  },
+  "org.springframework.validation.BindingResult.searchVO": {
+    "target": {
+      "isAdmin": false,
+      "searchWord": "",
+      "type1": "",
+      "orderBy": "",
+      "status": "",
+      "addOnly": "N",
+      "tab": "",
+      "pdt": ""
+    },
+    "autoGrowNestedPaths": true,
+    "autoGrowCollectionLimit": 256,
+    "objectName": "searchVO",
+    "messageCodesResolver": {
+      "prefix": "",
+      "formatter": "PREFIX_ERROR_CODE"
+    },
+    "errors": [],
+    "suppressedFields": [],
+    "nestedPath": "",
+    "nestedPathStack": []
+  },
+  "data": {
+    "branArvlTelno": "051-000-0003",
+    "branSndnTelno": "032-000-0004",
+    "wrapStatus": "기타",
+    "count": "2",
+    "prodRegDt": "2026-10-13 18:05:44",
+    "rvCustAddr": "가상시 샘플구 예시로 3",
+    "snCustEtcTel": "",
+    "snCustDaddr": "",
+    "rvCustEtcTel": "",
+    "rvCustDaddr": "",
+    "prodCode": "2000000000002",
+    "snCustAddr": "예시시 가상구 샘플길 4",
+    "rvCustTel": "010-0000-****",
+    "scanList": [
+      {
+        "strtPointNm": "자차카9",
+        "scanDt": "2026-10-13 18:05:44.987",
+        "strtPointTelno": "032-000-0004",
+        "scanType": "0002",
+        "scanTypeNm": "발송"
+      },
+      {
+        "strtPointNm": "타파하1234",
+        "scanDt": "2026-10-14 01:12:09",
+        "strtPointTelno": "-",
+        "scanType": "0004",
+        "scanTypeNm": "노선상차"
+      },
+      {
+        "strtPointNm": "하나둘",
+        "scanDt": "2026-10-14 05:48:30",
+        "strtPointTelno": "051-000-0003",
+        "scanType": "0006",
+        "scanTypeNm": "도착"
+      }
+    ],
+    "branSndnNm": "자차카9",
+    "signAttchFiles": [],
+    "rvCustNm": "김*수",
+    "prodName": "예시물품",
+    "acctType": "0009",
+    "branArvlNm": "하나둘",
+    "snCustNm": "가상물산",
+    "snCustTel": "010-0000-0001"
+  },
+  "result": "suc"
+}

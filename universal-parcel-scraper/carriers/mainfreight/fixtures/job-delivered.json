@@ -1,0 +1,19 @@
+[{"shortCode":"CW","reference":"ZZHBL9990001","fullReference":"S09990001","url":"CW/S09990001","mainchainUrl":"https://www.mainchain.net/","status":"Delivered","statusDateUtc":"2026-03-05T10:15:20","journey":"Sampleport to Exampleton","documentJourney":null,
+ "hero":{"status":"Delivered","statusDateUtc":"2026-03-05T10:15:20","colour":"green","icon":"icon-status delivered","additionalDetails":[{"value":"5 March 2026, 10:15 AM","cssClass":"","link":""},{"value":"Exampleton local time","cssClass":"","link":""}]},
+ "contacts":[{"type":null,"name":null,"email":null,"businessPhone":null,"faxPhone":null,"streetAddress":null,"postalAddress":null,"openingHours":null,"url":"https://www.example.com/company-directory"}],
+ "details":[{"groupName":"Details","items":[{"label":"HBL Number","value":"ZZHBL9990001"},{"label":"Origin Port","value":"Sampleport"},{"label":"Destination Port","value":"Exampleton"},{"label":"Transport Mode","value":"SEA"},{"label":"Pieces","value":"3"},{"label":"Weight","value":"1200 KG"},{"label":"Cubic","value":"4.500 M3"},{"label":"Estimated Delivery Date","value":"5 March 2026, 9:00 AM"}]}],
+ "timelineDetails":[
+  {"status":"Cargo Delivered","colour":"green","additionalDetails":[{"value":"10:15 AM","cssClass":"","link":""},{"value":"5 March 2026","cssClass":"","link":""}]},
+  {"status":"Cargo Delivered","colour":"green","additionalDetails":[{"value":"10:15 AM","cssClass":"","link":""},{"value":"5 March 2026","cssClass":"","link":""}]},
+  {"status":"Cargo Available","colour":"grey","additionalDetails":[{"value":"2:30 PM","cssClass":"","link":""},{"value":"2 March 2026","cssClass":"","link":""}]},
+  {"status":"Customs Clearance Finalised","colour":"grey","additionalDetails":[{"value":"11:05 AM","cssClass":"","link":""},{"value":"2 March 2026","cssClass":"","link":""}]},
+  {"status":"Customs Clearance Commenced","colour":"grey","additionalDetails":[{"value":"9:40 AM","cssClass":"","link":""},{"value":"1 March 2026","cssClass":"","link":""}]},
+  {"status":"Arrival at Final Discharge Port","colour":"grey","additionalDetails":[{"value":"6:20 AM","cssClass":"","link":""},{"value":"28 February 2026 (Actual)","cssClass":"","link":""}]},
+  {"status":"Departure from First Load Port","colour":"grey","additionalDetails":[{"value":"","cssClass":"","link":""},{"value":"9 February 2026 (Actual)","cssClass":"","link":""}]},
+  {"status":"Origin Customs Cleared","colour":"blue","additionalDetails":[{"value":"4:12 PM","cssClass":"","link":""},{"value":"5 February 2026","cssClass":"","link":""}]},
+  {"status":"Pick up Cartage Complete","colour":"blue","additionalDetails":[{"value":"1:19 PM","cssClass":"","link":""},{"value":"4 February 2026","cssClass":"","link":""}]},
+  {"status":"Pickup Cartage Advised","colour":"blue","additionalDetails":[{"value":"9:49 AM","cssClass":"","link":""},{"value":"30 January 2026","cssClass":"","link":""}]},
+  {"status":"Booking Confirmation Sent","colour":"blue","additionalDetails":[{"value":"9:50 AM","cssClass":"","link":""},{"value":"30 January 2026","cssClass":"","link":""}]}
+ ],
+ "worm":[{"active":true,"status":"Received","colour":"blue","icon":"icon-status picked-up"},{"active":true,"status":"In Transit","colour":"grey","icon":"icon-status in-transit"},{"active":true,"status":"Delivered","colour":"green","icon":"icon-status delivered"}],
+ "serviceAlertTitle":null,"serviceAlert":null,"subscriptionPayload":"SYNTHETIC-SUBSCRIPTION-KEY","watchlistPayload":"SYNTHETIC-WATCHLIST-KEY","serviceTypeCode":"AirAndOcean","eventTypeCode":"StatusUpdate","documentTypeName":"Shipment","attachments":null}]

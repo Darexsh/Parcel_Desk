@@ -1,0 +1,17 @@
+{
+  "carrier": "pdq-chile",
+  "entries": [
+    {"code": "ALTA", "stage": "registered", "language": "es", "confirmedBy": "bundle", "note": "The tracking page's progress rail puts this scan code at its first step, En preparación, before the shipment leaves."},
+    {"code": "CPCE", "wording": "En viaje a destino", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Scanned at the origin centre as the shipment leaves for the destination branch."},
+    {"code": "LLCD", "stage": "in_transit", "language": "es", "confirmedBy": "bundle", "note": "The tracking page's progress rail puts this scan code at its En tu ciudad step, beside LLEG."},
+    {"code": "LLEG", "wording": "Llego a tu ciudad", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Scanned at the destination branch on arrival."},
+    {"code": "REPA", "wording": "En reparto", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live", "note": "The page counts these scans as delivery attempts."},
+    {"code": "ENTR", "wording": "Entregado", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Its detail line names who received the parcel and the driver."},
+    {"wording": "EN PREPARACIÓN", "stage": "registered", "language": "es", "confirmedBy": "bundle", "note": "The shipment's estado before it leaves: the first step of the tracking page's progress rail."},
+    {"wording": "TRÁNSITO", "stage": "in_transit", "language": "es", "confirmedBy": "bundle", "note": "The shipment's estado on its way, which the page labels En tránsito."},
+    {"wording": "EN TU CIUDAD", "stage": "in_transit", "language": "es", "confirmedBy": "bundle", "note": "The shipment's estado once it reached the destination city."},
+    {"wording": "REPARTO", "stage": "out_for_delivery", "language": "es", "confirmedBy": "bundle", "note": "The shipment's estado while it is out for delivery, which the page labels En reparto."},
+    {"wording": "LISTA PARA RETIRO", "stage": "ready_for_pickup", "language": "es", "confirmedBy": "bundle", "note": "The page's label in place of the delivery step when its notice asks the recipient to collect the shipment at a branch."},
+    {"wording": "ENTREGADA", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "The shipment's estado once delivered."}
+  ]
+}

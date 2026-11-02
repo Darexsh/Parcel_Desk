@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Safe Way Express Cargo</title>
+</head>
+<body dir="ltr">
+    <!-- Main Content Start -->
+
+
+<!-- Tracking Section -->
+<section class="section tracking-section">
+    <div class="container">
+        <div class="section-header text-center compact-header">
+            <h2>Track Your Shipment</h2>
+            <div class="section-divider mx-auto mb-3"></div>
+        </div>
+        
+                <div class="minimalist-tracking-form-container mb-4">
+            <form id="trackingForm" class="minimalist-tracking-form" method="get" action="">
+                <div class="minimalist-form-wrapper">
+                    <div class="barcode-icon">
+                        <i class="fas fa-barcode"></i>
+                    </div>
+                    <div class="tracking-input-wrapper">
+                        <input type="text" id="trackingNumber" class="minimalist-input" name="awb" value="BH99000025" placeholder="Enter your tracking number" required>
+                    </div>
+                    <div class="track-button-wrapper">
+                        <button type="submit" class="track-circle-btn">Track</button>
+                    </div>
+                </div>
+            </form>
+            <div class="mt-2 text-center">
+                <small class="text-muted">Example: BH99000017</small>
+            </div>
+        </div>
+        
+        <!-- Tracking Results -->
+                <div id="trackingResults" class="tracking-results">
+                            <div class="alert alert-warning tracking-alert">
+                    <div class="alert-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                    <div class="alert-content">
+                        <h5>Tracking Information Not Found</h5>
+                        <p>Unable to track this shipment. Please verify the tracking number.</p>
+                    </div>
+                </div>
+                    </div>
+                
+        
+
+<!-- How to Track Section -->
+<section class="section how-to-track py-4">
+    <div class="container">
+        <h2 class="h3">How to Track Your Shipment</h2>
+    </div>
+</section>
+
+</div>
+    <!-- Main Content End -->
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "id": "airwings-india",
+  "displayName": "Airwings India",
+  "aliases": [
+    "Airwings Courier Express India",
+    "Airwings Courier Express (India) Pvt. Ltd.",
+    "Airwings Logistics",
+    "Airwings Logistics Pvt. Ltd.",
+    "Airwings Logistics Private Limited"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#007cf0"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://airwingsindia.com/tracking.html?awbno={trackingNumber}",
+    "searchUrl": "https://airwingsindia.com/tracking.html",
+    "canaryUrl": "https://airwingsindia.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "airwingsindia.com",
+        "www.airwingsindia.com"
+      ],
+      "pathPattern": "^/tracking\\.html$",
+      "params": [
+        "awbno"
+      ]
+    }
+  ],
+  "detection": []
+}

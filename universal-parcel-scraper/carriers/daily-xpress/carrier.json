@@ -1,0 +1,46 @@
+{
+  "id": "daily-xpress",
+  "displayName": "Daily Xpress",
+  "aliases": [
+    "Daily Xpress Courier & Cargo",
+    "Daily Xpress Courier Cargo"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#953995"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.dailyxpress.in/searchAwb.php?awb={trackingNumber}",
+    "searchUrl": "https://www.dailyxpress.in/",
+    "canaryUrl": "https://www.dailyxpress.in/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.dailyxpress.in",
+        "dailyxpress.in"
+      ],
+      "pathPattern": "^/searchAwb\\.php$",
+      "params": [
+        "awb"
+      ]
+    }
+  ],
+  "detection": []
+}

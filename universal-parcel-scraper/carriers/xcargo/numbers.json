@@ -1,0 +1,28 @@
+{
+  "carrier": "xcargo",
+  "records": [
+    {
+      "number": "4833098070734093",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.crcom.gov.co/sites/default/files/normatividad/2025517160.pdf",
+        "date": "2025-06-06",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "The communications regulator's reply about a SHEIN parcel gives this guía number; X-Cargo's tracker finds it, delivered."
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "carrier": "tiki",
+  "records": [
+    {
+      "number": "030104297323",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20181001173007/http://mobile.tiki.id:80/resi/030104297323",
+        "date": "2018-10-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "An opened capture of TIKI's mobile tracker shows this REG resi in eight pieces, from data entry in Denpasar through Palembang to delivery; sender and receiver details were not copied."
+    },
+    {
+      "number": "030104595356",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20181201083239/http://mobile.tiki.id:80/resi/030104595356",
+        "date": "2018-12-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "An opened capture of TIKI's mobile tracker shows this REG resi in several pieces, from data entry in Jakarta Pusat to arrival at TIKI Manado; sender and receiver details were not copied."
+    },
+    {
+      "number": "030115178490",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20181210085655/http://mobile.tiki.id:80/resi/030115178490",
+        "date": "2018-12-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "purolator",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "An archived lookup on TIKI's mobile tracker; the capture was not opened. TIKI's tracking service shows it in several pieces, all delivered."
+    },
+    {
+      "number": "660032157360",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210813041525/https://tiki.id/id/track/660032157360",
+        "date": "2021-08-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "An archived lookup on TIKI's own tracker; the opened capture shows the number filled into the search form, but the history was not visible. TIKI's tracking service shows it delivered."
+    },
+    {
+      "number": "660086160013",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2024/12/18/tanggapan/tanggapan-perihal-status-paket-dari-tiki-sudah-sampai-tapi-saya-tidak-terima",
+        "date": "2024-12-18",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "TIKI's reply on Media Konsumen gives it as the resi of the shipment it rechecked. TIKI's tracking service shows a delivery, then the parcel held at TIKI on request."
+    },
+    {
+      "number": "660075788504",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2024/04/17/tanggapan/tanggapan-perihal-buruknya-layanan-pengiriman-paket-tiki-sehingga-orderan-tidak-dapat-dikirimkan-maupun-dibatalkan",
+        "date": "2024-04-17",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "TIKI's reply on Media Konsumen gives it as the resi of a pickup order it cancelled and refunded. TIKI's tracking service shows its data entry, then the shipment cancelled."
+    },
+    {
+      "number": "600003451780",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2023/05/05/surat-pembaca/kurir-tiki-tidak-jelas-kirim-paket-gagal-kirim-sepihak-tanpa-konfirmasi",
+        "date": "2023-05-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A Media Konsumen letter gives it as the resi a TIKI courier messaged about. TIKI's tracking service shows failed deliveries for an incomplete address and a return to the sender."
+    },
+    {
+      "number": "030209240746",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2021/07/19/surat-pembaca/kecewa-dengan-tiki-batang-sistem-cod-tapi-tidak-mau-antar-paket-namun-seller-dikenakan-ongkir-pp",
+        "date": "2021-07-19",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "dpd-fr",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A Media Konsumen letter gives it as the resi of a COD parcel sent with TIKI Reg. TIKI's tracking service shows failed deliveries and a return to the sender."
+    }
+  ]
+}

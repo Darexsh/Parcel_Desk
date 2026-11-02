@@ -1,0 +1,116 @@
+{
+  "id": "mailplus-au",
+  "displayName": "MailPlus",
+  "aliases": [
+    "Mail Plus",
+    "Mailplus",
+    "MailPlus Australia",
+    "MailPlus Pty Ltd"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#025d7c"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "mailplus-au",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 699
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "offset_timestamps",
+    "delivered_at",
+    "eta",
+    "eta_window",
+    "service_name",
+    "weight",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://track.mailplus.com.au/{trackingNumber}",
+    "searchUrl": "https://track.mailplus.com.au/",
+    "canaryUrl": "https://track.mailplus.com.au/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at",
+      "eta",
+      "eta_window",
+      "service_name",
+      "weight",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "progress_rail",
+      "customer_reference",
+      "recipient_name",
+      "origin",
+      "destination"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at",
+      "eta",
+      "eta_window",
+      "service_name",
+      "weight",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "customer_reference",
+      "recipient_name",
+      "origin",
+      "destination"
+    ],
+    "unavailable": [
+      "sender_name",
+      "proof_of_delivery",
+      "signatory",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "track.mailplus.com.au"
+      ],
+      "path": "^/(?=[A-Za-z]*\\d)([A-Za-z0-9]+)/?$"
+    },
+    {
+      "domains": [
+        "track.mailplus.com.au"
+      ],
+      "path": "^/old/([A-Za-z0-9]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "mailplus-au-1",
+      "pattern": "^MPX\\d{9}$",
+      "confidence": "low"
+    }
+  ]
+}

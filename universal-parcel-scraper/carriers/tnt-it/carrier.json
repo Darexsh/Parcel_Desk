@@ -1,0 +1,93 @@
+{
+  "id": "tnt-it",
+  "displayName": "TNT Italy",
+  "aliases": [
+    "TNT Italia"
+  ],
+  "region": {
+    "countries": [
+      "IT"
+    ]
+  },
+  "brand": {
+    "color": "#ff6600"
+  },
+  "selectable": true,
+  "timezone": "Europe/Rome",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "tnt-it",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 645
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.tnt.it/tracking/getTrack.html?wt=1&consigNos={trackingNumber}",
+    "searchUrl": "https://www.tnt.it/tracking/Tracking.do",
+    "helpUrl": "https://www.tnt.com/express/it_it/site/support/numero-unico.html",
+    "canaryUrl": "https://www.tnt.it/tracking/Tracking.do",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "origin",
+      "destination",
+      "parcel_count",
+      "customer_reference",
+      "signatory"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "provider_code"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "parcel_count",
+      "customer_reference",
+      "signatory"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tnt.it"
+      ],
+      "pathPattern": "^/tracking/getTrack\\.html$",
+      "params": [
+        "consigNos"
+      ],
+      "ownNumbersOnly": true
+    }
+  ],
+  "detection": [
+    {
+      "id": "tnt-it-1",
+      "pattern": "^[A-Z]{2}\\d{8}$",
+      "confidence": "low"
+    },
+    {
+      "id": "tnt-it-check",
+      "pattern": "^[A-Z]{2}\\d{9}$",
+      "rawPattern": "^[A-Z]{2} ?\\d{8} ?- ?\\d$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

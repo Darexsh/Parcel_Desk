@@ -1,0 +1,102 @@
+{
+  "message": "Order information",
+  "type": "success",
+  "code": 200,
+  "data": {
+    "order": {
+      "order_id": 100000001,
+      "consignment": "DB110526SMPL02",
+      "order_type_id": 1,
+      "collectable_amount": 0,
+      "collected_amount": 0,
+      "transfer_status": "Ready For Delivery",
+      "ts_id": 11,
+      "transfer_status_updated_at": "13 May, 2026 11:10 AM",
+      "merchant_logo": "https://cdn.pathao.com/hermes/hermes_sample.jpg?exp=1800000000&sig=0000",
+      "created_at": "May 11, 2026 8:20 PM",
+      "order_description": "Sample item for a sample buyer",
+      "cash_on_delivery": "No",
+      "payment_status_id": 0,
+      "show_dp_notice": false,
+      "is_ecom_merchant": "No",
+      "c2c_info": null,
+      "delivery_hub_latitude": "23.000000",
+      "delivery_hub_longitude": "90.000000",
+      "can_reschedule_delivery": false,
+      "reschedule_status": null,
+      "rescheduled_date": null,
+      "total_payment_amount": 0,
+      "payment_methods": [
+        {
+          "name": "Cash Payment",
+          "logo": "/pathao-cdn/payment-method-icons/cash-payment.png",
+          "type": "CASH_ON_DELIVERY",
+          "amount": 0
+        }
+      ],
+      "estimated_date": "May 14-15, 2026"
+    },
+    "state": {
+      "name": "Ready For Delivery",
+      "id": 4,
+      "transition_id": 1
+    },
+    "log": [
+      {
+        "desc": "Pickup requested.",
+        "created_at": "May 11, 2026 8:20 PM",
+        "notes": "",
+        "grouped_status": [
+          "Accepted",
+          "Accepted",
+          1,
+          1
+        ]
+      },
+      {
+        "desc": "Order confirmed.",
+        "created_at": "May 11, 2026 8:41 PM",
+        "notes": "",
+        "grouped_status": [
+          "Accepted",
+          "Accepted",
+          1,
+          1
+        ]
+      },
+      {
+        "desc": "Received at pickup hub: Sample Central Hub.",
+        "created_at": "May 12, 2026 2:05 AM",
+        "notes": "",
+        "grouped_status": [
+          "Picked",
+          "Picked",
+          2,
+          2
+        ]
+      },
+      {
+        "desc": "Dispatched from Sample Central Hub.",
+        "created_at": "May 12, 2026 2:49 AM",
+        "notes": "",
+        "grouped_status": [
+          "In-Transit",
+          "In-Transit",
+          3,
+          1
+        ]
+      },
+      {
+        "desc": "Dispatched from Central Processing OSD.",
+        "created_at": "May 13, 2026 5:32 AM",
+        "notes": "",
+        "grouped_status": [
+          "In-Transit",
+          "In-Transit",
+          3,
+          1
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "status": "Out for delivery",
+  "consignmentState": "active",
+  "consignmentStatusTitle": "We're delivering your parcel",
+  "consignmentMilestone": "out-for-delivery",
+  "showCallUs": false,
+  "shortConsignmentId": "01234567",
+  "toolTip": "",
+  "consignmentId": "FW.CH..01234567",
+  "pickupDateTime": "2026-02-16T02:15:00Z",
+  "onboardDateTime": "2026-02-18T18:05:09.31Z",
+  "ETA": "Thursday, 19 February",
+  "eptlAvailable": false,
+  "consignmentItems": [
+    {
+      "consignmentItemId": "FW.CH..01234567.1",
+      "partNumber": "01",
+      "trackingEvents": [
+        {
+          "barcode": "01234567",
+          "eventType": "LC",
+          "status": "Label Created",
+          "createdOn": "2026-02-15T21:00:00Z",
+          "carrierName": "PostHaste",
+          "attachments": []
+        },
+        {
+          "barcode": "01234567",
+          "eventType": "P",
+          "status": "Picked Up",
+          "createdOn": "2026-02-16T02:15:00Z",
+          "createdBy": "00-000",
+          "carrierName": "PostHaste",
+          "branchCode": "SMP",
+          "runNumber": "100",
+          "location": { "suburb": "Sample Park", "town": "SAMPLETON", "region": "Sample City", "postCode": "0000", "country": "New Zealand" },
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "01234567",
+          "eventType": "STAT",
+          "eventSubType": "RZDEL",
+          "status": "Your consignment is destined for a rural/non-urban zone. Please allow an additional 2-3 days for delivery.",
+          "createdOn": "2026-02-16T14:40:00Z",
+          "createdBy": "00-000",
+          "carrierName": "PostHaste",
+          "branchCode": "SMH",
+          "runNumber": "200",
+          "location": { "suburb": "Sample Hills North", "region": "Sample District", "postCode": "0000", "country": "New Zealand" },
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "01234567",
+          "eventType": "ONBD",
+          "status": "Out for Delivery",
+          "createdOn": "2026-02-18T18:05:09.31Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMV",
+          "runNumber": "300",
+          "locationIdType": false,
+          "attachments": []
+        }
+      ]
+    }
+  ]
+}

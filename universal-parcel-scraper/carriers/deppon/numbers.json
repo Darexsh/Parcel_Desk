@@ -1,0 +1,170 @@
+{
+  "carrier": "deppon",
+  "records": [
+    {
+      "number": "8174005017",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-deppon.html",
+        "date": "2021-08-08",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "A customer review on TrackingMore's DEPPON review page gives it as the waybill of a parcel last scanned leaving the Xiamen transit centre."
+    },
+    {
+      "number": "8174044097",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-deppon.html",
+        "date": "2021-10-14",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "A customer review on TrackingMore's DEPPON review page gives it as the waybill of a parcel held in customs clearance."
+    },
+    {
+      "number": "8174056960",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-deppon.html",
+        "date": "2021-11-02",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "A customer review on TrackingMore's DEPPON review page gives it as the number of a parcel sent from Guangzhou to Taiwan and held in customs clearance."
+    },
+    {
+      "number": "8174060570",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-deppon.html",
+        "date": "2021-11-03",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "A customer review on TrackingMore's DEPPON review page gives it as the goods number of a shipment still showing freight to collect."
+    },
+    {
+      "number": "8173505659",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-deppon.html?p=2",
+        "date": "2019-04-09",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "A customer review on TrackingMore's DEPPON review page gives it as the goods number of a box sent from Shanghai to Taiwan."
+    },
+    {
+      "number": "DPK212604897303",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ccwb.cn/content/202510/23/c813242.html",
+        "date": "2025-10-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "quarantine"
+      },
+      "quarantine": true,
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A published enforcement notice identifies a Deppon waybill. Retained as quarantined scope evidence; the current tracking service has not confirmed it."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "mds-collivery",
+  "displayName": "MDS Collivery",
+  "aliases": [
+    "Collivery",
+    "Collivery.net"
+  ],
+  "region": {
+    "countries": [
+      "ZA"
+    ]
+  },
+  "brand": {
+    "color": "#00823d"
+  },
+  "selectable": true,
+  "timezone": "Africa/Johannesburg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "mds-collivery",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 705
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://collivery.net/tracking?waybill={trackingNumber}",
+    "searchUrl": "https://collivery.net/tracking",
+    "canaryUrl": "https://collivery.net/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps",
+      "progress_rail",
+      "eta",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "notices"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "progress_rail",
+      "eta",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "notices"
+    ],
+    "unavailable": [
+      "provider_code",
+      "weight",
+      "service_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "collivery.net"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "waybill"
+      ]
+    },
+    {
+      "domains": [
+        "quote.collivery.co.za"
+      ],
+      "pathPattern": "^/tracking\\.php$",
+      "params": [
+        "waybillNo"
+      ]
+    }
+  ],
+  "detection": []
+}

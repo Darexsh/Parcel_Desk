@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "total_found": 1,
+    "total_not_found": 0,
+    "found": ["OMGO0000000000001"],
+    "not_found": [],
+    "tracking_data": [{
+      "trackingNumber": "OMGO0000000000001",
+      "destinationCountry": "CA",
+      "shippingMethod": "OMGO Express",
+      "invoiceCode": "PRIVATE-SYNTHETIC-INVOICE",
+      "trackingLocation": "",
+      "lastTrackMessage": "Completed Unloading at Delivery Location",
+      "status": "completed unloading at delivery location",
+      "statusClass": "shi-status-default",
+      "lastTrackTime": "2026-01-05 10:45:30",
+      "trackHistory": [
+        {"location": "Example delivery facility", "time": "2026-01-05 10:45", "message": "Completed Unloading at Delivery Location"},
+        {"location": "Example terminal", "time": "2026-01-04 14:20", "message": "Loaded on Truck"},
+        {"location": "", "time": "2026-01-03 17:00", "message": "Cleared Customs"},
+        {"location": "Example export facility", "time": "2026-01-02 08:00", "message": "Tendered for Delivery"},
+        {"location": "Example origin facility", "time": "2026-01-01 16:00", "message": "Pickup Scan"},
+        {"location": "", "time": "2026-01-01 10:00", "message": "shipping label created"},
+        {"location": "", "time": "2026-01-01 09:00", "message": "Shipment information received"}
+      ]
+    }]
+  }
+}

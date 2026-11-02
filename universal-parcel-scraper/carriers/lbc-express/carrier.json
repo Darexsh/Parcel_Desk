@@ -1,0 +1,66 @@
+{
+  "id": "lbc-express",
+  "displayName": "LBC Express",
+  "aliases": [
+    "LBC"
+  ],
+  "region": {
+    "countries": [
+      "PH"
+    ]
+  },
+  "brand": {
+    "color": "#e30613"
+  },
+  "selectable": true,
+  "timezone": "Asia/Manila",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "lbc-express",
+    "steps": [
+      "direct",
+      "browser"
+    ],
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history"
+  ],
+  "portal": {
+    "canaryUrl": "https://www.lbcexpress.com/track/",
+    "shows": [
+      "status",
+      "history"
+    ],
+    "scraped": [
+      "status",
+      "history"
+    ],
+    "discarded": [
+      "recipient_name"
+    ],
+    "unavailable": [
+      "eta",
+      "delivered_at",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "lbcexpress.com"
+      ],
+      "params": [
+        "tracking_no"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "lbc-domestic",
+      "pattern": "^\\d{12}$",
+      "confidence": "low"
+    }
+  ]
+}

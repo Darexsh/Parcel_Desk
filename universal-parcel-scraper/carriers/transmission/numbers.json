@@ -1,0 +1,27 @@
+{
+  "carrier": "transmission",
+  "records": [
+    {
+      "number": "T39001898036421",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.klacht.nl/transmission/klacht/pakket-niet-bezorgd-met-zendingnummer-t-39-001898-036421/",
+        "date": "2026-07-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "transmission"
+        ]
+      },
+      "note": "A complaint filed against TransMission on Klacht.nl gives it as the zendingnummer of an undelivered parcel."
+    }
+  ]
+}

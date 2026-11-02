@@ -1,0 +1,91 @@
+{
+  "mailGuid": "9a000000-0000-4000-8000-000000000018",
+  "mailBarcode": "RR900000053LT",
+  "mails": [
+    {
+      "mailGuid": "9a000000-0000-4000-8000-000000000018",
+      "mailBarcode": "RR900000053LT",
+      "type": "None",
+      "events": [
+        {
+          "publicStateType": "LABEL_CREATED",
+          "publicStateText": "Label created",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000012",
+          "mailBarcode": "RR900000053LT",
+          "eventDate": "2026-07-01T10:00:00+03:00",
+          "countryCode": "LT",
+          "publicEventType": "LABEL_CREATED",
+          "publicEventText": "The label for the parcel has been created",
+          "location": "Savitarna"
+        },
+        {
+          "publicStateType": "PARCEL_RECEIVED",
+          "publicStateText": "Parcel accepted",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000013",
+          "mailBarcode": "RR900000053LT",
+          "eventDate": "2026-07-01T14:05:30.017+03:00",
+          "countryCode": "LT",
+          "publicEventType": "ACCEPTED",
+          "publicEventText": "Parcel received",
+          "location": "Example Town 1-asis paštas, Sample g. 3, Example Town"
+        },
+        {
+          "publicStateType": "ON_THE_WAY",
+          "publicStateText": "Sent to receiver",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000014",
+          "mailBarcode": "RR900000053LT",
+          "eventDate": "2026-07-02T01:15:00+03:00",
+          "countryCode": "LT",
+          "publicEventType": "RECEIVED_LC",
+          "publicEventText": "The parcel is at the distribution center",
+          "location": "Vilnius"
+        },
+        {
+          "publicStateType": "ON_THE_WAY",
+          "publicStateText": "Sent to receiver",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000015",
+          "mailBarcode": "RR900000053LT",
+          "eventDate": "2026-07-02T13:40:00+03:00",
+          "countryCode": "LT",
+          "publicEventType": "DELIVERY_EXPORTED",
+          "publicEventText": "The parcel has been sent abroad",
+          "location": "Vilnius"
+        },
+        {
+          "publicStateType": "ON_THE_WAY",
+          "publicStateText": "Sent to receiver",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000016",
+          "mailBarcode": "RR900000053LT",
+          "eventDate": "2026-07-03T19:20:00+03:00",
+          "countryCode": "SI",
+          "publicEventType": "RECEIVED_RECEIVER_LC",
+          "publicEventText": "The parcel was received at the distribution center of the recipient's (or transit) country",
+          "location": "Slovėnija"
+        },
+        {
+          "publicStateType": "ON_THE_WAY",
+          "publicStateText": "Sent to receiver",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000017",
+          "mailBarcode": "RR900000053LT",
+          "eventDate": "2026-07-03T19:20:00+03:00",
+          "countryCode": "SI",
+          "publicEventType": "DEPARTED_RECEIVER_LC",
+          "publicEventText": "The parcel is sent from the distribution center of the recipient's (or transit) country",
+          "location": "Slovėnija"
+        }
+      ]
+    }
+  ]
+}

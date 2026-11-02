@@ -1,0 +1,168 @@
+{
+  "message": "Order information",
+  "type": "success",
+  "code": 200,
+  "data": {
+    "order": {
+      "order_id": 100000001,
+      "consignment": "DC090526SMPL03",
+      "order_type_id": 1,
+      "collectable_amount": 2200,
+      "collected_amount": 0,
+      "transfer_status": "Return",
+      "ts_id": 25,
+      "transfer_status_updated_at": "12 May, 2026 6:13 PM",
+      "merchant_logo": "https://cdn.pathao.com/hermes/hermes_sample.jpg?exp=1800000000&sig=0000",
+      "created_at": "May 9, 2026 6:49 PM",
+      "order_description": "Sample item for a sample buyer",
+      "cash_on_delivery": "Yes",
+      "payment_status_id": 0,
+      "show_dp_notice": false,
+      "is_ecom_merchant": "No",
+      "c2c_info": null,
+      "delivery_hub_latitude": "23.000000",
+      "delivery_hub_longitude": "90.000000",
+      "can_reschedule_delivery": false,
+      "reschedule_status": null,
+      "rescheduled_date": null,
+      "total_payment_amount": 2200,
+      "payment_methods": [
+        {
+          "name": "Cash Payment",
+          "logo": "/pathao-cdn/payment-method-icons/cash-payment.png",
+          "type": "CASH_ON_DELIVERY",
+          "amount": 2200
+        }
+      ],
+      "estimated_date": ""
+    },
+    "state": {
+      "name": "Return",
+      "id": 6,
+      "transition_id": 2
+    },
+    "log": [
+      {
+        "desc": "New Delivery Requested",
+        "created_at": "May 9, 2026 6:49 PM",
+        "notes": "",
+        "grouped_status": [
+          "Accepted",
+          "Accepted",
+          1,
+          1
+        ]
+      },
+      {
+        "desc": "Your order has been confirmed",
+        "created_at": "May 9, 2026 6:49 PM",
+        "notes": "",
+        "grouped_status": [
+          "Accepted",
+          "Accepted",
+          1,
+          1
+        ]
+      },
+      {
+        "desc": "Your order is being sorted.",
+        "created_at": "May 9, 2026 11:28 PM",
+        "notes": "",
+        "grouped_status": [
+          "Picked",
+          "Picked",
+          2,
+          2
+        ]
+      },
+      {
+        "desc": "Your order On The Way To OSD Central Hub",
+        "created_at": "May 10, 2026 1:15 AM",
+        "notes": "",
+        "grouped_status": [
+          "In-Transit",
+          "In-Transit",
+          3,
+          1
+        ]
+      },
+      {
+        "desc": "Your order has reached the OSD sorting facility.",
+        "created_at": "May 10, 2026 9:28 AM",
+        "notes": "",
+        "grouped_status": [
+          "In-Transit",
+          "In-Transit",
+          3,
+          1
+        ]
+      },
+      {
+        "desc": "OSD On The Way To Sample Town (Last Mile) Hub",
+        "created_at": "May 10, 2026 9:58 AM",
+        "notes": "",
+        "grouped_status": [
+          "In-Transit",
+          "In-Transit",
+          3,
+          1
+        ]
+      },
+      {
+        "desc": "Your order has received by Last mile hub",
+        "created_at": "May 11, 2026 11:06 AM",
+        "notes": "",
+        "grouped_status": [
+          "Ready For Delivery",
+          "Ready For Delivery",
+          4,
+          1
+        ]
+      },
+      {
+        "desc": "Our Deliver man (Sample Rider(S 0000)-01000000002) has picked-up you order for Delivery",
+        "created_at": "May 11, 2026 1:22 PM",
+        "notes": "",
+        "grouped_status": [
+          "Ready For Delivery",
+          "Ready For Delivery",
+          4,
+          1
+        ]
+      },
+      {
+        "desc": "Your order is being held at Delivery hub",
+        "created_at": "May 11, 2026 7:59 PM",
+        "notes": "Customer did not answer, merchant Sample Seller informed",
+        "grouped_status": [
+          "On Hold",
+          "On Hold",
+          5,
+          3
+        ]
+      },
+      {
+        "desc": "Our Deliver man (Sample Rider(S 0000)-01000000002) has picked-up you order for Delivery",
+        "created_at": "May 12, 2026 9:36 AM",
+        "notes": "",
+        "grouped_status": [
+          "Ready For Delivery",
+          "Ready For Delivery",
+          4,
+          1
+        ]
+      },
+      {
+        "desc": "Your order has been Return.",
+        "created_at": "May 12, 2026 6:13 PM",
+        "notes": "Customer Number Blocked Merchant Informed Merchant Name Sample",
+        "grouped_status": [
+          "Return",
+          "Return",
+          6,
+          2
+        ]
+      }
+    ]
+  }
+}

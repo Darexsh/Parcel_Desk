@@ -1,0 +1,93 @@
+{
+  "id": "pack-man",
+  "displayName": "Pack-Man",
+  "aliases": [
+    "Pack-man Courier",
+    "Pack-Man Courier"
+  ],
+  "region": {
+    "countries": [
+      "GR"
+    ]
+  },
+  "brand": {
+    "color": "#06377b"
+  },
+  "selectable": true,
+  "timezone": "Europe/Athens",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pack-man",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 862,
+      "pattern": "^[A-Z]\\d{8}$"
+    }
+  },
+  "capabilities": [
+    "history",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://pack-man.gr/anazitisi-apostolis.html?code={trackingNumber}",
+    "searchUrl": "https://pack-man.gr/anazitisi-apostolis.html",
+    "canaryUrl": "https://pack-man.gr/anazitisi-apostolis.html",
+    "shows": [
+      "status",
+      "history",
+      "delivered_at",
+      "offset_timestamps",
+      "remarks"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "remarks"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "provider_code"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "pack-man.gr"
+      ],
+      "pathPattern": "^/anazitisi-apostolis\\.html$",
+      "params": [
+        "code"
+      ]
+    },
+    {
+      "domains": [
+        "pack-man.gr"
+      ],
+      "path": "^/t/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "courier.pack-man.gr"
+      ],
+      "pathPattern": "^/pegasus/courier04/search00\\.php$",
+      "params": [
+        "r18p01"
+      ]
+    }
+  ],
+  "detection": []
+}

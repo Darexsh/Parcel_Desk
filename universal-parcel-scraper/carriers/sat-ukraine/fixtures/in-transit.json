@@ -1,0 +1,94 @@
+{
+ "success": "true",
+ "data": [
+  {
+   "number": "000000202",
+   "ref": "00000000-0000-0000-0000-000000000202",
+   "international": false,
+   "internationalInformation": {
+    "senderEmail": "",
+    "recipientEmail": "",
+    "recipientAddress": "",
+    "recipientCity": "",
+    "senderIndex": "",
+    "recipientIndex": "",
+    "recipientCompany": "",
+    "recipientCountry": "00000000-0000-0000-0000-000000000000",
+    "recipientPhone": "",
+    "senderName": "",
+    "recipientName": "",
+    "senderCompany": "",
+    "currency": "EUR",
+    "price": "",
+    "estimated_delivery_date": "0001-01-01T00:00:00",
+    "typeOfInternationalTariff": ""
+   },
+   "currentStatus": "Вантаж передано кур'єру",
+   "currentStatusDetailed": {
+    "date": "17.09.2026",
+    "status": "Вантаж передано кур'єру",
+    "town": "Умовне",
+    "rsp": "Умовне № 3",
+    "rspRef": "00000000-0000-0000-0000-00000000000c",
+    "statusRef": "ПереданКурьеру",
+    "address": "просп. Умовний, 3",
+    "latitude": 48.555555,
+    "longitude": 35.666666
+   },
+   "eventStatus": "",
+   "states": [
+    {
+     "date": "14.09.2026",
+     "status": "Вантаж прийнято на відділенні",
+     "town": "Зразкове",
+     "rsp": "Зразкове № 1",
+     "rspRef": "00000000-0000-0000-0000-00000000000a",
+     "statusRef": "Принят",
+     "address": "вул. Зразкова, 1",
+     "latitude": 50.111111,
+     "longitude": 30.222222
+    },
+    {
+     "date": "14.09.2026",
+     "status": "Вантаж виїхав з відділення",
+     "town": "Зразкове",
+     "statusRef": "ВПути"
+    },
+    {
+     "date": "15.09.2026",
+     "status": "Вантаж прибув до терміналу",
+     "town": "Тестоград",
+     "statusRef": "ПрибылНаКонечныйТерминал"
+    },
+    {
+     "date": "16.09.2026",
+     "status": "Вантаж виїхав з терміналу",
+     "town": "Тестоград",
+     "statusRef": "ВыехалСКонечногоТерминала"
+    },
+    {
+     "date": "16.09.2026",
+     "status": "Вантаж очікує на передачу кур'єру",
+     "town": "Умовне",
+     "rsp": "Умовне № 3",
+     "rspRef": "00000000-0000-0000-0000-00000000000c",
+     "statusRef": "ОжидаетПередачиКурьеру",
+     "address": "просп. Умовний, 3",
+     "latitude": 48.555555,
+     "longitude": 35.666666
+    },
+    {
+     "date": "17.09.2026",
+     "status": "Вантаж передано кур'єру",
+     "town": "Умовне",
+     "rsp": "Умовне № 3",
+     "rspRef": "00000000-0000-0000-0000-00000000000c",
+     "statusRef": "ПереданКурьеру",
+     "address": "просп. Умовний, 3",
+     "latitude": 48.555555,
+     "longitude": 35.666666
+    }
+   ]
+  }
+ ]
+}

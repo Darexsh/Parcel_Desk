@@ -1,0 +1,47 @@
+{
+  "id": "correos-bolivia",
+  "displayName": "Correos de Bolivia",
+  "aliases": [
+    "Agencia Boliviana de Correos",
+    "AGBC",
+    "ECOBOL",
+    "Empresa de Correos de Bolivia",
+    "Bolivia Post"
+  ],
+  "region": {
+    "countries": [
+      "BO"
+    ]
+  },
+  "brand": {
+    "color": "#fecc36"
+  },
+  "selectable": true,
+  "timezone": "America/La_Paz",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://trackingbo.correos.gob.bo/",
+    "canaryUrl": "https://trackingbo.correos.gob.bo/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "trackingbo.correos.gob.bo"
+      ],
+      "pathPattern": "^/trackingbo/?$",
+      "params": [
+        "codigo"
+      ]
+    }
+  ],
+  "detection": []
+}

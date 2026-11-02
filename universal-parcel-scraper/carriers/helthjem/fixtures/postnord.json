@@ -1,0 +1,17 @@
+{
+  "data": {
+    "getParcelTrackingDetails": {
+      "parcelReference": "00370724769990000038",
+      "trackingNumber": "370724769990000038",
+      "shipmentNumber": "70724763999000036",
+      "status": "IN_TRANSIT",
+      "isPostnordProduct": true,
+      "events": [
+        { "apiKey": "002", "status": "IN_TRANSIT", "createdAt": "2026-03-20T14:00:00+01:00", "location": "Exampletown", "message": { "content": "Vi har mottatt pakken din, og gjør den klar for veien videre." } },
+        { "apiKey": "001", "status": "REGISTERED", "createdAt": "2026-03-19T10:00:00+01:00", "location": null, "message": { "content": "Nettbutikken har meldt at en pakke er på vei!" } }
+      ],
+      "servicePoint": null,
+      "shop": { "name": "Example Outlet" }
+    }
+  }
+}

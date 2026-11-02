@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "booking": {
+      "barcode_number": "9900000022",
+      "booking_date": "2026-07-06T00:00:00.000Z",
+      "from_center_name": "SAMPLE NAGAR",
+      "to_center_name": "SAMPLE TOWN",
+      "status_name": "",
+      "reason_name": "",
+      "status_date": ""
+    },
+    "booking_tracking": [
+      {
+        "status_name": "IN",
+        "scanned_center_name": "SAMPLE TOWN",
+        "from_center_name": "SAMPLE CITY-HUB",
+        "to_center_name": "SAMPLE TOWN",
+        "created_at": "2026-07-08T04:59:28.148Z"
+      },
+      {
+        "status_name": "OUT",
+        "scanned_center_name": "SAMPLE CITY-HUB",
+        "from_center_name": "SAMPLE CITY-HUB",
+        "to_center_name": "SAMPLE TOWN",
+        "created_at": "2026-07-07T17:21:41.431Z"
+      },
+      {
+        "status_name": "IN",
+        "scanned_center_name": "SAMPLE CITY-HUB",
+        "from_center_name": "SAMPLE NAGAR",
+        "to_center_name": "SAMPLE CITY-HUB",
+        "created_at": "2026-07-07T09:01:30.000Z"
+      },
+      {
+        "status_name": "OUT",
+        "scanned_center_name": "SAMPLE NAGAR",
+        "from_center_name": "SAMPLE NAGAR",
+        "to_center_name": "SAMPLE CITY-HUB",
+        "created_at": "2026-07-06T13:10:44.401Z"
+      }
+    ],
+    "last_center_details": {
+      "center_name": "SAMPLE TOWN",
+      "mobile": "9000000003",
+      "phone_number": "09000000003",
+      "owner_name": "Sample Owner",
+      "owner_mobile": "9000000004",
+      "manager_name": "Sample Owner",
+      "manager_mobile": "9000000004"
+    },
+    "drs_list": []
+  }
+}

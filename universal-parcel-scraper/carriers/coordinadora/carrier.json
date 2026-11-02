@@ -1,0 +1,126 @@
+{
+  "id": "coordinadora",
+  "displayName": "Coordinadora",
+  "aliases": [
+    "Coordinadora Mercantil"
+  ],
+  "region": {
+    "countries": [
+      "CO"
+    ]
+  },
+  "brand": {
+    "color": "#0b63ad"
+  },
+  "selectable": true,
+  "timezone": "America/Bogota",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "coordinadora",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 973,
+      "servedCountriesOnly": true
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://rastreo.coordinadora.com/?guia={trackingNumber}",
+    "searchUrl": "https://rastreo.coordinadora.com/",
+    "canaryUrl": "https://rastreo.coordinadora.com/",
+    "shows": [
+      "status",
+      "history",
+      "origin",
+      "destination",
+      "progress_rail",
+      "pickup_point",
+      "office_opening_hours",
+      "office_contact_details",
+      "related_tracking_numbers",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "progress_rail",
+      "pickup_point",
+      "office_opening_hours",
+      "office_contact_details",
+      "related_tracking_numbers",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "rastreo.coordinadora.com"
+      ],
+      "pathPattern": "^/(?:guia-digital(?:/info)?)?/?$",
+      "params": [
+        "guia"
+      ]
+    },
+    {
+      "domains": [
+        "coordinadora.com"
+      ],
+      "pathPattern": "^/portafolio-de-servicios/servicios-en-linea/rastrear-guias/?$",
+      "params": [
+        "guia"
+      ]
+    },
+    {
+      "domains": [
+        "coordinadora.com"
+      ],
+      "path": "^/portafolio-de-servicios/servicios-en-linea/rastrear-guias/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "coordinadora.com"
+      ],
+      "pathPattern": "^/rastreo/rastreo-de-guia/detalle-de-rastreo-de-guia/?$",
+      "params": [
+        "guia"
+      ]
+    },
+    {
+      "domains": [
+        "rastreos.coordinadora.com"
+      ],
+      "pathPattern": "^/rastreo/?$",
+      "params": [
+        "numeroGuia"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "coordinadora-1",
+      "pattern": "^\\d{11}$",
+      "confidence": "low"
+    }
+  ]
+}

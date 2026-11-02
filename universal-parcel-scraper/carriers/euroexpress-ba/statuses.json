@@ -1,0 +1,9 @@
+{
+  "carrier": "euroexpress-ba",
+  "entries": [
+    {"code": "30", "wording": "DOSTAVLJENA", "stage": "delivered", "language": "sr", "confirmedBy": "live", "note": "The status of a delivered shipment's summary."},
+    {"code": "0", "wording": "Pokupljena", "stage": "accepted", "language": "sr", "confirmedBy": "bundle", "note": "The first step of the progress rail in EuroExpress's app, which every code from 0 up reaches: collected from the sender."},
+    {"code": "2", "wording": "U dostavi", "stage": "out_for_delivery", "language": "sr", "confirmedBy": "bundle", "note": "The second step of the app's progress rail, which codes from 2 up reach."},
+    {"code": "20", "wording": "Dostavljena", "stage": "delivered", "language": "sr", "confirmedBy": "bundle", "note": "The last step of the app's progress rail, which codes from 20 up reach."}
+  ]
+}

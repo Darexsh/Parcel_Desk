@@ -1,0 +1,77 @@
+{
+  "carrier": "post-one",
+  "records": [
+    {
+      "number": "R5960672467",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220628134850/https://postone.eu/en/track?code=H1025930004714101031",
+        "date": "2022-06-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it",
+          "post-one"
+        ]
+      },
+      "note": "An archived lookup on Post One's tracker, by the partner's number, shows it as Post One's item number for a parcel handed to Hermes in Germany. The tracker still answers it."
+    },
+    {
+      "number": "R7551776860",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240119002153/https://postone.eu/en/track?code=703-010-3078147117",
+        "date": "2024-01-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it",
+          "post-one"
+        ]
+      },
+      "note": "An archived lookup on Post One's tracker, by the partner's number, shows it as Post One's item number for a parcel handed to SPS in Slovakia. The tracker still answers it."
+    },
+    {
+      "number": "R6065155916",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240118153758/https://postone.eu/en/track?code=LS929688268CH",
+        "date": "2024-01-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it",
+          "post-one"
+        ]
+      },
+      "note": "An archived lookup on Post One's tracker, by the partner's number, shows it as Post One's item number for a parcel handed to Asendia in Switzerland. It was not looked up again."
+    }
+  ]
+}

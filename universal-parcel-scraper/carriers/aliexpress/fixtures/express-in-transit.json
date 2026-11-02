@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "mailNo": "DOFR0000000000003HD",
+      "copyRealMailNo": "DOFR0000000000003HD",
+      "realMailNo": "Latest Tracking Number:\tDOFR0000000000003HD",
+      "originCountry": "France",
+      "destCountry": "France,Sampletown",
+      "status": "parcel_in_process",
+      "statusDesc": "Parcel in process",
+      "latestTrace": {
+        "actionCode": "TRANSFER_DEPART",
+        "standerdDesc": "Transfer Departure",
+        "desc": "Your shipment has departed from the transit origin",
+        "location": "FR",
+        "timeStr": "2026-04-08 15:20:00",
+        "timeZone": "GMT+2",
+        "time": 1775654400000
+      },
+      "globalCombinedLogisticsTraceDTO": {
+        "actionCode": "TRANSFER_DEPART",
+        "standerdDesc": "Transfer Departure",
+        "location": "FR",
+        "timeStr": "2026-04-08 15:20:00",
+        "timeZone": "GMT+2"
+      },
+      "detailList": [
+        {
+          "actionCode": "TRANSFER_DEPART",
+          "standerdDesc": "Transfer Departure",
+          "desc": "Your shipment has departed from the transit origin",
+          "location": "FR",
+          "timeStr": "2026-04-08 15:20:00",
+          "timeZone": "GMT+2",
+          "time": 1775654400000
+        },
+        {
+          "actionCode": "SC_SORTING",
+          "standerdDesc": "Sorting Center Sorting",
+          "desc": "Your shipment is in process at sorting center",
+          "location": "Exampleville",
+          "timeStr": "2026-04-08 11:05:12",
+          "timeZone": "GMT+2",
+          "time": 1775639112000
+        },
+        {
+          "actionCode": "SC_INBOUND",
+          "standerdDesc": "Sorting Center Inbound",
+          "desc": "Your shipment has arrived at sorting center",
+          "location": "Exampleville",
+          "timeStr": "2026-04-08 08:40:30",
+          "timeZone": "GMT+2",
+          "time": 1775630430000
+        },
+        {
+          "actionCode": "SC_OUTBOUND",
+          "standerdDesc": "Sorting Center Outbound",
+          "desc": "Your shipment has been processed at sorting center and ready for shipping",
+          "location": "Sample Hub",
+          "timeStr": "2026-04-08 03:10:00",
+          "timeZone": "GMT+2",
+          "time": 1775610600000
+        },
+        {
+          "actionCode": "SC_INBOUND",
+          "standerdDesc": "Sorting Center Inbound",
+          "desc": "Your shipment has arrived at sorting center",
+          "location": "Sample Hub",
+          "timeStr": "2026-04-07 13:45:00",
+          "timeZone": "GMT+2",
+          "time": 1775562300000
+        }
+      ]
+    }
+  ],
+  "errorCode": "CN10829900000",
+  "errorMsg": "success",
+  "success": true
+}

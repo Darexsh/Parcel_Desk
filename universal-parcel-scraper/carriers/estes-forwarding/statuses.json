@@ -1,0 +1,17 @@
+{
+  "carrier": "estes-forwarding",
+  "entries": [
+    {"code": "PUR", "wording": "Shipment Created", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Seen live and in an archived reply of the tracking API."},
+    {"code": "PUP", "wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Seen live and in an archived reply of the tracking API."},
+    {"code": "OHO", "wording": "Arrived at Origin City", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The shipment reached EFW's origin terminal."},
+    {"code": "INT", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "OHD", "wording": "Arrived at Destination City", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The shipment reached the EFW terminal that delivers it."},
+    {"code": "OFD", "wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"code": "DEL", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"code": "CLS", "wording": "Closed - Not Delivered", "stage": "exception", "language": "en", "confirmedBy": "live", "note": "The shipment was closed without a delivery; the tracker then shows no scheduled delivery."},
+    {"code": "CXL", "wording": "Customer Cancelled Order", "stage": "exception", "language": "en", "confirmedBy": "live", "note": "Seen at the same instant as CLS. The page labels it \"Cancelled\"."},
+    {"code": "APP", "wording": "Appointment Created", "language": "en", "confirmedBy": "live", "note": "A delivery appointment was booked. Its time is the appointment's, not a scan's, and the tracker skips this event when it picks the current status; the adapter leaves it out of the history."},
+    {"code": "ETD", "wording": "Estimated Delivery Date *", "language": "en", "confirmedBy": "live", "note": "The delivery estimate, listed as an event whose time is the estimate; the adapter reads it as the estimate, not a scan."},
+    {"wording": "Pickup Appointment Pending", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Status the tracker's script shows for pickup services before the shipment date is set; seen in the tracker's code, not in a capture."}
+  ]
+}

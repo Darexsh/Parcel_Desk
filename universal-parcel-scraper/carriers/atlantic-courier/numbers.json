@@ -1,0 +1,46 @@
+{
+  "carrier": "atlantic-courier",
+  "records": [
+    {
+      "number": "332760",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170705203541/http://www.atlanticcourier.net:80/track.php?awbno=332760&search=A",
+        "date": "2017-07-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Atlantic's former tracker, archived by the Wayback Machine, shows this waybill received in Mumbai and sent on to South Africa."
+    },
+    {
+      "number": "1123463",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251016102302/http://www.atlanticcourier.net/track.php?awbno=1123463&search=A",
+        "date": "2025-10-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "An archived lookup on Atlantic's former tracker address; the capture is a redirect and the page it led to shows no history."
+    }
+  ]
+}

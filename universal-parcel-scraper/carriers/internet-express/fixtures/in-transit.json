@@ -1,0 +1,94 @@
+{
+ "shipments": [
+  {
+   "provider_id": 9,
+   "shipment_id": 100000001,
+   "custom_tracking_reference": "000000001",
+   "short_tracking_reference": "ZZZZZ1",
+   "parcel_tracking_references": [
+    "000000001/1",
+    "000000001/2"
+   ],
+   "status": "in-transit",
+   "shipment_time_created": "2026-04-10T07:00:01.5Z",
+   "shipment_time_modified": "2026-04-11T15:45:12.25Z",
+   "shipment_collected_date": "2026-04-11T09:30:00.75Z",
+   "shipment_estimated_delivery_from": "2026-04-13T06:00:00Z",
+   "shipment_estimated_delivery_to": "2026-04-14T15:00:00Z",
+   "collection_hub": "Internet Express Exampleburg",
+   "delivery_hub": "Internet Express Sampleton",
+   "service_level_code": "SYN",
+   "service_level_name": "Synthetic Economy",
+   "parcel_count": 2,
+   "tracking_events": [
+    {
+     "id": 900000005,
+     "parcel_id": 0,
+     "date": "2026-04-11T15:45:12.25Z",
+     "status": "in-transit",
+     "location": "IE EXB",
+     "message": "Outbound to IE SPT"
+    },
+    {
+     "id": 900000004,
+     "parcel_id": 1000002,
+     "date": "2026-04-11T15:40:00Z",
+     "status": "at-hub",
+     "location": "IE EXB",
+     "message": ""
+    },
+    {
+     "id": 900000003,
+     "parcel_id": 0,
+     "date": "2026-04-11T09:30:00.75Z",
+     "status": "collected",
+     "location": "Internet Express Exampleburg",
+     "message": ""
+    },
+    {
+     "id": 900000002,
+     "parcel_id": 0,
+     "date": "2026-04-10T07:00:02.1Z",
+     "status": "collection-assigned",
+     "location": "Internet Express Exampleburg",
+     "message": ""
+    },
+    {
+     "id": 900000001,
+     "parcel_id": 0,
+     "date": "2026-04-10T07:00:02.05Z",
+     "status": "submitted",
+     "location": "Internet Express Exampleburg",
+     "message": ""
+    }
+   ]
+  }
+ ],
+ "tracking_steps": [
+  {
+   "step_number": 1,
+   "label": "created",
+   "progress": "done"
+  },
+  {
+   "step_number": 2,
+   "label": "collected",
+   "progress": "done"
+  },
+  {
+   "step_number": 3,
+   "label": "in-transit",
+   "progress": "current"
+  },
+  {
+   "step_number": 4,
+   "label": "out-for-delivery",
+   "progress": "pending"
+  },
+  {
+   "step_number": 5,
+   "label": "delivered",
+   "progress": "pending"
+  }
+ ]
+}

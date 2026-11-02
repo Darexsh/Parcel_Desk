@@ -1,0 +1,89 @@
+{
+  "id": "yanwen",
+  "displayName": "Yanwen",
+  "aliases": [
+    "Yanwen Logistics"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#8cbe1e"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "yanwen",
+    "steps": [
+      "direct"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "delivery_partner"
+  ],
+  "portal": {
+    "url": "https://track.yw56.com.cn/en/index",
+    "searchUrl": "https://www.yw56.com.cn/en/",
+    "helpUrl": "https://www.yw56.com.cn/webfile/ContactUs/",
+    "canaryUrl": "https://track.yw56.com.cn/en/index",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner",
+      "order_references",
+      "contact_details",
+      "postcodes",
+      "delivery_pin"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner"
+    ],
+    "discarded": [
+      "order_references",
+      "contact_details",
+      "postcodes",
+      "delivery_pin"
+    ],
+    "unavailable": [
+      "eta"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "track.yw56.com.cn"
+      ],
+      "params": [
+        "nums"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "yanwen-1",
+      "pattern": "^BYS\\d{9}$",
+      "confidence": "high"
+    },
+    {
+      "id": "yanwen-2",
+      "pattern": "^[A-Z]{2}\\d{9}YP$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "yanwen-3",
+      "pattern": "^YW[A-Z]{3}\\d{12}$",
+      "confidence": "high"
+    }
+  ]
+}

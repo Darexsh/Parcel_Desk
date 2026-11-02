@@ -1,0 +1,29 @@
+{
+  "carrier": "alem-tat",
+  "records": [
+    {
+      "number": "20022007",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.alemtat.kz/web/Help/Api/POST-ext-Find-getWayBill",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Alem TAT's API documentation uses it as the waybill number in its tracking request examples, and the tracking page shows it on its banner; the tracker script answers it with a notice that it is an illustrative example, so it has no live history."
+    }
+  ]
+}

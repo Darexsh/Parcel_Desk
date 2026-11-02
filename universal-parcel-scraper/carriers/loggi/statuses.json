@@ -1,0 +1,23 @@
+{
+  "carrier": "loggi",
+  "entries": [
+    {"wording": "Adicionado no sistema", "stage": "registered", "language": "pt", "confirmedBy": "live", "note": "The shipment is registered and waits for pickup. Also listed in SuperFrete's guide to Loggi tracking."},
+    {"wording": "Conferido", "stage": "accepted", "language": "pt", "confirmedBy": "live", "note": "Received and checked in at a Loggi unit. Also listed in SuperFrete's guide to Loggi tracking."},
+    {"wording": "Coletado", "stage": "accepted", "language": "pt", "confirmedBy": "live", "note": "Collected from the sender."},
+    {"wording": "Medido e pesado", "stage": "in_transit", "language": "pt", "confirmedBy": "live", "note": "Measured and weighed at a Loggi base after the pickup."},
+    {"wording": "Saiu de uma base", "stage": "in_transit", "language": "pt", "confirmedBy": "live", "note": "The scan names the base's city and state."},
+    {"wording": "Chegou em uma base", "stage": "in_transit", "language": "pt", "confirmedBy": "live", "note": "The scan names the base's city and state."},
+    {"wording": "Preparando para transferência", "stage": "in_transit", "language": "pt", "confirmedBy": "source", "note": "Listed in SuperFrete's guide to Loggi tracking."},
+    {"wording": "Objeto em transferência", "stage": "in_transit", "language": "pt", "confirmedBy": "source", "note": "Quoted in Melhor Envio's guide to Loggi tracking."},
+    {"wording": "Preparando para entrega", "stage": "in_transit", "language": "pt", "confirmedBy": "source", "note": "Sorted at the base that delivers it. Listed in SuperFrete's guide to Loggi tracking."},
+    {"wording": "Em rota", "stage": "out_for_delivery", "language": "pt", "confirmedBy": "live", "note": "Comes just before the delivery scan. Also listed in SuperFrete's guide to Loggi tracking."},
+    {"wording": "Pedido em rota de entrega", "stage": "out_for_delivery", "language": "pt", "confirmedBy": "source", "note": "Quoted in Melhor Envio's guide to Loggi tracking."},
+    {"wording": "Imprevisto na entrega", "stage": "failed_attempt", "language": "pt", "confirmedBy": "source", "note": "A delivery attempt failed; another follows. Listed in SuperFrete's guide to Loggi tracking."},
+    {"wording": "Recusado pelo destinatário", "stage": "exception", "language": "pt", "confirmedBy": "source", "note": "Listed in SuperFrete's guide to Loggi tracking."},
+    {"wording": "Entregue", "stage": "delivered", "language": "pt", "confirmedBy": "live", "note": "Also listed in SuperFrete's guide to Loggi tracking."},
+    {"wording": "Devolução iniciada", "stage": "returned", "language": "pt", "confirmedBy": "source", "note": "The return to the sender began. Listed in SuperFrete's guide to Loggi tracking."},
+    {"wording": "Devolvido", "stage": "returned", "language": "pt", "confirmedBy": "source", "note": "Listed in SuperFrete's guide to Loggi tracking."},
+    {"wording": "Extraviado", "stage": "exception", "language": "pt", "confirmedBy": "source", "note": "Lost. Listed in SuperFrete's guide to Loggi tracking."},
+    {"wording": "Cancelado", "stage": "exception", "language": "pt", "confirmedBy": "source", "note": "Listed in SuperFrete's guide to Loggi tracking."}
+  ]
+}

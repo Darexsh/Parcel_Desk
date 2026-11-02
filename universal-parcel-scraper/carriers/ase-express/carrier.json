@@ -1,0 +1,63 @@
+{
+  "id": "ase-express",
+  "displayName": "ASE Express",
+  "aliases": [
+    "ASE Lojistik",
+    "ASE Asia Africa Sky Express",
+    "ASE International Express",
+    "ASE Kargo",
+    "ASE Asya Afrika Hızlı Kargo ve Dağıtım A.Ş.",
+    "ASE Express-OCS"
+  ],
+  "region": {
+    "countries": [
+      "TR",
+      "RU",
+      "KZ",
+      "AZ",
+      "UZ",
+      "GE",
+      "TM",
+      "KG",
+      "TJ"
+    ]
+  },
+  "brand": {
+    "color": "#ed1a1c"
+  },
+  "selectable": true,
+  "timezone": "Europe/Istanbul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.ase.com.tr/cwb/trackshipment?lang=en&Id={trackingNumber}",
+    "searchUrl": "https://tracking.ase.com.tr/cwb/trackshipment?lang=en",
+    "canaryUrl": "https://tracking.ase.com.tr/cwb/trackshipment",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.ase.com.tr"
+      ],
+      "pathPattern": "^/cwb/trackshipment/?$",
+      "params": [
+        "Id"
+      ]
+    },
+    {
+      "domains": [
+        "tracking.ase.com.tr"
+      ],
+      "path": "^/(?:cwb/trackshipment|(?:tr|en|ru|kz)/cwb2?)/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

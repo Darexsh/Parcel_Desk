@@ -1,0 +1,50 @@
+{
+  "id": "takesend",
+  "displayName": "Take Send",
+  "aliases": [
+    "Takesend Logistics",
+    "泰嘉物流",
+    "深圳市泰嘉物流有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#6638b6"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "canaryUrl": "https://t.17track.net/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "k5.takesend.com"
+      ],
+      "pathPattern": "^/WebTrack$",
+      "params": [
+        "bills"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "takesend-1",
+      "pattern": "^TS2\\d(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])\\d{7}$",
+      "confidence": "low"
+    }
+  ]
+}

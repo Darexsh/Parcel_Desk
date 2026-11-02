@@ -1,0 +1,92 @@
+{
+  "id": "liccardi",
+  "displayName": "Liccardi Express Courier",
+  "aliases": [
+    "Liccardi Trasporti",
+    "F.lli Liccardi S.r.l.",
+    "Liccardi Express"
+  ],
+  "region": {
+    "countries": [
+      "IT"
+    ]
+  },
+  "brand": {
+    "color": "#014895"
+  },
+  "selectable": true,
+  "timezone": "Europe/Rome",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "liccardi",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "delivered_at",
+    "eta",
+    "offset_timestamps",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://my.liccarditrasporti.com/segui?ldv={trackingNumber}",
+    "canaryUrl": "https://www.liccarditrasporti.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "eta_window",
+      "offset_timestamps",
+      "progress_rail",
+      "parcel_count",
+      "destination",
+      "postcodes",
+      "delivery_tracking_number",
+      "coordinates"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "delivered_at",
+      "eta",
+      "offset_timestamps",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "parcel_count",
+      "destination",
+      "postcodes",
+      "coordinates",
+      "eta_window"
+    ],
+    "unavailable": [
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "my.liccarditrasporti.com"
+      ],
+      "pathPattern": "^/segui/?$",
+      "params": [
+        "ldv"
+      ]
+    }
+  ],
+  "detection": []
+}

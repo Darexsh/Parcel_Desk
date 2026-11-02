@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="hu-HU" class="no-js">
+<head>
+<meta charset="UTF-8">
+<title>Csomagkövetés - FOXPOST</title>
+</head>
+<body>
+<!-- Synthetic: the tracker's page for a parcel collected from a locker, with invented values. -->
+<main role="main" class="container-fluid">
+<div class="parcel-tracking-form">
+        <form id="form-parcel-tracking" class="parcel-tracking-form__form" action="/csomagkovetes/" method="GET">        <div class="form-group field-parceltrack-identifier required validating">
+            <div class="input-group input-group-lg">
+                <input type="text" class="parcel-tracking-form__input no-line" name="code" value="CLFOX100000000000001" placeholder="CLFOX...vagy 66639">                <div class="input-group-append">
+                    <button type="submit" class="input-group-text parcel-tracking-form__btn btn-red-featured">Megnézem</button>
+                </div>
+            </div>
+        </div>
+        </form>
+        <div class="parcel-tracking__help mb-2">
+            Ha automatába vagy átvevőhelyre kérted csomagod írd ide a CLFOX vagy Z betűkkel kezdődő csomagazonosítód!
+        </div>
+</div>
+    <div class="tracking-visualization-container">
+    <div class="row">
+    <div class="col-12 col-xl-5 offset-xl-1 tracking-left-side pt-5">
+    <div class="row parcel-status-timeline__block timeline-graph">
+        <div class="col-12  parcel-status-timeline__markers">
+                        <ul class="parcel-status-timeline__marker-list parcel-status-timeline__marker-list--first mb-0 ">
+                        <li class="parcel-status-timeline__marker-item parcel-status-timeline__marker-item--ready position-relative">
+                            <div style="background-color: #00b703" class="parcel-status-timeline__mark  mx-auto"></div>
+                            <!-- <div class="d-none d-lg-block parcel-status-timeline__mark-title"  >
+                                Csomagod elkészült                            </div>-->
+                        </li>
+                        <li class="parcel-status-timeline__marker-item parcel-status-timeline__marker-item--ready position-relative">
+                            <div style="background-color: #00b703" class="parcel-status-timeline__mark  mx-auto"></div>
+                            <!-- <div class="d-none d-lg-block parcel-status-timeline__mark-title"  >
+                                Átvéve                            </div>-->
+                        </li>
+                        </ul>
+        </div>
+    </div>
+
+        <div class="row related-parcel__block mb-5 timeline-packet-info">
+        <div class="col-12 col-md-12 mx-auto px-5">
+            <div class="tracking-packet-info__row">
+                <div class="tracking-packet-info__main">
+                    <dt>Csomagszám</dt>
+                    <dd id="parcel-number">CLFOX100000000000001</dd>
+                </div>
+                <div class="tracking-packet-info__action">
+                    <button type="button" class="tracking-packet-info__copy-btn" title="Copy" aria-label="Copy" data-copy-target="parcel-number">
+                        <img class="tracking-packet-info__icon" src="/img/tracking/copy_icon.svg" alt="Copy icon">
+                    </button>
+                </div>
+            </div>
+            <br /><br />
+            <div class="tracking-packet-info__row">
+                <div class="tracking-packet-info__main">
+                    <dt>Feladó</dt>
+                    <dd>Minta Webáruház Kft.</dd>
+                </div>
+                            </div>
+            <br /><br />
+            <div class="tracking-packet-info__row">
+                <div class="tracking-packet-info__main">
+                    <dt>Utánvétel</dt>
+                    <dd id="cod">12 345 Ft</dd>
+                </div>
+            </div>
+            <br /><br />
+            <div class="tracking-packet-info__row">
+                <div class="tracking-packet-info__main">
+                    <dt>Kézbesítés módja</dt>
+                    <dd>FOXPOST A-BOX Minta Bevásárlóközpont</dd>
+                </div>
+                                    <div class="tracking-packet-info__action">
+                        <a href="/~/hu999" target="_blank" rel="noopener noreferrer" title="Kézbesítés módja" aria-label="Kézbesítés módja">
+                            <img class="tracking-packet-info__icon" src="/img/tracking/external_link_icon.svg" alt="External link icon">
+                        </a>
+                    </div>
+                            </div>
+            <br /><br />
+            <dt>Megrendelés száma</dt>
+            <dd>MINTA-REF-0042</dd>
+            <br />
+            <dt>Fizetési lehetőség</dt>
+            <dd>Bankkártyás fizetés az automatánál</dd>
+        </div>
+    </div>
+    </div><!-- col-12 col-xl-5 offset-xl-1-->
+    <div class="col-12 col-xl-5  tracking-right-side pt-5">
+    <div class="row parcel-status-items__block timeline-status-items">
+        <ul class="col-12 parcel-status-items__list flex-column">
+                            <li class="parcel-status-items__list-item bg-white">
+                    <span class="d-none d-md-flex parcel-status-items__list-item-icon fp-icon fp-icon-private-person"></span>
+                    <span class="parcel-status-items__list-item-date">2026.06.04 18:27</span>
+                    <span class="parcel-status-items__list-item-text">
+                        <span class="parcel-status-items__list-item-title">Átvéve</span><span class="parcel-status-items__list-item-description">Csomagod (vissza)kézbesítve lett, a címzett/feladó átvette.</span>
+                        <!--span class="parcel-status-items__list-item-description">Csomagod (vissza)kézbesítve lett, a címzett/feladó átvette.</--span-->
+                        <!--span class="parcel-status-items__list-item-description"></--span-->
+                    </span>
+                </li>
+                                <li class="parcel-status-items__list-item bg-white">
+                    <span class="d-none d-md-flex parcel-status-items__list-item-icon fp-icon fp-icon-apt"></span>
+                    <span class="parcel-status-items__list-item-date">2026.06.03 10:05</span>
+                    <span class="parcel-status-items__list-item-text">
+                        <span class="parcel-status-items__list-item-title">Automatában</span><span class="parcel-status-items__list-item-description">Csomagod megérkezett az általad választott (vissza)kézbesítési automatába, most már átveheted! <a href="https://foxpost.hu/a-box-es-z-box-utmutato" target="_blank">Átvételi információért kattints ide!</a></span>
+                        <!--span class="parcel-status-items__list-item-description">Csomagod megérkezett az általad választott (vissza)kézbesítési automatába, most már átveheted! &lt;a href=&quot;https://foxpost.hu/a-box-es-z-box-utmutato&quot; target=&quot;_blank&quot;&gt;Átvételi információért kattints ide!&lt;/a&gt;</--span-->
+                        <!--span class="parcel-status-items__list-item-description"></--span-->
+                    </span>
+                </li>
+                                <li class="parcel-status-items__list-item bg-white">
+                    <span class="d-none d-md-flex parcel-status-items__list-item-icon fp-icon fp-icon-warehouse"></span>
+                    <span class="parcel-status-items__list-item-date">2026.06.02 21:40</span>
+                    <span class="parcel-status-items__list-item-text">
+                        <span class="parcel-status-items__list-item-title">Raktárban</span><span class="parcel-status-items__list-item-description">Csomagod beérkezett a FOXPOST raktárába. A feladott/visszaküldött csomag hamarosan kézbesítésre kerül. <a href="https://foxpost.hu/a-box-es-z-box-utmutato" target="_blank">Átvételi információért kattints ide!</a></span>
+                        <!--span class="parcel-status-items__list-item-description">Csomagod beérkezett a FOXPOST raktárába. A feladott/visszaküldött csomag hamarosan kézbesítésre kerül.</--span-->
+                        <!--span class="parcel-status-items__list-item-description"></--span-->
+                    </span>
+                </li>
+                                <li class="parcel-status-items__list-item bg-white">
+                    <span class="d-none d-md-flex parcel-status-items__list-item-icon fp-icon fp-icon-private-person"></span>
+                    <span class="parcel-status-items__list-item-date">2026.06.01 08:03</span>
+                    <span class="parcel-status-items__list-item-text">
+                        <span class="parcel-status-items__list-item-title">Csomagod elkészült</span><span class="parcel-status-items__list-item-description">Csomagod létrejött a rendszerünkben, a feladó még nem adta át azt a FOXPOST részére.</span>
+                        <!--span class="parcel-status-items__list-item-description">Csomagod létrejött a rendszerünkben, a feladó még nem adta át azt a FOXPOST részére.</--span-->
+                        <!--span class="parcel-status-items__list-item-description"></--span-->
+                    </span>
+                </li>
+                        </ul>
+    </div>
+    </div><!-- col-12 col-md-6 -->
+    </div><!-- row -->
+    </div><!-- tracking-visualization-container -->
+</main>
+</body>
+</html>

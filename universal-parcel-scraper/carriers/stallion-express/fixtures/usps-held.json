@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "events": [
+    {"carrier": "USPS", "location": "SAMPLETOWN", "status": "Held at Post Office, At Customer Request", "datetime": "2026-07-03T18:12:40.000000Z", "tracking": "9400100000000000000017"},
+    {"carrier": "USPS", "location": "SAMPLETOWN", "status": "Out for Delivery", "datetime": "2026-07-03T12:30:15.000000Z", "tracking": "9400100000000000000017"},
+    {"carrier": "USPS", "location": "EXAMPLE CITY NJ DISTRIBUTION CENTER", "status": "Departed USPS Regional Facility", "datetime": "2026-07-02T20:44:03.000000Z", "tracking": "9400100000000000000017"},
+    {"carrier": "USPS", "location": "", "status": "In Transit to Next Facility", "datetime": "2026-07-01T13:02:27.000000Z", "tracking": "9400100000000000000017"},
+    {"carrier": "USPS", "location": "BORDERVILLE", "status": "Accepted at USPS Origin Facility", "datetime": "2026-06-30T15:21:09.000000Z", "tracking": "9400100000000000000017"},
+    {"carrier": "USPS", "location": "Coastville BC, CA", "status": "In-transit from Coastville BC, CA", "datetime": "2026-06-30T03:00:00.000000Z", "tracking": "9400100000000000000017"},
+    {"carrier": "USPS", "location": "BORDERVILLE", "status": "Shipping Label Created, USPS Awaiting Item", "datetime": "2026-06-30T01:10:32.000000Z", "tracking": "9400100000000000000017"},
+    {"carrier": "USPS", "location": "Coastville BC, CA", "status": "Received at Coastville BC, CA", "datetime": "2026-06-29T21:05:50.000000Z", "tracking": "9400100000000000000017"},
+    {"carrier": "USPS", "location": null, "status": "Shipping Label Created, USPS Awaiting Item", "datetime": null, "tracking": "9400100000000000000017"}
+  ],
+  "status": "Exception",
+  "details": {
+    "ship_code": "991230ZZ02",
+    "destination": "Sampletown, NJ, US",
+    "service": "USPS Ground Advantage",
+    "tracking": "9400100000000000000017",
+    "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9400100000000000000017",
+    "carrier_phone": ""
+  }
+}

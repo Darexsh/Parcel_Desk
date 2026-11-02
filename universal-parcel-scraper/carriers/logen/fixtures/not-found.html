@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="/static/css/style.css" type="text/css" media="all" />
+<script src="/static/js/lib/jquery-2.2.4.min.js"></script>
+		<title>배송조회 - 로젠택배</title>
+    <script src="/static/js/lib/require.js"></script>
+    <script src="/static/js/app.js"></script>
+	<script src="/static/js/tkSearch.js"></script>
+</head>
+<body>
+<header class="personal">
+	<div class="headerTopWrap">
+		<div class="headerTop">
+			<h1 class="logo">
+				<a href="/web">LOGEN 로젠택배</a>
+            </h1>
+		</div>
+	</div>
+</header>
+<div id="contents" class="personal">
+	<section class="tkSearch">
+		<div class="wrap">
+			<h3 class="titleTop">배송조회</h3>
+
+			
+			<ul class="tabs03">
+				<li class="on"><a href="/web/personal/tkSearch">운송장 번호로 조회</a></li>
+				<li><a href="/web/personal/tkSearch?t=1">고객정보로 조회</a></li>
+				<li><a href="/web/personal/tkSearch?t=2">예약번호로 조회</a></li>
+			</ul>
+			
+
+			<div class="tab_container">
+				<div class="tab_contents">
+					<table class="horizon pdInfo">
+						<caption>배송조회 물품정보</caption>
+						<colgroup>
+							<col style="width:200px;">
+							<col style="width:407px;">
+							<col style="width:200px;">
+							<col style="width:407px;">
+						</colgroup>
+						<tbody>
+							<!-- 물품정보가 없을때 tr에 empty클래스 추가 -->
+							<tr class="empty">
+								<td colspan="4"><span>배송자료를 조회할 수 없습니다! 아래 사항을 체크해보세요!</span></td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- 물품정보가 없을때 보이기-->
+					<div>
+						<ul class="emptyTxt">
+							<li>1. 물품발송업체에서 송장번호는 수화인에게 알려주었으나 물량 수급이 제때 이루어지지 않아 물품을 발송하지 못한 경우</li>
+							<li>2. 송화주가 송장번호를 수화인에게 알려주고 고의 또는 과실로 물품을 발송하지 않은 경우</li>
+							<li>3. 물건이 택배사에 도착했으나 분류작업을 하지 않은 경우(이같은 경우는 몇시간 후나 다음날 조회해 보실 수 있습니다)</li>
+							<li>4. 송화주가 송장번호를 잘못 알려 준 경우 - 물품정보가(발송지점/배송지점) 없을때만 해당</li>
+							<li>5. 수화주 실수로 송장번호를 잘못 입력한 경우 - 물품정보가(발송지점/배송지점) 없을때만 해당</li>			
+						</ul>
+					</div>
+					<!-- //물품정보가 없을때 보이기-->
+					<div class="formBtnBox mgt40">
+						<button id="reSearchBtn" onclick="location.href='../tkSearch';">다시 조회하기</button>
+					</div>
+				</div>
+			</div>
+				
+			<div class="downloadArea">
+				<div>로젠택배 <span>APP</span></div>
+			</div>
+		</div>
+
+	</section>
+</div>
+<div class="dimmed"></div>
+<!-- 인수자 서명 -->
+<div class="layerPop signPop">
+	<div class="popupCon">
+		<div>
+		
+		</div>
+		<a href="#" class="btnClosePopup">팝업 닫기</a>
+	</div>
+</div>
+<footer>
+	<div class="footerInfo">고객센터 1588-9988</div>
+</footer>
+</body>
+</html>

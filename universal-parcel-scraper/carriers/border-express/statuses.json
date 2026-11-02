@@ -1,0 +1,14 @@
+{
+  "carrier": "border-express",
+  "entries": [
+    {"code": "PEN", "wording": "Unsaved", "unmapped": true, "language": "en", "confirmedBy": "live", "note": "The sender's own draft of the consignment, just before Shipment Data Received. The tracker hides the row and the adapter leaves it out."},
+    {"code": "SDR", "wording": "Shipment Data Received", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The sender's data has arrived; the tracker's progress bar calls it Data Received."},
+    {"code": "PUP", "wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Seen only as an undated step, which the adapter skips."},
+    {"code": "TRN", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "OBD", "wording": "On Board For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "On board the delivery vehicle; the tracker shows it as On Board."},
+    {"code": "OBD", "wording": "On Board", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "The tracker's label for On Board For Delivery, between In Transit and Delivered on its progress bar."},
+    {"code": "PAR", "wording": "Partially Delivered", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "A status Quick Track's script defines beside Partially Delivered - Final: some units are delivered and the rest are on their way."},
+    {"code": "DEL", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"code": "FIN", "wording": "Partially Delivered - Final", "stage": "delivered", "language": "en", "confirmedBy": "bundle", "note": "Quick Track's script fills its Delivered step and tag for it: the consignment closes with the units that arrived."}
+  ]
+}

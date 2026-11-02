@@ -1,0 +1,48 @@
+{
+  "id": "mgl-express",
+  "displayName": "MGL Express",
+  "aliases": [
+    "MGL Express (Magnate Group Logistics)",
+    "Magnate Group Logistics",
+    "Magnate Group Logistics Co., Ltd.",
+    "မဂ္ဂနိုတ် ဂရု(ပ်)လောဂျစ်စတစ်ကုမ္ပဏီလိမိတတ်"
+  ],
+  "region": {
+    "countries": [
+      "MM"
+    ]
+  },
+  "brand": {
+    "color": "#fc0000"
+  },
+  "selectable": true,
+  "timezone": "Asia/Yangon",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.mglexpress.com.mm/waybills?waybill={trackingNumber}",
+    "searchUrl": "https://www.mglexpress.com.mm/tracking",
+    "canaryUrl": "https://www.mglexpress.com.mm/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "mglexpress.com.mm",
+        "www.mglexpress.com.mm"
+      ],
+      "pathPattern": "^/waybills/?$",
+      "params": [
+        "waybill"
+      ]
+    }
+  ],
+  "detection": []
+}

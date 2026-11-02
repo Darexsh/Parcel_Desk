@@ -1,0 +1,43 @@
+{
+  "carrier": "ghana-post",
+  "records": [
+    {
+      "number": "RG036298833GH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-ghana-post.html",
+        "date": "2021-12-06",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Quoted in a review on TrackingMore's Ghana Post page by a sender whose parcel to Italy had not arrived; its GH suffix names Ghana Post as the issuing post."
+    },
+    {
+      "number": "CG010129418GH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-ghana-post.html?p=2",
+        "date": "2017-02-07",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Quoted in a review on TrackingMore's Ghana Post page by a sender who was given it when posting a parcel; its GH suffix names Ghana Post as the issuing post."
+    }
+  ]
+}

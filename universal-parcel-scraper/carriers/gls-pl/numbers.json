@@ -1,0 +1,372 @@
+{
+  "carrier": "gls-pl",
+  "records": [
+    {
+      "number": "82879662791",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220525180612/https://gls-group.com/app/service/open/rest/PL/pl/rstt001?match=82879662791&type=&caller=witt002&millis=1653501972253",
+        "date": "2022-05-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "dpd-ro",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "Archived reply of GLS Poland's tracking service (owner PL01) with the parcel's history up to the recipient's refusal."
+    },
+    {
+      "number": "44654538857",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220819100120/https://gls-group.com/app/service/open/rest/PL/pl/rstt001?match=44654538857&type=&caller=witt002&millis=1660903278837",
+        "date": "2022-08-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "old-dominion",
+          "coordinadora",
+          "dhl-ecommerce-pl",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "Archived reply of GLS Poland's tracking service (owner PL01) with the parcel's history from registration to a depot scan."
+    },
+    {
+      "number": "50903123418",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221010095905/https://gls-group.com/app/service/open/rest/PL/pl/rstt001?match=50903123418&type=&caller=witt002&millis=1665395945127",
+        "date": "2022-10-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "Archived reply of GLS Poland's tracking service (owner PL01) with the parcel's history up to its delivery round."
+    },
+    {
+      "number": "546511762376",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240307052948/https://gls-group.com/app/service/open/rest/PL/pl/rstt029?match=546511762376&type=&caller=witt002&millis=1709789388150",
+        "date": "2024-03-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Archived reply of GLS Poland's tracking service for the number with its check digit; it shows the parcel in transit under its eleven digits, without the event list."
+    },
+    {
+      "number": "90591694671",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261015151437/https://gls-group.com/app/service/open/rest/PL/pl/rstt029?match=90591694671&type=&caller=witt002&millis=1792077277339",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "Archived reply of GLS Poland's tracking service showing the parcel in transit, without the event list."
+    },
+    {
+      "number": "54607667091",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://spolecznosc.allegro.pl/t5/dyskusje-kupuj%C4%85cych/dokonano-zwrotu-mojej-paczki/td-p/748631",
+        "date": "2024-03-04",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "old-dominion",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An Allegro community reply says GLS delivers the buyer's parcel in Poland under this number and points to GLS's site for its status."
+    },
+    {
+      "number": "436150902298",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240411054607/https://gls-group.com/PL/pl/sledzenie-paczek?match=436150902298",
+        "date": "2024-04-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "sf-express",
+          "gls-ch",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Archived lookup with a check digit on GLS Poland's tracking page; capture not opened."
+    },
+    {
+      "number": "509194375677",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251029041813/https://gls-group.com/PL/pl/sledzenie-paczek/?match=509194375677",
+        "date": "2025-10-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "gls-ch",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Archived lookup with a check digit on GLS Poland's tracking page; capture not opened."
+    },
+    {
+      "number": "54505820402",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260713214149/https://gls-group.com/app/service/open/rest/PL/pl/rstt029?match=54505820402&type=&caller=witt002&millis=1783978909485",
+        "date": "2026-07-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "Archived reply of GLS Poland's tracking service showing the parcel's data received, without the event list."
+    },
+    {
+      "number": "29626206061",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260720205726/https://gls-group.com/app/service/open/rest/PL/pl/rstt029?match=29626206061&type=&caller=witt002&millis=1784581045903",
+        "date": "2026-07-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "Archived reply of GLS Poland's tracking service showing the parcel in transit, without the event list."
+    },
+    {
+      "number": "506450065211",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260724135254/https://gls-group.com/app/service/open/rest/PL/pl/rstt029?match=506450065211&type=&caller=witt002&millis=1784901174443",
+        "date": "2026-07-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "gls-ch",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Archived reply of GLS Poland's tracking service for the number with its check digit; it shows the parcel's data received under its eleven digits, without the event list."
+    }
+  ]
+}

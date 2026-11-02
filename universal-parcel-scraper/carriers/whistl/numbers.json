@@ -1,0 +1,186 @@
+{
+  "carrier": "whistl",
+  "records": [
+    {
+      "number": "TYPQYU501214190",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aa4f1b1ea741e7c98c6aff5",
+        "date": "2026-09-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A review on Whistl's Trustpilot page gives it as the tracking number. Whistl's Parcelhub tracker knows it as a shipment reference whose one parcel another carrier delivers under its own number."
+    },
+    {
+      "number": "L1213411000055365001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6052fcb4f85d75064c44cd79",
+        "date": "2021-03-18",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A review on Whistl's Trustpilot page gives it as the Whistl tracking number."
+    },
+    {
+      "number": "L20001711000223891",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220808181608/https://trackmyitem.whistl.co.uk/tracking/L20001711000223891",
+        "date": "2022-08-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "whistl"
+        ]
+      },
+      "note": "Looked up on Whistl's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "l11731111000252808",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220624215344/https://trackmyitem.whistl.co.uk/tracking/l11731111000252808",
+        "date": "2022-06-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "whistl"
+        ]
+      },
+      "note": "Looked up on Whistl's own tracker in lower case, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "s00000023711743",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210922142406/https://trackmyitem.whistl.co.uk/tracking/s00000023711743",
+        "date": "2021-09-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Whistl's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "a12266250133",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240226140717/https://trackmyitem.whistl.co.uk/tracking/a12266250133",
+        "date": "2024-02-26",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "Looked up on Whistl's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "H00IEA0044768579",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210908213144/https://trackmyitem.whistl.co.uk/tracking/H00IEA0044768579",
+        "date": "2021-09-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri-uk",
+          "evri"
+        ]
+      },
+      "note": "Looked up on Whistl's own tracker, as an archived address shows; the shape is an Evri parcel barcode, so Whistl may have handed it over."
+    },
+    {
+      "number": "L11324110MBJ108284",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://parcelsapp.com/en/carriers/whistl",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "ParcelsApp's Whistl page prints it as a Whistl tracking number; it is not described as a live shipment."
+    },
+    {
+      "number": "011B004A41000415204001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://parcelsapp.com/en/carriers/whistl",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "ParcelsApp's Whistl page prints it as a Whistl tracking number; it is not described as a live shipment."
+    }
+  ]
+}

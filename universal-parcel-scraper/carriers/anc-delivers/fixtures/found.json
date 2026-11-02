@@ -1,0 +1,80 @@
+{
+  "clientRef1": "SYNTHETIC-REF-0001",
+  "jobStatus": "delivered",
+  "streetAddress": "1 Sample Street",
+  "suburb": "SAMPLE SUBURB",
+  "postCode": "0000",
+  "state": "NSW",
+  "deliveryFrom": "Sample Retailer",
+  "phone": "0400 000 000",
+  "email": "recipient@example.com",
+  "statuses": [
+    {
+      "title": "Booked",
+      "desktopDescription": "Your delivery has been booked with ANC.",
+      "mobileDescription": "Your delivery has been booked with ANC.",
+      "icon": "booked.jpg",
+      "timeDateStamp": "2026-01-05 06:58:48"
+    },
+    {
+      "title": "Scheduled",
+      "desktopDescription": "Your order is scheduled for delivery with ANC.  Scheduled delivery: 6 January 2026 8:00 AM - 6:00 PM",
+      "mobileDescription": "Scheduled delivery: 6 January 2026",
+      "icon": "scheduled.jpg",
+      "timeDateStamp": "2026-01-05T06:58:00"
+    },
+    {
+      "title": "Onboard for delivery",
+      "desktopDescription": "Your order is onboard for delivery with ANC.",
+      "mobileDescription": "Your order is onboard for delivery with ANC.",
+      "icon": "onboard.jpg",
+      "timeDateStamp": "2026-01-06 07:25:59"
+    },
+    {
+      "title": "Delivered",
+      "desktopDescription": "Your item/s have been delivered by, SAMPLE DRIVER, your ANC Delivery Professional.",
+      "mobileDescription": "Delivered by SAMPLE DRIVER.",
+      "icon": "delivered.jpg",
+      "timeDateStamp": "2026-01-06T12:33:00",
+      "photoBlock": {
+        "photos": [
+          "data:image/jpeg;base64,AAAA"
+        ],
+        "signatureImage": ""
+      }
+    }
+  ],
+  "scheduledDate": "2026-01-06T12:33:00",
+  "serviceCode": "PCL",
+  "AlertMessage": "Synthetic alert.",
+  "cancelledText": "Delivery cancelled on 6 January 2026",
+  "updateRules": {
+    "promptAddress": false,
+    "promptDeliveryDate": false,
+    "promptRedelivery": false,
+    "promptEmail": false,
+    "promptPhone": false,
+    "canUpdateDeliveryDate": false,
+    "canUpdateAddress": false,
+    "canUpdatePhone": false,
+    "canUpdateSecondaryPhone": false,
+    "canUpdateEmail": false,
+    "canUpdateATL": false,
+    "canChangeService": false,
+    "canCancel": false,
+    "contactRetailerTextDesktop": "",
+    "contactRetailerTextMobile": "",
+    "clientLogo": ""
+  },
+  "options": {
+    "services": [
+      {
+        "code": "PCL",
+        "title": "Delivery Only",
+        "description": "Synthetic.",
+        "group": "delivery"
+      }
+    ],
+    "questionTemplate": ""
+  }
+}

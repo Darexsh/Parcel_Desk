@@ -1,0 +1,12 @@
+{
+  "carrier": "x-trac",
+  "entries": [
+    {"code": "1", "wording": "Info Received", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "The tracker's name for status 1 in X-TRAC's site code; the API documentation lists status 1 as InfoReceived."},
+    {"code": "2", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "The tracker's name for status 2 in X-TRAC's site code; the API documentation's example parcel has this status."},
+    {"code": "7", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "The tracker's name for status 7 in X-TRAC's site code."},
+    {"code": "8", "wording": "Exception", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "The tracker's name for status 8 in X-TRAC's site code; the API documentation calls it PackageException."},
+    {"code": "0", "wording": "Not Found", "language": "en", "confirmedBy": "official-doc", "note": "The tracker's name for status 0 in X-TRAC's site code: the number is not in X-TRAC's system. Not an event."},
+    {"wording": "InfoReceived", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "The event description in the example response of X-TRAC's API documentation."},
+    {"wording": "Shipping Label Created", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "In the example response of X-TRAC's API documentation, in the event's location field next to the InfoReceived description; the tracker shows that field under the event."}
+  ]
+}

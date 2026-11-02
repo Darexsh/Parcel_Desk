@@ -1,0 +1,22 @@
+{
+  "data": {
+    "consumerSearchShipments": {
+      "totalHits": 1,
+      "hits": [{
+        "displayId": "CE123456785FI",
+        "status": {"main": "DELIVERED", "subStatus": []},
+        "measurements": null,
+        "pickupPoint": null,
+        "packages": [],
+        "events": [
+          {"eventDescription": "Item delivered to the recipient.", "reasonDescription": null, "city": "ULKOMAILLA", "timestamp": "2026-01-15T07:00:00.000Z"},
+          {"eventDescription": "Item is on the way to the recipient", "reasonDescription": null, "city": "ULKOMAILLA", "timestamp": "2026-01-15T05:00:00.000Z"},
+          {"eventDescription": "Item has been registered", "reasonDescription": "The item can be registered several times during delivery.", "city": "ULKOMAILLA", "timestamp": "2026-01-13T16:00:00.000Z"},
+          {"eventDescription": "Item has arrived to destination country", "reasonDescription": "The item has reached the target country.", "city": "ULKOMAILLA", "timestamp": "2026-01-13T16:00:00.000Z"},
+          {"eventDescription": "The item is on its way to the destination country.", "reasonDescription": null, "city": "EXAMPLE AIRPORT", "timestamp": "2026-01-11T20:00:00.000Z"},
+          {"eventDescription": "Item received for transport", "reasonDescription": null, "city": "Example post office", "timestamp": "2026-01-10T11:00:00.000Z"}
+        ]
+      }]
+    }
+  }
+}

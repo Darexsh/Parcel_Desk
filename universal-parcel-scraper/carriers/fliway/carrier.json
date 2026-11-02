@@ -1,0 +1,51 @@
+{
+  "id": "fliway",
+  "displayName": "Fliway",
+  "aliases": [
+    "Fliway Group",
+    "Fliway Holdings"
+  ],
+  "region": {
+    "countries": [
+      "NZ"
+    ]
+  },
+  "brand": {
+    "color": "#002b5c"
+  },
+  "selectable": true,
+  "timezone": "Pacific/Auckland",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://online.fliway.com/Public/Track/{trackingNumber}",
+    "searchUrl": "https://www.fliway.com/",
+    "canaryUrl": "https://www.fliway.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "online.fliway.com"
+      ],
+      "path": "^/Public/Track/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "online.fliway.com"
+      ],
+      "pathPattern": "^/Public/(?:Track|TrackItem)/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

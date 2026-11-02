@@ -1,0 +1,41 @@
+{
+  "id": "fercam",
+  "displayName": "FERCAM",
+  "aliases": [
+    "Fercam S.p.A.",
+    "FERCAM Logistics & Transport",
+    "DACHSER & FERCAM Italia"
+  ],
+  "region": {
+    "countries": [
+      "IT"
+    ]
+  },
+  "brand": {
+    "color": "#5a6770"
+  },
+  "selectable": true,
+  "timezone": "Europe/Rome",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://dachser.fercam.it/en-it/dachser-fercam-italia-shipment-tracking-707.html",
+    "canaryUrl": "https://dachser.fercam.it/en-it/dachser-fercam-italia-shipment-tracking-707.html",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "fercam-1",
+      "pattern": "^O\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

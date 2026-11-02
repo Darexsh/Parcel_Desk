@@ -1,0 +1,104 @@
+{
+  "id": "courier-center",
+  "displayName": "Courier Center",
+  "aliases": [
+    "COURIER CENTER",
+    "Courier Center Α.Ε.",
+    "courier.gr"
+  ],
+  "region": {
+    "countries": [
+      "GR"
+    ]
+  },
+  "brand": {
+    "color": "#f37029"
+  },
+  "selectable": true,
+  "timezone": "Europe/Athens",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "courier-center",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 914
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "service_name",
+    "delivered_at",
+    "offset_timestamps",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.courier.gr/track/result/?tracknr={trackingNumber}",
+    "searchUrl": "https://www.courier.gr/",
+    "canaryUrl": "https://www.courier.gr/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "delivered_at",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "parcel_count",
+      "origin",
+      "destination",
+      "postcodes",
+      "customer_reference",
+      "office_contact_details",
+      "recipient_name",
+      "contact_details",
+      "delivery_options",
+      "progress_rail"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "parcel_count",
+      "origin",
+      "destination",
+      "postcodes",
+      "customer_reference",
+      "office_contact_details",
+      "recipient_name",
+      "contact_details",
+      "delivery_options",
+      "progress_rail"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "pickup_point",
+      "sender_name",
+      "provider_code"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "courier.gr"
+      ],
+      "pathPattern": "^/track/result/?$",
+      "params": [
+        "tracknr"
+      ]
+    }
+  ],
+  "detection": []
+}

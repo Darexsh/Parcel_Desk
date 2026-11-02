@@ -1,0 +1,81 @@
+{
+  "carrier": "sat-ukraine",
+  "records": [
+    {
+      "number": "009000119",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20190817231645/https://www.sat.ua/api/methods/tracking/trackingget/",
+        "date": "2019-08-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "SAT's archived developer portal uses this waybill as the example of its tracking API, whose sample reply shows it accepted in Kharkiv and arrived at the issuing warehouse in Kyiv."
+    },
+    {
+      "number": "006002524",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20190817231620/https://www.sat.ua/api/methods/tracking/trackingpost/",
+        "date": "2019-08-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "SAT's archived developer portal uses this waybill in the sample request of its batch tracking API."
+    },
+    {
+      "number": "015010663",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20190817231620/https://www.sat.ua/api/methods/tracking/trackingpost/",
+        "date": "2019-08-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "SAT's archived developer portal uses this waybill, beside another, in the sample request of its batch tracking API."
+    },
+    {
+      "number": "999 116 371",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/transportnaya-kompaniya-sat/review-305352",
+        "date": "2015-07-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A sender's review on SAT's vidhuk.ua page gives this waybill, as printed in groups of three, for a Kyiv to Ternopil shipment sent with SAT."
+    }
+  ]
+}

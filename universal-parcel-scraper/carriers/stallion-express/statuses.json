@@ -1,0 +1,17 @@
+{
+  "carrier": "stallion-express",
+  "entries": [
+    {"wording": "Label created", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Stallion's own scan when the merchant buys the label; its clock is true UTC."},
+    {"wording": "Label printed, awaiting shipment", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Opens the history of parcels a partner such as PostNL or Fleet Optics delivers, with only the country as its place."},
+    {"wording": "Received at …", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Stallion's depot scan, followed by the depot's town, province and country. A receipt after the parcel left an earlier depot is read as in transit."},
+    {"wording": "In-transit from …", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The parcel left the Stallion depot the scan names."},
+    {"wording": "Tendered for Delivery", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Intelcom has the shipment's data, a minute after the label is bought; Intelcom words it as the parcel being in good hands."},
+    {"wording": "Received from Prior Carrier", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Intelcom takes the parcel over from Stallion's depot."},
+    {"wording": "Arrived at Terminal Location", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "An Intelcom terminal."},
+    {"wording": "Loaded on Truck", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Intelcom's driver has the parcel; Intelcom's own tracker says it is on its way."},
+    {"wording": "Completed Unloading at Delivery Location", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Intelcom's delivery scan, at the instant Intelcom's own tracker gives the delivery."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Stallion adds it a minute after the partner's delivery scan."},
+    {"wording": "ACCEPTANCE", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "PostNL accepts a parcel Stallion handed over for delivery abroad."},
+    {"wording": "PARCEL SCANNED ON ITS JOURNEY", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Relayed from PostNL."}
+  ]
+}

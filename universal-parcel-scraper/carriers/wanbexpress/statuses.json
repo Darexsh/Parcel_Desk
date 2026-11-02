@@ -1,0 +1,169 @@
+{
+  "carrier": "wanbexpress",
+  "source": {
+    "url": "https://tracking.wanbexpress.com/"
+  },
+  "entries": [
+    {
+      "code": "DataReceived",
+      "wording": "Parcel Data Received",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "OriginalWarehouseReceive",
+      "wording": "Parcel received at Shenzhen Sorting Centre.",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "SupplierDataReceived",
+      "wording": "Shipping Order Created.",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "OriginalWarehouseProcess",
+      "wording": "Parcel processed at Shenzhen Sorting Centre.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "OriginalWarehouseDeparture",
+      "wording": "Parcel departure in Shenzhen Sorting Centre.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LinehaulAgencyReceive",
+      "wording": "Customs declaration completed",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LinehaulAgencyDeparture",
+      "wording": "Parcel departure in Transit Facility, Parcel Departure",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LinehaulDeparture",
+      "wording": "Parcel is leaving Airport, Parcel Leaving Port",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LinehaulArrival",
+      "wording": "Parcel arrives at Airport, Parcel Arrival",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "CustomsCleared",
+      "wording": "Custom clearance completed",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "SupplierAndLastMileReceive",
+      "wording": "Parcel received by in JFK01.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "In Processing at Transit Facility.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "A US last-mile partner's sort after its receipt, relayed without a code."
+    },
+    {
+      "wording": "In Transit to Next Facility.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The same partner's move towards the facility that delivers, before the delivery run."
+    },
+    {
+      "code": "LastMileInTransit",
+      "wording": "In transit along Poste Italiane’s logistic network",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LastMileOutForDelivery",
+      "wording": "Parcel is out for delivery.",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LastMileDelivered",
+      "wording": "Parcel has been delivered.(Front door)",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "【Sample DC】Received.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "iMile's receipt at its centre in the destination country, relayed without a code."
+    },
+    {
+      "wording": "【Sample DS】Arrived.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "iMile's arrival at the delivery station, relayed without a code."
+    },
+    {
+      "wording": "【Sample DS】Dispatch task assigned to DA.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "A delivery associate named hours before the run."
+    },
+    {
+      "code": "LastMileDeliveryReady",
+      "wording": "【Sample DS】Shipment out for delivery.",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "<Route not completed>",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "note": "The driver's run ended without the delivery; the parcel goes back to the station."
+    },
+    {
+      "wording": "【Sample DS】 Back To DS.",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "note": "Back at the delivery station after a run that did not deliver it."
+    },
+    {
+      "wording": "Scheduled to <2026-11-02> .",
+      "language": "en",
+      "unmapped": true,
+      "confirmedBy": "live",
+      "note": "The day booked for the next run after the parcel came back to the station, as iMile writes its \"Shipment is scheduled to\" line: moves nothing, so the failed attempt stands."
+    }
+  ]
+}

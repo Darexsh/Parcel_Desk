@@ -1,0 +1,67 @@
+{
+  "data": {
+    "getOfficialWebsiteTrackingInfoBatch": {
+      "success": true,
+      "message": "",
+      "errorCode": null,
+      "results": [
+        {
+          "success": true,
+          "message": "",
+          "errorCode": null,
+          "trackingNo": "SWX000000000000000002",
+          "trackingEventList": [
+            {
+              "event": "WHS_ARRIVAL_SCAN",
+              "description": "Arrived At Warehouse",
+              "localTime": "2026-05-03 06:10:44",
+              "localGmtOffset": "GMT-7:00",
+              "location": "ABC_NORTH Warehouse",
+              "iso3166Cc": "US",
+              "iso3166Sc": "CA",
+              "cityUppercase": "HILLCREST",
+              "postalCode": "00005",
+              "podImageCount": 0
+            },
+            {
+              "event": "SORTING_CENTER_INBOUND_SCAN",
+              "description": "Parcel arrived at carrier's sorting center",
+              "localTime": "2026-05-02 23:52:16",
+              "localGmtOffset": "GMT-7:00",
+              "location": "ABC HUB",
+              "iso3166Cc": "US",
+              "iso3166Sc": "CA",
+              "cityUppercase": "WESTVALE",
+              "postalCode": "00004",
+              "podImageCount": 0
+            },
+            {
+              "event": "PICKUP_FAILED",
+              "description": "Scheduled pickup failed",
+              "localTime": "2026-05-02 11:03:27",
+              "localGmtOffset": "GMT-7:00",
+              "location": "Sender",
+              "iso3166Cc": "US",
+              "iso3166Sc": "CA",
+              "cityUppercase": "SHIPPERTON",
+              "postalCode": "00006",
+              "podImageCount": 0
+            },
+            {
+              "event": "CREATED",
+              "description": "Shipping Label Created",
+              "localTime": "2026-05-01 19:20:09",
+              "localGmtOffset": "GMT-07:00",
+              "location": "SYSTEM",
+              "iso3166Cc": "US",
+              "iso3166Sc": "",
+              "cityUppercase": "SYSTEM",
+              "postalCode": "",
+              "podImageCount": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

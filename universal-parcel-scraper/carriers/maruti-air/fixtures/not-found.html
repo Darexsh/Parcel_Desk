@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Tracking
+</title><link href="TRackpage/bootstrap.min.css" rel="stylesheet" /><link href="TRackpage/style.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="TRackpage/Card.css" />
+    <script src="TRackpage/jquery.min.js"></script>
+    <script src="TRackpage/jquery-migrate.min.js"></script>
+    <script src="TRackpage/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <form name="form1" method="post" action="./WebAWBTracking.aspx?AWB=300000033" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="SYNTHETIC-VIEW-STATE" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="SYNTHETIC" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="SYNTHETIC-EVENT-VALIDATION" />
+</div>
+        <main>
+ <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about" class="margininner">
+      <div class="container" style="text-align:center">
+
+          <h3><span class="boldtext">Awb Tracking</span></h3>
+      
+      </div>
+    </section><!-- #about -->
+	
+
+    <!--==========================
+      Services Section
+    ============================-->
+   
+      <div class="container">
+          <div id="divtrack">
+        <div class="row" >
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+                <label for="fname"></label>
+                
+             </div>
+                </div>
+                 <div class="row">
+                      <div class="col-sm-4" style="width:33.333333%">
+                      </div>
+                      <div class="col-sm-4" style="width:33.333333%">
+                        <input name="dzName" type="text" id="dzName" class="form-control" style="width:100%" placeholder="Docket Tracking" value="300000033" />
+                     </div>
+                      <div class="col-sm-4"  style="width:33.333333%">
+                    <div class="searching" style="width: 210px;float:left;margin-top:-13px">
+                        <button onclick="__doPostBack('ctl05','')" class="btngetstarted">
+                            <i class="fa fa-search"></i>&nbsp;&nbsp;Tracking
+                        </button>
+                    </div>  
+                    </div>
+                    </div>
+            </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <span id="lblAlert" style="color:Red;font-weight:bold;"></span>
+                <div class='alert alert-danger' role='alert'>DETAIL NOT FOUND !</div>
+            </div>
+        </div>
+       
+      </div>
+    
+  </main>
+    </form>
+    <script type="text/javascript">
+
+        function rotateImage(_direction, _imgViewFile, _rotation) {
+            try {
+                const rotated = document.getElementById(_imgViewFile);
+                let rotation = Number(document.getElementById(_rotation).innerText);
+                const angle = 90;
+                if (_direction == 'clockWise') {
+                    rotation = (rotation + angle) % 360;
+                    rotated.style.transform = `rotate(${rotation}deg)`;
+                    document.getElementById(_rotation).innerText = rotation;
+                }
+                else if (_direction == 'counterClockWise') {
+                    rotation = (rotation - angle) % 360;
+                    rotated.style.transform = `rotate(${rotation}deg)`;
+                    document.getElementById(_rotation).innerText = rotation;
+                }
+            }
+            catch (e) {
+                console.log(e)
+            }
+        }
+
+    </script>
+</body>
+</html>

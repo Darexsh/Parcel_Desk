@@ -1,0 +1,80 @@
+{
+  "carrier": "zr-express",
+  "records": [
+    {
+      "number": "21-QKG1ELHZOX-ZR",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.zrexpress.net/suivi",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "zr-express",
+        "confidence": "high"
+      },
+      "note": "The example in the search field of ZR Express's own tracking page, also quoted in its format error message. ZR's tracker answers it as a delivered parcel."
+    },
+    {
+      "number": "39-5A7FQMPQGV-ZR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260807200911/https://www.zrexpress.net/en/track?tn=39-5A7FQMPQGV-ZR",
+        "date": "2026-08-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "zr-express",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on ZR Express's English tracker shows its history. ZR's tracker answers it as a delivered parcel."
+    },
+    {
+      "number": "16-AJXL7ORFOL-ZR",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/bighadj22/codflow/blob/main/.agents/skills/zr-express/CONFORMANCE.md",
+        "date": "2026-09-11",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "zr-express",
+        "confidence": "high"
+      },
+      "note": "A live audit of an open-source client against ZR Express's production API gives it as the format of the tracking number the API returns."
+    },
+    {
+      "number": "16-JUKYSI-ZR",
+      "role": "quarantined",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/uften/courier/blob/master/tests/Feature/Adapters/ZrExpressNewAdapterTest.php",
+        "date": "2026-03-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "zr-express",
+        "confidence": "high"
+      },
+      "note": "The tracking number in the parcel fixture of an open-source courier library's ZR Express adapter tests, which its adapter also cites as an example. The test fixture is partly synthetic, so the number stays quarantined."
+    }
+  ]
+}

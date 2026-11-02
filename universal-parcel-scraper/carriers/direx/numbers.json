@@ -1,0 +1,379 @@
+{
+  "carrier": "direx",
+  "records": [
+    {
+      "number": "9063457359",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://direx.bg/track/",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Direx's tracking page lists it in an HTML comment. Direx's tracker answers it as a parcel for Germany that UPS sent back."
+    },
+    {
+      "number": "1750894953",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://direx.bg/track/",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Direx's tracking page lists it in an HTML comment. Direx's tracker answers it as a parcel for the United States that USPS delivered."
+    },
+    {
+      "number": "4178288994",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://direx.bg/track/",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Direx's tracking page lists it in an HTML comment. Direx's tracker answers it as a parcel for the United States that USPS delivered."
+    },
+    {
+      "number": "3194037526",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.direx.bg/docs/",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Direx's own API documentation gives this item number in its partner status example, handed to Swiss Post, with partner events from January 2025."
+    },
+    {
+      "number": "3321798333",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.direx.bg/docs/",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Direx's own API documentation gives this second item number in its partner status example, handed to Asendia."
+    },
+    {
+      "number": "3171555755",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.direx.bg/docs/",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Direx's own API documentation gives this item number, sent from Bulgaria to Italy, in its tracking example with Direx events."
+    },
+    {
+      "number": "1147073931",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.direx.bg/docs/",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Direx's own API documentation gives this item number, sent from Bulgaria to the United States, in its tracking example with a full Direx history."
+    },
+    {
+      "number": "4531346938",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.direx.bg/docs/",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Direx's own API documentation uses this item number in its tracking number, weight and price, label and reference lookup examples."
+    },
+    {
+      "number": "9758341601",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.direx.bg/docs/",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Direx's own API documentation uses this item number in its tracking number, weight and price and reference lookup examples."
+    },
+    {
+      "number": "8399934503",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.direx.bg/docs/",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Direx's own API documentation uses this item number in its tracking number, weight and price and reference lookup examples."
+    },
+    {
+      "number": "2189771986",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.direx.bg/docs/",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "Direx's own API documentation uses this item number in the request examples of its tracking and manifest endpoints."
+    },
+    {
+      "number": "R7270452086",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251001014859/https://postone.eu/track?code=R7270452086",
+        "date": "2025-10-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it",
+          "post-one"
+        ]
+      },
+      "note": "An archived lookup on the tracker of Post One, another Bulgarian operator, shows this item number delivered by USPS; it is not known whether Direx's own tracker takes it."
+    },
+    {
+      "number": "R4890757626",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260115123844/https://postone.eu/track?code=2F1000016972",
+        "date": "2026-01-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it",
+          "post-one"
+        ]
+      },
+      "note": "An archived lookup by the partner number on the tracker of Post One, another Bulgarian operator, shows this as the item number of a parcel delivered by Fastway in Ireland."
+    }
+  ]
+}

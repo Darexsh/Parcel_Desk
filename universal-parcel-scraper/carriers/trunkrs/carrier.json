@@ -1,0 +1,39 @@
+{
+  "id": "trunkrs",
+  "displayName": "Trunkrs",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "NL",
+      "BE"
+    ]
+  },
+  "brand": {
+    "color": "#220c4a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Amsterdam",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://parcel.trunkrs.nl/",
+    "canaryUrl": "https://parcel.trunkrs.nl/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "parcel.trunkrs.nl"
+      ],
+      "path": "^/(?!barcode/)([A-Za-z0-9]{5,40})/[^/?#]+/?$"
+    }
+  ],
+  "detection": []
+}

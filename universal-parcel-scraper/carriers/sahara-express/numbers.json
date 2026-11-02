@@ -1,0 +1,24 @@
+{
+  "carrier": "sahara-express",
+  "records": [
+    {
+      "number": "S22226902",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20071022043748/http://saharaexpress.com:80/confirm_rpt.php?txtship_no=S22226902",
+        "date": "2007-10-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Sahara's own delivery confirmation report carries this shipment number; the capture shows the report's empty fields, so the history was not visible."
+    }
+  ]
+}

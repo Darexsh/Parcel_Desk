@@ -1,0 +1,60 @@
+{
+  "carrier": "courier-it",
+  "records": [
+    {
+      "number": "PN9124099",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170902235943/http://www.courierit.co.za:80/Trackit/Trackit.aspx?WaybillNumber=PN9124099&AccountNumber=TRACKIT",
+        "date": "2017-09-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The opened capture of Courier IT's Trackit page shows the waybill from collection to proof of delivery. The consignor is a PostNet store, so the waybill belongs to PostNet's counter-to-counter service carried by Courier IT."
+    },
+    {
+      "number": "ATS122393",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/courier-it/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "ParcelPanel's Courier IT page offers it as a sample to try; it is not described as a live shipment."
+    },
+    {
+      "number": "PP1039303",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170924113403/http://www.courierit.co.za:80/Trackit/Trackit.aspx?WaybillNumber=PP1039303&AccountNumber=TRACKIT",
+        "date": "2017-09-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The opened capture of Courier IT's tracker shows this PostNet waybill carried from one PostNet counter to another, from collection to proof of delivery."
+    }
+  ]
+}

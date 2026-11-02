@@ -1,0 +1,120 @@
+{
+  "carrier": "madhur-courier",
+  "records": [
+    {
+      "number": "1190344374",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20130630020112/http://madhurexpress.net:80/madhurnet/cnsgtracking_2.aspx?cno=1190344374&daylimit=0",
+        "date": "2013-06-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki",
+          "gls-es"
+        ]
+      },
+      "note": "An archived lookup on Madhur's older tracker, which the current tracker page names for consignments booked before October 2019, shows this consignment manifested from Satna to Bhopal and outwarded for local delivery."
+    },
+    {
+      "number": "P501800984",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/parcel-tempered/100262",
+        "date": "2020-11-12",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "A Voxya complaint against Madhur Courier Service gives it as the C-Note number of two parcels booked from Delhi and partly delivered."
+    },
+    {
+      "number": "02912620404",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/not-delivered-/162578",
+        "date": "2022-07-26",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "old-dominion",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "A Voxya complaint against Madhur Courier Service gives it as the parcel number of a shipment shown as delivered but not received."
+    },
+    {
+      "number": "5191830085",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/courier-not-delivered-to-an-authorised-person-neither-receiver-nor-sender/268894",
+        "date": "2026-06-20",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "A Voxya complaint against Madhur Courier Service gives it as the consignment number of a Jodhpur to Jaipur courier handed to the wrong person."
+    }
+  ]
+}

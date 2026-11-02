@@ -1,0 +1,43 @@
+{
+  "carrier": "winion-logis",
+  "records": [
+    {
+      "number": "120600202446",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://blog.naver.com/pjw9951/223843675754",
+        "date": "2025-04-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A customer's blog post about an AliExpress order gives this as the WINION LOGIS waybill, later handed to Kunyoung and then Logen under their own numbers."
+    }
+  ]
+}

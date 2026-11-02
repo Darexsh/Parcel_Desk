@@ -1,0 +1,388 @@
+{
+  "carrier": "evri",
+  "records": [
+    {
+      "number": "H0595C0000314450",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://ie.trustpilot.com/reviews/6a0adb5e679c6b7f4d03ee29",
+        "date": "2026-05-18"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "Public report of an Evri International parcel. Evri's international tracker returns its history."
+    },
+    {
+      "number": "H06R4A1011299623",
+      "role": "negative",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://wobaaa.com/aliexpress-uk-tracking-numbers/"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none",
+        "not": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "Published integration example, not a real shipment. Its last digit is not Evri's check digit."
+    },
+    {
+      "number": "H04YLC0002370689",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261004085839/https://globaleco.app/track/H04YLC0002370689",
+        "date": "2026-10-04",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history, to Germany, with arrival scans at local depots there."
+    },
+    {
+      "number": "H071HC0000349178",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260816143338/https://globaleco.app/track/H071HC0000349178",
+        "date": "2026-08-16",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history, to the United States, with a missed delivery and a delay before delivery."
+    },
+    {
+      "number": "H07WRC0000036976",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260728172102/https://globaleco.app/track/H07WRC0000036976",
+        "date": "2026-07-28",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history, with a payment requested and received at the export hub before it was accepted again."
+    },
+    {
+      "number": "H0047C0059115519",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260714092143/https://globaleco.app/track/H0047C0059115519",
+        "date": "2026-07-14",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history, left awaiting collection before delivery."
+    },
+    {
+      "number": "H0389C0000973928",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260626121555/https://globaleco.app/track/H0389C0000973928",
+        "date": "2026-06-26",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history."
+    },
+    {
+      "number": "H0595C0001084692",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260630190949/https://globaleco.app/track/H0595C0001084692",
+        "date": "2026-06-30",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history."
+    },
+    {
+      "number": "H04WQC0006873574",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260617145612/https://globaleco.app/track/H04WQC0006873574",
+        "date": "2026-06-17",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history."
+    },
+    {
+      "number": "H0431C0010139783",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260619125731/https://globaleco.app/track/H0431C0010139783",
+        "date": "2026-06-19",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history, to Germany."
+    },
+    {
+      "number": "H021SC0025881204",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260514192151/https://globaleco.app/track/H021SC0025881204",
+        "date": "2026-05-14",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history, to Estonia through the Baltic states, left awaiting collection."
+    },
+    {
+      "number": "H07G3C0000017891",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260326233838/https://globaleco.app/track/H07G3C0000017891",
+        "date": "2026-03-26",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history, to Ireland, through customs and an Irish delivery office."
+    },
+    {
+      "number": "H06R9C0000911076",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260305070607/https://globaleco.app/track/H06R9C0000911076",
+        "date": "2026-03-05",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history, to Sweden, left awaiting collection."
+    },
+    {
+      "number": "H00MTC0094819738",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260223100819/https://globaleco.app/track/H00MTC0094819738",
+        "date": "2026-02-23",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history."
+    },
+    {
+      "number": "H037TC0044316147",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260122205451/https://globaleco.app/track/H037TC0044316147",
+        "date": "2026-01-22",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history, handed to a partner carrier."
+    },
+    {
+      "number": "H0389C0000769444",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251016094900/https://globaleco.app/track/H0389C0000769444",
+        "date": "2025-10-16",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri",
+          "evri-uk"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history, with a delivery exception before delivery."
+    },
+    {
+      "number": "H02SSA0001116024",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250514090854/https://globaleco.app/track/H02SSA0001116024",
+        "date": "2025-05-14",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "evri-uk",
+          "evri"
+        ]
+      },
+      "note": "An Evri International parcel whose GlobalEco tracking page the Wayback Machine archived. Evri's international tracker returns its history. It has an A in the sixth place."
+    }
+  ]
+}

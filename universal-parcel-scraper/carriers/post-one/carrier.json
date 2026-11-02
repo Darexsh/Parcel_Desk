@@ -1,0 +1,56 @@
+{
+  "id": "post-one",
+  "displayName": "Post One",
+  "aliases": [
+    "PostOne",
+    "POST ONE",
+    "Post One Group",
+    "Post One Group Ltd",
+    "Пост Уан",
+    "Пост Уан Груп"
+  ],
+  "region": {
+    "countries": [
+      "BG"
+    ]
+  },
+  "brand": {
+    "color": "#f7da19"
+  },
+  "selectable": true,
+  "timezone": "Europe/Sofia",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://postone.eu/en/track?code={trackingNumber}",
+    "searchUrl": "https://postone.eu/en/products/view/track",
+    "canaryUrl": "https://postone.eu/en",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "postone.eu",
+        "www.postone.eu"
+      ],
+      "pathPattern": "^/(?:[a-z]{2}/)?track/?$",
+      "params": [
+        "code"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "post-one-1",
+      "pattern": "^R\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

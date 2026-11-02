@@ -1,0 +1,17 @@
+{
+  "carrier": "bts-uz",
+  "entries": [
+    {"code": "100", "wording": "У отправителя", "stage": "registered", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. With the sender, not yet handed to BTS."},
+    {"code": "200", "wording": "Курьер принял", "stage": "accepted", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. A courier collected the parcel and is taking it to the origin office."},
+    {"code": "300", "wording": "В офисе отправления", "stage": "accepted", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. Accepted at the origin office."},
+    {"code": "400", "wording": "Во внутренней перевозке", "stage": "in_transit", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. In domestic transport."},
+    {"code": "500", "wording": "В РЦ", "stage": "in_transit", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. Being processed at the sorting centre."},
+    {"code": "600", "wording": "В мешке", "stage": "in_transit", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. Placed in a logistics bag."},
+    {"code": "700", "wording": "В перевозке", "stage": "in_transit", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. In transport."},
+    {"code": "800", "wording": "В офисе доставки", "stage": "in_transit", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. Arrived at the delivery office."},
+    {"code": "1100", "wording": "Курьер доставляет", "stage": "out_for_delivery", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. A courier is delivering the parcel."},
+    {"code": "1200", "wording": "Доставлен", "stage": "delivered", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. Delivered."},
+    {"code": "1300", "wording": "Удалён", "stage": "exception", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. The order was deleted."},
+    {"code": "1400", "wording": "Срок истек", "stage": "exception", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in BTS's API documentation. The order expired."}
+  ]
+}

@@ -1,0 +1,1174 @@
+{
+  "carrier": "mondial-relay",
+  "records": [
+    {
+      "number": "12123456780101006623123454",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "mondial-relay",
+        "confidence": "high"
+      },
+      "note": "Made-up number that follows the published format."
+    },
+    {
+      "number": "4744000791",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://suivi-colis.org/mondial-relay/"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to Mondial Relay, which stays one candidate among several."
+    },
+    {
+      "number": "87778793",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://suivi-colis.org/mondial-relay/"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to Mondial Relay, which stays one candidate among several."
+    },
+    {
+      "number": "98911884",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://suivi-colis.org/mondial-relay/"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to Mondial Relay, which stays one candidate among several."
+    },
+    {
+      "number": "73800244620101503002000732",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/probleme-colis-mondial-relay-gls-t286523-40.html",
+        "date": "2022-04-25"
+      },
+      "expect": {
+        "carrier": "mondial-relay",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. Full label barcode rather than the number a user types."
+    },
+    {
+      "number": "00000000000000000000000000",
+      "role": "negative",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "All-zero 26-digit string; the checksum gate rejects it. Filed under Mondial Relay; no rule matches this shape."
+    },
+    {
+      "number": "12123456780101006623123455",
+      "role": "negative",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Valid barcode with the final check digit changed. Filed under Mondial Relay; no rule matches this shape."
+    },
+    {
+      "number": "12123456780101106623123454",
+      "role": "negative",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Valid barcode with the first check digit changed. Filed under Mondial Relay; no rule matches this shape."
+    },
+    {
+      "number": "44620855",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-bloque-a-l-agence-de-beauchamps-t255991.html",
+        "date": "2019-12-06"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "The customer also names 887996564309 for the same shipment; their technical relationship is unverified. Mondial Relay replies about the parcel investigation. Detection remains ambiguous."
+    },
+    {
+      "number": "887996564309",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-bloque-a-l-agence-de-beauchamps-t255991.html",
+        "date": "2019-12-06"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "The customer also names 44620855 for the same shipment; this pair does not follow the documented embedded shipment mapping. No conversion rule is inferred. Detection remains ambiguous."
+    },
+    {
+      "number": "61376870",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/refus-remboursement-apres-retour-article-t380674.html",
+        "date": "2026-04-28"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The customer reports a Mondial Relay delivery confirmation for an Amazon return, also named 8561376870. The correspondence fits the documented brand-prefixed form. Detection remains ambiguous."
+    },
+    {
+      "number": "8561376870",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/refus-remboursement-apres-retour-article-t380674.html",
+        "date": "2026-04-28"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "The customer also names 61376870 for the same Amazon return. The correspondence fits the documented brand-prefixed form; it does not establish a universal 85 prefix. Detection remains ambiguous."
+    },
+    {
+      "number": "49-55636302",
+      "role": "composite",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/pb-mondial-relay-vinted-t361334.html",
+        "date": "2024-12-01"
+      },
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Published literally as the tracking reference for a Vinted shipment attributed to Mondial Relay. The prefix role is unresolved; do not infer a canonical shipment by removing it. Detection characterizes the normalized input only.",
+      "quarantine": true
+    },
+    {
+      "number": "82547066970101107373021207",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-expedie-le-01-09-toujours-pas-livre-t326896.html",
+        "date": "2022-10-12"
+      },
+      "expect": {
+        "carrier": "mondial-relay",
+        "confidence": "high"
+      },
+      "note": "Published in the official tracker URL by the customer. Both barcode check digits and the parcel sequence validate; the shipment was not independently verified."
+    },
+    {
+      "number": "72402550",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-expedie-le-01-09-toujours-pas-livre-t326896.html",
+        "date": "2022-10-05"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A separate parcel in the same discussion as the full barcode. No alias relationship to the barcode is inferred. Numeric detection remains ambiguous."
+    },
+    {
+      "number": "12053959",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-depose-mais-statut-en-preparation-chez-l-expediteur-t366208.html",
+        "date": "2025-04-04"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. Numeric detection remains ambiguous."
+    },
+    {
+      "number": "28081219",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/mondial-relay-et-vinted-les-arnaqueurs-1ere-classe-t366724.html",
+        "date": "2025-04-24"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. Numeric detection remains ambiguous."
+    },
+    {
+      "number": "83581161",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/mondial-relay-et-vinted-les-arnaqueurs-1ere-classe-t366724.html",
+        "date": "2025-04-24"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. Numeric detection remains ambiguous."
+    },
+    {
+      "number": "71445621",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/probleme-colis-mondial-relay-t337486.html",
+        "date": "2023-06-19"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. Numeric detection remains ambiguous."
+    },
+    {
+      "number": "68146075",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/mondial-relay-plateforme-de-lieusaint-t332438.html",
+        "date": "2023-02-16"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. Numeric detection remains ambiguous."
+    },
+    {
+      "number": "79505665",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-mondialrelay-depose-mais-toujours-en-colis-en-preparation-chez-l-expediteur-t359666.html",
+        "date": "2024-10-25"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. Numeric detection remains ambiguous."
+    },
+    {
+      "number": "99451046",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/mondial-relay-ne-repond-pas-et-ne-rembourse-pas-t284487.html",
+        "date": "2020-11-11"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. Numeric detection remains ambiguous."
+    },
+    {
+      "number": "47258958",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-indisponible-depuis-7-semaines-t273631.html",
+        "date": "2020-06-30"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Reported outbound shipment. The customer gives 92986041 for its return leg; these are separate tracking identities. Numeric detection remains ambiguous."
+    },
+    {
+      "number": "92986041",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-indisponible-depuis-7-semaines-t273631.html",
+        "date": "2020-06-30"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Reported return shipment associated with outbound number 47258958. The two numbers are not interchangeable aliases. Numeric detection remains ambiguous."
+    },
+    {
+      "number": "7310286746010",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/probleme-colis-mondial-relay-gls-t286523.html",
+        "date": "2020-12-02",
+        "access": "full_page",
+        "dateKind": "forum_post"
+      },
+      "context": {
+        "assessment": "review",
+        "service": "GLS ShopReturnService collection",
+        "reportedRole": "tracking number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "Reported as a Mondial Relay tracking reference on a GLS partner return. Its thirteen digits do not match the documented public shipment formats, so its representation remains unresolved and must not be split into a lookup credential.",
+      "quarantine": true
+    },
+    {
+      "number": "7310297301",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/probleme-colis-mondial-relay-gls-t286523.html",
+        "date": "2020-12-04",
+        "access": "full_page",
+        "dateKind": "forum_post"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "GLS partner return collection",
+        "reportedRole": "tracking number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "The customer explicitly names this as the Mondial Relay collection reference and separately names a GLS return reference. The partner legs do not establish interchangeable tracking identities."
+    },
+    {
+      "number": "78471942",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/indisponibilite-de-relais-colis-t322392.html",
+        "date": "2022-06-01",
+        "access": "full_page",
+        "dateKind": "forum_post"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "tracking number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The customer explicitly identifies Mondial Relay and this parcel. The short reference remains one candidate among carriers sharing its numeric length."
+    },
+    {
+      "number": "54499091",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/indisponibilite-de-relais-colis-t322392.html",
+        "date": "2022-06-06",
+        "access": "full_page",
+        "dateKind": "forum_post"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "tracking number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The customer explicitly identifies Mondial Relay and this parcel. The short reference remains one candidate among carriers sharing its numeric length."
+    },
+    {
+      "number": "99314384",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-perdu-relance-sans-reponse-t301302.html",
+        "date": "2021-05-27",
+        "access": "full_page",
+        "dateKind": "forum_post"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "tracking number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The customer names Mondial Relay and separates the outward shipment from its return. The carrier association remains a public report."
+    },
+    {
+      "number": "92673858",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-perdu-relance-sans-reponse-t301302.html",
+        "date": "2021-05-27",
+        "access": "full_page",
+        "dateKind": "forum_post"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "tracking number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The customer explicitly labels this as the return of the separately named outward shipment. The short numeric format remains ambiguous.",
+      "relationships": [
+        {
+          "kind": "return_of",
+          "number": "99314384",
+          "source": {
+            "url": "https://forum.quechoisir.org/colis-perdu-relance-sans-reponse-t301302.html",
+            "date": "2021-05-27",
+            "access": "full_page",
+            "dateKind": "forum_post"
+          }
+        }
+      ]
+    },
+    {
+      "number": "92726304",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.60millions-mag.com/forum/d/65678-mondial-relay-coplis-irrecuperable?page=5",
+        "date": "2021-01-01",
+        "access": "full_page",
+        "dateKind": "forum_post"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "return tracking number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The customer labels this Mondial Relay reference as the second tracking number for a SAV return and pastes its carrier scans. The report does not establish an interchangeable alias for the outward parcel."
+    },
+    {
+      "number": "93076861",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.60millions-mag.com/forum/d/65678-mondial-relay-coplis-irrecuperable?page=5",
+        "date": "2021-01-06",
+        "access": "full_page",
+        "dateKind": "forum_post"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "return tracking number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The customer explicitly identifies Mondial Relay and a replacement return reference. The separately named earlier parcel is not shortened or substituted for this identifier."
+    },
+    {
+      "number": "89112087",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260727103710/https://www.mondialrelay.fr/suivi-de-colis?codeMarque=MR&numeroExpedition=89112087&language=FR",
+        "date": "2026-07-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Home delivery"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived tracking link with brand code MR. Mondial Relay's tracker finds it with that brand and no postcode, and returns the history of a home delivery."
+    },
+    {
+      "number": "88915677",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260723125154/https://www.mondialrelay.fr/suivi-de-colis?codeMarque=MR&numeroExpedition=88915677&pays=FR&language=fr&utm_source=TransactionalEmail&utm_medium=Email&utm_content=gen-previousdaydelivery-mr-fr&utm_campaign=NotificationColis",
+        "date": "2026-07-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Home delivery"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived delivery-notice link with brand code MR. Mondial Relay's tracker finds it with that brand and no postcode, and returns the history of a home delivery."
+    },
+    {
+      "number": "88121543",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260716133735/https://www.mondialrelay.be/fr-be/suivi-de-colis?country=BE&codeMarque=V1&numeroExpedition=88121543&language=FR",
+        "date": "2026-07-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Relay delivery from Portugal to Belgium"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived Belgian tracking link with brand code V1. Mondial Relay's tracker finds it with that brand and no postcode: a parcel from Portugal collected at a Belgian relay."
+    },
+    {
+      "number": "27877219",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260915072137/https://www.mondialrelay.com/en-gb/parcel-tracking/?country=PT&ens=V1VINTPT&exp=27877219",
+        "date": "2026-09-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Delivery in Portugal"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived international tracking link with brand code V1 and country PT. Mondial Relay's tracker finds it with that brand and no postcode: a parcel delivered in Portugal, whose recipient postcode it holds as four digits, a hyphen and three digits. The website finds it by that postcode only in that form, the app also without the hyphen, and neither by its first four digits."
+    },
+    {
+      "number": "90092508",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260716094529/https://www.mondialrelay.fr/suivi-de-colis?codeMarque=F2&numeroExpedition=90092508&language=fr",
+        "date": "2026-07-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Relay delivery"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived tracking link with brand code F2. Mondial Relay's tracker finds it with that brand and no postcode, and returns the history of a relay delivery."
+    },
+    {
+      "number": "87473631",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260715215557/https://www.mondialrelay.fr/suivi-de-colis?country=FR&codeMarque=V1&numeroExpedition=87473631&language=FR",
+        "date": "2026-07-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Relay delivery from Germany"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived tracking link with brand code V1. Mondial Relay's tracker finds it with that brand and no postcode: a parcel collected in Germany by a partner network and delivered to a French relay."
+    },
+    {
+      "number": "8565131824",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260526110712/https://www.mondialrelay.fr/suivi-de-colis?codeMarque=M1&numeroExpedition=8565131824&language=FR",
+        "date": "2026-05-26",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Return to a merchant"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "An archived tracking link with brand code M1 and the 10-digit form. Mondial Relay's tracker returns its history without a postcode: a parcel dropped at a relay and delivered to the merchant."
+    },
+    {
+      "number": "90247642",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260130230947/https://www.mondialrelay.fr/suivi-de-colis?codeMarque=BE&numeroExpedition=90247642&language=FR",
+        "date": "2026-01-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived tracking link with brand code BE. Mondial Relay's tracker finds no parcel under it with that brand any more."
+    },
+    {
+      "number": "07722019",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251206153149/https://www.mondialrelay.fr/suivi-de-colis/?ens=CC07722019&exp=07722019&language=FR",
+        "date": "2025-12-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived tracking link with brand code CC. Mondial Relay's tracker finds no parcel under it with that brand any more."
+    },
+    {
+      "number": "76338568",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250825155614/https://www.mondialrelay.fr/suivi-de-colis/?codeMarque=E1&numeroExpedition=76338568",
+        "date": "2025-08-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived tracking link with brand code E1. Mondial Relay's tracker finds no parcel under it with that brand any more."
+    },
+    {
+      "number": "27740379",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250819143321/https://www.mondialrelay.be/fr-be/suivi-de-colis?codeMarque=EC&numeroExpedition=27740379&pays=BE&language=fr",
+        "date": "2025-08-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived tracking link with brand code EC. Mondial Relay's tracker finds no parcel under it with that brand any more."
+    },
+    {
+      "number": "90981539",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250731184543/https://www.mondialrelay.fr/suivi-de-colis?codeMarque=ES&numeroExpedition=90981539&language=FR",
+        "date": "2025-07-31",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived tracking link with brand code ES. Mondial Relay's tracker finds no parcel under it with that brand any more."
+    },
+    {
+      "number": "15850951",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240927055010/https://www.mondialrelay.fr/suivi-de-colis?country=FR&codeMarque=IT&numeroExpedition=15850951&language=FR",
+        "date": "2024-09-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "An archived tracking link with brand code IT. Mondial Relay's tracker finds no parcel under it with that brand any more."
+    },
+    {
+      "number": "55376830",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240823162110/https://www.mondialrelay.fr/suivi-de-colis?codeMarque=NL&numeroExpedition=55376830&pays=FR&language=fr",
+        "date": "2024-08-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived tracking link with brand code NL. Mondial Relay's tracker finds no parcel under it with that brand any more."
+    },
+    {
+      "number": "97515621",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240810092033/https://www.mondialrelay.fr/suivi-de-colis?codeMarque=DE&numeroExpedition=97515621&language=FR",
+        "date": "2024-08-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived tracking link with brand code DE. Mondial Relay's tracker finds no parcel under it with that brand any more."
+    },
+    {
+      "number": "13768764",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250108220205/https://www.mondialrelay.fr/suivi-de-colis?codeMarque=F3&nexp=13768764",
+        "date": "2025-01-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "An archived tracking link with brand code F3. Mondial Relay's tracker finds no parcel under it with that brand any more."
+    },
+    {
+      "number": "01378121",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260703091826/https://www.mondialrelay.fr/suivi-de-colis?numeroExpedition=01378121",
+        "date": "2026-07-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived tracking link with no brand or postcode. The website needs one of them to find an 8-digit shipment."
+    },
+    {
+      "number": "4180866197",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240910093706/https://www.mondialrelay.fr/suivi-de-colis?numeroExpedition=4180866197",
+        "date": "2024-09-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "An archived tracking link with the 10-digit form. Mondial Relay's tracker finds no parcel under it any more."
+    },
+    {
+      "number": "82746497110101240243002658",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250919011822/https://www.mondialrelay.fr/suivi-de-colis?numeroExpedition=82746497110101240243002658",
+        "date": "2025-09-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "mondial-relay",
+        "confidence": "high"
+      },
+      "note": "An archived tracking link with a 26-digit label barcode whose check digits pass. Mondial Relay's tracker finds no parcel under it any more."
+    },
+    {
+      "number": "14181702470101802623075446",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240902150024/https://www.mondialrelay.fr/suivi-de-colis?NumeroExpedition=14181702470101802623075446",
+        "date": "2024-09-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "mondial-relay",
+        "confidence": "high"
+      },
+      "note": "An archived tracking link with a 26-digit label barcode whose check digits pass. Mondial Relay's tracker finds no parcel under it any more."
+    },
+    {
+      "number": "FV00000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-23",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "tnt-it"
+        ]
+      },
+      "note": "Made-up number in the shape of a parcel the app tracked, which InPost Spain’s own tracking page answered and a universal provider filed under InPost (ES): FV and eight digits."
+    }
+  ]
+}

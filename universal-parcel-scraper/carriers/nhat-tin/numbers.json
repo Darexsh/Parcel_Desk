@@ -1,0 +1,74 @@
+{
+  "carrier": "nhat-tin",
+  "records": [
+    {
+      "number": "CP17340160",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://docs.ntlogistics.vn/en/docs/api-reference/bill/tracking",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-es",
+          "nhat-tin",
+          "tnt-it"
+        ]
+      },
+      "note": "The request example in Nhat Tin Logistics' own API documentation for tracking a shipment."
+    },
+    {
+      "number": "CP17412845",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://docs.ntlogistics.vn/en/docs/api-reference/bill/tracking",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "nhat-tin",
+          "tnt-it"
+        ]
+      },
+      "note": "The shipment in the reply example of Nhat Tin Logistics' own API documentation for tracking, with a delivered history."
+    },
+    {
+      "number": "CP16658276R",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://docs.ntlogistics.vn/en/docs/api-reference/bill/webhook",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "nhat-tin"
+        ]
+      },
+      "note": "The shipment in the webhook payload example of Nhat Tin Logistics' own API documentation."
+    }
+  ]
+}

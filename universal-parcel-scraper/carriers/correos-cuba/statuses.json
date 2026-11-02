@@ -1,0 +1,14 @@
+{
+  "carrier": "correos-cuba",
+  "entries": [
+    {"wording": "IMPUESTO", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Posted at the office the scan names."},
+    {"wording": "CLASIFICADO", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Sorted at an office, including the international office of exchange in Havana."},
+    {"wording": "FACTURADO", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Sent on to the office the scan names."},
+    {"wording": "Facturado a mipyme", "stage": "in_transit", "language": "es", "confirmedBy": "source", "note": "Delivery handed to a private small business that distributes parcels for the post. Explained in a Cuban guide to the tracker's messages."},
+    {"wording": "RECEPCIONADO", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Received at the office the scan names."},
+    {"wording": "ENTREGADO A ADUANA", "stage": "customs", "language": "es", "confirmedBy": "portal"},
+    {"wording": "entregado a aduana en exportaciones", "stage": "customs", "language": "es", "confirmedBy": "source", "note": "Handed to export customs, for an item leaving Cuba. Quoted in a sender's comment on a Cuban tracking guide."},
+    {"wording": "SALIDA ADUANA", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Released by customs, which sends the item on."},
+    {"wording": "ENTREGADO", "stage": "delivered", "language": "es", "confirmedBy": "portal"}
+  ]
+}

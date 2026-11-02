@@ -1,0 +1,73 @@
+{
+  "page": "/tracking",
+  "props": {
+    "pageProps": {
+      "q": "260731593842",
+      "isRedirected": true,
+      "shipmentDetails": {
+        "TrackingNumber": 260731593842,
+        "LastStatus": "Teslim ettik",
+        "ShipmentDate": "2026-09-14T10:15:37.123+03:00",
+        "DeliveryDate": "2026-09-16T17:45:22.987+03:00",
+        "Statuses": [
+          {
+            "Message": "Gönderi Talebi Alındı",
+            "Date": "14.09.2026 10:15",
+            "Active": true,
+            "Description": "Private recipient note",
+            "Mapped": true,
+            "IconName": "statuses/registered.svg"
+          },
+          {
+            "Message": "Teslim aldık",
+            "Date": "14.09.2026 16:50",
+            "Active": true,
+            "Description": "Private sender note",
+            "Mapped": true
+          },
+          {
+            "Message": "Yolda",
+            "Date": "16.09.2026 07:10",
+            "Active": true,
+            "Mapped": true
+          },
+          {
+            "Message": "Teslimata Çıkardık",
+            "Date": "16.09.2026 11:35",
+            "Active": true,
+            "Mapped": true
+          },
+          {
+            "Message": "Teslim ettik",
+            "Date": "16.09.2026 17:45",
+            "Active": true,
+            "Mapped": true
+          }
+        ],
+        "RecipientName": "Synthetic Recipient",
+        "RecipientPhone": "+90 000 000 0000",
+        "RecipientEmail": "recipient@example.invalid",
+        "RecipientAddressText": "Invented Street 42",
+        "SenderName": "Synthetic Sender",
+        "SenderHashLink": "SYNTHETIC-SENDER-CAPABILITY",
+        "RecipientHashLink": "SYNTHETIC-RECIPIENT-CAPABILITY",
+        "CourierName": "Synthetic Courier",
+        "DeliveredPersonName": "Synthetic Signatory",
+        "VehicleNumberPlate": "SYNTHETIC-PLATE",
+        "ReceiverCustomerLat": 40.123,
+        "ReceiverCustomerLong": 29.123,
+        "IsOtpRequired": false,
+        "IsReturnShipment": false,
+        "RelatedTrackingIds": null,
+        "isKGShipment": false
+      },
+      "pageMessage": null
+    }
+  },
+  "query": {
+    "q": "260731593842",
+    "qid": "SYNTHETIC-GUEST-CAPABILITY"
+  },
+  "buildId": "SYNTHETIC-BUILD",
+  "gssp": true
+}

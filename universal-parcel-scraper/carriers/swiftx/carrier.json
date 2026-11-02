@@ -1,0 +1,92 @@
+{
+  "id": "swiftx",
+  "displayName": "SwiftX",
+  "aliases": [
+    "SwiftX Express"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#5e51d3"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "swiftx",
+    "steps": [
+      "trawl"
+    ],
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://swiftx-express.com/track?trackingNumber={trackingNumber}",
+    "searchUrl": "https://swiftx-express.com/",
+    "helpUrl": "https://swiftx-express.com/customer-service",
+    "canaryUrl": "https://swiftx-express.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps",
+      "delivered_at",
+      "delivery_comments",
+      "recipient_address",
+      "postcodes",
+      "proof_of_delivery",
+      "office_contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps",
+      "delivered_at",
+      "provider_code",
+      "delivery_comments"
+    ],
+    "discarded": [
+      "recipient_address",
+      "postcodes",
+      "proof_of_delivery",
+      "office_contact_details"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "dimensions",
+      "sender_name",
+      "recipient_name",
+      "pickup_point",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "swiftx-express.com",
+        "www.swiftx-express.com"
+      ],
+      "pathPattern": "^/(?:[a-z]{2}/)?track/?$",
+      "params": [
+        "trackingNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "swiftx-1",
+      "pattern": "^SWX\\d{18}$",
+      "confidence": "high"
+    }
+  ]
+}

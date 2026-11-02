@@ -1,0 +1,11 @@
+{
+  "carrier": "cbl-logistica",
+  "entries": [
+    {"code": "DOC", "wording": "DOCUMENTADA", "stage": "registered", "language": "es", "confirmedBy": "official-doc", "note": "From the public lookup page's script."},
+    {"code": "TRANS", "wording": "EN TRANSITO", "stage": "in_transit", "language": "es", "confirmedBy": "official-doc", "note": "From the public lookup page's script."},
+    {"code": "DEST", "wording": "EN DESTINO", "stage": "in_transit", "language": "es", "confirmedBy": "official-doc", "note": "From the public lookup page's script. The shipment is at the destination branch."},
+    {"code": "REPA", "wording": "EN REPARTO", "stage": "out_for_delivery", "language": "es", "confirmedBy": "official-doc", "note": "From the public lookup page's script."},
+    {"code": "EFEC", "wording": "ENTREGADA", "stage": "delivered", "language": "es", "confirmedBy": "official-doc", "note": "From the public lookup page's script."},
+    {"wording": "INCIDENCIA", "stage": "exception", "language": "es", "confirmedBy": "official-doc", "note": "From the public lookup page's script. Replaces the status label whenever the shipment carries an incident flag."}
+  ]
+}

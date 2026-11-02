@@ -1,0 +1,101 @@
+{
+  "id": "tanzania-posts",
+  "displayName": "Tanzania Posts Corporation",
+  "aliases": [
+    "Tanzania Post",
+    "Tanzania Posts",
+    "Posta Tanzania",
+    "TPC"
+  ],
+  "region": {
+    "countries": [
+      "TZ"
+    ]
+  },
+  "brand": {
+    "color": "#dd1f2e"
+  },
+  "selectable": true,
+  "timezone": "Africa/Dar_es_Salaam",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "tanzania-posts",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "weight",
+    "destination_country"
+  ],
+  "portal": {
+    "searchUrl": "https://tracking.posta.co.tz/index.php/Tracking/tracker",
+    "canaryUrl": "https://tracking.posta.co.tz/index.php/Tracking/tracker",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin",
+      "destination",
+      "destination_country",
+      "weight",
+      "item_category",
+      "progress_rail",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "delivered_at",
+      "signatory",
+      "recipient_id",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "destination_country"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "item_category",
+      "progress_rail",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "delivered_at",
+      "signatory",
+      "recipient_id",
+      "payment_details"
+    ],
+    "unavailable": [
+      "eta",
+      "service_name",
+      "provider_code",
+      "offset_timestamps",
+      "delivery_tracking_number",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.posta.co.tz"
+      ],
+      "pathPattern": "^/index\\.php/Tracking/dashboard_tracking_information/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

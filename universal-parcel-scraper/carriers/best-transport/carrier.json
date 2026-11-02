@@ -1,0 +1,48 @@
+{
+  "id": "best-transport",
+  "displayName": "Best Transport",
+  "aliases": [
+    "BEST Transport",
+    "Best Transport AB",
+    "BEST"
+  ],
+  "region": {
+    "countries": [
+      "SE",
+      "NO",
+      "DK"
+    ]
+  },
+  "brand": {
+    "color": "#ef7d00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Stockholm",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://bst.nu/?search={trackingNumber}",
+    "searchUrl": "https://bst.nu/",
+    "canaryUrl": "https://bst.nu/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "bst.nu"
+      ],
+      "pathPattern": "^/(?:[A-Z]{2}/?)?$",
+      "params": [
+        "search"
+      ]
+    }
+  ],
+  "detection": []
+}

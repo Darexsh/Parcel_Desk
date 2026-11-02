@@ -1,0 +1,103 @@
+{
+  "id": "99minutos",
+  "displayName": "99minutos",
+  "aliases": [
+    "99 Minutos",
+    "99minutos.com"
+  ],
+  "region": {
+    "countries": [
+      "MX",
+      "CL",
+      "PE",
+      "CO",
+      "AR"
+    ]
+  },
+  "brand": {
+    "color": "#85c440"
+  },
+  "selectable": true,
+  "timezone": "America/Mexico_City",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "99minutos",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 40
+    }
+  },
+  "capabilities": [
+    "history",
+    "eta",
+    "delivered_at",
+    "provider_code",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://tracking.99minutos.com/search/{trackingNumber}",
+    "searchUrl": "https://tracking.99minutos.com/",
+    "canaryUrl": "https://tracking.99minutos.com/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "eta",
+      "eta_window",
+      "remarks",
+      "proof_of_delivery",
+      "coordinates",
+      "origin",
+      "recipient_address",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "recipient_verification"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "delivered_at",
+      "provider_code",
+      "offset_timestamps",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "eta_window",
+      "remarks",
+      "proof_of_delivery",
+      "coordinates",
+      "origin",
+      "recipient_address",
+      "recipient_verification"
+    ],
+    "unavailable": [
+      "weight",
+      "dimensions",
+      "sender_name",
+      "recipient_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.99minutos.com",
+        "rastreo.99minutos.com"
+      ],
+      "path": "^/search/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "99minutos.com"
+      ],
+      "path": "^/tracking/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

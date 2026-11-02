@@ -1,0 +1,111 @@
+{
+  "id": "chronopost",
+  "displayName": "Chronopost",
+  "aliases": [
+    "Chrono Shop2Shop"
+  ],
+  "region": {
+    "countries": [
+      "FR"
+    ]
+  },
+  "brand": {
+    "color": "#0056a7"
+  },
+  "selectable": true,
+  "timezone": "Europe/Paris",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "chronopost",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 890
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "pickup_point",
+    "delivered_at",
+    "provider_code",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.chronopost.fr/tracking-no-cms/suivi-page?langue=fr&listeNumerosLT={trackingNumber}",
+    "searchUrl": "https://www.chronopost.fr/fr/suivi-colis",
+    "helpUrl": "https://www.chronopost.fr/fr/particulier/nous-contacter",
+    "canaryUrl": "https://www.chronopost.fr/tracking-no-cms/suivi-page",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta"
+    ],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "chronopost.fr",
+        "chronotrace.chronopost.fr",
+        "chronoshop2shop.fr"
+      ],
+      "params": [
+        "listeNumerosLT",
+        "listeNumeros",
+        "numeroLT"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "chronopost-1",
+      "pattern": "^(?:PZ|XR|XT|XU|XW|XY)\\d{9}[A-Z]{2}$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "chronopost-own-suffix",
+      "pattern": "^(?!(?:PZ|XR|XT|XU|XW|XY))[A-Z]{2}\\d{9}(?:JB|JF|TS)$",
+      "confidence": "high"
+    },
+    {
+      "id": "chronopost-2",
+      "pattern": "^\\d{14}[0-9A-Z]$",
+      "confidence": "low",
+      "checksum": "dpd"
+    },
+    {
+      "id": "chronopost-5",
+      "pattern": "^(?!10)\\d{14}$",
+      "confidence": "low"
+    },
+    {
+      "id": "chronopost-3",
+      "pattern": "^[A-Z]{2}\\d{9}[A-Z]{2}$",
+      "confidence": "low",
+      "checksum": "s10"
+    },
+    {
+      "id": "chronopost-4",
+      "pattern": "^(?:(?:PZ|XR|XT|XU|XW|XY)\\d{9}[A-Z]{2}|[A-Z]{2}\\d{9}(?:RV|VF))$",
+      "confidence": "low"
+    },
+    {
+      "id": "chronopost-xn",
+      "pattern": "^XN\\d{12}$",
+      "confidence": "low"
+    }
+  ]
+}

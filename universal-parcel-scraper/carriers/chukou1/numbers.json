@@ -1,0 +1,175 @@
+{
+  "carrier": "chukou1",
+  "records": [
+    {
+      "number": "CZN190507LINJ000023",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://openapi.chukou1.cn/v1/Help/Api/GET-v1-trackings-trackingNumber_lang",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "chukou1"
+        ]
+      },
+      "note": "Chukou1's own OpenAPI documentation gives it as the example TrackingNumber (tracking or processing number) in its parcel-tracking reply."
+    },
+    {
+      "number": "CUE181102ADLE003424",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://openapi.chukou1.cn/v1/Help/Api/GET-v1-hasfulltrackings-trackingNumber",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "chukou1"
+        ]
+      },
+      "note": "Chukou1's own OpenAPI documentation gives it as the example TrackingNumber in its full-tracking check reply."
+    },
+    {
+      "number": "SUF2403231LW1003974",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://alltracking.com/en/carrier/chukou1",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A tracking number example on AllTracking's Chukou1 page. Chukou1's EC-FirstClass tracker knows it as a parcel it handed to USPS in the United States. Its customer code starts with a digit, which rule chukou1-1 does not take."
+    },
+    {
+      "number": "CRE170519Z5B000029",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170615011048/http://www.chukou1.com:80/LogistictsTrack.aspx?trackNo=CRE170519Z5B000029",
+        "date": "2017-06-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "chukou1"
+        ]
+      },
+      "note": "Archived lookup on Chukou1's own tracker; the opened capture shows only the page shell, not the history."
+    },
+    {
+      "number": "NLR140725Z5B000199",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260315202623/https://www.chukou1.com/LogistictsTrack.aspx?supplier=0&channeltype=0&trackNo=NLR140725Z5B000199",
+        "date": "2026-03-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "chukou1"
+        ]
+      },
+      "note": "Archived lookup on Chukou1's own tracker; the opened capture shows only the page shell, not the history."
+    },
+    {
+      "number": "CKY0137256",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260315203557/https://www.chukou1.com/LogistictsTrack.aspx?supplier=0&channeltype=0&trackNo=CKY0137256",
+        "date": "2026-03-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "Archived lookup on Chukou1's own tracker, shell only; the layout is not a processing number and the tracker also takes partner numbers, so the owner is unclear."
+    },
+    {
+      "number": "YCC871846",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20211028195040/https://www.chukou1.com/LogistictsTrack.aspx?supplier=0&channeltype=0&trackNo=YCC871846",
+        "date": "2021-10-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Archived lookup on Chukou1's own tracker, not opened; the layout is not a processing number and the tracker also takes partner numbers, so the owner is unclear."
+    },
+    {
+      "number": "LVS736105400728732",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170619015258/http://www.chukou1.com:80/LogistictsTrack.aspx?supplier=0&channeltype=0&trackNo=LVS736105400728732",
+        "date": "2017-06-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Archived lookup on Chukou1's own tracker; the opened capture shows only the shell; the layout is not a processing number and the tracker also takes partner numbers, so the owner is unclear."
+    }
+  ]
+}

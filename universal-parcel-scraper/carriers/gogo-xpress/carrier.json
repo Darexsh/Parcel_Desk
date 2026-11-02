@@ -1,0 +1,103 @@
+{
+  "id": "gogo-xpress",
+  "displayName": "GoGo Xpress",
+  "aliases": [
+    "GoGoXpress",
+    "GGX",
+    "QuadX",
+    "QuadX Inc."
+  ],
+  "region": {
+    "countries": [
+      "PH"
+    ]
+  },
+  "brand": {
+    "color": "#23a3dd"
+  },
+  "selectable": true,
+  "timezone": "Asia/Manila",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gogo-xpress",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 796
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "eta",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://app.gogoxpress.com/track/{trackingNumber}",
+    "searchUrl": "https://app.gogoxpress.com/track/",
+    "canaryUrl": "https://app.gogoxpress.com/track/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "offset_timestamps",
+      "recipient_name",
+      "signatory",
+      "driver_name",
+      "contact_details",
+      "proof_of_delivery",
+      "order_contents",
+      "payment_details",
+      "coordinates"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "eta",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "recipient_name",
+      "signatory",
+      "driver_name",
+      "contact_details",
+      "proof_of_delivery",
+      "order_contents",
+      "payment_details",
+      "coordinates"
+    ],
+    "unavailable": [
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_address",
+      "pickup_point",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "app.gogoxpress.com"
+      ],
+      "path": "^/track/([^/?#]+)(?:/map)?/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "gogo-xpress-1",
+      "pattern": "^(?=.*[A-Z])[0-9A-Z]{12}$",
+      "rawPattern": "^[0-9A-Z]{4}-[0-9A-Z]{4}-[0-9A-Z]{4}$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "carrier": "a-duie-pyle",
+  "records": [
+    {
+      "number": "711370361",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260511111455/https://aduiepyle.com/resources/shipment-status/?tracking=711370361",
+        "date": "2026-05-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on A. Duie Pyle's own shipment status page; the capture was opened but the page loads its result by script, so it shows no history. A. Duie Pyle's tracker finds the shipment."
+    },
+    {
+      "number": "711370379",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260511114623/https://aduiepyle.com/resources/shipment-status/?tracking=711370379",
+        "date": "2026-05-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on A. Duie Pyle's own shipment status page; the capture was not opened. A. Duie Pyle's tracker finds the shipment."
+    },
+    {
+      "number": "737627547",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260511124022/https://aduiepyle.com/resources/shipment-status/?tracking=737627547",
+        "date": "2026-05-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on A. Duie Pyle's own shipment status page; the capture was not opened. A. Duie Pyle's tracker finds the shipment."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "carrier": "airpak-express",
+  "entries": [
+    {"code": "91", "wording": "Shipment Finalised", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "Written with Documentation Prepared, hours before the collection."},
+    {"code": "90", "wording": "Documentation Prepared", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "Written with Shipment Finalised, hours before the collection."},
+    {"code": "2", "wording": "Collection", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "Picked up from the sender."},
+    {"code": "4", "wording": "Arrived Hub", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"code": "3", "wording": "Uplift", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Sent on from a station to the next one."},
+    {"code": "162", "wording": "In Transit - Loaded to Transit Vehicle/Aircraft", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"code": "15", "wording": "Out for Delivery", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live"},
+    {"code": "18", "wording": "Not Delivered - Noone available/home", "language": "en", "stage": "failed_attempt", "confirmedBy": "live"},
+    {"code": "38", "wording": "Not Delivered - Courier Out of Time", "language": "en", "stage": "failed_attempt", "confirmedBy": "live", "note": "The round ended before the parcel; it went out again the next day."},
+    {"code": "43", "wording": "Not Delivered - Unable to Locate consignee", "language": "en", "stage": "failed_attempt", "confirmedBy": "live"},
+    {"code": "50", "wording": "Awaiting Pickup by Consignee", "language": "en", "stage": "ready_for_pickup", "confirmedBy": "live", "note": "Seen at the delivering depot after failed attempts, before the delivery."},
+    {"code": "1", "wording": "Delivered", "language": "en", "stage": "delivered", "confirmedBy": "live"},
+    {"code": "19", "wording": "Held in Depot", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A hold at the delivering depot between failed attempts. It names no problem."}
+  ]
+}

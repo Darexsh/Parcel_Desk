@@ -1,0 +1,48 @@
+{
+  "id": "hub-group-final-mile",
+  "displayName": "Hub Group Final Mile",
+  "aliases": [
+    "NSD",
+    "NonstopDelivery",
+    "NonStopDelivery",
+    "NonstopDelivery LLC",
+    "ShipNSD",
+    "Hub Group NSD"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#d24f40"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.hubgroup.com/logistics-management/final-mile/",
+    "canaryUrl": "https://www.hubgroup.com/logistics-management/final-mile/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.shipnsd.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "t"
+      ]
+    }
+  ],
+  "detection": []
+}

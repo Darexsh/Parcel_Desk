@@ -1,0 +1,50 @@
+{
+  "id": "cpszy",
+  "displayName": "CPSZY",
+  "aliases": [
+    "CPS华中转运",
+    "CPS华中转运速递",
+    "華中轉運",
+    "华中转运",
+    "Hunter Logistics Inc."
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#192a51"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.cpszy.com/trace.html?sn={trackingNumber}",
+    "searchUrl": "https://www.cpszy.com/trace.html",
+    "canaryUrl": "https://www.cpszy.com/trace.html",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "cpszy.com",
+        "www.cpszy.com"
+      ],
+      "pathPattern": "^/trace\\.html$",
+      "params": [
+        "sn"
+      ]
+    }
+  ],
+  "detection": []
+}

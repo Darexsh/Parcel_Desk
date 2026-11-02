@@ -1,0 +1,65 @@
+{
+  "id": "aeropost",
+  "displayName": "Aeropost",
+  "aliases": [
+    "Aeropost Costa Rica"
+  ],
+  "region": {
+    "countries": [
+      "CR",
+      "SV",
+      "GT",
+      "HN",
+      "BB",
+      "VG",
+      "CW",
+      "JM",
+      "TT",
+      "CL",
+      "CO",
+      "PE"
+    ]
+  },
+  "brand": {
+    "color": "#0b3e9d"
+  },
+  "selectable": true,
+  "timezone": "America/Costa_Rica",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://aeropost.com/en/tracking/{trackingNumber}",
+    "searchUrl": "https://aeropost.com/en/tracking",
+    "canaryUrl": "https://aeropost.com/en/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "aeropost.com",
+        "www.aeropost.com"
+      ],
+      "path": "^/(?:[A-Za-z]{3}/)?(?:en|es)/tracking/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "tracking.aeropost.com"
+      ],
+      "path": "^/([A-Za-z0-9]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "aeropost-1",
+      "pattern": "^CR\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

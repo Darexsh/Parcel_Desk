@@ -1,0 +1,44 @@
+{
+  "id": "trans-o-flex",
+  "displayName": "trans-o-flex",
+  "aliases": [
+    "trans o flex",
+    "TOF"
+  ],
+  "region": {
+    "countries": [
+      "DE",
+      "AT"
+    ]
+  },
+  "brand": {
+    "color": "#f37e00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.trans-o-flex.com/sendungsverfolgung/tracking?ref={trackingNumber}&type=barcode",
+    "searchUrl": "https://www.trans-o-flex.com/sendungsverfolgung/tracking",
+    "canaryUrl": "https://www.trans-o-flex.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "trans-o-flex.com"
+      ],
+      "pathPattern": "^/sendungsverfolgung/tracking/?$",
+      "query": "(?:^|&)ref=(\\d{11}-?\\d{13})(?:&|$)"
+    }
+  ],
+  "detection": []
+}

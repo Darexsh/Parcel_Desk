@@ -1,0 +1,69 @@
+{
+  "carrier": "sto",
+  "entries": [
+    {
+      "wording": "收件",
+      "language": "zh",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Scan type of the getExternalTrace reply; stored as \"Picked up\"."
+    },
+    {
+      "wording": "发件",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Scan type of the getExternalTrace reply; stored as \"Departed\", with the next facility when STO names it."
+    },
+    {
+      "wording": "到件",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Scan type of the getExternalTrace reply; stored as \"Arrived\"."
+    },
+    {
+      "wording": "派件",
+      "language": "zh",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Scan type of the getExternalTrace reply; stored as \"Out for delivery\"."
+    },
+    {
+      "wording": "驿站代收",
+      "language": "zh",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Scan type of the getExternalTrace reply, a parcel station holding the parcel; stored as \"At a parcel station for collection\"."
+    },
+    {
+      "wording": "柜机代收",
+      "language": "zh",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Scan type of the getExternalTrace reply, a parcel locker holding the parcel; stored as \"In a parcel locker for collection\"."
+    },
+    {
+      "wording": "客户签收",
+      "language": "zh",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Scan type of the getExternalTrace reply, also recorded when a parcel station or locker signs for the parcel; stored as \"Delivered\"."
+    },
+    {
+      "wording": "签收",
+      "language": "zh",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Scan type of the getExternalTrace reply; stored as \"Delivered\"."
+    }
+  ]
+}

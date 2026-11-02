@@ -1,0 +1,31 @@
+{
+  "carrier": "ocs-ana",
+  "entries": [
+    {"wording": "Shipment Data Entry", "stage": "registered", "language": "en", "confirmedBy": "live"},
+    {"wording": "Shipment Information entered at customer site", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "The shipper's data, before OCS has the shipment."},
+    {"wording": "Shipment Information entered at customer site: EDI: International : IEC", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "The memo says the data came in by EDI from the shipper."},
+    {"wording": "Pickup", "stage": "accepted", "language": "en", "confirmedBy": "live"},
+    {"wording": "Arrived at Facility", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Arrived at Facility: Arrived at Service Center", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Arrived at Facility: Arrived at Warehouse", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Departed from Facility", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Export Declaration", "stage": "customs", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Export Declaration: Preliminary Declaration(MEC)", "stage": "customs", "language": "en", "confirmedBy": "portal", "note": "Japanese export customs pre-declaration."},
+    {"wording": "Export Declaration: Declaration (MEC)", "stage": "customs", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Export Authorization", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Japanese customs released the shipment for export."},
+    {"wording": "Flight Departure", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Importation Entry", "stage": "customs", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Importation Entry: Manifest Declaration (Z)", "stage": "customs", "language": "en", "confirmedBy": "live"},
+    {"wording": "Importation Entry: Manifest Declaration", "stage": "customs", "language": "en", "confirmedBy": "live"},
+    {"wording": "Released from Customs", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Japanese customs released the import."},
+    {"wording": "Released from Customs: Manifest Permission", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Delivery Route Fix", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The delivery route in Japan has been assigned."},
+    {"wording": "Ready to Hand Over to Contracted Company", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The shipment is about to pass to the contracted Japanese delivery company, which keeps the OCS number."},
+    {"wording": "Status Updated by Delivery Contracted Company: Pickup", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The contracted delivery company's own scans share this activity and carry their status in the memo. Its pickup takes the shipment over from OCS."},
+    {"wording": "Status Updated by Delivery Contracted Company: In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Status Updated by Delivery Contracted Company: Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"wording": "Delivered: Delivery Completed, Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The memo runs the delivery company's slip number into its wording; the adapter drops the number."}
+  ]
+}

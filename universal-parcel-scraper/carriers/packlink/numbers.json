@@ -1,0 +1,79 @@
+{
+  "carrier": "packlink",
+  "records": [
+    {
+      "number": "UN2026COM0000000000",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://support.packlink.com/hc/en-gb/articles/208414955-How-do-I-track-my-shipment",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "packlink",
+        "confidence": "high"
+      },
+      "note": "The example Packlink's help centre gives of its 19-character reference, which its tracker takes. The digits are a placeholder."
+    },
+    {
+      "number": "DE2019PRO0000309473",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/packlink-dev/ecommerce_module_core/blob/14b10b13fbf7365541944a55b20bb2e772c4d507/tests/BusinessLogic/Order/OrderShipmentDetailsEntityTest.php",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "packlink",
+        "confidence": "high"
+      },
+      "note": "The shipment reference in a test of Packlink's own e-commerce module core, for a Packlink PRO shipment."
+    },
+    {
+      "number": "ES2026COM0000394716",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/empresas/packlink/6C8DE53A-15C29A58A",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "packlink",
+        "confidence": "high"
+      },
+      "note": "A public complaint gives it as the Packlink reference of a Spanish shipment Correos Express carried, beside Correos Express's own number."
+    },
+    {
+      "number": "ES2024COM0000457118",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/no-entrega-de-paquetes/a1f839231396c4c1fa",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "packlink",
+        "confidence": "high"
+      },
+      "note": "A public complaint against Zeleris gives it as the shipment: a Packlink reference for a parcel Zeleris carried."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "carrier": "maersk-ecommerce",
+  "entries": [
+    {
+      "code": "70000",
+      "wording": "Shipment Manifest Received",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "The client's manifest lists the parcel before Maersk has it."
+    },
+    {
+      "code": "70001",
+      "wording": "Maersk Shipping Label Created",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Maersk's label, created once the parcel reaches its network: it can follow the receipt by minutes."
+    },
+    {
+      "code": "70002",
+      "wording": "Parcel Received by Maersk",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Maersk's first scan of the parcel."
+    },
+    {
+      "code": "72001",
+      "wording": "Arrived at Maersk Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "code": "72002",
+      "wording": "Processing at Maersk Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "code": "72004",
+      "wording": "Departed from Maersk Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "code": "77100",
+      "wording": "In-Transit Scan",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "A scan the last-mile carrier reports."
+    },
+    {
+      "code": "77101",
+      "wording": "Enroute to Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "A scan the last-mile carrier reports."
+    },
+    {
+      "code": "77102",
+      "wording": "Arrival at Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "A scan the last-mile carrier reports."
+    },
+    {
+      "code": "77103",
+      "wording": "Processing at Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "A scan the last-mile carrier reports."
+    },
+    {
+      "code": "77105",
+      "wording": "Departed from Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "A scan the last-mile carrier reports."
+    },
+    {
+      "code": "77106",
+      "wording": "Parcel In-transit",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "A scan the last-mile carrier reports."
+    },
+    {
+      "code": "77203",
+      "wording": "Out for Delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "The last-mile carrier's round."
+    },
+    {
+      "code": "77200",
+      "wording": "Parcel Successfully Delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "The last-mile carrier's delivery."
+    }
+  ]
+}

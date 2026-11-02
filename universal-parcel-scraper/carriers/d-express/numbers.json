@@ -1,0 +1,384 @@
+{
+  "carrier": "d-express",
+  "records": [
+    {
+      "number": "KO0041775786",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200411075332/http://www.dexpress.rs:80/rs/pracenje-posiljaka/KO0041775786",
+        "date": "2020-04-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker; the archived capture shows the shipment's status. D Express's tracker returns its history."
+    },
+    {
+      "number": "DE0032063021",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190915071213/http://www.dexpress.rs:80/rs/pracenje-posiljaka/DE0032063021",
+        "date": "2019-09-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "amazon-logistics",
+        "confidence": "high"
+      },
+      "note": "Looked up on D Express's own tracker; the archived capture shows the shipment's status. D Express's tracker returns its history."
+    },
+    {
+      "number": "BC0000197730",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190915072049/http://www.dexpress.rs:80/rs/pracenje-posiljaka/BC0000197730",
+        "date": "2019-09-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker; the archived capture shows the shipment's status. D Express's tracker returns its history."
+    },
+    {
+      "number": "DX0000408676",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200408061152/http://www.dexpress.rs:80/rs/pracenje-posiljaka/DX0000408676",
+        "date": "2020-04-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker; the archived capture shows the shipment's status. D Express's tracker returns its history."
+    },
+    {
+      "number": "FS0002161346",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20191215090106/http://www.dexpress.rs:80/rs/pracenje-posiljaka/FS0002161346",
+        "date": "2019-12-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker; the archived capture shows the shipment's status. D Express's tracker returns its history."
+    },
+    {
+      "number": "OT0016658690",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190915081247/http://www.dexpress.rs:80/rs/pracenje-posiljaka/OT0016658690",
+        "date": "2019-09-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker, as an archived address shows; the capture was not opened. D Express's tracker returns its history."
+    },
+    {
+      "number": "OF0025922285",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190915025840/http://www.dexpress.rs:80/rs/pracenje-posiljaka/OF0025922285",
+        "date": "2019-09-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker, as an archived address shows; the capture was not opened. D Express's tracker returns its history."
+    },
+    {
+      "number": "DJ1000116642",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20191106102007/http://www.dexpress.rs:80/rs/pracenje-posiljaka/DJ1000116642",
+        "date": "2019-11-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker, as an archived address shows; the capture was not opened. D Express's tracker returns its history."
+    },
+    {
+      "number": "SV0002203111",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190704111403/http://www.dexpress.rs:80/rs/pracenje-posiljaka/SV0002203111",
+        "date": "2019-07-04",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker, as an archived address shows; the capture was not opened. D Express's tracker returns its history."
+    },
+    {
+      "number": "SP0001077501",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190915070659/http://www.dexpress.rs:80/rs/pracenje-posiljaka/SP0001077501",
+        "date": "2019-09-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker, as an archived address shows; the capture was not opened. D Express's tracker returns its history."
+    },
+    {
+      "number": "ET0000035260",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190917072528/http://www.dexpress.rs:80/rs/pracenje-posiljaka/ET0000035260",
+        "date": "2019-09-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker, as an archived address shows; the capture was not opened. D Express's tracker returns its history."
+    },
+    {
+      "number": "PC2000080864",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190606055533/http://www.dexpress.rs:80/rs/pracenje-posiljaka/PC2000080864",
+        "date": "2019-06-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker, as an archived address shows; the capture was not opened. D Express's tracker returns its history."
+    },
+    {
+      "number": "KO0078076489",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260416123724/https://www.dexpress.rs/rs/pracenje-posiljaka/KO0078076489",
+        "date": "2026-04-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker; the opened capture holds only the page, which fills the history by script. D Express's tracker returns its history."
+    },
+    {
+      "number": "AG0175007381",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250128064155/https://www.dexpress.rs/rs/pracenje-posiljaka/AG0175007381",
+        "date": "2025-01-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker, as an archived address shows; the capture was not opened. D Express's tracker returns its history."
+    },
+    {
+      "number": "AG0310214051",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250704054215/https://www.dexpress.rs/rs/pracenje-posiljaka/AG0310214051",
+        "date": "2025-07-04",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker, as an archived address shows; the capture was not opened. D Express's tracker returns its history."
+    },
+    {
+      "number": "BC0002962620",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260915222347/https://www.dexpress.rs/rs/pracenje-posiljaka/BC0002962620",
+        "date": "2026-09-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Looked up on D Express's own tracker, as an archived address shows; the capture was not opened. D Express's tracker returns its history."
+    }
+  ]
+}

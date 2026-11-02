@@ -1,0 +1,47 @@
+{
+  "carrier": "ark-express",
+  "records": [
+    {
+      "number": "AP0628069AU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "http://www.arkexpress.com.au/searchOrder?orderNo=AP0628069AU",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ark-express"
+        ]
+      },
+      "note": "A search engine indexed ARK Express's own tracker page for it, showing a parcel flown from Australia to China, cleared through customs and handed to China Post. The tracker no longer finds it."
+    },
+    {
+      "number": "ARK12543246AU",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "http://www.arkexpress.com.au/searchOrder?orderNo=ARK12543246AU",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A search engine indexed ARK Express's own tracker page for it, but the page said the order does not exist or the system was busy, and the tracker still does not find it, so it may never have been issued."
+    }
+  ]
+}

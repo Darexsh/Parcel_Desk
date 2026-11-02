@@ -1,0 +1,106 @@
+{
+  "id": "ewe",
+  "displayName": "EWE Group",
+  "aliases": [
+    "EWE",
+    "EWE Global Express",
+    "EWE Logistics"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#0036a9"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ewe",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location"
+  ],
+  "portal": {
+    "url": "https://www.ewe.com.au/pages/tracking-order?cno={trackingNumber}#track-results",
+    "searchUrl": "https://www.ewe.com.au/pages/tracking-order",
+    "canaryUrl": "https://www.ewe.com.au/pages/tracking-order",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin",
+      "destination",
+      "parcel_count",
+      "related_tracking_numbers",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "parcel_count",
+      "related_tracking_numbers",
+      "proof_of_delivery",
+      "postcodes",
+      "coordinates",
+      "driver_name"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.ewe.com.au",
+        "ewe.com.au"
+      ],
+      "pathPattern": "^/pages/tracking-order/?$",
+      "params": [
+        "cno"
+      ]
+    },
+    {
+      "domains": [
+        "www.ewe.com.au",
+        "ewe.com.au"
+      ],
+      "pathPattern": "^/html/track\\.html$",
+      "params": [
+        "cno"
+      ]
+    },
+    {
+      "domains": [
+        "trace.ewe.com.au"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "no"
+      ]
+    }
+  ],
+  "detection": []
+}

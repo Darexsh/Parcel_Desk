@@ -1,0 +1,15 @@
+{
+  "carrier": "nipost",
+  "entries": [
+    {"wording": "Receive item at office of exchange (Otb)", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Received at the outward office of exchange. Seen in an archived capture of NIPOST's former IPS web tracker at ips.nipost.gov.ng, for an item sent from the Netherlands to Lagos; the events are the sending post's, relayed by UPU messages."},
+    {"wording": "Insert item into bag (Otb)", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Bagged for dispatch abroad. Seen in an archived capture of NIPOST's former IPS web tracker at ips.nipost.gov.ng, for an item sent from the Netherlands to Lagos; the events are the sending post's, relayed by UPU messages."},
+    {"wording": "Send item abroad (EDI-received)", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Dispatched to the destination country. Seen in an archived capture of NIPOST's former IPS web tracker at ips.nipost.gov.ng, for an item sent from the Netherlands to Lagos; the events are the sending post's, relayed by UPU messages."},
+    {"code": "AT_HUB", "wording": "At Hub", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "At a NIPOST hub or sorting centre. The tracking page's code labels a scan with this key and sets its progress bar by it."},
+    {"code": "IN_TRANSIT", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "On its way between offices. The tracking page's code labels a scan with this key and sets its progress bar by it."},
+    {"code": "CUSTOMS_CLEARANCE", "wording": "Customs Clearance", "stage": "customs", "language": "en", "confirmedBy": "bundle", "note": "Held for customs clearance. The tracking page's code labels a scan with this key and sets its progress bar by it."},
+    {"code": "PROCESSED_FOR_DELIVERY", "wording": "Processed For Delivery", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "Sorted for delivery, before the delivery round; the page puts it level with out for delivery. The tracking page's code labels a scan with this key and sets its progress bar by it."},
+    {"code": "OUT_FOR_DELIVERY", "wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "bundle", "note": "On the delivery round. The tracking page's code labels a scan with this key and sets its progress bar by it."},
+    {"code": "DELIVERY_ATTEMPTED", "wording": "Delivery Attempted", "stage": "failed_attempt", "language": "en", "confirmedBy": "bundle", "note": "A delivery attempt failed; the page also gives this key to scans saying the recipient was not available. The tracking page's code labels a scan with this key and sets its progress bar by it."},
+    {"code": "DELIVERED", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "bundle", "note": "Delivered. The tracking page's code labels a scan with this key and sets its progress bar by it."}
+  ]
+}

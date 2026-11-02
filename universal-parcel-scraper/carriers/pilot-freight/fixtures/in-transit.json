@@ -1,0 +1,189 @@
+{
+  "TrackingResponse": [
+    {
+      "TrackingInfo": {
+        "TrackingNumber": "987654321",
+        "ShipDate": "2026-01-19T13:00:00-05:00",
+        "AppointmentStartDate": "2026-01-23T12:00:00-05:00",
+        "AppointmentEndDate": "2026-01-23T16:00:00-05:00",
+        "EstimateDelvDate": "2026-01-23T16:00:00-05:00",
+        "Service": "ECONOMY",
+        "Product": "HOME DELIVERY-THRESHOLD",
+        "LineItemList": [
+          {
+            "Pieces": 1,
+            "WeightLbs": 52,
+            "Length": 30,
+            "Width": 18,
+            "Height": 18,
+            "Type": "CTN",
+            "Description": "SAMPLE DESK"
+          }
+        ],
+        "CommentList": [],
+        "ReferenceItemList": [
+          {
+            "ReferenceNumber": "SAMPLEORDER0002                  CR",
+            "ReferenceType": "C"
+          }
+        ],
+        "PackageShipper": {
+          "Name": "****",
+          "Address": "****",
+          "Address2": "****",
+          "City": "SAMPLE PARK",
+          "StateProvince": "CA",
+          "PostalCode": "****",
+          "CountryCode": "US",
+          "PhoneNumber": "****",
+          "AirtrakCustNum": 1000003,
+          "Airport": "SPK",
+          "OwnerStation": ""
+        },
+        "PackageConsignee": {
+          "Name": "****",
+          "Address": "****",
+          "Address2": "****",
+          "City": "EXAMPLE FALLS",
+          "StateProvince": "NY",
+          "PostalCode": "****",
+          "CountryCode": "US",
+          "PhoneNumber": "****",
+          "AirtrakCustNum": 0,
+          "Airport": "SMP",
+          "OwnerStation": ""
+        },
+        "PackageThirdParty": {
+          "Name": "SAMPLE RETAILER",
+          "Address": "",
+          "Address2": "",
+          "City": "",
+          "StateProvince": "",
+          "PostalCode": "",
+          "CountryCode": "",
+          "PhoneNumber": "",
+          "AirtrakCustNum": 1000001,
+          "Airport": "",
+          "OwnerStation": ""
+        },
+        "TrackingEventHistory": [
+          {
+            "EventCode": "APT",
+            "EventCodeDesc": "APPOINTMENT SCHEDULED",
+            "EventType1": "HD",
+            "EventDateTime": "2026-01-21T09:30:00-05:00",
+            "EventLocation": {
+              "City": "ON-LINE/ON PHONE",
+              "StateProvince": "",
+              "PostalCode": "",
+              "CountryCode": "US"
+            },
+            "AdditionalLocationInfo": "",
+            "SignedForByName": ""
+          },
+          {
+            "EventCode": "DNH",
+            "EventCodeDesc": "DEPARTED MAERSK NET HUB",
+            "EventType1": "GEN",
+            "EventDateTime": "2026-01-21T04:10:22-05:00",
+            "EventLocation": {
+              "City": "HUBVILLE",
+              "StateProvince": "OH",
+              "PostalCode": "43997",
+              "CountryCode": "US"
+            },
+            "AdditionalLocationInfo": "",
+            "SignedForByName": ""
+          },
+          {
+            "EventCode": "RNH",
+            "EventCodeDesc": "RECEIVED AT MAERSK NET HUB",
+            "EventType1": "GEN",
+            "EventDateTime": "2026-01-20T22:45:09-05:00",
+            "EventLocation": {
+              "City": "HUBVILLE",
+              "StateProvince": "OH",
+              "PostalCode": "43997",
+              "CountryCode": "US"
+            },
+            "AdditionalLocationInfo": "",
+            "SignedForByName": ""
+          },
+          {
+            "EventCode": "PU",
+            "EventCodeDesc": "PICKED UP",
+            "EventType1": "GEN",
+            "EventDateTime": "2026-01-20T16:00:00-05:00",
+            "EventLocation": {
+              "City": "SAMPLE PARK",
+              "StateProvince": "CA",
+              "PostalCode": "90999",
+              "CountryCode": "US"
+            },
+            "AdditionalLocationInfo": "",
+            "SignedForByName": ""
+          },
+          {
+            "EventCode": "NEW",
+            "EventCodeDesc": "SHIPMENT INFORMATION SENT TO MAERSK",
+            "EventType1": "GEN",
+            "EventDateTime": "2026-01-19T18:30:00-05:00",
+            "EventLocation": {
+              "City": "SAMPLE PARK",
+              "StateProvince": "CA",
+              "PostalCode": "90999",
+              "CountryCode": "US"
+            },
+            "AdditionalLocationInfo": "",
+            "SignedForByName": ""
+          }
+        ]
+      },
+      "TrackingErrorInfo": {
+        "TrackingNumber": "",
+        "TrackingErrorDetail": null
+      },
+      "TotalCharge": "",
+      "PayType": "",
+      "ProductServiceInfo": {
+        "ProductShortDescription": "Standard Delivery Signature Required",
+        "ProductLongDescription": "Delivered inside the threshold of the residence, signature required.",
+        "ServiceType": "EC",
+        "ServiceDescription": "Economy"
+      },
+      "PODInfo": {
+        "PODName": "",
+        "PODDateTime": "0001-01-01T00:00:00"
+      },
+      "StationInfo": {
+        "ContactStationCode": "SMP",
+        "ContactStationName": "SAMPLE STATION - SMP",
+        "ContactStationPhone": "555-0100",
+        "ContactStationEmail": "SMP@STATION.EXAMPLE",
+        "ChatEnabled": false
+      },
+      "ContactInfo": {
+        "Origin": {
+          "Code": "SPK",
+          "Email": "SPK@STATION.EXAMPLE",
+          "Phone": "555-0101",
+          "IsMaersk": true
+        },
+        "Destination": {
+          "Code": "SMP",
+          "Email": "SMP@STATION.EXAMPLE",
+          "Phone": "555-0100",
+          "IsMaersk": true
+        }
+      },
+      "TrackingLinks": {
+        "IsShipmentHD": true,
+        "IsSchedulingLink": false,
+        "SchedulingLink": "",
+        "IsImagingLink": false,
+        "ImagingLink": ""
+      },
+      "BillTo": 1000001
+    }
+  ]
+}

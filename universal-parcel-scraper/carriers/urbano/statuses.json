@@ -1,0 +1,27 @@
+{
+  "carrier": "urbano",
+  "entries": [
+    {"code": "PU", "wording": "PEDIDO CREADO", "stage": "registered", "language": "es", "confirmedBy": "live", "note": "First movement of a merchant's parcel, booked before Urbano has it; its note reads Pick UP (Auto)."},
+    {"code": "AO", "wording": "RECIBIMOS EN ORIGEN", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Received at the origin hub; the old e-tracking page words it ADMITIDO EN HUB."},
+    {"code": "CK", "wording": "Entro a Pre-Embarque", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Loaded for the line haul; the old e-tracking page words it Checking Pre-Embarque."},
+    {"code": "DD", "wording": "DESPACHAMOS A SU CIUDAD", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Dispatched to the destination city."},
+    {"code": "AR", "wording": "LLEGO A LA CIUDAD DESTINO", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Arrived at the destination station."},
+    {"code": "ER", "wording": "SALIO A ENTREGARSE", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live", "note": "Out with a courier, whose masked name and vehicle the note gives; one run was recorded at 00:00, its day only."},
+    {"code": "CV", "wording": "INTENTAMOS ENTREGARTE", "stage": "failed_attempt", "language": "es", "confirmedBy": "live", "note": "A visit that did not deliver; its sub-status gives the reason, such as Direccion Incorrecta."},
+    {"code": "EN", "wording": "ENTREGAMOS TU PEDIDO", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Delivered; seen with the sub-status Entrega A Titular."},
+    {"wording": "Listo para recoger", "stage": "ready_for_pickup", "language": "es", "confirmedBy": "bundle", "note": "Label the tracking page's script shows over the progress rail for process 23 and 24: waiting at an Urbano point for collection."},
+    {"wording": "Admitido en Hub", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Milestone label in the script of Urbano's own tracker on urbano.com.pe. Received at Urbano's hub."},
+    {"wording": "Despachado", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Milestone label in the script of Urbano's own tracker on urbano.com.pe. Dispatched from the hub."},
+    {"wording": "Arribado", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Milestone label in the script of Urbano's own tracker on urbano.com.pe. Arrived at the destination station."},
+    {"wording": "Salida a Ruta", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal", "note": "Milestone label in the script of Urbano's own tracker on urbano.com.pe."},
+    {"wording": "Entregado", "stage": "delivered", "language": "es", "confirmedBy": "portal", "note": "Milestone label in the script of Urbano's own tracker on urbano.com.pe."},
+    {"wording": "No entregado", "stage": "failed_attempt", "language": "es", "confirmedBy": "portal", "note": "Milestone label in the script of Urbano's own tracker on urbano.com.pe."},
+    {"wording": "Devuelto", "stage": "returned", "language": "es", "confirmedBy": "portal", "note": "Milestone label in the script of Urbano's own tracker on urbano.com.pe."},
+    {"wording": "SOLICITUD DE SERVICIO", "stage": "registered", "language": "es", "confirmedBy": "portal", "note": "Event in a parcel history on Urbano's own e-tracking page (archived)."},
+    {"wording": "Checking Pre-Embarque", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Event in a parcel history on Urbano's own e-tracking page (archived)."},
+    {"wording": "DESPACHADO A DESTINO", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Event in a parcel history on Urbano's own e-tracking page (archived)."},
+    {"wording": "ARRIBADO EN DESTINO", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Event in a parcel history on Urbano's own e-tracking page (archived)."},
+    {"wording": "SALIO A RUTA", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal", "note": "Event in a parcel history on Urbano's own e-tracking page (archived)."},
+    {"wording": "VISITADO SIN ENTREGA (Direccion Incorrecta)", "stage": "failed_attempt", "language": "es", "confirmedBy": "portal", "note": "Event in a parcel history on Urbano's own e-tracking page (archived). Visited without delivery: wrong address."}
+  ]
+}

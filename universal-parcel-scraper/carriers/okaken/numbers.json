@@ -1,0 +1,38 @@
+{
+  "carrier": "okaken",
+  "gap": "Okaken's inquiry numbers are ten digits, a length many carriers share, so there is no rule.",
+  "records": [
+    {
+      "number": "4171530635",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.okaken.co.jp/common/pdf/refer_manual.pdf",
+        "date": "2026-10-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "The inquiry number Okaken's own tracking manual uses as its example."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "no-limit",
+  "displayName": "No Limit",
+  "aliases": [
+    "Nolimit",
+    "No Limit Logistics"
+  ],
+  "region": {
+    "countries": [
+      "PL"
+    ]
+  },
+  "brand": {
+    "color": "#ffd900"
+  },
+  "selectable": true,
+  "timezone": "Europe/Warsaw",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "no-limit",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history"
+  ],
+  "portal": {
+    "url": "https://follow.nolimit.pl/",
+    "searchUrl": "https://follow.nolimit.pl/",
+    "canaryUrl": "https://follow.nolimit.pl/Defaulteng.aspx",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "customer_reference",
+      "origin",
+      "destination",
+      "parcel_count"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "customer_reference",
+      "origin",
+      "destination",
+      "parcel_count"
+    ],
+    "unavailable": [
+      "eta",
+      "provider_code",
+      "offset_timestamps",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "no-limit-1",
+      "pattern": "^P\\d{1,6}L[A-Z]{3}20\\d{2}$",
+      "confidence": "high"
+    }
+  ]
+}

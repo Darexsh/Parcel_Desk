@@ -1,0 +1,95 @@
+{
+  "id": "royal-mail",
+  "displayName": "Royal Mail",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#da202a"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "royal-mail",
+    "steps": [
+      "browser",
+      "retry"
+    ],
+    "browserRecognition": {
+      "rank": 910
+    },
+    "refresh": {
+      "minMinutes": 60
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "delivered_at",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://www.royalmail.com/portal/rm/track?trackNumber={trackingNumber}",
+    "searchUrl": "https://www.royalmail.com/portal/rm/track",
+    "helpUrl": "https://help.royalmail.com/personal/s/article/My-tracking-message-looks-wrong",
+    "canaryUrl": "https://www.royalmail.com/track-your-item",
+    "shows": [
+      "status",
+      "history",
+      "eta",
+      "location",
+      "destination"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "location",
+      "destination",
+      "delivered_at",
+      "provider_code"
+    ],
+    "discarded": [
+      "signatory",
+      "proof of delivery extras",
+      "recipient details",
+      "postcodes"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "royalmail.com"
+      ],
+      "params": [
+        "trackNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "royal-mail-1",
+      "pattern": "^(?!(?:E[A-Z]|CP|GI))[A-Z]{2}\\d{9}GB$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "royal-mail-2",
+      "pattern": "^(?:32\\d{11}[A-F0-9]{8}|(?=[A-F0-9]*[A-F])[A-F0-9]{2}\\d{7}[A-F0-9]{12})$",
+      "confidence": "low"
+    },
+    {
+      "id": "royal-mail-3",
+      "pattern": "^(?=[A-F0-9]*[A-F])(?=[A-F0-9]*\\d)[A-F0-9]{16}$",
+      "confidence": "low"
+    }
+  ]
+}

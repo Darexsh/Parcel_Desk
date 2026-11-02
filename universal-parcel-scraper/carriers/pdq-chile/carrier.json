@@ -1,0 +1,98 @@
+{
+  "id": "pdq-chile",
+  "displayName": "PDQ Cargo Trader",
+  "aliases": [
+    "PDQ",
+    "Cargo Trader PDQ",
+    "Transportes PDQ"
+  ],
+  "region": {
+    "countries": [
+      "CL"
+    ]
+  },
+  "brand": {
+    "color": "#ed1c24"
+  },
+  "selectable": true,
+  "timezone": "America/Santiago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pdq-chile",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 646
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "eta",
+    "pickup_point"
+  ],
+  "portal": {
+    "url": "https://www.pdq.cl/tracking?q={trackingNumber}",
+    "searchUrl": "https://www.pdq.cl/tracking",
+    "canaryUrl": "https://www.pdq.cl/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "progress_rail",
+      "pickup_point",
+      "customer_reference",
+      "origin",
+      "destination",
+      "postcodes",
+      "signatory",
+      "staff_details",
+      "event_details",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "pickup_point"
+    ],
+    "discarded": [
+      "progress_rail",
+      "customer_reference",
+      "origin",
+      "destination",
+      "postcodes",
+      "signatory",
+      "staff_details",
+      "event_details",
+      "payment_details"
+    ],
+    "unavailable": [
+      "weight",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.pdq.cl",
+        "pdq.cl"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "q"
+      ]
+    }
+  ],
+  "detection": []
+}

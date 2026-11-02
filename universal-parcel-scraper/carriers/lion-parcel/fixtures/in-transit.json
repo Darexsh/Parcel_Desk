@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "q": "55LP0000000000002",
+      "stt_id": "55LP0000000000002",
+      "product_type": "JAGOPACK",
+      "is_stt": true,
+      "is_exist": true,
+      "is_cnx": false,
+      "origin": "SAMPLE KELURAHAN, SAMPLE KECAMATAN, SAMPLE KOTA",
+      "destination": "CONTOH KELURAHAN, CONTOH KECAMATAN, CONTOH KOTA",
+      "current_status": "STI-DEST",
+      "md5_stt": [
+        "00000000000000000000000000000000"
+      ],
+      "estimations": "2 - 3 Hari",
+      "histories": [
+        {
+          "status_date": "2026-04-20T09:00:00+07:00",
+          "status": "BKD",
+          "status_label": "Diproses Agen",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paketmu telah diproses oleh Agen Lion Parcel SAMPLE CITY, SAMPLE KELURAHAN, SAMPLE KECAMATAN",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-04-20T11:30:00+07:00",
+          "status": "PUP",
+          "status_label": "Ke Gudang LP",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paketmu akan diantar ke Gudang Lion Parcel SAMPLE CITY, SAMPLE KECAMATAN",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-04-20T13:00:00+07:00",
+          "status": "STI",
+          "status_label": "Di Gudang LP",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paketmu sampai di Gudang Lion Parcel SAMPLE CITY, SAMPLE KECAMATAN",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-04-20T15:10:00+07:00",
+          "status": "CARGO PLANE",
+          "status_label": "Akan diterbangkan",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paketmu akan diterbangkan dengan pesawat dari Kota SAMPLE CITY, SAMPLE KECAMATAN",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-04-21T15:10:00+07:00",
+          "status": "CARGO PLANE",
+          "status_label": "Akan diterbangkan",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paketmu akan diterbangkan dengan pesawat dari Kota SAMPLE CITY, SAMPLE KECAMATAN",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-04-21T16:00:00+07:00",
+          "status": "STT ADJUSTED",
+          "status_label": "Penyesuaian harga",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Terjadi penyesuaian harga terkait berat & volume paketmu",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-04-22T03:40:00+07:00",
+          "status": "TRANSIT",
+          "status_label": "Sedang Transit",
+          "location": "TRN - TRANSIT CITY",
+          "description": "Paketmu sedang transit di Kota TRANSIT CITY",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-04-22T08:20:00+07:00",
+          "status": "STI-DEST",
+          "status_label": "Tiba di Gudang LP",
+          "location": "TMR - TIMUR CITY",
+          "description": "Paketmu sampai di Gudang Lion Parcel TIMUR CITY, TIMUR KELURAHAN, TIMUR KECAMATAN",
+          "GMT": "GMT+9:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        }
+      ],
+      "estimation_date": "2026-04-23 - 2026-04-25",
+      "is_cod": false,
+      "is_dfod": false,
+      "shipment_id": "",
+      "prev_stt": "",
+      "next_stt": "",
+      "order_created_date": "2026-04-20T09:00:00+07:00",
+      "product_type_img_url": "https://storage.example/product/regpack.svg"
+    }
+  ]
+}

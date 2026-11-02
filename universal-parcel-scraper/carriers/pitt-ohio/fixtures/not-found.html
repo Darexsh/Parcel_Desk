@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US" class="static poe-shipments boxed-layout fixed-nav  ">
+<head>
+    <meta charset="utf-8" />
+    <title>LTL Shipment Tracing | PITT OHIO</title>
+</head>
+<body class="theme-POE.Theme">
+<div id="layout-main-container" class="container containerbg">
+    <div id="layout-main">
+        <div id="layout-content" class="group col-lg-8 col-xs-8">
+                <div id="messages">
+                    <div class="zone zone-messages"><div class="alert alert-dismissable alert-warning fade in">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+    <i class="fa fa-lg fa-warning"></i>&nbsp;&nbsp;Search returned no results. Please enter valid Pro, BOL or Pickup numbers
+</div>
+
+<article class="widget-messages widget-html-widget widget">
+    <div class="alert alert-dismissable alert-info fade in"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> <i class="fa fa-lg fa-info-circle"></i>&nbsp; <a href="https://pittohio.com/myPittOhio/DamageFreeDelivery" target="_blank">The PITT OHIO approach to damage prevention - <strong>view our Damage-Free Playbook.</strong></a></div>
+</article></div>
+                </div>
+                            <div id="content" class="group containerbg nopadding">
+                    <div class="zone zone-content">
+<form action="/myPittOhio/Shipping/LTL/TraceRequest" id="traceForm" method="post" name="traceForm"><input name="__RequestVerificationToken" type="hidden" value="SYNTHETIC-TOKEN-0000" />    <div class="container-fluid page">
+
+        <div class="row rowHelper">
+            <div class="col-md-12">
+                <h1>LTL Shipment Tracing</h1>
+                <hr class="black" />
+                <p>
+                    Enter up to 10 Less-Than-Truckload Pro numbers or up to 10 Less-Than-Truckload Bill of Lading numbers to view your current shipment status.
+                </p>
+            </div>
+        </div>
+
+        <div class="row rowHelper">
+            <div class="col-sm-12" style="text-align: center;">
+                <div class="center-block">
+                    <span style="margin-left:1em;display:inline-block;">
+                        <input checked="checked" id="ProNumberBtn" name="ShipmentType" onclick="hideShipmentDate()" type="radio" value="ProNumber" />
+                        <label for="ProNumberBtn" style="padding-left: 3px;">Pro Numbers</label>
+                    </span>
+                    <div style="margin-left:1em;display:inline-block;">
+                        <input id="BolBtn" name="ShipmentType" onclick="hideShipmentDate()" type="radio" value="BillOfLading" />
+                        <label for="BolBtn" style="padding-left: 3px;">BOL Numbers</label>
+                    </div>
+                    <span style="margin-left:1em;display:inline-block;">
+                        <input id="PkupNumberBtn" name="ShipmentType" onclick="hideShipmentDate()" type="radio" value="PickupNumber" />
+                        <label for="PkupNumberBtn" style="padding-left: 3px;">Pickup Numbers</label>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row rowHelper">
+            <div class="col-md-5 col-md-offset-1">
+
+                <div class="input-group rowHelper">
+                    <span class="input-group-addon"></span>
+                    <input aria-describedby="sizing-addon2" class="form-control formfield inputField" id="TrackingNumbers_0_" maxlength="20" name="TrackingNumbers[0]" placeholder="Pro/BOL/Pickup Number" type="text" value="5033344455" />
+                </div>
+                <div class="input-group rowHelper">
+                    <span class="input-group-addon"></span>
+                    <input aria-describedby="sizing-addon2" class="form-control formfield inputField" id="TrackingNumbers_1_" maxlength="20" name="TrackingNumbers[1]" placeholder="Pro/BOL/Pickup Number" type="text" value="" />
+                </div>
+                <div class="input-group rowHelper">
+                    <span class="input-group-addon"></span>
+                    <input aria-describedby="sizing-addon2" class="form-control formfield inputField" id="TrackingNumbers_2_" maxlength="20" name="TrackingNumbers[2]" placeholder="Pro/BOL/Pickup Number" type="text" value="" />
+                </div>
+            </div>
+        </div>
+
+        <div id="shipmentDateContainer">
+            <div class="row rowHelper">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="input-group">
+                        <label for="shipmentDateTbox">Shipment Date</label>
+                        <input aria-describedby="sizing-addon2" class="form-control formfield" id="shipmentDateTbox" name="ShippingDate" placeholder="Shipment Date" type="text" value="3/20/2026" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row rowHelper">
+            <div class="col-sm-12" style="text-align: center;">
+                <span>
+                    <button id="traceBtn" type="button" class="btn btn-primary primaryAction ">Trace</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+                </div>
+        </div>
+    </div>
+</div>
+        <footer id="footer" class="footerlink">
+            <p>&copy;2026 PITT OHIO, All Rights Reserved</p>
+        </footer>
+</body>
+</html>

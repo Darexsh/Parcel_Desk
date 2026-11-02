@@ -1,0 +1,45 @@
+{
+  "id": "aruba-post",
+  "displayName": "Post Aruba",
+  "aliases": [
+    "Post Aruba N.V.",
+    "Aruba Post"
+  ],
+  "region": {
+    "countries": [
+      "AW"
+    ]
+  },
+  "brand": {
+    "color": "#2a3080"
+  },
+  "selectable": true,
+  "timezone": "America/Aruba",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://cds.postaruba.com/ipswt/IPSWeb_item_events.aspx?itemid={trackingNumber}",
+    "searchUrl": "https://www.postaruba.com/track",
+    "canaryUrl": "https://www.postaruba.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "cds.postaruba.com"
+      ],
+      "pathPattern": "^/ipswt/IPSWeb_item_events\\.aspx$",
+      "params": [
+        "itemid"
+      ]
+    }
+  ],
+  "detection": []
+}

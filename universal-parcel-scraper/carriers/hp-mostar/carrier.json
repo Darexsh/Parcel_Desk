@@ -1,0 +1,48 @@
+{
+  "id": "hp-mostar",
+  "displayName": "Hrvatska pošta Mostar",
+  "aliases": [
+    "HP Mostar",
+    "HP Hrvatska pošta Mostar",
+    "Hrvatska pošta d.o.o. Mostar",
+    "Hrvatska posta Mostar",
+    "Croatian Post Mostar"
+  ],
+  "region": {
+    "countries": [
+      "BA"
+    ]
+  },
+  "brand": {
+    "color": "#ffed00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Sarajevo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.post.ba/servisi/pracenje-posiljke?tntnumber={trackingNumber}",
+    "searchUrl": "https://www.post.ba/servisi/pracenje-posiljke",
+    "canaryUrl": "https://www.post.ba/servisi/pracenje-posiljke",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "post.ba"
+      ],
+      "pathPattern": "^/(?:servisi/pracenje-posiljke|services/track-and-trace)/?$",
+      "params": [
+        "tntnumber"
+      ]
+    }
+  ],
+  "detection": []
+}

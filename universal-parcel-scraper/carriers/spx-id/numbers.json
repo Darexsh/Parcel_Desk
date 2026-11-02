@@ -1,0 +1,216 @@
+{
+  "carrier": "spx-id",
+  "records": [
+    {
+      "number": "SPXID069495685978",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260814033022/https://spx.co.id/shipment/order/open/order/get_order_info?spx_tn=SPXID069495685978&language_code=id",
+        "date": "2026-08-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "domestic marketplace parcel"
+      },
+      "expect": {
+        "carrier": "spx-id",
+        "confidence": "high"
+      },
+      "note": "An archived reply of SPX Express Indonesia's own order endpoint for this number shows the parcel's history."
+    },
+    {
+      "number": "ID267195008651B",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260814033022/https://spx.co.id/shipment/order/open/order/get_order_info?spx_tn=SPXID069495685978&language_code=id",
+        "date": "2026-08-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "domestic marketplace parcel"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "spx-id"
+        ]
+      },
+      "note": "SPX Express Indonesia's own order endpoint returned it as the SLS number of an SPXID parcel, in an archived reply that shows the history."
+    },
+    {
+      "number": "SPXID021249556759",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220924125241/https://spx.co.id/detail/SPXID021249556759",
+        "date": "2022-09-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spx-id",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Indonesia's own tracker; the tracker's legacy reply, archived six seconds later, shows the history, ending in delivery."
+    },
+    {
+      "number": "SPXID02974482640C",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221210113447/https://spx.co.id/detail/SPXID02974482640C",
+        "date": "2022-12-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spx-id",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Indonesia's own tracker; the tracker's legacy reply, archived six seconds later, shows the history."
+    },
+    {
+      "number": "SPXID038634369751",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230116122133/https://spx.co.id/detail/SPXID038634369751",
+        "date": "2023-01-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spx-id",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Indonesia's own tracker; the tracker's legacy reply, archived six seconds later, shows the history."
+    },
+    {
+      "number": "spxid047927535711",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240115155246/https://spx.co.id/detail/spxid047927535711",
+        "date": "2024-01-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spx-id",
+        "confidence": "high"
+      },
+      "note": "Typed in lower case. An archived lookup on SPX Express Indonesia's own tracker; the tracker's legacy reply, archived thirteen seconds later, shows the history, ending in delivery."
+    },
+    {
+      "number": "SPXID056111367037",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250715105717/https://spx.co.id/track?SPXID056111367037",
+        "date": "2025-07-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "spx-id",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Indonesia's own tracker address; the capture was not opened for history, which the page loads by script, so the history was not visible."
+    },
+    {
+      "number": "ID010147069296",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210611140121/https://spx.co.id/detail/ID010147069296",
+        "date": "2021-06-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "spx-id"
+        ]
+      },
+      "note": "An archived lookup on SPX Express Indonesia's own tracker address; the capture was not opened for history, which the page loads by script, so the history was not visible."
+    },
+    {
+      "number": "SPXID065174460027",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://tanyapaket.cekresi.com/question/spxid065174460027-stuk-sudah-4-hari/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "spx-id",
+        "confidence": "high"
+      },
+      "note": "A customer question on a parcel-tracking Q&A site about this Shopee Express Indonesia number, stuck for four days."
+    },
+    {
+      "number": "SPXID04224372226C",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://tanyapaket.cekresi.com/question/paket-tidak-bergerak-86/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "spx-id",
+        "confidence": "high"
+      },
+      "note": "A customer question on a parcel-tracking Q&A site about this Shopee Express Indonesia number, sent as SPX Standard."
+    },
+    {
+      "number": "SPXID040656157609",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://tanyapaket.cekresi.com/question/paket-stuck-7/",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "spx-id",
+        "confidence": "high"
+      },
+      "note": "A customer question on a parcel-tracking Q&A site about this Shopee Express Indonesia number, seen in a search excerpt."
+    }
+  ]
+}

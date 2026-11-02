@@ -1,0 +1,76 @@
+{
+  "id": "domain-logistics",
+  "displayName": "Domain Logistics",
+  "aliases": [
+    "Domain Express"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#6abf4b"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "domain-logistics",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "eta",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://domainlogistics.ca/tracking/?tracking={trackingNumber}",
+    "searchUrl": "https://domainlogistics.ca/tracking/",
+    "canaryUrl": "https://domainlogistics.ca/tracking/",
+    "shows": [
+      "status",
+      "history",
+      "eta",
+      "eta_window",
+      "service_name",
+      "remarks"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "service_name"
+    ],
+    "discarded": [
+      "eta_window",
+      "remarks"
+    ],
+    "unavailable": [
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "weight",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "signatory"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "domainlogistics.ca"
+      ],
+      "pathPattern": "^/tracking(?:/fr)?/?$",
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,323 @@
+{
+  "carrier": "gls-fr",
+  "records": [
+    {
+      "number": "00AB12CD",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "gls-fr",
+        "confidence": "high"
+      },
+      "note": "Made-up number that follows the published format."
+    },
+    {
+      "number": "00E7V8YY",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/probleme-colis-mondial-relay-gls-t286523.html"
+      },
+      "expect": {
+        "carrier": "gls-fr",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "00IU9SEC",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://marketplace.fnacdarty.com/s/article/Dois-je-obligatoirement-renseigner-un-num%C3%A9ro-de-suivi-tracking-pour-ma-commande?language=fr_BE"
+      },
+      "expect": {
+        "carrier": "gls-fr",
+        "confidence": "high"
+      },
+      "note": "Published integration example, not a real shipment."
+    },
+    {
+      "number": "123416227171",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://marketplace.fnacdarty.com/s/article/Dois-je-obligatoirement-renseigner-un-num%C3%A9ro-de-suivi-tracking-pour-ma-commande?language=fr_BE"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "gls-ch",
+          "dpd-fr",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "purolator",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Published integration example, not a real shipment. The source attributes it to GLS France, which stays one candidate among several."
+    },
+    {
+      "number": "20189360332",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/non-livraison-usage-sciemment-reitere-de-faux-bons-de-livraison-t375192.html",
+        "date": "2025-10-30"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to GLS France, which stays one candidate among several."
+    },
+    {
+      "number": "ZBH2FY7Q",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/probleme-colis-mondial-relay-gls-t286523-40.html",
+        "date": "2022-04-25"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to GLS France, which stays one candidate among several."
+    },
+    {
+      "number": "42841608482",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.60millions-mag.com/forum/d/5642-livraison-par-transporteur-gls?page=29",
+        "date": "2019-07-10",
+        "access": "full_page",
+        "dateKind": "forum_post"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "tracking number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "The customer explicitly names this GLS parcel and disputes delivery. Numeric detection remains shared with other services; the French endpoint must confirm the requested identity."
+    },
+    {
+      "number": "00CQWNQE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.60millions-mag.com/forum/d/5642-livraison-par-transporteur-gls?page=29",
+        "date": "2019-08-08",
+        "access": "full_page",
+        "dateKind": "forum_post"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "tracking number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "The customer names this GLS parcel at the Artigues delivery agency and contact with GLS France. The report is evidence of the French service without independently confirming shipment history."
+    },
+    {
+      "number": "ZX678O9N",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://fr.trustpilot.com/reviews/6ac419b6850d07587d737214",
+        "date": "2026-10-05",
+        "access": "full_page",
+        "dateKind": "review date as displayed"
+      },
+      "context": {
+        "service": "GLS France",
+        "reportedRole": "reported_shipment",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "GLS France quotes this number in its public reply to a review; its tracker returns the history. Eight letters and digits not starting 00 are shared by GLS networks, so GLS France stays one suggestion."
+    },
+    {
+      "number": "00LB1K6P",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://fr.trustpilot.com/reviews/6ac0984c43ad480b55582ae4",
+        "date": "2026-09-30",
+        "access": "full_page",
+        "dateKind": "review date as displayed"
+      },
+      "context": {
+        "service": "GLS France",
+        "reportedRole": "reported_shipment",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "gls-fr",
+        "confidence": "high"
+      },
+      "note": "One of three parcels a GLS France review lists; GLS France's tracker returns the history."
+    },
+    {
+      "number": "00LB1K5I",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://fr.trustpilot.com/reviews/6ac0984c43ad480b55582ae4",
+        "date": "2026-09-30",
+        "access": "full_page",
+        "dateKind": "review date as displayed"
+      },
+      "context": {
+        "service": "GLS France",
+        "reportedRole": "reported_shipment",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "gls-fr",
+        "confidence": "high"
+      },
+      "note": "One of three parcels a GLS France review lists; GLS France's tracker returns the history."
+    },
+    {
+      "number": "00LB1LXH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://fr.trustpilot.com/reviews/6ac0984c43ad480b55582ae4",
+        "date": "2026-09-30",
+        "access": "full_page",
+        "dateKind": "review date as displayed"
+      },
+      "context": {
+        "service": "GLS France",
+        "reportedRole": "reported_shipment",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "gls-fr",
+        "confidence": "high"
+      },
+      "note": "One of three parcels a GLS France review lists; GLS France's tracker returns the history."
+    },
+    {
+      "number": "Z6SZ1VA4",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://fr.trustpilot.com/reviews/6abcf700f4406467bb2a349a",
+        "date": "2026-09-29",
+        "access": "full_page",
+        "dateKind": "review date as displayed"
+      },
+      "context": {
+        "service": "GLS France",
+        "reportedRole": "reported_shipment",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "A GLS France review names this ParcelShop parcel; GLS France's tracker returns the history. The shape is shared by GLS networks, so GLS France stays one suggestion."
+    },
+    {
+      "number": "00LBJB4H",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://fr.trustpilot.com/reviews/6abf6eb8b4ae84b01b59933d",
+        "date": "2026-10-02",
+        "access": "full_page",
+        "dateKind": "review date as displayed"
+      },
+      "context": {
+        "service": "GLS France",
+        "reportedRole": "reported_shipment",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "gls-fr",
+        "confidence": "high"
+      },
+      "note": "A GLS France review names this parcel after a postponed delivery; GLS France's tracker returns the history."
+    }
+  ]
+}

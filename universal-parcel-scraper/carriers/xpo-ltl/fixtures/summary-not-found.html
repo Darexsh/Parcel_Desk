@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Tracking Results</title>
+<script type="text/javascript">
+    var getQueryString = function (field) {
+      var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
+      var string = reg.exec(window.location.href);
+      return string ? string[1] : '';
+    };
+    var relPath = window.location.pathname;
+    if (relPath == '/webapp/manifestrpts_p_app/Tracking/TrackingRS.jsp') {
+      var proQuery = getQueryString('PRO');
+      window.location = proQuery != '' ? 'https://app.ltl.xpo.com/appjs/tracking/#/tracking/' + proQuery : 'https://app.ltl.xpo.com/appjs/tracking';
+    }
+</script>
+</head>
+<body>
+    <!-- !!! BEGIN apptemplate_start.html (1) !!! -->
+    <div id="header"><title>LTL &ndash; XPO Logistics</title><a href="/webapp/membership_app/registration_update/MembershipMain.jsp">Welcome</a></div>
+    <div id="content" class="legacy">
+        <!-- !!! END apptemplate_start.html !!! -->
+<font size=-1 face="Arial, Helvetica, sans-serif">
+<form action="TrackingRS.jsp" method="post" name="frm1" id="frm1">
+
+<table border=0 width=100% cellpadding=0 cellspacing=0 class=stdTableAsGroupBox><tr><td class=stdDisplayText valign=top></td><td class=stdDisplayText valign=top><TABLE width=100% align=center border=0 cellspacing=0 cellpadding=0><tr><th align=center>PRO Tracking <font size=-2>(as of 3/4/26 6:12 PM Eastern Time)</font></th><th align=right>&nbsp; <a href='#' onClick="Go_To_PagePrint()"> <img src=/private/images/buttons/print.gif border=0 alt=Print></a> &nbsp; <a href="TrackingEmail.jsp?Pro=[990000023]&rptFormat=&rptMX=&destZip="><img src=/private/images/buttons/email_this.gif border=0 alt=Send email/fax></a>&nbsp;</th></tr><tr><td class=stdDisplayText align=left valign=middle colspan=2>The version of the Tracking tool you are using is being discontinued. Please <a href="mailto:support@example.com?subject=Tracking via URL Update">contact</a> XPO LTL Customer Service today so you may continue using this system without interruption.</td></tr><tr><td style="height:2px;" class=stdDisplayText align=left valign=middle colspan=2><br></td></tr></TABLE></td></tr>
+<tr><td class=stdDisplayText valign=top colspan=2><TABLE width=640 align=center border=0 cellpadding=1 cellspacing=1 class=stdTableAsGroupBox>
+<tr><td class=stdDisplayText valign='top' align='left' colspan='2'><TABLE width=640 align=center border=1 cellpadding=1 cellspacing=1 class=stdTableAsGroupBox><tr><td class='stdDisplayText' colspan='2' valign='top' align='left'><font color=#ff0000>*</font>Shipment <b>09900000023</b> is not currently available for tracking. Shipments picked up today (or late the previous day) may not be available until the next business day - please check back later. <br>For more information, <a href='mailto:support@example.com?subject=Assistance%20required%20for%20status%20of%2009900000023'>click here</a> to email our support team, or contact your nearest <a href='HTTPS://ltl.xpo.com/webapp/servicecenter_app/ServiceCenterInfo/ServiceCenterStart.jsp?dest=fastmap2000&logotoggle=S&SICInfo=Y&TTMapInfo=N'>Service Center</a>.<br />&nbsp;<br />To track a shipment originating in Mexico, <a href="TrackingRS.jsp?rptMX=MX&PRO=990000023">click here</a><br />&nbsp;<br /></td></tr></table></td></tr><tr><td class=stdDisplayText colspan='2' height=3></td></tr>
+</table></td></tr>
+<form action="Tracking.jsp" name=frmTrackingResults method="post"><tr><td class=stdDisplayText colspan='2' valign='top' align=center><br><input type="button" name="rptAction" value="Track another shipment" onclick="Go_To_PageStart('')"><br>&nbsp;</td></tr></form>
+
+
+</table>
+
+
+
+</form>
+</font>
+
+    <!-- !!! BEGIN apptemplate_end.html !!! -->
+    </div>
+    <div id="footer" class="legacy-footer">&copy; XPO, Inc. All rights reserved.</div>
+</body>
+</html>

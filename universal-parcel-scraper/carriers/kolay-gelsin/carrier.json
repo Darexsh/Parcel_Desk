@@ -1,0 +1,61 @@
+{
+  "id": "kolay-gelsin",
+  "displayName": "Kolay Gelsin",
+  "aliases": [
+    "Kolay Gelsin Kargo",
+    "KolayGelsin",
+    "Sendeo",
+    "Sendeo Kargo",
+    "Aykargo"
+  ],
+  "region": {
+    "countries": [
+      "TR"
+    ]
+  },
+  "brand": {
+    "color": "#3aae2a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Istanbul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "kolay-gelsin",
+    "steps": [
+      "trawl"
+    ],
+    "browser": true,
+    "localClocks": true
+  },
+  "capabilities": [
+    "history"
+  ],
+  "portal": {
+    "searchUrl": "https://www.kolaygelsin.com/tracking",
+    "canaryUrl": "https://www.kolaygelsin.com/tracking",
+    "shows": [
+      "status",
+      "history",
+      "recipient_name",
+      "recipient_address",
+      "sender_name",
+      "location"
+    ],
+    "scraped": [
+      "status",
+      "history"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address",
+      "sender_name",
+      "location"
+    ],
+    "unavailable": [
+      "weight",
+      "provider_code"
+    ]
+  },
+  "links": [],
+  "detection": []
+}

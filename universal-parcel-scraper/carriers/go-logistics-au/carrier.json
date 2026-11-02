@@ -1,0 +1,72 @@
+{
+  "id": "go-logistics-au",
+  "displayName": "GO Logistics",
+  "aliases": [
+    "Go Logistics Pty Ltd",
+    "GO Logistics & Storage",
+    "Go Logistics Couriers"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#22653a"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "go-logistics-au",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history"
+  ],
+  "portal": {
+    "url": "https://services.gologistics.com.au/track/iframe2.php?item={trackingNumber}",
+    "searchUrl": "https://gologistics.com.au/track-your-parcel/",
+    "canaryUrl": "https://gologistics.com.au/track-your-parcel/",
+    "shows": [
+      "history",
+      "driver_name",
+      "signatory",
+      "signature",
+      "piece_count"
+    ],
+    "scraped": [
+      "history"
+    ],
+    "discarded": [
+      "driver_name",
+      "signatory",
+      "signature",
+      "piece_count"
+    ],
+    "unavailable": [
+      "status",
+      "location",
+      "provider_code",
+      "eta",
+      "service_name",
+      "weight",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "services.gologistics.com.au"
+      ],
+      "pathPattern": "^/track/iframe2\\.php$",
+      "params": [
+        "item"
+      ]
+    }
+  ],
+  "detection": []
+}

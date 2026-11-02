@@ -1,0 +1,1 @@
+The synthetic Next.js payload follows the verified guest landing envelope. Identifiers, dates, names, addresses, coordinates and capability strings are invented. Only reached milestone wording and clocks belong in results.

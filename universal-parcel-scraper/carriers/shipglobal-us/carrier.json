@@ -1,0 +1,53 @@
+{
+  "id": "shipglobal-us",
+  "displayName": "ShipGlobal US",
+  "aliases": [
+    "ShipGlobal US Inc.",
+    "ShipGlobal.us",
+    "First Flight USA"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#fb5c00"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://shipglobal.us/track.html?waybill={trackingNumber}",
+    "searchUrl": "https://shipglobal.us/track.html",
+    "canaryUrl": "https://shipglobal.us/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "shipglobal.us"
+      ],
+      "pathPattern": "^/track\\.html$",
+      "params": [
+        "waybill"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "shipglobal-us-1",
+      "pattern": "^FFUSA\\d{6,7}$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

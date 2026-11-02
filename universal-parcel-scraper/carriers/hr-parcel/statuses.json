@@ -1,0 +1,26 @@
+{
+  "carrier": "hr-parcel",
+  "entries": [
+    {"code": "1000", "wording": "Spedizione non ancora ricevuta presso i nostri magazzini", "stage": "registered", "language": "it", "confirmedBy": "live", "note": "The first scan of every history: the sender's data reached HR Parcel before the parcel."},
+    {"code": "1001", "wording": "Presa in carico all'HUB", "stage": "accepted", "language": "it", "confirmedBy": "live", "note": "Taken in at the hub; the page leaves out its town."},
+    {"code": "1010", "wording": "Arrivata in Filiale", "stage": "in_transit", "language": "it", "confirmedBy": "live", "note": "Arrived at the delivering branch."},
+    {"code": "1002", "wording": "In Consegna", "stage": "out_for_delivery", "language": "it", "confirmedBy": "live", "note": "Also the label of a parcel sent out again after a failed attempt or a hold."},
+    {"code": "1003", "wording": "Spedizione Consegnata", "stage": "delivered", "language": "it", "confirmedBy": "live"},
+    {"code": "1007", "wording": "In Giacenza", "stage": "exception", "language": "it", "confirmedBy": "live", "note": "Held at the branch after a failed attempt, for the recipient's instructions, which the tracker lets them give."},
+    {"code": "1007", "wording": "In Giacenza, disponibile per Ritiro", "stage": "ready_for_pickup", "language": "it", "confirmedBy": "live", "note": "Held at the branch, which also offers it for collection."},
+    {"code": "1009", "wording": "Smarrimento/Furto", "stage": "exception", "language": "it", "confirmedBy": "live", "note": "Lost or stolen."},
+    {"code": "1014", "wording": "Indirizzo Errato", "stage": "failed_attempt", "language": "it", "confirmedBy": "live", "note": "A delivery attempt with a wrong address; the parcel was later held at the branch."},
+    {"code": "1015", "wording": "Destinatario Assente al primo passaggio", "stage": "failed_attempt", "language": "it", "confirmedBy": "live"},
+    {"code": "1016", "wording": "Destinatario Assente al passaggio successivo", "stage": "failed_attempt", "language": "it", "confirmedBy": "live"},
+    {"code": "1020", "wording": "Disponibile per il Ritiro", "stage": "ready_for_pickup", "language": "it", "confirmedBy": "live"},
+    {"code": "1021", "wording": "Ritirato dal Destinatario", "stage": "delivered", "language": "it", "confirmedBy": "live", "note": "Collected by the recipient after it was ready for collection."},
+    {"wording": "in consegna", "stage": "out_for_delivery", "language": "it", "confirmedBy": "official-doc", "note": "HR Parcel's FAQ: Il pacco risulta in consegna oggi."},
+    {"wording": "consegnato", "stage": "delivered", "language": "it", "confirmedBy": "official-doc", "note": "HR Parcel's FAQ on a parcel whose tracking shows it delivered."},
+    {"wording": "in rispedizione al mittente", "stage": "returned", "language": "it", "confirmedBy": "official-doc", "note": "HR Parcel's FAQ says the parcel is on its way back to the seller and cannot be stopped."},
+    {"wording": "in giacenza", "stage": "exception", "language": "it", "confirmedBy": "official-doc", "note": "HR Parcel's FAQ on collecting a parcel held at a depot."},
+    {"wording": "consegnata", "stage": "delivered", "language": "it", "confirmedBy": "source", "note": "Quoted from HR Parcel's tracking in a Trustpilot review."},
+    {"wording": "pronto per il ritiro", "stage": "ready_for_pickup", "language": "it", "confirmedBy": "source", "note": "Quoted from HR Parcel's tracking in a Trustpilot review."},
+    {"wording": "presa in carico", "stage": "accepted", "language": "it", "confirmedBy": "source", "note": "Quoted from HR Parcel's tracking in a Trustpilot review, before the parcel left for the hub."},
+    {"wording": "indirizzo errato", "stage": "failed_attempt", "language": "it", "confirmedBy": "source", "note": "Quoted in a complaint as the reason HR Parcel's tracking gave for a failed delivery."}
+  ]
+}

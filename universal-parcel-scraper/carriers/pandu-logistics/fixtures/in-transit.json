@@ -1,0 +1,62 @@
+{
+  "json": {
+    "detail": [
+      {
+        "awb": "ABCDE00000000002",
+        "awb_date": "October     12, 2026",
+        "reference_no": "",
+        "sender_name": "SAMPLE SENDER",
+        "from_city": "MEDAN",
+        "consignee_name": "SAMPLE CONSIGNEE",
+        "consignee_postalcode": "00000",
+        "to_city": "JAKARTA BARAT",
+        "weight": "1",
+        "pieces": 1,
+        "goods_description": "SAMPLE GOODS",
+        "special_instruction": "",
+        "status_delivery": "NOT AVAILABLE",
+        "status_date": "",
+        "status_description": ""
+      }
+    ],
+    "track": [
+      {
+        "date": "12 Oct 2026 16:02",
+        "details": "RECEIVED AT ORIGIN STATION "
+      },
+      {
+        "date": "12 Oct 2026 16:09",
+        "details": "ARRIVED AT PSS MEDAN"
+      },
+      {
+        "date": "13 Oct 2026 07:45",
+        "details": "DEPARTED FROM ORIGIN "
+      },
+      {
+        "date": "14 Oct 2026 23:51",
+        "details": "ARRIVED AT PSS JAKARTA"
+      }
+    ]
+  },
+  "request": {
+    "headers": {},
+    "body": "{\"detail\":[{\"awb\":\"ABCDE00000000002\",\"awb_date\":\"October     12, 2026\",\"reference_no\":\"\",\"sender_name\":\"SAMPLE SENDER\",\"from_city\":\"MEDAN\",\"consignee_name\":\"SAMPLE CONSIGNEE\",\"consignee_postalcode\":\"00000\",\"to_city\":\"JAKARTA BARAT\",\"weight\":\"1\",\"pieces\":1,\"goods_description\":\"SAMPLE GOODS\",\"special_instruction\":\"\",\"status_delivery\":\"NOT AVAILABLE\",\"status_date\":\"\",\"status_description\":\"\"}],\"track\":[{\"date\":\"12 Oct 2026 16:02\",\"details\":\"RECEIVED AT ORIGIN STATION \"},{\"date\":\"12 Oct 2026 16:09\",\"details\":\"ARRIVED AT PSS MEDAN\"},{\"date\":\"13 Oct 2026 07:45\",\"details\":\"DEPARTED FROM ORIGIN \"},{\"date\":\"14 Oct 2026 23:51\",\"details\":\"ARRIVED AT PSS JAKARTA\"}]}",
+    "response": {
+      "code": 200,
+      "message": "OK"
+    },
+    "cookies": [],
+    "filename": null,
+    "http_response": {
+      "data": null,
+      "headers": null,
+      "status": null
+    }
+  },
+  "html": "<div class=\"row pandu-row\">\t<div class=\"col-md-6 col-xs-12\">  <h4 class=\"pull-left\">Customer Details</h4><table class=\"awbinfo\">\t<tbody>\t\t<tr><td class=\"prop\">AWB No</td><td class=\"val\">ABCDE00000000002</td></tr>\t\t<tr><td class=\"prop\">Date</td><td class=\"val\">OCTOBER     12, 2026</td></tr>\t\t<tr><td class=\"prop\">Consignee Name</td><td class=\"val\">SAMPLE CONSIGNEE</td></tr>\t\t<tr><td class=\"prop\">Sender</td><td class=\"val\">SAMPLE SENDER</td></tr>\t\t<tr><td class=\"prop\">From</td><td class=\"val\">MEDAN</td></tr>\t\t<tr><td class=\"prop\">To</td><td class=\"val\">JAKARTA BARAT</td></tr>\t\t<tr><td class=\"prop\">Weight</td><td class=\"val\">1 KG</td></tr>\t\t<tr><td class=\"prop\">Pieces</td><td class=\"val\">1 ITEM</td></tr>\t\t<tr><td class=\"prop\">Special Instruction</td><td class=\"val\"> </td></tr>\t\t<tr><td class=\"prop\">Note</td><td class=\"val\">SAMPLE GOODS </td></tr>\t\t<tr><td class=\"prop\">Status</td><td class=\"val\">NOT AVAILABLE</td></tr>\t\t<tr><td class=\"prop\">Received by</td><td class=\"val\"></td></tr>\t\t<tr><td class=\"prop\">Signature</td><td class=\"val\">\t\t\tNot available\t\t</td></tr>\t\t<tr><td class=\"prop\">Accepted Prove</td><td class=\"val\">\t\t\tNot available\t\t</td></tr>\t</tbody></table>\t</div>\t<div class=\"col-md-6 col-xs-12\">  <h4>Parcel Tracking</h4>\t\t<ul class=\"tracks\"><li class=\"track-item\">\n\t\t\t\t\t\t\t\t\t<div class=\"inner-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"date-time\">\n\t\t\t\t\t\t\t\t\t\t\t12 Oct 2026 16:02<br>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"bullet\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t\t\tRECEIVED AT ORIGIN STATION \n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</li><li class=\"track-item\">\n\t\t\t\t\t\t\t\t\t<div class=\"inner-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"date-time\">\n\t\t\t\t\t\t\t\t\t\t\t12 Oct 2026 16:09<br>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"bullet\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t\t\tARRIVED AT PSS MEDAN\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</li><li class=\"track-item\">\n\t\t\t\t\t\t\t\t\t<div class=\"inner-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"date-time\">\n\t\t\t\t\t\t\t\t\t\t\t13 Oct 2026 07:45<br>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"bullet\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t\t\tDEPARTED FROM ORIGIN \n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</li><li class=\"track-item\">\n\t\t\t\t\t\t\t\t\t<div class=\"inner-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"date-time\">\n\t\t\t\t\t\t\t\t\t\t\t14 Oct 2026 23:51<br>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"bullet\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t\t\tARRIVED AT PSS JAKARTA\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"lightbox-overlay\"></div><div class=\"popup-viewer-container\"><img src=\"\" id=\"image-view\" class=\"img-fluid\"></div></div>",
+  "raw": {
+    "action": "awb_tracking",
+    "awb": "ABCDE00000000002",
+    "nonce_v": false
+  }
+}

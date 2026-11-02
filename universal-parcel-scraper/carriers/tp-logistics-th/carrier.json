@@ -1,0 +1,58 @@
+{
+  "id": "tp-logistics-th",
+  "displayName": "TP Logistics",
+  "aliases": [
+    "Thaiparcels",
+    "ThaiParcels",
+    "Thai Parcel",
+    "TP Logistics Thailand"
+  ],
+  "region": {
+    "countries": [
+      "TH"
+    ]
+  },
+  "brand": {
+    "color": "#00a751"
+  },
+  "selectable": true,
+  "timezone": "Asia/Bangkok",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tptrack.info/ecom/dtrack.php?id={trackingNumber}&type=a1",
+    "searchUrl": "https://tptrack.info/ecom/dtrack.php",
+    "canaryUrl": "https://tptrack.info/ecom/dtrack.php",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tptrack.info"
+      ],
+      "pathPattern": "^/ecom/dtrack\\.php$",
+      "query": "^id=([A-Za-z0-9]+)&type=a1$"
+    },
+    {
+      "domains": [
+        "tptrack.info"
+      ],
+      "pathPattern": "^/ecom/tdetail\\.php$",
+      "query": "^fn=a1&code=([A-Za-z0-9]+)$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "tp-logistics-th-1",
+      "pattern": "^(?!CP|ID|JD|TB[ACM]|ASE|ECR|EPG|JJD|JMX|TRK)[A-Z]{3}\\d{2}\\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])\\d{4}$",
+      "confidence": "low"
+    }
+  ]
+}

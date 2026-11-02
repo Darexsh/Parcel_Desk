@@ -1,0 +1,53 @@
+{
+  "carrier": "sendle",
+  "records": [
+    {
+      "number": "QSS000284255",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.sendle.com/tracking",
+        "date": "2026-10-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "sendle",
+          "colis-prive"
+        ]
+      },
+      "note": "Sendle's tracking page gives it as the example tracking number, printed under the label's barcode. The tracker knows it as a booked order."
+    },
+    {
+      "number": "QS416938",
+      "role": "order_reference",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.sendle.com/tracking",
+        "date": "2026-10-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "Sendle's tracking page gives it as the example order number from the booking e-mail; the tracker names it as the order of the example tracking number."
+    }
+  ]
+}

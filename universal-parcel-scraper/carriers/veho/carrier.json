@@ -1,0 +1,61 @@
+{
+  "id": "veho",
+  "displayName": "Veho",
+  "aliases": [
+    "Veho Tech",
+    "Veho Technologies"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#e84931"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.shipveho.com/#/trackingid/{trackingNumber}",
+    "searchUrl": "https://track.shipveho.com/",
+    "canaryUrl": "https://track.shipveho.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.shipveho.com"
+      ],
+      "params": [
+        "trackingId"
+      ]
+    },
+    {
+      "domains": [
+        "track.shipveho.com"
+      ],
+      "fragment": "^/(?:trackingid|barcode)/([^/?#]+)"
+    }
+  ],
+  "detection": [
+    {
+      "id": "veho-1",
+      "pattern": "^VH[A-Z0-9]{12}$",
+      "confidence": "low"
+    },
+    {
+      "id": "veho-2",
+      "pattern": "^VEHO[A-Z]{3}\\d{9}$",
+      "confidence": "low"
+    }
+  ]
+}

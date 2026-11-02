@@ -1,0 +1,31 @@
+{
+  "provider": "Bosta",
+  "Type": "SEND",
+  "ScheduleDate": "2026-05-12T20:59:59.999Z",
+  "CurrentStatus": { "state": "Delivered", "code": 45, "timestamp": "2026-05-12T12:05:47.733Z" },
+  "TransitEvents": [
+    { "timestamp": "2026-05-10T09:12:44.120Z", "state": "Your order is created, Bosta will pick it up once your shipper is ready", "code": 10 },
+    { "timestamp": "2026-05-10T09:12:44.381Z", "state": "Your shipper requested a pickup. Bosta will pick it up soon" },
+    { "timestamp": "2026-05-11T13:40:05.902Z", "state": "Order is received at Bosta warehouses and being processed.", "code": 24 },
+    { "timestamp": "2026-05-11T13:40:05.902Z", "state": "Order is received at Bosta warehouses and being processed.", "code": 24 },
+    { "timestamp": "2026-05-11T21:15:30.004Z", "state": "Order is being transferred to Bosta's Hubs.", "code": 30 },
+    { "timestamp": "2026-05-12T04:02:11.517Z", "state": "Order is received at Bosta warehouses and being processed.", "code": 24 },
+    { "timestamp": "2026-05-12T07:48:59.250Z", "state": "Order is being prepared for delivery.", "code": 20 },
+    { "timestamp": "2026-05-12T08:30:00.000Z", "state": "Order is out for delivery", "msg": "Will be Deliverd from 10 AM to 6 PM According to the Courier Route", "code": 41 },
+    { "timestamp": "2026-05-12T12:05:47.733Z", "state": "Order is delivered", "code": 45 }
+  ],
+  "TrackingNumber": "81000002",
+  "CreateDate": "2026-05-10T09:12:44.301Z",
+  "PromisedDate": "2026-05-12T20:59:59.999Z",
+  "isEditableShipment": false,
+  "isBostaBoxDelivery": false,
+  "nextWorkingDay": [{ "dayDate": "2026-05-13", "dayName": "Wednesday" }],
+  "collectedFromBusiness": "2026-05-11T13:40:05.900Z",
+  "canRequestPOSMachine": false,
+  "deliveryCountryCode": "EG",
+  "canPayOnline": false,
+  "isShipmentPaidOnline": false,
+  "businessId": "SyntheticBusiness0001",
+  "timezone": "GMT",
+  "isOnlinePaymentFeatureEnabled": true
+}

@@ -1,0 +1,75 @@
+{
+  "id": "kuayue-express",
+  "displayName": "Kuayue Express",
+  "aliases": [
+    "KYE",
+    "KY Express",
+    "Kua Yue Express",
+    "KYE Group",
+    "跨越速运",
+    "跨越速运集团",
+    "跨越速运集团有限公司",
+    "跨越物流",
+    "跨越速递"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#7e51e4"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.ky-express.com/88.html?tab=3&orders={trackingNumber}",
+    "searchUrl": "https://www.ky-express.com/88.html",
+    "canaryUrl": "https://www.ky-express.com/88.html",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.ky-express.com",
+        "ky-express.com"
+      ],
+      "pathPattern": "^/88\\.html$",
+      "params": [
+        "orders"
+      ]
+    },
+    {
+      "domains": [
+        "u.ky-express.com"
+      ],
+      "pathPattern": "^/diyServiceNews/?$",
+      "params": [
+        "orders"
+      ]
+    },
+    {
+      "domains": [
+        "ic-h5.kye-erp.com"
+      ],
+      "pathPattern": "^/waybill-route\\.html$",
+      "fragment": "^/?\\?(?:[^&]*&)*waybillNo=([^&]+)"
+    }
+  ],
+  "detection": [
+    {
+      "id": "kuayue-express-1",
+      "pattern": "^KY\\d{13}$",
+      "confidence": "high"
+    }
+  ]
+}

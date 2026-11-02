@@ -1,0 +1,98 @@
+{
+  "id": "chronodiali",
+  "displayName": "Chronodiali",
+  "aliases": [
+    "Chrono Diali"
+  ],
+  "region": {
+    "countries": [
+      "MA"
+    ]
+  },
+  "brand": {
+    "color": "#009adf"
+  },
+  "selectable": true,
+  "timezone": "Africa/Casablanca",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "chronodiali",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 781
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "delivered_at",
+    "destination_country",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://chronodiali.ma/suivi_colis.html?id={trackingNumber}",
+    "searchUrl": "https://chronodiali.ma/suivi_colis.html",
+    "canaryUrl": "https://chronodiali.ma/suivi_colis.html",
+    "shows": [
+      "status",
+      "history",
+      "sender_name",
+      "sender_town",
+      "recipient_name",
+      "destination",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "delivered_at",
+      "destination_country",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "sender_name",
+      "sender_town",
+      "recipient_name",
+      "destination",
+      "payment_details"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "pickup_point",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "chronodiali.ma",
+        "www.chronodiali.ma"
+      ],
+      "pathPattern": "^/suivi_colis\\.html$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "chronodiali-1",
+      "pattern": "^CHPU\\d{19}$",
+      "confidence": "high"
+    },
+    {
+      "id": "chronodiali-2",
+      "pattern": "^CD\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

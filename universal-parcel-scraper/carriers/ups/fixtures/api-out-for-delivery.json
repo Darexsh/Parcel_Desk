@@ -1,0 +1,125 @@
+{
+  "trackResponse": {
+    "shipment": [
+      {
+        "inquiryNumber": "1Z999AA10123456784",
+        "package": [
+          {
+            "trackingNumber": "1Z999AA10123456784",
+            "deliveryDate": [
+              { "type": "SDD", "date": "20260804" }
+            ],
+            "deliveryTime": { "type": "EOD", "endTime": "235900" },
+            "deliveryInformation": {
+              "receivedBy": "PRIVATE RECIPIENT",
+              "location": "PRIVATE DOOR",
+              "signature": { "image": "PRIVATE-SIGNATURE-IMAGE" },
+              "pod": { "content": "PRIVATE-PROOF-OF-DELIVERY" }
+            },
+            "activity": [
+              {
+                "location": {
+                  "address": { "city": "ZUERICH", "stateProvince": "", "postalCode": "", "country": "CH", "countryCode": "CH" },
+                  "slic": "0000"
+                },
+                "status": {
+                  "type": "I",
+                  "description": "Out For Delivery Today",
+                  "code": "OT",
+                  "statusCode": "021"
+                },
+                "date": "20260804",
+                "time": "091204",
+                "gmtDate": "20260804",
+                "gmtOffset": "+02:00",
+                "gmtTime": "07:12:04"
+              },
+              {
+                "location": {
+                  "address": { "city": "ZUERICH", "stateProvince": "", "postalCode": "", "country": "CH", "countryCode": "CH" },
+                  "slic": "0000"
+                },
+                "status": {
+                  "type": "I",
+                  "description": "Arrived at Facility",
+                  "code": "AR",
+                  "statusCode": "005"
+                },
+                "date": "20260804",
+                "time": "050351",
+                "gmtDate": "20260804",
+                "gmtOffset": "+02:00",
+                "gmtTime": "03:03:51"
+              },
+              {
+                "location": {
+                  "address": { "city": "KOELN", "stateProvince": "", "postalCode": "", "country": "DE", "countryCode": "DE" },
+                  "slic": "0000"
+                },
+                "status": {
+                  "type": "I",
+                  "description": "Departed from Facility",
+                  "code": "DP",
+                  "statusCode": "005"
+                },
+                "date": "20260803",
+                "time": "234110",
+                "gmtDate": "20260803",
+                "gmtOffset": "+02:00",
+                "gmtTime": "21:41:10"
+              },
+              {
+                "location": {
+                  "address": { "city": "", "stateProvince": "", "postalCode": "", "country": "DE", "countryCode": "DE" }
+                },
+                "status": {
+                  "type": "M",
+                  "description": "Shipper created a label, UPS has not received the package yet. ",
+                  "code": "MP",
+                  "statusCode": "003"
+                },
+                "date": "20260802",
+                "time": "180000",
+                "gmtDate": "20260802",
+                "gmtOffset": "+02:00",
+                "gmtTime": "16:00:00"
+              }
+            ],
+            "currentStatus": {
+              "type": "I",
+              "description": "Out For Delivery Today",
+              "code": "OT",
+              "statusCode": "021",
+              "simplifiedTextDescription": "Out for Delivery"
+            },
+            "packageAddress": [
+              {
+                "type": "ORIGIN",
+                "name": "PRIVATE SHIPPER",
+                "address": { "addressLine1": "1 PRIVATE ORIGIN STREET", "city": "PRIVATE ORIGIN CITY", "postalCode": "PRIVATE ORIGIN POSTCODE", "countryCode": "DE" }
+              },
+              {
+                "type": "DESTINATION",
+                "name": "PRIVATE RECIPIENT",
+                "attentionName": "PRIVATE ATTENTION NAME",
+                "address": { "addressLine1": "10 PRIVATE STREET", "city": "PRIVATE CITY", "postalCode": "PRIVATE POSTCODE", "countryCode": "CH" }
+              }
+            ],
+            "weight": { "unitOfMeasurement": "KGS", "weight": "1.00" },
+            "service": { "code": "011", "levelCode": "011", "description": "UPS Standard&#174;" },
+            "referenceNumber": [
+              { "type": "SHIPMENT", "number": "PRIVATE-REFERENCE" }
+            ],
+            "paymentInformation": [
+              { "type": "ICOD", "amount": "0.00", "currency": "CHF", "id": "PRIVATE-PAYMENT-ID", "paid": false }
+            ],
+            "alternateTrackingNumber": [],
+            "packageCount": 1
+          }
+        ],
+        "userRelation": [],
+        "warnings": []
+      }
+    ]
+  }
+}

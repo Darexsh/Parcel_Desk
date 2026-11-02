@@ -1,0 +1,183 @@
+{
+  "carrier": "xpressbees",
+  "records": [
+    {
+      "number": "94391823031857",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/xpressbees.com?page=3"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "Publicly reported shipment number; its attribution is source evidence, not a permanent live-status oracle."
+    },
+    {
+      "number": "10000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "observed_request",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "dpd",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "anteraja",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "Synthetic tracking-number shape for offline detection and transport tests."
+    },
+    {
+      "number": "153702660789506",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a8d241c8467408c323ae348",
+        "date": "2026-08-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "Fifteen-digit waybill from a review of Xpressbees. Not confirmed live: Xpressbees' public tracker needs reCAPTCHA and its seller feed rejects consumer waybills."
+    },
+    {
+      "number": "153456560604428",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a3d05fd673844caeeb2d03b",
+        "date": "2026-06-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "Fifteen-digit waybill from a review of Xpressbees. Not confirmed live: Xpressbees' public tracker needs reCAPTCHA and its seller feed rejects consumer waybills."
+    },
+    {
+      "number": "24319860174166",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/69c69fa39e6db49a9375f3e1",
+        "date": "2026-03-27",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Reverse pickup waybill from a review of Xpressbees. Not confirmed live: Xpressbees' public tracker needs reCAPTCHA and its seller feed rejects consumer waybills."
+    },
+    {
+      "number": "13409612271959",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/69b968f39a396c381dc17700",
+        "date": "2026-03-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-pl",
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "Waybill from a review of Xpressbees. Not confirmed live: Xpressbees' public tracker needs reCAPTCHA and its seller feed rejects consumer waybills."
+    }
+  ]
+}

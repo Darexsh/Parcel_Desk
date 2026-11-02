@@ -1,0 +1,54 @@
+{
+  "id": "best-express-my",
+  "displayName": "BEST Express Malaysia",
+  "aliases": [
+    "BEST Express (Malaysia)",
+    "BEST Inc (MY)",
+    "BEST Inc. Malaysia",
+    "BEST Express MY"
+  ],
+  "region": {
+    "countries": [
+      "MY"
+    ]
+  },
+  "brand": {
+    "color": "#d80c18"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kuala_Lumpur",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.best-inc.my/track?bills={trackingNumber}",
+    "searchUrl": "https://www.best-inc.my/track",
+    "canaryUrl": "https://www.best-inc.my/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "best-inc.my",
+        "www.best-inc.my"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "bills"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "best-express-my-1",
+      "pattern": "^6085\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

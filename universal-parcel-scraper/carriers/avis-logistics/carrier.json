@@ -1,0 +1,48 @@
+{
+  "id": "avis-logistics",
+  "displayName": "Avis Logistics",
+  "aliases": [
+    "AVIS Logistics KZ",
+    "ТОО Avis Logistics",
+    "Авис Логистикс"
+  ],
+  "region": {
+    "countries": [
+      "KZ",
+      "RU"
+    ]
+  },
+  "brand": {
+    "color": "#095fa9"
+  },
+  "selectable": true,
+  "timezone": "Asia/Almaty",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://avislogistics.kz/?trace={trackingNumber}",
+    "searchUrl": "https://avislogistics.kz/",
+    "canaryUrl": "https://avislogistics.kz/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "avislogistics.kz",
+        "www.avislogistics.kz"
+      ],
+      "pathPattern": "^/$",
+      "params": [
+        "trace"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,28 @@
+{
+  "carrier": "quicksilver-sa",
+  "records": [
+    {
+      "number": "QS002442826",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260314111513/https://erp.quick-silver.express/v2/tracking/QS002442826",
+        "date": "2026-03-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it",
+          "quicksilver-sa"
+        ]
+      },
+      "note": "An opened archived lookup on Quicksilver's own tracker shows this number's history in Riyadh, from the pickup task to delivery with a proof photo."
+    }
+  ]
+}

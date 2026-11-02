@@ -1,0 +1,53 @@
+{
+  "id": "city-air-express",
+  "displayName": "City Air Express",
+  "aliases": [
+    "CAE Delivers",
+    "City Air Express (N.I.) Ltd",
+    "City Air Express Ltd"
+  ],
+  "region": {
+    "countries": [
+      "GB",
+      "IE"
+    ]
+  },
+  "brand": {
+    "color": "#ff0114"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://caebfs.netcourier.net/online/tracking/trackinginfo/{trackingNumber}",
+    "searchUrl": "https://www.cityairexpress.com/track-my-parcel",
+    "canaryUrl": "https://www.cityairexpress.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "caebfs.netcourier.net",
+        "caeman.netcourier.net",
+        "caedub.netcourier.net",
+        "caelhr.netcourier.net"
+      ],
+      "path": "^/online/tracking/trackinginfo/([A-Za-z0-9-]{4,20})/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "city-air-express-1",
+      "pattern": "^MN\\d{6}$",
+      "confidence": "low"
+    }
+  ]
+}

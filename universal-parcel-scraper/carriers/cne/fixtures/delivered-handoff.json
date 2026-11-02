@@ -1,0 +1,77 @@
+{
+  "ReturnValue": 1,
+  "Response_Info": {
+    "trackingNbr": "3A5V000000002",
+    "transNbr": "ZZ000000005GB",
+    "referNbr": "PRIVATE-SYNTHETIC",
+    "status": "3",
+    "statusDesc": "妥投",
+    "deliveryDate": "2026-02-10 12:00",
+    "Number_t": "ZZ000000005GB",
+    "Destination": "GB"
+  },
+  "trackingEventList": [
+    {
+      "date": "2026-02-01 09:00:00",
+      "details": "Parcel Infomation Received"
+    },
+    {
+      "date": "2026-02-01 18:00:00",
+      "place": "CN.Example Facility",
+      "details": "Picked Up by Courier"
+    },
+    {
+      "date": "2026-02-02 08:00:00",
+      "place": "CN.Example Facility",
+      "details": "Departure Scan",
+      "state": 1
+    },
+    {
+      "date": "2026-02-03 10:00:00",
+      "place": "Example Export Airport",
+      "details": "Released From Export Customs",
+      "state": 2
+    },
+    {
+      "date": "2026-02-05 06:00:00",
+      "place": "Example Import Airport",
+      "details": "Released From Import Customs",
+      "state": 2
+    },
+    {
+      "date": "2026-02-06 07:00:00",
+      "place": "Example Hub",
+      "details": "Arrived At The Delivery Company",
+      "state": 2
+    },
+    {
+      "date": "2026-02-07 08:00:00",
+      "place": "Example Depot",
+      "details": "Item Received",
+      "state": 2
+    },
+    {
+      "date": "2026-02-08 09:00:00",
+      "place": "Example Depot",
+      "details": "Recvd in Depot:Inbound Freight；We've received your parcel in our depot. It will be out for delivery within the next working day.",
+      "state": 2
+    },
+    {
+      "date": "2026-02-09 07:30:00",
+      "place": "Example Depot",
+      "details": "Accepted, Delivery Facility",
+      "state": 2
+    },
+    {
+      "date": "2026-02-10 12:00:00",
+      "place": "Example Town",
+      "details": "Signature Obtained；Signature Obtained.",
+      "state": 3
+    }
+  ],
+  "Extra_Header": "",
+  "lastMileSupplier": {
+    "enName": "Royal Mail",
+    "code": "Royal Mail"
+  }
+}

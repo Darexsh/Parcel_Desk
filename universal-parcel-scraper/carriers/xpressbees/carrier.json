@@ -1,0 +1,77 @@
+{
+  "id": "xpressbees",
+  "displayName": "Xpressbees",
+  "aliases": [
+    "Xpress Bees",
+    "XpressBees"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#f58220"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "xpressbees",
+    "steps": [
+      "direct"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://shipmentv2.xpressbees.com/orders/tracking/{trackingNumber}",
+    "searchUrl": "https://shipmentv2.xpressbees.com/orders/tracking/",
+    "canaryUrl": "https://www.xpressbees.com/track",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta"
+    ],
+    "discarded": [
+      "order_reference",
+      "seller_configuration"
+    ],
+    "unavailable": [
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "shipmentv2.xpressbees.com"
+      ],
+      "path": "^/orders/tracking/(\\d{12,16})(?:/|$)"
+    },
+    {
+      "domains": [
+        "xpressbees.com"
+      ],
+      "params": [
+        "trackid"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "xpressbees-awb",
+      "pattern": "^[19]\\d{13}$",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "carrier": "energia-tk",
+  "records": [
+    {
+      "number": "0101-2157708",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://gdeposylka.ru/courier/nrg-tk",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Gdeposylka's TK Energia page gives it as an example receipt number, and Energia's tracker knows it."
+    },
+    {
+      "number": "2401-2092174",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230320052332/https://api2.nrg-tk.ru/v2/sending/state/?docNum=2401-2092174",
+        "date": "2023-03-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An archived reply of Energia's own tracking API for this waybill shows it on a trip, in transit from Krasnoyarsk to Nakhodka."
+    },
+    {
+      "number": "2503-1132486",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210609123548/https://api2.nrg-tk.ru/v2/sending/state/?docNum=2503-1132486",
+        "date": "2021-06-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An archived reply of Energia's own tracking API for this waybill shows it on a rail trip from Vladivostok, bound for Bryansk."
+    },
+    {
+      "number": "3101-1223633",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220510060401/https://api2.nrg-tk.ru/v2/sending/state/?docNum=3101-1223633",
+        "date": "2022-05-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An archived reply of Energia's own tracking API for this waybill shows two places at a Moscow-region warehouse, in transit from Belgorod to Minsk."
+    },
+    {
+      "number": "4401-1181522",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220512011433/https://api2.nrg-tk.ru/v2/sending/state/?docNum=4401-1181522",
+        "date": "2022-05-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An archived reply of Energia's own tracking API for this waybill shows it at the destination warehouse in Leninsk-Kuznetsky, ready for issue, sent from Kostroma."
+    },
+    {
+      "number": "5405-3397729",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210604031059/https://api2.nrg-tk.ru/v2/sending/state/?docNum=5405-3397729",
+        "date": "2021-06-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An archived reply of Energia's own tracking API for this waybill shows it on a rail trip from Novosibirsk to Khabarovsk."
+    }
+  ]
+}

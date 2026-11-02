@@ -1,0 +1,20 @@
+{
+  "carrier": "t-cat",
+  "entries": [
+    {"wording": "已集貨", "stage": "accepted", "language": "zh", "confirmedBy": "live", "note": "Scan label on T-CAT's tracker; its tooltip says the driver collected the parcel from the sender."},
+    {"wording": "轉運中", "stage": "in_transit", "language": "zh", "confirmedBy": "live", "note": "Scan label on T-CAT's tracker; its tooltip says the parcel is between a branch and a transfer centre."},
+    {"wording": "配送中", "stage": "out_for_delivery", "language": "zh", "confirmedBy": "live", "note": "Scan label on T-CAT's tracker; its tooltip says the driver is taking the parcel to the recipient."},
+    {"wording": "順利送達", "stage": "delivered", "language": "zh", "confirmedBy": "live", "note": "Scan label on T-CAT's tracker; its tooltip says the parcel reached the recipient."},
+    {"wording": "不在家", "stage": "failed_attempt", "language": "zh", "confirmedBy": "portal", "note": "Scan label in an archived capture of T-CAT's tracker: the recipient was not at home."},
+    {"wording": "另約時間", "stage": "failed_attempt", "language": "zh", "confirmedBy": "portal", "note": "Scan label in an archived capture of T-CAT's tracker: another delivery time was arranged, between two delivery runs."},
+    {"wording": "到所自取", "stage": "ready_for_pickup", "language": "zh", "confirmedBy": "portal", "note": "Scan label in an archived capture of T-CAT's tracker: the recipient is to collect the parcel at the branch."},
+    {"wording": "暫置營業所保管中（請聯絡黑貓宅急便）", "stage": "exception", "language": "zh", "confirmedBy": "portal", "note": "Scan label in an archived capture of T-CAT's tracker: the parcel is held at the branch after failed attempts and the recipient is asked to contact T-CAT."},
+    {"wording": "客樂得貨物退回中", "stage": "returned", "language": "zh", "confirmedBy": "portal", "note": "Scan label in an archived capture of T-CAT's tracker: a cash-on-delivery parcel (客樂得 is T-CAT's collect-on-delivery service) is on its way back to the sender."},
+    {"wording": "取件中", "stage": "registered", "language": "zh", "confirmedBy": "official-doc", "note": "Listed with its meaning on T-CAT's status explanation page: a driver is on the way to collect the parcel from the sender."},
+    {"wording": "取消取件", "stage": "exception", "language": "zh", "confirmedBy": "official-doc", "note": "Listed with its meaning on T-CAT's status explanation page: the sender cancelled the pickup."},
+    {"wording": "未順利取件，請洽客服中心", "stage": "exception", "language": "zh", "confirmedBy": "official-doc", "note": "Listed with its meaning on T-CAT's status explanation page: the driver could not collect the parcel."},
+    {"wording": "暫置營業所", "stage": "in_transit", "language": "zh", "confirmedBy": "official-doc", "note": "Listed with its meaning on T-CAT's status explanation page: the parcel is held at a branch."},
+    {"wording": "調查處理中", "stage": "exception", "language": "zh", "confirmedBy": "official-doc", "note": "Listed with its meaning on T-CAT's status explanation page: under investigation, for an unknown address, a postal box, a flight delay, a move or a refusal."},
+    {"wording": "不在家.公司行號休息", "stage": "failed_attempt", "language": "zh", "confirmedBy": "official-doc", "note": "Listed with its meaning on T-CAT's status explanation page: the recipient was out or the business was closed."}
+  ]
+}

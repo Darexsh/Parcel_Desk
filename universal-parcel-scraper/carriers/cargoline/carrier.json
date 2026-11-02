@@ -1,0 +1,43 @@
+{
+  "id": "cargoline",
+  "displayName": "CargoLine",
+  "aliases": [
+    "Cepra",
+    "CargoLine GmbH & Co. KG",
+    "Cepra Track & Trace"
+  ],
+  "region": {
+    "countries": [
+      "DE"
+    ]
+  },
+  "brand": {
+    "color": "#f13e3c"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://trackandtrace.cepra.de/Track/{trackingNumber}",
+    "searchUrl": "https://trackandtrace.cepra.de/Track",
+    "canaryUrl": "https://www.cargoline.de/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "trackandtrace.cepra.de"
+      ],
+      "path": "^/Track/(\\d{20})(?:/\\d{5})?/?$"
+    }
+  ],
+  "detection": []
+}

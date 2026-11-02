@@ -1,0 +1,86 @@
+{
+  "id": "gtl-goto",
+  "displayName": "GoTo Logistics",
+  "aliases": [
+    "GTL",
+    "GoTo Logistics (GTL)",
+    "PT Paket Anak Bangsa"
+  ],
+  "region": {
+    "countries": [
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#14922c"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jakarta",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gtl-goto",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 708
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://gtl.id/tracking?tracking_number={trackingNumber}",
+    "searchUrl": "https://gtl.id/tracking",
+    "canaryUrl": "https://gtl.id/tracking",
+    "shows": [
+      "history",
+      "location"
+    ],
+    "scraped": [
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "weight",
+      "service_name",
+      "delivered_at",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "pickup_point",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "gtl.id",
+        "www.gtl.id"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "tracking_number"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "gtl-goto-1",
+      "pattern": "^TKGTL[0-9A-Z]{11}$",
+      "confidence": "high"
+    },
+    {
+      "id": "gtl-goto-2",
+      "pattern": "^GTL\\d{10}$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "carrier": "dhl-ecommerce-uk",
+  "records": [
+    {
+      "number": "99990000000000",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-07",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "Made-up number that follows the published format."
+    },
+    {
+      "number": "60120261600869",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://uk.trustpilot.com/reviews/6ac3cdda8e6383efe7f1ef5d",
+        "date": "2026-10-01"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-uk",
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Public report naming DHL eCommerce UK; its tracking page returned the history."
+    },
+    {
+      "number": "60120261424801",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://uk.trustpilot.com/reviews/6abe414cdd8489abedbc0f2a",
+        "date": "2026-10-01"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-uk",
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Public report naming DHL eCommerce UK; its tracking page returned the history."
+    },
+    {
+      "number": "31553490035923",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://uk.trustpilot.com/reviews/6ac10174c511495b9e29df72",
+        "date": "2026-09-28"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Public report naming DHL eCommerce UK; its tracking page returned the history."
+    },
+    {
+      "number": "41505910017980",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://uk.express.dhl.com/track-a-parcel"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "The fourteen-digit shipment number DHL prints as its example for the UK parcel network."
+    },
+    {
+      "number": "55005390024653",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.dhl.com/content/dam/dhl/local/gb/dhl-ecommerce/documents/pdf/gb-domestic-self-label-developers-guide-v5-4.pdf"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Official documentation example, not a real shipment."
+    },
+    {
+      "number": "3710615",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mydhl.express.dhl/gb/en/help-and-support/dhl-parcel-uk.html"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Example of the seven-digit number on a calling card, not a real shipment. The portal reads it with the delivery postcode only."
+    },
+    {
+      "number": "928341972",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mydhl.express.dhl/gb/en/help-and-support/dhl-parcel-uk.html"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Example of a nine-digit return number, not a real shipment. No rule matches this shape; the adapter reads one when the carrier is named."
+    },
+    {
+      "number": "31547460962669",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/dhl.at",
+        "date": "2025-10-20"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Posted in a review of DHL Austria. The shape is that of the UK parcel network, which did not return a history."
+    },
+    {
+      "number": "39981025502486",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/www.dhl.com?page=4"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Posted in a review of DHL without naming a network. The shape is that of the UK parcel network, which did not return a history."
+    },
+    {
+      "number": "60120235918537",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/www.dhl.com?page=3"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-uk",
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Posted in a review of DHL without naming a network. The shape is that of the UK parcel network, which did not return a history."
+    },
+    {
+      "number": "DHL13237372",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/www.dhlecommerce.co.uk?page=4"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Posted in a review of DHL eCommerce UK for a parcel to Taiwan. It may be an order reference."
+    },
+    {
+      "number": "60120257503461",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260901100235/https://track.dhlecommerce.co.uk/?con=60120257503461",
+        "date": "2026-09-01",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-uk",
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      }
+    },
+    {
+      "number": "60120257505821",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260901022916/https://track.dhlecommerce.co.uk/?con=60120257505821",
+        "date": "2026-09-01",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-uk",
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      }
+    },
+    {
+      "number": "60120257500057",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260901022031/https://track.dhlecommerce.co.uk/?con=60120257500057",
+        "date": "2026-09-01",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-uk",
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      }
+    },
+    {
+      "number": "60120256298061",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260820122807/https://track.dhlecommerce.co.uk/?con=60120256298061",
+        "date": "2026-08-20",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-uk",
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      }
+    },
+    {
+      "number": "60120256278861",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260820122719/https://track.dhlecommerce.co.uk/?con=60120256278861",
+        "date": "2026-08-20",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-uk",
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      }
+    },
+    {
+      "number": "60120255056579",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260812142410/https://track.dhlecommerce.co.uk/?con=60120255056579",
+        "date": "2026-08-12",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-uk",
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      }
+    },
+    {
+      "number": "60120255056624",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260811160101/https://track.dhlecommerce.co.uk/?con=60120255056624",
+        "date": "2026-08-11",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-uk",
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      }
+    },
+    {
+      "number": "41903752118928",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260519113531/https://track.dhlecommerce.co.uk/?con=41903752118928",
+        "date": "2026-05-19",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      }
+    },
+    {
+      "number": "31548430003445",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260212192435/https://track.dhlecommerce.co.uk/default.aspx?con=31548430003445",
+        "date": "2026-02-12",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Not found in October 2026: the page drops a shipment some time after delivery."
+    },
+    {
+      "number": "31518311067677",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260303120654/https://track.dhlecommerce.co.uk/contact/help-with-my-parcel-delivery?consignmentnumber=31518311067677",
+        "date": "2026-03-03",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Not found in October 2026: the page drops a shipment some time after delivery."
+    }
+  ]
+}

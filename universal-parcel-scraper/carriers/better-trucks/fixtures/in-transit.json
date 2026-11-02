@@ -1,0 +1,206 @@
+{
+  "tracking_number": "BTS_0123SMPL002",
+  "shipment_tracking_number": "BTS_0123SMPL002",
+  "created_date": "2026-01-20T16:09:37",
+  "address_from": {
+    "city": "Exampleville",
+    "state": "TX",
+    "zip": "75999",
+    "country": "US",
+    "latitude": null,
+    "longitude": null
+  },
+  "address_to": {
+    "city": "Sampleton",
+    "state": "TX",
+    "zip": "77999",
+    "country": "US",
+    "latitude": 29.9876,
+    "longitude": -95.1234
+  },
+  "transaction": "00000000-0000-4000-8000-000000000002",
+  "eta": "2026-01-22T00:00:00",
+  "original_eta": "2026-01-22T00:00:00",
+  "tracking_status": {
+    "relative_time": [
+      {
+        "name": "GREENWICH_MEAN_TIME",
+        "time": "2026-01-21T11:47:26",
+        "timezone": "GMT+00:00"
+      },
+      {
+        "name": "LOCAL_TIME",
+        "time": "2026-01-21T05:47:26",
+        "timezone": "GMT-06:00"
+      }
+    ],
+    "object_created": "2026-01-21T11:47:26",
+    "status": "SCANNED_AT_HUB_SMP",
+    "status_details": "Received at SMP hub",
+    "location": {
+      "city": "Sampleton",
+      "state": "TX",
+      "zip": "77999",
+      "country": "US",
+      "latitude": null,
+      "longitude": null
+    },
+    "latitude": 29.9001,
+    "longitude": -95.2002,
+    "location_info": null,
+    "event_details": null,
+    "images": null
+  },
+  "tracking_history": [
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-01-21T11:47:26",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-01-21T05:47:26",
+          "timezone": "GMT-06:00"
+        }
+      ],
+      "object_created": "2026-01-21T11:47:26",
+      "status": "SCANNED_AT_HUB_SMP",
+      "status_details": "Received at SMP hub",
+      "location": {
+        "city": "Sampleton",
+        "state": "TX",
+        "zip": "77999",
+        "country": "US",
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 29.9001,
+      "longitude": -95.2002,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-01-21T02:33:58",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-01-20T20:33:58",
+          "timezone": "GMT-06:00"
+        }
+      ],
+      "object_created": "2026-01-21T02:33:58",
+      "status": "SCANNED_AT_HUB",
+      "status_details": "Scanned at BT facility",
+      "location": {
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 32.8001,
+      "longitude": -96.9002,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-01-21T02:33:01",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-01-20T20:33:01",
+          "timezone": "GMT-06:00"
+        }
+      ],
+      "object_created": "2026-01-21T02:33:01",
+      "status": "INJECTED",
+      "status_details": "Received in BT network",
+      "location": {
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 32.8001,
+      "longitude": -96.9002,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-01-20T16:09:40",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-01-20T16:09:40",
+          "timezone": "GMT+00:00"
+        }
+      ],
+      "object_created": "2026-01-20T16:09:40",
+      "status": "TRANSACTION_CREATED",
+      "status_details": "Shipment created",
+      "location": {
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": null,
+      "longitude": null,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-01-20T16:09:38",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-01-20T10:09:38",
+          "timezone": "GMT-06:00"
+        }
+      ],
+      "object_created": "2026-01-20T16:09:38",
+      "status": "SHIPMENT_CREATED",
+      "status_details": "Shipment created",
+      "location": {
+        "city": "Exampleville",
+        "state": "TX",
+        "zip": "75999",
+        "country": "US",
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 33.0101,
+      "longitude": -96.9909,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    }
+  ]
+}

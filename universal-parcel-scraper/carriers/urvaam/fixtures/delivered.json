@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "code": 0,
+    "msg": "Operación exitosa",
+    "error": "",
+    "request_uri": "track/batch"
+  },
+  "response": {
+    "cnt": [
+      {
+        "icon": "yidengji",
+        "name_en": "Registered",
+        "name": "已登记",
+        "name_es": "Registrado",
+        "name_pt": "Registado",
+        "status": 1,
+        "cnt": 0
+      },
+      {
+        "icon": "yunshuzhong",
+        "name_en": "In Transit",
+        "name": "运输中",
+        "name_es": "En tránsito",
+        "name_pt": "Em trânsito",
+        "status": 2,
+        "cnt": 0
+      },
+      {
+        "icon": "paijianzhong",
+        "name_en": "On its way",
+        "name": "派件中",
+        "name_es": "Recogido",
+        "name_pt": "No despacho",
+        "status": 3,
+        "cnt": 0
+      },
+      {
+        "icon": "toudichenggong",
+        "name_en": "Successful Delivery",
+        "name": "投递成功",
+        "name_es": "Entregado",
+        "name_pt": "A entrega foi bem sucedida",
+        "status": 4,
+        "cnt": 1
+      },
+      {
+        "icon": "qianshou",
+        "name_en": "In Transit",
+        "name": "自提点签收",
+        "name_es": "Entregado al punto de Recogida",
+        "name_pt": "Entregado ao ponto de auto-entrega",
+        "status": 6,
+        "cnt": 0
+      },
+      {
+        "icon": "wentijian",
+        "name_en": "Problem piece",
+        "name": "问题件",
+        "name_es": "Problema",
+        "name_pt": "A peça problemática",
+        "status": 5,
+        "cnt": 0
+      },
+      {
+        "icon": "tuijian",
+        "name_en": "Return",
+        "name": "退件",
+        "name_es": "Devolucion",
+        "name_pt": "Retornar",
+        "status": 7,
+        "cnt": 0
+      }
+    ],
+    "data": [
+      {
+        "line_no": "2700000000000011",
+        "ref": "SAMPLEREF000001",
+        "data": [
+          {
+            "id": 9007,
+            "update_time": "2026-03-12 13:44:07",
+            "caption": "已签收（妥投邮箱）",
+            "caption_es": "Entregado (Entregado al buzon)",
+            "caption_pt": "Assinado",
+            "caption_en": "Delivered",
+            "driver_id": 0,
+            "is_delete": 0,
+            "status": "3",
+            "color": "success",
+            "status_label": "投递成功",
+            "status_label_es": "Entregado",
+            "status_label_pt": "A entrega foi bem sucedida",
+            "status_label_en": "Successful Delivery",
+            "track_status": 4,
+            "sign": "https://sample.invalid/sign/0000.jpg"
+          },
+          {
+            "id": 9006,
+            "update_time": "2026-03-12 07:02:06",
+            "caption": "司机派送",
+            "caption_es": "En Reparto",
+            "caption_pt": "Entrega do motorista",
+            "caption_en": "On its way to the courier",
+            "driver_id": 1234,
+            "is_delete": 0,
+            "status": "2",
+            "status_label": "派件中",
+            "status_label_es": "Recogido",
+            "status_label_pt": "No despacho",
+            "status_label_en": "On its way",
+            "track_status": 3
+          },
+          {
+            "id": 9005,
+            "update_time": "2026-03-11 18:58:47",
+            "caption": "已分拣",
+            "caption_es": "Clasificado",
+            "caption_pt": "Ordenado",
+            "caption_en": "Sorted",
+            "driver_id": 0,
+            "is_delete": 0,
+            "status": "18",
+            "status_label": "运输中",
+            "status_label_es": "En tránsito",
+            "status_label_pt": "Em trânsito",
+            "status_label_en": "In Transit",
+            "track_status": 2
+          },
+          {
+            "id": 9004,
+            "update_time": "2026-03-11 18:58:47",
+            "caption": "已分拣",
+            "caption_es": "Clasificado",
+            "caption_pt": "Ordenado",
+            "caption_en": "Sorted",
+            "driver_id": 0,
+            "is_delete": 0,
+            "status": "18",
+            "status_label": "运输中",
+            "status_label_es": "En tránsito",
+            "status_label_pt": "Em trânsito",
+            "status_label_en": "In Transit",
+            "track_status": 2
+          },
+          {
+            "id": 9003,
+            "update_time": "2026-03-11 16:34:04",
+            "caption": "仓库签入（Sample-Depot）",
+            "caption_es": "Recibido Plataforma (Sample-Depot)",
+            "caption_pt": "Check-in do Armazém (Sample-Depot)",
+            "caption_en": "Warehouse receipt (Sample-Depot)",
+            "driver_id": 0,
+            "is_delete": 0,
+            "status": "19",
+            "status_label": "运输中",
+            "status_label_es": "En tránsito",
+            "status_label_pt": "Em trânsito",
+            "status_label_en": "In Transit",
+            "track_status": 2
+          },
+          {
+            "id": 9002,
+            "update_time": "2026-03-11 13:50:40",
+            "caption": "已分拣",
+            "caption_es": "Clasificado",
+            "caption_pt": "Ordenado",
+            "caption_en": "Sorted",
+            "driver_id": 0,
+            "is_delete": 0,
+            "status": "18",
+            "status_label": "运输中",
+            "status_label_es": "En tránsito",
+            "status_label_pt": "Em trânsito",
+            "status_label_en": "In Transit",
+            "track_status": 2
+          },
+          {
+            "id": 9001,
+            "update_time": "2026-03-11 12:25:05",
+            "caption": "仓库签入（Urvaam-Bcn）",
+            "caption_es": "Recibido Plataforma (Urvaam-Bcn)",
+            "caption_pt": "Check-in do Armazém (Urvaam-Bcn)",
+            "caption_en": "Warehouse receipt (Urvaam-Bcn)",
+            "driver_id": 0,
+            "is_delete": 0,
+            "status": "1",
+            "status_label": "运输中",
+            "status_label_es": "En tránsito",
+            "status_label_pt": "Em trânsito",
+            "status_label_en": "In Transit",
+            "track_status": 2
+          },
+          {
+            "id": 9000,
+            "update_time": "2026-03-06 18:09:33",
+            "caption": "下单成功",
+            "caption_es": "Envio Grabado",
+            "caption_pt": "Remessa Gravada",
+            "caption_en": "Order placed",
+            "driver_id": 0,
+            "is_delete": 0,
+            "status": "0",
+            "status_label": "已登记",
+            "status_label_es": "Registrado",
+            "status_label_pt": "Registado",
+            "status_label_en": "Registered",
+            "track_status": 1
+          }
+        ],
+        "status": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "carrier": "ap-cargo",
+  "entries": [
+    {"wording": "ACCEPTED", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "The origin warehouse accepted the cargo; the tracker adds \" AT \" and the location."},
+    {"wording": "IN TRANSIT", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The cargo left the origin."},
+    {"wording": "ARRIVED AT BACOLOD FOR TRANSFER TO WAREHOUSE", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The cargo reached the destination city; the city name varies."},
+    {"wording": "ARRIVED AT DUMAGUETE FOR TRANSFER TO WAREHOUSE", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The cargo reached the destination city; the city name varies."},
+    {"wording": "CLAIMED", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "The consignee collected the cargo at the destination branch."},
+    {"wording": "ARRIVED", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Handled by AP Cargo's former tracker script. The tracker adds \" AT \" and the location."},
+    {"wording": "OUT FOR DELIVERY", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Handled by AP Cargo's former tracker script."},
+    {"wording": "RETURN UPON DELIVERY", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "Handled by AP Cargo's former tracker script. The script shows it in its undelivered slot: delivery failed and the cargo goes back."},
+    {"wording": "DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Handled by AP Cargo's former tracker script."}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "carrier": "palletways",
+  "entries": [
+    {"wording": "At collection depot", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Collected by the local depot. Palletways' FAQ lists it among the live statuses of its tracking portal."},
+    {"wording": "At hub", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "At the central hub for sorting. Palletways' FAQ lists it among the live statuses of its tracking portal."},
+    {"wording": "At delivery depot", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "At the destination depot, waiting to be loaded. Palletways' FAQ lists it among the live statuses of its tracking portal."},
+    {"wording": "Out for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Palletways' FAQ lists it among the live statuses of its tracking portal."},
+    {"wording": "JOB COMPLETE", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The badge of a finished delivery job, untranslated whatever the page's language. The adapter stages it only on a delivery job."}
+  ]
+}

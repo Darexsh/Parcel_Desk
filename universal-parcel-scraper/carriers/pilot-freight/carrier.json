@@ -1,0 +1,110 @@
+{
+  "id": "pilot-freight",
+  "displayName": "Pilot Freight Services",
+  "aliases": [
+    "Pilot",
+    "Pilot - A Maersk Company",
+    "Maersk Ground Freight",
+    "Pilot Delivers"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#42b0d5"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pilot-freight",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 572
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "eta",
+    "eta_window",
+    "service_name",
+    "weight",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://delivers.maersk.com/tracking/{trackingNumber}",
+    "searchUrl": "https://delivers.maersk.com/tracking/",
+    "canaryUrl": "https://delivers.maersk.com/tracking/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "delivered_at",
+      "signature",
+      "service_name",
+      "weight",
+      "parcel_count",
+      "dimensions",
+      "order_contents",
+      "origin",
+      "destination"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "eta",
+      "eta_window",
+      "service_name",
+      "weight",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "progress_rail",
+      "signature",
+      "parcel_count",
+      "dimensions",
+      "order_contents",
+      "origin",
+      "destination"
+    ],
+    "unavailable": [
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "delivers.maersk.com"
+      ],
+      "path": "^/tracking/(\\d{9})/?$"
+    },
+    {
+      "domains": [
+        "pilotdelivers.com"
+      ],
+      "pathPattern": "^/quicktrack\\.aspx$",
+      "params": [
+        "Pro",
+        "pro"
+      ]
+    }
+  ],
+  "detection": []
+}

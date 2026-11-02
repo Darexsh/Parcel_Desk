@@ -1,0 +1,91 @@
+{
+  "id": "trackon",
+  "displayName": "Trackon Couriers",
+  "aliases": [
+    "Trackon",
+    "Trackon Courier",
+    "Trackon Couriers Pvt Ltd",
+    "Trackon Courier Pvt Ltd"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#981e21"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "trackon",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 821
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.trackon.in/courier-tracking?awb={trackingNumber}",
+    "searchUrl": "https://www.trackon.in/",
+    "canaryUrl": "https://www.trackon.in/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "progress_rail",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at"
+    ],
+    "discarded": [
+      "progress_rail",
+      "proof_of_delivery",
+      "signature",
+      "remarks",
+      "origin",
+      "destination",
+      "postcodes",
+      "customer_reference",
+      "parcel_count",
+      "weight",
+      "service_name"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps",
+      "pickup_point",
+      "delivery_partner",
+      "sender_name",
+      "recipient_name",
+      "recipient_address"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "trackon.in"
+      ],
+      "pathPattern": "^/courier-tracking/?$",
+      "params": [
+        "awb"
+      ]
+    }
+  ],
+  "detection": []
+}

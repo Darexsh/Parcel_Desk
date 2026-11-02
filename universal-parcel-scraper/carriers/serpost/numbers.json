@@ -1,0 +1,122 @@
+{
+  "carrier": "serpost",
+  "records": [
+    {
+      "number": "RE104856140PE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.facebook.com/serpostoficial/posts/-esperando-tu-paquete-no-m%C3%A1s-dudas-con-el-chat-en-l%C3%ADnea-de-serpost-consulta-el-e/772884265246225/",
+        "date": "2026-09-01",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A customer's comment on Serpost's Facebook page cites this item posted in Peru. Serpost's tracker shows it accepted, sorted and delivered in Peru."
+    },
+    {
+      "number": "EE010741846PE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-serpost.html?p=1",
+        "date": "2018-06-25",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A customer review of Serpost on a tracking aggregator cites this item sent from Peru. Serpost's tracker still knows it, by its acceptance scan."
+    },
+    {
+      "number": "EE010045134PE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.reddit.com/r/USPS/comments/44ib2u/ems_perushipped_delay_jonas_related/",
+        "date": "2016-02-06",
+        "dateKind": "post publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A Reddit post cites this EMS item sent from Peru to the United States. Serpost's tracker still knows it, by its acceptance scan."
+    },
+    {
+      "number": "RF145485545ES",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-serpost/es.html",
+        "date": "2018-07-22",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "correos-spain",
+        "confidence": "high"
+      },
+      "note": "A customer review of Serpost on a tracking aggregator cites this registered item from Spain awaited in Peru."
+    },
+    {
+      "number": "EA325602591CN",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/Wesitos/py-serpost",
+        "date": "2018-04-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "An open-source Serpost client's README shows the Serpost tracker's output for this inbound item."
+    },
+    {
+      "number": "RF495973328SG",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/Wesitos/py-serpost",
+        "date": "2018-04-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "singapore-post",
+        "confidence": "high"
+      },
+      "note": "An open-source Serpost client's README shows the Serpost tracker's output for this inbound item."
+    }
+  ]
+}

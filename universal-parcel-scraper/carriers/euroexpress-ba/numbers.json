@@ -1,0 +1,24 @@
+{
+  "carrier": "euroexpress-ba",
+  "records": [
+    {
+      "number": "100760296",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.eeshop.ba/uploads/EE_shop_upustvo.pdf",
+        "date": "2021-02-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The shipment code of a sent order in the screenshots of the manual for EuroExpress's own web shop, in the column where shops enter the code their buyers track."
+    }
+  ]
+}

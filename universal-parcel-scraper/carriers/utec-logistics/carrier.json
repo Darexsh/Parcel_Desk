@@ -1,0 +1,50 @@
+{
+  "id": "utec-logistics",
+  "displayName": "UTEC Logistics",
+  "aliases": [
+    "UTEC",
+    "UTEC Express",
+    "UTEC Group"
+  ],
+  "region": {
+    "countries": [
+      "UA"
+    ]
+  },
+  "brand": {
+    "color": "#014886"
+  },
+  "selectable": true,
+  "timezone": "Europe/Kyiv",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://utec.ua/tracking/{trackingNumber}",
+    "searchUrl": "https://utec.ua/",
+    "canaryUrl": "https://utec.ua/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "utec.ua",
+        "www.utec.ua"
+      ],
+      "path": "^/tracking/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "utec-logistics-1",
+      "pattern": "^UTECP\\d{10}[A-Z]{2}$",
+      "confidence": "low"
+    }
+  ]
+}

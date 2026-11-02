@@ -1,0 +1,30 @@
+{
+  "carrier": "thhy",
+  "entries": [
+    {"code": "ARRIVAL", "wording": "Arrived at the receiving point", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "The first scan in Tianhui Hengyuan's hands."},
+    {"code": "SHIPMENT", "wording": "货物离开操作中心", "language": "zh", "english": "Goods leave the operation center", "stage": "in_transit", "confirmedBy": "live", "note": "The parcel leaves the operation centre. The English is GZYL's for this row of the same platform."},
+    {"code": "CO_C_CR", "wording": "已收取邮件", "language": "zh", "english": "Mail collected", "stage": "in_transit", "confirmedBy": "live", "note": "The post collects the item from the forwarder. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "邮件已完成分拣", "language": "zh", "english": "Sorting completed", "stage": "in_transit", "confirmedBy": "live", "note": "Sorted. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "邮件正在发往", "language": "zh", "english": "On its way", "stage": "in_transit", "confirmedBy": "live", "note": "On its way to the place the row names. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "到达", "language": "zh", "english": "Arrival", "stage": "in_transit", "confirmedBy": "live", "note": "Arrived at the place the row names. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "邮件已完成资料准备", "language": "zh", "english": "Item documents prepared", "stage": "in_transit", "confirmedBy": "live", "note": "The item's papers are ready. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "邮件准备", "language": "zh", "english": "Item being prepared", "stage": "in_transit", "confirmedBy": "live", "note": "The item is being prepared for dispatch. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "送交出口", "language": "zh", "english": "Presented to export customs", "stage": "customs", "confirmedBy": "live", "note": "Presented to export customs. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "放行", "language": "zh", "english": "Released by customs", "stage": "in_transit", "confirmedBy": "live", "note": "Released by customs; the item carries on. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "正在发往操作中心", "language": "zh", "english": "On its way to the operation center", "stage": "in_transit", "confirmedBy": "live", "note": "On its way to an operation centre. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "直封", "language": "zh", "english": "Closed into a direct dispatch", "stage": "in_transit", "confirmedBy": "live", "note": "Sealed into a direct dispatch. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "已交承运商", "language": "zh", "english": "Handed to the carrier", "stage": "in_transit", "confirmedBy": "live", "note": "Handed to the carrier for the international leg. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "航空公司", "language": "zh", "english": "With the airline", "stage": "in_transit", "confirmedBy": "live", "note": "With the airline. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "飞机起飞", "language": "zh", "english": "Flight departed", "stage": "in_transit", "confirmedBy": "live", "note": "The flight took off. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "飞机进港", "language": "zh", "english": "Flight arrived", "stage": "in_transit", "confirmedBy": "live", "note": "The flight arrived. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "到达寄达地", "language": "zh", "english": "Arrived in the destination country", "stage": "in_transit", "confirmedBy": "live", "note": "Arrived in the destination country. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "送交境外进口海关", "language": "zh", "english": "Presented to import customs abroad", "stage": "customs", "confirmedBy": "live", "note": "Presented to the destination country's import customs. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "到达寄达地处理中心", "language": "zh", "english": "Arrival at processing center in the destination country", "stage": "in_transit", "confirmedBy": "live", "note": "Arrived at a processing centre in the destination country. The English is a plain rendering."},
+    {"code": "CO_C_CR", "wording": "Goods leave the operation center", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The destination network's parcel leaves its operation centre."},
+    {"code": "CO_C_CR", "wording": "Transporting to the next facility", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"code": "CO_C_CR", "wording": "The package is waiting for processing at the station", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "At the delivery station, not yet handed to a courier."},
+    {"code": "CO_C_CR", "wording": "Packages ready for delivery on the next working day", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "At the delivery station; delivery starts the next working day, so it is not out for delivery yet."},
+    {"code": "CO_C_CR", "wording": "Packages in transit for delivery", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "货物电子信息已经收到", "language": "zh", "english": "The electronic cargo information has been received", "stage": "registered", "confirmedBy": "prior-art", "note": "The platform writes this row itself for an order without scans, on its creation time. The English is the row's on BYHD's tracker."}
+  ]
+}

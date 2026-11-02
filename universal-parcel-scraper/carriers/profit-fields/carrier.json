@@ -1,0 +1,56 @@
+{
+  "id": "profit-fields",
+  "displayName": "Profit Fields",
+  "aliases": [
+    "8DT",
+    "EWS Profit Fields",
+    "Profit Fields (8DT)",
+    "永利八达通",
+    "永利八达通物流",
+    "深圳永利八达通物流有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#009844"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.8dt.com/tracking?track={trackingNumber}",
+    "searchUrl": "https://www.8dt.com/tracking",
+    "canaryUrl": "https://www.8dt.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "8dt.com",
+        "www.8dt.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "track"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "profit-fields-1",
+      "pattern": "^EWS[A-Z]{2}\\d{10}YQ$",
+      "confidence": "low"
+    }
+  ]
+}

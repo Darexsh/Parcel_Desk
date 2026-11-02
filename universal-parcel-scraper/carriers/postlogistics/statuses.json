@@ -1,0 +1,72 @@
+{
+  "carrier": "postlogistics",
+  "entries": [
+    {
+      "code": "DEL",
+      "stage": "delivered",
+      "confirmedBy": "fixture",
+      "firstSeen": "2026-09-12",
+      "note": "Delivery confirmed."
+    },
+    {
+      "code": "DLV",
+      "stage": "delivered",
+      "confirmedBy": "fixture",
+      "firstSeen": "2026-09-12",
+      "note": "Delivery confirmed."
+    },
+    {
+      "code": "POD",
+      "wording": "DELIVERED SCANNED",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-12",
+      "note": "Proof of delivery recorded; the proof itself is never retained."
+    },
+    {
+      "code": "SIG",
+      "wording": "SIGNATURE",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-12",
+      "note": "Signed for; the signature itself is never retained."
+    },
+    {
+      "code": "NTF",
+      "wording": "Data entry POST",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-12",
+      "note": "Shipment announced; the summary remains pending and the scan is registered."
+    },
+    {
+      "code": "RFS",
+      "wording": "Received warehouse POST",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-04",
+      "note": "Goods received by the carrier."
+    },
+    {
+      "code": "SCA",
+      "wording": "Loaded for Delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-04",
+      "note": "Loaded for delivery."
+    },
+    {
+      "code": "IMG",
+      "wording": "IMAGE",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "A picture entry, not a movement: dropped when it shares a scan's instant, otherwise kept without a stage. Live histories show it a few seconds to a minute before the delivery scan."
+    }
+  ]
+}

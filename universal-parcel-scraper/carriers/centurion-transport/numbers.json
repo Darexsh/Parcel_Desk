@@ -1,0 +1,28 @@
+{
+  "carrier": "centurion-transport",
+  "gap": "The only public consignment note is two letters and eight digits from Centurion's older system, a layout other carriers' rules share, so there is no rule.",
+  "records": [
+    {
+      "number": "ED62222005",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20160913022225/http://www.centurion.net.au/ctc/imgEnqResults.asp?searchType=con&value=ED62222005*1",
+        "date": "2016-09-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt-it"
+        ]
+      },
+      "note": "An archived lookup on Centurion's own proof-of-delivery search, which lists the consignment's first item."
+    }
+  ]
+}

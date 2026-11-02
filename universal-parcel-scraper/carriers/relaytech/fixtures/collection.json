@@ -1,0 +1,41 @@
+{
+  "tracking_number": "RELRSAMPLE03",
+  "parcel_label_id": "RELRSAMPLE03",
+  "barcode_number": "000000000000000003",
+  "livemode": true,
+  "viewer": "destination",
+  "brand_name": "Example Seller",
+  "shipper_uid": "shipper_example",
+  "service_type": "standard",
+  "objective": "customer_collection",
+  "delivery_status": "awaiting_customer_collection",
+  "rts_reason": null,
+  "pickup_option": "selected_can_modify",
+  "destination": {
+    "address_line_1": "7 Example Close",
+    "address_line_2": null,
+    "address_line_3": null,
+    "address_line_4": null,
+    "town": "Sampletown",
+    "county": null,
+    "postal_code": "ZZ3 3ZZ",
+    "coordinates": { "lat": 53.0, "lon": -2.0 }
+  },
+  "safe_place_preference": null,
+  "pitstop_name": "Example Collection Shop",
+  "pitstop_address": "12 Sample Parade, Sampletown",
+  "pitstop_postcode": "ZZ8 8ZZ",
+  "pitstop_geo_lat": 53.01,
+  "pitstop_geo_long": -2.01,
+  "pitstop_uid": "pitstop_collection",
+  "action_deadline_at": "2026-05-12T18:00:00+01:00",
+  "estimated_arrival_window_start_at": null,
+  "estimated_arrival_window_end_at": null,
+  "parcel_delivered_at": null,
+  "feature_flag_values": {},
+  "events": [
+    { "status": "order_created", "status_display_slug": "Order created", "timestamp": "2026-05-02T08:00:00+01:00" },
+    { "status": "preparing_customer_collection", "status_display_slug": "Preparing your parcel for collection", "timestamp": "2026-05-03T21:30:00+01:00" },
+    { "status": "awaiting_customer_collection", "status_display_slug": "Ready to collect", "timestamp": "2026-05-05T11:02:00+01:00" }
+  ]
+}

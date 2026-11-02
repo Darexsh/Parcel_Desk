@@ -1,0 +1,20 @@
+{
+  "carrier": "tws-express",
+  "entries": [
+    {"code": "NV", "wording": "NUOVA", "stage": "registered", "language": "it", "confirmedBy": "live", "note": "The sender created the waybill."},
+    {"code": "CF", "wording": "CONFERMATA", "stage": "registered", "language": "it", "confirmedBy": "live", "note": "The sender confirmed the shipment; TWS has not scanned the parcel yet."},
+    {"code": "PRT", "wording": "IN PARTENZA TWS", "stage": "accepted", "language": "it", "confirmedBy": "live", "note": "First scan at TWS before the parcel leaves."},
+    {"wording": "IN PARTENZA", "stage": "accepted", "language": "it", "confirmedBy": "portal", "note": "The same first scan in archived lookups on TWS's older tracker; one capture writes it In partenza."},
+    {"code": "PPP", "wording": "PARTITA", "stage": "in_transit", "language": "it", "confirmedBy": "live", "note": "The parcel has left the branch."},
+    {"code": "THE", "wording": "IN TRANSITO", "stage": "in_transit", "language": "it", "confirmedBy": "live"},
+    {"code": "HBS", "wording": "IN TRANSITO HUB", "stage": "in_transit", "language": "it", "confirmedBy": "live"},
+    {"code": "GGG", "wording": "IN CONSEGNA (MATT)", "stage": "out_for_delivery", "language": "it", "confirmedBy": "live", "note": "Out for delivery on the morning round (MATT for mattina)."},
+    {"code": "POM", "wording": "IN CONSEGNA (POM)", "stage": "out_for_delivery", "language": "it", "confirmedBy": "live", "note": "Out for delivery on the afternoon round (POM for pomeriggio)."},
+    {"code": "008", "wording": "DESTINATARIO ASSENTE", "stage": "failed_attempt", "language": "it", "confirmedBy": "live", "note": "The recipient was not in."},
+    {"code": "008", "wording": "GIACENZA: : DESTINATARIO ASSENTE", "stage": "exception", "language": "it", "confirmedBy": "live", "note": "Held at the branch after the recipient was not in, under the failed attempt's code; the scan's note says GIACENZA."},
+    {"code": "029", "wording": "CONSEGNE PARTICOLARI", "language": "it", "confirmedBy": "live", "unmapped": true, "note": "Logged after a round that delivered nothing, without saying what happened or what comes next."},
+    {"code": "SVO", "wording": "SVINCOLATA ONLINE", "stage": "in_transit", "language": "it", "confirmedBy": "live", "note": "The recipient released the held parcel online; it went out for delivery again."},
+    {"code": "000", "wording": "CONSEGNATA", "stage": "delivered", "language": "it", "confirmedBy": "live", "note": "The scan names the signer beside it."},
+    {"wording": "in giacenza", "stage": "exception", "language": "it", "confirmedBy": "source", "note": "A complaint says TWS's tracking showed the parcel held at a depot after no delivery took place."}
+  ]
+}

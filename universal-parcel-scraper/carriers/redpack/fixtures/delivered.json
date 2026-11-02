@@ -1,0 +1,153 @@
+[
+  {
+    "trackingNumber": "900000101",
+    "personReceived": "SYNTHETIC RECEIVER",
+    "dateDocumentation": "2026-03-02T08:12:40.511+0000",
+    "dateSituation": "2026-03-05T13:47:02.204+0000",
+    "maximumDeliveryDate": "2026-03-04 23:59:59.0",
+    "observations": null,
+    "reference2": "EXAMPLE-REF-0001",
+    "origin": {
+      "zipCodeOrigin": "00000"
+    },
+    "destination": {
+      "name": null,
+      "suburb": "COLONIA EJEMPLO",
+      "zipCodeDestination": 99999
+    },
+    "parcel": [
+      {
+        "length": 30,
+        "high": 12,
+        "width": 20,
+        "weigth": 2.5,
+        "piece": 1,
+        "situationDetail": [
+          {
+            "situation": "ENTREGADO",
+            "eventDescription": "",
+            "idDesc": 1,
+            "idCause": 99,
+            "causeNonDelivery": "",
+            "location": "CENTRO DESTINO, PUEBLA",
+            "circuit": "CTO:1000001 MOV:C000001 LOC:CDE",
+            "date": "2026-03-05T13:47:02.204+0000"
+          },
+          {
+            "situation": "EMBARCADO EN RUTA DE ENTREGA",
+            "eventDescription": "",
+            "idDesc": 3,
+            "idCause": 0,
+            "causeNonDelivery": "",
+            "location": "CENTRO DESTINO, PUEBLA",
+            "circuit": "CTO:1000001 MOV:C000001 LOC:CDE",
+            "date": "2026-03-05T09:05:11.300+0000"
+          },
+          {
+            "situation": "CONTROL DE ENVIOS",
+            "eventDescription": "",
+            "idDesc": 125,
+            "idCause": 0,
+            "causeNonDelivery": "",
+            "location": "CENTRO DESTINO, PUEBLA",
+            "circuit": "DESC:###ENTRADAS A CE*** CTO:1000002 MOV: 1 LOC:CDE",
+            "date": "2026-03-04T16:20:45.000+0000"
+          },
+          {
+            "situation": "CONTROL DE ENVIOS (DIRECCION INCORRECTA)",
+            "eventDescription": "",
+            "idDesc": 125,
+            "idCause": 19,
+            "causeNonDelivery": "DIRECCION INCORRECTA",
+            "location": "CENTRO DESTINO, PUEBLA",
+            "circuit": "DESC:###ENTRADAS A CE*** CTO:1000002 MOV: 1 LOC:CDE",
+            "date": "2026-03-04T15:58:30.120+0000"
+          },
+          {
+            "situation": "NO ENTREGADO (DIRECCION INCORRECTA)",
+            "eventDescription": "",
+            "idDesc": 8,
+            "idCause": 19,
+            "causeNonDelivery": "DIRECCION INCORRECTA",
+            "location": "CENTRO DESTINO, PUEBLA",
+            "circuit": "CIRCUITO: 1000003  ",
+            "date": "2026-03-03T18:31:09.876+0000"
+          },
+          {
+            "situation": "EMBARCADO EN RUTA DE ENTREGA (PRIMERA VISITA)",
+            "eventDescription": "",
+            "idDesc": 3,
+            "idCause": 0,
+            "causeNonDelivery": "",
+            "location": "CENTRO DESTINO, PUEBLA",
+            "circuit": "CTO:1000001 MOV:C000001 LOC:CDE",
+            "date": "2026-03-03T09:40:00.000+0000"
+          },
+          {
+            "situation": "RECIBIDO EN OFICINA",
+            "eventDescription": "",
+            "idDesc": 42,
+            "idCause": 0,
+            "causeNonDelivery": "",
+            "location": "CENTRO DESTINO, PUEBLA",
+            "circuit": "CTO:1000001 MOV:C000001 LOC:CDE",
+            "date": "2026-03-03T06:02:15.432+0000"
+          },
+          {
+            "situation": "SALIDA DE OFICINA",
+            "eventDescription": "",
+            "idDesc": 43,
+            "idCause": 0,
+            "causeNonDelivery": "",
+            "location": "AEREO EJEMPLO",
+            "circuit": "EMB 1ER CORTE 02/03/2026 CTO:1000004 MOV:1",
+            "date": "2026-03-02T22:10:05.000+0000"
+          },
+          {
+            "situation": "RECIBIDO EN OFICINA",
+            "eventDescription": "",
+            "idDesc": 42,
+            "idCause": 0,
+            "causeNonDelivery": "",
+            "location": "AEREO EJEMPLO",
+            "circuit": "DESC:RUTA EJEMPLO CTO:1000005 MOV: 2 LOC:AEJ",
+            "date": "2026-03-02T19:44:51.000+0000"
+          },
+          {
+            "situation": "REGISTRADO EN SISTEMA",
+            "eventDescription": "",
+            "idDesc": 9,
+            "idCause": 0,
+            "causeNonDelivery": "",
+            "location": "VILLA ORIGEN, JALISCO",
+            "circuit": "-",
+            "date": "2026-03-02T08:12:40.540+0000"
+          }
+        ]
+      }
+    ],
+    "lastSituation": {
+      "situation": "ENTREGADO",
+      "idDesc": 1,
+      "auxiliary": null
+    },
+    "shippingType": {
+      "description": "PAQUETE",
+      "auxiliary": null
+    },
+    "serviceType": {
+      "service": "ECOEXPRESS",
+      "auxiliary": null,
+      "equivalence": null
+    },
+    "consumptionResultWS": [
+      {
+        "status": 1,
+        "description": "GENERACIÓN CORRECTA",
+        "severity": 3
+      }
+    ],
+    "reference": "",
+    "trackingNumberInternational": null
+  }
+]

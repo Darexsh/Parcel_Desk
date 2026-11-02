@@ -1,0 +1,29 @@
+{
+  "carrier": "team-worldwide",
+  "entries": [
+    {"wording": "RCVD FR SHPR", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "The header's status for a shipment whose only row is the shipper's notification."},
+    {"wording": "IN TRANSIT", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The header's status."},
+    {"wording": "OUT FOR DELIVERY", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "The header's status."},
+    {"wording": "DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The header's status."},
+    {"wording": "(SEE REMARKS)", "language": "en", "confirmedBy": "portal", "unmapped": true, "note": "The header's status when the newest row is a remark; it names no stage."},
+    {"code": "ESN", "wording": "SHIPMENT NOTIFICATION RECEIVED FROM API", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The shipper's system sent the shipment to Team; the freight is still with the shipper."},
+    {"code": "NEW", "wording": "SHIPMENT CREATED", "stage": "registered", "language": "en", "confirmedBy": "live"},
+    {"code": "CPR", "wording": "CUSTOMER PICKUP REQUESTED", "stage": "registered", "language": "en", "confirmedBy": "live"},
+    {"code": "REQ", "wording": "PICKUP REQUESTED", "stage": "registered", "language": "en", "confirmedBy": "live"},
+    {"code": "ACK", "wording": "PICKUP REQUEST ACKNOWLEDGED", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Also read \"PICKUP REQUEST ACKNOWLEDGED BY AGENT\"."},
+    {"code": "APS", "wording": "APPT FOR PKU SCHED <date> BET <time>-<time>", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "A pickup appointment, stamped when it was booked."},
+    {"code": "ATP", "wording": "ATTEMPTED PICKUP", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The freight is still with the shipper."},
+    {"code": "PKU", "wording": "PICKED UP FROM SHIPPER", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Sometimes followed by the town and state, \" - <town>, <state>\"."},
+    {"code": "BKD", "wording": "BOOKED WITH CARRIER", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Booked on the airline or linehaul that carries the freight between stations."},
+    {"code": "ITR", "wording": "IN TRANSIT", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "RCU", "wording": "FREIGHT RECOVERED", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Recovered from the airline or linehaul at the destination station."},
+    {"code": "COH", "wording": "FREIGHT ON HAND", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "COH", "wording": "CONFIRMED ON HAND AT DESTINATION", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Another wording of the same code."},
+    {"code": "ASD", "wording": "ATTEMPTING TO SCHEDULE DELIVERY APPOINTMENT", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The destination station is calling the consignee to book the delivery."},
+    {"code": "ADS", "wording": "APPT FOR DEL SCHED <date> BET <time>-<time>", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "A delivery appointment, stamped when it was booked; also \"BY <time>\" for the window, and the booking agent's name can follow. The day booked is an estimate."},
+    {"code": "OFD", "wording": "OUT FOR DELIVERY", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Sometimes followed by the town and state."},
+    {"code": "POD", "wording": "SIGNED FOR BY: <signer>", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"code": "FRE", "wording": "RESCHEDULING, EQUIPMENT CHANGE", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A remark the station types; other remarks read \"SCHEDULED <weekday> <time>-<time>\" or \"S/U FOR DELIVERY <date>\"."},
+    {"code": "CMT", "wording": "S/U FOR DELIVERY <date>", "language": "en", "confirmedBy": "portal", "unmapped": true, "note": "The former code of the same remarks."}
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "carrier": "xde-logistics",
+  "records": [
+    {
+      "number": "XSO000001356184",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200619090605/http://www.xdelogistics.com/api/status/XSO000001356184",
+        "date": "2020-06-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An opened capture of XDE's own tracking API shows this number's history in June 2020, from a pickup dispatch through warehouse acceptance to a first delivery attempt."
+    },
+    {
+      "number": "X2470246537",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230516025400/http://xdelogistics.com/tracking.html?trackingnumber=X2470246537",
+        "date": "2023-05-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it"
+        ]
+      },
+      "note": "An archived lookup on XDE's own tracker page; the opened capture shows only the page shell, so the history was not visible."
+    },
+    {
+      "number": "X2470306117",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170721220555/http://xdelogistics.com:80/tracking.html?trackingnumber=X2470306117",
+        "date": "2017-07-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it"
+        ]
+      },
+      "note": "An archived lookup on XDE's own tracker page; the opened capture holds the page script that fetches the history from XDE's API, so the history was not visible."
+    },
+    {
+      "number": "X2470725518",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180406133558/http://xdelogistics.com:80/tracking.html?trackingnumber=X2470725518",
+        "date": "2018-04-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it"
+        ]
+      },
+      "note": "An archived lookup on XDE's own tracker page; the capture was not opened."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "d": {
+    "__type": "BusinessDomain.ProEvent.TrackDetails",
+    "ProNumber": "900-0000000-3",
+    "TrackingHistories": [
+      {
+        "Date": "Saturday, 02 May 2026",
+        "HistoryItems": [
+          {
+            "Time": "09:00:00 AM",
+            "StatusMessage": "Synthetic delay",
+            "CityState": "SAMPLE HUB, IN",
+            "IsSeviceException": true,
+            "RowId": 5
+          }
+        ]
+      },
+      {
+        "Date": "Friday, 01 May 2026",
+        "HistoryItems": [
+          {
+            "Time": "02:10:00 PM",
+            "StatusMessage": "Picked Up",
+            "CityState": "SAMPLETOWN, MI",
+            "IsSeviceException": false,
+            "RowId": 2
+          }
+        ]
+      }
+    ]
+  }
+}

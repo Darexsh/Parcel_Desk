@@ -1,0 +1,11 @@
+{
+  "carrier": "tnt-au",
+  "entries": [
+    {"wording": "Your shipment data is lodged", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The sender's consignment data, before TNT has the parcel."},
+    {"wording": "We're processing your shipment", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Written at each depot the parcel passes, the delivering one included."},
+    {"wording": "Your shipment's with a driver", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Minutes before the delivery on the same day."},
+    {"wording": "We've delivered your shipment", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"wording": "Book-In Delivery Requested", "language": "en", "confirmedBy": "live", "note": "The recipient asks for a booked delivery. A notice, not a scan: it keeps the stage the parcel had."},
+    {"wording": "Book-In Delivery Arranged", "language": "en", "confirmedBy": "live", "note": "TNT confirms the booked delivery, also after the delivery itself. A notice, not a scan: it keeps the stage the parcel had."}
+  ]
+}

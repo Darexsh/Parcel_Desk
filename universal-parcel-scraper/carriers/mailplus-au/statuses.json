@@ -1,0 +1,21 @@
+{
+  "carrier": "mailplus-au",
+  "entries": [
+    {"code": "Ready For Collection", "wording": "Ready For Collection", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "A collection booked for MailPlus, before the sender hands the parcel over; alone, the page reads it as not dispatched by the sender."},
+    {"code": "Picked up", "wording": "Parcel picked up", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "MailPlus collected the parcel."},
+    {"code": "lodged", "wording": "Parcel processing at depot", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The parcel reached the depot, or the carrier MailPlus lodged it with."},
+    {"code": "Shipment Created", "wording": "Electronic Billing Transfer", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The lodging partner's pre-advice, after MailPlus collected the parcel."},
+    {"code": "Shipping information received by Australia Post", "wording": "Shipping information received by Australia Post", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Australia Post's pre-advice of a parcel MailPlus lodged with it."},
+    {"code": "Initiated", "wording": "Initiated", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "A bare status beside Australia Post's pre-advice, at the same minute."},
+    {"code": "Picked up from Sender", "wording": "Picked up from Sender", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Australia Post took the parcel from MailPlus."},
+    {"code": "Intransit", "wording": "Intransit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "A bare status beside an Australia Post scan, at the same minute."},
+    {"code": "Item processed at sorting facility", "wording": "Item processed at sorting facility", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "Pickup And In Transit", "wording": "Freight Processed", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "Pickup And In Transit", "wording": "Depot Scan", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "Pickup And In Transit", "wording": "Into Depot", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "Onboard for delivery", "wording": "Onboard for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"code": "Out For Delivery", "wording": "On For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"code": "Delivered", "wording": "Freight item has been delivered.", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"code": "Delivered", "wording": "Successful Delivery", "stage": "delivered", "language": "en", "confirmedBy": "live"}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "kart2door",
+  "displayName": "Kart2Door",
+  "aliases": [
+    "Kart 2 Door",
+    "Kart2Door/SmartKargo"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#f36c09"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.kart2door.com/EcomTracking?axb={trackingNumber}",
+    "searchUrl": "https://www.kart2door.com/EcomTracking",
+    "canaryUrl": "https://www.kart2door.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.kart2door.com",
+        "kart2door.com"
+      ],
+      "pathPattern": "^/EcomTracking/?$",
+      "params": [
+        "axb"
+      ]
+    }
+  ],
+  "detection": []
+}

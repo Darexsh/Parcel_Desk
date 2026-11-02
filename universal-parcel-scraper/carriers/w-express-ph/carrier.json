@@ -1,0 +1,59 @@
+{
+  "id": "w-express-ph",
+  "displayName": "W Express",
+  "aliases": [
+    "W Express Cargo Philippines",
+    "WExpress",
+    "WWWExpress",
+    "WWW Express",
+    "Wide Wide World Express",
+    "Wide Wide World Express Corporation"
+  ],
+  "region": {
+    "countries": [
+      "PH"
+    ]
+  },
+  "brand": {
+    "color": "#1e62af"
+  },
+  "selectable": true,
+  "timezone": "Asia/Manila",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.wwwexpress.com.ph/track-and-trace/?trackingNo={trackingNumber}",
+    "searchUrl": "https://www.wwwexpress.com.ph/track-and-trace/",
+    "canaryUrl": "https://www.wwwexpress.com.ph/track-and-trace/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.wwwexpress.com.ph",
+        "wwwexpress.com.ph"
+      ],
+      "pathPattern": "^/track-and-trace/?$",
+      "params": [
+        "trackingNo"
+      ]
+    },
+    {
+      "domains": [
+        "track.wwwexpress.com.ph"
+      ],
+      "pathPattern": "^/WExTrackAndTrace/trackAndTrace/trackAndTraceClient\\.htm$",
+      "params": [
+        "trackingNo"
+      ]
+    }
+  ],
+  "detection": []
+}

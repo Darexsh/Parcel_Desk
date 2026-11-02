@@ -1,0 +1,77 @@
+<!doctype html><!-- ACTION::: --><!-- useAjax: 0 --><!-- useAjax: 0 --><!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>AWest  - I-Trek!(tm)  - Summary-Track Your Shipment (Open) - NS</title>
+<script language="javascript" src="/js/js.js">
+
+</script>
+</head>
+<body onclose="closeJS();" background=""  topmargin="0" leftmargin="0" bgcolor="#FFFFFF" link="#0031BC" vlink="#003893" alink="#0031BC" marginwidth="0" marginheight="0"" onload="setFocus();">
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:102;"></div><div id="twb_display_div" style="position:absolute; visibility:hide; z-index:100;"></div><font face="Arial, Helvetica, sans-serif"><form method="post" action="itrek.cgi" enctype="multipart/form-data">
+<INPUT TYPE="hidden" name="action" VALUE="DEFAULT"><INPUT TYPE="hidden" name="reuse_tmp_table" VALUE="0"><INPUT TYPE="hidden" name="close_button" VALUE=""><INPUT TYPE="hidden" name="advanced" VALUE=""><INPUT TYPE="hidden" name="maintFlag" VALUE=""><INPUT TYPE="hidden" name="db_id" VALUE=""><INPUT TYPE="hidden" name="keyname" VALUE=""><INPUT TYPE="hidden" name="report_id" VALUE="trek_shipment_open"><INPUT TYPE="hidden" name="sub_condition" VALUE="shipment_info.billno%20%3D%20'ZZ1000003'%20">
+  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" height="60">
+    <tr>
+      <td width="30%" height="60" BGCOLOR="#ffffff" align="left" valign="middle"><a href="http://www.awest.com/" target="_top"><img src="/icons/awest/html/en/logo_awest.png" border="0"></a></td>
+      <td width="40%" BGCOLOR="#ffffff" height="60" align="center" valign="middle">
+            <font color="#000000" face="Arial, Helvetica, sans-serif" size="2"><b><img src="/icons/awest/html/en/page-itrek-white.png" border="0"></b><br>
+               <b> </b><font size="-2"></font>
+      </td>
+      <td width="30%" height="60" BGCOLOR="#ffffff" valign="middle" align="right">
+        <a href="http://www.freightgate.net/" target="_top"><img src="/icons/awest/html/en/product_logo_itrek_white.gif" border="0"></a>&nbsp;</td>
+    </tr>
+  </table>
+  <!--</div>-->
+   <center></center><input type="hidden" name="database" value="awest"  /><INPUT TYPE="hidden" name="session_id" VALUE="OPEN"><INPUT TYPE="hidden" name="return_url" VALUE="">
+				    <center><div id="open_div"></div></center>
+				    <link rel="stylesheet" type="text/css" href="/css/trackingscreen.css">
+					<script type="text/javascript">
+						window.sessionId = "OPEN";
+						window.systemId = "awest";
+						window.module = "ITREK";
+						window.javaSystemName = "awest";
+						window.enableDebug = (0 == 1) ? true : false;
+						window.FGlanguage = [];
+						window.t = function(label){ return FGlanguage [label] || label.replace(/_/g, ' '); }
+						window.JSONReport = {"success" : 1,"TotalRowCount" : 1,"Rows" : [{"db_id":"10000003","billno" : "ZZ1000003","billno_url" : "itrek.cgi","billno_url_connector" : "?","billno_database" : "awest","billno_session_id" : "OPEN","billno_report_id" : "trek_shipment_open","billno_report_title" : "Track Your Shipment (open)","billno__logonFromPerl_" : "OPEN","billno_commodity_detail" : "","billno_load_as_sub_report" : "1","billno_keyname" : "db_id","billno_action" : "display_detail","billno_extra" : "{'db_id' : \"10000003\"}","shp_ref" : "SAMPLE-BOL-0003","csg_ref" : "00000000000033","ttl_pieces" : "2","ttl_pieces_format":"","ttl_weight" : "215","ttl_weight_format":"%10.0f","pickup_date" : " 10-08-2026 ","pickup_location" : "SAMPLEVILLE CA","status_location" : "EXAMPLE CITY, AZ","delivery_location" : "EXAMPLE CITY AZ","eta_dp" : " 10-16-2026 ","atadp" : " 10-15-2026 ","first_contacted_date" : " 10-16-2026 ","appointment_date" : "","deliver_by_date" : " 10-22-2026 ","ata_dest" : "","timeline_dots" : "3:[pickup, in-transit, last mile, delivered]"}],"SessionID" : "OPEN", "debugs" : "", "helpText" :"Track Your Shipment (Open)"};
+						window.database = "awest";
+						window.type = "submit";
+						window.interface = "pltx";
+						window.open_interface_search = "Search Now";
+						window.open_text = "ZZ1000003";
+						window.SearchOn = "open_billno";
+						window.report_id = "trek_shipment_open";
+						window.billno = "ZZ1000003";
+						window.open_billno = "ZZ1000003";
+						window.exact_match = "ON";
+						window.sort_by = "status_date,status_time";
+						window.sub_condition = "shipment_info.billno = 'ZZ1000003' ";
+				  </script>
+				  <script type="text/javascript" src="/js/ext-js-6.0.2/build/ext-all.js"></script> 
+				  <script type="text/javascript" src="/js/trackingscreen.js"></script>
+		      </CENTER><P><CENTER><HR>
+Tracking Lookup:
+<select name="SearchOn">
+<option value="open_shp_ref" selected>Shipper BOL #</option>
+<option value="open_csg_ref" selected>Consignee PO #</option>
+<option value="open_csg_phone" selected>Consignee Phone #</option>
+<option value="open_billno" selected>AWEST Pro #</option>
+</select>
+<input type="text" name="open_text" maxlength="20">
+<input type=submit name=open_interface_search
+value="Search Now"><p>
+Click the down arrow to search by AWEST Pro #, Shipper BOL #, Consignee PO # or Consignee Phone #<BR>
+Enter the value to search and click Search Now if you don't have a Username.<BR>
+Contact American West Worldwide Express at <strong><i>custserv@example.com</i></strong> or <strong> <span style="color:red;">(800) 555-0100</span></strong>.<BR>
+<BR><strong><span style="color:red;">
+Tracking Lookup will only find shipments picked up within the past 90 days.<BR>
+ETA to Final Mile and Final Mile refers to an arrival of your shipment to our local transportation hub prior to home delivery.<BR>
+ETAs are estimates and subject to change.<BR>
+An appointment for home delivery will be made soon after arrival to our local hub and after an inspection has been performed, if required.
+</span></strong><BR>
+</CENTER><P></form><CENTER><FONT size='-2'>&copy; 1999 - 2026 Freightgate.com [all trademarks are property of their respective owners]</FONT></CENTER><p><CENTER><FONT size='-2'>webserv00v.example.freightgate.com <font color="green">Production mode</font><br></FONT></CENTER><center></center><script language="JavaScript">
+setFocus();
+</script>
+</body>
+</html>

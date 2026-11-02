@@ -1,0 +1,90 @@
+{
+  "id": "correos-de-mexico",
+  "displayName": "Correos de México",
+  "aliases": [
+    "Correos de Mexico",
+    "Mexico Post",
+    "Mexpost",
+    "SEPOMEX"
+  ],
+  "region": {
+    "countries": [
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#ed007d"
+  },
+  "selectable": true,
+  "timezone": "America/Mexico_City",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "correos-de-mexico",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 30
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "pickup_point",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.correosdemexico.gob.mx/SSLServicios/SeguimientoEnvio/Seguimiento.aspx?guia={trackingNumber}",
+    "searchUrl": "https://www.correosdemexico.gob.mx/SSLServicios/SeguimientoEnvio/Seguimiento.aspx",
+    "canaryUrl": "https://www.correosdemexico.gob.mx/SSLServicios/SeguimientoEnvio/Seguimiento.aspx",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "signatory",
+      "query_time",
+      "notices"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "pickup_point",
+      "delivered_at"
+    ],
+    "discarded": [
+      "signatory",
+      "query_time",
+      "notices"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "proof_of_delivery",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "correosdemexico.gob.mx"
+      ],
+      "pathPattern": "^/SSLServicios/SeguimientoEnvio/(?:Seguimiento|seguimientoportal2)\\.aspx$",
+      "params": [
+        "guia"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "correos-de-mexico-s10",
+      "pattern": "^[A-Z]{2}\\d{9}MX$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

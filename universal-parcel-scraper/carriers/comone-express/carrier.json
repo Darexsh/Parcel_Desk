@@ -1,0 +1,53 @@
+{
+  "id": "comone-express",
+  "displayName": "ComOne Express",
+  "aliases": [
+    "Com1 Express",
+    "Com1 Logistics",
+    "ComOne Int'l Logistics",
+    "ComOne International Logistics",
+    "商壹国际",
+    "商壹国际物流",
+    "商壹国际物流有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "MY",
+      "SG"
+    ]
+  },
+  "brand": {
+    "color": "#29166f"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.com1logistics.com/tracking.html?trackNo={trackingNumber}",
+    "searchUrl": "https://www.com1logistics.com/tracking.html",
+    "canaryUrl": "https://www.com1logistics.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.com1logistics.com",
+        "com1logistics.com"
+      ],
+      "pathPattern": "^/tracking\\.html$",
+      "params": [
+        "trackNo"
+      ]
+    }
+  ],
+  "detection": []
+}

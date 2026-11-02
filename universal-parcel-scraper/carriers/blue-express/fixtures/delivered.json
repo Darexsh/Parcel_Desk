@@ -1,0 +1,217 @@
+{
+  "status": "ok",
+  "message": "Os Micro State",
+  "data": {
+    "traceMicrostates": {
+      "orderId": "9000000010",
+      "orderType": 0,
+      "isCrossBorder": false,
+      "isReverseLogistics": false,
+      "microstates": [
+        {
+          "formattedDate": "12 de marzo 2026",
+          "rawDate": "12-03-2026",
+          "events": [
+            {
+              "name": "DL_TAG",
+              "time": "14:07:23",
+              "title": "Entregado",
+              "locationName": "RDES53-2-DES1C",
+              "displayLocationName": "Ciudad Destino",
+              "displayLocationAddress": "Ciudad Destino",
+              "type": "check",
+              "eventCode": "DL"
+            }
+          ]
+        },
+        {
+          "formattedDate": "12 de marzo 2026",
+          "rawDate": "12-03-2026",
+          "events": [
+            {
+              "name": "CS_TAG",
+              "time": "12:10:00",
+              "locationName": "HUBDES1-1-DES1C",
+              "displayLocationName": "Ciudad Destino",
+              "displayLocationAddress": "Ciudad Destino",
+              "type": "warning",
+              "eventCode": "CS"
+            }
+          ]
+        },
+        {
+          "formattedDate": "12 de marzo 2026",
+          "rawDate": "12-03-2026",
+          "events": [
+            {
+              "name": "LD_TAG",
+              "time": "09:27:06",
+              "title": "En reparto",
+              "locationName": "RDES53-2-DES1C",
+              "displayLocationName": "Ciudad Destino",
+              "displayLocationAddress": "Ciudad Destino",
+              "type": "check",
+              "eventCode": "LD"
+            }
+          ]
+        },
+        {
+          "formattedDate": "12 de marzo 2026",
+          "rawDate": "12-03-2026",
+          "events": [
+            {
+              "name": "TR_TAG",
+              "time": "08:52:36",
+              "locationName": "HUBDES1-1-DES1C",
+              "displayLocationName": "Ciudad Destino",
+              "displayLocationAddress": "Ciudad Destino",
+              "type": "check",
+              "eventCode": "TR"
+            }
+          ]
+        },
+        {
+          "formattedDate": "12 de marzo 2026",
+          "rawDate": "12-03-2026",
+          "events": [
+            {
+              "name": "DA_TAG",
+              "time": "08:12:09",
+              "title": "Paquete en centro de distribución",
+              "locationName": "RDES21-2-DES1C",
+              "displayLocationName": "Ciudad Destino",
+              "displayLocationAddress": "Ciudad Destino",
+              "type": "check",
+              "eventCode": "DA"
+            }
+          ]
+        },
+        {
+          "formattedDate": "11 de marzo 2026",
+          "rawDate": "11-03-2026",
+          "events": [
+            {
+              "name": "IC_TAG",
+              "time": "21:34:13",
+              "title": "Traslado interregional",
+              "locationName": "RORI1-2-ORI1C",
+              "displayLocationName": "Ciudad Origen",
+              "displayLocationAddress": "Ciudad Origen",
+              "type": "check",
+              "eventCode": "IC"
+            }
+          ]
+        },
+        {
+          "formattedDate": "11 de marzo 2026",
+          "rawDate": "11-03-2026",
+          "events": [
+            {
+              "name": "PUH_TAG",
+              "time": "18:14:10",
+              "title": "Centro de distribución de Blue Express",
+              "locationName": "RORI1-2-ORI1C",
+              "displayLocationName": "Ciudad Origen",
+              "displayLocationAddress": "Ciudad Origen",
+              "type": "check",
+              "eventCode": "PUH"
+            }
+          ]
+        },
+        {
+          "formattedDate": "11 de marzo 2026",
+          "rawDate": "11-03-2026",
+          "events": [
+            {
+              "name": "RH_TAG",
+              "time": "18:08:33",
+              "locationName": "RORI1-2-ORI1C",
+              "displayLocationName": "Ciudad Origen",
+              "displayLocationAddress": "Ciudad Origen",
+              "type": "warning",
+              "eventCode": "RH"
+            }
+          ]
+        },
+        {
+          "formattedDate": "11 de marzo 2026",
+          "rawDate": "11-03-2026",
+          "events": [
+            {
+              "name": "ASO_TAG",
+              "time": "15:02:28",
+              "title": "Retirado",
+              "locationName": "PBB0001ORI-1-D0001",
+              "displayLocationName": "Punto Blue Express Tienda Ejemplo",
+              "displayLocationAddress": "Calle Ejemplo 100 , Ciudad Origen , Ciudad Origen , Region Ejemplo , Cl",
+              "type": "check",
+              "eventCode": "ASO"
+            }
+          ]
+        },
+        {
+          "formattedDate": "11 de marzo 2026",
+          "rawDate": "11-03-2026",
+          "events": [
+            {
+              "name": "PU_TAG",
+              "time": "15:02:23",
+              "locationName": "RORI300-2-ORI1C",
+              "displayLocationName": "Punto Blue Express Tienda Ejemplo",
+              "displayLocationAddress": "Ciudad Origen",
+              "type": "check",
+              "eventCode": "PU"
+            }
+          ]
+        },
+        {
+          "formattedDate": "10 de marzo 2026",
+          "rawDate": "10-03-2026",
+          "events": [
+            {
+              "name": "PUO_TAG",
+              "time": "10:47:56",
+              "title": "Admitido en Punto Blue Express",
+              "locationName": "PBB0001ORI-1-D0001",
+              "displayLocationName": "Punto Blue Express Tienda Ejemplo",
+              "displayLocationAddress": "Calle Ejemplo 100 , Ciudad Origen , Ciudad Origen , Region Ejemplo , Cl",
+              "type": "check",
+              "eventCode": "PUO"
+            }
+          ]
+        },
+        {
+          "formattedDate": "10 de marzo 2026",
+          "rawDate": "10-03-2026",
+          "events": [
+            {
+              "name": "GE_TAG",
+              "time": "09:38:15",
+              "title": "Aviso de envío recibido",
+              "locationName": "HUBWEB1-1-WEB1C",
+              "displayLocationName": "Web",
+              "displayLocationAddress": "",
+              "type": "check",
+              "eventCode": "GE"
+            }
+          ]
+        },
+        {
+          "formattedDate": "10 de marzo 2026",
+          "rawDate": "10-03-2026",
+          "events": [
+            {
+              "name": "FI_TAG",
+              "time": "09:38:14",
+              "locationName": "HUBWEB1-1-WEB1C",
+              "displayLocationName": "Web",
+              "displayLocationAddress": "",
+              "type": "check",
+              "eventCode": "FI"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "pcp-express",
+  "displayName": "PCP Express",
+  "aliases": [
+    "PCP Express Indonesia",
+    "Priority Cargo & Package",
+    "PT Yapindo Transportama"
+  ],
+  "region": {
+    "countries": [
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#ed1c24"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jakarta",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pcp-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 709
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://pcpexpress.com/lacak_detailv2.php?awb={trackingNumber}",
+    "searchUrl": "https://www.pcpexpress.com/",
+    "canaryUrl": "https://www.pcpexpress.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "progress_rail",
+      "origin",
+      "destination",
+      "recipient_name",
+      "signatory",
+      "driver_name",
+      "delivered_at"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "service_name",
+      "failed_delivery_reason"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "signatory",
+      "driver_name",
+      "delivered_at"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "offset_timestamps",
+      "proof_of_delivery",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "pcpexpress.com",
+        "www.pcpexpress.com"
+      ],
+      "pathPattern": "^/lacak_detailv2\\.php$",
+      "params": [
+        "awb"
+      ]
+    }
+  ],
+  "detection": []
+}

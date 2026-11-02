@@ -1,0 +1,49 @@
+{
+  "id": "porlor",
+  "displayName": "PorLor Express",
+  "aliases": [
+    "Por Lor Express",
+    "PORLOR",
+    "PORLOR EXPRESS COMPANY LIMITED",
+    "บริษัท ปอลอ เอ็กซ์เพรส จำกัด",
+    "ปอลอ เอ็กซ์เพรส"
+  ],
+  "region": {
+    "countries": [
+      "TH"
+    ]
+  },
+  "brand": {
+    "color": "#e09920"
+  },
+  "selectable": true,
+  "timezone": "Asia/Bangkok",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.porlor.co.th/Tracking?search={trackingNumber}",
+    "searchUrl": "https://www.porlor.co.th/Tracking",
+    "canaryUrl": "https://www.porlor.co.th/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "porlor.co.th",
+        "www.porlor.co.th"
+      ],
+      "pathPattern": "^/Tracking$",
+      "params": [
+        "search"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "correos-costa-rica",
+  "displayName": "Correos de Costa Rica",
+  "aliases": [
+    "Correos de Costa Rica S.A.",
+    "Correos Costa Rica",
+    "Costa Rica Post",
+    "CorreosCR",
+    "Pymexpress"
+  ],
+  "region": {
+    "countries": [
+      "CR"
+    ]
+  },
+  "brand": {
+    "color": "#003057"
+  },
+  "selectable": true,
+  "timezone": "America/Costa_Rica",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://sucursal.correos.go.cr/web/rastreo",
+    "canaryUrl": "https://sucursal.correos.go.cr/web/rastreo",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

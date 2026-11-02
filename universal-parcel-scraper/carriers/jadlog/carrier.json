@@ -1,0 +1,44 @@
+{
+  "id": "jadlog",
+  "displayName": "Jadlog",
+  "aliases": [
+    "JadLog",
+    "DPD Brazil"
+  ],
+  "region": {
+    "countries": [
+      "BR"
+    ]
+  },
+  "brand": {
+    "color": "#dc0032"
+  },
+  "selectable": true,
+  "timezone": "America/Sao_Paulo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.jadlog.com.br/jadlog/home",
+    "canaryUrl": "https://www.jadlog.com.br/jadlog/home",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "jadlog.com.br"
+      ],
+      "pathPattern": "^/jadlog/captcha/?$",
+      "params": [
+        "cte"
+      ]
+    }
+  ],
+  "detection": []
+}

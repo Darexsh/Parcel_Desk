@@ -1,0 +1,97 @@
+{
+  "id": "southeastern-freight-lines",
+  "displayName": "Southeastern Freight Lines",
+  "aliases": [
+    "SEFL",
+    "Southeastern"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#c41230"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "southeastern-freight-lines",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 919
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "delivered_at",
+    "provider_code",
+    "weight",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://www.sefl.com/webconnect/tracing?Type=PN&RefNum1={trackingNumber}",
+    "searchUrl": "https://www.sefl.com/Tracing/index.jsp",
+    "canaryUrl": "https://www.sefl.com/Tracing/index.jsp",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "weight",
+      "parcel_count",
+      "sender_address",
+      "recipient_address",
+      "signatory",
+      "office_contact_details",
+      "documents"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "weight",
+      "provider_code",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "eta_window",
+      "parcel_count",
+      "sender_address",
+      "recipient_address",
+      "signatory",
+      "office_contact_details",
+      "documents"
+    ],
+    "unavailable": [
+      "service_name",
+      "dimensions",
+      "proof_of_delivery",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "sefl.com"
+      ],
+      "pathPattern": "^/webconnect/tracing/?$",
+      "params": [
+        "RefNum1"
+      ]
+    }
+  ],
+  "detection": []
+}

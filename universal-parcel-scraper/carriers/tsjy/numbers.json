@@ -1,0 +1,17 @@
+{
+  "carrier": "tsjy",
+  "records": [
+    {
+      "number": "TSJY990000006CN",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-14",
+      "expect": {
+        "carrier": "tsjy",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of the orders TSJY's tracker answers. Its ninth digit is the S10 check digit of the eight before it, the default check of TSJY's number rule."
+    }
+  ]
+}

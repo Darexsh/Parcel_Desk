@@ -1,0 +1,51 @@
+{
+  "id": "shree-nandan",
+  "displayName": "Shree Nandan Courier",
+  "aliases": [
+    "Shree Nandan Courier Limited",
+    "Nandan Courier",
+    "Connecting Nandan"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#ed008c"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.shreenandancourier.com/",
+    "canaryUrl": "https://www.shreenandancourier.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "shreenandancourier.com"
+      ],
+      "pathPattern": "^/trackinginfo\\.aspx$",
+      "params": [
+        "cn"
+      ]
+    },
+    {
+      "domains": [
+        "connectingnandan.com"
+      ],
+      "path": "^/web-tracking/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

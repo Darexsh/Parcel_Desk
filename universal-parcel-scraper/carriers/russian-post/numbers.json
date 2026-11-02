@@ -1,0 +1,427 @@
+{
+  "carrier": "russian-post",
+  "records": [
+    {
+      "number": "EA222769728RU",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/dukei/any-balance-providers/wiki/TutorialTrackingRussianPost",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An AnyBalance tutorial for Russian Post's tracker uses it as its worked example and says it was found published online."
+    },
+    {
+      "number": "RA055625916RU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20080822001211/http://www.russianpost.ru:80/resp_engine.aspx?Path=portal/ru/home/postal/trackingpo&BarCode=RA055625916RU",
+        "date": "2008-08-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Looked up on Russian Post's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "RA049086449RU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20080205013341/http://www.russianpost.ru:80/resp_engine.aspx?Path=portal/ru/home/postal/trackingpo&BarCode=RA049086449RU",
+        "date": "2008-02-05",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Looked up on Russian Post's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "LS013640807RU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/russian-post/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Russian Post page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "LS013640798RU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/russian-post/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Russian Post page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "LS013640784RU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/russian-post/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Russian Post page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "80510917745766",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://gdeposylka.ru/courier/russian-post",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "russian-post",
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Published on a parcel report page; Russian Post's anonymous detailed feed confirms the whole barcode with dated operations."
+    },
+    {
+      "number": "40387973287255",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://gdeposylka.ru/courier/russian-post",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "A user comment on gdeposylka's Russian Post page gives it as the tracking number."
+    },
+    {
+      "number": "29014562148754",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/appwilio/russianpost-sdk",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "An open-source Russian Post SDK's README tracks it as its example; its first six digits are the accepting office's postcode."
+    },
+    {
+      "number": "10944022440321",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/lapaygroup/RussianPost",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "dpd",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "An open-source Russian Post SDK's README tracks it as its example; its first six digits are the accepting office's postcode."
+    },
+    {
+      "number": "10100095140753",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20090917225918/http://www.russianpost.ru:80/resp_engine.aspx?Path=portal/ru/home/postal/trackingpo&BarCode=10100095140753",
+        "date": "2009-09-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "dpd",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "Looked up on Russian Post's own tracker, as an archived address shows; the capture was not opened. Its first six digits are the accepting office's postcode."
+    },
+    {
+      "number": "12359275345817",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20090208104322/http://www.russianpost.ru:80/resp_engine.aspx?Path=portal/ru/home/postal/trackingpo&BarCode=12359275345817",
+        "date": "2009-02-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "Looked up on Russian Post's own tracker, as an archived address shows; the capture was not opened. Its first six digits are the accepting office's postcode."
+    },
+    {
+      "number": "42298079059708",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20080414202516/http://www.russianpost.ru:80/resp_engine.aspx?Path=portal/ru/home/postal/trackingpo&BarCode=42298079059708",
+        "date": "2008-04-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Looked up on Russian Post's own tracker, as an archived address shows; the capture was not opened. Its first six digits are the accepting office's postcode."
+    },
+    {
+      "number": "44504594603882",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20090627173332/http://www.russianpost.ru:80/resp_engine.aspx?Path=portal/ru/home/postal/trackingpo&BarCode=44504594603882",
+        "date": "2009-06-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Looked up on Russian Post's own tracker, as an archived address shows; the capture was not opened. Its first six digits are the accepting office's postcode."
+    },
+    {
+      "number": "41001265072716",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20130823182255/http://www.russianpost.ru:80/resp_engine.aspx?path=rp/servise/ru/home/postuslug/trackingpo&barCode=41001265072716",
+        "date": "2013-08-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Looked up on Russian Post's own tracker, as an archived address shows; the capture was not opened. Its first six digits are the accepting office's postcode."
+    }
+  ]
+}

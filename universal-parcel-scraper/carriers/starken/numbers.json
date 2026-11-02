@@ -1,0 +1,311 @@
+{
+  "carrier": "starken",
+  "records": [
+    {
+      "number": "261538238",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.reclamos.cl/starken/reclamo/2026/jan/starken-encomienda-extraviada",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A complaint on Reclamos.cl's Starken page gives it as the order of freight number. Starken's tracker returns its history."
+    },
+    {
+      "number": "271897355",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.reclamos.cl/starken/reclamo/2026/feb/starken-demora-en-entrega-de-mi-paquete",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A complaint on Reclamos.cl's Starken page gives it as an order of freight number. Starken's tracker returns its history."
+    },
+    {
+      "number": "262586044",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.reclamos.cl/starken/reclamo/2026/feb/starken-demora-en-entrega-de-mi-paquete",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A complaint on Reclamos.cl's Starken page gives it as an order of freight number. Starken's tracker returns its history, closed with a claim."
+    },
+    {
+      "number": "240278577",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.reclamos.cl/starken/reclamo/2025/may/starken-compensaci-n-por-env-o-estraviado-orden-de-flete-240278577",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The title of a complaint on Reclamos.cl's Starken page names it as an order of freight number. Starken's tracker returns its history, closed as lost."
+    },
+    {
+      "number": "233399313",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260511122435/https://starken.cl/seguimiento?codigo=233399313",
+        "date": "2026-05-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the capture was not opened. Starken's tracker returns its history."
+    },
+    {
+      "number": "267553427",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260418014919/https://starken.cl/seguimiento?codigo=267553427",
+        "date": "2026-04-18",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the capture was not opened. Starken's tracker returns its history."
+    },
+    {
+      "number": "910934765",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251104022625/https://www.starken.cl/seguimiento?codigo=910934765",
+        "date": "2025-11-04",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt",
+          "tforce-freight",
+          "xpo-ltl"
+        ]
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the capture was not opened. Starken's tracker returns its history."
+    },
+    {
+      "number": "914569667",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251026235459/https://www.starken.cl/seguimiento?codigo=914569667",
+        "date": "2025-10-26",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the capture was not opened. Starken's tracker returns its history."
+    },
+    {
+      "number": "253638187",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251001025730/https://www.starken.cl/seguimiento?codigo=253638187",
+        "date": "2025-10-01",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the capture was not opened. Starken's tracker returns its history."
+    },
+    {
+      "number": "250064999",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250729213239/https://starken.cl/seguimiento?codigo=250064999",
+        "date": "2025-07-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the capture was not opened. Starken's tracker returns its history."
+    },
+    {
+      "number": "237493021",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250115152251/https://www.starken.cl/seguimiento?codigo=237493021",
+        "date": "2025-01-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the capture was not opened. Starken's tracker returns its history."
+    },
+    {
+      "number": "913547136",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230129081930/http://www.starken.cl/seguimiento?codigo=913547136",
+        "date": "2023-01-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the opened capture shows the search page without the shipment's history. Starken's tracker returns its history."
+    },
+    {
+      "number": "914627431",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230209161801/http://www.starken.cl/seguimiento?codigo=914627431",
+        "date": "2023-02-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt",
+          "tforce-freight",
+          "xpo-ltl"
+        ]
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the capture was not opened. Starken's tracker returns its history."
+    },
+    {
+      "number": "963991371",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220106145545/https://starken.cl/seguimiento?codigo=963991371",
+        "date": "2022-01-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the capture was not opened. Starken's tracker returns its history."
+    },
+    {
+      "number": "978236863",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221202145338/https://www.starken.cl/seguimiento?codigo=978236863",
+        "date": "2022-12-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the capture was not opened. Starken's tracker returns its history."
+    },
+    {
+      "number": "917226316",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20181230165109/http://www.starken.cl:80/seguimiento/917226316",
+        "date": "2018-12-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Starken's own tracking page, as an archived address shows; the opened capture shows the search page without the shipment's history. Starken's tracker returns its history."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "parcel-tracking-data": {
+    "Statuses": [
+      {
+        "StatusTime": "2025-11-20T16:59:55",
+        "StatusCode": 1001,
+        "MappedStatusCode": "",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Parcel is on the way to destination country",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+02:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2025-11-20T22:34:46",
+        "StatusCode": 813,
+        "MappedStatusCode": "3029",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Ministry of Transportation",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+02:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2025-11-25T04:45:19",
+        "StatusCode": 595,
+        "MappedStatusCode": "2020",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Arrived at destination country",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+02:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2025-11-30T15:51:49",
+        "StatusCode": 813,
+        "MappedStatusCode": "3029",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Ministry of Transportation",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+02:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2025-12-01T11:07:21",
+        "StatusCode": 912,
+        "MappedStatusCode": "",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Paymant  is required for a transportion check",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+02:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2025-12-03T15:02:57",
+        "StatusCode": 849,
+        "MappedStatusCode": "",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Storage occured - payment is required",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+02:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2025-12-07T17:58:00",
+        "StatusCode": 7,
+        "MappedStatusCode": "2050",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Cleared customs",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+02:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      }
+    ],
+    "PudoDetails": "",
+    "TrackingNumber": "PH1234567890",
+    "HAWB": "PH1234567890",
+    "SearchTrackingNumber": "PH1234567890"
+  },
+  "parcel-status-data": {
+    "Hawb": "PH1234567890",
+    "CourierName": "Sample Couriers",
+    "CourierCode": 20,
+    "AgentName": "SAMPLESHOP",
+    "AgentCode": 0,
+    "PaymentLinks": [
+      {
+        "Type": 2,
+        "Link": "https://pay.example.invalid/0000"
+      }
+    ],
+    "IsArrived": true,
+    "IsClearance": true,
+    "Is824": null,
+    "IsHandlingDistribution": false,
+    "IsHdDistribution": false,
+    "DistributionMessageType": 1,
+    "FinalStatuses": [],
+    "AdditionalStatuses": [],
+    "Permits": [],
+    "DistributionStatus": null
+  }
+}

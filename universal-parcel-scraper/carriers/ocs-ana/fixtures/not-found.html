@@ -1,0 +1,206 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link href="/csw/css/site.css?ver=20190612" type="text/css" rel="stylesheet" />
+<link href="/csw/dojo/dijit/themes/claro/claro.css" type="text/css" rel="stylesheet" />
+<link href="/csw/css/dojo-claro.css" type="text/css" rel="stylesheet" />
+<script language="javascript" type="text/javascript">
+<!-- 
+function doAction(action, target, form) {
+	form.action = action;
+	if (target == null) {
+		target = '';
+	}
+	form.target = target;
+	form._TARGETID.value = target;
+	form.submit();
+	form.target = '_self';
+	form._TARGETID.value = form._FRAMEID.value;
+}
+//-->
+</script>
+<script src="/csw/dojo/dojo/dojo.js" djConfig="parseOnLoad: false" type="text/javascript"></script>
+<script src="/csw/dojo/custom/custom.js" djConfig="parseOnLoad: false" type="text/javascript"></script>
+<script src="/csw/script/common.js" type="text/javascript"></script>
+<script src="/csw/script/loadManager.js?ver=20171031" type="text/javascript"></script>
+<script src="/csw/script/sofa_adapter.js?ver=20240223" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+<!-- 
+	dojo.require("dijit.MenuBar");
+	dojo.require("dijit.MenuBarItem");
+	dojo.require("dijit.PopupMenuBarItem");
+	dojo.require("dijit.Menu");
+	dojo.require("dijit.MenuItem");
+	dojo.require("dijit.PopupMenuItem");
+	dojo.require("dojo.date.locale");
+	dojo.addOnLoad(function() {
+		if (document.getElementById("header_navi")) {
+			dojo.parser.parse("header_navi");
+		}
+	});
+	// dijit.BackgroundIframe　= function(node)
+	// Description: iframeを生成しないようdojoオーバーライド
+	// Arguments:
+	// node: DOMノード
+	dijit.BackgroundIframe = function(/* DomNode */node){
+		this.iframe = null;
+	};
+//-->
+</script>
+<link href="./css/reset.css" type="text/css" rel="stylesheet" />
+<link href="./css/layout.css" type="text/css" rel="stylesheet" />
+<link href="./css/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="./script/SpryMenuBar.js" type="text/javascript" xml:space="preserve"></script>
+<script src="./script/cs.js" type="text/javascript"></script>
+<script type="text/javascript" xml:space="preserve">
+<!--
+//-->
+</script>
+<title>Tracking Shipments</title>
+</head>
+<body>
+<form action="/csw/ECSWG0201R00000P.do" method="post" name="PCSWG0201RForm"><input type="hidden" name="_FRAMEID" value="root" /><input type="hidden" name="_TARGETID" value="root" /><input type="hidden" name="_LUID" value="" /><input type="hidden" name="_TOKEN" value="" /><input type="hidden" name="_FORMID" value="PCSWG0201RForm" /><input type="hidden" name="_SUBINDEX" />
+<input type="hidden" id="VIEW_ID" value="PCSWG0201R" />
+<div id="wrapper">
+<div id="container">
+<div id="contents">
+	<!-- Start Header -->
+	<div id = "envArea_base">
+	</div>
+	<input type="hidden" name="windowType" value="0" />
+	<!--Start get UserLogoPath -->
+		<div id="header">
+			<img src="/images/csw/Logo/Logo_jp_ocs.gif">
+		</div>
+	<!--End get UserLogoPath -->
+		<div id="screen_icon" style="background-image:url(image/screen_icon_purple.gif);">
+			<div id = "title_text">
+				<script type="text/javascript">
+					<!--
+						ShowTitleFunction_COMMON();
+					//-->
+				</script>
+			</div>
+			<div id = "monitor">
+				<p id = "monitor_info">View ID<span class="mgn_lr_2">:</span><span id="viewIdDisp"></span>
+				<span class="mgn_l_10">Ref.Date</span><span class="mgn_lr_2">:</span><span id="date"></span></p>
+				<script type = "text/javascript">
+					<!--
+						PrintViewId_COMMON();
+						ShowLocaleFunction_COMMON(1767225600000);
+					//-->
+				</script>
+			</div>
+		</div>
+	<!-- End Header -->
+<!-- Start Contents -->
+<div id="contents">
+<div id="msg_area">
+	<div class="err_msg" id="error_msg">
+		<UL><LI>No items were found for the search condition.</LI></UL>
+	</div>
+</div>
+<div id="info_area">
+	<div class="info_msg">
+	</div>
+</div>
+<a name="summmary" shape="rect"></a>
+	<div id="search" style="background-image:url(./image/box_bg_all_ex.gif); background-position:top left; background-repeat:no-repeat;position : relative;">
+	<div style="position : absolute; top: 4pt; left: 10pt; color: white; font-weight: bold; font-size: 11pt; ">
+		Search Condition
+	</div>
+        <table border="0" cellpadding="0" cellspacing="0" width="800" summary="">
+          <tr>
+              <th class="linktext" rowspan="1" colspan="1">
+                  <span class="asterisk mgn_lr_5 ">*</span>
+                  Air Waybill No.
+                  <span class="mgn_lr_2">:</span>
+              </th>
+              <td rowspan="1" colspan="1">
+               <label>
+                   <textarea name="edtAirWayBillNo" style="resize:none;width:150px;" class="mandatory_field">
+100000000015</textarea>
+               </label>
+              </td>
+              <td class="bottom" rowspan="1" colspan="1">
+                  Please enter up to 10 Air Waybill numbers, one number per line.
+              </td>
+              <td rowspan="1" colspan="1">
+                  <img src="./image/spacer.gif" alt="" width="100px" height="1px" />
+              </td>
+          </tr>
+        </table>
+    </div>
+    <div id="search_bottom">
+        <input type="button"  alt="Search" onclick="if (!DoubleSubmitGuard_COMMON()){return false;}; doAction('/csw/ECSWG0201R00003P.do','',this.form);"class="button btn_ex" value="Search" tabindex="null" />
+        <span class="linktext">
+            <a href="javascript:void(0)" onclick="doAction('./ECSWG0201R00000P.do', '', document.forms[0]); return false">
+                Clear the condition
+            </a>
+        </span>
+    </div>
+    <div id="chartnavi" class="dateinfo">
+      <div class="dateinfo">
+      </div>
+    </div>
+    <!-- chart overall start -->
+    <div id="chartarea">
+        <!-- chart detail start -->
+        <div id="charttitle">
+            <table border="0" cellpadding="0" cellspacing="0" summary="sample">
+                <tr>
+                    <th class="bg" rowspan="1" colspan="1">
+                    <span class="mgn_r_5">
+                        <img src="./image/tabletitle_mark.gif" alt="title" width="5px" height="12px" />
+                    </span>Summary
+                    </th>
+                </tr>
+                <tr><td><img src="./image/spacer.gif" alt="" width="1px" height="1px" /></td></tr>
+            </table>
+        </div>
+        <!-- chart title end -->
+        <table border="0" cellpadding="0" cellspacing="0" id="" style="border:#d0d0d0 1px dotted;" width="100%">
+            <tbody id="chart_header">
+                <tr>
+                    <td rowspan="1" colspan="1" width="90px">Air Waybill No.</td>
+                    <td rowspan="1" colspan="3" width="370px">Latest Tracking Record</td>
+                    <td rowspan="1" colspan="1" width="150px">Shipper</td>
+                    <td rowspan="1" colspan="1" width="150px">Receiver</td>
+                    <td rowspan="1" colspan="1" width="40px">Pcs</td>
+                    <td rowspan="1" colspan="1" width="80px">Actual Weight</td>
+                    <td rowspan="1" colspan="1" width="70px">Vol. Weight</td>
+                </tr>
+            </tbody>
+            <tbody id="chart" style="height: auto">
+            <!-- record start -->
+            <!-- record end -->
+            </tbody>
+        </table>
+      </div>
+      <!-- chart overall end   -->
+        </tbody>
+      </table>
+    </div>
+    </div>
+    <!-- chart detail end -->
+    <div id="chartnavi_bottom" class="clearfix">
+        <div class="chartbtn">
+			<input type="button"  onclick="window.close();"name="" class="btn" value="Close" tabindex="null" />
+        </div>
+    </div>
+</div>
+<!-- End PageWrapper -->
+	<div id="footer_not_login">
+		<img src="/images/csw/Copyright/Copyright_jp_ocs.gif">
+	</div>
+</div>
+</div>
+</form>
+</body>
+</html>

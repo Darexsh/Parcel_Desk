@@ -1,0 +1,223 @@
+{
+  "modeOfTransport": "ROAD",
+  "routeLocations": [
+    {
+      "source": "REAL",
+      "reached": true,
+      "completed": true,
+      "labelIdentifier": "route-location.origin.road",
+      "location": {
+        "locationCode": "DEMUS",
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "internationalName": "Musterstadt"
+      },
+      "locationMilestones": [
+        {
+          "labelIdentifier": "location-milestone.origin.ready-for-pickup.road",
+          "reached": true,
+          "achievementDateTime": {
+            "condition": "PLANNED",
+            "dateTime": {
+              "date": "2026-03-10",
+              "localDateTime": "2026-03-10T00:00:00",
+              "offsetDateTime": "2026-03-10T00:00:00+00:00"
+            }
+          },
+          "plannedAchievementDateTime": {
+            "condition": "PLANNED",
+            "dateTime": {
+              "date": "2026-03-10",
+              "localDateTime": "2026-03-10T00:00:00",
+              "offsetDateTime": "2026-03-10T00:00:00+00:00"
+            }
+          }
+        }
+      ],
+      "visible": true
+    },
+    {
+      "source": "REAL",
+      "reached": true,
+      "completed": true,
+      "labelIdentifier": "route-location.departure.road",
+      "location": {
+        "locationCode": "DEBSF",
+        "unLocationCode": "DEBSF",
+        "locationFunctionCode": "18",
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "internationalName": "Beispielfeld",
+        "freeTextLocation": "Beispielfeld"
+      },
+      "locationMilestones": [
+        {
+          "labelIdentifier": "location-milestone.departure.vehicle-arrived.road",
+          "reached": true,
+          "achievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-03-10",
+              "time": "18:05:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-03-10T18:05:00",
+              "offsetDateTime": "2026-03-10T18:05:00+01:00"
+            }
+          },
+          "actualAchievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-03-10",
+              "time": "18:05:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-03-10T18:05:00",
+              "offsetDateTime": "2026-03-10T18:05:00+01:00"
+            }
+          }
+        },
+        {
+          "labelIdentifier": "location-milestone.departure.vehicle-departed.road",
+          "reached": true,
+          "achievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-03-10",
+              "time": "18:50:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-03-10T18:50:00",
+              "offsetDateTime": "2026-03-10T18:50:00+01:00"
+            }
+          },
+          "actualAchievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-03-10",
+              "time": "18:50:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-03-10T18:50:00",
+              "offsetDateTime": "2026-03-10T18:50:00+01:00"
+            }
+          }
+        }
+      ],
+      "outgoingVehicle": {
+        "voyageNumber": "V0000001"
+      },
+      "visible": true
+    },
+    {
+      "source": "REAL",
+      "reached": true,
+      "completed": true,
+      "labelIdentifier": "route-location.arrival.road",
+      "location": {
+        "locationCode": "FREXV",
+        "unLocationCode": "FREXV",
+        "locationFunctionCode": "18",
+        "countryCode": "FR",
+        "countryName": "France",
+        "internationalName": "Exempleville",
+        "freeTextLocation": "Exempleville"
+      },
+      "locationMilestones": [
+        {
+          "labelIdentifier": "location-milestone.arrival.vehicle-arrived.road",
+          "reached": true,
+          "achievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-03-12",
+              "time": "06:30:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-03-12T06:30:00",
+              "offsetDateTime": "2026-03-12T06:30:00+01:00"
+            }
+          },
+          "actualAchievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-03-12",
+              "time": "06:30:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-03-12T06:30:00",
+              "offsetDateTime": "2026-03-12T06:30:00+01:00"
+            }
+          }
+        },
+        {
+          "labelIdentifier": "location-milestone.arrival.in-delivery.road",
+          "reached": true,
+          "achievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-03-12",
+              "time": "07:20:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-03-12T07:20:00",
+              "offsetDateTime": "2026-03-12T07:20:00+01:00"
+            }
+          },
+          "actualAchievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-03-12",
+              "time": "07:20:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-03-12T07:20:00",
+              "offsetDateTime": "2026-03-12T07:20:00+01:00"
+            }
+          }
+        }
+      ],
+      "visible": true
+    },
+    {
+      "source": "REAL",
+      "reached": true,
+      "completed": true,
+      "labelIdentifier": "route-location.destination.road",
+      "location": {
+        "countryCode": "FR",
+        "countryName": "France",
+        "freeTextLocation": "Villefictive"
+      },
+      "locationMilestones": [
+        {
+          "labelIdentifier": "location-milestone.destination.cargo-delivered.road",
+          "reached": true,
+          "achievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-03-12",
+              "time": "09:40:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-03-12T09:40:00",
+              "offsetDateTime": "2026-03-12T09:40:00+01:00"
+            }
+          },
+          "actualAchievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-03-12",
+              "time": "09:40:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-03-12T09:40:00",
+              "offsetDateTime": "2026-03-12T09:40:00+01:00"
+            }
+          },
+          "plannedAchievementDateTime": {
+            "condition": "PLANNED",
+            "dateTime": {
+              "date": "2026-03-11",
+              "time": "18:00:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-03-11T18:00:00",
+              "offsetDateTime": "2026-03-11T18:00:00+01:00"
+            }
+          }
+        }
+      ],
+      "visible": true
+    }
+  ]
+}

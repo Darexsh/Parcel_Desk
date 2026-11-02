@@ -1,0 +1,89 @@
+{
+  "id": "franch-express",
+  "displayName": "Franch Express",
+  "aliases": [
+    "Franch Express Courier"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#ec1b24"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "franch-express",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "searchUrl": "https://franchexpress.com/courier-tracking/",
+    "canaryUrl": "https://www.erpfranchexpress.com/api-tracking.php",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "recipient_name",
+      "courier_name",
+      "provider_code",
+      "service_name",
+      "parcel_count",
+      "weight",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "recipient_name",
+      "courier_name",
+      "provider_code",
+      "service_name",
+      "parcel_count",
+      "weight",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps",
+      "origin",
+      "destination",
+      "awb_date",
+      "sender_name",
+      "recipient_address"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "erp.franchexpress.com"
+      ],
+      "pathPattern": "^/awb_tracking2\\.php$",
+      "params": [
+        "keyword"
+      ]
+    }
+  ],
+  "detection": []
+}

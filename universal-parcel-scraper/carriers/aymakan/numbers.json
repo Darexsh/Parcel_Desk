@@ -1,0 +1,157 @@
+{
+  "carrier": "aymakan",
+  "records": [
+    {
+      "number": "AY12041229866",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250401143824/https://aymakan.com.sa/en/tracking/AY12041229866",
+        "date": "2025-04-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "aymakan",
+        "confidence": "high"
+      },
+      "note": "The opened capture of AyMakan's own tracker names this number and shows the shipment created at a collection point."
+    },
+    {
+      "number": "199665",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240701053126/https://aymakan.com.sa/ar/tracking/199665",
+        "date": "2024-07-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The opened capture of AyMakan's Arabic tracker names this number and shows a 2018 shipment from receipt through transit, out for delivery and the delivery step."
+    },
+    {
+      "number": "157185",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240409144110/https://aymakan.com.sa/ar/tracking/157185",
+        "date": "2024-04-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The opened capture of AyMakan's Arabic tracker names this number and shows a 2017 shipment with many delivery-stage events."
+    },
+    {
+      "number": "AY2866494373",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developer.aymakan.com.sa/docs/aymakan-v2/create-shipping",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "aymakan",
+        "confidence": "high"
+      },
+      "note": "AyMakan's API documentation gives it as the tracking number in the sample reply to creating a shipment."
+    },
+    {
+      "number": "206360",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developer.aymakan.com.sa/docs/aymakan-v2/track-shipping",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "AyMakan's API documentation gives it as the tracking number in the sample reply of its tracking endpoint."
+    },
+    {
+      "number": "AY669001659",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://github.com/aymakan/php-sdk",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "aymakan",
+        "confidence": "high"
+      },
+      "note": "AyMakan's own PHP SDK README tracks it in its example of tracking several shipments."
+    },
+    {
+      "number": "143862",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://github.com/aymakan/php-sdk",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "AyMakan's own PHP SDK README tracks it with other shipments in its tracking example."
+    },
+    {
+      "number": "143866",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://github.com/aymakan/php-sdk",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "AyMakan's own PHP SDK README tracks it with other shipments in its tracking example."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Hrvatska Pošta - Tracking</title>
+    <link rel="stylesheet" type="text/css" href="/styles/tnt.css" />
+</head>
+<body>
+    <div class="default-layout">
+<div class="default-layout__navigation">
+    <header class="navigation__unauthorized">
+        <div class="navigation-searchbar d-none d-md-flex flex-row justify-content-center align-items-center">
+            <form class="needs-validation" enctype="multipart/form-data" method="get" action="/en/tracking/trackingdata">
+                <input class="form-control searchbar-input" type="text" id="barcode" name="barcode" placeholder="example RB267096010HR" data-required-message="Field is required" data-invalid-barcode-message="Invalid shipment number format" />
+            </form>
+        </div>
+    </header>
+</div>
+        <div class="default-layout__content">
+<div class="track__n__trace">
+    <div class="track__n__trace-header d-flex flex-column flex-row align-content-center justify-content-start">
+        <div class="d-flex flex-column flex-sm-row ml-2 mt-3 mb-3 mb-md-0 align-items-sm-center justify-content-sm-start">
+            <div class="d-flex flex-column align-content-center justify-content-start mr-sm-5">
+                <span class="mb-2 mb-md-3 Text-Style-4">Item number</span>
+                <h5 class="Text-Style-6-md-134 font-weight-bold">RR999999995HR</h5>
+            </div>
+        </div>
+    </div>
+    <div class="track__n__trace-progressbar d-flex flex-column flex-md-row align-items-center justify-content-start doter-matrix-top">
+        <div class="address__change__wrapper d-flex flex-column align-items-center align-items-md-start flex-md-row my-md-4">
+            <div class="d-flex flex-column align-items-center align-items-md-start">
+                <h4 class="Text-Style-50-md-160">
+					Invalid barcode format
+                </h4>
+                <p class="mt-1 Text-Style-120 text-wrap">
+                    If the shipment is not found or you want additional information, please call the Croatian Post Contact Center number 000 000 000 or contact us by email: contact@example.com.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+<footer class="default-layout__footer footer">
+    <a href="https://www.posta.hr/cesta-pitanja/120" target="_blank" class="cursor">FAQ</a>
+</footer>
+    </div>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/js/site.js?v=synthetic"></script>
+</body>
+</html>

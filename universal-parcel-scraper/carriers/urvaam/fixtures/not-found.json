@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "code": 0,
+    "msg": "Operación exitosa",
+    "error": "",
+    "request_uri": "track/batch"
+  },
+  "response": {
+    "cnt": [
+      {
+        "icon": "yidengji",
+        "name_en": "Registered",
+        "name": "已登记",
+        "name_es": "Registrado",
+        "name_pt": "Registado",
+        "status": 1,
+        "cnt": 0
+      },
+      {
+        "icon": "yunshuzhong",
+        "name_en": "In Transit",
+        "name": "运输中",
+        "name_es": "En tránsito",
+        "name_pt": "Em trânsito",
+        "status": 2,
+        "cnt": 0
+      },
+      {
+        "icon": "paijianzhong",
+        "name_en": "On its way",
+        "name": "派件中",
+        "name_es": "Recogido",
+        "name_pt": "No despacho",
+        "status": 3,
+        "cnt": 0
+      },
+      {
+        "icon": "toudichenggong",
+        "name_en": "Successful Delivery",
+        "name": "投递成功",
+        "name_es": "Entregado",
+        "name_pt": "A entrega foi bem sucedida",
+        "status": 4,
+        "cnt": 0
+      },
+      {
+        "icon": "qianshou",
+        "name_en": "In Transit",
+        "name": "自提点签收",
+        "name_es": "Entregado al punto de Recogida",
+        "name_pt": "Entregado ao ponto de auto-entrega",
+        "status": 6,
+        "cnt": 0
+      },
+      {
+        "icon": "wentijian",
+        "name_en": "Problem piece",
+        "name": "问题件",
+        "name_es": "Problema",
+        "name_pt": "A peça problemática",
+        "status": 5,
+        "cnt": 0
+      },
+      {
+        "icon": "tuijian",
+        "name_en": "Return",
+        "name": "退件",
+        "name_es": "Devolucion",
+        "name_pt": "Retornar",
+        "status": 7,
+        "cnt": 0
+      }
+    ],
+    "data": []
+  }
+}

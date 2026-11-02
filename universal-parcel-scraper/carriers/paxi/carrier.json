@@ -1,0 +1,74 @@
+{
+  "id": "paxi",
+  "displayName": "PAXI",
+  "aliases": [
+    "Paxi",
+    "PEP PAXI"
+  ],
+  "region": {
+    "countries": [
+      "ZA"
+    ]
+  },
+  "brand": {
+    "color": "#fa751e"
+  },
+  "selectable": true,
+  "timezone": "Africa/Johannesburg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.paxi.co.za/track-a-parcel?id={trackingNumber}",
+    "searchUrl": "https://www.paxi.co.za/track-a-parcel",
+    "canaryUrl": "https://www.paxi.co.za/track-a-parcel",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.paxi.co.za",
+        "paxi.co.za"
+      ],
+      "pathPattern": "^/track-a-parcel/?$",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "domains": [
+        "parcel-tracking.paxiplatform.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "domains": [
+        "paxi-next-parcel-tracking.web.app"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "ids"
+      ]
+    },
+    {
+      "domains": [
+        "www.paxi.co.za",
+        "paxi.co.za"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "drop_label"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,105 @@
+{
+  "id": "parcelpoint",
+  "displayName": "ParcelPoint",
+  "aliases": [
+    "PARCELPOINT",
+    "HUBBED",
+    "HUBBED Parcelpoints"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#000000"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "parcelpoint",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "offset_timestamps",
+    "pickup_point",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://parcelpoint.com.au/track-your-parcel/?trackingnumber={trackingNumber}",
+    "searchUrl": "https://parcelpoint.com.au/track-your-parcel/",
+    "canaryUrl": "https://parcelpoint.com.au/track-your-parcel/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "pickup_point",
+      "delivered_at",
+      "delivery_partner",
+      "tracking_alias",
+      "customer_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "pickup_point",
+      "delivered_at"
+    ],
+    "discarded": [
+      "delivery_partner",
+      "tracking_alias",
+      "customer_reference"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "pickup_code",
+      "proof_of_delivery",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "parcelpoint.com.au"
+      ],
+      "pathPattern": "^/track-your-parcel/?$",
+      "params": [
+        "trackingnumber",
+        "trackingId"
+      ]
+    },
+    {
+      "domains": [
+        "parcelpoint.com.au"
+      ],
+      "path": "^/track/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "hubbed.com"
+      ],
+      "pathPattern": "^/track-parcel/?$",
+      "params": [
+        "locate",
+        "hubbed_track_parcel_tracking_no"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,181 @@
+{
+  "carrier": "bookurier",
+  "records": [
+    {
+      "number": "BOK2023192",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251122165652/https://www.bookurier.ro/colete/AWB/trackifnew.php?awb=BOK2023192",
+        "date": "2025-11-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "bookurier",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on Bookurier's own tracker; the opened capture shows the parcel with a pickup-request event, and the tracker script assigns BOK numbers to Bookurier."
+    },
+    {
+      "number": "062360336716",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260305153413/https://bookurier.ro/colete/AWB/trackifnew.php?awb=062360336716",
+        "date": "2026-03-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "dpd-fr",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Archived lookup on Bookurier's own tracker showing Bookurier's order events; its tracker script files twelve- to fourteen-digit numbers under GLS, so the waybill is likely GLS Romania's."
+    },
+    {
+      "number": "062259317611",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251028184604/https://bookurier.ro/colete/AWB/trackifnew.php?awb=062259317611",
+        "date": "2025-10-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "dpd-fr",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Archived lookup on Bookurier's own tracker; after Bookurier's pickup request the history continues with GLS Romania scans up to delivery, so the waybill is GLS Romania's."
+    },
+    {
+      "number": "004038395151",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230510043529/https://bookurier.ro/colete/AWB/trackifnew.php?awb=004038395151",
+        "date": "2023-05-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "dpd-fr",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Archived lookup on Bookurier's own tracker; after Bookurier's order events the history shows a GLS registration scan, so the waybill is GLS Romania's."
+    },
+    {
+      "number": "062083922814",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241002081142/https://bookurier.ro/colete/AWB/trackifnew.php?awb=062083922814",
+        "date": "2024-10-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "dpd-fr",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Archived lookup on Bookurier's own tracker; after Bookurier's order events the history shows GLS depot and out-for-delivery scans, so the waybill is GLS Romania's."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "hart2hart-express",
+  "displayName": "Hart2Hart Express",
+  "aliases": [
+    "Hart 2 Hart Express",
+    "Hart 2 Hart",
+    "Hart2Hart",
+    "Hart 2 Hart Express Limited"
+  ],
+  "region": {
+    "countries": [
+      "GB",
+      "MT"
+    ]
+  },
+  "brand": {
+    "color": "#ed1c24"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://harttohart.couriernavigator-secure.com/tracking?consign_note={trackingNumber}",
+    "searchUrl": "https://harttohart.couriernavigator-secure.com/tracking",
+    "canaryUrl": "https://hart2hartexpress.co.uk/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "harttohart.couriernavigator-secure.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "consign_note"
+      ]
+    }
+  ],
+  "detection": []
+}

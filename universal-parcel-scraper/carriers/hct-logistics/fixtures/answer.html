@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-tw" lang="zh-tw">
+<head>
+    <meta name="viewport" content="width=device-width, inital-scale=0.66, maximum-scale=1, user-scalable=yes" />
+    <meta name="robots" content="noindex">
+    <title>新竹物流 貨物追蹤查詢</title>
+    <link rel="stylesheet" href="../CSS/jquery.mobile-1.3.2.min.css">
+    <script src="../JS/jquery-1.10.2.min.js"></script>
+    <script src="../JS/jquery.mobile-1.3.2.min.js"></script>
+</head>
+
+<body>
+    <form name="form1" method="post" action="searchGoods_index.aspx" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="U3ludGhldGljIGFuc3dlciBzdGF0ZQ==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0A1B2C3D" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="U3ludGhldGljIGFuc3dlciB2YWxpZGF0aW9u" />
+</div>
+        <div data-role="content" >
+            <div data-role="header" data-theme="c" style="margin:-15px -15px 0px -15px" >
+                <h3>貨物追蹤查詢</h3>
+            </div>
+                <label for="txtpKey2" class="ui-hidden-accessible">輸入查貨碼10碼</label>
+                <input name="txtpKey2" type="text" value="9000000004" maxlength="10" id="txtpKey2" name="txtpKey2" placeholder="輸入查貨碼10碼" onkeypress="return clickButton(event,'Button1')" />
+                    
+                <input type="button" name="Button1" value="查詢" onclick="javascript:__doPostBack('Button1','')" id="Button1" data-theme="e" />
+                <div id="Panel1" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'Button1')">
+	
+                
+</div>
+        </div>
+    
+<script src="/WebResource.axd?d=U3ludGhldGljIHJlc291cmNl&amp;t=600000000000000000" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+window.location.href = 'searchGoods_Main.aspx?no=U3lu+3RoZXRp/2Nubz0=&v=0123456789ABCDEF0123456789ABCDEF';//]]>
+</script>
+</form>
+</html>

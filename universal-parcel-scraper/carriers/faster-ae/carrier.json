@@ -1,0 +1,62 @@
+{
+  "id": "faster-ae",
+  "displayName": "Faster Express & Cargo",
+  "aliases": [
+    "Faster Express",
+    "Faster.ae",
+    "Faster Express Logistics",
+    "迅捷中东物流",
+    "Faster International Supply Chain Management Co., Ltd."
+  ],
+  "region": {
+    "countries": [
+      "AE",
+      "SA",
+      "KW",
+      "QA",
+      "OM",
+      "BH"
+    ]
+  },
+  "brand": {
+    "color": "#004497"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dubai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://faster.ae/track?no={trackingNumber}",
+    "searchUrl": "https://faster.ae/track",
+    "canaryUrl": "https://faster.ae/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "faster.ae"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "no"
+      ]
+    },
+    {
+      "domains": [
+        "op.faster.ae"
+      ],
+      "pathPattern": "^/webTrack/?$",
+      "params": [
+        "ids"
+      ]
+    }
+  ],
+  "detection": []
+}

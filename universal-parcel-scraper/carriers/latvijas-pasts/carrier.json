@@ -1,0 +1,90 @@
+{
+  "id": "latvijas-pasts",
+  "displayName": "Latvijas Pasts",
+  "aliases": [
+    "Latvian Post",
+    "Latvia Post"
+  ],
+  "region": {
+    "countries": [
+      "LV"
+    ]
+  },
+  "brand": {
+    "color": "#0c72ba"
+  },
+  "selectable": true,
+  "timezone": "Europe/Riga",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "latvijas-pasts",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 100
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "pickup_point"
+  ],
+  "portal": {
+    "url": "https://mans.pasts.lv/track?locale=lv-LV&id={trackingNumber}",
+    "searchUrl": "https://www.pasts.lv/izsekot-sutijumu",
+    "helpUrl": "https://pasts.lv/klientu-atbalsts",
+    "canaryUrl": "https://www.pasts.lv/izsekot-sutijumu",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "event_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "pickup_point"
+    ],
+    "discarded": [
+      "event_details"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "mans.pasts.lv"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "latvijas-pasts-own",
+      "pattern": "^[CELR][A-Z]\\d{9}LV$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "latvijas-pasts-s10",
+      "pattern": "^[A-Z]{2}\\d{9}LV$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "passport",
+  "displayName": "Passport",
+  "aliases": [
+    "Passport Shipping",
+    "Passport Global",
+    "PassportGlobal"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#00e796"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "passport",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 55
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "eta",
+    "eta_window",
+    "delivery_partner",
+    "delivery_tracking_number",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://track.passportglobal.com/{trackingNumber}",
+    "searchUrl": "https://passportglobal.com/track/",
+    "canaryUrl": "https://passportglobal.com/track/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta_window",
+      "milestones",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "destination",
+      "contact_details",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta_window",
+      "delivered_at",
+      "offset_timestamps",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "destination_country"
+    ],
+    "discarded": [
+      "milestones",
+      "destination",
+      "contact_details",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "weight",
+      "sender_name",
+      "recipient_name",
+      "provider_code",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "track.passportglobal.com",
+        "track.passportshipping.com"
+      ],
+      "path": "^/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "passportglobal.com"
+      ],
+      "path": "^/([Pp][Gg]\\d{10,11}[A-Za-z]{2})/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "passport-1",
+      "pattern": "^PG\\d{10,11}[A-Z]{2}$",
+      "confidence": "high"
+    }
+  ]
+}

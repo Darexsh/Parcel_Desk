@@ -1,0 +1,13 @@
+{
+  "status": "cancelled",
+  "shipmentId": "00000000-0000-4000-8000-000000000003",
+  "shipDate": "2026-01-05T11:54:11.466Z",
+  "trackingNumber": "TSGBFRSMPL03000000003",
+  "trackingURL": "https://teleship.com/tracking?trackingNumber=TSGBFRSMPL03000000003",
+  "customerReference": "#0003",
+  "estimatedDelivery": "2026-01-15T11:44:11.465Z",
+  "events": [
+    { "alias": "SHIPPER_LABEL", "code": "S_102", "description": "Shipment info received by carrier", "timestamp": "2026-01-05T11:44:14.463Z", "type": "label_created" },
+    { "alias": "SHIPPER_LABEL_VOIDED", "code": "S_902", "description": "Shipment cancelled by shipper", "timestamp": "2026-01-07T22:13:44.857Z", "type": "cancelled" }
+  ]
+}

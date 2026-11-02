@@ -1,0 +1,34 @@
+{
+  "carrier": "antaria",
+  "records": [
+    {
+      "number": "6626970006",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221205115108/http://www.antariaclientes.com/cliente/datos_prestashop.php?id=6626970006",
+        "date": "2022-12-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "An archived lookup on Antaria's own tracker answers this albarán with a link to its status page, which lists the shipment."
+    }
+  ]
+}

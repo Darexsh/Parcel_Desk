@@ -1,0 +1,237 @@
+{
+  "carrier": "fan-courier",
+  "records": [
+    {
+      "number": "2080300121976",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://fancourier.ro/wp-content/uploads/2023/07/EN_FANCourier_API-2.0-160523.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "AWB in a sample request of FAN Courier's API 2.0 documentation."
+    },
+    {
+      "number": "2081300120386",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://fancourier.ro/wp-content/uploads/2023/07/EN_FANCourier_API-2.0-160523.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "AWB in a sample request of FAN Courier's API 2.0 documentation."
+    },
+    {
+      "number": "2078300120037",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://fancourier.ro/wp-content/uploads/2023/07/EN_FANCourier_API-2.0-160523.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "AWB in a sample response of FAN Courier's API 2.0 documentation."
+    },
+    {
+      "number": "2337600120003",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/daika7ana/fancourier",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Usage example of an open-source FAN Courier API client; not a real shipment."
+    },
+    {
+      "number": "2123231160002",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20120512024407/http://www.fancourier.ro:80/awb-tracking/2123231160002/",
+        "date": "2012-05-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Looked up on FAN Courier's own tracker under its old path form, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "4223000011742",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200924145335/https://www.fancourier.ro/awb-tracking/?metoda=tracking&bar_size=x&limba=romana&awb=4223000011742&home_awb_submit=",
+        "date": "2020-09-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Looked up on FAN Courier's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "4049400010188",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240221225957/https://www.fancourier.ro/awb-tracking/?metoda=tracking&bar_size=x&awb=4049400010188",
+        "date": "2024-02-21",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Looked up on FAN Courier's own tracker, as an archived address shows; FAN Courier's tracking returns its history."
+    },
+    {
+      "number": "7000025622933",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241106164638/https://www.fancourier.ro/awb-tracking/?&awb=7000025622933",
+        "date": "2024-11-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fan-courier",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "Looked up on FAN Courier's own tracker, as an archived address shows; FAN Courier's tracking returns its history."
+    },
+    {
+      "number": "7000090535614",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250920070820/https://www.fancourier.ro/awb-tracking/?metoda=tracking&bar_size=x&limba=romana&awb=7000090535614",
+        "date": "2025-09-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fan-courier",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "Looked up on FAN Courier's own tracker, as an archived address shows; FAN Courier's tracking returns its history."
+    }
+  ]
+}

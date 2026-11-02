@@ -1,0 +1,24 @@
+{
+  "carrier": "anserx",
+  "records": [
+    {
+      "number": "BTYCN0092384464YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://oms.anserx.com/tracking?nos=BTYCN0092384464YQ",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "anserx",
+        "confidence": "high"
+      },
+      "note": "A lookup address on AnserX's own tracker that Bing had indexed; the tracker shows its history from China to its delivery in Mexico."
+    }
+  ]
+}

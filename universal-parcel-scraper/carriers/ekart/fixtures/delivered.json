@@ -1,0 +1,26 @@
+{
+  "FMPP0000000001": {
+    "expectedDeliveryDate": 1767456000000,
+    "faShipment": false,
+    "reachedNearestHub": true,
+    "sourceCity": "Example origin",
+    "destinationCity": "Example destination",
+    "shipmentTrackingDetails": [
+      {
+        "date": 1767362400000,
+        "city": "Example origin",
+        "statusDetails": "Pickup Requested"
+      },
+      {
+        "date": 1767423600000,
+        "city": "Example destination",
+        "statusDetails": "Out for delivery"
+      },
+      {
+        "date": 1767456000000,
+        "city": "Example destination",
+        "statusDetails": "Delivered"
+      }
+    ]
+  }
+}

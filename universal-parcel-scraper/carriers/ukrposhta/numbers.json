@@ -1,0 +1,369 @@
+{
+  "carrier": "ukrposhta",
+  "records": [
+    {
+      "number": "0505683900154",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/uk/ukrposhta-ukrpochta/review-2374754",
+        "date": "2026-09-07"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "Public report of a domestic parcel attributed to Ukrposhta, whose tracking returns its history. Thirteen digits are shared with other carriers, so Ukrposhta is one suggestion among several."
+    },
+    {
+      "number": "CA315000362UA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aae6849e25391667cb34f4b",
+        "date": "2026-09-19"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ukrposhta",
+        "confidence": "high"
+      },
+      "note": "Publicly reported return to China, reviewed on AliExpress's page. Ukrposhta's tracker returns its history."
+    },
+    {
+      "number": "RF426331371SG",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/kolyabres/ukrposhta-api"
+      },
+      "expect": {
+        "carrier": "singapore-post",
+        "confidence": "high"
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to Ukrposhta; detection selects Singapore Post."
+    },
+    {
+      "number": "0504929314946",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/uk/ukrposhta-ukrpochta/review-2364186",
+        "date": "2026-08-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "Domestic parcel a seller names in a public review. Ukrposhta's tracker returns its history; thirteen digits stay one candidate among several."
+    },
+    {
+      "number": "0505629661187",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/uk/ukrposhta-ukrpochta/review-2338575",
+        "date": "2026-05-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "Domestic parcel named in a public review, which quotes Ukrposhta's reply. Ukrposhta's tracker returns its history; thirteen digits stay one candidate among several."
+    },
+    {
+      "number": "8965001153808",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/uk/ukrposhta-ukrpochta/review-2015958",
+        "date": "2024-05-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "Parcel named in a public review. Ukrposhta's tracker still returns its history; thirteen digits stay one candidate among several."
+    },
+    {
+      "number": "0504921974068",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260605184519/https://track.ukrposhta.ua/tracking_UA.html?barcode=0504921974068",
+        "date": "2026-06-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "An Ukrposhta tracking link archived by the Wayback Machine. Ukrposhta's tracker returns its history."
+    },
+    {
+      "number": "0505677206289",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260807131605/https://track.ukrposhta.ua/tracking_UA.html?barcode=0505677206289",
+        "date": "2026-08-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "An Ukrposhta tracking link archived by the Wayback Machine. Ukrposhta's tracker returns its history."
+    },
+    {
+      "number": "0104213545523",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251002163108/https://track.ukrposhta.ua/tracking_UA.html?barcode=0104213545523",
+        "date": "2025-10-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "A Ukrposhta tracking link archived by the Wayback Machine. Ukrposhta's status API no longer returns it."
+    },
+    {
+      "number": "2900506323930",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260327085718/https://track.ukrposhta.ua/tracking_UA.html?barcode=2900506323930",
+        "date": "2026-03-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "A Ukrposhta tracking link archived by the Wayback Machine. Ukrposhta's status API no longer returns it."
+    },
+    {
+      "number": "7905800045469",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250926143402/https://track.ukrposhta.ua/tracking_UA.html?barcode=7905800045469",
+        "date": "2025-09-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "A Ukrposhta tracking link archived by the Wayback Machine. Ukrposhta's status API no longer returns it."
+    },
+    {
+      "number": "8204200864763",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240223185218/https://track.ukrposhta.ua/tracking_UA.html?barcode=8204200864763",
+        "date": "2024-02-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "A Ukrposhta tracking link archived by the Wayback Machine. Ukrposhta's status API no longer returns it."
+    },
+    {
+      "number": "RC034998210EE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260425094046/https://track.ukrposhta.ua/tracking_UA.html?barcode=RC034998210EE",
+        "date": "2026-04-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "omniva",
+        "confidence": "high"
+      },
+      "note": "Mail from Estonia whose Ukrposhta tracking page the Wayback Machine archived. Ukrposhta's status API returns its journey, from posting abroad to delivery in Ukraine, under the sending post's number."
+    },
+    {
+      "number": "CR062438499UA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261026184738/https://track.ukrposhta.ua/en/?barcode=CR062438499UA",
+        "date": "2026-10-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ukrposhta",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ukrposhta's own tracker, as an archived address shows; the capture holds only the search page. Ukrposhta's tracker returns the history of a parcel sent abroad from Ukraine, with the destination post's scans."
+    },
+    {
+      "number": "CR062611988UA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261018212414/https://track.ukrposhta.ua/en/?barcode=CR062611988UA",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ukrposhta",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ukrposhta's own tracker, as an archived address shows; the capture holds only the search page. Ukrposhta's tracker returns the history of a parcel sent abroad from Ukraine, with the destination post's scans."
+    },
+    {
+      "number": "LP064992122UA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260907012610/https://track.ukrposhta.ua/?barcode=LP064992122UA",
+        "date": "2026-09-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ukrposhta",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ukrposhta's own tracker, as an archived address shows; the capture holds only the search page. Ukrposhta's tracker returns the history of a small packet sent abroad from Ukraine, with the destination post's scans."
+    }
+  ]
+}

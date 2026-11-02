@@ -1,0 +1,96 @@
+<root><pro>
+  <proNumber>910000009</proNumber>
+  <pickupDate>10/12/2026</pickupDate>
+  <pickupTime>04:05 PM</pickupTime>
+  <utcOffsetPU>-04:00</utcOffsetPU>
+  <shipper>
+    <city>SHIPPERVILLE</city>
+    <state>SC</state>
+    <zip>00093</zip>
+  </shipper>
+  <consignee>
+    <city>CONSIGNEETON</city>
+    <state>TN</state>
+    <zip>00094</zip>
+  </consignee>
+  <pieces>1</pieces>
+  <location>At destination: HUB TOWN</location>
+  <weight>380</weight>
+  <status>Appointment scheduled for 10/15/2026 08:00 AM - 05:00 PM;</status>
+  <currentStatusDateOnly>10/13/2026</currentStatusDateOnly>
+  <currentStatusTime>10:02 AM</currentStatusTime>
+  <committedDate>10/14/2026</committedDate>
+  <delay>Appointment</delay>
+  <appointmentStartTime>08:00 AM</appointmentStartTime>
+  <appointmentEndTime>05:00 PM</appointmentEndTime>
+  <interlineCode>    </interlineCode>
+  <interlinePro></interlinePro>
+  <origin>
+    <name>SAMPLE CITY</name>
+    <location>SMC</location>
+    <phone>1(000)000-0001</phone>
+  </origin>
+  <destination>
+    <name>HUB TOWN</name>
+    <location>HBT</location>
+    <phone>1(000)000-0002</phone>
+  </destination>
+  <detailInformation>
+    <detail>
+      <date>10/12/2026</date>
+      <time>04:05 PM</time>
+      <utcOffset>-04:00</utcOffset>
+      <location>SAMPLE CITY</location>
+      <city>SAMPLE CITY</city>
+      <state>SC</state>
+      <zip>00004</zip>
+      <message>Shipment Pickup using Trailer 530003L</message>
+      <statusCode>LOD</statusCode>
+    </detail>
+    <detail>
+      <date>10/12/2026</date>
+      <time>08:15 PM</time>
+      <utcOffset>-04:00</utcOffset>
+      <location>SAMPLE CITY</location>
+      <city>SAMPLE CITY</city>
+      <state>SC</state>
+      <zip>00004</zip>
+      <message>Closed Trailer 280003F to HUB TOWN service center</message>
+      <statusCode>CFD</statusCode>
+    </detail>
+    <detail>
+      <date>10/12/2026</date>
+      <time>11:50 PM</time>
+      <utcOffset>-04:00</utcOffset>
+      <location>SAMPLE CITY</location>
+      <city>SAMPLE CITY</city>
+      <state>SC</state>
+      <zip>00004</zip>
+      <message>Dispatched Trailer 280003F ETA: 10/13/2026 04:20 AM</message>
+      <statusCode>DIS</statusCode>
+    </detail>
+    <detail>
+      <date>10/13/2026</date>
+      <time>03:58 AM</time>
+      <utcOffset>-05:00</utcOffset>
+      <location>HUB TOWN</location>
+      <city>HUBVILLE</city>
+      <state>TN</state>
+      <zip>00005</zip>
+      <message>Arrive Trailer 280003F</message>
+      <statusCode>LOD</statusCode>
+    </detail>
+    <detail>
+      <date>10/13/2026</date>
+      <time>10:02 AM</time>
+      <utcOffset>-05:00</utcOffset>
+      <location>HUB TOWN</location>
+      <city>HUBVILLE</city>
+      <state>TN</state>
+      <zip>00005</zip>
+      <message>Closed Trailer SOR530004 to HUB TOWN service center Hold for Appointment</message>
+      <statusCode>LOD</statusCode>
+    </detail>
+  </detailInformation>
+</pro>
+</root>

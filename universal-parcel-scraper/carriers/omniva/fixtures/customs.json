@@ -1,0 +1,57 @@
+{
+  "shipmentBarcode": "CE900000019EE",
+  "returningShipment": false,
+  "customsDeclarationRequired": false,
+  "events": [
+    {
+      "eventId": 2000001,
+      "eventCode": "TRT_SHIPMENT_REGISTERED",
+      "eventName": "Shipment registered. Shipment has not been handed over to Omniva",
+      "eventDate": "2026-03-01T10:20:42.4774296Z",
+      "eventParameters": []
+    },
+    {
+      "eventId": 2000002,
+      "eventCode": "TRT_SHIPMENT_HANDOVER_TO_PM",
+      "eventName": "Sender has placed the shipment in the parcel machine",
+      "eventDate": "2026-03-01T12:19:19Z",
+      "location": {
+        "zip": "50005",
+        "locationName": "Sample Harbour parcel machine",
+        "servicePointTypeCode": "PARCEL_MACHINE",
+        "countryCode": "LV",
+        "translations": []
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 2000003,
+      "eventCode": "TRT_SHIPMENT_EMA",
+      "eventName": "Shipment has been posted by the sender or collected by the postal service",
+      "eventDate": "2026-03-01T12:19:22.0260157Z",
+      "eventParameters": []
+    },
+    {
+      "eventId": 2000004,
+      "eventCode": "TRT_SHIPMENT_EMC",
+      "eventName": "Shipment is on the way to the destination country",
+      "eventDate": "2026-03-01T23:13:00Z",
+      "eventParameters": []
+    },
+    {
+      "eventId": 2000005,
+      "eventCode": "TRT_SHIPMENT_EMD",
+      "eventName": "Arrival to destination country",
+      "eventDate": "2026-03-05T00:25:00Z",
+      "eventParameters": []
+    },
+    {
+      "eventId": 2000006,
+      "eventCode": "TRT_SHIPMENT_EDB",
+      "eventName": "Shipment is under customs review",
+      "eventDate": "2026-03-05T00:25:00Z",
+      "eventParameters": []
+    }
+  ],
+  "currentStateCode": "IN_PROGRESS"
+}

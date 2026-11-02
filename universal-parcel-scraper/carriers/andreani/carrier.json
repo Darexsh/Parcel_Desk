@@ -1,0 +1,90 @@
+{
+  "id": "andreani",
+  "displayName": "Andreani",
+  "aliases": [
+    "Grupo Logístico Andreani",
+    "Andreani Logística",
+    "Correo Andreani"
+  ],
+  "region": {
+    "countries": [
+      "AR",
+      "BR"
+    ]
+  },
+  "brand": {
+    "color": "#d71920"
+  },
+  "selectable": true,
+  "timezone": "America/Argentina/Buenos_Aires",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "andreani",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 976
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "canaryUrl": "https://www.andreani.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "progress_rail",
+      "sender_name",
+      "remarks",
+      "driver_name",
+      "coordinates"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "eta",
+      "progress_rail",
+      "sender_name",
+      "remarks",
+      "driver_name",
+      "coordinates"
+    ],
+    "unavailable": [
+      "weight",
+      "provider_code",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.andreani.com",
+        "andreani.com",
+        "seguimiento.andreani.com"
+      ],
+      "path": "^/envio/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "andreani-1",
+      "pattern": "^(?:36000|31000|30000)\\d{10}$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

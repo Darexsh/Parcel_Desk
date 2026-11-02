@@ -1,0 +1,185 @@
+{
+  "data": [
+    {
+      "q": "55LP0000000000001",
+      "stt_id": "55LP0000000000001",
+      "product_type": "REGPACK",
+      "is_stt": true,
+      "is_exist": true,
+      "is_cnx": false,
+      "origin": "SAMPLE KELURAHAN, SAMPLE KECAMATAN, SAMPLE KOTA",
+      "destination": "CONTOH KELURAHAN, CONTOH KECAMATAN, CONTOH KOTA",
+      "current_status": "POD",
+      "md5_stt": [
+        "00000000000000000000000000000000"
+      ],
+      "estimations": "2 - 3 Hari",
+      "histories": [
+        {
+          "status_date": "2026-03-09T01:20:00Z",
+          "status": "SHPCRT",
+          "status_label": "Pengiriman Dibuat",
+          "location": "Daerah Sampel",
+          "description": "Pengirimanmu telah dibuat",
+          "GMT": "",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": null
+        },
+        {
+          "status_date": "2026-03-09T04:00:01Z",
+          "status": "SHPSCD",
+          "status_label": "Penjadwalan Pick Up",
+          "location": "Daerah Sampel",
+          "description": "Penjadwalan penjemputan paket",
+          "GMT": "",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": null
+        },
+        {
+          "status_date": "2026-03-09T08:00:01Z",
+          "status": "CRRSRC",
+          "status_label": "Mencari Kurir",
+          "location": "Daerah Sampel",
+          "description": "Mencari kurir untuk Pick Up paketmu",
+          "GMT": "",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": null
+        },
+        {
+          "status_date": "2026-03-09T08:02:10Z",
+          "status": "CRROTW",
+          "status_label": "Melakukan Penjemputan",
+          "location": "Kecamatan Sampel",
+          "description": "Kurir SAMPLE PICKUP COURIER dalam perjalanan untuk Pick Up paketmu",
+          "GMT": "",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": null
+        },
+        {
+          "status_date": "2026-03-09T20:30:00+07:00",
+          "status": "BKD",
+          "status_label": "Diproses Agen",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paketmu telah diproses oleh Agen Lion Parcel SAMPLE CITY, SAMPLE KELURAHAN, SAMPLE KECAMATAN",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-03-09T22:10:00+07:00",
+          "status": "PUP",
+          "status_label": "Ke Gudang LP",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paketmu akan diantar ke Gudang Lion Parcel SAMPLE CITY, SAMPLE KECAMATAN",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-03-09T22:10:00+07:00",
+          "status": "STI-SC",
+          "status_label": "Di Gudang Transit",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paketmu sampai di Gudang Transit Lion Parcel SAMPLE CITY, SAMPLE KECAMATAN",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-03-09T22:10:00+07:00",
+          "status": "STI-SC",
+          "status_label": "Di Gudang Transit",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paketmu sampai di Gudang Transit Lion Parcel SAMPLE CITY, SAMPLE KECAMATAN",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-03-09T22:30:00+07:00",
+          "status": "STO-SC",
+          "status_label": "Di Gudang Transit Out",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paket telah dijemput oleh Shuttle dari Subconsolidator SMP PCU SAMPLE0001.",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-03-10T00:10:00+07:00",
+          "status": "STI",
+          "status_label": "Di Gudang LP",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paketmu sampai di Gudang Lion Parcel SAMPLE CITY, SAMPLE KECAMATAN",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-03-10T00:15:00+07:00",
+          "status": "CARGO PLANE",
+          "status_label": "Akan diterbangkan",
+          "location": "SMP - SAMPLE CITY",
+          "description": "Paketmu akan diterbangkan dengan pesawat dari Kota SAMPLE CITY, SAMPLE KECAMATAN",
+          "GMT": "GMT+7:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-03-10T14:50:00+07:00",
+          "status": "STI-DEST",
+          "status_label": "Tiba di Gudang LP",
+          "location": "CTH - CONTOH CITY",
+          "description": "Paketmu sampai di Gudang Lion Parcel CONTOH CITY, CONTOH KELURAHAN, CONTOH KECAMATAN",
+          "GMT": "GMT+8:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-03-10T14:50:00+07:00",
+          "status": "DEL",
+          "status_label": "Dalam Pengantaran",
+          "location": "CTH - CONTOH CITY",
+          "description": "Paketmu diantar ke alamat penerima oleh kurir Sample Courier Name. Pastikan nomor penerima dapat dihubungi oleh kurir",
+          "GMT": "GMT+8:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": []
+        },
+        {
+          "status_date": "2026-03-10T16:05:00+07:00",
+          "status": "POD",
+          "status_label": "Paket diterima",
+          "location": "CTH - CONTOH CITY",
+          "description": "Paketmu telah sampai di tujuan & diterima oleh  Sample Recipient (YBS)",
+          "GMT": "GMT+8:00",
+          "pickup_booster_amount": 0,
+          "pickup_booster_status": "",
+          "attachment": [
+            "https://storage.example/shipment/00000000000000000000000000000001-1773133500"
+          ]
+        }
+      ],
+      "estimation_date": "2026-03-11 - 2026-03-12",
+      "is_cod": true,
+      "is_dfod": false,
+      "shipment_id": "SAMPLE01",
+      "prev_stt": "",
+      "next_stt": "",
+      "order_created_date": "2026-03-09T01:20:00Z",
+      "product_type_img_url": "https://storage.example/product/regpack.svg"
+    }
+  ]
+}

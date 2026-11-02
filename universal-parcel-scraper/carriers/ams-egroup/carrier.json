@@ -1,0 +1,36 @@
+{
+  "id": "ams-egroup",
+  "displayName": "AMS eGroup",
+  "aliases": [
+    "eRetail Logistics",
+    "AMS etrack",
+    "Australasian Mail Services"
+  ],
+  "region": {
+    "countries": [
+      "AU",
+      "NZ"
+    ]
+  },
+  "brand": {
+    "color": "#234d9b"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.amsegroup.com.au/track-trace/",
+    "canaryUrl": "https://www.amsegroup.com.au/track-trace/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

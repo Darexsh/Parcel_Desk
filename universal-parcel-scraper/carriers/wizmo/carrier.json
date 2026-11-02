@@ -1,0 +1,53 @@
+{
+  "id": "wizmo",
+  "displayName": "Wizmo",
+  "aliases": [
+    "WIZMO Solutions",
+    "Wizmo Solutions Inc.",
+    "Wizmo Inc.",
+    "Ship Wizmo",
+    "shipwizmo"
+  ],
+  "region": {
+    "countries": [
+      "CA",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#34a5d5"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://shipwizmo.com/tracking/{trackingNumber}",
+    "searchUrl": "https://shipwizmo.com/",
+    "canaryUrl": "https://shipwizmo.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "shipwizmo.com",
+        "www.shipwizmo.com"
+      ],
+      "path": "^/tracking/([A-Za-z0-9]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "wizmo-1",
+      "pattern": "^WD\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

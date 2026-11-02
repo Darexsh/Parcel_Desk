@@ -1,0 +1,694 @@
+{
+  "carrier": "seur",
+  "records": [
+    {
+      "number": "01475194188635",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/empresas/seur/500000075"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-de",
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to SEUR, which stays one candidate among several."
+    },
+    {
+      "number": "046999610972820260807",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/empresas/seur/500000075"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to SEUR, which stays one candidate among several."
+    },
+    {
+      "number": "07474002501967",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/han-ignorado-el-punto-de-entre/1626552520d044c1b1",
+        "date": "2026-09-23"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Public complaint about an ignored pickup point; SEUR's tracker returns its history."
+    },
+    {
+      "number": "1796295",
+      "role": "order_reference",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/empresas/seur/500000075"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. Seven-digit references are ambiguous and require a matching native lookup."
+    },
+    {
+      "number": "REC000061812400",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/seur.com",
+        "access": "indexed_excerpt",
+        "date": "2025-05-18",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "auxiliary",
+        "service": "SEUR",
+        "reportedRole": "pickup_booking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "REC is a pickup-booking reference family; the source labels this identifier as tracking but its parcel relationship is unconfirmed.",
+      "quarantine": true
+    },
+    {
+      "number": "866823388853191",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/p-C3-A9rdida-o-extrav-C3-ADo-de-un-paque/611a517e7bd1396ee4",
+        "access": "full_page",
+        "date": "2026-02-04",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "SEUR",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "Public report names this carrier; shipment identity remains unconfirmed."
+    },
+    {
+      "number": "88380161263793",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/no-realizan-intento-de-entrega/addd747044249526a6",
+        "date": "2026-09-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Given as the shipment number in a complaint about a missed delivery; SEUR's tracker returns its history."
+    },
+    {
+      "number": "23715034066787",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/incumplimiento-de-servicio/28e1f94121d398a68f",
+        "date": "2026-09-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "shipment_tracking",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Tracking number in a complaint about a pickup point; SEUR's tracker had no usable history for it when checked."
+    },
+    {
+      "number": "01595217559506",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/env-C3-ADo-no-entregado-aparece-com/607c866038db788336",
+        "date": "2026-09-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "shipment_tracking",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-de",
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Tracking number in a complaint about a parcel shown as delivered; SEUR's tracker had no usable history for it when checked."
+    },
+    {
+      "number": "33232294947707",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reclamaci-C3-B3n-urgente-por-incide/d77c98638dd193374b",
+        "date": "2026-08-11",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "shipping_code",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Vinted shipping code for a SEUR locker drop-off; SEUR's tracker had no usable history for it when checked."
+    },
+    {
+      "number": "08448877339657",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-con-estado-entregado-q/231b0b6225b64fd537",
+        "date": "2026-07-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "shipment_tracking",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Tracking number in a complaint about a parcel shown as delivered; SEUR's tracker had no usable history for it when checked."
+    },
+    {
+      "number": "65210213915489",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-devuelto-no-recibido/c1d35808dabf757032",
+        "date": "2026-07-27",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "shipment_tracking",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Quoted from a SEUR e-mail about a returned parcel; SEUR's tracker had no usable history for it when checked."
+    },
+    {
+      "number": "28890112437349",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/pedido-no-entregado/6be3f5d3d1cb9f4fbf",
+        "date": "2026-09-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "return_tracking",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Tracking number of a return; SEUR's tracker had no usable history for it when checked."
+    },
+    {
+      "number": "008999093988120260720",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/retraso-en-entrega-y-bultos-pe/66bde82fcede34684f",
+        "date": "2026-07-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "shipment_tracking",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Tracking number of an eight-parcel shipment; SEUR's tracker had no usable history for it when checked."
+    },
+    {
+      "number": "089999345506520260629",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reclamaci-C3-B3n-urgente-por-reiter/caf941056848c21b0c",
+        "date": "2026-07-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "shipment_tracking",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Shipment number in a complaint about repeated failed deliveries; SEUR's tracker had no usable history for it when checked."
+    },
+    {
+      "number": "020687178883420260623",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/un-mes-esperando-la-entrega-de/252a65689063da557e",
+        "date": "2026-07-15",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "shipment_tracking",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Shipment number for an online order; SEUR's tracker had no usable history for it when checked."
+    },
+    {
+      "number": "045687739115920260828",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/pesimo-servicio-de-logistica-d/c9365194743c80933d",
+        "date": "2026-09-08",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "parcel_identifier",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "One of several parcel identifiers listed for a furniture delivery; SEUR's tracker had no usable history for it when checked."
+    },
+    {
+      "number": "05488806228336",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-no-entregado/4f2e4560d1540699a5",
+        "date": "2026-09-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "shipment_tracking",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Tracking number in a complaint about an undelivered parcel; SEUR's tracker had no usable history for it when checked."
+    },
+    {
+      "number": "1842852",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/reviews/6ac78de6d299c33be74fad61",
+        "access": "full_page",
+        "date": "2026-10-08",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "SEUR",
+        "reportedRole": "order_number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Seven-digit reference a review gives as its order; SEUR's simplified lookup returned the shipment's history."
+    },
+    {
+      "number": "6404650",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/reviews/6ac7a6e8a32f09b704f5fe77",
+        "access": "full_page",
+        "date": "2026-10-08",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "SEUR",
+        "reportedRole": "shipment_identifier"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Seven-digit shipment identifier a review quotes; SEUR's simplified lookup answered with an error code other than its usual no-history one."
+    },
+    {
+      "number": "7472385",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reclamaci-C3-B3n-urgente-por-falsa-/e14502ef83e9bfcb82",
+        "access": "full_page",
+        "date": "2026-10-06",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "SEUR",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Seven-digit tracking number a recent complaint quotes; SEUR's simplified lookup did not locate it."
+    },
+    {
+      "number": "8830834",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/no-se-proporciona-informaci-C3-B3n-/753d36e9160c328c22",
+        "access": "full_page",
+        "date": "2026-10-05",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "SEUR",
+        "reportedRole": "expedition_number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Seven-digit expedition number from the subject line of SEUR's incident e-mail; the simplified lookup did not locate it."
+    },
+    {
+      "number": "2026151000000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-16",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "austrian-post",
+          "seur",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "Made-up number in the layout of a sender's reference, dated day before month, that SEUR's lookup found for its shipments."
+    },
+    {
+      "number": "48285234834793",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reclamaci-C3-B3n-formal-contra-seur/3d4034ae564773a03b",
+        "date": "2026-10-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking",
+        "service": "SEUR"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Tracking number in a complaint about a locker drop-off; SEUR's tracker returns its history."
+    },
+    {
+      "number": "REC000000000017",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-28",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Made-up pickup reference in the shape of a parcel the app tracked, which SEUR's own lookup confirmed."
+    }
+  ]
+}

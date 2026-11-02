@@ -1,0 +1,18 @@
+{
+  "carrier": "lotte-global",
+  "entries": [
+    {"code": "인수/상품접수", "wording": "보내시는 고객님으로부터 상품을 인수했습니다.", "stage": "accepted", "language": "ko", "confirmedBy": "live", "note": "The pickup scan. Recent histories list it twice, once without its time."},
+    {"code": "상품접수", "wording": "상품접수", "stage": "accepted", "language": "ko", "confirmedBy": "portal", "note": "A step of the tracker's progress rail."},
+    {"code": "터미널 입고", "wording": "터미널 입고", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "A step of the tracker's progress rail, commented out of its markup."},
+    {"code": "상품 이동중", "wording": "동남권TML에 도착하였습니다.", "stage": "in_transit", "language": "ko", "confirmedBy": "live", "note": "The text names the terminal, hub or delivery centre reached."},
+    {"code": "배달지 도착", "wording": "배달지 도착", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "A step of the tracker's progress rail, commented out of its markup."},
+    {"code": "배송 출발", "wording": "고객님의 상품을 06~08시에 배달 예정 입니다.", "stage": "out_for_delivery", "language": "ko", "confirmedBy": "live", "note": "The hours are the courier's delivery window that day. The courier's name and phone follow in brackets."},
+    {"code": "배달 완료", "wording": "배달 완료하였습니다.", "stage": "delivered", "language": "ko", "confirmedBy": "live", "note": "At the delivering branch. The courier's name and phone follow in brackets."},
+    {"code": "배달 완료", "wording": "물품을 받으셨습니다.", "stage": "delivered", "language": "ko", "confirmedBy": "live", "note": "A second delivered row at the same time, placed at the customer (고객). Old waybills keep only this one, without its time."},
+    {"code": "배달완료", "wording": "배달완료", "stage": "delivered", "language": "ko", "confirmedBy": "live", "note": "The summary's delivery result for a delivered waybill."},
+    {"code": "미출고", "wording": "미출고", "stage": "registered", "language": "ko", "confirmedBy": "live", "note": "The summary's delivery result for a label without scans."},
+    {"code": "예약취소", "wording": "예약취소", "stage": "exception", "language": "ko", "confirmedBy": "live", "note": "The summary's delivery result for a cancelled booking without scans."},
+    {"wording": "셔틀발송", "stage": "in_transit", "language": "ko", "confirmedBy": "source", "note": "A blog on reading Lotte's tracker explains it as a shuttle run between local branch and terminal."},
+    {"wording": "간선상차", "stage": "in_transit", "language": "ko", "confirmedBy": "source", "note": "Loaded onto a trunk truck between hubs."}
+  ]
+}

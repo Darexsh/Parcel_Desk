@@ -1,0 +1,94 @@
+{
+  "carrier": "pathao-courier",
+  "records": [
+    {
+      "number": "DD011024EG97WG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241001100950/https://merchant.pathao.com/api/v1/user/tracking",
+        "date": "2024-10-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "pathao-courier",
+        "confidence": "high"
+      },
+      "note": "An archived reply of Pathao's own tracking API, captured with the public tracking page for this consignment, names it and lists its pickup request."
+    },
+    {
+      "number": "DS110826EAHP5C",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260813055023/https://merchant.pathao.com/api/v1/user/tracking",
+        "date": "2026-08-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "pathao-courier",
+        "confidence": "high"
+      },
+      "note": "An archived reply of Pathao's own tracking API names this consignment and lists its history from the pickup request to dispatch from the central hub."
+    },
+    {
+      "number": "DT0905255BZNFQ",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://unpkg.com/routexpress-bd@0.0.2/README.md",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pathao-courier",
+        "confidence": "high"
+      },
+      "note": "The consignment_id in the Pathao order-status example of the routexpress-bd package README, which reuses it in its Steadfast example; its layout is Pathao's."
+    },
+    {
+      "number": "DL121224VS8TTJ",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://merchant.pathao.com/courier-developer-api",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pathao-courier",
+        "confidence": "high"
+      },
+      "note": "The consignment_id in the webhook sample payloads of Pathao's own courier developer API documentation."
+    },
+    {
+      "number": "DC010822S3ZDUD",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://merchant.pathao.com/courier-developer-api",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "pathao-courier",
+        "confidence": "high"
+      },
+      "note": "The consignment_id in the return-order sample payload of Pathao's own courier developer API documentation. Pathao's tracking lookup answers with its history."
+    }
+  ]
+}

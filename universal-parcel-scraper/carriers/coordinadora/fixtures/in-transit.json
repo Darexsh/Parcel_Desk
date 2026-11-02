@@ -1,0 +1,38 @@
+{
+  "isError": false,
+  "data": [
+    {
+      "codigo_remision": "12300000022",
+      "referencia": null,
+      "estado": [
+        {"hora": "06:12:19", "fecha": "2026-06-03", "codigo": "4", "descripcion": "EN TERMINAL DESTINO", "internacional": false},
+        {"hora": "23:51:40", "fecha": "2026-06-02", "codigo": "3", "descripcion": "EN TRANSPORTE", "internacional": false},
+        {"hora": "11:04:33", "fecha": "2026-06-01", "codigo": "2", "descripcion": "EN TERMINAL ORIGEN", "internacional": false},
+        {"hora": null, "fecha": null, "codigo": "1", "descripcion": "A RECIBIR POR COORDINADORA", "internacional": false}
+      ],
+      "novedad": [
+        {"hora": "17:25:08", "fecha": "2026-06-03", "codigo": "733", "descripcion": "Afectación del tiempo de entrega, guía continuará en el proceso de distribución"},
+        {"hora": "19:40:51", "fecha": "2026-06-02", "codigo": "734", "descripcion": "Unidad en lugar diferente a terminal destino (origen, enlace, destino distinto)"}
+      ],
+      "origen": "CIUDAD MUESTRA (DEP)",
+      "destino": "VILLA EJEMPLO (DEP)",
+      "producto": 6,
+      "dias_promesa_servicio": 2,
+      "nombre_droop": null,
+      "direccion_droop": null,
+      "telefono_droop": null,
+      "horario_droop": null,
+      "codigo_droop": null,
+      "guias": [],
+      "tipoguia": 1,
+      "anterior": null,
+      "reportes": [
+        {"fecha_reporte": "", "fecha_respuesta": "", "codigo_novedad": "734", "descripcion_novedad": "Unidad ubicada en una terminal diferente a la terminal destino (origen, enlace, destino distinto)", "estado": 8, "codigo_tipo_solucion": ""}
+      ],
+      "terminal_droop": 7,
+      "equipo": "901"
+    }
+  ],
+  "timestamp": "2026-06-03T23:00:00.000Z",
+  "id": "0000000000000000000000000000000000000002"
+}

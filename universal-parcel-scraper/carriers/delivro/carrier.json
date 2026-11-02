@@ -1,0 +1,43 @@
+{
+  "id": "delivro",
+  "displayName": "Délivro",
+  "aliases": [
+    "Delivro",
+    "Delivero",
+    "Délivro Messagerie Professionnelle"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#042a43"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://delivro.dsapp.io/customer/{trackingNumber}",
+    "searchUrl": "https://delivro.dsapp.io/customer",
+    "canaryUrl": "https://delivro.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "delivro.dsapp.io"
+      ],
+      "path": "^/customer/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

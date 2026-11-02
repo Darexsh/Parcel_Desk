@@ -1,0 +1,15 @@
+{
+  "carrier": "kyrgyz-post",
+  "entries": [
+    {"wording": "Принято в ПУ", "stage": "accepted", "language": "ru", "confirmedBy": "live", "note": "Taken in at a Kyrgyz post office. The reply names the office after it, sometimes with its postcode, which the adapter drops."},
+    {"wording": "Получить отправление в сортировочном узле (исход.)", "stage": "in_transit", "language": "ru", "confirmedBy": "live", "note": "The UPU's IPS event \"Receive item at office of exchange (Otb)\", relayed from the sending post. The reply adds \"Офис:\" and the office, which the adapter reads as the scan's place."},
+    {"wording": "Вложить отправление в мешок (исх.)", "stage": "in_transit", "language": "ru", "confirmedBy": "live", "note": "The UPU's IPS event \"Insert item into bag (Otb)\", relayed from the sending post. The reply adds \"Офис:\" and the office, which the adapter reads as the scan's place."},
+    {"wording": "Поступило в ЦМПОЛ", "stage": "in_transit", "language": "ru", "confirmedBy": "live", "note": "Arrived at Kyrgyz Post's international mail exchange."},
+    {"wording": "Отправлено из ЦМПОЛ в Бишкек почтамт РФ", "stage": "in_transit", "language": "ru", "confirmedBy": "live", "note": "Sent on from the international exchange to the Bishkek main post office."},
+    {"wording": "Поступило в Бишкек почтамт РФ", "stage": "in_transit", "language": "ru", "confirmedBy": "live"},
+    {"wording": "Отправлено из РФ в отделение связи", "stage": "in_transit", "language": "ru", "confirmedBy": "live", "note": "Sent on to the post office that delivers it. The reply names the office after it."},
+    {"wording": "Поступило в отделение связи", "stage": "in_transit", "language": "ru", "confirmedBy": "live", "note": "Arrived at the post office that delivers it, the last scan before the delivery. The reply names the office after it."},
+    {"wording": "Вручено получателю", "stage": "delivered", "language": "ru", "confirmedBy": "live", "note": "Handed to the recipient. The reply ends it with a space and names nobody."},
+    {"wording": "Отправлено из ЦМПОЛ в заграницу", "stage": "in_transit", "language": "ru", "confirmedBy": "live", "note": "An item posted in Kyrgyzstan sent abroad from the international exchange, the last scan the tracker shows for it."}
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "peqasus-az",
+  "displayName": "Peqasus",
+  "aliases": [
+    "PEQASUS",
+    "Peqasus MMC"
+  ],
+  "region": {
+    "countries": [
+      "AZ"
+    ]
+  },
+  "brand": {
+    "color": "#3665b5"
+  },
+  "selectable": true,
+  "timezone": "Asia/Baku",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://peqasus.az/search?lang=en&parcel_tracking_number={trackingNumber}",
+    "searchUrl": "https://peqasus.az/search",
+    "canaryUrl": "https://peqasus.az/search",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "peqasus.az"
+      ],
+      "pathPattern": "^/search/?$",
+      "params": [
+        "parcel_tracking_number"
+      ]
+    }
+  ],
+  "detection": []
+}

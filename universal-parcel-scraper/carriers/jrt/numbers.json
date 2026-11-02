@@ -1,0 +1,32 @@
+{
+  "carrier": "jrt",
+  "records": [
+    {
+      "number": "JRT9900000001MM",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-14",
+      "expect": {
+        "carrier": "jrt",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of the number JRT's tracker gives as the order's own."
+    },
+    {
+      "number": "UP9900000000000001",
+      "role": "order_reference",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-18",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "jrt"
+        ]
+      },
+      "note": "Made-up number in the shape of a shipper's reference that JRT's tracker finds an order by, UP and sixteen digits."
+    }
+  ]
+}

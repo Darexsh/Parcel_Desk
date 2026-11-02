@@ -1,0 +1,28 @@
+{
+  "carrier": "netpost-vn",
+  "records": [
+    {
+      "number": "893050028378893",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20171012054257/http://netpost.vn:80/",
+        "date": "2017-10-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "Netpost's own former tracking form gave it as the example waybill in its placeholder, on the home page and the tracking page."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "thelorry",
+  "displayName": "TheLorry",
+  "aliases": [
+    "The Lorry",
+    "TheLorry Malaysia",
+    "TheLorry Bulky Express",
+    "The Lorry Online Sdn Bhd",
+    "Beyond by TheLorry"
+  ],
+  "region": {
+    "countries": [
+      "MY",
+      "SG",
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#0a214f"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kuala_Lumpur",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.thelorry.com/parcel/tracking/{trackingNumber}",
+    "searchUrl": "https://tracking.thelorry.com/parcel",
+    "canaryUrl": "https://tracking.thelorry.com/parcel",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.thelorry.com"
+      ],
+      "path": "^/parcel/tracking/([A-Za-z0-9]+)/?$"
+    },
+    {
+      "domains": [
+        "bookings.thelorry.com"
+      ],
+      "path": "^/my/web/tracking/([A-Za-z0-9]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "thelorry-1",
+      "pattern": "^TLZ\\d{7}$",
+      "confidence": "low"
+    }
+  ]
+}

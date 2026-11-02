@@ -1,0 +1,44 @@
+{
+  "id": "zajel",
+  "displayName": "Zajel",
+  "aliases": [
+    "ZAJEL Courier Services",
+    "زاجل"
+  ],
+  "region": {
+    "countries": [
+      "AE"
+    ]
+  },
+  "brand": {
+    "color": "#36b936"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dubai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://zajel.com/trackresults?q={trackingNumber}&type=awb",
+    "searchUrl": "https://zajel.com/track",
+    "canaryUrl": "https://zajel.com/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "zajel.com",
+        "www.zajel.com"
+      ],
+      "pathPattern": "^/trackresults/?$",
+      "query": "^(?=(?:.*&)?type=awb(?:&|$))(?:.*&)?q=([^&]+)(?=&|$)"
+    }
+  ],
+  "detection": []
+}

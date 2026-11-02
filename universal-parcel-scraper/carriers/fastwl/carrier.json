@@ -1,0 +1,46 @@
+{
+  "id": "fastwl",
+  "displayName": "Fast World Logistic",
+  "aliases": [
+    "Fast World Logistic - FWL",
+    "FastWL"
+  ],
+  "region": {
+    "countries": [
+      "FR"
+    ]
+  },
+  "brand": {
+    "color": "#f1592a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Paris",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.fastwl.com/suivre-un-colis/?trackingNumber={trackingNumber}",
+    "searchUrl": "https://www.fastwl.com/suivre-un-colis/",
+    "canaryUrl": "https://www.fastwl.com/suivre-un-colis/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.fastwl.com",
+        "fastwl.com"
+      ],
+      "pathPattern": "^/suivre-un-colis/?$",
+      "params": [
+        "trackingNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

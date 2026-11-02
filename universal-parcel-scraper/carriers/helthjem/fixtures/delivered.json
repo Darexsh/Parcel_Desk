@@ -1,0 +1,23 @@
+{
+  "data": {
+    "getParcelTrackingDetails": {
+      "parcelReference": "370724769990000014",
+      "trackingNumber": "370724769990000014",
+      "shipmentNumber": "70724763999000012",
+      "status": "DELIVERED",
+      "isPostnordProduct": false,
+      "events": [
+        { "apiKey": "013", "status": "DELIVERED", "createdAt": "2026-03-12T03:41:20+01:00", "location": null, "message": { "content": "Pakken er levert i postkassen din!" } },
+        { "apiKey": "013", "status": "DELIVERED", "createdAt": "2026-03-12T03:40:55+01:00", "location": null, "message": { "content": "Pakken er levert i postkassen din!" } },
+        { "apiKey": "003", "status": "IN_TRANSIT", "createdAt": "2026-03-11T22:10:05+01:00", "location": "Sampleby", "message": { "content": "Pakken er under transport." } },
+        { "apiKey": "113", "status": "DELIVERING", "createdAt": "2026-03-11T17:04:02+01:00", "location": null, "message": { "content": "Planlagt levering natt til 12. mars!" } },
+        { "apiKey": "002", "status": "IN_TRANSIT", "createdAt": "2026-03-11T17:02:30+01:00", "location": "Exampletown", "message": { "content": "Vi har mottatt pakken din, og gjør den klar for veien videre." } },
+        { "apiKey": "003", "status": "IN_TRANSIT", "createdAt": "2026-03-11T17:02:10+01:00", "location": "ExampletownSorter", "message": { "content": "Pakken er under transport." } },
+        { "apiKey": "003", "status": "IN_TRANSIT", "createdAt": "2026-03-11T17:02:10+01:00", "location": "ExampletownSorter", "message": { "content": "Pakken er under transport." } },
+        { "apiKey": "001", "status": "REGISTERED", "createdAt": "2026-03-08T21:15:37+01:00", "location": null, "message": { "content": "Nettbutikken har meldt at en pakke er på vei!" } }
+      ],
+      "servicePoint": null,
+      "shop": { "name": "Example Shop" }
+    }
+  }
+}

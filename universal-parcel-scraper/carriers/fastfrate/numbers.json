@@ -1,0 +1,67 @@
+{
+  "carrier": "fastfrate",
+  "records": [
+    {
+      "number": "1064652491",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240828213604/https://apps.fastfrate.com/fastnet/FastNet.aspx?ProbillNo=1064652491",
+        "date": "2024-08-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Archived lookup on Fastfrate's own FastNet quick probill tracker; the capture shows the probill's pickup, delivery status and delivery date."
+    },
+    {
+      "number": "1990472488",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20150412002618/http://www.fastfrate.com:80/fastnet/fastnet.aspx?ProbillNo=1990472488",
+        "date": "2015-04-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Archived lookup on Fastfrate's own FastNet quick probill tracker; the capture shows the probill's pickup date, pieces, weight and estimated delivery."
+    }
+  ]
+}

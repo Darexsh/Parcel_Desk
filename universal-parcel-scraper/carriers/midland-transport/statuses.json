@@ -1,0 +1,13 @@
+{
+  "carrier": "midland-transport",
+  "entries": [
+    {"code": "Shipment Created", "wording": "Shipment Created", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The progress bar's first step. The adapter makes it the first scan, at the page's Shipment Created Date."},
+    {"code": "No Tracking Info", "wording": "Your Shipment has been created. Check back soon for more info once the carrier/courier starts to scan.", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived capture of Midland's tracker. The Activity and Description of the one row the table shows until the courier scans the parcel; the summary word is the Activity then. It repeats the shipment's creation, so the adapter keeps the creation instead."},
+    {"code": "Picked Up", "wording": "Picked up", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived capture of Midland's tracker. The Description column names the terminal in parentheses after it."},
+    {"code": "In Transit", "wording": "Processed at Sort Facility", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The Description column names the terminal in parentheses after it."},
+    {"code": "Delivery Exception", "wording": "Delayed in Transit - CONSIGNEE DELAY", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived capture of Midland's tracker. The Description column names the terminal in parentheses after it."},
+    {"code": "Delivery Exception", "wording": "Delayed in Transit - SHIPPER'S DELAY", "stage": "exception", "language": "en", "confirmedBy": "live", "note": "The Description column names the terminal in parentheses after it."},
+    {"code": "Out For Delivery", "wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "The Description column names the terminal in parentheses after it."},
+    {"code": "Delivered", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The Description column names the delivery town in parentheses after it. The summary word is the Activity."}
+  ]
+}

@@ -1,0 +1,70 @@
+
+<div id="dashboard-features-info">
+	<div class="features-info-container">
+		 <ul class="nav nav-tabs" id="featuresTab">
+			 <li class="active">
+			 	<a class="clear-srch-res relativePos" id="clear-srch-res" onclick="_searchportlet_WAR_searchportlet_clearResults('https://www.myteamge.com/search-shipment?p_p_id=searchportlet_WAR_searchportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_searchportlet_WAR_searchportlet_searchMode=clear-results');">
+			 		<span class="ico-cancelled tab-cnc"></span>
+			 	</a>
+			 	<span class="ico-loading"></span>
+			 </li>
+		</ul>
+	</div>
+	<div class="tab-content">
+		<div class="clearfix quick-srch-results">
+			<div class="content-title download-signIn-check hidden">
+				<span class="total-counter">Displaying 1 search</span>
+			</div>
+			<table border="0" width="100%" id="quickSearchTableResult">
+				<tr class="grid-header hide-in-mob hidden-xs">
+					<th><span class="hide-in-mob">Shipment no.</span></th>
+					<th class="hide-in-mob">References</th>
+					<th class="hide-in-mob">Milestone</th>
+					<th>Sender location</th>
+					<th>Receiver location</th>
+					<th>Estimated/Actual delivery</th>
+					<th class="items">Items</th>
+				</tr>
+					  		<tr class="grid-row-header single-term">
+					  			<td colspan="7" align="left">
+					    			<b>0 shipments</b> matched<span class="srch-term"> 9900000000000</span> in our systems
+								</td>
+					  		</tr>
+						<tr class="grid-row-header no-shipment">
+							<td colspan="7" align="center" valign="middle" class="no-res-found">
+								<div class="clearfix no-res-floter"><i class="ico-not-found"></i><div class="flLeft"><strong>Unfortunately we weren't able to find anything in our systems.</strong><br/>Please check your shipment reference number<br/>or try another reference number that may have been provided to you.</div></div>
+					  		</td>
+						</tr>
+				<tr class="grid-row-footer hidden">
+					<td colspan="7" align="center">
+			  		</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+function _searchportlet_WAR_searchportlet_clearResults(clearResultsUrl) {
+	$('#clear-srch-res .tab-cnc').addClass('hidden-def');
+	$('#clear-srch-res').addClass('active_loader');
+	$$dom.jQ13.ajax({
+		type: "GET",
+		url: clearResultsUrl,
+		cache: false,
+		success: function() {
+			$( '#searchResults' ).empty();
+			$('.progress-bar-image').addClass('hidden-def');
+		},
+		error: function(jqXHR, textStatus, errorThrown) {
+			$('#clear-srch-res .tab-cnc').removeClass('hidden-def');
+			$('#clear-srch-res').removeClass('active_loader');
+		}
+	}); 
+}
+</script>
+<script type="text/javascript">
+    //validayeDeliveryDateFn('quicksearch');
+          if(themeDisplay.isSignedIn()){
+          $('.download-signIn-check').removeClass('hidden');
+          }
+</script>

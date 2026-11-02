@@ -1,0 +1,24 @@
+{
+  "carrier": "x-trac",
+  "records": [
+    {
+      "number": "EXTRA02507913918",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.xtrac-express.com/api-document",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "x-trac",
+        "confidence": "high"
+      },
+      "note": "X-TRAC's own public API documentation uses it as the default input and in the example response of its tracking query, with an In Transit status in Chicago."
+    }
+  ]
+}

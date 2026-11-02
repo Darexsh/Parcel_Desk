@@ -1,0 +1,49 @@
+{
+  "id": "zheldor",
+  "displayName": "Zheldorexpeditsia",
+  "aliases": [
+    "ЖелДорЭкспедиция",
+    "ЖДЭ",
+    "JDE",
+    "JDE.ru"
+  ],
+  "region": {
+    "countries": [
+      "RU",
+      "KZ",
+      "BY"
+    ]
+  },
+  "brand": {
+    "color": "#e6332a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Moscow",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://i.jde.ru/track/?ttn={trackingNumber}",
+    "searchUrl": "https://i.jde.ru/track/",
+    "canaryUrl": "https://i.jde.ru/track/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "i.jde.ru"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "ttn"
+      ]
+    }
+  ],
+  "detection": []
+}

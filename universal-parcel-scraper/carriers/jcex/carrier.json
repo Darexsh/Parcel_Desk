@@ -1,0 +1,84 @@
+{
+  "id": "jcex",
+  "displayName": "JCEX",
+  "aliases": [
+    "JCEX",
+    "Jiacheng International",
+    "Hangzhou Jiacheng International Logistics",
+    "佳成国际",
+    "佳成国际物流有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#0080cc"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "jcex",
+    "steps": [
+      "direct",
+      "origin",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://track.jcex.com/?nums={trackingNumber}",
+    "searchUrl": "https://track.jcex.com/",
+    "helpUrl": "https://enjc.jcex.com/bangzhuzhongxin/lianxiwomen/index.html",
+    "canaryUrl": "https://track.jcex.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "destination_country"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "destination_country"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "eta",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "track.jcex.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "nums"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "jcex-1",
+      "pattern": "^JCZ\\d{10}DH$",
+      "confidence": "high"
+    }
+  ]
+}

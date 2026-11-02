@@ -1,0 +1,14 @@
+{
+  "carrier": "burd-delivery",
+  "entries": [
+    {"code": "registered", "wording": "Vi afventer at modtage pakken fra webshoppen.", "stage": "registered", "language": "da", "confirmedBy": "live", "note": "The status type in the status API's reply, with the text the tracking page and the descriptions API give it."},
+    {"code": "received", "wording": "Vi har modtaget din pakke og den er ankommet på vores terminal.", "stage": "accepted", "language": "da", "confirmedBy": "live", "note": "The status type in the status API's reply, with the text the tracking page and the descriptions API give it."},
+    {"code": "deliveryOnTheWay", "wording": "Pakken er under levering.", "stage": "out_for_delivery", "language": "da", "confirmedBy": "portal", "note": "A status type the tracking page's script names, with the text it and the descriptions API give it."},
+    {"code": "delivered", "wording": "Pakken er leveret.", "stage": "delivered", "language": "da", "confirmedBy": "live", "note": "The status type in the status API's reply, with the text the tracking page and the descriptions API give it."},
+    {"code": "deliveryFailed", "wording": "Vi kunne desværre ikke levere din pakke. Vi forsøger at levere igen indenfor 2 hverdage, før den sendes retur.", "stage": "failed_attempt", "language": "da", "confirmedBy": "portal", "note": "A status type the tracking page's script names, with the text it and the descriptions API give it."},
+    {"code": "returnToSender", "wording": "Det har desværre ikke været muligt at levere forsendelsen, som derfor returneres til afsender.", "stage": "returned", "language": "da", "confirmedBy": "portal", "note": "A status type the tracking page's script names, with the text it and the descriptions API give it."},
+    {"code": "canceled", "wording": "Leveringen blev annulleret.", "stage": "exception", "language": "da", "confirmedBy": "portal", "note": "A status type the tracking page's script names, with the text it and the descriptions API give it. The delivery was cancelled."},
+    {"code": "receivedFlex", "wording": "Leveringen er planlagt til en anden dag.", "stage": "in_transit", "language": "da", "confirmedBy": "portal", "note": "A status type the tracking page's script names, with the text it and the descriptions API give it. The delivery was moved to another day."},
+    {"code": "notReceived", "wording": "Vi har desværre ikke modtaget pakken og kan derfor ikke levere den i aften. Vi forventer at modtage den næste hverdag.", "stage": "exception", "language": "da", "confirmedBy": "portal", "note": "A status type the tracking page's script names, with the text it and the descriptions API give it. The sender did not hand the parcel over in time; Burd expects it the next working day."}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "carrier": "tej-couriers",
+  "entries": [
+    {"wording": "Booked", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Summary badge the tracker's script shows before any further scan."},
+    {"wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Summary badge the tracker's script shows once the history has more than one scan."},
+    {"wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Summary badge the tracker's script shows when a scan mentions a delivery run sheet."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Summary badge the tracker's script shows when a scan reads Delivery Done."}
+  ]
+}

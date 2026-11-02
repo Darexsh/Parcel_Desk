@@ -1,0 +1,63 @@
+{
+  "id": "buffalo-ex",
+  "displayName": "BUFFALO",
+  "aliases": [
+    "BUFFALO International Logistics",
+    "Buffalo International",
+    "Buffaloex",
+    "Buffalo Express"
+  ],
+  "region": {
+    "countries": [
+      "ZA",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#bc8c4d"
+  },
+  "selectable": true,
+  "timezone": "Africa/Johannesburg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.buffaloex.com/tracks.html?order={trackingNumber}",
+    "searchUrl": "https://www.buffaloex.com/tracks.html",
+    "canaryUrl": "https://www.buffaloex.com/tracks.html",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "buffaloex.com"
+      ],
+      "pathPattern": "^/tracks?\\.html$",
+      "params": [
+        "order"
+      ]
+    },
+    {
+      "domains": [
+        "buffaloex.com"
+      ],
+      "pathPattern": "^/express/record/?$",
+      "params": [
+        "order"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "buffalo-ex-1",
+      "pattern": "^BUFZA\\d{10}YQ$",
+      "confidence": "high"
+    }
+  ]
+}

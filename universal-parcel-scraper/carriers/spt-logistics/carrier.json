@@ -1,0 +1,56 @@
+{
+  "id": "spt-logistics",
+  "displayName": "SPT Furniture Logistics",
+  "aliases": [
+    "SPT Logistics",
+    "SPT Furniture Logistic",
+    "SPT Furniture Logistics Sp. z o.o.",
+    "SPT Stempniak Krzysztof",
+    "SPT Krzysztof Stempniak",
+    "SPT Transport Mebli",
+    "SPT – Szybki Profesjonalny Transport"
+  ],
+  "region": {
+    "countries": [
+      "PL",
+      "DE",
+      "AT",
+      "CZ",
+      "SK",
+      "NL",
+      "BE"
+    ]
+  },
+  "brand": {
+    "color": "#0d1240"
+  },
+  "selectable": true,
+  "timezone": "Europe/Warsaw",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://spt-logistics.eu/#sledzenie-przesylek",
+    "canaryUrl": "https://spt-logistics.eu/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "spt-s.pl",
+        "spt-de.eu"
+      ],
+      "pathPattern": "^/status/index\\.html$",
+      "params": [
+        "key"
+      ]
+    }
+  ],
+  "detection": []
+}

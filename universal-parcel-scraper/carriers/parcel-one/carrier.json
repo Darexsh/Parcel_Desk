@@ -1,0 +1,44 @@
+{
+  "id": "parcel-one",
+  "displayName": "PARCEL.ONE",
+  "aliases": [
+    "PARCEL.ONE GmbH"
+  ],
+  "region": {
+    "countries": [
+      "DE"
+    ]
+  },
+  "brand": {
+    "color": "#344b6a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://parcel.one/tracking?trackno={trackingNumber}",
+    "searchUrl": "https://parcel.one/en/tracking/",
+    "canaryUrl": "https://parcel.one/en/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "parcel.one"
+      ],
+      "pathPattern": "^/(?:[a-z]{2}/)?tracking/?$",
+      "params": [
+        "trackno"
+      ]
+    }
+  ],
+  "detection": []
+}

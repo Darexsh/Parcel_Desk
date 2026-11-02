@@ -1,0 +1,59 @@
+{
+  "success": true,
+  "data": {
+    "result": {
+      "tracking_id": "INTLCM0000000000",
+      "driver_name": "Synthetic driver",
+      "recipient_name": "Synthetic recipient",
+      "last_status": {
+        "status": "DEL",
+        "statusCode": "DEL",
+        "step": 4,
+        "timestamp": "2026-01-03T17:00:00Z",
+        "labels": {
+          "shortLabel": {
+            "en": "Delivered"
+          },
+          "longLabel": {
+            "en": "Private details {street}"
+          }
+        }
+      },
+      "status_list": [
+        {
+          "status": "DEL",
+          "statusCode": "DEL",
+          "step": 4,
+          "timestamp": "2026-01-03T17:00:00Z",
+          "labels": {
+            "shortLabel": {
+              "en": "Delivered"
+            }
+          }
+        },
+        {
+          "status": "OFD",
+          "statusCode": "OFD",
+          "step": 3,
+          "timestamp": "2026-01-03T13:00:00Z",
+          "labels": {
+            "shortLabel": {
+              "en": "Out for delivery"
+            }
+          }
+        },
+        {
+          "status": "REC",
+          "statusCode": "REC",
+          "step": 2,
+          "timestamp": "2026-01-02T18:00:00Z",
+          "labels": {
+            "shortLabel": {
+              "en": "Package received at our warehouse"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "yamato-america",
+  "displayName": "Yamato Transport U.S.A.",
+  "aliases": [
+    "Yamato America",
+    "Yamato Transport USA",
+    "Yamato USA",
+    "Yamato Transport U.S.A., Inc."
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#fccf00"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.yamatoamerica.com/tracking/?slipnumber={trackingNumber}",
+    "searchUrl": "https://www.yamatoamerica.com/tracking/",
+    "canaryUrl": "https://www.yamatoamerica.com/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.yamatoamerica.com",
+        "yamatoamerica.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "slipnumber"
+      ]
+    }
+  ],
+  "detection": []
+}

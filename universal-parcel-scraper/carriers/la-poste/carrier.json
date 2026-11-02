@@ -1,0 +1,121 @@
+{
+  "id": "la-poste",
+  "displayName": "La Poste / Colissimo",
+  "aliases": [
+    "Colissimo"
+  ],
+  "region": {
+    "countries": [
+      "FR"
+    ]
+  },
+  "brand": {
+    "color": "#ffcf00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Paris",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "la-poste",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 1000
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "sender_name",
+    "pickup_point",
+    "delivered_at",
+    "provider_code",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.laposte.fr/outils/suivre-vos-envois?code={trackingNumber}",
+    "searchUrl": "https://www.laposte.fr/outils/suivre-vos-envois",
+    "helpUrl": "https://aide.laposte.fr/nous-contacter",
+    "canaryUrl": "https://www.laposte.fr/outils/suivre-vos-envois",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "sender_name",
+      "pickup_point",
+      "recipient_name",
+      "recipient_address"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "sender_name",
+      "pickup_point",
+      "delivered_at"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "laposte.fr"
+      ],
+      "params": [
+        "code",
+        "idShip",
+        "idship"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "la-poste-1",
+      "pattern": "^(?:[1-36-9][A-Z]|5[N-Z])\\d{11}$",
+      "confidence": "high",
+      "checksum": "colissimo"
+    },
+    {
+      "id": "la-poste-4",
+      "pattern": "^870\\d{11}$",
+      "confidence": "high"
+    },
+    {
+      "id": "la-poste-5",
+      "pattern": "^(?:86[3-6]|87[05]|88[05])\\d{11}[0-9A-Z]$",
+      "confidence": "high",
+      "checksum": "dpd"
+    },
+    {
+      "id": "la-poste-6",
+      "pattern": "^(?:870|880)\\d{11}[0-9A-Z]$",
+      "confidence": "low"
+    },
+    {
+      "id": "la-poste-7",
+      "pattern": "^(?:86[3-6]|87[05]|88[05])\\d{11}$",
+      "confidence": "low"
+    },
+    {
+      "id": "la-poste-2",
+      "pattern": "^(?!Z[ACS])[A-Z0-9]{2}\\d{11}$",
+      "confidence": "low"
+    },
+    {
+      "id": "la-poste-3",
+      "pattern": "^(?!(?:PZ|XR|XT|XU|XW|XY))[A-Z]{2}\\d{9}FR$",
+      "confidence": "high",
+      "checksum": "s10"
+    }
+  ]
+}

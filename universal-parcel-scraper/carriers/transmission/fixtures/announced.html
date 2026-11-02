@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+   <head>
+            <title>TransMission - Track & Trace</title>
+      <meta charset='UTF-8'>
+      <meta name="application-name" content="api02" />
+      <meta name="language" content="NL, Nederlands, Dutch" />
+   </head>
+   <body>
+      <a class="sr-only sr-only-focusable" href='#main-content-area'>Skip to main content</a>
+   <div class="content-wrapper active not-login" id='main-content-area'>
+          <header class="header mb-0 delivery-appointment-border">
+        <div class="row m-0">
+            <div class="col-8 text-center align-self-center">
+            <h3>Zending details</h3>
+            </div>
+        </div>
+    </header><br />
+          <div class="main-content small-gutter" role='main'>
+         <div class='row m-0'>
+            <div class='col-12 m-t-n16'>
+               <div class='row order-top-list'>
+                  <div class='col-md-3 box'>
+                     <p class='mb-1 gray-500 subtitle-s2'>Zendingnummer</p>
+                     <h4 class='mb-0 gray-900'>T 12 345678 000003<a title="Kopieer Zendingnummer" onclick="copyValueToClipboard('https://api.trans-mission.nl/tt/T12345678000003/1234AB')" href="#"><span class="fa fa-copy pl-1"></span></a></h4>
+                  </div>
+                  <div class='col-md-3 box'>
+                      <p class='mb-1 gray-500 subtitle-s2'>Ordernummer</p>
+                      <div>
+                          <h4>Ordernummer 1: SYNTH-0003</h4>                      </div>
+                  </div>
+                  <div class='col-md-3 box'>
+                     <p class='mb-1 gray-500 subtitle-s2'>VVA</p>
+                     <h4 class='mb-0 gray-900'>000003</h4>
+                  </div>
+                  <div class='col-md-3 box'>
+                     <p class='mb-1 gray-500 subtitle-s2'>Datum vertrek</p>
+                     <h4 class='mb-0 gray-900'>29-09-2026</h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- row first   -->
+         <div class='row m-0 bg-blue-50 py-2'>
+            <div class='col-12 text-center'>
+               <h2 class='gray-900 s-bold '>Zending aangemeld</h2>
+               <h4 class='gray-500 mt-2'></h4>
+                <p class="body-b2 gray-500">Zending aangemeld</p>
+            </div>
+             <div class="table-responsive"><table class="table  no-margin theme-table"><tr class="clickable-row"><td onClick="$('#div_1').toggle();"><h4 class="mb-1 gray-900 body-b1 font-weight-500">Deellevering 1 (Levering) </h4><div class="col-12" id="div_1"><ul id="progressbar" class="text-center"><li class="step0 active" id="step5"><div class="progressbar-content"><h3 class="body-b1 mb-1">Zending aangemeld<img src="/images/order/TimelineSuccess.svg"></h3><p class="body-b2 gray-500">29-09-2026</p></div></li><li class="step0 " id="step3"></li><li class="step0 " id="step1"></li><li class="step0 " id="step4"></li><li class="step0 " id="step5"></li></ul"></div></table></div></div>
+            <!-- DIV   -->
+         </div>
+         <!-- row 2nd   -->
+         <div class='row m-0'>
+            <div class='col-12 '>
+               <div class='row order-top-list'>
+                       <div class='col-sm-6 col-md-4 box '>
+                           <h6 class='mb-2 gray-500 overline'>Geadresseerde</h6>
+                           <h4 class='mb-1 gray-900 body-b1 font-weight-500'>Piet Monster</h4>
+                           <address class='gray-700 body-b2 mb-1'>
+                               proefpad 9<br/>
+                               1234AB monsterdorp                           </address>
+                       </div>
+                  <!-- BOX   -->
+                  <div class='col-md-4 box '>
+                     <h6 class='mb-2 gray-500 overline'>Aflevering</h6>
+                              <h4 class='mb-1 gray-500 body-b2 font-weight-500'>Verwacht op:</h4>
+                              <h6 class='mb-1 gray-900 body-b2 font-weight-500 mb-2'>
+                                  <span>
+                                      Bezorgtijd nog onbekend                                </span>
+                              </h6>
+                  </div>
+                  <!-- BOX   -->
+               </div>
+            </div>
+         </div>
+         <!-- row 3rd   -->
+         <div class='row m-0'>
+            <div class='col-12 mt-3'>
+               <h4>Verzendeenheden</h4>
+                <div class='table-responsive'>
+                <table class="table  no-margin theme-table"><thead><tr><th>Barcode</th><th>Verzendeenheid</th><th>Gewicht (kg)</th><th>Afmetingen (cm, l x b x h)</th><th># verpakkingen</th><th>ADR</th><th>Omruilen</th><th>Referentie</th><th>Omschrijving</th><th>Status</th><th>Laatste update</th></tr></thead><tbody><tr class="clickable-row" onClick="$('#shipment_unit_details_title').text('T12345678000003001');event.preventDefault();$('#shipment_unit_details' ).html($('#unit_detail_1').html());$('#shipment_unit_details').modal('toggle');" href="#"><td>T12345678000003001</td><td>COL</td><td>18.00</td><td>55 x 55 x 88</td><td>0</td><td></td><td>Nee</td><td style="min-width:150px;"></td><td style="min-width:200px;"></td><td style="min-width:100px;"></td><td style="min-width:100px;"></td></div></div></td></tr></tbody></table>                </div>
+            </div>
+         </div>
+               </div>
+   </div>
+</div>
+</div>
+<div class="modal fade theme-modal" id="unit_detail_1" data-backdrop="static" tabindex="-1" role="dialog" aria-hidden="true">    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="unit_details_title_1">T12345678000003001</h4>
+            </div>
+            <div class="modal-body info-modal scrollbar" id="shipment_unit_details_body_1"">
+            <div class='row mt-3'>
+                <div class='col-12'>
+                    <h4 class='subtitle-s1 gray-900'>Historie</h4>
+                    <div class='table-responsive'>
+                        <table class='table  no-margin theme-table theme-common-table  mb-0'>
+                            <thead>
+                            <tr>
+                                <th>Datum</th>
+                                <th>Tijd</th>
+                                <th>Depot</th>
+                                <th>Zoek code</th>
+                                <th>Status</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   </body>
+</html>

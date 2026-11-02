@@ -1,0 +1,143 @@
+{
+  "id": "dhlink",
+  "displayName": "DHLink",
+  "aliases": [
+    "DHLink",
+    "Dhlink",
+    "驼飞侠",
+    "駝飛俠",
+    "XZG"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#143167"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dhlink",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 995
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.dhlink.com/trackQuery?intlExpressNo={trackingNumber}&lang=en",
+    "searchUrl": "https://www.dhlink.com/trackQuery",
+    "canaryUrl": "https://www.dhlink.com/trackQuery",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "postcodes",
+      "origin_country",
+      "destination_country",
+      "tracking_alias",
+      "delivery_tracking_number",
+      "order_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "postcodes",
+      "origin_country",
+      "tracking_alias",
+      "order_reference"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps",
+      "delivered_at",
+      "service_name",
+      "weight",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "dhlink-1",
+      "pattern": "^FC\\d{13}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhlink-xzg",
+      "pattern": "^XZG\\d{9}WL$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhlink-ylus",
+      "pattern": "^YLUS\\d{10}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhlink-eyt",
+      "pattern": "^EYT\\d{10}HZ$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhlink-qh",
+      "pattern": "^QH\\d{12}FS$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhlink-yf",
+      "pattern": "^YF\\d{10}CN$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhlink-ktdwe",
+      "pattern": "^KTDWE\\d{10}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhlink-yhkj",
+      "pattern": "^YHKJ\\d{10}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhlink-by",
+      "pattern": "^BY\\d{14}CN$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhlink-tdt",
+      "pattern": "^TDT\\d{10}CN$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhlink-yle",
+      "pattern": "^YLE[A-Z]{2}\\d{10}YQ$",
+      "confidence": "low"
+    }
+  ]
+}

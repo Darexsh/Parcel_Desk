@@ -1,0 +1,46 @@
+[
+  {
+    "orderStatus": "Delivered",
+    "orderNumber": "SUF260901ZZZZ0000001",
+    "newOrderNumber": "",
+    "trackingServiceDiscription": "USPS",
+    "trackingNumber": "9200190000000000001235",
+    "destinctCountry": "United States",
+    "originCountry": "Unknown",
+    "originSupplier": "Chukou1",
+    "firstLegTrackingDetails": [
+      { "description": "United States, Turned over to last mile facility", "dateTimeString": "Sep 08 2026 02:11 PM", "viewOrder": 12 },
+      { "description": "United States, Transport to next facility", "dateTimeString": "Sep 08 2026 04:17 AM", "viewOrder": 11 },
+      { "description": "United States, Customs declaration completed", "dateTimeString": "Sep 07 2026 11:02 AM", "viewOrder": 10 },
+      { "description": "United States, Customs clearance in progress", "dateTimeString": "Sep 07 2026 03:30 AM", "viewOrder": 9 },
+      { "description": "United States, Arrived at Airport of destination", "dateTimeString": "Sep 07 2026 01:47 AM", "viewOrder": 8 },
+      { "description": "China, Departed from Airport of Origin", "dateTimeString": "Sep 05 2026 11:38 AM", "viewOrder": 7 },
+      { "description": "China, Arrived at Airport of Origin", "dateTimeString": "Sep 04 2026 08:22 PM", "viewOrder": 6 },
+      { "description": "China, Transfer to Airport of Origin", "dateTimeString": "Sep 04 2026 12:56 PM", "viewOrder": 4 },
+      { "description": "SHENZHEN, China, Item was sent out from Logistics Centre", "dateTimeString": "Sep 03 2026 07:29 AM", "viewOrder": 3 },
+      { "description": "SHENZHEN, China, Item received by Logistics Centre", "dateTimeString": "Sep 02 2026 11:32 PM", "viewOrder": 2 },
+      { "description": "Shipment information received", "dateTimeString": "Sep 01 2026 03:03 PM", "viewOrder": 1 }
+    ],
+    "supplierTrackingDetails": [
+      {
+        "carrierCode": "USPS",
+        "carrierCodeViewOrder": 1,
+        "trackingDetails": [
+          { "description": "SPRINGFIELD, ZZ, 00001, Delivered, In/At Mailbox -> Your item was delivered in or at the mailbox at 1:48 pm on September 12, 2026 in SPRINGFIELD, ZZ 00001.", "dateTimeString": "Sep 12 2026 01:48 PM", "viewOrder": 7 },
+          { "description": "SPRINGFIELD, ZZ, 00001, Out for Delivery", "dateTimeString": "Sep 12 2026 07:20 AM", "viewOrder": 6 },
+          { "description": "SPRINGFIELD, ZZ, 00001, Arrived at Post Office", "dateTimeString": "Sep 12 2026 07:03 AM", "viewOrder": 5 },
+          { "description": "EXAMPLE PROCESSING ANNEX, Departed USPS Regional Facility", "dateTimeString": "Sep 11 2026 01:33 AM", "viewOrder": 4 },
+          { "description": "EXAMPLE PROCESSING ANNEX, Arrived at USPS Regional Facility", "dateTimeString": "Sep 11 2026 01:33 AM", "viewOrder": 3 },
+          { "description": "EXAMPLETOWN, ZZ, 00002, Arrived Shipping Partner Facility, USPS Awaiting Item", "dateTimeString": "Sep 09 2026 08:56 PM", "viewOrder": 2 },
+          { "description": "EXAMPLETOWN, ZZ, 00002, Shipping Label Created, USPS Awaiting Item", "dateTimeString": "Sep 01 2026 11:39 AM", "viewOrder": 1 }
+        ]
+      }
+    ],
+    "lastTrackingDetail": "Sep 12 2026 01:48 PM ----- SPRINGFIELD, ZZ, 00001, Delivered, In/At Mailbox",
+    "lastTrackingDetailType": "carrier",
+    "lastTrackingDetailTypeIndex": 1,
+    "intervalInDay": 11,
+    "destinctPostCode": "00001-0000",
+    "podFromPdf": "JVBERi0xLjQKJVN5bnRoZXRpYwo="
+  }
+]

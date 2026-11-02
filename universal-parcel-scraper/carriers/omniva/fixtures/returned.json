@@ -1,0 +1,86 @@
+{
+  "shipmentBarcode": "CC900000022EE",
+  "currentDeliveryChannel": "PARCEL_MACHINE",
+  "deliveryLocation": {
+    "zip": "10001",
+    "locationName": "Example Centre parcel machine",
+    "servicePointTypeCode": "PARCEL_MACHINE",
+    "countryCode": "EE",
+    "translations": []
+  },
+  "returningShipment": true,
+  "customsDeclarationRequired": false,
+  "events": [
+    {
+      "eventId": 4000001,
+      "eventCode": "TRT_SHIPMENT_REGISTERED",
+      "eventName": "Shipment registered. Shipment has not been handed over to Omniva",
+      "eventDate": "2026-02-01T08:00:00.1Z",
+      "eventParameters": []
+    },
+    {
+      "eventId": 4000002,
+      "eventCode": "TRT_SHIPMENT_STORED_IN_PM",
+      "eventName": "Shipment is ready for collection from the parcel machine",
+      "eventDate": "2026-02-03T09:00:00.2Z",
+      "location": {
+        "zip": "10001",
+        "locationName": "Example Centre parcel machine",
+        "servicePointTypeCode": "PARCEL_MACHINE",
+        "countryCode": "EE",
+        "translations": []
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 4000003,
+      "eventCode": "TRT_SHIPMENT_RETURN",
+      "eventName": "Shipment is being returned to the sender",
+      "eventDate": "2026-02-10T09:00:00.3Z",
+      "eventParameters": []
+    },
+    {
+      "eventId": 4000004,
+      "eventCode": "TRT_SHIPMENT_DEPARTED_FROM_PM",
+      "eventName": "Shipment departed from parcel machine",
+      "eventDate": "2026-02-10T14:00:00.4Z",
+      "location": {
+        "zip": "10001",
+        "locationName": "Example Centre parcel machine",
+        "servicePointTypeCode": "PARCEL_MACHINE",
+        "countryCode": "EE",
+        "translations": []
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 4000005,
+      "eventCode": "TRT_SHIPMENT_STORED_IN_PM",
+      "eventName": "Shipment is ready for collection from the parcel machine",
+      "eventDate": "2026-02-11T10:00:00.5Z",
+      "location": {
+        "zip": "30003",
+        "locationName": "Sample Square parcel machine",
+        "servicePointTypeCode": "PARCEL_MACHINE",
+        "countryCode": "EE",
+        "translations": []
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 4000006,
+      "eventCode": "TRT_SHIPMENT_DELIVERED",
+      "eventName": "Shipment delivered",
+      "eventDate": "2026-02-12T16:00:00.6Z",
+      "location": {
+        "zip": "30003",
+        "locationName": "Sample Square parcel machine",
+        "servicePointTypeCode": "PARCEL_MACHINE",
+        "countryCode": "EE",
+        "translations": []
+      },
+      "eventParameters": []
+    }
+  ],
+  "currentStateCode": "DELIVERED"
+}

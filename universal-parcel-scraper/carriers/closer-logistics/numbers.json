@@ -1,0 +1,104 @@
+{
+  "carrier": "closer-logistics",
+  "records": [
+    {
+      "number": "357215058963",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/pedido-mal-entregado/b3a703e886f1432006",
+        "date": "2026-04-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A public OCU complaint filed against Closer Logistics gives this as Closer's tracking number for a Zara order, next to Zara's own order number. Closer Logistics' tracker answers it as a delivered Zara order."
+    },
+    {
+      "number": "464088037371",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/entrega-paquete/f5298d55d94b08cfbc",
+        "date": "2025-12-09",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A public OCU complaint filed against Closer Logistics gives this as the shipment number of a Zara order it was delivering. Closer Logistics' tracker answers it as a delivered Zara order."
+    },
+    {
+      "number": "464016556441",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/reviews/6894c4dda2e63fdf5a8e7848",
+        "date": "2025-08-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A review on Closer Logistics' Trustpilot page about a failed Zara delivery gives this number, labelled as the order, in Closer's twelve-digit layout. Closer Logistics' tracker answers it as a delivered Zara order."
+    }
+  ]
+}

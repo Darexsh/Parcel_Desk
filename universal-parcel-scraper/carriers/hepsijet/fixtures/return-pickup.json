@@ -1,0 +1,78 @@
+{
+  "status": "OK",
+  "data": [
+    {
+      "arrivalBranch": "Sample R.iade Dağıtım Merkezi",
+      "customerDeliveryNo": "ZZPKP0000004",
+      "barcode": "ZZPKP0000004",
+      "deliveryType": "RETURNED",
+      "currentLocation": "Tepeköy Dağıtım Merkezi",
+      "lastTransaction": "Dağıtım Merkezine Ulaştı",
+      "receiver": "SAMPLE_MERCHANT",
+      "receiverCity": "Örnekşehir",
+      "receiverTown": "ÖRNEKKÖY",
+      "sender": "S***** K*****",
+      "recipientName": "S***** M*****",
+      "deliveryDateCurrent": "2026-06-02",
+      "deliverySlotCurrent": 1,
+      "trackingUrl": "https://hepsijet.com/gonderi-takibi/ZZPKP0000004",
+      "deliveryStatus": "COLLECTED",
+      "operationStatus": "IN_XDOCK",
+      "transactionType": "TAKE_CUSTODY",
+      "transactions": [
+        {
+          "deliveryStatus": "WAITING_FOR_DISPATCH",
+          "operationStatus": "IN_CUSTOMER",
+          "transactionType": "RECEIVE_ORDER",
+          "transactionDateTime": "2026-06-01T13:34:18+03:00",
+          "location": "Alıcıda",
+          "transaction": "İade Siparişi Alındı"
+        },
+        {
+          "deliveryStatus": "WAITING_FOR_DISPATCH",
+          "operationStatus": "IN_CUSTOMER",
+          "transactionType": "SET_APPOINTMENT_DATE",
+          "transactionDateTime": "2026-06-01T13:34:18+03:00",
+          "location": "Alıcıda",
+          "transaction": "Teslim Alma Randevusu Oluşturuldu"
+        },
+        {
+          "deliveryStatus": "COLLECTING",
+          "operationStatus": "IN_CUSTOMER",
+          "transactionType": "APPROVE_COURIER_DEPART",
+          "transactionDateTime": "2026-06-02T10:31:04+03:00",
+          "location": "Alıcıda",
+          "transaction": "Teslim Almaya Çıktı"
+        },
+        {
+          "deliveryStatus": "COLLECTED",
+          "operationStatus": "IN_DELIVERY_TRANSIT",
+          "transactionType": "COLLECT_ATTEMPT",
+          "transactionDateTime": "2026-06-02T12:17:04+03:00",
+          "location": "Dağıtım Aracında",
+          "transaction": "Teslim Alındı - Sample Kişi Örnek (Kendi)"
+        },
+        {
+          "deliveryStatus": "COLLECTED",
+          "operationStatus": "IN_XDOCK",
+          "transactionType": "TAKE_CUSTODY",
+          "transactionDateTime": "2026-06-03T08:10:29+03:00",
+          "location": "Tepeköy Dağıtım Merkezi",
+          "transaction": "Dağıtım Merkezine Ulaştı"
+        }
+      ],
+      "distributionType": {
+        "id": 1,
+        "type": "AT",
+        "description": "Adrese Teslim"
+      },
+      "desi": 1.0,
+      "productName": "Standart Teslimat",
+      "deliveryDatePromised": "2026-06-05T23:59:59+03:00",
+      "liveTracking": true,
+      "recall": false,
+      "deliveryDateOriginal": "2026-06-02",
+      "vendorDelivery": false
+    }
+  ]
+}

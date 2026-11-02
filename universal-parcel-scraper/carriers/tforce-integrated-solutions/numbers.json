@@ -1,0 +1,48 @@
+{
+  "carrier": "tforce-integrated-solutions",
+  "records": [
+    {
+      "number": "358782585",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231129143323/https://tforce-solutions.com/quick-tracking/?tracking=358782585",
+        "date": "2023-11-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on TForce Integrated Solutions' quick tracking page shows it delivered in Quebec."
+    },
+    {
+      "number": "358784414",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231129143134/https://tforce-solutions.com/quick-tracking/?tracking=358784414",
+        "date": "2023-11-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt",
+          "tforce-freight",
+          "xpo-ltl"
+        ]
+      },
+      "note": "An archived lookup on TForce Integrated Solutions' quick tracking page shows it delivered in Quebec."
+    }
+  ]
+}

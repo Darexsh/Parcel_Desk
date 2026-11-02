@@ -1,0 +1,46 @@
+{
+  "id": "dpx-logistics",
+  "displayName": "DPX Logistics",
+  "aliases": [
+    "Document Parcel Express",
+    "Document Parcel Express Co., Ltd.",
+    "DPX eCommerce",
+    "บริษัท ดอคคิวเมนท์ พาร์เซล เอ็กซ์เพรส จำกัด"
+  ],
+  "region": {
+    "countries": [
+      "TH"
+    ]
+  },
+  "brand": {
+    "color": "#003b66"
+  },
+  "selectable": true,
+  "timezone": "Asia/Bangkok",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://dpxlogistics.com/en/track/index.html#{trackingNumber}",
+    "searchUrl": "https://dpxlogistics.com/en/track/",
+    "canaryUrl": "https://dpxlogistics.com/en/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "dpxlogistics.com",
+        "www.dpxlogistics.com"
+      ],
+      "pathPattern": "^/(?:en|th)/track/(?:index\\.html)?$",
+      "fragment": "^(\\d{12})$"
+    }
+  ],
+  "detection": []
+}

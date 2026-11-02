@@ -1,0 +1,16 @@
+{
+  "carrier": "posta-kenya",
+  "entries": [
+    {"wording": "Received the Shipment from customer", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Posted at the counter, in Kenya or, for mail from abroad, at the sending post."},
+    {"wording": "Dispatched", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Received at Exchnage office for dispatch", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Sic. At the office of exchange of the posting country, before it sends the item abroad."},
+    {"wording": "Received at Exchange office for delivery", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Arrived at an office of exchange abroad or in Kenya, on the way or at the destination."},
+    {"wording": "With Customs", "stage": "customs", "language": "en", "confirmedBy": "live"},
+    {"wording": "Shipment returned by customs", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Customs handed the item back to the post, which went on to deliver it: a release, which the shared rules would read as customs."},
+    {"wording": "Received the item", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Received at a Kenyan office from the office named on the place's second line."},
+    {"wording": "Bagged", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Received at location", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Undelivered", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "Followed by the reason and the measure taken, such as the item being held while the addressee is notified."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Followed by who signed and their identity document, which are not read."}
+  ]
+}

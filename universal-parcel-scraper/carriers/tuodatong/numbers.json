@@ -1,0 +1,21 @@
+{
+  "carrier": "tuodatong",
+  "records": [
+    {
+      "number": "TDT1000000017CN",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-30",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhlink",
+          "tuodatong"
+        ]
+      },
+      "note": "Made-up number in the shape of a parcel the app tracked on an air line from China, for which ParcelsApp named Tuodatong and DHLink: TDT, ten digits and CN."
+    }
+  ]
+}

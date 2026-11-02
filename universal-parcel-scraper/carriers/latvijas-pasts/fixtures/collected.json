@@ -1,0 +1,15 @@
+{
+  "status": 1,
+  "data": [
+    { "event_timestamp": "2026-03-12 12:12:56.807", "event_code": "37", "event": "Item delivered", "office_code": "LV9001", "office": "Customer centre: Example", "event_group_sequence_number": 5, "event_group_name": "Delivered" },
+    { "event_timestamp": "2026-03-11 09:30:22.000", "event_code": "1134", "event": "Notification - pick-up invitation printed", "office_code": "LV9001", "office": "Customer centre: Example", "event_group_sequence_number": 4, "event_group_name": "Out for delivery" },
+    { "event_timestamp": "2026-03-11 09:22:09.000", "event_code": "1120", "event": "Item received at delivery office", "office_code": "LV9001", "office": "Customer centre: Example", "event_group_sequence_number": 3, "event_group_name": "In transit" },
+    { "event_timestamp": "2026-03-10 23:24:49.000", "event_code": "1113", "event": "Item sent to delivery facility", "office_code": "LVSMPA", "office": "SAMPLE EXCHANGE (PARCELS)", "next_office_code": "901", "next_office": "Customer centre: Example", "event_group_sequence_number": 3, "event_group_name": "In transit" },
+    { "event_timestamp": "2026-03-09 09:04:46.557", "event_code": "30", "event": "Item arrived at office of exchange", "office_code": "LVSMPA", "office": "SAMPLE EXCHANGE (PARCELS)", "event_group_sequence_number": 3, "event_group_name": "In transit" },
+    { "event_timestamp": "2026-03-07 08:15:00", "event_code": "12", "event": "Item sent abroad (EDI-received)", "country_code": "DE", "country": "GERMANY", "event_group_sequence_number": 3, "event_group_name": "In transit" },
+    { "event_timestamp": "2026-03-07 03:23:00", "event_code": "3", "event": "Item arrived at office of exchange", "country_code": "DE", "country": "GERMANY", "event_group_sequence_number": 3, "event_group_name": "In transit" },
+    { "event_timestamp": "2026-03-07 03:23:00", "event_code": "8", "event": "Item sent abroad", "country_code": "DE", "country": "GERMANY", "event_group_sequence_number": 3, "event_group_name": "In transit" },
+    { "event_timestamp": "2026-03-06 09:06:00", "event_code": "1", "event": "Item posted / received from customer", "country_code": "DE", "country": "GERMANY", "event_group_sequence_number": 2, "event_group_name": "Accepted" },
+    { "event_timestamp": "2026-03-06 09:06:00", "event_code": "1", "event": "Item posted / received from customer", "country_code": "DE", "country": "GERMANY", "event_group_sequence_number": 2, "event_group_name": "Accepted" }
+  ]
+}

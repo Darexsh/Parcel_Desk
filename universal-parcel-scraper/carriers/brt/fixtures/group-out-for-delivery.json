@@ -1,0 +1,26 @@
+{
+  "parcelNumber": "99000000000002",
+  "shipmentId": "99000000000002",
+  "shipmentOriginalCode": "99000000000002",
+  "status": { "status": 4, "description": "PARCEL_OUT_FOR_DELIVERY", "deliveryType": "HOME", "eventDateAndTime": "2026-10-30T08:50:13", "eventDateAndTimeZoneId": "Europe/Rome", "city": null, "countryCode": "IT", "homeDelivery": true },
+  "deliveryDate": "2026-10-30",
+  "parcelSearchType": "BY_PARCEL_NUMBER",
+  "fmpRedirectionPossibility": false,
+  "parcelHistory": [
+    { "status": 1, "description": "PARCEL_HANDED", "deliveryType": null, "eventDateAndTime": "2026-10-28T18:38:11", "eventDateAndTimeZoneId": "+01:00", "city": null, "countryCode": null, "homeDelivery": false },
+    { "status": 2, "description": "IN_TRANSIT", "deliveryType": null, "eventDateAndTime": "2026-10-28T22:56:06", "eventDateAndTimeZoneId": "+01:00", "city": null, "countryCode": null, "homeDelivery": false },
+    { "status": 3, "description": "AT_DELIVERY_CENTER", "deliveryType": null, "eventDateAndTime": "2026-10-30T07:43:09", "eventDateAndTimeZoneId": "+01:00", "city": null, "countryCode": null, "homeDelivery": false },
+    { "status": 4, "description": "PARCEL_OUT_FOR_DELIVERY", "deliveryType": null, "eventDateAndTime": "2026-10-30T08:50:13", "eventDateAndTimeZoneId": "+01:00", "city": null, "countryCode": null, "homeDelivery": false }
+  ],
+  "actionBoxStatus": "DISABLED",
+  "parcelType": "INCOMING",
+  "type": "NORMAL",
+  "refused": false,
+  "confirmation": "FALSE",
+  "returning": false,
+  "digitalLabelAvailable": false,
+  "shipmentBUCode": "023",
+  "isPredictiveDate": false,
+  "isMasterParcel": true,
+  "shipmentType": "SHIPMENT"
+}

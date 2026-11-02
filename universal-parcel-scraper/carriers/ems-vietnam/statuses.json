@@ -1,0 +1,29 @@
+{
+  "carrier": "ems-vietnam",
+  "entries": [
+    {"code": "EMA", "wording": "Chấp nhận gửi (Posting / Collection)", "stage": "accepted", "language": "vi", "confirmedBy": "live", "note": "Followed by the accepting office and a customer-service contact in brackets, left out here."},
+    {"wording": "Đã phân hướng lấy hàng (Data out for Pickup)", "stage": "registered", "language": "vi", "confirmedBy": "live", "note": "A courier is assigned to collect the parcel from the sender."},
+    {"wording": "Đang đi thu gom", "stage": "registered", "language": "vi", "confirmedBy": "live", "note": "The courier is on the way to collect the parcel."},
+    {"wording": "Nhận hàng thành công (Picked up)", "stage": "accepted", "language": "vi", "confirmedBy": "live"},
+    {"wording": "Phát hành phiếu nhờ thu", "language": "vi", "confirmedBy": "live", "unmapped": true, "note": "The slip for a cash-on-delivery amount, issued at acceptance; it moves nothing."},
+    {"wording": "Đi khỏi bưu cục (Departure from PO)", "stage": "in_transit", "language": "vi", "confirmedBy": "live"},
+    {"wording": "Đã vận chuyển đi khỏi bưu cục (Transport departure from PO)", "stage": "in_transit", "language": "vi", "confirmedBy": "live"},
+    {"wording": "Đã vận chuyển đến bưu cục (Transport arrival at PO)", "stage": "in_transit", "language": "vi", "confirmedBy": "live"},
+    {"wording": "Xác nhận đến bưu gửi theo túi, Arrival at PO by Postbag", "stage": "in_transit", "language": "vi", "confirmedBy": "live"},
+    {"wording": "Đã đến bưu cục (Arrival at PO)", "stage": "in_transit", "language": "vi", "confirmedBy": "live"},
+    {"code": "EDG", "wording": "Đã giao bưu tá phát - Item out for physical delivery", "stage": "out_for_delivery", "language": "vi", "confirmedBy": "live"},
+    {"wording": "Routed", "language": "vi", "confirmedBy": "live", "unmapped": true, "note": "The item joins a delivery round, at the same second as its out-for-delivery scan; it moves nothing on its own."},
+    {"code": "EMH", "wording": "Phát không thành công (Attempted / Unsuccessful delivery)", "stage": "failed_attempt", "language": "vi", "confirmedBy": "live", "note": "The delivery table gives the reason, such as the recipient being away; the adapter does not read it."},
+    {"code": "EMI", "wording": "Phát thành công (Delivered)", "stage": "delivered", "language": "vi", "confirmedBy": "live"},
+    {"wording": "Đã thu tiền khách hàng", "language": "vi", "confirmedBy": "live", "unmapped": true, "note": "The cash-on-delivery amount taken from the recipient, beside the delivery scan; it moves nothing."},
+    {"wording": "Đã thu tiền bưu tá", "language": "vi", "confirmedBy": "live", "unmapped": true, "note": "The office takes the cash the postman collected, after the delivery; it moves nothing."},
+    {"wording": "Chấp nhận gửi", "stage": "accepted", "language": "vi", "confirmedBy": "portal", "note": "Followed by a customer-service contact in brackets. Seen in an archived reply of EMS Vietnam's tracking API, which its tracking page calls."},
+    {"wording": "Đã đóng chuyến thư đi", "stage": "in_transit", "language": "vi", "confirmedBy": "portal", "note": "Dispatched in an outgoing mail bag. Seen in an archived reply of EMS Vietnam's tracking API, which its tracking page calls."},
+    {"wording": "[BĐ8]Đã xác nhận đi", "stage": "in_transit", "language": "vi", "confirmedBy": "portal", "note": "Departure confirmed. Seen in an archived reply of EMS Vietnam's tracking API, which its tracking page calls."},
+    {"wording": "[BĐ8]Đã tới bưu cục nhận", "stage": "in_transit", "language": "vi", "confirmedBy": "portal", "note": "Arrived at the receiving office. Seen in an archived reply of EMS Vietnam's tracking API, which its tracking page calls."},
+    {"wording": "Đã xác nhận đến", "stage": "in_transit", "language": "vi", "confirmedBy": "portal", "note": "Arrival confirmed. Seen in an archived reply of EMS Vietnam's tracking API, which its tracking page calls."},
+    {"wording": "Đã giao cho bưu tá", "stage": "out_for_delivery", "language": "vi", "confirmedBy": "portal", "note": "Followed by the postman's name and phone, left out here. Seen in an archived reply of EMS Vietnam's tracking API, which its tracking page calls."},
+    {"wording": "Phát thành công", "stage": "delivered", "language": "vi", "confirmedBy": "portal", "note": "Seen in an archived reply of EMS Vietnam's tracking API, which its tracking page calls."},
+    {"wording": "Đã phát thành công", "stage": "delivered", "language": "vi", "confirmedBy": "portal", "note": "The delivery summary line, followed by the receiver and a remark, left out here. Seen in an archived reply of EMS Vietnam's tracking API, which its tracking page calls."}
+  ]
+}

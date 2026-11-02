@@ -1,0 +1,103 @@
+{
+  "id": "ecourier",
+  "displayName": "eCourier",
+  "aliases": [
+    "eCourier Ltd",
+    "Ecourier",
+    "eCourier Bangladesh"
+  ],
+  "region": {
+    "countries": [
+      "BD"
+    ]
+  },
+  "brand": {
+    "color": "#602d90"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dhaka",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ecourier",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 743
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "service_name",
+    "offset_timestamps",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://ecourier.com.bd/tracking?tracking_no={trackingNumber}",
+    "searchUrl": "https://ecourier.com.bd/tracking/",
+    "canaryUrl": "https://ecourier.com.bd/tracking/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "delivered_at",
+      "awb_date",
+      "transit_time",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "staff_details",
+      "driver_name",
+      "contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "offset_timestamps",
+      "delivered_at"
+    ],
+    "discarded": [
+      "awb_date",
+      "transit_time",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "staff_details",
+      "driver_name",
+      "contact_details"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "provider_code",
+      "proof_of_delivery",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "ecourier.com.bd",
+        "www.ecourier.com.bd"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "tracking_no"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "ecourier-1",
+      "pattern": "^ECR\\d{10,16}$",
+      "confidence": "high"
+    }
+  ]
+}

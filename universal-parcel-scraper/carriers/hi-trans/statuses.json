@@ -1,0 +1,20 @@
+{
+  "carrier": "hi-trans",
+  "entries": [
+    {"code": "7", "wording": "Awaiting Pickup Allocation", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. The consignment is waiting to be allocated to a fleet for pickup."},
+    {"code": "10", "wording": "Pickup Allocated", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. Allocated to a fleet for pickup."},
+    {"code": "12", "wording": "Pickup Acknowledged", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. The fleet acknowledged the pickup allocation."},
+    {"code": "15", "wording": "Arrived at Sender", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. The pickup fleet arrived at the pickup location; the freight is not yet collected."},
+    {"code": "21", "wording": "Departed Sender", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. The fleet completed the pickup."},
+    {"code": "22", "wording": "Futile Pickup", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. The fleet could not pick the consignment up."},
+    {"code": "25", "wording": "Unshipped", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. Waiting at the depot to be placed on a linehaul truck."},
+    {"code": "40", "wording": "Manifested - Pending Arrival", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. Placed on a linehaul manifest."},
+    {"code": "47", "wording": "Arrived at Receiving Depot", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation."},
+    {"code": "50", "wording": "Delivery Allocated", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. Put on a local truck or with a freight forwarder for delivery."},
+    {"code": "52", "wording": "Arrived at Receiver", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. The delivery fleet arrived at the delivery location; delivery is not yet complete."},
+    {"code": "56", "wording": "Departed Receiver", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. The consignment was delivered at the delivery location."},
+    {"code": "58", "wording": "Futile Delivery", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "Status in Hi-Trans Express's Freight API documentation. The consignment could not be delivered to the delivery location."},
+    {"code": "21", "wording": "Departed Sender / Pickup Complete", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Label of status 21 in Hi-Trans Express's freight status webhook documentation."},
+    {"code": "56", "wording": "Departed Receiver / Delivery Complete", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Label of status 56 in Hi-Trans Express's freight status webhook documentation; the event carries the proof of delivery."}
+  ]
+}

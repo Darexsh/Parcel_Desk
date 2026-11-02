@@ -1,0 +1,46 @@
+{
+  "id": "dd-express",
+  "displayName": "DD Express",
+  "aliases": [
+    "DD Cold Chain",
+    "DD Express Sdn Bhd",
+    "滴滴冷链物流"
+  ],
+  "region": {
+    "countries": [
+      "MY",
+      "SG"
+    ]
+  },
+  "brand": {
+    "color": "#4ec1ea"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kuala_Lumpur",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.dd.express/?tracking_ids={trackingNumber}",
+    "searchUrl": "https://tracking.dd.express/",
+    "canaryUrl": "https://tracking.dd.express/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.dd.express"
+      ],
+      "params": [
+        "tracking_ids"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,123 @@
+{
+  "carrier": "fez-delivery",
+  "records": [
+    {
+      "number": "4OUQ20062402",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240628115621/https://web.fezdelivery.co/track-delivery/4OUQ20062402",
+        "date": "2024-06-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "fez-delivery"
+        ]
+      },
+      "note": "An archived address of Fez Delivery's own tracker for this order; its tracker finds it, delivered."
+    },
+    {
+      "number": "1T7002122309",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://fez-delivery-co.gitbook.io/fezcorporate-api-docs/api-endpoints/orders/track.md",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz",
+          "fez-delivery"
+        ]
+      },
+      "note": "Fez Delivery's corporate API documentation gives this order number in its order tracking example."
+    },
+    {
+      "number": "6XUK13072630",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://fez-delivery-co.gitbook.io/fezcorporate-api-docs/api-endpoints/orders/get.md",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "fez-delivery"
+        ]
+      },
+      "note": "Fez Delivery's corporate API documentation gives this order number in its order lookup example."
+    },
+    {
+      "number": "ASAC27012319",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://fez-delivery-co.gitbook.io/fezcorporate-api-docs/api-endpoints/orders/create.md",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "fez-delivery"
+        ]
+      },
+      "note": "Fez Delivery's corporate API documentation gives this order number in its order creation example."
+    },
+    {
+      "number": "JHAZ27012319",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://fez-delivery-co.gitbook.io/fezcorporate-api-docs/api-endpoints/orders/create.md",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post",
+          "colis-prive",
+          "fez-delivery"
+        ]
+      },
+      "note": "Fez Delivery's corporate API documentation gives this order number in its order creation example."
+    }
+  ]
+}

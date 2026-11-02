@@ -1,0 +1,271 @@
+{
+  "carrier": "ozon-logistics",
+  "records": [
+    {
+      "number": "pl-001198-94228",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20211208144941/https://tracking.ozon-dostavka.ru/?SearchId=pl-001198-94228",
+        "date": "2021-12-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Ozon Rocket's own tracker; the capture shows this order code with its history from registration to delivery."
+    },
+    {
+      "number": "pl-011249-8925",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20211201183430/https://rocket.ozon.ru/tracking?SearchId=pl-011249-8925",
+        "date": "2021-12-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "amazon-logistics",
+          "ozon-logistics"
+        ]
+      },
+      "note": "An archived lookup on Ozon Rocket's own tracker; the capture shows this order code with its history from registration to delivery."
+    },
+    {
+      "number": "pl-000256-54347",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20211231104341/https://tracking.ozon-dostavka.ru/?SearchId=pl-000256-54347",
+        "date": "2021-12-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Ozon Rocket's own tracker; the capture shows this order code ready for pickup."
+    },
+    {
+      "number": "pl-016764-220217-181415",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220218132149/https://rocket.ozon.ru/tracking/?SearchId=pl-016764-220217-181415",
+        "date": "2022-02-18",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ozon Rocket's own tracker, as an archived address shows; the opened capture holds only the loading page, not the history."
+    },
+    {
+      "number": "PL-156191-93113594-0005-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240625153910/https://rocket.ozon.ru/tracking/?SearchId=PL-156191-93113594-0005-1",
+        "date": "2024-06-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ozon Rocket's own tracker, as an archived address shows; the opened capture holds only the page title, not the history."
+    },
+    {
+      "number": "65213499-0126-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250702192357/https://tracking.ozon.ru/?track=65213499-0126-1&__rr=1",
+        "date": "2025-07-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ozon's own tracker, as an archived address shows; the opened capture holds only the script-driven page, not the history."
+    },
+    {
+      "number": "61360890-0720-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250720131532/https://tracking.ozon.ru/?track=61360890-0720-1&__rr=1",
+        "date": "2025-07-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ozon's own tracker, as an archived address shows; the capture was not opened, and the page loads its history by script."
+    },
+    {
+      "number": "46224580-0119-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250730051622/https://tracking.ozon.ru/?track=46224580-0119-1&__rr=7",
+        "date": "2025-07-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ozon's own tracker, as an archived address shows; the capture was not opened, and the page loads its history by script."
+    },
+    {
+      "number": "0116669519-0027-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250213184736/https://tracking.ozon.ru/?track=0116669519-0027-1&__rr=3",
+        "date": "2025-02-13",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ozon's own tracker, as an archived address shows; the capture was not opened, and the page loads its history by script."
+    },
+    {
+      "number": "0165187577-0083-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250618152719/https://tracking.ozon.ru/?track=0165187577-0083-1&__rr=5",
+        "date": "2025-06-18",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ozon's own tracker, as an archived address shows; the capture was not opened, and the page loads its history by script."
+    },
+    {
+      "number": "26717872-0145-2",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250829082838/https://rocket.ozon.ru/tracking/?SearchId=26717872-0145-2",
+        "date": "2025-08-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ozon Rocket's tracker, as an archived address shows; the capture is a redirect to the bot check and was not opened, so no history is visible."
+    },
+    {
+      "number": "07148901-0078-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241226132642/https://rocket.ozon.ru/tracking/?SearchId=07148901-0078-1",
+        "date": "2024-12-26",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "Looked up on Ozon Rocket's tracker, as an archived address shows; the capture is a redirect to the bot check and was not opened, so no history is visible."
+    },
+    {
+      "number": "0143399352-0060-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://1track.ru/tracking/ozon",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "A public tracking discussion gives the complete posting; the official guest tracking API returns its dated history through collection."
+    },
+    {
+      "number": "0138484693-0209-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://1track.ru/tracking/Ozon",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ozon-logistics",
+        "confidence": "high"
+      },
+      "note": "A public tracking discussion gives the complete posting; the official guest tracking API returns its dated history through cancellation."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "geswl",
+  "displayName": "GESWL Express",
+  "aliases": [
+    "ZCE",
+    "ZCE - Geswl Express",
+    "GESWL",
+    "GESWL Global Express",
+    "Shanghai Yisu International Logistics",
+    "翼速国际物流",
+    "翼速國際物流",
+    "上海翼速国际物流有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "JP"
+    ]
+  },
+  "brand": {
+    "color": "#01419a"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.geswl.com:8088/ld_express//businessExpressController.do?gotrack&ids={trackingNumber}",
+    "searchUrl": "https://www.geswl.com/",
+    "canaryUrl": "https://www.geswl.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.geswl.com"
+      ],
+      "pathPattern": "^/ld_express//?businessExpressController\\.do$",
+      "params": [
+        "ids"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+<meta charset="UTF-8">
+<title>Seguimiento de envío | Celeritas</title>
+<link rel="alternate" hreflang="es-ES" href="/seguimiento-paquete-pedidos"/>
+<link rel="alternate" hreflang="en-GB" href="/en/order-package-tracking/"/>
+</head>
+<body class="page-template-default page">
+<main id="qodef-page-outer">
+    <div class="elementor-element elementor-widget elementor-widget-heading">
+        <h3 class="elementor-heading-title elementor-size-default">Seguimiento de tu pedido</h3>
+    </div>
+    <div class="elementor-element elementor-widget elementor-widget-shortcode">
+        <div class="elementor-widget-container">
+            <div class="elementor-shortcode">
+                <form action="" method="post" id="form1">
+                    <input type="hidden" id="form_nonce_name" name="form_nonce_name" value="0a1b2c3d4e"/>
+                    <input type="hidden" name="_wp_http_referer" value="/seguimiento-paquete-pedidos"/>
+                    <input type="hidden" value="mostrarEstados" name="method" id="method">
+                    <input class="wpcf7-form-control wpcf7-text" type="text" id="buscar-otro-paquete" name="identificador" placeholder="Introduzca el ID del envío" class="required">
+                    <button class="wpcf7-form-control wpcf7-submit botonlocalizar" type="submit"><span class="qodef-m-button-text">Localizar</span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-widget elementor-widget-shortcode">
+        <div class="elementor-widget-container">
+            <div class="desplazador"></div>
+            <div class="elementor-shortcode">
+                <main>
+                    <div class="modal fade in" id="problemas-identificacion-paquete" style="display: block; padding-right: 0px;">
+                        <div class="modal-backdrop fade in"></div>
+                        <div class="modal-dialog in fade">
+                            <div class="modal-content">
+                                <!-- <a href="https://mig.celeritastransporte.com" class="close"></a> -->
+                                <div class="ico-warning"></div>
+                                <h3>Esta referencia no existe</h3>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+</main>
+<footer id="colophon" role="contentinfo"><p>Celeritas Transporte y Logística</p></footer>
+<!-- verde #009aab naranja #EE7D00 -->
+</body>
+</html>

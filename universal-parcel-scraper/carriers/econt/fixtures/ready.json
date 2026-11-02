@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "errors": [{ "code": null, "message": "" }],
+  "operationId": null,
+  "tracks": [
+    {
+      "isImported": true,
+      "waybillNumber": 9000000000002,
+      "receiverName": "",
+      "senderName": "",
+      "shipmentPackCount": 1,
+      "shortDeliveryStatus": "В офис",
+      "storage": "Образцово - Примерна",
+      "isFound": true,
+      "trace": [
+        { "event": "office", "isReceipt": false, "name": "Примерград Център", "nameLatin": "Primergrad Tsentar", "time": "2026-07-08 16:05:00" },
+        { "event": "courier_direction", "isReceipt": false, "name": "Примерград - Образцово", "nameLatin": "Primergrad - Obraztsovo", "time": "2026-07-08 18:30:00" },
+        { "event": "office", "isReceipt": false, "name": "Образцово ЛЦ", "nameLatin": "Obraztsovo LC", "time": "2026-07-09 02:40:00" },
+        { "event": "office", "isReceipt": false, "name": "Образцово - Примерна", "nameLatin": "Obraztsovo - Primerna", "time": "2026-07-09 03:10:00" }
+      ],
+      "shortDeliveryStatusLatin": "At office"
+    }
+  ]
+}

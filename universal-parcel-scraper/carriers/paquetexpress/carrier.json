@@ -1,0 +1,99 @@
+{
+  "id": "paquetexpress",
+  "displayName": "Paquetexpress",
+  "aliases": [
+    "Paquete Express",
+    "PaquetExpress",
+    "Operadora de Servicios Paquetexpress"
+  ],
+  "region": {
+    "countries": [
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#002a52"
+  },
+  "selectable": true,
+  "timezone": "America/Mexico_City",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "paquetexpress",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 35
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "delivered_at",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://www.paquetexpress.com.mx/rastreo/{trackingNumber}",
+    "searchUrl": "https://www.paquetexpress.com.mx/rastreo",
+    "canaryUrl": "https://www.paquetexpress.com.mx/rastreo",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "estimated_delivery",
+      "service_type",
+      "origin",
+      "destination",
+      "customer_reference",
+      "signature",
+      "proof_of_delivery",
+      "branch_addresses",
+      "recipient_name",
+      "sender_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "estimated_delivery",
+      "delivered_at",
+      "provider_code",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "progress_rail",
+      "service_type",
+      "origin",
+      "destination",
+      "customer_reference",
+      "signature",
+      "proof_of_delivery",
+      "branch_addresses",
+      "recipient_name",
+      "sender_name"
+    ],
+    "unavailable": [
+      "weight",
+      "dimensions",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "paquetexpress.com.mx"
+      ],
+      "path": "^/(?:en/)?rastreo/([^/?#-]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "paquetexpress-1",
+      "pattern": "^[A-Z]{3}\\d{2}[A-Z]{2}\\d{5,7}$",
+      "confidence": "low"
+    }
+  ]
+}

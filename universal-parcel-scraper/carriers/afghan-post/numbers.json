@@ -1,0 +1,24 @@
+{
+  "carrier": "afghan-post",
+  "records": [
+    {
+      "number": "RB328987445HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20110427165740/http://afghanpost.gov.af:80/track/index.php?ID=RB328987445HK&Submit=Track+It+",
+        "date": "2011-04-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Afghan Post's former eTracking page shows this letter posted in Afghanistan for Hong Kong leaving its Kabul office of exchange."
+    }
+  ]
+}

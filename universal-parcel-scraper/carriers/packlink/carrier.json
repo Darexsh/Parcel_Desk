@@ -1,0 +1,86 @@
+{
+  "id": "packlink",
+  "displayName": "Packlink",
+  "aliases": [
+    "Packlink PRO",
+    "Packlink Shipping"
+  ],
+  "region": {
+    "countries": [
+      "ES",
+      "FR",
+      "IT",
+      "DE",
+      "PT",
+      "NL"
+    ]
+  },
+  "brand": {
+    "color": "#ff4f00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "packlink",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 981
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "eta",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "searchUrl": "https://www.packlink.es/seguimiento-envios/",
+    "canaryUrl": "https://www.packlink.es/seguimiento-envios/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "parcel_count",
+      "delivery_tracking_number",
+      "postcodes",
+      "coordinates",
+      "offset_timestamps"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "eta",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "location",
+      "parcel_count",
+      "postcodes",
+      "coordinates",
+      "offset_timestamps"
+    ],
+    "unavailable": [
+      "delivery_partner",
+      "weight",
+      "dimensions",
+      "service_name",
+      "sender_name",
+      "recipient_name"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "packlink-1",
+      "pattern": "^[A-Z]{2}20\\d{2}(?:COM|PRO)\\d{10}$",
+      "confidence": "high"
+    }
+  ]
+}

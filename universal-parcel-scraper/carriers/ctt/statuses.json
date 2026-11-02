@@ -1,0 +1,16 @@
+{
+  "carrier": "ctt",
+  "entries": [
+    { "code": "1", "language": "pt", "wording": "Aguarda entrada nos CTT", "stage": "registered", "confirmedBy": "live", "firstSeen": "2026-09-10", "note": "Shipment announced, not yet accepted." },
+    { "code": "2", "language": "pt", "wording": "Aceite", "stage": "accepted", "confirmedBy": "live", "firstSeen": "2026-09-10", "note": "CTT accepted the item and started the shipment." },
+    { "code": "5", "language": "pt", "wording": "Devolvido", "stage": "returned", "confirmedBy": "live", "firstSeen": "2026-09-10", "note": "Handed back to the sender." },
+    { "code": "7", "language": "pt", "wording": "Em entrega", "stage": "out_for_delivery", "confirmedBy": "live", "firstSeen": "2026-09-10", "note": "" },
+    { "code": "8", "language": "pt", "stage": "in_transit", "confirmedBy": "prior-art", "firstSeen": "2026-09-10", "note": "" },
+    { "code": "10", "language": "pt", "wording": "O envio foi selecionado para apresentação à Alfândega.", "stage": "customs", "confirmedBy": "live", "firstSeen": "2026-09-10", "note": "Mail from abroad selected for presentation to customs." },
+    { "code": "10", "language": "pt", "wording": "Foi enviada notificação ao destinatário. O envio está em desalfandegamento.", "stage": "customs", "confirmedBy": "live", "firstSeen": "2026-10-16", "note": "The recipient was notified while the item clears customs." },
+    { "code": "11", "language": "pt", "wording": "Em trânsito", "stage": "in_transit", "confirmedBy": "prior-art", "firstSeen": "2026-09-10", "note": "" },
+    { "code": "12", "language": "pt", "wording": "Entregue", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-09-10", "note": "Delivered; seen on the delivered parcel checked live." },
+    { "code": "13", "language": "pt", "wording": "Não entregue", "stage": "failed_attempt", "confirmedBy": "live", "firstSeen": "2026-09-10", "note": "" },
+    { "code": "14", "language": "pt", "wording": "No ponto de entrega", "stage": "ready_for_pickup", "confirmedBy": "live", "firstSeen": "2026-09-10", "note": "" }
+  ]
+}

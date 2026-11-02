@@ -1,0 +1,26 @@
+{
+  "encontrado": true,
+  "expedicion": {
+    "numero": "700000000025",
+    "referencia": "SAMPLE-0002",
+    "localizador": "7000000000250BBB",
+    "estado": "EN TU CIUDAD",
+    "bultos": 1,
+    "fechaObjetivo": "2026-04-03",
+    "intentos": 0,
+    "remitente": {
+      "poblacion": "Sample Origin",
+      "codigoPostal": "9990000",
+      "delegacion": { "codigo": 900, "nombre": "Cd Sample" }
+    },
+    "destino": {
+      "poblacion": "Sample Port",
+      "delegacion": { "codigo": 902, "nombre": "Sample Port" }
+    },
+    "eventos": [
+      { "fecha": "2026-04-02", "hora": "08:03", "descripcion": "Llego a tu ciudad", "delegacion": { "codigo": 902, "nombre": "Sample Port" }, "codigo": "LLEG" },
+      { "fecha": "2026-04-01", "hora": "22:47", "descripcion": "En viaje a destino", "delegacion": { "codigo": 900, "nombre": "Cd Sample" }, "codigo": "CPCE" },
+      { "fecha": "2026-04-01", "hora": "15:10", "descripcion": "Envio admitido", "delegacion": { "codigo": 900, "nombre": "Cd Sample" }, "codigo": "ALTA" }
+    ]
+  }
+}

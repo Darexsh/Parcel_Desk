@@ -1,0 +1,239 @@
+{
+  "carrier": "hongkong-post",
+  "records": [
+    {
+      "number": "LP157079155HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12329081017",
+        "date": "2026-06-20"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "AliExpress item to Japan; the page does not name the carrier. Hongkong Post's tracking returns its history and its chatbot the same latest status."
+    },
+    {
+      "number": "RE113184005HK",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/marcoesposito1988/trackingmore-python"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "Open-source project example, not a real shipment."
+    },
+    {
+      "number": "EA322573658HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/my-speed-post-from-hong-kong-is-held-by-customs-for-23-days-118363/",
+        "date": "2022-08-29"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "Sender reports a Hong Kong Speed Post shipment to China; not independently verified."
+    },
+    {
+      "number": "LA007519563HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230702122749/https://webapp.hongkongpost.hk/en/mail_tracking/index.html?in=LA007519563HK",
+        "date": "2023-07-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "A lookup on Hongkong Post's tracker archived by the Wayback Machine."
+    },
+    {
+      "number": "RA676684712HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220812144723/https://webapp.hongkongpost.hk/en/mail_tracking/index.html?RA676684712HK",
+        "date": "2022-08-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "A lookup on Hongkong Post's tracker archived by the Wayback Machine."
+    },
+    {
+      "number": "EG009234467HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260204045539/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=EG009234467HK",
+        "date": "2026-02-04",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "A lookup on Chronopost's tracker archived by the Wayback Machine. The HK suffix names Hongkong Post as the issuer."
+    },
+    {
+      "number": "RU483017223HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260306044903/https://global.cainiao.com/detail.htm?mailNoList=RU483017223HK",
+        "date": "2026-03-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "A lookup on Cainiao's global tracker archived by the Wayback Machine. The HK suffix names Hongkong Post as the issuer."
+    },
+    {
+      "number": "RS018800015HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220703084242/http://track.4px.com/query/RS018800015HK?",
+        "date": "2022-07-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "A lookup on 4PX's tracker archived by the Wayback Machine. The HK suffix names Hongkong Post as the issuer."
+    },
+    {
+      "number": "UA926925855HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250317020700/https://global.cainiao.com/detail.htm?mailNoList=UA926925855HK",
+        "date": "2025-03-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "A lookup on Cainiao's global tracker archived by the Wayback Machine. The HK suffix names Hongkong Post as the issuer."
+    },
+    {
+      "number": "UM172597475HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250625084555/https://global.cainiao.com/detail.htm?mailNoList=UM172597475HK",
+        "date": "2025-06-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "A lookup on Cainiao's global tracker archived by the Wayback Machine. The HK suffix names Hongkong Post as the issuer."
+    },
+    {
+      "number": "ZA025167426HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250917183708/https://global.cainiao.com/detail.htm?mailNoList=ZA025167426HK",
+        "date": "2025-09-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "A lookup on Cainiao's global tracker archived by the Wayback Machine. The HK suffix names Hongkong Post as the issuer."
+    },
+    {
+      "number": "ZF500363233HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250917164421/https://global.cainiao.com/detail.htm?mailNoList=ZF500363233HK",
+        "date": "2025-09-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "A lookup on Cainiao's global tracker archived by the Wayback Machine. The HK suffix names Hongkong Post as the issuer."
+    },
+    {
+      "number": "ZH755966962HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260422022709/https://global.cainiao.com/detail.htm?mailNoList=ZH755966962HK",
+        "date": "2026-04-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "A lookup on Cainiao's global tracker archived by the Wayback Machine. The HK suffix names Hongkong Post as the issuer."
+    }
+  ]
+}

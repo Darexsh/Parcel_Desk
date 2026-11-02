@@ -1,0 +1,77 @@
+{
+  "id": "thailand-post",
+  "displayName": "Thailand Post",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "TH"
+    ]
+  },
+  "brand": {
+    "color": "#ef172f"
+  },
+  "selectable": true,
+  "timezone": "Asia/Bangkok",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "thailand-post",
+    "steps": [
+      "direct",
+      "mirror"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://track.thailandpost.co.th/?trackNumber={trackingNumber}",
+    "searchUrl": "https://international.thailandpost.com/track-status/?lang=en",
+    "canaryUrl": "https://track.thailandpost.co.th/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "recipient_name",
+      "signature",
+      "driver_name",
+      "contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "recipient_name",
+      "signature",
+      "driver_name",
+      "contact_details"
+    ],
+    "unavailable": [
+      "eta"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "track.thailandpost.co.th"
+      ],
+      "params": [
+        "trackNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "thailand-post-1",
+      "pattern": "^[A-Z]{2}\\d{9}TH$",
+      "confidence": "high",
+      "checksum": "s10"
+    }
+  ]
+}

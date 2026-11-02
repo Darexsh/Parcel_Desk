@@ -1,0 +1,50 @@
+{
+  "id": "aland-post",
+  "displayName": "Åland Post",
+  "aliases": [
+    "Åland Post Ab",
+    "Posten Åland",
+    "Posten Åland Ab",
+    "Posten på Åland",
+    "Aland Post",
+    "Ahvenanmaan posti"
+  ],
+  "region": {
+    "countries": [
+      "AX"
+    ]
+  },
+  "brand": {
+    "color": "#05545f"
+  },
+  "selectable": true,
+  "timezone": "Europe/Mariehamn",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.alandpost.ax/en/track?shipmentid={trackingNumber}",
+    "searchUrl": "https://www.alandpost.ax/en/track",
+    "canaryUrl": "https://www.alandpost.ax/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.alandpost.ax",
+        "alandpost.ax"
+      ],
+      "pathPattern": "^/en/track/?$",
+      "params": [
+        "shipmentid"
+      ]
+    }
+  ],
+  "detection": []
+}

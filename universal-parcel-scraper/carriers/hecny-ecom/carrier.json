@@ -1,0 +1,51 @@
+{
+  "id": "hecny-ecom",
+  "displayName": "Hecny E-com",
+  "aliases": [
+    "Hecny Group CIS",
+    "Хекни Групп СНГ",
+    "Hecny Logistic",
+    "Yolka Ecom"
+  ],
+  "region": {
+    "countries": [
+      "RU"
+    ]
+  },
+  "brand": {
+    "color": "#8328fc"
+  },
+  "selectable": true,
+  "timezone": "Europe/Moscow",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://ecom.yolka.io/parcels/{trackingNumber}",
+    "searchUrl": "https://ecom.yolka.io/tracknumber",
+    "canaryUrl": "https://ecom.yolka.io/tracknumber",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "ecom.yolka.io"
+      ],
+      "path": "^/parcels/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "e-com.hecny.ru",
+        "ecom.hecny.ru"
+      ],
+      "path": "^/(?:(?:ru|en|tr|cn)/)?parcels/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,24 @@
+{
+  "carrier": "inposdom",
+  "records": [
+    {
+      "number": "RR240035215DO",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://dr1.com/forums/threads/inposdom.412285/page-4",
+        "date": "2024-10-25",
+        "dateKind": "post",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A forum member says this registered letter was posted with INPOSDOM in the Dominican Republic for the United States. Its check digit holds; INPOSDOM's tracker only knows items arriving in the country."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "carrier": "quicksilver-sa",
+  "entries": [
+    {"wording": "Place an order", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The shipper created the order."},
+    {"wording": "Allocating pickers", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "A pickup task was assigned to a driver; the parcel is not collected yet."},
+    {"wording": "Pending Creation", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Seen after the order and the pickup task, before the parcel was received."},
+    {"wording": "Picked", "language": "en", "confirmedBy": "live", "note": "Listed with the earliest clock, before the order was placed, so what it marks is unclear; left without a stage."},
+    {"wording": "Received", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Received at a Quicksilver station."},
+    {"wording": "Ready For Dispatch", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Shown with a proof-of-delivery photo."}
+  ]
+}

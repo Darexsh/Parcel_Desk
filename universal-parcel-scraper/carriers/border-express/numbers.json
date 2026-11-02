@@ -1,0 +1,227 @@
+{
+  "carrier": "border-express",
+  "records": [
+    {
+      "number": "24328355",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220823024017/https://www.borderexpress.com.au/tracking/?cn=24328355",
+        "date": "2022-08-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The opened capture of Border Express's tracker shows the consignment with the status Shipment Data Received."
+    },
+    {
+      "number": "27167626",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221024050301/https://www.borderexpress.com.au/tracking/?cn=27167626",
+        "date": "2022-10-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "The opened capture of Border Express's tracker shows the consignment with the status Shipment Data Received."
+    },
+    {
+      "number": "28351613",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221123042739/https://www.borderexpress.com.au/tracking/?cn=28351613",
+        "date": "2022-11-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Looked up on Border Express's tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "33568517",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230411025858/https://www.borderexpress.com.au/tracking/?cn=33568517",
+        "date": "2023-04-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Looked up on Border Express's tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "59877510",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250612044929/https://bexonline.borderexpress.com.au/bxo/track/59877510",
+        "date": "2025-06-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "Looked up on Border Express's tracker, as an archived address shows; the capture was not opened. The tracker is a single-page app whose captures hold only a loading shell."
+    },
+    {
+      "number": "49820297",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240710032317/https://bexonline.borderexpress.com.au/bxo/track/49820297",
+        "date": "2024-07-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Looked up on Border Express's tracker; the opened capture holds only the app's loading shell, not the consignment."
+    },
+    {
+      "number": "PETG20352276",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220809223136/https://www.borderexpress.com.au/tracking/?cn=PETG20352276",
+        "date": "2022-08-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "Looked up on Border Express's tracker, as an archived address shows; the capture was not opened. A sender prefix with a longer range than the documented six digits."
+    },
+    {
+      "number": "TGFL003384",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/border-express/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "ParcelPanel's Border Express page offers it as a sample to try; it fits the documented prefix and six-digit layout."
+    },
+    {
+      "number": "EGGS100149",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://edidocumentation.borderexpress.com.au/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Border Express's EDI integration specification uses it as the example consignment number: a four-letter sender prefix and a six-digit range."
+    },
+    {
+      "number": "EGGSBX00000100149001",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://edidocumentation.borderexpress.com.au/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "border-express"
+        ]
+      },
+      "note": "Border Express's EDI integration specification gives it as the unit barcode of the example consignment: prefix, BX, zero-padded range and a three-digit unit number."
+    }
+  ]
+}

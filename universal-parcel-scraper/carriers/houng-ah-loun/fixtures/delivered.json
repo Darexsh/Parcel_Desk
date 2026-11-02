@@ -1,0 +1,113 @@
+{
+  "shipment_info": {
+    "bill_number": "VTE00000000001",
+    "vendor_tracking_bill_number": null,
+    "pickup_date": "2026-03-02 09:15:20",
+    "delivery_date": "2026-03-03 11:02:41",
+    "logo": null,
+    "from_branch_prefix": "VTE",
+    "destination_branch_prefix": "SVT",
+    "from_branch_code": "HC1-2-3",
+    "destination_branch_code": "HL4-5-6",
+    "from_branch": "ສາຂາ ທົດລອງໜຶ່ງ",
+    "from_branch_tel": "00000000",
+    "destination_branch": "ສາຂາ ທົດລອງສອງ (ຫຼັກ12)",
+    "destination_branch_tel": "0000000",
+    "sender_name": "ຜູ້ສົ່ງ ທົດລອງ",
+    "receiver_name": "Sample Receiver",
+    "receiver_phone_number": "000****0000",
+    "second_receiver_name": null,
+    "second_receiver_phone_number": null,
+    "order_type": "normal",
+    "transportation_type": "normal",
+    "item_count": 1,
+    "parcel_name": null,
+    "parcel_category_name": "ເຄື່ອງທົດລອງ",
+    "total_pieces": 1,
+    "total_dimension_length": 40,
+    "total_weight": 1.5,
+    "total_freight": 20000,
+    "total_rental_price": 0,
+    "total_volume": 0,
+    "weight_unit": "Kg",
+    "volume_unit": "m^3",
+    "freight_currency": "lak",
+    "external_import": false,
+    "go_teddy_order_tracking": false,
+    "eligible_for_goteddy_service": false,
+    "has_been_returned": false,
+    "status": "ຈັດສົ່ງສຳເລັດ",
+    "status_id": null,
+    "signed_bills": [],
+    "un_signed_bills": [],
+    "remark": null,
+    "is_show_freight": true,
+    "is_store_freight_hidden": false,
+    "epop_image": null
+  },
+  "tracking_events": [
+    {
+      "date": "2026-03-02 09:15:20",
+      "place": "ສາຂາ ທົດລອງໜຶ່ງ",
+      "message": "ຮັບພັດສະດຸແລ້ວ",
+      "delivery_state": 2,
+      "delivery_state_name": "Accept"
+    },
+    {
+      "date": "2026-03-02 09:15:21",
+      "place": "ສາຂາ ທົດລອງໜຶ່ງ",
+      "message": "ພັດສະດຸຮອດສາຂາ ທົດລອງໜຶ່ງ  - ທ. ສົມມຸດ ທົດລອງ - ເບີໂທ 00000000000",
+      "delivery_state": 3,
+      "delivery_state_name": "Packing"
+    },
+    {
+      "date": "2026-03-02 17:40:05",
+      "place": "ສາຂາ ທົດລອງໜຶ່ງ",
+      "message": "ກໍາລັງຈັດສົ່ງໄປ ສູນຄັດແຍກທົດລອງ  - ທ. ສົມມຸດ ທົດລອງ",
+      "delivery_state": 4,
+      "delivery_state_name": "On the way"
+    },
+    {
+      "date": "2026-03-03 02:10:44",
+      "place": "ສູນຄັດແຍກທົດລອງ",
+      "message": "ພັດສະດຸຮອດ ສູນຄັດແຍກທົດລອງ ",
+      "delivery_state": 3,
+      "delivery_state_name": "Packing"
+    },
+    {
+      "date": "2026-03-03 06:30:00",
+      "place": "ສູນຄັດແຍກທົດລອງ",
+      "message": "ກໍາລັງຈັດສົ່ງໄປ ສາງສາຂາທົດລອງສອງ  - ທ້າວ ສົມມຸດ ສາທິດ",
+      "delivery_state": 4,
+      "delivery_state_name": "On the way"
+    },
+    {
+      "date": "2026-03-03 11:02:37",
+      "place": "ສາງສາຂາທົດລອງສອງ",
+      "message": "ພັດສະດຸຮອດ ສາງສາຂາທົດລອງສອງ ",
+      "delivery_state": 3,
+      "delivery_state_name": "Packing"
+    },
+    {
+      "date": "2026-03-03 11:02:41",
+      "place": "ສາງສາຂາທົດລອງສອງ",
+      "message": "ກໍາລັງຈັດສົ່ງໄປສາຂາ ທົດລອງສອງ (ຫຼັກ12) - ນ. ຕົວຢ່າງ ທົດລອງ",
+      "delivery_state": 4,
+      "delivery_state_name": "On the way"
+    },
+    {
+      "date": "2026-03-03 11:02:42",
+      "place": "ສາຂາ ທົດລອງສອງ (ຫຼັກ12)",
+      "message": "ພັດສະດຸຮອດປາຍທາງແລ້ວ ທ່ານສາມາດເຂົ້າຮັບພັດສະດຸໄດ້ທີ່ສາຂາ ທົດລອງສອງ (ຫຼັກ12) ກ່ອນວັນທີ 10/03/2026 ຫາກເກີນກຳນົດພັດສະດຸຈະຖືກຕີກັບສາຂາຕົ້ນທາງ - ນ. ຕົວຢ່າງ ທົດລອງ - ເບີໂທ 00000000000",
+      "delivery_state": 5,
+      "delivery_state_name": "Delivered"
+    },
+    {
+      "date": "2026-03-04 10:20:30",
+      "place": "ສາຂາ ທົດລອງສອງ (ຫຼັກ12)",
+      "message": "ສຳເລັດການຮັບຝາກ ຂອບໃຈທີ່ໃຊ້ບໍລິການ",
+      "delivery_state": 6,
+      "delivery_state_name": "Success"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+1:HL["/_next/static/media/0000000000000001-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/0000000000000001.css","style"]
+0:["SYNTHETIC_BUILD_ID",[[["",{"children":[["id","SPXAAA000000000000000001","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L5",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0000000000000001.css","precedence":"next","crossOrigin":"$undefined"}]],"$L4"]]]]
+3:"$Sreact.suspense"
+6:I[1000,["2000","static/chunks/2000-0000000000000000.js"],"default"]
+7:I[2000,[],""]
+4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"SpeedX Tracking"}],["$","meta","2",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+5:[null,["$","html",null,{"lang":"en","children":[null,["$","body",null,{"children":[["$","$3",null,{"fallback":null,"children":["$","$L6",null,{}]}],["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"children":["$","div",null,{"children":[["$","h1",null,{"className":"next-error-h1","children":"404"}],["$","div",null,{"children":["$","h2",null,{"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]]}]]
+8:null
+9:I[3000,["2000","static/chunks/2000-0000000000000000.js"],"default"]
+a:I[4000,["2000","static/chunks/2000-0000000000000000.js"],"default"]
+b:I[5000,["2000","static/chunks/2000-0000000000000000.js"],"default"]
+c:I[6000,["2000","static/chunks/2000-0000000000000000.js"],"default"]
+d:I[7000,["2000","static/chunks/2000-0000000000000000.js"],"default"]
+e:[["$","$L9",null,{"event":"track_search"}],["$","div",null,{"className":"flex flex-col lg:flex-row gap-2","children":[["$","$L9",null,{"event":"track_success"}],["$","div",null,{"children":["$","$La",null,{"trackingNumber":"SPXAAA000000000000000001"}]}],["$","div",null,{"children":["$","div",null,{"children":[["$","$La",null,{"src":"/not-found.svg","width":200,"height":200,"alt":"not found"}],["$","p",null,{"className":"text-center","children":["No tracking information for",["$","span",null,{"className":"font-extrabold","children":"SPXAAA000000000000000001"}]," ","is available at this time. The sender may still need to send SpeedX the package data, or the tracking number is invalid. Please try again, or contact the sender for assistance."]}]]}]}]]}]]

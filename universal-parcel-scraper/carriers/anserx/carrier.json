@@ -1,0 +1,92 @@
+{
+  "id": "anserx",
+  "displayName": "AnserX",
+  "aliases": [
+    "斑头雁",
+    "斑头雁国际物流",
+    "深圳斑头雁国际物流科技有限公司",
+    "Anserx",
+    "AnserX International Logistics"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#2478be"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "anserx",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 759
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "destination_country",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://oms.anserx.com/tracking?nos={trackingNumber}",
+    "searchUrl": "https://oms.anserx.com/tracking",
+    "canaryUrl": "https://oms.anserx.com/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "postcodes"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "destination_country",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "postcodes"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "oms.anserx.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "nos"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "anserx-1",
+      "pattern": "^BTYCN\\d{10}YQ$",
+      "confidence": "high"
+    }
+  ]
+}

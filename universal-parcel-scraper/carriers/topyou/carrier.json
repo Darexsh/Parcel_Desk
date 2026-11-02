@@ -1,0 +1,80 @@
+{
+  "id": "topyou",
+  "displayName": "TopYou",
+  "aliases": [
+    "通邮",
+    "通邮集团",
+    "深圳市通邮物流科技（集团）股份有限公司",
+    "SZTY56",
+    "Tongyou"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#045cd7"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "topyou",
+    "steps": [
+      "direct",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 58
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "delivered_at",
+    "weight",
+    "destination_country",
+    "delivery_tracking_number",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://track.szty56.com/",
+    "searchUrl": "https://track.szty56.com/",
+    "canaryUrl": "https://track.szty56.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "destination_country",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "delivered_at",
+      "weight",
+      "destination_country",
+      "delivery_tracking_number"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "eta",
+      "service_name"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "topyou-1",
+      "pattern": "^TYZR[A-Z]\\d{10}YQ$",
+      "confidence": "high"
+    }
+  ]
+}

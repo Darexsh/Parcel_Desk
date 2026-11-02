@@ -1,0 +1,33 @@
+{
+  "foreignBarcode": "ZZ000000014CN",
+  "isSendOnParcel": false,
+  "isEasipikParcel": false,
+  "hasEasipikCharges": false,
+  "payViaEasipik": false,
+  "isPaid": false,
+  "requiresPayment": false,
+  "canBePaidOnline": false,
+  "requiresCustomsDeclaration": false,
+  "canBeDeclaredOnline": false,
+  "movements": [
+    { "code": "FWD", "description": "Forwarded to the next processing centre", "location": "MaltaPost", "locationTypeCode": "CPU", "date": "2026-04-08T09:41:36", "isForeignMovement": false },
+    { "code": "FWD", "description": "Forwarded to the next processing centre", "location": "MaltaPost", "locationTypeCode": "PostOffice", "date": "2026-04-07T14:26:51", "isForeignMovement": false },
+    { "code": "EMH", "description": "Item could not be processed further", "location": "MaltaPost", "locationTypeCode": "PostOffice", "date": "2026-04-07T08:33:19.5", "reasonCode": "22", "reasonDescription": "Item not collected", "actionCode": "E", "actionDescription": "Item returned to sender", "isForeignMovement": false },
+    { "code": "EDH", "description": "Item arrived at collection point", "location": "Example Post Office", "locationTypeCode": "PostOffice", "date": "2026-03-17T10:07:45", "isForeignMovement": false },
+    { "code": "FWD", "description": "Forwarded to the next processing centre", "location": "MaltaPost", "locationTypeCode": "Hub", "date": "2026-03-16T15:48:12", "isForeignMovement": false },
+    { "code": "EMH", "description": "Item could not be processed further", "location": "MaltaPost", "locationTypeCode": "Beat", "date": "2026-03-16T12:51:03", "reasonCode": "12", "reasonDescription": "See action below", "actionCode": "C", "actionDescription": "Unsuccessful attempt-Recipient notified", "isForeignMovement": false },
+    { "code": "EDG", "description": "Item scheduled for physical delivery", "location": "MaltaPost", "locationTypeCode": "Beat", "date": "2026-03-16T07:36:40", "isForeignMovement": false },
+    { "code": "EMG", "description": "Item to be forwarded to the delivery centre", "location": "MaltaPost", "locationTypeCode": "CPU", "date": "2026-03-13T17:22:14", "isForeignMovement": false },
+    { "code": "EMF", "description": "Item departing from inbound mail sorting centre", "location": "MaltaPost", "locationTypeCode": "CPU", "date": "2026-03-13T17:22:13", "isForeignMovement": false },
+    { "code": "EMD", "description": "Item arrived at inbound mail sorting centre", "location": "MaltaPost", "locationTypeCode": "CPU", "date": "2026-03-13T14:10:28", "isForeignMovement": false },
+    { "code": "EMA", "description": "Item created", "location": "EXAMPLELAND", "date": "2026-03-02T05:44:09", "isForeignMovement": true }
+  ],
+  "isForeign": true,
+  "isForeignOutgoing": false,
+  "destination": "Example Town",
+  "obfuscatedRecipient": "A***e E*****e",
+  "isUntrackable": false,
+  "eligibleForRedelivery": false,
+  "eligibleForRedeliveryToLocker": false,
+  "eligibleForEmailUpdatesSignUp": true
+}

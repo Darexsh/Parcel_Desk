@@ -1,0 +1,28 @@
+{
+  "carrier": "messenger-cz",
+  "entries": [
+    {"code": "1", "wording": "přijata", "stage": "registered", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The order was received."},
+    {"code": "2", "wording": "přiřazena", "stage": "registered", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The order was assigned to a courier, not yet collected."},
+    {"code": "3", "wording": "vyzvednuta", "stage": "accepted", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The courier collected the parcel."},
+    {"code": "21", "wording": "avizované vyzvednutí", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The sender was told the planned collection time."},
+    {"code": "11", "wording": "nešlo vyzvednout", "stage": "exception", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The person handing over the parcel was not reached."},
+    {"code": "15", "wording": "doručena do depa", "stage": "in_transit", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The parcel reached the depot."},
+    {"code": "20", "wording": "vyskladněna", "stage": "in_transit", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The parcel left the warehouse."},
+    {"code": "17", "wording": "v procesu", "stage": "in_transit", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The parcel is being delivered to the addressee."},
+    {"code": "16", "wording": "vyzvednuta z depa", "stage": "out_for_delivery", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. A courier took the parcel from the depot to deliver it."},
+    {"code": "22", "wording": "avizované doručení", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The recipient was told the planned delivery time."},
+    {"code": "19", "wording": "připravena k výdeji", "stage": "ready_for_pickup", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. Ready for collection at a pickup point."},
+    {"code": "9", "wording": "marné doručení", "stage": "failed_attempt", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The customer was not reached; delivery will be tried again."},
+    {"code": "5", "wording": "nedoručena", "stage": "failed_attempt", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. Delivery failed and will not be tried again."},
+    {"code": "10", "wording": "odmítl převzít", "stage": "exception", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The customer refused the parcel."},
+    {"code": "4", "wording": "doručena", "stage": "delivered", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The courier delivered the parcel."},
+    {"code": "18", "wording": "vrací se zpět", "stage": "returned", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The parcel is going back to the sender after failed delivery."},
+    {"code": "7", "wording": "stornovaná", "stage": "exception", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. Cancelled without delivery."},
+    {"code": "6", "wording": "uzavřena", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. Final state of the order, after its last event."},
+    {"code": "8", "wording": "chyba", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. An error state the documentation gives no meaning."},
+    {"code": "12", "wording": "fakturovaná", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The journey was invoiced."},
+    {"code": "13", "wording": "odebrána z faktury", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The journey was taken off an invoice."},
+    {"code": "14", "wording": "odebrána", "language": "cs", "confirmedBy": "official-doc", "note": "Status list of Messenger's shipment-status API documentation. The order was taken from a courier before collection."},
+    {"code": "7", "wording": "stornována", "stage": "exception", "language": "cs", "confirmedBy": "official-doc", "note": "The spelling of the documentation's JSON example for the cancelled state."}
+  ]
+}

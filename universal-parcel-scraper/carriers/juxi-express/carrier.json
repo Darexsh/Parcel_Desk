@@ -1,0 +1,43 @@
+{
+  "id": "juxi-express",
+  "displayName": "Juxi Express",
+  "aliases": [
+    "SHJX",
+    "SHJX Juxi Express",
+    "驹隙物流",
+    "上海驹隙",
+    "上海驹隙国际物流有限公司",
+    "Shanghai Juxi International Freight Forwarding"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#e2393c"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "canaryUrl": "https://t.17track.net/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "juxi-express-1",
+      "pattern": "^JXC[A-Z]{2}\\d{10}YQ$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "emons",
+  "displayName": "Emons",
+  "aliases": [
+    "Emons Spedition",
+    "Emons Spedition GmbH",
+    "Emons Logistik",
+    "myEmons"
+  ],
+  "region": {
+    "countries": [
+      "DE"
+    ]
+  },
+  "brand": {
+    "color": "#c00719"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://tracking.myemons.de/public.html",
+    "canaryUrl": "https://www.emons.de/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

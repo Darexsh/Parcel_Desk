@@ -1,0 +1,10 @@
+{
+  "carrier": "seven-eleven-tw",
+  "entries": [
+    {"wording": "交貨便訂單已成立，尚未至門市寄件", "stage": "registered", "language": "zh", "confirmedBy": "portal", "note": "Scan text in an archived capture of 7-ELEVEN's E-Tracking page: the 交貨便 order exists and the sender has not dropped the parcel at a store yet."},
+    {"wording": "寄件門市已收件", "stage": "accepted", "language": "zh", "confirmedBy": "portal", "note": "Scan text in an archived capture of 7-ELEVEN's E-Tracking page: the sender's store received the parcel."},
+    {"wording": "包裹已送往物流中心", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "Scan text in an archived capture of 7-ELEVEN's E-Tracking page: on its way to a logistics centre."},
+    {"wording": "包裹已送達【南區】物流中心，進行理貨轉運中", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "Scan text in an archived capture of 7-ELEVEN's E-Tracking page: at a logistics centre for sorting and transfer. The region in brackets changes with the logistics centre."},
+    {"wording": "包裹已於【北區】物流中心理貨完成，即將前往取件門市", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "Scan text in an archived capture of 7-ELEVEN's E-Tracking page: sorted at the logistics centre serving the pickup store and about to leave for it. The region in brackets changes with the logistics centre."}
+  ]
+}

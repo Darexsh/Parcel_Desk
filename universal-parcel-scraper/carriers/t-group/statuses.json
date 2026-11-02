@@ -1,0 +1,12 @@
+{
+  "carrier": "t-group",
+  "entries": [
+    {"wording": "Nuova Spedizione Creata", "stage": "registered", "language": "it", "confirmedBy": "portal"},
+    {"wording": "Ritiro Assegnato Al Giro Di Distribuzione", "stage": "registered", "language": "it", "confirmedBy": "portal", "note": "The pickup from the sender is assigned to a driver's round."},
+    {"wording": "In Partenza Da Centro Smistamento", "stage": "in_transit", "language": "it", "confirmedBy": "live", "note": "Leaving a sorting centre."},
+    {"wording": "Affidata Al Giro Consegna", "stage": "out_for_delivery", "language": "it", "confirmedBy": "live", "note": "Handed to the driver's delivery round; the scan names no branch."},
+    {"wording": "Spedizione Consegnata", "stage": "delivered", "language": "it", "confirmedBy": "live"},
+    {"wording": "Prenotazione telefonica da effettuare", "stage": "in_transit", "language": "it", "confirmedBy": "source", "note": "Quoted from Tgroup's tracking in a Trustpilot review: the delivery appointment still has to be booked by phone."},
+    {"wording": "rifiutata dal destinatario", "stage": "failed_attempt", "language": "it", "confirmedBy": "source", "note": "Quoted in a Trustpilot review as the status Tgroup recorded: delivery refused by the recipient, which the reviewer disputes."}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "code": 200,
+  "message": "获取订单路由轨迹成功",
+  "data": {
+    "orderRoutes": [
+      {
+        "action": "collect_order",
+        "channel": "SAMPLECH",
+        "receiverMail": null,
+        "eventCity": "Sampleville",
+        "eventCountry": "AU",
+        "eventState": "WA",
+        "eventZipCode": "0000",
+        "imageUrl": null,
+        "shippingAddressImageUrl": null,
+        "otherImageUrl": null,
+        "signatureUrl": null,
+        "occurLocation": "Sampleville",
+        "utcOperatorTime": "2026-10-15 07:20:05",
+        "orderNo": "TMS00000000002",
+        "routingDescription": "Parcel arrived at warehouse PERDC-1. We will deliver within 3 working days",
+        "timeZone": "UTC+08:00",
+        "operatorTime": "2026-10-15 15:20:05",
+        "longitude": null,
+        "latitude": null,
+        "longitudeDirection": null,
+        "latitudeDirection": null
+      },
+      {
+        "action": "create_order",
+        "channel": "SAMPLECH",
+        "receiverMail": null,
+        "eventCity": "Sampleville",
+        "eventCountry": "AU",
+        "eventState": "WA",
+        "eventZipCode": "0000",
+        "imageUrl": null,
+        "shippingAddressImageUrl": null,
+        "otherImageUrl": null,
+        "signatureUrl": null,
+        "occurLocation": "Sampleville",
+        "utcOperatorTime": "2026-10-15 01:02:17",
+        "orderNo": "TMS00000000002",
+        "routingDescription": "Order created by PER1 to be collected",
+        "timeZone": "UTC+08:00",
+        "operatorTime": "2026-10-15 09:02:17",
+        "longitude": null,
+        "latitude": null,
+        "longitudeDirection": null,
+        "latitudeDirection": null
+      }
+    ]
+  }
+}

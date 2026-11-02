@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>
+            LTLTracking Details | Averitt Express</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel='stylesheet' href='/assets/styles/main.css?v=12' />
+        <link rel="stylesheet" href="/assets/styles/print/tracking-details-print.css" />
+        </head>
+    <body class="">
+        <header class="ae-header--main">
+            <input type="hidden" id="user-logged-in" value="false" />
+        <div class="ae-header--utils">
+            <a href="/new-customer">
+                Register
+            </a>
+            <a href="/login.jsp" id="toggle-login">
+                Log in
+            </a>
+        </div>
+        </header>
+<main class="content-main ae-main">
+    <header class="ae-page-header">
+        <h1 class="ae-page-heading"> Tracking Details</h1>
+        <div id="printable"></div>
+    </header>
+    <!-- go straight to jsp page and do not get enotification defaults -->
+<div class="ae-section--pair ae-flex--align-center">
+	<div class="ae-tracking-results--status-container ae-section--col">
+		<h6 class="ae-h6--compressed">Status</h6>
+		<p class="h1">
+						Picked Up</p>
+					</div>
+	<div class="ae-section--col">
+		<ul class="ae-result-list--stripped">
+			<li class="ae-result-list--item">
+				<span class="ae-result-list--item-label">PRO Number:</span>
+				<strong class="ae-result-list--item-val ae-color--text-brand">
+					0234567891</strong>
+			</li>
+			<!-- TRACKING-508: Add Averitt Service Unit -->
+			<li class="ae-result-list--item">
+				<span class="ae-result-list--item-label">Averitt Service Unit:</span>
+				<span class="ae-result-list--item-val ae-color--text-brand">LTL</span>
+			</li>
+			</ul>
+    </div>
+</div><div class="ae-section--pair">
+        <div class="ae-section--col" id="pickup-information">
+            <h2 class="ae-section--col-heading">
+                Pickup Information
+            </h2>
+            <ul class="ae-result-list--stripped">
+                <li class="ae-result-list--item">
+                    <span class="ae-result-list--item-label">Shipper Name:</span>
+                    <span class="ae-result-list--item-val">EXAMPLE SHIPPER CO</span>
+                        </li>
+                <li class="ae-result-list--item">
+                    <span class="ae-result-list--item-label">Origin Point:</span>
+                    <span class="ae-result-list--item-val">
+                        SAMPLETOWN,
+                        GA</span>
+                </li>
+                <li class="ae-result-list--item">
+                    <span class="ae-result-list--item-label">Pickup Date / Time:</span>
+                    <span class="ae-result-list--item-val">04/13/2026 3:20 PM</span>
+                </li>
+                </ul>
+        </div>
+        <div class="ae-section--col" id="shipment-information">
+            <h2 class="ae-section--col-heading">
+                Shipment Information
+            </h2>
+            <ul class="ae-result-list--stripped">
+                <li class="ae-result-list--item">
+                    <span class="ae-result-list--item-label">Pieces:</span>
+                    <span class="ae-result-list--item-val">2</span>
+                </li>
+                <li class="ae-result-list--item">
+                    <span class="ae-result-list--item-label">Weight:</span>
+                    <span class="ae-result-list--item-val">480.0</span>
+                </li>
+                <li class="ae-result-list--item">
+                    <span class="ae-result-list--item-label">Bol Number:</span>
+                    <span class="ae-result-list--item-val">BOLSAMPLE001</span>
+                </li>
+                <li class="ae-result-list--item">
+                            <span class="ae-result-list--item-label">PO number</span>
+                            <span class="ae-result-list--item-val">POSAMPLE009<br>
+                                </span>
+                        </li>
+                        <li class="ae-result-list--item">
+                            <span class="ae-result-list--item-label">Hazmat</span>
+                            <span class="ae-result-list--item-val">-</span>
+                        </li>
+                    </ul>
+        </div>
+    </div>
+    <div class="ae-section--pair">
+        <div class="ae-section--col" id="bill-to-information">
+            <h2 class="ae-section--col-heading">
+                Bill To Information
+            </h2>
+            <p><a class="login-link" href="/advancedTrackingLogin.jsp?redirectTarget=%2fservlet%2frsoLTLtrack%3fType%3dPN%26Number%3d0234567891">Login</a></p>
+                </div>
+        <div class="ae-section--col" id="delivery-information">
+            <h2 class="ae-section--col-heading">
+                Delivery Information
+            </h2>
+            <ul class="ae-result-list--stripped">
+                <li class="ae-result-list--item">
+                    <span class="ae-result-list--item-label">Consignee Name:</span>
+                    <span class="ae-result-list--item-val">EXAMPLE CONSIGNEE LLC</span>
+                        </li>
+                <li class="ae-result-list--item">
+                            <span class="ae-result-list--item-label">Date:</span>
+                            <span class="ae-result-list--item-val">-</span>
+                        </li>
+                        <li class="ae-result-list--item">
+                            <span class="ae-result-list--item-label">Time:</span>
+                            <span class="ae-result-list--item-val">-</span>
+                        </li>
+                    <li class="ae-result-list--item">
+                    <span class="ae-result-list--item-label">Delivery Point:</span>
+                    <span class="ae-result-list--item-val">
+                        EXAMPLEVILLE,
+                        TN</span>
+                </li>
+                <li class="ae-result-list--item">
+                        <span class="ae-result-list--item-label">Service Center</span>
+                        <span class="ae-result-list--item-val">EXAMPLEVILLE SERVICE CENTER   </span>
+                    </li>
+                <li class="ae-result-list--item">
+                            <span class="ae-result-list--item-label">Delivery Name:</span>
+                            <span class="ae-result-list--item-val">-</span>
+                        </li>
+                    </ul><!-- /.results -->
+        </div>
+    </div>
+    <div class="ae-section--pair">
+        <div class="ae-section--col" id="appointment-information">
+            <h2 class="ae-section--col-heading">
+                Appointment Information
+            </h2>
+            <ul class="ae-result-list--stripped">
+                <li class="ae-result-list--item">
+                    <span class="ae-result-list--item-label">Delivery Date:</span>
+                    <span class="ae-result-list--item-val">-</span>
+                </li>
+                <li class="ae-result-list--item">
+                    <span class="ae-result-list--item-label">Delivery Time:</span>
+                    <span class="ae-result-list--item-val">-</span>
+                </li>
+                </ul><!-- /.results -->
+        </div>
+        <div class="ae-section--col " id="commerce-information">
+            <h2 class="ae-section--col-heading " >
+                Commerce Information
+            </h2>
+            <p><a class="login-link" href="/advancedTrackingLogin.jsp?redirectTarget=%2fservlet%2frsoLTLtrack%3fType%3dPN%26Number%3d0234567891">Login</a></p>
+                </div>
+    </div>
+    <form id="trackingDetails" action="/secure/document-viewer" method="post">
+            <input type="hidden" name="SearchType" value="PN" />
+            <input type="hidden" name="showIfPossible" value="false" />
+            <input type="hidden" name="ProNumber" value='0234567891'/>
+            <input type="hidden" name="loadType" value='LTL' />
+            <input type="hidden" id="docType" name="docType" value="" />
+            <div class="ae-section">
+                <h2 class="ae-field-header" id="view-documents">View Documents</h2>
+                <p><a class="login-link" href=/advancedTrackingLogin.jsp?redirectTarget=%2fservlet%2frsoLTLtrack%3fType%3dPN%26Number%3d0234567891>Login</a></p>
+                    <!-- CargoWise Documents-->
+                </div><!-- /.field-container -->
+        </form>
+    <div class="ae-section">
+    <h2 class="ae-field-header" id="shipment-progression">Shipment Progression</h2>
+    <table class="data display-tag-data">
+                <thead>
+                    <tr>
+                        <th scope="col">Location</th>
+                        <th scope="col">Date/Time</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                            <td data-title="Location">
+                                SAMPLETOWN, GA</td>
+                            <td data-title="Date/Time">04/13/2026 3:20 PM</td>
+                            <td data-title="Status">SHIPMENT PICKED UP</td>
+                        </tr>
+                    <tr>
+                                <td data-title="Location">
+                                    SAMPLETOWN, GA</td>
+                                <td data-title="Date/Time">04/13/2026 10:41 PM</td>
+                                <td data-title="Status">ORIGIN DEPARTURE</td>
+                            </tr>
+                       <tr>
+                                <td data-title="Location">
+                                    RELAYBURG, AL</td>
+                                <td data-title="Date/Time">04/14/2026 3:07 AM</td>
+                                <td data-title="Status">RELAY ARRIVAL</td>
+                            </tr>
+                    </tbody>
+            </table>
+        </div><!-- CargoWise -->
+    <div class="ae-controls--flanked">
+        <button class="ae-button" id="emailDetails">
+            Email Details
+        </button>
+        <div class="ae-controls--flanked-left">
+            </div>
+    </div>
+
+    <p class="ae-message"><strong>Questions?</strong> Please contact our National Call Center for assistance at <strong>1-800-283-7488</strong> or <strong>customerservice@averitt.com</strong>.</p>
+</main><!-- /.content-main -->
+<section class="ae-footer-main">
+        <p class="ae-footer-main--sub">
+            Copyright &#169; 2026 Averitt Express, Inc. All Rights&nbsp;Reserved.
+        </p>
+</section>
+<script src="/js/tracking/trackingResults.js"></script>
+</body>
+</html>

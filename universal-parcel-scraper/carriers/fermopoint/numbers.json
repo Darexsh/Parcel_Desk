@@ -1,0 +1,138 @@
+{
+  "carrier": "fermopoint",
+  "records": [
+    {
+      "number": "DFD02GG193029",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250224133437/https://www.fermopoint.it/prenotazione/DFD02GG193029",
+        "date": "2025-02-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fermopoint",
+          "paquetexpress"
+        ]
+      },
+      "note": "An archived lookup on Fermopoint's own booking page shows this Fermoticket booked and in preparation in February 2025."
+    },
+    {
+      "number": "Z133DZE984772",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20151215133315/http://www.fermopoint.it:80/prenotazione/Z133DZE984772",
+        "date": "2015-12-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fermopoint"
+        ]
+      },
+      "note": "An archived lookup on Fermopoint's own booking page shows this Fermo!Ticket with its parcel collected."
+    },
+    {
+      "number": "A234FJI900746",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20151206064403/http://www.fermopoint.it:80/prenotazione/A234FJI900746",
+        "date": "2015-12-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fermopoint"
+        ]
+      },
+      "note": "An archived lookup on Fermopoint's own booking page shows this Fermo!Ticket with its delivery booked."
+    },
+    {
+      "number": "AC662NO661672",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20160503071938/http://www.fermopoint.it:80/prenotazione/AC662NO661672",
+        "date": "2016-05-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fermopoint"
+        ]
+      },
+      "note": "An archived lookup on Fermopoint's own booking page shows this Fermo!Ticket with its delivery booked."
+    },
+    {
+      "number": "A7C62QP689986",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.fermopoint.it/traccia-un-ritiro",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fermopoint"
+        ]
+      },
+      "note": "The example code under the Fermoticket field of Fermopoint's own tracking page."
+    },
+    {
+      "number": "S27F1OD682014",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.fermopoint.it/guida-alle-spedizioni",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fermopoint"
+        ]
+      },
+      "note": "The code on the example receipt in Fermopoint's shipping guide; its booking page shows this parcel sent from a shop."
+    }
+  ]
+}

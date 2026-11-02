@@ -1,0 +1,18 @@
+{
+  "carrier": "hapdong",
+  "entries": [
+    {"wording": "예약접수", "stage": "registered", "language": "ko", "confirmedBy": "official-doc", "note": "A pickup booking was registered. Named in the tracker page's script, which shows it on the first (receipt) step."},
+    {"wording": "접수", "stage": "accepted", "language": "ko", "confirmedBy": "official-doc", "note": "The sending branch accepted the parcel. Named in the tracker page's script, on the first (receipt) step."},
+    {"wording": "접수완료", "stage": "accepted", "language": "ko", "confirmedBy": "official-doc", "note": "Acceptance at the sending branch. The tracker page's script and its step labels use it for the first step."},
+    {"wording": "발송", "stage": "in_transit", "language": "ko", "confirmedBy": "official-doc", "note": "Dispatched from the sending branch. Named in the tracker page's script, on the goods-moving step."},
+    {"wording": "노선상차", "stage": "in_transit", "language": "ko", "confirmedBy": "official-doc", "note": "Loaded onto a line-haul truck. Named in the tracker page's script, on the goods-moving step."},
+    {"wording": "터미널", "stage": "in_transit", "language": "ko", "confirmedBy": "official-doc", "note": "At a hub terminal. Named in the tracker page's script, on the goods-moving step."},
+    {"wording": "도착", "stage": "in_transit", "language": "ko", "confirmedBy": "official-doc", "note": "Arrived at the destination branch. Named in the tracker page's script, on the goods-moving step."},
+    {"wording": "지연도착", "stage": "in_transit", "language": "ko", "confirmedBy": "official-doc", "note": "Late arrival at the delivery branch. The tracker page's script shows it on the out-for-delivery step together with 배송중."},
+    {"wording": "배송중", "stage": "out_for_delivery", "language": "ko", "confirmedBy": "official-doc", "note": "Out for delivery. Named in the tracker page's script, on the out-for-delivery step."},
+    {"wording": "배달차량상차", "stage": "out_for_delivery", "language": "ko", "confirmedBy": "official-doc", "note": "Loaded onto the delivery vehicle. Shown in the sample record on the carrier's site and named in the tracker page's script for the out-for-delivery step."},
+    {"wording": "배달완료", "stage": "delivered", "language": "ko", "confirmedBy": "official-doc", "note": "Delivered. Shown in the sample record on the carrier's site and as its last step label."},
+    {"wording": "배송완료", "stage": "delivered", "language": "ko", "confirmedBy": "official-doc", "note": "Delivered. Named in the tracker page's script for the last step."},
+    {"wording": "인수확인", "stage": "delivered", "language": "ko", "confirmedBy": "official-doc", "note": "The recipient's receipt was confirmed. Named in the tracker page's script for the last step."}
+  ]
+}

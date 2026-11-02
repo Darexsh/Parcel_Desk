@@ -1,0 +1,187 @@
+{
+  "carrier": "aaa-cooper",
+  "records": [
+    {
+      "number": "952733574",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170214033231/http://www.aaacooper.com:80/Transit/ProTrackResults.aspx?ProNum=952733574&AllAccounts=true",
+        "date": "2017-02-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt",
+          "tforce-freight",
+          "xpo-ltl"
+        ]
+      },
+      "note": "An archived lookup on AAA Cooper's own PRO tracking page shows the shipment and its history."
+    },
+    {
+      "number": "41082478",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20161028203759/http://www.aaacooper.com:80/Transit/ProTrackResults.aspx?ProNum=41082478&AllAccounts=true",
+        "date": "2016-10-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on AAA Cooper's own PRO tracking page shows the shipment and its history."
+    },
+    {
+      "number": "93882420",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20161208180720/http://www.aaacooper.com:80/Transit/ProTrackResults.aspx?ProNum=93882420&AllAccounts=true",
+        "date": "2016-12-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on AAA Cooper's own PRO tracking page; the capture was not opened."
+    },
+    {
+      "number": "124664681",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20211123181433/https://www.aaacooper.com/Transit/ProTrackResults.aspx?ProNum=124664681",
+        "date": "2021-11-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on AAA Cooper's own PRO tracking page; the capture was not opened."
+    },
+    {
+      "number": "35211086",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251109040609/https://www.aaacooper.com/workspace/action-trac?id=35211086&PG=ProNumber",
+        "date": "2025-11-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup by PRO number on AAA Cooper's own Action Trac page; the capture was not opened."
+    },
+    {
+      "number": "35212307",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251109041748/https://www.aaacooper.com/workspace/action-trac?id=35212307&PG=ProNumber",
+        "date": "2025-11-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup by PRO number on AAA Cooper's own Action Trac page; the capture was not opened."
+    },
+    {
+      "number": "35225398",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260512222023/https://www.aaacooper.com/workspace/action-trac?id=35225398&PG=ProNumber",
+        "date": "2026-05-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup by PRO number on AAA Cooper's own Action Trac page; the capture was not opened."
+    },
+    {
+      "number": "351768593",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251031132422/https://www.aaacooper.com/pwb/Default.aspx/ValidatePro?proNumber=351768593&preferredType=ProNumber",
+        "date": "2025-10-31",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived request to the PRO check behind AAA Cooper's tracking box; the capture was not opened."
+    }
+  ]
+}

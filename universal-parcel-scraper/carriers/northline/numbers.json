@@ -1,0 +1,120 @@
+{
+  "carrier": "northline",
+  "records": [
+    {
+      "number": "4KIS2101438",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.productreview.com.au/listings/northline",
+        "date": "2026-01-16",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Northline's reply to a ProductReview.com.au review names it as the consignment it passed on to its depots."
+    },
+    {
+      "number": "4INT12130",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.productreview.com.au/listings/northline?page=2",
+        "date": "2022-09-02",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A ProductReview.com.au reviewer gives it as the con number of an order a supplier sent by Northline Transport."
+    },
+    {
+      "number": "0TRA14019902141",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.productreview.com.au/listings/northline?page=2",
+        "date": "2022-12-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A ProductReview.com.au reviewer gives it for a pallet booked with Northline through Transdirect for collection."
+    },
+    {
+      "number": "9FRE00818700",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.productreview.com.au/listings/northline?page=3",
+        "date": "2022-06-16",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "A ProductReview.com.au reviewer gives it as the con number of a partly delivered Northline consignment booked through Freight Exchange."
+    },
+    {
+      "number": "8CAR223141",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.productreview.com.au/listings/northline?page=6",
+        "date": "2019-02-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A ProductReview.com.au reviewer gives it as the tracking number of a trailer Northline was to deliver."
+    },
+    {
+      "number": "4DEL1001932499",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/northline/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "ParcelPanel's Northline page offers it as a sample to try."
+    }
+  ]
+}

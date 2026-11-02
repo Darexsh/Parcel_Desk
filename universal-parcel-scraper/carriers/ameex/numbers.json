@@ -1,0 +1,62 @@
+{
+  "carrier": "ameex",
+  "records": [
+    {
+      "number": "MRK0926B1PF1924",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://ameex.ma/en/tracking",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Placeholder of the tracking field on Ameex's own tracker page, in English and French; it is not a dummy and follows the city, month-year and B layout."
+    },
+    {
+      "number": "AGA0826B28534PS6821349",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/ecomos-ma/Ecom-Os/blob/f0e0f61982f2c60fa0fd341e5c318a4da4892886/supabase/functions/ameex-api/index.ts",
+        "date": "2026-08-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A Moroccan merchant platform's Ameex integration quotes it as an observed Ameex parcel code in the function that validates Ameex parcel codes."
+    },
+    {
+      "number": "MRK0824B2LP5041691",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/Vazimax/ViteMax/blob/e07e6dfe2e92f5c0078fcab82ee4b16ff569b622/ECOM-AUT/app/delivery/ameex.py",
+        "date": "2026-04-16",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An e-commerce tool's Ameex integration gives it as the format of the ParcelCode the Ameex customer API returns when a parcel is created."
+    }
+  ]
+}

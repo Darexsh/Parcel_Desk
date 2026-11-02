@@ -1,0 +1,43 @@
+{
+  "id": "pallex",
+  "displayName": "Pall-Ex",
+  "aliases": [
+    "Pallex",
+    "Pall-Ex UK",
+    "Pall-Ex (UK) Ltd",
+    "Pall-Ex Group"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#e41312"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://mynexus.pallex.com/tracking",
+    "canaryUrl": "https://mynexus.pallex.com/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "mynexus.pallex.com"
+      ],
+      "path": "^/NexusTracking/(\\d{16})/[^/]+/?$"
+    }
+  ],
+  "detection": []
+}

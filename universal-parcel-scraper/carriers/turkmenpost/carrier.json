@@ -1,0 +1,48 @@
+{
+  "id": "turkmenpost",
+  "displayName": "Turkmenpost",
+  "aliases": [
+    "Türkmenpoçta",
+    "Turkmenpochta",
+    "Туркменпочта",
+    "Turkmenistan Post",
+    "Turkmen Post"
+  ],
+  "region": {
+    "countries": [
+      "TM"
+    ]
+  },
+  "brand": {
+    "color": "#0198ff"
+  },
+  "selectable": true,
+  "timezone": "Asia/Ashgabat",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://post.tm/tracking?q={trackingNumber}",
+    "searchUrl": "https://post.tm/tracking",
+    "canaryUrl": "https://post.tm/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "post.tm"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "q"
+      ]
+    }
+  ],
+  "detection": []
+}

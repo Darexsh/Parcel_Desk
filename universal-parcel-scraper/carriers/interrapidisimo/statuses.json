@@ -1,0 +1,24 @@
+{
+  "carrier": "interrapidisimo",
+  "entries": [
+    {"wording": "Recibimos tu envío", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Admitted at the counter or collected from the sender."},
+    {"wording": "En bodega de origen", "stage": "in_transit", "language": "es", "confirmedBy": "live"},
+    {"wording": "Viajando al destino", "stage": "in_transit", "language": "es", "confirmedBy": "live"},
+    {"wording": "En bodega de destino", "stage": "in_transit", "language": "es", "confirmedBy": "live"},
+    {"wording": "En reparto", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live"},
+    {"wording": "Recoge en oficina", "stage": "ready_for_pickup", "language": "es", "confirmedBy": "live", "note": "Kept at the destination office for the recipient to collect."},
+    {"wording": "1a entrega fallida", "stage": "failed_attempt", "language": "es", "confirmedBy": "live", "note": "The tracker numbers the attempts that did not deliver."},
+    {"wording": "Esperando tu acción", "stage": "exception", "language": "es", "confirmedBy": "live", "note": "Held after a failed delivery or an uncollected wait until someone says what to do with it."},
+    {"wording": "Entregamos tu envío", "stage": "delivered", "language": "es", "confirmedBy": "live"},
+    {"wording": "Devuelto al remitente", "stage": "returned", "language": "es", "confirmedBy": "live", "note": "The guide ends here; the way back travels under a new guide."},
+    {"wording": "Envío Admitido", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Seen in archived replies of the tracking API."},
+    {"wording": "Ingresado a Bodega", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Entered a warehouse at origin or destination. Seen in archived replies of the tracking API."},
+    {"wording": "Viajando en Ruta Nacional", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Seen in archived replies of the tracking API."},
+    {"wording": "Viajando en Ruta Regional", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Seen in an archived reply of the tracking API."},
+    {"wording": "Transito nacional", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Seen in an archived reply of the tracking API."},
+    {"wording": "En Distribución Urbana", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal", "note": "Seen in an archived reply of the tracking API."},
+    {"wording": "Reparto", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal", "note": "Seen in an archived reply of the tracking API."},
+    {"wording": "Intento de entrega", "stage": "failed_attempt", "language": "es", "confirmedBy": "portal", "note": "Seen in an archived reply of the tracking API."},
+    {"wording": "En Proceso de Devolución", "stage": "returned", "language": "es", "confirmedBy": "portal", "note": "Being returned to the sender. Seen in an archived reply of the tracking API."}
+  ]
+}

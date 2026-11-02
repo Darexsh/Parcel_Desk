@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "hasBusinessException": false,
+  "result": {
+    "notExistsTrackingNumbers": [],
+    "waybills": [
+      {
+        "trackingNumber": "ES0000000000000UN0000000000N",
+        "isEventCode": "DELIVERED",
+        "lastStatus": "Delivered. (Recipient's front door)",
+        "consigneeCountryCode": "US",
+        "consigneeZipCode": "00000",
+        "traces": [
+          {
+            "eventDesc": "Delivered. (Recipient's front door)",
+            "oprTimestamp": 1767459600000,
+            "oprTime": "2026-01-03 12:00:00",
+            "oprTimeZone": "-5",
+            "oprCity": "Example City",
+            "oprCountry": "US"
+          },
+          {
+            "eventDesc": "Out for delivery",
+            "oprTimestamp": 1767445200000,
+            "oprCity": "Example City",
+            "oprCountry": "US"
+          },
+          {
+            "eventDesc": "LM Carrier: [Uni Uni] , LM tracking No.：[UUS00T0000000000000]",
+            "oprTimestamp": 1767362400000
+          },
+          {
+            "eventDesc": "Package Received",
+            "oprTimestamp": 1767276000000,
+            "oprCity": "Example Origin",
+            "oprCountry": "CN"
+          },
+          {
+            "eventDesc": "Shipment Data Received",
+            "oprTimestamp": 1767189600000
+          }
+        ]
+      }
+    ]
+  }
+}

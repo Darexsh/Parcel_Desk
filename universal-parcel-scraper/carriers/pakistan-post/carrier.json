@@ -1,0 +1,102 @@
+{
+  "id": "pakistan-post",
+  "displayName": "Pakistan Post",
+  "aliases": [
+    "PakPost",
+    "Pakistan Post Office",
+    "Pak Post"
+  ],
+  "region": {
+    "countries": [
+      "PK"
+    ]
+  },
+  "brand": {
+    "color": "#ed1b24"
+  },
+  "selectable": true,
+  "timezone": "Asia/Karachi",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pakistan-post",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 928
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://ep.gov.pk/emtts/EPTrack_Live.aspx?ArticleIDz={trackingNumber}",
+    "searchUrl": "https://ep.gov.pk/",
+    "canaryUrl": "https://ep.gov.pk/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin_country",
+      "destination_country",
+      "acceptance_office",
+      "delivery_office",
+      "signatory",
+      "remarks",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "destination_country"
+    ],
+    "discarded": [
+      "origin_country",
+      "acceptance_office",
+      "delivery_office",
+      "signatory",
+      "remarks",
+      "payment_details"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "provider_code",
+      "delivered_at",
+      "offset_timestamps",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "ep.gov.pk",
+        "www.ep.gov.pk"
+      ],
+      "pathPattern": "^/emtts/EPTrack_Live\\.aspx$",
+      "params": [
+        "ArticleIDz"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "pakistan-post-1",
+      "pattern": "^(?:RGL|PAR)\\d{8}$",
+      "confidence": "low"
+    },
+    {
+      "id": "pakistan-post-s10",
+      "pattern": "^[A-Z]{2}\\d{9}PK$",
+      "confidence": "low",
+      "checksum": "s10",
+      "preferred": true
+    }
+  ]
+}

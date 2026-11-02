@@ -1,0 +1,52 @@
+{
+  "id": "dex-i",
+  "displayName": "DEX-I",
+  "aliases": [
+    "Dex-i",
+    "DEXI",
+    "Destinations Express",
+    "递壹时",
+    "递壹时国际物流",
+    "广州递壹时国际货物代理有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "SG",
+      "MY"
+    ]
+  },
+  "brand": {
+    "color": "#3b2280"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.dex-i.com/site/tracking?trackingNums={trackingNumber}",
+    "searchUrl": "https://www.dex-i.com/site/tracking",
+    "canaryUrl": "https://www.dex-i.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.dex-i.com",
+        "dex-i.com"
+      ],
+      "pathPattern": "^/site/tracking$",
+      "params": [
+        "trackingNums"
+      ]
+    }
+  ],
+  "detection": []
+}

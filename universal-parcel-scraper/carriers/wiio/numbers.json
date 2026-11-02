@@ -1,0 +1,25 @@
+{
+  "carrier": "wiio",
+  "records": [
+    {
+      "number": "ZLXHC0100069418YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://villatheme.com/?p=152611",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "wiio"
+        ]
+      },
+      "note": "A store owner's support post names Wiio as the courier for this number; the tracker of Wiio's PD Express line answers it."
+    }
+  ]
+}

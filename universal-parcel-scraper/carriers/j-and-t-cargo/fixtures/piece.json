@@ -1,0 +1,49 @@
+{
+  "code": 1,
+  "msg": "请求成功",
+  "fail": false,
+  "succ": true,
+  "data": [{
+    "keyword": "200000000001002",
+    "expressTypeName": "MassTrack",
+    "packageNumber": 3,
+    "packageTotalWeight": 90,
+    "sendCode": "02",
+    "receiverName": "Example Recipient",
+    "receiverMobilePhone": "00000000000",
+    "details": [
+      {
+        "billCode": "200000000001002",
+        "scanTime": "2026-01-03 15:45:00",
+        "code": 100,
+        "status": "Sudah Diterima",
+        "scanTypeName": "Tanda Terima",
+        "scanNetworkCity": "Example Destination",
+        "scanNetworkProvince": "Example Province",
+        "customerTracking": "Received by Example Recipient; contact 00000000000",
+        "staffName": "Example Staff",
+        "deliveryTelephone": "00000000000",
+        "picUrl": "https://example.invalid/private-proof"
+      },
+      {
+        "billCode": "200000000001002",
+        "scanTime": "2026-01-03 08:00:00",
+        "code": 94,
+        "status": "dalam proses distribusi",
+        "scanTypeName": "Scan Keluar Gudang",
+        "scanNetworkCity": "Example Destination",
+        "scanNetworkProvince": "Example Province",
+        "customerTracking": "Example Courier (00000000000) is delivering the parcel"
+      },
+      {
+        "billCode": "200000000001002",
+        "scanTime": "2026-01-02 10:00:00",
+        "code": 90,
+        "status": "dalam proses delivery",
+        "scanTypeName": "Scan Penerimaan Pusat",
+        "scanNetworkCity": "Example Gateway",
+        "scanNetworkProvince": "Example Province"
+      }
+    ]
+  }]
+}

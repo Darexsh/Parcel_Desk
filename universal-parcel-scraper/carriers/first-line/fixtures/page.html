@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>追踪单号 - 壹号专线</title></head>
+<body>
+<div id="track_query"><textarea name="jobnos" id="track_number" placeholder="输入运单号查询物流轨迹，一行一个，一次最多查询5个">1ST00000000000</textarea><p>立即查询</p></div>
+<div id="track_result"></div>
+<script type="text/javascript">
+function Query(){
+	$.post('query.php?meter=track_query&nonce=0000000000000000000000000000TEST&timestamp=1790000000&sign=0000000000000000000000000000000000000000&sj='+Math.random(),{track_number:$('#track_number').val()},function(data){
+		var re_val=data.split('{FGF}');
+	});
+}
+</script>
+</body>
+</html>

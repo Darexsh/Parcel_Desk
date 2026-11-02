@@ -1,0 +1,104 @@
+{
+  "id": "chukou1",
+  "displayName": "Chukou1",
+  "aliases": [
+    "出口易",
+    "CK1",
+    "Chukou1 Logistics",
+    "ChuKou1"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#0b4da2"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "chukou1",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 688
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://ec.chukou1.com/track?track_number={trackingNumber}",
+    "searchUrl": "https://ec.chukou1.com/",
+    "canaryUrl": "https://ec.chukou1.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "postcodes",
+      "destination_country",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "postcodes",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name",
+      "recipient_address"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "ec.chukou1.com"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "track_number"
+      ],
+      "ownNumbersOnly": true
+    },
+    {
+      "domains": [
+        "www.chukou1.com",
+        "chukou1.com"
+      ],
+      "pathPattern": "^/LogistictsTrack\\.aspx$",
+      "params": [
+        "trackNo"
+      ],
+      "ownNumbersOnly": true
+    }
+  ],
+  "detection": [
+    {
+      "id": "chukou1-1",
+      "pattern": "^[A-Z]{3}\\d{2}(0[1-9]|1[0-2])(0[1-9]|[12]\\d|3[01])[A-Z][A-Z0-9]{2,3}\\d{6,7}$",
+      "confidence": "low"
+    }
+  ]
+}

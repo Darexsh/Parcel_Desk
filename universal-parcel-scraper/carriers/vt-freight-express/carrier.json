@@ -1,0 +1,45 @@
+{
+  "id": "vt-freight-express",
+  "displayName": "VT Freight Express",
+  "aliases": [
+    "VTFE",
+    "VT Freight",
+    "VicTas Freight Express",
+    "Victas Freight Express",
+    "VT Freight Express Pty Ltd"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#e62e29"
+  },
+  "selectable": true,
+  "timezone": "Australia/Melbourne",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://portal.vtfe.com.au/Track/VTFE/{trackingNumber}",
+    "searchUrl": "https://www.vtfe.com.au/",
+    "canaryUrl": "https://www.vtfe.com.au/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "portal.vtfe.com.au"
+      ],
+      "path": "^/Track/VTFE/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

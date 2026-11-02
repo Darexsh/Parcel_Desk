@@ -1,0 +1,49 @@
+{
+  "carrier": "ats-healthcare",
+  "gap": "ATS Healthcare's shipment numbers are eight or nine digits, lengths many carriers share, so there is no rule.",
+  "records": [
+    {
+      "number": "804313478",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260217154844/https://www.atshealthcare.ca/quickTrackResult?ship=804313478",
+        "date": "2026-02-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on ATS Healthcare's own tracker; the tracker still answers it."
+    },
+    {
+      "number": "64708344",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220926221249/http://www.atshealthcare.ca/quickTrackResult?ship=64708344&url=http://www.atshealthcare.ca/ShipTracking-en&timeOffSet=-360",
+        "date": "2022-09-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on ATS Healthcare's own tracker; the tracker still answers it."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "exceptionMsg": null,
+  "traceId": "0000000000000000000000ff_000001",
+  "data": {
+    "trackList": [
+      {
+        "originCountryCode": "US",
+        "destCountryCode": "US",
+        "state": 2,
+        "logisticsNo": "FC9912310000001",
+        "orderNo": "99000000001",
+        "trackno": "XYT9900000001US",
+        "shippingtype": "P9901",
+        "shippingname": null,
+        "info": "Package departed from the warehouse",
+        "place": null,
+        "trackTime": "2026-03-02 15:51:13",
+        "days": 3,
+        "curNodeCode": null,
+        "lastTurnNo": "SWX990000000000000001",
+        "trackinfoList": [
+          {
+            "trackInfoId": "00000000000000000000000000000001",
+            "deliverySeq": "ZZ0000000000000000000000000000000000000001",
+            "taskCreateDate": "2026-01-02 08:00:00",
+            "trackno": "XYT9900000001US",
+            "shippingtype": "P9901",
+            "theLanguage": "EN",
+            "dateTime": null,
+            "info": "Package departed from the warehouse",
+            "place": null,
+            "occurDate": null,
+            "createDate": "2026-03-02 16:00:10",
+            "trackTime": "2026-03-02 15:51:13",
+            "agentid": "9900000000001",
+            "milestone": true,
+            "standard": true,
+            "nodeCode": "WH011",
+            "nodeName": "Outbound",
+            "originalInfo": "Package departed from the warehouse"
+          },
+          {
+            "trackInfoId": "00000000000000000000000000000002",
+            "deliverySeq": "ZZ0000000000000000000000000000000000000002",
+            "taskCreateDate": "2026-01-02 08:00:00",
+            "trackno": "XYT9900000001US",
+            "shippingtype": "P9901",
+            "theLanguage": "EN",
+            "dateTime": null,
+            "info": "Package received & scanned at warehouse",
+            "place": null,
+            "occurDate": null,
+            "createDate": "2026-03-02 14:00:10",
+            "trackTime": "2026-03-02 13:51:49",
+            "agentid": "9900000000001",
+            "milestone": true,
+            "standard": true,
+            "nodeCode": "WH001",
+            "nodeName": "Dispatched",
+            "originalInfo": "Package received and scanned at warehouse"
+          }
+        ],
+        "templateNodeList": [
+          {
+            "id": 9900000000000000000,
+            "trackTemplateId": 9900000000000000000,
+            "nodeId": 9900000000000000100,
+            "nodeName": "Pending delivery",
+            "nodeCode": "DE002",
+            "isMilestone": true,
+            "sortNo": 10,
+            "inessential": null
+          },
+          {
+            "id": 9900000000000000001,
+            "trackTemplateId": 9900000000000000000,
+            "nodeId": 9900000000000000101,
+            "nodeName": "Delivered",
+            "nodeCode": "DE001",
+            "isMilestone": true,
+            "sortNo": 20,
+            "inessential": null
+          }
+        ]
+      }
+    ],
+    "allNum": 1,
+    "notFoundNum": 0,
+    "inTransitNum": 1,
+    "deliveredNum": 0
+  }
+}

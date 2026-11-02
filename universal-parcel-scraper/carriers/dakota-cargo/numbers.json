@@ -1,0 +1,28 @@
+{
+  "carrier": "dakota-cargo",
+  "records": [
+    {
+      "number": "999092022A123456",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.dakotacargo.co.id/api.asp",
+        "date": "2026-10-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "royal-mail",
+          "dakota-cargo"
+        ]
+      },
+      "note": "Dakota Cargo's own API page gives this waybill as the example of its tracking request: branch, month, year, A and a sequence."
+    }
+  ]
+}

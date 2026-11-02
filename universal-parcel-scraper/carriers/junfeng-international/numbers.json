@@ -1,0 +1,24 @@
+{
+  "carrier": "junfeng-international",
+  "records": [
+    {
+      "number": "IW688661444GB",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.junfengfast.com/tracking.html",
+        "date": "2026-11-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "royal-mail",
+        "confidence": "high"
+      },
+      "note": "The example JunFeng International's tracker page prints, which the tracker answers with a parcel flown from China to the United Kingdom, where Parcelforce Worldwide delivered it."
+    }
+  ]
+}

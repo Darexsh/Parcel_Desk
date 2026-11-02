@@ -1,0 +1,28 @@
+{
+  "shipmentId": "00573000000000000001",
+  "actualReturnedId": "00573000000000000001",
+  "showSplitShipmentOverview": false,
+  "serviceName": "Parcel",
+  "serviceCode": "19",
+  "receiver": { "address": { "name": "Private Recipient", "street": "Example Private Address", "postCode": "99999", "city": "Private Town", "countryCode": "SE" } },
+  "sender": { "name": "Example Shop AB" },
+  "servicePoint": {
+    "name": "Example Service Point",
+    "address": { "street": "Example Square 1", "postalCode": "111 11", "city": "Example Town" },
+    "mapLink": "https://maps.example/service-point",
+    "currentStatus": { "day": "Today", "open": true, "spans": [{ "openTime": "08:00", "closeTime": "21:00" }] },
+    "openingHours": [{ "day": "Monday", "open": true, "current": true, "spans": [{ "openTime": "08:00", "closeTime": "21:00" }] }]
+  },
+  "items": [{
+    "itemId": "00573000000000000001",
+    "deliveryInformation": { "deliveryTo": "Private delivery instructions" },
+    "status": { "code": "AVAILABLE_FOR_DELIVERY", "header": "The shipment item has been delivered to a service point" },
+    "returnDate": "2026-01-20T00:00:00.000Z",
+    "events": [
+      { "eventDescription": "The shipment item is under transportation.", "eventTime": "2026-01-02T10:00:00.000Z", "status": "EN_ROUTE", "location": { "countryCode": "SE", "locationType": "HUB", "name": "Example Terminal" } },
+      { "eventDescription": "The delivery of the shipment item is in progress.", "eventTime": "2026-01-03T08:00:00.000Z", "status": "EN_ROUTE", "location": { "countryCode": "SE", "locationType": "SLINGA", "name": "Example Terminal" } },
+      { "eventDescription": "The shipment item has been delivered to a service point.", "eventTime": "2026-01-03T12:00:00.000Z", "status": "AVAILABLE_FOR_DELIVERY", "location": { "countryCode": "SE", "locationType": "SERVICE_POINT", "name": "Example Service Point" } },
+      { "eventDescription": "A text message notification has been sent to the recipient.", "eventTime": "2026-01-03T12:01:00.000Z", "status": "OTHER", "location": { "countryCode": "SE", "locationType": "HUB" } }
+    ]
+  }]
+}

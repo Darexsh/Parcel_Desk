@@ -1,0 +1,51 @@
+{
+  "id": "online-worldwide-logistics",
+  "displayName": "Online Worldwide",
+  "aliases": [
+    "Online Worldwide Logistics (欧莱物流)",
+    "Online Worldwide Logistics",
+    "Guangzhou Online Worldwide Logistics",
+    "Online Logistics",
+    "欧莱国际货运",
+    "欧莱物流供应链",
+    "广州市欧莱国际货运代理有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#8bc43f"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.online56.com.cn/cargo-tracking/?sn={trackingNumber}",
+    "searchUrl": "https://www.online56.com.cn/cargo-tracking/",
+    "canaryUrl": "https://www.online56.com.cn/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.online56.com.cn",
+        "online56.com.cn"
+      ],
+      "pathPattern": "^/cargo-tracking/?$",
+      "params": [
+        "sn"
+      ]
+    }
+  ],
+  "detection": []
+}

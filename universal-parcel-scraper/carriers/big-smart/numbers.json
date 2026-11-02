@@ -1,0 +1,128 @@
+{
+  "carrier": "big-smart",
+  "records": [
+    {
+      "number": "4913151017350381",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210901212831/https://api.bigsmart.mx/api/order-logs/MXFDD1101092?populate=true",
+        "date": "2021-09-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "An archived reply of Big Smart's tracking API, looked up by the alternative tracking number the reply lists, gives this as Big Smart's tracking number and shows 15 events ending Delivered."
+    },
+    {
+      "number": "2762147410834453",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210913170719/https://api.bigsmart.mx/api/order-logs/MXFDD1174019?populate=true",
+        "date": "2021-09-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "An archived reply of Big Smart's tracking API, looked up by the alternative tracking number the reply lists, gives this as Big Smart's tracking number and shows 13 events ending On Road."
+    },
+    {
+      "number": "6143495058873879",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210810234601/https://api.bigsmart.mx/api/order-logs/PExp240729?populate=true",
+        "date": "2021-08-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "An archived reply of Big Smart's tracking API, looked up by the alternative tracking number the reply lists, gives this as Big Smart's tracking number and shows 5 events ending At Station."
+    },
+    {
+      "number": "3682328190",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210823215311/https://api.bigsmart.mx/api/order-logs/Mi99224534?populate=true",
+        "date": "2021-08-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "An archived reply of Big Smart's tracking API, looked up by the alternative tracking number the reply lists, gives this as Big Smart's tracking number and shows 2 events ending Ready at FC. The only ten-digit tracking number among the captures."
+    },
+    {
+      "number": "MXFDD1101092",
+      "role": "order_reference",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210901212831/https://api.bigsmart.mx/api/order-logs/MXFDD1101092?populate=true",
+        "date": "2021-09-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "An alternative tracking number that Big Smart's tracking API accepts; the archived reply lists it beside Big Smart's own tracking number and shows the parcel delivered."
+    }
+  ]
+}

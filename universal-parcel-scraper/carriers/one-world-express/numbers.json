@@ -1,0 +1,44 @@
+{
+  "carrier": "one-world-express",
+  "records": [
+    {
+      "number": "OWE000101836230",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260302085715/https://www.smarttrack.co/tracking.php?tracking_number=OWE000101836230",
+        "date": "2026-03-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "one-world-express",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SmartTrack, which One World Express links as its parcel tracker, shows this parcel's history from data received in Delhi to delivery in the United States."
+    },
+    {
+      "number": "T01ZAA0016312666",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.oneworldexpress.com/tracking",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The example in the reference field of One World Express's tracking page; its layout matches Evri's numbers, so it may be a partner's number."
+    }
+  ]
+}

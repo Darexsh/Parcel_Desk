@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>SmartTrack</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <script type="text/javascript">
+            function showsorterImage(sorterImage, trackingNumber){
+                $.ajax({
+                    url: "tracking.php?tracking_number="+trackingNumber,
+                    data: {func: "get_sorter_image", sorterImage: sorterImage},
+                    type: 'post'
+                });
+            }
+    </script>
+</head>
+<body class="page-container-bg-solid page-header-fixed ">
+<div class="page-container">
+    <div class="page-content-wrapper" >
+        <div class="" >
+            <ul class="page-breadcrumb breadcrumb"><li class=" ">   <a class="" href="index.php">Home</a><i class="fa fa-fa fa-circle"></i></li><li class=" active">   <span class="active">Tracking   </span></li></ul>
+        <ul class="breadcrumb">
+            <li><a href="../main/index.php">Home</a></li>
+            <li>->Parcel Tracking</li>
+        </ul>
+        <div class="portlet light">
+            <div class="portlet-title">
+                <div class="caption"><i class="fa fa-upload"></i>
+                    Parcel tracking
+                </div>
+            </div>
+            <div class="portlet-body">
+                <p>No Tracking available.</p>            </div>
+        </div>
+        </div>
+    </div>
+</div>
+    <div class="page-footer">
+        <div class="page-footer-inner"> 2011-2026 &copy; SmartTrack</div>
+    </div>
+</body>
+</html>

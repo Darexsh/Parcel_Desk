@@ -1,0 +1,41 @@
+{
+  "carrier": "best-express-my",
+  "records": [
+    {
+      "number": "60850430213462",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230726062412/https://www.best-inc.my/track?bills=60850430213462",
+        "date": "2023-07-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "best-express-my",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Looked up on BEST Express Malaysia's own tracker, as an archived address shows; the opened capture holds only the page shell, so the history was not visible."
+    }
+  ]
+}

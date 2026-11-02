@@ -1,0 +1,53 @@
+{
+  "id": "rozetka-delivery",
+  "displayName": "ROZETKA Delivery",
+  "aliases": [
+    "Rozetka Delivery",
+    "Rozetka.Delivery",
+    "rozetka.delivery"
+  ],
+  "region": {
+    "countries": [
+      "UA"
+    ]
+  },
+  "brand": {
+    "color": "#05bc52"
+  },
+  "selectable": true,
+  "timezone": "Europe/Kyiv",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://rozetka.delivery/tracking?parcel_id={trackingNumber}",
+    "searchUrl": "https://rozetka.delivery/tracking",
+    "canaryUrl": "https://rozetka.delivery/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "rozetka.delivery",
+        "www.rozetka.delivery"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "parcel_id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "rozetka-delivery-rmp",
+      "pattern": "^RMP\\d{9}$",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "post-luxembourg",
+  "displayName": "POST Luxembourg",
+  "aliases": [
+    "Post Luxembourg",
+    "Luxembourg Post",
+    "P&T Luxembourg"
+  ],
+  "region": {
+    "countries": [
+      "LU"
+    ]
+  },
+  "brand": {
+    "color": "#008736"
+  },
+  "selectable": true,
+  "timezone": "Europe/Luxembourg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "post-luxembourg",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 80
+    },
+    "localClocks": true,
+    "dateOnlyScans": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://www.post.lu/en/particuliers/colis-courrier/track-and-trace#/search?numero={trackingNumber}",
+    "searchUrl": "https://www.post.lu/en/particuliers/colis-courrier/track-and-trace",
+    "canaryUrl": "https://www.post.lu/en/particuliers/colis-courrier/track-and-trace",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "progress_rail"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "progress_rail"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "scan_times",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "post.lu"
+      ],
+      "pathPattern": "^/(?:(?:en|fr|de|lb)/)?particuliers/colis-courrier/track-and-trace/?$",
+      "params": [
+        "numero"
+      ],
+      "fragment": "[?&]numero=([^&]+)"
+    },
+    {
+      "domains": [
+        "trackandtrace.lu"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "numero"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "post-luxembourg-s10",
+      "pattern": "^[A-Z]{2}\\d{9}LU$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

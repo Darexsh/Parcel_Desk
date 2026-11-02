@@ -1,0 +1,175 @@
+{
+  "idSending": 90000000000001,
+  "docnum": "9901-0000001",
+  "idClientFrom": 90000000000002,
+  "idClientTo": 90000000000003,
+  "idCityFrom": 9002,
+  "idCityTo": 9001,
+  "cityFrom": {
+    "id": 9002,
+    "name": "Примерск"
+  },
+  "cityTo": {
+    "id": 9001,
+    "name": "Образцово"
+  },
+  "cargoName": "образцы",
+  "request": null,
+  "deliveryTo": null,
+  "weight": 12.5,
+  "volume": 0.06,
+  "places": 1,
+  "priceTripType": {
+    "id": 1,
+    "title": "Авто"
+  },
+  "deliveryDateFrom": 1773187200,
+  "deliveryDateTo": 1773792000,
+  "deliveryDateFromFormatted": "11.03.2026",
+  "deliveryDateToFormatted": "18.03.2026",
+  "sendDate": "2026-03-02T07:40:00.000+00:00",
+  "senderIsPaid": false,
+  "recipientIsPaid": true,
+  "senderTotalPrice": 0,
+  "recipientTotalPrice": 1000,
+  "states": [
+    {
+      "idState": 20,
+      "idSubState": 0,
+      "subStateTitle": "",
+      "movingDate": 1773314405,
+      "movingDateFormatted": "12.03.2026",
+      "amount": 1,
+      "title": "Выдана",
+      "stateInfo": {
+        "idWare": 0,
+        "warehouse": null,
+        "trip": null,
+        "issued": {
+          "to": "Образцов Образец Образцович",
+          "issueDate": 1773339617,
+          "warehouse": {
+            "id": 29001,
+            "title": "Образцово Северная",
+            "address": "ул. Образцовая, 1",
+            "workTime": [
+              {
+                "day": 1,
+                "end": "18:00",
+                "begin": "09:00"
+              },
+              {
+                "day": 2,
+                "end": "18:00",
+                "begin": "09:00"
+              },
+              {
+                "day": 3,
+                "end": "18:00",
+                "begin": "09:00"
+              },
+              {
+                "day": 4,
+                "end": "18:00",
+                "begin": "09:00"
+              },
+              {
+                "day": 5,
+                "end": "18:00",
+                "begin": "09:00"
+              },
+              {
+                "day": 6,
+                "end": "15:00",
+                "begin": "10:00"
+              },
+              {
+                "day": 7,
+                "end": "",
+                "begin": ""
+              }
+            ],
+            "phone": "+7 (000) 000-0000",
+            "email": "sample@example.invalid",
+            "zipcode": 0,
+            "latitude": 50.1234,
+            "longitude": 40.5678,
+            "idCity": 9001,
+            "isInternal": 0,
+            "code": "9902",
+            "isIssuer": 1,
+            "type": 1,
+            "maxWeight": 800,
+            "maxVolume": 3,
+            "maxLength": 3,
+            "maxWidth": 2.4,
+            "maxHeight": 2.4,
+            "fulladdress": "г. Образцово, ул. Образцовая, 1",
+            "additionalAddressInfo": ""
+          },
+          "idWare": 29001
+        }
+      }
+    }
+  ],
+  "warehouseTo": {
+    "id": 29001,
+    "title": "Образцово Северная",
+    "address": "ул. Образцовая, 1",
+    "workTime": [
+      {
+        "day": 1,
+        "end": "18:00",
+        "begin": "09:00"
+      },
+      {
+        "day": 2,
+        "end": "18:00",
+        "begin": "09:00"
+      },
+      {
+        "day": 3,
+        "end": "18:00",
+        "begin": "09:00"
+      },
+      {
+        "day": 4,
+        "end": "18:00",
+        "begin": "09:00"
+      },
+      {
+        "day": 5,
+        "end": "18:00",
+        "begin": "09:00"
+      },
+      {
+        "day": 6,
+        "end": "15:00",
+        "begin": "10:00"
+      },
+      {
+        "day": 7,
+        "end": "",
+        "begin": ""
+      }
+    ],
+    "phone": "+7 (000) 000-0000",
+    "email": "sample@example.invalid",
+    "zipcode": 0,
+    "latitude": 50.1234,
+    "longitude": 40.5678,
+    "idCity": 9001,
+    "isInternal": 0,
+    "code": "9902",
+    "isIssuer": 1,
+    "type": 1,
+    "maxWeight": 800,
+    "maxVolume": 3,
+    "maxLength": 3,
+    "maxWidth": 2.4,
+    "maxHeight": 2.4,
+    "fulladdress": "г. Образцово, ул. Образцовая, 1",
+    "additionalAddressInfo": null
+  },
+  "isDelivery": false
+}

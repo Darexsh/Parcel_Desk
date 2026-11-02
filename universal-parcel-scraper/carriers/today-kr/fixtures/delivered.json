@@ -1,0 +1,93 @@
+{
+  "type": "NORMAL",
+  "data": {
+    "state": "DELIVERED",
+    "title": "최적경로 배송으로\n5월 12일(화) 오후 2:02 도착 완료!",
+    "sanitizedLoad": {
+      "id": "00000000-0000-4000-8000-000000000001",
+      "displayInvoiceNumber": "100000000017",
+      "invoiceNumber": "100000000017",
+      "clientId": "100000000000",
+      "clientName": "Sample Client",
+      "shippingPlaceId": "00000000-0000-4000-8000-000000000002",
+      "clientOrderId": "SAMPLE-ORDER-0001",
+      "clientShippingId": "",
+      "state": "DELIVERED",
+      "returnReserved": false,
+      "deliveryClass": "INCHEON_24",
+      "shippingType": "LM_TO_LM",
+      "endUserType": "B2C",
+      "policyType": "TODAY_MORNING",
+      "shippingRole": "NONE",
+      "orderSource": "",
+      "orderTime": "2026-05-11T21:14:05.123456+09:00",
+      "takeOutTime": null,
+      "targetDeliverTime": "2026-05-12T23:59:59+09:00",
+      "plannedInfo": { "inCollect": null, "inDelivery": null, "inTransport": null },
+      "scannedStationIds": ["00000000-0000-4000-8000-000000000011", "00000000-0000-4000-8000-000000000012", "00000000-0000-4000-8000-000000000013"],
+      "shippingPath": [
+        { "routeId": "00000000-0000-4000-8000-000000000021", "sourceStation": { "id": "00000000-0000-4000-8000-000000000011", "sequence": 0 }, "scanned": true, "finished": true }
+      ],
+      "name": "Sample Product A\nSample Product B",
+      "dimension": { "width": 100, "depth": 200, "height": 50 },
+      "fragile": false,
+      "weight": 0,
+      "businessInfo": { "name": "Sample Shop", "phone": "000-0000-0000" },
+      "lastPossessor": { "organizationId": "00000000-0000-4000-8000-000000000031", "driverId": "00000000-0000-4000-8000-000000000032", "driverName": "샘*기", "driverPhone": "00000000000" },
+      "cautionTypes": [],
+      "reportTimes": {
+        "deliverTime": "2026-05-12T14:02:09.512345678+09:00",
+        "pickUpTime": "2026-05-12T09:05:11.123456789+09:00"
+      },
+      "sender": { "name": "Sample Sender", "location": { "latitude": 37.0001, "longitude": 127.0001 } },
+      "receiver": { "name": "샘*인", "location": { "latitude": 37.0002, "longitude": 127.0002 } },
+      "deliveryInfo": { "deliverTime": "2026-05-12T14:02:09.512345678+09:00", "type": "" }
+    },
+    "sanitizedOrder": {
+      "orderId": "00000000-0000-4000-8000-000000000001",
+      "displayInvoiceNumber": "100000000017",
+      "invoiceNumber": "100000000017",
+      "state": "DELIVERED",
+      "deliveryClass": "INCHEON_24",
+      "shippingType": "LM_TO_LM",
+      "businessInfo": { "name": "Sample Shop", "phone": "000-0000-0000" },
+      "clientOrderId": "SAMPLE-ORDER-0001",
+      "physicalAttributes": { "size": "", "width": 0, "depth": 0, "height": 0, "weight": 1200, "fragile": false, "fresh": false },
+      "note": "",
+      "products": [
+        { "id": "00000000-0000-4000-8000-000000000041", "name": "Sample Product A", "category": "Sample Category", "price": 0, "count": 1, "developerPayload": "{\"sample\":\"payload\"}" }
+      ]
+    },
+    "progress": {
+      "loadState": "DELIVERED",
+      "pickUpTime": "2026-05-12T09:05:11.123456789+09:00",
+      "shippingTime": "2026-05-12T10:15:30.000000001+09:00",
+      "deliveryStartTime": "2026-05-12T13:20:45.75+09:00",
+      "deliveryTime": "2026-05-12T14:02:09.512345678+09:00",
+      "holdingDelivery": false
+    },
+    "steps": {
+      "logs": [
+        {
+          "station": { "id": "00000000-0000-4000-8000-000000000011", "name": "가나", "type": "LOCAL", "level": "LC", "rawAddress": "Sample Address 1", "location": { "latitude": 37.1, "longitude": 127.1 } },
+          "arrivalTime": "2026-05-12T09:40:00.25+09:00",
+          "departureTime": "2026-05-12T10:15:30.000000001+09:00"
+        },
+        {
+          "station": { "id": "00000000-0000-4000-8000-000000000012", "name": "다라허브-1", "type": "WIDE_IN_DOOR", "level": "WD", "rawAddress": "Sample Address 2", "location": { "latitude": 37.2, "longitude": 127.2 } },
+          "arrivalTime": "2026-05-12T11:02:00+09:00",
+          "departureTime": "2026-05-12T11:30:00+09:00"
+        },
+        {
+          "station": { "id": "00000000-0000-4000-8000-000000000013", "name": "마바", "type": "LOCAL", "level": "LC", "rawAddress": "Sample Address 3", "location": { "latitude": 37.3, "longitude": 127.3 } },
+          "arrivalTime": "2026-05-12T12:05:00+09:00",
+          "departureTime": "2026-05-12T13:20:45.75+09:00"
+        }
+      ],
+      "source": { "title": "수거지", "time": "2026-05-12T09:05:11.123456789+09:00", "actionName": "픽업", "arrivedAtNextStation": true },
+      "destination": { "title": "도착지", "deliveryState": "DELIVERED", "deliveryTime": "2026-05-12T14:02:09.512345678+09:00" },
+      "shippingType": "LM_TO_LM",
+      "fillsUnknownProgress": false
+    }
+  }
+}

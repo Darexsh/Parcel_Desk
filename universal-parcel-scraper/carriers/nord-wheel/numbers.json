@@ -1,0 +1,81 @@
+{
+  "carrier": "nord-wheel",
+  "records": [
+    {
+      "number": "НФ-00857971",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://nordw.ru/tools/api/data/nordw.yaml",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Example in Nord Wheel's own public API specification, returned as the number of a newly created order."
+    },
+    {
+      "number": "НФ-00858027",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://nordw.ru/tools/api/data/nordw.yaml",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Example in Nord Wheel's own public API specification, given as the waybill number (номер накладной) for the order status call."
+    },
+    {
+      "number": "НФ-00896033",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://nordw.ru/tools/api/data/nordw.yaml",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Example in Nord Wheel's own public API specification, shown as an order number in the order details."
+    },
+    {
+      "number": "НФ-00939946",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://nordw.ru/tools/api/data/nordw.yaml",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Example in Nord Wheel's own public API specification, shown as an order number in the order list."
+    }
+  ]
+}

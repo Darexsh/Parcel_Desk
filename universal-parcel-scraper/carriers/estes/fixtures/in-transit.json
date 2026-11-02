@@ -1,0 +1,258 @@
+{
+  "data": [
+    {
+      "pro": "9900000101",
+      "documentReference": [
+        {
+          "id": "PO-SYNTH-1",
+          "documentType": "PON"
+        },
+        {
+          "id": "BOL-SYNTH-1",
+          "documentType": "BOL"
+        }
+      ],
+      "pickupDate": "2026-03-02",
+      "pickupTime": "14:05:11-06:00",
+      "isResidential": true,
+      "isTruckload": false,
+      "status": {
+        "conciseStatus": "In Transit",
+        "expandedStatus": "Arrived at Riverton, WA (992) delivery facility",
+        "referenceDate": "2026-03-04",
+        "referenceTime": "21:58:31-08:00",
+        "isException": false
+      },
+      "transitDays": "4",
+      "driverInfo": {
+        "name": "Sample Driver"
+      },
+      "piecesCount": "2",
+      "totalWeight": "450",
+      "cube": "60.00",
+      "estimatedDelivery": {
+        "startDate": "2026-03-06"
+      },
+      "consigneeParty": {
+        "address": {
+          "city": "Sampleton",
+          "state": "ZZ",
+          "country": "US"
+        }
+      },
+      "shipperParty": {
+        "address": {
+          "city": "Shipville",
+          "state": "ZZ",
+          "postalCode": "00002",
+          "country": "US"
+        }
+      },
+      "destinationTerminal": {
+        "number": "992",
+        "name": "RIVERTON",
+        "address": {
+          "line": [
+            "100 Synthetic Way"
+          ],
+          "city": "West Riverton",
+          "state": "WA",
+          "postalCode": "00000",
+          "country": "US"
+        },
+        "geoCoordinates": [
+          "-90.0001",
+          "40.0001"
+        ],
+        "telephone": "(000) 000-0000",
+        "fax": "0000000000",
+        "email": "terminal@example.invalid"
+      },
+      "originTerminal": {
+        "number": "990",
+        "name": "OAK HOLLOW",
+        "address": {
+          "line": [
+            "100 Synthetic Way"
+          ],
+          "city": "Oak Hollow",
+          "state": "IL",
+          "postalCode": "00000",
+          "country": "US"
+        },
+        "geoCoordinates": [
+          "-90.0001",
+          "40.0001"
+        ],
+        "telephone": "(000) 000-0000",
+        "fax": "0000000000",
+        "email": "terminal@example.invalid"
+      },
+      "disclaimers": [
+        "Estimated Delivery Date is not guaranteed."
+      ],
+      "movementHistory": [
+        {
+          "id": "Pickup",
+          "description": "Actual Pickup",
+          "transportEventTypeCode": "Actual Pickup",
+          "statusHistory": [
+            {
+              "conciseStatus": "Departed Pickup Location",
+              "expandedStatus": "Pickup Location Serviced",
+              "referenceDate": "2026-03-02",
+              "referenceTime": "14:05:11-06:00",
+              "isException": false
+            }
+          ]
+        },
+        {
+          "id": "990",
+          "description": "Origin Terminal",
+          "location": {
+            "id": "990",
+            "name": "Oak Hollow",
+            "code": "OAK",
+            "address": {
+              "line": [
+                "100 Synthetic Way"
+              ],
+              "city": "Oak Hollow",
+              "state": "IL",
+              "postalCode": "00000"
+            },
+            "geoCoordinates": [
+              "-90.0001",
+              "40.0001"
+            ]
+          },
+          "contact": {
+            "telephone": "(000) 000-0000",
+            "fax": "0000000000"
+          },
+          "transportEventTypeCode": "Origin Terminal",
+          "statusHistory": [
+            {
+              "conciseStatus": "In Transit",
+              "expandedStatus": "Loaded at Estes facility at Oak Hollow, IL (990)",
+              "referenceDate": "2026-03-02",
+              "referenceTime": "18:22:40-06:00",
+              "isException": false
+            },
+            {
+              "conciseStatus": "In Transit",
+              "expandedStatus": "Trailer Closed at Estes facility at Oak Hollow, IL (990)",
+              "referenceDate": "2026-03-02",
+              "referenceTime": "19:01:02-06:00",
+              "isException": false
+            },
+            {
+              "conciseStatus": "In Transit",
+              "expandedStatus": "Departed Estes facility at Oak Hollow, IL (990)",
+              "referenceDate": "2026-03-02",
+              "referenceTime": "23:47:15-06:00",
+              "isException": false
+            }
+          ]
+        },
+        {
+          "id": "991",
+          "description": "Planned Waypoint",
+          "location": {
+            "id": "991",
+            "name": "Mesa Verde",
+            "code": "MES",
+            "address": {
+              "line": [
+                "100 Synthetic Way"
+              ],
+              "city": "North Mesa Verde",
+              "state": "NV",
+              "postalCode": "00000"
+            },
+            "geoCoordinates": [
+              "-90.0001",
+              "40.0001"
+            ]
+          },
+          "contact": {
+            "telephone": "(000) 000-0000",
+            "fax": "0000000000"
+          },
+          "transportEventTypeCode": "Planned Waypoint",
+          "statusHistory": [
+            {
+              "conciseStatus": "In Transit",
+              "expandedStatus": "En route to Estes facility at Mesa Verde, NV (991)",
+              "referenceDate": "2026-03-02",
+              "referenceTime": "23:47:15-06:00",
+              "isException": false
+            },
+            {
+              "conciseStatus": "In Transit",
+              "expandedStatus": "Arrived at Estes facility at Mesa Verde, NV (991)",
+              "referenceDate": "2026-03-03",
+              "referenceTime": "20:11:09-08:00",
+              "isException": false
+            },
+            {
+              "conciseStatus": "In Transit",
+              "expandedStatus": "Departed Estes facility at Mesa Verde, NV (991)",
+              "referenceDate": "2026-03-04",
+              "referenceTime": "02:30:00-08:00",
+              "isException": false
+            }
+          ]
+        },
+        {
+          "id": "992",
+          "description": "Destination Terminal",
+          "location": {
+            "id": "992",
+            "name": "Riverton",
+            "code": "RIV",
+            "address": {
+              "line": [
+                "100 Synthetic Way"
+              ],
+              "city": "West Riverton",
+              "state": "WA",
+              "postalCode": "00000"
+            },
+            "geoCoordinates": [
+              "-90.0001",
+              "40.0001"
+            ]
+          },
+          "contact": {
+            "telephone": "(000) 000-0000",
+            "fax": "0000000000"
+          },
+          "transportEventTypeCode": "Destination Terminal",
+          "statusHistory": [
+            {
+              "conciseStatus": "In Transit",
+              "expandedStatus": "En route to delivery facility at Riverton, WA (992)",
+              "referenceDate": "2026-03-04",
+              "referenceTime": "02:30:00-08:00",
+              "isException": false
+            },
+            {
+              "conciseStatus": "In Transit",
+              "expandedStatus": "Arrived at Riverton, WA (992) delivery facility",
+              "referenceDate": "2026-03-04",
+              "referenceTime": "21:58:31-08:00",
+              "isException": false
+            }
+          ]
+        }
+      ],
+      "trackingInfo": null
+    }
+  ],
+  "error": {
+    "code": 0,
+    "message": "",
+    "details": ""
+  }
+}

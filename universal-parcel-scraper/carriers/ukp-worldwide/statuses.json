@@ -1,0 +1,8 @@
+{
+  "carrier": "ukp-worldwide",
+  "entries": [
+    {"code": "X0", "wording": "Labelled", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The label printed for the shipper's order, the first row."},
+    {"code": "X1", "wording": "Processed at UKP", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "UKP's depot near Aylesbury has the parcel and processes it, once or more."},
+    {"code": "SF", "wording": "ACAS: assessment complete", "language": "en", "confirmedBy": "live", "unmapped": true, "firstSeen": "2026-10-31", "note": "US air cargo advance screening of the shipment's data, before the flight: not a movement, so the row keeps the stage of the one before it."}
+  ]
+}

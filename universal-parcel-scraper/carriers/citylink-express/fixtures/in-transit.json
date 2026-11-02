@@ -1,0 +1,92 @@
+{
+  "req": {
+    "data": {
+      "returncode": "00",
+      "returnmessage": "",
+      "trackingNo": "960300000000001",
+      "origin": "KUL",
+      "destination": "JHB",
+      "refno": "",
+      "type": "PARCEL",
+      "dimension": "0W 0H 0L",
+      "weight": "0.40",
+      "shipper_tel": "",
+      "consignee_tel": "",
+      "account_no": "",
+      "progress": 2,
+      "px": [
+        "960300000000009"
+      ],
+      "trackDetails": [
+        {
+          "detDate": "09/03/2026",
+          "detTime": "213005",
+          "CP_Code": "SR",
+          "status": "SR - Packed",
+          "location": "",
+          "Recipient": "",
+          "DisposeCode": "",
+          "POD": "",
+          "Signature": ""
+        },
+        {
+          "detDate": "10/03/2026",
+          "detTime": "110230",
+          "CP_Code": "PK",
+          "status": "Arrived City-Link facility",
+          "location": "Sample City, Malaysia",
+          "Recipient": "",
+          "DisposeCode": "",
+          "POD": "",
+          "Signature": ""
+        },
+        {
+          "detDate": "10/03/2026",
+          "detTime": "190000",
+          "CP_Code": "HD",
+          "status": "Departure scan",
+          "location": "Sample City, Malaysia",
+          "Recipient": "",
+          "DisposeCode": "",
+          "POD": "",
+          "Signature": ""
+        },
+        {
+          "detDate": "11/03/2026",
+          "detTime": "032511",
+          "CP_Code": "PK",
+          "status": "Arrived City-Link facility",
+          "location": "Sample Hub, Malaysia",
+          "Recipient": "",
+          "DisposeCode": "",
+          "POD": "",
+          "Signature": ""
+        },
+        {
+          "detDate": "11/03/2026",
+          "detTime": "054500",
+          "CP_Code": "HD",
+          "status": "Departed sorting facility",
+          "location": "Sample Hub, Malaysia",
+          "Recipient": "",
+          "DisposeCode": "",
+          "POD": "",
+          "Signature": ""
+        },
+        {
+          "detDate": "11/03/2026",
+          "detTime": "180745",
+          "CP_Code": "RV",
+          "status": "At City-Link local facility",
+          "location": "Sample Town, Malaysia",
+          "Recipient": "",
+          "DisposeCode": "",
+          "POD": "",
+          "Signature": ""
+        }
+      ]
+    },
+    "headers": [],
+    "status": 200
+  }
+}

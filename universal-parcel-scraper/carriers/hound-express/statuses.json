@@ -1,0 +1,12 @@
+{
+  "carrier": "hound-express",
+  "entries": [
+    {"wording": "Held at customs", "stage": "customs", "language": "en", "confirmedBy": "official-doc", "note": "The English FAQ names it as a status the tracker can show."},
+    {"wording": "Detenido en aduana", "stage": "customs", "language": "es", "confirmedBy": "official-doc", "note": "The Spanish FAQ names it as a status the tracker can show."},
+    {"wording": "Prohibited Import", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "The English FAQ explains that the authorities retained the goods and they cannot enter the country."},
+    {"wording": "Importación prohibida", "stage": "exception", "language": "es", "confirmedBy": "official-doc", "note": "The Spanish FAQ explains that the authorities retained the goods and they cannot enter the country."},
+    {"code": "DLV", "wording": "ENTREGADO POD EN SISTEMA", "stage": "delivered", "language": "es", "confirmedBy": "official-doc", "note": "Status description in the webhook documentation: delivered at the label address with a photo or signature as proof."},
+    {"code": "DLV", "wording": "DELIVERED POD IN SYSTEM", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "English description of the same webhook status."},
+    {"code": "NBROA", "wording": "NO ONE TO RECEIVE", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "The delivery partner documentation names this status, id 46, for a delivery attempt where nobody received the parcel."}
+  ]
+}

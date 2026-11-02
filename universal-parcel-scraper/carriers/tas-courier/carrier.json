@@ -1,0 +1,47 @@
+{
+  "id": "tas-courier",
+  "displayName": "TAS Courier",
+  "aliases": [
+    "TAScourier",
+    "TAS Courier E.E.",
+    "TAS Courier ΕΕ"
+  ],
+  "region": {
+    "countries": [
+      "GR"
+    ]
+  },
+  "brand": {
+    "color": "#e9272b"
+  },
+  "selectable": true,
+  "timezone": "Europe/Athens",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.tascourier.gr/track?v={trackingNumber}",
+    "searchUrl": "https://www.tascourier.gr/track",
+    "canaryUrl": "https://www.tascourier.gr/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.tascourier.gr",
+        "tascourier.gr"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "v"
+      ]
+    }
+  ],
+  "detection": []
+}

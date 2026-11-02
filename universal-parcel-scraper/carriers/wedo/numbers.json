@@ -1,0 +1,65 @@
+{
+  "carrier": "wedo",
+  "records": [
+    {
+      "number": "1AM21557070",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260925040703/https://onedelivery.cz/sledovani-zasilky?numer=1AM21557070",
+        "date": "2026-09-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "wedo",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on One by Allegro's Czech tracker. The tracker still answers it with ten scans ending in delivery in September 2026."
+    },
+    {
+      "number": "46P00023155",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251019154502/https://onedelivery.cz/?numer=46P00023155",
+        "date": "2025-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "wedo",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on One by Allegro's Czech tracker. The tracker still answers it with seven scans ending in delivery in October 2025."
+    },
+    {
+      "number": "1AM12279974",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251030214042/https://onedelivery.cz/sledovani-zasilky?numer=1AM12279974",
+        "date": "2025-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "wedo",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on One by Allegro's Czech tracker. The tracker still answers it with six scans from late October 2025."
+    }
+  ]
+}

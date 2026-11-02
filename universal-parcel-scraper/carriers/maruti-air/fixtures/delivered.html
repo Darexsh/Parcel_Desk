@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Tracking
+</title><link href="TRackpage/bootstrap.min.css" rel="stylesheet" /><link href="TRackpage/style.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="TRackpage/Card.css" />
+    <script src="TRackpage/jquery.min.js"></script>
+    <script src="TRackpage/jquery-migrate.min.js"></script>
+    <script src="TRackpage/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <form name="form1" method="post" action="./WebAWBTracking.aspx?AWB=200000011" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="SYNTHETIC-VIEW-STATE" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="SYNTHETIC" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="SYNTHETIC-EVENT-VALIDATION" />
+</div>
+        <main>
+ <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about" class="margininner">
+      <div class="container" style="text-align:center">
+
+          <h3><span class="boldtext">Awb Tracking</span></h3>
+      
+      </div>
+    </section><!-- #about -->
+	
+
+    <!--==========================
+      Services Section
+    ============================-->
+   
+      <div class="container">
+          <div id="divtrack">
+        <div class="row" >
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+                <label for="fname"></label>
+                
+             </div>
+                </div>
+                 <div class="row">
+                      <div class="col-sm-4" style="width:33.333333%">
+                      </div>
+                      <div class="col-sm-4" style="width:33.333333%">
+                        <input name="dzName" type="text" id="dzName" class="form-control" style="width:100%" placeholder="Docket Tracking" value="200000011" />
+                     </div>
+                      <div class="col-sm-4"  style="width:33.333333%">
+                    <div class="searching" style="width: 210px;float:left;margin-top:-13px">
+                        <button onclick="__doPostBack('ctl05','')" class="btngetstarted">
+                            <i class="fa fa-search"></i>&nbsp;&nbsp;Tracking
+                        </button>
+                    </div>  
+                    </div>
+                    </div>
+            </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <span id="lblAlert" style="color:Red;font-weight:bold;"></span>
+                <div class="tracking">
+                    <div class="billno">
+                        <h5>Docket No.</h5>
+                        <h4><span class="green">200000011</span></h4>
+                    </div>
+                    <div class="shippingstatus">
+                        <h5>Status</h5>
+                        <h4><span class="green">DELIVERED</span></h4>
+                    </div>
+                </div>
+                <div class="row smpl-step" style="border-bottom: 0;">
+                    <div class="col-4 smpl-step-step complete">
+                        <div class="text-center smpl-step-num">Booked</div>
+                        <div class="progress"><div class="progress-bar"></div></div>
+                        <a class="smpl-step-icon"></a>
+                        <div class="smpl-step-info text-center">11/10/2026</div>
+                    </div>
+                    <div class="col-4 smpl-step-step complete">
+                        <div class="text-center smpl-step-num">In Transit</div>
+                        <div class="progress"><div class="progress-bar"></div></div>
+                        <a class="smpl-step-icon"></a>
+                        <div class="smpl-step-info text-center">12/10/2026</div>
+                    </div>
+                    <div class="col-4 smpl-step-step complete">
+                        <div class="text-center smpl-step-num">Delivered</div>
+                        <div class="progress"><div class="progress-bar"></div></div>
+                        <a class="smpl-step-icon"></a>
+                        <div class="smpl-step-info text-center">13/10/2026</div>
+                    </div>
+                </div>
+                <div id="accordion" class="rs-accordion-style1">
+                    <div class="card">
+                        <div class="card-header"><h3 class="acdn-title" data-toggle="collapse" data-target="#collapseOne">Shipment Details</h3></div>
+                        <div id="collapseOne" class="collapse show" data-parent="#accordion"><div class="card-body">
+                            <table class="shipingtable">
+                                <tr><th>Booking Date</th><td>11/10/2026</td><th>Booking Branch</th><td>SURAT - RING ROAD</td></tr>
+                                <tr><th>Origin</th><td>SURAT</td><th>Destination</th><td>PUNE</td></tr>
+                                <tr><th>Consignor</th><td>SAMPLE SENDER</td><th>Consignee</th><td>SAMPLE CONSIGNEE</td></tr>
+                                <tr><th>Content</th><td>DOCUMENT</td><th>Pieces</th><td>1</td></tr>
+                                <tr><th>Delivery Date</th><td>13/10/2026</td><th>Received By</th><td>SAMPLE RECEIVER (STAFF SIGN &amp; STAMP)</td></tr>
+                            </table>
+                        </div></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header"><h3 class="acdn-title collapsed" data-toggle="collapse" data-target="#collapseTwo">Tracking History</h3></div>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordion"><div class="card-body">
+                            <table class="shipingtable">
+                                <tr><th>Date</th><th>Time</th><th>Location</th><th>Activity</th></tr>
+                                <tr><td>13/10/2026</td><td>00:00</td><td>PUNE - KOTHRUD</td><td>DELIVERED TO SAMPLE RECEIVER (STAFF SIGN &amp; STAMP)</td></tr>
+                                <tr><td>13/10/2026</td><td>09:40</td><td>PUNE - KOTHRUD</td><td>OUT FOR DELIVERY WITH SAMPLE COURIER</td></tr>
+                                <tr><td>12/10/2026</td><td>22:15</td><td>PUNE</td><td>Received at PUNE - KOTHRUD</td></tr>
+                                <tr><td>11/10/2026</td><td>19:30</td><td>SURAT</td><td>Forwarded to PUNE</td></tr>
+                                <tr><td>11/10/2026</td><td>14:05</td><td>SURAT - RING ROAD</td><td>BOOKED</td></tr>
+                            </table>
+                        </div></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header"><h3 class="acdn-title collapsed" data-toggle="collapse" data-target="#collapseThree">POD</h3></div>
+                        <div id="collapseThree" class="collapse" data-parent="#accordion"><div class="card-body">
+                            <img id="imgViewFile" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="SAMPLE RECEIVER" />
+                            <span id="lblRotation" style="display:none">0</span>
+                            <a href="javascript:void(0)" onclick="rotateImage('counterClockWise','imgViewFile','lblRotation')">Rotate left</a>
+                            <a href="javascript:void(0)" onclick="rotateImage('clockWise','imgViewFile','lblRotation')">Rotate right</a>
+                        </div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+      </div>
+    
+  </main>
+    </form>
+    <script type="text/javascript">
+
+        function rotateImage(_direction, _imgViewFile, _rotation) {
+            try {
+                const rotated = document.getElementById(_imgViewFile);
+                let rotation = Number(document.getElementById(_rotation).innerText);
+                const angle = 90;
+                if (_direction == 'clockWise') {
+                    rotation = (rotation + angle) % 360;
+                    rotated.style.transform = `rotate(${rotation}deg)`;
+                    document.getElementById(_rotation).innerText = rotation;
+                }
+                else if (_direction == 'counterClockWise') {
+                    rotation = (rotation - angle) % 360;
+                    rotated.style.transform = `rotate(${rotation}deg)`;
+                    document.getElementById(_rotation).innerText = rotation;
+                }
+            }
+            catch (e) {
+                console.log(e)
+            }
+        }
+
+    </script>
+</body>
+</html>

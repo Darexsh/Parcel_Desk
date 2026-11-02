@@ -1,0 +1,24 @@
+{
+  "carrier": "hct-logistics",
+  "entries": [
+    {"wording": "收貨人簽收完畢", "stage": "delivered", "language": "zh", "confirmedBy": "portal", "note": "Seen in an archived capture of HCT's tracker as the latest status: the recipient signed for the parcel."},
+    {"wording": "貨件已抵達中和營業所，貨件整理中。貨物件數共1件。", "stage": "accepted", "language": "zh", "confirmedBy": "portal", "note": "Seen in an archived capture of HCT's tracker: the first branch has the parcel and counts its pieces. HCT's website labels it 已集貨. The branch name and the piece count change with the parcel."},
+    {"wording": "貨件已抵達新豐營業所，貨件整理中。貨物件數共1件。", "stage": "accepted", "language": "zh", "confirmedBy": "live", "note": "The first scan of a parcel, at the branch that collected it. The branch name and the piece count change with the parcel."},
+    {"wording": "貨件已由秀水轉運所發出，前往配送站途中。", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "Seen in an archived capture of HCT's tracker: a transfer centre sent the parcel on to the delivering branch. The centre's name changes with the parcel."},
+    {"wording": "貨件已由北轉發出，前往配送站途中。", "stage": "in_transit", "language": "zh", "confirmedBy": "live", "note": "A transfer centre, here written short as 北轉, sent the parcel on to the delivering branch. Branches send parcels on in the same words."},
+    {"wording": "貨件已抵達五股營業所，分貨中。", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "Seen in an archived capture of HCT's tracker: the parcel reached the delivering branch and is being sorted for its route. HCT's website labels it 轉運中. The branch name changes with the parcel."},
+    {"wording": "貨件已抵達中工營業所，分貨中。", "stage": "in_transit", "language": "zh", "confirmedBy": "live", "note": "A branch on the way sorting the parcel. The branch name changes with the parcel."},
+    {"wording": "貨件由中工營業所保管中。", "stage": "in_transit", "language": "zh", "confirmedBy": "live", "note": "A branch keeping the parcel between legs; HCT's website labels it 暫置營業所. The branch name changes with the parcel."},
+    {"wording": "貨件由西屯集配站人員配送中。", "stage": "out_for_delivery", "language": "zh", "confirmedBy": "live", "note": "A driver of the delivering branch or depot has the parcel. The name changes with the parcel."},
+    {"wording": "貨件由五股營業所人員配送中。", "stage": "out_for_delivery", "language": "zh", "confirmedBy": "portal", "note": "Seen in an archived capture of HCT's tracker. The branch name changes with the parcel."},
+    {"wording": "貨件已由西屯集配站送達。貨物件數共1件。", "stage": "delivered", "language": "zh", "confirmedBy": "live", "note": "Delivered, with the pieces counted. The name and the piece count change with the parcel."},
+    {"wording": "貨件已由五股營業所送達。貨物件數共1件。", "stage": "delivered", "language": "zh", "confirmedBy": "portal", "note": "Seen in an archived capture of HCT's tracker. The branch name and the piece count change with the parcel."},
+    {"wording": "與客戶另約時間配送。", "stage": "failed_attempt", "language": "zh", "confirmedBy": "live", "note": "The delivery round ended with a new time agreed with the customer."},
+    {"wording": "收貨人地址異常。", "stage": "exception", "language": "zh", "confirmedBy": "live", "note": "The recipient's address could not be served as written."},
+    {"wording": "取貨通知處理中", "stage": "registered", "language": "zh", "confirmedBy": "live", "note": "A pickup the sender booked is being arranged. The page lists it after the scans, and it can carry only its day."},
+    {"wording": "永康營業所已派遣人員取件中。", "stage": "registered", "language": "zh", "confirmedBy": "live", "note": "A branch sent a driver to collect the parcel; HCT's website labels it 取件中. The branch name changes with the parcel."},
+    {"wording": "永康營業所已至客戶端取回貨件。", "stage": "accepted", "language": "zh", "confirmedBy": "live", "note": "The driver collected the parcel from the sender; HCT's website labels it 已取件. The branch name changes with the parcel."},
+    {"wording": "已電話聯繫，無人接聽。", "language": "zh", "confirmedBy": "live", "note": "A call nobody answered, on a pickup or a delivery round. It does not say where the parcel is, so it has no stage."},
+    {"wording": "另約時間再次取件。", "language": "zh", "confirmedBy": "live", "note": "A pickup moved to another time. The parcel stays with the sender at the stage it had, so the notice has no stage."}
+  ]
+}

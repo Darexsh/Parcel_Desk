@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8" />
+    <title>GETOnline</title>
+  </head>
+  <body class="fixed-header menu-pin  ">
+<div class=" container-fluid container-fixed-lg  no-trackingstatus" style="display:none;">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="card-block" style="justify-content: center;display: grid;">
+                <h5 class="last-status mb-2">No tracking found for this number.</h5>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class=" container-fluid container-fixed-lg bg-primary-light trackingstatus-connote" style="display:none;">
+    <h3 class="cn1 m-t-0">&nbsp;</h3>
+    <span class="last-notes text14 bold">&nbsp;</span>
+    <span class="langlbl text12 lblsenderref" style="display:none" langtag="trackingstatus_SenderRef">Sender Ref</span>
+    <span class="senderref text14"></span>
+    <span class="destination bold"></span>
+    <span class="langlbl text12" langtag="trackingstatus_Servicetype" id="lblservicetype">Service Type</span>
+    <span class="servicetype" id="servicetype"></span>
+</div>
+<div class="tracking-events"></div>
+<!--html end here-->
+
+    <!-- BEGIN PAGE LEVEL JS --> <!--js here-->
+    <script>
+          //from js/gen-func
+        function js_searchnumber() {
+            var stid = getUrlParameter("stid");
+            if (stid == "") { location.href = errorsite; return false; }
+            var cn = $("#txtsearch").val();
+            
+            cn = cn.trim();
+            if (cn == "") {
+                alert("Please enter tracking number");
+                return false;
+            }
+           
+            location.href = "plm-tracking?cn=" + cn + "&stid=" + stid;
+            return false;
+        }
+        function js_getTrack() {
+            var cn = getUrlParameter("cn");
+            var stid = getUrlParameter("stid");
+            var a = getUrlParameter("action");
+            var status = getUrlParameter("status");
+            if (stid == "") { location.href = errorsite; return false; }
+            if (cn == "") { location.href = location.origin + "/tracking_search.aspx?stid=" + stid; return false; }
+
+           
+            $(".cn").html(cn);
+            $(".cn1").html(cn);
+
+            $(".trackingstatus").show();
+            $(".last-notes, .trackingstatus-connote").hide();
+
+        //var obj = $.parseJSON(data);
+        
+            $(".trackingstatus").hide();
+            $(".trackingstatus-connote").show();
+            
+            $(".destination").html("SAMPLE STATE MALAYSIA");
+            
+            $(".servicetype").html("E-Parcel");
+            
+            $(".senderref").val("SAMPLEREF01");
+            $(".senderref").html("SAMPLEREF01");
+            $(".lblsenderref").show();
+                           
+
+            //here
+           // --- START B2C TAB ---
+            $("#hddnConnoteDeliveryScheduleReady").val("False");
+            // --- END B2C TAB ---
+        
+            $(".tracking-events").html("");
+       
+            var sno = 0;
+        
+
+            $("#trackingmenubar").show();
+            
+            // --- START SIGNATURE TAB ---
+            
+            $("#signature").hide();
+            $("#signature").css("display", "none");
+            $(".tabSignature").hide();
+            
+            // --- END SIGNATURE TAB ---
+            // --- START FEEDBACK TAB ---
+            
+            $("#feedback").hide();
+            $("#feedback").css("display", "none");
+            $(".tabFeedback").hide();
+            $("#trackingdetail").click();//this will redirect other page to tracking. need to review
+                
+
+            // --- END FEEDBACK TAB ---
+            // --- START PAYMENT TAB ---
+            
+                //$("#payment").css("display", "none");
+                $("#notifpayment").hide();
+                $(".notifpayment").hide();
+            
+                // --- END PAYMENT TAB ---
+           
+        
+
+            var divhtml = '';
+            
+
+            divhtml += '<div class="card card-default m-b-0 card_delivered" style="border-bottom:0px;">';
+            divhtml += '<div class="card-header " role="tab">';
+            divhtml += '  <div class="card-title">';
+            divhtml += '    <span>Delivered</span>';
+            divhtml += '  </div>';
+            divhtml += '</div>';
+            divhtml += '<div class="collapse show" aria-expanded="true" style="">';
+            divhtml += '  <div class="card-body">';
+
+            var zindex = 0;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "Delivered";
+                var TrackingNotes = "S*******";
+
+                var TrackingLocation = "Sampletown - MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdndelivered"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">12 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">01:00 PM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                    
+            divloop += '            <i class="fa fa-check"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+             //GDPR HIDE TRACKNOTES.
+            divloop += '<span class="text16 langlbl" langtag="event_' + 1+'">' + "Delivered" + '</span>';
+                    
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000101">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (1 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 0) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 1+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+
+              //For Each TrackingResponseDetails
+
+            if (zindex > 1) {
+                //divhtml += '    <hr />';
+                divhtml += '    <center><a class="card-link hdndelivered hdndelivered" data-toggle="collapse" href="#hdndelivered" role="button" aria-expanded="false" aria-controls="hdndelivered">Show all events</a></center>';
+            }
+
+            divhtml += '  </div>';//card-body
+            divhtml += '</div>';//collapse show
+            divhtml += '</div>';//card card-default
+            
+            $(".tracking-events").append(divhtml);
+            var divhtml = '';
+            
+
+            divhtml += '<div class="card card-default m-b-0 card_lastmile" style="border-bottom:0px;">';
+            divhtml += '<div class="card-header " role="tab">';
+            divhtml += '  <div class="card-title">';
+            divhtml += '    <span>Last Mile</span>';
+            divhtml += '  </div>';
+            divhtml += '</div>';
+            divhtml += '<div class="collapse show" aria-expanded="true" style="">';
+            divhtml += '  <div class="card-body">';
+
+            var zindex = 0;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "Awaiting Pickup by Consignee";
+                var TrackingNotes = "";
+
+                var TrackingLocation = "Sampletown - MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdnlastmile"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">12 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">09:37 AM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                   
+            divloop += '            <i class="fa fa-truck"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+            
+            divloop += '<span class="text16 langlbl" langtag="event_' + 50+'">' + "Awaiting Pickup by Consignee" + '</span>';
+                
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000102">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (1 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 0) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 50+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "Held in Depot";
+                var TrackingNotes = "";
+
+                var TrackingLocation = "Sampletown - MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdnlastmile"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">11 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">05:36 PM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                   
+            divloop += '            <i class="fa fa-truck"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+            
+            divloop += '<span class="text16 langlbl" langtag="event_' + 19+'">' + "Held in Depot" + '</span>';
+                
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000103">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (1 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 0) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 19+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "Not Delivered - Unable to Locate consignee";
+                var TrackingNotes = "";
+
+                var TrackingLocation = "Sampletown - MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdnlastmile"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">11 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">01:47 PM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                   
+            divloop += '            <i class="fa fa-truck"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+            
+            divloop += '<span class="text16 langlbl" langtag="event_' + 43+'">' + "Not Delivered - Unable to Locate consignee" + '</span>';
+                
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000104">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (1 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 0) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 43+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "Not Delivered - Noone available/home";
+                var TrackingNotes = "";
+
+                var TrackingLocation = "Sampletown - MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdnlastmile"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">10 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">02:44 PM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                   
+            divloop += '            <i class="fa fa-truck"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+            
+            divloop += '<span class="text16 langlbl" langtag="event_' + 18+'">' + "Not Delivered - Noone available/home" + '</span>';
+                
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000105">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (1 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 0) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 18+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "Not Delivered - Courier Out of Time";
+                var TrackingNotes = "";
+
+                var TrackingLocation = "Sampletown - MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdnlastmile"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">09 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">07:00 PM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                   
+            divloop += '            <i class="fa fa-truck"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+            
+            divloop += '<span class="text16 langlbl" langtag="event_' + 38+'">' + "Not Delivered - Courier Out of Time" + '</span>';
+                
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000106">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (1 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 0) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 38+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "Out for Delivery";
+                var TrackingNotes = "";
+
+                var TrackingLocation = "Sampletown - MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdnlastmile"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">09 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">10:34 AM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                   
+            divloop += '            <i class="fa fa-truck"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+            
+            divloop += '<span class="text16 langlbl" langtag="event_' + 15+'">' + "Out for Delivery" + '</span>';
+                
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000107">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (1 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 0) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 15+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "Arrived Hub";
+                var TrackingNotes = "";
+
+                var TrackingLocation = "Sampletown - MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdnlastmile"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">09 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">08:53 AM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                   
+            divloop += '            <i class="fa fa-truck"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+            
+            divloop += '<span class="text16 langlbl" langtag="event_' + 4+'">' + "Arrived Hub" + '</span>';
+                
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000108">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (1 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 0) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 4+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+
+              //For Each TrackingResponseDetails
+
+            if (zindex > 1) {
+                //divhtml += '    <hr />';
+                divhtml += '    <center><a class="card-link hdnlastmile hdnlastmile" data-toggle="collapse" href="#hdnlastmile" role="button" aria-expanded="false" aria-controls="hdnlastmile">Show all events</a></center>';
+            }
+
+            divhtml += '  </div>';//card-body
+            divhtml += '</div>';//collapse show
+            divhtml += '</div>';//card card-default
+            
+            $(".tracking-events").append(divhtml);
+            var divhtml = '';
+            
+
+            divhtml += '<div class="card card-default m-b-0 card_intransit" style="border-bottom:0px;">';
+            divhtml += '<div class="card-header " role="tab">';
+            divhtml += '  <div class="card-title">';
+            divhtml += '    <span>In Transit</span>';
+            divhtml += '  </div>';
+            divhtml += '</div>';
+            divhtml += '<div class="collapse show" aria-expanded="true" style="">';
+            divhtml += '  <div class="card-body">';
+
+            var zindex = 0;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "In Transit - Loaded to Transit Vehicle/Aircraft";
+                var TrackingNotes = "";
+
+                var TrackingLocation = "Samplehub - MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdnintransit"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">09 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">12:58 AM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                   
+            divloop += '            <i class="fa fa-ellipsis-h"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+            
+            divloop += '<span class="text16 langlbl" langtag="event_' + 162+'">' + "In Transit - Loaded to Transit Vehicle/Aircraft" + '</span>';
+                
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000109">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (6 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 5) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 162+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "Uplift";
+                var TrackingNotes = "";
+
+                var TrackingLocation = "Samplehub - MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdnintransit"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">08 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">11:59 PM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                   
+            divloop += '            <i class="fa fa-ellipsis-h"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+            
+            divloop += '<span class="text16 langlbl" langtag="event_' + 3+'">' + "Uplift" + '</span>';
+                
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000110">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (6 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 5) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 3+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+
+              //For Each TrackingResponseDetails
+
+            if (zindex > 1) {
+                //divhtml += '    <hr />';
+                divhtml += '    <center><a class="card-link hdnintransit hdnintransit" data-toggle="collapse" href="#hdnintransit" role="button" aria-expanded="false" aria-controls="hdnintransit">Show all events</a></center>';
+            }
+
+            divhtml += '  </div>';//card-body
+            divhtml += '</div>';//collapse show
+            divhtml += '</div>';//card card-default
+            
+            $(".tracking-events").append(divhtml);
+            var divhtml = '';
+            
+
+            divhtml += '<div class="card card-default m-b-0 card_firstmile" style="border-bottom:0px;">';
+            divhtml += '<div class="card-header " role="tab">';
+            divhtml += '  <div class="card-title">';
+            divhtml += '    <span>First Mile</span>';
+            divhtml += '  </div>';
+            divhtml += '</div>';
+            divhtml += '<div class="collapse show" aria-expanded="true" style="">';
+            divhtml += '  <div class="card-body">';
+
+            var zindex = 0;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "Uplift";
+                var TrackingNotes = "";
+
+                var TrackingLocation = "MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdnfirstmile"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">08 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">06:00 PM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                   
+            divloop += '            <i class="fa fa-ellipsis-h"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+            
+            divloop += '<span class="text16 langlbl" langtag="event_' + 3+'">' + "Uplift" + '</span>';
+                
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000111">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (3 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 2) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 3+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+             
+                $(".cn").html("200000000002");
+                $(".cn1").html("200000000002");
+              
+
+                var TrackingEventName = "Collection";
+                var TrackingNotes = "";
+
+                var TrackingLocation = "Sampleport - MALAYSIA";
+                if (TrackingLocation == "") { TrackingLocation = ""; }
+                if (TrackingLocation != "") {
+                    if ("" != "") {
+                        TrackingLocation += " - " + "";
+                    }
+                }
+            
+
+            var regex = /(.*?) Other[s]? - (.*)/i;
+            var match = TrackingLocation.match(regex);
+
+            if (match) {
+                var country = match[2].trim();
+                TrackingLocation = country;
+            }
+            var divloop = '';
+            if (zindex == 1) { divloop += '<div id="hdnfirstmile"  class="collapse">'; }//looping group
+
+            //  <!--row-->
+            divloop += '      <div class="row">';
+            divloop += '        <div class="col-md-3 col-3 text-right" class="event-date">';
+            divloop += '          <span class="text14 t-faded-1">08 Mar 2026</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 event-time">03:12 PM</span>';
+            divloop += '        </div>';
+            divloop += '        <div class="hidden-xs"><div class="col-md-1 d-flex" style="justify-content:center">';
+            divloop += '          <div class="btn btn-success btn-circle">';
+
+                   
+            divloop += '            <i class="fa fa-ellipsis-h"></i>';
+              
+
+            divloop += '          </div></div>';
+            divloop += '        </div>';
+
+            
+            divloop += '        <div class="col-md-8 col-8">';
+            
+            divloop += '<span class="text16 langlbl" langtag="event_' + 2+'">' + "Collection" + '</span>';
+                
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-0">' + TrackingLocation + '</span>';
+            divloop += '          <br />';
+            divloop += '          <span class="text14 t-faded-1 tracknotes tracknotes_100000112">' + TrackingNotes + '</span>';
+            divloop += '        </div>';
+            
+            divloop += '      </div>';
+           
+            if (3 !== 1) { divloop += '      <hr>'; }//looping group
+            if (zindex == 2) { divloop += '</div>'; } //looping group end
+
+            divhtml += divloop;
+            zindex += 1;
+
+            if (sno == 0) {
+                $(".last-status").html("<span class='langlbl' langtag='event_" + 2+"'>Delivered</span>");
+                $(".last-location").html("Sampletown - MALAYSIA");
+                    
+                    $(".last-notes").html("S*******"); $(".last-notes").show(); 
+                    
+            }
+            sno += 1;
+
+              //For Each TrackingResponseDetails
+
+            if (zindex > 1) {
+                //divhtml += '    <hr />';
+                divhtml += '    <center><a class="card-link hdnfirstmile hdnfirstmile" data-toggle="collapse" href="#hdnfirstmile" role="button" aria-expanded="false" aria-controls="hdnfirstmile">Show all events</a></center>';
+            }
+
+            divhtml += '  </div>';//card-body
+            divhtml += '</div>';//collapse show
+            divhtml += '</div>';//card card-default
+            
+            $(".tracking-events").append(divhtml);
+
+           
+
+            $(".hdntoggle").click(function () {
+                if ($(this).attr("aria-expanded") == "true") {
+                    $(this).html("Show all events");
+                } else {
+                    $(this).html("Hide events");
+                }
+            });
+
+            if ($(".nav-item").find("a:visible").length == 1) {
+                $("#trackingmenubar").hide();
+                $(".tracking-top-header").hide();
+            } else {
+                $(".trackingstatus-connote .cn").html("&nbsp;");
+                $(".trackingstatus-connote .cn1").html("&nbsp;");
+            }
+            
+            $(".hdnintransit").click();
+            
+        }
+
+        function VerifyNow(stg) {
+            $("#hddn_stg").val(stg);
+        }
+    </script>
+  </body>
+</html>

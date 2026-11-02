@@ -1,0 +1,96 @@
+{
+  "id": "averitt",
+  "displayName": "Averitt Express",
+  "aliases": [
+    "Averitt",
+    "AVERITT Express"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#c21f38"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "averitt",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 921
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://tools.averitt.com/servlet/rsoLTLtrack?Type=PN&Number={trackingNumber}",
+    "searchUrl": "https://www.averitt.com/",
+    "canaryUrl": "https://tools.averitt.com/tracking/ltl/by-id",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin",
+      "destination",
+      "service_type",
+      "sender_name",
+      "recipient_name",
+      "signatory",
+      "delivery_office",
+      "parcel_count",
+      "weight",
+      "references",
+      "item_category",
+      "scheduled_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "origin",
+      "destination",
+      "weight"
+    ],
+    "discarded": [
+      "service_type",
+      "sender_name",
+      "recipient_name",
+      "signatory",
+      "delivery_office",
+      "parcel_count",
+      "references",
+      "item_category",
+      "scheduled_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps",
+      "delivered_at",
+      "payment_details",
+      "proof_of_delivery",
+      "invoice"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tools.averitt.com"
+      ],
+      "pathPattern": "^/servlet/rsoLTLtrack$",
+      "params": [
+        "Number"
+      ]
+    }
+  ],
+  "detection": []
+}

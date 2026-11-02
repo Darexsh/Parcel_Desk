@@ -1,0 +1,49 @@
+{
+  "id": "wangjing-3cq",
+  "displayName": "Wangjing 3CQ",
+  "aliases": [
+    "3CQ",
+    "旺鲸",
+    "旺鲸3CQ",
+    "旺鲸3CQ跨境物流平台",
+    "深圳旺鲸科技有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "BR"
+    ]
+  },
+  "brand": {
+    "color": "#f97317"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.wjdrop.com/tracking/index?nums={trackingNumber}",
+    "searchUrl": "https://track.wjdrop.com/tracking/index",
+    "canaryUrl": "https://track.wjdrop.com/tracking/index",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.wjdrop.com"
+      ],
+      "pathPattern": "^/tracking/index$",
+      "params": [
+        "nums"
+      ]
+    }
+  ],
+  "detection": []
+}

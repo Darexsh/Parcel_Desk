@@ -1,0 +1,75 @@
+{
+  "carrier": "estes-forwarding",
+  "records": [
+    {
+      "number": "3634373",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231203062518/https://efwtrack.com/api/ShipmentTracking/get_shipment_tracking",
+        "date": "2023-12-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "An opened capture of EFW's own tracking API, the call behind efwtrack.com/track/, returns this HomeNow home delivery with its events from creation to arrival at the destination city."
+    },
+    {
+      "number": "8750939",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20191115095937/https://www.efwnow.com/my-efw/?action=rapidTrack&txtInputNo=8750939&ddlTrackBy=HousebillNo",
+        "date": "2019-11-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "An archived housebill lookup on EFW's own My EFW tracker; the capture shows only the page frame, whose result frame was not archived, so the history was not visible."
+    },
+    {
+      "number": "3785706297093",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240624010853/https://efwtrack.com/track/3785706297093",
+        "date": "2024-06-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "An archived lookup on EFW's own tracker address; the capture holds only the script app's shell, so the history was not visible."
+    }
+  ]
+}

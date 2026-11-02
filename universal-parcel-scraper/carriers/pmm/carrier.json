@@ -1,0 +1,42 @@
+{
+  "id": "pmm",
+  "displayName": "PMM",
+  "aliases": [
+    "PMM Paquetería y Mensajería"
+  ],
+  "region": {
+    "countries": [
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#1e008d"
+  },
+  "selectable": true,
+  "timezone": "America/Mazatlan",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://pmm.com.mx/rastreo/{trackingNumber}",
+    "searchUrl": "https://pmm.com.mx/rastreo",
+    "canaryUrl": "https://pmm.com.mx/rastreo",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "pmm.com.mx",
+        "www.pmm.com.mx"
+      ],
+      "path": "^/rastreo/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

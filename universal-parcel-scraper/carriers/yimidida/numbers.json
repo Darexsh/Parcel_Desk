@@ -1,0 +1,69 @@
+{
+  "carrier": "yimidida",
+  "records": [
+    {
+      "number": "800268789750",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230427040459/https://www.yimidida.com/demoModel?id=19843C3F-581F-7EB4-181D-413E25D61FBF&params=800268789750",
+        "date": "2023-04-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "An archived lookup on Yimidida's own tracker carries this waybill in its address: the home page search sends numbers to the goods-tracking menu page in params. The capture holds the page shell, and the history loads in a frame that was not archived."
+    },
+    {
+      "number": "531000020031",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20160627092409/http://www.yimidida.com/online/waybilltrack.jsp",
+        "date": "2016-06-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Yimidida's former cargo tracking page ships its waybill box filled with this number as the example to search."
+    }
+  ]
+}

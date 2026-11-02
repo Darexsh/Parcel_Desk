@@ -1,0 +1,30 @@
+{
+  "trackingId": "12345678901234567890",
+  "currentStatus": "CHECKED_IN",
+  "statusDesc": "Demo Pharmacy Exampleville has confirmed delivery of your parcel from Sample Freight, it's ready for collection.",
+  "details": {
+    "bookingCode": "12345678901234567890",
+    "consignmentId": "1234567890123",
+    "reference": "REF0000000"
+  },
+  "events": [
+    {
+      "status": "BOOKED",
+      "description": "Parcel information has been received by PARCELPOINT.",
+      "date": "2026-12-01 23:45",
+      "location": "Demo Pharmacy Exampleville"
+    },
+    {
+      "status": "CHECKED_IN",
+      "description": "Demo Pharmacy Exampleville has confirmed delivery of your parcel from Sample Freight, it's ready for collection.",
+      "date": "2026-12-03 05:30",
+      "location": "Demo Pharmacy Exampleville"
+    },
+    {
+      "status": "CHECKED_IN",
+      "description": "Demo Pharmacy Exampleville has confirmed delivery of your parcel from Sample Freight, it's ready for collection.",
+      "date": "2026-12-03 05:30",
+      "location": "Demo Pharmacy Exampleville"
+    }
+  ]
+}

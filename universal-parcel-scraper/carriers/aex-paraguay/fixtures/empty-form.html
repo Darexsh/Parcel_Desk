@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>AEX</title>
+        <style>
+            .aex-tracking-status { display: flex; }
+            .tracking-event-row { display: flex; }
+        </style>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <div id="page-title" class="container-fluid">
+            <div class="container container-legacy">
+                <h3>
+                    <i class="fa fa-chevron-right"></i>
+                    Tracking de Paquetes
+                    <small>Verificá en donde se encuentran tus paquetes ingresando el número de guia.</small>
+                </h3>
+            </div>
+        </div>
+
+        <div class="container container-legacy">
+            <div class="row">
+                <div class="col-12 col-sm-8">
+                    <div class="card border-secondary">
+                        <div class="card-header">
+                            Historial de eventos - <small>Guía </small>
+                        </div>
+                                                <div class="table-responsive">
+                            <table class="table" style=""><tr class='table-info'><td>Ingresá el número de guía de transporte para ver los eventos de la misma</td></tr></table>                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                    <div class='card border-secondary'>
+                        <div class="card-header">
+                            Ver otro envio
+                        </div>
+                        <div class='card-body'>
+                            <form name='frm_tracking' id="frm_tracking" method='GET' action='tracking.php'>
+                                <div class="input-group">
+                                    <input type="text" name='guia' id="guia" class="form-control" placeholder="Número de guia..."/>
+                                    <button class="btn btn-success" type="submit">VER</button>
+                                </div><!-- /input-group -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(function () {
+                $('#toggleTrackingDetalle').on('click', function () {
+                    $('#trackingDetalle').slideToggle(200);
+                });
+            });
+        </script>
+    </body>
+</html>

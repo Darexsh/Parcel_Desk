@@ -1,0 +1,25 @@
+{
+  "carrier": "2go",
+  "entries": [
+    {"wording": "Order is placed", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The first scan on 2GO Express's current tracker, before 2GO has the parcel."},
+    {"wording": "Parcel has arrived at [hub]", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Seen on 2GO Express's current tracker with the hub's name, such as MANILA HUB, which the adapter keeps as the location."},
+    {"wording": "Parcel is out for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"wording": "Parcel has been delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Seen on 2GO Express's current tracker, without the receiver."},
+    {"wording": "DELIVERED - Received by:", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Seen in opened captures of 2GO's eTrace tracker as the shipment status; the receiver and date follow."},
+    {"wording": "2GO will attempt to deliver your package", "stage": "out_for_delivery", "language": "en", "confirmedBy": "source", "note": "Quoted on ComplaintsBoard from a 2GO Express text message; the tracking number and 'today' follow."},
+    {"wording": "Booking Created", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Listed as a status title in the sample history in the markup of 2GO Express's tracking page (express.2go.com.ph/tracking); the page describes it as a booking received from the shipper."},
+    {"wording": "Shipment Accepted", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Listed as a status title in the sample history in the markup of 2GO Express's tracking page (express.2go.com.ph/tracking); the shipment was received from the shipper."},
+    {"wording": "Shipment Arrival At Facility", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Listed as a status title in the sample history in the markup of 2GO Express's tracking page (express.2go.com.ph/tracking); the shipment arrived at a hub."},
+    {"wording": "In-Transit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Listed as a status title in the sample history in the markup of 2GO Express's tracking page (express.2go.com.ph/tracking); moving from the origin hub to the destination hub."},
+    {"wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Listed as a status title in the sample history in the markup of 2GO Express's tracking page (express.2go.com.ph/tracking); a courier is attempting delivery."},
+    {"wording": "Delivery Unsuccessful - Consignee Not Around", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "Listed as a status title in the sample history in the markup of 2GO Express's tracking page (express.2go.com.ph/tracking); the attempt failed because the consignee was not there."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Listed as a status title in the sample history in the markup of 2GO Express's tracking page (express.2go.com.ph/tracking); delivered to the receiver."},
+    {"wording": "Booking Received", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Seen live in the reply of the API behind 2GO's earlier tracking page, which the adapter does not read; it has no status code there."},
+    {"code": "L", "wording": "Shipment Loaded", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Seen live in the reply of the API behind 2GO's earlier tracking page, which the adapter does not read."},
+    {"code": "T", "wording": "In-Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Seen live in the reply of the API behind 2GO's earlier tracking page, which the adapter does not read."},
+    {"code": "A", "wording": "Shipment Arrived at Sorting Facility", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Seen live in the reply of the API behind 2GO's earlier tracking page, which the adapter does not read."},
+    {"code": "D", "wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Seen live in the reply of the API behind 2GO's earlier tracking page, which the adapter does not read."},
+    {"code": "UCN", "wording": "Delivery Unsuccessful -Unknown Consignee", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "Seen live in the reply of the API behind 2GO's earlier tracking page, which the adapter does not read; another delivery attempt followed."},
+    {"code": "DEL", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Seen live in the reply of the API behind 2GO's earlier tracking page, which the adapter does not read; the receiver's name comes in a field of its own."}
+  ]
+}

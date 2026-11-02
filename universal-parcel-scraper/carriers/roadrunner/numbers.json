@@ -1,0 +1,119 @@
+{
+  "carrier": "roadrunner",
+  "records": [
+    {
+      "number": "439364498",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://freight.rrts.com/Help/Documents/RRTS_Tracking_WebService_Developer's_Guide.pdf",
+        "date": "2018-06-11",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The PRO in the sample reply of Roadrunner's own tracking API guide, with a 2017 history from Charlotte to Los Angeles."
+    },
+    {
+      "number": "449894385",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240102043624/http://tools.rrts.com/LTLTrack/?searchValues=449894385",
+        "date": "2024-01-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Roadrunner's own tracking portal shows the shipment and its history."
+    },
+    {
+      "number": "457573699",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20211206150257/http://tools.rrts.com/LTLTrack/?searchValues=457573699",
+        "date": "2021-12-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Roadrunner's own tracking portal shows the shipment and its history."
+    },
+    {
+      "number": "449631977",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220331070758/http://tools.rrts.com/LTLTrack/?searchValues%5B0%5D=449631977",
+        "date": "2022-03-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Roadrunner's own tracking portal shows the shipment and its history."
+    },
+    {
+      "number": "581658135",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231208053016/http://tools.rrts.com/LTLTrack/?searchValues=581658135",
+        "date": "2023-12-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Roadrunner's own tracking portal shows the shipment and its history."
+    },
+    {
+      "number": "313062085",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231231052852/https://www.rrts.com/Tools/Tracking/Pages/MultipleResults.aspx?PROS=313062085",
+        "date": "2023-12-31",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived link to Roadrunner's PRO results page, captured as a redirect to the current host; the capture was not opened."
+    }
+  ]
+}

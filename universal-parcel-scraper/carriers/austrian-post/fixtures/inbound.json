@@ -1,0 +1,71 @@
+{
+  "data": {
+    "einzelsendung": {
+      "sendungsnummer": "LY000000005DE",
+      "activeIdentityCode": "LY000000005DE",
+      "originalIdentityCode": "LY000000005DE",
+      "status": "ZU",
+      "weight": null,
+      "dimensions": null,
+      "estimatedDelivery": null,
+      "sendungsEvents": [
+        {
+          "timestamp": "2026-03-02T15:58:00.000+00:00",
+          "status": "BNT",
+          "reasontypecode": "2062",
+          "trackingDesc": "Postaufgabe im Ausland",
+          "eventPlaceName": ""
+        },
+        {
+          "timestamp": "2026-03-03T03:04:00.000+00:00",
+          "status": "EXP",
+          "reasontypecode": "XA",
+          "trackingDesc": "Sendung ins Zielland unterwegs",
+          "eventPlaceName": "PLZ DE"
+        },
+        {
+          "timestamp": "2026-03-03T03:04:00.000+00:00",
+          "status": "BNT",
+          "reasontypecode": "2064",
+          "trackingDesc": "Sendung für Auslandstransport bereit",
+          "eventPlaceName": "PLZ DE"
+        },
+        {
+          "timestamp": "2026-03-03T03:05:00.000+00:00",
+          "status": "BNT",
+          "reasontypecode": "2063",
+          "trackingDesc": "Sendung in Bearbeitung Aufgabeland",
+          "eventPlaceName": "PLZ DE"
+        },
+        {
+          "timestamp": "2026-03-05T16:12:54.000+00:00",
+          "status": "IMP",
+          "reasontypecode": "IM",
+          "trackingDesc": "Sendung in Österreich im Logistkzentrum eingetroffen",
+          "eventPlaceName": "PLZ AT"
+        },
+        {
+          "timestamp": "2026-03-05T16:12:56.000+00:00",
+          "status": "BNT",
+          "reasontypecode": "1567",
+          "trackingDesc": "Sendung in Bearbeitung Österreich",
+          "eventPlaceName": "PLZ AT"
+        },
+        {
+          "timestamp": "2026-03-06T07:16:03.000+00:00",
+          "status": "AZT",
+          "reasontypecode": "AT",
+          "trackingDesc": "Sendung in Zustellung",
+          "eventPlaceName": "Synthetic delivery base, PLZ 1000"
+        },
+        {
+          "timestamp": "2026-03-06T10:24:35.810+00:00",
+          "status": "BNT",
+          "reasontypecode": "2056",
+          "trackingDesc": "eingeworfen",
+          "eventPlaceName": "PLZ 1000"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "d-express",
+  "displayName": "D Express",
+  "aliases": [
+    "DExpress",
+    "D-Express",
+    "Daily Express",
+    "Daily Express d.o.o."
+  ],
+  "region": {
+    "countries": [
+      "RS"
+    ]
+  },
+  "brand": {
+    "color": "#ff0000"
+  },
+  "selectable": true,
+  "timezone": "Europe/Belgrade",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "d-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 819
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.dexpress.rs/rs/pracenje-posiljaka/{trackingNumber}",
+    "searchUrl": "https://www.dexpress.rs/rs/pracenje-posiljaka",
+    "canaryUrl": "https://www.dexpress.rs/rs/pracenje-posiljaka",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "recipient_name",
+      "recipient_address",
+      "destination",
+      "parcel_count",
+      "office_contact_details",
+      "payment_details",
+      "delivery_options"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address",
+      "destination",
+      "parcel_count",
+      "office_contact_details",
+      "payment_details",
+      "delivery_options"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "provider_code",
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "pickup_point",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "dexpress.rs"
+      ],
+      "path": "^/(?:rs/pracenje-posiljaka|en/track-and-trace)/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

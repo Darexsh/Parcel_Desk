@@ -1,0 +1,62 @@
+{
+  "carrier": "m-one",
+  "records": [
+    {
+      "number": "PL002782509RS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260221001011/https://api.m-one.rs/api/statushistory/PL002782509RS",
+        "date": "2026-02-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived reply of M-ONE's own tracking API shows this parcel's history from the pickup order to the line-haul vehicle."
+    },
+    {
+      "number": "PL004317686RS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260310131848/https://api.m-one.rs/api/statushistory/PL004317686RS",
+        "date": "2026-03-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived reply of M-ONE's own tracking API shows this parcel's history from the pickup order to the line-haul vehicle."
+    },
+    {
+      "number": "RS220022016792",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://m-one.rs/en",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The tracker script on M-ONE's home page shows this number, with a delivered status, in the fallback reply it displays when the tracking API fails."
+    }
+  ]
+}

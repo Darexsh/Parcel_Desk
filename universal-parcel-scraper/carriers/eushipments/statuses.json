@@ -1,0 +1,13 @@
+{
+  "carrier": "eushipments",
+  "entries": [
+    {"wording": "New", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "First status of an order: the seller has placed it with euShipments."},
+    {"wording": "Warehouse", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "The order at euShipments' fulfilment warehouse; the page names the warehouse after the wording."},
+    {"wording": "Loaded hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Loaded at a hub for the line haul; the page names the hub and its country after the wording."},
+    {"wording": "Unloaded hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Unloaded at a hub; the page names the hub and its country after the wording."},
+    {"wording": "Picked up", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The last-mile courier took the parcel."},
+    {"wording": "In transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Moving in the last-mile courier's network."},
+    {"wording": "On delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "With the courier for delivery."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Last status of a delivered order."}
+  ]
+}

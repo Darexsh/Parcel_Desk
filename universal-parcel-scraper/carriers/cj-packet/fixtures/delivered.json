@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "code": 200,
+  "message": null,
+  "data": [
+    {
+      "logisticsName": "CJPacket Ordinary B",
+      "deliveryDay": 10,
+      "shipCountryCode": "CN",
+      "destCountryCode": "US",
+      "cjTrackNumber": "CJPZZB0000000002YQ",
+      "customerOrderId": "DP0000000000000000002",
+      "trackNumber": "LP00000000000002CN",
+      "lastTrackNumber": "420000009400111000001234567804",
+      "shopName": "Sample Shop",
+      "userOrderNum": "#SAMPLE2",
+      "statusDescription": "Delivered",
+      "status": 7,
+      "providerEnName": "USPS",
+      "providerPhone": "000-000-0000",
+      "providerUrl": "http://www.usps.com",
+      "trackEvent": [
+        {
+          "eventTime": "2026-05-12 13:05:10",
+          "activity": "[US,SAMPLE CITY,ST] Package delivered, signed by Sample Person",
+          "location": "SAMPLE CITY,US",
+          "eventTimestamp": "1778605510000"
+        },
+        {
+          "eventTime": "2026-05-12 07:31:40",
+          "activity": "[US,SAMPLE CITY,ST] Out for delivery",
+          "location": "SAMPLE CITY,US",
+          "eventTimestamp": "1778585500000"
+        },
+        {
+          "eventTime": "2026-05-12 07:02:15",
+          "activity": "[US,SAMPLE CITY,ST] Arrived at local delivery center",
+          "location": "SAMPLE CITY,US",
+          "eventTimestamp": "1778583735000"
+        },
+        {
+          "eventTime": "2026-05-11 22:48:03",
+          "activity": "[US,SAMPLE DISTRIBUTION CENTER] Received by local delivery company",
+          "location": "",
+          "eventTimestamp": "1778554083000"
+        },
+        {
+          "eventTime": "2026-05-11 22:48:03",
+          "activity": "[US,SAMPLE DISTRIBUTION CENTER] Received by local delivery company",
+          "location": "",
+          "eventTimestamp": "1778554083000"
+        },
+        {
+          "eventTime": "2026-05-10 09:15:00",
+          "activity": "Import customs clearance complete",
+          "location": "",
+          "eventTimestamp": "1778418900000"
+        },
+        {
+          "eventTime": "2026-05-09 18:20:00",
+          "activity": "Arrived at linehaul office",
+          "location": "",
+          "eventTimestamp": "1778365200000"
+        },
+        {
+          "eventTime": "2026-05-08 23:40:00",
+          "activity": "Departed from departure country/region",
+          "location": "",
+          "eventTimestamp": "1778254800000"
+        },
+        {
+          "eventTime": "2026-05-07 06:12:44",
+          "activity": "Departed from sorting center",
+          "location": "",
+          "eventTimestamp": "1778105564000"
+        },
+        {
+          "eventTime": "2026-05-05 21:03:17",
+          "activity": "Processing at sorting center",
+          "location": "",
+          "eventTimestamp": "1777986197000"
+        },
+        {
+          "eventTime": "2026-05-05 21:03:16",
+          "activity": "Received by logistics company",
+          "location": "",
+          "eventTimestamp": "1777986196000"
+        },
+        {
+          "eventTime": "2026-05-02 16:30:05",
+          "activity": "Shipment info received",
+          "location": "",
+          "eventTimestamp": "1777710605000"
+        },
+        {
+          "eventTime": "2026-05-02 08:30:06",
+          "activity": "Label created. Warehouse is processing this order. Please wait in patience.",
+          "location": "",
+          "eventTimestamp": null
+        }
+      ]
+    }
+  ],
+  "requestId": null
+}

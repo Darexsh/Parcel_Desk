@@ -1,0 +1,143 @@
+{
+  "id": "dhl-ecommerce",
+  "displayName": "DHL eCommerce",
+  "aliases": [
+    "DHL eCommerce Solutions",
+    "DHL Global Mail",
+    "DHL eCommerce Global Mail"
+  ],
+  "region": {
+    "countries": [
+      "DE",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#ffcc00"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dhl-ecommerce",
+    "steps": [
+      "direct",
+      "browser"
+    ],
+    "recognition": {
+      "rank": 670
+    },
+    "browserRecognition": {
+      "rank": 900
+    },
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "sender_name",
+    "delivered_at",
+    "service_name",
+    "weight",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.dhl.com/ch-en/home/tracking.html?tracking-id={trackingNumber}&submit=1",
+    "searchUrl": "https://www.dhl.com/ch-en/home/tracking.html",
+    "helpUrl": "https://webtrack.dhlecs.com/support/customer-service",
+    "canaryUrl": "https://www.dhl.com/ch-en/home/tracking.html",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "sender_name",
+      "delivered_at",
+      "recipient_address",
+      "customer_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "sender_name",
+      "delivered_at",
+      "service_name",
+      "weight",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "recipient_address",
+      "customer_reference"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "ecommerceportal.dhl.com",
+        "webtrack.dhlglobalmail.com"
+      ],
+      "params": [
+        "tracking-id",
+        "trackingNumber",
+        "tracking",
+        "ID"
+      ]
+    },
+    {
+      "domains": [
+        "dhl.com"
+      ],
+      "pathPattern": "/home/tracking(?:/tracking-ecommerce)?[.]html$",
+      "params": [
+        "tracking-id",
+        "trackingId"
+      ],
+      "detectFromNumber": true
+    }
+  ],
+  "detection": [
+    {
+      "id": "dhl-ecommerce-1",
+      "pattern": "^GM[0-9]{16,18}$",
+      "confidence": "high"
+    },
+    {
+      "id": "dhl-ecommerce-8",
+      "pattern": "^GM[0-9]{8,15}$",
+      "confidence": "low",
+      "preferred": true
+    },
+    {
+      "id": "dhl-ecommerce-2",
+      "pattern": "^[0-9]{16,17}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhl-ecommerce-4",
+      "pattern": "^(?:420\\d{5})?9[23]61\\d{18}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhl-ecommerce-5",
+      "pattern": "^0031\\d{27}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhl-ecommerce-6",
+      "pattern": "^ESUS\\d{9}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhl-ecommerce-7",
+      "pattern": "^UU\\d{9}DE$",
+      "confidence": "low",
+      "checksum": "s10"
+    }
+  ]
+}

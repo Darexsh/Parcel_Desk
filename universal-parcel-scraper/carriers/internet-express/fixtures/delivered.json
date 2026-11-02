@@ -1,0 +1,164 @@
+{
+ "shipments": [
+  {
+   "provider_id": 9,
+   "shipment_id": 100000002,
+   "custom_tracking_reference": "000000002",
+   "short_tracking_reference": "ZZZZZ2",
+   "parcel_tracking_references": [
+    "000000002/1"
+   ],
+   "status": "delivered",
+   "shipment_time_created": "2026-03-02T05:10:11.123456Z",
+   "shipment_time_modified": "2026-03-05T11:02:40.5Z",
+   "shipment_collected_date": "2026-03-03T14:20:05.25Z",
+   "shipment_delivered_date": "2026-03-05T11:02:40.401Z",
+   "shipment_estimated_delivery_from": "2026-03-04T06:00:00Z",
+   "shipment_estimated_delivery_to": "2026-03-05T15:00:00Z",
+   "collection_hub": "Internet Express Sampleton",
+   "delivery_hub": "Internet Express Exampleburg",
+   "service_level_code": "SYN",
+   "service_level_name": "Synthetic Economy",
+   "parcel_count": 1,
+   "tracking_events": [
+    {
+     "id": 900000020,
+     "parcel_id": 0,
+     "date": "2026-03-05T11:02:40.401Z",
+     "status": "delivered",
+     "location": "IE EXB",
+     "message": "PIN entered successfully"
+    },
+    {
+     "id": 900000019,
+     "parcel_id": 1000001,
+     "date": "2026-03-05T11:02:39.9Z",
+     "status": "delivered",
+     "location": "IE EXB",
+     "message": ""
+    },
+    {
+     "id": 900000018,
+     "parcel_id": 0,
+     "date": "2026-03-05T10:58:12.75Z",
+     "status": "out-for-delivery",
+     "message": "\"On my way\" SMS sent by the driver - 0 mins"
+    },
+    {
+     "id": 900000017,
+     "parcel_id": 0,
+     "date": "2026-03-05T10:47:03.1Z",
+     "status": "out-for-delivery",
+     "message": "\"On my way\" SMS sent by the driver - 10 mins"
+    },
+    {
+     "id": 900000016,
+     "parcel_id": 0,
+     "date": "2026-03-05T05:15:44.204913Z",
+     "status": "out-for-delivery",
+     "location": "IE EXB",
+     "message": ""
+    },
+    {
+     "id": 900000015,
+     "parcel_id": 0,
+     "date": "2026-03-04T16:30:00.5Z",
+     "status": "delivery-unassigned",
+     "location": "IE EXB",
+     "message": ""
+    },
+    {
+     "id": 900000014,
+     "parcel_id": 0,
+     "date": "2026-03-04T12:01:30.55Z",
+     "status": "delivery-assigned",
+     "location": "IE EXB",
+     "message": ""
+    },
+    {
+     "id": 900000013,
+     "parcel_id": 0,
+     "date": "2026-03-04T12:01:30.55Z",
+     "status": "at-destination-hub",
+     "location": "IE EXB",
+     "message": ""
+    },
+    {
+     "id": 900000012,
+     "parcel_id": 0,
+     "date": "2026-03-03T14:21:40.618231Z",
+     "status": "in-transit",
+     "location": "IE SPT",
+     "message": "Outbound to IE EXB"
+    },
+    {
+     "id": 900000011,
+     "parcel_id": 0,
+     "date": "2026-03-03T14:20:05.25Z",
+     "status": "collected",
+     "location": "Internet Express Sampleton",
+     "message": ""
+    },
+    {
+     "id": 900000010,
+     "parcel_id": 0,
+     "date": "2026-03-02T13:40:12.9Z",
+     "status": "collection-failed-attempt",
+     "location": "Internet Express Sampleton",
+     "message": "Synthetic remark from the depot"
+    },
+    {
+     "id": 900000009,
+     "parcel_id": 0,
+     "date": "2026-03-02T08:12:00Z",
+     "status": "collection-accepted",
+     "location": "Internet Express Sampleton",
+     "message": ""
+    },
+    {
+     "id": 900000008,
+     "parcel_id": 0,
+     "date": "2026-03-02T05:10:11.98Z",
+     "status": "collection-assigned",
+     "location": "Internet Express Sampleton",
+     "message": ""
+    },
+    {
+     "id": 900000007,
+     "parcel_id": 0,
+     "date": "2026-03-02T05:10:11.95Z",
+     "status": "submitted",
+     "location": "Internet Express Sampleton",
+     "message": ""
+    }
+   ]
+  }
+ ],
+ "tracking_steps": [
+  {
+   "step_number": 1,
+   "label": "created",
+   "progress": "done"
+  },
+  {
+   "step_number": 2,
+   "label": "collected",
+   "progress": "done"
+  },
+  {
+   "step_number": 3,
+   "label": "in-transit",
+   "progress": "done"
+  },
+  {
+   "step_number": 4,
+   "label": "out-for-delivery",
+   "progress": "done"
+  },
+  {
+   "step_number": 5,
+   "label": "delivered",
+   "progress": "current"
+  }
+ ]
+}

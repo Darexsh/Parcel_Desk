@@ -1,0 +1,45 @@
+{
+  "id": "conveyor-uni-express",
+  "displayName": "Conveyor Uni Express",
+  "aliases": [
+    "CONVEYOR UNI EXPRESS"
+  ],
+  "region": {
+    "countries": [
+      "BD"
+    ]
+  },
+  "brand": {
+    "color": "#de0e2c"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dhaka",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://conveyoruniexpress.com/shipment.php?hawbno2={trackingNumber}&route=1",
+    "searchUrl": "https://conveyoruniexpress.com/shipment.php",
+    "canaryUrl": "https://conveyoruniexpress.com/shipment.php",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "conveyoruniexpress.com",
+        "www.conveyoruniexpress.com"
+      ],
+      "pathPattern": "^/shipment\\.php$",
+      "params": [
+        "hawbno2"
+      ]
+    }
+  ],
+  "detection": []
+}

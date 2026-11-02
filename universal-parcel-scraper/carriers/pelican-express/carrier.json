@@ -1,0 +1,47 @@
+{
+  "id": "pelican-express",
+  "displayName": "Taiwan Pelican Express",
+  "aliases": [
+    "台灣宅配通",
+    "宅配通",
+    "Pelican Express",
+    "e-can"
+  ],
+  "region": {
+    "countries": [
+      "TW"
+    ]
+  },
+  "brand": {
+    "color": "#005ead"
+  },
+  "selectable": true,
+  "timezone": "Asia/Taipei",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://query2.e-can.com.tw/self_link/id_link.asp?txtMainID={trackingNumber}",
+    "searchUrl": "https://query2.e-can.com.tw/%E5%A4%9A%E7%AD%86%E6%9F%A5%E4%BB%B6A.htm",
+    "canaryUrl": "https://query2.e-can.com.tw/%E5%A4%9A%E7%AD%86%E6%9F%A5%E4%BB%B6A.htm",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "query2.e-can.com.tw"
+      ],
+      "pathPattern": "^/self_link/id_link(?:_c)?\\.asp$",
+      "params": [
+        "txtMainID"
+      ]
+    }
+  ],
+  "detection": []
+}

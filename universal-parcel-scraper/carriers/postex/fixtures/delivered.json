@@ -1,0 +1,23 @@
+{
+  "statusCode": "200",
+  "statusMessage": "Successfully Operated",
+  "dist": {
+    "customerName": "Sample Customer",
+    "trackingNumber": "00000000000001",
+    "orderPickupDate": "2026-03-02T10:05:11.000+0500",
+    "transactionStatusHistory": [
+      {"transactionStatusMessage": "Delivered to Customer", "transactionStatusMessageCode": "0005", "modifiedDatetime": "2026-03-05T17:42:09.000+0500"},
+      {"transactionStatusMessage": "Enroute for Delivery", "transactionStatusMessageCode": "0004", "modifiedDatetime": "2026-03-05T11:03:27.000+0500"},
+      {"transactionStatusMessage": "Customer feedback recorded", "transactionStatusMessageCode": "0099", "modifiedDatetime": "2026-03-04T19:20:00.000+0500"},
+      {"transactionStatusMessage": "Attempt Made: CNA(CUSTOMER NOT AVAILABLE)", "transactionStatusMessageCode": "0013", "modifiedDatetime": "2026-03-04T15:31:48.000+0500"},
+      {"transactionStatusMessage": "Enroute for Delivery", "transactionStatusMessageCode": "0004", "modifiedDatetime": "2026-03-04T10:12:40.000+0500"},
+      {"transactionStatusMessage": "Waiting for Delivery", "transactionStatusMessageCode": "0038", "modifiedDatetime": "2026-03-04T02:15:36.000+0500"},
+      {"transactionStatusMessage": "Arrived at Transit Hub SMP", "transactionStatusMessageCode": "0035", "modifiedDatetime": "2026-03-04T01:58:02.000+0500"},
+      {"transactionStatusMessage": "Arrived at Transit Hub SMP", "transactionStatusMessageCode": "0035", "modifiedDatetime": "2026-03-04T01:58:02.000+0500"},
+      {"transactionStatusMessage": "Departed to SAMPLE CITY", "transactionStatusMessageCode": "0033", "modifiedDatetime": "2026-03-03T20:44:15.000+0500"},
+      {"transactionStatusMessage": "Received at ORG Warehouse", "transactionStatusMessageCode": "0003", "modifiedDatetime": "2026-03-02T19:30:00.000+0500"},
+      {"transactionStatusMessage": "Departed to PostEx. Warehouse", "transactionStatusMessageCode": "0031", "modifiedDatetime": "2026-03-02T19:30:00.000+0500"},
+      {"transactionStatusMessage": "At SAMPLE STORE Warehouse", "transactionStatusMessageCode": "0001", "modifiedDatetime": "2026-03-02T10:05:11.000+0500"}
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "carrier": "best-transport",
+  "entries": [
+    {"wording": "Beställd", "stage": "registered", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery status label in the script of Best Transport's tracker bst.nu. Ordered: booked, not yet collected."},
+    {"wording": "Beställning mottagen från {0}", "stage": "registered", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery detail text in the script of Best Transport's tracker bst.nu; {0} stands for the sender or a locker's name."},
+    {"wording": "Upphämtning", "stage": "accepted", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery status label in the script of Best Transport's tracker bst.nu. A pickup order."},
+    {"wording": "Meddelad", "stage": "in_transit", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery status label in the script of Best Transport's tracker bst.nu. The recipient has been notified."},
+    {"wording": "Leveransklar", "stage": "in_transit", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery status label in the script of Best Transport's tracker bst.nu. Ready for the delivery round."},
+    {"wording": "Din leverans är på väg till dig", "stage": "out_for_delivery", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery detail text in the script of Best Transport's tracker bst.nu; {0} stands for the sender or a locker's name."},
+    {"wording": "Din leverans finns för upphämtning i iBoxen på {0}, {1} {2}", "stage": "ready_for_pickup", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery detail text in the script of Best Transport's tracker bst.nu; {0} stands for the sender or a locker's name. Waiting in a parcel locker."},
+    {"wording": "Din leverans finns nu på vår terminal", "stage": "ready_for_pickup", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery detail text in the script of Best Transport's tracker bst.nu; {0} stands for the sender or a locker's name. Waiting at the Best terminal."},
+    {"wording": "Levererad", "stage": "delivered", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery status label in the script of Best Transport's tracker bst.nu."},
+    {"wording": "Dina varor är levererade till iBoxen", "stage": "delivered", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery detail text in the script of Best Transport's tracker bst.nu; {0} stands for the sender or a locker's name. Delivered into a parcel locker."},
+    {"wording": "Misslyckad", "stage": "failed_attempt", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery status label in the script of Best Transport's tracker bst.nu."},
+    {"wording": "Misslyckad leverans", "stage": "failed_attempt", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery detail text in the script of Best Transport's tracker bst.nu; {0} stands for the sender or a locker's name."},
+    {"wording": "Saknas", "stage": "exception", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery status label in the script of Best Transport's tracker bst.nu. Missing: the parcel did not arrive for the round."},
+    {"wording": "Det har uppstått en försening i din leverans från {0}", "stage": "exception", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery detail text in the script of Best Transport's tracker bst.nu; {0} stands for the sender or a locker's name. Delayed."},
+    {"wording": "Avbruten", "stage": "exception", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery status label in the script of Best Transport's tracker bst.nu. Cancelled."},
+    {"wording": "Upphämtningstiden löpte ut", "stage": "exception", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery detail text in the script of Best Transport's tracker bst.nu; {0} stands for the sender or a locker's name. The locker pickup window expired."},
+    {"wording": "Återsänd", "stage": "returned", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery status label in the script of Best Transport's tracker bst.nu."},
+    {"wording": "Leveransen är återsänd till {0}", "stage": "returned", "language": "sv", "confirmedBy": "official-doc", "note": "A delivery detail text in the script of Best Transport's tracker bst.nu; {0} stands for the sender or a locker's name."}
+  ]
+}

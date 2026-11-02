@@ -1,0 +1,124 @@
+{
+  "carrier": "loggi",
+  "records": [
+    {
+      "number": "NVSGIVCJ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250420161858/https://app.loggi.com/rastreador/NVSGIVCJ",
+        "date": "2025-04-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "loggi"
+        ]
+      },
+      "note": "Looked up on Loggi's own tracker, whose page names this path segment the tracking code; the capture was opened but renders the history in the browser, so it does not show the parcel."
+    },
+    {
+      "number": "PEZHCQRG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250627200308/https://app.loggi.com/rastreador/PEZHCQRG",
+        "date": "2025-06-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "loggi"
+        ]
+      },
+      "note": "Looked up on Loggi's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "2PHKH73P",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260513004150/https://app.loggi.com/rastreador/2PHKH73P",
+        "date": "2026-05-13",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "Looked up on Loggi's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "KCRLY2SQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260715220504/https://app.loggi.com/rastreador/KCRLY2SQ",
+        "date": "2026-07-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "An archived lookup on the official tracker. Its current public page returns the matching tracking code and shipment history through the browser service."
+    },
+    {
+      "number": "69AC1B4A",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260628211153/https://app.loggi.com/rastreador/69AC1B4A?utm_source=organic&utm_medium=site_loggi_acesso_plataformas&utm_campaign=btn_acessar_app",
+        "date": "2026-06-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "Looked up on Loggi's own tracker, as an archived address shows; the capture was not opened."
+    }
+  ]
+}

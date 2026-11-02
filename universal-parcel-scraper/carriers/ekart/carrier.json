@@ -1,0 +1,75 @@
+{
+  "id": "ekart",
+  "displayName": "Ekart",
+  "aliases": [
+    "eKart Logistics"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#0074D9"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ekart",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 598
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "delivered_at",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://ekartlogistics.com/ekartlogistics-web/shipmenttrack/{trackingNumber}",
+    "searchUrl": "https://www.ekartlogistics.in/track-order",
+    "canaryUrl": "https://www.ekartlogistics.in/track-order",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "ekartlogistics.com"
+      ],
+      "path": "^/(?:ekartlogistics-web/)?shipmenttrack/([A-Z]{4}\\d{10})(?:/|$)"
+    }
+  ],
+  "detection": [
+    {
+      "id": "ekart-ecommerce",
+      "pattern": "^(?:AMI|BAL|BGS|BSI|DEL|FLO|FMP|GLA|LUA|MY[ENS]|SDL|SHO|SPO|SRT|TEL)[CPR]\\d{10}$",
+      "confidence": "high"
+    },
+    {
+      "id": "ekart-merchant",
+      "pattern": "^(?!PB|HRBC)[A-Z]{3}[CPR]\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

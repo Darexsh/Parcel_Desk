@@ -1,0 +1,49 @@
+{
+  "carrier": "chronodiali",
+  "records": [
+    {
+      "number": "CHPU1086280495856759356",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://chronodiali.ma/suivi_colis.html",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "chronodiali",
+        "confidence": "high"
+      },
+      "note": "Chronodiali's own tracking page shows this number as the example (EX:) in its search field."
+    },
+    {
+      "number": "CD2702223035",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://www.iris.ma/tracking/suivi-colis-chrono-diali",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz",
+          "chronodiali"
+        ]
+      },
+      "note": "A Moroccan merchant's Chrono Diali tracking page gives it as the example of a CD reference. Chronodiali's tracker knows it."
+    }
+  ]
+}

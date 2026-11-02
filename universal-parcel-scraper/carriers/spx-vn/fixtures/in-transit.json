@@ -1,0 +1,137 @@
+{
+  "retcode": 0,
+  "data": {
+    "fulfillment_info": {
+      "deliver_type": 1
+    },
+    "sls_tracking_info": {
+      "sls_tn": "VN260000000002C",
+      "client_order_id": "1000000000000000001",
+      "receiver_name": "",
+      "receiver_type_name": "",
+      "records": [
+        {
+          "tracking_code": "F440",
+          "tracking_name": "Enter Domestic First Mile Hub",
+          "description": "Đơn hàng đã đến kho ",
+          "display_flag": 1,
+          "actual_time": 1779043200,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Đơn hàng đã đến kho ",
+          "seller_description": "Đơn hàng đã đến kho ",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F098",
+          "tracking_name": "Dropoff Done By Domestic Seller",
+          "description": "Người gửi đã gửi hàng tại bưu cục Cửa Hàng Mẫu",
+          "display_flag": 1,
+          "actual_time": 1779014400,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Cửa Hàng Mẫu",
+            "location_type_name": "",
+            "lng": "106.65",
+            "lat": "10.75",
+            "full_address": "Duong Mau 4"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Người gửi đã gửi hàng tại bưu cục Cửa Hàng Mẫu",
+          "seller_description": "Người gửi đã gửi hàng tại bưu cục Cửa Hàng Mẫu",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F001",
+          "tracking_name": "Unsuccessful Pickup Attempt",
+          "description": "Lấy hàng không thành công",
+          "display_flag": 1,
+          "actual_time": 1779007200,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Lấy hàng không thành công",
+          "seller_description": "Lấy hàng không thành công",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F000",
+          "tracking_name": "Manifested",
+          "description": " Người bán đang chuẩn bị hàng",
+          "display_flag": 1,
+          "actual_time": 1779000000,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": " Người bán đang chuẩn bị hàng",
+          "seller_description": " Người bán đang chuẩn bị hàng",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        }
+      ]
+    },
+    "is_instant_order": false,
+    "is_shopee_market_order": true
+  },
+  "message": "success",
+  "detail": "",
+  "debug": ""
+}

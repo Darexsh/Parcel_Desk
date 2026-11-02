@@ -1,0 +1,52 @@
+{
+  "id": "costco-logistics",
+  "displayName": "Costco Logistics",
+  "aliases": [
+    "Costco Wholesale Logistics",
+    "Innovel Solutions",
+    "Innovel"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#b8182b"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://logistics.costco.com/tracking?id={trackingNumber}",
+    "searchUrl": "https://logistics.costco.com/tracking",
+    "canaryUrl": "https://logistics.costco.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "logistics.costco.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "costco-logistics-1",
+      "pattern": "^1I20\\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])\\d{9}$",
+      "confidence": "high"
+    }
+  ]
+}

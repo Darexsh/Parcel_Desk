@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" data-no-framekiller="false">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow"/>
+  <script src="/DatPublic/csrfguard" type="text/javascript"></script>
+  <title>Active Tracing - Consignment Details</title>
+</head>
+<body>
+<div class="main">
+    <div class="navigation_main">
+        <ul id="nav">
+          <li><a href="/DatPublic/datSelection.do" class="nav_top_active">Consignment tracking</a></li>
+        </ul>
+        <div class="quicksearch">
+          <form name="datSelectionForm" method="post" action="/DatPublic/datSelection.do">
+            <input type="hidden" name="search" value="consignmentId">
+            <label for="quicksearch_01">Consignment ID</label>
+            <input type="text" name="valueComboField" maxlength="35" size="20" value="" id="quicksearch_01" class="keyword">
+            <input type="submit" name="searchConsignmentId" value="go" class="search">
+          </form>
+        </div>
+    </div>
+    <div class="main_area">
+        <div class="content_main_container">
+            <div class="content_main_index">
+                <div class="container_title">
+                    <h1>DHL ACTIVETRACING</h1>
+                </div>
+                <div class="container tabContainer" id="actPageContentContainer">
+                    <ul id="tab_header">
+                        <li><a href="#general">Consignment details</a></li>
+                        <li><a href="#history">Package details</a></li>
+                    </ul>
+                    <div class="clpt_tracking_results consignment-detail-content">
+                        <div id="general">
+                            <table border="0" cellspacing="0" width="100%" class="inf">
+                                <tr>
+                                    <th colspan="4" align="left" class="infh">Latest status</th>
+                                </tr>
+                                <tr>
+                                    <th width="2%">&nbsp;</th>
+                                    <th width="50%" align="left" class="hdr1">Status</th>
+                                    <th width="25%" align="left" class="hdr1">Terminal / location</th>
+                                    <th width="23%" align="left" class="hdr1">Status date</th>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>Shipped from terminal</td>
+                                    <td>
+      <a href="/DatPublic/branch.do?terminal=SMP&product=DL" target="BranchWdw" class="branch-popup-link">
+        DE-MUSTERSTADT
+      </a>
+                                    </td>
+                                    <td>
+                                            05.03.2026
+                                            at 18:10
+                                    </td>
+                                </tr>
+                            </table>
+                            <br/><br/>
+                            <table border="0" cellspacing="0" width="95%" class="inf">
+                                <tr>
+                                    <th align="left" colspan="4" class="infh">Consignment details</th>
+                                </tr>
+                                <tr>
+                                    <td width="2%">&nbsp;</td>
+                                    <td width="23%" valign="top" class="lbl">Domestic Consignment ID</td>
+                                    <td width="25%" valign="top">
+                                        900000002 | 00012345685
+                                    </td>
+                                    <td id="signature_iframe_container" width="50%" rowspan="16"></td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top" class="lbl">Package ID</td>
+                                    <td valign="top">
+                                        JND00000000000000031
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top" class="lbl">DHL order code</td>
+                                    <td valign="top">
+                                        SMP-DL-0000002
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top" class="lbl">Product</td>
+                                    <td valign="top">
+                                        DHL Road Freight Standard
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top" class="lbl">Number of packages</td>
+                                    <td valign="top">
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top" class="lbl">Gross weight (kg)</td>
+                                    <td valign="top">
+                                        8
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top" class="lbl">Volume (m³)</td>
+                                    <td valign="top">
+                                        0.05
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top" class="lbl">Shipper location</td>
+                                    <td valign="top">
+                                        DE - BEISPIELHEIM
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top" class="lbl">Pickup date</td>
+                                    <td valign="top">
+                                        05.03.2026
+                                    </td>
+                                </tr>
+                            </table>
+                            <br/>
+                            <table border="0" cellspacing="0" width="100%" class="inf" id="sendungsHistorieOne">
+                                <tr>
+                                    <th colspan="4" align="left" class="infh">Consignment tracking data</th>
+                                </tr>
+                                <tr>
+                                    <th width="2%">&nbsp;</th>
+                                    <th width="50%" align="left" class="hdr1">Status</th>
+                                    <th width="25%" align="left" class="hdr1">Terminal / location</th>
+                                    <th width="23%" align="left" class="hdr1">Status date</th>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top">
+                                        Consignment created
+                                    </td>
+                                    <td valign="top">
+      <a href="/DatPublic/branch.do?terminal=SMP&product=DL" target="BranchWdw" class="branch-popup-link">
+        DE-MUSTERSTADT
+      </a>
+                                    </td>
+                                    <td valign="top">
+                                        05.03.2026
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top">
+                                        Collected
+                                    </td>
+                                    <td valign="top">
+      <a href="/DatPublic/branch.do?terminal=SMP&product=DL" target="BranchWdw" class="branch-popup-link">
+        DE-BEISPIELHEIM
+      </a>
+                                    </td>
+                                    <td valign="top">
+                                        05.03.2026
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top">
+                                        Received at terminal
+                                    </td>
+                                    <td valign="top">
+      <a href="/DatPublic/branch.do?terminal=SMP&product=DL" target="BranchWdw" class="branch-popup-link">
+        DE-MUSTERSTADT
+      </a>
+                                    </td>
+                                    <td valign="top">
+                                        05.03.2026 16:02
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top">
+                                        Shipped from terminal
+                                    </td>
+                                    <td valign="top">
+      <a href="/DatPublic/branch.do?terminal=SMP&product=DL" target="BranchWdw" class="branch-popup-link">
+        DE-MUSTERSTADT
+      </a>
+                                    </td>
+                                    <td valign="top">
+                                        05.03.2026 18:10
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="history" class="width-full">
+                            <form name="consignmentDetailForm" method="POST" action="/DatPublic/datConsignmentDetails.do" class="font-size-normal margin-top-20">
+                                <table border="0" class="inf">
+                                    <tr>
+                                        <td class="vertical-middle">&nbsp;</td>
+                                        <td class="lbl vertical-middle">Display package tracking data</td>
+                                        <td class="vertical-middle">
+                                            <select name="packageId" size="1" class="input-width-250">
+                                                <option value="ShowAllPackageIDs" >Display tracking history for all packages</option>
+                                                <option value="JND00000000000000031" >JND00000000000000031
+                                                </option>
+                                            </select>
+                                            <input type="hidden" name="tabIndex" value="1"/>
+                                            <input type="submit" value="go" id="selectedTabIndex" class="btn">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                            <table border="0" cellspacing="0" width="100%" class="inf">
+                                <tr>
+                                    <th colspan="5" align="left" class="infh">Package tracking data</th>
+                                </tr>
+                                <tr>
+                                    <th width="2%">&nbsp;</th>
+                                    <th width="25%" align="left" class="hdr1">Package ID</th>
+                                    <th width="30%" align="left" class="hdr1">Status</th>
+                                    <th width="23%" align="left" class="hdr1">Terminal / location</th>
+                                    <th width="20%" align="left" class="hdr1">Status date</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="module dhl hidden" id="openZipCodeEntryWrapper">
+                    <div class="fast_track_headline">To view more information, please enter the postal code of the consignee address</div>
+                    <form name="zipCodeEntryForm" method="POST" action="/DatPublic/zipCodeEntry.do" class="font-size-normal margin-top-20">
+                        <p class="overflowInput">Consignee postal code</p>
+                        <input type="text" title="zipCodeCheck" name="zipCodeToCheck" size="70" maxlength="255"/>
+                        <div class="securitycode">
+                            <p>Security Code</p>
+                            <img id="captchaImage" data-context-path="/DatPublic" src="/DatPublic/captcha.do?id=1" alt="Captcha Image" width="140" height="50">
+                            <input type="text" title="captcha" name="captcha" id="captchaInput" value="" size="50" maxLength="16" placeholder="Please enter the security code"/>
+                        </div>
+                        <div id="checkZipCodeButtonWrapper">
+                            <input type="submit" name="checkZipCodeButton" value="view more details" id="checkZipCodeButton" class="filterButton">
+                        </div>
+                        <p class="wrn">
+                        <div class="wrn"></div>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

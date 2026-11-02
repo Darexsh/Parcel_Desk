@@ -1,0 +1,230 @@
+{
+  "transactionId": "00000000-0000-0000-0000-000000000001",
+  "output": {
+    "packages": [
+      {
+        "errorList": [],
+        "returnToShipper": false,
+        "delayDetail": {
+          "type": "",
+          "subType": "",
+          "status": ""
+        },
+        "trackingNbr": "9900000101",
+        "trackingQualifier": "2461000~9900000101~FXFR",
+        "trackingCarrierCd": "FXFR",
+        "trackingCarrierDesc": "FedEx Freight",
+        "displayTrackingNbr": "9900000101",
+        "shipperAddress": {
+          "streetLines": [
+            "1 Synthetic Way"
+          ],
+          "city": "SHIPVILLE1",
+          "stateOrProvinceCode": "IL",
+          "postalCode": "00001",
+          "countryCode": "US",
+          "residential": false,
+          "classification": "",
+          "urbanizationCode": "",
+          "countryName": "United States"
+        },
+        "recipientAddress": {
+          "streetLines": [
+            "1 Sample Street"
+          ],
+          "city": "SAMPLETON1",
+          "stateOrProvinceCode": "CO",
+          "postalCode": "00011",
+          "countryCode": "US",
+          "residential": false,
+          "classification": "",
+          "urbanizationCode": "",
+          "countryName": "United States"
+        },
+        "driverName": "Sample Driver",
+        "keyStatus": "At local facility",
+        "keyStatusCD": "AF",
+        "lastScanStatus": "At local facility",
+        "lastScanDateTime": "2026-03-04 21:58:31",
+        "receivedByNm": "",
+        "subStatus": "Sample Consignee Inc",
+        "statusBarCD": "AF",
+        "shortStatus": "At local facility",
+        "statusLocationAddress": {
+          "streetLines": [],
+          "city": "RIVERDELL",
+          "stateOrProvinceCode": "WA",
+          "postalCode": "",
+          "countryCode": "US",
+          "residential": false,
+          "classification": "",
+          "urbanizationCode": "",
+          "countryName": "United States"
+        },
+        "statusWithDetails": "At local facility; RIVERDELL, WA",
+        "shipDt": "2026-03-02T00:00:00Z",
+        "displayShipDt": "",
+        "pickupDt": "2026-03-02T00:00:00Z",
+        "estDeliveryDt": "2026-03-06T00:00:00-08:00",
+        "estDeliveryTm": "",
+        "displayEstDeliveryDt": "",
+        "actDeliveryDt": "",
+        "displayActDeliveryDt": "",
+        "displayActDeliveryTm": "",
+        "fxfAdvanceETA": "",
+        "fxfAdvanceStatusCode": "AF",
+        "fxfAdvanceStatusDesc": "At local facility",
+        "totalKgsWgt": "",
+        "totalLbsWgt": "450",
+        "displayTotalWgt": "450 LB",
+        "referenceList": [
+          "PO-SYNTH-1"
+        ],
+        "purchaseOrderNbrList": [
+          "PO-SYNTH-1"
+        ],
+        "billofLadingNbrList": [
+          "BOL-SYNTH-1"
+        ],
+        "shipperRefList": [
+          "SHIP-REF-1"
+        ],
+        "serviceCD": "FEDEX_FREIGHT_ECONOMY",
+        "serviceDesc": "FedEx Freight Economy",
+        "serviceShortDesc": "IR",
+        "packageType": "OTH",
+        "totalPieces": "2",
+        "totalHandlingUnits": "1",
+        "scanEventList": [
+          {
+            "date": "2026-03-04",
+            "time": "21:58:31",
+            "gmtOffset": "-05:00",
+            "status": "At local facility",
+            "statusCD": "AF",
+            "scanLocation": "RIVERDELL, WA",
+            "statusExceptionCode": "M",
+            "exception": false,
+            "delException": false,
+            "clearanceDelay": false,
+            "delivered": false
+          },
+          {
+            "date": "2026-03-03",
+            "time": "20:11:09",
+            "gmtOffset": "-05:00",
+            "status": "On the way",
+            "statusCD": "IT",
+            "scanLocation": "MESAWOOD, NV",
+            "statusExceptionCode": "DI",
+            "exception": false,
+            "delException": false,
+            "clearanceDelay": false,
+            "delivered": false
+          },
+          {
+            "date": "2026-03-02",
+            "time": "23:47:15",
+            "gmtOffset": "-05:00",
+            "status": "Left origin facility",
+            "statusCD": "DP",
+            "scanLocation": "OAKMERE, IL",
+            "statusExceptionCode": "DI",
+            "exception": false,
+            "delException": false,
+            "clearanceDelay": false,
+            "delivered": false
+          },
+          {
+            "date": "2026-03-02",
+            "time": "14:05:11",
+            "gmtOffset": "-05:00",
+            "status": "Picked up",
+            "statusCD": "PU",
+            "scanLocation": "OAKMERE, IL",
+            "statusExceptionCode": "PKUP",
+            "exception": false,
+            "delException": false,
+            "clearanceDelay": false,
+            "delivered": false
+          },
+          {
+            "date": "2026-03-01",
+            "time": "10:00:00",
+            "gmtOffset": "-05:00",
+            "status": "Shipment information sent to FedEx Freight",
+            "statusCD": "OC",
+            "scanLocation": "",
+            "statusExceptionCode": "IB204",
+            "exception": false,
+            "delException": false,
+            "clearanceDelay": false,
+            "delivered": false
+          }
+        ],
+        "originAddress": {
+          "streetLines": [],
+          "city": "OAKMERE",
+          "stateOrProvinceCode": "IL",
+          "postalCode": "",
+          "countryCode": "US",
+          "residential": false,
+          "classification": "",
+          "urbanizationCode": "",
+          "countryName": "United States"
+        },
+        "originTermCity": "OAKMERE",
+        "originTermStateCD": "IL",
+        "destLocationAddress": {
+          "streetLines": [],
+          "city": "PINEFIELD",
+          "stateOrProvinceCode": "CO",
+          "postalCode": "",
+          "countryCode": "US",
+          "residential": false,
+          "classification": "",
+          "urbanizationCode": "",
+          "countryName": "United States"
+        },
+        "destLocationTermCity": "PINEFIELD",
+        "destLocationTermStateCD": "CO",
+        "destAddress": {
+          "streetLines": [],
+          "city": "SAMPLETON1",
+          "stateOrProvinceCode": "CO",
+          "postalCode": "",
+          "countryCode": "US",
+          "residential": false,
+          "classification": "",
+          "urbanizationCode": "",
+          "countryName": "United States"
+        },
+        "destTZ": "-08:00",
+        "originTZ": "-05:00",
+        "terms": "Prepaid",
+        "destinationGeoCoordinate": {
+          "latitude": -90.0001,
+          "longitude": -91.2345,
+          "altitude": 0,
+          "accuracy": 0,
+          "altitudeAccuracy": 0,
+          "heading": 0,
+          "speed": 0
+        },
+        "matched": false,
+        "exception": false,
+        "duplicate": false,
+        "delivered": false,
+        "inTransit": true,
+        "invalid": false,
+        "notFound": false,
+        "freight": true,
+        "successful": true,
+        "historical": false
+      }
+    ],
+    "passedLoggedInCheck": false,
+    "passedGuestAuthCheck": false,
+    "successful": true
+  }
+}

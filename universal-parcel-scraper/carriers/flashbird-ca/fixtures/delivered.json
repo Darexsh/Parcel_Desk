@@ -1,0 +1,15 @@
+{
+  "number": "100000000017",
+  "logs": [
+    { "message": "Shipment created", "time": 1781528706861, "visable": 1 },
+    { "message": "Picked up by FlashBird", "time": 1781536110218, "visable": 1 },
+    { "message": "Out for delivery", "time": 1781540270998, "task": { "_id": "000000000000000000000001", "action": "out_for_delivery", "driver": 1 }, "visable": 1 },
+    { "message": "Out for delivery", "time": 1781541329889, "task": { "_id": "000000000000000000000001", "action": "out_for_delivery", "driver": 1 }, "visable": 1 },
+    { "message": "Parcel delivered", "time": 1781557209494, "visable": 1 }
+  ],
+  "isDelivered": 1,
+  "images": [
+    { "type": "delivered", "key": "synthetic-photo-0001", "taskId": "000000000000000000000001" },
+    { "type": "delivered", "key": "synthetic-photo-0002", "taskId": "000000000000000000000001" }
+  ]
+}

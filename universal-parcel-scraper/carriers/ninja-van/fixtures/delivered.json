@@ -1,0 +1,11 @@
+{
+  "id": 24680,
+  "tracking_id": "NVSGTEST00000000",
+  "granular_status": "Completed",
+  "status": "Completed",
+  "events": [
+    { "order_id": 24680, "type": "DRIVER_PICKUP_SCAN", "time": "2026-04-01T08:00:00+08:00", "data": { "hub_name": "Example Origin Hub" } },
+    { "order_id": 24680, "type": "HUB_INBOUND_SCAN", "time": "2026-04-01T09:00:00+08:00", "data": { "hub_name": "Example Sorting Hub" } },
+    { "order_id": 24680, "type": "DELIVERY_SUCCESS", "time": "2026-04-02T10:00:00+08:00", "data": { "is_rts": false } }
+  ]
+}

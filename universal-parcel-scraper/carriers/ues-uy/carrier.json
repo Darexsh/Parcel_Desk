@@ -1,0 +1,53 @@
+{
+  "id": "ues-uy",
+  "displayName": "UES",
+  "aliases": [
+    "UES Uruguay",
+    "UES Ecommerce"
+  ],
+  "region": {
+    "countries": [
+      "UY"
+    ]
+  },
+  "brand": {
+    "color": "#00295c"
+  },
+  "selectable": true,
+  "timezone": "America/Montevideo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.ues.com.uy/rastreo_paquete.html?criterioId={trackingNumber}",
+    "searchUrl": "https://www.ues.com.uy/rastreo_paquete.html",
+    "canaryUrl": "https://www.ues.com.uy/rastreo_paquete.html",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.ues.com.uy",
+        "ues.com.uy"
+      ],
+      "pathPattern": "^/(?:en/)?rastreo_paquete\\.html$",
+      "params": [
+        "criterioId",
+        "cr"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "ues-uy-1",
+      "pattern": "^UES(?:M\\d{9}|\\d{13})$",
+      "confidence": "high"
+    }
+  ]
+}

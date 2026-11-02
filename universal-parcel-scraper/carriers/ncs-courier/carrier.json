@@ -1,0 +1,47 @@
+{
+  "id": "ncs-courier",
+  "displayName": "NCS Kurir",
+  "aliases": [
+    "NCS",
+    "PT Nusantara Card Semesta",
+    "Nusantara Card Semesta"
+  ],
+  "region": {
+    "countries": [
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#243f80"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jakarta",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://ncskurir.com/ncskurir/track?awb={trackingNumber}",
+    "searchUrl": "https://ncskurir.com/ncskurir/track",
+    "canaryUrl": "https://ncskurir.com/ncskurir/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "ncskurir.com",
+        "www.ncskurir.com"
+      ],
+      "pathPattern": "^/ncskurir/track/?$",
+      "params": [
+        "awb"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "247express",
+  "displayName": "247Express",
+  "aliases": [
+    "247 Express",
+    "Công ty Cổ phần Hai Bốn Bảy"
+  ],
+  "region": {
+    "countries": [
+      "VN"
+    ]
+  },
+  "brand": {
+    "color": "#ed1f24"
+  },
+  "selectable": true,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://247express.vn/tra-cuu-van-don/{trackingNumber}",
+    "searchUrl": "https://247express.vn/",
+    "canaryUrl": "https://247express.vn/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "247express.vn"
+      ],
+      "path": "^/tra-cuu-van-don/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

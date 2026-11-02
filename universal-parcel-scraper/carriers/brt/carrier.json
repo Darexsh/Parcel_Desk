@@ -1,0 +1,110 @@
+{
+  "id": "brt",
+  "displayName": "BRT",
+  "aliases": [
+    "BRT Bartolini",
+    "BRT Bartolini (Parcel ID)",
+    "BRT Bartolini (DPD)",
+    "myBRT.it"
+  ],
+  "region": {
+    "countries": [
+      "IT"
+    ]
+  },
+  "brand": {
+    "color": "#dc0032"
+  },
+  "selectable": true,
+  "timezone": "Europe/Rome",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "brt",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 860
+    },
+    "localClocks": true,
+    "dateOnlyScans": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "weight",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://vas.brt.it/vas/sped_det_new.htm?brtCode={trackingNumber}&lang=en",
+    "searchUrl": "https://services.brt.it/en/tracking",
+    "helpUrl": "https://www.brt.it/it/servizio-clienti/contattaci/",
+    "canaryUrl": "https://services.brt.it/en/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "merchant_reference",
+      "sender",
+      "recipient",
+      "parcel_count",
+      "volume"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "weight"
+    ],
+    "discarded": [
+      "merchant_reference",
+      "sender",
+      "recipient",
+      "parcel_count",
+      "volume"
+    ],
+    "unavailable": [
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "vas.brt.it"
+      ],
+      "pathPattern": "^/(?:$|vas/sped_)",
+      "params": [
+        "brtCode"
+      ]
+    },
+    {
+      "domains": [
+        "mybrt.it"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "brt-1",
+      "pattern": "^\\d{14}$",
+      "confidence": "low"
+    },
+    {
+      "id": "brt-shipment-number",
+      "pattern": "^\\d{12}$",
+      "confidence": "low"
+    },
+    {
+      "id": "brt-parcel-id",
+      "pattern": "^\\d{15}$",
+      "confidence": "low"
+    },
+    {
+      "id": "brt-customer-parcel-id",
+      "pattern": "^EOB\\d{17}$",
+      "confidence": "low"
+    }
+  ]
+}

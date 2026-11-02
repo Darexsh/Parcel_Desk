@@ -1,0 +1,479 @@
+{
+  "carrier": "kuehne-nagel",
+  "records": [
+    {
+      "number": "23A050751273",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230531231659/https://mykn.kuehne-nagel.com/public-tracking/shipments/295433488?query=23A050751273",
+        "date": "2023-05-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post",
+          "colis-prive",
+          "kuehne-nagel"
+        ]
+      },
+      "note": "Kuehne+Nagel's public tracker, archived by the Wayback Machine, shows it as a road shipment's tracking number."
+    },
+    {
+      "number": "23A010828414",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230214174744/https://mykn.kuehne-nagel.com/public-tracking/shipments/280765392?query=23-01-0828414",
+        "date": "2023-02-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post",
+          "colis-prive",
+          "kuehne-nagel"
+        ]
+      },
+      "note": "Kuehne+Nagel's public tracker, archived by the Wayback Machine, shows it as the tracking number behind a customer reference."
+    },
+    {
+      "number": "23-01-0828414",
+      "role": "order_reference",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230214174744/https://mykn.kuehne-nagel.com/public-tracking/shipments/280765392?query=23-01-0828414",
+        "date": "2023-02-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "Kuehne+Nagel's public tracker, archived by the Wayback Machine, resolves this customer reference to 23A010828414."
+    },
+    {
+      "number": "RWM900446988",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221129083920/https://mykn.kuehne-nagel.com/public-tracking/shipments/273508708?query=RWM900446988",
+        "date": "2022-11-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "kuehne-nagel",
+        "confidence": "high"
+      },
+      "note": "Kuehne+Nagel's public tracker, archived by the Wayback Machine, shows it as a road shipment's tracking number."
+    },
+    {
+      "number": "1063437835",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241205134030/https://mykn.kuehne-nagel.com/public-tracking/shipments/358589209?query=1063437835",
+        "date": "2024-12-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Air freight",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Kuehne+Nagel's public tracker, archived by the Wayback Machine, shows it as the house air waybill of an air shipment."
+    },
+    {
+      "number": "RWM006295952",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250819025715/https://mykn.kuehne-nagel.com/public-tracking/shipments/387152245?query=RWM006295952",
+        "date": "2025-08-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "kuehne-nagel",
+        "confidence": "high"
+      },
+      "note": "Looked up on Kuehne+Nagel's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "RWM007002239",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251201114251/https://mykn.kuehne-nagel.com/public-tracking/shipments/398674883?query=RWM007002239",
+        "date": "2025-12-01",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "kuehne-nagel",
+        "confidence": "high"
+      },
+      "note": "Looked up on Kuehne+Nagel's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "RWM007340667",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260210205423/https://mykn.kuehne-nagel.com/public-tracking/shipments/502516479?query=RWM007340667",
+        "date": "2026-02-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "kuehne-nagel",
+        "confidence": "high"
+      },
+      "note": "Looked up on Kuehne+Nagel's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "RWM007478075",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260223193129/https://mykn.kuehne-nagel.com/public-tracking/shipments/504824776?query=RWM007478075",
+        "date": "2026-02-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "kuehne-nagel",
+        "confidence": "high"
+      },
+      "note": "Looked up on Kuehne+Nagel's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "1072100128",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260319095132/https://mykn.kuehne-nagel.com/public-tracking/shipments/500836072?query=1072100128",
+        "date": "2026-03-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Looked up on Kuehne+Nagel's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "1014097465",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240809123319/https://mykn.kuehne-nagel.com/public-tracking/shipments?query=1014097465&kind=TN",
+        "date": "2024-08-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Looked up on Kuehne+Nagel's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "1014137024",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260818092157/https://mykn.kuehne-nagel.com/public-tracking/shipments?query=1014137024",
+        "date": "2026-08-18",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Looked up on Kuehne+Nagel's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "1035713855",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250818201332/https://mykn.kuehne-nagel.com/public-tracking/shipments?query=1035713855",
+        "date": "2025-08-18",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Looked up on Kuehne+Nagel's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "HAM-60211532",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240101005636/https://mykn.kuehne-nagel.com/public-tracking/shipments?query=HAM-60211532&kind=HAW",
+        "date": "2024-01-01",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Kuehne+Nagel's own tracker as a house air waybill, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "RWM009228162",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/kuehne/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "kuehne-nagel",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Kuehne+Nagel page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "RWM009229981",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/kuehne/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "kuehne-nagel",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Kuehne+Nagel page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "RAPI00236352",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/kuehne/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "ParcelPanel's Kuehne+Nagel page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "RAPI00232149",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/kuehne/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "ParcelPanel's Kuehne+Nagel page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "RAPI00209679",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/kuehne/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "ParcelPanel's Kuehne+Nagel page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "RAPI00212491",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/kuehne/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "ParcelPanel's Kuehne+Nagel page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    }
+  ]
+}

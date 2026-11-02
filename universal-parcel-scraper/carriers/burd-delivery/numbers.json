@@ -1,0 +1,51 @@
+{
+  "carrier": "burd-delivery",
+  "records": [
+    {
+      "number": "057450014548803653",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260814074544/https://burd.dk/track?code=057450014548803653",
+        "date": "2026-08-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ecoscooting"
+        ]
+      },
+      "note": "An archived lookup on Burd's own tracking page; the tracking API reply archived with it (same number) shows the parcel registered."
+    },
+    {
+      "number": "057450012594228154",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250610152810/https://burdorderstatusapiprod.azurewebsites.net/api/TrackAndTraceStatuses?number=057450012594228154",
+        "date": "2025-06-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ecoscooting"
+        ]
+      },
+      "note": "An archived reply of the status API that Burd's tracking page reads; it shows the parcel registered and received."
+    }
+  ]
+}

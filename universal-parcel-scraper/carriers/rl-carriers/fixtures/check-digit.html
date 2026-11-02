@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Shipment Tracing | R+L Carriers</title>
+</head>
+<body>
+	<main>
+		<form action="/freight/shipping/shipment-tracing" id="shipmentTracingForm" method="post">
+			<select id="Type" name="Type"><option selected="selected" value="PRO">PRO</option></select>
+			<input class="text-box single-line" id="TrackingNumbers" name="TrackingNumbers" type="text" value="ZZ0000000" />
+			<button type="submit">Trace</button>
+		</form>
+	</main>
+	<script>
+			const ModelStateErrors = Object.freeze(["ZZ0000000: Pro number failed check digit validation."]);
+	</script>
+</body>
+</html>

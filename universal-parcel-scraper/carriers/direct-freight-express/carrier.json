@@ -1,0 +1,47 @@
+{
+  "id": "direct-freight-express",
+  "displayName": "Direct Freight Express",
+  "aliases": [
+    "DFE",
+    "Direct Freight",
+    "Direct Freight Australia"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#1e4488"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.directfreight.com.au/ConsignmentStatus.aspx?lookuptype=0&consignment_no={trackingNumber}",
+    "searchUrl": "https://www.directfreight.com.au/",
+    "canaryUrl": "https://www.directfreight.com.au/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.directfreight.com.au",
+        "directfreight.com.au"
+      ],
+      "pathPattern": "^/[Cc]onsignment[Ss]tatus\\.aspx$",
+      "params": [
+        "consignment_no"
+      ]
+    }
+  ],
+  "detection": []
+}

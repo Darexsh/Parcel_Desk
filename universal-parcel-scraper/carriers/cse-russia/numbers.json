@@ -1,0 +1,382 @@
+{
+  "carrier": "cse-russia",
+  "records": [
+    {
+      "number": "31286979",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20150817185103/http://cse-cargo.ru/External/CSETest/Track.aspx?city=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&type=waybill&number=31286979",
+        "date": "2015-08-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The archived reply of CSE's Cargo 3 tracking portal, which cse.ru's tracking page embedded, shows a Moscow to Saint Petersburg waybill from order to delivery."
+    },
+    {
+      "number": "31286982",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20150818043755/http://cse-cargo.ru/External/CSETest/Track.aspx?city=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&type=waybill&number=31286982",
+        "date": "2015-08-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The archived reply of CSE's Cargo 3 tracking portal, which cse.ru's tracking page embedded, shows a Moscow to Saint Petersburg waybill from order to delivery."
+    },
+    {
+      "number": "32931478",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20150817153559/http://cse-cargo.ru/External/CSETest/Track.aspx?city=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&type=waybill&number=32931478",
+        "date": "2015-08-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The archived reply of CSE's Cargo 3 tracking portal, which cse.ru's tracking page embedded, shows a Moscow to Ufa waybill from order to delivery."
+    },
+    {
+      "number": "81245044",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240530201114/https://lk.cse.ru/api/new-track/81245044",
+        "date": "2024-05-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The archived reply of CSE's own tracking API at lk.cse.ru shows an eight-digit waybill from Bishkek to Moscow."
+    },
+    {
+      "number": "497-006099497",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260607162255/https://lk.cse.ru/api/new-track/497-006099497",
+        "date": "2026-06-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "The archived reply of CSE's own tracking API at lk.cse.ru shows a waybill from order to delivery."
+    },
+    {
+      "number": "1800004154082",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260331102056/https://lk.cse.ru/api/new-track/1800004154082",
+        "date": "2026-03-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "The archived reply of CSE's own tracking API at lk.cse.ru shows a thirteen-digit waybill in transit."
+    },
+    {
+      "number": "1800004154814",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260331102015/https://lk.cse.ru/api/new-track/1800004154814",
+        "date": "2026-03-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "The archived reply of CSE's own tracking API at lk.cse.ru shows a thirteen-digit waybill in transit."
+    },
+    {
+      "number": "496-6635624-065540",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230928035307/https://lk.cse.ru/api/new-track/496-6635624-065540",
+        "date": "2023-09-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "The archived reply of CSE's own tracking API at lk.cse.ru shows a waybill in transit from Moscow."
+    },
+    {
+      "number": "497-1600007-65475",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251209041318/https://lk.cse.ru/api/new-track/497-1600007-65475",
+        "date": "2025-12-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "The archived reply of CSE's own tracking API at lk.cse.ru shows a waybill picked up in Moscow."
+    },
+    {
+      "number": "496-033498204",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230721185325/https://www.cse.ru/mow/track?numbers=496-033498204",
+        "date": "2023-07-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "sf-express",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on CSE's own tracking page at cse.ru, as an archived address shows; the capture holds only the page shell, which loads history by script, so the history is not visible."
+    },
+    {
+      "number": "497-006659468",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241124142101/https://www.cse.ru/mow/track?numbers=497-006659468",
+        "date": "2024-11-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "purolator",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on CSE's own tracking page at cse.ru, as an archived address shows; the capture holds only the page shell, which loads history by script, so the history is not visible."
+    },
+    {
+      "number": "495-0029927903",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190525131845/https://www.cse.ru/track.php?order=waybill&city_uri=mosrus&lang=rus&number=495-0029927903",
+        "date": "2019-05-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Looked up on CSE's own tracking page at cse.ru, as an archived address shows; the page loads the result in an embedded frame that the capture does not hold, so the history is not visible."
+    },
+    {
+      "number": "22630899",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20150207185203/http://cse.ru/track.php?order=waybill&city_uri=mosrus&lang=rus&number=22630899",
+        "date": "2015-02-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Looked up on CSE's own tracking page at cse.ru, as an archived address shows; the page loads the result in an embedded frame that the capture does not hold, so the history is not visible."
+    },
+    {
+      "number": "496-010232840",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200813094753/https://old.cse.ru/track.php?order=waybill&city_uri=mosrus&lang=eng&number=496-010232840",
+        "date": "2020-08-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on CSE's own tracking page at old.cse.ru, as an archived address shows; the page loads the result in an embedded frame that the capture does not hold, so the history is not visible."
+    }
+  ]
+}

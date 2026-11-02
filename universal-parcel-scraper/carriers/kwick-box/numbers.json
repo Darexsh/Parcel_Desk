@@ -1,0 +1,39 @@
+{
+  "carrier": "kwick-box",
+  "records": [
+    {
+      "number": "202014875390",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://kwickbox.ams3.digitaloceanspaces.com/openapi/openapi.json",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "KwickBox's API reference, which its developer page loads, gives it as the example shipment number for the cancel request; no history is shown."
+    }
+  ]
+}

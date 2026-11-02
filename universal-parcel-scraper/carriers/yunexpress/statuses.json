@@ -1,0 +1,847 @@
+{
+  "carrier": "yunexpress",
+  "entries": [
+    {
+      "wording": "Customs inspection - Import",
+      "stage": "customs",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Clearance processing completed - Import",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Customs released - Import",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "The release after an import inspection: the customs stage ends."
+    },
+    {
+      "wording": "Collected at Cargo Terminal",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Start Customs Clearence",
+      "stage": "customs",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "International flight has arrived",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "International flight has departed",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Clearence processing completed - Export",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Arrived at the origin international airport",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "The country of origin commences customs declaration.",
+      "stage": "customs",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Shipment is in transit to next facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Departed from sort facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Arrived at origin facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Shipment picked up",
+      "stage": "accepted",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Shipment information received",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Order submitted",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "The sender's order reaching YunExpress, before the parcel does."
+    },
+    {
+      "wording": "Arrived at sorting center",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-04"
+    },
+    {
+      "wording": "The package left sorting center",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-04"
+    },
+    {
+      "wording": "Package departed from sorting center",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-30",
+      "note": "GOFO's departure from its sorting center in English, relayed beside its Italian twin."
+    },
+    {
+      "wording": "Arrived at GOFO Regional Destination Facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-04",
+      "note": "GOFO is the last-mile carrier named in the scan."
+    },
+    {
+      "wording": "The driver is out for delivery",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-04"
+    },
+    {
+      "wording": "Arrived at GOFO Regional Hub",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-23",
+      "note": "Relayed from GOFO in the US, as GOFO reads its own scan."
+    },
+    {
+      "wording": "Departed GOFO Regional Hub",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "Relayed from GOFO in the US, as GOFO reads its own scan."
+    },
+    {
+      "wording": "In Transit to Next Facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "Relayed from GOFO: its line haul to the next facility."
+    },
+    {
+      "wording": "Loaded on Vehicle",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-23",
+      "note": "Relayed from GOFO: loaded for the line haul between its facilities, before its delivery station."
+    },
+    {
+      "wording": "Arrived at GOFO Delivery Station",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-23",
+      "note": "Relayed from GOFO in the US, as GOFO reads its own scan."
+    },
+    {
+      "wording": "Out for Delivery",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-23",
+      "note": "Relayed from GOFO in the US, as GOFO reads its own scan."
+    },
+    {
+      "code": "50",
+      "wording": "Delivered by Mailbox",
+      "stage": "delivered",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28",
+      "note": "The exact latest event declares delivered; variable partner delivery notes remain descriptive."
+    },
+    {
+      "wording": "In clearance processing - Import",
+      "stage": "customs",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "wording": "Arrived at the warehouse of Customs Broker",
+      "stage": "customs",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Logged just before import clearance starts."
+    },
+    {
+      "wording": "Arrived at sort facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "wording": "Shipment is ready for outbound",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "wording": "Departed from facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "wording": "Delivered to local carrier",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "The handover to the last-mile carrier, not a delivery to the recipient."
+    },
+    {
+      "wording": "Processing at sort facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-28",
+      "note": "The destination sorting, before import customs and again after the hand-over."
+    },
+    {
+      "wording": "Arrived at destination",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-28",
+      "note": "The last-mile carrier's arrival in the country, relayed after the hand-over; not a delivery."
+    },
+    {
+      "wording": "Handled by local carrier",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-28",
+      "note": "The last-mile carrier's transit, relayed."
+    },
+    {
+      "wording": "Transport to delivery centre",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "wording": "Arrived at delivery centre",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-28",
+      "note": "The last-mile carrier's local sorting site, before the delivery round."
+    },
+    {
+      "wording": "Departure from the international sorting center",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "wording": "Shipment in transit to DHL",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "wording": "Shipment is in transit to carrier",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "On the way to the last-mile carrier, as in the line that names DHL."
+    },
+    {
+      "wording": "Sender goods issue",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DPD, placed at the delivering depot while the parcel was still in China: a data record, not a scan."
+    },
+    {
+      "wording": "Parcel data transmitted",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "Relayed from a European last-mile carrier ahead of its first scan of the parcel: a data record, not a scan."
+    },
+    {
+      "wording": "In transit.",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "Relayed from the same carrier after its data record."
+    },
+    {
+      "wording": "At parcel delivery centre.",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "Relayed from the same carrier: its delivering depot's receipt, before the delivery round."
+    },
+    {
+      "wording": "Out for delivery.",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "Relayed from the same carrier."
+    },
+    {
+      "wording": "Shipping Label Created",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "The first line of a parcel for the United States, placed at a US facility: a data record, not a scan."
+    },
+    {
+      "wording": "POD available",
+      "stage": "delivered",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DPD seconds after its delivery scan."
+    },
+    {
+      "wording": "Shipment not yet received or processed",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DHL Parcel Netherlands, which files it as a pre-notification."
+    },
+    {
+      "wording": "Order information received. We're expecting your parcel to arrive with us.",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "A partner's pre-advice, relayed between the order data and import clearance with a dash for its place."
+    },
+    {
+      "wording": "We deliver your shipment at a DHL ServicePoint",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DHL Parcel Netherlands; a changed delivery instruction."
+    },
+    {
+      "wording": "Request by the recipient for delivery at DHL ServicePoint",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DHL Parcel Netherlands; a changed delivery instruction."
+    },
+    {
+      "wording": "Delivery instruction changed to delivery at DHL ServicePoint",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DHL Parcel Netherlands."
+    },
+    {
+      "wording": "New delivery attempt on the next delivery day",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DHL Parcel Netherlands after a changed delivery instruction; it reschedules rather than reports a failed attempt."
+    },
+    {
+      "wording": "Delivery planned at the CityHub",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DHL Parcel Netherlands."
+    },
+    {
+      "wording": "Delivery planned in the route of the courier",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DHL Parcel Netherlands."
+    },
+    {
+      "wording": "Entered into handheld device of the courier",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DHL Parcel Netherlands, which files it as out for delivery."
+    },
+    {
+      "wording": "Handed over to the courier",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DHL Parcel Netherlands: the delivery courier, not a collection from the sender."
+    },
+    {
+      "wording": "Your package is ready to be picked up.",
+      "stage": "ready_for_pickup",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DHL Parcel Netherlands when the parcel waits at a ServicePoint."
+    },
+    {
+      "wording": "Preparing for delivery",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from GOFO Italy at its depot before the courier leaves."
+    },
+    {
+      "wording": "Your shipment has been delivered to the postal operator of the country of destination and will be delivered in the coming days.",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from bpost when it hands the item to the destination post; not a delivery."
+    },
+    {
+      "wording": "Parcel is handled",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from bpost."
+    },
+    {
+      "wording": "First parcel scan along Poste Italiane’s logistic network",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from Poste Italiane after the handover."
+    },
+    {
+      "wording": "TASK ASSIGNED",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from a Canadian last-mile carrier."
+    },
+    {
+      "wording": "OUTBOUND SCANNED",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from a Canadian last-mile carrier."
+    },
+    {
+      "wording": "ORDER EXCEPTION RELEASED",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from a Canadian last-mile carrier when an earlier exception clears."
+    },
+    {
+      "wording": "DELIVERING, WAIT FOR CONSIGNEE PICK UP",
+      "stage": "ready_for_pickup",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from a Canadian last-mile carrier."
+    },
+    {
+      "wording": "REMINDER EMAIL SENT FAILED",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from a Canadian last-mile carrier while the parcel waited for collection: a reminder that failed to send, not a movement or a failed delivery attempt, so it has no stage and the parcel keeps the one it had."
+    },
+    {
+      "wording": "Package accepted at courier partner",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed after the parcel left the facilities of the network that brought it to the courier partner: a hand-over, not the parcel's acceptance."
+    },
+    {
+      "wording": "Accepted at Carrier's Facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "Relayed from an American last-mile carrier after the label it printed: its intake, filed like Package accepted at courier partner as a hand-over to that carrier."
+    },
+    {
+      "wording": "Arrived at Carrier's Facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "Relayed from the same carrier, at its sorting facilities."
+    },
+    {
+      "wording": "Departed Carrier's Facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "Relayed from the same carrier, leaving its sorting facilities."
+    },
+    {
+      "wording": "Delivery failed, type: Recipient absent or delivery location inaccessible.",
+      "stage": "failed_attempt",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "Relayed from GOFO, which goes on to promise another attempt; matched on its start."
+    },
+    {
+      "wording": "The parcel is being stored in the GLS parcel center. It could not be delivered as the parcel box was occupied.",
+      "stage": "failed_attempt",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "Relayed from GLS: the parcel box it was due in was full, so the depot keeps it."
+    },
+    {
+      "wording": "1 item has been In transit, Despatched to Carrier",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from CouriersPlease: the parcel handed to it."
+    },
+    {
+      "wording": "Your item has been accepted in <town> Depot",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from CouriersPlease: its depot's receipt of the parcel, a hand-over between carriers. Matched on its fixed words."
+    },
+    {
+      "wording": "Onboard for delivery",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from CouriersPlease: on the courier's round."
+    },
+    {
+      "wording": "Unsuccessful delivery - failed delivery card left",
+      "stage": "failed_attempt",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from CouriersPlease after a missed delivery."
+    },
+    {
+      "wording": "1 item has been transferred to run <n> DEPOT COLLECTION",
+      "stage": "ready_for_pickup",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from CouriersPlease: set aside on the depot's collection run, as its own Depot collection arranged. Matched on its fixed words."
+    },
+    {
+      "wording": "1 item has been transferred to <depot> (<town>) CARD LEFT",
+      "stage": "failed_attempt",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "Relayed from an Australian courier after a missed delivery: the card left names the depot that now holds the parcel. Matched on its fixed words; the courier's page wraps CARD LEFT in a link the adapter drops."
+    },
+    {
+      "wording": "Your shipment has arrived at sorting center",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Relayed from Ecoscooting after Delivered to local carrier: its sorting centre's intake."
+    },
+    {
+      "wording": "Your shipment has been processed at sorting center and ready for shipping",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Relayed from Ecoscooting: its sorting centre's dispatch."
+    },
+    {
+      "wording": "Your shipment has been accepted by delivery carrier",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Relayed from Ecoscooting after its sorting scans: a hand-over between carriers, as Ecoscooting's own code reads it, not the parcel's acceptance."
+    },
+    {
+      "wording": "Your shipment is out for delivery",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Relayed from Ecoscooting."
+    },
+    {
+      "wording": "Your shipment delivery attempt failed [<reason>]",
+      "stage": "failed_attempt",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Relayed from Ecoscooting, with the reason in brackets; matched on its fixed words. A wrong address seen there goes on to another round."
+    },
+    {
+      "wording": "In Transit",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from GOFO: its line haul between facilities, without the next one."
+    },
+    {
+      "wording": "中国邮政已收取邮件",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: its receipt of the parcel YunExpress handed to it, a hand-over between carriers."
+    },
+    {
+      "wording": "邮件到达【示例市国际互换局】",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: arrived at an office; any office name, which becomes the scan's place."
+    },
+    {
+      "wording": "邮件离开【示例市国际互换局】，正在发往下一站",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: left an office for the next, which can be named; any office name, which becomes the scan's place."
+    },
+    {
+      "wording": "邮件到达【示例市】，准备发往【示例航空中心】",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: arrived in a city on the way to an office; the city becomes the scan's place."
+    },
+    {
+      "wording": "邮件已在【示例揽投部】完成分拣，准备发出",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: sorted at an office; any office name."
+    },
+    {
+      "wording": "邮件已乘机由【示例市】飞往【示例市】",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: a domestic flight between two cities."
+    },
+    {
+      "wording": "【示例市国际互换局】已出口直封",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: closed into an export dispatch at an exchange office."
+    },
+    {
+      "wording": "送交出口海关",
+      "stage": "customs",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: presented to export customs, until the release."
+    },
+    {
+      "wording": "出口海关/放行",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: released by export customs."
+    },
+    {
+      "wording": "已交承运商运输",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: handed to the carrier that flies the dispatch."
+    },
+    {
+      "wording": "航空公司接收",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: received by the airline."
+    },
+    {
+      "wording": "航空公司启运",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: the airline's departure."
+    },
+    {
+      "wording": "飞机进港",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: the flight has landed."
+    },
+    {
+      "wording": "到达寄达地",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Relayed from China Post: arrived in the destination country."
+    },
+    {
+      "wording": "到达寄达地处理中心",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from China Post: arrived at the destination's processing centre."
+    },
+    {
+      "wording": "送交境外进口海关",
+      "stage": "customs",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from China Post: presented to import customs abroad, until the release."
+    },
+    {
+      "wording": "境外进口海关留存待验(等待提交给边境机构/安全部门)",
+      "stage": "customs",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from China Post: held by import customs abroad for inspection, waiting to be passed to the border or security agency."
+    },
+    {
+      "wording": "寄达地海关允许进口",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from China Post: import customs released the item."
+    },
+    {
+      "wording": "离开【示例国】处理中心",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from China Post: left a processing centre abroad, its country in brackets."
+    },
+    {
+      "code": "10",
+      "confirmedBy": "bundle",
+      "firstSeen": "2026-10-08",
+      "note": "Latest-event code the page labels Processing. It gives the parcel's status when the newest wording is not in the map, never a scan's stage."
+    },
+    {
+      "code": "20",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Latest-event code the page labels Transit. It gives the parcel's status when the newest wording is not in the map, never a scan's stage."
+    },
+    {
+      "code": "30",
+      "confirmedBy": "bundle",
+      "firstSeen": "2026-10-08",
+      "note": "Also labelled Transit by the page; used like 20."
+    }
+  ]
+}

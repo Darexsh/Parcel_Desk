@@ -1,0 +1,44 @@
+{
+  "carrier": "hi-trans",
+  "records": [
+    {
+      "number": "ETS188",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://hitrans.atlassian.net/wiki/spaces/CS/pages/1743781901/Hi-Trans+Express+Freight+API",
+        "date": "2024-01-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Hi-Trans Express's Freight API documentation looks it up as the consignment number in its status and POD examples, with a 2020 delivered history in the sample reply."
+    },
+    {
+      "number": "MTX833",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190905162325/http://online.hi-trans.com.au/Connotes/ShowConsignmentSummary.aspx?Number=MTX833",
+        "date": "2019-09-05",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Hi-Trans Express's own consignment summary page; the capture was not opened and the tracker answered it with HTTP 404, so no history was visible and the lookup may have failed."
+    }
+  ]
+}

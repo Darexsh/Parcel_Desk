@@ -1,0 +1,36 @@
+{
+  "id": "rrs-logistics",
+  "displayName": "RRS Logistics",
+  "aliases": [
+    "日日顺",
+    "日日顺物流",
+    "日日顺供应链",
+    "RRS"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#c7003a"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.rrswl.com/order/searchLishi",
+    "canaryUrl": "https://www.rrswl.com/order/searchLishi",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

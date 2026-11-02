@@ -1,0 +1,29 @@
+{
+  "trackingId": "AB0C000000",
+  "currentStatus": "CHECKED_OUT",
+  "statusDesc": "Your parcel has been collected from the PARCELPOINT location.",
+  "details": {
+    "bookingCode": "00000000000000000000",
+    "consignmentId": "AB0C000000"
+  },
+  "events": [
+    {
+      "status": "CHECKED_OUT",
+      "description": "Your parcel has been collected from the PARCELPOINT location.",
+      "date": "2026-07-03 02:01",
+      "location": "Example Newsagency Sampleton"
+    },
+    {
+      "status": "CHECKED_IN",
+      "description": "Example Newsagency Sampleton has confirmed delivery of your parcel from Example Couriers, it's ready for collection.",
+      "date": "2026-07-01 07:10",
+      "location": "Example Newsagency Sampleton"
+    },
+    {
+      "status": "BOOKED",
+      "description": "Parcel information has been received by PARCELPOINT.",
+      "date": "2026-06-30 01:09",
+      "location": "Example Newsagency Sampleton"
+    }
+  ]
+}

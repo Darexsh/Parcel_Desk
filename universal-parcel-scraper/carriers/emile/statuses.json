@@ -1,0 +1,268 @@
+{
+  "carrier": "emile",
+  "entries": [
+    {
+      "wording": "WAYBILL GENERATED",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "code": "10"
+    },
+    {
+      "wording": "PREALERT",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "bundle",
+      "note": "The consolidator's advance notice. Emile's page files it with pre-clearance."
+    },
+    {
+      "wording": "CUSTOMS CLEARANCE FORECAST",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "bundle",
+      "note": "A clearance still to come."
+    },
+    {
+      "wording": "NOTIFICATION OF ARRIVAL",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "bundle",
+      "note": "Emile's page files it with pre-clearance, before customs releases the parcel."
+    },
+    {
+      "wording": "CBSA HAS PUT THE FOLLOWING SHIPMENTS ON HOLD",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "bundle",
+      "note": "A hold by the Canada Border Services Agency."
+    },
+    {
+      "wording": "CUSTOMS DETENTION",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "CUSTOMS RELEASED",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "CUSTOMS CLEARANCE COMPLETED",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "HANDED OVER",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "Emile's page files it as cleared by customs: the parcel is handed over after clearance."
+    },
+    {
+      "wording": "PACKAGE ON THE WAY TO PARTNER SORTING FACILITY",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "IN TRANSIT TO EMIL. TRACKING WILL UPDATE ON ARRIVAL.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "WITH PARTNER CARRIER, TRANSFERRING TO EMIL SOON.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "PICKED UP",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "Emile collecting the parcel after import. The sender's acceptance happened abroad."
+    },
+    {
+      "wording": "IN TRANSIT",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "PRE_INBOUND",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The parcel is announced to an Emile warehouse. Emile's page files it as processing."
+    },
+    {
+      "wording": "PRE ASSIGNED",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "Emile's page files it as processing."
+    },
+    {
+      "wording": "ARRIVE TRANSITHUB",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "code": "20"
+    },
+    {
+      "wording": "ARRIVE AT THE WAREHOUSE",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "ORDER SORTED",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "code": "22"
+    },
+    {
+      "wording": "TASK ASSIGNED",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "A delivery task is assigned; the parcel has not left the warehouse.",
+      "code": "21"
+    },
+    {
+      "wording": "ASSIGN DRIVER",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "Emile's page files it as the start of delivery; the out-for-delivery scan follows."
+    },
+    {
+      "wording": "TRANSFERRED TO DRIVER",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "Emile's page files it as the start of delivery; the out-for-delivery scan follows."
+    },
+    {
+      "wording": "WAITING FOR PICKUP",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "Emile's page files it as at the warehouse. The wording does not say whether a driver or the recipient collects the parcel, so it has no stage of its own."
+    },
+    {
+      "wording": "OUTBOUND SCANNED",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The parcel leaves an Emile facility. Emile's page files it as in transit.",
+      "code": "30"
+    },
+    {
+      "wording": "OUT FOR DELIVERY",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "code": "31"
+    },
+    {
+      "wording": "RE-DELIVERY ATTEMPT",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "bundle",
+      "note": "Another delivery round after a failed one."
+    },
+    {
+      "wording": "DELIVERED",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "code": "40"
+    },
+    {
+      "wording": "RETURNED TO SENDER",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "Emile's page shows it with the delivered badge."
+    },
+    {
+      "wording": "LOST CONFIRMED",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "ORDER DESTROYED",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "DELIVERY EXCEPTION",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "EXCEPTION NOTIFIED TO SENDER",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "bundle"
+    },
+    {
+      "wording": "ORDER EXCEPTION RELEASED",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "An earlier exception clears."
+    },
+    {
+      "wording": "EMAIL REMINDER SENT / FAILED",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "A message to the recipient, not a movement: it has no stage of its own. Emile's page files it as an exception."
+    },
+    {
+      "wording": "DELIVERY MAY BE DELAYED DUE TO",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "A notice that delivery may be late, not a failure. Emile's page shows it as delayed."
+    },
+    {
+      "wording": "WAYBILL_CHANGE_FEE",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "A charge to the shipper, not a movement: it has no stage and the parcel keeps the one it had."
+    },
+    {
+      "wording": "ADDITIONAL_DELIVER_FEE",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "A charge to the shipper, not a movement: it has no stage and the parcel keeps the one it had."
+    },
+    {
+      "wording": "WAYBILL_MODIFY_FEE",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "A charge to the shipper, not a movement: it has no stage and the parcel keeps the one it had."
+    },
+    {
+      "wording": "WEIGHT_MISMATCH_FEE",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "A charge to the shipper, not a movement: it has no stage and the parcel keeps the one it had."
+    },
+    {
+      "wording": "ROUTING_TO_3PL_FEE",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "A charge to the shipper, not a movement: it has no stage and the parcel keeps the one it had."
+    }
+  ]
+}

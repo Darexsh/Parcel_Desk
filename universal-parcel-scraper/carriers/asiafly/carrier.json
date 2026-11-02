@@ -1,0 +1,50 @@
+{
+  "id": "asiafly",
+  "displayName": "Asiafly",
+  "aliases": [
+    "ASIAFLY",
+    "Asiafly Express",
+    "亚翔国际",
+    "亚翔货物运输有限公司",
+    "Shenzhen Yaxiang International Freight Forwarding",
+    "Shenzhen Yaxiang International Freight Forwarding Co., Ltd."
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#2d2f83"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.asiaflyexp.com/order-search.html?no={trackingNumber}",
+    "searchUrl": "https://www.asiaflyexp.com/order-search.html",
+    "canaryUrl": "https://www.asiaflyexp.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.asiaflyexp.com",
+        "asiaflyexp.com"
+      ],
+      "pathPattern": "^/order-search\\.html$",
+      "params": [
+        "no"
+      ]
+    }
+  ],
+  "detection": []
+}

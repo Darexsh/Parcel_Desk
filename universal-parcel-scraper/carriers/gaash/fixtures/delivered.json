@@ -1,0 +1,163 @@
+{
+  "parcel-tracking-data": {
+    "Statuses": [
+      {
+        "StatusTime": "2026-05-04T19:50:43",
+        "StatusCode": 1001,
+        "MappedStatusCode": "1001",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Parcel is on the way to destination country",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+03:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2026-05-12T09:25:07",
+        "StatusCode": 3,
+        "MappedStatusCode": "",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "The declaration data has been sent",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+03:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2026-05-12T09:55:23",
+        "StatusCode": 595,
+        "MappedStatusCode": "595",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Arrived at destination country",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+03:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2026-05-12T10:03:19",
+        "StatusCode": 7,
+        "MappedStatusCode": "7",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Cleared customs",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+03:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "",
+        "StatusCode": 1,
+        "MappedStatusCode": "",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Sample status without a time",
+        "CourierCode": -1,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+03:00",
+        "PudoCode": "",
+        "UniquePudoCode": "",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2026-05-14T21:52:08",
+        "StatusCode": 25,
+        "MappedStatusCode": "B25",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Entered w/h - assigned to pickup point",
+        "CourierCode": 5,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+03:00",
+        "PudoCode": "0000",
+        "UniquePudoCode": "0000#5",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2026-05-14T21:52:08",
+        "StatusCode": 25,
+        "MappedStatusCode": "B25",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Entered w/h - assigned to pickup point",
+        "CourierCode": 5,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+03:00",
+        "PudoCode": "0000",
+        "UniquePudoCode": "0000#5",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2026-05-15T08:08:37",
+        "StatusCode": 28,
+        "MappedStatusCode": "B28",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "On the way to pickup location",
+        "CourierCode": 5,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+03:00",
+        "PudoCode": "0000",
+        "UniquePudoCode": "0000#5",
+        "PudoOtp": ""
+      },
+      {
+        "StatusTime": "2026-05-17T12:26:53",
+        "StatusCode": 15,
+        "MappedStatusCode": "H29",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Arrived at pickup location",
+        "CourierCode": 5,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+03:00",
+        "PudoCode": "0000",
+        "UniquePudoCode": "0000#5",
+        "PudoOtp": "000000"
+      },
+      {
+        "StatusTime": "2026-05-18T10:12:13",
+        "StatusCode": 16,
+        "MappedStatusCode": "B16",
+        "MappedSubStatusCode": "",
+        "StatusDescription": "Delivered",
+        "CourierCode": 5,
+        "Country": "IL",
+        "TimeZoneOffset": "GMT+03:00",
+        "PudoCode": "0000",
+        "UniquePudoCode": "0000#5",
+        "PudoOtp": "000000"
+      }
+    ],
+    "PudoDetails": "Sample Pickup Shop , 1 Sample Street  SAMPLE TOWN",
+    "TrackingNumber": "GAIH12345679",
+    "HAWB": "GAIH12345679",
+    "SearchTrackingNumber": "GAIH12345679"
+  },
+  "parcel-status-data": {
+    "Hawb": "GAIH12345679",
+    "CourierName": "Sample Couriers (shops)",
+    "CourierCode": 5,
+    "AgentName": "SAMPLESHOP",
+    "AgentCode": 0,
+    "PaymentLinks": [],
+    "IsArrived": true,
+    "IsClearance": true,
+    "Is824": null,
+    "IsHandlingDistribution": true,
+    "IsHdDistribution": false,
+    "DistributionMessageType": null,
+    "FinalStatuses": [],
+    "AdditionalStatuses": [],
+    "Permits": [],
+    "DistributionStatus": {
+      "StatusType": 2,
+      "OverTenDays": false,
+      "SlaOverdue": false,
+      "OutForDeliveryOverdue": null
+    }
+  }
+}

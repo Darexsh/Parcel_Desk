@@ -1,0 +1,44 @@
+{
+  "id": "kiwi-express",
+  "displayName": "Kiwi Express",
+  "aliases": [
+    "Kiwi Express Couriers",
+    "KiwiExpress",
+    "Kiwi Oversize",
+    "Kiwi Express Oversize"
+  ],
+  "region": {
+    "countries": [
+      "NZ"
+    ]
+  },
+  "brand": {
+    "color": "#00a1df"
+  },
+  "selectable": true,
+  "timezone": "Pacific/Auckland",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://my.kiwiexpress.co.nz/barcode/{trackingNumber}",
+    "searchUrl": "https://www.kiwiexpress.co.nz/",
+    "canaryUrl": "https://www.kiwiexpress.co.nz/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "my.kiwiexpress.co.nz"
+      ],
+      "path": "^/barcode/([^/]+)/?$"
+    }
+  ],
+  "detection": []
+}

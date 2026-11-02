@@ -1,0 +1,374 @@
+{
+  "carrier": "dellin",
+  "records": [
+    {
+      "number": "2100781013582",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220509015854/https://www.dellin.ru/tracker/orders/2100781013582/",
+        "date": "2022-05-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "The archived page of Dellin's own tracker shows this order as completed and the cargo handed out, with waybill 21-00781013582."
+    },
+    {
+      "number": "2000021089226",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200320111158/https://www.dellin.ru/tracker/orders/2000021089226/",
+        "date": "2020-03-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Looked up on Dellin's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "2102951017961",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210629174137/https://www.dellin.ru/tracker/orders/2102951017961/",
+        "date": "2021-06-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Looked up on Dellin's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "1900781031168",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220112053108/https://www.dellin.ru/tracker/orders/1900781031168/",
+        "date": "2022-01-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Dellin's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "1500663051773",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190127172838/https://www.dellin.ru/tracker/orders/1500663051773/",
+        "date": "2019-01-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Dellin's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "17-00541075720",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231231123235/https://www.dellin.ru/tracker/?mode=search&rwID=17-00541075720",
+        "date": "2023-12-31",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Dellin's own tracker, as an archived address shows; the capture was not opened. Typed with the hyphen of the printed waybill."
+    },
+    {
+      "number": "19-00541012843",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240324102551/https://www.dellin.ru/tracker/?mode=search&rwID=19-00541012843",
+        "date": "2024-03-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Dellin's own tracker, as an archived address shows; the capture was not opened. Typed with the hyphen of the printed waybill."
+    },
+    {
+      "number": "24-03901040035",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://vc.ru/claim/1219256",
+        "date": "2024-06-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "The waybill number of a damaged consignment, quoted in a complaint about Delovye Linii. Dellin's order search knows it as a completed order."
+    },
+    {
+      "number": "22-02691029419",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://otzovik.com/review_13773972.html",
+        "date": "2022-09-09",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "The transport waybill quoted in an Otzovik review of the Delovye Linii transport company."
+    },
+    {
+      "number": "22-01690001261",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://otzovik.com/review_13732950.html",
+        "date": "2022-08-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "The waybill number quoted in an Otzovik review of the Delovye Linii transport company about a marketplace delivery."
+    },
+    {
+      "number": "14-00013128190",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://pravoved.ru/question/503701/",
+        "date": "2014-07-16",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "The forwarding receipt number of a consignment Delovye Linii accepted, quoted in a legal question about cargo it lost."
+    },
+    {
+      "number": "26-00101122648",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://irecommend.ru/content/otvratitelnaya-kompaniya-n11722731",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "One of two waybills quoted in an Irecommend review of Delovye Linii. Dellin's order search knows both as one completed order."
+    },
+    {
+      "number": "26-00105044543",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://irecommend.ru/content/otvratitelnaya-kompaniya-n11722731",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "The second waybill quoted in the same review, an additional waybill of the same order."
+    },
+    {
+      "number": "24-00371242716",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://otzovik.com/review_16652482.html",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "The waybill quoted in an Otzovik review of the Delovye Linii holding. Dellin's order search knows it as a completed order."
+    }
+  ]
+}

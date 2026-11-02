@@ -1,0 +1,60 @@
+{
+  "id": "lex-vn",
+  "displayName": "LEX Vietnam",
+  "aliases": [
+    "LEX VN",
+    "Lazada Express Vietnam",
+    "Lazada eLogistics Express Vietnam",
+    "Lazada Logistics Vietnam",
+    "Giao Hàng Flex Speed"
+  ],
+  "region": {
+    "countries": [
+      "VN"
+    ]
+  },
+  "brand": {
+    "color": "#1076ff"
+  },
+  "selectable": true,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://logistics.lazada.vn/tracking?references={trackingNumber}",
+    "searchUrl": "https://logistics.lazada.vn/tracking",
+    "canaryUrl": "https://logistics.lazada.vn/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "logistics.lazada.vn",
+        "lex.vn"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "references"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "lex-vn-1",
+      "pattern": "^LMP\\d{10}VNA$",
+      "confidence": "low"
+    },
+    {
+      "id": "lex-vn-2",
+      "pattern": "^LEX(?:ST\\d{10}VN|RT\\d{10}VNA)$",
+      "confidence": "low"
+    }
+  ]
+}

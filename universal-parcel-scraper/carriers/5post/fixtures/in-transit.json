@@ -1,0 +1,55 @@
+{
+  "orders": [
+    {"orderId": "00000000-0000-4000-8000-000000000025", "clientOrderId": "P00000000025", "orderStatus": "READY_FOR_SHIPMENT", "orderStatusAssignmentDate": "2026-04-10T23:41:12.630+03:00", "senderName": "Пример", "belong": false, "orderType": "C2C"}
+  ],
+  "details": {
+    "orderId": "00000000-0000-4000-8000-000000000025",
+    "clientOrderId": "P00000000025",
+    "orderStatus": "READY_FOR_SHIPMENT",
+    "orderStatusAssignmentDate": "2026-04-10T23:41:12.630+03:00",
+    "senderName": "Пример",
+    "cargoCount": 1,
+    "priceCurrency": "RUB",
+    "totalPrice": 500.0,
+    "paymentCurrency": "RUB",
+    "leftToPay": 0,
+    "onlinePaymentAllowed": false,
+    "plannedReceiveDateAllowed": false,
+    "plannedReceiveDateChanged": false,
+    "expiredDate": null,
+    "receiverLocationAddress": "Тестово г, Примерная ул, 2",
+    "receiverLocationId": "00000000-0000-4000-8000-0000000000a2",
+    "receiverLocationInnerType": "TOBACCO",
+    "receiverLocationName": "Касса в магазине Пятёрочка",
+    "receiverLocationWorkHours": [],
+    "receiverCashAllowed": true,
+    "receiverCardAllowed": true,
+    "senderLocationId": "00000000-0000-4000-8000-0000000000a3",
+    "senderLocationName": "Касса в магазине Пятёрочка",
+    "senderLocationAddress": "Примерово г, Тестовая ул, 3",
+    "senderLocationWorkHours": [],
+    "senderCashAllowed": true,
+    "senderCardAllowed": true,
+    "receiverName": "Tobacco",
+    "storeBrandType": "PYATEROCHKA",
+    "orderType": "C2C",
+    "partnerCodeName": "example",
+    "needForcedPayment": false,
+    "locationInfo": {
+      "receiver": {"type": "PICKUP_POINT", "address": "Тестово г, Примерная ул, 2", "id": "00000000-0000-4000-8000-0000000000a2", "name": "Касса в магазине Пятёрочка", "workHours": [], "actionFlags": {"cashAllowed": true, "cardAllowed": true}, "newRegion": false},
+      "sender": {"type": "PICKUP_POINT", "address": "Примерово г, Тестовая ул, 3", "id": "00000000-0000-4000-8000-0000000000a3", "name": "Касса в магазине Пятёрочка", "workHours": [], "actionFlags": {"cashAllowed": true, "cardAllowed": true}, "newRegion": false}
+    },
+    "tags": [],
+    "servicesInfo": [],
+    "courierDeliveryAllowed": false,
+    "addresses": [],
+    "newRegion": false
+  },
+  "history": [
+    {"id": "00000000-0000-4000-8000-000000000025", "changeDate": "2026-04-06T19:12:05.410+03:00", "status": "INFORMATION_RECEIVED", "statusLocalized": "Ожидается передача заказа в 5post", "primaryStatus": true},
+    {"id": "00000000-0000-4000-8000-000000000025", "changeDate": "2026-04-07T11:40:17.205+03:00", "status": "PROCESS_WITHDRAWN", "statusLocalized": "Передан службе доставки", "primaryStatus": true, "locationId": "00000000-0000-4000-8000-0000000000a3"},
+    {"id": "00000000-0000-4000-8000-000000000025", "changeDate": "2026-04-08T16:03:44.918+03:00", "status": "READY_FOR_SHIPMENT", "statusLocalized": "Покинул склад", "primaryStatus": true, "locationId": "00000000-0000-4000-8000-0000000000a3"},
+    {"id": "00000000-0000-4000-8000-000000000025", "changeDate": "2026-04-10T08:25:31.077+03:00", "status": "WAREHOUSE_PROCESSING", "statusLocalized": "Обрабатывается на складе ХАБ Тестово", "primaryStatus": true, "locationId": "00000000-0000-4000-8000-0000000000b3"},
+    {"id": "00000000-0000-4000-8000-000000000025", "changeDate": "2026-04-10T23:41:12.630+03:00", "status": "READY_FOR_SHIPMENT", "statusLocalized": "Покинул склад ХАБ Тестово", "primaryStatus": true, "locationId": "00000000-0000-4000-8000-0000000000b3"}
+  ]
+}

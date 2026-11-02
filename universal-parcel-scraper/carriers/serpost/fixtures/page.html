@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset="utf-8" />
+	<title>Servicios Postales del Perú - Serpost</title>
+</head>
+<body>
+	<form action="#!" method="post" class="header-search-form">
+		<label for="field-search" class="form-field-label">Buscar...</label>
+		<input type="search" class="form-field-input" name="Search" value="" autocomplete="off" required="required" id="field-search">
+	</form>
+	<section class="section">
+		<h1>Seguimiento en Línea</h1>
+		<form method="post" class="contact-form">
+			<div class="form-field">
+				<label for="contact-name" class="form-field-label">Ingresa el número de tu
+					envío</label>
+				<input type="text" class="form-field-input" name="txtNombres" value=""
+					autocomplete="off" required="required" id="txtEnvio"
+					style="background:white">
+			</div>
+			<button id="button-seg" type="button" onclick="buscarenvio_()" class="btn btn-w240 ripple">
+				<span>Buscar</span>
+			</button>
+		<input name="__RequestVerificationToken" type="hidden" value="CfDJ8SyntheticTokenAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_bbbbbbbb-cccc" /></form>
+	</section>
+	<script src="/assets/js/pruebaSGW6Test1.js?v=synthetic"></script>
+	<script>
+		function obtenerTracking(nroenvio) {
+			var token = $('input[name="__RequestVerificationToken"]').val();
+			return new Promise((resolve, reject) => {
+				$.ajax({
+					url: '/Cliente/SegumientoLinea/ObtenerTracking',
+					type: 'POST',
+					headers: { 'X-CSRF-TOKEN': token },
+					data: { numeroTracking: nroenvio },
+					dataType: 'json',
+					success: function (data) { resolve(data); },
+					error: function (xhr, status, error) { reject(error); }
+				});
+			});
+		}
+	</script>
+</body>
+</html>

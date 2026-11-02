@@ -1,0 +1,260 @@
+{
+  "carrier": "sunyou",
+  "records": [
+    {
+      "number": "SY12345678901",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "Made-up number that follows the published format."
+    },
+    {
+      "number": "SYAE006809461",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://github.com/ha-parcel-integrations/ha-sunyou/blob/main/tests/payloads.py",
+        "date": "2021-07-20"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "A shipment number in an open-source integration's test payloads. SunYou's tracker returns its history to delivery in Greece, handed to Meest."
+    },
+    {
+      "number": "SYAE100000001",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/ha-parcel-integrations/ha-sunyou/blob/main/tests/payloads.py"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "Open-source project example, not a real shipment."
+    },
+    {
+      "number": "LP00061214526423",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://leafeel.tistory.com/2",
+        "access": "full_page",
+        "date": "2023-04-06",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "aliexpress"
+        ]
+      },
+      "note": "The author attributes this reference to SunYou. Its LP family is shared with Cainiao and remains unresolved for SunYou detection."
+    },
+    {
+      "number": "SYUS024587570",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260908051416/https://sypost.net/queryTrack?queryTime=1788844454568-17069&toLanguage=en_US&trackNumber=SYUS024587570",
+        "date": "2026-09-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "A SunYou tracking request archived by the Wayback Machine. SunYou's tracker returns its history, handed to GOFO in the United States for the last mile."
+    },
+    {
+      "number": "SYRM163479157",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260514092113/https://sypost.net/queryTrack?queryTime=1778750470839-10055&toLanguage=en_US&trackNumber=SYRM163479157",
+        "date": "2026-05-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "A SunYou tracking request archived by the Wayback Machine. SunYou's tracker returns its history to delivery in Japan, exported through China Post."
+    },
+    {
+      "number": "SYGB015534278",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251004063527/https://sypost.net/queryTrack?queryTime=1759559722832-16792&toLanguage=en_US&trackNumber=SYGB015534278",
+        "date": "2025-10-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "A SunYou tracking request archived by the Wayback Machine. SunYou's tracker returns its history, handed to Royal Mail for the last mile."
+    },
+    {
+      "number": "SYRM157579317",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250710165912/https://www.sypost.net/search?orderNo=SYRM157579317",
+        "date": "2025-07-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "A SunYou tracking page archived by the Wayback Machine. SunYou's tracker returns its history to delivery in Bulgaria, exported through Pos Malaysia."
+    },
+    {
+      "number": "SYDE008705604",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250220161036/https://sypost.net/queryTrack?queryTime=1740067834213-16008&toLanguage=en_US&trackNumber=SYDE008705604",
+        "date": "2025-02-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "A SunYou tracking request archived by the Wayback Machine. SunYou's tracker returns its history, handed to DHL Paket for the last mile."
+    },
+    {
+      "number": "SYCA007156427",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250102153620/https://www.sypost.net/search?orderNo=SYCA007156427",
+        "date": "2025-01-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "A SunYou tracking request archived by the Wayback Machine. SunYou's tracker returns its history, handed to Canada Post for the last mile."
+    },
+    {
+      "number": "SYZZ021784298",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240614114850/https://sypost.net/queryTrack?queryTime=1718365727443-12642&toLanguage=zh_CHS&trackNumber=SYZZ021784298",
+        "date": "2024-06-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "A SunYou tracking request archived by the Wayback Machine. SunYou's tracker returns its history, handed to USPS for the last mile."
+    },
+    {
+      "number": "SYUS019503044",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250628085210/https://sypost.net/queryTrack?queryTime=1751100727884-11540&toLanguage=en_US&trackNumber=SYUS019503044",
+        "date": "2025-06-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "A SunYou tracking request archived by the Wayback Machine. SunYou's tracker returns its history, handed to USPS for the last mile."
+    },
+    {
+      "number": "SY15077455811",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250105225624/https://sypost.net/queryTrack?queryTime=1736117782771-15384&toLanguage=en_US&trackNumber=SY15077455811",
+        "date": "2025-01-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "A SunYou tracking request archived by the Wayback Machine. SunYou's tracker returns its history up to the hand-over for the last mile in Slovakia."
+    },
+    {
+      "number": "SYMY109473709",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251023024553/https://www.sypost.net/search?orderNo=SYMY109473709",
+        "date": "2025-10-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "sunyou",
+        "confidence": "high"
+      },
+      "note": "A SunYou tracking page archived by the Wayback Machine. SunYou's tracker answers not found for this SYMY number."
+    }
+  ]
+}

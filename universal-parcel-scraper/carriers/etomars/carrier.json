@@ -1,0 +1,54 @@
+{
+  "id": "etomars",
+  "displayName": "Etomars",
+  "aliases": [
+    "SHIPNERGY",
+    "쉽너지",
+    "이투마스",
+    "(주)이투마스",
+    "Etomars Co., Ltd."
+  ],
+  "region": {
+    "countries": [
+      "KR",
+      "JP"
+    ]
+  },
+  "brand": {
+    "color": "#1779ec"
+  },
+  "selectable": true,
+  "timezone": "Asia/Seoul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://cbt.shipnergy.com/Track/Result?mode=0&ids={trackingNumber}",
+    "searchUrl": "https://cbt.shipnergy.com/Track/Search",
+    "canaryUrl": "https://etomars.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "cbt.shipnergy.com",
+        "track.shipnergy.com"
+      ],
+      "pathPattern": "^/Track/Result/?$",
+      "query": "^(?=(?:.*&)?mode=0(?:&|$))(?:.*&)?ids=([^&]+)(?=&|$)"
+    }
+  ],
+  "detection": [
+    {
+      "id": "etomars-1",
+      "pattern": "^SN\\d{9}JP$",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "module": [
+    {
+      "mailNo": "6000000000001",
+      "originCountry": "Mainland China",
+      "destCountry": "Saudi Arabia",
+      "destCpInfo": {
+        "cpName": "Imile",
+        "url": "https://www.imile.com/SA-en/",
+        "cpcode": "DISTRIBUTOR_00000000"
+      },
+      "status": "DELIVERED",
+      "statusDesc": "Delivered",
+      "mailNoSource": "AE",
+      "globalCombinedLogisticsTraceDTO": {
+        "time": 1779280930000,
+        "timeStr": "2026-05-20 15:42:10",
+        "desc": "【SMP DS01】Delivered.",
+        "standerdDesc": "Package delivered",
+        "descTitle": "Carrier note:",
+        "timeZone": "GMT+3",
+        "actionCode": "GTMS_SIGNED",
+        "currentStatusCpInfo": {
+          "cpName": "Imile",
+          "url": "https://www.imile.com/SA-en/",
+          "cpcode": "DISTRIBUTOR_00000000"
+        }
+      },
+      "latestTrace": {
+        "time": 1779280930000,
+        "timeStr": "2026-05-20 15:42:10",
+        "desc": "【SMP DS01】Delivered.",
+        "standerdDesc": "Package delivered",
+        "descTitle": "Carrier note:",
+        "timeZone": "GMT+3",
+        "actionCode": "GTMS_SIGNED"
+      },
+      "detailList": [
+        {
+          "time": 1779280930000,
+          "timeStr": "2026-05-20 15:42:10",
+          "desc": "【SMP DS01】Delivered.",
+          "standerdDesc": "Package delivered",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+3",
+          "actionCode": "GTMS_SIGNED"
+        },
+        {
+          "time": 1779257133000,
+          "timeStr": "2026-05-20 09:05:33",
+          "desc": "【SMP DS01】Shipment out for delivery.",
+          "standerdDesc": "Out for delivery",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+3",
+          "actionCode": "GTMS_DO_DEPART"
+        },
+        {
+          "time": 1779073900000,
+          "timeStr": "2026-05-18 06:11:40",
+          "desc": "【Sample Distribution Center】Received.",
+          "standerdDesc": "Received by local delivery company",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+3",
+          "actionCode": "GTMS_ACCEPT"
+        },
+        {
+          "time": 1779036600000,
+          "timeStr": "2026-05-17 19:50:00",
+          "desc": "Import customs clearance complete",
+          "standerdDesc": "Import customs clearance complete",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+3",
+          "actionCode": "CC_IM_SUCCESS"
+        },
+        {
+          "time": 1779005100000,
+          "timeStr": "2026-05-17 11:05:00",
+          "desc": "Arrived at linehual office",
+          "standerdDesc": "Arrived at linehaul office",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+3",
+          "actionCode": "LH_ARRIVE"
+        },
+        {
+          "time": 1778980800000,
+          "timeStr": "2026-05-17 09:20:00",
+          "desc": "Left from departure country/region",
+          "standerdDesc": "Departed from departure country/region",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+8",
+          "actionCode": "LH_DEPART"
+        },
+        {
+          "time": 1778947200000,
+          "timeStr": "2026-05-17 00:00:00",
+          "desc": "Leaving from departure country/region",
+          "standerdDesc": "Leaving from departure country/region",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+8",
+          "actionCode": "LH_HO_AIRLINE"
+        },
+        {
+          "time": 1778914800000,
+          "timeStr": "2026-05-16 15:00:00",
+          "desc": "Export clearance success",
+          "standerdDesc": "Export customs clearance complete",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+8",
+          "actionCode": "CC_EX_SUCCESS"
+        },
+        {
+          "time": 1778911200000,
+          "timeStr": "2026-05-16 14:00:00",
+          "desc": "Export customs clearance started",
+          "standerdDesc": "Export customs clearance started",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+8",
+          "actionCode": "CC_EX_START"
+        },
+        {
+          "time": 1778854200000,
+          "timeStr": "2026-05-15 22:10:00",
+          "desc": "Arrived at departure transport hub",
+          "standerdDesc": "Arrived at departure transport hub",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+8",
+          "actionCode": "LH_HO_IN_SUCCESS"
+        },
+        {
+          "time": 1778775768123,
+          "timeStr": "2026-05-15 00:22:48",
+          "desc": "Last-mile delivery forecast",
+          "standerdDesc": "Carrier update",
+          "descTitle": "Carrier note:",
+          "actionCode": "LAST_MILE_ASN_NOTIFY"
+        },
+        {
+          "time": 1778773800000,
+          "timeStr": "2026-05-14 23:50:00",
+          "desc": "Outbound in sorting center",
+          "standerdDesc": "[Sampletown] Departed from sorting center",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+8",
+          "actionCode": "SC_OUTBOUND_SUCCESS"
+        },
+        {
+          "time": 1778760300000,
+          "timeStr": "2026-05-14 20:05:00",
+          "desc": "Inbound in sorting center",
+          "standerdDesc": "[Sampletown] Processing at sorting center",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+8",
+          "actionCode": "SC_INBOUND_SUCCESS"
+        },
+        {
+          "time": 1778743800000,
+          "timeStr": "2026-05-14 15:30:00",
+          "desc": "Received by logistics company",
+          "standerdDesc": "Received by logistics company",
+          "descTitle": "Carrier note:",
+          "timeZone": "GMT+8",
+          "actionCode": "PU_PICKUP_SUCCESS"
+        }
+      ]
+    }
+  ],
+  "success": true
+}

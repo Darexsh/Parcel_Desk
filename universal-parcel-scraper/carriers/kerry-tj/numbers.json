@@ -1,0 +1,65 @@
+{
+  "carrier": "kerry-tj",
+  "records": [
+    {
+      "number": "43690846238",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180330161409/http://www.kerrytj.com:80/webquery/CargoStatus/CS_Search_KtjNo.aspx?ktjNO=43690846238",
+        "date": "2018-03-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An archived lookup on Kerry TJ's own tracker; the opened capture shows this eleven-digit consignment number with its shipping date, processing date and final delivered status."
+    },
+    {
+      "number": "47214703403",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180126191813/http://www.kerrytj.com:80/webquery/CargoStatus/CS_Search_KtjNo.aspx?ktjNO=47214703403",
+        "date": "2018-01-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An archived lookup on Kerry TJ's own tracker; the opened capture shows this eleven-digit consignment number with its shipping date, processing date and final delivered status."
+    }
+  ]
+}

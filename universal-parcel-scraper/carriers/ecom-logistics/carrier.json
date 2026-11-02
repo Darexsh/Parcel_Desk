@@ -1,0 +1,83 @@
+{
+  "id": "ecom-logistics",
+  "displayName": "Ecom Logistics",
+  "aliases": [
+    "Ecom Logistics Inc.",
+    "EcomLogistics",
+    "ShipEcom"
+  ],
+  "region": {
+    "countries": [
+      "CA",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#3598dd"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ecom-logistics",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 576
+    }
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://shipecom.com/track/{trackingNumber}",
+    "searchUrl": "https://shipecom.com/track",
+    "canaryUrl": "https://shipecom.com/track",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "offset_timestamps",
+      "delivered_at",
+      "destination"
+    ],
+    "scraped": [
+      "history",
+      "location",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "status",
+      "progress_rail",
+      "delivered_at",
+      "destination"
+    ],
+    "unavailable": [
+      "provider_code",
+      "eta",
+      "service_name",
+      "weight",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "shipecom.com",
+        "www.shipecom.com"
+      ],
+      "path": "^/(?:(?:fr|es)/)?track/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "ecom-logistics-1",
+      "pattern": "^E\\d{2}[A-Z]\\d{7}$",
+      "confidence": "low"
+    }
+  ]
+}

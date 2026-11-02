@@ -1,0 +1,72 @@
+{
+  "id": "express-one-bg",
+  "displayName": "Express One Bulgaria",
+  "aliases": [
+    "Express One BG",
+    "Експрес Уан"
+  ],
+  "region": {
+    "countries": [
+      "BG"
+    ]
+  },
+  "brand": {
+    "color": "#f58220"
+  },
+  "selectable": true,
+  "timezone": "Europe/Sofia",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "express-one-bg",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://expressone.bg/en/tracking/{trackingNumber}",
+    "searchUrl": "https://expressone.bg/en/tracking",
+    "canaryUrl": "https://expressone.bg/en/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "pickup_point",
+      "canonical_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "canonical_tracking_number"
+    ],
+    "discarded": [
+      "pickup_point"
+    ],
+    "unavailable": [
+      "eta",
+      "provider_code",
+      "offset_timestamps",
+      "proof_of_delivery",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "expressone.bg"
+      ],
+      "path": "^/(?:(?:bg|en)/)?tracking/(\\d+)/?$"
+    }
+  ],
+  "detection": []
+}

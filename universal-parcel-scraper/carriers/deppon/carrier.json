@@ -1,0 +1,40 @@
+{
+  "id": "deppon",
+  "displayName": "Deppon",
+  "aliases": [
+    "德邦",
+    "德邦快递",
+    "德邦物流",
+    "Deppon Express",
+    "Deppon Logistics",
+    "DEPPON"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "TW"
+    ]
+  },
+  "brand": {
+    "color": "#004191"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "deppon",
+    "steps": ["direct"],
+    "localClocks": true
+  },
+  "capabilities": ["history", "provider_code"],
+  "portal": {
+    "searchUrl": "https://www.deppon.com/orderTrack",
+    "canaryUrl": "https://www.deppon.com/orderTrack",
+    "shows": ["status", "history"],
+    "scraped": ["status", "history", "provider_code"],
+    "discarded": ["recipient_name", "recipient_address", "phone_numbers"],
+    "unavailable": ["eta", "weight", "dimensions", "service_name", "pickup_point"]
+  },
+  "links": [],
+  "detection": []
+}

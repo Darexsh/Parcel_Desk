@@ -1,0 +1,114 @@
+{
+  "id": "dpd-at",
+  "displayName": "DPD Austria",
+  "aliases": [
+    "DPD Österreich",
+    "DPD AT"
+  ],
+  "region": {
+    "countries": [
+      "AT"
+    ]
+  },
+  "brand": {
+    "color": "#dc0032"
+  },
+  "selectable": true,
+  "timezone": "Europe/Vienna",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dpd-at",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 878
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.mydpd.at/?f=parcel.load&p={trackingNumber}",
+    "searchUrl": "https://www.mydpd.at/",
+    "canaryUrl": "https://www.mydpd.at/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "eta_window",
+      "pickup_point",
+      "signatory",
+      "delivery_instructions",
+      "delivery_options"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at"
+    ],
+    "discarded": [
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "eta_window",
+      "pickup_point",
+      "signatory",
+      "delivery_instructions",
+      "delivery_options"
+    ],
+    "unavailable": [
+      "weight",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "mydpd.at"
+      ],
+      "pathPattern": "^/$",
+      "params": [
+        "p"
+      ]
+    },
+    {
+      "domains": [
+        "mydpd.at"
+      ],
+      "pathPattern": "^/meine-pakete/?$",
+      "params": [
+        "ipn"
+      ]
+    },
+    {
+      "domains": [
+        "dpdgroup.com",
+        "dpd.com"
+      ],
+      "pathPattern": "^/at(?:/|$)",
+      "params": [
+        "parcelNumber",
+        "parcelnumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "dpd-at-1",
+      "pattern": "^06(?:2\\d|3[02-5]|4[3-59])\\d{10}$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

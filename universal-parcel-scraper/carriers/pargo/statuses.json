@@ -1,0 +1,25 @@
+{
+  "carrier": "pargo",
+  "entries": [
+    {"code": "1.20.4.200", "wording": "Parcel is being prepared", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "The tracker adds which shop is preparing it. The code is from Pargo's API documentation (order events)."},
+    {"code": "1.20.4.301", "wording": "Parcel collected by courier", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "The code is from Pargo's API documentation (order events)."},
+    {"code": "1.20.4.302", "wording": "Parcel at courier hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The code is from Pargo's API documentation (order events)."},
+    {"code": "1.20.4.303", "wording": "Parcel out for delivery", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Event title in Pargo's API documentation (order events). On its way to the pickup point, not to the recipient's door."},
+    {"code": "1.20.4.400", "wording": "Parcel arrived at pickup point", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "official-doc", "note": "Event title in Pargo's API documentation (order events)."},
+    {"code": "1.20.4.500", "wording": "Parcel collected", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Event title in Pargo's API documentation (order events). The recipient collected it at the pickup point."},
+    {"code": "1.20.4.10010", "wording": "Parcel not collected", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Event title in Pargo's API documentation (order events). Not collected in time; the parcel goes back to the sender."},
+    {"code": "1.21.4.100", "wording": "Parcel ready for return", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Event title in Pargo's API documentation (order events)."},
+    {"code": "1.21.4.300", "wording": "Parcel returned", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Event title in Pargo's API documentation (order events)."},
+    {"code": "1.30.4.200", "wording": "Parcel return requested", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Event title in Pargo's API documentation (order events). A customer return was requested."},
+    {"code": "1.30.4.300", "wording": "Parcel at drop off point", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Event title in Pargo's API documentation (order events). A customer return was dropped off."},
+    {"wording": "Order en route", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "A tracking milestone explained on Pargo's tracking page: the courier collected it and is taking it to the pickup point."},
+    {"wording": "Ready for collection", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "official-doc", "note": "A tracking milestone explained on Pargo's tracking page."},
+    {"wording": "Order not collected", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "A tracking milestone explained on Pargo's tracking page: uncollected after 8 days, the parcel goes back."},
+    {"wording": "Returning order", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "A tracking milestone explained on Pargo's tracking page."},
+    {"wording": "Order returned", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "A tracking milestone explained on Pargo's tracking page."},
+    {"wording": "Order Received", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Earlier tracker (2020). Pargo's tracking page also explained it as a milestone."},
+    {"wording": "Order dispatched", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Earlier tracker (2020), explained as the order being on its way to the Pargo point."},
+    {"wording": "Order on Route", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Earlier tracker (2020); it repeats as the courier moves the parcel."},
+    {"wording": "Order ready for collection", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "portal", "note": "Earlier tracker (2020), explained as arrived at the Pargo point and ready for collection."}
+  ]
+}

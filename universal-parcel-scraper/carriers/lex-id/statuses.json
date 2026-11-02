@@ -1,0 +1,301 @@
+{
+  "carrier": "lex-id",
+  "entries": [
+    {
+      "code": "package_created",
+      "wording": "Package Created",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Package Created"
+    },
+    {
+      "code": "package_ready_to_be_shipped",
+      "wording": "Ready for pick-up",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your order is ready to be collected."
+    },
+    {
+      "code": "domestic_handover_accepted",
+      "wording": "The package has been received by the Delivery Service",
+      "stage": "accepted",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: The package has been received by the Delivery Service."
+    },
+    {
+      "code": "domestic_ib_failure_in_sort_center",
+      "wording": "Order Collected",
+      "stage": "accepted",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your order has been collected by the first-mile network."
+    },
+    {
+      "code": "domestic_sc_sign_in_success",
+      "wording": "Order Collected",
+      "stage": "accepted",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: The seller has dropped off your order at the first-mile network station."
+    },
+    {
+      "code": "domestic_ib_success_in_sort_center",
+      "wording": "Arrived at our logistics facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your order has arrived at our logistics hub."
+    },
+    {
+      "code": "domestic_ob_success_in_sort_center",
+      "wording": "Departing from the logistics hub",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your order has departed from the sorting hub."
+    },
+    {
+      "code": "domestic_package_stationed_in",
+      "wording": "Arrived at the logistics hub",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your order has arrived at the logistics hub."
+    },
+    {
+      "code": "domestic_package_stationed_out",
+      "wording": "Departing from the logistics hub",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your order has departed from the logistics hub."
+    },
+    {
+      "code": "domestic_about_to_deliver",
+      "wording": "About to deliver",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Our courier will attempt to deliver your order within the next hour."
+    },
+    {
+      "code": "domestic_about_to_pickup",
+      "wording": "About to pickup",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Our courier will attempt to pickup your order within the next hour."
+    },
+    {
+      "code": "domestic_out_for_delivery",
+      "wording": "Out for delivery",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: The last-mile network will attempt to deliver your order today!"
+    },
+    {
+      "code": "domestic_handover_to_cp",
+      "wording": "Out for Delivery",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your order is on its way to the collection point."
+    },
+    {
+      "code": "domestic_last_mile_customer_station_inbound",
+      "wording": "Delivered to the collection point",
+      "stage": "ready_for_pickup",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your parcel is now ready for collection at the collection point."
+    },
+    {
+      "code": "domestic_reattempts_failed",
+      "wording": "Unsuccessful delivery attempt",
+      "stage": "failed_attempt",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Unsuccessful delivery attempt due to a reason."
+    },
+    {
+      "code": "domestic_redelivery",
+      "wording": "Out for delivery",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: The last-mile network will attempt to deliver your order today!"
+    },
+    {
+      "code": "domestic_last_mile_station_customer_failed_pickup",
+      "wording": "Failed Pickup at the Collection Point",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your order has not been collected and has exceeded the collection timeframe. The parcel will be returned to the sender."
+    },
+    {
+      "code": "domestic_delivered",
+      "wording": "Delivered",
+      "stage": "delivered",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "The tracking page's text for this status: Your package has been delivered."
+    },
+    {
+      "code": "domestic_last_mile_customer_station_outbound_success",
+      "wording": "Delivered",
+      "stage": "delivered",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your package has been delivered."
+    },
+    {
+      "code": "package_cancelled",
+      "wording": "Order cancelled",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your order has been cancelled."
+    },
+    {
+      "code": "package_damaged",
+      "wording": "Package damaged",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: We are terribly sorry to inform you that your order has been damaged. A refund will be issued promptly."
+    },
+    {
+      "code": "package_intercepted",
+      "wording": "Parcel is intercepted",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: We are terribly sorry! Your delivery has been cancelled by our delivery partner due to a reason."
+    },
+    {
+      "code": "package_lost",
+      "wording": "Lost by delivery partner",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "The tracking page's text for this status: We are terribly sorry to inform you that your order has been lost. A refund will be issued promptly."
+    },
+    {
+      "code": "package_scrapped",
+      "wording": "Package Scrapped",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Package Scrapped"
+    },
+    {
+      "code": "domestic_delivery_failed",
+      "wording": "Delivery Failed",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your package was not delivered due to a reason, and will be returned to the seller. Kindly provide us with feedback here!"
+    },
+    {
+      "code": "domestic_package_returned",
+      "wording": "DELIVERY FAILED",
+      "stage": "returned",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "The tracking page's text for this status: Your parcel has been successfully returned to seller!"
+    },
+    {
+      "code": "domestic_back_to_shipper",
+      "wording": "DELIVERY FAILED",
+      "stage": "returned",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your parcel has been successfully returned to seller!"
+    },
+    {
+      "code": "domestic_on_hold",
+      "wording": "Package on hold",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Package on hold"
+    },
+    {
+      "code": "domestic_package_return_attempt_failed",
+      "wording": "Failed to return to seller",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Failed to return to seller. We are rescheduling another attempt in the next few days."
+    },
+    {
+      "code": "domestic_package_return_failed",
+      "wording": "Failed to return to seller",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Failed to return to seller."
+    },
+    {
+      "code": "domestic_package_return_failed_pickup_pending",
+      "wording": "Failed to return to seller",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Failed to return to seller."
+    },
+    {
+      "code": "domestic_return_at_transit_hub",
+      "wording": "Package arrived at Logistic facility",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Package arrived at Logistic facility"
+    },
+    {
+      "code": "domestic_warehouse_returned",
+      "wording": "Package returned",
+      "stage": "exception",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Package returned to warehouse"
+    },
+    {
+      "code": "domestic_with_hub_returned_from_station",
+      "wording": "Package Returned",
+      "stage": "returned",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Your parcel has been successfully returned to seller!"
+    },
+    {
+      "code": "domestic_planned_for_pickup",
+      "wording": "Planned for pickup",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Planned for pickup"
+    },
+    {
+      "code": "domestic_linehaul_packed",
+      "wording": "Linehaul packed",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Linehaul packed"
+    },
+    {
+      "code": "domestic_pkg_outbound_attendance",
+      "wording": "Outbound attendance",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "bundle",
+      "note": "The tracking page's text for this status: Outbound attendance"
+    }
+  ]
+}

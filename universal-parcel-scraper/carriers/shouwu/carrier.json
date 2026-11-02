@@ -1,0 +1,86 @@
+{
+  "id": "shouwu",
+  "displayName": "Shouwu International",
+  "aliases": [
+    "SWE",
+    "守务国际",
+    "上海守务国际",
+    "Shanghai Shouwu International",
+    "Shouwu Express",
+    "SW Express",
+    "守务国际物流"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#be2c33"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "shouwu",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 63
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://admin.shshouwu.com/track.html?q={trackingNumber}",
+    "searchUrl": "https://admin.shshouwu.com/track.html",
+    "canaryUrl": "https://admin.shshouwu.com/track.html",
+    "shows": [
+      "status",
+      "history",
+      "destination_country"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "destination_country"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "admin.shshouwu.com"
+      ],
+      "pathPattern": "^/track\\.html$",
+      "params": [
+        "q"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "shouwu-1",
+      "pattern": "^SWECN\\d{12}YQ$",
+      "confidence": "high"
+    }
+  ]
+}

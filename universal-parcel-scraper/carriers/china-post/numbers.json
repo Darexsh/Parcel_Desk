@@ -1,0 +1,341 @@
+{
+  "carrier": "china-post",
+  "records": [
+    {
+      "number": "LZ430297212CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/demora-160174/",
+        "date": "2026-08-10"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number. China Post's official tracker returns matching activity after character verification. China to Brazil.",
+      "context": {
+        "assessment": "confirmed"
+      }
+    },
+    {
+      "number": "LZ448865302CN",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/trackingmore100/tracking-sdk-php/blob/master/README.md"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Open-source project example, not a real shipment."
+    },
+    {
+      "number": "LZ464222669CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/wanted-an-update-on-my-package-160844/",
+        "date": "2026-09-09"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. China to the US, delivered by USPS."
+    },
+    {
+      "number": "RP325552475CN",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/trackingmore100/tracking-sdk-php/blob/master/README.md"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Open-source project example, not a real shipment."
+    },
+    {
+      "number": "RE012054200CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/packages-are-stuck-42651/",
+        "date": "2020-05-01",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Customer lists parcels stuck in Shanghai. The suffix names China Post as the issuing postal operator."
+    },
+    {
+      "number": "RE019650569CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/packages-are-stuck-42651/",
+        "date": "2020-05-01",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Customer lists parcels stuck in Shanghai. The suffix names China Post as the issuing postal operator."
+    },
+    {
+      "number": "UW510368425CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/packages-are-stuck-42651/",
+        "date": "2020-05-01",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Customer lists parcels stuck in Shanghai. The suffix names China Post as the issuing postal operator."
+    },
+    {
+      "number": "UJ173293206CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/packages-are-stuck-42651/",
+        "date": "2020-05-01",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Customer lists parcels stuck in Shanghai. The suffix names China Post as the issuing postal operator."
+    },
+    {
+      "number": "LZ241238634CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/package-says-delivered-but-it-is-in-the-wrong-city-148972/",
+        "date": "2025-05-28",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Customer reports a parcel shown as delivered in the wrong Canadian city. The suffix names China Post as the issuing postal operator."
+    },
+    {
+      "number": "LP165048889CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/delivery-status-154937/",
+        "date": "2025-11-20"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Public parcel report with a pasted history naming China Post acceptance and Japan Post delivery; not independently verified."
+    },
+    {
+      "number": "CY028810153CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/package-stuck-in-transit-cy028810153cn-151074/",
+        "date": "2025-07-18",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "international air mail",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Customer explicitly describes a China Post air-mail shipment to Australia."
+    },
+    {
+      "number": "LZ299755813CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/package-not-delivered-153529/",
+        "date": "2025-10-09",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "international customs",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Customer reports a customs delay on a parcel to Australia and was referred to China Post. The suffix names China Post as the issuing postal operator."
+    },
+    {
+      "number": "ui025626538cn",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/where-is-my-package-16416/",
+        "date": "2019-01-05",
+        "dateKind": "comment publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Customer gives this lower-case number as their China Post tracking number."
+    },
+    {
+      "number": "UN392483044CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/where-is-my-package-16416/",
+        "date": "2019-01-10",
+        "dateKind": "comment publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Another customer gives this as their parcel number. The suffix names China Post as the issuing postal operator."
+    },
+    {
+      "number": "UU366745515CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/no-update-on-package-status-113845/",
+        "date": "2022-04-15",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Customer gives this as the tracking id of a parcel leaving China. The suffix names China Post as the issuing postal operator."
+    },
+    {
+      "number": "LZ449705219CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.reddit.com/r/shipping/comments/1v5y3ma/is_my_china_post_package_stuck_or_is_this_normal/",
+        "date": "2026-07-25",
+        "access": "full_page",
+        "dateKind": "post publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "EUB/ePacket reported in the post"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number. China Post's official tracker returns matching activity after character verification. China to Colombia."
+    },
+    {
+      "number": "CP557517201CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/cp557517201cn-161390/",
+        "date": "2026-10-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Public status question about an ordinary China Post air parcel to New Zealand. China Post's own trace knows the number."
+    },
+    {
+      "number": "ZS10000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-16",
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of a ZS number, which China Post's app service knows behind a contact phone's last four digits."
+    },
+    {
+      "number": "ZC10000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-17",
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of a ZC number, which China Post's app service knows behind a contact phone's last four digits."
+    },
+    {
+      "number": "ZA10000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-18",
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of a ZA number, which China Post's app service knows behind a contact phone's last four digits."
+    },
+    {
+      "number": "ZA10000000009",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-22",
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Made-up ZA number whose last digit happens to close La Poste's GS1 key, as about one China Post number in ten does; La Poste uses no Z prefix, so China Post is still selected."
+    }
+  ]
+}

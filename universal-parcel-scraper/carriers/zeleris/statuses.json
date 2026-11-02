@@ -1,0 +1,22 @@
+{
+  "carrier": "zeleris",
+  "entries": [
+    {"wording": "Tu envío ya esta preparado. Te avisaremos cuando este en camino.", "stage": "accepted", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The first message, under the rail's admission step. Zeleris's older tracker showed the same scan, at the same clock, as RECEPCION TRANSPORTE: Zeleris has the parcel, which has not left yet. The shared rules would read its \"en camino\" as transit."},
+    {"wording": "Tu envío está en reparto.", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "Each delivery round's morning scan."},
+    {"wording": "Tu envío está pendiente para el próximo reparto.", "stage": "in_transit", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "Left for the next round after a delivery round, waiting at the depot."},
+    {"wording": "No hemos podido entregarte el envío.", "stage": "failed_attempt", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "Zeleris's older tracker showed it as INCIDENCIA."},
+    {"wording": "Te hemos enviado un SMS al número de teléfono registrado en el pedido.", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "A text message to the recipient after a delivery round. It moves nothing, so the parcel keeps the stage of the scan before it."},
+    {"wording": "Tu envío ha sido entregado.", "stage": "delivered", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12"},
+    {"wording": "admisión", "stage": "accepted", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "A step of the progress rail. Its current step counts when it is further along than the newest scan."},
+    {"wording": "en camino", "stage": "in_transit", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "A step of the progress rail, after admission."},
+    {"wording": "en transito", "stage": "in_transit", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "A step of the progress rail. Seen current on a parcel whose newest scan had it out for delivery; that scan stands."},
+    {"wording": "pendiente en plataforma", "stage": "in_transit", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "A step of the progress rail: at a Zeleris depot, not yet on a delivery round. Seen current on a parcel whose only scan was its admission."},
+    {"wording": "en reparto", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "A step of the progress rail."},
+    {"wording": "con incidencia", "stage": "failed_attempt", "language": "es", "confirmedBy": "documentation", "note": "A step of the progress rail, as the tracker's help names the state: the delivery could not be completed, for missing data or an absent recipient."},
+    {"wording": "incidencia por ausencia", "stage": "failed_attempt", "language": "es", "confirmedBy": "documentation", "note": "A step of the progress rail, as the tracker's help names the state: the courier found nobody at the address."},
+    {"wording": "contacte con el remitente", "stage": "exception", "language": "es", "confirmedBy": "documentation", "note": "A step of the progress rail, as the tracker's help names the state: a problem Zeleris has reported to the sender."},
+    {"wording": "no entrega definitiva", "stage": "exception", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "A step of the progress rail: Zeleris gives up the delivery and has told the sender. It outranks the failed attempts before it."},
+    {"wording": "entregada", "stage": "delivered", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "A step of the progress rail, with the delivery's date and time after it."},
+    {"wording": "entregado", "stage": "delivered", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "A step of the progress rail, as it reads before the delivery."}
+  ]
+}

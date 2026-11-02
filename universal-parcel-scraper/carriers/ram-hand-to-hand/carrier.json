@@ -1,0 +1,84 @@
+{
+  "id": "ram-hand-to-hand",
+  "displayName": "RAM Hand-to-Hand Couriers",
+  "aliases": [
+    "RAM",
+    "RAM Couriers",
+    "RAM Hand to Hand"
+  ],
+  "region": {
+    "countries": [
+      "ZA"
+    ]
+  },
+  "brand": {
+    "color": "#e51813"
+  },
+  "selectable": true,
+  "timezone": "Africa/Johannesburg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ram-hand-to-hand",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 728
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://www.ram.co.za/track/{trackingNumber}",
+    "searchUrl": "https://www.ram.co.za/track",
+    "canaryUrl": "https://www.ram.co.za/track",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "customer_reference",
+      "recipient_name",
+      "recipient_address",
+      "remarks"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "customer_reference",
+      "recipient_name",
+      "recipient_address",
+      "remarks"
+    ],
+    "unavailable": [
+      "provider_code",
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "proof_of_delivery",
+      "delivery_tracking_number",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "ram.co.za"
+      ],
+      "path": "^/[Tt]rack/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "ram-hand-to-hand-1",
+      "pattern": "^RAM\\d{8}$",
+      "confidence": "low"
+    }
+  ]
+}

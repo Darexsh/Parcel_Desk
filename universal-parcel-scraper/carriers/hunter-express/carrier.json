@@ -1,0 +1,99 @@
+{
+  "id": "hunter-express",
+  "displayName": "Hunter Express",
+  "aliases": [
+    "Hunter Express Australia"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#f7aa3a"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "hunter-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "offset_timestamps",
+    "delivered_at",
+    "eta",
+    "eta_window",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://portal.hunterexpress.com.au/Track/55010/{trackingNumber}",
+    "searchUrl": "https://portal.hunterexpress.com.au/track/55010",
+    "canaryUrl": "https://portal.hunterexpress.com.au/track/55010",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "offset_timestamps",
+      "eta",
+      "eta_window",
+      "weight",
+      "parcel_count",
+      "parcel_scans",
+      "destination",
+      "postcodes",
+      "coordinates",
+      "delivery_queue",
+      "signatory",
+      "delivered_at",
+      "delivery_instructions",
+      "recipient_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps",
+      "eta",
+      "eta_window",
+      "weight",
+      "delivered_at"
+    ],
+    "discarded": [
+      "progress_rail",
+      "parcel_count",
+      "parcel_scans",
+      "destination",
+      "postcodes",
+      "coordinates",
+      "delivery_queue",
+      "signatory",
+      "delivery_instructions",
+      "recipient_name"
+    ],
+    "unavailable": [
+      "provider_code",
+      "service_name",
+      "sender_name",
+      "pickup_point",
+      "proof_of_delivery",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "portal.hunterexpress.com.au"
+      ],
+      "path": "^/[Tt]rack/55010/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

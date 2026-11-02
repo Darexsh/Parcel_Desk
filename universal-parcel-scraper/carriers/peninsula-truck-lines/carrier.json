@@ -1,0 +1,48 @@
+{
+  "id": "peninsula-truck-lines",
+  "displayName": "Peninsula Truck Lines",
+  "aliases": [
+    "Peninsula Truck Lines, Inc.",
+    "Peninsula Truck Lines Inc",
+    "Peninsula Truck"
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#025831"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.peninsulatruck.com/track/?pro_number={trackingNumber}",
+    "searchUrl": "https://www.peninsulatruck.com/track/",
+    "canaryUrl": "https://www.peninsulatruck.com/track/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.peninsulatruck.com",
+        "peninsulatruck.com"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "pro_number"
+      ]
+    }
+  ],
+  "detection": []
+}

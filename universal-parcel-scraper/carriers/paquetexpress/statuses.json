@@ -1,0 +1,21 @@
+{
+  "carrier": "paquetexpress",
+  "entries": [
+    {"code": "SWB", "wording": "Documentación De Servicios Web", "language": "es", "stage": "registered", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "A label made through Paquetexpress's web services, before the parcel is handed over. The service appends the user who made it after \"POR\", which the adapter cuts."},
+    {"code": "HCR", "wording": "Solicitud De Rad", "language": "es", "stage": "registered", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "A request for a pickup at the sender's address."},
+    {"code": "HCP", "wording": "Recolección Planeada", "language": "es", "stage": "registered", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "A pickup is planned; the driver has not collected the parcel yet."},
+    {"code": "HCC", "wording": "Rad Cancelación", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "The pickup request is cancelled. It moves nothing: the sender can still hand the parcel in."},
+    {"code": "BOK", "wording": "Documentada", "language": "es", "stage": "accepted", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "The sender handed the parcel in at a branch's counter."},
+    {"code": "HCM", "wording": "Recolección Realizada", "language": "es", "stage": "accepted", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "A driver collected the parcel. The service appends the sender after \"A\", which the adapter cuts."},
+    {"code": "HCA", "wording": "Confirmación De Recolección En Almacen", "language": "es", "stage": "accepted", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "The collected parcel is in the branch's warehouse."},
+    {"code": "TRN", "wording": "Mercancía En Tránsito", "language": "es", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-13"},
+    {"code": "WHU", "wording": "Recibida En Sucursal de Transbordo", "language": "es", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "Received at a transshipment branch."},
+    {"code": "WHU", "wording": "Recibida En Sucursal destino", "language": "es", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "Received at the destination branch. For a parcel the recipient collects there (delivery type ENT_OCU), it waits for pickup instead."},
+    {"code": "TTM", "wording": "Transbordo De Remolque", "language": "es", "stage": "in_transit", "confirmedBy": "portal", "note": "A transfer between trailers. Seen in archived replies of the tracking service."},
+    {"code": "HLP", "wording": "Planeado Para Entrega A Domicilio", "language": "es", "stage": "in_transit", "confirmedBy": "portal", "note": "Planned for a delivery round, not yet on it. Seen in archived replies of the tracking service."},
+    {"code": "HTC", "wording": "En Ruta De Entrega A Domicilio", "language": "es", "stage": "out_for_delivery", "confirmedBy": "live", "firstSeen": "2026-10-13"},
+    {"code": "HDC", "wording": "Mercancía Entregada A Domicilio", "language": "es", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "Delivered at the door. The service appends \", recibió\" and whoever took it, which the adapter cuts."},
+    {"code": "BDL", "wording": "Entregada En Sucursal", "language": "es", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "Collected by the recipient at the branch; the name after \", recibió\" is cut."},
+    {"code": "PDC", "wording": "Pagada En Destino (Contado)", "language": "es", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-10-13", "note": "Paid for in cash and handed over at the destination; the tracker shows it as delivered. The name after \", recibió\" is cut."}
+  ]
+}

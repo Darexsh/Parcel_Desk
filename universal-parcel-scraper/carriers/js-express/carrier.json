@@ -1,0 +1,80 @@
+{
+  "id": "js-express",
+  "displayName": "JS Express",
+  "aliases": [
+    "JS EXP",
+    "急速国际",
+    "急创速供应链管理（苏州）有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#fe9b00"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "js-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 916
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "searchUrl": "https://www.js-exp.com/index.php?catid=19",
+    "helpUrl": "https://www.js-exp.com/EN/index.php?page=35",
+    "canaryUrl": "https://www.js-exp.com/",
+    "shows": [
+      "history",
+      "location",
+      "destination_country",
+      "delivery_tracking_number",
+      "eta",
+      "provider_code",
+      "offset_timestamps",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "history",
+      "location",
+      "destination_country",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "eta",
+      "provider_code",
+      "offset_timestamps",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "status",
+      "weight",
+      "service_name",
+      "delivery_partner",
+      "delivered_at"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "js-express-1",
+      "pattern": "^JSE[A-Z]{2}\\d{10}YQ$",
+      "confidence": "high"
+    }
+  ]
+}

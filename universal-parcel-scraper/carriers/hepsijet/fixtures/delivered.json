@@ -1,0 +1,130 @@
+{
+  "status": "OK",
+  "data": [
+    {
+      "arrivalBranch": "Örnekköy Dağıtım Merkezi",
+      "customerDeliveryNo": "ZZ4DLVR0001HJ",
+      "barcode": "ZZ4DLVR0001HJ",
+      "deliveryType": "MARKET_PLACE",
+      "currentLocation": "Alıcıda",
+      "lastTransaction": "Teslim edildi - Sample P***** (Kendi)",
+      "receiver": "S***** P*****",
+      "receiverAddressLine": "S*** M*** 1*** S*** N*** 0***",
+      "receiverCity": "Örnekşehir",
+      "receiverTown": "ÖRNEKKÖY",
+      "sender": "Sample Shop",
+      "recipientName": "S***** P*****",
+      "deliveryDateCurrent": "2026-03-12",
+      "deliverySlotCurrent": 1,
+      "deliveredPerson": "S***** P*****",
+      "deliveredDate": "2026-03-12T16:41:05+03:00",
+      "trackingUrl": "https://hepsijet.com/gonderi-takibi/ZZ4DLVR0001HJ",
+      "deliveryStatus": "DELIVERED",
+      "operationStatus": "IN_RECIPIENT",
+      "transactionType": "DELIVERY_ATTEMPT",
+      "company": {
+        "id": 1000001,
+        "name": "SAMPLE",
+        "companyType": "CUSTOMER",
+        "abbreviationCode": "SMPL",
+        "corporateName": "SAMPLE TİCARET A.Ş.",
+        "isCompanyAndResponsiblePersonCredentialsSame": false,
+        "merchantName": "Sample Shop"
+      },
+      "transactions": [
+        {
+          "deliveryStatus": "COLLECTED",
+          "operationStatus": "IN_DELIVERY_TRANSIT",
+          "transactionType": "TAKE_CUSTODY",
+          "transactionDateTime": "2026-03-10T11:02:14+03:00",
+          "location": "Kuzeykent Dağıtım Merkezi",
+          "transaction": "Gönderi Alındı"
+        },
+        {
+          "deliveryStatus": "TRANSFERRING_COLLECT",
+          "operationStatus": "IN_RING_VEHICLE",
+          "transactionType": "APPROVE_RING_ARRIVE",
+          "transactionDateTime": "2026-03-10T19:48:30+03:00",
+          "location": "Kuzeykent Tm Aktarma Merkezi",
+          "transaction": "Transfer Sürecinde"
+        },
+        {
+          "deliveryStatus": "TRANSFERRING_TRANSFER",
+          "operationStatus": "IN_RING_VEHICLE",
+          "transactionType": "APPROVE_RING_ARRIVE",
+          "transactionDateTime": "2026-03-11T06:15:02+03:00",
+          "location": "Güneykent Tm Aktarma Merkezi",
+          "transaction": "Transfer Sürecinde"
+        },
+        {
+          "deliveryStatus": "TRANSFERRING_TRANSFER",
+          "operationStatus": "IN_RING_VEHICLE",
+          "transactionType": "APPROVE_RING_ARRIVE",
+          "transactionDateTime": "2026-03-11T06:15:02+03:00",
+          "location": "Güneykent Tm Aktarma Merkezi",
+          "transaction": "Transfer Sürecinde"
+        },
+        {
+          "deliveryStatus": "DISPATCHING",
+          "operationStatus": "IN_XDOCK",
+          "transactionType": "UNLOAD_RING_VEHICLE",
+          "transactionDateTime": "2026-03-12T08:57:44+03:00",
+          "location": "Örnekköy Dağıtım Merkezi",
+          "transaction": "Teslimat Şubesinde"
+        },
+        {
+          "deliveryStatus": "DELIVERING",
+          "operationStatus": "IN_DELIVERY_TRANSIT",
+          "transactionType": "APPROVE_COURIER_DEPART",
+          "transactionDateTime": "2026-03-12T10:20:11+03:00",
+          "location": "Örnekköy Dağıtım Merkezi",
+          "transaction": "Kurye Dağıtıma Çıktı"
+        },
+        {
+          "deliveryStatus": "DELIVERED",
+          "operationStatus": "IN_RECIPIENT",
+          "transactionType": "DELIVERY_ATTEMPT",
+          "transactionDateTime": "2026-03-12T16:41:05+03:00",
+          "location": "Alıcıda",
+          "deliveredPerson": "S***** P***** (Kendi)",
+          "transaction": "Teslim edildi - Sample P***** (Kendi)"
+        }
+      ],
+      "usedCustomerExperienceFeatures": [
+        {
+          "recalled": false,
+          "deliveryPostpone": false,
+          "addressChange": false,
+          "alternativeReceiver": "false",
+          "liveTracking": false
+        }
+      ],
+      "distributionType": {
+        "id": 1,
+        "type": "AT",
+        "description": "Adrese Teslim"
+      },
+      "desi": 1.0,
+      "productName": "Standart Teslimat",
+      "deliveryDatePromised": "2026-03-13T23:59:59+03:00",
+      "addressChanged": false,
+      "canAddressChange": false,
+      "liveTrackingInfoDTO": {
+        "temporaryPause": false
+      },
+      "inAddress": false,
+      "canDeliveryPostpone": false,
+      "canInAddress": false,
+      "canRecall": false,
+      "liveTracking": true,
+      "recall": false,
+      "canSendDeliveryNote": false,
+      "senderMerchant": "Sample Shop",
+      "deliveryDateOriginal": "2026-03-10",
+      "doorDrop": false,
+      "canDoorDrop": false,
+      "hasDeliveryLocationNote": false,
+      "vendorDelivery": false
+    }
+  ]
+}

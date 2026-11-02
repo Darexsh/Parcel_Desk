@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <getParcelShopByIDResponse xmlns="https://cloud.dpd.com/">
+      <getParcelShopByIDResult>
+        <Version>100</Version>
+        <Language>de_EN</Language>
+        <Ack>true</Ack>
+        <TimeStamp>2026-01-05T13:40:00+01:00</TimeStamp>
+        <ParcelShop>
+          <ParcelShopID>100001</ParcelShopID>
+          <ShopAddress>
+            <Company>Kiosk Muster</Company>
+            <Salutation />
+            <Name />
+            <Street>Musterstr.</Street>
+            <HouseNo>1</HouseNo>
+            <Country>DE</Country>
+            <ZipCode>00000</ZipCode>
+            <City>Musterstadt</City>
+            <State>SHOP STATE</State>
+            <Phone>SHOP PHONE</Phone>
+            <Mail>SHOP@example.invalid</Mail>
+          </ShopAddress>
+          <Homepage />
+          <GeoData><Distance>0</Distance><Longitude>8.1</Longitude><Latitude>50.1</Latitude></GeoData>
+          <ShopServiceList><ShopService>PickupByConsignee</ShopService></ShopServiceList>
+          <OpeningHoursList>
+            <OpeningHours><WeekDay>Monday</WeekDay><OpenTimeList><OpenTimeType><TimeFrom>07:00</TimeFrom><TimeEnd>23:00</TimeEnd></OpenTimeType></OpenTimeList></OpeningHours>
+          </OpeningHoursList>
+          <CustomerNo>SHOP CUSTOMER</CustomerNo>
+          <ParcelStation>no_parcelstation</ParcelStation>
+          <PUDOID>DE00001</PUDOID>
+        </ParcelShop>
+      </getParcelShopByIDResult>
+    </getParcelShopByIDResponse>
+  </soap:Body>
+</soap:Envelope>

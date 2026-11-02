@@ -1,0 +1,12 @@
+{
+  "ReturnValue": 1,
+  "Response_Info": { "trackingNbr": "3A5V000000001", "Number_t": "3A5V000000001", "transNbr": "SYNTHETICMERCHANT1", "referNbr": "PRIVATE-SYNTHETIC", "status": "8", "statusDesc": "退件", "Destination": "SA" },
+  "trackingEventList": [
+    { "date": "2026-01-01 10:21:12", "details": "Parcel Infomation Received" },
+    { "date": "2026-01-02 12:47:13", "place": "CN.Example Facility", "details": "Picked Up by Courier" },
+    { "date": "2026-01-02 19:47:49", "place": "CN.Example Facility", "details": "Departed CNE Facility", "state": 0 },
+    { "date": "2026-01-03 01:02:08", "place": "CN.Example Sort Facility", "details": "Sorting failed []" },
+    { "date": "2026-01-04 14:32:41", "place": "CN.Example Sort Facility", "details": "It was returned to customer's address by CNE", "state": 8 }
+  ],
+  "Extra_Header": "PRIVATE-SYNTHETIC"
+}

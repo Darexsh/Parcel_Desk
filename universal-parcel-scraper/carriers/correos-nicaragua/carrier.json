@@ -1,0 +1,35 @@
+{
+  "id": "correos-nicaragua",
+  "displayName": "Correos de Nicaragua",
+  "aliases": [
+    "Nicaragua Post",
+    "Nicaraguan Postal Service",
+    "Correos Nicaragua"
+  ],
+  "region": {
+    "countries": [
+      "NI"
+    ]
+  },
+  "brand": {
+    "color": "#4078c0"
+  },
+  "selectable": true,
+  "timezone": "America/Managua",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://rastreo.correos.gob.ni:8084/SICRastreo",
+    "canaryUrl": "https://rastreo.correos.gob.ni:8084/SICRastreo",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

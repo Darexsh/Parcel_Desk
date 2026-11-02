@@ -1,0 +1,57 @@
+{
+  "id": "sbs-sokuhai",
+  "displayName": "SBS Sokuhai",
+  "aliases": [
+    "SBS即配サポート",
+    "SBS即配便",
+    "SBS即配",
+    "SBS Sokuhai Support"
+  ],
+  "region": {
+    "countries": [
+      "JP"
+    ]
+  },
+  "brand": {
+    "color": "#cb002c"
+  },
+  "selectable": true,
+  "timezone": "Asia/Tokyo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.saqura-web.com/SBS_LTRC/KF_5020.aspx?IraNo={trackingNumber}",
+    "searchUrl": "https://www.saqura-web.com/SBS_LTRC/",
+    "canaryUrl": "https://www.saqura-web.com/SBS_LTRC/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "saqura-web.com"
+      ],
+      "pathPattern": "^/SBS_LTRC/KF_5020\\.aspx$",
+      "params": [
+        "IraNo",
+        "numberms"
+      ]
+    },
+    {
+      "domains": [
+        "saqura-web.com"
+      ],
+      "pathPattern": "^/SBS_LTRC/?$",
+      "params": [
+        "number01"
+      ]
+    }
+  ],
+  "detection": []
+}

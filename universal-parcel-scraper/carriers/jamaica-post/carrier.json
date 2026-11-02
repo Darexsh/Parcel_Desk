@@ -1,0 +1,33 @@
+{
+  "id": "jamaica-post",
+  "displayName": "Jamaica Post",
+  "aliases": [
+    "Postal Corporation of Jamaica"
+  ],
+  "region": {
+    "countries": [
+      "JM"
+    ]
+  },
+  "brand": {
+    "color": "#e3352e"
+  },
+  "selectable": true,
+  "timezone": "America/Jamaica",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://jamailtracker.jamaicapost.gov.jm/track-status.php",
+    "canaryUrl": "https://jamailtracker.jamaicapost.gov.jm/track-status.php",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "rpx-hk",
+  "displayName": "RPX Online",
+  "aliases": [
+    "RPX Ltd",
+    "RPX Hong Kong",
+    "RPX eCommerce"
+  ],
+  "region": {
+    "countries": [
+      "HK"
+    ]
+  },
+  "brand": {
+    "color": "#eb1d4d"
+  },
+  "selectable": true,
+  "timezone": "Asia/Hong_Kong",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.rpxonline.com/?trackNo={trackingNumber}",
+    "searchUrl": "https://tracking.rpxonline.com/",
+    "canaryUrl": "https://tracking.rpxonline.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.rpxonline.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "trackNo",
+        "trackingNumber"
+      ]
+    },
+    {
+      "domains": [
+        "www.rpxonline.com",
+        "rpxonline.com"
+      ],
+      "path": "^/component/track/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "rpx-hk-1",
+      "pattern": "^HKGL\\d{10}$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "carrier": "peddler",
+  "records": [
+    {
+      "number": "NLEXP0019271437INTPED",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251018073510/https://track.pdlr.nl/trackntrace/NLEXP0019271437INTPED/",
+        "date": "2025-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "peddler",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Peddler's own tracker shows this Cainiao parcel through a failed attempt and a second delivery round."
+    },
+    {
+      "number": "NLEXP0007208308INTPED",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250127104105/https://track.pdlr.nl/trackntrace/NLEXP0007208308INTPED",
+        "date": "2025-01-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "peddler",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Peddler's own tracker shows this Cainiao parcel registered with Peddler."
+    },
+    {
+      "number": "NLEXP0011423658INTPED",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250516212040/https://track.pdlr.nl/trackntrace/NLEXP0011423658INTPED",
+        "date": "2025-05-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "peddler",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Peddler's own tracker shows this Cainiao parcel registered with Peddler."
+    },
+    {
+      "number": "P201764831042679755",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250407132524/https://track.pdlr.nl/trackntrace/P201764831042679755/",
+        "date": "2025-04-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "peddler",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Peddler's own tracker shows this YunExpress Netherlands parcel from the distribution center to out for delivery."
+    },
+    {
+      "number": "P195006030047955057",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://shipping-api-docs.pdlr.nl/carrier-docs/Shipping%20Label%20specs/barcode/",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "peddler",
+        "confidence": "high"
+      },
+      "note": "Peddler's label specification gives this tracking number at the start of its QR code example; the other QR fields there are placeholders."
+    }
+  ]
+}

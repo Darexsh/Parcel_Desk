@@ -1,0 +1,106 @@
+{
+  "found": [
+    {
+      "Error": false,
+      "Type": "waybill",
+      "Number": "100-AA-A00000025",
+      "Info": "",
+      "AgentURL": "",
+      "CreateDate": "09.06.2026",
+      "State": "Отправление в пути",
+      "PlannedDeliveryPeriodMin": 2,
+      "PlannedDeliveryPeriodMax": 3,
+      "PlannedDeliveryDate": "18.06.2026",
+      "FromGeo": "Москва г",
+      "ToGeo": "Тестовск г",
+      "TypeOfCargo": "Груз",
+      "Weight": 0.5,
+      "TakeDate": "09.06.2026",
+      "Guid": "00000000-0000-4000-8000-000000000025",
+      "InfoEn": "",
+      "StateEn": "Shipment is on the way",
+      "FromGeoEn": "MOSCOW",
+      "ToGeoEn": "TESTOVSK",
+      "TypeOfCargoEn": "Parcel",
+      "ToGeoPoint": {
+        "Long": "0",
+        "Lat": "0"
+      },
+      "FromGeoPoint": {
+        "Long": "0",
+        "Lat": "0"
+      },
+      "ToPVZ": "00000000-0000-0000-0000-000000000000",
+      "ViewStatus": [
+        {
+          "Key": "1",
+          "Name": "Зарегистрирована накладная",
+          "Guid": "00000000-0000-4000-8000-000000000001"
+        },
+        {
+          "Key": "2",
+          "Name": "",
+          "Guid": "00000000-0000-4000-8000-000000000002"
+        }
+      ],
+      "Distribution": false,
+      "Sender": null,
+      "Recipient": null,
+      "History": {
+        "order_info": [
+          {
+            "EventDate": "09.06.2026 10:05",
+            "EventName": "На основании заказа оформлена накладная",
+            "EventInfo": "Накладная (Накладная): 100-AA-A00000025 от 09.06.2026,",
+            "EventNameEn": "Waybill issued based on the order",
+            "EventInfoEn": ""
+          },
+          {
+            "EventDate": "09.06.2026 10:05",
+            "EventName": "Принят. Идет обработка",
+            "EventInfo": "",
+            "EventNameEn": "Accepted. Processing...",
+            "EventInfoEn": ""
+          }
+        ],
+        "waybill_info": [
+          {
+            "EventDate": "14.06.2026 03:40",
+            "EventName": "Отправление в пути",
+            "EventInfo": "",
+            "EventNameEn": "Shipment is on the way",
+            "EventInfoEn": "",
+            "EventGeography": "Москва г"
+          },
+          {
+            "EventDate": "12.06.2026 21:15",
+            "EventName": "Груз в транзите Китай-Россия",
+            "EventInfo": "Груз вылетел из аэропорта г.Примерово; в пути",
+            "EventNameEn": "Cargo in transit China-Russia",
+            "EventInfoEn": "",
+            "EventGeography": "Москва г"
+          },
+          {
+            "EventDate": "10.06.2026 08:30",
+            "EventName": "Отправление поступило на склад (Китай)",
+            "EventInfo": "Груз в процессе отправки",
+            "EventNameEn": "Shipment arrived at the warehouse (China)",
+            "EventInfoEn": "",
+            "EventGeography": "Москва г"
+          },
+          {
+            "EventDate": "09.06.2026 10:05",
+            "EventName": "Отправление создано",
+            "EventInfo": "По документу: Заказ 100-000000041 от 09.06.2026 10:05:00, зарегистрирована накладная: 100-AA-A00000025",
+            "EventNameEn": "Shipment created",
+            "EventInfoEn": "",
+            "EventGeography": "Москва г"
+          }
+        ]
+      }
+    }
+  ],
+  "notfound": [
+    "100000000041"
+  ]
+}

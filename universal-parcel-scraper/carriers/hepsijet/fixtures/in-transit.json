@@ -1,0 +1,92 @@
+{
+  "status": "OK",
+  "data": [
+    {
+      "arrivalBranch": "Batıköy Dağıtım Merkezi",
+      "customerDeliveryNo": "ZZ00000000000014",
+      "barcode": "ZZ00000000000014",
+      "deliveryType": "MARKET_PLACE",
+      "currentLocation": "Batıkent Tm Aktarma Merkezi",
+      "lastTransaction": "Transfer Sürecinde",
+      "receiver": "S***** R*****",
+      "receiverCity": "Batıkent",
+      "receiverTown": "BATIKÖY",
+      "sender": "SAMPLE STORE",
+      "recipientName": "S***** R*****",
+      "deliveryDateCurrent": "2026-04-03",
+      "deliverySlotCurrent": 1,
+      "trackingUrl": "https://hepsijet.com/gonderi-takibi/ZZ00000000000014",
+      "deliveryStatus": "TRANSFERRING_TRANSFER",
+      "operationStatus": "IN_RING_VEHICLE",
+      "transactionType": "APPROVE_RING_ARRIVE",
+      "transactions": [
+        {
+          "deliveryStatus": "COLLECTED",
+          "operationStatus": "IN_DELIVERY_TRANSIT",
+          "transactionType": "TAKE_CUSTODY",
+          "transactionDateTime": "2026-04-01T12:06:31+03:00",
+          "location": "Doğuköy Dağıtım Merkezi",
+          "transaction": "Gönderi Alındı"
+        },
+        {
+          "deliveryStatus": "TRANSFERRING_COLLECT",
+          "operationStatus": "IN_RING_VEHICLE",
+          "transactionType": "APPROVE_RING_ARRIVE",
+          "transactionDateTime": "2026-04-01T20:20:00+03:00",
+          "location": "Doğukent Tm Aktarma Merkezi",
+          "transaction": "Transfer Sürecinde"
+        },
+        {
+          "deliveryStatus": "READY",
+          "operationStatus": "IN_RING_VEHICLE",
+          "transactionType": "LOAD_RING_VEHICLE",
+          "transactionDateTime": "2026-04-01T22:41:09+03:00",
+          "location": "Doğukent Tm Aktarma Merkezi",
+          "transaction": "Transfer Merkezine Ulaştı"
+        },
+        {
+          "deliveryStatus": "TRANSFERRING_TRANSFER",
+          "operationStatus": "IN_RING_VEHICLE",
+          "transactionType": "APPROVE_RING_ARRIVE",
+          "transactionDateTime": "2026-04-02T01:17:16+03:00",
+          "location": "Batıkent Tm Aktarma Merkezi",
+          "transaction": "Transfer Sürecinde"
+        }
+      ],
+      "usedCustomerExperienceFeatures": [
+        {
+          "recalled": false,
+          "deliveryPostpone": false,
+          "addressChange": false,
+          "alternativeReceiver": "false",
+          "liveTracking": false
+        }
+      ],
+      "distributionType": {
+        "id": 1,
+        "type": "AT",
+        "description": "Adrese Teslim"
+      },
+      "desi": 5.0,
+      "productName": "Standart Teslimat",
+      "deliveryDatePromised": "2026-04-03T23:59:59+03:00",
+      "addressChanged": false,
+      "canAddressChange": false,
+      "liveTrackingInfoDTO": {
+        "temporaryPause": false
+      },
+      "inAddress": false,
+      "canDeliveryPostpone": false,
+      "canInAddress": false,
+      "canRecall": false,
+      "liveTracking": true,
+      "recall": false,
+      "canSendDeliveryNote": false,
+      "senderMerchant": "SAMPLE STORE",
+      "deliveryDateOriginal": "2026-03-30",
+      "doorDrop": false,
+      "canDoorDrop": false,
+      "vendorDelivery": false
+    }
+  ]
+}

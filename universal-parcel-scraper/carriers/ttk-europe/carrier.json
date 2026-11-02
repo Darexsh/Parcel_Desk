@@ -1,0 +1,50 @@
+{
+  "id": "ttk-europe",
+  "displayName": "TTK Europe",
+  "aliases": [
+    "Ttkeurope",
+    "TTK EUROPE Ltd",
+    "TTK EU",
+    "天天欧洲物流",
+    "天天欧洲"
+  ],
+  "region": {
+    "countries": [
+      "GB",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#dd1831"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://ttkeu.com/tracking/tracking-detail/?id={trackingNumber}",
+    "searchUrl": "https://ttkeu.com/tracking/",
+    "canaryUrl": "https://ttkeu.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "ttkeu.com",
+        "www.ttkeu.com"
+      ],
+      "pathPattern": "^/tracking/tracking-detail/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

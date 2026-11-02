@@ -1,0 +1,60 @@
+{
+  "status": 200,
+  "msg": "",
+  "response": [
+    {
+      "cnno": "990000000033",
+      "seq_no": 1,
+      "sender_reference": "",
+      "origin_tariff": "CGK01.00",
+      "destination_tariff_code": "MDC01.00",
+      "destination_city_name": "Sulawesi Utara",
+      "product": "REG",
+      "sys_created_on": "2026-05-11 15:52:29",
+      "consignor_name": "CV CONTOH",
+      "consignor_address": "DKI Jakarta",
+      "consignee_name": "JOKO CONTOH",
+      "consignee_address": "Sulawesi Utara",
+      "weight": 24,
+      "insurance_fee": 0,
+      "shipment_fee": 912000,
+      "pieces_no": 3,
+      "est_day": "4",
+      "est_date": "2026-05-15",
+      "history": [
+        {"seq_no": 1, "entry_date": "2026-05-16 18:23:10", "status": "POD 01", "entry_name": "MANADO CONTOH [MANADO]", "entry_place": "MANADO", "noted": "Success / RECEIVED BY : JOKO"},
+        {"seq_no": 1, "entry_date": "2026-05-16 09:15:02", "status": "DEL 01", "entry_name": "MANADO CONTOH [MANADO]", "entry_place": "MANADO", "noted": "With Delivery Courier"},
+        {"seq_no": 1, "entry_date": "2026-05-14 06:07:44", "status": "INC 01", "entry_name": "MANADO CONTOH [MANADO]", "entry_place": "MANADO", "noted": "Arrived at TIKI MANADO"},
+        {"seq_no": 1, "entry_date": "2026-05-11 23:37:12", "status": "CON 01", "entry_name": "PUSAT CONTOH [JAKARTA]", "entry_place": "JAKARTA", "noted": "Departed to MANADO"},
+        {"seq_no": 1, "entry_date": "2026-05-11 15:52:29", "status": "MDE 04", "entry_name": "AGEN CONTOH [JAKARTA PUSAT]", "entry_place": "JAKARTA PUSAT", "noted": "Shipment Data Entry at JAKARTA PUSAT"}
+      ],
+      "image_pod": null
+    },
+    {
+      "cnno": "990000000033",
+      "seq_no": 2,
+      "sender_reference": "",
+      "origin_tariff": "CGK01.00",
+      "destination_tariff_code": "MDC01.00",
+      "destination_city_name": "Sulawesi Utara",
+      "product": "REG",
+      "sys_created_on": "2026-05-11 15:52:29",
+      "consignor_name": "CV CONTOH",
+      "consignor_address": "DKI Jakarta",
+      "consignee_name": "JOKO CONTOH",
+      "consignee_address": "Sulawesi Utara",
+      "weight": 24,
+      "insurance_fee": 0,
+      "shipment_fee": 912000,
+      "pieces_no": 3,
+      "est_day": "4",
+      "est_date": "2026-05-15",
+      "history": [
+        {"seq_no": 2, "entry_date": "2026-05-15 13:46:30", "status": "INC 01", "entry_name": "MANADO CONTOH [MANADO]", "entry_place": "MANADO", "noted": "Arrived at TIKI MANADO"},
+        {"seq_no": 2, "entry_date": "2026-05-12 00:08:51", "status": "CON 01", "entry_name": "PUSAT CONTOH [JAKARTA]", "entry_place": "JAKARTA", "noted": "Departed to MANADO"},
+        {"seq_no": 2, "entry_date": "2026-05-11 15:52:29", "status": "MDE 04", "entry_name": "AGEN CONTOH [JAKARTA PUSAT]", "entry_place": "JAKARTA PUSAT", "noted": "Shipment Data Entry at JAKARTA PUSAT"}
+      ],
+      "image_pod": null
+    }
+  ]
+}

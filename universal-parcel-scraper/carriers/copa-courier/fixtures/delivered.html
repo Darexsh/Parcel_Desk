@@ -1,0 +1,178 @@
+
+
+<head>    
+    <meta charset="utf-8">
+    <title>Hawb</title>
+    <!-- Stylesheets -->
+    <link href="/css/hawb.css" rel="stylesheet">
+
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+
+<body id="bodySeguimiento">
+    <form id="bmiformulario" runat="server">         
+            <div id="bmiprincipalseguimiento">
+
+                <h2 id="TitSeguimiento"> Seguimiento de envíos </h2>
+               
+               <div runat="server" class="cajaseguimiento" id="bmicajaseguimiento1">
+
+                    <div style=" text-align:center; margin-bottom:0px">
+                        <img src="/images/Copa.png" alt="" />
+                    </div>
+                        <div class="cabeceradatos" style="display:table;">
+                      <div id="EstadoEnvio">
+                            <asp:Label ID="lblEstadoEnvio" runat="server" Text="Estado"></asp:Label>
+                      </div>
+                      <div style="display:inline-block; visibility:hidden;  width:12.3%;">
+                            <label for="lblFecha" class="etiq anchomin campocabecera">Fecha de entrada:</label>
+                      </div>
+                      <div style="display:inline-block">
+                            <label for="lblHAWB" class="etiq anchomin campocabecera">Número HAWB</label>
+                      </div>
+                      <div style="display:inline-block">
+                            <label for="lblaeropuertoorigen" class="etiq anchomin campocabecera">Origen</label>                       
+                       </div>
+                      <div style="display:inline-block">
+                            <label for="lblaeropuertodestino" class="etiq anchomin campocabecera">Destino</label>                       
+                       </div>
+                      <div style="display:inline-block">
+                            <label for="lblbultos" class="etiq anchomin campocabecera">Número de bultos</label>                        
+                       </div>
+                      <div style="display:inline-block">
+                            <label for="lblPesoNeto" class="etiq anchomin campocabecera">Peso (Kg)</label>                        
+                       </div>
+                      <div style="display:inline-block; visibility:hidden;width:11%">
+                            <label for="lblServicio" class="etiq anchomin campocabecera">Servicio:</label>                          
+                       </div>
+                      <div style="display:inline-block; visibility:hidden; width:12.3% ">
+                          <label class="etiq anchomin campocabecera">Fecha</label>
+                      </div>
+                      <div style="display:inline-block">
+                                    <asp:Label runat="server" class="etiq anchomin campoDetalle" ID="lblHAWB1">H9000001</asp:Label>                      
+                       </div>
+                      <div style="display:inline-block">
+                                    <asp:Label runat="server" class="etiq anchomin campoDetalle" ID="lblaeropuertoorigen1">SAMPLE CITY</asp:Label>
+                       </div>
+                      <div style="display:inline-block">                   
+                                    <asp:Label runat="server" class="etiq anchomin campoDetalle" ID="lblaeropuertodestino1">SAMPLE TOWN</asp:Label>
+                       </div>
+                      <div style="display:inline-block">
+                                    <asp:Label runat="server" class="etiq anchomin campoDetalle" ID="lblbultos1">1</asp:Label>
+                       </div>
+                      <div style="display:inline-block">               
+                                    <asp:Label runat="server" class="etiq anchomin campoDetalle" ID="lblPesoNeto1">2,5</asp:Label>
+                       </div>           
+                   </div>
+                   <div class="detalledatos">
+                       <ul runat="server" id="bmilistadetalle1">
+                           <li class="cabeceradetalle" >
+                                        <label class="etiq fecha">Fecha -  Hora</label>
+                                        <label class="etiq hito">Hito</label>
+                                        <label class="etiq detalle">Detalle</label>
+                           </li>
+                           <li class="listadetalle" >
+                           </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>03-feb.-2026 10:15</label>
+                                               <label class='etiq hitodescripcion'>ENVIO RECIBIDO EN ORIGEN - SJO</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>03-feb.-2026 16:40</label>
+                                               <label class='etiq hitodescripcion'>PARTIENDO DE ORIGEN O PUNTO DE TR&#xC1;NSITO - SJO</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>04-feb.-2026 08:05</label>
+                                               <label class='etiq hitodescripcion'>RECIBIDO EN PUNTO DE TR&#xC1;NSITO - PTY</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>04-feb.-2026 09:30</label>
+                                               <label class='etiq hitodescripcion'>PARTIENDO DE ORIGEN O PUNTO DE TR&#xC1;NSITO - PTY</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>04-feb.-2026 09:30</label>
+                                               <label class='etiq hitodescripcion'>PARTIENDO DE ORIGEN O PUNTO DE TR&#xC1;NSITO - PTY</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>10-feb.-2026 13:12</label>
+                                               <label class='etiq hitodescripcion'>RECIBIDO EN DESTINO - HAV</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>10-feb.-2026 13:13</label>
+                                               <label class='etiq hitodescripcion'>ARRIBO A ESTACION - </label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>10-feb.-2026 13:15</label>
+                                               <label class='etiq hitodescripcion'>LLEGO AL CENTRO DE DISTRIBUCION - </label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>10-feb.-2026 13:18</label>
+                                               <label class='etiq hitodescripcion'>EN PROCESO DE ADUANA - </label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>10-feb.-2026 13:20</label>
+                                               <label class='etiq hitodescripcion'>LIBERADO POR ADUANA - </label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>17-feb.-2026 11:35</label>
+                                               <label class='etiq hitodescripcion'>CONFIRMACI&#xD3;N DE ENTREGA - HAV</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>17-feb.-2026 11:35</label>
+                                               <label class='etiq hitodescripcion'>ENV&#xCD;O ENTREGADO - HAV</label>
+                                               <label class='etiq hitodetalle'>Entregado a: SAMPLE RECIPIENT NAME con CI 00000000000 No. Serie 000000</label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>17-feb.-2026 11:35</label>
+                                               <label class='etiq hitodescripcion'>EN VEH&#xCD;CULO DE COPA COURIER PARA SU ENTREGA - HAV</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                       </ul>   
+                   </div>
+               </div>
+
+           </div>
+
+        </div>
+    </form>
+
+</body>

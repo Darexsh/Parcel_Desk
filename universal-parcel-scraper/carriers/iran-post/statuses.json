@@ -1,0 +1,17 @@
+{
+  "carrier": "iran-post",
+  "entries": [
+    {"wording": "مرسوله  تحویل گیرنده گردیده است", "stage": "delivered", "language": "fa", "confirmedBy": "source", "note": "Shipment delivered to the recipient. Quoted, with its double space, as the tracker's status in the example output of an open-source Iran Post tracking client."},
+    {"code": "1", "wording": "تحویل به موزع", "stage": "out_for_delivery", "language": "fa", "confirmedBy": "source", "note": "Handed to the delivery agent. Label for event type 1 in an open-source client's table of the tracker's event types."},
+    {"code": "3", "wording": "تحویل مرسوله به گیرنده", "stage": "delivered", "language": "fa", "confirmedBy": "source", "note": "Shipment delivered to the recipient. Label for event type 3 in an open-source client's table of the tracker's event types."},
+    {"code": "5", "wording": "نشانی گیرنده شناخته نشد", "stage": "failed_attempt", "language": "fa", "confirmedBy": "source", "note": "Recipient's address not found. Label for event type 5 in an open-source client's table of the tracker's event types."},
+    {"code": "6", "wording": "گیرنده شناخته نشد", "stage": "failed_attempt", "language": "fa", "confirmedBy": "source", "note": "Recipient not known at the address. Label for event type 6 in an open-source client's table of the tracker's event types."},
+    {"code": "7", "wording": "گیرنده از دریافت خودداري نمود", "stage": "exception", "language": "fa", "confirmedBy": "source", "note": "Recipient refused the item. Label for event type 7 in an open-source client's table of the tracker's event types."},
+    {"code": "8", "wording": "گیرنده نقل مکان نموده است", "stage": "failed_attempt", "language": "fa", "confirmedBy": "source", "note": "Recipient has moved. Label for event type 8 in an open-source client's table of the tracker's event types."},
+    {"code": "9", "wording": "گیرنده در مسافرت", "stage": "failed_attempt", "language": "fa", "confirmedBy": "source", "note": "Recipient away travelling. Label for event type 9 in an open-source client's table of the tracker's event types."},
+    {"code": "18", "wording": "ورود به باجه معطله", "stage": "ready_for_pickup", "language": "fa", "confirmedBy": "source", "note": "Placed at the counter that holds undelivered items for collection. Label for event type 18 in an open-source client's table of the tracker's event types."},
+    {"code": "59", "wording": "عودت مرسوله به فرستنده", "stage": "returned", "language": "fa", "confirmedBy": "source", "note": "Shipment returned to the sender. Label for event type 59 in an open-source client's table of the tracker's event types."},
+    {"code": "72", "wording": "رهسپاري به مقصد بعدي", "stage": "in_transit", "language": "fa", "confirmedBy": "source", "note": "Dispatched to the next destination. Label for event type 72 in an open-source client's table of the tracker's event types."},
+    {"code": "73", "wording": "رسیدن از ارسال کننده قبلی", "stage": "in_transit", "language": "fa", "confirmedBy": "source", "note": "Arrived from the previous sending office. Label for event type 73 in an open-source client's table of the tracker's event types."}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "carrier": "citilogistics",
+  "entries": [
+    {
+      "wording": "Delivered",
+      "stage": "delivered",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Item received in sort facility",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Item cleared import charges paid",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "item imported",
+      "stage": null,
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "The wording does not distinguish importing a record from physical movement."
+    }
+  ]
+}

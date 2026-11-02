@@ -1,0 +1,72 @@
+{
+  "Consignments" : [ {
+    "POD" : "false",
+    "POP" : "false",
+    "ConId" : "P123456789",
+    "PickupDate" : "2026-07-06",
+    "PickupAddress" : "3 EXAMPLE AVE  SAMPLE CREEK NSW 0000",
+    "DeliveryAddress" : "4 TEST LANE  EXAMPLE DOWNS QLD 0000",
+    "DateDelivered" : "Consignment Not Delivered",
+    "ETA" : "2026-07-09 23:59:59",
+    "CountOfItems" : "3",
+    "Customer" : "SAMPLE002",
+    "ConsignmentNumber" : "P123456789",
+    "Origin" : "SAMPLE CREEK",
+    "Destination" : "EXAMPLE DOWNS",
+    "Sender" : "SAMPLE SUPPLIES",
+    "Reciever" : "TEST CUSTOMER",
+    "CreatedDate" : "2026-07-03 11:00:00",
+    "Events" : [ {
+      "EventDate" : "2026-07-03 11:00:00",
+      "EventStatus" : "Added",
+      "EventLocation" : "",
+      "iltBarcode" : "P123456789-0001",
+      "ItemId" : "1",
+      "handlingNotes" : ""
+    }, {
+      "EventDate" : "2026-07-06 14:10:00",
+      "EventStatus" : "Pickup",
+      "EventLocation" : "SAMPLE CREEK",
+      "iltBarcode" : "P123456789-0001",
+      "ItemId" : "1",
+      "handlingNotes" : ""
+    }, {
+      "EventDate" : "2026-07-06 14:10:00",
+      "EventStatus" : "Pickup",
+      "EventLocation" : "SAMPLE CREEK",
+      "iltBarcode" : "P123456789-0002",
+      "ItemId" : "2",
+      "handlingNotes" : ""
+    }, {
+      "EventDate" : "2026-07-06 14:12:00",
+      "EventStatus" : "Pickup",
+      "EventLocation" : "SAMPLE CREEK",
+      "iltBarcode" : "P123456789-0003",
+      "ItemId" : "3",
+      "handlingNotes" : ""
+    }, {
+      "EventDate" : "2026-07-06 21:40:00",
+      "EventStatus" : "LHLOAD",
+      "EventLocation" : "DOCK 3 SAMPLE CREEK",
+      "iltBarcode" : "P123456789-0001",
+      "ItemId" : "1",
+      "handlingNotes" : ""
+    }, {
+      "EventDate" : "2026-07-08 05:55:00",
+      "EventStatus" : "DepotIn",
+      "EventLocation" : "EXAMPLE DOWNS",
+      "iltBarcode" : "P123456789-0001",
+      "ItemId" : "1",
+      "handlingNotes" : ""
+    }, {
+      "EventDate" : "2026-07-08 05:55:00",
+      "EventStatus" : "DepotIn",
+      "EventLocation" : "EXAMPLE DOWNS",
+      "iltBarcode" : "P123456789-0002",
+      "ItemId" : "2",
+      "handlingNotes" : "LEFT AT SAMPLE DOCK"
+    } ]
+  } ],
+  "Status" : "S",
+  "Description" : "0"
+}

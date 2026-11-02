@@ -1,0 +1,65 @@
+{
+  "data_tracking": [
+    {
+      "TRACKING_ID": "POD",
+      "TRACKING_DESC": "Shipment received by Consignee",
+      "LOCATION": "RPX Sampleton",
+      "TRACKING_DATE": "Mar 05, 2026",
+      "TRACKING_TIME": "02:15 PM",
+      "TRACKING_COMMENT": "|2.5000 Kg"
+    },
+    {
+      "TRACKING_ID": "SOP",
+      "TRACKING_DESC": "Departed from RPX Origin station",
+      "LOCATION": "RPX Exampleville",
+      "TRACKING_DATE": "Mar 03, 2026",
+      "TRACKING_TIME": "11:50 PM",
+      "TRACKING_COMMENT": "By_CONS 900000000001 - |2.5000 Kg"
+    },
+    {
+      "TRACKING_ID": "SOP",
+      "TRACKING_DESC": "Departed from RPX Origin station",
+      "LOCATION": "RPX Exampleville",
+      "TRACKING_DATE": "Mar 03, 2026",
+      "TRACKING_TIME": "11:50 PM",
+      "TRACKING_COMMENT": "By_CONS 900000000001 - |2.5000 Kg"
+    },
+    {
+      "TRACKING_ID": "MDE",
+      "TRACKING_DESC": "Manifesting Package",
+      "LOCATION": "RPX Exampleville",
+      "TRACKING_DATE": "Mar 03, 2026",
+      "TRACKING_TIME": "04:02 PM",
+      "TRACKING_COMMENT": "by MASS MDE(AUTOWEB)|2.5000 Kg"
+    },
+    {
+      "TRACKING_ID": "PUP",
+      "TRACKING_DESC": "Picked Up",
+      "LOCATION": "RPX Exampleville",
+      "TRACKING_DATE": "Mar 03, 2026",
+      "TRACKING_TIME": "04:00 PM",
+      "TRACKING_COMMENT": "Print Label- appropriate PUP |2.5000 Kg"
+    },
+    {
+      "TRACKING_ID": "WPU",
+      "TRACKING_DESC": "Your order is still on packing process by Shipper/Seller",
+      "LOCATION": "NA",
+      "TRACKING_DATE": "Feb 27, 2026",
+      "TRACKING_TIME": "12:26 AM",
+      "TRACKING_COMMENT": "Api|2.5000 Kg"
+    }
+  ],
+  "detail_received": {
+    "DELIVERY_TO": "Sample Recipient",
+    "RECEIVED_BY": "SAMPLE RECEIVER",
+    "DELIVERY_LOC": "Sampletown",
+    "DELIVERY_DATE": "Mar 05, 2026",
+    "DELIVERY_TIME": "02:15 PM",
+    "ETA": "2026-03-05",
+    "IMAGE_SIGNATURE": "https://static.example.invalid/signature-0001.jpeg",
+    "IMAGE_FOTO": "https://static.example.invalid/photo-0001.jpeg",
+    "LATITUDE": "-1.000000",
+    "LONGITUDE": "100.000000",
+    "LOC_DESC": "Sample Porch"
+  }
+}

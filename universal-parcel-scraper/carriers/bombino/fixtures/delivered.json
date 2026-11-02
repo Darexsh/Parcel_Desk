@@ -1,0 +1,222 @@
+{
+  "tracking_no": "0000000001",
+  "forwarding_no": "",
+  "forwarding_url": "",
+  "shipper_country": "INDIA",
+  "consignee_country": "UNITED KINGDOM",
+  "expected_datetime": "2026-03-11 00:00:00",
+  "chargeable_weight": "2.500",
+  "pcs": "1",
+  "reference_no": "SAMPLE-REF-1",
+  "pod_image": "https://example.invalid/pod/0000000001.jpg",
+  "pod_signature": "https://example.invalid/sign/0000000001.png",
+  "job_no": "",
+  "errors": false,
+  "docket_info": [
+    [
+      "AWB No.",
+      "0000000001"
+    ],
+    [
+      "Booking Date",
+      "2026-03-06"
+    ],
+    [
+      "Consignee Name",
+      "ASHA SAMPLE"
+    ],
+    [
+      "Receiver Name",
+      "ASHA SAMPLE"
+    ],
+    [
+      "Shipper City",
+      "MUMBAI"
+    ],
+    [
+      "Origin",
+      "INDIA"
+    ],
+    [
+      "Consignee City",
+      "SAMPLETON"
+    ],
+    [
+      "Destination",
+      "United Kingdom"
+    ],
+    [
+      "Forwarding No.",
+      ""
+    ],
+    [
+      "Status",
+      "DELIVERED"
+    ]
+  ],
+  "docket_events": [
+    {
+      "event_description": "SHIPMENT DELIVERED",
+      "event_location": "LONDON",
+      "event_at": "2026-03-12 14:05:10",
+      "event_state": "delivered",
+      "event_remark": "RECEIVED BY ASHA SAMPLE"
+    },
+    {
+      "event_description": "OUT FOR DELIVERY",
+      "event_location": "LONDON",
+      "event_at": "2026-03-12 08:40:00",
+      "event_state": "drs",
+      "event_remark": ""
+    },
+    {
+      "event_description": "UNDELIVERED - CONSIGNEE NOT AVAILABLE",
+      "event_location": "LONDON",
+      "event_at": "2026-03-11 17:22:41",
+      "event_state": "undelivered",
+      "event_remark": "CALL 00000 000000"
+    },
+    {
+      "event_description": "OUT FOR DELIVERY",
+      "event_location": "LONDON",
+      "event_at": "2026-03-11 09:02:13",
+      "event_state": "drs",
+      "event_remark": ""
+    },
+    {
+      "event_description": "CLEARED FROM CUSTOMS",
+      "event_location": "LONDON",
+      "event_at": "2026-03-10 19:15:00",
+      "event_state": "in_transit",
+      "event_remark": ""
+    },
+    {
+      "event_description": "HOLD BY CUSTOMS",
+      "event_location": "LONDON",
+      "event_at": "2026-03-09 11:30:00",
+      "event_state": "shipment_hold",
+      "event_remark": ""
+    },
+    {
+      "event_description": "SHIPMENT ARRIVED",
+      "event_location": "LONDON",
+      "event_at": "2026-03-09 06:12:44",
+      "event_state": "incoming_manifest",
+      "event_remark": ""
+    },
+    {
+      "event_description": "SHIPMENT BAGGED FOR DEPARTURE",
+      "event_location": "MUMBAI",
+      "event_at": "2026-03-07 23:50:02",
+      "event_state": "manifest",
+      "event_remark": ""
+    },
+    {
+      "event_description": "SHIPMENT ARRIVED",
+      "event_location": "MUMBAI",
+      "event_at": "2026-03-07 15:20:31",
+      "event_state": "in_scan",
+      "event_remark": ""
+    },
+    {
+      "event_description": "SHIPMENT ARRIVED",
+      "event_location": "MUMBAI",
+      "event_at": "2026-03-07 15:20:31",
+      "event_state": "in_scan",
+      "event_remark": ""
+    },
+    {
+      "event_description": "SHIPMENT PICKED UP",
+      "event_location": "MUMBAI",
+      "event_at": "2026-03-07 12:01:09",
+      "event_state": "pickup_scan",
+      "event_remark": ""
+    },
+    {
+      "event_description": "SHIPMENT INFORMATION RECEIVED",
+      "event_location": "MUMBAI",
+      "event_at": "2026-03-06 18:44:20",
+      "event_state": "entry",
+      "event_remark": ""
+    }
+  ],
+  "parcels": [
+    {
+      "parcel_no": "000000000101",
+      "events": [
+        {
+          "event_description": "SHIPMENT DELIVERED",
+          "event_location": "LONDON",
+          "event_at": "2026-03-12 14:05:10",
+          "event_remark": "RECEIVED BY ASHA SAMPLE"
+        },
+        {
+          "event_description": "OUT FOR DELIVERY",
+          "event_location": "LONDON",
+          "event_at": "2026-03-12 08:40:00",
+          "event_remark": ""
+        },
+        {
+          "event_description": "UNDELIVERED - CONSIGNEE NOT AVAILABLE",
+          "event_location": "LONDON",
+          "event_at": "2026-03-11 17:22:41",
+          "event_remark": "CALL 00000 000000"
+        },
+        {
+          "event_description": "OUT FOR DELIVERY",
+          "event_location": "LONDON",
+          "event_at": "2026-03-11 09:02:13",
+          "event_remark": ""
+        },
+        {
+          "event_description": "CLEARED FROM CUSTOMS",
+          "event_location": "LONDON",
+          "event_at": "2026-03-10 19:15:00",
+          "event_remark": ""
+        },
+        {
+          "event_description": "HOLD BY CUSTOMS",
+          "event_location": "LONDON",
+          "event_at": "2026-03-09 11:30:00",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT ARRIVED",
+          "event_location": "LONDON",
+          "event_at": "2026-03-09 06:12:44",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT BAGGED FOR DEPARTURE",
+          "event_location": "MUMBAI",
+          "event_at": "2026-03-07 23:50:02",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT ARRIVED",
+          "event_location": "MUMBAI",
+          "event_at": "2026-03-07 15:20:31",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT ARRIVED",
+          "event_location": "MUMBAI",
+          "event_at": "2026-03-07 15:20:31",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT PICKED UP",
+          "event_location": "MUMBAI",
+          "event_at": "2026-03-07 12:01:09",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT INFORMATION RECEIVED",
+          "event_location": "MUMBAI",
+          "event_at": "2026-03-06 18:44:20",
+          "event_remark": ""
+        }
+      ]
+    }
+  ]
+}

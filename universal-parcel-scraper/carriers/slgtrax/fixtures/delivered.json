@@ -1,0 +1,98 @@
+{
+  "status": 1,
+  "message": "Tracking of Shipment(s) # 10000000000001",
+  "details": {
+    "900001": {
+      "tracking_number": "10000000000001",
+      "shipper": {
+        "name": "Sample Store"
+      },
+      "pickup": {
+        "origin": "Sample City",
+        "vendor": "Sample Store",
+        "brand_name": "Sample Store"
+      },
+      "consignee": {
+        "name": "Sample Person",
+        "phone_number_1": "000000000000",
+        "phone_number_2": null,
+        "destination": "Other City",
+        "address": "House 0, Sample Street, Sample Town"
+      },
+      "order_information": {
+        "items": [
+          {
+            "order_id": "SMPL-0001",
+            "product_type": "Sample Goods",
+            "description": "Sample item, size M",
+            "quantity": 1
+          }
+        ],
+        "weight": 0.5,
+        "amount": 1000
+      },
+      "tracking_history": [
+        {
+          "date_time": "12/03/2026 04:40 PM",
+          "timestamp": 1773315621,
+          "status": "Shipment - Delivered",
+          "status_reason": null
+        },
+        {
+          "date_time": "12/03/2026 10:05 AM",
+          "timestamp": 1773291909,
+          "status": "Shipment - Out for Delivery",
+          "status_reason": null
+        },
+        {
+          "date_time": "11/03/2026 06:20 PM",
+          "timestamp": 1773235250,
+          "status": "Shipment - Delivery Unsuccessful",
+          "status_reason": "Consignee Unavailable"
+        },
+        {
+          "date_time": "11/03/2026 09:45 AM",
+          "timestamp": 1773204303,
+          "status": "Shipment - Out for Delivery",
+          "status_reason": null
+        },
+        {
+          "date_time": "11/03/2026 03:30 AM",
+          "timestamp": 1773181815,
+          "status": "Shipment - Arrived at Destination",
+          "status_reason": null
+        },
+        {
+          "date_time": "11/03/2026 03:30 AM",
+          "timestamp": 1773181815,
+          "status": "Shipment - Arrived at Destination",
+          "status_reason": null
+        },
+        {
+          "date_time": "10/03/2026 08:00 AM",
+          "timestamp": 1773111600,
+          "status": "Shipment - In Transit",
+          "status_reason": null
+        },
+        {
+          "date_time": "10/03/2026 01:15 AM",
+          "timestamp": 1773087342,
+          "status": "Shipment - Arrived at Origin",
+          "status_reason": null
+        },
+        {
+          "date_time": "09/03/2026 09:10 PM",
+          "timestamp": 1773072618,
+          "status": "Shipment - Rider Picked",
+          "status_reason": null
+        },
+        {
+          "date_time": "09/03/2026 02:00 PM",
+          "timestamp": 1773046827,
+          "status": "Shipment - Booked",
+          "status_reason": null
+        }
+      ]
+    }
+  }
+}

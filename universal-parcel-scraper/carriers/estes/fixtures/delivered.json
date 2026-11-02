@@ -1,0 +1,257 @@
+{
+  "data": [
+    {
+      "pro": "9900000202",
+      "documentReference": [
+        {
+          "id": "BOL-SYNTH-2",
+          "documentType": "BOL"
+        },
+        {
+          "id": "SHIP-REF-2",
+          "documentType": "SNO"
+        }
+      ],
+      "pickupDate": "2026-04-07",
+      "pickupTime": "16:12:00-05:00",
+      "isResidential": true,
+      "isTruckload": false,
+      "status": {
+        "conciseStatus": "Delivered",
+        "expandedStatus": "Delivery Completed - OK",
+        "referenceDate": "2026-04-09",
+        "referenceTime": "10:26:50-06:00",
+        "isException": false,
+        "reasonCode": "OK",
+        "reason": "Delivery Completed - OK"
+      },
+      "deliveryDate": "2026-04-09",
+      "deliveryTime": "10:26:50-06:00",
+      "receivedBy": "SAMPLE SIGNER",
+      "transitDays": "2",
+      "driverInfo": {
+        "name": "Sample Driver"
+      },
+      "appointment": {
+        "status": "Customer requested appointment",
+        "startDate": "2026-04-09",
+        "startTime": "08:00:00-06:00",
+        "endDate": "2026-04-09",
+        "endTime": "12:00:00-06:00"
+      },
+      "piecesCount": "1",
+      "totalWeight": "232",
+      "cube": "41.10",
+      "consigneeParty": {
+        "address": {
+          "city": "Sampleton",
+          "state": "ZZ",
+          "country": "US"
+        }
+      },
+      "shipperParty": {
+        "address": {
+          "city": "Shipville",
+          "state": "ZZ",
+          "postalCode": "00002",
+          "country": "US"
+        }
+      },
+      "destinationTerminal": {
+        "number": "994",
+        "name": "PINE BLUFF",
+        "address": {
+          "line": [
+            "100 Synthetic Way"
+          ],
+          "city": "Pine Ridge",
+          "state": "CO",
+          "postalCode": "00000",
+          "country": "US"
+        },
+        "geoCoordinates": [
+          "-90.0001",
+          "40.0001"
+        ],
+        "telephone": "(000) 000-0000",
+        "fax": "0000000000",
+        "email": "terminal@example.invalid"
+      },
+      "originTerminal": {
+        "number": "993",
+        "name": "LAKEVIEW",
+        "address": {
+          "line": [
+            "100 Synthetic Way"
+          ],
+          "city": "Lakeview",
+          "state": "MO",
+          "postalCode": "00000",
+          "country": "US"
+        },
+        "geoCoordinates": [
+          "-90.0001",
+          "40.0001"
+        ],
+        "telephone": "(000) 000-0000",
+        "fax": "0000000000",
+        "email": "terminal@example.invalid"
+      },
+      "disclaimers": [
+        "Reported Delivery Date is subject to change upon verification."
+      ],
+      "movementHistory": [
+        {
+          "id": "Pickup",
+          "description": "Actual Pickup",
+          "transportEventTypeCode": "Actual Pickup",
+          "statusHistory": [
+            {
+              "conciseStatus": "Departed Pickup Location",
+              "expandedStatus": "Pickup Location Serviced",
+              "referenceDate": "2026-04-07",
+              "referenceTime": "16:12:00-05:00",
+              "isException": false
+            }
+          ]
+        },
+        {
+          "id": "993",
+          "description": "Origin Terminal",
+          "location": {
+            "id": "993",
+            "name": "Lakeview",
+            "code": "LAK",
+            "address": {
+              "line": [
+                "100 Synthetic Way"
+              ],
+              "city": "Lakeview",
+              "state": "MO",
+              "postalCode": "00000"
+            },
+            "geoCoordinates": [
+              "-90.0001",
+              "40.0001"
+            ]
+          },
+          "contact": {
+            "telephone": "(000) 000-0000",
+            "fax": "0000000000"
+          },
+          "transportEventTypeCode": "Origin Terminal",
+          "statusHistory": [
+            {
+              "conciseStatus": "In Transit",
+              "expandedStatus": "Departed Estes facility at Lakeview, MO (993)",
+              "referenceDate": "2026-04-07",
+              "referenceTime": "22:10:00-05:00",
+              "isException": false
+            }
+          ]
+        },
+        {
+          "id": "994",
+          "description": "Destination Terminal",
+          "location": {
+            "id": "994",
+            "name": "Pine Bluff",
+            "code": "PIN",
+            "address": {
+              "line": [
+                "100 Synthetic Way"
+              ],
+              "city": "Pine Ridge",
+              "state": "CO",
+              "postalCode": "00000"
+            },
+            "geoCoordinates": [
+              "-90.0001",
+              "40.0001"
+            ]
+          },
+          "contact": {
+            "telephone": "(000) 000-0000",
+            "fax": "0000000000"
+          },
+          "transportEventTypeCode": "Destination Terminal",
+          "statusHistory": [
+            {
+              "conciseStatus": "In Transit",
+              "expandedStatus": "Arrived at Pine Bluff, CO (994) delivery facility",
+              "referenceDate": "2026-04-08",
+              "referenceTime": "15:40:20-06:00",
+              "isException": false
+            }
+          ]
+        },
+        {
+          "id": "Delivery",
+          "description": "Actual Delivery",
+          "transportEventTypeCode": "Delivery",
+          "location": {
+            "id": "",
+            "name": "Sample Consignee",
+            "address": {
+              "line": [
+                "1 Sample Street"
+              ],
+              "city": "Sampleton",
+              "state": "ZZ",
+              "postalCode": "00001"
+            },
+            "geoCoordinates": [
+              "-91.2345",
+              "41.2345"
+            ]
+          },
+          "statusHistory": [
+            {
+              "conciseStatus": "Out for Delivery",
+              "expandedStatus": "Out for Delivery",
+              "referenceDate": "2026-04-09",
+              "referenceTime": "07:31:44-06:00",
+              "isException": false
+            },
+            {
+              "conciseStatus": "Out for Delivery",
+              "expandedStatus": "Arrived at Delivery Location",
+              "referenceDate": "2026-04-09",
+              "referenceTime": "10:02:13-06:00",
+              "isException": false
+            },
+            {
+              "conciseStatus": "Out for Delivery",
+              "expandedStatus": "Arrived at Delivery Location",
+              "referenceDate": "2026-04-09",
+              "referenceTime": "10:02:13-06:00",
+              "isException": false
+            },
+            {
+              "conciseStatus": "Out for Delivery",
+              "expandedStatus": "Unload at Delivery Location",
+              "referenceDate": "2026-04-09",
+              "referenceTime": "10:20:05-06:00",
+              "isException": false
+            },
+            {
+              "conciseStatus": "Delivered",
+              "expandedStatus": "Delivery Completed - OK",
+              "referenceDate": "2026-04-09",
+              "referenceTime": "10:26:50-06:00",
+              "isException": false,
+              "reasonCode": "OK",
+              "reason": "Delivery Completed - OK"
+            }
+          ]
+        }
+      ],
+      "trackingInfo": null
+    }
+  ],
+  "error": {
+    "code": 0,
+    "message": "",
+    "details": ""
+  }
+}

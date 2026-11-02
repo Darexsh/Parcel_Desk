@@ -1,0 +1,43 @@
+{
+  "carrier": "ues-uy",
+  "records": [
+    {
+      "number": "UESM932943613",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6852e840e57824bc13e66ad5",
+        "date": "2025-06-18",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ues-uy",
+        "confidence": "high"
+      },
+      "note": "A review on UES's Trustpilot page gives this number for a Mercado Libre purchase UES delivered."
+    },
+    {
+      "number": "ues1687362870685",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://tuquejasuma.com/ues/reclamos/muy-mal-servicio-para-una-entrega-a-domicilio-ues1687362870685",
+        "date": "2023-06-23",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ues-uy",
+        "confidence": "high"
+      },
+      "note": "A complaint on UES's tuQuejaSuma page carries this number in its title; the body calls it the tracking order and describes a UES home delivery and Pick Up; the date is the complainant's follow-up."
+    }
+  ]
+}

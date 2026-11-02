@@ -1,0 +1,98 @@
+{
+  "id": "delnext",
+  "displayName": "Delnext",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "PT",
+      "ES"
+    ]
+  },
+  "brand": {
+    "color": "#068dcf"
+  },
+  "selectable": true,
+  "timezone": "Europe/Lisbon",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "delnext",
+    "steps": [
+      "direct",
+      "retry",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 889
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.delnext.com/PT/track_your_parcel?tracking_code={trackingNumber}",
+    "searchUrl": "https://www.delnext.com/PT/track_your_parcel",
+    "canaryUrl": "https://www.delnext.com/PT/track_your_parcel",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "destination",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "progress_rail",
+      "proof_of_delivery",
+      "recipient_name",
+      "signature",
+      "delivery_options"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "destination",
+      "progress_rail",
+      "proof_of_delivery",
+      "recipient_name",
+      "signature",
+      "delivery_options"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "provider_code",
+      "weight",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.delnext.com",
+        "delnext.com"
+      ],
+      "pathPattern": "^/[A-Z]{2}/track_your_parcel/?$",
+      "params": [
+        "tracking_code"
+      ]
+    },
+    {
+      "domains": [
+        "www.delnext.com",
+        "delnext.com"
+      ],
+      "path": "^/[A-Z]{2}/track_your_parcel/tracking_code/([A-Za-z0-9]+)(?:&reloaded=[A-Z]{2})?/?$"
+    }
+  ],
+  "detection": []
+}

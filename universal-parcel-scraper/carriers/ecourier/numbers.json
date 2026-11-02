@@ -1,0 +1,81 @@
+{
+  "carrier": "ecourier",
+  "records": [
+    {
+      "number": "ECR1030102170392",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://ecourier.com.bd/wp-content/uploads/eCourier_Merchant_API_Document_General_v5.5.pdf",
+        "date": "2024-01-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ecourier",
+        "confidence": "high"
+      },
+      "note": "The ID in the order-placement reply of eCourier's own merchant API documentation, linked from its resources page."
+    },
+    {
+      "number": "ECR0032042424",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://ecourier.com.bd/wp-content/uploads/eCourier_Merchant_API_Document_General_v5.5.pdf",
+        "date": "2024-01-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ecourier",
+        "confidence": "high"
+      },
+      "note": "The ecr value in the parcel-tracking request of eCourier's own merchant API documentation."
+    },
+    {
+      "number": "ECR1022001175478",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://ecourier.com.bd/wp-content/uploads/eCourier_Merchant_API_Document_General_v5.5.pdf",
+        "date": "2024-01-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ecourier",
+        "confidence": "high"
+      },
+      "note": "The REFID in the parcel-tracking reply of eCourier's own merchant API documentation, shown with its status history."
+    },
+    {
+      "number": "ECR1184902409200325",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://ecourier.com.bd/wp-content/uploads/eCourier_Merchant_API_Document_General_v5.5.pdf",
+        "date": "2024-01-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ecourier",
+        "confidence": "high"
+      },
+      "note": "The tracking value in the label-print request of eCourier's own merchant API documentation."
+    }
+  ]
+}

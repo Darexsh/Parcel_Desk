@@ -1,0 +1,48 @@
+{
+  "carrier": "cruz-del-sur",
+  "records": [
+    {
+      "number": "7167660-02",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.cruzdelsur.com/images/img-nic.png",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt",
+          "tforce-freight",
+          "xpo-ltl"
+        ]
+      },
+      "note": "The '¿Qué es el NIC?' illustration on Cruz del Sur's own tracker page prints this NIC on its label drawings; the same number appears on the label photo of its forms site."
+    },
+    {
+      "number": "2014348-19",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://servicios.cruzdelsur.com/FormulariosWeb/images/nic2.png",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Cruz del Sur's own forms site shows this number in the N.I.C. box of a photographed consignment note."
+    }
+  ]
+}

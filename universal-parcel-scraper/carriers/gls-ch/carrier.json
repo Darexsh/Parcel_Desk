@@ -1,0 +1,128 @@
+{
+  "id": "gls-ch",
+  "displayName": "GLS Switzerland",
+  "aliases": [
+    "General Logistics Systems",
+    "GLS Group"
+  ],
+  "region": {
+    "countries": [
+      "CH",
+      "LI"
+    ]
+  },
+  "brand": {
+    "color": "#ffdd00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Zurich",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gls-ch",
+    "requirements": [
+      {
+        "field": "postcode",
+        "validator": "swissPostcode",
+        "label": "Delivery postcode",
+        "type": "text",
+        "placeholder": "8000",
+        "help": "GLS uses the recipient postcode to unlock the detailed event history.",
+        "pattern": "^[0-9]{4}$",
+        "maxLength": 4,
+        "inputMode": "numeric",
+        "autoComplete": "postal-code"
+      }
+    ],
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 920
+    },
+    "refresh": {
+      "minMinutes": 60,
+      "afterFailureMinutes": 240
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "pickup_point",
+    "weight",
+    "delivered_at",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://gls-group.eu/GROUP/en/parcel-tracking?match={trackingNumber}",
+    "searchUrl": "https://gls-group.eu/GROUP/en/parcel-tracking",
+    "canaryUrl": "https://gls-group.eu/GROUP/en/parcel-tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "pickup_point",
+      "weight",
+      "recipient_name",
+      "recipient_address",
+      "recipient_contact",
+      "signature",
+      "customer_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "pickup_point",
+      "weight",
+      "delivered_at",
+      "provider_code"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address",
+      "recipient_contact",
+      "signature",
+      "customer_reference"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "gls-group.eu"
+      ],
+      "params": [
+        "match",
+        "parcelNumber",
+        "matchParcelNumber"
+      ],
+      "pathPattern": "^/CH/"
+    }
+  ],
+  "detection": [
+    {
+      "id": "gls-ch-1",
+      "pattern": "^(?=[A-Z0-9]{8}$)(?=.*[A-Z])(?=.*\\d)[A-Z0-9]{8}$",
+      "confidence": "low"
+    },
+    {
+      "id": "gls-ch-2",
+      "pattern": "^\\d{11}$",
+      "confidence": "low"
+    },
+    {
+      "id": "gls-ch-3",
+      "pattern": "^\\d{12}$",
+      "confidence": "low",
+      "checksum": "gls"
+    },
+    {
+      "id": "gls-ch-4",
+      "pattern": "^[A-Z]{6}$",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "carrier": "c3x",
+  "entries": [
+    {"code": "INF", "wording": "Shipment Information Received", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Seen live on C3X's tracking lookup on api.c3x.ae. The shipment's details reached C3X; in that history it came a day after the parcel arrived at the facility."},
+    {"code": "AF", "wording": "Arrived Facility", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Seen live on C3X's tracking lookup on api.c3x.ae."},
+    {"code": "WC", "wording": "With Delivery Courier", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Seen live on C3X's tracking lookup on api.c3x.ae, on the day of the delivery that followed it."},
+    {"code": "POD", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Seen live on C3X's tracking lookup on api.c3x.ae, with the name of who took the parcel in DeliveredTo. The tracking reply example in a copy of C3X's API documentation has the same code and remark."}
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "icc-worldwide",
+  "displayName": "ICC Worldwide",
+  "aliases": [
+    "ICC World",
+    "ICC",
+    "iccworld"
+  ],
+  "region": {
+    "countries": [
+      "IN",
+      "US",
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#bd0607"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "icc-worldwide",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 628
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.iccworld.com/track-result.php?track_no={trackingNumber}",
+    "searchUrl": "https://www.iccworld.com/",
+    "canaryUrl": "https://www.iccworld.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "signatory",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "signatory"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "provider_code",
+      "eta",
+      "service_name",
+      "weight",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.iccworld.com",
+        "iccworld.com"
+      ],
+      "pathPattern": "^/track-result\\.php$",
+      "params": [
+        "track_no"
+      ]
+    },
+    {
+      "domains": [
+        "www.iccworld.com",
+        "iccworld.com"
+      ],
+      "pathPattern": "^/track\\.asp$",
+      "params": [
+        "txtawbno"
+      ]
+    }
+  ],
+  "detection": []
+}

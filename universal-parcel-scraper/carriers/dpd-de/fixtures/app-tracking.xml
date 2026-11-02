@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <getTrackingDataResponse xmlns="https://cloud.dpd.com/">
+      <getTrackingDataResult>
+        <Version>100</Version>
+        <Language>de_EN</Language>
+        <Ack>true</Ack>
+        <TrackingData>
+          <ParcelNo>01000000000001</ParcelNo>
+          <DataViewStatus>Anonym</DataViewStatus>
+          <Delivered>false</Delivered>
+          <OrderInfo>
+            <ParcelNo>01000000000001</ParcelNo>
+            <Reference1>PRIVATE REFERENCE</Reference1>
+            <Weight>2,50</Weight>
+            <ReceiverName>PRIVATE RECIPIENT</ReceiverName>
+          </OrderInfo>
+          <LabelAddress><Name>PRIVATE RECIPIENT</Name><Street>PRIVATE STREET</Street><Country>DE</Country></LabelAddress>
+          <ShipAddress><Name>PRIVATE RECIPIENT</Name><Street>PRIVATE STREET</Street><Country>DE</Country></ShipAddress>
+          <LastStatusInfo>
+            <StatusReached>true</StatusReached>
+            <StatusID>AT_DELIVERY_DEPOT</StatusID>
+            <StatusText_Mobile>At parcel delivery centre</StatusText_Mobile>
+            <StatusDate>03.01.2026, 09:40</StatusDate>
+            <DepotData><Depot>0100</Depot><Address><City>Musterstadt</City><Mail>PRIVATE@example.invalid</Mail></Address></DepotData>
+          </LastStatusInfo>
+          <StatusInfoContainer>
+            <Delivered><StatusReached>false</StatusReached><StatusID>DELIVERED</StatusID><StatusDate>01.01.2000, 00:00</StatusDate></Delivered>
+          </StatusInfoContainer>
+        </TrackingData>
+      </getTrackingDataResult>
+    </getTrackingDataResponse>
+  </soap:Body>
+</soap:Envelope>

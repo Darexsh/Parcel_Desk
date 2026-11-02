@@ -1,0 +1,42 @@
+{
+  "id": "flecha-amarilla",
+  "displayName": "Paquetería Flecha Amarilla",
+  "aliases": [
+    "Flecha Amarilla",
+    "Paquetería GFA",
+    "Paquetería y Mensajería Flecha Amarilla",
+    "Servicios de Paquetería y Envíos Flecha Amarilla"
+  ],
+  "region": {
+    "countries": [
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#fcca30"
+  },
+  "selectable": true,
+  "timezone": "America/Mexico_City",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.paqueteria-flechaamarilla.com.mx/inicio",
+    "canaryUrl": "https://www.paqueteria-flechaamarilla.com.mx/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "flecha-amarilla-1",
+      "pattern": "^(?:CB\\d{6}|[CP]\\d{6,7})$",
+      "confidence": "low"
+    }
+  ]
+}

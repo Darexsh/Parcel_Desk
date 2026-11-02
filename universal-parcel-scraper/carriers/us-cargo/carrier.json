@@ -1,0 +1,46 @@
+{
+  "id": "us-cargo",
+  "displayName": "US Cargo",
+  "aliases": [
+    "U.S. Cargo",
+    "United States Cargo and Courier Services LLC"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#fdd700"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.us-cargo.com/track-your-shipment?checksrch=prodnumber&prodnumber={trackingNumber}",
+    "searchUrl": "https://www.us-cargo.com/track-your-shipment",
+    "canaryUrl": "https://www.us-cargo.com/track-your-shipment",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "us-cargo.com",
+        "www.us-cargo.com"
+      ],
+      "pathPattern": "^/track-your-shipment/?$",
+      "params": [
+        "prodnumber"
+      ]
+    }
+  ],
+  "detection": []
+}

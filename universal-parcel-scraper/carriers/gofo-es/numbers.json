@@ -1,0 +1,76 @@
+{
+  "carrier": "gofo-es",
+  "records": [
+    {
+      "number": "GFES26222137816984",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/reviews/6a867dbd2ab5ff12cfaedfb6",
+        "access": "full_page",
+        "date": "2026-08-20",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "gofo-es",
+        "confidence": "high"
+      },
+      "note": "A Spanish reviewer on GOFO's Trustpilot page gives it as the tracking number; GOFO's anonymous national tracking service confirms the whole waybill and a Spanish destination."
+    },
+    {
+      "number": "GFES26222140488459",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/reviews/6a8d562746ae83aa199fa95b",
+        "access": "full_page",
+        "date": "2026-08-25",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "gofo-es",
+        "confidence": "high"
+      },
+      "note": "A Spanish reviewer on GOFO's Trustpilot page gives it as the tracking number; GOFO's anonymous national tracking service confirms the whole waybill and a Spanish destination."
+    },
+    {
+      "number": "CIES0000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "gofo-es",
+        "confidence": "high"
+      },
+      "note": "Synthetic identifier following the national format described by GOFO customer support at https://www.gofo.com/es/contact-us/."
+    },
+    {
+      "number": "GFES0000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "gofo-es",
+        "confidence": "high"
+      },
+      "note": "Synthetic identifier following the national format described by GOFO customer support at https://www.gofo.com/es/contact-us/."
+    },
+    {
+      "number": "CIES00000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "gofo-es",
+        "confidence": "high"
+      },
+      "note": "Synthetic identifier following the national format described by GOFO customer support at https://www.gofo.com/es/contact-us/."
+    }
+  ]
+}

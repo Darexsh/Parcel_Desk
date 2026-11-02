@@ -1,0 +1,114 @@
+{
+  "id": "daylight-transport",
+  "displayName": "Daylight Transport",
+  "aliases": [
+    "Daylight",
+    "Daylight Transport, LLC",
+    "DYLT"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#006bb7"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "daylight-transport",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 732
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://mydaylight.dylt.com/external/shipment?probill={trackingNumber}",
+    "searchUrl": "https://www.dylt.com/",
+    "canaryUrl": "https://www.dylt.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "postcodes",
+      "customer_reference",
+      "order_contents",
+      "parcel_count",
+      "weight",
+      "service_name",
+      "delivery_instructions",
+      "additional_services",
+      "next_office"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta"
+    ],
+    "discarded": [
+      "eta_window",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "postcodes",
+      "customer_reference",
+      "order_contents",
+      "parcel_count",
+      "weight",
+      "service_name",
+      "delivery_instructions",
+      "additional_services",
+      "next_office"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "provider_code",
+      "signatory",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "mydaylight.dylt.com"
+      ],
+      "pathPattern": "^/external/shipment/?$",
+      "params": [
+        "probill"
+      ]
+    },
+    {
+      "domains": [
+        "www.dylt.com",
+        "dylt.com"
+      ],
+      "pathPattern": "^/shipment-tracing-result11\\.asp$",
+      "params": [
+        "SelectionValue"
+      ]
+    }
+  ],
+  "detection": []
+}

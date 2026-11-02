@@ -1,0 +1,91 @@
+{
+  "id": "atlantic-courier",
+  "displayName": "Atlantic International Express",
+  "aliases": [
+    "Atlantic International Express Courier"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#e31e24"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "atlantic-courier",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://atlanticcourier.net/track/{trackingNumber}/",
+    "searchUrl": "https://atlanticcourier.net/track/",
+    "canaryUrl": "https://atlanticcourier.net/track/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "destination_country",
+      "recipient_name",
+      "signatory",
+      "delivery_tracking_number",
+      "progress_rail"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "destination_country"
+    ],
+    "discarded": [
+      "recipient_name",
+      "signatory",
+      "delivery_tracking_number",
+      "progress_rail"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "provider_code",
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "origin",
+      "proof_of_delivery",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "atlanticcourier.net",
+        "www.atlanticcourier.net"
+      ],
+      "path": "^/track/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "atlanticcourier.net",
+        "www.atlanticcourier.net"
+      ],
+      "pathPattern": "^/track\\.php$",
+      "params": [
+        "awbno"
+      ]
+    }
+  ],
+  "detection": []
+}

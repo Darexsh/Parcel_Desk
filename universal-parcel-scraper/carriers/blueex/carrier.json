@@ -1,0 +1,101 @@
+{
+  "id": "blueex",
+  "displayName": "BlueEX",
+  "aliases": [
+    "blueEX",
+    "Blue-Ex",
+    "Blue Ex"
+  ],
+  "region": {
+    "countries": [
+      "PK"
+    ]
+  },
+  "brand": {
+    "color": "#1946ba"
+  },
+  "selectable": true,
+  "timezone": "Asia/Karachi",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "blueex",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 747
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://www.blue-ex.com/tracking?trackno={trackingNumber}",
+    "canaryUrl": "https://www.blue-ex.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "progress_rail",
+      "recipient_name",
+      "delivered_at"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "progress_rail",
+      "recipient_name"
+    ],
+    "unavailable": [
+      "eta",
+      "service_name",
+      "weight",
+      "origin",
+      "destination",
+      "sender_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.blue-ex.com",
+        "blue-ex.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "trackno"
+      ]
+    },
+    {
+      "domains": [
+        "www.blue-ex.com",
+        "blue-ex.com"
+      ],
+      "pathPattern": "^/tracking\\.php$",
+      "params": [
+        "cn"
+      ]
+    },
+    {
+      "domains": [
+        "www.blue-ex.com",
+        "blue-ex.com"
+      ],
+      "pathPattern": "^/index\\.php$",
+      "params": [
+        "trackno"
+      ]
+    }
+  ],
+  "detection": []
+}

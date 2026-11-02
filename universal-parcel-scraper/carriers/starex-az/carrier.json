@@ -1,0 +1,88 @@
+{
+  "id": "starex-az",
+  "displayName": "Starex",
+  "aliases": [
+    "Starex MMC",
+    "Starex Global"
+  ],
+  "region": {
+    "countries": [
+      "AZ",
+      "UZ"
+    ]
+  },
+  "brand": {
+    "color": "#005aff"
+  },
+  "selectable": true,
+  "timezone": "Asia/Baku",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "starex-az",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 785
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://starexglobal.com/az/tracking/{trackingNumber}",
+    "searchUrl": "https://starexglobal.com/az/",
+    "canaryUrl": "https://starexglobal.com/az/",
+    "shows": [
+      "status",
+      "history",
+      "recipient_name",
+      "recipient_contact",
+      "recipient_id",
+      "upstream_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_contact",
+      "recipient_id",
+      "upstream_reference"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps",
+      "sender_name",
+      "origin_country",
+      "destination_country"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "starexglobal.com"
+      ],
+      "path": "^/(?:az|en|ru)/tracking/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "starex.az"
+      ],
+      "pathPattern": "^/baglama/?$",
+      "params": [
+        "parcelNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

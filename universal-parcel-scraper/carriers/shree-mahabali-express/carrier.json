@@ -1,0 +1,47 @@
+{
+  "id": "shree-mahabali-express",
+  "displayName": "Shree Mahabali Express",
+  "aliases": [
+    "Mahabali Express",
+    "Mahabali Express Pvt. Ltd.",
+    "Shree Mahabali Express Pvt. Ltd."
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#ff0020"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://shreemahabaliexpress.com/Frm_DocTrack.aspx?No={trackingNumber}",
+    "searchUrl": "https://shreemahabaliexpress.com/",
+    "canaryUrl": "https://shreemahabaliexpress.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "shreemahabaliexpress.com",
+        "www.shreemahabaliexpress.com"
+      ],
+      "pathPattern": "^/Frm_DocTrack\\.aspx$",
+      "params": [
+        "No"
+      ]
+    }
+  ],
+  "detection": []
+}

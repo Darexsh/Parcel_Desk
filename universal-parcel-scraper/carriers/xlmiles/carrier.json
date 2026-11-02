@@ -1,0 +1,64 @@
+{
+  "id": "xlmiles",
+  "displayName": "XLmiles",
+  "aliases": [
+    "Xmiles",
+    "Xmiles Technology",
+    "Xmiles Technology Inc",
+    "XLmiles Logistics",
+    "XLmiles Express",
+    "迅迈物流"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#562581"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.xlmiles.com/track.html?trakno={trackingNumber}",
+    "searchUrl": "https://www.xlmiles.com/track.html",
+    "canaryUrl": "https://www.xlmiles.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "xlmiles.com",
+        "www.xlmiles.com",
+        "myxmiles.com",
+        "www.myxmiles.com"
+      ],
+      "pathPattern": "^/track\\.html$",
+      "params": [
+        "trakno"
+      ]
+    },
+    {
+      "domains": [
+        "xlmiles.com",
+        "www.xlmiles.com",
+        "myxmiles.com",
+        "www.myxmiles.com"
+      ],
+      "pathPattern": "^/(?:index\\.html)?$",
+      "params": [
+        "tracking_number"
+      ]
+    }
+  ],
+  "detection": []
+}

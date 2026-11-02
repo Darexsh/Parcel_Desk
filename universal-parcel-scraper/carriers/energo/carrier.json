@@ -1,0 +1,41 @@
+{
+  "id": "energo",
+  "displayName": "Energo Logistic",
+  "aliases": [
+    "Energo",
+    "Energo Logistic S.p.A."
+  ],
+  "region": {
+    "countries": [
+      "IT"
+    ]
+  },
+  "brand": {
+    "color": "#e30613"
+  },
+  "selectable": true,
+  "timezone": "Europe/Rome",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.energologistic.it/tracking/",
+    "canaryUrl": "https://www.energologistic.it/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "energo-1",
+      "pattern": "^EN\\d{9}$",
+      "rawPattern": "^EN\\d{2}-\\d{6}-\\d$",
+      "confidence": "high"
+    }
+  ]
+}

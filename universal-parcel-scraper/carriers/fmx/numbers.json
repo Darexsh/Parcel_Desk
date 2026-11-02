@@ -1,0 +1,71 @@
+{
+  "carrier": "fmx",
+  "records": [
+    {
+      "number": "MYX1097751505",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.fmx.asia/result_detail.php?p=1&conno=MYX1097751505",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fmx"
+        ]
+      },
+      "note": "FMX's own tracking page for this number, which web search indexes, shows an import held at its KLIA gateway; its tracker finds it."
+    },
+    {
+      "number": "MYX1000002867",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.fmx.asia/images/ref/app1.jpg",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fmx"
+        ]
+      },
+      "note": "Demo data in the screenshots of eFMX's app guide, not a real shipment; its tracker has no data for it."
+    },
+    {
+      "number": "MYX1000008729",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.fmx.asia/images/ref/app1.jpg",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fmx"
+        ]
+      },
+      "note": "Demo data in the screenshots of eFMX's app guide, not a real shipment."
+    }
+  ]
+}

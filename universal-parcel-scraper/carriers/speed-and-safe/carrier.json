@@ -1,0 +1,70 @@
+{
+  "id": "speed-and-safe",
+  "displayName": "Gokulam Speed & Safe",
+  "aliases": [
+    "Speed & Safe",
+    "Speed and Safe",
+    "Speed And Safe Courier Service"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#2e3192"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "speed-and-safe",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "searchUrl": "https://www.gokulamspeedandsafe.com/speedandsafe-tracking/",
+    "canaryUrl": "https://www.gokulamspeedandsafe.com/speedandsafe-tracking/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "scan_times",
+      "recipient_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "scan_times",
+      "provider_code",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "recipient_name"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "origin",
+      "destination",
+      "proof_of_delivery",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [],
+  "detection": []
+}

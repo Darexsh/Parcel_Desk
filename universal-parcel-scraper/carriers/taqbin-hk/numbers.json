@@ -1,0 +1,78 @@
+{
+  "carrier": "taqbin-hk",
+  "records": [
+    {
+      "number": "179063698166",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240903030204/https://delivery.message.sg/YTHKtracking/?a=179063698166",
+        "date": "2024-09-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "An archived address of TA-Q-BIN Hong Kong's tracking page for this waybill; the tracker's status service returns its scans to delivery in Hong Kong."
+    },
+    {
+      "number": "476810569233",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220726015901/https://delivery.message.sg/YTHKtracking/?a=476810569233",
+        "date": "2022-07-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "An archived address of TA-Q-BIN Hong Kong's tracking page for this waybill; the capture holds only the page, and the tracker no longer finds it."
+    }
+  ]
+}

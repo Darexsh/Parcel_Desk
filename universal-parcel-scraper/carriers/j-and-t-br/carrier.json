@@ -1,0 +1,46 @@
+{
+  "id": "j-and-t-br",
+  "displayName": "J&T Express Brazil",
+  "aliases": [
+    "J&T Express Brasil",
+    "J&T Brazil",
+    "JT Express Brasil"
+  ],
+  "region": {
+    "countries": [
+      "BR"
+    ]
+  },
+  "brand": {
+    "color": "#e60000"
+  },
+  "selectable": true,
+  "timezone": "America/Sao_Paulo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.jtexpress.com.br/trajectoryQuery?waybillNo={trackingNumber}&type=0",
+    "searchUrl": "https://www.jtexpress.com.br/trajectoryQuery",
+    "canaryUrl": "https://www.jtexpress.com.br/trajectoryQuery",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "jtexpress.com.br"
+      ],
+      "pathPattern": "^/(?:trajectoryQuery|mobile/expressTracking)/?$",
+      "params": [
+        "waybillNo"
+      ]
+    }
+  ],
+  "detection": []
+}

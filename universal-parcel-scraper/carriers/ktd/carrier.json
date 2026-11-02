@@ -1,0 +1,42 @@
+{
+  "id": "ktd",
+  "displayName": "KTD",
+  "aliases": [
+    "跨通达",
+    "跨通達",
+    "跨通达物流",
+    "深圳市跨通达物流有限公司",
+    "Kuatongda"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#01234d"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "canaryUrl": "https://t.17track.net/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "ktd-1",
+      "pattern": "^KTDWE\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

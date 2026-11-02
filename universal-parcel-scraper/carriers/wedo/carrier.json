@@ -1,0 +1,71 @@
+{
+  "id": "wedo",
+  "displayName": "One by Allegro CZ",
+  "aliases": [
+    "WeDo (InTime)",
+    "WeDo",
+    "WE|DO",
+    "WE DO",
+    "WE|DO CZ",
+    "WE|DO CZ s.r.o.",
+    "IN TIME spedice",
+    "Uloženka",
+    "Ulozenka",
+    "One Kurýr",
+    "One Box CZ"
+  ],
+  "region": {
+    "countries": [
+      "CZ"
+    ]
+  },
+  "brand": {
+    "color": "#006d57"
+  },
+  "selectable": true,
+  "timezone": "Europe/Prague",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://onedelivery.cz/sledovani-zasilky?numer={trackingNumber}",
+    "searchUrl": "https://onedelivery.cz/sledovani-zasilky",
+    "canaryUrl": "https://onedelivery.cz/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "onedelivery.cz",
+        "www.onedelivery.cz"
+      ],
+      "pathPattern": "^/(?:sledovani-zasilky/?)?$",
+      "params": [
+        "numer"
+      ]
+    },
+    {
+      "domains": [
+        "trace.wedo.cz",
+        "trace.intime.cz"
+      ],
+      "pathPattern": "^/index\\.php$",
+      "params": [
+        "orderNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "wedo-1",
+      "pattern": "^(?!7[DX]\\d)\\d(?:[A-Z][0-9A-Z]|\\d[A-Z])\\d{8}$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "zto-international",
+  "displayName": "ZTO International",
+  "aliases": [
+    "中通国际",
+    "ZTO Global"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "KH",
+      "LA",
+      "MM",
+      "MY",
+      "PH",
+      "TH",
+      "VN"
+    ]
+  },
+  "brand": {
+    "color": "#3a8eff"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "zto-international",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 998
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://m.ztoglobal.com/?path=TrackDetails&inputNo={trackingNumber}&lang=en",
+    "searchUrl": "https://m.ztoglobal.com/?path=Search&lang=en",
+    "canaryUrl": "https://m.ztoglobal.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "driver_name",
+      "contact_details",
+      "signatory",
+      "pickup_point",
+      "office_contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "driver_name",
+      "contact_details",
+      "signatory",
+      "pickup_point",
+      "office_contact_details"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "m.ztoglobal.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "inputNo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "zto-international-1",
+      "pattern": "^771\\d{11}$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

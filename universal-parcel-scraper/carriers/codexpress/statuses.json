@@ -1,0 +1,8 @@
+{
+  "carrier": "codexpress",
+  "entries": [
+    {"code": "Created", "wording": "Order received and dispatched from depot", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "From the tracker's own script; it labels this first event Dispatched."},
+    {"code": "Onboard", "wording": "Package picked up by courier", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "From the tracker's own script; the driver has the parcel on board for same-day delivery."},
+    {"code": "Delivered", "wording": "Successfully delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "From the tracker's own script."}
+  ]
+}

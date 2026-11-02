@@ -1,0 +1,48 @@
+{
+  "id": "centurion-transport",
+  "displayName": "Centurion",
+  "aliases": [
+    "Centurion Transport",
+    "Centurion Transport Co",
+    "Centurion Transport Co. Pty Ltd",
+    "Centurion Transport Co Pty Ltd"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#007cc3"
+  },
+  "selectable": true,
+  "timezone": "Australia/Perth",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.centurion.net.au/TrackAndTrace/?track=on&con={trackingNumber}",
+    "searchUrl": "https://www.centurion.net.au/TrackAndTrace/",
+    "canaryUrl": "https://www.centurion.net.au/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.centurion.net.au",
+        "centurion.net.au"
+      ],
+      "pathPattern": "^/TrackAndTrace/?$",
+      "params": [
+        "con"
+      ]
+    }
+  ],
+  "detection": []
+}

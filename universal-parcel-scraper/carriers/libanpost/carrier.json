@@ -1,0 +1,46 @@
+{
+  "id": "libanpost",
+  "displayName": "LibanPost",
+  "aliases": [
+    "Liban Post",
+    "ليبان بوست"
+  ],
+  "region": {
+    "countries": [
+      "LB"
+    ]
+  },
+  "brand": {
+    "color": "#006db7"
+  },
+  "selectable": true,
+  "timezone": "Asia/Beirut",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.libanpost.com/english/tools-support/track-and-trace?sn={trackingNumber}",
+    "searchUrl": "https://www.libanpost.com/english/tools-support/track-and-trace",
+    "canaryUrl": "https://www.libanpost.com/english/tools-support/track-and-trace",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.libanpost.com",
+        "libanpost.com"
+      ],
+      "pathPattern": "^/(?:english|arabic)/tools-support/track-and-trace/?$",
+      "params": [
+        "sn"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "barcode": "JVGL09999999000000000000",
+    "barcodes": ["JVGL09999999000000000000"],
+    "date": "2026-04-02T04:40:11Z",
+    "type": "SHIPMENT",
+    "deliveredAt": "2026-04-03T12:42:00.269+02:00",
+    "created": "2026-04-01T10:14:43.890Z",
+    "totalEvents": 11,
+    "isReturn": false,
+    "events": [
+      { "category": "DATA_RECEIVED", "localTimestamp": "2026-04-01T12:14:43.89+02:00", "leg": { "network": "MDP" }, "status": "PRENOTIFICATION_RECEIVED", "timestamp": "2026-04-01T10:14:43.890Z", "type": "LEG_EVENT" },
+      { "category": "DATA_RECEIVED", "localTimestamp": "2026-04-01T12:14:44+02:00", "leg": { "network": "ECOMMERCE" }, "status": "DATA_RECEIVED_WITH_PREFIX_LABEL", "timestamp": "2026-04-01T10:14:44Z", "type": "PIECE_EVENT" },
+      { "category": "UNDERWAY", "localTimestamp": "2026-04-01T17:30:00+02:00", "leg": { "network": "ECOMMERCE" }, "status": "SHIPMENT_ACCEPTANCE_PARCELSHOP", "timestamp": "2026-04-01T15:30:00Z", "type": "PIECE_EVENT" },
+      { "category": "UNDERWAY", "localTimestamp": "2026-04-02T00:34:46+02:00", "leg": { "network": "ECOMMERCE" }, "status": "PARCEL_SORTED_AT_HUB", "timestamp": "2026-04-01T22:34:46Z", "type": "PIECE_EVENT" },
+      { "category": "UNDERWAY", "localTimestamp": "2026-04-02T06:40:11+02:00", "leg": { "network": "ECOMMERCE" }, "plannedDeliveryTimeframe": "2026-04-02T10:00:00+02:00/2026-04-02T18:00:00+02:00", "status": "INFORMATION_ON_DELIVERY_TRANSMITTED", "timestamp": "2026-04-02T04:40:11Z", "type": "PIECE_EVENT" },
+      { "category": "IN_DELIVERY", "localTimestamp": "2026-04-02T10:49:06+02:00", "leg": { "network": "ECOMMERCE" }, "status": "OUT_FOR_DELIVERY", "timestamp": "2026-04-02T08:49:06Z", "type": "PIECE_EVENT", "momentIndication": "2026-04-02T14:00:00+02:00" },
+      { "category": "PROBLEM", "localTimestamp": "2026-04-02T12:31:22+02:00", "leg": { "network": "ECOMMERCE" }, "status": "NOT_HOME", "timestamp": "2026-04-02T10:31:22Z", "type": "PIECE_EVENT" },
+      { "category": "INTERVENTION", "localTimestamp": "2026-04-02T21:52:05+02:00", "leg": { "network": "ECOMMERCE" }, "status": "INTERVENTION_RECEIVER_REQUESTS_DELIVERY_AT_PARCELSHOP", "timestamp": "2026-04-02T19:52:05Z", "type": "PIECE_EVENT", "momentIndication": "2026-04-03T14:00:00+02:00" },
+      { "category": "IN_DELIVERY", "localTimestamp": "2026-04-03T11:57:41+02:00", "leg": { "network": "ECOMMERCE" }, "status": "DELIVERED_AT_PARCELSHOP", "timestamp": "2026-04-03T09:57:41Z", "type": "PIECE_EVENT" },
+      { "category": "IN_DELIVERY", "localTimestamp": "2026-04-03T11:57:42.475+02:00", "leg": { "network": "ECOMMERCE" }, "status": "NOTIFICATION_FOR_PARCELSHOP_COLLECTION_HAS_BEEN_SENT", "timestamp": "2026-04-03T09:57:42.475Z", "type": "PIECE_EVENT", "momentIndication": "2026-04-03T11:57:42.475+02:00" },
+      { "category": "DELIVERED", "localTimestamp": "2026-04-03T12:42:00.269+02:00", "leg": { "network": "ECOMMERCE" }, "status": "COLLECTED_AT_PARCELSHOP", "timestamp": "2026-04-03T10:42:00.269Z", "type": "PIECE_EVENT", "momentIndication": "2026-04-03T12:42:00.269+02:00" }
+    ]
+  }
+]

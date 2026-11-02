@@ -1,0 +1,48 @@
+{
+  "id": "rincos",
+  "displayName": "Rincos",
+  "aliases": [
+    "RINCOS",
+    "RINCOS Co., Ltd.",
+    "린코스",
+    "주식회사 린코스"
+  ],
+  "region": {
+    "countries": [
+      "KR"
+    ]
+  },
+  "brand": {
+    "color": "#f37022"
+  },
+  "selectable": true,
+  "timezone": "Asia/Seoul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.rincos.asia/out/TraceInfo_kr.do?SCGBN=20&P_VAL={trackingNumber}",
+    "searchUrl": "https://www.rincos.co.kr/tracking/tracking?lang=en",
+    "canaryUrl": "https://www.rincos.co.kr/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.rincos.asia",
+        "rincos.asia"
+      ],
+      "pathPattern": "^/out/TraceInfo_(?:kr|en|jp|cn)\\.do$",
+      "params": [
+        "P_VAL"
+      ]
+    }
+  ],
+  "detection": []
+}

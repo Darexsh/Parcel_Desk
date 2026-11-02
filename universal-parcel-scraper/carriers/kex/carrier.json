@@ -1,0 +1,100 @@
+{
+  "id": "kex",
+  "displayName": "KEX Express (Thailand)",
+  "aliases": [
+    "KEX Express",
+    "KEX Thailand",
+    "Kerry Express Thailand",
+    "Kerry Express (Thailand)",
+    "Kerry Express TH"
+  ],
+  "region": {
+    "countries": [
+      "TH"
+    ]
+  },
+  "brand": {
+    "color": "#f36f21"
+  },
+  "selectable": true,
+  "timezone": "Asia/Bangkok",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "kex",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 959
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "eta",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://th.kex-express.com/en/track/?track={trackingNumber}",
+    "searchUrl": "https://th.kex-express.com/en/track-parcel",
+    "canaryUrl": "https://th.kex-express.com/en/track-parcel",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "progress_rail",
+      "eta",
+      "delivered_at",
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "customer_reference",
+      "courier_name",
+      "contact_details",
+      "signature",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "progress_rail",
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "customer_reference",
+      "courier_name",
+      "contact_details",
+      "signature",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "weight",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "th.kex-express.com",
+        "th.kerryexpress.com"
+      ],
+      "pathPattern": "^/(?:en|th)/track(?:/v2)?/?$",
+      "params": [
+        "track"
+      ]
+    }
+  ],
+  "detection": []
+}

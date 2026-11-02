@@ -1,0 +1,160 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<script type="text/javascript">
+    function PopupCenter(pageURL, title, w, h) {
+        var left = (screen.width / 2) - (w / 2);
+        var top = (screen.height / 2) - (h / 2);
+        var targetWin = window.open(pageURL, title, 'toolbar=no, location=no, status=no, menubar=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+    } 
+</script>
+
+<head id="Head1"><title>
+	Track your PCK Shipment
+</title></head>
+<body>
+    <form method="post" action="./Track.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/PostGlobalTrack/WebResource.axd?d=SAMPLE&amp;t=000000000000000000" type="text/javascript"></script>
+
+
+<script src="/PostGlobalTrack/ScriptResource.axd?d=SAMPLE&amp;t=0000000000000000" type="text/javascript"></script>
+<script src="/PostGlobalTrack/ScriptResource.axd?d=SAMPLE&amp;t=0000000000000000" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="00000000" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('PostGlobalScriptManager', 'form1', ['tPostGlobalUpdatePanel','PostGlobalUpdatePanel'], [], [], 90, '');
+//]]>
+</script>
+
+        <table width="100%" border="0">
+            <tr>
+                <td style="width:100%;">
+                    <table width="100%" border="0">
+                        <tr>
+                            <td style="width:7%">
+                                <img src="Images/logo_org.gif" width="92px" height="92px" alt="POSTAL CORPORATION OF KENYA" />
+                            </td>
+                            <td style="width:90%; font-family:Trebuchet MS; font-size: 28px; font-weight:bolder">
+                                POSTAL CORPORATION OF KENYA <br /> <span style="font-size:18px">Track your PCK Shipment</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <hr />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:100%">
+                    <table width="100%" border="0">
+                        <tr>
+                            <td style="width:40%;">
+                                <table width="100%" style="margin-left:15%;font-size:13px; font-family:Trebuchet MS;">
+                                    <tr>
+                                        <td style="width:100%;">
+                                            <br /><br /><br /><br />
+                                            <br />
+                                            POSTAL CORPORATION OF KENYA's online tracking is the fastest way to find out where your shipment is.  
+                                            It provides complete tracking of your shipment from origin office to the destination 
+                                            <br /><br />
+                                            Enter your shipment ID and click on the search image to get the tracking information for your shipment.  
+                                            The shipment ID will be available on the receipt your received while booking your shipment
+                                            <br /><br />
+                                            Once your shipment is delivered, we also provide SMS/Email notifications to you if you are in Kenya
+                                            <br /><br />
+                                            Tracking information will be available for 120 days after delivery of shipment 
+                                            <br /><br />
+                                            If you are a registered customer with post office, you can also track your shipments through 'My Postoffice' portal 
+                                            <br /><br />
+                                            <span style="font-weight:bold">
+                                            How do I get more help:
+                                            </span>
+                                            <br /><br />
+                                            If you are unable to track your shipment, please contact us at customerservice@posta.co.ke
+                                            <br /><br />
+                                            For more information on our products, please visit us @ www.posta.co.ke
+                                        </td>
+
+                                    </tr>
+                                </table>
+                            </td>
+                            <td style="width:60%;">
+                                <br /><br /><br />
+                                <table width="65%" style="margin-left:35%; margin-right:5%; border-collapse:collapse;border-width:1px;border-style:solid;">
+                                    <tr>
+                                        <td colspan="3" style="width:100%">
+                                            <br />
+                                            <span style="font-size:13px; font-family:Trebuchet MS; margin-left:11%">
+                                                Enter the 13 character length shipment ID
+                                            </span>
+                                            <br />
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="width:25%; text-align:right">
+                                            <span style="font-size:12px; font-family:Trebuchet MS; text-align:right">
+                                            Shipment ID:
+                                            </span>
+                                        </td>
+                                        <td style="width:60%">
+                                            <input name="txtID" type="text" maxlength="13" id="txtID" style="width:98%;" />
+                                        </td>
+
+                                        <td style="width:15%; text-align:left">
+                                            <div id="PostGlobalUpdatePanel">
+	
+                                                    <input type="image" name="ImgBtnTrack" id="ImgBtnTrack" title="Click to get tracking information" src="Images/ItemTrack.png" onclick="if (document.getElementById(&#39;txtID&#39;).value.length == 0){alert(&#39;Enter the shipment ID&#39;);document.getElementById(&#39;txtID&#39;).focus();return false;} else { document.body.style.cursor = &#39;wait&#39;; return true;};" /> 
+                                                
+</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <br />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    
+<script> document.getElementById('txtID').focus();</script></form>
+</body>
+</html>
+

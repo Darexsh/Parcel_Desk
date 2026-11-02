@@ -1,0 +1,243 @@
+{
+  "carrier": "seur",
+  "entries": [
+    {
+      "code": "SX010",
+      "wording": "EL ENVÍO HA SIDO REGISTRADO.",
+      "language": "es",
+      "stage": "registered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "SC999",
+      "wording": "EL ENVÍO HA SIDO REGISTRADO.",
+      "language": "es",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Its group was not kept: SX010's, with the same wording, is assumed."
+    },
+    {
+      "code": "SX605",
+      "wording": "LA RECOGIDA HA SIDO REALIZADA.",
+      "language": "es",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "The pickup made on a pickup reference, before SEUR's origin facility receives the parcel."
+    },
+    {
+      "code": "SX001",
+      "wording": "EL ENVÍO HA SIDO RECEPCIONADO EN LAS INSTALACIONES DE ORIGEN DE SEUR. COMIENZA EL TRÁNSITO A DESTINO",
+      "language": "es",
+      "stage": "accepted",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LI567",
+      "wording": "EL ENVÍO ESTÁ EN TRÁNSITO. PRÓXIMAMENTE LLEGARÁ A LAS INSTALACIONES DE DESTINO.",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LO001",
+      "wording": "EL ENVÍO ESTÁ EN TRÁNSITO. PRÓXIMAMENTE LLEGARÁ A LAS INSTALACIONES DE DESTINO.",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "SW189",
+      "wording": "EL ENVÍO ESTÁ EN TRÁNSITO. PRÓXIMAMENTE LLEGARÁ A LAS INSTALACIONES DE DESTINO.",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "LO001's wording and group, between the registration and the delivery round."
+    },
+    {
+      "code": "LT859",
+      "wording": "EL ENVÍO ESTÁ EN TRÁNSITO INTERNACIONAL. PRÓXIMAMENTE LLEGARÁ A LAS INSTALACIONES DE DESTINO.",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "The international leg in the EN TRÁNSITO group, after SW189."
+    },
+    {
+      "code": "LD221",
+      "wording": "EL ENVÍO HA LLEGADO A LA ADUANA DE DESTINO. INICIAMOS LOS TRÁMITES DE DESPACHO ADUANERO.",
+      "language": "es",
+      "stage": "customs",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LI580",
+      "wording": "EL ENVÍO ESTÁ EN GESTIÓN POR LA ADUANA. TRAMITANDO DESPACHO ADUANERO.",
+      "language": "es",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Its group is the one a provider relayed with the scan."
+    },
+    {
+      "code": "LD223",
+      "wording": "LA MERCANCÍA HA SIDO DESPACHADA Y PRÓXIMAMENTE SALDRÁ A REPARTO.",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Customs clearance is done and the parcel moves on to delivery."
+    },
+    {
+      "code": "LJ100",
+      "wording": "EL ENVÍO SERÁ ENTREGADO EN LA FECHA CONCERTADA. ACTUALIZAREMOS LA SITUACIÓN.",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LJ105",
+      "wording": "LOS DATOS DEL ENVÍO HAN SIDO MODIFICADOS Y SE ENTREGARÁ EN UN PUNTO SEUR PICKUP.",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LI300",
+      "wording": "EL ENVÍO HA SUFRIDO UN RETRASO Y ES POSIBLE QUE SE DEMORE LA ENTREGA. DISCULPA LAS MOLESTIAS.",
+      "language": "es",
+      "confirmedBy": "live",
+      "unmapped": true,
+      "note": "A delay notice in the EN DEMORA group, not a movement: the row keeps the stage of the one before it."
+    },
+    {
+      "code": "LI582",
+      "wording": "EL ENVÍO HA SUFRIDO UN RETRASO PROVOCANDO UNA POSIBLE DEMORA EN LA ENTREGA. DISCULPA LAS MOLESTIAS.",
+      "language": "es",
+      "confirmedBy": "live",
+      "unmapped": true,
+      "note": "A delay notice in the EN DEMORA group, read like LI300. The parcel seen with it moved on to an agreed delivery day."
+    },
+    {
+      "code": "LI557",
+      "wording": "EL ENVÍO HA SUFRIDO UN RETRASO PROVOCANDO UNA POSIBLE DEMORA EN LA ENTREGA. DISCULPA LAS MOLESTIAS.",
+      "language": "es",
+      "confirmedBy": "live",
+      "unmapped": true,
+      "firstSeen": "2026-10-22",
+      "note": "LI582's wording under another code, read like it. The parcel seen with it moved on from the origin's receipt to an agreed delivery day."
+    },
+    {
+      "code": "LI587",
+      "wording": "EL ENVÍO HA SUFRIDO UN RETRASO PROVOCANDO UNA POSIBLE DEMORA EN LA ENTREGA. DISCULPA LAS MOLESTIAS",
+      "language": "es",
+      "confirmedBy": "live",
+      "unmapped": true,
+      "firstSeen": "2026-10-28",
+      "note": "LI582's wording without its last full stop, under another code, read like it. The parcel seen with it listed it alone."
+    },
+    {
+      "code": "LI511",
+      "wording": "EL ENVÍO ESTÁ PENDIENTE DE LLEGAR A DESTINO. EN CUANTO SE RECIBA, ACTUALIZAREMOS LA SITUACIÓN.",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "In the EN DEMORA group, but it says where the parcel is: between the origin's receipt and the transit to the destination's facility."
+    },
+    {
+      "code": "LC003",
+      "wording": "EL ENVÍO ESTÁ EN REPARTO.",
+      "language": "es",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LC001",
+      "wording": "EL ENVÍO ESTÁ EN REPARTO.",
+      "language": "es",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Its group is the one a provider relayed with the scan."
+    },
+    {
+      "code": "LI521",
+      "wording": "EL ENVÍO NO SE HA ENTREGADO PORQUE LA DIRECCIÓN DE ENTREGA ESTÁ INCOMPLETA O ERRÓNEA.",
+      "language": "es",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Recorded hours after each day's delivery round, which starts again the next day: an attempt the address held up."
+    },
+    {
+      "code": "LI523",
+      "wording": "EL ENVÍO NO SE HA ENTREGADO POR AUSENCIA O CIERRE. SE PUEDE REPROGRAMAR UNA NUEVA ENTREGA.",
+      "language": "es",
+      "stage": "failed_attempt",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LI524",
+      "wording": "EL ENVÍO NO SE HA ENTREGADO PORQUE NO ES LA DIRECCIÓN ACTUAL DEL DESTINATARIO.",
+      "language": "es",
+      "stage": "exception",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LI573",
+      "wording": "EL ENVÍO NO HA SIDO DEPOSITADO EN EL LOCKER SELECCIONADO. SE DEBE ELEGIR OTRO PUNTO SEUR PICKUP.",
+      "language": "es",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "The recipient has to pick another point."
+    },
+    {
+      "code": "LI717",
+      "wording": "INCIDENCIA EN ADUANAS: FALTA FACTURA. CONTACTA CON SEUR DESDE EL ÁREA DE SOPORTE.",
+      "language": "es",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Customs holds the parcel until the recipient sends the invoice. Its group is the one a provider relayed with the scan."
+    },
+    {
+      "code": "LI530",
+      "wording": "EL ENVÍO ESTÁ DISPONIBLE PARA RECOGER EN EL PUNTO SEUR PICKUP.",
+      "language": "es",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LL003",
+      "wording": "EL ENVÍO ESTÁ ENTREGADO.",
+      "language": "es",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LL001",
+      "wording": "EL ENVÍO ESTÁ ENTREGADO.",
+      "language": "es",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Its group was not kept: LL003's, with the same wording, is assumed."
+    },
+    {
+      "code": "LL010",
+      "wording": "EL DESTINATARIO HA RETIRADO EL ENVÍO DE LA TIENDA SEUR PICKUP SELECCIONADA.",
+      "language": "es",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LL020",
+      "wording": "EL ENVÍO HA SIDO ENTREGADO A UN VECINO.",
+      "language": "es",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    }
+  ]
+}

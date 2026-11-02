@@ -1,0 +1,45 @@
+{
+  "id": "trexity",
+  "displayName": "Trexity",
+  "aliases": [
+    "Trexity Inc."
+  ],
+  "region": {
+    "countries": [
+      "CA",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#4361ee"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.trexity.com/?t={trackingNumber}",
+    "searchUrl": "https://tracking.trexity.com/",
+    "canaryUrl": "https://tracking.trexity.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.trexity.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "t"
+      ]
+    }
+  ],
+  "detection": []
+}

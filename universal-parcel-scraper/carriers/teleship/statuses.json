@@ -1,0 +1,23 @@
+{
+  "carrier": "teleship",
+  "entries": [
+    {"code": "S_102", "wording": "Shipment info received by carrier", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Event code of a scan of type label_created: the label was bought."},
+    {"code": "S_902", "wording": "Shipment cancelled by shipper", "stage": "exception", "language": "en", "confirmedBy": "live", "note": "Event code of a scan of type cancelled: the shipper voided the label."},
+    {"code": "label_created", "wording": "Label Created", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script; message: label created, awaiting pickup. The FAQ writes it Label created."},
+    {"code": "created", "wording": "Created", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script; message: shipment created."},
+    {"code": "picked_up", "wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script."},
+    {"wording": "Arrived at Teleship hub", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "FAQ event: the first-mile leg ended at Teleship's hub near Heathrow."},
+    {"wording": "Customs released", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "FAQ event, after export or import clearance."},
+    {"code": "in_transit", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script."},
+    {"code": "delayed", "wording": "Delayed", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script; message: slight delay in delivery."},
+    {"code": "out_for_delivery", "wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script; the FAQ attributes this event to the last-mile carrier."},
+    {"code": "delivery_event", "wording": "Delivery Event", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script; its message says a delivery attempt has been made, although the progress rail places it on the delivered step."},
+    {"code": "delivered", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script; the FAQ attributes this event to the last-mile carrier."},
+    {"code": "return_to_sender", "wording": "Return to Sender", "stage": "returned", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script; message: package being returned. The FAQ writes it Return to sender."},
+    {"code": "alert", "wording": "Alert", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script; message: attention needed."},
+    {"code": "cancelled", "wording": "Cancelled", "stage": "exception", "language": "en", "confirmedBy": "live", "note": "Status and scan type of a shipment whose label the shipper voided; the page labels it Cancelled."},
+    {"code": "failed", "wording": "Shipment Failure", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script."},
+    {"code": "terminated", "wording": "Terminated", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script."},
+    {"code": "discarded", "wording": "Discarded", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Status label in the tracking page's script."}
+  ]
+}

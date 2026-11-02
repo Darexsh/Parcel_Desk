@@ -1,0 +1,28 @@
+{
+  "carrier": "redx",
+  "entries": [
+    {"code": "pickup-pending", "wording": "Parcel is created successfully", "stage": "registered", "language": "en", "confirmedBy": "live"},
+    {"code": "received-from-seller", "wording": "Parcel is picked up", "stage": "accepted", "language": "en", "confirmedBy": "live"},
+    {"code": "dispatched-to-line-haul", "wording": "Parcel is ready for transfer from Kamlapur Hub to REDX Central Mother Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The wording names the hubs, which vary."},
+    {"code": "dispatched-to-line-haul", "wording": "Parcel is ready for transfer from Azimpur Hub to REDX Central Mother Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The wording names the hubs, which vary."},
+    {"code": "trip-started", "wording": "Parcel carrying vehicle has left from Kamlapur Hub for REDX Central Mother Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The wording names the hubs, which vary."},
+    {"code": "bulk-dropped", "wording": "Parcel carrying vehicle has reached Gouripur Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The wording names the hub, which varies; the scan can repeat seconds apart."},
+    {"code": "received-transfer", "wording": "Parcel is unloaded from the vehicle in REDX Central Mother Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The wording names the hub, which varies."},
+    {"code": "received-transit", "wording": "Parcel transitted from REDX Central Mother Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The wording names the hub, which varies."},
+    {"code": "received-from-hub", "wording": "Parcel is received in Kallyanpur Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Received at a hub, including the delivery hub; the hub varies."},
+    {"code": "received-area-change-approved-parcel", "wording": "The parcel delivery area has changed and will move to a new hub.", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "ready-for-delivery-by-bot", "wording": "Parcel is being processed for delivery", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Prepared again for delivery after a hold."},
+    {"code": "ready-for-delivery-by-user", "wording": "Parcel is being processed for delivery", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Prepared again for delivery after a hold, by staff."},
+    {"code": "dispatched-to-agent", "wording": "Parcel is on the way to delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "The wording goes on to name the rider, the rider's phone number and sometimes the areas they serve; the adapter takes them out and records this form."},
+    {"code": "agent-hold-returning", "wording": "Parcel is On Hold : কাস্টমারের সাথে যোগাযোগ এর চেষ্টা চলছে, যোগাযোগ সম্পন্ন হওয়া মাত্রই ডেলিভারি করা হবে", "stage": "failed_attempt", "language": "bn", "confirmedBy": "live", "note": "English prefix with a Bengali reason, after a delivery run: the rider is trying to reach the customer and will deliver once reached."},
+    {"code": "agent-hold-returning", "wording": "Parcel is On Hold : কাস্টমার ডেলিভারির সময় পরিবর্তন করতে চেয়েছেন – অন্য দিন/জায়গায় ডেলিভারি নিবেন।", "stage": "failed_attempt", "language": "bn", "confirmedBy": "live", "note": "English prefix with a Bengali reason, after a delivery run: the customer asked for another day or place."},
+    {"code": "agent-delivered", "wording": "Parcel is delivered successfully", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"code": "delivery-payment-collected", "wording": "Parcel is Delivered Successfully", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "A delivery with the cash on delivery collected."},
+    {"wording": "Parcel is ready for transfer from Kamlapur Hub to Tongi (Central Mother Hub)", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The wording names the hubs, which vary."},
+    {"wording": "Parcel carrying vehicle has left from Kamlapur Hub for Tejgaon Central Mother Hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The wording names the hubs, which vary."},
+    {"wording": "Parcel is unloaded from the vehicle in Tejgaon Central Mother Hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The wording names the hub, which varies."},
+    {"wording": "Parcel transitted from Tejgaon Central Mother Hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The wording names the hub, which varies."},
+    {"wording": "Package is created successfully", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Sample tracking reply in RedX's developer API documentation; the public tracker says Parcel instead of Package."},
+    {"wording": "Package is picked up", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Sample tracking reply in RedX's developer API documentation."}
+  ]
+}

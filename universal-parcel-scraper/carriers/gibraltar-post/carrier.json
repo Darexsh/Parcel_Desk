@@ -1,0 +1,36 @@
+{
+  "id": "gibraltar-post",
+  "displayName": "Royal Gibraltar Post Office",
+  "aliases": [
+    "Gibraltar Post",
+    "RGPO",
+    "Royal GPO",
+    "HM Royal Gibraltar Post Office"
+  ],
+  "region": {
+    "countries": [
+      "GI"
+    ]
+  },
+  "brand": {
+    "color": "#e51f26"
+  },
+  "selectable": true,
+  "timezone": "Europe/Gibraltar",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://post.gi/track-and-trace/",
+    "canaryUrl": "https://post.gi/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "daewoo-fastex",
+  "displayName": "Daewoo FastEx",
+  "aliases": [
+    "FastEx",
+    "Daewoo FastEx Courier",
+    "Daewoo FastEX Cargo"
+  ],
+  "region": {
+    "countries": [
+      "PK"
+    ]
+  },
+  "brand": {
+    "color": "#0066b3"
+  },
+  "selectable": true,
+  "timezone": "Asia/Karachi",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://fastex.pk/trackingDetail",
+    "canaryUrl": "https://fastex.pk/trackingDetail",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "fastex.pk",
+        "www.fastex.pk"
+      ],
+      "pathPattern": "^/trackingDetail/?$",
+      "params": [
+        "trackingNo"
+      ]
+    }
+  ],
+  "detection": []
+}

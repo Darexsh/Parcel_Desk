@@ -1,0 +1,23 @@
+{
+  "carrier": "guatex",
+  "entries": [
+    {"wording": "Guía pendiente de recolectar", "stage": "registered", "language": "es", "confirmedBy": "portal", "note": "First progress step of the tracker page's script, printed over two lines."},
+    {"wording": "La guía fue creada", "stage": "registered", "language": "es", "confirmedBy": "portal", "note": "Wording in the tracker page's own script at servicios.guatex.gt/Guatex/RastreoTracking, followed there by the date and time."},
+    {"wording": "El paquete fue recolectado", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Wording in the tracker page's own script at servicios.guatex.gt/Guatex/RastreoTracking, followed there by the date and time."},
+    {"wording": "El paquete ingresó a bodega", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Wording in the tracker page's own script at servicios.guatex.gt/Guatex/RastreoTracking, followed there by the date and time."},
+    {"wording": "El paquete salió a ruta", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal", "note": "Wording in the tracker page's own script at servicios.guatex.gt/Guatex/RastreoTracking, followed there by the date and time."},
+    {"wording": "El paquete ha sido entregado", "stage": "delivered", "language": "es", "confirmedBy": "portal", "note": "Wording in the tracker page's own script at servicios.guatex.gt/Guatex/RastreoTracking, followed there by the date and time."},
+    {"wording": "El paquete no fue entregado", "stage": "failed_attempt", "language": "es", "confirmedBy": "portal", "note": "Wording in the tracker page's own script at servicios.guatex.gt/Guatex/RastreoTracking, followed there by the date and time."},
+    {"wording": "El monto ha sido acreditado", "language": "es", "confirmedBy": "portal", "note": "Cash-on-delivery step of the tracker page's script: the collected amount was credited to the sender."},
+    {"code": "PR", "wording": "PENDIENTE", "stage": "registered", "language": "es", "confirmedBy": "bundle", "note": "Code the tracker page's script names PENDIENTE and shows as \"La guía fue creada\": the guía is created and the parcel is still to collect."},
+    {"code": "R", "wording": "Recolección Móvil", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "The courier's collection from the sender. The page's script names the code RECOLECTADO."},
+    {"code": "G", "wording": "Egreso de Agencia", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Left the agency, between the collection and a warehouse. The page's script names no state for the code and leaves the row out."},
+    {"code": "I", "wording": "Ingreso a Bodega", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Arrived at a warehouse. The page's script names the code EN_BODEGA; a row whose wording names a return (\"Devoluci\") is a return under way."},
+    {"code": "E", "wording": "Egreso de Bodega", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Left a warehouse on a route. The page's script names the code EN_RUTA, but the same code takes parcels between warehouses, so it is out for delivery only when the courier's delivery (T) or a failed attempt (NE) follows it."},
+    {"code": "T", "wording": "Entrega Móvil", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "The courier's delivery, on the clock the summary gives as the time the guía was received. The page's script names the code ENTREGADO; a row whose wording names a return is the return delivered to the sender."},
+    {"code": "N", "wording": "Entregado en Agencia", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Seen hours after a courier's delivery (T): the same delivery recorded at the agency, not a later one. The page's script names the code ENTREGADO, as for T."},
+    {"code": "NE", "wording": "NO ENTREGADO", "stage": "failed_attempt", "language": "es", "confirmedBy": "bundle", "note": "Code the tracker page's script names NO ENTREGADO. The row's wording is the reason, which the page lists; a reason that names a return is a return requested (\"Solicitud de devolución\" on the page)."},
+    {"code": "S", "wording": "ACREDITADO", "language": "es", "confirmedBy": "bundle", "note": "Code the tracker page's script names ACREDITADO: the cash-on-delivery amount credited to the sender. It moves nothing, and the page and the adapter leave such a row out."},
+    {"wording": "ENTREGADO", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "The summary's status of a guía the page shows as received, with the day and clock of the courier's delivery."}
+  ]
+}

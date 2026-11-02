@@ -1,0 +1,120 @@
+{
+  "id": "transmission",
+  "displayName": "TransMission",
+  "aliases": [
+    "TransMission B.V."
+  ],
+  "region": {
+    "countries": [
+      "NL",
+      "BE",
+      "LU"
+    ]
+  },
+  "brand": {
+    "color": "#e32314"
+  },
+  "selectable": true,
+  "timezone": "Europe/Amsterdam",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "transmission",
+    "requirements": [
+      {
+        "field": "postcode",
+        "validator": "internationalPostcode",
+        "label": "Delivery postcode",
+        "type": "text",
+        "placeholder": "1234 AB",
+        "help": "TransMission shows a shipment only with the recipient's postcode.",
+        "pattern": "^[1-9][0-9]{3} ?(?:[A-Za-z]{2})?$",
+        "maxLength": 7,
+        "inputMode": "text",
+        "autoComplete": "postal-code"
+      }
+    ],
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "eta",
+    "eta_window",
+    "weight",
+    "provider_code"
+  ],
+  "portal": {
+    "searchUrl": "https://api.trans-mission.nl/Search-shipment",
+    "canaryUrl": "https://api.trans-mission.nl/Search-shipment",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "weight",
+      "dimensions",
+      "parcel_count",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "customer_reference",
+      "order_reference",
+      "departure_date",
+      "signatory"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "weight"
+    ],
+    "discarded": [
+      "progress_rail",
+      "dimensions",
+      "parcel_count",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "customer_reference",
+      "order_reference",
+      "departure_date",
+      "signatory"
+    ],
+    "unavailable": [
+      "service_name",
+      "proof_of_delivery",
+      "pickup_point",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "api.trans-mission.nl"
+      ],
+      "path": "^/tt/([^/?#]+)/[^/?#]+/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "transmission-1",
+      "pattern": "^[TP]\\d{14}$",
+      "confidence": "low"
+    }
+  ]
+}

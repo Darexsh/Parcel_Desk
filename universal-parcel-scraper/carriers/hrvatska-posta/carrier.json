@@ -1,0 +1,108 @@
+{
+  "id": "hrvatska-posta",
+  "displayName": "Hrvatska pošta",
+  "aliases": [
+    "Croatian Post",
+    "Hrvatska Pošta",
+    "Hrvatska posta",
+    "Croatia Post",
+    "HP"
+  ],
+  "region": {
+    "countries": [
+      "HR"
+    ]
+  },
+  "brand": {
+    "color": "#ffd100"
+  },
+  "selectable": true,
+  "timezone": "Europe/Zagreb",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "hrvatska-posta",
+    "steps": [
+      "direct",
+      "retry",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 160
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "weight",
+    "pickup_point"
+  ],
+  "portal": {
+    "url": "https://posiljka.posta.hr/hr/tracking/trackingdata?barcode={trackingNumber}",
+    "searchUrl": "https://posiljka.posta.hr/",
+    "helpUrl": "https://www.posta.hr/kontakt-centar",
+    "canaryUrl": "https://posiljka.posta.hr/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "postcodes",
+      "delivery_unit_logo"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "pickup_point"
+    ],
+    "discarded": [
+      "postcodes",
+      "delivery_unit_logo"
+    ],
+    "unavailable": [
+      "eta",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "posiljka.posta.hr"
+      ],
+      "pathPattern": "^/(?:hr/|en/)?tracking/(?:trackingdata|details)/?$",
+      "params": [
+        "barcode"
+      ]
+    },
+    {
+      "domains": [
+        "posta.hr"
+      ],
+      "pathPattern": "^/pracenje-postanskih-posiljaka-track-trace/[0-9]+/?$",
+      "params": [
+        "broj"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "hrvatska-posta-own",
+      "pattern": "^[CELR][A-Z]\\d{9}HR$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "hrvatska-posta-s10",
+      "pattern": "^[A-Z]{2}\\d{9}HR$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

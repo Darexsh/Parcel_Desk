@@ -1,0 +1,22 @@
+{
+  "carrier": "shipx-asia",
+  "gap": "No public page shows a real ShipX number.",
+  "records": [
+    {
+      "number": "SX458291074VN",
+      "role": "negative",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://shipx.asia/toolkit/shipment-tracker",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The example of a ShipX ID on ShipX's own tracking page, not a real shipment. Its S10 check digit does not validate, and the tracker does not find it."
+    }
+  ]
+}

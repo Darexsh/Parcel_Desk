@@ -1,0 +1,28 @@
+{
+  "carrier": "quality-post",
+  "records": [
+    {
+      "number": "ITX0398560",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250705193652/https://tracking.qualitypost.com.mx/newtracking/seguimiento_envio?id=ITX0398560",
+        "date": "2025-07-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "An archived lookup on Quality Post's former tracker, showing a delivery's history. The tracker no longer knows it, and the three letters look like a sender's code."
+    }
+  ]
+}

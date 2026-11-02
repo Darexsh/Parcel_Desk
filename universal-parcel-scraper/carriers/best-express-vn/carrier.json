@@ -1,0 +1,48 @@
+{
+  "id": "best-express-vn",
+  "displayName": "BEST Express Vietnam",
+  "aliases": [
+    "BEST Express Việt Nam",
+    "BEST Inc. Vietnam",
+    "BEST Express VN"
+  ],
+  "region": {
+    "countries": [
+      "VN"
+    ]
+  },
+  "brand": {
+    "color": "#d80c18"
+  },
+  "selectable": true,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.best-inc.vn/track?bills={trackingNumber}",
+    "searchUrl": "https://www.best-inc.vn/track",
+    "canaryUrl": "https://www.best-inc.vn/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "best-inc.vn",
+        "www.best-inc.vn"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "bills",
+        "waybill"
+      ]
+    }
+  ],
+  "detection": []
+}

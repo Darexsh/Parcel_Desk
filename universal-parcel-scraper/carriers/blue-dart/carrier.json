@@ -1,0 +1,65 @@
+{
+  "id": "blue-dart",
+  "displayName": "Blue Dart",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#0059a9"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "blue-dart",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 599,
+      "servedCountriesOnly": true
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history"
+  ],
+  "portal": {
+    "url": "https://www.bluedart.com/trackdartresultthirdparty?trackFor=0&trackNo={trackingNumber}",
+    "searchUrl": "https://www.bluedart.com/tracking",
+    "canaryUrl": "https://www.bluedart.com/trackdartresultthirdparty",
+    "shows": [
+      "status",
+      "history"
+    ],
+    "scraped": [
+      "status",
+      "history"
+    ],
+    "discarded": [
+      "recipient"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "bluedart.com"
+      ],
+      "params": [
+        "trackNo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "blue-dart-1",
+      "pattern": "^\\d{11}$",
+      "confidence": "low",
+      "checksum": "mod7"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "alljoy",
+  "displayName": "AllJoy",
+  "aliases": [
+    "ALLJOY SUPPLY CHAIN CO.,LTD",
+    "Alljoy Supply Chain",
+    "Alljoy Logistics",
+    "全和悦",
+    "全和悦供应链",
+    "深圳市全和悦供应链管理有限公司",
+    "深圳市全和悦国际货运代理有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#004899"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://web.alljoylogistics.com/track?order={trackingNumber}",
+    "searchUrl": "https://web.alljoylogistics.com/track",
+    "canaryUrl": "https://web.alljoylogistics.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "web.alljoylogistics.com"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "order"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "alljoy-1",
+      "pattern": "^ALJTR\\d{13}$",
+      "confidence": "low"
+    },
+    {
+      "id": "alljoy-2",
+      "pattern": "^ALJ[A-Z]{2}\\d{10}YQ$",
+      "confidence": "low"
+    }
+  ]
+}

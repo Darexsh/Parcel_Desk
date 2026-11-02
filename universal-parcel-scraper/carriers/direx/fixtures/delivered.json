@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1000017,
+    "tracking_code": "9900000017",
+    "country_id": 230,
+    "partners_service_id": 194,
+    "product_id": 32,
+    "cod_method_text": null,
+    "transformed_tracking_link": "https://apgecommerce.com/track-result/?track_sequenceNo=420000009261299000000000000000",
+    "api_label": {
+      "shipment_id": 1000017,
+      "item": "420000009261299000000000000000"
+    },
+    "country": {
+      "id": 230,
+      "name_en": "United States",
+      "code": "US",
+      "name": "United States"
+    },
+    "partner_service": {
+      "id": 194,
+      "tracking_link": "https://apgecommerce.com/track-result/?track_sequenceNo=[TRACKING_NUMBER]",
+      "code": "APU",
+      "display_name": "USPS",
+      "use_direct_injection": false,
+      "manual_manifest": false
+    },
+    "product": {
+      "name": "DX TRACKED",
+      "id": 32
+    },
+    "main_statuses": [
+      {
+        "id": 1,
+        "name": "Created",
+        "code": "CRD",
+        "is_delivery": 0,
+        "key": "main_status.created",
+        "pivot": { "shipment_id": 1000017, "main_status_id": 1, "created_at": "2026-03-02 08:14:05" }
+      },
+      {
+        "id": 2,
+        "name": "Accepted by Direx",
+        "code": "APO",
+        "is_delivery": 0,
+        "key": "main_status.accepted_postone",
+        "pivot": { "shipment_id": 1000017, "main_status_id": 2, "created_at": "2026-03-02 15:40:12" }
+      },
+      {
+        "id": 3,
+        "name": "Dispatched",
+        "code": "DED",
+        "is_delivery": 0,
+        "key": "main_status.dispatched",
+        "pivot": { "shipment_id": 1000017, "main_status_id": 3, "created_at": "2026-03-03 16:05:44" }
+      },
+      {
+        "id": 3,
+        "name": "Dispatched",
+        "code": "DED",
+        "is_delivery": 0,
+        "key": "main_status.dispatched",
+        "pivot": { "shipment_id": 1000017, "main_status_id": 3, "created_at": "2026-03-03 16:05:44" }
+      },
+      {
+        "id": 6,
+        "name": "In Destination Country",
+        "code": "ADC",
+        "is_delivery": 0,
+        "key": "main_status.arrived_country",
+        "pivot": { "shipment_id": 1000017, "main_status_id": 6, "created_at": "2026-03-06 13:09:00" }
+      },
+      {
+        "id": 5,
+        "name": "In Transit",
+        "code": "ITT",
+        "is_delivery": 0,
+        "key": "main_status.in_transit",
+        "pivot": { "shipment_id": 1000017, "main_status_id": 5, "created_at": "2026-03-06 10:42:00" }
+      },
+      {
+        "id": 8,
+        "name": "Delivered",
+        "code": "DLD",
+        "is_delivery": 1,
+        "key": "main_status.delivered",
+        "pivot": { "shipment_id": 1000017, "main_status_id": 8, "created_at": "2026-03-10 00:21:00" }
+      }
+    ]
+  }
+]

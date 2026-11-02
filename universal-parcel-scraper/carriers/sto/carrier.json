@@ -1,0 +1,87 @@
+{
+  "id": "sto",
+  "displayName": "STO Express",
+  "aliases": [
+    "STO Global",
+    "申通国际",
+    "申通快递"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#ff6700"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "sto",
+    "steps": [
+      "direct"
+    ],
+    "localClocks": true,
+    "recognition": {
+      "rank": 540,
+      "pattern": "^77\\d{13}$"
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "provider_code",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://www.sto.cn/",
+    "searchUrl": "https://www.sto.cn/",
+    "helpUrl": "https://page.sto.cn/ued-projects/sto-customer-onlinekf",
+    "canaryUrl": "https://page.sto.cn/ued-projects/sto-customer-onlinekf",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "pickup_point",
+      "pickup_code",
+      "contact_details",
+      "signature",
+      "collection_addresses"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "provider_code",
+      "weight"
+    ],
+    "discarded": [
+      "contact_details",
+      "signature",
+      "collection_addresses",
+      "pickup_point",
+      "pickup_code"
+    ],
+    "unavailable": [
+      "eta"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "sto-1",
+      "pattern": "^\\d{12}$",
+      "confidence": "low"
+    },
+    {
+      "id": "sto-2",
+      "pattern": "^77\\d{13}$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

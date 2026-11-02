@@ -1,0 +1,50 @@
+{
+  "id": "pago",
+  "displayName": "PAGO Logistics",
+  "aliases": [
+    "Pago",
+    "PAGO International Logistics",
+    "派格国际物流",
+    "派格物流",
+    "深圳市派格通运货运代理有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#d8242b"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.szpago.com/?number={trackingNumber}",
+    "searchUrl": "https://www.szpago.com/",
+    "canaryUrl": "https://www.szpago.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.szpago.com",
+        "szpago.com"
+      ],
+      "pathPattern": "^/(?:en/)?$",
+      "params": [
+        "number"
+      ]
+    }
+  ],
+  "detection": []
+}

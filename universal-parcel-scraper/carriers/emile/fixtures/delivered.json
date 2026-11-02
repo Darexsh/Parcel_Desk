@@ -1,0 +1,15 @@
+{
+  "carriers": ["Yun Express", "eMile"],
+  "services": [{"slug": "yun-express", "name": "Yun Express"}, {"slug": "emile", "name": "eMile"}],
+  "status": "archive",
+  "sub_status": "delivered",
+  "originCode": "CN",
+  "destinationCode": "CA",
+  "states": [
+    {"location": "Example City", "date": "2026-01-06T15:00:00Z", "carrier": 0, "status": "DELIVERED"},
+    {"location": "Example City", "date": "2026-01-06T13:00:00Z", "carrier": 0, "status": "OUT FOR DELIVERY"},
+    {"location": "Example Hub", "date": "2026-01-05T18:00:00Z", "carrier": 0, "status": "ORDER SORTED"},
+    {"location": "Example Hub", "date": "2026-01-05T09:00:00Z", "carrier": 0, "status": "ARRIVE TRANSITHUB"},
+    {"date": "2026-01-02T08:00:00Z", "carrier": 0, "status": "Shipment information received"}
+  ]
+}

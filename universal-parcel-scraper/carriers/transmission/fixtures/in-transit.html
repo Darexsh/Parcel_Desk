@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+   <head>
+            <title>TransMission - Track & Trace</title>
+      <meta charset='UTF-8'>
+      <meta name="application-name" content="api02" />
+      <meta name="language" content="NL, Nederlands, Dutch" />
+   </head>
+   <body>
+      <a class="sr-only sr-only-focusable" href='#main-content-area'>Skip to main content</a>
+   <div class="content-wrapper active not-login" id='main-content-area'>
+          <header class="header mb-0 delivery-appointment-border">
+        <div class="row m-0">
+            <div class="col-8 text-center align-self-center">
+            <h3>Zending details</h3>
+            </div>
+        </div>
+    </header><br />
+          <div class="main-content small-gutter" role='main'>
+         <div class='row m-0'>
+            <div class='col-12 m-t-n16'>
+               <div class='row order-top-list'>
+                  <div class='col-md-3 box'>
+                     <p class='mb-1 gray-500 subtitle-s2'>Zendingnummer</p>
+                     <h4 class='mb-0 gray-900'>P 45 000000 000002<a title="Kopieer Zendingnummer" onclick="copyValueToClipboard('https://api.trans-mission.nl/tt/P45000000000002/1234AB')" href="#"><span class="fa fa-copy pl-1"></span></a></h4>
+                  </div>
+                  <div class='col-md-3 box'>
+                      <p class='mb-1 gray-500 subtitle-s2'>Ordernummer</p>
+                      <div>
+                          <h4>Ordernummer 1: SYNTH-0002</h4>                      </div>
+                  </div>
+                  <div class='col-md-3 box'>
+                     <p class='mb-1 gray-500 subtitle-s2'>VVA</p>
+                     <h4 class='mb-0 gray-900'>000002</h4>
+                  </div>
+                  <div class='col-md-3 box'>
+                     <p class='mb-1 gray-500 subtitle-s2'>Datum vertrek</p>
+                     <h4 class='mb-0 gray-900'>24-10-2026</h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- row first   -->
+         <div class='row m-0 bg-blue-50 py-2'>
+            <div class='col-12 text-center'>
+               <h2 class='gray-900 s-bold '>Aangekomen in uw regio</h2>
+               <h4 class='gray-500 mt-2'></h4>
+                <p class="body-b2 gray-500"></p>
+            </div>
+             <div class="table-responsive"><table class="table  no-margin theme-table"><tr class="clickable-row"><td onClick="$('#div_1').toggle();"><h4 class="mb-1 gray-900 body-b1 font-weight-500">Deellevering 1 (Levering) </h4><div class="col-12" id="div_1"><ul id="progressbar" class="text-center"><li class="step0 active" id="step5"><div class="progressbar-content"><h3 class="body-b1 mb-1">Zending aangemeld<img src="/images/order/TimelineSuccess.svg"></h3><p class="body-b2 gray-500">24-10-2026</p></div></li><li class="step0 active" id="step3"><div class="progressbar-content CellWithComment"><h3 class="body-b1 mb-1">Aangekomen in uw regio<img src="/images/order/TimelineSuccess.svg"><span class="CellComment min-width-120 text-left"><h6 class="heading subtitle-s2 text-uppercase">4500</h6><p class="content">SAMPLE LOGISTICS B.V.</p><p class="content gray-500">MONSTERWEG 3<br/>PROEFSTAD</p></span></h3><p class="body-b2 gray-500">25-10-2026 02:30</p></div></li><li class="step0 " id="step1"></li><li class="step0 " id="step4"></li><li class="step0 " id="step5"></li></ul"></div></table></div></div>
+            <!-- DIV   -->
+         </div>
+         <!-- row 2nd   -->
+         <div class='row m-0'>
+            <div class='col-12 '>
+               <div class='row order-top-list'>
+                       <div class='col-sm-6 col-md-4 box '>
+                           <h6 class='mb-2 gray-500 overline'>Afzender</h6>
+                           <h4 class='mb-1 gray-900 body-b1 font-weight-500'>Example Webshop</h4>
+                           <address class='gray-700 body-b2 mb-1'>
+                               VOORBEELDLAAN 9<br/>
+                               9999ZZ VOORBEELDSTAD                           </address>
+                       </div>
+                       <div class='col-sm-6 col-md-4 box '>
+                           <h6 class='mb-2 gray-500 overline'>Geadresseerde</h6>
+                           <h4 class='mb-1 gray-900 body-b1 font-weight-500'>Jan Proef</h4>
+                           <address class='gray-700 body-b2 mb-1'>
+                               proefpad 8<br/>
+                               1234AB monsterdorp                           </address>
+                       </div>
+                  <!-- BOX   -->
+                  <div class='col-md-4 box '>
+                     <h6 class='mb-2 gray-500 overline'>Aflevering</h6>
+                                                <h4 class='mb-1 gray-500 body-b2 font-weight-500'>Verwacht op:</h4>
+                                                    <h6 class='mb-1 gray-900 body-b2 font-weight-500 mb-2'>26-10-2026</h6>
+                                                      <address class='gray-700 body-b2 mb-1'>Bezorgtijd nog onbekend</address>
+                  </div>
+                  <!-- BOX   -->
+               </div>
+            </div>
+         </div>
+         <!-- row 3rd   -->
+         <div class='row m-0'>
+            <div class='col-12 mt-3'>
+               <h4>Verzendeenheden</h4>
+                <div class='table-responsive'>
+                <table class="table  no-margin theme-table"><thead><tr><th>Barcode</th><th>Verzendeenheid</th><th>Gewicht (kg)</th><th>Afmetingen (cm, l x b x h)</th><th># verpakkingen</th><th>ADR</th><th>Omruilen</th><th>Referentie</th><th>Omschrijving</th><th>Status</th><th>Laatste update</th></tr></thead><tbody><tr class="clickable-row" onClick="$('#shipment_unit_details_title').text('P45000000000002001');event.preventDefault();$('#shipment_unit_details' ).html($('#unit_detail_1').html());$('#shipment_unit_details').modal('toggle');" href="#"><td>P45000000000002001</td><td>PLH</td><td>12.75</td><td>80 x 60 x 120</td><td>0</td><td></td><td>Nee</td><td style="min-width:150px;"></td><td style="min-width:200px;">Bel voor bezorging 0600000000</td><td style="min-width:100px;">Aangekomen in uw regio</td><td style="min-width:100px;">25-10-26 02:30</td></div></div></td></tr></tbody></table>                </div>
+            </div>
+         </div>
+               </div>
+   </div>
+</div>
+</div>
+<div class="modal fade theme-modal" id="unit_detail_1" data-backdrop="static" tabindex="-1" role="dialog" aria-hidden="true">    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="unit_details_title_1">P45000000000002001</h4>
+            </div>
+            <div class="modal-body info-modal scrollbar" id="shipment_unit_details_body_1"">
+            <div class='row mt-3'>
+                <div class='col-12'>
+                    <h4 class='subtitle-s1 gray-900'>Historie</h4>
+                    <div class='table-responsive'>
+                        <table class='table  no-margin theme-table theme-common-table  mb-0'>
+                            <thead>
+                            <tr>
+                                <th>Datum</th>
+                                <th>Tijd</th>
+                                <th>Depot</th>
+                                <th>Zoek code</th>
+                                <th>Status</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                    <tr>
+                                        <td>25-10-2026</td>
+                                        <td>02:30:00</td>
+                                        <td>4500</td>
+                                        <td>30</td>
+                                        <td>Aangekomen in uw regio</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24-10-2026</td>
+                                        <td>18:41:11</td>
+                                        <td>4500</td>
+                                        <td>20</td>
+                                        <td>Bezorgtijd nog onbekend</td>
+                                    </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   </body>
+</html>

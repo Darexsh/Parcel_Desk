@@ -1,0 +1,59 @@
+{
+  "id": "fastgo",
+  "displayName": "Fastgo",
+  "aliases": [
+    "速派快递",
+    "Fastgo速派快递",
+    "速派快递FastGo",
+    "Fastgo Express",
+    "FASTGO PTY LTD",
+    "速派国际物流",
+    "速派集运",
+    "随意邮"
+  ],
+  "region": {
+    "countries": [
+      "AU",
+      "CN",
+      "NZ"
+    ]
+  },
+  "brand": {
+    "color": "#e60012"
+  },
+  "selectable": true,
+  "timezone": "Australia/Brisbane",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.fastgo.com.au/WaybillQuery/?from=bs&bill={trackingNumber}",
+    "searchUrl": "https://www.fastgo.com.au/WaybillQuery/",
+    "canaryUrl": "https://www.fastgo.com.au/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.fastgo.com.au"
+      ],
+      "pathPattern": "^/WaybillQuery/?$",
+      "params": [
+        "bill"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "fastgo-1",
+      "pattern": "^AU\\d{9}SG$",
+      "confidence": "low"
+    }
+  ]
+}

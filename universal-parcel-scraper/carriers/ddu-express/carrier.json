@@ -1,0 +1,45 @@
+{
+  "id": "ddu-express",
+  "displayName": "DDU Express",
+  "aliases": [
+    "DDU Shipping & Logistics LLC"
+  ],
+  "region": {
+    "countries": [
+      "AE"
+    ]
+  },
+  "brand": {
+    "color": "#f25406"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dubai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://ddu-express.com/track-shipment/?trackno={trackingNumber}",
+    "searchUrl": "https://ddu-express.com/track-shipment/",
+    "canaryUrl": "https://ddu-express.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "ddu-express.com",
+        "www.ddu-express.com"
+      ],
+      "pathPattern": "^/track-shipment/?$",
+      "params": [
+        "trackno"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,71 @@
+{
+  "carrier": "maersk-ecommerce",
+  "records": [
+    {
+      "number": "1MSPRDNAB0045866818",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260811025519/https://www.maersk.com/tracking/parcel/1MSPRDNAB0045866818",
+        "date": "2026-08-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Maersk eCommerce parcel"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "maersk-ecommerce"
+        ]
+      },
+      "note": "A Maersk parcel page, archived by the Wayback Machine. Maersk's tracking lookup returns its history."
+    },
+    {
+      "number": "1MX1234A90022351373",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260627210031/https://www.maersk.com/tracking/parcel/1MX1234A90022351373",
+        "date": "2026-06-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Maersk eCommerce parcel"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "maersk-ecommerce"
+        ]
+      },
+      "note": "A Maersk parcel page, archived by the Wayback Machine. Maersk's tracking lookup returns its history."
+    },
+    {
+      "number": "1MCAINIXX0000451922",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260330204932/https://www.maersk.com/tracking/parcel/1MCAINIXX0000451922",
+        "date": "2026-03-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "Maersk eCommerce parcel"
+      },
+      "expect": {
+        "carrier": "aliexpress",
+        "confidence": "high"
+      },
+      "note": "A Maersk parcel page for a number with Maersk's code for Cainiao, archived by the Wayback Machine. Cainiao's tracker follows these numbers, so detection names AliExpress."
+    }
+  ]
+}

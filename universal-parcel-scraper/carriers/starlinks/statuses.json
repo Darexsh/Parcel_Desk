@@ -1,0 +1,24 @@
+{
+  "carrier": "starlinks",
+  "entries": [
+    {"code": "softdata_upload", "wording": "Shipment Not Received", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script."},
+    {"code": "softdata_upload", "wording": "Shipment not received by Starlinks", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Event comment in the status map of Starlinks' archived tracking page script."},
+    {"code": "pickup_completed", "wording": "Shipment Received", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script."},
+    {"code": "pickup_completed", "wording": "Shipment received at Starlinks sorting center", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Event comment in the status map of Starlinks' archived tracking page script."},
+    {"code": "arrived_in_country", "wording": "Received at Sorting Center", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script."},
+    {"wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script. Used for the intransittohub and pickup_awaited events."},
+    {"code": "intransittohub", "wording": "In Transit to Starlinks Destination Hub", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Event comment in the status map of Starlinks' archived tracking page script."},
+    {"code": "reachedathub", "wording": "Arrived at Destination Hub", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script."},
+    {"code": "reachedathub", "wording": "Arrived at Starlinks Destination Hub", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Event comment in the status map of Starlinks' archived tracking page script."},
+    {"wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script. Used for the accept and outfordelivery events."},
+    {"wording": "Shipment is out for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Event comment in the status map of Starlinks' archived tracking page script. Used for the accept and outfordelivery events."},
+    {"code": "attempted", "wording": "Delivery Attempted", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script."},
+    {"wording": "Delivery Scheduled", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script. Used for the reschedule, rescheduled and pickup_scheduled events; a rescheduled date rather than a movement."},
+    {"code": "on_hold", "wording": "Delivery Exception", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script."},
+    {"code": "on_hold", "wording": "Delivery Exception - further information / additional documents required", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Event comment in the status map of Starlinks' archived tracking page script."},
+    {"code": "delivered", "wording": "Shipment is Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script."},
+    {"code": "delivered", "wording": "Shipment is delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Event comment in the status map of Starlinks' archived tracking page script."},
+    {"code": "rto", "wording": "Return to Shipper", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script."},
+    {"code": "rto_delivered", "wording": "Return is Delivered", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Event title in the status map of Starlinks' archived tracking page script."}
+  ]
+}

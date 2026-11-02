@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><title>배송조회</title></head><body>
+<table class="table_col">
+  <caption><strong>배송조회 기본정보 테이블</strong></caption>
+  <thead><tr><th scope="col">등기번호</th><th scope="col">보내는 분/접수일자</th><th scope="col">받는 분</th><th scope="col">수령인/배달일자</th><th scope="col">취급구분</th><th scope="col" class="th_last">배달결과</th></tr></thead>
+  <tbody><tr><th scope="row">6000000000000</th><td>PRIVATE_SENDER<br>2026.09.29</td><td>PRIVATE_RECIPIENT<br></td><td>PRIVATE_RECEIVER<br>2026.09.30</td><td>EXAMPLE_SERVICE</td><td>배달완료</td></tr></tbody>
+</table>
+<table class="table_col detail_off">
+  <caption><strong>배송진행현황 상세표</strong></caption>
+  <thead><tr><th scope="col">날짜</th><th scope="col">시간</th><th scope="col">발생국</th><th scope="col" class="th_last">처리현황</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>2026.09.28</td>
+      <td>18:05</td>
+      <td><a href="#" onclick="return goPostDetail(10000, '운송장출력', event)"><span style='color:blue'>EXAMPLE ORIGIN</span></a>
+      </td>
+      <td>
+        <span class="evtnm">운송장출력</span>
+        <span class="tracered"></span>
+      </td>
+    </tr>
+    <tr>
+      <td>2026.09.29</td>
+      <td>11:02</td>
+      <td><a href="#" onclick="return goPostDetail(10000, '접수', event)"><span style='color:blue'>EXAMPLE ORIGIN</span></a></td>
+      <td>
+        <span class="evtnm">접수</span>
+        <div class="f_lft reservEtc mgt10" style="display:none;"><button type="button" class=" btn07 ">PRIVATE_PHOTO</button></div>
+        <script type="text/javascript">function postDec(regino, gbn) { return regino + gbn; }</script>
+        <span class="tracered"> </span>
+      </td>
+    </tr>
+    <tr>
+      <td>2026.09.29</td>
+      <td>13:30</td>
+      <td><a href="#" onclick="return goPostDetail(10000, '발송', event)">EXAMPLE ORIGIN</a></td>
+      <td><span class="evtnm">발송</span><span class="tracered"></span></td>
+    </tr>
+    <tr>
+      <td>2026.09.29</td>
+      <td>22:14</td>
+      <td><a href="#" onclick="return goPostDetail(20000, '도착', event)"><span style='color:blue'>EXAMPLE HUB</span></a></td>
+      <td><span class="evtnm">도착</span><span class="tracered"></span></td>
+    </tr>
+    <tr>
+      <td>2026.09.30</td>
+      <td>06:40</td>
+      <td><a href="#" onclick="return goPostDetail(30000, '배달준비', event)">EXAMPLE DELIVERY</a><br>TEL : PRIVATE_OFFICE_PHONE</td>
+      <td><span class="evtnm">배달준비</span><a href="javascript:fncDetailInfo('6000000000000','00000000',1,'00000')"><span>(집배원 PRIVATE_COURIER PRIVATE_COURIER_PHONE)</span></a></td>
+    </tr>
+    <tr>
+      <td>2026.09.30</td>
+      <td>10:08</td>
+      <td><a href="#" onclick="return goPostDetail(30000, '배달완료', event)">EXAMPLE DELIVERY</a></td>
+      <td><span class="evtnm">배달완료</span>(<span class="tracered">PRIVATE_DELIVERY_NOTE</span>)<br>(수령인:PRIVATE_RECEIVER - PRIVATE_RELATION)</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

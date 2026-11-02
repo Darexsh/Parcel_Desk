@@ -1,0 +1,14 @@
+{
+  "carrier": "pigeon-express",
+  "entries": [
+    {"code": "shipment_registered", "wording": "Създадена от подател", "stage": "registered", "language": "bg", "confirmedBy": "official-doc", "note": "Created by the sender. Shipment status in Pigeon Express's API documentation."},
+    {"code": "shipment_registered", "wording": "Регистрирана пратка", "stage": "registered", "language": "bg", "confirmedBy": "official-doc", "note": "Registered shipment. Shipment status in Pigeon Express's API documentation."},
+    {"code": "shipment_courier_assigned", "wording": "Взета от куриер", "stage": "accepted", "language": "bg", "confirmedBy": "official-doc", "note": "Picked up by a courier. Shipment status in Pigeon Express's API documentation."},
+    {"code": "shipment_accepted_in_office", "wording": "Приета в офис", "stage": "accepted", "language": "bg", "confirmedBy": "official-doc", "note": "Accepted at an office. Shipment status in Pigeon Express's API documentation."},
+    {"code": "shipment_redirected", "wording": "Пренасочена", "stage": "in_transit", "language": "bg", "confirmedBy": "official-doc", "note": "Redirected; the shipment continues under a new reference number. Shipment status in Pigeon Express's API documentation."},
+    {"code": "shipment_delivered_to_recipient", "wording": "Взета от получателя", "stage": "delivered", "language": "bg", "confirmedBy": "official-doc", "note": "Collected by the recipient. Shipment status in Pigeon Express's API documentation."},
+    {"code": "shipment_untracked", "wording": "Непотърсена", "stage": "exception", "language": "bg", "confirmedBy": "official-doc", "note": "Not collected; in the documentation's example a return shipment follows. Shipment status in Pigeon Express's API documentation."},
+    {"code": "shipment_returning_to_sender", "wording": "Връщане към подател", "stage": "returned", "language": "bg", "confirmedBy": "official-doc", "note": "Returning to the sender, under a new reference number. Shipment status in Pigeon Express's API documentation."},
+    {"code": "shipment_cancelled", "wording": "Отказана", "stage": "exception", "language": "bg", "confirmedBy": "official-doc", "note": "Cancelled; only a registered shipment can be cancelled. Shipment status in Pigeon Express's API documentation."}
+  ]
+}

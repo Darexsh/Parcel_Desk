@@ -1,0 +1,20 @@
+{
+  "carrier": "trendyol-express",
+  "entries": [
+    {"code": "ACCEPTED", "wording": "Gönderi Alındı", "stage": "accepted", "language": "tr", "confirmedBy": "live", "note": "The parcel was taken in, at a branch or from the sender."},
+    {"code": "AT_TRANSFER_CENTER", "wording": "Transfer Merkezinde", "stage": "in_transit", "language": "tr", "confirmedBy": "live", "note": "At a branch, sorting centre or main hub, which the scan names."},
+    {"code": "ON_JOURNEY_TO_TRANSFER_CENTER", "wording": "Gönderi Yolda", "stage": "in_transit", "language": "tr", "confirmedBy": "live"},
+    {"code": "ON_JOURNEY_TO_XDOCK", "wording": "Gönderi Yolda", "stage": "in_transit", "language": "tr", "confirmedBy": "live", "note": "On the way to the delivery branch."},
+    {"code": "AT_XDOCK", "wording": "Teslimat Şubesinde", "stage": "in_transit", "language": "tr", "confirmedBy": "live", "note": "At the delivery branch."},
+    {"code": "ON_COURIER", "wording": "Taşıyıcı Dağıtıma Çıktı", "stage": "out_for_delivery", "language": "tr", "confirmedBy": "live"},
+    {"code": "RETURN_PROCESS_STARTED", "wording": "İade Süreci Başladı", "stage": "exception", "language": "tr", "confirmedBy": "live", "note": "A return to the sender started; the parcel is not back yet."},
+    {"code": "RETURNED", "wording": "Depoya İade Edildi", "stage": "returned", "language": "tr", "confirmedBy": "live", "note": "Returned to the warehouse it came from."},
+    {"wording": "yolda", "stage": "in_transit", "language": "tr", "confirmedBy": "source", "note": "On the way. Quoted in Şikayetvar complaints about Trendyol Express."},
+    {"wording": "gönderi yolda", "stage": "in_transit", "language": "tr", "confirmedBy": "source", "note": "Quoted in a Şikayetvar complaint."},
+    {"wording": "dağıtımda", "stage": "out_for_delivery", "language": "tr", "confirmedBy": "source", "note": "Quoted in a Şikayetvar complaint as shown in the tracking app."},
+    {"wording": "Tekrar uğrama yapılacak", "stage": "failed_attempt", "language": "tr", "confirmedBy": "source", "note": "Another delivery attempt will be made. Quoted in a Şikayetvar complaint."},
+    {"wording": "adreste bulunamadı", "stage": "failed_attempt", "language": "tr", "confirmedBy": "source", "note": "Not found at the address. Quoted in a Şikayetvar complaint."},
+    {"wording": "hasar tespit edildi", "stage": "exception", "language": "tr", "confirmedBy": "source", "note": "Damage found; the complaint says a return was started after it. Quoted in a Şikayetvar complaint."},
+    {"wording": "teslim edildi", "stage": "delivered", "language": "tr", "confirmedBy": "source", "note": "Quoted in a Şikayetvar complaint."}
+  ]
+}

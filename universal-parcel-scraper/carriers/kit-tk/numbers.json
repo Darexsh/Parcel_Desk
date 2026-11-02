@@ -1,0 +1,128 @@
+{
+  "carrier": "kit-tk",
+  "records": [
+    {
+      "number": "БАРБЛГ0110455910",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230610055910/https://tk-kit.com/?tracking=%D0%91%D0%90%D0%A0%D0%91%D0%9B%D0%930110455910",
+        "date": "2023-06-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup of this forwarding receipt on KIT's own direct tracking link; the capture shows only the tracker shell, because the history loads by script. KIT's tracker knows the consignment, from the new order to its issue at the terminal."
+    },
+    {
+      "number": "НВЗБЛГ0110946226",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230611095651/https://tk-kit.com/?tracking=%D0%9D%D0%92%D0%97%D0%91%D0%9B%D0%930110946226",
+        "date": "2023-06-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup of this forwarding receipt on KIT's own direct tracking link; the capture was not opened, so the history was not visible. KIT's tracker no longer finds it."
+    },
+    {
+      "number": "НВБХМС0117198087",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241024043448/https://tk-kit.com/?tracking=%D0%9D%D0%92%D0%91%D0%A5%D0%9C%D0%A10117198087",
+        "date": "2024-10-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup of this forwarding receipt on KIT's own direct tracking link; the capture shows only the tracker shell, because the history loads by script. KIT's tracker knows the consignment, from the new order to its issue at the terminal."
+    },
+    {
+      "number": "глжмск0118722874",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250328095542/https://tk-kit.ru/?tracking=%D0%B3%D0%BB%D0%B6%D0%BC%D1%81%D0%BA0118722874",
+        "date": "2025-03-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup of this forwarding receipt, typed in lower case, on KIT's own direct tracking link on tk-kit.ru; the capture shows only the tracker shell, because the history loads by script. KIT's tracker knows the consignment by the receipt and by its ten digits alone, from the new order to its issue at the terminal."
+    },
+    {
+      "number": "РНДНУР0050381658",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171005023127/https://tk-kit.ru/?track=on?number=%D0%A0%D0%9D%D0%94%D0%9D%D0%A3%D0%A00050381658",
+        "date": "2017-10-05",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup of this forwarding receipt on KIT's earlier tracker address (?track=on) on tk-kit.ru; the capture was not opened, so the history was not visible. KIT's tracker no longer finds it."
+    },
+    {
+      "number": "0108212286",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220721095750/https://tk-kit.com/?tracking=0108212286",
+        "date": "2022-07-21",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "An archived lookup of this ten-digit number on KIT's own direct tracking link; the archive holds a 403 reply for it. KIT's tracker finds the consignment by these ten digits alone, under a forwarding receipt that ends in them, from the new order to its issue at the terminal."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "carrier": "dpd-uk",
+  "entries": [
+    { "wording": "We've received your order details, but have not yet received your parcel", "language": "en", "stage": "registered", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "We've received your order details, and we're expecting your parcel shortly", "language": "en", "stage": "registered", "confirmedBy": "live" },
+    { "wording": "Your parcel has been dropped off at a DPD Pickup Shop", "language": "en", "stage": "accepted", "confirmedBy": "live", "firstSeen": "2026-10-27", "note": "The sender's drop-off at a Pickup shop." },
+    { "wording": "We have your parcel and it's on its way to our depot", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "We have your parcel and it's on its way to you", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "Your parcel is at our depot", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "Your parcel has arrived at our depot", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "Your parcel is at our depot ready for delivery", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-28", "note": "A depot scan as DPD rewords it once the parcel is ready for its round; later it reads \"Your parcel is at our depot\"." },
+    { "wording": "Your parcel has left our sortation facility and is on it's onwards journey", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "On a parcel leaving the UK." },
+    { "wording": "The parcel is in transit to its final destination", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "The partner's wording on a parcel delivered abroad, as are the other entries starting with \"The parcel\"." },
+    { "wording": "The parcel is undergoing customs clearance", "language": "en", "stage": "customs", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "Duties and Taxes paid", "language": "en", "stage": "customs", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "Between the clearance scan and its release." },
+    { "wording": "The parcel has now cleared customs", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "The parcel has arrived at the delivery depot", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "Your delivery has been cancelled", "language": "en", "stage": "exception", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "Goes on to ask the recipient to contact the named sender." },
+    { "wording": "As requested, your parcel will now be delivered on Thu 05 November 2026 at 11:00", "language": "en", "unmapped": true, "confirmedBy": "live", "firstSeen": "2026-10-30", "note": "The day and hour the recipient chose, after the depot scan: a notice, so the scan before it keeps its stage." },
+    { "wording": "Your parcel will be with you today", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "Your parcel will be with you today between 14:18 and 15:18", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live", "firstSeen": "2026-10-27", "note": "The round's notice with its delivery hour; any hours." },
+    { "wording": "We missed you. Your driver won't be back today but we'll be back Wed 28 October with your parcel", "language": "en", "stage": "failed_attempt", "confirmedBy": "live", "firstSeen": "2026-10-27", "note": "A round that missed the recipient, with the day of the next; any day. The driver's name the sentence gives is left out." },
+    { "wording": "The parcel is on the vehicle for delivery", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "Your parcel has been delivered", "language": "en", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "The parcel has been delivered", "language": "en", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-10-08" },
+    { "wording": "Your parcel is waiting for you at home (left in safe place)", "language": "en", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "Left in the recipient's safe place." }
+  ]
+}

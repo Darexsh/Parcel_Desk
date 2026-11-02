@@ -1,0 +1,134 @@
+{
+  "carrier": "tonami",
+  "gap": "Tonami's inquiry numbers are ten digits with a check digit other Japanese carriers' numbers share, so there is no rule.",
+  "records": [
+    {
+      "number": "5819443781",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://trc1.tonami.co.jp/trc/search3/excSearch3?id%5B0%5D=5819443781",
+        "date": "2026-10-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "A lookup on Tonami's own tracker that a search engine indexed; the tracker answers it."
+    },
+    {
+      "number": "5836779200",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://trc1.tonami.co.jp/trc/search3/excSearch3?id%5B0%5D=5836779200",
+        "date": "2026-10-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "A lookup on Tonami's own tracker that a search engine indexed; the tracker answers it."
+    },
+    {
+      "number": "5928255712",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://trc1.tonami.co.jp/trc/search3/excSearch3?id%5B0%5D=5928255712",
+        "date": "2026-10-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "A lookup on Tonami's own tracker that a search engine indexed; the tracker answers it."
+    },
+    {
+      "number": "5864747243",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://trc1.tonami.co.jp/trc/search3/excSearch3?id%5B0%5D=5864747243",
+        "date": "2026-10-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "A lookup on Tonami's own tracker that a search engine indexed; the tracker keeps about three months and no longer answers it."
+    }
+  ]
+}

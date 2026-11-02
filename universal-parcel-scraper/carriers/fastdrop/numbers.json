@@ -1,0 +1,33 @@
+{
+  "carrier": "fastdrop",
+  "records": [
+    {
+      "number": "0001863700",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221006082345/https://booking.fastdrop.mt/package-tracking/0001863700",
+        "date": "2022-10-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "An archived lookup on Fastdrop's own package tracking page; the capture was opened but shows only the page shell, so the history is not visible."
+    }
+  ]
+}

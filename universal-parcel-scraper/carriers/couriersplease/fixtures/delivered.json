@@ -1,0 +1,195 @@
+{
+  "responseCode": "200",
+  "msg": "SUCCESS",
+  "data": {
+    "root": [
+      {
+        "consignmentInfo": [
+          {
+            "date": null,
+            "time": "Consignment #",
+            "action": "CPBZZZZ0000014"
+          },
+          {
+            "date": null,
+            "time": "Delivery ETA",
+            "action": "05 Mar 2026"
+          },
+          {
+            "date": null,
+            "time": "Dead Weight",
+            "action": "Declared 3 kg"
+          },
+          {
+            "date": null,
+            "time": "Volume",
+            "action": "Declared 0.010 m3 / 3 kg"
+          },
+          {
+            "date": null,
+            "time": "References",
+            "action": "SAMPLE-REF-0001"
+          },
+          {
+            "date": null,
+            "time": "Status",
+            "action": "delivered1 of 1"
+          },
+          {
+            "date": null,
+            "time": "Delivered at",
+            "action": "06 Mar 2026 01:05:00 by driver 900"
+          },
+          {
+            "date": null,
+            "time": "POD",
+            "action": "Sample Receiver"
+          },
+          {
+            "date": null,
+            "time": "Items/Coupons",
+            "action": "CPBZZZZ0000014"
+          }
+        ],
+        "trakingInfo": [
+          {
+            "tracker": {
+              "track": [
+                {
+                  "date": "CPBZZZZ0000014",
+                  "time": "CPPL TRACKER",
+                  "action": null,
+                  "nodeType": null,
+                  "contractor": null,
+                  "stateName": null,
+                  "datetime": null
+                },
+                {
+                  "date": "2 Mar 2026",
+                  "time": "9:15 am",
+                  "action": "Shipment information received",
+                  "nodeType": "manifest",
+                  "contractor": "9900(melbourne)",
+                  "stateName": "VIC",
+                  "datetime": "9.15am Mon"
+                },
+                {
+                  "date": "2 Mar 2026",
+                  "time": "2:40 pm",
+                  "action": "Despatched to CouriersPlease",
+                  "nodeType": "status",
+                  "contractor": "9901(melbourne)",
+                  "stateName": null,
+                  "datetime": "2.40pm Mon"
+                },
+                {
+                  "date": "2 Mar 2026",
+                  "time": "10:01 pm",
+                  "action": "Pickup attempt was unsuccessful <br /> Awaiting rebook confirmation by sender",
+                  "nodeType": "futile",
+                  "contractor": "9902(melbourne)",
+                  "stateName": "VIC",
+                  "datetime": "10.01pm Mon"
+                },
+                {
+                  "date": "3 Mar 2026",
+                  "time": "3:30 pm",
+                  "action": "Your parcel has been picked up",
+                  "nodeType": "pickup",
+                  "contractor": "0900(melbourne)",
+                  "stateName": "VIC",
+                  "datetime": "3.30pm Tue"
+                },
+                {
+                  "date": "3 Mar 2026",
+                  "time": "4:53 pm",
+                  "action": null,
+                  "nodeType": "status",
+                  "contractor": "9903(melbourne)",
+                  "stateName": null,
+                  "datetime": "4.53pm Tue"
+                },
+                {
+                  "date": "3 Mar 2026",
+                  "time": "4:53 pm",
+                  "action": "Arrived at facility for processing.",
+                  "nodeType": "reweigh",
+                  "contractor": "9903(melbourne)",
+                  "stateName": "VIC",
+                  "datetime": "4.53pm Tue"
+                },
+                {
+                  "date": "3 Mar 2026",
+                  "time": "5:23 pm",
+                  "action": "In transit to delivery centre (Melbourne - Adelaide)",
+                  "nodeType": "transit",
+                  "contractor": "9904(Melbourne)",
+                  "stateName": "VIC",
+                  "datetime": "5.23pm Tue"
+                },
+                {
+                  "date": "5 Mar 2026",
+                  "time": "4:01 am",
+                  "action": "Arrived at delivery centre",
+                  "nodeType": "deconsolidate",
+                  "contractor": "9905(adelaide)",
+                  "stateName": "SA",
+                  "datetime": "4.01am Thu"
+                },
+                {
+                  "date": "5 Mar 2026",
+                  "time": "7:05 am",
+                  "action": "Onboard for delivery",
+                  "nodeType": "accept",
+                  "contractor": "0901(adelaide)",
+                  "stateName": "SA",
+                  "datetime": "7.05am Thu"
+                },
+                {
+                  "date": "5 Mar 2026",
+                  "time": "4:33 pm",
+                  "action": "Unable to deliver. Please contact our Customer Support Team <a href='https://support.couriersplease.com.au/hc/en-au/articles/000000-Contact-Us' target=\"_blank\">here</a>",
+                  "nodeType": "faildeliver",
+                  "contractor": "0901(adelaide)",
+                  "stateName": "SA",
+                  "datetime": "4.33pm Thu"
+                },
+                {
+                  "date": "5 Mar 2026",
+                  "time": "6:45 pm",
+                  "action": "Delivery rescheduled for next business day",
+                  "nodeType": "offboard-depot",
+                  "contractor": "0901(adelaide)",
+                  "stateName": "SA",
+                  "datetime": "6.45pm Thu"
+                },
+                {
+                  "date": "6 Mar 2026",
+                  "time": "6:56 am",
+                  "action": "Onboard for delivery",
+                  "nodeType": "accept",
+                  "contractor": "0901(adelaide)",
+                  "stateName": "SA",
+                  "datetime": "6.56am Fri"
+                },
+                {
+                  "date": "6 Mar 2026",
+                  "time": "12:05 pm",
+                  "action": "Delivered with Authority to Leave (ATL)",
+                  "nodeType": "deliver",
+                  "contractor": "0901(adelaide)",
+                  "stateName": "SA",
+                  "datetime": "12.05pm Fri"
+                }
+              ]
+            }
+          }
+        ],
+        "statusInfo": {
+          "status": "Delivered",
+          "type": "consignment"
+        }
+      }
+    ]
+  }
+}

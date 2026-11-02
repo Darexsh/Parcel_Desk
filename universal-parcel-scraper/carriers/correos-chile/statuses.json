@@ -1,0 +1,121 @@
+{
+  "carrier": "correos-chile",
+  "entries": [
+    {
+      "code": "001",
+      "wording": "ENVÍO ADMITIDO",
+      "language": "es",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "The first scan of an item from abroad, before its import."
+    },
+    {
+      "code": "003",
+      "wording": "ENVÍO EN PROCESO DE INTERNACIÓN AL PAÍS",
+      "language": "es",
+      "stage": "customs",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "005",
+      "wording": "ENVÍO EN REPARTO",
+      "language": "es",
+      "stage": "out_for_delivery",
+      "confirmedBy": "portal",
+      "note": "The delivery round. The tracking page counts 005 among the codes of a shipment in progress."
+    },
+    {
+      "code": "006",
+      "wording": "ENVÍO ENTREGADO",
+      "language": "es",
+      "stage": "delivered",
+      "confirmedBy": "portal",
+      "note": "The tracking page counts 006 and 010 as delivered."
+    },
+    {
+      "code": "010",
+      "wording": "ENVÍO ENTREGADO",
+      "language": "es",
+      "stage": "delivered",
+      "confirmedBy": "portal",
+      "note": "The tracking page counts 006 and 010 as delivered. The code also comes with other wording, such as a parcel received by Correos de Chile, so only this wording reads as delivered."
+    },
+    {
+      "wording": "RECIBIDO POR CORREOSCHILE",
+      "language": "es",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "A parcel leaving Chile, as a universal provider relays it without the portal code."
+    },
+    {
+      "wording": "RECIBIDO EN PLANTA DE ORIGEN",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "A parcel leaving Chile, as a universal provider relays it without the portal code."
+    },
+    {
+      "wording": "ENVIO DESPACHADO",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "A parcel leaving Chile, as a universal provider relays it without the portal code."
+    },
+    {
+      "wording": "DISPONIBLE PARA SALIR AL PAIS DE DESTINO",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "A parcel leaving Chile, as a universal provider relays it without the portal code."
+    },
+    {
+      "wording": "ENVIO DESPACHADO AL PAIS DE DESTINO",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "A parcel leaving Chile, as a universal provider relays it without the portal code."
+    },
+    {
+      "wording": "ENVIO INGRESA A PAIS DE DESTINO",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "A parcel leaving Chile, as a universal provider relays it without the portal code."
+    },
+    {
+      "wording": "ENVIO EN PROCESO DE INTERNACION",
+      "language": "es",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "note": "A parcel leaving Chile, as a universal provider relays it without the portal code."
+    },
+    {
+      "wording": "RECIBIDO EN PLANTA ORIGEN",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "prior-art",
+      "note": "In the example reply of an open-source Correos de Chile client, without the portal code."
+    },
+    {
+      "wording": "DESPACHADO A OFICINA DE CORREOSCHILE",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "prior-art",
+      "note": "In the example reply of an open-source Correos de Chile client, without the portal code."
+    },
+    {
+      "wording": "RECIBIDO EN OFICINA DE CORREOSCHILE",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "prior-art",
+      "note": "In the example reply of an open-source Correos de Chile client, without the portal code."
+    },
+    {
+      "wording": "RECEPCION INTERNACIONAL POR CORREOSCHILE",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "prior-art",
+      "note": "In the example reply of an open-source Correos de Chile client, without the portal code."
+    }
+  ]
+}

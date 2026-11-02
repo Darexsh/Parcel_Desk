@@ -1,0 +1,41 @@
+{
+  "number": "000000002",
+  "isAssociatedWithUser": false,
+  "yourID": "SYNTHETIC-REF-2",
+  "status": {
+    "message": "Синтетический статус",
+    "cargoLocked": false,
+    "cargoTransferLocked": false,
+    "description": "Синтетическое пояснение",
+    "isTaken": true,
+    "isGiven": false,
+    "hasArrived": false,
+    "isCanceled": false,
+    "isPaid": false,
+    "canBePaid": true,
+    "canUserRequestDriverCallback": false,
+    "canBePaidCard": true,
+    "canBePaidQR": true
+  },
+  "dates": {
+    "created": "2026-04-06T09:05:12",
+    "arrivalFrom": "2026-04-14T00:00:00"
+  },
+  "organizationId": "synthetic-organization",
+  "payer": "Синтетический Плательщик",
+  "payerId": "synthetic-payer",
+  "consignee": "Синтетический Получатель",
+  "price": 987,
+  "debt": 987,
+  "currency": "RU",
+  "cod": 500,
+  "forCheck": {
+    "email": "",
+    "phone": ""
+  },
+  "cost": {
+    "currency": {
+      "RU": true
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "carrier": "best-transport",
+  "records": [
+    {
+      "number": "DLT6004412356",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240828075859/https://bst.nu/?search=DLT6004412356",
+        "date": "2024-08-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Best Transport's own tracker bst.nu; the capture was not opened (the page loads the result by script)."
+    },
+    {
+      "number": "DLT6004412364",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240828075918/https://bst.nu/?search=DLT6004412364",
+        "date": "2024-08-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Best Transport's own tracker bst.nu; the capture was not opened (the page loads the result by script)."
+    },
+    {
+      "number": "DLT6004412372",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240828080902/https://bst.nu/SE?search=DLT6004412372",
+        "date": "2024-08-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Best Transport's own tracker bst.nu; the capture was not opened (the page loads the result by script)."
+    },
+    {
+      "number": "82349036",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240907103445/https://bst.nu/?search=82349036",
+        "date": "2024-09-07",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Best Transport's own tracker bst.nu; the capture was not opened (the page loads the result by script)."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "carrier": "yalidine",
+  "records": [
+    {
+      "number": "yal-64BPEK",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://github.com/ACHABH/Algerian-Delivery-Documentation/blob/main/Yalidine/yalidine_api_documentation.md",
+        "date": "2026-05-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "yalidine",
+        "confidence": "high"
+      },
+      "note": "Yalidine's API documentation, which sits behind its developer dashboard, uses it in the label link of its parcel example; seen in a public copy of that documentation."
+    },
+    {
+      "number": "yal-337AAS",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://github.com/ACHABH/Algerian-Delivery-Documentation/blob/main/Yalidine/yalidine_api_documentation.md",
+        "date": "2026-05-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "yalidine",
+        "confidence": "high"
+      },
+      "note": "Yalidine's API documentation uses it in its status-history reply example, at Sorti en livraison; seen in a public copy of that documentation."
+    },
+    {
+      "number": "yal-205643",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/sebbahali/Yalidine-Dz-Laravel-Api/blob/main/README.md",
+        "date": "2023-05-27",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "yalidine",
+        "confidence": "high"
+      },
+      "note": "The README of an open-source Laravel client for Yalidine's API uses it as a tracking number to retrieve and delete parcels."
+    },
+    {
+      "number": "yal-Y50WRW",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://fr.scribd.com/document/976873304/Exportation-Paiement-Pmt-N54CSF",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yalidine",
+        "confidence": "high"
+      },
+      "note": "A public sender-export row lists this whole number; the official guest tracker confirms its identity and scan history."
+    }
+  ]
+}

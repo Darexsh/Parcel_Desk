@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": "9000000003",
+      "state": "in-final-destination",
+      "lastPickUpTime": "2026-03-20T11:00:00.000Z",
+      "returnAllowed": false,
+      "compartmentSize": 2,
+      "origin": {
+        "id": "101",
+        "title": null,
+        "name": "Sample Logistics",
+        "addressLine1": "4 Sample Way",
+        "addressLine2": "Sampleport",
+        "postalCode": "88888",
+        "country": "GR",
+        "image": null,
+        "note": "",
+        "type": "warehouse",
+        "deliveryPartnerParcelId": null
+      },
+      "destination": {
+        "id": "202",
+        "title": "5 Example Lane, 99999",
+        "name": "BOX NOW Example Pharmacy",
+        "addressLine1": "5 Example Lane",
+        "addressLine2": "Examplemouth",
+        "postalCode": "99999",
+        "country": "GR",
+        "image": "https://example.invalid/locker.jpg",
+        "note": "Outside the example pharmacy",
+        "lat": "38.00000",
+        "lng": "23.50000",
+        "type": "apm",
+        "deliveryPartnerParcelId": null
+      },
+      "events": [
+        { "type": "new", "locationDisplayName": "Sample Logistics", "postalCode": "88888", "createTime": "2026-03-17T09:00:00.000Z" },
+        { "type": "in-depot", "locationDisplayName": "EXAMPLE DEPOT", "postalCode": "55555", "createTime": "2026-03-17T13:00:00.000Z" },
+        { "type": "final-destination", "locationDisplayName": "BOX NOW Example Pharmacy", "postalCode": "99999", "createTime": "2026-03-18T11:00:00.000Z" }
+      ],
+      "payment": { "amount": { "amount": "12.00", "currency": "EUR" }, "mode": "cod", "state": "required-paid", "vivaPayment": true },
+      "etaDate": "2026-03-18T21:00:00.000Z"
+    }
+  ]
+}

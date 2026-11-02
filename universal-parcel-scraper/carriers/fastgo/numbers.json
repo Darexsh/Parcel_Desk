@@ -1,0 +1,27 @@
+{
+  "carrier": "fastgo",
+  "records": [
+    {
+      "number": "AU111113587SG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20191229075551/http://api.fastgoexpress.com/api/route/AU111113587SG",
+        "date": "2019-12-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fastgo"
+        ]
+      },
+      "note": "An archived reply of Fastgo's own route API for this number shows the parcel received, cleared through customs and handed to EMS for delivery in China."
+    }
+  ]
+}

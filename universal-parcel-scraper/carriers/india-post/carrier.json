@@ -1,0 +1,81 @@
+{
+  "id": "india-post",
+  "displayName": "India Post",
+  "aliases": [
+    "Speed Post",
+    "India Post Speed Post",
+    "Department of Posts"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#b82025"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "india-post",
+    "steps": [
+      "direct"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://myspeedpost.com/track?n={trackingNumber}&sync=true",
+    "searchUrl": "https://myspeedpost.com/track",
+    "helpUrl": "https://www.indiapost.gov.in/help&Support/contactus",
+    "canaryUrl": "https://myspeedpost.com/track",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "destination_country",
+      "recipient_name",
+      "recipient_address",
+      "signature"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "service_name",
+      "destination_country"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address",
+      "signature"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "myspeedpost.com"
+      ],
+      "params": [
+        "n"
+      ],
+      "path": "^/s/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "india-post-1",
+      "pattern": "^[A-Z]{2}\\d{9}IN$",
+      "confidence": "high",
+      "checksum": "s10"
+    }
+  ]
+}

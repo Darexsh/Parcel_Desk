@@ -1,0 +1,118 @@
+{
+  "carrier": "xdp",
+  "entries": [
+    {
+      "code": "CREATE",
+      "wording": "Order received",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-12",
+      "note": "The sender's consignment entering XDP's system. The page shows \"--\"; the wording is the XDP app's label for the type."
+    },
+    {
+      "code": "PRINT",
+      "wording": "Label printed",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-12",
+      "note": "A label printed with the order, and again for a return. The page shows \"--\"; it moves nothing."
+    },
+    {
+      "code": "COLLECT",
+      "wording": "At Collection Depot",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-12",
+      "note": "The collection depot has the parcel from the sender. The page wraps it in its depot system's name, Spirit Status: \"At Collection Depot\"; older rows have the plain wording."
+    },
+    {
+      "code": "DELIVERY",
+      "wording": "At Delivery Depot",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-12",
+      "note": "The delivery depot has the parcel; XDP's newer page calls it being prepared for delivery. Wrapped like the collection scan."
+    },
+    {
+      "code": "DELIVERY",
+      "wording": "Allocated to Delivery Vehicle - Route 03",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-12",
+      "note": "The route number varies. XDP's newer page keeps the parcel being prepared for delivery until the round is scheduled."
+    },
+    {
+      "code": "DELIVERY",
+      "wording": "Scheduled for Delivery - Route 11 - ETA: 10:51am to 12:51pm",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-12",
+      "note": "The day's round with its two-hour window; the route and window vary. XDP's newer page counts the parcel out for delivery from here."
+    },
+    {
+      "code": "NEXT STOP",
+      "wording": "Next stop: On time",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-12",
+      "note": "The driver's next stop, with how the round runs against the window: also \"Late by 2 minutes\" and \"Early by an hour\". The page shows only that part; the adapter adds \"Next stop:\"."
+    },
+    {
+      "code": "DELIVERED",
+      "wording": "Delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-12",
+      "note": "Wrapped in the round's system name, DriverX Status: \"Delivered\", and ScanX on older rows."
+    },
+    {
+      "code": "EXCEPTION",
+      "wording": "Return",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-12",
+      "note": "DriverX Status: \"Return\": the driver took the parcel back undelivered."
+    },
+    {
+      "code": "EXCEPTION",
+      "wording": "RETURN LABEL CREATED",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-12",
+      "note": "The way back to the sender starts; the adapter files every later scan as returned."
+    },
+    {
+      "code": "DAMAGE",
+      "wording": "Damaged",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The XDP app's label for the type."
+    },
+    {
+      "code": "CHECK ADDRESS",
+      "wording": "Check address",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The XDP app's label for the type: the driver could not find the address."
+    },
+    {
+      "code": "SERVICE FAIL",
+      "wording": "Service fail",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The XDP app's label for the type: an unexpected issue delays the delivery."
+    }
+  ]
+}

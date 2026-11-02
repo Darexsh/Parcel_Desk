@@ -1,0 +1,232 @@
+{
+  "carrier": "spx-my",
+  "records": [
+    {
+      "number": "SPXMY063279277776",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260705020119/https://spx.com.my/shipment/order/open/order/get_order_info?spx_tn=SPXMY063279277776&language_code=en",
+        "date": "2026-07-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "domestic marketplace parcel"
+      },
+      "expect": {
+        "carrier": "spx-my",
+        "confidence": "high"
+      },
+      "note": "An archived reply of SPX Express Malaysia's own order endpoint for this number shows the parcel's history. It was returned to the sender."
+    },
+    {
+      "number": "MY2601163782037",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260705020119/https://spx.com.my/shipment/order/open/order/get_order_info?spx_tn=SPXMY063279277776&language_code=en",
+        "date": "2026-07-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "domestic marketplace parcel"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "spx-my"
+        ]
+      },
+      "note": "SPX Express Malaysia's own order endpoint returned it as the SLS number of an SPXMY parcel, in an archived reply that shows the history."
+    },
+    {
+      "number": "SPXMY05985179327A",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251008070007/https://spx.com.my/shipment/order/open/order/get_order_info?spx_tn=SPXMY05985179327A&language_code=ms",
+        "date": "2025-10-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "domestic marketplace parcel"
+      },
+      "expect": {
+        "carrier": "spx-my",
+        "confidence": "high"
+      },
+      "note": "An archived reply of SPX Express Malaysia's own order endpoint for this number shows the parcel's history. It ends in delivery."
+    },
+    {
+      "number": "MY2548586263784",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251008070007/https://spx.com.my/shipment/order/open/order/get_order_info?spx_tn=SPXMY05985179327A&language_code=ms",
+        "date": "2025-10-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "domestic marketplace parcel"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "spx-my"
+        ]
+      },
+      "note": "SPX Express Malaysia's own order endpoint returned it as the SLS number of an SPXMY parcel, in an archived reply that shows the history."
+    },
+    {
+      "number": "SPXMY064270428572",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260705013109/https://spx.com.my/shipment/order/open/order/get_order_info?spx_tn=SPXMY064270428572&language_code=ms",
+        "date": "2026-07-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "domestic marketplace parcel"
+      },
+      "expect": {
+        "carrier": "spx-my",
+        "confidence": "high"
+      },
+      "note": "An archived reply of SPX Express Malaysia's own order endpoint for this number shows the parcel's history. It was returned to the sender."
+    },
+    {
+      "number": "MY2670733470806",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260705013109/https://spx.com.my/shipment/order/open/order/get_order_info?spx_tn=SPXMY064270428572&language_code=ms",
+        "date": "2026-07-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "domestic marketplace parcel"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "spx-my"
+        ]
+      },
+      "note": "SPX Express Malaysia's own order endpoint returned it as the SLS number of an SPXMY parcel, in an archived reply that shows the history."
+    },
+    {
+      "number": "SPXMY068292099367",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260801060406/https://spx.com.my/shipment/order/open/order/get_order_info?spx_tn=SPXMY068292099367&language_code=ms",
+        "date": "2026-08-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "cross-border marketplace parcel"
+      },
+      "expect": {
+        "carrier": "spx-my",
+        "confidence": "high"
+      },
+      "note": "An archived reply of SPX Express Malaysia's own order endpoint for this number shows the parcel's history."
+    },
+    {
+      "number": "MY263764673324Y",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260801060406/https://spx.com.my/shipment/order/open/order/get_order_info?spx_tn=SPXMY068292099367&language_code=ms",
+        "date": "2026-08-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "cross-border marketplace parcel"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "spx-my"
+        ]
+      },
+      "note": "SPX Express Malaysia's own order endpoint returned it as the SLS number of an SPXMY parcel, in an archived reply that shows the history."
+    },
+    {
+      "number": "SPXMY03404293434A",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231014042131/https://spx.com.my/detail/SPXMY03404293434A",
+        "date": "2023-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spx-my",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Malaysia's own tracker; the tracker's legacy reply, archived eleven seconds later, shows the history."
+    },
+    {
+      "number": "SPXMY03518661994B",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240525154403/https://spx.com.my/detail/SPXMY03518661994B",
+        "date": "2024-05-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "spx-my",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Malaysia's own tracker address; the capture was not opened for history, which the page loads by script, so the history was not visible."
+    },
+    {
+      "number": "SPXMY04481045210C",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://old.tracking.my/shopee/SPXMY04481045210C",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "spx-my",
+        "confidence": "high"
+      },
+      "note": "A tracking aggregator page for this Shopee Express Malaysia number; the SPXMY prefix ties it to the carrier."
+    }
+  ]
+}

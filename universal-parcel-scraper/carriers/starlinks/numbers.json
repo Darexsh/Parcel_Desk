@@ -1,0 +1,187 @@
+{
+  "carrier": "starlinks",
+  "records": [
+    {
+      "number": "SL0000305042",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240604112123/https://www.starlinks-me.com/tracking?search=SL0000305042",
+        "date": "2024-06-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz",
+          "starlinks"
+        ]
+      },
+      "note": "An archived lookup on Starlinks' own tracking page; the capture was opened but shows only the page shell, since the history loads by script, so no history is visible."
+    },
+    {
+      "number": "SL0000316071",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240604113934/https://www.starlinks-me.com/tracking?search=SL0000316071",
+        "date": "2024-06-04",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz",
+          "starlinks"
+        ]
+      },
+      "note": "An archived lookup on Starlinks' own tracking page; the capture was not opened, so no history is visible."
+    },
+    {
+      "number": "S0004597753",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250309040547/https://www.starlinks-me.com/tracking?search=S0004597753",
+        "date": "2025-03-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it"
+        ]
+      },
+      "note": "An archived lookup on Starlinks' own tracking page; the capture was opened but shows only the page shell, since the history loads by script, so no history is visible."
+    },
+    {
+      "number": "S0004708466",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250324083127/https://www.starlinks-me.com/tracking?search=S0004708466",
+        "date": "2025-03-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it"
+        ]
+      },
+      "note": "An archived lookup on Starlinks' own tracking page; the capture was not opened, so no history is visible."
+    },
+    {
+      "number": "S0004738163",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250317234009/https://www.starlinks-me.com/tracking?search=S0004738163",
+        "date": "2025-03-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it"
+        ]
+      },
+      "note": "An archived lookup on Starlinks' own tracking page; the capture was not opened, so no history is visible."
+    },
+    {
+      "number": "S0004775384",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250321174015/https://www.starlinks-me.com/tracking?search=S0004775384",
+        "date": "2025-03-21",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it"
+        ]
+      },
+      "note": "An archived lookup on Starlinks' own tracking page; the capture was not opened, so no history is visible."
+    },
+    {
+      "number": "S0004842058",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250328184034/https://www.starlinks-me.com/tracking?search=S0004842058",
+        "date": "2025-03-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it"
+        ]
+      },
+      "note": "An archived lookup on Starlinks' own tracking page; the capture was not opened, so no history is visible."
+    },
+    {
+      "number": "S0004934792",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250329213945/https://www.starlinks-me.com/tracking?search=S0004934792",
+        "date": "2025-03-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it"
+        ]
+      },
+      "note": "An archived lookup on Starlinks' own tracking page; the capture was not opened, so no history is visible."
+    }
+  ]
+}

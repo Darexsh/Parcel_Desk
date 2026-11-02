@@ -1,0 +1,119 @@
+{
+  "id": "border-express",
+  "displayName": "Border Express",
+  "aliases": [
+    "BEX",
+    "Border Express Pty Ltd"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#cc092f"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "border-express",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "offset_timestamps",
+    "delivered_at",
+    "eta",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://bexonline.borderexpress.com.au/bxo/track?consignmentNumber={trackingNumber}",
+    "searchUrl": "https://bexonline.borderexpress.com.au/bxo/track",
+    "canaryUrl": "https://bexonline.borderexpress.com.au/bxo/track",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "offset_timestamps",
+      "eta",
+      "delivered_at",
+      "departure_date",
+      "parcel_count",
+      "parcel_scans",
+      "origin",
+      "destination",
+      "postcodes",
+      "signatory"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "eta",
+      "delivered_at",
+      "canonical_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "departure_date",
+      "parcel_count",
+      "parcel_scans",
+      "origin",
+      "destination",
+      "postcodes",
+      "signatory"
+    ],
+    "unavailable": [
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "pickup_point",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "borderexpress.com.au",
+        "www.borderexpress.com.au"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "cn"
+      ]
+    },
+    {
+      "domains": [
+        "bexonline.borderexpress.com.au"
+      ],
+      "pathPattern": "^/bxo/track/?$",
+      "params": [
+        "consignmentNumber"
+      ]
+    },
+    {
+      "domains": [
+        "bexonline.borderexpress.com.au"
+      ],
+      "path": "^/bxo/track/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "border-express-1",
+      "pattern": "^[A-Z]{4}BX\\d{14}$",
+      "confidence": "low"
+    }
+  ]
+}

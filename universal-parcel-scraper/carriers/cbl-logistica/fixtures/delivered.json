@@ -1,0 +1,56 @@
+{
+  "$id": "1",
+  "success": true,
+  "LoggedIn": false,
+  "ClientErrors": null,
+  "ServerErrors": null,
+  "data": {
+    "$id": "2",
+    "datos_expedicion": {
+      "$id": "3",
+      "NENVIO": "99900000017",
+      "NOMRTE": "REMITENTE DE MUESTRA SL",
+      "BULTOS": 2,
+      "PVKILOS": 12.5,
+      "VOL": 0.05,
+      "REFERENCIA": "PEDIDO-MUESTRA-01",
+      "DIA": "MIERCOLES",
+      "F_RECOGIDA": "2026-03-23T00:00:00",
+      "F_ENTREGA": "2026-03-25T00:00:00",
+      "F_SITUACION": "2026-03-25T12:41:00",
+      "ORIGEN": "PLATAFORMA MUESTRA",
+      "DELE_PROP": "DELEGACION MUESTRA",
+      "DESTINO": "DELEGACION EJEMPLO",
+      "TELEFONO_ORIGEN": "910000000",
+      "TELEFONO_PROP": "910000001",
+      "TELEFONO_DESTINO": "980000000",
+      "EMAIL_ORIGEN": "origen@example.com",
+      "EMAIL_PROP": "delegacion@example.com",
+      "EMAIL_DESTINO": "destino@example.com",
+      "OBSER1": "LLAMAR ANTES AL 600000000",
+      "OBSER2": "",
+      "NOMCONS": "DESTINATARIO DE MUESTRA",
+      "DOMCONS": "CALLE DE MUESTRA 1",
+      "POBCONS": "VILLAMUESTRA",
+      "CP_REX": "00000",
+      "HAY_INCIDENCIA": "1",
+      "SITUACION_LOCALIZADOR": "EFEC",
+      "GUID": "00000000-0000-4000-8000-000000000000"
+    },
+    "eventos": [
+      { "$id": "4", "Fecha": "2026-03-23T18:02:00", "Descripcion": "DOCUMENTADA", "Ampliacion": "REMITENTE DE MUESTRA SL" },
+      { "$id": "5", "Fecha": "2026-03-23T21:40:00", "Descripcion": "SALIDA DE PLATAFORMA", "Ampliacion": "PLATAFORMA MUESTRA" },
+      { "$id": "6", "Fecha": "2026-03-25T12:41:00", "Descripcion": "ENTREGADA", "Ampliacion": "RECIBE DESTINATARIO DE MUESTRA DNI 00000000T" },
+      { "$id": "7", "Fecha": "2026-03-24T06:15:00", "Descripcion": "LLEGADA A DELEGACION DESTINO", "Ampliacion": "DELEGACION EJEMPLO" },
+      { "$id": "8", "Fecha": "2026-03-24T08:30:00", "Descripcion": "EN REPARTO", "Ampliacion": "REPARTIDOR MUESTRA" },
+      { "$id": "9", "Fecha": "2026-03-25T08:20:00.4370000", "Descripcion": "EN REPARTO", "Ampliacion": "REPARTIDOR MUESTRA" },
+      { "$id": "10", "Fecha": "2026-03-24T06:15:00", "Descripcion": "LLEGADA A DELEGACION DESTINO", "Ampliacion": "DELEGACION EJEMPLO" }
+    ],
+    "incidencias": [
+      { "$id": "11", "Fecha": "2026-03-24T13:05:00", "Descripcion": "AUSENTE", "Ampliacion": "AVISADO AL 600 000 000, VUELVE MAÑANA" }
+    ],
+    "imagenes": [
+      { "$id": "12", "Tipo": "POD", "TipoNombre": "Albarán firmado", "ViewURL": "https://pod.example.com/view?token=00000000" }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<body>
+    <form name="ctl00" method="post" action="TopHeader.aspx" id="ctl00">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="U3ludGhldGljIHZpZXcgc3RhdGUgKyBzbGFzaC8=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0A1B2C3D" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="U3ludGhldGljIGV2ZW50IHZhbGlkYXRpb24=" />
+</div>
+
+        <div class="header-row" id="header-row">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a class="navbar-brand logo" href="index.aspx">
+                    <img src="images/logo-company1.png" alt="company logo"></a>
+            </div>
+            <div class="col-md-6 contact-info">
+                <div class="input-group navbar-form navbar-right" role="search" style="display: inline-flex; margin-right: 15px;">
+                    <input name="trackingno" type="text" id="trackingno" class="form-control" placeholder="Enter AWB No." onkeypress="return digitForAwbNo(event);" />
+                    <span class="input-group-btn">
+                        <input type="submit" name="btnTrack" value="Go" onclick="return ValidateTracking();" id="btnTrack" class="btn btn-default btn-yellow" />
+                    </span>
+                </div>
+                <div class="input-group navbar-form navbar-right" role="search" style="display: inline-flex;">
+                    <input name="networksearch" type="text" id="networksearch" class="form-control" autocomplete="off" placeholder="Center/Pincode/State/Blank" />
+                    <span class="input-group-btn">
+                        <input type="submit" name="btnNetwork" value="Go" id="btnNetwork" class="btn btn-default btn-yellow" />
+                    </span>
+                </div>
+                <br />
+                <div class="input-group">
+                <span style="float: left; padding-left: 15px; font-size: 14px; font-weight: bold;
+                    color: White;">Seprated By , For Multiple AWB No.</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+  </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "carrier": "komon-express",
+  "entries": [
+    {"code": "KMDD", "wording": "Item information received.", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The seller's order, before the parcel reaches Komon."},
+    {"code": "KM02", "wording": "Item outbound in sorting center.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Leaving Komon's sorting centre in China."},
+    {"code": "KM03", "wording": "Item is ready for departure.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Waiting for its flight."},
+    {"code": "KM04", "wording": "Item is awaiting customs clearance.", "stage": "customs", "language": "en", "confirmedBy": "live", "note": "Export clearance at the departing airport."},
+    {"code": "KM05", "wording": "Item was released from customs.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Export clearance done."},
+    {"code": "KM06", "wording": "Item arrived at destination.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Landed at the destination's airport."},
+    {"code": "KM07", "wording": "Arrival at Customs in", "stage": "customs", "language": "en", "confirmedBy": "live", "note": "Import clearance at the destination."},
+    {"code": "KM08", "wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "The delivering network's round, in its wording after its place."},
+    {"code": "KM12", "wording": "Delivered, In/At Mailbox", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The delivering network's delivery, in its wording after its place."}
+  ]
+}

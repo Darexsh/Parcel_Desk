@@ -1,0 +1,43 @@
+{
+  "carrier": "haypost",
+  "records": [
+    {
+      "number": "CC001555871AM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-armenia-post.html",
+        "date": "2018-01-25",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A customer on the Armenia Post review page asks HayPost where this parcel is. HayPost's tracker no longer finds it."
+    },
+    {
+      "number": "PAS105759416AM",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/karrioapi/community/blob/main/plugins/hay_post/tests/hay_post/test_tracking.py",
+        "date": "2025-05-08",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The tracking id in a HayPost API reply used as a fixture by the open-source karrio HayPost connector's tracking tests; the reply belongs to a test order, and HayPost's API issued the id."
+    }
+  ]
+}

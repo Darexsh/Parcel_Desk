@@ -1,0 +1,99 @@
+{
+  "id": "energia-tk",
+  "displayName": "TK Energia",
+  "aliases": [
+    "ТК Энергия",
+    "Транспортная компания «Энергия»",
+    "МТК «Энергия»",
+    "TK Energy",
+    "Energiya"
+  ],
+  "region": {
+    "countries": [
+      "RU",
+      "BY",
+      "KZ",
+      "KG",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#44759d"
+  },
+  "selectable": true,
+  "timezone": "Europe/Moscow",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "energia-tk",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 927
+    }
+  },
+  "capabilities": [
+    "location",
+    "provider_code",
+    "eta",
+    "eta_window",
+    "weight",
+    "pickup_point",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://nrg-tk.pro/client/tracking/#{trackingNumber}",
+    "searchUrl": "https://nrg-tk.pro/client/tracking/",
+    "canaryUrl": "https://nrg-tk.pro/client/tracking/",
+    "shows": [
+      "status",
+      "location",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "weight",
+      "volume",
+      "parcel_count",
+      "origin",
+      "destination",
+      "pickup_point",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "location",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "weight",
+      "pickup_point"
+    ],
+    "discarded": [
+      "volume",
+      "parcel_count",
+      "origin",
+      "destination",
+      "payment_details"
+    ],
+    "unavailable": [
+      "history",
+      "sender_name",
+      "recipient_name",
+      "service_name",
+      "proof_of_delivery",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "nrg-tk.pro"
+      ],
+      "pathPattern": "^/client/tracking/?$",
+      "fragment": "^(\\d{3,4}-\\d{7}|\\d{7})$"
+    }
+  ],
+  "detection": []
+}

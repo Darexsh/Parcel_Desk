@@ -1,0 +1,46 @@
+{
+  "id": "big-smart",
+  "displayName": "Big Smart",
+  "aliases": [
+    "BigSmart",
+    "BIG Pack"
+  ],
+  "region": {
+    "countries": [
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#2f2f5e"
+  },
+  "selectable": true,
+  "timezone": "America/Mexico_City",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://bigsmart.mx/en/tracking/?trackingNumber={trackingNumber}",
+    "searchUrl": "https://bigsmart.mx/en/tracking/",
+    "canaryUrl": "https://bigsmart.mx/en/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "bigsmart.mx",
+        "www.bigsmart.mx"
+      ],
+      "pathPattern": "^/(?:en/)?tracking/?$",
+      "params": [
+        "trackingNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

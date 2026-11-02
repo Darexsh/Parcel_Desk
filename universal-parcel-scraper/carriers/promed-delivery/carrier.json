@@ -1,0 +1,33 @@
+{
+  "id": "promed-delivery",
+  "displayName": "ProMed Delivery",
+  "aliases": [
+    "Pro-Med Delivery"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#7f1416"
+  },
+  "selectable": true,
+  "timezone": "America/Detroit",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://promeddel.e-courier.com/promeddel/home/wizard_tracking.asp",
+    "canaryUrl": "https://promeddel.e-courier.com/promeddel/home/wizard_tracking.asp",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

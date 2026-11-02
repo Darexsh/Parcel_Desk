@@ -1,0 +1,43 @@
+{
+  "carrier": "campost",
+  "records": [
+    {
+      "number": "RR000478780CM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-campost/fr.html",
+        "date": "2022-02-04",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Quoted in a review on TrackingMore's Campost page by a customer in Benin who had waited over a month for the parcel; its CM suffix names Campost as the issuing post."
+    },
+    {
+      "number": "RR002178765CM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-campost/fr.html",
+        "date": "2021-06-01",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Quoted in a review on TrackingMore's Campost page by a customer who could not trace the parcel; its CM suffix names Campost as the issuing post."
+    }
+  ]
+}

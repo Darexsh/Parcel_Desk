@@ -1,0 +1,31 @@
+{
+  "carrier": "hermes-at",
+  "entries": [
+    {"wording": "Sendung wurde Hermes elektronisch angekündigt", "stage": "registered", "language": "de", "confirmedBy": "portal", "note": "The sender announced the parcel electronically."},
+    {"wording": "Sendung vom Kunden am PaketShop abgegeben", "stage": "accepted", "language": "de", "confirmedBy": "portal", "note": "The sender handed the parcel in at a PaketShop."},
+    {"wording": "Sendung an Dienstleister übergeben", "stage": "in_transit", "language": "de", "confirmedBy": "portal", "note": "The PaketShop handed the parcel to the collecting service."},
+    {"wording": "Eingang Logistikzentrum", "stage": "in_transit", "language": "de", "confirmedBy": "portal", "note": "Arrived at a logistics centre."},
+    {"wording": "Sendung in Sortierung", "stage": "in_transit", "language": "de", "confirmedBy": "portal"},
+    {"wording": "Adressnacherfassung", "stage": "in_transit", "language": "de", "confirmedBy": "portal", "note": "The address was keyed in again during sorting; the parcel went on afterwards."},
+    {"wording": "Sendung an Transportpartner übergeben", "stage": "in_transit", "language": "de", "confirmedBy": "portal", "note": "Handed to the partner carrying it on, seen before sorting and delivery in Germany."},
+    {"wording": "Eingang Zustellbasis", "stage": "in_transit", "language": "de", "confirmedBy": "portal", "note": "Arrived at the delivery base."},
+    {"wording": "Retoure im Logistikzentrum sortiert", "stage": "in_transit", "language": "de", "confirmedBy": "portal", "note": "A return parcel sorted at a logistics centre."},
+    {"wording": "Sendung in Zustellung", "stage": "out_for_delivery", "language": "de", "confirmedBy": "portal"},
+    {"wording": "Empfänger nicht angetroffen - benachrichtigt", "stage": "failed_attempt", "language": "de", "confirmedBy": "portal", "note": "Nobody was in; the recipient was notified."},
+    {"wording": "Empfänger benachrichtigt / Sendung wurde hinterlegt", "stage": "failed_attempt", "language": "de", "confirmedBy": "portal", "note": "The recipient was notified and the parcel deposited for collection."},
+    {"wording": "Sendung in Post-Geschäftsstelle abholbereit", "stage": "ready_for_pickup", "language": "de", "confirmedBy": "portal", "note": "Ready for collection at an Austrian Post office."},
+    {"wording": "Sendung am Postamt hinterlegt", "stage": "ready_for_pickup", "language": "de", "confirmedBy": "portal", "note": "Held at a post office."},
+    {"wording": "Sendung zugestellt", "stage": "delivered", "language": "de", "confirmedBy": "portal"},
+    {"wording": "Sendung an Empfänger übergeben", "stage": "delivered", "language": "de", "confirmedBy": "portal", "note": "Handed to the recipient, here after collection at a post office."},
+    {"wording": "Sendung an Angestellten/Kollegen des Empfängers übergeben", "stage": "delivered", "language": "de", "confirmedBy": "portal", "note": "Handed to an employee or colleague of the recipient."},
+    {"wording": "Sendung in Postempfangsbox zugestellt", "stage": "ready_for_pickup", "language": "de", "confirmedBy": "portal", "note": "Left in a parcel locker for the recipient to collect: Austrian Post's tracker records the same scan as ready for collection, and a later scan records the recipient taking it out."},
+    {"wording": "Sendung aus Postempfangsbox entnommen", "stage": "delivered", "language": "de", "confirmedBy": "portal", "note": "The recipient took the parcel out of the parcel locker."},
+    {"wording": "Sendung im Rückversand", "stage": "returned", "language": "de", "confirmedBy": "portal", "note": "On its way back to the sender; a handover after it is to the sender."},
+    {"wording": "Rücksendung - Sendung beschädigt", "stage": "exception", "language": "de", "confirmedBy": "portal", "note": "Sent back because the parcel was damaged; a handover after it is to the sender."},
+    {"wording": "Abgabe / Abholung", "stage": "accepted", "language": "de", "confirmedBy": "portal", "note": "A step of the tracker's progress bar, not a scan."},
+    {"wording": "Transport zum Logistikzentrum", "stage": "in_transit", "language": "de", "confirmedBy": "portal", "note": "A step of the tracker's progress bar, not a scan."},
+    {"wording": "Transport zum Verteilzentrum", "stage": "in_transit", "language": "de", "confirmedBy": "portal", "note": "A step of the tracker's progress bar, not a scan."},
+    {"wording": "In Zustellung", "stage": "out_for_delivery", "language": "de", "confirmedBy": "portal", "note": "A step of the tracker's progress bar, not a scan."},
+    {"wording": "Zugestellt", "stage": "delivered", "language": "de", "confirmedBy": "portal", "note": "A step of the tracker's progress bar, not a scan."}
+  ]
+}

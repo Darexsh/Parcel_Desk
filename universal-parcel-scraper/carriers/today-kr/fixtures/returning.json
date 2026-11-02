@@ -1,0 +1,41 @@
+{
+  "type": "LM_COLLECT",
+  "data": {
+    "sanitizedLoad": {
+      "id": "00000000-0000-4000-8000-000000000201",
+      "displayInvoiceNumber": "100000000033",
+      "invoiceNumber": "100000000033",
+      "clientName": "Sample Shop",
+      "state": "IN_TRANSPORT",
+      "deliveryClass": "RETURNING",
+      "shippingType": "LM_TO_STATION",
+      "name": "Sample Product D",
+      "sender": { "name": "샘*자", "location": { "latitude": 37.0005, "longitude": 127.0005 } },
+      "receiver": { "name": "Sample Shop", "location": { "latitude": 37.0006, "longitude": 127.0006 } }
+    },
+    "sanitizedOrder": {
+      "invoiceNumber": "100000000033",
+      "deliveryClass": "RETURNING",
+      "shippingType": "LM_TO_STATION"
+    },
+    "steps": {
+      "logs": [
+        {
+          "station": { "name": "가나", "type": "LOCAL", "level": "LC", "rawAddress": "Sample Address 1", "location": { "latitude": 37.1, "longitude": 127.1 } },
+          "arrivalTime": "2026-06-02T16:10:00+09:00",
+          "departureTime": "2026-06-02T19:45:00+09:00"
+        },
+        {
+          "station": { "name": "Sample Shop-반품센터", "type": "CLIENT_COLLECT", "level": "PU", "rawAddress": "Sample Address 5", "location": { "latitude": 37.0006, "longitude": 127.0006 } },
+          "arrivalTime": null,
+          "departureTime": null
+        }
+      ],
+      "source": { "title": "접수지", "time": "2026-06-02T14:31:20.4+09:00", "actionName": "인수", "arrivedAtNextStation": true },
+      "destination": { "title": "Sample Shop", "deliveryState": "NOT_STARTED", "deliveryTime": null },
+      "shippingType": "LM_TO_STATION",
+      "fillsUnknownProgress": false
+    },
+    "originalInvoiceNumber": "100000000041"
+  }
+}

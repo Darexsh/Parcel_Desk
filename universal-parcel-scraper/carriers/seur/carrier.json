@@ -1,0 +1,102 @@
+{
+  "id": "seur",
+  "displayName": "SEUR",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "ES",
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#0063b3"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "seur",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 870,
+      "pattern": "^(?:\\d{14}|\\d{21,22}|REC\\d{12})$"
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://www.seur.com/miseur/mis-envios?tracking={trackingNumber}",
+    "searchUrl": "https://www.seur.com/miseur/mis-envios",
+    "helpUrl": "https://www.seur.com/miseur/soporte/atencion-cliente/buscador",
+    "canaryUrl": "https://www.seur.com/miseur/mis-envios",
+    "shows": [
+      "status",
+      "history",
+      "weight",
+      "parcel_count",
+      "sender",
+      "recipient",
+      "delivery_pin",
+      "qr"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "weight"
+    ],
+    "discarded": [
+      "parcel_count",
+      "sender",
+      "recipient",
+      "delivery_pin",
+      "qr"
+    ],
+    "unavailable": [
+      "location"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.seur.com",
+        "seur.com"
+      ],
+      "pathPattern": "^/(?:(?:[a-z]{2}/?)?$|(?:[a-z]{2}/)?miseur/mis-envios(?:/|$)|livetracking(?:/|$))",
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "seur-1",
+      "pattern": "^\\d{14}$",
+      "confidence": "low"
+    },
+    {
+      "id": "seur-2",
+      "pattern": "^\\d{21}$",
+      "confidence": "low"
+    },
+    {
+      "id": "seur-3",
+      "pattern": "^\\d{7}$",
+      "confidence": "low"
+    },
+    {
+      "id": "seur-4",
+      "pattern": "^20\\d{2}(?:0[1-9]|[12]\\d|3[01])(?:0[1-9]|1[0-2])\\d{14}$",
+      "confidence": "low"
+    },
+    {
+      "id": "seur-5",
+      "pattern": "^REC\\d{12}$",
+      "confidence": "low"
+    }
+  ]
+}

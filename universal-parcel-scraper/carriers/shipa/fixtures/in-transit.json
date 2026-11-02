@@ -1,0 +1,98 @@
+{
+  "driverLocation": null,
+  "orderStatus": "PENDING",
+  "dropOffEstimatedTime": 1780840800000,
+  "destinationCountry": "ARE",
+  "dropOffLocation": {
+    "latitude": 25.3,
+    "longitude": 55.4
+  },
+  "originCountry": "CHN",
+  "orderCustomerSource": "SD",
+  "tel": {
+    "number": "600000000",
+    "text": "600 000000"
+  },
+  "orderDateCreated": 1780308000000,
+  "subsidiaryCountry": "United Arab Emirates",
+  "storyStatus": "Order Created",
+  "barcode": "SD000000001",
+  "pickUpLocation": {
+    "latitude": 25.2,
+    "longitude": 55.3
+  },
+  "vehicleType": null,
+  "orderStory": [
+    {
+      "date": 1780308000000,
+      "details": null,
+      "status": "Order Created",
+      "statusCode": "1"
+    },
+    {
+      "date": 1780552810000,
+      "details": null,
+      "status": "Arrived Destination Airport",
+      "statusCode": "36"
+    },
+    {
+      "date": 1780552880000,
+      "details": null,
+      "status": "Received By Port Of Entry",
+      "statusCode": "40"
+    },
+    {
+      "date": 1780552950000,
+      "details": null,
+      "status": "Customs Clearance - In Progress",
+      "statusCode": "30"
+    },
+    {
+      "date": 1780553020000,
+      "details": null,
+      "status": "Customs Clearance - Complete",
+      "statusCode": "33"
+    },
+    {
+      "date": 1780603200000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "hub": "Dubai hub",
+          "city": "Dubai",
+          "name": "OPS - Sample warehouse"
+        },
+        "proofImageUrl": null
+      },
+      "status": "Pickup Completed",
+      "statusCode": "11"
+    },
+    {
+      "date": 1780603290000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "hub": "Dubai hub",
+          "city": "Dubai",
+          "name": "OPS - Sample warehouse"
+        }
+      },
+      "status": "Received By Sorting Hub",
+      "statusCode": "43"
+    },
+    {
+      "date": 1780702200000,
+      "details": {
+        "carrier": {
+          "country": "ARE",
+          "hub": "Sharjah hub",
+          "city": "Sharjah",
+          "name": "Sample SHJ"
+        },
+        "locationId": "00000000-0000-0000-0000-000000000001"
+      },
+      "status": "Received By Destination Hub",
+      "statusCode": "12"
+    }
+  ]
+}

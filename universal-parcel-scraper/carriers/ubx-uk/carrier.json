@@ -1,0 +1,50 @@
+{
+  "id": "ubx-uk",
+  "displayName": "UBX UK",
+  "aliases": [
+    "UBX Global",
+    "UBX Express",
+    "UBX UK Ltd",
+    "United Business Xpress",
+    "United Business Xpress Ltd"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#254083"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.ubx.uk.net/tracking/?consign_note={trackingNumber}",
+    "searchUrl": "https://www.ubx.uk.net/tracking/",
+    "canaryUrl": "https://www.ubx.uk.net/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.ubx.uk.net",
+        "ubx.uk.net",
+        "ubx.couriernavigator-secure.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "consign_note"
+      ]
+    }
+  ],
+  "detection": []
+}

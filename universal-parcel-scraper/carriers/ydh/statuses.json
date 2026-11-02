@@ -1,0 +1,201 @@
+{
+  "carrier": "ydh",
+  "entries": [
+    {
+      "code": "IR",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "Electronic information received (\"Shipment information received\", \"Label Created\"), or the partner's own notice of it."
+    },
+    {
+      "code": "AF",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "\"Shipment arrived at facility\": YDH's warehouse in China."
+    },
+    {
+      "code": "GNZY",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "\"快件到达作业中心\", carried on within China."
+    },
+    {
+      "code": "HBYP",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Waiting for a flight."
+    },
+    {
+      "code": "DF",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "\"Shipment departed from facility\"."
+    },
+    {
+      "code": "DA",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "\"Shipment departed from airport\" or \"航班起飞\"."
+    },
+    {
+      "code": "TDDY",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "\"Flight delay\"."
+    },
+    {
+      "code": "AA",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "\"Shipment arrived at airport\" or \"航班到达\"."
+    },
+    {
+      "code": "RC",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "\"Released from customs\" at the destination."
+    },
+    {
+      "code": "CARR",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "\"The goods have been handed over to the final carrier\"."
+    },
+    {
+      "code": "PU",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The partner's first scans once it has the parcel, in its wording: its pickup from YDH, its manifest, its transit."
+    },
+    {
+      "code": "OD",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "note": "\"Out for Delivery\", or the partner's wording for a parcel at its delivery office being prepared for the round."
+    },
+    {
+      "code": "CC",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "note": "\"Delivered\", in YDH's or the partner's wording."
+    },
+    {
+      "code": "DD",
+      "unmapped": true,
+      "confirmedBy": "live",
+      "note": "A delivery the partner could not make or put off, filed as a delivery exception; the partner's wording tells which."
+    },
+    {
+      "wording": "快件电子信息已经收到",
+      "stage": "registered",
+      "language": "zh",
+      "confirmedBy": "live",
+      "note": "Electronic information received, without a code beside the coded scan."
+    },
+    {
+      "wording": "Shipping Label Created",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "A partner's label, relayed without a code."
+    },
+    {
+      "wording": "快件已操作完成",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "note": "Processing at YDH's warehouse done."
+    },
+    {
+      "wording": "扫描装箱",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "note": "Scanned into a box."
+    },
+    {
+      "wording": "装箱完成",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "note": "Boxing done."
+    },
+    {
+      "wording": "货物出库",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "note": "Out of the warehouse."
+    },
+    {
+      "wording": "出口报关",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "note": "Export declaration."
+    },
+    {
+      "wording": "出口放行并安排航班",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "note": "Released for export, flight arranged."
+    },
+    {
+      "wording": "货交物流供应商",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "note": "Handed to the logistics provider at the destination."
+    },
+    {
+      "wording": "快件到达目的地作业中心",
+      "stage": "in_transit",
+      "language": "zh",
+      "confirmedBy": "live",
+      "note": "Arrived at the destination's processing centre."
+    },
+    {
+      "wording": "Loaded on Vehicle",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "The partner's scan in the United States, relayed without a code."
+    },
+    {
+      "wording": "Arrived at GOFO Delivery Station",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "GOFO's scan in the United States, relayed without a code."
+    },
+    {
+      "wording": "Departed GOFO Delivery Station",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "GOFO's scan in the United States, relayed without a code."
+    },
+    {
+      "wording": "Package Scan",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "USPS's scan, relayed without a code."
+    },
+    {
+      "wording": "Shipment Shipped",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "USPS's scan, relayed without a code."
+    },
+    {
+      "wording": "Arrival at Unit",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "USPS's scan at the delivery office, relayed without a code."
+    }
+  ]
+}

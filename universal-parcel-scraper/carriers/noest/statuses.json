@@ -1,0 +1,31 @@
+{
+  "carrier": "noest",
+  "entries": [
+    {"code": "upload", "wording": "Uploadé sur le système", "stage": "registered", "language": "fr", "confirmedBy": "live", "note": "The merchant created the order."},
+    {"code": "customer_validation", "wording": "Validé", "stage": "registered", "language": "fr", "confirmedBy": "official-doc", "note": "The merchant validated the order, which makes it visible to NOEST."},
+    {"code": "validation_collect_colis", "wording": "Colis Ramassé", "stage": "accepted", "language": "fr", "confirmedBy": "official-doc"},
+    {"code": "validation_reception_admin", "wording": "Reception validé", "stage": "in_transit", "language": "fr", "confirmedBy": "official-doc", "note": "Received at a NOEST hub."},
+    {"code": "validation_reception", "wording": "Enlevé par le livreur", "stage": "in_transit", "language": "fr", "confirmedBy": "official-doc", "note": "Taken from the hub by a driver."},
+    {"code": "fdr_activated", "wording": "En livraison", "stage": "out_for_delivery", "language": "fr", "confirmedBy": "official-doc", "note": "The driver's delivery run was started."},
+    {"code": "mise_a_jour", "wording": "Tentative de livraison", "stage": "failed_attempt", "language": "fr", "confirmedBy": "official-doc"},
+    {"code": "livre", "wording": "Livré", "stage": "delivered", "language": "fr", "confirmedBy": "official-doc", "note": "The document also lists the livred key for this wording."},
+    {"code": "return_asked_by_customer", "wording": "Retour demandé par le partenaire", "stage": "returned", "language": "fr", "confirmedBy": "official-doc", "note": "The merchant asked for the parcel back."},
+    {"code": "return_asked_by_hub", "wording": "Retour En transit", "stage": "returned", "language": "fr", "confirmedBy": "official-doc"},
+    {"code": "return_dispatched_to_partenaire", "wording": "Retour transmis au partenaire", "stage": "returned", "language": "fr", "confirmedBy": "official-doc"},
+    {"code": "livraison_echoue_recu", "wording": "Retour reçu par le partenaire", "stage": "returned", "language": "fr", "confirmedBy": "official-doc"},
+    {"code": "colis_suspendu", "wording": "Suspendu", "stage": "exception", "language": "fr", "confirmedBy": "official-doc"},
+    {"wording": "Commande supprimée", "stage": "exception", "language": "fr", "confirmedBy": "live", "note": "The merchant deleted an order it had not validated; the tracker still shows the order."},
+    {"code": "return_dispatched_to_warehouse", "wording": "Retour transmis vers entrepôt", "stage": "returned", "language": "fr", "confirmedBy": "official-doc"},
+    {"code": "return_validated_by_partener", "wording": "Retour validé par le partenaire", "stage": "returned", "language": "fr", "confirmedBy": "official-doc"},
+    {"code": "return_redispatched_to_livraison", "wording": "Retour remis en livraison", "stage": "in_transit", "language": "fr", "confirmedBy": "official-doc", "note": "A parcel on its way back sent out for delivery again."},
+    {"code": "nouvel_tentative_asked_by_customer", "wording": "Nouvelle tentative demandée par le vendeur", "language": "fr", "confirmedBy": "official-doc", "unmapped": true, "note": "The merchant asking for another delivery attempt; the next events carry the stage."},
+    {"code": "verssement_admin_cust", "wording": "Montant transmis au partenaire", "language": "fr", "confirmedBy": "official-doc", "unmapped": true, "note": "The cash collected on delivery paid out to the merchant."},
+    {"code": "validation_reception_cash_by_partener", "wording": "Montant reçu par le partenaire", "language": "fr", "confirmedBy": "official-doc", "unmapped": true, "note": "The merchant confirming the payout."},
+    {"code": "verssement_admin_cust_canceled", "wording": "Versement annulé", "language": "fr", "confirmedBy": "official-doc", "unmapped": true, "note": "A payout to the merchant cancelled."},
+    {"code": "edited_informations", "wording": "Informations modifiées", "language": "fr", "confirmedBy": "official-doc", "unmapped": true, "note": "The order details edited."},
+    {"code": "edit_price", "wording": "Prix modifié", "language": "fr", "confirmedBy": "official-doc", "unmapped": true, "note": "The amount to collect edited."},
+    {"code": "edit_wilaya", "wording": "Changement de wilaya", "language": "fr", "confirmedBy": "official-doc", "unmapped": true, "note": "The destination province changed on the order."},
+    {"code": "extra_fee", "wording": "Surfacturation du colis", "language": "fr", "confirmedBy": "official-doc", "unmapped": true, "note": "An extra fee charged for the parcel."},
+    {"code": "ask_to_delete_by_admin", "wording": "Demande de suppression", "language": "fr", "confirmedBy": "official-doc", "unmapped": true, "note": "A request to delete the order. The document gives the ask_to_delete_by_hub key the same wording."}
+  ]
+}

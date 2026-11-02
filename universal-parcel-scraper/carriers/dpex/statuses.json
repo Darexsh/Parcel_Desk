@@ -1,0 +1,93 @@
+{
+  "carrier": "dpex",
+  "entries": [
+    {
+      "code": "90",
+      "wording": "Documentation Prepared",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "Written with Shipment Finalised before the collection."
+    },
+    {
+      "code": "91",
+      "wording": "Shipment Finalised",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "Written with Documentation Prepared before the collection."
+    },
+    {
+      "code": "2",
+      "wording": "Collection",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "4",
+      "wording": "Arrived Hub",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "3",
+      "wording": "In Transit to Destination",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "10",
+      "wording": "Customs processing",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "37",
+      "wording": "Released from Customs",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "40",
+      "wording": "Arrived Depot",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Seen at the delivering station on consecutive days before the parcel went out for delivery."
+    },
+    {
+      "code": "15",
+      "wording": "Out for Delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "97",
+      "wording": "Attempted Delivery - Consignee Not Available",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "82",
+      "wording": "Attempted Delivery - Rescheduled Delivery",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "note": "Followed by another delivery round days later."
+    },
+    {
+      "code": "1",
+      "wording": "Delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    }
+  ]
+}

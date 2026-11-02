@@ -1,0 +1,626 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link href="/csw/css/site.css?ver=20190612" type="text/css" rel="stylesheet" />
+<link href="/csw/dojo/dijit/themes/claro/claro.css" type="text/css" rel="stylesheet" />
+<link href="/csw/css/dojo-claro.css" type="text/css" rel="stylesheet" />
+<script language="javascript" type="text/javascript">
+<!-- 
+function doAction(action, target, form) {
+	form.action = action;
+	if (target == null) {
+		target = '';
+	}
+	form.target = target;
+	form._TARGETID.value = target;
+	form.submit();
+	form.target = '_self';
+	form._TARGETID.value = form._FRAMEID.value;
+}
+//-->
+</script>
+<script src="/csw/dojo/dojo/dojo.js" djConfig="parseOnLoad: false" type="text/javascript"></script>
+<script src="/csw/dojo/custom/custom.js" djConfig="parseOnLoad: false" type="text/javascript"></script>
+<script src="/csw/script/common.js" type="text/javascript"></script>
+<script src="/csw/script/loadManager.js?ver=20171031" type="text/javascript"></script>
+<script src="/csw/script/sofa_adapter.js?ver=20240223" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+<!-- 
+	dojo.require("dijit.MenuBar");
+	dojo.require("dijit.MenuBarItem");
+	dojo.require("dijit.PopupMenuBarItem");
+	dojo.require("dijit.Menu");
+	dojo.require("dijit.MenuItem");
+	dojo.require("dijit.PopupMenuItem");
+	dojo.require("dojo.date.locale");
+	dojo.addOnLoad(function() {
+		if (document.getElementById("header_navi")) {
+			dojo.parser.parse("header_navi");
+		}
+	});
+	// dijit.BackgroundIframe　= function(node)
+	// Description: iframeを生成しないようdojoオーバーライド
+	// Arguments:
+	// node: DOMノード
+	dijit.BackgroundIframe = function(/* DomNode */node){
+		this.iframe = null;
+	};
+//-->
+</script>
+<link href="./css/reset.css" type="text/css" rel="stylesheet" />
+<link href="./css/layout.css" type="text/css" rel="stylesheet" />
+<link href="./css/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="./script/SpryMenuBar.js" type="text/javascript" xml:space="preserve"></script>
+<script src="./script/cs.js" type="text/javascript"></script>
+<script type="text/javascript" xml:space="preserve">
+<!--
+//-->
+</script>
+<title>Tracking Shipments</title>
+</head>
+<body>
+<form action="/csw/ECSWG0201R00000P.do" method="post" name="PCSWG0201RForm"><input type="hidden" name="_FRAMEID" value="root" /><input type="hidden" name="_TARGETID" value="root" /><input type="hidden" name="_LUID" value="" /><input type="hidden" name="_TOKEN" value="" /><input type="hidden" name="_FORMID" value="PCSWG0201RForm" /><input type="hidden" name="_SUBINDEX" />
+<input type="hidden" id="VIEW_ID" value="PCSWG0201R" />
+<div id="wrapper">
+<div id="container">
+<div id="contents">
+	<!-- Start Header -->
+	<div id = "envArea_base">
+	</div>
+	<input type="hidden" name="windowType" value="0" />
+	<!--Start get UserLogoPath -->
+		<div id="header">
+			<img src="/images/csw/Logo/Logo_jp_ocs.gif">
+		</div>
+	<!--End get UserLogoPath -->
+		<div id="screen_icon" style="background-image:url(image/screen_icon_purple.gif);">
+			<div id = "title_text">
+				<script type="text/javascript">
+					<!--
+						ShowTitleFunction_COMMON();
+					//-->
+				</script>
+			</div>
+			<div id = "monitor">
+				<p id = "monitor_info">View ID<span class="mgn_lr_2">:</span><span id="viewIdDisp"></span>
+				<span class="mgn_l_10">Ref.Date</span><span class="mgn_lr_2">:</span><span id="date"></span></p>
+				<script type = "text/javascript">
+					<!--
+						PrintViewId_COMMON();
+						ShowLocaleFunction_COMMON(1767225600000);
+					//-->
+				</script>
+			</div>
+		</div>
+	<!-- End Header -->
+<!-- Start Contents -->
+<div id="contents">
+<div id="msg_area">
+	<div class="err_msg" id="error_msg">
+	</div>
+</div>
+<div id="info_area">
+	<div class="info_msg">
+	</div>
+</div>
+<a name="summmary" shape="rect"></a>
+	<div id="search" style="background-image:url(./image/box_bg_all_ex.gif); background-position:top left; background-repeat:no-repeat;position : relative;">
+	<div style="position : absolute; top: 4pt; left: 10pt; color: white; font-weight: bold; font-size: 11pt; ">
+		Search Condition
+	</div>
+        <table border="0" cellpadding="0" cellspacing="0" width="800" summary="">
+          <tr>
+              <th class="linktext" rowspan="1" colspan="1">
+                  <span class="asterisk mgn_lr_5 ">*</span>
+                  Air Waybill No.
+                  <span class="mgn_lr_2">:</span>
+              </th>
+              <td rowspan="1" colspan="1">
+               <label>
+                   <textarea name="edtAirWayBillNo" style="resize:none;width:150px;" class="mandatory_field">
+20000000005</textarea>
+               </label>
+              </td>
+              <td class="bottom" rowspan="1" colspan="1">
+                  Please enter up to 10 Air Waybill numbers, one number per line.
+              </td>
+              <td rowspan="1" colspan="1">
+                  <img src="./image/spacer.gif" alt="" width="100px" height="1px" />
+              </td>
+          </tr>
+        </table>
+    </div>
+    <div id="search_bottom">
+        <input type="button"  alt="Search" onclick="if (!DoubleSubmitGuard_COMMON()){return false;}; doAction('/csw/ECSWG0201R00003P.do','',this.form);"class="button btn_ex" value="Search" tabindex="null" />
+        <span class="linktext">
+            <a href="javascript:void(0)" onclick="doAction('./ECSWG0201R00000P.do', '', document.forms[0]); return false">
+                Clear the condition
+            </a>
+        </span>
+    </div>
+    <div id="chartnavi" class="dateinfo">
+      <div class="dateinfo">
+            11/Feb/2026 20:00
+      </div>
+    </div>
+    <!-- chart overall start -->
+    <div id="chartarea">
+        <!-- chart detail start -->
+        <div id="charttitle">
+            <table border="0" cellpadding="0" cellspacing="0" summary="sample">
+                <tr>
+                    <th class="bg" rowspan="1" colspan="1">
+                    <span class="mgn_r_5">
+                        <img src="./image/tabletitle_mark.gif" alt="title" width="5px" height="12px" />
+                    </span>Summary
+                    </th>
+                </tr>
+                <tr><td><img src="./image/spacer.gif" alt="" width="1px" height="1px" /></td></tr>
+            </table>
+        </div>
+        <!-- chart title end -->
+        <table border="0" cellpadding="0" cellspacing="0" id="" style="border:#d0d0d0 1px dotted;" width="100%">
+            <tbody id="chart_header">
+                <tr>
+                    <td rowspan="1" colspan="1" width="90px">Air Waybill No.</td>
+                    <td rowspan="1" colspan="3" width="370px">Latest Tracking Record</td>
+                    <td rowspan="1" colspan="1" width="150px">Shipper</td>
+                    <td rowspan="1" colspan="1" width="150px">Receiver</td>
+                    <td rowspan="1" colspan="1" width="40px">Pcs</td>
+                    <td rowspan="1" colspan="1" width="80px">Actual Weight</td>
+                    <td rowspan="1" colspan="1" width="70px">Vol. Weight</td>
+                </tr>
+            </tbody>
+            <tbody id="chart" style="height: auto">
+            <!-- record start -->
+                 <tr>
+                     <td>
+                         <a href='#0' shape="rect">
+                             20000000005
+                         </a>
+                     </td>
+                    <td width="160px">
+                         <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                          <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                              Wed
+                          </div>
+                          <div style="position:absolute;top:0pt;left:25pt;">
+                              11Feb2026
+                          </div>
+                          <div style="position:absolute;top:0pt;left:80pt;">
+                              18:30
+                          </div>
+                         </div>
+                     </td>
+                     <td width="90px">
+                         <input type="text" value="Flight Departure" style="width:90px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                     </td>
+                     <td width="130px" style ="border-width:1px 1px 1px 0px;">
+                             <img src="./image/tpStatus_BLUE5.gif" width="130px" height="16px"  class="middle"/>
+                     </td>
+                     <td>
+                         <input type="text" value="SAMPLE-SHI/JAPAN" style="width:145px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                     </td>
+                     <td>
+                        <input type="text" value="Exampleville/UNITED STATES" style="width:145px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                     </td>
+                     <td class="t_right">
+                         <input type="text" value="1" style="width:40px;" tabindex="-1" class="readonly_right" readonly="readonly"/>
+                     </td>
+                     <td class="t_right">
+                         <input type="text" value="2.4kg" style="width:70px;" tabindex="-1" class="readonly_right" readonly="readonly"/>
+                     </td>
+                     <td class="t_right">
+                         <input type="text" value="3.1kg" style="width:70px;" tabindex="-1" class="readonly_right" readonly="readonly"/>
+                     </td>
+                 </tr>
+            <!-- record end -->
+            </tbody>
+        </table>
+      </div>
+      <!-- chart overall end   -->
+      <!-- chart detail start -->
+      <div id="chartarea" class="mgn_top_13 clearfix">
+      <!-- chart detail start -->
+        <div id="charttitle">
+            <table border="0" cellpadding="0" cellspacing="0" summary="sample">
+                <tr>
+                    <th class="bg" rowspan="1" colspan="1"><span class="mgn_r_5">
+                    <img src="./image/tabletitle_mark.gif" alt="title" width="5" height="12" /></span>
+                    Air Waybill Detail</th>
+                </tr>
+                <tr><td rowspan="1" colspan="1"><img src="./image/spacer.gif" alt="" width="1px" height="1px" /></td></tr>
+            </table>
+        </div>
+        <!-- chart title end -->
+        <table border="0" cellpadding="0" cellspacing="0" summary="sample" style="border:#d0d0d0 1px dotted;" width="100%">
+            <tbody id="chart_header">
+                <tr>
+                    <td width="90" rowspan="1" colspan="1">Air Waybill No.</td>
+                    <td width="283" rowspan="1" colspan="1">Shipper</td>
+                    <td width="284" rowspan="1" colspan="3">Receiver</td>
+                    <td width="100" rowspan="1" colspan="1">Type</td>
+                    <td width="40" rowspan="1" colspan="1">Pcs</td>
+                    <td width="85" rowspan="1" colspan="1">Actual Weight</td>
+                    <td width="85" rowspan="1" colspan="1">Vol. Weight</td>
+                </tr>
+            </tbody>
+            <tbody id="chart" style="height: auto">
+            <!-- record start -->
+                <tr>
+                    <td>
+                        <span id='0' />
+                        20000000005
+                    </td>
+                    <td>
+                        <input type="text" value="SAMPLE-SHI/JAPAN" style="width:260px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                    </td>
+                    <td colspan="3">
+                        <input type="text" value="Exampleville/UNITED STATES" style="width:260px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                    </td>
+                    <td class="t_center">
+							<input type="text" value="NON DOCUMENT" tabindex="-1" class="readonly" style="width:95px;" readonly="readonly"/>
+                    </td>
+                    <td class="t_right">
+                        <input type="text" value="1" style="width:40px;" tabindex="-1" class="readonly_right" readonly="readonly"/>
+                    </td>
+                    <td class="t_right">
+                        <input type="text" value="2.4kg" style="width:75px;" tabindex="-1" class="readonly_right" readonly="readonly"/>
+                    </td>
+                    <td class="t_right">
+                        <input type="text" value="3.1kg" style="width:75px;" tabindex="-1" class="readonly_right" readonly="readonly"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="t_left middle" colspan = "4" style ="border:none;">
+                        <img src="./image/tpStatus_BLUE5.gif" width="520px" height="45px" />
+                    </td>
+                    <td class="t_left top" colspan = "5" style="border:none">
+                        <input type="text" value="Flight Departure" style="width:400px;" tabindex="-1" class="readonly_left bold2" readonly="readonly"/>
+                        <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                            <div style="position:absolute;top:0pt;left: 0pt;">
+                                Wed
+                            </div>
+                            <div style="position:absolute;top:0pt;left:25pt;">
+                                11Feb2026
+                            </div>
+                            <div style="position:absolute;top:0pt;left:80pt;">
+                                18:30
+                            </div>
+                        </div>
+                        <input type="text" value="" style="width:400px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                    </td>
+                </tr>
+                <!-- record end -->
+                <!-- 明細テーブル Start -->
+                <table border="0" cellpadding="0" cellspacing="0" summary="sample" style="border:#d0d0d0 1px dotted;" width="100%">
+                     <tbody id="chart_header">
+                        <tr>
+                            <td width="250" >Activity</td>
+                            <td width="150" >Date/Time</td>
+                            <td width="250" >Location</td>
+                            <td width="*" >Memo</td>
+                       </tr>
+                    </tbody>
+                    <tbody id="chart" style="height: auto">
+<!-- record start -->
+                        <tr>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Flight Departure" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                                    <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                                        Wed
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:25pt;">
+                                        11Feb2026
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:80pt;">
+                                        18:30
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="SAMPLE GATEWAY / JAPAN" style="width:230px;" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                        </tr>
+                        <!-- record end -->
+<!-- record start -->
+                        <tr>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Departed from Facility" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                                    <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                                        Wed
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:25pt;">
+                                        11Feb2026
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:80pt;">
+                                        05:10
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="SAMPLE GATEWAY / JAPAN" style="width:230px;" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                        </tr>
+                        <!-- record end -->
+<!-- record start -->
+                        <tr>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="In Transit" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                                    <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                                        Tue
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:25pt;">
+                                        10Feb2026
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:80pt;">
+                                        16:00
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="SAMPLE GATEWAY / JAPAN" style="width:230px;" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                        </tr>
+                        <!-- record end -->
+<!-- record start -->
+                        <tr>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Export Authorization" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                                    <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                                        Tue
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:25pt;">
+                                        10Feb2026
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:80pt;">
+                                        10:25
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="" style="width:230px;" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                        </tr>
+                        <!-- record end -->
+<!-- record start -->
+                        <tr>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Export Declaration" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                                    <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                                        Tue
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:25pt;">
+                                        10Feb2026
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:80pt;">
+                                        10:25
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="" style="width:230px;" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Declaration (MEC)" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                        </tr>
+                        <!-- record end -->
+<!-- record start -->
+                        <tr>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Arrived at Facility" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                                    <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                                        Tue
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:25pt;">
+                                        10Feb2026
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:80pt;">
+                                        10:20
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="SAMPLE GATEWAY / JAPAN" style="width:230px;" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Arrived at Warehouse" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                        </tr>
+                        <!-- record end -->
+<!-- record start -->
+                        <tr>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Export Declaration" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                                    <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                                        Mon
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:25pt;">
+                                        09Feb2026
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:80pt;">
+                                        21:00
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="" style="width:230px;" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Preliminary Declaration(MEC)" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                        </tr>
+                        <!-- record end -->
+<!-- record start -->
+                        <tr>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Departed from Facility" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                                    <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                                        Mon
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:25pt;">
+                                        09Feb2026
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:80pt;">
+                                        20:15
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="EXAMPLE STATION / JAPAN" style="width:230px;" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                        </tr>
+                        <!-- record end -->
+<!-- record start -->
+                        <tr>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Arrived at Facility" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                                    <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                                        Mon
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:25pt;">
+                                        09Feb2026
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:80pt;">
+                                        15:30
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="EXAMPLE STATION / JAPAN" style="width:230px;" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                        </tr>
+                        <!-- record end -->
+<!-- record start -->
+                        <tr>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Shipment Data Entry" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                                    <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                                        Mon
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:25pt;">
+                                        09Feb2026
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:80pt;">
+                                        09:30
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="" style="width:230px;" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                        </tr>
+                        <!-- record end -->
+<!-- record start -->
+                        <tr>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="Shipment Information entered at customer site" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <div style=" position:relative; width:100%;align:left;vertical-align: middle;">&#160;
+                                    <div style="position:absolute;top:0pt;left: 1pt; margin: 1px;">
+                                        Sun
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:25pt;">
+                                        08Feb2026
+                                    </div>
+                                    <div style="position:absolute;top:0pt;left:80pt;">
+                                        19:45
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="" style="width:230px;" class="readonly_left" readonly="readonly"/>
+                            </td>
+                            <td style="border-width:0px 0px 1px 0px;">
+                                <input type="text" value="EDI: International : IEC" style="width:230px;" tabindex="-1" class="readonly_left" readonly="readonly"/>
+                            </td>
+                        </tr>
+                        <!-- record end -->
+                    </tbody>
+                </table>
+                <!-- 明細テーブル End -->
+                <div align="right">
+                    <a href="#" shape="rect">
+                        <img src="./image/icon_arrow_up.gif" alt="" />
+                        Top
+                    </a>
+                </div>
+        </tbody>
+      </table>
+    </div>
+    </div>
+    <!-- chart detail end -->
+    <div id="chartnavi_bottom" class="clearfix">
+        <div class="chartbtn">
+			<input type="button"  onclick="window.close();"name="" class="btn" value="Close" tabindex="null" />
+        </div>
+    </div>
+</div>
+<!-- End PageWrapper -->
+	<div id="footer_not_login">
+		<img src="/images/csw/Copyright/Copyright_jp_ocs.gif">
+	</div>
+</div>
+</div>
+</form>
+</body>
+</html>

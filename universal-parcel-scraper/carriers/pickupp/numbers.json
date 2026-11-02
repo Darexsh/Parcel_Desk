@@ -1,0 +1,24 @@
+{
+  "carrier": "pickupp",
+  "records": [
+    {
+      "number": "PU093960412749HK",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api-docs.pickupp.io/docs/getting-started/create-an-order",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pickupp",
+        "confidence": "high"
+      },
+      "note": "Pickupp's own API documentation gives this as the order_number example of its create order response, the number its Hong Kong tracker looks up."
+    }
+  ]
+}

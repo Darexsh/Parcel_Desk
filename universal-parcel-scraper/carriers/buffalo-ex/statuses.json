@@ -1,0 +1,28 @@
+{
+  "carrier": "buffalo-ex",
+  "entries": [
+    {"wording": "Order Confirmed", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; the first entry, timed in China, before the parcel ships."},
+    {"wording": "International Shipping", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; the parcel has left China."},
+    {"wording": "Arrival at South Africa customs", "stage": "customs", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker."},
+    {"wording": "Customs VAT and duty can be paid now, please pay in time", "stage": "customs", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; import VAT and duty are due before release."},
+    {"wording": "Tax Paid", "stage": "customs", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; import VAT and duty were paid."},
+    {"wording": "Clearance finished", "stage": "customs", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; South African customs released the parcel."},
+    {"wording": "AIR DC ready to collect the parcel", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; the airport depot is about to collect the parcel from the airline or customs."},
+    {"wording": "AIR DC collected the parcel", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker."},
+    {"wording": "AIR DC Received the parcel", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker."},
+    {"wording": "BUFFALO Airport Warehouse received", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker."},
+    {"wording": "Transit the parcel from AIRDC to JHBDC", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; from the airport depot to the Johannesburg depot."},
+    {"wording": "JHB DC Received the parcel", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; at the Johannesburg depot."},
+    {"wording": "Dispatching", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; shown minutes before a driver takes the parcel."},
+    {"wording": "Driver Pick the Order", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; a driver has taken the parcel for delivery."},
+    {"wording": "WAYBILL IMPORTED", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; a waybill was created for hand-over to a local courier."},
+    {"wording": "Transit to thirdparty Express", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event in an archived capture of BUFFALO's tracker; the parcel was handed to another courier for final delivery."},
+    {"wording": "Enter Warehouse", "stage": "accepted", "language": "en", "confirmedBy": "documentation", "note": "Listed among the tracking statuses on https://www.buffaloex.com/support.html: the parcel reached BUFFALO's warehouse in China."},
+    {"wording": "Out of Warehouse", "stage": "in_transit", "language": "en", "confirmedBy": "documentation", "note": "Listed among the tracking statuses on https://www.buffaloex.com/support.html: the parcel left the warehouse in China for the airport."},
+    {"wording": "Clearance", "stage": "customs", "language": "en", "confirmedBy": "documentation", "note": "Listed among the tracking statuses on https://www.buffaloex.com/support.html: the parcel is at the Chinese airport for export clearance, waiting for its flight."},
+    {"wording": "Air Shipping", "stage": "in_transit", "language": "en", "confirmedBy": "documentation", "note": "Listed among the tracking statuses on https://www.buffaloex.com/support.html: the parcel left China by air or sea freight."},
+    {"wording": "At Destination", "stage": "customs", "language": "en", "confirmedBy": "documentation", "note": "Listed among the tracking statuses on https://www.buffaloex.com/support.html: the parcel reached South Africa and waits for customs clearance."},
+    {"wording": "Inbound", "stage": "in_transit", "language": "en", "confirmedBy": "documentation", "note": "Listed among the tracking statuses on https://www.buffaloex.com/support.html: the parcel reached BUFFALO's warehouse in South Africa."},
+    {"wording": "Client Received", "stage": "delivered", "language": "en", "confirmedBy": "documentation", "note": "Listed among the tracking statuses on https://www.buffaloex.com/support.html: delivered to the address or a counter."}
+  ]
+}

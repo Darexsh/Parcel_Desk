@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "orderNo": "SYGB000000001",
+      "displayStatus": "4",
+      "has": true,
+      "orgCountry": "CN",
+      "dstCountry": "GB",
+      "carrierName": "Royal Mail",
+      "carrierWebsite": "https://www.royalmail.com/",
+      "trackingNumber": "ZZ000000005GB",
+      "lastContent": "Delivered, Left At The Door",
+      "lastEventCode": "Delivered_Doorstep",
+      "lastUpdate": "2026-08-19 12:26:09",
+      "result": {
+        "origin": {
+          "items": [
+            { "createTime": "2026-08-11 10:12:40", "timeZone": "+08:00", "eventCode": "PreAlert", "status": "101", "content": "Pre-Shipment Info Sent To United Kingdom" },
+            { "createTime": "2026-08-12 21:35:18", "timeZone": "+08:00", "eventCode": "InboundScan", "status": "102", "content": "Acceptance, Sent To United Kingdom" },
+            { "createTime": "2026-08-13 06:30:00", "timeZone": "+08:00", "eventCode": "Dispatch", "status": "105", "content": "Departed Sunyou Facility, Carrier Tracking Number:  ZZ000000005GB" },
+            { "createTime": "2026-08-15 22:41:52", "timeZone": "+01:00", "eventCode": "ClearanceProcess", "status": "2062", "content": "Customs Clearance In Process" },
+            { "createTime": "2026-08-16 18:05:00", "timeZone": "+01:00", "eventCode": "ClearanceSuccessed", "status": "2064", "content": "Customs Clearance Successed" },
+            { "createTime": "2026-08-19 07:48:31", "timeZone": "+01:00", "eventCode": "OutForDelivery", "status": "2071", "content": "Delivery In Progress", "office": "9001" },
+            { "createTime": "2026-08-19 12:26:09", "timeZone": "+01:00", "eventCode": "Delivered_Doorstep", "status": "20906", "content": "Delivered, Left At The Door", "office": "9001", "signUrl": "https://example.invalid/proof-of-delivery/2.png" }
+          ]
+        },
+        "destination": { "items": [] }
+      }
+    }
+  ],
+  "message": "success",
+  "status": 1
+}

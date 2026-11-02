@@ -1,0 +1,30 @@
+{
+  "foreignBarcode": "ZZ000000028JP",
+  "isSendOnParcel": false,
+  "isEasipikParcel": false,
+  "hasEasipikCharges": false,
+  "payViaEasipik": false,
+  "isPaid": false,
+  "requiresPayment": true,
+  "canBePaidOnline": true,
+  "requiresCustomsDeclaration": false,
+  "canBeDeclaredOnline": false,
+  "movements": [
+    { "code": "EDA", "description": "Item held at inbound mail sorting centre", "location": "MaltaPost", "locationTypeCode": "CPU", "date": "2026-02-20T15:12:37.208", "reasonCode": "21", "reasonDescription": "Awaiting payment of charges", "actionCode": "C", "actionDescription": "Unsuccessful attempt-Recipient notified", "isForeignMovement": false },
+    { "code": "EDC", "description": "Item returned from local Customs office", "location": "MaltaPost", "locationTypeCode": "CPU", "date": "2026-02-20T15:12:36.708", "isForeignMovement": false },
+    { "code": "EME", "description": "Item undergoing border agency clearance", "location": "MaltaPost", "locationTypeCode": "CPU", "date": "2026-02-20T14:25:02.61", "reasonCode": "58", "reasonDescription": "Awaiting presentation to border security", "isForeignMovement": false },
+    { "code": "EDB", "description": "Item to be submitted for clearance", "location": "MaltaPost", "locationTypeCode": "CPU", "date": "2026-02-20T14:24:02.61", "isForeignMovement": false },
+    { "code": "EMD", "description": "Item arrived at inbound mail sorting centre", "location": "MaltaPost", "locationTypeCode": "CPU", "date": "2026-02-20T14:17:55.3", "isForeignMovement": false },
+    { "code": "EMC", "description": "Handed over to the airline / in transit", "location": "EXAMPLELAND (ZZ)", "locationTypeCode": "Country", "date": "2026-02-11T09:00:00", "isForeignMovement": true },
+    { "code": "EMB", "description": "Item arrived at the outgoing mail sorting centre", "date": "2026-02-09T21:00:00", "isForeignMovement": true },
+    { "code": "EMA", "description": "Item created", "location": "9999999", "date": "2026-02-09T13:00:00", "isForeignMovement": true }
+  ],
+  "isForeign": true,
+  "isForeignOutgoing": false,
+  "destination": "Example Town",
+  "obfuscatedRecipient": "A***e E*****e",
+  "isUntrackable": false,
+  "eligibleForRedelivery": false,
+  "eligibleForRedeliveryToLocker": false,
+  "eligibleForEmailUpdatesSignUp": true
+}

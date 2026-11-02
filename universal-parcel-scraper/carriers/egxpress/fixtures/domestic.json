@@ -1,0 +1,38 @@
+{
+  "code": 101,
+  "description": "SUCCESS",
+  "trackingId": null,
+  "isAuthorized": false,
+  "receiver_name": "SYNTHETIC RECIPIENT",
+  "cod_amount": 815.25,
+  "trackInfo": [
+    {
+      "shipmentInformation": {
+        "awbNo": "FED2026040283472915",
+        "status": null,
+        "lastStatus": "",
+        "statusDate": null,
+        "pickupDate": null,
+        "accountNo": "SYNTHETIC ACCOUNT",
+        "customerCash": "815.25",
+        "consigneeDetails": "SYNTHETIC RECIPIENT, 100 Example Road",
+        "receiver": "SYNTHETIC RECIPIENT",
+        "sender": "SYNTHETIC SENDER",
+        "shipperDetails": "SYNTHETIC MERCHANT",
+        "goodsDesc": "SYNTHETIC CONTENTS",
+        "specialInstruct": "SYNTHETIC INSTRUCTIONS",
+        "origin": "SMP-Sample Origin",
+        "destination": "DST-Sample Destination",
+        "weight": "1",
+        "pcs": 1,
+        "agentAWB": "SYNTHETIC PARTNER REFERENCE"
+      },
+      "trackList": [
+        {"deliveredTo": "SYNTHETIC RECIPIENT", "location": "Sample Destination", "remarks": "Delivered To :SYNTHETIC RECIPIENT ID:98765012345678", "status": "POD", "transTime": "15:21", "transdate": "04/04/2026"},
+        {"deliveredTo": null, "location": "Sample Destination", "remarks": "With Delivery Courier", "status": "OFD", "transTime": "08:42", "transdate": "04/04/2026"},
+        {"deliveredTo": null, "location": "Sample Destination", "remarks": "Arrived at Hub", "status": "AH", "transTime": "07:02", "transdate": "03/04/2026"},
+        {"deliveredTo": null, "location": "Sample Hub", "remarks": "Sent to Sample Destination", "status": "DF", "transTime": "01:13", "transdate": "03/04/2026"}
+      ]
+    }
+  ]
+}

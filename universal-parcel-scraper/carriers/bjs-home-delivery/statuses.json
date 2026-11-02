@@ -1,0 +1,16 @@
+{
+  "carrier": "bjs-home-delivery",
+  "entries": [
+    {"wording": "Released", "stage": "registered", "language": "en", "confirmedBy": "bundle", "note": "First step of the tracker's progress bar: the retailer has released the order to BJS. Read from the live tracker's script; no archived lookup shows a history."},
+    {"wording": "Outstanding", "stage": "registered", "language": "en", "confirmedBy": "bundle", "note": "Order status value: the page says the order is on its way to BJS from the retailer, or that BJS will propose a delivery date soon. Read from the live tracker's script; no lookup showed it."},
+    {"wording": "Received", "stage": "accepted", "language": "en", "confirmedBy": "bundle", "note": "Second step of the progress bar: BJS has received the goods. Read from the live tracker's script; no archived lookup shows a history."},
+    {"wording": "Scheduled", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "Third step of the progress bar: a delivery date is booked. Read from the live tracker's script; no archived lookup shows a history."},
+    {"wording": "Confirmed", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "Fourth step of the progress bar: the delivery slot is confirmed. Read from the live tracker's script; no archived lookup shows a history."},
+    {"wording": "En Route", "stage": "out_for_delivery", "language": "en", "confirmedBy": "bundle", "note": "Fifth step of the progress bar: the crew is on the way. Read from the live tracker's script; no archived lookup shows a history."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Last step of the progress bar, and the status the mini tracker's lookup returned for a delivered order."},
+    {"wording": "Completed", "stage": "delivered", "language": "en", "confirmedBy": "bundle", "note": "Order status value that ends tracking for a finished order. Read from the live tracker's script; no archived lookup shows a history."},
+    {"wording": "Failed", "stage": "failed_attempt", "language": "en", "confirmedBy": "bundle", "note": "Order status value for a failed attempt; the status bar then says the delivery was attempted on a date. Read from the live tracker's script; no archived lookup shows a history."},
+    {"wording": "On Hold", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "Order status value: the page says the order is on hold pending the retailer's instructions. Read from the live tracker's script; no lookup showed it."},
+    {"wording": "Cancelled", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "Order status value: the page says the order has been cancelled. Read from the live tracker's script; no lookup showed it."}
+  ]
+}

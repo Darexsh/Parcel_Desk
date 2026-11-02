@@ -1,0 +1,46 @@
+{
+  "id": "icl-express",
+  "displayName": "ICL Express",
+  "aliases": [
+    "ICL Integrated Couriers & Logistics",
+    "Integrated Couriers & Logistics",
+    "ICL International"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#2e3192"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://iclexpress.in/tracking/",
+    "canaryUrl": "https://iclexpress.in/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.iclinternational.in",
+        "iclinternational.in"
+      ],
+      "pathPattern": "^/Tracking\\.aspx$",
+      "params": [
+        "txtawbno"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cacesa",
+  "displayName": "CACESA",
+  "aliases": [
+    "CACESA Logistics",
+    "Cacesa Postal"
+  ],
+  "region": {
+    "countries": [
+      "ES",
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#C9032D"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "cacesa",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.cacesa.com/en/tracking?busqueda={trackingNumber}",
+    "searchUrl": "https://www.cacesa.com/en/tracking",
+    "canaryUrl": "https://www.cacesa.com/en/tracking",
+    "shows": [
+      "status",
+      "history"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "offset_timestamps"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "location",
+      "eta",
+      "delivery_partner",
+      "weight",
+      "sender_name",
+      "recipient_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "cacesa.com"
+      ],
+      "pathPattern": "^/(?:es/seguimiento|en/tracking)/?$",
+      "params": [
+        "busqueda"
+      ]
+    }
+  ],
+  "detection": []
+}

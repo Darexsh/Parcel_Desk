@@ -1,0 +1,80 @@
+{
+  "status": true,
+  "data": {
+    "cp_name": "Logistiqcp",
+    "waybill": "ABCDEFG000000000",
+    "order_reference_number": "SAMPLE-ORDER-0002",
+    "channel_id": 1,
+    "delivery_type": "FORWARD",
+    "is_mps": false,
+    "source_location": "Sample City, AE",
+    "destination_location": "Sample Village, SA",
+    "expected_delivery_date": null,
+    "box_count": 0,
+    "last_updated": "2026-02-03T21:15:00.900000Z",
+    "current_status": {
+      "status_code": 110,
+      "status": "INTRANSIT",
+      "scan_location": "LOGSMR",
+      "scan_time": "2026-02-03T21:15:00.400000Z",
+      "time_stamp": "2026-02-03T21:15:00.900000Z",
+      "remarks": "Order In Transit",
+      "additional_remarks": "Order In Transit",
+      "status_sequence": 4
+    },
+    "order_info": {
+      "referance_awb": "SAMPLE-REF-0002",
+      "order_date": "2026-02-01T10:00:00.000000Z",
+      "order_type": "PREPAID",
+      "brand_name": "Sample Brand",
+      "invoice_number": "SAMPLE-INVOICE-0002",
+      "invoice_value": 50.0,
+      "cod_value": 0.0,
+      "qty": 2,
+      "description": "Sample Item",
+      "sku": "SAMPLE-SKU-0002"
+    },
+    "scans": [
+      {
+        "status_code": 101,
+        "status": "BOOKED",
+        "scan_location": null,
+        "scan_time": "2026-02-01T10:00:00.050000Z",
+        "time_stamp": "2026-02-01T10:00:00.060000Z",
+        "remarks": null,
+        "additional_remarks": null,
+        "status_sequence": 1
+      },
+      {
+        "status_code": 109,
+        "status": "PICKED_UP",
+        "scan_location": "Sample Warehouse - Sample Road - Sample City",
+        "scan_time": "2026-02-02T09:00:00.000000Z",
+        "time_stamp": "2026-02-02T09:00:01.000000Z",
+        "remarks": "Order Picked Up",
+        "additional_remarks": "Order Picked Up",
+        "status_sequence": 2
+      },
+      {
+        "status_code": 106,
+        "status": "IN_HUB",
+        "scan_location": "LOGSMQ",
+        "scan_time": "2026-02-02T18:40:00.000000Z",
+        "time_stamp": "2026-02-02T18:40:00.500000Z",
+        "remarks": "Order In Hub",
+        "additional_remarks": null,
+        "status_sequence": 3
+      },
+      {
+        "status_code": 110,
+        "status": "INTRANSIT",
+        "scan_location": "LOGSMR",
+        "scan_time": "2026-02-03T21:15:00.400000Z",
+        "time_stamp": "2026-02-03T21:15:00.900000Z",
+        "remarks": "Order In Transit",
+        "additional_remarks": "Order In Transit",
+        "status_sequence": 4
+      }
+    ]
+  }
+}

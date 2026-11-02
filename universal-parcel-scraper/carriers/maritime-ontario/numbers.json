@@ -1,0 +1,30 @@
+{
+  "carrier": "maritime-ontario",
+  "records": [
+    {
+      "number": "F1163994",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.m-o.com/wp-content/uploads/2024/02/M-O-Customer-Guide-Track-and-Trace.pdf",
+        "date": "2023-03-15",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "M-O's Track and Trace customer guide shows it in the Freight Bill column of the trace grid and as the bill on the detail screen, with placeholder customer names; read from the guide's screenshot."
+    }
+  ]
+}

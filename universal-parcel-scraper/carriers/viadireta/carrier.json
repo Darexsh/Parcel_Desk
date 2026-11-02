@@ -1,0 +1,84 @@
+{
+  "id": "viadireta",
+  "displayName": "ViaDireta",
+  "aliases": [
+    "Via Directa"
+  ],
+  "region": {
+    "countries": [
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#0d3a6d"
+  },
+  "selectable": true,
+  "timezone": "Europe/Lisbon",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "viadireta",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 72
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://www.viadireta.pt/tracking?codigo={trackingNumber}",
+    "searchUrl": "https://www.viadireta.pt/tracking",
+    "canaryUrl": "https://www.viadireta.pt/tracking",
+    "shows": [
+      "status",
+      "history",
+      "eta"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "weight",
+      "service_name",
+      "recipient_name",
+      "sender_name",
+      "pickup_point",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.viadireta.pt",
+        "viadireta.pt"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "codigo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "viadireta-1",
+      "pattern": "^VD\\d{12}$",
+      "confidence": "high"
+    },
+    {
+      "id": "viadireta-2",
+      "pattern": "^VDVD(?:0[1-9]|[12]\\d|3[01])(?:0[1-9]|1[0-2])\\d{8}$",
+      "confidence": "high"
+    }
+  ]
+}

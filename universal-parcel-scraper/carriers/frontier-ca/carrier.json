@@ -1,0 +1,58 @@
+{
+  "id": "frontier-ca",
+  "displayName": "Frontier Courier",
+  "aliases": [
+    "Frontier",
+    "Frontier Supply Chain Solutions",
+    "Frontier SCS",
+    "Frontier Same Day",
+    "Frontier Saskatchewan",
+    "FrontShip"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#e56119"
+  },
+  "selectable": true,
+  "timezone": "America/Winnipeg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.carrierlogistics.com/scripts/fscf.pol/boldetail.htm?wbtn=PRO&wpro1={trackingNumber}",
+    "searchUrl": "https://tracking.carrierlogistics.com/scripts/fscf.pol/facts.htm",
+    "canaryUrl": "https://www.frontiercourier.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.carrierlogistics.com"
+      ],
+      "pathPattern": "^/scripts/fscf\\.pol/boldetail\\.htm$",
+      "params": [
+        "wpro1"
+      ]
+    },
+    {
+      "domains": [
+        "tracking.carrierlogistics.com"
+      ],
+      "pathPattern": "^/scripts/fscf\\.pol/facts\\.htm$",
+      "params": [
+        "pronum"
+      ]
+    }
+  ],
+  "detection": []
+}

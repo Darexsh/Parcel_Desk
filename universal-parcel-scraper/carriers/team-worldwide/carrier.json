@@ -1,0 +1,109 @@
+{
+  "id": "team-worldwide",
+  "displayName": "Team Worldwide",
+  "aliases": [
+    "TeamWW"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#cf152d"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "team-worldwide",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 627
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://www.teamww.com/wp-content/tracking/teamTrac.php?hbl={trackingNumber}",
+    "searchUrl": "https://www.teamww.com/tracking/team-trac/",
+    "canaryUrl": "https://www.teamww.com/tracking/team-trac/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "eta_window",
+      "terminal_eta",
+      "delivered_at",
+      "destination",
+      "postcodes",
+      "customer_reference",
+      "signatory",
+      "remarks",
+      "staff_details",
+      "office_contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta"
+    ],
+    "discarded": [
+      "eta_window",
+      "terminal_eta",
+      "delivered_at",
+      "destination",
+      "postcodes",
+      "customer_reference",
+      "signatory",
+      "remarks",
+      "staff_details",
+      "office_contact_details"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "weight",
+      "parcel_count",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.teamww.com",
+        "teamww.com"
+      ],
+      "pathPattern": "^/wp-content/tracking/teamTrac\\.php$",
+      "params": [
+        "hbl"
+      ]
+    },
+    {
+      "domains": [
+        "www.teamww.com",
+        "teamww.com"
+      ],
+      "pathPattern": "^/tracking/team_trac_results\\.php$",
+      "params": [
+        "hbl"
+      ]
+    }
+  ],
+  "detection": []
+}

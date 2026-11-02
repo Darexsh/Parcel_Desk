@@ -1,0 +1,49 @@
+{
+  "id": "auexpress",
+  "displayName": "AuExpress",
+  "aliases": [
+    "澳邮",
+    "澳邮物流",
+    "AuExpress International Cargo",
+    "澳邮中国快运"
+  ],
+  "region": {
+    "countries": [
+      "AU",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#ff6634"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.auexpress.com/tracking?OrderId={trackingNumber}",
+    "searchUrl": "https://www.auexpress.com/tracking",
+    "canaryUrl": "https://www.auexpress.com/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "auexpress.com",
+        "www.auexpress.com"
+      ],
+      "pathPattern": "^/tracking$",
+      "params": [
+        "OrderId"
+      ]
+    }
+  ],
+  "detection": []
+}

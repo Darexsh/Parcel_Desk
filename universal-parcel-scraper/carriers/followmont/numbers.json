@@ -1,0 +1,72 @@
+{
+  "carrier": "followmont",
+  "records": [
+    {
+      "number": "10915501",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20150316234255/http://www.followmont.com.au/customer-support/connote-guide/",
+        "date": "2015-03-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Pre-printed on the consignment note that Followmont's own Connote Guide pictures; the same scan illustrates the guide from 2009 to 2015."
+    },
+    {
+      "number": "2305695",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20060819211115/http://followmont.com.au/images/connote_scan.gif",
+        "date": "2006-08-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Pre-printed on the earlier Followmont consignment note pictured in the connote guide of its former website."
+    },
+    {
+      "number": "P004159319",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/followmont/",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "ParcelPanel's Followmont page offers it as a sample to try; an aggregator sample that no Followmont source ties to a shipment."
+    }
+  ]
+}

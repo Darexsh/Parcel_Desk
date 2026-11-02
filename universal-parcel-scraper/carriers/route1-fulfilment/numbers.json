@@ -1,0 +1,46 @@
+{
+  "carrier": "route1-fulfilment",
+  "records": [
+    {
+      "number": "RO3588715-5921",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://route1groupltd.co.uk/two-person-home-delivery/customer-hub/",
+        "date": "2026-11-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste"
+        ]
+      },
+      "note": "The test code left in the source of Route 1 Group's customer hub page; its tracker finds it and shows a status message without scans."
+    },
+    {
+      "number": "RO3149811-6327",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20231202210513/https://route1fulfilment.co.uk/order-tracker/",
+        "date": "2023-12-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste"
+        ]
+      },
+      "note": "The example in the form of Route 1 Fulfilment's former order tracker page, in an archived copy; the current tracker does not find it."
+    }
+  ]
+}

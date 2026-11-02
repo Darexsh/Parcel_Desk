@@ -1,0 +1,21 @@
+{
+  "carrier": "fercam",
+  "records": [
+    {
+      "number": "O2500000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-22",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fercam",
+          "gls-it"
+        ]
+      },
+      "note": "Made-up number in the layout DACHSER & FERCAM Italia's tracker asks for: the letter O, the year and eight digits."
+    }
+  ]
+}

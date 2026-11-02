@@ -1,0 +1,49 @@
+{
+  "statusCode": 200,
+  "message": "Success",
+  "data": {
+    "AirwayBillTrackList": [
+      {
+        "AirWayBillNo": "4000000000",
+        "Destination": "MUMBAI-INDIA",
+        "ForwardingNumber": "SYN0000000001",
+        "Origin": "DUBAI-UNITED ARAB EMIRATES",
+        "ShipmentProgress": 2,
+        "ShipperReference": "SYN-ORDER-0003",
+        "TrackingLogDetails": [
+          {
+            "ActivityDate": "Tuesday 06  October  2026",
+            "ActivityTime": "09:30",
+            "DeliveredTo": "",
+            "Location": "DUBAI",
+            "Remarks": "Arrived Facility",
+            "Status": "AF"
+          },
+          {
+            "ActivityDate": "Monday 05  October  2026",
+            "ActivityTime": "18:45",
+            "DeliveredTo": "",
+            "Location": "DUBAI",
+            "Remarks": "Shipment Information Received",
+            "Status": "INF"
+          }
+        ],
+        "Weight": "0.750"
+      }
+    ],
+    "Code": 1,
+    "Description": "Success",
+    "POAImages": {
+      "Attempt1": "",
+      "Attempt2": "",
+      "Attempt3": "",
+      "Code": 1,
+      "Description": "Success"
+    },
+    "POAImagesFilter": [
+      "Attempt1",
+      "Attempt2",
+      "Attempt3"
+    ]
+  }
+}

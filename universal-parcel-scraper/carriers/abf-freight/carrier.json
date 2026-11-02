@@ -1,0 +1,89 @@
+{
+  "id": "abf-freight",
+  "displayName": "ABF Freight",
+  "aliases": [
+    "ABF",
+    "ArcBest",
+    "ABF Freight System"
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "CA",
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#1e6630"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "abf-freight",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 10
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "location",
+    "eta",
+    "delivered_at",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://view.arcb.com/nlo/tools/tracking#/{trackingNumber}",
+    "searchUrl": "https://view.arcb.com/nlo/tools/tracking",
+    "canaryUrl": "https://view.arcb.com/nlo/tools/tracking",
+    "shows": [
+      "status",
+      "progress_rail",
+      "eta",
+      "delivered_at",
+      "location",
+      "weight",
+      "parcel_count",
+      "signatory",
+      "office_contact_details",
+      "office_addresses"
+    ],
+    "scraped": [
+      "status",
+      "progress_rail",
+      "eta",
+      "delivered_at",
+      "location",
+      "weight"
+    ],
+    "discarded": [
+      "parcel_count",
+      "signatory",
+      "office_contact_details",
+      "office_addresses"
+    ],
+    "unavailable": [
+      "history",
+      "offset_timestamps",
+      "sender_details",
+      "recipient_address",
+      "customer_reference",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "view.arcb.com"
+      ],
+      "pathPattern": "^/nlo/tools/tracking(?:/\\d{9})?/?$",
+      "path": "^/nlo/tools/tracking/(\\d{9})/?$",
+      "fragment": "^/(\\d{9})(?:[/?]|$)"
+    }
+  ],
+  "detection": []
+}

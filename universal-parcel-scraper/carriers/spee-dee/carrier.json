@@ -1,0 +1,80 @@
+{
+  "id": "spee-dee",
+  "displayName": "Spee-Dee",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#ff4734"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "spee-dee",
+    "steps": [
+      "direct",
+      "trawl"
+    ],
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://www.speedeedelivery.com/track/?tracking={trackingNumber}",
+    "searchUrl": "https://www.speedeedelivery.com/track/",
+    "canaryUrl": "https://speedeedelivery.com/track-a-shipment/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "recipient_address",
+      "signature",
+      "route_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "delivered_at",
+      "recipient_address",
+      "signature",
+      "route_number"
+    ],
+    "unavailable": [
+      "eta",
+      "weight"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "speedeedelivery.com"
+      ],
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "spee-dee-1",
+      "pattern": "^SP\\d{18}$",
+      "confidence": "high"
+    },
+    {
+      "id": "spee-dee-2",
+      "pattern": "^SP\\d{16}$",
+      "confidence": "high"
+    }
+  ]
+}

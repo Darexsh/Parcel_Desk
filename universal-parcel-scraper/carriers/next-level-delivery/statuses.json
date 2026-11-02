@@ -1,0 +1,27 @@
+{
+  "carrier": "next-level-delivery",
+  "entries": [
+    {"code": "1", "wording": "В изпращач", "stage": "registered", "language": "bg", "confirmedBy": "live", "note": "The tracker's status label: the waybill exists but the parcel is still with the sender."},
+    {"code": "1", "wording": "Получена информация за пратка", "stage": "registered", "language": "bg", "confirmedBy": "live", "note": "The tracker's description of a return shipment just created: shipment information received."},
+    {"code": "2", "wording": "Получена от куриер", "stage": "accepted", "language": "bg", "confirmedBy": "live", "note": "The tracker's status label: received by a courier."},
+    {"code": "2", "wording": "Received by courier", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "The tracker's description of the courier's collection."},
+    {"code": "17", "wording": "Получена от куриер", "stage": "returned", "language": "bg", "confirmedBy": "live", "note": "The tracker labels id 17 like id 2; its description says the courier picked the parcel up for the return to the sender."},
+    {"code": "17", "wording": "Picked up by courier for return", "stage": "returned", "language": "en", "confirmedBy": "live", "note": "The tracker's description: the return to the sender has begun."},
+    {"code": "14", "wording": "Доставена на подателя", "stage": "returned", "language": "bg", "confirmedBy": "live", "note": "The tracker's status label: delivered back to the sender."},
+    {"code": "14", "wording": "Delivered to sender", "stage": "returned", "language": "en", "confirmedBy": "live", "note": "The tracker's description of the return's delivery to the sender."},
+    {"code": "1", "wording": "In sender", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "The merchant API's label in Next Level's API reference."},
+    {"code": "2", "wording": "Received by Courier", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "The merchant API's label in Next Level's API reference."},
+    {"code": "6", "wording": "In Office", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "The merchant API's label in Next Level's API reference. It stays while the parcel moves between offices and hubs, the subcontractor's included."},
+    {"code": "5", "wording": "In Courier", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "The merchant API's label in Next Level's API reference: the parcel is with the delivering courier."},
+    {"code": "11", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "The merchant API's label in Next Level's API reference."},
+    {"code": "14", "wording": "Delivered to sender", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "The merchant API's label in Next Level's API reference, for a parcel returned to its sender."},
+    {"code": "17", "wording": "Picked up by courier", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "The merchant API's label in Next Level's API reference, for the courier's pickup before the return to the sender."},
+    {"code": "1", "wording": "Създадена товарителница", "stage": "registered", "language": "bg", "confirmedBy": "official-doc", "note": "A movement description in the track example of Next Level's API reference: waybill created."},
+    {"code": "2", "wording": "Приета от куриер", "stage": "accepted", "language": "bg", "confirmedBy": "official-doc", "note": "A movement description in the track example of Next Level's API reference."},
+    {"code": "6", "wording": "Пристигнала в офис", "stage": "in_transit", "language": "bg", "confirmedBy": "official-doc", "note": "A movement description in the track example of Next Level's API reference: arrived at an office."},
+    {"code": "6", "wording": "Натоварена на линия", "stage": "in_transit", "language": "bg", "confirmedBy": "official-doc", "note": "A movement description in the track example of Next Level's API reference: loaded on a line haul."},
+    {"wording": "Приета от подизпълнител", "stage": "in_transit", "language": "bg", "confirmedBy": "official-doc", "note": "A movement description in the track example of Next Level's API reference, without a status id: accepted by the subcontractor that delivers abroad."},
+    {"code": "5", "wording": "Предадена на куриер", "stage": "out_for_delivery", "language": "bg", "confirmedBy": "official-doc", "note": "A movement description in the track example of Next Level's API reference: handed to the delivering courier."},
+    {"code": "11", "wording": "Доставена", "stage": "delivered", "language": "bg", "confirmedBy": "official-doc", "note": "A movement description in the track example of Next Level's API reference."}
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "amerijet",
+  "displayName": "Amerijet",
+  "aliases": [
+    "Amerijet International"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#0d4a79"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "amerijet",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 636
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location"
+  ],
+  "portal": {
+    "searchUrl": "https://amerijet.com/air-waybill-tracking/",
+    "canaryUrl": "https://amerijet.com/air-waybill-tracking/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "flight_number",
+      "piece_count"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "piece_count"
+    ],
+    "discarded": [
+      "flight_number"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "origin_country",
+      "destination_country",
+      "delivered_at",
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name",
+      "recipient_address"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "amerijet-1",
+      "pattern": "^810\\d{8}$",
+      "rawPattern": "^810-\\d{8}$",
+      "confidence": "high"
+    }
+  ]
+}

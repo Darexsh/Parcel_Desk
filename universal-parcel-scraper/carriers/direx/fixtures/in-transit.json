@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1000025,
+    "tracking_code": "9900000025",
+    "country_id": 81,
+    "partners_service_id": 205,
+    "product_id": 46,
+    "cod_method_text": null,
+    "transformed_tracking_link": "https://www.ups.com/track?loc=en_US&tracknum=1Z999AA10123456784",
+    "api_label": {
+      "shipment_id": 1000025,
+      "item": "1Z999AA10123456784"
+    },
+    "country": {
+      "id": 81,
+      "name_en": "Germany",
+      "code": "DE",
+      "name": "Германия"
+    },
+    "partner_service": {
+      "id": 205,
+      "tracking_link": "https://www.ups.com/track?loc=en_US&tracknum=[TRACKING_NUMBER]",
+      "code": "UPSB",
+      "display_name": "UPS",
+      "use_direct_injection": false,
+      "manual_manifest": false
+    },
+    "product": {
+      "name": "DX XPRS",
+      "id": 46
+    },
+    "main_statuses": [
+      {
+        "id": 1,
+        "name": "Created",
+        "code": "CRD",
+        "is_delivery": 0,
+        "key": "main_status.created",
+        "pivot": { "shipment_id": 1000025, "main_status_id": 1, "created_at": "2026-05-11 09:02:31" }
+      },
+      {
+        "id": 2,
+        "name": "Accepted by Direx",
+        "code": "APO",
+        "is_delivery": 0,
+        "key": "main_status.accepted_postone",
+        "pivot": { "shipment_id": 1000025, "main_status_id": 2, "created_at": "2026-05-11 17:26:08" }
+      },
+      {
+        "id": 3,
+        "name": "Dispatched",
+        "code": "DED",
+        "is_delivery": 0,
+        "key": "main_status.dispatched",
+        "pivot": { "shipment_id": 1000025, "main_status_id": 3, "created_at": "2026-05-12 15:17:10" }
+      },
+      {
+        "id": 5,
+        "name": "In Transit",
+        "code": "ITT",
+        "is_delivery": 0,
+        "key": "main_status.in_transit",
+        "pivot": { "shipment_id": 1000025, "main_status_id": 5, "created_at": "2026-05-13 21:40:00" }
+      }
+    ]
+  }
+]

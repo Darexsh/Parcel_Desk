@@ -1,0 +1,49 @@
+{
+  "id": "islandwide-express",
+  "displayName": "Islandwide Express",
+  "aliases": [
+    "Islandwide",
+    "Island Wide Express",
+    "PJ Rosaly Enterprises",
+    "iWide",
+    "IWEX"
+  ],
+  "region": {
+    "countries": [
+      "PR"
+    ]
+  },
+  "brand": {
+    "color": "#cb1f11"
+  },
+  "selectable": true,
+  "timezone": "America/Puerto_Rico",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.islandwide.com/tracking?TrackingNumber={trackingNumber}",
+    "searchUrl": "https://www.islandwide.com/tracking",
+    "canaryUrl": "https://www.islandwide.com/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.islandwide.com",
+        "islandwide.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "TrackingNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

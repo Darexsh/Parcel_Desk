@@ -1,0 +1,55 @@
+{
+  "id": "pony-express",
+  "displayName": "Pony Express",
+  "aliases": [
+    "Пони Экспресс",
+    "PONY EXPRESS"
+  ],
+  "region": {
+    "countries": [
+      "RU",
+      "KZ",
+      "BY"
+    ]
+  },
+  "brand": {
+    "color": "#008752"
+  },
+  "selectable": true,
+  "timezone": "Europe/Moscow",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.ponyexpress.ru/support/servisy-samoobsluzhivaniya/track/?_&trace_ids={trackingNumber}",
+    "searchUrl": "https://www.ponyexpress.ru/support/servisy-samoobsluzhivaniya/track/",
+    "canaryUrl": "https://www.ponyexpress.ru/support/servisy-samoobsluzhivaniya/track/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.ponyexpress.ru",
+        "ponyexpress.ru"
+      ],
+      "pathPattern": "^/support/servisy-samoobsluzhivaniya/track/?$",
+      "params": [
+        "trace_ids"
+      ]
+    },
+    {
+      "domains": [
+        "www.ponyexpress.ru",
+        "ponyexpress.ru"
+      ],
+      "path": "^/support/servisy-samoobsluzhivaniya/track/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

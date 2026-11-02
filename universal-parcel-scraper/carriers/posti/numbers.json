@@ -1,0 +1,216 @@
+{
+  "carrier": "posti",
+  "records": [
+    {
+      "number": "CP123456785FI",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Invented checksum-valid Finnish-issued S10 number. The issuer makes Posti a recognition candidate; offline detection stays with the unknown postal carrier."
+    },
+    {
+      "number": "CP123456789FI",
+      "role": "negative",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Invented Finnish-shaped identifier with a failed S10 check digit. It cannot suggest Posti."
+    },
+    {
+      "number": "00264300487130023858",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/ItellaPlugins/itella-shipping-woocommerce/issues/224",
+        "date": "2026-09-03"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "posti",
+          "swiss-post-cargo",
+          "postnord",
+          "usps",
+          "nz-post",
+          "matkahuolto"
+        ]
+      },
+      "note": "Example Posti tracking link quoted in an open-source plugin's issue, not a confirmed shipment. Its Finnish GS1 prefix lists Posti first among the twenty-digit candidates."
+    },
+    {
+      "number": "LR288565359NL",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/hatlabs/posti-cli"
+      },
+      "expect": {
+        "carrier": "spring-gds",
+        "confidence": "high"
+      },
+      "note": "Published open-source tracking example. Posti returned history in a local live check on 2026-09-21 and in the canary until 2026-09-24; since 2026-09-25 it is past Posti's retention (zero hits, and Posti's tracker reports it as not found). Issuer-based number detection still selects PostNL."
+    },
+    {
+      "number": "LV679342632US",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6807896d85762edcd5ff538f",
+        "date": "2025-04-22"
+      },
+      "expect": {
+        "carrier": "usps",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to Posti; detection names USPS, the issuing post. US item inbound to Finland."
+    },
+    {
+      "number": "JJFI65432155555123456",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posti.fi/mzj3zpe8qb7p/UCgUiqlnAamLSgye1Lpt0/103a6dadb3e9b816db64d3a5285c3a95/posti-yrityksen-noutopiste-palvelukuvaus-20221101.pdf",
+        "date": "2022-11-01",
+        "dateKind": "document date",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "posti",
+        "confidence": "high"
+      },
+      "note": "Example of Posti's 21-character shipment ID in its service description for company pickup points, not a real shipment."
+    },
+    {
+      "number": "00164300809500543996",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260729170507/https://www.posti.fi/en/tracking/00164300809500543996?lang=en",
+        "date": "2026-07-29",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "posti",
+          "swiss-post-cargo",
+          "postnord",
+          "usps",
+          "nz-post",
+          "matkahuolto"
+        ]
+      },
+      "note": "A Posti tracking page for this number archived by the Wayback Machine. Posti's tracking returned the sender's pre-advice with the parcel's weight and size."
+    },
+    {
+      "number": "JJFI61706620145567903",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.posti.fi/en/tracking/JJFI61706620145567903",
+        "date": "2026-09-10",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "posti",
+        "confidence": "high"
+      },
+      "note": "A Posti tracking page for this number listed in the Wayback Machine's capture index. Posti's tracking returned the sender's pre-advice."
+    },
+    {
+      "number": "JJFI67873820144153069",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.posti.fi/en/tracking/JJFI67873820144153069",
+        "date": "2026-08-11",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "posti",
+        "confidence": "high"
+      },
+      "note": "A Posti tracking page for this number listed in the Wayback Machine's capture index. Posti's tracking returned its delivery from a pickup point."
+    },
+    {
+      "number": "JJFI65305909000174386",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.posti.fi/en/tracking/JJFI65305909000174386",
+        "date": "2026-08-10",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "posti",
+        "confidence": "high"
+      },
+      "note": "A Posti tracking page for this number listed in the Wayback Machine's capture index. Posti's tracking returned its delivery from a pickup point after a full parcel locker."
+    },
+    {
+      "number": "LA005217790NL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.posti.fi/en/tracking/LA005217790NL",
+        "date": "2026-08-11",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "service": "inbound international",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spring-gds",
+        "confidence": "high"
+      },
+      "note": "A Posti tracking page for this number listed in the Wayback Machine's capture index. Posti's tracking returned a PostNL item delivered from a Finnish pickup point."
+    },
+    {
+      "number": "LZ474407968CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.posti.fi/en/tracking/LZ474407968CN",
+        "date": "2026-10-01",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "service": "inbound international",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "A Posti tracking page for this number listed in the Wayback Machine's capture index. Posti's tracking returned a China Post item that has left China but not yet reached Posti."
+    }
+  ]
+}

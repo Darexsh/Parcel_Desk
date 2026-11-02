@@ -1,0 +1,45 @@
+{
+  "id": "eli-express",
+  "displayName": "Eli Express",
+  "aliases": [
+    "Eli Express Logistics",
+    "Eli Uluslararası Taşımacılık ve Turizm Ticaret Ltd. Şti."
+  ],
+  "region": {
+    "countries": [
+      "TR"
+    ]
+  },
+  "brand": {
+    "color": "#eb7828"
+  },
+  "selectable": true,
+  "timezone": "Europe/Istanbul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://eliexpress.com.tr/tracking?id={trackingNumber}",
+    "searchUrl": "https://eliexpress.com.tr/tracking",
+    "canaryUrl": "https://eliexpress.com.tr/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "eliexpress.com.tr"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

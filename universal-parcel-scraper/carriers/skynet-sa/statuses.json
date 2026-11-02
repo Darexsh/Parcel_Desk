@@ -1,0 +1,23 @@
+{
+  "carrier": "skynet-sa",
+  "entries": [
+    {"wording": "Created waybill", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The waybill booked; the first record of a history, at the origin branch or, for a parcel flown in, at the airport branch."},
+    {"wording": "Collected by courier", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "Taken from the sender, or from the airport once a parcel flown in has cleared customs."},
+    {"wording": "Flight landed", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Received from airline", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "In-house-client scan", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Scanned at the airport branch between the landing and the hand-over from the airline."},
+    {"wording": "Scan into branch", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Rec cust agent", "language": "en", "stage": "customs", "confirmedBy": "live", "note": "Received by the customs agent, before the release."},
+    {"wording": "Released From Customs", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Dispatch from airport", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Received In Branch Johannesburg International", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The wording ends with the branch's name; the map reads any wording that starts with Received In Branch."},
+    {"wording": "Out on Delivery", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live"},
+    {"wording": "Delivery Exception: Bad address", "language": "en", "stage": "failed_attempt", "confirmedBy": "live", "note": "The wording ends with the reason; the parcel went out again and was delivered. The map reads any wording that starts with Delivery Exception:."},
+    {"wording": "Delivery Exception: Company closed", "language": "en", "stage": "failed_attempt", "confirmedBy": "live", "note": "Seen before the next round's delivery."},
+    {"wording": "Delivered", "language": "en", "stage": "delivered", "confirmedBy": "live"},
+    {"wording": "Customs Duties Paid", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "Filed on the waybill's creation clock, before the flight landed; it records a payment and moves nothing."},
+    {"wording": "POD created", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "The proof of delivery, filed on the delivery scan's own clock."},
+    {"wording": "POD image scanned", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "The signed proof scanned in after the delivery, under the tracker's HostServer branch."},
+    {"wording": "EMAIL : First time parcel out for delivery at Delivery branch", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A record of the email telling the recipient the parcel is out; the round's own scan carries the stage."}
+  ]
+}

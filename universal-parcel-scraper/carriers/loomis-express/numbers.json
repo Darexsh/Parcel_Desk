@@ -1,0 +1,131 @@
+{
+  "carrier": "loomis-express",
+  "records": [
+    {
+      "number": "NET78458182",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://ship24.com/couriers/loomis-express-tracking/loomis-express-tracking-number",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "loomis-express",
+        "confidence": "high"
+      },
+      "note": "Ship24's Loomis Express page gives it as the sample tracking number; it is not described as a live shipment."
+    },
+    {
+      "number": "NET72752673",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/loomis/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "loomis-express",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Loomis Express page gives it as a sample; it is not described as a live shipment."
+    },
+    {
+      "number": "NET72583581",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/loomis/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "loomis-express",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Loomis Express page gives it as a sample; it is not described as a live shipment."
+    },
+    {
+      "number": "LSHP23382312",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/loomis/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "loomis-express",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Loomis Express page gives it as a sample; it is not described as a live shipment."
+    },
+    {
+      "number": "LSHP24482756",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/loomis/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "loomis-express",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Loomis Express page gives it as a sample; it is not described as a live shipment."
+    },
+    {
+      "number": "LSHP52441924",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/loomis/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "loomis-express",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Loomis Express app box offers it as a sample to try; it is not described as a live shipment."
+    },
+    {
+      "number": "DNK914817619",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://ship24.com/couriers/loomis-express-tracking/loomis-express-tracking-number",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "reportedRole": "door knocker",
+        "assessment": "auxiliary"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "Ship24's Loomis Express page gives it as a door-knocker number, the card left after a missed delivery, not the waybill."
+    }
+  ]
+}

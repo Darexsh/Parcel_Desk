@@ -1,0 +1,45 @@
+{
+  "id": "first-flight-me",
+  "displayName": "First Flight (Middle East)",
+  "aliases": [
+    "First Flight Couriers (Middle East)",
+    "First Flight Couriers (Middle East) L.L.C.",
+    "First Flight Couriers ME",
+    "First Flight ME"
+  ],
+  "region": {
+    "countries": [
+      "AE"
+    ]
+  },
+  "brand": {
+    "color": "#ee6818"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dubai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://firstflightme.com/tracking/awb/{trackingNumber}",
+    "searchUrl": "https://firstflightme.com/",
+    "canaryUrl": "https://firstflightme.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "firstflightme.com",
+        "www.firstflightme.com"
+      ],
+      "path": "^/tracking/awb/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

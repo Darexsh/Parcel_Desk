@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Tracking</title>
+</head>
+<body>
+<div class="row">
+                <div class="col-lg-9 col-md-7">
+                    <div class="accordion" id="accordionExample">
+                        <label style="display:none" id="lblpronums"></label>
+                        <div style="display:none">
+                            1
+                        </div>
+                        <div class="card GrouptrackingResultCard">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn link accordion-toggle btn-group-toggle" style="text-align: center !important" type="button" data-bs-toggle="collapse" data-bs-target='&#x23;GrouptrackingAccordion1' aria-expanded="true" aria-controls="collapseTwo">
+                                        <span class="pull-left" style="width:35%;text-align:left"><b class="clsRelated">PRO(S) RELATED TO </b>222222221</span>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id='GrouptrackingAccordion1' class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample" style="border: 2px solid #f4f3f1">
+                                        <div style="display:none">
+                                            1
+                                        </div>
+                                        <div class="card trackingResultCard">
+                                            <div class="card-header" id="headingTwo">
+                                                <h5 class="mb-0">
+                                                    <button class="btn link accordion-toggle" style="text-align: center !important" type="button" data-bs-toggle="collapse" data-bs-target='&#x23;trackingAccordion1' aria-expanded="true" aria-controls="collapseTwo">
+                                                        <span class="pull-left" style="width:35%;text-align:left">222222221 </span>
+                                                        <span style="margin-left: auto; margin-right:auto;  ">In&#x20;Transit</span>
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id='trackingAccordion1' class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample" style="background-color: #f4f3f1">
+                                                <div class="row" style="padding: 0px 25px 10px 25px">
+                                                    <div class="col-md-9" style="background-color: white; border-right: 10px solid #f4f3f1;">
+                                                        <div class="row">
+                                                            <div class="col-6 titlepopover" style="display: flex">
+                                                                <h3 style="margin:unset; padding: 8px 0px ">In&#x20;Transit</h3>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <label style="margin-top: 10px;font-weight: 100;">A&#x20;DELIVERY&#x20;APPOINTMENT&#x20;HAS&#x20;BEEN&#x20;SCHEDULED&#x20;WITH&#x20;THE&#x20;CONSIGNEE&#x2E;</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <label for="deliveredOnDate" style="margin-top: 10px">Estimated Delivery</label>
+                                                                <label id="deliveredOnDate" style="margin-top: 5px; font-weight: normal">10&#x2F;16&#x2F;2026</label>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <label for="deliveredAtTime" style="margin-top: 10px">Last Location</label>
+                                                                <label for="deliveredAtTime" style="margin-top: 5px; font-weight: normal">Sampleton&#x2C;&#x20;OH&#x20;US</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row" style="margin-top: 20px;margin-bottom: 15px; block&#x3B;">
+                                                            <div class="col-md-3">
+                                                                <button type="submit" class="btn btn-primary upsSendUpdatesBtn" style="margin:2px" onclick="requestNotifications('222222221', 'IN&#x20;TRANSIT')">Send Updates</button>
+                                                            </div>
+                                                            <div class="col-md-6" >
+                                                                <p class="upsDisclaimer">
+                                                                    Estimated delivery date may vary.<br />
+                                                                    Contact TForce&#x20;Freight Customer Service at<br />
+                                                                    (800)000-0000 for more information.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3" style="background-color: white;">
+                                                        <label for="shipTo" style="margin-top: 10px">Ship To</label>
+                                                        <label id="shipTo" style="margin-top: 5px; font-weight: normal;">SAMPLE&#x20;CONSIGNEE</label>
+                                                        <label id="lblOrigShipToCityState" style="margin-top: 5px; font-weight: normal">SAMPLETOWN OH US</label>
+                                                        <a href="#" id="originSCLink"  onclick="getData($(this).text())" style="text-decoration:underline; margin-top: 5px">SMP</a>
+                                                        <label for="shipTo" style="margin-top: 10px">Ship From</label>
+                                                        <label id="shipTo" style="margin-top: 5px; font-weight: normal;">SAMPLE&#x20;SHIPPER</label>
+                                                        <label id="lbldestShipToCityState" style="margin-top: 5px; font-weight: normal">ORIGIN CITY IL US</label>
+                                                        <a href="#" id="destSCLink"  style="text-decoration:underline; margin-top: 5px" onclick="getData($(this).text())">ORG</a>
+                                                    </div>
+                                                </div>
+                                                <div class="row" style="padding: 0px 25px 10px 25px; display: none" id='deliveredDetailsRow1'>
+                                                    <div class="col-sm-9" style="background-color: white; border-right: 10px solid #f4f3f1; ">
+                                                        <span style="line-height: 30px; font-weight: bold">Shipment Progress</span>
+                                                        <table class="table" style="">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th style="background-color:white !important" scope="col" class="text-center">Location</th>
+                                                                    <th style="background-color:white !important" scope="col" class="text-center">Date</th>
+                                                                    <th style="background-color:white !important" scope="col" class="text-center">Time</th>
+                                                                    <th style="background-color:white !important" scope="col" class="text-center">Activity</th>
+                                                                    <th style="background-color:white !important" scope="col" class="text-center">Trailer</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                                    <tr >
+                                                                                        <td>Sampleton&#x2C;&#x20;OH </td>
+                                                                                        <td>10&#x2F;15&#x2F;2026 </td>
+                                                                                        <td>04&#x3A;18&#x20;PM </td>
+                                                                                        <td>A&#x20;DELIVERY&#x20;APPOINTMENT&#x20;HAS&#x20;BEEN&#x20;SCHEDULED&#x20;WITH&#x20;THE&#x20;CONSIGNEE&#x2E; </td>
+                                                                                        <td> </td>
+                                                                                    </tr>
+                                                                                    <tr >
+                                                                                        <td>Sampleton&#x2C;&#x20;OH </td>
+                                                                                        <td>10&#x2F;15&#x2F;2026 </td>
+                                                                                        <td>04&#x3A;18&#x20;PM </td>
+                                                                                        <td>SENT&#x20;EMAIL&#x2E;&#x20;TFORCE&#x20;FREIGHT&#x20;IS&#x20;ATTEMPTING&#x20;TO&#x20;OBTAIN&#x20;APPOINTMENT&#x20;INFORMATION </td>
+                                                                                        <td> </td>
+                                                                                    </tr>
+                                                                                    <tr >
+                                                                                        <td>Sampleton&#x2C;&#x20;OH </td>
+                                                                                        <td>10&#x2F;15&#x2F;2026 </td>
+                                                                                        <td>05&#x3A;13&#x20;AM </td>
+                                                                                        <td>SHIPMENT&#x20;HAS&#x20;ARRIVED&#x20;AT&#x20;A&#x20;SERVICE&#x20;CENTER&#x2E; </td>
+                                                                                        <td>000005 SMPL</td>
+                                                                                    </tr>
+                                                                                    <tr >
+                                                                                        <td>Hubville&#x2C;&#x20;IN </td>
+                                                                                        <td>10&#x2F;14&#x2F;2026 </td>
+                                                                                        <td>08&#x3A;40&#x20;PM </td>
+                                                                                        <td>DEPARTURE </td>
+                                                                                        <td>000005 SMPL</td>
+                                                                                    </tr>
+                                                                                    <tr >
+                                                                                        <td>Hubville&#x2C;&#x20;IN </td>
+                                                                                        <td>10&#x2F;14&#x2F;2026 </td>
+                                                                                        <td>01&#x3A;55&#x20;AM </td>
+                                                                                        <td>SHIPMENT&#x20;HAS&#x20;ARRIVED&#x20;AT&#x20;A&#x20;SERVICE&#x20;CENTER&#x2E; </td>
+                                                                                        <td>000006 SMPL</td>
+                                                                                    </tr>
+                                                                                    <tr >
+                                                                                        <td>Origin&#x20;City&#x2C;&#x20;IL </td>
+                                                                                        <td>10&#x2F;13&#x2F;2026 </td>
+                                                                                        <td>11&#x3A;05&#x20;PM </td>
+                                                                                        <td>DEPARTURE </td>
+                                                                                        <td>000006 SMPL</td>
+                                                                                    </tr>
+                                                                                    <tr >
+                                                                                        <td>Origin&#x20;City&#x2C;&#x20;IL </td>
+                                                                                        <td>10&#x2F;13&#x2F;2026 </td>
+                                                                                        <td>08&#x3A;25&#x20;PM </td>
+                                                                                        <td>SHIPMENT&#x20;IS&#x20;AT&#x20;A&#x20;TFORCE&#x20;FREIGHT&#x20;LOCATION </td>
+                                                                                        <td>000006 SMPL</td>
+                                                                                    </tr>
+                                                                                    <tr >
+                                                                                        <td>Origin&#x20;City&#x2C;&#x20;IL </td>
+                                                                                        <td>10&#x2F;13&#x2F;2026 </td>
+                                                                                        <td>07&#x3A;35&#x20;PM </td>
+                                                                                        <td>SHIPMENT&#x20;HAS&#x20;BEEN&#x20;PICKED&#x2D;UP&#x2E; </td>
+                                                                                        <td>000006 SMPL</td>
+                                                                                    </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="col-sm-3" style="background-color: white">
+                                                        <span style="line-height: 30px; font-weight: bold">Shipment Details</span>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <label for="shipTo" style="margin-top: 0px">Bill of Lading</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <label id="shipTo" style="margin-top: 0px; font-weight: normal; margin-bottom: 0px;">0000001</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <label for="shipTo" style="margin-top: 0px">PO Number</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <label id="shipTo" style="margin-top: 0px; font-weight: normal; margin-bottom: 0px;">SAMPLE&#x2D;PO&#x2D;0002</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <label for="shipTo" style="margin-top: 0px">Pieces</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <label id="shipTo" style="margin-top: 0px; font-weight: normal; margin-bottom: 0px;">1</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <label for="shipTo" style="margin-top: 0px">Weight</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <label id="shipTo" style="margin-top: 0px; font-weight: normal; margin-bottom: 0px;">500&#x20;lbs</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center" id="lblTimeStamp"><span style="margin: 20px 0 20px 0 ;font-size: 13px; display&#x3A;&#x20;block&#x3B;">Tracking results provided by TForce&#x20;Freight: <span>10&#x2F;15&#x2F;2026&#x20;11&#x3A;00&#x20;PM</span></span></div>
+                </div>
+</div>
+</body>
+</html>

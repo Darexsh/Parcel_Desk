@@ -1,0 +1,46 @@
+{
+  "id": "honducor",
+  "displayName": "Honducor",
+  "aliases": [
+    "Correos de Honduras",
+    "Empresa de Correos de Honduras",
+    "Honduras Post"
+  ],
+  "region": {
+    "countries": [
+      "HN"
+    ]
+  },
+  "brand": {
+    "color": "#255799"
+  },
+  "selectable": true,
+  "timezone": "America/Tegucigalpa",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://rastreo.honducor.gob.hn/rastreo?tracking_number={trackingNumber}",
+    "searchUrl": "https://rastreo.honducor.gob.hn/",
+    "canaryUrl": "https://honducor.gob.hn/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "rastreo.honducor.gob.hn"
+      ],
+      "pathPattern": "^/rastreo/?$",
+      "params": [
+        "tracking_number"
+      ]
+    }
+  ],
+  "detection": []
+}

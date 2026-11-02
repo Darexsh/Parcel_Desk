@@ -1,0 +1,117 @@
+{
+  "id": "raben",
+  "displayName": "Raben",
+  "aliases": [
+    "Raben Group",
+    "Raben Logistics",
+    "Raben Logistics Polska"
+  ],
+  "region": {
+    "countries": [
+      "PL",
+      "DE",
+      "CZ",
+      "SK",
+      "HU",
+      "NL",
+      "IT",
+      "LT",
+      "LV",
+      "EE",
+      "UA",
+      "RO",
+      "BG",
+      "AT",
+      "CH",
+      "GR",
+      "TR"
+    ]
+  },
+  "brand": {
+    "color": "#df0020"
+  },
+  "selectable": true,
+  "timezone": "Europe/Warsaw",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "raben",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 924
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "eta",
+    "weight",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://oftc.myraben.com/link/ShipmentInformation?ShipmentNumber={trackingNumber}&Language=EN",
+    "searchUrl": "https://www.raben-group.com/",
+    "canaryUrl": "https://oftc.myraben.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "weight",
+      "offset_timestamps",
+      "parcel_count",
+      "volume",
+      "progress_rail",
+      "remarks",
+      "office_contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "weight",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "parcel_count",
+      "volume",
+      "progress_rail",
+      "remarks",
+      "office_contact_details"
+    ],
+    "unavailable": [
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "pickup_point",
+      "service_name",
+      "proof_of_delivery",
+      "dimensions"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "myraben.com",
+        "oftc.myraben.com"
+      ],
+      "pathPattern": "^/link/ShipmentInformation/?$",
+      "params": [
+        "ShipmentNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "raben-1",
+      "pattern": "^27\\d{13}$",
+      "confidence": "low"
+    }
+  ]
+}

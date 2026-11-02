@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "errors": null,
+  "data": [
+    {
+      "result": 1,
+      "trackingNumber": "UM000000028JE",
+      "currentStatusText": "Item Held By Customs",
+      "currentStatusCode": 1,
+      "carrier": {
+        "carrierID": 10,
+        "carrierName": "Jersey Post",
+        "carrierEmail": null,
+        "carrierPhone": "",
+        "carrierLogo": "data:image/png;base64,AAAA",
+        "transitTime": null,
+        "redirectURL": "",
+        "carrierNotes": ""
+      },
+      "events": [
+        {"eventDate": "2026-05-19", "eventTime": "06:14:00", "eventLocation": "Sampleland", "eventDesc": "Item Held By Customs", "eventStatusCode": 1},
+        {"eventDate": "2026-05-19", "eventTime": "06:14:00", "eventLocation": "Sampleland", "eventDesc": "Item Received", "eventStatusCode": 1},
+        {"eventDate": "2026-05-12", "eventTime": "04:52:00", "eventLocation": "Sampleland", "eventDesc": "Item being sent to customer", "eventStatusCode": 1}
+      ],
+      "pod": null,
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "carrier": "no-limit",
+  "entries": [
+    {"wording": "Order accepted", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "First status of a shipment, without a place: NO LIMIT has the transport order."},
+    {"wording": "Warehouse", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "At a branch's warehouse, both after collection and at the delivering branch, so it never reads as an acceptance after a movement."},
+    {"wording": "In realization", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "On the road between branches; the page lists it at the sending and the receiving branch at once."},
+    {"wording": "Issued to courier", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "The delivering branch handed the shipment to its courier for delivery."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Last status of a delivered shipment, placed in the town delivered to."},
+    {"wording": "Przyjęcie zlecenia", "stage": "registered", "language": "pl", "confirmedBy": "portal", "note": "The Polish page's wording for Order accepted."},
+    {"wording": "Magazyn", "stage": "in_transit", "language": "pl", "confirmedBy": "portal", "note": "The Polish page's wording for Warehouse."},
+    {"wording": "W drodze", "stage": "in_transit", "language": "pl", "confirmedBy": "portal", "note": "The Polish page's wording for In realization."},
+    {"wording": "Wydano kurierowi", "stage": "out_for_delivery", "language": "pl", "confirmedBy": "portal", "note": "The Polish page's wording for Issued to courier."},
+    {"wording": "Doręczona", "stage": "delivered", "language": "pl", "confirmedBy": "portal", "note": "The Polish page's wording for Delivered."}
+  ]
+}

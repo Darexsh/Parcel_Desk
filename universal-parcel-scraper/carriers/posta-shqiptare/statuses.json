@@ -1,0 +1,18 @@
+{
+  "carrier": "posta-shqiptare",
+  "entries": [
+    {"wording": "Pranim objekti nga klienti / Receive item from customer", "stage": "accepted", "language": "sq", "confirmedBy": "live", "note": "Posted at a Posta Shqiptare office; UPU's tracker has the posting at the same minute."},
+    {"wording": "Objekti u nxor nga thesi per perpunim / Receive item at location (Inb)", "stage": "in_transit", "language": "sq", "confirmedBy": "live", "note": "Taken out of its bag for processing. Its English half says inbound, but it comes right after the posting, at a post office or sorting centre in Albania, before the item leaves the country."},
+    {"wording": "Objekti u pranua ne zyren e shkembimit", "stage": "in_transit", "language": "sq", "confirmedBy": "live", "note": "Relayed from the foreign post: its office of exchange received the item (UPU EMD)."},
+    {"wording": "Regjistrimi i informacionit doganor te objektit", "stage": "customs", "language": "sq", "confirmedBy": "live", "note": "Relayed from the foreign post: presented to customs or held there (UPU EDB and EME)."},
+    {"wording": "Objekti u dergua ne zyren destinacion", "stage": "in_transit", "language": "sq", "confirmedBy": "live", "note": "Relayed from the foreign post: sent on from its office of exchange (UPU EMF)."},
+    {"wording": "Objekti u pranua ne zyren e shperndarjes", "stage": "in_transit", "language": "sq", "confirmedBy": "live", "note": "Relayed from the foreign post: the delivery office received the item (UPU EMG)."},
+    {"wording": "Tentative e pasuksesshme ne shperndarjen e objektit", "stage": "failed_attempt", "language": "sq", "confirmedBy": "live", "note": "Relayed from the foreign post: an unsuccessful delivery (UPU EMH); a delivery can follow."},
+    {"wording": "Objekti u dorezua", "stage": "delivered", "language": "sq", "confirmedBy": "live", "note": "Relayed from the foreign post: the final delivery (UPU EMI)."},
+    {"wording": "Nisur nga origjina", "stage": "in_transit", "language": "sq", "confirmedBy": "live", "note": "A courier's scan on an EMS item it carried abroad: it left Albania."},
+    {"wording": "Mbajtur ne dogane", "stage": "customs", "language": "sq", "confirmedBy": "live", "note": "A courier's scan: held at customs in the destination country."},
+    {"wording": "Mbërritur në qendrën e shpërndarjes", "stage": "in_transit", "language": "sq", "confirmedBy": "live", "note": "A courier's scan: arrived at its delivery centre."},
+    {"wording": "Marrë nga korrieri", "stage": "in_transit", "language": "sq", "confirmedBy": "live", "note": "A courier's scan, seen between the arrival at the delivery centre and the delivery; it does not say the item went out for delivery."},
+    {"wording": "Dorëzuar", "stage": "delivered", "language": "sq", "confirmedBy": "live", "note": "A courier's delivery."}
+  ]
+}

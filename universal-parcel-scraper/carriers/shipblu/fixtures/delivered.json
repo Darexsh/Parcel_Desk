@@ -1,0 +1,94 @@
+{
+  "id": 1000001,
+  "tracking_number": "1234560890124",
+  "status": "delivered",
+  "merchant": {
+    "id": 1001,
+    "name": "Synthetic Shop",
+    "display_name": "Synthetic Shop",
+    "store_phone": "01000000000"
+  },
+  "customer": {
+    "id": 1000002,
+    "first_name": "Sample",
+    "last_name": "Recipient",
+    "email": null,
+    "phone": "01000000000",
+    "address": {
+      "id": 1000003,
+      "zone": {
+        "id": 1,
+        "name": "Example Zone - منطقة مثال",
+        "city": {
+          "id": 1,
+          "name": "Example City - مدينة مثال",
+          "governorate": {
+            "id": 1,
+            "deleted": null,
+            "name": "Example Governorate - محافظة مثال",
+            "code": "EGX",
+            "max_order_age": 5,
+            "cod_deposit_delay": 0
+          }
+        },
+        "zone_group": [
+          {
+            "id": 1,
+            "name": "EX-L1",
+            "visit_days": [
+              { "id": 1, "day": "Saturday" },
+              { "id": 2, "day": "Sunday" }
+            ]
+          }
+        ],
+        "served_by": 1
+      },
+      "created": "2026-05-09T11:00:00.000000+03:00",
+      "modified": "2026-05-09T11:00:00.000000+03:00",
+      "nickname": "default",
+      "line_1": "1 Example Street",
+      "line_2": "Next to the example landmark",
+      "line_3": null,
+      "what3words": null,
+      "zip_code": null,
+      "auto_zoned": false,
+      "latitude": 30.0,
+      "longitude": 31.0,
+      "google_maps_link": null,
+      "notes": null,
+      "zone_verified": "2026-05-09T11:00:00.000000+03:00"
+    },
+    "full_name": "Sample Recipient",
+    "secondary_phone": "01000000000",
+    "blu_insights_category": "green"
+  },
+  "visit_dates": ["2026-05-12", "2026-05-13"],
+  "created": "2026-05-09T11:00:00.123456+03:00",
+  "preferred_date": null,
+  "preferred_window": [],
+  "estimated_date": "2026-05-11",
+  "pickup_date": "2026-05-10T14:05:07.827351+03:00",
+  "cash_amount": 100.0,
+  "inbound_warehouse": 1,
+  "current_warehouse": null,
+  "outbound_warehouse": 2,
+  "modified": "2026-05-12T16:32:19.261539+03:00",
+  "rto_requested": false,
+  "delivered_date": "2026-05-12T13:32:19.270394Z",
+  "on_hold": null,
+  "tracking_events": [
+    { "status": "created", "created": "2026-05-09T11:00:01.990969+03:00", "comment": null },
+    { "status": "pickup_requested", "created": "2026-05-09T11:00:04.064783+03:00", "comment": null },
+    { "status": "out_for_pickup", "created": "2026-05-10T12:26:05.216062+03:00", "comment": null },
+    { "status": "picked_up", "created": "2026-05-10T14:05:07.827351+03:00", "comment": null },
+    { "status": "in_transit", "created": "2026-05-10T15:33:13.746335+03:00", "comment": null },
+    { "status": "en_route", "created": "2026-05-10T18:20:43.895924+03:00", "comment": null },
+    { "status": "in_transit", "created": "2026-05-11T01:35:00.147580+03:00", "comment": null },
+    { "status": "out_for_delivery", "created": "2026-05-11T09:44:56.798562+03:00", "comment": null },
+    { "status": "delivery_attempted", "created": "2026-05-11T15:10:00.000001+03:00", "comment": "Customer not answering, call 0100 000 0000" },
+    { "status": "in_transit", "created": "2026-05-11T20:02:41.500000+03:00", "comment": null },
+    { "status": "in_transit", "created": "2026-05-11T20:02:41.500000+03:00", "comment": null },
+    { "status": "out_for_delivery", "created": "2026-05-12T09:15:30.000000+03:00", "comment": null },
+    { "status": "delivered", "created": "2026-05-12T16:32:19.270394+03:00", "comment": "Handed to Sample Recipient" }
+  ]
+}

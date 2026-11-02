@@ -1,0 +1,48 @@
+{
+  "id": "fofr",
+  "displayName": "FOFR",
+  "aliases": [
+    "FOFR CZ",
+    "Systém FOFR",
+    "RSC Logistics",
+    "RSC Logistics, logistické družstvo"
+  ],
+  "region": {
+    "countries": [
+      "CZ",
+      "SK"
+    ]
+  },
+  "brand": {
+    "color": "#1a478a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Prague",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://objednavky.fofrcz.cz/sledovani-zasilek-fofr?shipment_num={trackingNumber}",
+    "searchUrl": "https://objednavky.fofrcz.cz/sledovani-zasilek-fofr",
+    "canaryUrl": "https://objednavky.fofrcz.cz/sledovani-zasilek-fofr",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "objednavky.fofrcz.cz"
+      ],
+      "pathPattern": "^/sledovani-zasilek-fofr/?$",
+      "params": [
+        "shipment_num"
+      ]
+    }
+  ],
+  "detection": []
+}

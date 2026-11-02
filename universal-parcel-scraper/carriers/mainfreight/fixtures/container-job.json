@@ -1,0 +1,13 @@
+[{"shortCode":"MSNZCJ","reference":"CJ999000001","fullReference":"CJ999000001","url":"MSNZCJ/CJ999000001","mainchainUrl":"https://www.mainchain.net/","status":"Final Delivery","statusDateUtc":"2026-07-16T13:43:00","journey":"SAMPLE BAY to EXAMPLE PARK","documentJourney":null,
+ "hero":{"status":"Final Delivery","statusDateUtc":"2026-07-16T13:43:00","colour":"green","icon":"icon-status delivered-circle","additionalDetails":[{"value":"16 July 2026, 1:43 PM","cssClass":"","link":""}]},
+ "contacts":[],
+ "details":[{"groupName":"Details","items":[{"label":"Job Type","value":"HAUL"},{"label":"Container Type","value":"20' Container"},{"label":"Container Number","value":"ZZZU0000000"},{"label":"Kilos","value":"2400 kg"}]}],
+ "timelineDetails":[
+  {"status":"Final Delivery (Empty to Customer)","colour":"green","additionalDetails":[{"value":"16 July 2026, 1:43 PM","cssClass":"","link":""},{"value":"EXAMPLE PARK, AUCKLAND","cssClass":"","link":""}]},
+  {"status":"Final Pick Up (Empty to Customer)","colour":"grey","additionalDetails":[{"value":"16 July 2026, 12:05 PM","cssClass":"","link":""},{"value":"SAMPLE BAY, AUCKLAND","cssClass":"","link":""}]},
+  {"status":"Final Pending Collection (Empty to Customer)","colour":"blue","additionalDetails":[{"value":"16 July 2026","cssClass":"","link":""}]},
+  {"status":"Deliver (Site Movement)","colour":"grey","additionalDetails":[{"value":"15 July 2026, 4:20 PM","cssClass":"","link":""},{"value":"SAMPLE BAY, AUCKLAND","cssClass":"","link":""}]},
+  {"status":"Information Received","colour":"blue","additionalDetails":[{"value":"15 July 2026, 1:41 PM","cssClass":"","link":""}]}
+ ],
+ "worm":[{"active":true,"status":"Picked Up","colour":"blue","icon":"icon-status picked-up"},{"active":true,"status":"In Transit","colour":"grey","icon":"icon-status in-transit"},{"active":true,"status":"Delivered","colour":"green","icon":"icon-status delivered"}],
+ "serviceAlertTitle":null,"serviceAlert":null,"subscriptionPayload":"SYNTHETIC-SUBSCRIPTION-KEY","watchlistPayload":"SYNTHETIC-WATCHLIST-KEY","serviceTypeCode":"TransportNz","eventTypeCode":"StatusUpdate","documentTypeName":"ContainerJob","attachments":null}]

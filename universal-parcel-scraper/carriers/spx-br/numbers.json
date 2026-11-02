@@ -1,0 +1,100 @@
+{
+  "carrier": "spx-br",
+  "records": [
+    {
+      "number": "BR257449972818X",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260123075603/https://spx.com.br/track?BR257449972818X",
+        "date": "2026-01-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spx-br",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Brazil's own tracker address; SPX's tracker returns its history, with a delivery exception."
+    },
+    {
+      "number": "BR2667105260570",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260310113856/https://spx.com.br/track?BR2667105260570",
+        "date": "2026-03-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spx-br",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Brazil's own tracker address; SPX's tracker returns its history, through to delivery."
+    },
+    {
+      "number": "BR2671352786030",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260223234445/https://spx.com.br/track?BR2671352786030",
+        "date": "2026-02-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spx-br",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Brazil's own tracker address; SPX's tracker returns its history, through to its return to the seller."
+    },
+    {
+      "number": "BR2694748525524",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260522125753/https://spx.com.br/track?BR2694748525524",
+        "date": "2026-05-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spx-br",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Brazil's own tracker address; SPX's tracker returns its history, through to delivery."
+    },
+    {
+      "number": "BR261973651109L",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260525112513/https://spx.com.br/track?BR261973651109L",
+        "date": "2026-05-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "spx-br",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Brazil's own tracker address; the capture was not opened for history, which the page loads by script, so the history was not visible."
+    }
+  ]
+}

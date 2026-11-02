@@ -1,0 +1,89 @@
+{
+  "response": {
+    "status": "UNDELIVERABLE",
+    "originCountryCode": "TR",
+    "destinationCountryCode": "CZ",
+    "postCode": "000 00",
+    "maskedReceiverAddress": "S*****E S****T 0 S*********E 0****0",
+    "lastMileAgentName": "CAINIAO",
+    "lastMileAgentLogoImageUrl": null,
+    "lastMileAgentTrackingUrl": "https://global.cainiao.com/newDetail.htm?mailNoList=LP00000000000002&otherMailNoList=",
+    "lastMileAgentTrackingNumber": "LP00000000000002",
+    "ptsNo": "1000000002",
+    "estimatedDeliveryDate": "2026-04-12T21:00:00.000+00:00",
+    "trackingHistory": [
+      {
+        "statusDate": "2026-04-07T13:23:00.000+00:00",
+        "statusText": "Shipment Data Received",
+        "statusCode": "004",
+        "location": "SAMPLEKENT-TURKEY"
+      },
+      {
+        "statusDate": "2026-04-07T15:33:00.000+00:00",
+        "statusText": "Shipped from Origin",
+        "statusCode": "222",
+        "location": "TR-Samplekent - Hub"
+      },
+      {
+        "statusDate": "2026-04-08T12:34:00.000+00:00",
+        "statusText": "Handover",
+        "statusCode": "022",
+        "location": "SAMPLEKENT"
+      },
+      {
+        "statusDate": "2026-04-08T14:03:00.000+00:00",
+        "statusText": "Export from Turkey",
+        "statusCode": "205",
+        "location": "SAMPLEKENT-TURKEY"
+      },
+      {
+        "statusDate": "2026-04-09T10:05:00.000+00:00",
+        "statusText": "Plane Took Off",
+        "statusCode": "214",
+        "location": "SAMPLEKENT"
+      },
+      {
+        "statusDate": "2026-04-09T12:22:00.000+00:00",
+        "statusText": "Plane Landed",
+        "statusCode": "215",
+        "location": "SAMPLEKENT"
+      },
+      {
+        "statusDate": "2026-04-10T07:00:00.000+00:00",
+        "statusText": "Cleared Customs",
+        "statusCode": "250",
+        "location": "-"
+      },
+      {
+        "statusDate": "2026-04-10T09:25:00.000+00:00",
+        "statusText": "Handed over to LastMile Subcontractor",
+        "statusCode": "317",
+        "location": "-"
+      },
+      {
+        "statusDate": "2026-04-12T03:00:00.000+00:00",
+        "statusText": "Delivered to parcelshop.Awaiting pickup",
+        "statusCode": "460",
+        "location": "-"
+      },
+      {
+        "statusDate": "2026-04-12T03:00:00.000+00:00",
+        "statusText": "Handed Over to Delivery Agent",
+        "statusCode": "998",
+        "location": "-"
+      },
+      {
+        "statusDate": "2026-04-28T21:00:00.000+00:00",
+        "statusText": "Attempted delivery,delivery not possible",
+        "statusCode": "420",
+        "location": "-"
+      },
+      {
+        "statusDate": "2026-05-04T09:00:00.000+00:00",
+        "statusText": "LastMile Return Process Competed",
+        "statusCode": "987",
+        "location": "-"
+      }
+    ]
+  }
+}

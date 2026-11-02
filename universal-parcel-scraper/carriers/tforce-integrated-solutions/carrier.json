@@ -1,0 +1,45 @@
+{
+  "id": "tforce-integrated-solutions",
+  "displayName": "TForce Integrated Solutions",
+  "aliases": [
+    "TForce Solutions"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#004b8e"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tforce-solutions.com/quick-tracking/?tracking={trackingNumber}",
+    "searchUrl": "https://tforce-solutions.com/",
+    "canaryUrl": "https://tforce-solutions.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tforce-solutions.com",
+        "www.tforce-solutions.com"
+      ],
+      "pathPattern": "^/quick-tracking/?$",
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": []
+}

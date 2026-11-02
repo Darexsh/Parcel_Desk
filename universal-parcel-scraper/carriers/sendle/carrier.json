@@ -1,0 +1,86 @@
+{
+  "id": "sendle",
+  "displayName": "Sendle",
+  "aliases": [
+    "Sendle Pty Ltd"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#f0703f"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "sendle",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 64
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.sendle.com/tracking?ref={trackingNumber}",
+    "searchUrl": "https://www.sendle.com/tracking",
+    "canaryUrl": "https://www.sendle.com/",
+    "shows": [
+      "status",
+      "history",
+      "progress_rail",
+      "event_details",
+      "canonical_tracking_number",
+      "order_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "canonical_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "event_details",
+      "order_reference"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name",
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "sendle.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "ref"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "sendle-1",
+      "pattern": "^QSS\\d{9}$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

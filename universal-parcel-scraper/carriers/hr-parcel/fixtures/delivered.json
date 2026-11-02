@@ -1,0 +1,203 @@
+{
+  "shipment": {
+    "id": 10000123,
+    "state": 1003,
+    "delivered": true,
+    "progress": 100,
+    "sender": {
+      "town": "Hub Sintetico (MI)",
+      "province": ""
+    },
+    "recipient": {
+      "town": null,
+      "province": null
+    },
+    "total_packages": 1,
+    "warning": ""
+  },
+  "steps": [
+    {
+      "icon": "icon-tracking icon-CONSEGNATA",
+      "code": 1003,
+      "status": "Spedizione Consegnata",
+      "date": "12/03/2026 17:24",
+      "originalDate": "2026-03-12T17:24:50",
+      "town": "MILANO (MI)",
+      "completed": true
+    },
+    {
+      "icon": "icon-tracking icon-RIMESSOINCONSEGNA",
+      "code": 1002,
+      "status": "In Consegna",
+      "date": "12/03/2026 09:47",
+      "originalDate": "2026-03-12T09:47:33",
+      "town": "Milano (MI)"
+    },
+    {
+      "icon": "icon-tracking icon-GIACENZA",
+      "code": 1007,
+      "status": "In Giacenza, disponibile per Ritiro",
+      "date": "10/03/2026 07:49",
+      "originalDate": "2026-03-10T07:49:36",
+      "town": "Milano (MI)"
+    },
+    {
+      "icon": "icon-tracking icon-ASSENTE",
+      "code": 1015,
+      "status": "Destinatario Assente al primo passaggio",
+      "date": "09/03/2026 17:20",
+      "originalDate": "2026-03-09T17:20:29",
+      "town": "MILANO (MI)"
+    },
+    {
+      "icon": "icon-tracking icon-INCONSEGNA",
+      "code": 1002,
+      "status": "In Consegna",
+      "date": "09/03/2026 08:31",
+      "originalDate": "2026-03-09T08:31:53",
+      "town": "Milano (MI)"
+    },
+    {
+      "icon": "icon-tracking icon-ARRIVATA",
+      "code": 1010,
+      "status": "Arrivata in Filiale",
+      "date": "09/03/2026 06:12",
+      "originalDate": "2026-03-09T06:12:00",
+      "town": "Milano (MI)"
+    },
+    {
+      "icon": "icon-tracking icon-ARRIVATA",
+      "code": 1010,
+      "status": "Arrivata in Filiale",
+      "date": "09/03/2026 06:12",
+      "originalDate": "2026-03-09T06:12:00",
+      "town": "Milano (MI)"
+    },
+    {
+      "icon": "icon-tracking icon-INTRANSITO",
+      "code": 1001,
+      "status": "Presa in carico all'HUB",
+      "date": "07/03/2026 18:05",
+      "originalDate": "2026-03-07T18:05:50",
+      "town": ""
+    },
+    {
+      "icon": "icon-tracking icon-ERRORE",
+      "code": 1000,
+      "status": "Spedizione non ancora ricevuta presso i nostri magazzini",
+      "date": "05/03/2026 14:51",
+      "originalDate": "2026-03-05T14:51:36",
+      "town": ""
+    }
+  ],
+  "response": {
+    "ShipmentData": {
+      "Date": "2026-03-04T00:00:00",
+      "idSpedizione": 10000123,
+      "ShipmentYear": 2026,
+      "ShipmentNumber": 900123,
+      "CustomerCode": 30000,
+      "PrimaryReference": "SYNTHETIC-ORDER-0001",
+      "SecondaryReference": "Synthetic item description",
+      "ParcelsNr": 1,
+      "WeightKg": 0.75,
+      "DimXcm": 0,
+      "DimYcm": 0,
+      "DimZcm": 0,
+      "CodAmount": 0,
+      "InsuranceAmount": 0,
+      "ShipmentValue": 0,
+      "ShipmentType": 1,
+      "ContractId": 1,
+      "lastState": 1003,
+      "ShipmentStatus": 3
+    },
+    "Delivered": true,
+    "Avnz": 100,
+    "DepartureTown": "Hub Sintetico (MI)",
+    "ShipmentStatusDetail": [
+      {
+        "dateTime": "2026-03-12T17:24:50",
+        "StatusCode": 1003,
+        "StatusDecode": "Spedizione Consegnata",
+        "signatory": "Synthetic Signer",
+        "Town": "MILANO (MI)",
+        "StatusClass": 1
+      },
+      {
+        "dateTime": "2026-03-12T09:47:33",
+        "StatusCode": 1002,
+        "StatusDecode": "In Consegna",
+        "signatory": "",
+        "Town": "Milano (MI)",
+        "StatusClass": 4
+      },
+      {
+        "dateTime": "2026-03-10T07:49:36",
+        "StatusCode": 1007,
+        "StatusDecode": "In Giacenza, disponibile per Ritiro",
+        "signatory": "",
+        "Town": "Milano (MI)",
+        "StatusClass": 7
+      },
+      {
+        "dateTime": "2026-03-09T17:20:29",
+        "StatusCode": 1015,
+        "StatusDecode": "Destinatario Assente al primo passaggio",
+        "signatory": "",
+        "Town": "MILANO (MI)",
+        "StatusClass": 5
+      },
+      {
+        "dateTime": "2026-03-09T08:31:53",
+        "StatusCode": 1002,
+        "StatusDecode": "In Consegna",
+        "signatory": "",
+        "Town": "Milano (MI)",
+        "StatusClass": 4
+      },
+      {
+        "dateTime": "2026-03-09T06:12:00",
+        "StatusCode": 1010,
+        "StatusDecode": "Arrivata in Filiale",
+        "signatory": "",
+        "Town": "Milano (MI)",
+        "StatusClass": 9
+      },
+      {
+        "dateTime": "2026-03-09T06:12:00",
+        "StatusCode": 1010,
+        "StatusDecode": "Arrivata in Filiale",
+        "signatory": "",
+        "Town": "Milano (MI)",
+        "StatusClass": 9
+      },
+      {
+        "dateTime": "2026-03-07T18:05:50",
+        "StatusCode": 1001,
+        "StatusDecode": "Presa in carico all'HUB",
+        "signatory": "",
+        "Town": "Hub Sintetico (MI)",
+        "StatusClass": 2
+      },
+      {
+        "dateTime": "2026-03-05T14:51:36",
+        "StatusCode": 1000,
+        "StatusDecode": "Spedizione non ancora ricevuta presso i nostri magazzini",
+        "signatory": "",
+        "Town": "",
+        "StatusClass": 99
+      }
+    ],
+    "BarcodeList": [
+      {
+        "Barcode": "19900000000123",
+        "CustomerBarcode": "X00000001"
+      }
+    ]
+  },
+  "payload": {
+    "endpoint": "https://wcfservices.myhrparcel.com/TrackPubblico/getTrackPubblicoInfo/History",
+    "data": []
+  }
+}

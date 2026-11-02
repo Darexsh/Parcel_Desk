@@ -1,0 +1,174 @@
+{
+  "message": "Order information",
+  "type": "success",
+  "code": 200,
+  "data": {
+    "order": {
+      "order_id": 100000001,
+      "consignment": "DA100526SMPL01",
+      "order_type_id": 1,
+      "collectable_amount": 1250,
+      "collected_amount": 1250,
+      "transfer_status": "Delivered",
+      "ts_id": 13,
+      "transfer_status_updated_at": "12 May, 2026 2:15 PM",
+      "merchant_logo": "https://cdn.pathao.com/hermes/hermes_sample.jpg?exp=1800000000&sig=0000",
+      "created_at": "May 10, 2026 9:15 PM",
+      "order_description": "Sample item for a sample buyer",
+      "cash_on_delivery": "Yes",
+      "payment_status_id": 0,
+      "show_dp_notice": false,
+      "is_ecom_merchant": "No",
+      "c2c_info": null,
+      "delivery_hub_latitude": "23.000000",
+      "delivery_hub_longitude": "90.000000",
+      "can_reschedule_delivery": false,
+      "reschedule_status": null,
+      "rescheduled_date": null,
+      "total_payment_amount": 1250,
+      "agent": {
+        "id": 1,
+        "name": "Sample Rider",
+        "image": "https://cdn.pathao.com/hermes/hermes_rider.jpg?exp=1800000000&sig=0000",
+        "rating": null
+      },
+      "payment_methods": [
+        {
+          "name": "Cash Payment",
+          "logo": "/pathao-cdn/payment-method-icons/cash-payment.png",
+          "type": "CASH_ON_DELIVERY",
+          "amount": 1250
+        }
+      ],
+      "estimated_date": ""
+    },
+    "state": {
+      "name": "Delivered",
+      "id": 5,
+      "transition_id": 2
+    },
+    "log": [
+      {
+        "desc": "Pickup requested.",
+        "created_at": "May 10, 2026 9:15 PM",
+        "notes": "",
+        "grouped_status": [
+          "Accepted",
+          "Accepted",
+          1,
+          1
+        ]
+      },
+      {
+        "desc": "Order confirmed.",
+        "created_at": "May 10, 2026 9:40 PM",
+        "notes": "",
+        "grouped_status": [
+          "Accepted",
+          "Accepted",
+          1,
+          1
+        ]
+      },
+      {
+        "desc": "Order has been assigned to Sample Pickup Rider for pickup",
+        "created_at": "May 11, 2026 10:05 AM",
+        "notes": "",
+        "grouped_status": [
+          "Accepted",
+          "Accepted",
+          1,
+          1
+        ]
+      },
+      {
+        "desc": "Order weight has been updated from 0.5kg to 1kg",
+        "created_at": "May 11, 2026 3:05 PM",
+        "notes": "",
+        "grouped_status": [
+          "Accepted",
+          "Accepted",
+          1,
+          1
+        ]
+      },
+      {
+        "desc": "Received at pickup hub: Sample Central Hub.",
+        "created_at": "May 11, 2026 3:05 PM",
+        "notes": "",
+        "grouped_status": [
+          "Picked",
+          "Picked",
+          2,
+          2
+        ]
+      },
+      {
+        "desc": "Dispatched from Sample Central Hub.",
+        "created_at": "May 11, 2026 3:49 PM",
+        "notes": "",
+        "grouped_status": [
+          "In-Transit",
+          "In-Transit",
+          3,
+          1
+        ]
+      },
+      {
+        "desc": "Dispatched from Central Processing OSD.",
+        "created_at": "May 12, 2026 5:32 AM",
+        "notes": "",
+        "grouped_status": [
+          "In-Transit",
+          "In-Transit",
+          3,
+          1
+        ]
+      },
+      {
+        "desc": "Order has been reached at delivery hub",
+        "created_at": "May 12, 2026 11:10 AM",
+        "notes": "",
+        "grouped_status": [
+          "Ready For Delivery",
+          "Ready For Delivery",
+          4,
+          1
+        ]
+      },
+      {
+        "desc": "Assigned to Sample Rider (01000000000) for delivery.",
+        "created_at": "May 12, 2026 11:51 AM",
+        "notes": "",
+        "grouped_status": [
+          "Ready For Delivery",
+          "Ready For Delivery",
+          4,
+          1
+        ]
+      },
+      {
+        "desc": "Delivered.",
+        "created_at": "May 12, 2026 2:15 PM",
+        "notes": "Amount Collected: 1250",
+        "grouped_status": [
+          "Delivered",
+          "Delivered",
+          5,
+          2
+        ]
+      },
+      {
+        "desc": "Delivered.",
+        "created_at": "May 12, 2026 2:15 PM",
+        "notes": "Amount Collected: 1250",
+        "grouped_status": [
+          "Delivered",
+          "Delivered",
+          5,
+          2
+        ]
+      }
+    ]
+  }
+}

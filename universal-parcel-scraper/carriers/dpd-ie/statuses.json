@@ -1,0 +1,24 @@
+{
+  "carrier": "dpd-ie",
+  "entries": [
+    {"wording": "Order received / DPD awaiting parcel", "stage": "registered", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-11", "note": "The sender's data, before DPD has the parcel."},
+    {"wording": "Order data received from sender", "stage": "registered", "language": "en", "confirmedBy": "portal", "firstSeen": "2026-10-11", "note": "An earlier wording of the sender's data. Seen in archived replies of the tracker."},
+    {"wording": "Parcel data received from sender", "stage": "registered", "language": "en", "confirmedBy": "portal", "firstSeen": "2026-10-11", "note": "The sender's data, before DPD has the parcel. Seen in archived replies of the tracker."},
+    {"wording": "Customer dropped parcel at Pick Up Point", "stage": "accepted", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-11", "note": "The sender left the parcel at a Pickup shop."},
+    {"wording": "Your parcel has been collected from the Pickup Point", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-11", "note": "A Pickup shop handing the parcel over. After the sender's drop-off at the shop it is DPD's collection, in transit; otherwise it may be the recipient's collection, so it has no stage of its own and the parcel keeps the one it had."},
+    {"wording": "Parcel collected by DPD Driver", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-11", "note": "A driver's collection. Its stage depends on the scans before it: it accepts the parcel from the sender, and after an earlier acceptance or movement it is a hand-over in transit."},
+    {"wording": "Your parcel is travelling through the DPD network", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-11", "note": "A hub or line-haul scan, usually under Head Office."},
+    {"wording": "International Hub - In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-11", "note": "A scan in another DPD country's network, at a place named with its country."},
+    {"wording": "DPD IE UK Inbound", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-11", "note": "A parcel from DPD's UK network arriving at an Irish depot."},
+    {"wording": "Scanned out of HUB", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "firstSeen": "2026-10-11", "note": "Leaving the hub. Seen in archived replies of the tracker."},
+    {"wording": "Security Scan", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "firstSeen": "2026-10-11", "note": "A depot scan before delivery. Seen in archived replies of the tracker."},
+    {"wording": "Parcel going through Customs process", "stage": "customs", "language": "en", "confirmedBy": "portal", "firstSeen": "2026-10-11", "note": "Seen in archived replies of the tracker, on parcels from outside the EU."},
+    {"wording": "Your parcel is on a van and due for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-11", "note": "The history cuts the delivery window after this wording, and the parser removes it; the headline gives the whole window."},
+    {"wording": "We tried to deliver but you weren't home", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "firstSeen": "2026-10-11", "note": "Seen in archived replies of the tracker, with a link to rearrange the delivery."},
+    {"wording": "Delivery of your parcel has been rescheduled", "language": "en", "confirmedBy": "portal", "firstSeen": "2026-10-11", "note": "A new delivery day, not a movement: it has no stage of its own and the parcel keeps the one it had. Seen in archived replies of the tracker."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "firstSeen": "2026-10-11", "note": "An earlier wording of a delivery. Seen in archived replies of the tracker."},
+    {"wording": "Delivered Consignee", "stage": "delivered", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-11", "note": "Handed to the recipient."},
+    {"wording": "Delivered Letterbox", "stage": "delivered", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-11", "note": "Left in the letterbox."},
+    {"wording": "Delivered Safe Place", "stage": "delivered", "language": "en", "confirmedBy": "portal", "firstSeen": "2026-10-11", "note": "Left in the recipient's safe place. Seen in archived replies of the tracker."}
+  ]
+}

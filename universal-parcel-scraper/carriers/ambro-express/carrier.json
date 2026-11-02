@@ -1,0 +1,49 @@
+{
+  "id": "ambro-express",
+  "displayName": "Ambro Express",
+  "aliases": [
+    "AmbroExpress",
+    "Ambro Express Sp. z o.o. Sp. K.",
+    "Grupa Ambro"
+  ],
+  "region": {
+    "countries": [
+      "PL",
+      "DE",
+      "AT",
+      "CZ",
+      "SK"
+    ]
+  },
+  "brand": {
+    "color": "#123274"
+  },
+  "selectable": true,
+  "timezone": "Europe/Warsaw",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://ambroexpress.pl/sledzenie-przesylek#{trackingNumber}",
+    "searchUrl": "https://ambroexpress.pl/sledzenie-przesylek",
+    "canaryUrl": "https://ambroexpress.pl/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "ambroexpress.pl",
+        "www.ambroexpress.pl"
+      ],
+      "pathPattern": "^/sledzenie-przesylek/?$",
+      "fragment": "^([A-Za-z0-9]{13})$"
+    }
+  ],
+  "detection": []
+}

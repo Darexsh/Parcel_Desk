@@ -1,0 +1,11 @@
+{
+  "carrier": "rpx-indonesia",
+  "entries": [
+    {"code": "WPU", "wording": "Shipping Manifest Accepted and Waiting For Pickup", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "The tracking event in the sample reply of RPX's getTracking API documentation."},
+    {"code": "WPU", "wording": "Your order is still on packing process by Shipper/Seller", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The shipper booked the parcel through RPX's API; no station is named yet."},
+    {"code": "PUP", "wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Collected from the shipper and scanned at the origin station."},
+    {"code": "MDE", "wording": "Manifesting Package", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Put on a manifest at the origin station minutes after the pickup."},
+    {"code": "SOP", "wording": "Departed from RPX Origin station", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Left the origin station; the scan's note names the consolidation it travels in."},
+    {"code": "POD", "wording": "Shipment received by Consignee", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Delivered; the reply's delivery details name who took the parcel."}
+  ]
+}

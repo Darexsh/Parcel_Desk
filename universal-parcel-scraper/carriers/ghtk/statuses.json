@@ -1,0 +1,19 @@
+{
+  "carrier": "ghtk",
+  "entries": [
+    {"wording": "Đơn chưa tiếp nhận", "stage": "registered", "language": "vi", "confirmedBy": "official-doc", "note": "The order was created but not taken in, often for missing or wrong details. GHTK's page on order statuses explains it."},
+    {"wording": "Đơn đã tiếp nhận", "stage": "registered", "language": "vi", "confirmedBy": "official-doc", "note": "The order is created; pickup is not yet due. GHTK's page on order statuses explains it."},
+    {"wording": "Đơn đã điều phối lấy hàng / Đang lấy hàng", "stage": "registered", "language": "vi", "confirmedBy": "official-doc", "note": "A courier is assigned to collect the parcel. The page lists the two names together. GHTK's page on order statuses explains it."},
+    {"wording": "Đã lấy hàng, đã nhập kho", "stage": "accepted", "language": "vi", "confirmedBy": "official-doc", "note": "Picked up and received into a GHTK warehouse. GHTK's page on order statuses explains it."},
+    {"wording": "Delay lấy hàng", "language": "vi", "confirmedBy": "official-doc", "note": "Pickup did not happen in this shift and moves to the next one. GHTK's page on order statuses explains it."},
+    {"wording": "Không lấy được hàng", "stage": "exception", "language": "vi", "confirmedBy": "official-doc", "note": "Pickup failed and the order is cancelled. GHTK's page on order statuses explains it."},
+    {"wording": "Đơn đã điều phối giao hàng / Đang giao hàng", "stage": "out_for_delivery", "language": "vi", "confirmedBy": "official-doc", "note": "The page lists the two names together. GHTK's page on order statuses explains it."},
+    {"wording": "Delay giao hàng", "stage": "failed_attempt", "language": "vi", "confirmedBy": "official-doc", "note": "Not delivered in this shift; another attempt follows. GHTK's page on order statuses explains it."},
+    {"wording": "Lưu kho chờ doanh nghiệp kiểm tra", "stage": "failed_attempt", "language": "vi", "confirmedBy": "official-doc", "note": "Delivery failed; the parcel is held while the merchant checks it. GHTK's page on order statuses explains it."},
+    {"wording": "Đơn đã giao hàng / Chưa đối soát", "stage": "delivered", "language": "vi", "confirmedBy": "official-doc", "note": "Delivered; the cash on delivery is not yet settled with the merchant. GHTK's page on order statuses explains it."},
+    {"wording": "Đơn đã đối soát", "stage": "delivered", "language": "vi", "confirmedBy": "official-doc", "note": "Delivered and settled with the merchant. GHTK's page on order statuses explains it."},
+    {"wording": "Đơn đối soát công nợ trả hàng", "stage": "returned", "language": "vi", "confirmedBy": "official-doc", "note": "Returned after a failed delivery; the fees are settled. GHTK's page on order statuses explains it."},
+    {"wording": "Bồi hoàn", "stage": "exception", "language": "vi", "confirmedBy": "official-doc", "note": "GHTK compensates the merchant for a parcel lost or damaged in its care. GHTK's page on order statuses explains it."},
+    {"wording": "Đang luân chuyển", "stage": "in_transit", "language": "vi", "confirmedBy": "source", "note": "Moving between warehouses and post offices. Hoàng Hà Mobile's guide to GHTK tracking lists it."}
+  ]
+}

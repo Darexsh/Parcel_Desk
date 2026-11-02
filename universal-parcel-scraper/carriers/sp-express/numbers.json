@@ -1,0 +1,182 @@
+{
+  "carrier": "sp-express",
+  "records": [
+    {
+      "number": "483160811721292",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20160820144347/http://swiatprzesylek.pl:80/tt/483160811721292",
+        "date": "2016-08-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "brt",
+          "yunda",
+          "sp-express"
+        ]
+      },
+      "note": "An archived lookup on the tracker of Świat Przesyłek, SP Express's former name, shows this order from its Nysa manifest to delivery in Germany; the sending date matches the number's middle digits."
+    },
+    {
+      "number": "483170102789299",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170105135641/http://swiatprzesylek.pl:80/tt/483170102789299",
+        "date": "2017-01-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "brt",
+          "yunda",
+          "sp-express"
+        ]
+      },
+      "note": "An archived lookup on Świat Przesyłek's tracker shows this order handed to a subcontractor and delivered in Germany; the sending date matches the number's middle digits."
+    },
+    {
+      "number": "483230120060967",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250912044143/https://en.sp.express/tt/483230120060967",
+        "date": "2025-09-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "brt",
+          "yunda",
+          "sp-express"
+        ]
+      },
+      "note": "An archived lookup on SP Express's English tracker shows this order as delivered with its order details; the history itself is archived, and the sending date matches the number's middle digits."
+    },
+    {
+      "number": "483151203868516",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20151223022005/http://swiatprzesylek.pl:80/tt/483151203868516",
+        "date": "2015-12-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "brt",
+          "yunda",
+          "sp-express"
+        ]
+      },
+      "note": "An archived lookup on Świat Przesyłek's tracker; the capture was not opened."
+    },
+    {
+      "number": "483161207231400",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20161214160659/http://swiatprzesylek.pl:80/tt/483161207231400",
+        "date": "2016-12-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "brt",
+          "yunda",
+          "sp-express"
+        ]
+      },
+      "note": "An archived lookup on Świat Przesyłek's tracker; the capture was not opened."
+    },
+    {
+      "number": "PL000038682796",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220723110918/https://swiatprzesylek.pl/tt-cainiao/PL000038682796",
+        "date": "2022-07-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on the carrier's Cainiao tracking page shows this parcel's order, its inbound scan at the Nysa hub and its arrival at a branch."
+    },
+    {
+      "number": "CZ000012511662",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250125194616/https://sp.express/tt-cainiao/CZ000012511662",
+        "date": "2025-01-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on SP Express's Cainiao tracking page shows this parcel's last status, arrival at a branch."
+    },
+    {
+      "number": "NL000034910278",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220519125529/https://swiatprzesylek.pl/tt-cainiao/NL000034910278",
+        "date": "2022-05-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on the carrier's Cainiao tracking page; the capture was not opened."
+    }
+  ]
+}

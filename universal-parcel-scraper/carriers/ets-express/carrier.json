@@ -1,0 +1,45 @@
+{
+  "id": "ets-express",
+  "displayName": "ETS Express",
+  "aliases": [
+    "RETS",
+    "RETS Express",
+    "ETS·俄通收",
+    "俄通收",
+    "俄通收国际物流",
+    "俄通收国际货物代理运输有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "RU"
+    ]
+  },
+  "brand": {
+    "color": "#1c2187"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.ets-express.com/inquiry.html",
+    "canaryUrl": "https://www.ets-express.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "ets-express-1",
+      "pattern": "^RETS\\d{12}UES$",
+      "confidence": "low"
+    }
+  ]
+}

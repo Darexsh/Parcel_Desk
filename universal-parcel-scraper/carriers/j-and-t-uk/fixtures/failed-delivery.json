@@ -1,0 +1,62 @@
+{
+  "code": 1,
+  "msg": "请求成功",
+  "data": [
+    {
+      "keyword": "JTUK023450789013",
+      "details": [
+        {
+          "code": 110,
+          "scanTypeName": "问题件扫描",
+          "status": "运送中",
+          "scanTime": "2026-07-09 14:22:05",
+          "customerTracking": "The delivery address is incomplete or incorrect."
+        },
+        {
+          "code": 94,
+          "scanTypeName": "派件扫描",
+          "status": "派件中",
+          "scanTime": "2026-07-09 07:48:36",
+          "customerTracking": "The parcel has been collected and is on its way"
+        },
+        {
+          "code": 50,
+          "scanTypeName": "发件扫描",
+          "status": "运送中",
+          "scanTime": "2026-07-08 20:31:12",
+          "customerTracking": "The parcel is dispatched from the transit center to the next destination"
+        },
+        {
+          "code": 90,
+          "scanTypeName": "中心到件",
+          "status": "运送中",
+          "scanTime": "2026-07-08 17:55:40",
+          "customerTracking": "The parcel arrives at the distribution center and is prepared for transport to the next destination"
+        },
+        {
+          "code": 50,
+          "scanTypeName": "发件扫描",
+          "status": "运送中",
+          "scanTime": "2026-07-08 13:09:27",
+          "customerTracking": "The parcel is dispatched from the transit center to the next destination"
+        },
+        {
+          "code": 90,
+          "scanTypeName": "中心到件",
+          "status": "运送中",
+          "scanTime": "2026-07-08 09:46:03",
+          "customerTracking": "The parcel arrives at the distribution center and is prepared for transport to the next destination"
+        },
+        {
+          "code": 10,
+          "scanTypeName": "快件揽收",
+          "status": "已揽件",
+          "scanTime": "2026-07-08 09:20:58",
+          "customerTracking": "The parcel has been successfully picked up and is being prepared for transportation"
+        }
+      ]
+    }
+  ],
+  "fail": false,
+  "succ": true
+}

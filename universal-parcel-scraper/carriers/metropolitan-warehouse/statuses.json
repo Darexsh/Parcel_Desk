@@ -1,0 +1,17 @@
+{
+  "carrier": "metropolitan-warehouse",
+  "entries": [
+    {"code": "1", "wording": "Order registered", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The shipper registered the order."},
+    {"code": "92", "wording": "Pickup document attached", "language": "en", "unmapped": true, "confirmedBy": "live", "note": "A document was attached for the pickup; paperwork moves nothing."},
+    {"code": "10", "wording": "Pickup scheduled for {date}", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The pickup from the vendor is booked; Metropolitan does not have the furniture yet."},
+    {"code": "18", "wording": "Pickup completed, No exceptions", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Metropolitan collected the furniture from the vendor."},
+    {"code": "24", "wording": "Order enroute to Metro-Hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "On its way to a Metropolitan hub; the page writes the hub as Metro-<Warehouse>-Hub."},
+    {"code": "23", "wording": "Furniture Received by Metro-Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Scanned into a Metropolitan hub; the page writes the hub as Metro-<Warehouse>-Hub."},
+    {"code": "107", "wording": "Reached Delivery Hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "At the hub that delivers it."},
+    {"code": "43", "wording": "Delivery Scheduled for WEEK OF {date}", "language": "en", "unmapped": true, "confirmedBy": "portal", "note": "The delivery was scheduled for a week: a delivery still to come."},
+    {"code": "46", "wording": "Delivery Rescheduled for WEEK OF {date}", "language": "en", "unmapped": true, "confirmedBy": "portal", "note": "The delivery was moved to another week: a delivery still to come."},
+    {"code": "44", "wording": "Delivery Appointment Canceled", "language": "en", "unmapped": true, "confirmedBy": "portal", "note": "The delivery appointment was cancelled, and a new one is scheduled after it; it moves nothing."},
+    {"code": "86", "wording": "Arrived at Delivery Location", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "The delivery crew is at the address, before the delivery is completed."},
+    {"code": "54", "wording": "Delivery Completed, No Exceptions", "stage": "delivered", "language": "en", "confirmedBy": "portal"}
+  ]
+}

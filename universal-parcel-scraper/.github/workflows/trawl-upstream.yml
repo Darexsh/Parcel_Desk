@@ -1,0 +1,103 @@
+name: TRAWL upstream
+
+# When germondai/trawl publishes a release newer than the pinned one, this
+# builds the browser image on it and says in an issue whether the patches
+# still apply. It commits and deploys nothing: a release can change behaviour
+# the build does not see.
+on:
+  schedule:
+    - cron: '43 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: trawl-upstream
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Build the image on the newest TRAWL release
+    # A fork has no pins of its own to watch.
+    if: ${{ github.repository == 'plhery/universal-parcel-scraper' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: 26
+      - name: Move the pins in this checkout to the newest release
+        id: pins
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/trawl-upstream.mjs --write
+      # The installer stops the build when the source it patches has moved.
+      - name: Build the image with this repository's patches
+        id: build
+        if: ${{ steps.pins.outputs.newer == 'true' }}
+        continue-on-error: true
+        run: docker build -t trawl-upstream trawl
+      - name: Start the service and wait for its browsers
+        id: start
+        if: ${{ steps.build.outcome == 'success' }}
+        continue-on-error: true
+        run: |
+          docker run -d --name trawl-upstream -p 127.0.0.1:8191:8191 --shm-size 1g --cap-drop ALL trawl-upstream
+          trap 'docker logs --tail 60 trawl-upstream; docker rm -f trawl-upstream' EXIT
+          for _ in $(seq 1 60); do
+            # What the client asks of a healthy service before it retries.
+            if curl -fsS -m 3 http://127.0.0.1:8191/health \
+              | jq -e '.status == "ok" and .pool.live >= 1 and .pool.available >= 1' >/dev/null; then exit 0; fi
+            sleep 3
+          done
+          exit 1
+      - name: Open, update or close the upgrade issue
+        if: ${{ github.ref == 'refs/heads/main' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PINNED: ${{ steps.pins.outputs.pinned }}
+          NEWEST: ${{ steps.pins.outputs.newest }}
+          NEWER: ${{ steps.pins.outputs.newer }}
+          BUILD: ${{ steps.build.outcome }}
+          START: ${{ steps.start.outcome }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          title='A newer TRAWL release is available'
+          # Listed, not searched, as in the carrier canary: the search index
+          # can miss the open issue.
+          issue=$(gh api -X GET "repos/$GH_REPO/issues" -f state=all -f 'creator=github-actions[bot]' -F per_page=100 \
+            --jq "map(select(.title == \"$title\" and .pull_request == null)) | (map(select(.state == \"open\")) + .)
+              | first // empty | \"\(.number) \(.state | ascii_upcase)\"")
+          read -r number state <<<"$issue"
+          if [ "$NEWER" != true ]; then
+            if [ "${state:-}" = OPEN ]; then gh issue close "$number" --comment "TRAWL $PINNED is pinned and is the newest release."; fi
+            exit 0
+          fi
+          if [ "$BUILD" != success ]; then
+            result='the image does not build: the source the patches apply to has changed'
+          elif [ "$START" != success ]; then
+            result='the image builds, and the service does not become healthy'
+          else
+            result='the image builds and the service starts'
+          fi
+          verdict="TRAWL $NEWEST on the patches for $PINNED: $result."
+          body="$verdict"$'\n\n'"[Release notes](https://github.com/germondai/trawl/releases/tag/v$NEWEST). \`node scripts/trawl-upstream.mjs --write\` moves the pins."
+          body+=$'\n'"A build that passes says the patches apply, not that the service still answers the way the adapters read it."
+          body+=$'\n\n'"Run: $RUN_URL"
+          if [ -z "${number:-}" ]; then
+            gh issue create --title "$title" --body "$body"
+          elif [ "$state" = CLOSED ]; then
+            gh issue reopen "$number" --comment "$body"
+          else
+            # Comment only when the release or the result changes, so a
+            # pending upgrade does not notify every night.
+            previous=$(gh issue view "$number" --json body,comments --jq '((.comments | last | .body) // .body) | split("\n")[0]')
+            if [ "$previous" != "$verdict" ]; then gh issue comment "$number" --body "$body"; fi
+          fi

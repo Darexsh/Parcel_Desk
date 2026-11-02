@@ -1,0 +1,38 @@
+{
+  "carrier": "skybox",
+  "records": [
+    {
+      "number": "005135915005",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.justanswer.es/informatica-es/rnfpn-hola-paquete-perdido-005135915005-skybox-asistente-del.html",
+        "date": "2025-03-31",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A customer's question about a parcel from Florida to Chile gives this number; SkyBox's tracker finds it, delivered."
+    }
+  ]
+}

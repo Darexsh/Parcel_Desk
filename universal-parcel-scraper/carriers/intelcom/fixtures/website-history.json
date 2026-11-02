@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "code": "success",
+    "result": {
+      "tracking_id": "INTLCM0000000000",
+      "driver_name": "PRIVATE-SYNTHETIC",
+      "last_status": {
+        "status": 601, "statusCode": 601, "step": 4, "timestamp": 1767459600000,
+        "isDelivered": true,
+        "labels": { "shortLabel": { "en": "Hooray! Your package is here" } }
+      },
+      "status_list": [
+        { "status": 601, "statusCode": 601, "step": 4, "timestamp": 1767459600000, "isDelivered": true,
+          "labels": { "shortLabel": { "en": "Hooray! Your package is here" } } },
+        { "status": 300, "statusCode": 300, "step": 3, "timestamp": 1767456000000, "isDelivered": false,
+          "labels": { "shortLabel": { "en": "On our way to you!" } } },
+        { "status": 108, "statusCode": 108, "step": 2, "timestamp": 1767448800000, "isDelivered": false,
+          "labels": { "shortLabel": { "en": "Your package is being prepared for delivery!" } } },
+        { "status": 106, "statusCode": 106, "step": 2, "timestamp": 1767362400000, "isDelivered": false,
+          "labels": { "shortLabel": { "en": "Your package is on the move!" } } },
+        { "status": 105, "statusCode": 105, "step": 2, "timestamp": 1767362399000, "isDelivered": false,
+          "labels": { "shortLabel": { "en": "Dragonfly has your package!" } } },
+        { "status": 0, "statusCode": 0, "step": 1, "timestamp": 1767276000000, "isDelivered": false,
+          "labels": { "shortLabel": { "en": "Your package will be in good hands with Dragonfly!" } } }
+      ]
+    }
+  }
+}

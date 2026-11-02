@@ -1,0 +1,105 @@
+{
+  "id": "castores",
+  "displayName": "Transportes Castores",
+  "aliases": [
+    "Castores",
+    "Grupo Castores",
+    "Transportes Castores de Baja California"
+  ],
+  "region": {
+    "countries": [
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#c72628"
+  },
+  "selectable": true,
+  "timezone": "America/Mexico_City",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "castores",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://www.castores.com.mx/rastrear.html?guide_numbers={trackingNumber}",
+    "searchUrl": "https://www.castores.com.mx/rastrear.html",
+    "canaryUrl": "https://www.castores.com.mx/rastrear.html",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "progress_rail",
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "signatory"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "service_name"
+    ],
+    "discarded": [
+      "progress_rail",
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "signatory"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps",
+      "delivered_at",
+      "provider_code",
+      "weight",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "castores.com.mx"
+      ],
+      "pathPattern": "^/rastrear\\.html$",
+      "params": [
+        "guide_numbers"
+      ]
+    },
+    {
+      "domains": [
+        "castores.com.mx"
+      ],
+      "pathPattern": "^/rastreo/?$",
+      "params": [
+        "talon"
+      ]
+    },
+    {
+      "domains": [
+        "castores.com.mx"
+      ],
+      "path": "^/rastreo/(\\d{11})/?$"
+    },
+    {
+      "domains": [
+        "tomcat2.castores.com.mx"
+      ],
+      "path": "^/WSPortal/app/rastreo/rastrear/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

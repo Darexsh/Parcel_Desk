@@ -1,0 +1,42 @@
+{
+  "id": "multientrega",
+  "displayName": "Multientrega",
+  "aliases": [
+    "Multientrega Panamá",
+    "MULTIENTREGA SA"
+  ],
+  "region": {
+    "countries": [
+      "PA"
+    ]
+  },
+  "brand": {
+    "color": "#273570"
+  },
+  "selectable": true,
+  "timezone": "America/Panama",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://servicios.multientregapanama.com/session/order/{trackingNumber}",
+    "searchUrl": "https://www.multientregapanama.com/rastreo/",
+    "canaryUrl": "https://www.multientregapanama.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "servicios.multientregapanama.com"
+      ],
+      "path": "^/session/order/([^/]+)/?$"
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,77 @@
+{
+  "id": "sunyou",
+  "displayName": "SunYou",
+  "aliases": [
+    "SYPost",
+    "SunYou - Sytrack"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#02a232"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "sunyou",
+    "steps": [
+      "direct"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "delivered_at",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://sypost.net/search?orderNo={trackingNumber}",
+    "searchUrl": "https://sypost.net/search",
+    "canaryUrl": "https://sypost.net/",
+    "shows": [
+      "status",
+      "history",
+      "delivery_partner"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "delivery_partner"
+    ],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "sypost.net"
+      ],
+      "params": [
+        "orderNo",
+        "trackNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "sunyou-1",
+      "pattern": "^SY\\d{11}$",
+      "confidence": "high"
+    },
+    {
+      "id": "sunyou-2",
+      "pattern": "^SYAE\\d{9}$",
+      "confidence": "high"
+    },
+    {
+      "id": "sunyou-3",
+      "pattern": "^SY[A-Z]{2}\\d{9}$",
+      "confidence": "high"
+    }
+  ]
+}

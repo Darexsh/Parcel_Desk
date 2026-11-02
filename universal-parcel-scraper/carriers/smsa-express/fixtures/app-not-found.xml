@@ -1,0 +1,28 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Body>
+<AllTrackDetailsResponse xmlns="http://smsaexpress.com/track/">
+<AllTrackDetailsResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <RequestStatus>Successfully Done!</RequestStatus>
+  <ShipmentDetails>
+    <AirWaybill>200000000039</AirWaybill>
+    <CODAmount>0</CODAmount>
+    <EDD i:nil="true"/>
+    <Otp i:nil="true"/>
+    <Payment_code i:nil="true"/>
+    <RecepientName i:nil="true"/>
+    <ShipDate i:nil="true"/>
+    <ShipmentCommitment i:nil="true"/>
+    <ShipmentDestCity i:nil="true"/>
+    <ShipmentDestCountry i:nil="true"/>
+    <ShipmentOriginCity i:nil="true"/>
+    <ShipmentOriginCountry i:nil="true"/>
+    <ShipmentPieces i:nil="true"/>
+    <ShipmentReference i:nil="true"/>
+    <ShipmentShipper i:nil="true"/>
+    <ShipmentWeight i:nil="true"/>
+  </ShipmentDetails>
+  <TrackingDetailsList xmlns:a="http://schemas.datacontract.org/2004/07/TrackRole"/>
+</AllTrackDetailsResult>
+</AllTrackDetailsResponse>
+</s:Body>
+</s:Envelope>

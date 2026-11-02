@@ -1,0 +1,134 @@
+{
+  "isError": false,
+  "tracking": [
+    {
+      "messageEn": "Parcel is created successfully",
+      "messageBn": "পার্সেলটি পিকআপের জন্য মার্চেন্ট অনুরোধ করেছেন",
+      "status": "pickup-pending",
+      "groupedStatus": "pickup-pending",
+      "action": "pickup-pending",
+      "time": "2026-05-04T08:15:20.000Z"
+    },
+    {
+      "messageEn": "Parcel is picked up",
+      "messageBn": "পার্সেল পিকাপ সম্পন্ন হয়েছে ",
+      "status": "ready-for-delivery",
+      "groupedStatus": "parcel_received",
+      "action": "received-from-seller",
+      "time": "2026-05-04T15:40:02.000Z"
+    },
+    {
+      "messageEn": "Parcel is ready for transfer from Sample Town Hub to Sample Central Mother Hub",
+      "messageBn": "পার্সেলটি Sample Town Hub হতে  Sample Central Mother Hub এর গাড়িতে ওঠার অপেক্ষায় আছে",
+      "status": "line-haul-in-progress",
+      "groupedStatus": "line-haul-in-progress",
+      "action": "dispatched-to-line-haul",
+      "time": "2026-05-04T15:45:10.000Z"
+    },
+    {
+      "messageEn": "Parcel carrying vehicle has left from Sample Town Hub for Sample Central Mother Hub",
+      "messageBn": "পার্সেলটির গাড়ি Sample Central Mother Hub এর উদ্দেশ্যে Sample Town Hub ছেড়ে গিয়েছে",
+      "status": "line-haul-trip-started",
+      "groupedStatus": "line-haul-trip-started",
+      "action": "trip-started",
+      "time": "2026-05-04T17:02:33.000Z"
+    },
+    {
+      "messageEn": "Parcel is unloaded from the vehicle in Sample Central Mother Hub",
+      "messageBn": "পার্সেলটি Sample Central Mother Hub এ গাড়ি থেকে নামানো হয়েছে",
+      "status": "bulk-transfer-received",
+      "groupedStatus": "bulk-transfer-received",
+      "action": "received-transfer",
+      "time": "2026-05-04T19:30:41.000Z"
+    },
+    {
+      "messageEn": "Parcel is received in Sample Central Mother Hub",
+      "messageBn": "পার্সেলটি Sample Central Mother Hub এ রিসিভ করা হয়েছে",
+      "status": "ready-for-delivery",
+      "groupedStatus": "parcel_processing",
+      "action": "received-from-hub",
+      "time": "2026-05-04T19:30:41.000Z"
+    },
+    {
+      "messageEn": "Parcel is ready for transfer from Sample Central Mother Hub to Sample Delivery Hub",
+      "messageBn": "পার্সেলটি Sample Central Mother Hub হতে  Sample Delivery Hub এর গাড়িতে ওঠার অপেক্ষায় আছে",
+      "status": "line-haul-in-progress",
+      "groupedStatus": "line-haul-in-progress",
+      "action": "dispatched-to-line-haul",
+      "time": "2026-05-04T22:10:05.000Z"
+    },
+    {
+      "messageEn": "Parcel carrying vehicle has left from Sample Central Mother Hub for Sample Delivery Hub",
+      "messageBn": "পার্সেলটির গাড়ি Sample Delivery Hub এর উদ্দেশ্যে Sample Central Mother Hub ছেড়ে গিয়েছে",
+      "status": "line-haul-trip-started",
+      "groupedStatus": "line-haul-trip-started",
+      "action": "trip-started",
+      "time": "2026-05-05T00:20:17.000Z"
+    },
+    {
+      "messageEn": "Parcel is unloaded from the vehicle in Sample Delivery Hub",
+      "messageBn": "পার্সেলটি Sample Delivery Hub এ গাড়ি থেকে নামানো হয়েছে",
+      "status": "bulk-transfer-received",
+      "groupedStatus": "bulk-transfer-received",
+      "action": "received-transfer",
+      "time": "2026-05-05T03:01:09.000Z"
+    },
+    {
+      "messageEn": "Parcel is received in Sample Delivery Hub",
+      "messageBn": "পার্সেলটি Sample Delivery Hub এ রিসিভ করা হয়েছে",
+      "status": "ready-for-delivery",
+      "groupedStatus": "parcel_processing",
+      "action": "received-from-hub",
+      "time": "2026-05-05T03:12:48.000Z"
+    },
+    {
+      "messageEn": "Parcel is on the way to delivery by Sample Rider_NB(8801000000001)",
+      "messageBn": "ডেলিভারি এজেন্ট Sample Rider_NB(8801000000001) পার্সেলটি ডেলিভারির জন্য নিয়ে যাচ্ছেন",
+      "status": "delivery-in-progress",
+      "groupedStatus": "delivery_on_the_way",
+      "action": "dispatched-to-agent",
+      "time": "2026-05-05T04:30:00.000Z"
+    },
+    {
+      "messageEn": "Parcel is On Hold : কাস্টমারের সাথে যোগাযোগ এর চেষ্টা চলছে, যোগাযোগ সম্পন্ন হওয়া মাত্রই ডেলিভারি করা হবে",
+      "messageBn": "পার্সেলটি ডেলিভারি করা যায়নি। কারণ : কাস্টমারের সাথে যোগাযোগ এর চেষ্টা চলছে, যোগাযোগ সম্পন্ন হওয়া মাত্রই ডেলিভারি করা হবে",
+      "status": "agent-hold-returning",
+      "groupedStatus": "agent_hold",
+      "action": "agent-hold-returning",
+      "time": "2026-05-05T09:05:12.000Z",
+      "reason": "কাস্টমারের সাথে যোগাযোগ এর চেষ্টা চলছে, যোগাযোগ সম্পন্ন হওয়া মাত্রই ডেলিভারি করা হবে"
+    },
+    {
+      "messageEn": "Parcel is being processed for delivery",
+      "messageBn": "পার্সেলটি ডেলিভারির জন্য প্রস্তুত করা হচ্ছে",
+      "status": "ready-for-delivery",
+      "groupedStatus": "parcel_processing",
+      "action": "ready-for-delivery-by-bot",
+      "time": "2026-05-06T00:35:06.000Z"
+    },
+    {
+      "messageEn": "Parcel is on the way to delivery by Sample Rider (Sample Bazar & Sample Para) 01000000002",
+      "messageBn": "ডেলিভারি এজেন্ট Sample Rider পার্সেলটি ডেলিভারির জন্য নিয়ে যাচ্ছেন",
+      "status": "delivery-in-progress",
+      "groupedStatus": "delivery_on_the_way",
+      "action": "dispatched-to-agent",
+      "time": "2026-05-06T04:12:40.000Z"
+    },
+    {
+      "messageEn": "Parcel is delivered successfully",
+      "messageBn": "পার্সেল ডেলিভারি সম্পন্ন হয়েছে",
+      "status": "delivered",
+      "groupedStatus": "delivered",
+      "action": "agent-delivered",
+      "time": "2026-05-06T06:48:31.000Z"
+    },
+    {
+      "messageEn": "Parcel is delivered successfully",
+      "messageBn": "পার্সেল ডেলিভারি সম্পন্ন হয়েছে",
+      "status": "delivered",
+      "groupedStatus": "delivered",
+      "action": "agent-delivered",
+      "time": "2026-05-06T06:48:31.000Z"
+    }
+  ]
+}

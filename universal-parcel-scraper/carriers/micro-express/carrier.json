@@ -1,0 +1,72 @@
+{
+  "id": "micro-express",
+  "displayName": "Micro Express",
+  "aliases": [
+    "Mirco Express"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#e73100"
+  },
+  "selectable": true,
+  "timezone": "Australia/Melbourne",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "micro-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 697
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "offset_timestamps",
+    "delivered_at"
+  ],
+  "portal": {
+    "canaryUrl": "https://microexpress.com.au/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "offset_timestamps"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at"
+    ],
+    "discarded": [
+      "progress_rail"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "delivery_partner"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "micro-express-1",
+      "pattern": "^ME\\d{13}[A-Z0-9]{3}$",
+      "confidence": "high"
+    }
+  ]
+}

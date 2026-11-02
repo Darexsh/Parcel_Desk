@@ -1,0 +1,162 @@
+{
+  "currentPage": 1,
+  "orderBy": null,
+  "pageSize": 20,
+  "startIndex": 0,
+  "totalPages": 1,
+  "totalRows": 1,
+  "payload": [
+    {
+      "order_id": "7000000001",
+      "customer_id": "999999",
+      "shipment_type": "ROAD",
+      "order_type_warehouse": null,
+      "eta_order_id": null,
+      "customer_reference": [
+        "ZZ12345-00000001"
+      ],
+      "request_order_id": "SMP7000000001",
+      "order_creation_date": "2030-03-04T06:09:20Z",
+      "estimated_time_of_arrival": "2030-03-06T12:15:10Z",
+      "estimated_time_of_arrival_type": "actualTimeOfDelivery",
+      "qty_packages": 2,
+      "gross_weight": 120.5,
+      "gross_weight_unit": "KGM",
+      "detail_status_transport": [
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-03-06T12:16:15Z",
+          "eventDateTime": "2030-03-06T12:15:10Z",
+          "location": {
+            "countryCode": "AT",
+            "code": "SMP",
+            "description": "Sampletown"
+          },
+          "eventCode": "810",
+          "reasonCode": "012",
+          "description": "delivered",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 100,
+          "rate": 5,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-03-06T06:00:19Z",
+          "eventDateTime": "2030-03-06T05:59:30Z",
+          "location": {
+            "countryCode": "AT",
+            "code": "SMP",
+            "description": "Sampletown"
+          },
+          "eventCode": "290",
+          "reasonCode": null,
+          "description": "in Transit",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 50,
+          "rate": 2,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-03-06T06:00:22Z",
+          "eventDateTime": "2030-03-06T05:59:00Z",
+          "location": {
+            "countryCode": "AT",
+            "code": "SMP",
+            "description": "Sampletown"
+          },
+          "eventCode": "300",
+          "reasonCode": "054",
+          "description": "in delivery",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 75,
+          "rate": 2,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-03-05T13:50:14Z",
+          "eventDateTime": "2030-03-05T13:50:00Z",
+          "location": {
+            "countryCode": "AT",
+            "code": "SMP",
+            "description": "Sampletown"
+          },
+          "eventCode": "180",
+          "reasonCode": "004",
+          "description": "unloaded",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 50,
+          "rate": 2,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-03-05T13:32:31Z",
+          "eventDateTime": "2030-03-05T13:30:00Z",
+          "location": {
+            "countryCode": "AT",
+            "code": "SMP",
+            "description": "Sampletown"
+          },
+          "eventCode": "400",
+          "reasonCode": "A12",
+          "description": "picked up",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 25,
+          "rate": 2,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-03-05T13:32:28Z",
+          "eventDateTime": "2030-03-05T13:29:50Z",
+          "location": {
+            "countryCode": "AT",
+            "code": "SMP",
+            "description": "Sampletown"
+          },
+          "eventCode": "166",
+          "reasonCode": "138",
+          "description": "arrival time at consignee / shipper",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": -1,
+          "rate": -1,
+          "event": "RDGW",
+          "remarks": null
+        }
+      ],
+      "detail_status_warehouse": [],
+      "customer_reference_numbers": [
+        {
+          "type": "AL",
+          "value": "55555"
+        }
+      ],
+      "co2_emission": 12.3,
+      "co2_certificate_url": null,
+      "partner_references": [
+        "PARTNERREF77"
+      ],
+      "consignee": {
+        "countryCode": "AT",
+        "zip": "9999",
+        "city": "Exampledorf",
+        "cashOnDelivery": null
+      },
+      "shipper": {
+        "countryCode": "AT",
+        "zip": "9998",
+        "city": "Senderburg",
+        "cashOnDelivery": null
+      },
+      "importer_exporter": null
+    }
+  ]
+}

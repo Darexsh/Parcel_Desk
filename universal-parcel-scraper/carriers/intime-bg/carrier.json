@@ -1,0 +1,55 @@
+{
+  "id": "intime-bg",
+  "displayName": "In Time Bulgaria",
+  "aliases": [
+    "InTime Bulgaria",
+    "ИН ТАЙМ",
+    "Ин Тайм",
+    "IN TIME OOD",
+    "UPS Ин Тайм"
+  ],
+  "region": {
+    "countries": [
+      "BG"
+    ]
+  },
+  "brand": {
+    "color": "#00ab8e"
+  },
+  "selectable": true,
+  "timezone": "Europe/Sofia",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://intime.bg/tracking/?track_number={trackingNumber}",
+    "searchUrl": "https://intime.bg/tracking/",
+    "canaryUrl": "https://intime.bg/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "intime.bg",
+        "www.intime.bg"
+      ],
+      "pathPattern": "^/(?:en/)?tracking/?$",
+      "params": [
+        "track_number"
+      ]
+    },
+    {
+      "domains": [
+        "courier.intime.bg"
+      ],
+      "path": "^/(?:bg|en)/tracking/code/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

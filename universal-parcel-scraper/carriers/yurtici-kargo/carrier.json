@@ -1,0 +1,85 @@
+{
+  "id": "yurtici-kargo",
+  "displayName": "Yurtiçi Kargo",
+  "aliases": [
+    "Yurtici Kargo",
+    "Yurtici Cargo"
+  ],
+  "region": {
+    "countries": [
+      "TR"
+    ]
+  },
+  "brand": {
+    "color": "#0069b3"
+  },
+  "selectable": true,
+  "timezone": "Europe/Istanbul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "yurtici-kargo",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 430
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "service_name",
+    "pickup_point"
+  ],
+  "portal": {
+    "url": "https://www.yurticikargo.com/tr/online-servisler/gonderi-sorgula?code={trackingNumber}",
+    "searchUrl": "https://www.yurticikargo.com/tr/online-servisler/gonderi-sorgula",
+    "canaryUrl": "https://www.yurticikargo.com/tr/online-servisler/gonderi-sorgula",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "service_name",
+      "pickup_point",
+      "recipient_name",
+      "sender_name",
+      "signatory",
+      "contact_details",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "service_name",
+      "pickup_point"
+    ],
+    "discarded": [
+      "recipient_name",
+      "sender_name",
+      "signatory",
+      "contact_details",
+      "payment_details"
+    ],
+    "unavailable": [
+      "weight",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "yurticikargo.com"
+      ],
+      "pathPattern": "^/(?:tr|en)/online-servisler/gonderi-sorgula/?$",
+      "params": [
+        "code"
+      ]
+    }
+  ],
+  "detection": []
+}

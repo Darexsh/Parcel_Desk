@@ -1,0 +1,47 @@
+{
+  "id": "nege",
+  "displayName": "SST Express",
+  "aliases": [
+    "Nėgė",
+    "Nege",
+    "UAB Nėgė",
+    "Nėgė UAB",
+    "Skubių siuntų tarnyba",
+    "SST Skubių Siuntų Tarnyba"
+  ],
+  "region": {
+    "countries": [
+      "LT"
+    ]
+  },
+  "brand": {
+    "color": "#e31e24"
+  },
+  "selectable": true,
+  "timezone": "Europe/Vilnius",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://sst.lt/sekti/{trackingNumber}",
+    "searchUrl": "https://sst.lt/",
+    "canaryUrl": "https://sst.lt/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "sst.lt",
+        "www.sst.lt"
+      ],
+      "path": "^/(?:en/)?sekti/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

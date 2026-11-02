@@ -1,0 +1,56 @@
+{
+  "transportInformationMilestones": [
+    {
+      "type": "BOOKING_SUBMISSION",
+      "labelIdentifier": "information-milestone.booking-submission",
+      "dateTime": {
+        "date": "2026-02-03",
+        "time": "09:00:00",
+        "offset": "+00:00",
+        "localDateTime": "2026-02-03T09:00:00",
+        "offsetDateTime": "2026-02-03T09:00:00+00:00"
+      },
+      "children": []
+    },
+    {
+      "type": "EXPORT_CUSTOMS_CLEARANCE_START",
+      "labelIdentifier": "information-milestone.export-customs-clearance-start",
+      "dateTime": {
+        "date": "2026-02-04",
+        "time": "10:00:00",
+        "offset": "+00:00",
+        "localDateTime": "2026-02-04T10:00:00",
+        "offsetDateTime": "2026-02-04T10:00:00+00:00"
+      },
+      "children": [
+        {
+          "labelIdentifier": "information-milestone.child.customs-documentation-first-received",
+          "dateTime": {
+            "date": "2026-02-04",
+            "time": "10:05:00",
+            "offset": "+00:00",
+            "localDateTime": "2026-02-04T10:05:00",
+            "offsetDateTime": "2026-02-04T10:05:00+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "EXPORT_CUSTOMS_CLEARANCE_COMPLETE",
+      "labelIdentifier": "information-milestone.export-customs-clearance-complete",
+      "dateTime": {
+        "date": "2026-02-04",
+        "time": "12:30:00",
+        "offset": "+00:00",
+        "localDateTime": "2026-02-04T12:30:00",
+        "offsetDateTime": "2026-02-04T12:30:00+00:00"
+      },
+      "children": []
+    },
+    {
+      "type": "IMPORT_CUSTOMS_CLEARANCE_START",
+      "labelIdentifier": "information-milestone.import-customs-clearance-start",
+      "children": []
+    }
+  ]
+}

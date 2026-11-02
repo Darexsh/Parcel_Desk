@@ -1,0 +1,63 @@
+{
+  "carrier": "linear-logistics",
+  "records": [
+    {
+      "number": "7049109923",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250428164858/https://portal.linearlogistics.co.uk/api/v1/tracking/json?lpn=7049109923",
+        "date": "2025-04-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Looked up on Linear Logistics' own tracker, as an archived reply shows; the tracker still finds it, delivered."
+    },
+    {
+      "number": "7052473091",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250605105553/https://portal.linearlogistics.co.uk/api/v1/tracking/json?lpn=7052473091",
+        "date": "2025-06-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Looked up on Linear Logistics' own tracker, as an archived reply shows; the tracker still finds it, delivered."
+    }
+  ]
+}

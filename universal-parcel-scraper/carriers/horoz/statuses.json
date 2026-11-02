@@ -1,0 +1,16 @@
+{
+  "carrier": "horoz",
+  "entries": [
+    {"wording": "Çıkış", "stage": "in_transit", "language": "tr", "confirmedBy": "portal", "note": "Departure from a centre, in the delivery note's movement list."},
+    {"wording": "Giriş", "stage": "in_transit", "language": "tr", "confirmedBy": "portal", "note": "Arrival at a centre, in the delivery note's movement list."},
+    {"wording": "Teslim", "stage": "delivered", "language": "tr", "confirmedBy": "portal", "note": "Last movement of a delivered parcel."},
+    {"wording": "GÖNDERİNİZ TESLİM EDİLMİŞTİR", "stage": "delivered", "language": "tr", "confirmedBy": "portal", "note": "The delivery note's headline once the parcel is delivered."},
+    {"wording": "dağıtım şubesinde", "stage": "in_transit", "language": "tr", "confirmedBy": "source", "note": "Quoted in Şikayetvar complaints as the tracking state; at the delivery branch."},
+    {"wording": "dağıtımda", "stage": "out_for_delivery", "language": "tr", "confirmedBy": "source", "note": "Quoted in Şikayetvar complaints as the tracking state."},
+    {"wording": "dağıtıma çıktı", "stage": "out_for_delivery", "language": "tr", "confirmedBy": "source", "note": "Quoted in a Şikayetvar complaint as the tracking state."},
+    {"wording": "teslim edildi", "stage": "delivered", "language": "tr", "confirmedBy": "source", "note": "Quoted in a Şikayetvar complaint as the tracking state."},
+    {"wording": "adreste bulunamadı", "stage": "failed_attempt", "language": "tr", "confirmedBy": "source", "note": "Quoted in a Şikayetvar complaint as a note on the tracking screen; the recipient was not found at the address."},
+    {"wording": "siparişiniz teslim edilememiştir", "stage": "failed_attempt", "language": "tr", "confirmedBy": "source", "note": "Quoted in Şikayetvar complaints as shown on the tracking screen."},
+    {"wording": "adres yetersiz", "stage": "failed_attempt", "language": "tr", "confirmedBy": "source", "note": "Quoted in a Şikayetvar complaint as a tracking warning; the address was judged insufficient."}
+  ]
+}

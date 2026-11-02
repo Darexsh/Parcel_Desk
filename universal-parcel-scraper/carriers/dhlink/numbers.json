@@ -1,0 +1,218 @@
+{
+  "carrier": "dhlink",
+  "records": [
+    {
+      "number": "FC2404051641097",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/dhlink/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhlink"
+        ]
+      },
+      "note": "ParcelPanel's DHLink page offered it to try. DHLink's tracker answers it as both its DHLink number and its tracking number, a parcel from China delivered in the United States."
+    },
+    {
+      "number": "LV992455447CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/dhlink/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's DHLink page offered it to try. DHLink's tracker answers it as the tracking number of one of its parcels, carried by China Post and delivered in the United Kingdom."
+    },
+    {
+      "number": "AS823417258CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/dhlink/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "ParcelPanel's DHLink page offered it to try. DHLink's tracker answers it as the tracking number of one of its parcels, delivered in the United States; its check digit fails, so no post issued it."
+    },
+    {
+      "number": "XZG000000001WL",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-17",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhlink"
+        ]
+      },
+      "note": "Made-up number in the shape of the line provider's XZG tracking numbers DHLink's lookup finds as the parcel's tracking number."
+    },
+    {
+      "number": "YLUS0000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-18",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhlink"
+        ]
+      },
+      "note": "Made-up number in the shape of the YLUS tracking numbers DHLink's lookup finds as the parcel's tracking number, on a US line GOFO delivers."
+    },
+    {
+      "number": "EYT0000000001HZ",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-18",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhlink"
+        ]
+      },
+      "note": "Made-up number in the shape of the EYT tracking numbers DHLink's lookup finds as the parcel's tracking number, on a US line SwiftX delivers."
+    },
+    {
+      "number": "QH000000000001FS",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-18",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhlink"
+        ]
+      },
+      "note": "Made-up number in the shape of the QH tracking numbers DHLink's lookup finds as the parcel's tracking number, on a US line GOFO delivers."
+    },
+    {
+      "number": "YF0000000001CN",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-24",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhlink"
+        ]
+      },
+      "note": "Made-up number in the shape of the YF tracking numbers DHLink's lookup finds as the parcel's tracking number, on a US line GOFO delivers."
+    },
+    {
+      "number": "KTDWE0000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-28",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhlink",
+          "ktd"
+        ]
+      },
+      "note": "Made-up number in the shape of KTD's tracking numbers DHLink's lookup finds as the parcel's tracking number, on a US line SwiftX delivers."
+    },
+    {
+      "number": "YHKJ1000000017",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-28",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhlink"
+        ]
+      },
+      "note": "Made-up number in the shape of a parcel the app tracked to Britain, which DHLink's tracker answered under that tracking number: YHKJ and ten digits."
+    },
+    {
+      "number": "BY10000000000025CN",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-28",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "boyuan",
+          "dhlink"
+        ]
+      },
+      "note": "Made-up number in the shape of Boyuan's tracking numbers, for which ParcelsApp named DHLink beside Boyuan on a US line: BY, fourteen digits and CN."
+    },
+    {
+      "number": "TDT1000000025CN",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-30",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhlink",
+          "tuodatong"
+        ]
+      },
+      "note": "Made-up number in the shape of Tuodatong's tracking numbers, for which ParcelsApp named DHLink beside Tuodatong on an air line from China: TDT, ten digits and CN."
+    },
+    {
+      "number": "YLEAA1000000025YQ",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-31",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhlink"
+        ]
+      },
+      "note": "Made-up number in the shape of a parcel for which ParcelsApp named a YLE line beside DHLink: YLE, two letters, ten digits and YQ."
+    }
+  ]
+}

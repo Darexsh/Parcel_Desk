@@ -1,0 +1,93 @@
+{
+  "id": "ninja-van",
+  "displayName": "Ninja Van",
+  "aliases": [
+    "Ninja Xpress"
+  ],
+  "region": {
+    "countries": [
+      "SG",
+      "MY",
+      "PH",
+      "ID",
+      "TH",
+      "VN"
+    ]
+  },
+  "brand": {
+    "color": "#ed2d26"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ninja-van",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 720
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "eta",
+    "location",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.ninjavan.co/en-my/tracking?id={trackingNumber}",
+    "searchUrl": "https://www.ninjavan.co/en-my/tracking",
+    "canaryUrl": "https://www.ninjavan.co/en-my/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "eta_window"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "eta",
+      "eta_window"
+    ],
+    "discarded": [
+      "internal_events",
+      "inactive_estimates",
+      "shipper_details"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "ninjavan.co",
+        "ninjaxpress.co"
+      ],
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "ninja-van-1",
+      "pattern": "^NL(?:MY|SG|ID|PH|TH|VN)[A-Z]{1,2}\\d{8,10}$",
+      "confidence": "high"
+    },
+    {
+      "id": "ninja-van-2",
+      "pattern": "^NV(?:SG|MY|PH|ID|TH|VN)(?!STAMP[A-Z0-9]{9}$)[A-Z0-9]{8,20}$",
+      "confidence": "low"
+    },
+    {
+      "id": "ninja-van-3",
+      "pattern": "^NJVTT\\d{11}$",
+      "confidence": "high"
+    }
+  ]
+}

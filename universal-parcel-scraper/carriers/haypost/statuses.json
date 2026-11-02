@@ -1,0 +1,14 @@
+{
+  "carrier": "haypost",
+  "entries": [
+    {"wording": "Insert item into bag (Otb)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "An IPS scan by the sending post, abroad."},
+    {"wording": "Send item abroad (EDI-received)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The sending post's dispatch, which it reported to HayPost as data."},
+    {"wording": "Receive item at office of exchange (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "An IPS scan at the inward office of exchange; its country is where the item was sent."},
+    {"wording": "Send item to customs (Inb)", "stage": "customs", "language": "en", "confirmedBy": "live"},
+    {"wording": "Return item from customs (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Customs released the item into the post's network; it is not a return to the sender."},
+    {"wording": "Send item to domestic location (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Receive item at location (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The office that hands the item over received it."},
+    {"wording": "The notification was sent to the customer: Addressee not available; Scheduled for further action/processing today", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "An IPS record of an item not delivered. The reason and what happens next come in the row's extra information, which the adapter adds after the event."},
+    {"wording": "Deliver item (Inb)", "stage": "delivered", "language": "en", "confirmedBy": "live"}
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "cycloon",
+  "displayName": "Cycloon",
+  "aliases": [
+    "Cycloon Post & Fietskoeriers",
+    "Fietskoeriers.nl",
+    "Cycloon Fietskoeriers"
+  ],
+  "region": {
+    "countries": [
+      "NL"
+    ]
+  },
+  "brand": {
+    "color": "#e4002b"
+  },
+  "selectable": true,
+  "timezone": "Europe/Amsterdam",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://tracktrace.cycloon.eu/",
+    "canaryUrl": "https://tracktrace.cycloon.eu/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "cycloon.eu",
+        "www.cycloon.eu"
+      ],
+      "path": "^/trackandtrace/([^/?#]+)(?:/[^/?#]+)?/?$"
+    },
+    {
+      "domains": [
+        "tracktrace.cycloon.eu"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "tt"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "cycloon-1",
+      "pattern": "^FKS[0-9A-Z]{10}$",
+      "confidence": "high"
+    }
+  ]
+}

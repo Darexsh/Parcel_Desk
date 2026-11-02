@@ -1,0 +1,47 @@
+{
+  "id": "cst-italia",
+  "displayName": "CST Italia",
+  "aliases": [
+    "CST Corriere Espresso",
+    "CST Italia Scarl",
+    "BDM Network",
+    "BDM Corriere Espresso"
+  ],
+  "region": {
+    "countries": [
+      "IT"
+    ]
+  },
+  "brand": {
+    "color": "#005baa"
+  },
+  "selectable": true,
+  "timezone": "Europe/Rome",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.cstitaliascarl.it/tracking/",
+    "canaryUrl": "https://www.cstitaliascarl.it/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "cst-italia-1",
+      "pattern": "^CST\\d{18}(?:\\d{4})?$",
+      "confidence": "high"
+    },
+    {
+      "id": "cst-italia-2",
+      "pattern": "^BDM\\d{18}(?:\\d{4})?$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "winion-logis",
+  "displayName": "WINION LOGIS",
+  "aliases": [
+    "위니온로지스",
+    "위니온택배",
+    "Winion Logistics"
+  ],
+  "region": {
+    "countries": [
+      "KR"
+    ]
+  },
+  "brand": {
+    "color": "#006ecd"
+  },
+  "selectable": true,
+  "timezone": "Asia/Seoul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://winionlogistics.com/home.html?num={trackingNumber}",
+    "searchUrl": "https://winionlogistics.com/home.html",
+    "canaryUrl": "https://winionlogistics.com/home.html",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "winionlogistics.com",
+        "www.winionlogistics.com"
+      ],
+      "pathPattern": "^/(?:home\\.html)?$",
+      "params": [
+        "num"
+      ]
+    },
+    {
+      "domains": [
+        "winionlogis.com",
+        "www.winionlogis.com"
+      ],
+      "pathPattern": "^/Trace\\.do$",
+      "params": [
+        "T"
+      ]
+    }
+  ],
+  "detection": []
+}

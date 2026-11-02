@@ -1,0 +1,13 @@
+{
+  "carrier": "roadie",
+  "entries": [
+    {"wording": "Delivery Created", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "A step label in the script of Roadie's live tracker."},
+    {"wording": "Pickup Confirmed", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "A step label in the script of Roadie's live tracker. The driver picked the delivery up."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "A step label in the script of Roadie's live tracker."},
+    {"wording": "Delivery Attempted", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "A step label in the script of Roadie's live tracker."},
+    {"wording": "Transferred to Carrier", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "A step label in the script of Roadie's live tracker. Roadie handed the delivery to another carrier; the page then shows that carrier's tracking number and, for UPS, a link to it."},
+    {"wording": "Delayed", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "A step label in the script of Roadie's live tracker."},
+    {"wording": "Canceled", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "A step label in the script of Roadie's live tracker."},
+    {"wording": "Expired", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "A status label in the script of Roadie's live tracker, for a delivery whose state is expired. The page shows it with an alert and no steps, as it shows Canceled."}
+  ]
+}

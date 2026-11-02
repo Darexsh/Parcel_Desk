@@ -1,0 +1,82 @@
+{
+  "id": "skynet-sa",
+  "displayName": "SkyNet South Africa",
+  "aliases": [
+    "SkyNet SA",
+    "SkyNet Worldwide Express South Africa"
+  ],
+  "region": {
+    "countries": [
+      "ZA"
+    ]
+  },
+  "brand": {
+    "color": "#fe0000"
+  },
+  "selectable": true,
+  "timezone": "Africa/Johannesburg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "skynet-sa",
+    "steps": [
+      "direct"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://web.skynet.co.za:5002/T?R={trackingNumber}",
+    "searchUrl": "https://web.skynet.co.za:5002/T",
+    "canaryUrl": "https://web.skynet.co.za:5002/T",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "customer_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "customer_reference"
+    ],
+    "unavailable": [
+      "provider_code",
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "delivered_at",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "web.skynet.co.za"
+      ],
+      "pathPattern": "^/T/?$",
+      "params": [
+        "R"
+      ]
+    },
+    {
+      "domains": [
+        "www.skynet.co.za",
+        "skynet.co.za"
+      ],
+      "pathPattern": "^/tracking2/tracking\\.aspx$",
+      "params": [
+        "wb"
+      ]
+    }
+  ],
+  "detection": []
+}

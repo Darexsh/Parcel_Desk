@@ -1,0 +1,59 @@
+{
+  "responseCode": "200",
+  "msg": "SUCCESS",
+  "data": {
+    "root": [
+      {
+        "consignmentInfo": [],
+        "trakingInfo": [
+          {
+            "tracker": {
+              "track": [
+                {
+                  "date": "10000000005",
+                  "time": "SAT/500g",
+                  "action": null,
+                  "nodeType": null,
+                  "contractor": null,
+                  "stateName": null,
+                  "datetime": null
+                },
+                {
+                  "date": "22 Jun 2026",
+                  "time": "2:59 pm",
+                  "action": "Your parcel has been picked up",
+                  "nodeType": "pickup",
+                  "contractor": "0904(melbourne)",
+                  "stateName": "VIC",
+                  "datetime": "2.59pm Mon"
+                },
+                {
+                  "date": "24 Jun 2026",
+                  "time": "7:05 am",
+                  "action": "Onboard for delivery",
+                  "nodeType": "accept",
+                  "contractor": "9999(EXTERNAL)",
+                  "stateName": "NSW",
+                  "datetime": "7.05am Wed"
+                },
+                {
+                  "date": "24 Jun 2026",
+                  "time": "5:00 pm",
+                  "action": "Parcel has been collected from  Sample Newsagency",
+                  "nodeType": "deliver",
+                  "contractor": "0905(sydney)",
+                  "stateName": "NSW",
+                  "datetime": "5.00pm Wed"
+                }
+              ]
+            }
+          }
+        ],
+        "statusInfo": {
+          "status": "Delivered",
+          "type": "coupon"
+        }
+      }
+    ]
+  }
+}

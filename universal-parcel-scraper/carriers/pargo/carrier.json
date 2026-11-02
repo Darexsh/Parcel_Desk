@@ -1,0 +1,68 @@
+{
+  "id": "pargo",
+  "displayName": "Pargo",
+  "aliases": [
+    "Pargo Points",
+    "myPargo"
+  ],
+  "region": {
+    "countries": [
+      "ZA"
+    ]
+  },
+  "brand": {
+    "color": "#fff200"
+  },
+  "selectable": true,
+  "timezone": "Africa/Johannesburg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "canaryUrl": "https://pargo.co.za/track-trace/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "pargo.co.za"
+      ],
+      "pathPattern": "^/track-trace/?$",
+      "params": [
+        "code",
+        "track-trace"
+      ]
+    },
+    {
+      "domains": [
+        "pargo.co.za"
+      ],
+      "pathPattern": "^/scripts/track_and_trace\\.php$",
+      "params": [
+        "trackingCode"
+      ]
+    },
+    {
+      "domains": [
+        "api.pargo.co.za"
+      ],
+      "pathPattern": "^/track-trace\\.php$",
+      "params": [
+        "waybill"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "pargo-1",
+      "pattern": "^PAR\\d{10}$",
+      "confidence": "high"
+    }
+  ]
+}

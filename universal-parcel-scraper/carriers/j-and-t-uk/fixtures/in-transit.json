@@ -1,0 +1,48 @@
+{
+  "code": 1,
+  "msg": "请求成功",
+  "data": [
+    {
+      "keyword": "JTUK031415926535",
+      "details": [
+        {
+          "code": 50,
+          "scanTypeName": "发件扫描",
+          "status": "运送中",
+          "scanTime": "2026-03-03 01:14:52",
+          "customerTracking": "The parcel is dispatched from the transit center to the next destination"
+        },
+        {
+          "code": 90,
+          "scanTypeName": "中心到件",
+          "status": "运送中",
+          "scanTime": "2026-03-02 22:40:07",
+          "customerTracking": "The parcel arrives at the distribution center and is prepared for transport to the next destination"
+        },
+        {
+          "code": 50,
+          "scanTypeName": "发件扫描",
+          "status": "运送中",
+          "scanTime": "2026-03-02 17:05:31",
+          "customerTracking": "The parcel is dispatched from the transit center to the next destination"
+        },
+        {
+          "code": 90,
+          "scanTypeName": "中心到件",
+          "status": "运送中",
+          "scanTime": "2026-03-02 11:21:44",
+          "customerTracking": "The parcel arrives at the distribution center and is prepared for transport to the next destination"
+        },
+        {
+          "code": 10,
+          "scanTypeName": "快件揽收",
+          "status": "已揽件",
+          "scanTime": "2026-03-02 10:58:19",
+          "customerTracking": "The parcel has been successfully picked up and is being prepared for transportation"
+        }
+      ]
+    }
+  ],
+  "fail": false,
+  "succ": true
+}

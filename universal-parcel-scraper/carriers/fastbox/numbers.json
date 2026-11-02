@@ -1,0 +1,65 @@
+{
+  "carrier": "fastbox",
+  "records": [
+    {
+      "number": "FB1709150187001586",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190703103415/http://www.fastbox.co.kr:80/DHUB/tracking.php?fb_invoice_no=FB1709150187001586",
+        "date": "2019-07-03",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "fastbox",
+        "confidence": "high"
+      },
+      "note": "Fastbox's own tracker, archived by the Wayback Machine, shows this invoice's shipment to Japan."
+    },
+    {
+      "number": "FB2012110544001009",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210103142054/http://fastbox.co.kr/DHUB/tracking.php?fb_invoice_no=FB2012110544001009",
+        "date": "2021-01-03",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "fastbox",
+        "confidence": "high"
+      },
+      "note": "Fastbox's own tracker, archived by the Wayback Machine, shows this invoice's shipment to the Philippines and the EMS item it was handed to."
+    },
+    {
+      "number": "FB2607111988000015",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260827165643/https://fastbox.co.kr/DHUB/tracking.php?fb_invoice_no=FB2607111988000015",
+        "date": "2026-08-27",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "fastbox",
+        "confidence": "high"
+      },
+      "note": "Fastbox's own tracker, archived by the Wayback Machine, shows this invoice's EMS hand-off and the destination post's scans to delivery."
+    }
+  ]
+}

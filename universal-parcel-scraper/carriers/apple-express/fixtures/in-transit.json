@@ -1,0 +1,109 @@
+{
+  "orderDetails": {
+    "isECommerce": true,
+    "isNfo": false,
+    "reference": "CACAINIAO12345678901",
+    "appleTrackingNumber": "123456789",
+    "lastUpdated": "2026-04-23T21:38:07",
+    "lastUpdatedTimeZone": "",
+    "pickupCity": "EXAMPLETON",
+    "pickupProvince": "ON",
+    "deliveryCity": "SAMPLEVILLE",
+    "deliveryProvince": "BC",
+    "statusId": 31,
+    "currentStatus": "En Route to Destination Sort Facility",
+    "statusIconId": 2,
+    "statusChangeText": "Estimated Delivery: April 29, 2026 9:00 PM",
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "deliveryInstructions": "",
+    "deliveryTime": ""
+  },
+  "statusDetails": [
+    {
+      "status": "Delivery Instructions Added",
+      "statusDescriptionOverride": null,
+      "statusIconId": 4,
+      "generatedAt": "2026-04-24T15:47:06",
+      "generatedAtTimeZone": "",
+      "location": ""
+    },
+    {
+      "status": "In Transit",
+      "statusDescriptionOverride": null,
+      "statusIconId": 2,
+      "generatedAt": "2026-04-23T21:38:07",
+      "generatedAtTimeZone": "ET",
+      "location": ""
+    },
+    {
+      "status": "Package Processed",
+      "statusDescriptionOverride": null,
+      "statusIconId": 2,
+      "generatedAt": "2026-04-23T21:07:09",
+      "generatedAtTimeZone": "",
+      "location": "Exampleton, ON"
+    },
+    {
+      "status": "Waiting for Parcel",
+      "statusDescriptionOverride": null,
+      "statusIconId": 1,
+      "generatedAt": "2026-04-22T18:21:45",
+      "generatedAtTimeZone": "",
+      "location": ""
+    }
+  ],
+  "screenDetails": {
+    "trackAnotherButton": {
+      "visible": true,
+      "enabled": true,
+      "caption": "Track another package"
+    },
+    "cancelButton": {
+      "visible": false,
+      "enabled": true,
+      "caption": "Cancel Order"
+    },
+    "smsButton": {
+      "visible": false,
+      "enabled": true,
+      "caption": "Sign up for SMS"
+    },
+    "trackDriverButton": {
+      "visible": false,
+      "enabled": true,
+      "caption": "Track Driver"
+    },
+    "podButton": {
+      "visible": false,
+      "enabled": true,
+      "caption": "View Proof of delivery"
+    },
+    "addDeliveryInstructionsButton": {
+      "visible": true,
+      "enabled": true,
+      "caption": "Add Delivery Instructions"
+    },
+    "setDeliveryTimeButton": {
+      "visible": false,
+      "enabled": true,
+      "caption": "Set Delivery Time"
+    },
+    "statusDescription": "Your parcel is enroute to our local sort facility in your area.",
+    "deliveryTimeOptions": [
+      {
+        "optionNo": 0,
+        "option": "9 AM - 3:00 PM"
+      },
+      {
+        "optionNo": 1,
+        "option": "3:00 PM - 9:00 PM"
+      }
+    ],
+    "pudoLocation": null,
+    "progressPercentage": 30,
+    "supportPhoneNumber": "",
+    "supportEmail": "support@example.com",
+    "supportEmailAction": 1
+  }
+}

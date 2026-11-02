@@ -1,0 +1,46 @@
+{
+  "id": "servex",
+  "displayName": "Servex",
+  "aliases": [
+    "Servex Global Logistics",
+    "Servex Express"
+  ],
+  "region": {
+    "countries": [
+      "TR"
+    ]
+  },
+  "brand": {
+    "color": "#ed1c24"
+  },
+  "selectable": true,
+  "timezone": "Europe/Istanbul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.servex.com.tr/tracking?awbNumber={trackingNumber}",
+    "searchUrl": "https://www.servex.com.tr/tracking",
+    "canaryUrl": "https://www.servex.com.tr/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.servex.com.tr",
+        "servex.com.tr"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "awbNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

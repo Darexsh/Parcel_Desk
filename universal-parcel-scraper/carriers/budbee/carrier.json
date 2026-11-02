@@ -1,0 +1,51 @@
+{
+  "id": "budbee",
+  "displayName": "Budbee",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "SE",
+      "FI",
+      "DK",
+      "NL",
+      "BE"
+    ]
+  },
+  "brand": {
+    "color": "#41cda5"
+  },
+  "selectable": true,
+  "timezone": "Europe/Stockholm",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://track.budbee.com/en",
+    "canaryUrl": "https://track.budbee.com/en",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.budbee.com"
+      ],
+      "path": "^/(?:[a-z]{2}/)?((?=[A-Za-z]*[0-9])[A-Za-z0-9]{8,20})(?:/verify)?/?$"
+    },
+    {
+      "domains": [
+        "track.budbee.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "verifyTrackingId"
+      ]
+    }
+  ],
+  "detection": []
+}

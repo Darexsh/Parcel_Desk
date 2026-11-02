@@ -1,0 +1,175 @@
+<title>TrackSkybill</title>
+<style>
+
+     /*******************************NEW CSS ADD****************************/
+     .table thead tr th {
+         color: #198ff1 !important;
+     }
+
+     .shipmentbox-summary {
+         text-align: center;
+         padding: 17px 7px 24px;
+     }
+
+     .shipmentbox-history .table-responsive .table tr:nth-child(odd) td, .shipment-moredetail .table-responsive .table tr td {
+         background-color: #277fc729;
+         color: #198ff1;
+     }
+</style>
+<div style="text-align: center;">
+    <form id="form" action="/Skybill/TrackSkybill" method="post">
+        <input type="hidden" name="secretKey" value="00000000-0000-4000-8000-000000000000" />
+        <input type="hidden" name="clientTimeZoneOffSetHour" id="clientTimeZoneOffSetHour" value="" />
+            <table border="0" style="text-align: center; width: 290px; margin-left: auto; margin-right: auto;">
+                <tbody>
+                    <tr>
+                        <td colspan="2" style="text-align: left">
+                            <strong style="color: navy;font-size:20px;font-family:Arial;color: white;">SHIPMENT TRACKING</strong><br>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: baseline; text-align: left; width: 290px">
+                        <small style="font-family:Arial;color:lightskyblue">BY AWB NUMBER:</small>
+                        <input name="AWB" type="text" maxlength="12" id="AWB" class="searchTxtBox" style="font-weight:bold;height:35px;width:290px;">
+                        </td>
+                        <td style="vertical-align: baseline; text-align: left">
+                            <br>
+                            <a id="trackBT" class="search-btn" href="#" onclick="submitForm()"><img src="/images/search_button.png" border="0" width="35" height="35" alt="Search"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: baseline; text-align: left; width: 290px">
+                        <small style="font-family:Arial;color:lightskyblue">BY REF NUMBER:</small>
+                            <input name="txtRefNum" type="text" maxlength="20" id="txtRefNum" class="searchTxtBox" style="font-weight:bold;height:35px;width:290px;">
+                        </td>
+                        <td style="vertical-align: baseline; text-align: left">
+                            <br>
+                            <a id="trackBT2" class="search-btn" href="#" onclick="submitForm()"><img src="/images/search_button.png" border="0" width="35" height="35" alt="Search"></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        <input name="AntiforgeryFieldname" type="hidden" value="CfDJ8SYNTHETICANTIFORGERYaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_bbbbbbbbbbbb-cccc" /></form>
+    </div>
+        <div class="container-fluid inner">
+            <div class="container">
+                <div style="" class="collapse in" id="collapseExample">
+                    <div id="shipmentTrack" class="shipment-wrapper">
+                        <div class="shipment-wrapper" id="shipmentTrack">
+                            <h2>&nbsp;Shipment Summary &nbsp;</h2>
+                            <div class="shipmentbox shipmentbox-summary">
+                                <p>Tracking Number: <span class="text-danger">900000000001</span></p>
+                                <ul class="step-process">
+
+                                        <li>
+                                            <img src="/images/created-shipment.jpg" class="process-img" />
+                                            <span class="cicle">✔</span>
+                                            <span class="process-name">Shipment Created</span>
+                                        </li>
+                                        <li>
+                                            <img src="/images/picked-up.png" class="process-img" />
+                                            <span class="cicle">✔</span>
+                                            <span class="process-name">Picked up</span>
+                                        </li>
+                                        <li>
+                                            <img src="/images/shipment-at-hub.jpg" class="process-img" />
+                                            <span class="cicle">✔</span>
+                                            <span class="process-name">Received at HUB</span>
+                                        </li>
+                                        <li>
+                                            <img src="/images/delivery-truck1.jpg" class="process-img" />
+                                            <span class="cicle">✔</span>
+                                            <span class="process-name">Out for Delivery</span>
+                                        </li>
+                                        <li>
+                                            <img src="/images/pending-shipment.png" class="process-img" />
+                                            <span class="cicle">✔</span>
+                                            <span class="process-name">Consignee not available</span>
+                                        </li>
+                                        <li>
+                                            <img src="/images/delivery.png" class="process-img" />
+                                            <span class="cicle">✔</span>
+                                            <span class="process-name">Delivered</span>
+                                        </li>
+                            </ul>
+                        </div>
+
+                        <h2>History<span class="text-danger">Where Your Shipment Has Been</span></h2>
+                        <div class="shipmentbox shipmentbox-history">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th style="color:white;">Date</th>
+                                            <th style="color:white;">Status</th>
+                                            <th width="50%" style="color:white;">Activity</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                <tr>
+                                                    <td>12 March 2026 <span class="text-mute">12:40 PM</span></td>
+                                                    <td>Delivered</td>
+                                                    <td>Shipment delivered to Consignee</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12 March 2026 <span class="text-mute">06:05 AM</span></td>
+                                                    <td>Out for Delivery</td>
+                                                    <td>Shipment Out for Delivery</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11 March 2026 <span class="text-mute">01:15 PM</span></td>
+                                                    <td>Consignee not available</td>
+                                                    <td>Not at Home/Office</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11 March 2026 <span class="text-mute">06:02 AM</span></td>
+                                                    <td>Out for Delivery</td>
+                                                    <td>Shipment Out for Delivery</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10 March 2026 <span class="text-mute">08:30 PM</span></td>
+                                                    <td>Received at HUB</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10 March 2026 <span class="text-mute">08:30 PM</span></td>
+                                                    <td>Received at HUB</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10 March 2026 <span class="text-mute">03:20 PM</span></td>
+                                                    <td>Picked up</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10 March 2026 <span class="text-mute">09:45 AM</span></td>
+                                                    <td>Shipment Created</td>
+                                                    <td></td>
+                                                </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<script src="/js/moment.js?v=wz8JpOEjDzB1vo0qlAgRCNUvYtPDC5ojiUH-gHkCZ8Y"></script>
+
+<script type="text/javascript">
+    function submitForm() {
+        $("#clientTimeZoneOffSetHour").val(moment().utcOffset() / 60);
+        $("#form").submit();
+    }
+    $(function(){
+        var awb = '';
+        if(awb !="" && awb !=null){
+             $('#AWB').val(awb);
+             submitForm();
+        }
+    });
+</script>

@@ -1,0 +1,25 @@
+{
+  "carrier": "easy-mail",
+  "entries": [
+    {"wording": "Καταχώρηση αποστολής από τον αποστολέα", "stage": "registered", "language": "el", "confirmedBy": "live", "note": "Shipment entered by the sender."},
+    {"wording": "Καταχώρηση αποστολής", "stage": "registered", "language": "el", "confirmedBy": "live", "note": "Shipment entered; older lookups."},
+    {"wording": "Δημιουργήθηκε εντολή παραλαβής", "stage": "registered", "language": "el", "confirmedBy": "live", "note": "Pickup order created."},
+    {"wording": "Χαρακτηρισμός ώς Παρελήφθη", "stage": "accepted", "language": "el", "confirmedBy": "live", "note": "Marked as picked up."},
+    {"wording": "Το παρέλαβε ο Διανομέας", "stage": "accepted", "language": "el", "confirmedBy": "live", "note": "Picked up by the courier."},
+    {"wording": "Αφίχθει στο κατάστημα παραλαβής", "stage": "accepted", "language": "el", "confirmedBy": "portal", "note": "Arrived at the pickup store; older spelling."},
+    {"wording": "Αφίχθη στο κατάστημα παραλαβής", "stage": "accepted", "language": "el", "confirmedBy": "live", "note": "Arrived at the pickup store: a parcel the sender brings in, scanned with the pickup mark before any departure."},
+    {"wording": "Βρίσκεται στο κατάστημα παραλαβής", "stage": "accepted", "language": "el", "confirmedBy": "live", "note": "At the pickup store, after the booking and before the first departure."},
+    {"wording": "Αναχώρηση για το Κατάστημα Παράδοσης", "stage": "in_transit", "language": "el", "confirmedBy": "live", "note": "Departed for the delivery store."},
+    {"wording": "Αφίχθει στο κέντρο διαλογής", "stage": "in_transit", "language": "el", "confirmedBy": "portal", "note": "Arrived at the sorting centre; older spelling."},
+    {"wording": "Αφίχθη στο κέντρο διαλογής", "stage": "in_transit", "language": "el", "confirmedBy": "live", "note": "Arrived at the sorting centre."},
+    {"wording": "Αφίχθει στο κατάστημα παράδοσης", "stage": "in_transit", "language": "el", "confirmedBy": "portal", "note": "Arrived at the delivery store; older spelling."},
+    {"wording": "Αφίχθη στο κατάστημα παράδοσης", "stage": "in_transit", "language": "el", "confirmedBy": "live", "note": "Arrived at the delivery store."},
+    {"wording": "Προς παράδοση", "stage": "out_for_delivery", "language": "el", "confirmedBy": "live"},
+    {"wording": "Βρίσκεται στο κατάστημα παράδοσης", "stage": "in_transit", "language": "el", "confirmedBy": "live", "note": "Back at the delivery store after a delivery round."},
+    {"wording": "Καταχωρήθηκε Αιτία μη Παράδοσης", "stage": "failed_attempt", "language": "el", "confirmedBy": "live", "note": "A non-delivery reason was recorded."},
+    {"wording": "Καταχωρήθηκε Αιτία μη Παράδοσης, ΚΑΤΟΠΙΝ ΣΥΝΕΝΝΟΗΣΗΣ", "stage": "failed_attempt", "language": "el", "confirmedBy": "live", "note": "Not delivered, by arrangement with the recipient."},
+    {"wording": "Καταχωρήθηκε Αιτία μη Παράδοσης, ΠΑΡΑΔΟΣΗ ΣΕ ΔΥΣΠΡΟΣΙΤΗ ΠΕΡΙΟΧΗ", "stage": "failed_attempt", "language": "el", "confirmedBy": "live", "note": "Not delivered: the address is in a remote area."},
+    {"wording": "Καταχωρήθηκε Αιτία μη Παράδοσης, ΠΑΡΑΛΑΒΗ ΑΠΌ ΚΑΤΑΣΤΗΜΑ", "stage": "ready_for_pickup", "language": "el", "confirmedBy": "live", "note": "Not delivered because the recipient collects the parcel at the store; the delivery follows."},
+    {"wording": "Παραδόθηκε", "stage": "delivered", "language": "el", "confirmedBy": "live"}
+  ]
+}

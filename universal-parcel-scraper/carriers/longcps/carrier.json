@@ -1,0 +1,45 @@
+{
+  "id": "longcps",
+  "displayName": "LONGCPS",
+  "aliases": [
+    "龙行速运",
+    "龙行供应链"
+  ],
+  "region": {
+    "countries": [
+      "CA",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#1e3d7e"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.longcps.com/select.html?type=cnum&num={trackingNumber}",
+    "searchUrl": "https://www.longcps.com/select.html",
+    "canaryUrl": "https://www.longcps.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "longcps.com",
+        "www.longcps.com"
+      ],
+      "pathPattern": "^/select\\.html$",
+      "query": "^(?=(?:.*&)?type=cnum(?:&|$))(?:.*&)?num=([^&]+)(?=&|$)"
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,194 @@
+{
+  "carrier": "early-bird",
+  "entries": [
+    {
+      "wording": "Your delivery is booked with Early Bird.",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "The sender booked the delivery; Early Bird does not have the parcel yet."
+    },
+    {
+      "wording": "Din leverans är bokad med Early Bird.",
+      "language": "sv",
+      "stage": "registered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Leveransen till dig är bokad av e-handlaren. När vi tar hand om ditt paket på vår terminal så skickar vi ett meddelande till dig med en länk till vår spårningssida. Där kan du se den beräknade leveransdagen och all information om paketets resa.",
+      "language": "sv",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "The earlier system, in Swedish whatever the language asked for."
+    },
+    {
+      "wording": "Early Bird has received your package.",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Early Bird har tagit emot ditt paket.",
+      "language": "sv",
+      "stage": "accepted",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Your package has arrived at the terminal in Stockholm.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The name of an Early Bird terminal, a local delivery terminal or a route follows \"terminal in\"."
+    },
+    {
+      "wording": "Ditt paket har kommit till terminalen i Stockholm.",
+      "language": "sv",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Paketet har ankommit till sorteringsterminal Göteborg",
+      "language": "sv",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The earlier system, naming the sorting terminal."
+    },
+    {
+      "wording": "Your package is on its way. You will receive a notification when it is ready to be collected from the parcel locker.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "On its way to the parcel locker a failed home delivery was sent on to."
+    },
+    {
+      "wording": "Paketet är på väg. Du får ett meddelande när det är redo att hämtas ur paketskåpet.",
+      "language": "sv",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "We failed to deliver your package as planned. We will make a new attempt as soon as possible.",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "We failed to deliver your package as planned. We will notify you as soon as possible with information on how we will ensure that your package is delivered.",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "note": "The promise that the parcel \"is delivered\" is about what comes next."
+    },
+    {
+      "wording": "Vi misslyckades med att leverera ditt paket som planerat. Vi meddelar dig snarast med information om hur vi gör för att ditt paket ska komma fram.",
+      "language": "sv",
+      "stage": "failed_attempt",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "We were unable to access the entrance and therefore failed to deliver your package. We will make a new attempt as soon as possible.",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Vi kunde inte komma in i porten och misslyckades därför med att leverera ditt paket. Vi kommer göra ett nytt försök så snart som möjligt.",
+      "language": "sv",
+      "stage": "failed_attempt",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Since we were unable to deliver the parcel to your home, we will reroute it to a parcel locker. We will notify you as soon as we know which locker it will be.",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "note": "The failed home delivery is sent on to a parcel locker."
+    },
+    {
+      "wording": "Eftersom vi inte kunde leverera paketet hem till dig så kommer vi boka om det till ett paketskåp. Vi meddelar dig så snart vi vet vilket skåp det blir.",
+      "language": "sv",
+      "stage": "failed_attempt",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "We have scheduled a new attempt to deliver your package.",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "A new delivery attempt booked after a failed round, not a movement: the parcel keeps the stage it had."
+    },
+    {
+      "wording": "Vi har bokat in ett nytt försök att leverera ditt paket.",
+      "language": "sv",
+      "confirmedBy": "live",
+      "note": "A new delivery attempt booked after a failed round, not a movement: the parcel keeps the stage it had."
+    },
+    {
+      "wording": "Your package is now ready for collection from the parcel locker. The iBoxen app is required to open the box.",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Ditt paket finns nu redo att hämtas från paketskåpet. Du behöver iBoxens app för att öppna luckan.",
+      "language": "sv",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "The package has been collected from the parcel locker.",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "note": "The recipient collected the parcel from the locker."
+    },
+    {
+      "wording": "Paketet har hämtats ur paketskåpet.",
+      "language": "sv",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "The package has been delivered to your door.",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "The package has been delivered to your mailbox.",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "The package has been delivered in a bag on your mailbox.",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Paketet är levererat till din dörr.",
+      "language": "sv",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Paketet är levererat till din postlåda.",
+      "language": "sv",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Paketet är levererat i en påse på din postlåda.",
+      "language": "sv",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Ditt paket har nu levererats av Early Bird. Om paketet inte fick plats i postlådan så har det hängts i en påse på din postlåda alternativt dörr",
+      "language": "sv",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "note": "The earlier system, in Swedish whatever the language asked for."
+    }
+  ]
+}

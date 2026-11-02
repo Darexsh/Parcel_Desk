@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AskAxl tracking -   : Hismo Tracking</title>
+    <link href="/styles/images/axl-favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="/styles/tracking/tracking-tracking.css" rel="stylesheet"/>
+    <script src="/scripts/jquery.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=SYNTHETIC-MAPS-KEY"></script>
+        <script>
+            function initialize() {
+                var mapCanvas = document.getElementById('map-canvas');
+                var centre = new google.maps.LatLng(52.0000, -1.0000);
+                var markerYou = new google.maps.LatLng(0, 0);
+                var markerUs = new google.maps.LatLng(52.0100, -1.0100);
+            }
+        </script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <a href="https://www.arrowxl.co.uk" class="arrow-logo">
+                <img src="/Styles/Images/logo.png" class="arrow-logo-image" />
+            </a>
+        </div>
+    </div>
+    <div class="secondary-navigation">
+        <div class="secondary-navigation-inner">
+            <ul class="tracking-secondary-navigation">
+                <li class="tracking-secondary-list tracking-secondary-first">
+                    <p><a class="tracking-secondary-item-selected" href="">Delivery & Collection</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+<div class="banner">
+    <div class="banner-inner">
+        <div class="zone zone-banner">
+            <div class="widget-banner widget-html-widget widget row">
+                            <!--<div class="col-sm-8">-->
+                            <div style="margin-left:35px;">
+                                <div class="hismo-top">
+                                    <p>
+                                        <!---->
+                                        Your delivery crew
+                                            are <span class="heading-weight">Alex</span> and <span class="heading-weight">Sam</span>, they
+                                        are currently on delivery number <span class="delivery-number">3</span> and your order is number <span class="delivery-number">5</span>
+                                    </p>
+                                </div>
+                                <div class="hismo-second-header">
+                                    <p class="heading-inline">
+                                        Your planned time window is between <span class='inaccurate-drop-window'>10:15</span> and <span class='inaccurate-drop-window'>12:15</span> and we currently estimate* we will be with you between <span class='accurate-drop-window'>11:00</span> and <span class='accurate-drop-window'>11:30</span>
+                                    </p>
+                                    <p class="heading-disclaimer">*Our aim is to deliver within the advised estimated delivery time window.<br />Our current estimate is based on current traffic conditions and is continuously updated.</p>
+                                </div>
+                            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="main-inner">
+        <div class="zone-content zone-content">
+            <div class="page content-item">
+                <div class="content">
+                    <div style="position:relative">
+                        <div id="map-canvas"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="page content-item">
+                <div class="content">
+                    <h1>
+                        <span class="font-heavy black">problems?</span>
+                        <span class="font-light blue">chat to us now</span>
+                    </h1>
+                    <div class="faq-links">
+                        <p><a href="/faq"><button class="faq-button">Need Help?</button></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+Lat=0 , Long=0, Cust Drop=5, Crew Drop=3
+-->
+    <div class="footer">
+        <div class="footer-inner">
+            <h4>Arrow XL</h4>
+        </div>
+    </div>
+<script>
+window.dataLayer = window.dataLayer || [];
+</script>
+</body>
+</html>

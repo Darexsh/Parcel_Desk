@@ -1,0 +1,62 @@
+{
+  "status": 1,
+  "message": "Tracking of Shipment(s) # 10000000000002",
+  "details": {
+    "900002": {
+      "tracking_number": "10000000000002",
+      "shipper": {
+        "name": "Sample Brand"
+      },
+      "pickup": {
+        "origin": "Sample City",
+        "vendor": "Sample Brand",
+        "brand_name": "Sample Brand"
+      },
+      "consignee": {
+        "name": "Sample Recipient",
+        "phone_number_1": "000000000000",
+        "phone_number_2": null,
+        "destination": "Third City",
+        "address": "House 0, Sample Street, Sample Town"
+      },
+      "order_information": {
+        "items": [
+          {
+            "order_id": "SMPL-0002",
+            "product_type": "Sample Goods",
+            "description": "Two sample items",
+            "quantity": 2
+          }
+        ],
+        "weight": 2,
+        "amount": 2500
+      },
+      "tracking_history": [
+        {
+          "date_time": "02/06/2026 06:50 AM",
+          "timestamp": 1780365033,
+          "status": "Shipment - Arrived at Destination",
+          "status_reason": null
+        },
+        {
+          "date_time": "01/06/2026 11:05 PM",
+          "timestamp": 1780337111,
+          "status": "Shipment - In Transit",
+          "status_reason": null
+        },
+        {
+          "date_time": "01/06/2026 05:35 PM",
+          "timestamp": 1780317302,
+          "status": "Shipment - Arrived at Origin",
+          "status_reason": null
+        },
+        {
+          "date_time": "01/06/2026 12:20 PM",
+          "timestamp": 1780298458,
+          "status": "Shipment - Booked",
+          "status_reason": null
+        }
+      ]
+    }
+  }
+}

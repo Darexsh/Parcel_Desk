@@ -1,0 +1,81 @@
+{
+  "carrier": "hunter-express",
+  "records": [
+    {
+      "number": "ZPL039906",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260302205847/https://portal.hunterexpress.com.au/track/55010/ZPL039906",
+        "date": "2026-03-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A consignment looked up on Hunter Express's own tracker; the opened capture shows its pickup, depot and on-delivery scans."
+    },
+    {
+      "number": "EGQ188646",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.productreview.com.au/reviews/cd3ee31f-ef49-5a4a-b8fc-90b06b0c5c60",
+        "date": "2026-09-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A review of Hunter Express gives it as the tracking number of a first delivery from an online seller that did not arrive."
+    },
+    {
+      "number": "EGQ188789",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.productreview.com.au/reviews/cd3ee31f-ef49-5a4a-b8fc-90b06b0c5c60",
+        "date": "2026-09-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The same review gives it as the tracking number of the replacement the seller sent with Hunter Express."
+    },
+    {
+      "number": "MBP075205",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.productreview.com.au/reviews/cbf54e7d-2f0c-5827-abb3-b046ffbdb0e9",
+        "date": "2024-08-09",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A review of Hunter Express gives it as the tracking number of a delivery its driver left on a driveway."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "results": [{
+    "discriminator": "REDACTED",
+    "uniqueId": "urn:parcel_id:barcode:date:123456:H000000000000001:2026-01-03",
+    "parcelIdentifiers": [{ "type": "BARCODE", "value": "H000000000000001" }],
+    "recipient": { "name": "PRIVATE RECIPIENT", "deliveryAddress": "PRIVATE ADDRESS" },
+    "sender": { "name": "PRIVATE SENDER" },
+    "trackingListV2": ["1", "2", "3", "4_COURIER", "5_COURIER", "FUTURE_STAGE"],
+    "trackingEvents": [
+      { "trackingPoint": { "trackingPointCode": "LEFT_GARAGE", "description": "Delivered to PRIVATE SAFE PLACE" }, "trackingStage": { "trackingStageCode": "5_COURIER" }, "dateTime": "2026-01-03T19:00:00Z", "location": null, "image": "https://private.example/proof", "neighbour": "PRIVATE NAME", "eta": null },
+      { "trackingPoint": { "trackingPointCode": "DELIVERY_1900_2100", "description": "Your courier is delivering your parcel this evening" }, "trackingStage": { "trackingStageCode": "4_COURIER" }, "dateTime": "2026-01-03T12:00:00Z", "eta": { "private": "PRIVATE ESTIMATE" } },
+      { "trackingPoint": { "trackingPointCode": "COURIER_DELIVERY", "description": "Out for delivery" }, "trackingStage": { "trackingStageCode": "4_COURIER" }, "dateTime": "2026-01-03T10:00:00Z" },
+      { "trackingPoint": { "trackingPointCode": "LOCAL_DEPOT", "description": "At the local depot" }, "trackingStage": { "trackingStageCode": "3" }, "dateTime": "2026-01-03T05:00:00Z" },
+      { "trackingPoint": { "trackingPointCode": "PROCESSING_HUB", "description": "At the hub" }, "trackingStage": { "trackingStageCode": "2" }, "dateTime": "2026-01-02T14:00:00Z" },
+      { "trackingPoint": { "trackingPointCode": "EXPECTED", "description": "We are expecting your parcel" }, "trackingStage": { "trackingStageCode": "1" }, "dateTime": "2026-01-01T13:00:00Z" }
+    ]
+  }],
+  "failures": []
+}

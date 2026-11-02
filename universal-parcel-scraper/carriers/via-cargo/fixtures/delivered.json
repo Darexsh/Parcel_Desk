@@ -1,0 +1,74 @@
+{
+  "ok": [
+    {
+      "objeto": {
+        "codigo": 101,
+        "wsTracking": { "codigo": 102, "proceso": 100000003, "expedicion": "999000000000" },
+        "expeCodigo": 1000000,
+        "numeroEnvio": "999000000000",
+        "numeroReferencia": "999000000000",
+        "retornoEnvio": "N",
+        "kilos": 5,
+        "volumenDeclarado": 0,
+        "volumenReal": 0,
+        "portes": "D",
+        "valor": 1000,
+        "codigoServicio": "2000",
+        "descripcionServicio": "VIA CARGO ESTANDAR",
+        "tipoTrackingServicio": "N",
+        "fechaHoraAdmision": "02/03/2026 09:10",
+        "fechaHoraEntrega": "05/03/2026 02:20",
+        "nombreDestinatario": "SAMPLE RECIPIENT",
+        "nitDestinatario": "00000000",
+        "direccionDestinatario": "CALLE EJEMPLO 0",
+        "codigoPostalDestinatario": "0000",
+        "poblacionDestinatario": "PUEBLO EJEMPLO",
+        "telefonoDestinatario": "0000000000",
+        "contactoDestinatario": "SAMPLE RECIPIENT",
+        "nombreProvinciaDestinatario": "PROVINCIA EJEMPLO",
+        "nombreRemitente": "SAMPLE SENDER",
+        "codigoRemitente": "00000000-00",
+        "nitRemitente": "00000000",
+        "direccionRemitente": "AVENIDA EJEMPLO 0",
+        "codigoPostalRemitente": "0000",
+        "poblacionRemitente": "SUCURSAL EJEMPLO - CALLE 0",
+        "esMultipieza": "N",
+        "numeroTotalPiezas": 1,
+        "oficinaRemitente": "SMP000",
+        "oficinaDestinatario": "SMP001",
+        "rutaPod": null,
+        "rutasCartasPorte": null,
+        "bultoCargaConVuelo": false,
+        "fechaHoraPrevistaEntrega": null,
+        "nombreQuienRecibe": "SAMPLE RECEIVER",
+        "nifQuienRecibe": "00000000",
+        "listaEventos": [
+          { "codigo": 103, "evexCodigo": 11, "descripcion": "ENTREGADA", "tipoEvento": "ENTR", "deleCodigo": "SMP01", "deleNombre": "PUEBLO EJEMPLO", "fechaEvento": "07/03/2026 11:45", "fechaAlta": "07/03/2026 11:45" },
+          { "codigo": 104, "evexCodigo": 12, "descripcion": "RECIBIDO EN DESTINO", "tipoEvento": "RCPV", "deleCodigo": "SMP01", "deleNombre": "PUEBLO EJEMPLO", "fechaEvento": "05/03/2026 14:20", "fechaAlta": "05/03/2026 14:20" },
+          { "codigo": 105, "evexCodigo": 13, "descripcion": "EN VIAJE", "tipoEvento": "CPCE", "deleCodigo": "SMP", "deleNombre": "CENTRO DE DISTRIBUCION EJEMPLO", "fechaEvento": "03/03/2026 21:05", "fechaAlta": "03/03/2026 21:05" },
+          { "codigo": 105, "evexCodigo": 13, "descripcion": "EN VIAJE", "tipoEvento": "CPCE", "deleCodigo": "SMP", "deleNombre": "CENTRO DE DISTRIBUCION EJEMPLO", "fechaEvento": "03/03/2026 21:05", "fechaAlta": "03/03/2026 21:05" },
+          { "codigo": 106, "evexCodigo": 14, "descripcion": "Recepcionado en centro de distribución", "tipoEvento": "RECD", "deleCodigo": "SMP", "deleNombre": "CENTRO DE DISTRIBUCION EJEMPLO", "fechaEvento": "02/03/2026 18:30", "fechaAlta": "02/03/2026 23:30" },
+          { "codigo": 107, "evexCodigo": 15, "descripcion": "EN VIAJE A CD", "tipoEvento": "MANI", "deleCodigo": "SMP", "deleNombre": "SUCURSAL EJEMPLO - CALLE 0", "fechaEvento": "02/03/2026 13:40", "fechaAlta": "02/03/2026 13:40" },
+          { "codigo": 108, "evexCodigo": 16, "descripcion": "INGRESO A VIA CARGO", "tipoEvento": "ALTA", "deleCodigo": "SMP", "deleNombre": "SUCURSAL EJEMPLO - CALLE 0", "fechaEvento": "02/03/2026 09:10", "fechaAlta": "02/03/2026 09:10" }
+        ],
+        "listaIncidencias": [
+          {
+            "codigo": 109, "inciCodigo": 1000010, "id": "0000", "descripcion": "SOLICITUD REGISTRADA", "fechaAlta": "06/03/2026 10:00",
+            "codigoUsuarioAlta": "_SAMPLE0", "nombreUsuarioAlta": "publico (SAMPLE)", "iataOficinaAlta": "000", "descripcionOficinaAlta": "CENTRAL",
+            "tipo": "I", "cerrada": "S", "fechaCierre": "08/03/2026 12:00", "codigoDelegacionAlta": "000", "nombreDelegacionAlta": "CENTRAL",
+            "listaRespuestasIncidencia": [
+              { "codigo": 110, "reinCodigo": "000000", "id": "0000", "tipo": "R", "descripcion": "IMPROCEDENTE, YA ENTREGADA", "fechaRespuesta": "08/03/2026 12:00",
+                "codigoUsuarioAlta": "SAMPLE1", "nombreUsuarioAlta": "SAMPLE AGENT", "codigoDelegacionAlta": "000", "nombreDelegacionAlta": "CENTRAL",
+                "iataOficinaAlta": "000", "descripcionOficinaAlta": "CENTRAL" }
+            ]
+          }
+        ],
+        "listaBultos": [
+          { "codigo": 111, "bultCodigo": 10000020, "numero": 1, "referencia": null, "estado": "(ENT) EFECTUADA (ENTREGADA)", "vuelo": "SMP00", "terrestre": "N" }
+        ]
+      }
+    }
+  ],
+  "errores": [],
+  "score": null
+}

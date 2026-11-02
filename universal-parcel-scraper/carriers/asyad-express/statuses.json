@@ -1,0 +1,103 @@
+{
+  "carrier": "asyad-express",
+  "entries": [
+    {
+      "code": "S010",
+      "wording": "Order Placed (Awaiting dispatch from the shipper)",
+      "stage": "pending",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "S1001",
+      "wording": "Arrived in Muscat (Oman) Hub",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "S354",
+      "wording": "Departed From Muscat Hub to destination country",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "S900",
+      "wording": "Parcel received at the destination country",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "S452",
+      "wording": "Delivery could not be completed due to incorrect address",
+      "stage": "failed_attempt",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "S420",
+      "wording": "Parcel is out for delivery",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "S400",
+      "wording": "Parcel is delivered",
+      "stage": "delivered",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "8",
+      "wording": "Insert item into bag (Otb)",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "12",
+      "wording": "Send item abroad (EDI-received)",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "30",
+      "wording": "Receive item at office of exchange (Inb)",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "35",
+      "wording": "Send item to domestic location (Inb)",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "39",
+      "wording": "Handover item to delivery agent (Inb)",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "32",
+      "wording": "Receive item at delivery office (Inb)",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "37",
+      "wording": "Deliver item (Inb)",
+      "stage": "delivered",
+      "language": "en",
+      "confirmedBy": "live"
+    }
+  ]
+}

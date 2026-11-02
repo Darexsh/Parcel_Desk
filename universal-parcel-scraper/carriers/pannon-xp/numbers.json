@@ -1,0 +1,245 @@
+{
+  "carrier": "pannon-xp",
+  "records": [
+    {
+      "number": "358144779665000013601224",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+        "date": "2026-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pannon-xp",
+        "confidence": "high"
+      },
+      "note": "Pannon XP's own PXP Futar API v3 documentation returns this shipment number for a created shipment and reuses it in its modify and delete examples."
+    },
+    {
+      "number": "358144779891000013601144",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+        "date": "2026-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pannon-xp",
+        "confidence": "high"
+      },
+      "note": "Pannon XP's own PXP Futar API v3 documentation returns this second shipment number in its shipment creation example."
+    },
+    {
+      "number": "358144806252000013604320",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+        "date": "2026-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pannon-xp",
+        "confidence": "high"
+      },
+      "note": "Pannon XP's own PXP Futar API v3 documentation lists this shipment in its label printing and daily closing examples."
+    },
+    {
+      "number": "358144806269000013601239",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+        "date": "2026-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pannon-xp",
+        "confidence": "high"
+      },
+      "note": "Pannon XP's own PXP Futar API v3 documentation lists this second shipment in its label printing and daily closing examples."
+    },
+    {
+      "number": "358145646876000013603060",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+        "date": "2026-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pannon-xp",
+        "confidence": "high"
+      },
+      "note": "Pannon XP's own PXP Futar API v3 documentation gives this shipment, prepared for dispatch in the daily closing, in its shipment data example."
+    },
+    {
+      "number": "358145646876000023603060",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+        "date": "2026-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "relationships": [
+        {
+          "kind": "child_of",
+          "number": "358145646876000013603060",
+          "source": {
+            "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+            "date": "2026-03-24",
+            "dateKind": "publication",
+            "access": "full_page"
+          }
+        }
+      ],
+      "expect": {
+        "carrier": "pannon-xp",
+        "confidence": "high"
+      },
+      "note": "Pannon XP's own PXP Futar API v3 documentation gives this as the additional parcel number of the shipment in its shipment data example; it differs from the main number only in the parcel index."
+    },
+    {
+      "number": "358145621426000013603077",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+        "date": "2026-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pannon-xp",
+        "confidence": "high"
+      },
+      "note": "Pannon XP's own PXP Futar API v3 documentation gives this shipment, with its data recorded, in its status query example."
+    },
+    {
+      "number": "358145621428000013603060",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+        "date": "2026-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pannon-xp",
+        "confidence": "high"
+      },
+      "note": "Pannon XP's own PXP Futar API v3 documentation gives this second shipment in its status query example."
+    },
+    {
+      "number": "358145646834000013603060",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+        "date": "2026-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pannon-xp",
+        "confidence": "high"
+      },
+      "note": "Pannon XP's own PXP Futar API v3 documentation gives this shipment with one event in its history query example."
+    },
+    {
+      "number": "358145646803000013602233",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+        "date": "2026-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pannon-xp",
+        "confidence": "high"
+      },
+      "note": "Pannon XP's own PXP Futar API v3 documentation gives this shipment with three events in its history query example."
+    },
+    {
+      "number": "35814 5077009 000 01 36 04321",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/api/v3/dokumentacio/leiras_EN",
+        "date": "2026-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pannon-xp",
+        "confidence": "high"
+      },
+      "note": "Pannon XP's own PXP Futar API v3 documentation prints this shipment number in spaced groups on its sample label and collection list; the last five digits are the sample recipient's postcode."
+    },
+    {
+      "number": "534282",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mypxp.pannonxp.hu/img/fuvarlevel_600x425.jpg",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Printed under the barcode of the blank manual waybill pictured on Pannon XP's own site; its tracker takes a manual waybill's six digits."
+    }
+  ]
+}

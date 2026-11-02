@@ -1,0 +1,188 @@
+{
+  "carrier": "apple-express",
+  "records": [
+    {
+      "number": "46136991",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230928154845/https://goapple.appleexpress.com/OrderTrackingMultipleDetails.aspx?OrderNo=46136991",
+        "date": "2023-09-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An opened capture of Apple Express's own tracker shows this parcel in transit to the local sort facility, processed and out for delivery in Calgary."
+    },
+    {
+      "number": "20699421",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210323140446/https://sprintstar.ca/ShipmentTrackingdetails.aspx?Orderno=20699421",
+        "date": "2021-03-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An opened capture of the tracker of SprintStar, Apple Express's residential brand, shows this parcel through the Canada sort facility and delivered, left at the door."
+    },
+    {
+      "number": "27846810",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20211203160450/https://goapple.appleexpress.com/OrderTrackingMultipleDetails.aspx?OrderNo=27846810",
+        "date": "2021-12-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An opened capture of Apple Express's own tracker shows this parcel created and in transit to the local sort facility, bound for Toronto."
+    },
+    {
+      "number": "49913242",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240108125354/https://track.appleexpress.com/orderNumber/49913242",
+        "date": "2024-01-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "Archived lookup on Apple Express's own tracker; the capture was not opened, so the history was not visible."
+    },
+    {
+      "number": "66098931",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250122214159/https://track.appleexpress.com/orderNumber/66098931",
+        "date": "2025-01-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Archived lookup on Apple Express's own tracker; the capture was not opened, so the history was not visible."
+    },
+    {
+      "number": "92274200",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260713191213/https://trackapi.appleexpress.com/api/track/order/92274200/language/en-US",
+        "date": "2026-07-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An opened archived reply of Apple Express's own tracking API shows this parcel received and out for delivery in Calgary."
+    },
+    {
+      "number": "APPL9640004279332",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260512182423/https://track.appleexpress.com/en-CA/orderNumber/APPL9640004279332",
+        "date": "2026-05-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "apple-express",
+        "confidence": "high"
+      },
+      "note": "Archived lookup of a shipper's APPL reference on Apple Express's own tracker; the capture was not opened, so the history was not visible."
+    },
+    {
+      "number": "APPL9640004330095",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260628175209/https://trackapi.appleexpress.com/api/track/order/APPL9640004330095/language/en-CA",
+        "date": "2026-06-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "apple-express",
+        "confidence": "high"
+      },
+      "note": "An opened archived reply of Apple Express's own tracking API for this shipper reference shows the parcel, under its eight-digit Apple Express order number, processed in Toronto and in transit to Surrey, BC."
+    }
+  ]
+}

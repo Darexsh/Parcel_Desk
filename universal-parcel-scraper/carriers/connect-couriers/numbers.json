@@ -1,0 +1,36 @@
+{
+  "carrier": "connect-couriers",
+  "records": [
+    {
+      "number": "24369093961",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240207082502/https://www.connectcouriers.eu/tracking/?tracking_number=24369093961",
+        "date": "2024-02-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "dhl-ecommerce-pl",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An archived lookup on Connect Couriers' own tracker address; the capture shows only the page shell, and Connect Couriers' tracker returns a delivered history for it."
+    }
+  ]
+}

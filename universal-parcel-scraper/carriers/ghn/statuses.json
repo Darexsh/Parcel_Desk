@@ -1,0 +1,12 @@
+{
+  "carrier": "ghn",
+  "entries": [
+    {"wording": "Chờ lấy hàng", "stage": "registered", "language": "vi", "confirmedBy": "official-doc", "note": "The waybill is created and waits for pickup. GHN's blog post on order statuses explains it."},
+    {"wording": "Đang lấy hàng", "stage": "registered", "language": "vi", "confirmedBy": "official-doc", "note": "A courier is on the way to the shop. GHN's blog post on order statuses explains it."},
+    {"wording": "Đã lấy hàng", "stage": "accepted", "language": "vi", "confirmedBy": "official-doc", "note": "Picked up from the shop. GHN's blog post on order statuses explains it."},
+    {"wording": "Đang giao hàng", "stage": "out_for_delivery", "language": "vi", "confirmedBy": "official-doc", "note": "GHN's blog post on order statuses explains it."},
+    {"wording": "Giao thành công", "stage": "delivered", "language": "vi", "confirmedBy": "official-doc", "note": "GHN's blog post on order statuses explains it."},
+    {"wording": "Giao thất bại", "stage": "failed_attempt", "language": "vi", "confirmedBy": "official-doc", "note": "GHN's blog post on order statuses explains it."},
+    {"wording": "Chờ xác nhận giao lại", "stage": "failed_attempt", "language": "vi", "confirmedBy": "official-doc", "note": "The recipient could not take the parcel; it waits for the shop to ask for another attempt. GHN's blog post on order statuses explains it."}
+  ]
+}

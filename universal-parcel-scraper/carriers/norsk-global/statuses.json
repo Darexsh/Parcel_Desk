@@ -1,0 +1,15 @@
+{
+  "carrier": "norsk-global",
+  "entries": [
+    {"code": "POD", "wording": "Delivered - Signed by", "language": "en", "stage": "delivered", "confirmedBy": "bundle", "note": "The shipment's status for a proof of delivery; the tracking page prints it as a delivery and names the signatory."},
+    {"wording": "Status changed to: Label created", "language": "en", "stage": "registered", "confirmedBy": "portal", "note": "Event of the archived tracker: the sender printed the label."},
+    {"wording": "Status changed to: Processed at UK Hub", "language": "en", "stage": "in_transit", "confirmedBy": "portal", "note": "Event of the archived tracker."},
+    {"wording": "Status changed to: Departed sort facility", "language": "en", "stage": "in_transit", "confirmedBy": "portal", "note": "Event of the archived tracker."},
+    {"wording": "Status changed to: Departed UK Hub", "language": "en", "stage": "in_transit", "confirmedBy": "portal", "note": "Event of the archived tracker."},
+    {"wording": "Status changed to: Item Grouped at Partner facility", "language": "en", "stage": "in_transit", "confirmedBy": "portal", "note": "Event of the archived tracker: consolidated for the partner abroad."},
+    {"wording": "Status changed to: Customs Cleared", "language": "en", "stage": "in_transit", "confirmedBy": "portal", "note": "Event of the archived tracker: export clearance at the UK gateway."},
+    {"wording": "Status changed to: Item Scanned at Post facility", "language": "en", "stage": "in_transit", "confirmedBy": "portal", "note": "Event of the archived tracker: the partner's first scan abroad."},
+    {"wording": "Status changed to: Item in transit with Carrier", "language": "en", "stage": "in_transit", "confirmedBy": "portal", "note": "Event of the archived tracker: with the partner abroad."},
+    {"wording": "Status changed to: POD", "language": "en", "stage": "delivered", "confirmedBy": "portal", "note": "Event of the archived tracker: the proof of delivery, by its status code."}
+  ]
+}

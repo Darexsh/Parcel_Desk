@@ -1,0 +1,29 @@
+{
+  "carrier": "pavan-courier",
+  "records": [
+    {
+      "number": "61188172",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170703193251/http://www.pavancourier.com:80/Tracking.aspx?txtawbno=61188172",
+        "date": "2017-07-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Pavan's former tracker shows this AWB number booked in June 2017, sent to Ahmedabad and delivered there."
+    }
+  ]
+}

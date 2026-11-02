@@ -1,0 +1,42 @@
+{
+  "id": "sptexp",
+  "displayName": "SPT Express",
+  "aliases": [
+    "SPT",
+    "速派通",
+    "速派通国际物流",
+    "速派通-辰途国际",
+    "辰途国际"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#2ba0e8"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "canaryUrl": "https://t.17track.net/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "sptexp-1",
+      "pattern": "^SPT\\d{12}YQ$",
+      "confidence": "low"
+    }
+  ]
+}

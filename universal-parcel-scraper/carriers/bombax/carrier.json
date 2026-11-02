@@ -1,0 +1,45 @@
+{
+  "id": "bombax",
+  "displayName": "Bombax",
+  "aliases": [
+    "Bombax Logistics",
+    "Bombax Logistics Pvt. Ltd."
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#ed1849"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://book.bombax.in/booking/Tracking?OrderNo={trackingNumber}",
+    "searchUrl": "https://book.bombax.in/Booking/Track",
+    "canaryUrl": "https://bombax.in/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "book.bombax.in"
+      ],
+      "pathPattern": "^/booking/tracking$",
+      "params": [
+        "OrderNo"
+      ]
+    }
+  ],
+  "detection": []
+}

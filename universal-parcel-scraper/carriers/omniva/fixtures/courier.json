@@ -1,0 +1,79 @@
+{
+  "shipmentBarcode": "JJEE90000000000000001",
+  "currentDeliveryChannel": "COURIER",
+  "deliveryLocation": {
+    "zip": "60006",
+    "locationName": "Example Lane 7-1",
+    "servicePointTypeCode": "CUSTOMER_DELIVERY_PREFERENCE",
+    "countryCode": "LT",
+    "translations": []
+  },
+  "returningShipment": false,
+  "customsDeclarationRequired": false,
+  "events": [
+    {
+      "eventId": 3000001,
+      "eventCode": "TRT_SHIPMENT_REGISTERED",
+      "eventName": "Shipment registered. Shipment has not been handed over to Omniva",
+      "eventDate": "2026-03-08T11:44:21.4101185Z",
+      "eventParameters": []
+    },
+    {
+      "eventId": 3000002,
+      "eventCode": "TRT_SHIPMENT_PICKED_UP_BY_COURIER",
+      "eventName": "The courier has picked up the shipment",
+      "eventDate": "2026-03-08T12:20:44.721Z",
+      "eventParameters": [{ "name": "SHIPMENT_SCANNED", "value": "true" }]
+    },
+    {
+      "eventId": 3000003,
+      "eventCode": "TRT_SHIPMENT_ARRIVED_TO_PO",
+      "eventName": "Shipment has arrived at a postal facility for further processing",
+      "eventDate": "2026-03-09T10:34:48.476Z",
+      "location": {
+        "zip": "70007",
+        "locationName": "Sample sorting line",
+        "servicePointTypeCode": "WORKSTATION",
+        "countryCode": "LT",
+        "translations": { "en": { "id": 3, "name": "Sample sorting center" } }
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 3000004,
+      "eventCode": "TRT_SHIPMENT_COURIER_DELIVERY_STARTED",
+      "eventName": "The shipment has been handed over to the courier",
+      "eventDate": "2026-03-10T06:02:10.3Z",
+      "eventParameters": []
+    },
+    {
+      "eventId": 3000005,
+      "eventCode": "TRT_COURIER_CALLED_TO_RECEIVER",
+      "eventName": "Courier has reached out to the recipient for delivery",
+      "eventDate": "2026-03-10T09:15:00.25Z",
+      "eventParameters": []
+    },
+    {
+      "eventId": 3000006,
+      "eventCode": "TRT_SHIPMENT_FAILED_DELIVERY_ATTEMPT",
+      "eventName": "Delivery attempt made",
+      "eventDate": "2026-03-10T09:31:47.1Z",
+      "location": {
+        "zip": "60006",
+        "locationName": "Example Lane 7-1",
+        "servicePointTypeCode": "CLIENT",
+        "countryCode": "LT",
+        "translations": []
+      },
+      "eventParameters": [{ "name": "TASK_EVENT_REASON_CODE", "value": "RECIPIENT_NOT_HOME" }]
+    },
+    {
+      "eventId": 3000007,
+      "eventCode": "TRT_COURIER_PRE_DELIVERY_RECIPIENT_NOTIFICATION",
+      "eventName": "A notification of courier arrival has been sent",
+      "eventDate": "2026-03-10T09:32:00.5Z",
+      "eventParameters": [{ "name": "NOTIFICATION_CHANNEL", "value": "EMAIL" }]
+    }
+  ],
+  "currentStateCode": "ON_COURIER_DELIVERY"
+}

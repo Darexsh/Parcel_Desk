@@ -1,0 +1,19 @@
+{
+  "carrier": "seino",
+  "entries": [
+    {"code": "16", "wording": "発送店にあります", "language": "ja", "stage": "accepted", "confirmedBy": "portal", "note": "At the branch that received it, before it leaves."},
+    {"code": "15", "wording": "発送店を出発しています", "language": "ja", "stage": "in_transit", "confirmedBy": "portal"},
+    {"code": "25", "wording": "協力会社へ中継しています", "language": "ja", "stage": "in_transit", "confirmedBy": "portal", "note": "Handed to a partner company that carries it on or delivers it."},
+    {"code": "07", "wording": "配達店に到着しています", "language": "ja", "stage": "in_transit", "confirmedBy": "portal"},
+    {"code": "14", "wording": "現在配達中です", "language": "ja", "stage": "out_for_delivery", "confirmedBy": "portal", "note": "Sometimes followed by the hour it is due by, as in 【１１：００までに配達予定】."},
+    {"code": "08", "wording": "配達済みです", "language": "ja", "stage": "delivered", "confirmedBy": "portal"},
+    {"code": "22", "wording": "配達済みです（再配達）", "language": "ja", "stage": "delivered", "confirmedBy": "live", "note": "Delivered on a second run."},
+    {"wording": "受付", "language": "ja", "stage": "accepted", "confirmedBy": "live", "note": "A milestone of the detail, printed with a space between its characters; it has no code."},
+    {"wording": "発送", "language": "ja", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "中継", "language": "ja", "stage": "in_transit", "confirmedBy": "live", "note": "Usually without a time: a relay the shipment skips or has not reached, sometimes with the branch it is planned at."},
+    {"wording": "到着", "language": "ja", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "配達回送", "language": "ja", "stage": "in_transit", "confirmedBy": "portal", "note": "An extra milestone, after arrival, for a shipment handed on to a partner company."},
+    {"wording": "持出", "language": "ja", "stage": "out_for_delivery", "confirmedBy": "live"},
+    {"wording": "配達", "language": "ja", "stage": "delivered", "confirmedBy": "live"}
+  ]
+}

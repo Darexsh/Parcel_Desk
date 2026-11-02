@@ -1,0 +1,143 @@
+
+
+<head>    
+    <meta charset="utf-8">
+    <title>Hawb</title>
+    <!-- Stylesheets -->
+    <link href="/css/hawb.css" rel="stylesheet">
+
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+
+<body id="bodySeguimiento">
+    <form id="bmiformulario" runat="server">         
+            <div id="bmiprincipalseguimiento">
+
+                <h2 id="TitSeguimiento"> Seguimiento de envíos </h2>
+               
+               <div runat="server" class="cajaseguimiento" id="bmicajaseguimiento1">
+
+                    <div style=" text-align:center; margin-bottom:0px">
+                        <img src="/images/Copa.png" alt="" />
+                    </div>
+                        <div class="cabeceradatos" style="display:table;">
+                      <div id="EstadoEnvio">
+                            <asp:Label ID="lblEstadoEnvio" runat="server" Text="Estado"></asp:Label>
+                      </div>
+                      <div style="display:inline-block; visibility:hidden;  width:12.3%;">
+                            <label for="lblFecha" class="etiq anchomin campocabecera">Fecha de entrada:</label>
+                      </div>
+                      <div style="display:inline-block">
+                            <label for="lblHAWB" class="etiq anchomin campocabecera">Número HAWB</label>
+                      </div>
+                      <div style="display:inline-block">
+                            <label for="lblaeropuertoorigen" class="etiq anchomin campocabecera">Origen</label>                       
+                       </div>
+                      <div style="display:inline-block">
+                            <label for="lblaeropuertodestino" class="etiq anchomin campocabecera">Destino</label>                       
+                       </div>
+                      <div style="display:inline-block">
+                            <label for="lblbultos" class="etiq anchomin campocabecera">Número de bultos</label>                        
+                       </div>
+                      <div style="display:inline-block">
+                            <label for="lblPesoNeto" class="etiq anchomin campocabecera">Peso (Kg)</label>                        
+                       </div>
+                      <div style="display:inline-block; visibility:hidden;width:11%">
+                            <label for="lblServicio" class="etiq anchomin campocabecera">Servicio:</label>                          
+                       </div>
+                      <div style="display:inline-block; visibility:hidden; width:12.3% ">
+                          <label class="etiq anchomin campocabecera">Fecha</label>
+                      </div>
+                      <div style="display:inline-block">
+                                    <asp:Label runat="server" class="etiq anchomin campoDetalle" ID="lblHAWB1">H9000002</asp:Label>                      
+                       </div>
+                      <div style="display:inline-block">
+                                    <asp:Label runat="server" class="etiq anchomin campoDetalle" ID="lblaeropuertoorigen1">Sample Free Zone / Zona Libre</asp:Label>
+                       </div>
+                      <div style="display:inline-block">                   
+                                    <asp:Label runat="server" class="etiq anchomin campoDetalle" ID="lblaeropuertodestino1">Sample Province</asp:Label>
+                       </div>
+                      <div style="display:inline-block">
+                                    <asp:Label runat="server" class="etiq anchomin campoDetalle" ID="lblbultos1">2</asp:Label>
+                       </div>
+                      <div style="display:inline-block">               
+                                    <asp:Label runat="server" class="etiq anchomin campoDetalle" ID="lblPesoNeto1">1,5</asp:Label>
+                       </div>           
+                   </div>
+                   <div class="detalledatos">
+                       <ul runat="server" id="bmilistadetalle1">
+                           <li class="cabeceradetalle" >
+                                        <label class="etiq fecha">Fecha -  Hora</label>
+                                        <label class="etiq hito">Hito</label>
+                                        <label class="etiq detalle">Detalle</label>
+                           </li>
+                           <li class="listadetalle" >
+                           </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>20-ago.-2026 15:44</label>
+                                               <label class='etiq hitodescripcion'>ENVIO RECIBIDO EN ORIGEN - ONX</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>20-ago.-2026 18:03</label>
+                                               <label class='etiq hitodescripcion'>PARTIENDO DE ORIGEN O PUNTO DE TR&#xC1;NSITO - ONX</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>20-ago.-2026 22:07</label>
+                                               <label class='etiq hitodescripcion'>RECIBIDO EN PUNTO DE TR&#xC1;NSITO - PTY</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>21-ago.-2026 12:41</label>
+                                               <label class='etiq hitodescripcion'>PARTIENDO DE ORIGEN O PUNTO DE TR&#xC1;NSITO - PTY</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>21-ago.-2026 12:51</label>
+                                               <label class='etiq hitodescripcion'>PARTIENDO DE ORIGEN O PUNTO DE TR&#xC1;NSITO - PTY</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>01-sept.-2026 11:53</label>
+                                               <label class='etiq hitodescripcion'>RECIBIDO EN DESTINO - HAV</label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>01-sept.-2026 12:10</label>
+                                               <label class='etiq hitodescripcion'>LLEGO AL CENTRO DE DISTRIBUCION - </label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                                   <li class='detallelista'>
+                                       <div>
+                                                   <label class='etiq fechadetalle'>01-sept.-2026 12:13</label>
+                                               <label class='etiq hitodescripcion'>EN PROCESO DE ADUANA - </label>
+                                               <label class='etiq hitodetalle'></label>
+                                       </div>
+                                   </li>
+                       </ul>   
+                   </div>
+               </div>
+
+           </div>
+
+        </div>
+    </form>
+
+</body>

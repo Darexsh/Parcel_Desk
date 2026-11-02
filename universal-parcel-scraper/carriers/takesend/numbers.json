@@ -1,0 +1,21 @@
+{
+  "carrier": "takesend",
+  "gap": "No public page shows a whole Take Send number.",
+  "records": [
+    {
+      "number": "TS2609040000017",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-28",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "takesend"
+        ]
+      },
+      "note": "Made-up number in the layout Take Send's delivery-time posts print with most digits hidden: TS, the date the parcel was registered and seven digits."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "carrier": "peqasus-az",
+  "records": [
+    {
+      "number": "GBS3032083843",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://peqasus.az/search?lang=en",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Peqasus prints this code as the example in its own tracking field and empty-state card on its search page, in the Azerbaijani, English and Russian versions."
+    }
+  ]
+}

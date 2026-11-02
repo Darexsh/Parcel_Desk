@@ -1,0 +1,25 @@
+{
+  "carrier": "latvijas-pasts",
+  "entries": [
+    { "code": "1112", "wording": "Electronic data about shipment received", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The sender's data reached Latvijas Pasts, here imported from Mans Pasts; the item is not handed over yet." },
+    { "code": "1114", "wording": "Item information received", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The sender registered the item; Latvijas Pasts does not have it yet." },
+    { "code": "78", "wording": "Item received from sender", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "Comes before or beside the posting scan when a business sender hands items over." },
+    { "code": "1", "wording": "Item posted / received from customer", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "Also the foreign post's posting scan of an item from abroad." },
+    { "code": "2", "wording": "Item sent to the processing facility", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Left the posting office for sorting." },
+    { "code": "3", "wording": "Item arrived at office of exchange", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The outward office of exchange, in Riga or in the foreign post of an item from abroad." },
+    { "code": "4", "wording": "Item sent to the Customs", "language": "en", "stage": "customs", "confirmedBy": "live", "note": "Presented to export customs at the office of exchange." },
+    { "code": "7", "wording": "Item returned from Customs", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Released by customs. The shared rules would read the wording as a return." },
+    { "code": "8", "wording": "Item sent abroad", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Left the outward office of exchange." },
+    { "code": "12", "wording": "Item sent abroad (EDI-received)", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The foreign post's dispatch of an item from abroad, relayed by its electronic data." },
+    { "code": "30", "wording": "Item arrived at office of exchange", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The inward office of exchange, in Latvia or in the destination country." },
+    { "code": "32", "wording": "Item arrived at processing facility", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "code": "35", "wording": "Item sent to next processing facility", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "code": "77", "wording": "Item sent to next processing facility", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "code": "69", "wording": "Item awaiting next planned cycle", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Waiting for the next dispatch at the office of exchange." },
+    { "code": "1113", "wording": "Item sent to delivery facility", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The reply also names the delivery office, which the adapter does not read." },
+    { "code": "1120", "wording": "Item received at delivery office", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The item can still go out for delivery from there." },
+    { "code": "39", "wording": "Item handed over for delivery", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live", "note": "Seen from foreign posts' events in the destination country." },
+    { "code": "1134", "wording": "Notification - pick-up invitation printed", "language": "en", "stage": "ready_for_pickup", "confirmedBy": "live", "note": "The delivery office printed the invitation to collect the item there; its office is the pickup point." },
+    { "code": "37", "wording": "Item delivered", "language": "en", "stage": "delivered", "confirmedBy": "live", "note": "Also the foreign post's delivery of an item sent abroad." }
+  ]
+}

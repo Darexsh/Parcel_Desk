@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FasTrak - AIT Worldwide Logistics</title>
+    <link rel="shortcut icon" href="/Images/favicon.ico">
+    <link href="/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.kendostatic.com/2022.2.802/js/jquery.min.js"></script>
+    <script src="https://cdn.kendostatic.com/2022.2.802/js/kendo.all.min.js"></script>
+    <script src="https://cdn.kendostatic.com/2022.2.802/js/kendo.aspnetmvc.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="masthead">
+            <div class="wrapper">
+                <div class="logo left">
+                    <a href="https://www.aitworldwide.com"><img src="/Images/AIT-Worldwide-Logistics-Supply-Chain-Experts.png" alt="AIT Worldwide Logistics Supply Chain Experts" /></a>
+                </div>
+                <div class="right">
+                    <div class="mininav left">
+                        <ul id="ul_link_list_1_link_list" class="menulist cmslist">
+                            <li><a href="https://myait.aitworldwide.com/">MyAIT</a></li>
+                            <li><a href="https://www.aitworldwide.com/contact-us/">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    function ExpandGrid(iCount) {
+        var grid = $("#EventHistoryGrid_" + iCount).data("kendoGrid");
+        grid.dataSource.read();
+        $("#ShowHistory_" + iCount).hide();
+        $("#CollapseGrid_" + iCount).removeClass("collapse");
+    }
+    function OpenContactWindow(DocNum) {
+        $("#HomeDeliveryTrackingNum").val(DocNum);
+        var wnd = $("#wndContactInformation").data("kendoWindow");
+        wnd.center().open();
+    }
+</script>
+<div class="container text-center" style="padding-top: 20px; padding-bottom: 4px; width: 100% !important; padding-left: 0px !important; padding-right: 0px !important;">
+    <div class="SearchBackgroundMainNoBG">
+        <div class="SearchBackgroundSubNoBG">
+<form action="/" id="FasTrakSearchForm" method="post">                        <div class="container container-full">
+                            <div class="row ">
+                                <div class="col-sm-6" style="text-align: right;">
+                                    <textarea class="k-textbox TrackNumSearch" id="TrackingNumbers" maxlength="300" name="TrackingNumbers" placeholder="Track my shipment" required="required" style="height: 40px;" validationmessage="Please enter tracking number">
+555000777</textarea>
+                                </div>
+                                <div class="col-sm-6" style="text-align: left;">
+                                    <button class="AITButton AITButtonSize blue" id="primaryTextButton" name="primaryTextButton" style="height: 40px;">Search</button><script>kendo.syncReady(function(){jQuery("#primaryTextButton").kendoButton({});});</script><br />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <span class="k-invalid-msg" data-for="TrackingNumbers" width="100%"></span>
+                                </div>
+                            </div>
+                        </div>
+<input name="AntiforgeryFieldname" type="hidden" value="CfDJ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" /></form>        </div>
+    </div>
+</div>
+
+    <div class="container" id="TrackingDetails" style="padding-bottom: 80px;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="alert alert-info" role="alert">
+                        Shipment #1
+                    </div>
+                </div>
+            </div>
+
+        <div class="row row-eq-height">
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">Shipment Information</div>
+                    <div class="equaldiv panel-body text-center">
+                        <h3><span id="lblTrackNum">555000888</span></h3>
+                        <h4>Delivering To</h4>
+                        <h3><span class="glyphicon glyphicon-map-marker" id="lblDeliveryTo"></span>SAMPLE RIVER</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">Shipment Progress</div>
+                    <div class="equaldiv panel-body text-center" style="display: flex; justify-content: center; align-items: center;">
+                            <div class="container">
+                                <div class="row">
+                                                <img src="/Images/FasTrak-Status-Meter-01.svg" style="width: 100%" />
+                                </div>
+                                <div class="col">
+                                                <h3>Initiated</h3>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">
+                        Shipment Delivery
+                    </div>
+                    <div class="equaldiv panel-body text-center">
+                                <h4>Deliver By</h4>
+                                <h3>Wednesday</h3>
+                                <h4>January</h4>
+                                <h2><span class="glyphicon glyphicon-calendar"></span>06</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-sm-12">
+                Questions on this shipment?  Call us at &#x2B;1-555-010-0000
+            </div>
+        </div>
+
+                <div class="row" id="ShipmentInfoRow_1">
+                    <div class="col-sm-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading text-center">Shipment History</div>
+                            <div class="panel-body" style="text-align: center;">
+                                <script>
+                                function GetShipmentInfo_1() {
+
+                                    return { TrackingNumber: '555000888'};
+                                }
+                                </script>
+                                <div id="EventHistoryGrid_1" name="EventHistoryGrid_1" style="width: 100%;"></div><script>kendo.syncReady(function(){jQuery("#EventHistoryGrid_1").kendoGrid({"autoBind":true,"navigatable":true,"columns":[{"title":"Date","attributes":{"style":"text-align: left; font-size: 14px;"},"headerAttributes":{"style":"font-size: 14px;"},"width":"50px","media":"(max-width: 768px)","field":"StatusDate","filterable":{"messages":{"selectedItemsFormat":"{0} selected items"},"checkAll":false},"encoded":true},{"title":"Status Date \u0026 Time","attributes":{"style":"text-align: left; font-size: 14px"},"headerAttributes":{"style":"font-size: 14px;"},"width":"300px","media":"(min-width: 768px)","field":"StatusDateTime","filterable":{"messages":{"selectedItemsFormat":"{0} selected items"},"checkAll":false},"encoded":true},{"title":"Status","attributes":{"style":"text-align: left; font-size: 14px;"},"headerAttributes":{"style":"font-size: 14px;"},"media":"(min-width: 768px)","template":"\u003cdiv class=\"DescriptionTooltip\"\u003e#=Description#\u003c/div\u003e","field":"Description","filterable":{"messages":{"selectedItemsFormat":"{0} selected items"},"checkAll":false},"encoded":true},{"title":"Status","headerAttributes":{"style":"font-size: 14px;"},"media":"(max-width: 768px)","template":"\u003ctable\u003e\u003ctr\u003e\u003ctd valign=\u0027top\u0027 width=\u002770px\u0027 style=\u0027border-width: 0px !important; font-size: 14px;\u0027\u003e#= StatusTime #\u003c/td\u003e\u003ctd style=\u0027border-width: 0px !important; text-align: left !important; font-size: 14px;\u0027\u003e#:Description #\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e","field":"Description","filterable":{"messages":{"selectedItemsFormat":"{0} selected items"},"checkAll":false},"encoded":true}],"scrollable":false,"dataSource":{"type":(function(){if(kendo.data.transports['aspnetmvc-ajax']){return 'aspnetmvc-ajax';} else{throw new Error('The kendo.aspnetmvc.min.js script is not included.');}})(),"transport":{"read":{"url":""},"prefix":""},"schema":{"data":"Data","total":"Total","errors":"Errors","model":{"fields":{"DateAndTime":{"type":"date"},"StatusDateTime":{"type":"string"},"StatusDate":{"type":"string"},"StatusTime":{"type":"string"},"Code":{"type":"string"},"Description":{"type":"string"},"LongDescription":{"type":"string"},"Location":{"type":"string"},"StatusGroupCode":{"type":"string"}}}},"data":{"Data":[{"DateAndTime":"2026-12-28T10:02:13","StatusDateTime":"Monday, 28 Dec 2026 10:02 AM","StatusDate":"Dec 28","StatusTime":"10:02 AM","Code":"WEBENT","Description":"ORDER INFO SENT TO AIT: WEB","LongDescription":"AIT has received shipment details from the shipper. The status will be updated once the shipment has been picked up and moving within the AIT network.","Location":null,"StatusGroupCode":"CRT"}],"Total":1}}});});</script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <div class="container" id="TrackingDetails" style="padding-bottom: 80px;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="alert alert-info" role="alert">
+                        Shipment #2
+                    </div>
+                </div>
+            </div>
+
+        <div class="row row-eq-height">
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">Shipment Information</div>
+                    <div class="equaldiv panel-body text-center">
+                        <h3><span id="lblTrackNum">555000777</span></h3>
+                        <h4>Delivering To</h4>
+                        <h3><span class="glyphicon glyphicon-map-marker" id="lblDeliveryTo"></span>SAMPLE JUNCTION</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">Shipment Progress</div>
+                    <div class="equaldiv panel-body text-center" style="display: flex; justify-content: center; align-items: center;">
+                            <div class="container">
+                                <div class="row">
+                                                <img src="/Images/FasTrak-Status-Meter-01.svg" style="width: 100%" />
+                                </div>
+                                <div class="col">
+                                                <h3>Initiated</h3>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">
+                        Shipment Delivery
+                    </div>
+                    <div class="equaldiv panel-body text-center">
+                                <h4>Deliver By</h4>
+                                <h3>Friday</h3>
+                                <h4>January</h4>
+                                <h2><span class="glyphicon glyphicon-calendar"></span>08</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-sm-12">
+                Questions on this shipment?  Call us at &#x2B;1-555-010-0000
+            </div>
+        </div>
+
+                <div class="row" id="ShipmentInfoRow_2">
+                    <div class="col-sm-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading text-center">Shipment History</div>
+                            <div class="panel-body" style="text-align: center;">
+                                <script>
+                                function GetShipmentInfo_2() {
+
+                                    return { TrackingNumber: '555000777'};
+                                }
+                                </script>
+                                <button class="AITButton blue callout" id="ShowHistory_2" type="button" onclick="ExpandGrid(2);" data-toggle="collapse" data-target="#CollapseGrid_2" aria-expanded="false" aria-controls="CollapseGrid_2">Show History</button>
+                                <div class="collapse" id="CollapseGrid_2"><div id="EventHistoryGrid_2" name="EventHistoryGrid_2" style="width: 100%;"></div><script>kendo.syncReady(function(){jQuery("#EventHistoryGrid_2").kendoGrid({"autoBind":false,"navigatable":true,"columns":[{"title":"Date","attributes":{"style":"text-align: left; font-size: 14px;"},"headerAttributes":{"style":"font-size: 14px;"},"width":"50px","media":"(max-width: 768px)","field":"StatusDate","filterable":{"messages":{"selectedItemsFormat":"{0} selected items"},"checkAll":false},"encoded":true},{"title":"Status Date \u0026 Time","attributes":{"style":"text-align: left; font-size: 14px"},"headerAttributes":{"style":"font-size: 14px;"},"width":"300px","media":"(min-width: 768px)","field":"StatusDateTime","filterable":{"messages":{"selectedItemsFormat":"{0} selected items"},"checkAll":false},"encoded":true},{"title":"Status","attributes":{"style":"text-align: left; font-size: 14px;"},"headerAttributes":{"style":"font-size: 14px;"},"media":"(min-width: 768px)","template":"\u003cdiv class=\"DescriptionTooltip\"\u003e#=Description#\u003c/div\u003e","field":"Description","filterable":{"messages":{"selectedItemsFormat":"{0} selected items"},"checkAll":false},"encoded":true},{"title":"Status","headerAttributes":{"style":"font-size: 14px;"},"media":"(max-width: 768px)","template":"\u003ctable\u003e\u003ctr\u003e\u003ctd valign=\u0027top\u0027 width=\u002770px\u0027 style=\u0027border-width: 0px !important; font-size: 14px;\u0027\u003e#= StatusTime #\u003c/td\u003e\u003ctd style=\u0027border-width: 0px !important; text-align: left !important; font-size: 14px;\u0027\u003e#:Description #\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e","field":"Description","filterable":{"messages":{"selectedItemsFormat":"{0} selected items"},"checkAll":false},"encoded":true}],"scrollable":false,"dataSource":{"type":(function(){if(kendo.data.transports['aspnetmvc-ajax']){return 'aspnetmvc-ajax';} else{throw new Error('The kendo.aspnetmvc.min.js script is not included.');}})(),"transport":{"read":{"url":""},"prefix":""},"schema":{"data":"Data","total":"Total","errors":"Errors","model":{"fields":{"DateAndTime":{"type":"date"},"StatusDateTime":{"type":"string"},"StatusDate":{"type":"string"},"StatusTime":{"type":"string"},"Code":{"type":"string"},"Description":{"type":"string"},"LongDescription":{"type":"string"},"Location":{"type":"string"},"StatusGroupCode":{"type":"string"}}}},"data":{"Data":[{"DateAndTime":"2026-12-29T15:41:06","StatusDateTime":"Tuesday, 29 Dec 2026 03:41 PM","StatusDate":"Dec 29","StatusTime":"03:41 PM","Code":"WEBENT","Description":"ORDER INFO SENT TO AIT: WEB","LongDescription":"AIT has received shipment details from the shipper. The status will be updated once the shipment has been picked up and moving within the AIT network.","Location":null,"StatusGroupCode":"CRT"}],"Total":1}}});});</script></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+<div id="MessageDialog" name="MessageDialog"></div><script>kendo.syncReady(function(){jQuery("#MessageDialog").kendoDialog({"close":MessageDialog_OnClose,"actions":[{"text":"OK","primary":true}],"visible":false,"content":"Thank you!  Your email address has been successfully registered.","title":"Notes","width":"400px"});});</script>
+<div id="wndContactInformation" name="wndContactInformation" style="display:none">
+    <form id="frmContactInformation">
+        <div class="alert alert-warning" role="alert">
+            <span class="glyphicon glyphicon-info-sign" style="padding-right: 2px;"></span><span style="font-size: 14px">Please enter your email address if you wish to be alerted when your shipment is ready to be scheduled for delivery.</span>
+        </div>
+        <input type="hidden" id="HomeDeliveryTrackingNum" />
+        <label for="txtEmailAddress" style="font-size: 14px">Email Address</label><br />
+        <input autocomplete="New-Email-Address" id="EmailAddress" maxlength="60" name="EmailAddress" placeholder="e.g. myname@example.net" required="required" type="email" value="" />
+        <label for="txtDeliveryZipCode" style="font-size: 14px">Delivery Location Zip Code</label>
+        <input id="ZipCode" maxlength="5" name="ZipCode" required="required" type="text" value="" />
+        <button id="SubmitContactForm" class="AITButton"> Submit</button>
+        <button id="ContactInfoSubmitCancel" class="AITButton" formnovalidate="formnovalidate"> Cancel</button>
+    </form>
+</div><script>kendo.syncReady(function(){jQuery("#wndContactInformation").kendoWindow({"scrollable":true,"visible":false,"content":null,"draggable":false,"actions":[],"resizable":false,"title":"Enter Contact Information","modal":true,"width":"500px"});});</script>
+<script>
+    $(document).ready(function () {
+        $("#SubmitContactForm").click(function (event) {
+            event.preventDefault();
+            $.ajax({ type: "POST", data: {'TrackingNumber': $("#HomeDeliveryTrackingNum").val(), 'EmailAddress': $("#EmailAddress").val(), 'ZipCode': $("#ZipCode").val()}, url: '/Home/SubmitContactForm' });
+        });
+    });
+</script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'0000000000000000',t:'MDAwMDAwMDAwMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

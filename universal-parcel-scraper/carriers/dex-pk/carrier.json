@@ -1,0 +1,51 @@
+{
+  "id": "dex-pk",
+  "displayName": "DEX Pakistan",
+  "aliases": [
+    "Daraz Express Pakistan",
+    "DEX PK"
+  ],
+  "region": {
+    "countries": [
+      "PK"
+    ]
+  },
+  "brand": {
+    "color": "#f85606"
+  },
+  "selectable": true,
+  "timezone": "Asia/Karachi",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.dex.com.pk/tracking",
+    "canaryUrl": "https://www.dex.com.pk/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.dex.com.pk",
+        "dex.com.pk"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "references"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "dex-pk-1",
+      "pattern": "^PKDEX\\d{9}$",
+      "confidence": "high"
+    }
+  ]
+}

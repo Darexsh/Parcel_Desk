@@ -1,0 +1,290 @@
+{
+  "carrier": "pdn-express",
+  "records": [
+    {
+      "number": "PDN0066478515",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://pdn.express/en/track/",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "The placeholder of PDN Express's own tracking form gives it as the example number."
+    },
+    {
+      "number": "PDN0013911461",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250503031343/https://pdn.express/en/track/PDN0013911461",
+        "date": "2025-05-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on PDN Express's own tracker address; the capture was opened but holds only the page shell, so the history was not visible."
+    },
+    {
+      "number": "PDN0035475774",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251014180852/https://tracking.pdn.express/en/track/PDN0035475774",
+        "date": "2025-10-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on PDN Express's former tracking host; the capture was not opened, so the history was not visible."
+    },
+    {
+      "number": "PDN0056048681",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260428160337/https://pdn.express/nl/track/PDN0056048681",
+        "date": "2026-04-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on PDN Express's own Dutch tracker address; the capture was not opened, so the history was not visible."
+    },
+    {
+      "number": "PDN0070846706",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aad398c0d805d821a6e6fc2",
+        "date": "2026-09-18",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "PDN Express Nederland's reply to a review on its Trustpilot page names this parcel."
+    },
+    {
+      "number": "PDN0069745508",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aa94b21256192038500d5de",
+        "date": "2026-09-16",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "PDN Express Nederland's reply to a review on its Trustpilot page names this parcel; the review itself mistyped one zero as a letter O."
+    },
+    {
+      "number": "PDN0069048524",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aa931ff581e55b3920ccf58",
+        "date": "2026-09-15",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "A review on PDN Express's Trustpilot page gives this number for an undelivered parcel, and PDN's reply repeats it."
+    },
+    {
+      "number": "PDN0070164947",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aa805473a307fa546295d8b",
+        "date": "2026-09-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "A review on PDN Express's Trustpilot page gives this tracking number with its delayed delivery, and PDN's reply repeats it."
+    },
+    {
+      "number": "PDN0072736685",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6ac619c142e807e80d96fa4d",
+        "date": "2026-10-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "A review on PDN Express's Trustpilot page gives it as the tracking number of a parcel PDN was delivering."
+    },
+    {
+      "number": "PDN0065236666",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a82eddcb738cdc9eff2d106",
+        "date": "2026-08-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "A review on PDN Express's Trustpilot page names this parcel in its title as not delivered."
+    },
+    {
+      "number": "PDN0072835142",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.klacht.nl/pdn-express/klacht/onterecht-bezorgd-pakket-en-terugvordering-van-onrechtmatig-bedrag/",
+        "date": "2026-10-09",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "A complaint filed against PDN Express on klacht.nl gives it as a parcel PDN marked delivered."
+    },
+    {
+      "number": "PDN0070715330",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.klacht.nl/pdn-express/klacht/onjuiste-informatie-over-zending-pdn0070715330/",
+        "date": "2026-10-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "A complaint filed against PDN Express on klacht.nl names this shipment in its title."
+    },
+    {
+      "number": "PDN0065780541",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.klacht.nl/pdn-express/klacht/pakket-niet-ontvangen-ondanks-bevestiging-van-levering-6/",
+        "date": "2026-08-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "A complaint filed against PDN Express on klacht.nl gives it as a parcel reported delivered but not received."
+    },
+    {
+      "number": "PDN0063439823",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.klacht.nl/pdn-express/klacht/klacht-over-niet-geleverde-pakket-en-misleidende-bezorging/",
+        "date": "2026-07-19",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "A complaint filed against PDN Express on klacht.nl gives it for an AliExpress order PDN's courier was delivering."
+    },
+    {
+      "number": "PDN0060478863",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.klacht.nl/pdn-express/klacht/klacht-over-onbereikbare-klantenservice-en-onjuiste-pakketbezorging/",
+        "date": "2026-06-12",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pdn-express",
+        "confidence": "high"
+      },
+      "note": "A complaint filed against PDN Express on klacht.nl gives it as the tracking number of a parcel PDN handled."
+    }
+  ]
+}

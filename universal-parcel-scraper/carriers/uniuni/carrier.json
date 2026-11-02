@@ -1,0 +1,123 @@
+{
+  "id": "uniuni",
+  "displayName": "UniUni",
+  "aliases": [
+    "UNI Express"
+  ],
+  "region": {
+    "countries": [
+      "CA",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#f68841"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "uniuni",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 770
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://www.uniuni.com/tracking/?no={trackingNumber}",
+    "searchUrl": "https://www.uniuni.com/tracking/",
+    "helpUrl": "https://www.uniuni.com/support/",
+    "canaryUrl": "https://www.uniuni.com/tracking/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "estimated_delivery",
+      "eta_window"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "estimated_delivery",
+      "eta_window"
+    ],
+    "discarded": [
+      "inactive_legacy_estimates",
+      "detailed_delivery_prose",
+      "addresses",
+      "coordinates",
+      "operators",
+      "proof_images"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "uniuni.com"
+      ],
+      "params": [
+        "no"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "uniuni-1",
+      "pattern": "^UUS[A-Z0-9]{16}$",
+      "confidence": "high"
+    },
+    {
+      "id": "uniuni-2",
+      "pattern": "^4C\\d{9}US$",
+      "confidence": "high"
+    },
+    {
+      "id": "uniuni-3",
+      "pattern": "^UUSC\\d{12}$",
+      "confidence": "high"
+    },
+    {
+      "id": "uniuni-4",
+      "pattern": "^U9999\\d{11}$",
+      "confidence": "high"
+    },
+    {
+      "id": "uniuni-9",
+      "pattern": "^UR\\d{17}$",
+      "confidence": "high"
+    },
+    {
+      "id": "uniuni-5",
+      "pattern": "^U(?!9999)\\d{15}$",
+      "confidence": "low"
+    },
+    {
+      "id": "uniuni-7",
+      "pattern": "^[A-Z]{2}\\d{2}CAA0U\\d{9}$",
+      "confidence": "high"
+    },
+    {
+      "id": "uniuni-6",
+      "pattern": "^[A-Z]{2}\\d{2}(?:CA|US)A0[A-Z]\\d{9}$",
+      "confidence": "low"
+    },
+    {
+      "id": "uniuni-8",
+      "pattern": "^JY\\d{2}CA\\d{2}A\\d{9}$",
+      "confidence": "low"
+    }
+  ]
+}

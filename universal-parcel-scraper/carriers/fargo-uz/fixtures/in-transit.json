@@ -1,0 +1,52 @@
+{
+  "status": "success",
+  "data": {
+    "total": 6,
+    "list": [
+      {
+        "id": 6,
+        "status": "update",
+        "status_desc": "Status updated",
+        "date": "2026-05-08T08:00:00.000Z"
+      },
+      {
+        "id": 5,
+        "status": "in_sorting_facility",
+        "status_desc": "In sorting facility",
+        "date": "2026-05-08T07:45:00.000Z",
+        "warehouse": { "id": 123456789, "name": "000 · Sinov saralash markazi" },
+        "current_city_name": "Sinov",
+        "current_city_id": 123456789
+      },
+      {
+        "id": 4,
+        "status": "in_transit",
+        "status_desc": "In transit",
+        "date": "2026-05-07T20:00:00.000Z",
+        "warehouse": { "id": 123456789, "name": "000 · Namuna (Sinov bozori) bo'limi" },
+        "current_city_name": "Namuna",
+        "current_city_id": 123456789
+      },
+      {
+        "id": 3,
+        "status": "in_sorting_facility",
+        "status_desc": "In sorting facility",
+        "date": "2026-05-07T12:00:00.000Z",
+        "warehouse": { "id": 123456789, "name": "000 · Namuna (Sinov bozori) bo'limi" },
+        "current_city_name": "Namuna",
+        "current_city_id": 123456789
+      },
+      {
+        "id": 2,
+        "status": "unassigned",
+        "status_desc": "Order is waiting to be assigned to a courier",
+        "date": "2026-05-07T06:00:00.000Z"
+      },
+      {
+        "id": 1,
+        "status": "created",
+        "date": "2026-05-07T06:00:00.000Z"
+      }
+    ]
+  }
+}

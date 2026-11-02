@@ -1,0 +1,13 @@
+{
+  "carrier": "citysprint",
+  "entries": [
+    {"wording": "Booked", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "A status label defined in the script of CitySprint's own tracker."},
+    {"wording": "Awaiting collection", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "A status label defined in the script of CitySprint's own tracker. The Wickes variant of Booked: it shows until the first stop is completed."},
+    {"wording": "Collected", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "A status label defined in the script of CitySprint's own tracker."},
+    {"wording": "Out for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "A status label defined in the script of CitySprint's own tracker. For Wickes deliveries it replaces Collected once the first stop is completed."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "A status label defined in the script of CitySprint's own tracker."},
+    {"wording": "Issue raised", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "A status label defined in the script of CitySprint's own tracker. A stop of the job has an issue."},
+    {"wording": "Issue", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "A status label defined in the script of CitySprint's own tracker. The Wickes variant of Issue raised."},
+    {"wording": "Cancelled", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "A status label defined in the script of CitySprint's own tracker. The job was cancelled."}
+  ]
+}

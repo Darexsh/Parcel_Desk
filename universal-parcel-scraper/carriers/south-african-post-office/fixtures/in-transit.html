@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>South African Post Office Track And Trace South African Post office Track and Trace</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <div class="row justify-content-center p-0">
+                    <img src="/img/mobilogo.jpg" width="213" height="50" alt="Logo">
+                </div>
+             </div>
+</nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            
+
+
+
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+    function displayBusyIndicator() {
+        $('.loading').show();
+    }
+    function hideBusyIndicator() {
+        $('.loading').hide();
+    }
+    $(window).on('beforeunload', function () {
+        displayBusyIndicator();
+    });
+    $(document).on('submit', 'form', function () {
+        displayBusyIndicator();
+    });
+    $('document').bind('beforeunload', function () {
+        //do something
+        hideBusyIndicator();
+    });
+</script>
+
+
+
+
+
+
+<section class="intro">
+    <div class="backimg">
+        <div class="mask d-flex align-items-center" style="background-color: rgba(255, 255, 255, 0.1);">
+            <div class="container">
+                
+<div class="loading" >
+    Loading&#8230;
+</div>
+
+
+
+                <div class="card mask-custom p-1 mt-1 mb-2">
+                    <div class="card-body">
+                        <p class="h3 font-weight-bold mb-4 text-dark">Enter Parcel Number To Track</p>
+                        <form role="form" id="form-buscar">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 mb-3 mb-md-0">
+                                    <div id="basic" class="form-outline form-white">
+                                        <input type="text" id="txtpareclId" class="form-control form-control-lg" name="ParcelId"  required />
+                                        <label class="form-label" for="form1">Enter your tracking number</label>
+                                        <div id="dvInfo" class="text-center justify-content-center"
+                                             style="font-weight: bold; color:crimson">
+                                            <h4 class="text-danger"> </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <input type="submit"  id="btnSearch" class="btn btn-danger btn-block btn-lg" value="Search" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <div class="container col-lg-6 col-lg-offset-2">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="text-center pb-2" colspan="2">PARCEL TRACKING RESULTS</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Item Number</strong></td>
+                        <td class="pl-3">ZZ000000028GB</td>
+                    </tr>
+                    <tr>
+                        <td><strong>last scanned</strong></td>
+                        <td class="pl-3"> 2026/06/03 at 2:20 PM</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Location last scanned</strong></td>
+                        <td class="pl-3"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Currently has status of</strong></td>
+                        <td class="pl-3">Awaiting proof of purchase/value from addressee</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th># </th>
+                    <th>Type</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Branch</th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+                    <tr>
+                        <td>1</td>
+                        <td>Detention Notice</td>
+                        <td>2026/06/03</td>
+                        <td>2:20 PM</td>
+                        <td></td>
+                        <td>Awaiting proof of purchase/value from addressee</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Held In customs</td>
+                        <td>2026/06/03</td>
+                        <td>2:20 PM</td>
+                        <td></td>
+                        <td>Item sent to Customs</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>In Transit</td>
+                        <td>2026/06/02</td>
+                        <td>4:56 PM</td>
+                        <td>SAMPLE INTERNATIONAL MAIL CENTRE</td>
+                        <td>Dispatched</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>In Transit</td>
+                        <td>2026/06/01</td>
+                        <td>8:36 AM</td>
+                        <td>SAMPLE INTERNATIONAL MAIL CENTRE</td>
+                        <td>Incoming International</td>
+                    </tr>
+        </table>
+
+        </main>
+    </div>
+
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18"></script>
+
+    
+</body>
+</html>

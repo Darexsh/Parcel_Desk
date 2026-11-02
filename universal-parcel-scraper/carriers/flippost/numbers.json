@@ -1,0 +1,190 @@
+{
+  "carrier": "flippost",
+  "records": [
+    {
+      "number": "99-0087856",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190520080542/http://web.flippost.com:80/fp/client/api.php?dbAct=getTrackInfo&wbno=99-0087856",
+        "date": "2019-05-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived reply of Flip Post's own tracking API for this waybill shows its history from Ivanovo through Moscow to delivery in Cheboksary; Flip Post's API manual uses the same waybill as its example."
+    },
+    {
+      "number": "77-000-032",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.flippost.com/fplk/help/naklad.html",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A screenshot in Flip Post's own client cabinet help shows this waybill in a client's list of accepted and delivered waybills."
+    },
+    {
+      "number": "77-000-045",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.flippost.com/fplk/help/naklad.html",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A screenshot in Flip Post's own client cabinet help shows this waybill in a client's list of accepted and delivered waybills."
+    },
+    {
+      "number": "77-001-068",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.flippost.com/fplk/help/wb_view.html",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A screenshot in Flip Post's own client cabinet help shows this waybill against a sent courier order in a client's order list."
+    },
+    {
+      "number": "77-000-987",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.flippost.com/fplk/help/wb_view.html",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A screenshot in Flip Post's own client cabinet help shows this waybill against a delivered courier order in a client's order list."
+    },
+    {
+      "number": "4607-1850",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://sudact.ru/arbitral/doc/n9W0gr8N97xt/",
+        "date": "2025-02-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A Thirteenth Arbitration Appeal Court ruling says a notice was sent through OOO Flippost, as this Flip Post waybill in the case file shows."
+    },
+    {
+      "number": "738-3044",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://lawnotes.ru/sudpraktika/arbitrazh/reshenie-_-a40-173694_09-ot-21.01.2010-as-goroda-moskvy",
+        "date": "2010-01-21",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "A Moscow Arbitration Court ruling against OOO Flippost cites this Flip Post waybill for a document envelope its staff accepted for Saudi Arabia."
+    },
+    {
+      "number": "2422-4540",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://foodmarkets.ru/news/topic/20324/page2/",
+        "date": "2015-10-14",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A FoodMarkets forum member pastes the Flip Post tracker's reply for this waybill and adds that the Flip Post courier had called about the delivery."
+    }
+  ]
+}

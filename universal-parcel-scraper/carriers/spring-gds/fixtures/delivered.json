@@ -1,0 +1,46 @@
+{
+  "status": "success",
+  "data": {
+    "items": [
+      {
+        "item": "LX123456785NL",
+        "recipientName": "Made Up Recipient",
+        "recipientAddress": "Example Street 1, 1011 Example City",
+        "signatureUrl": "https://example.invalid/proof-of-delivery/1.png",
+        "events": [
+          {
+            "category": "Delivered",
+            "status": 37,
+            "datetime_local": "2026-09-03T10:12:00Z",
+            "status_description": "Shipment delivered",
+            "country_name": "Netherlands",
+            "country_code": "NL"
+          },
+          {
+            "category": "Out for delivery",
+            "status": 74,
+            "datetime_local": "2026-09-03T06:40:00Z",
+            "status_description": "Shipment out for delivery",
+            "country_name": "Netherlands",
+            "country_code": "NL"
+          },
+          {
+            "category": "Customs",
+            "status": 6060,
+            "datetime_local": "2026-09-01T19:05:00Z",
+            "status_description": "Customs clearance completed",
+            "country_name": "Netherlands",
+            "country_code": "NL"
+          },
+          {
+            "category": "Pre-advised",
+            "status": 1233,
+            "datetime_local": "2026-08-28T11:00:00Z",
+            "status_description": "Shipment data received",
+            "country_code": "CN"
+          }
+        ]
+      }
+    ]
+  }
+}

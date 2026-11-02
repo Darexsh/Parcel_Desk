@@ -1,0 +1,49 @@
+{
+  "carrier": "360lion",
+  "records": [
+    {
+      "number": "WSHMX3470977206YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210105203713/http://track.360lion.com:8080/toms/module/waybillManage/anonymousQuery?codes=WSHMX3470977206YQ",
+        "date": "2021-01-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "360lion"
+        ]
+      },
+      "note": "An archived lookup on 360Lion's former tracker asks for this number; the capture does not hold the answer, and the current tracker no longer knows it."
+    },
+    {
+      "number": "WSHMX3480507994YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210126034731/http://track.360lion.com:8080/toms/module/waybillManage/anonymousQuery?codes=WSHMX3480507994YQ",
+        "date": "2021-01-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "360lion"
+        ]
+      },
+      "note": "An archived lookup on 360Lion's former tracker asks for this number; the capture does not hold the answer, and the current tracker no longer knows it."
+    }
+  ]
+}

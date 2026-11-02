@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "trackingNumber": "00000000025",
+    "trackingSummary": [
+      { "stepStageIndex": 1, "stepStageLabel": "Shipment picked up", "stageStatus": "Shipment picked up", "stageDateTime": null },
+      { "stepStageIndex": 2, "stepStageLabel": "In Transit", "stageStatus": "Arrived at Operations Facility - Malta", "stageDateTime": "2026-05-06T06:40:00" }
+    ],
+    "packageData": [
+      {
+        "consignmentNumber": 100002,
+        "trackingNumber": "00000000033",
+        "pickedUpDateTime": null,
+        "shipper": { "cityTown": "", "country": "Origin", "stateProvince": "", "countryCode": "" },
+        "recipient": { "cityTown": "SAMPLE VILLAGE", "country": "MALTA", "stateProvince": "", "countryCode": "MT" },
+        "packageDetails": { "packageOrder": 2, "packageType": "Package", "weight": "", "dimension": "" },
+        "stageStatus": "Out for Delivery ",
+        "stageDateTime": "2026-05-06T08:10:00"
+      },
+      {
+        "consignmentNumber": 100002,
+        "trackingNumber": "00000000025",
+        "pickedUpDateTime": null,
+        "shipper": { "cityTown": "", "country": "Origin", "stateProvince": "", "countryCode": "" },
+        "recipient": { "cityTown": "SAMPLE VILLAGE", "country": "MALTA", "stateProvince": "", "countryCode": "MT" },
+        "packageDetails": { "packageOrder": 1, "packageType": "Package", "weight": "", "dimension": "" },
+        "stageStatus": "Arrived at Operations Facility - Malta",
+        "stageDateTime": "2026-05-06T06:40:00"
+      }
+    ],
+    "trackingHistory": [
+      {
+        "groupDate": "2026-05-06T08:10:00",
+        "items": [
+          { "packageCount": 1, "packages": [{ "trackingNumber": "00000000033" }], "username": "sample.driver@connect", "stageStatus": "Out for Delivery ", "stageDateTime": "2026-05-06T08:10:00" },
+          { "packageCount": 2, "packages": [{ "trackingNumber": "00000000025" }, { "trackingNumber": "00000000033" }], "username": "sample.hub@connect", "stageStatus": "Arrived at Operations Facility - Malta", "stageDateTime": "2026-05-06T06:40:00" }
+        ]
+      },
+      {
+        "groupDate": "2026-05-02T11:26:00",
+        "items": [
+          { "packageCount": 2, "packages": [{ "trackingNumber": "00000000025" }, { "trackingNumber": "00000000033" }], "username": "sample@partner", "stageStatus": "Shipment data received", "stageDateTime": "2026-05-02T11:26:00" }
+        ]
+      }
+    ]
+  }
+}

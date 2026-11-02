@@ -1,0 +1,65 @@
+{
+  "carrier": "bex-express",
+  "records": [
+    {
+      "number": "258523787",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251119132844/https://integrations.bexexpress.rs/api/Shipments/shipmentHistory?trackingValue=258523787",
+        "date": "2025-11-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on BEX Express's own tracking service, which its tracking page calls; the archived reply lists the shipment's events."
+    },
+    {
+      "number": "269592524",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260820133914/https://integrations.bexexpress.rs/api/Shipments/shipmentHistory?trackingValue=269592524",
+        "date": "2026-08-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt"
+        ]
+      },
+      "note": "Looked up on BEX Express's own tracking service, which its tracking page calls; the archived reply lists the shipment's events."
+    },
+    {
+      "number": "255658625",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://bexexpress.rs/DevDocumentation/shipmentHistory/",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The example request of the history lookup in BEX Express's API documentation; the tracking service knows it."
+    }
+  ]
+}

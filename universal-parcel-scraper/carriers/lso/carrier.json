@@ -1,0 +1,59 @@
+{
+  "id": "lso",
+  "displayName": "LSO",
+  "aliases": [
+    "Lone Star Overnight"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#0047ba"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.lso.com/tracking?airbillnos={trackingNumber}",
+    "searchUrl": "https://app.lso.com/tracking",
+    "canaryUrl": "https://app.lso.com/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "lso.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "airbillnos"
+      ]
+    },
+    {
+      "domains": [
+        "app.lso.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "barcodes"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "lso-1",
+      "pattern": "^ZY0[0-9A-Z]{5}$",
+      "confidence": "high"
+    }
+  ]
+}

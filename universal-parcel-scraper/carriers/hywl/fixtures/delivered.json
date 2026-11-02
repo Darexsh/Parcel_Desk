@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "tracking_number": "TRKB879BE6E9D8E",
+  "carrier": "SZHYWL",
+  "origin_country": "CN",
+  "destination_country": "FR",
+  "current_status": "Delivered",
+  "updated_at": "2026-01-29T14:17:09+00:00",
+  "events": [
+    {"time": "2026-01-05T06:17:09+00:00", "timezone": "UTC", "location": "东莞市 00000011", "status_code": "Picked Up", "description": "东莞市 00000011, SZHYWL已收取邮件"},
+    {"time": "2026-01-06T13:17:09+00:00", "timezone": "UTC", "location": "东莞", "status_code": "In Transit", "description": "东莞, 离开收寄点【东莞】"},
+    {"time": "2026-01-07T19:17:09+00:00", "timezone": "UTC", "location": "东莞", "status_code": "In Transit", "description": "东莞, 邮件到达处理中心【东莞】"},
+    {"time": "2026-01-09T02:17:09+00:00", "timezone": "UTC", "location": "东莞", "status_code": "In Transit", "description": "东莞, 邮件离开处理中心【东莞】"},
+    {"time": "2026-01-10T11:17:09+00:00", "timezone": "UTC", "location": "惠州", "status_code": "In Transit", "description": "Received by Carrier【惠州】, 承运商接收【惠州】"},
+    {"time": "2026-01-11T22:17:09+00:00", "timezone": "UTC", "location": "惠州", "status_code": "In Transit", "description": "Departure from【惠州】, 启运【惠州】"},
+    {"time": "2026-01-13T08:17:09+00:00", "timezone": "UTC", "location": "惠州", "status_code": "In Transit", "description": "In Transit【惠州】, 快件在该国内转运中, 干线中转"},
+    {"time": "2026-01-14T17:17:09+00:00", "timezone": "UTC", "location": "惠州", "status_code": "Customs", "description": "Customs Clearance Completed【惠州】, 出口清关完成【惠州】"},
+    {"time": "2026-01-19T04:17:09+00:00", "timezone": "UTC", "location": "FR", "status_code": "In Transit", "description": "Arrival at【FR】, 抵达【FR】"},
+    {"time": "2026-01-21T10:17:09+00:00", "timezone": "UTC", "location": "FR", "status_code": "In Transit", "description": "In Transit【FR】, 邮件在该国内转运中"},
+    {"time": "2026-01-24T16:17:09+00:00", "timezone": "UTC", "location": "Villefixe, 00000", "status_code": "In Transit", "description": "Arrival at Processing Center【Villefixe, 00000】, 邮件到达处理中心【Villefixe, 00000】"},
+    {"time": "2026-01-24T16:17:09+00:00", "timezone": "UTC", "location": "Villefixe, 00000", "status_code": "In Transit", "description": "Arrival at Processing Center【Villefixe, 00000】, 邮件到达处理中心【Villefixe, 00000】"},
+    {"time": "2026-01-26T21:17:09+00:00", "timezone": "UTC", "location": "Villefixe, 00000", "status_code": "In Transit", "description": "Departure from Processing Center【Villefixe, 00000】, 邮件离开处理中心【Villefixe, 00000】"},
+    {"time": "2026-01-28T09:17:09+00:00", "timezone": "UTC", "location": "Villefixe, 00000", "status_code": "Out for Delivery", "description": "Dispatching【Villefixe, 00000】, 出门投递【Villefixe, 00000】"},
+    {"time": "2026-01-29T14:17:09+00:00", "timezone": "UTC", "location": "Villefixe, 00000", "status_code": "Delivered", "description": "Delivered【Villefixe, 00000】, 已妥投【Villefixe, 00000】"}
+  ]
+}

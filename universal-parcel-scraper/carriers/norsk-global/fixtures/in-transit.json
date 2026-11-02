@@ -1,0 +1,40 @@
+[
+  {
+    "hawb": "NOR0000GB00000000001",
+    "trackingNumber": "LTN000000001N1",
+    "agentName": "Landmark",
+    "agentBarcode": null,
+    "landmarkAgent": "bpost",
+    "createdOn": "2026-06-01T10:00:00Z",
+    "statusDescription": "In Transit",
+    "pod": null,
+    "destination": {
+      "contact": "Sample Recipient",
+      "zipcode": "0000",
+      "country": "Belgium",
+      "isoName": ""
+    },
+    "narrative": [
+      {
+        "timeStamp": "2026-06-01T10:00:00Z",
+        "message": "2026-06-01 10:00:00 Shipment data received",
+        "location": ""
+      },
+      {
+        "timeStamp": "2026-06-01T17:45:00+01:00",
+        "message": "2026-06-01 17:45:00 Received at hub",
+        "location": "SAMPLE HUB GB"
+      },
+      {
+        "timeStamp": "2026-06-02T06:30:00+02:00",
+        "message": "2026-06-02 06:30:00 Arrived at Landmark facility",
+        "location": "SAMPLE TOWN BE"
+      },
+      {
+        "timeStamp": "2026-06-02T09:10:00.1234567+02:00",
+        "message": "2026-06-02 09:10:00 In transit to bpost",
+        "location": "SAMPLE TOWN BE"
+      }
+    ]
+  }
+]

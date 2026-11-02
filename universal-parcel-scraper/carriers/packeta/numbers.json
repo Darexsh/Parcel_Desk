@@ -1,0 +1,234 @@
+{
+  "carrier": "packeta",
+  "records": [
+    {
+      "number": "Z1234567890",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://docs.packeta.com/docs/packet-tracking/tracking"
+      },
+      "expect": {
+        "carrier": "packeta",
+        "confidence": "high"
+      },
+      "note": "Official documentation example, not a real shipment."
+    },
+    {
+      "number": "Z3110953842",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.paketda.de/fragen-antworten.php?suche=Z3110953842",
+        "date": "2023-06-05"
+      },
+      "expect": {
+        "carrier": "packeta",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "Z8328162946",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://help.orrs.de/6622/z%C3%A1silkovna-tracking-not-working"
+      },
+      "expect": {
+        "carrier": "packeta",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "Z8328162951",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://help.orrs.de/6622/z%C3%A1silkovna-tracking-not-working"
+      },
+      "expect": {
+        "carrier": "packeta",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "Z8360329994",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://help.orrs.de/6622/z%C3%A1silkovna-tracking-not-working"
+      },
+      "expect": {
+        "carrier": "packeta",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "Z3682567828",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.globkurier.pl/opinie-packeta",
+        "date": "2026-07-02",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "packeta",
+        "confidence": "high"
+      },
+      "note": "Shipment number in delayed-parcel report."
+    },
+    {
+      "number": "Z3746700432",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.globkurier.pl/opinie-packeta",
+        "date": "2025-10-01",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "international cash on delivery",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "packeta",
+        "confidence": "high"
+      },
+      "note": "Merchant explicitly reports COD shipments to Hungary."
+    },
+    {
+      "number": "Z4109782007",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.globkurier.pl/opinie-packeta",
+        "date": "2025-09-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "packeta",
+        "confidence": "high"
+      },
+      "note": "Customer supplies shipment number in Packeta review."
+    },
+    {
+      "number": "Px1684005605",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.globkurier.pl/opinie-packeta",
+        "date": "2024-03-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "quarantine",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "poczta-polska",
+        "confidence": "high"
+      },
+      "note": "PX number posted under Packeta, but issuer attribution is unsupported; potential postal last-mile number."
+    },
+    {
+      "number": "2949124276",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.globkurier.pl/opinie-packeta",
+        "date": "2024-08-06",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "The broker review shows the ten digits without the label's Z; customer reports Poland-to-Hungary delivery."
+    },
+    {
+      "number": "4651896715",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.globkurier.pl/opinie-packeta",
+        "date": "2026-07-29",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "The broker review shows the ten digits without the label's Z. Packeta's tracking returns the history of the Z-prefixed barcode."
+    },
+    {
+      "number": "Z 216 5782 938",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.globkurier.pl/opinie-packeta",
+        "date": "2025-09-16",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "cash on delivery",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "packeta",
+        "confidence": "high"
+      },
+      "note": "Spaced shipment number from a cash-on-delivery complaint. Packeta's tracking returns its history."
+    }
+  ]
+}

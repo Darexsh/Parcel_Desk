@@ -1,0 +1,85 @@
+{
+  "id": "emile",
+  "displayName": "Emile",
+  "aliases": [
+    "Emile Express"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#e42920"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "emile",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 480
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.emileps.com/tracking?tracking={trackingNumber}",
+    "searchUrl": "https://www.emileps.com/tracking",
+    "canaryUrl": "https://www.emileps.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "delivery_photo"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at"
+    ],
+    "discarded": [
+      "upstream_reference",
+      "remarks",
+      "event_details",
+      "postcodes",
+      "phone_numbers",
+      "proof_images"
+    ],
+    "unavailable": [
+      "delivery_photo"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "emileps.com"
+      ],
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "emile-1",
+      "pattern": "^EM\\d{12}CA$",
+      "confidence": "low"
+    },
+    {
+      "id": "emile-2",
+      "pattern": "^EM\\d{16}CA$",
+      "confidence": "low"
+    }
+  ]
+}

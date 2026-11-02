@@ -1,0 +1,63 @@
+{
+  "id": "polaris-transport",
+  "displayName": "Polaris Transportation Group",
+  "aliases": [
+    "Polaris Transportation",
+    "Polaris Transport",
+    "Polaris"
+  ],
+  "region": {
+    "countries": [
+      "CA",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#004c8c"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://polaristransport.com/en/trace-polaris.php?pro={trackingNumber}",
+    "searchUrl": "https://polaristransport.com/en/trace-polaris.php",
+    "canaryUrl": "https://polaristransport.com/en/trace-polaris.php",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "polaristransport.com",
+        "www.polaristransport.com"
+      ],
+      "pathPattern": "^/(?:en|fr)/(?:trace-polaris|quick-trace-shipments)\\.php$",
+      "params": [
+        "pro"
+      ]
+    },
+    {
+      "domains": [
+        "customer.polaristransport.com"
+      ],
+      "pathPattern": "^/trace/external_bill_viewer\\.msw$",
+      "params": [
+        "search_value"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "polaris-transport-1",
+      "pattern": "^P\\d{7}$",
+      "confidence": "low"
+    }
+  ]
+}

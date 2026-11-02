@@ -1,0 +1,47 @@
+{
+  "id": "syd",
+  "displayName": "SYD Express",
+  "aliases": [
+    "SYD",
+    "速邮达物流",
+    "速郵達物流",
+    "深圳市速邮达物流有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#ff0000"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://sud.kingtrans.cn/WebTrack?action=list&language=en&istrack=false&bills={trackingNumber}",
+    "searchUrl": "https://www.suyd56.com/Index.html",
+    "canaryUrl": "https://www.suyd56.com/Index.html",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "sud.kingtrans.cn"
+      ],
+      "pathPattern": "^/WebTrack$",
+      "params": [
+        "bills"
+      ]
+    }
+  ],
+  "detection": []
+}

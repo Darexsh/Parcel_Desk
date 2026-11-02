@@ -1,0 +1,45 @@
+{
+  "id": "stop-start",
+  "displayName": "Stop Start",
+  "aliases": [
+    "Stop Start Transport",
+    "Stop Start Transport Ltd"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#d85b2d"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track-my-order.co.uk/?s={trackingNumber}",
+    "searchUrl": "https://track-my-order.co.uk/",
+    "canaryUrl": "https://track-my-order.co.uk/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track-my-order.co.uk"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "s"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "eushipments",
+  "displayName": "euShipments",
+  "aliases": [
+    "eu Shipments"
+  ],
+  "region": {
+    "countries": [
+      "BG",
+      "RO",
+      "HR",
+      "SI",
+      "SK"
+    ]
+  },
+  "brand": {
+    "color": "#0a8fcf"
+  },
+  "selectable": true,
+  "timezone": "Europe/Sofia",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "eushipments",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history"
+  ],
+  "portal": {
+    "url": "https://eushipments.com/tracking",
+    "searchUrl": "https://eushipments.com/tracking",
+    "canaryUrl": "https://eushipments.com/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "event_details",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "event_details"
+    ],
+    "unavailable": [
+      "eta",
+      "provider_code",
+      "offset_timestamps",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [],
+  "detection": []
+}

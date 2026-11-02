@@ -1,0 +1,79 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>배송조회</title>
+<link href="default.css" rel="stylesheet" type="text/css" />
+<script>
+function BrnshpInfo(x,y){
+    var brnNm  = x;
+    var brnTel = y;
+    var pointX = event.clientX+100;
+    var pointY = event.clientY;
+    var url    = 'http://www.hydex.net/ehydex/jsp/home/distribution/tracking/tracingPopup.jsp?BrnshpNm='+brnNm+'&BrnshpTel='+brnTel;
+    var name   = 'popup';
+    var option = 'left='+pointX+',top='+pointY+',width=380,height=200';
+    window.open(url,name,option);
+}
+</script>
+</head>
+
+<body leftmargin="10" topmargin="10" marginwidth="0" marginheight="0">
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="780"></td>
+  </tr>
+<style>
+.popbox {
+	display: none;
+	position: absolute;
+	z-index: 99999;
+	width: 300px;
+	padding: 10px;
+	background: #EEEFEB;
+	color: #000000;
+	border: 1px solid #4D4F53;
+	margin: 0px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+	box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+}
+
+.popbox h2 {
+	background-color: #4D4F53;
+	color: #E3E5DD;
+	font-size: 1em;
+	font-weight: normal;
+	display: block;
+	width: 100%;
+	margin: -10px 0px 8px -10px;
+	padding: 5px 10px;
+}
+</style>
+
+
+
+<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+<script>
+function multi_ship_num(iframe_name, ship_company_cd, tracking_num)
+{
+	document.getElementById(iframe_name).src="/tracking_kor.php?view_mode=show&multi_flag=Y&&ship_company_cd="+ ship_company_cd +"&tracking_num=" + tracking_num +"&iframe_name=" + iframe_name; 
+}
+function screenPop(url,name,scrollbars,width,height)
+{
+	var window_left = (screen.width-width)/2;
+	var window_top = (screen.height-height)/2;
+	window.open(url,name,'width='+ width +',height='+ height +',scrollbars='+ scrollbars +',resizable=yes,status=no,top=' + window_top + ',left=' + window_left + '');
+}
+</script>
+
+          <tr>
+            <td   style='padding-left:40px;'>
+              <br>
+              <b><font color='#CC9900'>해당 데이타가 존재하지 않습니다</font></b>
+            </td>
+          </tr>
+            <tr>
+    <td ></td>
+  </tr>
+
+</table>
+</body>
+</html>

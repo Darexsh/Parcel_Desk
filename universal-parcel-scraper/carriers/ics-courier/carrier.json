@@ -1,0 +1,92 @@
+{
+  "id": "ics-courier",
+  "displayName": "ICS Courier",
+  "aliases": [
+    "ICS"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#004b8e"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ics-courier",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "pickup_point"
+  ],
+  "portal": {
+    "url": "https://www.icscourier.ca/online-services/parcel-tracking.aspx?trackNums={trackingNumber}",
+    "searchUrl": "https://www.icscourier.ca/online-services/parcel-tracking.aspx",
+    "canaryUrl": "https://www.icscourier.ca/online-services/parcel-tracking.aspx",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "pickup_point",
+      "office_opening_hours",
+      "coordinates",
+      "recipient_name",
+      "recipient_address",
+      "sender_details",
+      "signatory",
+      "signature_images"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "pickup_point"
+    ],
+    "discarded": [
+      "office_opening_hours",
+      "coordinates",
+      "recipient_name",
+      "recipient_address",
+      "sender_details",
+      "signatory",
+      "signature_images"
+    ],
+    "unavailable": [
+      "weight",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "icscourier.ca"
+      ],
+      "pathPattern": "^/online-services/(?:parcel-)?tracking\\.aspx$",
+      "params": [
+        "trackNums"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "ics-courier-1",
+      "pattern": "^(?:ND|GR)[0-9A-Z]{12}[A-Z]\\d[A-Z]\\d[A-Z]\\d$",
+      "confidence": "high"
+    }
+  ]
+}

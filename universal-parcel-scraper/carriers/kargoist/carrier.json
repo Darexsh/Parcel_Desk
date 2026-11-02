@@ -1,0 +1,56 @@
+{
+  "id": "kargoist",
+  "displayName": "Kargoist",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "TR"
+    ]
+  },
+  "brand": {
+    "color": "#18b6d6"
+  },
+  "selectable": true,
+  "timezone": "Europe/Istanbul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://kargoist.com/tracking/getlink.php?barcode={trackingNumber}",
+    "canaryUrl": "https://kargoist.com/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "kargoist.com"
+      ],
+      "pathPattern": "^/tracking/getlink\\.php$",
+      "params": [
+        "barcode"
+      ]
+    },
+    {
+      "domains": [
+        "kargotakip.kargoist.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "har_kod"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "kargoist-1",
+      "pattern": "^KAR\\d{6,7}$",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="hu">
+<head>
+	<base href="https://tracking.expressone.hu/" />
+	<meta charset="utf-8">
+	<title>Tracking - Express One Hungary</title>
+</head>
+<body>
+	<div class="d-flex flex-column min-vh-100">
+		<div class="container flex-fill">
+			<div class="position-relative">
+				<span class="lang pt-1">
+					<a href="https://tracking.expressone.hu/?plc_number=100000000000000000000001&setlang=hu">HU <img src="/images/Arrow-orange-right.png" height="16"></a>
+				</span>
+			</div>
+			<hr class="mt-2 mb-2" />
+			<div>
+				<div class="alert alert-danger" role="alert">
+					<p><b>The requested package is currently unavailable in our system.</b></p><p>Please check the following possibilities:</p><ul class="pl-3"><li class="mb-1">The provided package number might be incorrect. Please check and correct it if necessary.</li><li class="mb-1">If the package number is older than 180 days, it may have been automatically removed from our system.</li><li class="mb-1">It is also possible that the package has not yet been registered in our system by the Sender. In this case, please try again later.</li></ul>				</div>
+	<form method="get" class="form-tracking" id="form-tracking">
+		<div>
+			<b>Please enter the required ID :</b>
+		</div>
+		<input type="text" name="plc_number" id="plc_number" value="100000000000000000000001" class="form-control" autocomplete="off" />
+		<div class="text-center mt-2 mb-2">
+			<button type="submit" class="btn btn-primary btn-arrow g-recaptcha_ btn-submit">
+				Search			</button>
+		</div>
+		<div class="info-box info">
+			<div class="pt-4">
+				<b>You can search for three types of package IDs:</b>
+				<ul class="mb-0">
+					<li>Package ID, barcode number</li>
+					<li>Shipper reference number</li>
+					<li>Shipper document number</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<b>Company ID (5 digits):</b>
+		</div>
+		<input type="text" name="sender_id" value="" class="form-control" />
+	</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

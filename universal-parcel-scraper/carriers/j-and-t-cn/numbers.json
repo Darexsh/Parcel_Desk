@@ -1,0 +1,51 @@
+{
+  "carrier": "j-and-t-cn",
+  "records": [
+    {
+      "number": "JT3008619576784",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220730071028/https://www.jtexpress.com.cn/service.html?indexIpt=JT3008619576784",
+        "date": "2022-07-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "j-and-t",
+          "j-and-t-cn"
+        ]
+      },
+      "note": "An archived lookup on J&T China's own tracker carries this waybill in its address; the capture holds the page shell, so no history was visible."
+    },
+    {
+      "number": "jt5010412638982",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210724010622/https://www.jtexpress.com.cn/service.html?indexIpt=jt5010412638982",
+        "date": "2021-07-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "j-and-t",
+          "j-and-t-cn"
+        ]
+      },
+      "note": "An archived lookup on J&T China's own tracker carries this waybill, typed in lower case, in its address; the capture was not opened, and the page loads its history by script."
+    }
+  ]
+}

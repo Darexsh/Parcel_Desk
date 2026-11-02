@@ -1,0 +1,65 @@
+{
+  "orderno": "1234567890",
+  "ordercode": "12346",
+  "awb": "KZ1234567890",
+  "barcode": "KZ1234567890",
+  "price": "1234.00",
+  "weight": "0.3",
+  "quantity": "2",
+  "type": "1",
+  "deliveredto": null,
+  "delivereddate": null,
+  "delivery_price": "1234.50",
+  "instruction": "Позвонить Образцовой за час",
+  "receiver_town": "Примерск город",
+  "receiver_zipcode": "000000",
+  "receiver_date": "2026-05-20",
+  "courier_name": "Тестов Тест Тестович",
+  "courier_phone": "80000000000",
+  "coords": {"lat": "1.234567", "lon": "12.345678"},
+  "status": {
+    "code": "DEPARTURE",
+    "name": null,
+    "title": "Отправлено со склада"
+  },
+  "statushistory": [
+    {
+      "event_time": "2026-05-17 12:01:02",
+      "event_store": "Образцово",
+      "event_town": "Образцово город",
+      "message": "",
+      "status": {"code": "NEW", "name": null, "title": "Новый"}
+    },
+    {
+      "event_time": "2026-05-18 08:10:00",
+      "event_store": "Образцово",
+      "event_town": "Образцово город",
+      "message": "",
+      "status": {"code": "ACCEPTED", "name": null, "title": "Получен складом"}
+    },
+    {
+      "event_time": "2026-05-18 17:25:40",
+      "event_store": "Образцово",
+      "event_town": "Образцово город",
+      "message": "Офис в Примерске",
+      "status": {"code": "DEPARTURING", "name": null, "title": "Планируется отправка"}
+    },
+    {
+      "event_time": "2026-05-18 18:02:13",
+      "event_store": "Образцово",
+      "event_town": "Образцово город",
+      "message": "Офис в Примерске",
+      "status": {"code": "DEPARTURE", "name": null, "title": "Отправлено со склада"}
+    },
+    {
+      "event_time": "2026-05-18 18:02:13",
+      "event_store": "Образцово",
+      "event_town": "Образцово город",
+      "message": "Офис в Примерске",
+      "status": {"code": "DEPARTURE", "name": null, "title": "Отправлено со склада"}
+    }
+  ],
+  "acquirers": [
+    {"code": "1", "name": "Образец Pay"}
+  ]
+}

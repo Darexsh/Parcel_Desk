@@ -1,0 +1,49 @@
+{
+  "id": "credifin",
+  "displayName": "Credifin Logística",
+  "aliases": [
+    "Credifin",
+    "Credifin Express",
+    "Credifin Logistica"
+  ],
+  "region": {
+    "countries": [
+      "AR"
+    ]
+  },
+  "brand": {
+    "color": "#001d9c"
+  },
+  "selectable": true,
+  "timezone": "America/Argentina/Buenos_Aires",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://credifin.com.ar/seguimiento/{trackingNumber}",
+    "searchUrl": "https://credifin.com.ar/seguimiento/",
+    "canaryUrl": "https://credifin.com.ar/seguimiento/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "credifin.com.ar"
+      ],
+      "path": "^/seguimiento/(\\d+)/?$"
+    },
+    {
+      "domains": [
+        "tracking.credifin.com.ar"
+      ],
+      "path": "^/(\\d+)/?$"
+    }
+  ],
+  "detection": []
+}

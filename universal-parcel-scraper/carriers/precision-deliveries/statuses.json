@@ -1,0 +1,19 @@
+{
+  "carrier": "precision-deliveries",
+  "entries": [
+    {"code": "1", "wording": "Manifest Scan", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "The shipper's manifest has reached Precision; the parcel is not yet scanned."},
+    {"code": "1", "wording": "Analyse du Manifeste", "stage": "registered", "language": "fr", "confirmedBy": "portal", "note": "French wording of Manifest Scan."},
+    {"code": "X4NS1", "wording": "Received at Terminal", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "First physical scan at a Precision terminal; Amazon inbound parcels show the code AMZ_INBOUND_X4_NS with the same wording."},
+    {"code": "AMZ_INBOUND_X4_NS", "wording": "Reçu au Terminal", "stage": "accepted", "language": "fr", "confirmedBy": "portal", "note": "French wording of Received at Terminal."},
+    {"code": "AMNS1", "wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal"},
+    {"code": "D1NS2", "wording": "Delivered - Mailroom/Mailbox", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Delivered to the building's mailroom or mailbox."},
+    {"code": "INBOUND_RCVD", "wording": "First Mile Inbound", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "The parcel received from a shipping platform's pickup, before its terminal scan."},
+    {"code": "INBOUND_RCVD", "wording": "Premier kilomètre entrant", "stage": "accepted", "language": "fr", "confirmedBy": "live", "note": "French wording of First Mile Inbound."},
+    {"code": "AMZ_INBOUND_X4_NS", "wording": "Received at Terminal", "stage": "accepted", "language": "en", "confirmedBy": "live"},
+    {"code": "AMNS1", "wording": "Départ pour Livraison", "stage": "out_for_delivery", "language": "fr", "confirmedBy": "live", "note": "French wording of Out for Delivery."},
+    {"code": "AMZ_DELIVERY_D1_SP", "wording": "Delivered - Safe location", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"code": "AMZ_DELIVERY_D1_SP", "wording": "Livré - emplacement sûr", "stage": "delivered", "language": "fr", "confirmedBy": "live", "note": "French wording of Delivered - Safe location."},
+    {"code": "AMZ_DELIVERY_D1_LX", "wording": "Delivered - Mailroom/Mailbox", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"code": "AMZ_DELIVERY_D1_LX", "wording": "Livré – Salle de courrier/boîte aux", "stage": "delivered", "language": "fr", "confirmedBy": "live", "note": "French wording of Delivered - Mailroom/Mailbox, cut short by the service."}
+  ]
+}

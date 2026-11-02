@@ -1,0 +1,43 @@
+{
+  "carrier": "seabourne-logistics",
+  "records": [
+    {
+      "number": "200747159",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20130324151116/http://www.seabourne-logistics.com:80/Webbookingnew/awbxref.asp?Nrawb=200747159",
+        "date": "2013-03-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Seabourne's own former tracker shows this air waybill from the Netherlands to India, through to its delivery, with the onward carrier's number as a cross-reference."
+    },
+    {
+      "number": "205366829",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170928051904/http://www.seabourne-logistics.com:80/Webbooking/awbxref.asp?Nrawb=205366829",
+        "date": "2017-09-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Seabourne's own former tracker shows this air waybill from the Netherlands to India, from pickup to delivery, with the onward carrier's number as a cross-reference; the current tracker does not find it."
+    }
+  ]
+}

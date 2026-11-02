@@ -1,0 +1,8 @@
+{
+  "carrier": "parcelpoint",
+  "entries": [
+    {"code": "BOOKED", "wording": "Parcel information has been received by PARCELPOINT.", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The carrier booked the parcel to a point; it has not arrived there yet."},
+    {"code": "CHECKED_IN", "wording": "[point] has confirmed delivery of your parcel from [carrier], it's ready for collection.", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "live", "note": "The point's name and the delivering carrier's name fill the brackets. The delivery is to the point, not to the recipient."},
+    {"code": "CHECKED_OUT", "wording": "Your parcel has been collected from the PARCELPOINT location.", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The recipient collected the parcel; the delivering carrier logs the same collection as its delivery."}
+  ]
+}

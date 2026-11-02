@@ -1,0 +1,63 @@
+[
+  {
+    "hawb": "PKG000000000001",
+    "trackingNumber": "420000009210090000000012345679",
+    "agentName": "USPS",
+    "agentBarcode": "SAMPLE0001",
+    "landmarkAgent": null,
+    "createdOn": "2026-05-11T09:12:00",
+    "statusDescription": "POD",
+    "pod": {
+      "signedBy": "SAMPLE SIGNER",
+      "signedOn": "2026-05-19T14:02:00"
+    },
+    "destination": {
+      "contact": "Sample Recipient",
+      "zipcode": "00000",
+      "country": "United States",
+      "isoName": "US"
+    },
+    "narrative": [
+      {
+        "timeStamp": "2026-05-19T14:02:00",
+        "message": "19/05/2026 14:02:00 Delivered - Signed for by SAMPLE SIGNER",
+        "location": "SAMPLE CITY US"
+      },
+      {
+        "timeStamp": "2026-05-19T07:40:00",
+        "message": "19/05/2026 07:40:00 Out for delivery",
+        "location": "SAMPLE CITY US"
+      },
+      {
+        "timeStamp": "2026-05-17T22:15:00",
+        "message": "17/05/2026 22:15:00 Arrived at USPS regional facility",
+        "location": "SAMPLE HUB US"
+      },
+      {
+        "timeStamp": "2026-05-15T03:30:00",
+        "message": "15/05/2026 03:30:00 Handed over to USPS",
+        "location": "SAMPLE GATEWAY US"
+      },
+      {
+        "timeStamp": "2026-05-13T11:05:00",
+        "message": "13/05/2026 11:05:00 Customs cleared. Call +00 000 000 0000 with questions.",
+        "location": " SAMPLE GATEWAY US "
+      },
+      {
+        "timeStamp": "2026-05-12T18:20:00",
+        "message": "12/05/2026 18:20:00 Departed hub",
+        "location": "SAMPLE HUB GB"
+      },
+      {
+        "timeStamp": "2026-05-12T18:20:00",
+        "message": "12/05/2026 18:20:00 Departed hub",
+        "location": "SAMPLE HUB GB"
+      },
+      {
+        "timeStamp": "2026-05-11T09:12:00.000",
+        "message": "11/05/2026 09:12:00 Received at hub. Please send it to depot@example.com.",
+        "location": "SAMPLE HUB GB"
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "id": "hr-parcel",
+  "displayName": "HR Parcel",
+  "aliases": [
+    "HR-PARCEL",
+    "HRParcel",
+    "HR Parcel S.r.l."
+  ],
+  "region": {
+    "countries": [
+      "IT"
+    ]
+  },
+  "brand": {
+    "color": "#FFD512"
+  },
+  "selectable": true,
+  "timezone": "Europe/Rome",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "hr-parcel",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 887
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://www.hrparcel.com/traccia-spedizioni/?barcode={trackingNumber}",
+    "searchUrl": "https://www.hrparcel.com/traccia-spedizioni/",
+    "canaryUrl": "https://www.hrparcel.com/traccia-spedizioni/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin",
+      "parcel_count",
+      "progress_rail",
+      "delivery_options"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "origin",
+      "parcel_count",
+      "progress_rail",
+      "delivery_options"
+    ],
+    "unavailable": [
+      "eta",
+      "delivered_at",
+      "offset_timestamps",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "hrparcel.com"
+      ],
+      "pathPattern": "^/(?:traccia-spedizioni|en/tracking|it/tracking)/?$",
+      "params": [
+        "barcode"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,32 @@
+{
+  "carrier": "c3x",
+  "records": [
+    {
+      "number": "2150252125",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://trackship.com/shipping-provider/c3xpress/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Example on TrackShip's C3xpress page; C3X's tracker returned its delivered history."
+    }
+  ]
+}

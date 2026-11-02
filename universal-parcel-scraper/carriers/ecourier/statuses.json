@@ -1,0 +1,17 @@
+{
+  "carrier": "ecourier",
+  "entries": [
+    {"wording": "Initiated", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Listed in the tracking reply of eCourier's merchant API documentation and seen on its tracking page. The order is booked and not yet picked up."},
+    {"wording": "Initiated API", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Named in the cancel-order section of the merchant API documentation: an order booked through the API."},
+    {"wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Listed in the tracking reply of eCourier's merchant API documentation."},
+    {"wording": "Parcel process by Fulfillment", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "On the tracking page, after the booking of an order eCourier's fulfilment centre packs from the merchant's stock it holds."},
+    {"wording": "In Source Branch", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Listed in the tracking reply of eCourier's merchant API documentation. At the branch serving the sender."},
+    {"wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Listed in the tracking reply of eCourier's merchant API documentation."},
+    {"wording": "Sent to Destination Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "On the tracking page; its location reads \"In transit to\" the delivering branch."},
+    {"wording": "In Destination Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "On the tracking page, at the delivering branch. The page can list it more than once at the same minute."},
+    {"wording": "In Destination Branch", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Listed in the tracking reply of eCourier's merchant API documentation. At the branch serving the recipient."},
+    {"wording": "Delivery Agent Assigned", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "On the tracking page: the delivering branch gave the parcel to a rider. \"On the way to Delivery\" follows when the rider sets out."},
+    {"wording": "On the way to Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Listed in the tracking reply of eCourier's merchant API documentation and seen on its tracking page."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Listed in the tracking reply of eCourier's merchant API documentation and seen on its tracking page."}
+  ]
+}

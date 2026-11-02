@@ -1,0 +1,14 @@
+{
+  "carrier": "grand-slam-express",
+  "entries": [
+    {"wording": "Shipment Received at HUB", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "The first scan, at the hub abroad that takes the shipment in. The shared wording rules read it as an acceptance."},
+    {"wording": "CUSTOM HOLD", "stage": "customs", "language": "en", "confirmedBy": "live", "note": "Held by customs on arrival in India."},
+    {"wording": "Packet Manifested to <branch> In Manifest No: <manifest>", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Put on a manifest for the branch it names, entered at the hub abroad."},
+    {"wording": "Packet Dispatched to <branch> In Challan No: <challan>", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Sent to the branch it names under a challan, entered at the hub abroad."},
+    {"wording": "Packet Received", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Received at the branch the location names."},
+    {"wording": "Packet Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"wording": "Packet has been DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Dated at midnight: the delivery's day without its time."},
+    {"wording": "DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The shipment's status in the heading above its history."},
+    {"wording": "Please enter valid AWB number!", "language": "en", "confirmedBy": "live", "note": "The lookup's message for a number it holds no shipment under, with no HTML."}
+  ]
+}

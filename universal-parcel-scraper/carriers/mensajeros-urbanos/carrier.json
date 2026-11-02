@@ -1,0 +1,42 @@
+{
+  "id": "mensajeros-urbanos",
+  "displayName": "Mensajeros Urbanos",
+  "aliases": [
+    "MU TEAM S.A.S."
+  ],
+  "region": {
+    "countries": [
+      "CO",
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#27adb8"
+  },
+  "selectable": true,
+  "timezone": "America/Bogota",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://plataforma.mensajerosurbanos.com/ext/seguimiento-domicilios/{trackingNumber}",
+    "searchUrl": "https://mensajerosurbanos.com/",
+    "canaryUrl": "https://mensajerosurbanos.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "plataforma.mensajerosurbanos.com"
+      ],
+      "path": "^/ext/seguimiento-domicilios/([^/]+)/?$"
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,121 @@
+{
+  "total_results": 2,
+  "results": [
+    {
+      "matched_reference_number": "70000020",
+      "matched_reference_type": "OrderNumber",
+      "house_bill_number": "SMP0000003",
+      "shipment_id": "SMP00000030302260912",
+      "departure_local_date": "2026-03-02T09:12:00+0000",
+      "origin": {
+        "code": "SMO",
+        "name": "SAMPLE ORIGIN",
+        "country": "US"
+      },
+      "module": "AO",
+      "ground_unified_order_id": null,
+      "arrival_local_date": null,
+      "destination": {
+        "code": "SMD",
+        "name": "SAMPLE DESTINATION",
+        "country": null
+      },
+      "main_mode": "ROA",
+      "latest_milestone": {
+        "code": "OnHandAtDestination",
+        "location": {
+          "code": "SMD",
+          "name": null,
+          "country": null
+        },
+        "progress": 66,
+        "arrival_local_date": null
+      },
+      "movement_type": "LTL",
+      "total_weight": [
+        {
+          "value": 121,
+          "unit": "KG"
+        },
+        {
+          "value": 266,
+          "unit": "LB"
+        }
+      ],
+      "cancelled": false,
+      "total_cargo": "1",
+      "brokerage": false,
+      "brokerage_type": null,
+      "reference": "SMP0000003",
+      "reference_type": "HB",
+      "reference_type_query": "HB",
+      "reference_query": "SMP0000003",
+      "destination_date": "2026-03-12T17:59:00+0000",
+      "destination_date_type": "estimated",
+      "origin_date": "2026-03-02T09:12:00+0000",
+      "origin_date_type": "pickup_freight_actual",
+      "source_system": "WORLDPORT",
+      "booking_source_file": null,
+      "target_system": null,
+      "job_numbers": null
+    },
+    {
+      "matched_reference_number": "7000002",
+      "matched_reference_type": "OrderNumber",
+      "house_bill_number": "SMP0000002",
+      "shipment_id": "SMP00000020302260912",
+      "departure_local_date": "2026-03-02T09:12:00+0000",
+      "origin": {
+        "code": "SMO",
+        "name": "SAMPLE ORIGIN",
+        "country": "US"
+      },
+      "module": "AO",
+      "ground_unified_order_id": null,
+      "arrival_local_date": null,
+      "destination": {
+        "code": "SMD",
+        "name": "SAMPLE DESTINATION",
+        "country": null
+      },
+      "main_mode": "ROA",
+      "latest_milestone": {
+        "code": "OnHandAtDestination",
+        "location": {
+          "code": "SMD",
+          "name": null,
+          "country": null
+        },
+        "progress": 66,
+        "arrival_local_date": null
+      },
+      "movement_type": "LTL",
+      "total_weight": [
+        {
+          "value": 121,
+          "unit": "KG"
+        },
+        {
+          "value": 266,
+          "unit": "LB"
+        }
+      ],
+      "cancelled": false,
+      "total_cargo": "1",
+      "brokerage": false,
+      "brokerage_type": null,
+      "reference": "SMP0000002",
+      "reference_type": "HB",
+      "reference_type_query": "HB",
+      "reference_query": "SMP0000002",
+      "destination_date": "2026-03-12T17:59:00+0000",
+      "destination_date_type": "estimated",
+      "origin_date": "2026-03-02T09:12:00+0000",
+      "origin_date_type": "pickup_freight_actual",
+      "source_system": "WORLDPORT",
+      "booking_source_file": null,
+      "target_system": null,
+      "job_numbers": null
+    }
+  ]
+}

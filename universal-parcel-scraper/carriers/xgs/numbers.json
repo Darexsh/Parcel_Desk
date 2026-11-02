@@ -1,0 +1,52 @@
+{
+  "carrier": "xgs",
+  "gap": "XGS probill numbers are seven or eight digits, lengths many carriers share, so there is no rule.",
+  "records": [
+    {
+      "number": "12345678",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developers.xgsi.com/docs/Agents/intro/",
+        "date": "2026-10-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The probill number XGS's developer documentation uses as its example."
+    },
+    {
+      "number": "3971122",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.xgsi.com/wp-content/uploads/210-XGS-Motor-Carrier-Details-and-Invoice-1.pdf",
+        "date": "2026-10-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "The probill number of the business example in XGS's EDI invoice specification."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "amalgamated-distribution",
+  "displayName": "Amalgamated Distribution",
+  "aliases": [
+    "Amalgamated Distribution & Taxi Trucks",
+    "Amalgamated Distribution and Taxi Trucks",
+    "Amalgamated Distribution Pty Ltd",
+    "Amaldist",
+    "Amalgamated Taxi Trucks"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#006059"
+  },
+  "selectable": true,
+  "timezone": "Australia/Melbourne",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://online.amaldist.com.au/track/?item={trackingNumber}",
+    "searchUrl": "https://online.amaldist.com.au/track/",
+    "canaryUrl": "https://www.amaldist.com.au/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "online.amaldist.com.au"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "item"
+      ]
+    }
+  ],
+  "detection": []
+}

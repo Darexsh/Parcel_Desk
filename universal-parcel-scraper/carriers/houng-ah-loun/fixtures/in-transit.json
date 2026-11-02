@@ -1,0 +1,85 @@
+{
+  "shipment_info": {
+    "bill_number": "SVT00000000002",
+    "vendor_tracking_bill_number": null,
+    "pickup_date": "2026-04-07 08:00:05",
+    "delivery_date": null,
+    "logo": null,
+    "from_branch_prefix": "SVT",
+    "destination_branch_prefix": "VTE",
+    "from_branch_code": "HC1-2-3",
+    "destination_branch_code": "HL4-5-6",
+    "from_branch": "ສາຂາ ທົດລອງສອງ (ຫຼັກ12)",
+    "from_branch_tel": "00000000",
+    "destination_branch": "ສາຂາ ທົດລອງໜຶ່ງ",
+    "destination_branch_tel": "0000000",
+    "sender_name": "ຜູ້ສົ່ງ ທົດລອງ",
+    "receiver_name": "Sample Receiver",
+    "receiver_phone_number": "000****0000",
+    "second_receiver_name": null,
+    "second_receiver_phone_number": null,
+    "order_type": "normal",
+    "transportation_type": "normal",
+    "item_count": 1,
+    "parcel_name": null,
+    "parcel_category_name": "ເຄື່ອງທົດລອງ",
+    "total_pieces": 1,
+    "total_dimension_length": 40,
+    "total_weight": 1.5,
+    "total_freight": 20000,
+    "total_rental_price": 0,
+    "total_volume": 0,
+    "weight_unit": "Kg",
+    "volume_unit": "m^3",
+    "freight_currency": "lak",
+    "external_import": false,
+    "go_teddy_order_tracking": false,
+    "eligible_for_goteddy_service": false,
+    "has_been_returned": false,
+    "status": "ກຳລັງຈັດສົ່ງ",
+    "status_id": null,
+    "signed_bills": [],
+    "un_signed_bills": [],
+    "remark": null,
+    "is_show_freight": true,
+    "is_store_freight_hidden": false,
+    "epop_image": null
+  },
+  "tracking_events": [
+    {
+      "date": "2026-04-06 19:45:00",
+      "place": "",
+      "message": "",
+      "delivery_state": 1,
+      "delivery_state_name": "Pending"
+    },
+    {
+      "date": "2026-04-07 08:00:05",
+      "place": "ສາຂາ ທົດລອງສອງ (ຫຼັກ12)",
+      "message": "ຮັບພັດສະດຸແລ້ວ",
+      "delivery_state": 2,
+      "delivery_state_name": "Accept"
+    },
+    {
+      "date": "2026-04-07 08:00:07",
+      "place": "ສາຂາ ທົດລອງສອງ (ຫຼັກ12)",
+      "message": "ພັດສະດຸຮອດສາຂາ ທົດລອງສອງ (ຫຼັກ12)  - ນາງ ຕົວຢ່າງ ສາທິດ - ເບີໂທ 00000000000",
+      "delivery_state": 3,
+      "delivery_state_name": "Packing"
+    },
+    {
+      "date": "2026-04-07 16:12:30",
+      "place": "ສາຂາ ທົດລອງສອງ (ຫຼັກ12)",
+      "message": "ກໍາລັງຈັດສົ່ງໄປ ສູນຄັດແຍກທົດລອງ  - ນາງ ຕົວຢ່າງ ສາທິດ",
+      "delivery_state": 4,
+      "delivery_state_name": "On the way"
+    },
+    {
+      "date": "2026-04-08 03:25:18",
+      "place": "ສູນຄັດແຍກທົດລອງ",
+      "message": "ພັດສະດຸຮອດ ສູນຄັດແຍກທົດລອງ ",
+      "delivery_state": 3,
+      "delivery_state_name": "Packing"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "carrier": "mauritius-post",
+  "records": [
+    {
+      "number": "dp512267472mu",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251230093423/https://www.mauritiuspost.mu/track-trace/?tracking_code=dp512267472mu",
+        "date": "2025-12-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Mauritius Post's own tracking page shows this item, entered in lower case, with its history from acceptance in Quatre Bornes to dispatch towards Mahebourg."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "carrier": "dpd-pt",
+  "entries": [
+    {"code": "007", "wording": "DEPOSITADO PELO CLIENTE/EXPEDIDOR", "stage": "accepted", "language": "pt", "confirmedBy": "portal", "note": "The sender dropped the parcel at a pickup point."},
+    {"code": "012", "wording": "ENTREGUE À DPD PELO PONTO DE ENTREGA", "stage": "in_transit", "language": "pt", "confirmedBy": "portal", "note": "The pickup point handed the parcel to DPD."},
+    {"code": "COL", "wording": "ENCOMENDA RECOLHIDA", "stage": "accepted", "language": "pt", "confirmedBy": "portal", "note": "Collected by the courier; after a pickup-point drop-off or a depot scan it is a hand-over in transit."},
+    {"code": "INB", "wording": "ENTRADA EM ARMAZÉM", "stage": "in_transit", "language": "pt", "confirmedBy": "portal", "note": "Scanned in at a depot on the way."},
+    {"code": "PEC", "wording": "ENTRADA EM ARMAZÉM", "stage": "in_transit", "language": "pt", "confirmedBy": "portal", "note": "Scanned in at the depot before delivery."},
+    {"code": "HUB", "wording": "PASSAGEM POR HUB", "stage": "in_transit", "language": "pt", "confirmedBy": "portal"},
+    {"code": "OFD", "wording": "EM DISTRIBUIÇÃO", "stage": "out_for_delivery", "language": "pt", "confirmedBy": "portal"},
+    {"code": "706", "wording": "HORÁRIO DE ENTREGA ENVIADA AO DESTINATÁRIO", "language": "pt", "confirmedBy": "portal", "note": "A message giving the recipient a delivery window, which the comment column shows; it is not a scan."},
+    {"code": "709", "wording": "MENSAGEM \"A PROXIMA ENTREGA\" ENVIADA", "language": "pt", "confirmedBy": "portal", "note": "A message telling the recipient of the next delivery; it is not a scan."},
+    {"code": "714", "wording": "DATA PREVISTA DE ENTREGA", "language": "pt", "confirmedBy": "live", "firstSeen": "2026-10-27", "note": "The expected delivery day, dated when DPD set it, beside the depot's intake. It is not a scan, and the history leaves it out."},
+    {"code": "500", "wording": "ENDEREÇO DO DESTINATÁRIO INCORRECTO OU DESCONHECIDO", "stage": "failed_attempt", "language": "pt", "confirmedBy": "portal", "note": "Not delivered because the address is wrong or unknown; the parcel went out again."},
+    {"code": "501", "wording": "ENDEREÇO DO DESTINATÁRIO INCOMPLETO OU ILEGÍVEL", "stage": "failed_attempt", "language": "pt", "confirmedBy": "portal", "note": "Not delivered because the address is incomplete or unreadable."},
+    {"code": "506", "wording": "AUSÊNCIA DO DESTINATÁRIO", "stage": "failed_attempt", "language": "pt", "confirmedBy": "portal", "note": "The recipient was not in."},
+    {"code": "508", "wording": "DESTINATÁRIO ENCERRADO PARA FÉRIAS", "stage": "failed_attempt", "language": "pt", "confirmedBy": "portal", "note": "The recipient was closed for holidays."},
+    {"code": "521", "wording": "LOCKER / PICKUP LOTADO", "stage": "failed_attempt", "language": "pt", "confirmedBy": "portal", "note": "The locker or pickup point was full; the parcel went to another point."},
+    {"code": "402", "wording": "RETORNO ARMAZÉM PARA ENTREGA", "stage": "in_transit", "language": "pt", "confirmedBy": "portal", "note": "Back at the depot to go out again."},
+    {"code": "403", "wording": "RETORNO ARMAZÉM (PÁRA AEP)", "stage": "in_transit", "language": "pt", "confirmedBy": "portal", "note": "Back at the depot after a failed attempt, not a return to the sender."},
+    {"code": "410", "wording": "ENVIO EM ARMAZÉM", "stage": "in_transit", "language": "pt", "confirmedBy": "portal", "note": "Held at the depot."},
+    {"code": "741", "wording": "PEDIDO DE NOVA ENTREGA", "language": "pt", "confirmedBy": "portal", "note": "A request for a new delivery, not a movement."},
+    {"code": "743", "wording": "PEDIDO DE ALTERAÇÃO DE MORADA", "language": "pt", "confirmedBy": "portal", "note": "A request to change the address, not a movement."},
+    {"code": "723", "wording": "MORADA CORRIGIDA PELO EXPEDIDOR", "stage": "in_transit", "language": "pt", "confirmedBy": "portal", "note": "The sender corrected the address after a failed attempt."},
+    {"code": "001", "wording": "ENTREGUE PELA DPD NO PONTO DE ENTREGA", "stage": "ready_for_pickup", "language": "pt", "confirmedBy": "portal", "note": "The driver left the parcel at a pickup point or locker for the recipient."},
+    {"code": "002", "wording": "RECEPCIONADO PELO PONTO DE ENTREGA", "stage": "ready_for_pickup", "language": "pt", "confirmedBy": "portal", "note": "The pickup point took the parcel in; the comment column names the point."},
+    {"code": "008", "wording": "DATA DE PERMANÊNCIA EM LOJA EXPIRADA", "stage": "exception", "language": "pt", "confirmedBy": "portal", "note": "Nobody collected the parcel at the pickup point in time."},
+    {"code": "424", "wording": "DEVOLUÇÃO AO EXPEDIDOR", "stage": "exception", "language": "pt", "confirmedBy": "portal", "note": "A return to the sender ordered; the proof of delivery after it is the delivery back to the sender."},
+    {"code": "611", "wording": "ENCOMENDA DEVOLVIDA AO EXPEDIDOR", "stage": "returned", "language": "pt", "confirmedBy": "portal"},
+    {"code": "POD", "wording": "PROVA DE ENTREGA", "stage": "delivered", "language": "pt", "confirmedBy": "portal", "note": "Proof of delivery; the comment column names who received the parcel. After a return to the sender is ordered, the parcel is returned."}
+  ]
+}

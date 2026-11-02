@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>ATS Healthcare - Quick Track</title>
+  <script type="text/javascript">var synthetic = true;</script>
+</head>
+<body>
+  <form method="post" action="./quickTrackResult?ship=00000017" id="frmQuickTrackResult">
+    <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="c3ludGhldGlj" />
+    <ul><li><a href="../contact.aspx">Contact</a></li></ul>
+    <div id="ContentTemplateQuickTrack">
+      <div>
+        <a id="hypLinkBack" href="ShipTracking-en.aspx">back</a>
+      </div>
+      <br />
+      <div>
+        <table cellspacing="0" rules="all" border="1" id="dgPOD" style="width:100%;border-collapse:collapse;">
+          <tr>
+            <th scope="col">&nbsp;</th><th scope="col">Shipment</th><th scope="col">Date</th><th scope="col">Time</th><th scope="col">Signature</th><th scope="col">Status</th>
+          </tr><tr onclick="javascript:__doPostBack(&#39;dgPOD&#39;,&#39;Select$0&#39;)">
+            <td><a href="javascript:__doPostBack(&#39;dgPOD&#39;,&#39;Select$0&#39;)">Select</a></td><td style="width:15%;">00000017</td><td style="width:10%;">2026/03/05</td><td style="width:10%;">02:10 PM</td><td style="width:20%;">SYNTHETIC SIGNER</td><td style="width:35%;">Delivered, 2026/03/05 14:10:56</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="divQuickTrackShipDetail">
+      <div class="row">
+        <span id="lblShip">00000017</span>
+      </div>
+      <div id="divLinkLoc" class="row">
+      </div>
+      <div id="divProgressOuter" class="col-md-12 col-sm-12">
+        <div id="divProgressBar2">
+          <ul id="lstProgress" class="ul-Progress"><li class='liBar2'>0</li><li class='liBar2'>1</li><li class='liBar2'>2</li><li class='liBar2'>3</li><li class='liBar2'>4</li><li class='liBar2'>5</li><li class='active liBar2'>6</li></ul>
+        </div>
+      </div>
+      <div id="divProgressDescr" class="col-md-12 col-sm-12">
+        <ul id="lstProgressDescr"><li>0-On file</li><li>1-PU by Driver</li><li>2-At PU Branch</li><li>3-In Transit</li><li>4-At Delivery Branch</li><li>5-On Route to Delivery</li><li>6-Delivered</li></ul>
+      </div>
+    </div>
+    <div>
+      <input type="hidden" name="txtTimeOffSet" id="txtTimeOffSet" />
+    </div>
+  </form>
+</body>
+</html>

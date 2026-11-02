@@ -1,0 +1,93 @@
+{
+  "id": "shipa",
+  "displayName": "Shipa",
+  "aliases": [
+    "Shipa Delivery"
+  ],
+  "region": {
+    "countries": [
+      "AE",
+      "SA",
+      "KW"
+    ]
+  },
+  "brand": {
+    "color": "#0000ff"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dubai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "shipa",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "eta",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://shipa.com/track/?trackingno={trackingNumber}",
+    "searchUrl": "https://shipa.com/track/",
+    "canaryUrl": "https://tracking.shipadelivery.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "failed_delivery_reason",
+      "eta",
+      "origin_country",
+      "destination_country"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "offset_timestamps",
+      "failed_delivery_reason",
+      "eta"
+    ],
+    "discarded": [
+      "origin_country",
+      "destination_country",
+      "driver_name",
+      "coordinates",
+      "proof_of_delivery",
+      "scheduled_delivery",
+      "office_contact_details"
+    ],
+    "unavailable": [
+      "weight",
+      "service_name",
+      "recipient_name",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "shipa.com",
+        "www.shipa.com"
+      ],
+      "pathPattern": "^/(?:ar/)?track/?$",
+      "params": [
+        "trackingno"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "shipa-1",
+      "pattern": "^SD\\d{9}$",
+      "confidence": "high"
+    }
+  ]
+}

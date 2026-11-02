@@ -1,0 +1,571 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1792000000000,
+  "source": "2",
+  "result": {
+    "data": {
+      "OCRType": {
+        "guid": "00000000-0000-4000-8000-0000000000c1",
+        "name": "Груз",
+        "key": "cargo",
+        "IsActive": true
+      },
+      "CargoOrderNumber": null,
+      "cargo": {
+        "natureCargo": null,
+        "index": "100000000017",
+        "preIndex": "ПРТС-1/0105",
+        "counterpartClientCard": null,
+        "name": "ЗАПЧАСТИ",
+        "packingCondition": "КАРТОН (БЕЗ ПОВРЕЖДЕНИЙ)",
+        "acceptancePhoto": [],
+        "counterparts": {
+          "sender": {
+            "guid": "00000000-0000-4000-8000-0000000000a1",
+            "counterpartType": {
+              "guid": "00000000-0000-4000-8000-0000000000a2",
+              "name": "Физическое лицо",
+              "key": "person",
+              "IsActive": true
+            },
+            "counterpartStatus": null,
+            "description": null,
+            "etalonGUID": "00000000-0000-0000-0000-000000000000",
+            "isPreCounterpart": true,
+            "isActive": true,
+            "addresses": [],
+            "contactInformation": [],
+            "documents": [],
+            "individualEnterpreneur": null,
+            "legal": null,
+            "person": {
+              "firstName": "Иван",
+              "lastName": "Отправителев",
+              "middleName": "Тестович",
+              "sex": null,
+              "birthDate": null,
+              "citizenshipCountry": null,
+              "middleNameAbsent": false,
+              "placeOfBirth": null
+            },
+            "specialConditions": [],
+            "specialConditionsWithParams": [],
+            "counterpartPaymentType": null
+          },
+          "recipient": {
+            "guid": "00000000-0000-4000-8000-0000000000a1",
+            "counterpartType": {
+              "guid": "00000000-0000-4000-8000-0000000000a2",
+              "name": "Физическое лицо",
+              "key": "person",
+              "IsActive": true
+            },
+            "counterpartStatus": null,
+            "description": null,
+            "etalonGUID": "00000000-0000-0000-0000-000000000000",
+            "isPreCounterpart": true,
+            "isActive": true,
+            "addresses": [],
+            "contactInformation": [
+              {
+                "contactInformationType": {
+                  "name": "Телефон"
+                },
+                "email": null,
+                "phone": "+70000000000",
+                "isActive": true,
+                "phoneAdditional": null
+              }
+            ],
+            "documents": [],
+            "individualEnterpreneur": null,
+            "legal": null,
+            "person": {
+              "firstName": "Пётр",
+              "lastName": "Получателев",
+              "middleName": "Тестович",
+              "sex": null,
+              "birthDate": null,
+              "citizenshipCountry": null,
+              "middleNameAbsent": false,
+              "placeOfBirth": null
+            },
+            "specialConditions": [],
+            "specialConditionsWithParams": [],
+            "counterpartPaymentType": null
+          },
+          "businessUnitUID": null
+        },
+        "statuses": [
+          {
+            "clientStatus": {
+              "Id": 1000,
+              "ClientStatus": "Возвращен отправителю",
+              "IsActive": true
+            },
+            "clientStatusPlannedDate": null,
+            "clientStatusActualDateTime": null,
+            "clientStatusSpecifiedDate": null
+          },
+          {
+            "clientStatus": {
+              "Id": 1,
+              "ClientStatus": "Принят к перевозке",
+              "IsActive": true
+            },
+            "clientStatusPlannedDate": null,
+            "clientStatusActualDateTime": "2026-05-01T09:12:30",
+            "clientStatusSpecifiedDate": null
+          },
+          {
+            "clientStatus": {
+              "Id": 3,
+              "ClientStatus": "Оформлен",
+              "IsActive": true
+            },
+            "clientStatusPlannedDate": null,
+            "clientStatusActualDateTime": "2026-05-01T09:20:05",
+            "clientStatusSpecifiedDate": null
+          },
+          {
+            "clientStatus": {
+              "Id": 4,
+              "ClientStatus": "В пути",
+              "IsActive": true
+            },
+            "clientStatusPlannedDate": null,
+            "clientStatusActualDateTime": "2026-05-02T14:00:41",
+            "clientStatusSpecifiedDate": null
+          },
+          {
+            "clientStatus": {
+              "Id": 5,
+              "ClientStatus": "Прибыл",
+              "IsActive": true
+            },
+            "clientStatusPlannedDate": "2026-05-05T15:00:00",
+            "clientStatusActualDateTime": "2026-05-06T11:30:00",
+            "clientStatusSpecifiedDate": null
+          },
+          {
+            "clientStatus": {
+              "Id": 8,
+              "ClientStatus": "Выдан получателю",
+              "IsActive": true
+            },
+            "clientStatusPlannedDate": null,
+            "clientStatusActualDateTime": "2026-05-07T18:45:10",
+            "clientStatusSpecifiedDate": null
+          }
+        ],
+        "currentStatus": {
+          "PegasCargoStatusId": 151,
+          "Tooltip": "Груз выдан получателю из пункта выдачи",
+          "ClientStatusLevel2": "0",
+          "CurrentStatusFilterOrder": 8,
+          "Id": 12,
+          "ClientStatus": "Выдан получателю",
+          "IsActive": true
+        },
+        "geoPosition": null,
+        "debt": {
+          "amount": 0,
+          "amountCurrency": "00000000-0000-4000-8000-0000000000d1",
+          "currencyISONum": "643"
+        },
+        "barcode": "100000000017",
+        "smsCode": null,
+        "clientPlacesBarcodes": null,
+        "sourceDepartment": {
+          "UID": "00000000-0000-4000-8000-000000001000",
+          "DepartmentType": {
+            "Id": 4,
+            "DepartmentType": "Основное отделение филиала компании",
+            "IsActive": true
+          },
+          "Code": "ПР",
+          "DepartmentName": "Примерово",
+          "Branch": {
+            "UID": "00000000-0000-4000-8000-000000007002",
+            "Code": "ПР",
+            "BranchName": "Примерово",
+            "IsActive": true,
+            "CountryPresenceUID": null,
+            "IsPopular": false,
+            "mainTownGUID": "00000000-0000-4000-8000-000000007000"
+          },
+          "IsActive": true,
+          "Addresses": [
+            {
+              "addressType": {
+                "UID": "00000000-0000-4000-8000-000000007003",
+                "AddressType": "Фактический",
+                "IsActive": true
+              },
+              "address": {
+                "UID": "00000000-0000-4000-8000-000000007004",
+                "ZipCode": null,
+                "Town": {
+                  "UID": "00000000-0000-4000-8000-000000007000",
+                  "Town": "Примерово (Примерный р-н)",
+                  "RegionUID": "00000000-0000-4000-8000-000000007001",
+                  "IsActive": true,
+                  "IsPreferential": false,
+                  "TimeZone": "03:00:00",
+                  "distanceToAdministrativeCenter": 0,
+                  "intakeDeliveryRate": [],
+                  "deliveryWeekdaysPreferential": [],
+                  "Branch": {
+                    "UID": "00000000-0000-4000-8000-000000007002",
+                    "Code": "ПР",
+                    "BranchName": "Примерово",
+                    "IsActive": true,
+                    "CountryPresenceUID": null,
+                    "IsPopular": false,
+                    "mainTownGUID": "00000000-0000-4000-8000-000000007000"
+                  },
+                  "CoordinatesCenter": null,
+                  "KLADR": "0000000000000"
+                },
+                "Street": null,
+                "House": null,
+                "Building": null,
+                "Office": null,
+                "Coordinates": {
+                  "latitude": 55.1234,
+                  "longitude": 37.5678
+                },
+                "RawAddress": "Россия, Примерово, Складская улица, 1"
+              },
+              "isActive": true
+            }
+          ],
+          "PointerCoordinates": null,
+          "eMail": "primerovo@example.com",
+          "Phone": "8(000) 000-00-01",
+          "ScheduleWeekdays": [
+            {
+              "weekday": 1,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 2,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 3,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 4,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 5,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 6,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 7,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            }
+          ],
+          "ScheduleShortWorkDays": [],
+          "ScheduleHolidayDays": [],
+          "Town": {
+            "UID": "00000000-0000-4000-8000-000000007000",
+            "Town": "Примерово (Примерный р-н)",
+            "RegionUID": "00000000-0000-4000-8000-000000007001",
+            "IsActive": true,
+            "IsPreferential": false,
+            "TimeZone": "03:00:00",
+            "distanceToAdministrativeCenter": 0,
+            "intakeDeliveryRate": [],
+            "deliveryWeekdaysPreferential": [],
+            "Branch": {
+              "UID": "00000000-0000-4000-8000-000000007002",
+              "Code": "ПР",
+              "BranchName": "Примерово",
+              "IsActive": true,
+              "CountryPresenceUID": null,
+              "IsPopular": false,
+              "mainTownGUID": "00000000-0000-4000-8000-000000007000"
+            },
+            "CoordinatesCenter": null,
+            "KLADR": "0000000000000"
+          },
+          "pointerDescription": "Вход со стороны двора."
+        },
+        "targetDepartment": {
+          "UID": "00000000-0000-4000-8000-000000002000",
+          "DepartmentType": {
+            "Id": 1,
+            "DepartmentType": "ПВЗ",
+            "IsActive": true
+          },
+          "Code": "ТСПВЗ0001",
+          "DepartmentName": "Тестовск Садовая 5",
+          "Branch": {
+            "UID": "00000000-0000-4000-8000-000000007002",
+            "Code": "ТС",
+            "BranchName": "Тестовск",
+            "IsActive": true,
+            "CountryPresenceUID": null,
+            "IsPopular": false,
+            "mainTownGUID": "00000000-0000-4000-8000-000000007000"
+          },
+          "IsActive": true,
+          "Addresses": [
+            {
+              "addressType": {
+                "UID": "00000000-0000-4000-8000-000000007003",
+                "AddressType": "Фактический",
+                "IsActive": true
+              },
+              "address": {
+                "UID": "00000000-0000-4000-8000-000000007004",
+                "ZipCode": null,
+                "Town": {
+                  "UID": "00000000-0000-4000-8000-000000007000",
+                  "Town": "Тестовск",
+                  "RegionUID": "00000000-0000-4000-8000-000000007001",
+                  "IsActive": true,
+                  "IsPreferential": false,
+                  "TimeZone": "04:00:00",
+                  "distanceToAdministrativeCenter": 0,
+                  "intakeDeliveryRate": [],
+                  "deliveryWeekdaysPreferential": [],
+                  "Branch": {
+                    "UID": "00000000-0000-4000-8000-000000007002",
+                    "Code": "ТС",
+                    "BranchName": "Тестовск",
+                    "IsActive": true,
+                    "CountryPresenceUID": null,
+                    "IsPopular": false,
+                    "mainTownGUID": "00000000-0000-4000-8000-000000007000"
+                  },
+                  "CoordinatesCenter": null,
+                  "KLADR": "0000000000000"
+                },
+                "Street": null,
+                "House": null,
+                "Building": null,
+                "Office": null,
+                "Coordinates": {
+                  "latitude": 53.2345,
+                  "longitude": 50.1234
+                },
+                "RawAddress": "город Тестовск, Садовая улица, 5"
+              },
+              "isActive": true
+            }
+          ],
+          "PointerCoordinates": null,
+          "eMail": "testovsk@example.com",
+          "Phone": "8(000) 000-00-02",
+          "ScheduleWeekdays": [
+            {
+              "weekday": 1,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 2,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 3,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 4,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 5,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 6,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            },
+            {
+              "weekday": 7,
+              "workTime": {
+                "from": "09:00:00",
+                "to": "20:00:00",
+                "isDayOff": false
+              },
+              "breakTime": null
+            }
+          ],
+          "ScheduleShortWorkDays": [],
+          "ScheduleHolidayDays": [],
+          "Town": {
+            "UID": "00000000-0000-4000-8000-000000007000",
+            "Town": "Тестовск",
+            "RegionUID": "00000000-0000-4000-8000-000000007001",
+            "IsActive": true,
+            "IsPreferential": false,
+            "TimeZone": "04:00:00",
+            "distanceToAdministrativeCenter": 0,
+            "intakeDeliveryRate": [],
+            "deliveryWeekdaysPreferential": [],
+            "Branch": {
+              "UID": "00000000-0000-4000-8000-000000007002",
+              "Code": "ТС",
+              "BranchName": "Тестовск",
+              "IsActive": true,
+              "CountryPresenceUID": null,
+              "IsPopular": false,
+              "mainTownGUID": "00000000-0000-4000-8000-000000007000"
+            },
+            "CoordinatesCenter": null,
+            "KLADR": "0000000000000"
+          },
+          "pointerDescription": "Вход со стороны двора."
+        },
+        "orderNumber": null,
+        "availableDeliveryBySms": false,
+        "WHAreaOfIssue": null,
+        "WHCellName": null,
+        "freeStorageToDate": null,
+        "cargoDeliveryBySMSDescription": {
+          "ID": 0,
+          "deliveryBySMSDescription": "Только по СМС в офисе",
+          "POADescription": "Не требуется (Упрощенная выдача)"
+        },
+        "displayMap": true,
+        "detailsCargoStatus": [
+          {
+            "statusName": "Отправлен",
+            "targetWarehouseName": "Тестовск",
+            "initDate": "2026-05-02T14:00:41",
+            "targetWarehouseType": "Терминал выдачи"
+          },
+          {
+            "statusName": "Прибыл",
+            "targetWarehouseName": "Тестовск",
+            "initDate": "2026-05-06T11:30:00",
+            "targetWarehouseType": "Терминал выдачи"
+          }
+        ],
+        "cargoIntake": null,
+        "cargoDelivery": null,
+        "guid": "00000000-0000-4000-8000-0000000000e1",
+        "totalWeight": 11.5,
+        "totalVolume": 0.12,
+        "maxDimension": 0.5,
+        "countPlaces": 2,
+        "places": [
+          {
+            "placeNumber": 1,
+            "length": 0.5,
+            "width": 0.4,
+            "height": 0.3,
+            "volume": 0.06,
+            "weight": 11.5,
+            "countPlaces": 2,
+            "services": null,
+            "isOversized": false,
+            "barCode": "1000000000170001"
+          }
+        ],
+        "declaredAmount": {
+          "amount": 10000,
+          "amountCurrency": "00000000-0000-4000-8000-0000000000d1",
+          "currencyISONum": "643"
+        },
+        "togiveDate": "2026-05-01T09:00:00",
+        "sourceSystem": {
+          "guid": "00000000-0000-4000-8000-0000000000f1",
+          "name": null
+        }
+      },
+      "services": [],
+      "clientActions": [],
+      "fullCommentForIssue": "Получение груза на складе только по СМС либо QR-коду.",
+      "calculationStorage": [
+        {
+          "date": "2026-05-08T00:00:00",
+          "startDate": "2026-05-08T00:00:00",
+          "endDate": "2026-05-22T00:00:00",
+          "rate": 0,
+          "minStorageCost": 0,
+          "costStorage": 0,
+          "startDataNumber": 0,
+          "endDataNumber": 0,
+          "cargoStatus": "Бесплатное хранение"
+        }
+      ]
+    },
+    "createdAt": "2026-05-01T09:00:00"
+  }
+}

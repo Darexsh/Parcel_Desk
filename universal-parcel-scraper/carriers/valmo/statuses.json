@@ -1,0 +1,19 @@
+{
+  "carrier": "valmo",
+  "entries": [
+    {"code": "ORDER_CONFIRMED", "wording": "Order Confirmed", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The seller's order is booked with Valmo."},
+    {"code": "ORDER_READY_FOR_PICKUP", "wording": "Ready for Pickup", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Ready for Valmo to collect from the seller, not waiting for the recipient."},
+    {"code": "ORDER_SHIPPED", "wording": "Shipped", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Collected from the seller; the hub scans follow."},
+    {"code": "ORDER_REACHED_HUB", "wording": "Reached Gurgaon hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The hub name changes from scan to scan."},
+    {"code": "ORDER_LEFT_HUB", "wording": "Left Gurgaon hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The hub name changes from scan to scan."},
+    {"code": "ORDER_OUT_FOR_DELIVERY", "wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"code": "ORDER_DELIVERY_ATTEMPT_FAILED", "wording": "Delivery Attempt Failed", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "One missed attempt; the parcel goes out for delivery again."},
+    {"code": "ORDER_DELIVERED", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"code": "ORDER_DELIVERY_FAILED", "wording": "Delivery Failed", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Delivery given up: the track page marks it as a failure like a cancellation or a loss, the summary calls the order returned to seller, and the parcel goes back on the return leg. A single missed attempt is ORDER_DELIVERY_ATTEMPT_FAILED."},
+    {"code": "ORDER_RETURNED_TO_SELLER", "wording": "Returned to Seller", "stage": "returned", "language": "en", "confirmedBy": "portal"},
+    {"code": "ORDER_CANCELLED", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "A failure status in the track page's script, which carries no display name for it."},
+    {"code": "ORDER_LOST", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "A failure status in the track page's script, which carries no display name for it."},
+    {"wording": "Customer Unreachable", "stage": "failed_attempt", "language": "en", "confirmedBy": "source", "note": "Quoted by a customer as the status shown on a parcel after a missed delivery."},
+    {"wording": "Delivery Attempt Failed", "stage": "failed_attempt", "language": "en", "confirmedBy": "source", "note": "Quoted by a customer as the status shown on a parcel."}
+  ]
+}

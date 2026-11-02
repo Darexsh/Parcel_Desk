@@ -1,0 +1,183 @@
+{
+  "carrier": "starex-az",
+  "records": [
+    {
+      "number": "STRAZ605859592152",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.bildir.az/starex/salam-menim-hesab-nomrem/",
+        "date": "2026-04-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "A customer's complaint about Starex on bildir.az gives it as the parcel's tracking code; Starex's tracker returned its history."
+    },
+    {
+      "number": "STRAZ592307056266",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.bildir.az/starex/salam-menim-hesab-nomrem/",
+        "date": "2026-04-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "A customer's complaint about Starex on bildir.az gives it as the parcel's tracking code; Starex's tracker returned its history."
+    },
+    {
+      "number": "STRAZ704204234019",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.bildir.az/starex/salam-15-fevralda-temudan/",
+        "date": "2026-03-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "A customer's complaint about Starex on bildir.az gives it as the parcel's tracking code; Starex's tracker returned its history."
+    },
+    {
+      "number": "STRAZ430998201049",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.bildir.az/starex/salam-po-014-06445277747831934-temu/",
+        "date": "2026-03-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "A customer's complaint about Starex on bildir.az gives it as the parcel's tracking code; Starex's tracker returned its history."
+    },
+    {
+      "number": "STRAZ138329507612",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.bildir.az/starex/mehsulum-4mart-tarixinden-gomrukdedirsmart/",
+        "date": "2026-03-11",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "A customer's complaint about Starex on bildir.az gives it as the parcel's tracking code; Starex's tracker returned its history."
+    },
+    {
+      "number": "STRAZ081640880601",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.bildir.az/starex/cox-pis-dasima-sirketsinizmusterilere/",
+        "date": "2026-02-12",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "A customer's complaint about Starex on bildir.az gives it as the parcel's tracking code; Starex's tracker returned its history."
+    },
+    {
+      "number": "STRAZ563624013879",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.bildir.az/starex/bu-gun-mene-mali/",
+        "date": "2025-09-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "A customer's complaint about Starex on bildir.az gives it as the parcel's tracking code; Starex's tracker returned its history."
+    },
+    {
+      "number": "STR059449783",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240715173955/https://starex.az/baglama/?parcelNumber=STR059449783",
+        "date": "2024-07-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "An archived lookup on Starex's own parcel page; the capture was opened and shows only the page shell, since the history loads by script."
+    }
+  ]
+}

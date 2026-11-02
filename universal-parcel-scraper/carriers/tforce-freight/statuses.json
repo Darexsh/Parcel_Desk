@@ -1,0 +1,19 @@
+{
+  "carrier": "tforce-freight",
+  "entries": [
+    {"wording": "SHIPMENT HAS BEEN PICKED-UP.", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "The driver picked the freight up from the shipper."},
+    {"wording": "SHIPMENT IS AT A TFORCE FREIGHT LOCATION", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At the origin service center after the pickup."},
+    {"wording": "SHIPMENT IS AT A UPS FREIGHT LOCATION", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived capture of the tracker of UPS Freight, TForce Freight's former name."},
+    {"wording": "DEPARTURE", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Left a service center."},
+    {"wording": "SHIPMENT HAS ARRIVED AT A SERVICE CENTER.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At a service center on the way, or at the one that delivers."},
+    {"wording": "A DELIVERY APPOINTMENT HAS BEEN SCHEDULED WITH THE CONSIGNEE.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Comes before the delivery run, and is sometimes recorded after the delivery."},
+    {"wording": "SENT EMAIL. TFORCE FREIGHT IS ATTEMPTING TO OBTAIN APPOINTMENT INFORMATION", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "An email asking the consignee for a delivery appointment."},
+    {"wording": "OUT FOR DELIVERY", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "On the delivery run."},
+    {"wording": "Shipment not delivered. Delivery attempted after normal business hours. Tforce will attempt delivery on next business day we service this area.", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "The map stages every activity starting \"Shipment not delivered.\" as a failed attempt, whatever reason follows."},
+    {"wording": "SHIPMENT HAS BEEN DELIVERED TO THE CONSIGNEE.", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The delivery, with the signer's name beside it on the page."},
+    {"wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The shipment's status beside its PRO."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The shipment's status beside its PRO."},
+    {"wording": "Not Available", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "The status beside a PRO the tracker has no shipment for, with \"Please check ProNumber\" below it. The adapter reads it as not found."},
+    {"wording": "On Vehicle For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "The shipment's summary status. Seen in an archived capture of the tracker of UPS Freight, TForce Freight's former name."}
+  ]
+}

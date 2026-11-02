@@ -1,0 +1,47 @@
+{
+  "id": "a2b-express",
+  "displayName": "A2B Express Logistics",
+  "aliases": [
+    "A2B Express Delivery d.o.o.",
+    "A2B Express Delivery",
+    "A2B Logistics"
+  ],
+  "region": {
+    "countries": [
+      "BA"
+    ]
+  },
+  "brand": {
+    "color": "#54b847"
+  },
+  "selectable": true,
+  "timezone": "Europe/Sarajevo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://a2b.ba/pracenje/?tracking_number={trackingNumber}",
+    "searchUrl": "https://a2b.ba/pracenje/",
+    "canaryUrl": "https://a2b.ba/pracenje/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "a2b.ba",
+        "www.a2b.ba"
+      ],
+      "pathPattern": "^/pracenje/?$",
+      "params": [
+        "tracking_number"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,40 @@
+{
+  "tuNo": "10000000002",
+  "progressBar": {
+    "level": 40,
+    "statusBar": [
+      { "imageStatus": "COMPLETE", "imageText": "Preadvice", "status": "PREADVICE", "statusText": "" },
+      { "imageStatus": "CURRENT", "imageText": "In transit", "status": "INTRANSIT", "statusText": "The parcel is in transit." }
+    ],
+    "statusInfo": "INTRANSIT",
+    "statusText": "In transit",
+    "retourFlag": false
+  },
+  "arrivalTime": { "name": "", "value": "" },
+  "addresses": [
+    {
+      "type": "DELIVERY",
+      "value": {
+        "name1": "Private Recipient",
+        "street1": "Private Street",
+        "postalArea": { "postalCodeDisplay": "00-000", "city": "Private Town" }
+      }
+    }
+  ],
+  "history": [
+    {
+      "date": "21-Sep-2026",
+      "time": "22:15",
+      "evtDscr": "The parcel has left the parcel center.",
+      "evtNo": "2.0",
+      "address": { "countryName": "Poland", "city": "Strykow" }
+    },
+    {
+      "date": "21-Sep-2026",
+      "time": "14:40",
+      "evtDscr": "The parcel was handed over to GLS.",
+      "evtNo": "11.0",
+      "address": { "countryName": "Poland", "city": "Strykow" }
+    }
+  ]
+}

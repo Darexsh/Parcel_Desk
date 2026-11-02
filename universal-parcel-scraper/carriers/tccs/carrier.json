@@ -1,0 +1,45 @@
+{
+  "id": "tccs",
+  "displayName": "TCCS",
+  "aliases": [
+    "Total Couriers Cargo Services",
+    "Total Courier and Cargo Services"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#2e458d"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://tccs.in/tracking/",
+    "canaryUrl": "https://tccs.in/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.tccs.in",
+        "tccs.in"
+      ],
+      "pathPattern": "^/Tracking\\.aspx$",
+      "params": [
+        "txtawbno"
+      ]
+    }
+  ],
+  "detection": []
+}

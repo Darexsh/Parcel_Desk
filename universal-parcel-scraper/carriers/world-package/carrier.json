@@ -1,0 +1,45 @@
+{
+  "id": "world-package",
+  "displayName": "World Package",
+  "aliases": [
+    "World Package Logistics",
+    "World Package Logistics Limited"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#120748"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://wpl-uk.couriernavigator-secure.com/tracking?consign_note={trackingNumber}",
+    "searchUrl": "https://wpl-uk.couriernavigator-secure.com/tracking.html",
+    "canaryUrl": "https://www.worldpackage.co.uk/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "wpl-uk.couriernavigator-secure.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "consign_note"
+      ]
+    }
+  ],
+  "detection": []
+}

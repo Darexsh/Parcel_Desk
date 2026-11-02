@@ -1,0 +1,22 @@
+{
+  "carrier": "gdex",
+  "entries": [
+    {"code": "Pickup", "wording": "Picked up by courier", "stage": "accepted", "language": "en", "confirmedBy": "live"},
+    {"wording": "Outbound from SIN station", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Left the named GDEX station."},
+    {"wording": "Outbound to HUB", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Left for the hub."},
+    {"code": "In Transit", "wording": "Outbound by Auto Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Left the named hub."},
+    {"code": "In Transit", "wording": "Inbound by Auto Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Arrived at the named hub."},
+    {"code": "In Transit", "wording": "Inbound by PJY Hub (Petaling Jaya)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Arrived at the named hub."},
+    {"code": "In Transit", "wording": "Outbound by PJY Hub (Petaling Jaya)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Left the named hub."},
+    {"code": "In Transit", "wording": "Outbound from OCU Department", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Left the named department, after a failed delivery."},
+    {"code": "In Transit", "wording": "Inbound to Kluang", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Arrived at the named delivery branch."},
+    {"code": "In Transit", "wording": "Inbound to Petaling Jaya", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Arrived at the named delivery branch."},
+    {"wording": "In transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Inbound to SDG station", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Arrived at the named delivery station."},
+    {"wording": "Inbound to RWG station", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Arrived at the named delivery station."},
+    {"code": "Out For Delivery", "wording": "Out for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"code": "In Transit", "wording": "Unsuccessful delivery due to Customer Request for Rescheduled Delivery", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "Not delivered because the customer asked for another day; the category stays In Transit."},
+    {"wording": "Undelivered due to Customer Requests OC", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "Not delivered because the customer asked for another arrangement."},
+    {"code": "Delivered", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live"}
+  ]
+}

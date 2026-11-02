@@ -1,0 +1,47 @@
+{
+  "id": "redbox-mv",
+  "displayName": "Redbox",
+  "aliases": [
+    "Redbox MV",
+    "Redbox Maldives",
+    "RB International Pvt Ltd"
+  ],
+  "region": {
+    "countries": [
+      "MV"
+    ]
+  },
+  "brand": {
+    "color": "#eb1d25"
+  },
+  "selectable": true,
+  "timezone": "Indian/Maldives",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://redbox.mv/tracking?tracking_number={trackingNumber}",
+    "searchUrl": "https://redbox.mv/tracking",
+    "canaryUrl": "https://redbox.mv/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "redbox.mv",
+        "www.redbox.mv"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "tracking_number"
+      ]
+    }
+  ],
+  "detection": []
+}

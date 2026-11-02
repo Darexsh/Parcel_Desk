@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "trackingNumber": "00000000017",
+    "trackingSummary": [
+      { "stepStageIndex": 1, "stepStageLabel": "Shipment picked up", "stageStatus": "Shipment picked up", "stageDateTime": null },
+      { "stepStageIndex": 2, "stepStageLabel": "In Transit", "stageStatus": "Awaiting collection by recipient as requested", "stageDateTime": "2026-03-12T12:05:00" },
+      { "stepStageIndex": 3, "stepStageLabel": "Delivered", "stageStatus": "Delivered", "stageDateTime": "2026-03-12T15:20:00" }
+    ],
+    "packageData": [
+      {
+        "consignmentNumber": 100001,
+        "trackingNumber": "00000000017",
+        "pickedUpDateTime": null,
+        "shipper": { "cityTown": "", "country": "Origin", "stateProvince": "", "countryCode": "" },
+        "recipient": { "cityTown": "SAMPLETOWN", "country": "MALTA", "stateProvince": "", "countryCode": "MT" },
+        "packageDetails": { "packageOrder": null, "packageType": "Package", "weight": "", "dimension": "" },
+        "stageStatus": "Delivered",
+        "stageDateTime": "2026-03-12T15:20:00"
+      }
+    ],
+    "trackingHistory": [
+      {
+        "groupDate": "2026-03-12T15:20:00",
+        "items": [
+          { "packageCount": 1, "packages": [{ "trackingNumber": "00000000017" }], "username": "sample.driver@connect", "stageStatus": "Attempted Delivery / Client not home", "stageDateTime": "2026-03-12T09:40:00" },
+          { "packageCount": 1, "packages": [{ "trackingNumber": "00000000017" }], "username": "sample.driver@connect", "stageStatus": "Delivered", "stageDateTime": "2026-03-12T15:20:00" },
+          { "packageCount": 1, "packages": [{ "trackingNumber": "00000000017" }], "username": "sample.desk@connect", "stageStatus": "Awaiting collection by recipient as requested", "stageDateTime": "2026-03-12T12:05:00" },
+          { "packageCount": 1, "packages": [{ "trackingNumber": "00000000017" }], "username": "sample.driver@connect", "stageStatus": "Out for Delivery ", "stageDateTime": "2026-03-12T07:30:00" }
+        ]
+      },
+      {
+        "groupDate": "2026-03-10T10:02:00",
+        "items": [
+          { "packageCount": 1, "packages": [{ "trackingNumber": "00000000017" }], "username": "sample.courier@connectsub", "stageStatus": "Attempted Delivery / Client not home", "stageDateTime": "2026-03-10T10:02:00" },
+          { "packageCount": 1, "packages": [{ "trackingNumber": "00000000017" }], "username": "sample.courier@connectsub", "stageStatus": "Out for Delivery ", "stageDateTime": "2026-03-10T07:51:00" },
+          { "packageCount": 1, "packages": [{ "trackingNumber": "00000000017" }], "username": "sample.hub@connect", "stageStatus": "Arrived at Operations Facility - Malta", "stageDateTime": "2026-03-10T06:15:00" }
+        ]
+      },
+      {
+        "groupDate": "2026-02-27T19:48:00",
+        "items": [
+          { "packageCount": 1, "packages": [{ "trackingNumber": "00000000017" }], "username": "sample@partner", "stageStatus": "Shipment data received", "stageDateTime": "2026-02-27T19:48:00" }
+        ]
+      }
+    ]
+  }
+}

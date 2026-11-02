@@ -1,0 +1,368 @@
+
+<style>
+
+    #mid-container table {
+        font-family: 'Inter', sans-serif;
+    }
+
+    #mid-container h5 {
+        font-size: 20pt;
+        font-weight: 200;
+    }
+
+    .styled-table th {
+        font-size: 16pt;
+        font-weight: bold;
+        font-weight: 600;
+    }
+
+    .styled-table td {
+        font-size: 16pt;
+        font-weight: 200;
+    }
+
+    .warning-message {
+        width: fit-content;
+        padding: 5px;
+        margin: 5px 0;
+        font-family: Arial, sans-serif;
+    }
+</style>
+
+
+
+    <div class="warning-message">
+        You're seeing the same order status information that our Customer Service Team can access.
+    </div>
+    <div id="ShipmentTabContainer" style="position:relative">
+        <div class="row mb-5">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5 class="text-danger">Shipment Status</h5>
+                        <h5>Picked Up</h5>
+                            <p style="font-size:15px;">
+                                <b><i class="bi bi-envelope-at-fill"></i> Email:</b>
+                                <br />
+                                <a href="/cdn-cgi/l/email-protection#00000000">
+                                    
+                                    service@example.com
+                                    
+                                </a>
+                                <br>
+                                <b><i class="bi bi-telephone-fill"></i> Phone Number:</b>
+                                <br />
+                                555-010-0100
+                            </p>
+                    </div>
+
+                        <div class="col-md-4">
+                            <!-- Label for Date of Delivery-->
+                        </div>
+                        <div class="col-md-5">
+                                <div id="showApptSchdBtn">
+                                </div>
+                        </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <form class="mt-4" id="subscribeForm" method="post">
+                            <input type="hidden" id="ProNumber" name="ProNumber" value="522233344" />
+                            <input type="hidden" id="PickupNumber" name="PickupNumber" value="50002222" />
+
+                            <label for="email" class="form-label">Want updates on this shipment? Enter your email and we will do the rest.</label>
+                            <div class="input-group">
+                                <div id="emailDiv">
+                                    <div style="display: flex;">
+                                        <input type="email" id="email" name="subscriptionEmail" class="form-control" placeholder="Your Email Here" required style="margin-right: 1rem;" />
+                                        <button type="submit" id="subscribeMobileButton" class="btn btn-rrts-primary" formnovalidate>Subscribe</button>
+                                    </div>
+                                    <button type="button" id="smsButton" class="btn btn-link">Prefer Text?</button>
+                                </div>
+                                <div id="smsDiv" hidden>
+                                    <div style="display: flex;">
+                                        <input type="tel" id="sms" class="form-control" name="subscriptionSms" inputmode="numeric"
+                                               maxlength="10" placeholder="Enter your phone number"
+                                               required oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                                               style="margin-right: 1rem;" />
+                                        <button type="submit" id="subscribeMobileButton" class="btn btn-primary" formnovalidate formaction="/LTLTrack/TrackingShipment/ShipmentDataTab/522233344?handler=SubscribeSms">Subscribe</button>
+                                    </div>
+                                    <button type="button" id="emailButton" class="btn btn-link">Prefer Email?</button>
+                                </div>
+                                <input type="hidden" id="subscriptionType" name="subscriptionType" value="1" />
+                            </div>
+                        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8SYNTHETIC-TOKEN-0000000000000000000000000000000000000000" /></form>
+                    </div>
+                </div>
+
+
+                <div class="row" style="margin-top:20px;">
+                    <input type="hidden" id="OrigLatitude" value="30.000003" />
+                    <input type="hidden" id="OrignLongitude" value="-30.000003" />
+                    <input type="hidden" id="DestinationLatitude" value="40.000004" />
+                    <input type="hidden" id="DestinationLongitude" value="-40.000004" />
+                    <input type="hidden" id="CurrentLongitude" value="-1" />
+                    <input type="hidden" id="CurrentLatitude" value="-1" />
+                    <input type="hidden" id="ShipmentCurrentStatus" value="Picked Up" />
+                    <div id="map" style="height: 20rem; width: 45rem;"></div>
+                </div>
+            </div>
+            <!-- Right Section -->
+            <div class="col-md-3">
+                <div style="margin-left: 2rem">
+                    <h5>Tracking ID</h5>
+                    <h3>522233344</h3>
+
+                </div>
+                <div class="timeline-container" style="margin-left: 2rem">
+                    <!-- Image Column -->
+                    <div class="image-column">
+                            <img src="/LTLTrack/images/Level 1.png" alt="Timeline" style="height: 100%; width: auto;">
+                    </div>
+
+                    <!-- Text Column -->
+                    <div class="text-column">
+                                <div class="stage">
+                                    <strong>
+                                                From
+                                    </strong>
+                                    <div>EXAMPLEBURG, CA</div>
+                                        <div>10/27/2026, 09:05 AM</div>
+                                </div>
+                                <div class="stage">
+                                    <strong>
+                                                We Have Your Shipment
+                                    </strong>
+                                    <div>EXAMPLEBURG, CA</div>
+                                        <div>10/27/2026, 09:05 AM</div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="mid-container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h5>Shipment Details</h5>
+                    <table id="package-details-table" class="table table-borderless  align-middle table-md styled-table">
+                        <thead>
+                            <tr>
+                                <th>From:</th>
+                                <th>To:</th>
+                                <th>Shipment:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    EXAMPLE PARTS INC<br>300 SAMPLE RD<br>EXAMPLEBURG, CA 00003
+
+                                </td>
+                                <td>
+                                    TEST HARDWARE <br> 400 FICTION BLVD <br> FICTIONVILLE, TX 00004
+                                </td>
+                                <td>Total Pieces:</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>Total Weight:</td>
+                                <td>480</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Shipment Overview</h5>
+                    <table class="table table-borderless  align-middle table-sm styled-table">
+                        <tbody>
+                                    <tr><td>Pro:</td><td>522233344</td></tr>
+                                    <tr><td>Pickup:</td><td>50002222</td></tr>
+                                    <tr><td>Ship Date:</td><td>10/27/2026</td></tr>
+                                            <tr>
+                                                <td>Due Date:</td>
+                                                <td>11/02/2026</td>
+                                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <!-- Travel History -->
+                    <h5>Travel History</h5>
+                    <table class="table table-borderless  align-middle table-sm styled-table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                    <td>10/27/2026</td>
+                                    <td>09:05 AM</td>
+                                    <td>Pickup Request Received.</td>
+                                </tr>
+                                <tr>
+                                    <td>10/27/2026</td>
+                                    <td>02:40 PM</td>
+                                    <td>Shipment was picked up</td>
+                                </tr>
+                                <tr>
+                                    <td>10/27/2026</td>
+                                    <td>11:52 PM</td>
+                                    <td>Trailer Closed - ready for dispatch</td>
+                                </tr>
+                                <tr>
+                                    <td>10/28/2026</td>
+                                    <td>12:10 AM</td>
+                                    <td>Trailer dispatched from Exampleburg terminal to Midtown terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>10/30/2026</td>
+                                    <td>06:45 AM</td>
+                                    <td>Trailer arrived at Midtown terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>10/30/2026</td>
+                                    <td>09:20 AM</td>
+                                    <td>Trailer unloaded at Midtown terminal.</td>
+                                </tr>
+                                <tr>
+                                    <td>10/30/2026</td>
+                                    <td>03:15 PM</td>
+                                    <td>Phone Number Not Available</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-3">
+                    <h5>Services</h5>
+                    <table class="table table-borderless table-sm  align-middle styled-table">
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <hr>
+
+            <!-- Documents Sections -->
+            <div id="documents-section">
+                    <div class="row">
+                        <div class="col-md-10">
+
+                            <h5>Documents</h5>
+                            <table class="table table-borderless table-sm align-middle styled-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width:10%">Item</th>
+                                        <th style="width:20%">Description</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>POD</td>
+                                        <td>
+                                                <span>Not yet available</span>
+                                        </td>
+                                        <td>
+                                                <form class="mt-1" id="subscribeFormPOD" method="post">
+                                                    <input type="hidden" id="ProNumber" name="ProNumber" value="522233344" />
+                                                    <input type="hidden" id="PickupNumber" name="PickupNumber" value="50002222" />
+                                                    <label for="email" class="form-label" style="font-size:14px;">
+                                                        Want a copy of the POD when it is available? Enter your email and we will notify you.
+                                                    </label>
+                                                    <div class="input-group">
+                                                        <div id="emailDivPOD">
+                                                            <div style="display: flex;">
+                                                                <input type="email" id="emailPOD" name="subscriptionEmailPOD"
+                                                                       class="form-control"
+                                                                       placeholder="Your Email Here"
+                                                                       required style="margin-right: 1rem;" />
+
+                                                                <button type="submit"
+                                                                        id="subscribeMobileButtonPOD"
+                                                                        class="btn btn-rrts-primary"
+                                                                        formnovalidate>
+                                                                    Subscribe
+                                                                </button>
+                                                            </div>
+
+                                                            <button type="button" id="smsButtonPOD" class="btn btn-link">
+                                                                Prefer Text?
+                                                            </button>
+                                                        </div>
+
+                                                        <div id="smsDivPOD" hidden>
+                                                            <div style="display: flex;">
+                                                                <input type="tel"
+                                                                       id="smsPOD"
+                                                                       class="form-control"
+                                                                       name="subscriptionSmsPOD"
+                                                                       inputmode="numeric"
+                                                                       maxlength="10"
+                                                                       placeholder="Enter your phone number"
+                                                                       required
+                                                                       oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                                                                       style="margin-right: 1rem;" />
+
+                                                                <button type="submit" id="subscribeMobileButtonPOD" class="btn btn-primary" formnovalidate formaction="/LTLTrack/TrackingShipment/ShipmentDataTab/522233344?handler=SubscribeSmsPOD">
+                                                                    Subscribe
+                                                                </button>
+                                                            </div>
+
+                                                            <button type="button" id="emailButtonPOD" class="btn btn-link">
+                                                                Prefer Email?
+                                                            </button>
+                                                        </div>
+
+                                                        <input type="hidden" id="subscriptionTypePOD"
+                                                               name="subscriptionTypePOD" value="1" />
+                                                    </div>
+                                                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8SYNTHETIC-TOKEN-0000000000000000000000000000000000000000" /></form>
+                                        </td>
+                                    </tr>
+
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="documentModal" tabindex="-1" aria-labelledby="documentModalLabel" aria-hidden="true">
+    </div>
+    <div class="modal" id="responseModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="responseModalTitle">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="responseModalBody">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="scheduleModal" tabindex="-1" aria-labelledby="scheduleModalLabel" aria-hidden="true">
+    </div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>

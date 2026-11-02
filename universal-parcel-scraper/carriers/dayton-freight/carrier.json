@@ -1,0 +1,118 @@
+{
+  "id": "dayton-freight",
+  "displayName": "Dayton Freight",
+  "aliases": [
+    "Dayton Freight Lines",
+    "Dayton Freight Lines, Inc."
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#1c3f94"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dayton-freight",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 735
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "location",
+    "provider_code",
+    "eta",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://tools.daytonfreight.com/tracking/detail/{trackingNumber}",
+    "searchUrl": "https://tools.daytonfreight.com/tracking/bynumber",
+    "canaryUrl": "https://tools.daytonfreight.com/tracking/bynumber",
+    "shows": [
+      "status",
+      "location",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "weight",
+      "parcel_count",
+      "signatory",
+      "origin",
+      "destination",
+      "office_contact_details",
+      "office_addresses",
+      "customer_reference",
+      "service_name",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "pickup_partner"
+    ],
+    "scraped": [
+      "status",
+      "location",
+      "provider_code",
+      "eta",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "eta_window",
+      "weight",
+      "parcel_count",
+      "signatory",
+      "origin",
+      "destination",
+      "office_contact_details",
+      "office_addresses",
+      "customer_reference",
+      "service_name",
+      "pickup_partner"
+    ],
+    "unavailable": [
+      "history",
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tools.daytonfreight.com"
+      ],
+      "path": "^/tracking/detail/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "tools.daytonfreight.com"
+      ],
+      "pathPattern": "^/tracking/detail/?$",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "domains": [
+        "www.daytonfreight.com",
+        "daytonfreight.com"
+      ],
+      "pathPattern": "^/scripts/(?:prostatus|statusdetail)\\.asp$",
+      "params": [
+        "pro"
+      ]
+    }
+  ],
+  "detection": []
+}

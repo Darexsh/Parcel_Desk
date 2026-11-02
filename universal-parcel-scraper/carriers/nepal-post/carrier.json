@@ -1,0 +1,70 @@
+{
+  "id": "nepal-post",
+  "displayName": "Nepal Post",
+  "aliases": [
+    "Department of Postal Service",
+    "हुलाक सेवा विभाग",
+    "Nepal Postal Service"
+  ],
+  "region": {
+    "countries": [
+      "NP"
+    ]
+  },
+  "brand": {
+    "color": "#f6c63e"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kathmandu",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "nepal-post",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 779
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://pits.gpo.gov.np/Inquiry/InquiryIndexClient?ItemId={trackingNumber}",
+    "searchUrl": "https://pits.gpo.gov.np/Inquiry/InquiryIndexClient",
+    "canaryUrl": "https://www.nepalpost.gov.np/",
+    "shows": [],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at"
+    ],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "pits.gpo.gov.np",
+        "202.166.194.38"
+      ],
+      "pathPattern": "^/Inquiry/InquiryIndexClient$",
+      "params": [
+        "ItemId"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "nepal-post-s10",
+      "pattern": "^[CELR][A-Z]\\d{9}NP$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

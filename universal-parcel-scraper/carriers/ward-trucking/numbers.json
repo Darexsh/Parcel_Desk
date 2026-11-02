@@ -1,0 +1,62 @@
+{
+  "carrier": "ward-trucking",
+  "records": [
+    {
+      "number": "00101298025",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190824132631/https://wardtlctools.com/wardtrucking/traceshipment/create?pro=00101298025",
+        "date": "2019-08-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "An archived lookup on Ward's own tracker shows the shipment's history."
+    },
+    {
+      "number": "001-1298025",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190824132631/https://wardtlctools.com/wardtrucking/traceshipment/create?pro=00101298025",
+        "date": "2019-08-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Ward's tracker prints the PRO number in this form, with its terminal prefix and a dash, in the archived lookup of the same shipment."
+    }
+  ]
+}

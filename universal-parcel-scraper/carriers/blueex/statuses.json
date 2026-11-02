@@ -1,0 +1,20 @@
+{
+  "carrier": "blueex",
+  "entries": [
+    {"wording": "Shipment is being processed.", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "In an archived lookup on BlueEX's former tracking page. The first entry, before any hub scan."},
+    {"wording": "Shipment reached BlueEx Head Office - Karachi.", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "In an archived lookup on BlueEX's former tracking page."},
+    {"wording": "Shipment is on route to (Lahore).", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "In an archived lookup on BlueEX's former tracking page. The brackets hold the destination city."},
+    {"wording": "Unsuccessful attempted due to - Customer Not Available", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "In an archived lookup on BlueEX's former tracking page."},
+    {"wording": "Shipment has been delivered to .", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "In an archived lookup on BlueEX's former tracking page. The receiver's name normally follows \"to\"."},
+    {"wording": "Unsuccessful attempted due to - Shipment At Hold On Customer`S Request", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "In an archived lookup on BlueEX's former tracking page. Delivery was held at the recipient's request."},
+    {"wording": "Unsuccessful attempted due to - Address Closed", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "In an archived lookup on BlueEX's former tracking page."},
+    {"wording": "Order information received, pending at Shipper's end.", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The first scan on BlueEX's tracker: the shipper booked the consignment and has not handed it over."},
+    {"wording": "Shipment reached blueEX Islamabad, Islamabad", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "A station scan; the city after the comma is where it happened."},
+    {"wording": "Shipment reached blueEX Lahore Operations, Lahore", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "A station scan; the city after the comma is where it happened."},
+    {"wording": "Shipment has reached blueEX Lahore Operations - Lahore", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "A station scan; the city after the dash is where it happened."},
+    {"wording": "Shipment has reached blueEX Karachi Warehouse - Karachi", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "A station scan; the city after the dash is where it happened."},
+    {"wording": "Shipment is on route to Karachi", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Sent on between stations; the city is where it is going."},
+    {"wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"wording": "Delivered to Customer", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Who took the parcel follows \"Delivered to\", as the rider wrote it; the adapter keeps \"Delivered\"."}
+  ]
+}

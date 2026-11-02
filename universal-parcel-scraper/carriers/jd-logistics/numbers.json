@@ -1,0 +1,203 @@
+{
+  "carrier": "jd-logistics",
+  "records": [
+    {
+      "number": "VG05778167021",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://gist.github.com/zxp/e83a4a1b7294a5ed6207",
+        "date": "2015-08-29"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "jd-logistics"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment."
+    },
+    {
+      "number": "JD0125821846283",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231130140217/https://www.jdl.com/orderSearch/?waybillCodes=JD0125821846283",
+        "date": "2023-11-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "JD domestic waybill",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "jd-logistics",
+        "confidence": "high"
+      },
+      "note": "A JD Logistics tracking link archived by the Wayback Machine. The adapter's international feed does not answer for domestic waybills, so it stays unconfirmed."
+    },
+    {
+      "number": "JD0103381871309",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230426010313/https://www.jdl.com/orderSearch?waybillCodes=JD0103381871309",
+        "date": "2023-04-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "JD domestic waybill",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "jd-logistics",
+        "confidence": "high"
+      },
+      "note": "A JD Logistics tracking link archived by the Wayback Machine. The adapter's international feed does not answer for domestic waybills, so it stays unconfirmed."
+    },
+    {
+      "number": "JDJ002238017252",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251129093534/https://www.jdl.com/orderSearch/?waybillCodes=JDJ002238017252",
+        "date": "2025-11-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "JD domestic waybill",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "jd-logistics",
+        "confidence": "high"
+      },
+      "note": "A JD Logistics tracking link archived by the Wayback Machine. The adapter's international feed does not answer for domestic waybills, so it stays unconfirmed."
+    },
+    {
+      "number": "JDV007860491512",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220819122953/https://www.jdl.com/orderSearch?waybillCodes=JDV007860491512",
+        "date": "2022-08-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "JD domestic waybill",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "jd-logistics",
+        "confidence": "high"
+      },
+      "note": "A JD Logistics tracking link archived by the Wayback Machine. The adapter's international feed does not answer for domestic waybills, so it stays unconfirmed."
+    },
+    {
+      "number": "JDVA34246758676",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250414033943/https://www.jdl.com/orderSearch/?waybillCodes=JDVA34246758676",
+        "date": "2025-04-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "JD domestic waybill",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "jd-logistics",
+        "confidence": "high"
+      },
+      "note": "A JD Logistics tracking link archived by the Wayback Machine. The adapter's international feed does not answer for domestic waybills, so it stays unconfirmed."
+    },
+    {
+      "number": "JDVB27293213920",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241124143836/https://www.jdl.com/orderSearch/?waybillCodes=JDVB27293213920",
+        "date": "2024-11-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "JD domestic waybill",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "jd-logistics",
+        "confidence": "high"
+      },
+      "note": "A JD Logistics tracking link archived by the Wayback Machine. The adapter's international feed does not answer for domestic waybills, so it stays unconfirmed."
+    },
+    {
+      "number": "jdvc17568698311",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250210164459/https://www.jdl.com/orderSearch/?waybillCodes=jdvc17568698311",
+        "date": "2025-02-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "JD domestic waybill",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "jd-logistics",
+        "confidence": "high"
+      },
+      "note": "A JD Logistics tracking link archived by the Wayback Machine. The adapter's international feed does not answer for domestic waybills, so it stays unconfirmed."
+    },
+    {
+      "number": "JDX035829559533",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250109124937/https://www.jdl.com/orderSearch/?waybillCodes=JDX035829559533",
+        "date": "2025-01-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "JD domestic waybill",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "jd-logistics",
+        "confidence": "high"
+      },
+      "note": "A JD Logistics tracking link archived by the Wayback Machine. The adapter's international feed does not answer for domestic waybills, so it stays unconfirmed."
+    },
+    {
+      "number": "JDW100615049942",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250720111416/https://www.jingdonglogistics.com/Tracking?waybillCodes=JDW100615049942",
+        "date": "2025-07-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "JD international waybill",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "jd-logistics",
+        "confidence": "high"
+      },
+      "note": "A JD Logistics tracking link archived by the Wayback Machine. The international feed returns its history, from China to Saudi Arabia."
+    }
+  ]
+}

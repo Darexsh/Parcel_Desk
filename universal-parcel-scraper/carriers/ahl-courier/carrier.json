@@ -1,0 +1,35 @@
+{
+  "id": "ahl-courier",
+  "displayName": "AHL Courier",
+  "aliases": [
+    "AHL Logistic",
+    "AHLogistic",
+    "AHL Courier (Pvt) Ltd"
+  ],
+  "region": {
+    "countries": [
+      "PK"
+    ]
+  },
+  "brand": {
+    "color": "#1b75bc"
+  },
+  "selectable": true,
+  "timezone": "Asia/Karachi",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://tracking.ahlogistic.pk/",
+    "canaryUrl": "https://tracking.ahlogistic.pk/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

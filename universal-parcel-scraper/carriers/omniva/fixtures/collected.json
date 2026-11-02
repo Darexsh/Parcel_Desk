@@ -1,0 +1,141 @@
+{
+  "shipmentBarcode": "CC900000019EE",
+  "currentDeliveryChannel": "PARCEL_MACHINE",
+  "deliveryLocation": {
+    "zip": "10001",
+    "locationName": "Example Centre parcel machine",
+    "servicePointTypeCode": "PARCEL_MACHINE",
+    "countryCode": "EE",
+    "translations": []
+  },
+  "returningShipment": false,
+  "customsDeclarationRequired": false,
+  "events": [
+    {
+      "eventId": 1000001,
+      "eventCode": "TRT_SHIPMENT_REGISTERED",
+      "eventName": "Shipment registered. Shipment has not been handed over to Omniva",
+      "eventDate": "2026-03-02T08:10:42.1234567Z",
+      "location": {
+        "zip": "20002",
+        "locationName": "Sample Shop Warehouse, Example Road 1",
+        "servicePointTypeCode": "CLIENT",
+        "countryCode": "EE",
+        "translations": []
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 1000002,
+      "eventCode": "TRT_SHIPMENT_HANDOVER_TO_PM",
+      "eventName": "Sender has placed the shipment in the parcel machine",
+      "eventDate": "2026-03-02T12:19:19Z",
+      "location": {
+        "zip": "30003",
+        "locationName": "Sample Square parcel machine",
+        "servicePointTypeCode": "PARCEL_MACHINE",
+        "countryCode": "EE",
+        "translations": []
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 1000003,
+      "eventCode": "TRT_SHIPMENT_DEPARTED_FROM_PM",
+      "eventName": "Shipment departed from parcel machine",
+      "eventDate": "2026-03-02T15:00:57.237401Z",
+      "location": {
+        "zip": "30003",
+        "locationName": "Sample Square parcel machine",
+        "servicePointTypeCode": "PARCEL_MACHINE",
+        "countryCode": "EE",
+        "translations": []
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 1000006,
+      "eventCode": "TRT_SHIPMENT_STORED_IN_PM",
+      "eventName": "Shipment is ready for collection from the parcel machine",
+      "eventDate": "2026-03-03T09:50:11.5Z",
+      "location": {
+        "zip": "10001",
+        "locationName": "Example Centre parcel machine",
+        "servicePointTypeCode": "PARCEL_MACHINE",
+        "countryCode": "EE",
+        "translations": []
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 1000007,
+      "eventCode": "TRT_SHIPMENT_ARRIVAL_PM_NOTIFICATION",
+      "eventName": "A notification of shipment arrival has been sent",
+      "eventDate": "2026-03-03T09:50:13.0042Z",
+      "eventParameters": [
+        { "name": "NOTIFICATION_CHANNEL", "value": "SMS" },
+        { "name": "RECIPIENT_PHONE", "value": "+3720000000" }
+      ]
+    },
+    {
+      "eventId": 1000008,
+      "eventCode": "TRT_SHIPMENT_DELIVERED",
+      "eventName": "Shipment delivered",
+      "eventDate": "2026-03-04T17:05:22.0970066Z",
+      "location": {
+        "zip": "10001",
+        "locationName": "Example Centre parcel machine",
+        "servicePointTypeCode": "PARCEL_MACHINE",
+        "countryCode": "EE",
+        "translations": []
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 1000005,
+      "eventCode": "TRT_SHIPMENT_ARRIVED_TO_PO",
+      "eventName": "Shipment has arrived at a postal facility for further processing",
+      "eventDate": "2026-03-02T21:35:16.721Z",
+      "location": {
+        "zip": "40004",
+        "locationName": "Example terminal",
+        "servicePointTypeCode": "DISTRIBUTION_POINT",
+        "countryCode": "EE",
+        "translations": []
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 1000004,
+      "eventCode": "TRT_SHIPMENT_ARRIVED_TO_PO",
+      "eventName": "Shipment has arrived at a postal facility for further processing",
+      "eventDate": "2026-03-02T21:32:13.876Z",
+      "location": {
+        "zip": "40004",
+        "locationName": "Example sorting line",
+        "servicePointTypeCode": "WORKSTATION",
+        "countryCode": "EE",
+        "translations": {
+          "et": { "id": 1, "name": "Näidise sorteerimiskeskus" },
+          "en": { "id": 2, "name": "Example sorting center" }
+        }
+      },
+      "eventParameters": []
+    },
+    {
+      "eventId": 1000009,
+      "eventCode": "TRT_SHIPMENT_ARRIVED_TO_PO",
+      "eventName": "Shipment has arrived at a postal facility for further processing",
+      "eventDate": "2026-03-02T21:30:01.5Z",
+      "location": {
+        "zip": "40004",
+        "locationName": "IPS_GENERAL",
+        "servicePointTypeCode": "WORKSTATION",
+        "countryCode": "EE",
+        "translations": []
+      },
+      "eventParameters": []
+    }
+  ],
+  "currentStateCode": "DELIVERED"
+}

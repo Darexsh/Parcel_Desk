@@ -1,0 +1,22 @@
+{
+  "order": {
+    "delivery_time": {
+      "delivery_after": "2026-06-02T08:00:00.000+04:00",
+      "delivery_before": "2026-06-03T22:00:00.000+04:00"
+    },
+    "eco_delivery": null,
+    "future_states": ["Delivered"],
+    "id": 1234567,
+    "mission": null,
+    "partner_order_id": "SYNTHETIC-0002",
+    "robot_delivery": null,
+    "service_kind": "partner_next_day",
+    "state": "in_transit",
+    "state_changes": [
+      { "occurred_at": "2026-05-28T19:04:58.000+04:00", "to_state": "on_hold" },
+      { "occurred_at": "2026-06-02T08:05:49.000+04:00", "to_state": "picking_started" },
+      { "occurred_at": "2026-06-02T08:08:49.000+04:00", "to_state": "ready_for_collection" },
+      { "occurred_at": "2026-06-02T11:12:46.000+04:00", "to_state": "in_transit" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "carrier": "gofo-it",
+  "records": [
+    {
+      "number": "GFIT26104011851374",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/pacchi-non-consegnati/c8b64674778b78de6c",
+        "access": "indexed_excerpt",
+        "date": "2026-05-01",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "gofo-it",
+        "confidence": "high"
+      },
+      "note": "GOFO's anonymous national tracking service confirms the whole waybill and national destination."
+    },
+    {
+      "number": "CIIT0000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "gofo-it",
+        "confidence": "high"
+      },
+      "note": "Synthetic identifier following the national format described by GOFO customer support at https://www.gofo.com/it/contact-us/."
+    },
+    {
+      "number": "GFIT0000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "gofo-it",
+        "confidence": "high"
+      },
+      "note": "Synthetic identifier following the national format described by GOFO customer support at https://www.gofo.com/it/contact-us/."
+    },
+    {
+      "number": "CIIT00000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "gofo-it",
+        "confidence": "high"
+      },
+      "note": "Synthetic identifier following the national format described by GOFO customer support at https://www.gofo.com/it/contact-us/."
+    }
+  ]
+}

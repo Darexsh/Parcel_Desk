@@ -1,0 +1,41 @@
+{
+  "id": "ahamove",
+  "displayName": "Ahamove",
+  "aliases": [
+    "Công ty Cổ Phần Dịch Vụ Tức Thời"
+  ],
+  "region": {
+    "countries": [
+      "VN"
+    ]
+  },
+  "brand": {
+    "color": "#0d4073"
+  },
+  "selectable": true,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://express.ahamove.com/s/{trackingNumber}",
+    "searchUrl": "https://express.ahamove.com/",
+    "canaryUrl": "https://express.ahamove.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "express.ahamove.com"
+      ],
+      "path": "^/(?:en/)?s/([0-9A-Z]+)/?$"
+    }
+  ],
+  "detection": []
+}

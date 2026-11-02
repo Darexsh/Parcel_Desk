@@ -1,0 +1,94 @@
+{
+  "id": "flash-express-ph",
+  "displayName": "Flash Express Philippines",
+  "aliases": [
+    "Flash Express PH",
+    "Flash Express (PH)",
+    "Flash Express Philippines Inc."
+  ],
+  "region": {
+    "countries": [
+      "PH"
+    ]
+  },
+  "brand": {
+    "color": "#ffea33"
+  },
+  "selectable": true,
+  "timezone": "Asia/Manila",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "flash-express-ph",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 902
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.flashexpress.ph/fle/tracking?se={trackingNumber}",
+    "searchUrl": "https://www.flashexpress.ph/fle/tracking",
+    "canaryUrl": "https://www.flashexpress.ph/fle/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "office_contact_details",
+      "driver_name",
+      "signatory",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "office_contact_details",
+      "driver_name",
+      "signatory",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "weight"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "flashexpress.ph",
+        "www.flashexpress.ph"
+      ],
+      "pathPattern": "^/(?:(?:en|zh)/)?(?:fle/)?tracking/?$",
+      "params": [
+        "se"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "flash-express-ph-1",
+      "pattern": "^P\\d{4}[0-9A-Z]{6,7}[A-Z]$",
+      "confidence": "low"
+    }
+  ]
+}

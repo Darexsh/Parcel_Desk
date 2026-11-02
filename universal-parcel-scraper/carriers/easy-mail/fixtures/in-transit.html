@@ -1,0 +1,166 @@
+<!doctype html>
+
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+
+  <title>Easymail Track-n-Trace</title>
+
+  <script src="/assets/js/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script src="/assets/js/recaptcha.js"></script>
+  <link rel="stylesheet" href="/css/style.css?v=1.0.4">
+</head>
+
+<body>
+<div class="container backHome my-2">
+	<a href="https://easymail.gr/">Επιστροφή στην Αρχική</a>
+</div>
+<div class="container-fluid home mb-3">
+	<div class="row">
+		<div class="col">
+			<h1 class="homeTitle mb-3"><a href="/">Track & Trace</a></h1>
+		</div>
+
+	</div>
+		<div class="search-form">
+		<div class="searchFormContainer">
+
+			<div class="row">
+				<div class="col">
+					<h4>Αναζήτηση αποστολής<h4>
+						</div>
+						</div>
+					<div class="row">
+						<div class="col">
+							<form id='trackntraceform' action="/" method="POST" class="form-inline">
+								<div class="form-group">
+									<input class="form-control" type="text" name="trackingNo" id="trackingNo" value="019000000028" />
+								</div>
+								<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+								<button class="g-recaptcha form-control btn btn-primary"data-sitekey="SYNTHETIC-SITE-KEY" data-callback='onSubmit' data-action='submit'><i class="emicon-search"></i></button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+						<div class="row mt-4">
+				<div class="col">
+
+
+					<h2>Τρέχουσα Κατάσταση Αποστολής</h2>
+					
+										
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th scope="col">Αποστολή</th>
+								<th scope="col">Voucher Συνεργάτη</th>
+								<th scope="col">Ημερομηνία</th>
+								<th scope="col">Περιγραφή</th>
+								<th scope="col">Κατάστημα</th>
+								<th scope="col">Στοιχεία Παράδοσης</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">019000000028</th>
+								<th></th>
+								<td>12/06/2026  7:47:14 AM</td>
+								<td>Προς παράδοση</td>
+								<td>ΠΑΡΑΔΕΙΓΜΑ</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="row mt-3">
+				<div class="col mobiRemoveMargin">
+
+
+					<h2>Αναλυτικά Στοιχεία Αποστολής</h2>
+					<table class="table table-bordered table-hover">
+						<thead>
+							<tr>
+								<th scope="col">Αποστολή</th>
+								<th scope="col">Voucher Συνεργάτη</th>
+								<th scope="col">Ημερομηνία</th>
+								<th scope="col">Περιγραφή</th>
+								<th scope="col">Κατάστημα</th>
+
+
+
+							</tr>
+						</thead>
+						<tbody>
+														<tr>
+								<th scope="row">019000000028</th>
+								<th scope="row"></th>
+								<td>12/06/2026  7:47:14 AM</td>
+								<td>Προς παράδοση</td>
+								<td>ΠΑΡΑΔΕΙΓΜΑ</td>							</tr>
+														<tr>
+								<th scope="row">019000000028</th>
+								<th scope="row"></th>
+								<td>11/06/2026 12:05:00 PM</td>
+								<td>Καταχωρήθηκε Αιτία μη Παράδοσης</td>
+								<td>ΠΑΡΑΔΕΙΓΜΑ</td>							</tr>
+														<tr>
+								<th scope="row">019000000028</th>
+								<th scope="row"></th>
+								<td>11/06/2026  8:34:10 AM</td>
+								<td>Αφίχθει στο κατάστημα παράδοσης</td>
+								<td>ΠΑΡΑΔΕΙΓΜΑ</td>							</tr>
+														<tr>
+								<th scope="row">019000000028</th>
+								<th scope="row"></th>
+								<td>10/06/2026  7:20:27 PM</td>
+								<td>Αναχώρηση για το Κατάστημα Παράδοσης</td>
+								<td>ΚΔ ΔΕΙΓΜΑΤΟΣ</td>							</tr>
+														<tr>
+								<th scope="row">019000000028</th>
+								<th scope="row"></th>
+								<td>10/06/2026  7:20:21 PM</td>
+								<td>Αφίχθη στο κέντρο διαλογής</td>
+								<td>ΚΔ ΔΕΙΓΜΑΤΟΣ</td>							</tr>
+														<tr>
+								<th scope="row">019000000028</th>
+								<th scope="row"></th>
+								<td>10/06/2026  3:31:34 PM</td>
+								<td>Αναχώρηση για το Κατάστημα Παράδοσης</td>
+								<td>ΔΕΙΓΜΑ</td>							</tr>
+														<tr>
+								<th scope="row">019000000028</th>
+								<th scope="row"></th>
+								<td>10/06/2026  2:17:41 PM</td>
+								<td>Χαρακτηρισμός ώς Παρελήφθη</td>
+								<td>ΔΕΙΓΜΑ</td>							</tr>
+														<tr>
+								<th scope="row">019000000028</th>
+								<th scope="row"></th>
+								<td>10/06/2026  2:17:41 PM</td>
+								<td>Αφίχθη στο κατάστημα παραλαβής</td>
+								<td>ΔΕΙΓΜΑ</td>							</tr>
+														<tr>
+								<th scope="row">019000000028</th>
+								<th scope="row"></th>
+								<td>10/06/2026  9:12:30 AM</td>
+								<td>Καταχώρηση αποστολής από τον αποστολέα</td>
+								<td>ΠΡΟΤΥΠΟ</td>							</tr>
+													</tbody>
+					</table>
+				</div>
+			</div>
+
+					</div>
+		<div class="col tos">
+			<div class="row">
+				<h2>Όροι και προυποθέσεις</h2>
+				<p>Το σύστημα αναζήτησης έχει σχεδιαστεί για να δίνει μια γρήγορη ενημέρωση για την πορεία των αποστολών σας.</p>
+			</div>
+		</div></div>
+</body>
+</html>

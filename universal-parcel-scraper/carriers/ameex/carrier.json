@@ -1,0 +1,43 @@
+{
+  "id": "ameex",
+  "displayName": "Ameex",
+  "aliases": [
+    "AMEEX",
+    "Ameex.ma",
+    "AMEEX Delivery"
+  ],
+  "region": {
+    "countries": [
+      "MA"
+    ]
+  },
+  "brand": {
+    "color": "#132f7d"
+  },
+  "selectable": true,
+  "timezone": "Africa/Casablanca",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://ameex.ma/en/tracking/{trackingNumber}",
+    "searchUrl": "https://ameex.ma/en/tracking",
+    "canaryUrl": "https://ameex.ma/en/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "ameex.ma"
+      ],
+      "path": "^/(?:en|fr|ar)/(?:tracking|suivi-colis)/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

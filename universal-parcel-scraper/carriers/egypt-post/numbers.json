@@ -1,0 +1,145 @@
+{
+  "carrier": "egypt-post",
+  "records": [
+    {
+      "number": "EXP32010401EG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20201109190818/https://www.egyptpost.org/track-details?itemReference=EXP32010401EG",
+        "date": "2020-11-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "egypt-post"
+        ]
+      },
+      "note": "The archived lookup on Egypt Post's tracker shows a domestic Express shipment collected in Alexandria and processed through the Cairo traffic centre."
+    },
+    {
+      "number": "ENO10914048EG",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://egyptpost.gov.eg/js/app.js?v=1.1",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "egypt-post"
+        ]
+      },
+      "note": "Egypt Post's own site script uses it as the default item number of its tracking component, next to placeholder examples of the same layout."
+    },
+    {
+      "number": "EE807962288EG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-emirates-post.html",
+        "date": "2018-10-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A review on TrackingMore's Emirates Post page gives it for an item sent from Egypt to the UAE; the EG suffix names Egypt Post as the issuing post."
+    },
+    {
+      "number": "ENO30052041EG",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/MohamedSalamaMousa/shipment/blob/main/resources/js/trackShipment.js",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "egypt-post"
+        ]
+      },
+      "note": "A public Egypt Post tracking project uses it as the default item number of its lookup."
+    },
+    {
+      "number": "RU860584495CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251023074401/https://www.egyptpost.org/track-details?itemReference=RU860584495CN",
+        "date": "2025-10-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Item from China looked up on Egypt Post's earlier tracker, as an archived address shows; the capture holds only a redirect."
+    },
+    {
+      "number": "RB536527177SG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251017125119/https://www.egyptpost.org/track-details?itemReference=RB536527177SG",
+        "date": "2025-10-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "singapore-post",
+        "confidence": "high"
+      },
+      "note": "Item from Singapore looked up on Egypt Post's earlier tracker, as an archived address shows; the capture holds only a redirect."
+    },
+    {
+      "number": "RE272304639SE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250510121901/https://www.egyptpost.org/track-details?itemReference=RB597759784SG,RE272304639SE",
+        "date": "2025-05-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "postnord",
+        "confidence": "high"
+      },
+      "note": "Item from Sweden looked up with another item on Egypt Post's earlier tracker, as an archived address shows; the capture holds only a redirect."
+    }
+  ]
+}

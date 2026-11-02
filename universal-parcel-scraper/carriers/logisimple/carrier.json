@@ -1,0 +1,90 @@
+{
+  "id": "logisimple",
+  "displayName": "Logisimple",
+  "aliases": [
+    "Logisimple, Lda.",
+    "Logisimple - Transportes, Montagens e Mudanças"
+  ],
+  "region": {
+    "countries": [
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#e27900"
+  },
+  "selectable": true,
+  "timezone": "Europe/Lisbon",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "logisimple",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://portal.logisimple.pt/pt/tracking?tracking={trackingNumber}",
+    "searchUrl": "https://portal.logisimple.pt/pt/tracking",
+    "canaryUrl": "https://portal.logisimple.pt/pt/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "eta_window",
+      "progress_rail",
+      "customer_reference",
+      "event_details",
+      "depot_code",
+      "office_contact_details",
+      "remarks",
+      "recipient_name",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta"
+    ],
+    "discarded": [
+      "eta_window",
+      "progress_rail",
+      "customer_reference",
+      "event_details",
+      "depot_code",
+      "office_contact_details",
+      "remarks",
+      "recipient_name",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "provider_code",
+      "offset_timestamps",
+      "weight",
+      "service_name",
+      "sender_name",
+      "destination",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "portal.logisimple.pt"
+      ],
+      "pathPattern": "^/(?:pt|en)/tracking/?$",
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": []
+}

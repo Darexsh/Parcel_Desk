@@ -1,0 +1,15 @@
+{
+  "carrier": "evropat",
+  "entries": [
+    {"wording": "Създадена", "stage": "registered", "language": "bg", "confirmedBy": "live", "note": "The sender created the waybill."},
+    {"wording": "Разпечатана", "stage": "registered", "language": "bg", "confirmedBy": "live", "note": "The label was printed; a waybill printed again shows it once per print."},
+    {"wording": "Приета от куриер", "stage": "accepted", "language": "bg", "confirmedBy": "live", "note": "A courier collected the parcel. The step names the courier, which the adapter does not keep."},
+    {"wording": "Приета в офис", "stage": "accepted", "language": "bg", "confirmedBy": "live", "note": "Taken into an office's depot, after a courier's collection or over the counter. The step names the office."},
+    {"wording": "Натоварена от офис", "stage": "in_transit", "language": "bg", "confirmedBy": "live", "note": "Loaded on a line from one office to the next. The step names the office and the line."},
+    {"wording": "Разтоварена в офис", "stage": "in_transit", "language": "bg", "confirmedBy": "live", "note": "Unloaded from a line at the next office, which the step names."},
+    {"wording": "Групирана", "stage": "in_transit", "language": "bg", "confirmedBy": "live", "note": "Grouped with other parcels at the office the step names."},
+    {"wording": "Разгрупирана", "stage": "in_transit", "language": "bg", "confirmedBy": "live", "note": "Taken out of its group at the office the step names, ahead of delivery."},
+    {"wording": "В куриер за разнос", "stage": "out_for_delivery", "language": "bg", "confirmedBy": "live", "note": "With a courier for delivery. The step names the courier, which the adapter does not keep."},
+    {"wording": "Разнесена", "stage": "delivered", "language": "bg", "confirmedBy": "live", "note": "Delivered. The step names whoever signed, which the adapter does not keep."}
+  ]
+}

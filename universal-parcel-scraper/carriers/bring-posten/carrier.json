@@ -1,0 +1,142 @@
+{
+  "id": "bring-posten",
+  "displayName": "Bring",
+  "aliases": [
+    "Posten Norge",
+    "Posten Bring",
+    "Norway Post"
+  ],
+  "region": {
+    "countries": [
+      "NO",
+      "SE",
+      "DK",
+      "FI"
+    ]
+  },
+  "brand": {
+    "color": "#56b529"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "bring-posten",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 205
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "weight",
+    "dimensions",
+    "sender_name",
+    "pickup_point",
+    "eta",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://sporing.bring.no/sporing/{trackingNumber}?lang=en",
+    "searchUrl": "https://sporing.bring.no/sporing/?lang=en",
+    "canaryUrl": "https://sporing.bring.no/sporing/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "weight",
+      "dimensions",
+      "sender_name",
+      "pickup_point",
+      "destination_country",
+      "service_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "weight",
+      "dimensions",
+      "sender_name",
+      "pickup_point",
+      "destination_country",
+      "service_name"
+    ],
+    "discarded": [
+      "descriptions",
+      "addresses",
+      "contact_details",
+      "proof_images",
+      "pickup_code"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "sporing.bring.no",
+        "sporing.posten.no"
+      ],
+      "path": "^/sporing/([A-Z0-9]{13,20})/?$"
+    },
+    {
+      "domains": [
+        "sporing.bring.no",
+        "sporing.posten.no"
+      ],
+      "params": [
+        "q",
+        "PackageNumber"
+      ]
+    },
+    {
+      "domains": [
+        "tracking.bring.com",
+        "tracking.bring.se",
+        "tracking.bring.dk"
+      ],
+      "params": [
+        "packageNumber",
+        "q"
+      ],
+      "path": "^/tracking/([A-Z0-9]{13,20})/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "bring-posten-1",
+      "pattern": "^[A-Z]{2}\\d{9}NO$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "bring-posten-2",
+      "pattern": "^37[03]\\d{15}$",
+      "confidence": "low",
+      "checksum": "gs1",
+      "preferred": true
+    },
+    {
+      "id": "bring-posten-3",
+      "pattern": "^0037(?:0|3(?!402216))\\d{15}$",
+      "confidence": "low",
+      "checksum": "sscc",
+      "preferred": true
+    },
+    {
+      "id": "bring-posten-4",
+      "pattern": "^70\\d{15}$",
+      "confidence": "low",
+      "checksum": "gs1",
+      "preferred": true
+    }
+  ]
+}

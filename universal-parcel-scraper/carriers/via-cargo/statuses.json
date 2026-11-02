@@ -1,0 +1,11 @@
+{
+  "carrier": "via-cargo",
+  "entries": [
+    {"code": "ALTA", "wording": "INGRESO A VIA CARGO", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Taken in at the sender's branch; the first event of every history."},
+    {"code": "MANI", "wording": "EN VIAJE A CD", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "On its way from the branch to a distribution centre."},
+    {"code": "RECD", "wording": "Recepcionado en centro de distribución", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Received at a distribution centre."},
+    {"code": "CPCE", "wording": "EN VIAJE", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Left a distribution centre or a branch on the way."},
+    {"code": "RCPV", "wording": "RECIBIDO EN DESTINO", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "At the destination branch, where the parcel waits for collection or goes out to the door; the reply does not say which, and deliveries came hours to days later."},
+    {"code": "ENTR", "wording": "ENTREGADA", "stage": "delivered", "language": "es", "confirmedBy": "live"}
+  ]
+}

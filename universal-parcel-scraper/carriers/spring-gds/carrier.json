@@ -1,0 +1,133 @@
+{
+  "id": "spring-gds",
+  "displayName": "PostNL",
+  "aliases": [
+    "Spring GDS",
+    "Mailing Technology",
+    "PostNL - Netherlands Post",
+    "Spring Global Mail"
+  ],
+  "region": {
+    "countries": [
+      "NL"
+    ]
+  },
+  "brand": {
+    "color": "#ef7d00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Amsterdam",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "spring-gds",
+    "requirements": [
+      {
+        "field": "postcode",
+        "whenTrackingNumber": "^(?=.{13}$|.{15}$)3S[A-Z]{1,4}[0-9]+$",
+        "validator": "internationalPostcode",
+        "optional": true,
+        "readsCountry": true,
+        "label": "Delivery postcode",
+        "type": "text",
+        "placeholder": "1234 AB",
+        "help": "Optional. PostNL shows a parcel sent within the Netherlands only with its delivery postcode. Without it, other sources are asked.",
+        "pattern": "^[1-9][0-9]{3} ?[A-Za-z]{2}$",
+        "maxLength": 7,
+        "inputMode": "text",
+        "autoComplete": "postal-code"
+      }
+    ],
+    "steps": [
+      "domestic",
+      "direct"
+    ],
+    "recognition": {
+      "rank": 524,
+      "pattern": "^1810\\d{14}$"
+    },
+    "refresh": {
+      "minMinutes": 30
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://postnl.post/track?barcodes={trackingNumber}",
+    "searchUrl": "https://postnl.post/track",
+    "helpUrl": "https://www.postnl.nl/en/customer-service/",
+    "hidesDestinationLeg": "^[0-9]{18}$",
+    "canaryUrl": "https://postnl.post/",
+    "shows": [
+      "status",
+      "history",
+      "location"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "provider_code",
+      "destination_country"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "eta",
+      "sender_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "postnl.post"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "barcodes"
+      ]
+    },
+    {
+      "domains": [
+        "mailingtechnology.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "tn"
+      ]
+    },
+    {
+      "domains": [
+        "postnl.post"
+      ],
+      "path": "/details/([^/?#]+)"
+    }
+  ],
+  "detection": [
+    {
+      "id": "spring-gds-1",
+      "pattern": "^(?!(?:PZ|XR|XT|XU|XW|XY))[A-Z]{2}\\d{9}NL$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "spring-gds-2",
+      "pattern": "^3S[A-Z]{4}(?:\\d{7}|\\d{9})$",
+      "confidence": "high"
+    },
+    {
+      "id": "spring-gds-3",
+      "pattern": "^(?=.{13}$|.{15}$)3S[A-Z]{1,3}\\d+$",
+      "confidence": "low"
+    },
+    {
+      "id": "spring-gds-1810",
+      "pattern": "^1810\\d{14}$",
+      "confidence": "low"
+    }
+  ]
+}

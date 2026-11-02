@@ -1,0 +1,50 @@
+{
+  "carrier": "ccfs",
+  "records": [
+    {
+      "number": "100000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-10-19",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Invented placeholder for a twelve-digit pro number; the public sample's tracker names its signer."
+    },
+    {
+      "number": "A0000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-10-19",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "Invented placeholder for a freight bill number, one letter and seven digits."
+    }
+  ]
+}

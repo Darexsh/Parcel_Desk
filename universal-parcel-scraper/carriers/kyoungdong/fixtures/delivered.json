@@ -1,0 +1,110 @@
+{
+  "searchVO": {
+    "isAdmin": false,
+    "searchWord": "",
+    "type1": "",
+    "orderBy": "",
+    "status": "",
+    "addOnly": "N",
+    "tab": "",
+    "pdt": ""
+  },
+  "org.springframework.validation.BindingResult.searchVO": {
+    "target": {
+      "isAdmin": false,
+      "searchWord": "",
+      "type1": "",
+      "orderBy": "",
+      "status": "",
+      "addOnly": "N",
+      "tab": "",
+      "pdt": ""
+    },
+    "autoGrowNestedPaths": true,
+    "autoGrowCollectionLimit": 256,
+    "objectName": "searchVO",
+    "messageCodesResolver": {
+      "prefix": "",
+      "formatter": "PREFIX_ERROR_CODE"
+    },
+    "errors": [],
+    "suppressedFields": [],
+    "nestedPath": "",
+    "nestedPathStack": []
+  },
+  "data": {
+    "branArvlTelno": "02-000-0002",
+    "branSndnTelno": "031-000-0001",
+    "wrapStatus": "박스",
+    "count": "1",
+    "prodRegDt": "2026-10-05 16:20:11",
+    "rvCustAddr": "샘플시 예시구 가상로 1",
+    "snCustEtcTel": "",
+    "snCustDaddr": "",
+    "rvCustEtcTel": "",
+    "rvCustDaddr": "샘플아파트 101동 101호",
+    "prodCode": "1000000000001",
+    "snCustAddr": "샘플도 예시군 가상길 2",
+    "rvCustTel": "010-0000-****",
+    "scanList": [
+      {
+        "strtPointNm": "가나다12",
+        "scanDt": "2026-10-05 16:20:11.123456",
+        "strtPointTelno": "031-000-0001",
+        "scanType": "0002",
+        "scanTypeNm": "발송"
+      },
+      {
+        "strtPointNm": "차카타5678",
+        "scanDt": "2026-10-05 22:41:03",
+        "strtPointTelno": "-",
+        "scanType": "0004",
+        "scanTypeNm": "노선상차"
+      },
+      {
+        "strtPointNm": "최**",
+        "scanDt": "2026-10-06 01:15:40",
+        "strtPointTelno": "-",
+        "scanType": "0004",
+        "scanTypeNm": "노선상차"
+      },
+      {
+        "strtPointNm": "마바사34",
+        "scanDt": "2026-10-06 06:02:59",
+        "strtPointTelno": "02-000-0002",
+        "scanType": "0006",
+        "scanTypeNm": "도착"
+      },
+      {
+        "strtPointNm": "마바사34",
+        "scanDt": "2026-10-06 06:02:59",
+        "strtPointTelno": "02-000-0002",
+        "scanType": "0006",
+        "scanTypeNm": "도착"
+      },
+      {
+        "strtPointNm": "마바사34",
+        "scanDt": "2026-10-06 13:30:12.5",
+        "strtPointTelno": "02-000-0002",
+        "scanType": "0008",
+        "scanTypeNm": "배송중"
+      },
+      {
+        "strtPointNm": "홍길동(배송기사)",
+        "scanDt": "2026-10-06 15:47:08.300001",
+        "strtPointTelno": "02-000-0002",
+        "scanType": "0007",
+        "scanTypeNm": "배송완료"
+      }
+    ],
+    "branSndnNm": "가나다12",
+    "signAttchFiles": [],
+    "rvCustNm": "홍*동",
+    "prodName": "샘플상품",
+    "acctType": "0007",
+    "branArvlNm": "마바사34",
+    "snCustNm": "샘플상사",
+    "snCustTel": "010-0000-0000"
+  },
+  "result": "suc"
+}

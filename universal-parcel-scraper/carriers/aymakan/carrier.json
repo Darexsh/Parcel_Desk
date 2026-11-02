@@ -1,0 +1,92 @@
+{
+  "id": "aymakan",
+  "displayName": "AyMakan",
+  "aliases": [
+    "Aymakan",
+    "أي مكان"
+  ],
+  "region": {
+    "countries": [
+      "SA"
+    ]
+  },
+  "brand": {
+    "color": "#feca07"
+  },
+  "selectable": true,
+  "timezone": "Asia/Riyadh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "aymakan",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 942
+    },
+    "localClocks": true,
+    "dateOnlyScans": true
+  },
+  "capabilities": [
+    "history"
+  ],
+  "portal": {
+    "url": "https://aymakan.com/tracking/{trackingNumber}",
+    "searchUrl": "https://aymakan.com/tracking",
+    "canaryUrl": "https://aymakan.com/tracking",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "origin",
+      "destination",
+      "signatory"
+    ],
+    "scraped": [
+      "status",
+      "history"
+    ],
+    "discarded": [
+      "progress_rail",
+      "origin",
+      "destination",
+      "signatory"
+    ],
+    "unavailable": [
+      "location",
+      "scan_times",
+      "offset_timestamps",
+      "provider_code",
+      "eta",
+      "weight",
+      "delivered_at",
+      "proof_of_delivery",
+      "sender_name",
+      "recipient_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "aymakan.com",
+        "www.aymakan.com"
+      ],
+      "path": "^/(?:ar/|en/)?tracking/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "aymakan.com.sa",
+        "www.aymakan.com.sa"
+      ],
+      "path": "^/(?:ar|en)/tracking/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "aymakan-1",
+      "pattern": "^AY\\d{9,11}$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "status": "Delivered",
+  "consignmentState": "Delivered",
+  "consignmentStatusTitle": "We've delivered your parcel",
+  "consignmentMilestone": "delivered",
+  "showCallUs": false,
+  "shortConsignmentId": "0000000 ZZZZ047193",
+  "toolTip": "",
+  "consignmentId": "CU..ZZZZ047193.Z.0000000.1",
+  "pickupDateTime": "2026-04-06T03:16:59Z",
+  "onboardDateTime": "2026-04-07T18:35:17.183Z",
+  "deliveryDateTime": "2026-04-07T19:17:00.977Z",
+  "eptlAvailable": false,
+  "consignmentItems": [
+    {
+      "consignmentItemId": "CU..ZZZZ047193.Z.0000000.1.1",
+      "partNumber": "01",
+      "trackingEvents": [
+        {
+          "barcode": "",
+          "status": "Label Created",
+          "createdOn": "2026-04-06T04:09:16Z",
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "000000000000000000000000000000",
+          "eventType": "P",
+          "status": "Picked Up",
+          "createdOn": "2026-04-06T03:16:59Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMP",
+          "runNumber": "100",
+          "location": { "suburb": "Sample Park", "town": "SAMPLETON", "region": "Sample City", "postCode": "0000", "country": "New Zealand" },
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "000000000000000000000000000000",
+          "eventType": "ONBD",
+          "status": "Out for Delivery",
+          "createdOn": "2026-04-07T18:35:17.183Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMH",
+          "runNumber": "200",
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "000000000000000000000000000000",
+          "eventType": "D",
+          "status": "Delivered",
+          "createdOn": "2026-04-07T19:17:00.977Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMH",
+          "runNumber": "200",
+          "location": { "suburb": "Sample Hills", "town": "SAMPLETON", "region": "Sample District", "postCode": "0000", "country": "New Zealand" },
+          "locationIdType": false,
+          "attachments": [
+            {
+              "attachmentType": "SIGV",
+              "description": "Signer",
+              "href": ["https://example.invalid/attachments?consignmentItemId=CU..ZZZZ047193.Z.0000000.1.1&imageId=synthetic"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "CustomerId": null,
+  "ShipmentId": 900000123,
+  "ExpeditionDate": "2026-03-02",
+  "InsertedDate": null,
+  "TotalParcels": 1,
+  "TotalWeight": 3,
+  "ShipmentStatus": "Delivered",
+  "ShipmentStatusFr": "Livrée",
+  "ShipmentStatusEn": "Delivered",
+  "ShipmentStatusTooltipFr": "Texte d'aide synthétique",
+  "ShipmentStatusTooltipEn": "Synthetic help text",
+  "ShipmentStatusTooltips": [
+    {
+      "TextFr": "Texte d'aide synthétique",
+      "TextEn": "Synthetic help text",
+      "ShipmentStatus": "Creation"
+    }
+  ],
+  "StatusHistories": [
+    {
+      "ShipmentStatus": "Creation",
+      "ShipmentStatusFr": "Créée",
+      "ShipmentStatusEn": "Creation",
+      "StatusDate": "2026-03-02T17:16:11",
+      "LastLocation": null
+    },
+    {
+      "ShipmentStatus": "OutForPickup",
+      "ShipmentStatusFr": "En cueillette",
+      "ShipmentStatusEn": "Out for pickup",
+      "StatusDate": "2026-03-03T09:15:00",
+      "LastLocation": null
+    },
+    {
+      "ShipmentStatus": "Pickup",
+      "ShipmentStatusFr": "Récupérée",
+      "ShipmentStatusEn": "Picked up",
+      "StatusDate": "2026-03-03T16:31:27",
+      "LastLocation": null
+    },
+    {
+      "ShipmentStatus": "Transit",
+      "ShipmentStatusFr": "En transit",
+      "ShipmentStatusEn": "In transit",
+      "StatusDate": "2026-03-03T22:47:09",
+      "LastLocation": null
+    },
+    {
+      "ShipmentStatus": "OutForDelivery",
+      "ShipmentStatusFr": "En route",
+      "ShipmentStatusEn": "Out for delivery",
+      "StatusDate": "2026-03-04T07:12:03",
+      "LastLocation": null
+    },
+    {
+      "ShipmentStatus": "Delivered",
+      "ShipmentStatusFr": "Livrée",
+      "ShipmentStatusEn": "Delivered",
+      "StatusDate": "2026-03-04T14:05:12",
+      "LastLocation": null
+    }
+  ],
+  "ShipmentType": "PickupDelivery",
+  "ReferenceNumber": "SYNTHETIC-REF-77",
+  "Note": "Synthetic note at the side door",
+  "BillingAccount": null,
+  "Sender": {
+    "Contact": null,
+    "AccountNumber": null,
+    "AccountName": null,
+    "Address1": null,
+    "Address2": null,
+    "PostalCode": null,
+    "City": null,
+    "ProvinceState": null,
+    "Territory": null,
+    "CountryID": null,
+    "Phone": null,
+    "SmsNotification": null,
+    "EmailNotification": null,
+    "NoCivic": null,
+    "Suite": null,
+    "StreetName": null,
+    "Email": null,
+    "DeliveryDays": null,
+    "DepotShort": null,
+    "SectorId": null,
+    "RouteId": null,
+    "Geocoding": {
+      "Longitude": -71.5,
+      "Latitude": 46.5
+    }
+  },
+  "Destination": {
+    "Contact": null,
+    "AccountNumber": null,
+    "AccountName": null,
+    "Address1": null,
+    "Address2": null,
+    "PostalCode": "A1A 1A1",
+    "City": "SYNTHETICTOWN",
+    "ProvinceState": null,
+    "Territory": null,
+    "CountryID": null,
+    "Phone": null,
+    "SmsNotification": null,
+    "EmailNotification": null,
+    "NoCivic": null,
+    "Suite": null,
+    "StreetName": null,
+    "Email": null,
+    "DeliveryDays": null,
+    "DepotShort": null,
+    "SectorId": null,
+    "RouteId": null,
+    "Geocoding": {
+      "Longitude": -71.5,
+      "Latitude": 46.5
+    }
+  },
+  "Accessory": null,
+  "Parcels": [
+    {
+      "ParcelId": 90000012301,
+      "ParcelNumber": 1,
+      "ReferenceNumber": "SYNTHETIC-REF-77",
+      "NCV": false,
+      "Weight": 3,
+      "Status": "Delivered",
+      "StatusDescriptionEn": "Delivered",
+      "StatusDescriptionFr": "Livrée",
+      "EstimatedDeliveryDate": "2026-03-04",
+      "EstimatedDeliveryTime": "",
+      "EstimatedDeliveryDateRangeFr": "",
+      "EstimatedDeliveryDateRangeEn": "",
+      "EstimatedDeliveryDateRangeStart": "",
+      "EstimatedDeliveryDateRangeEnd": "",
+      "EstimatedDeliveryTimeFr": "",
+      "EstimatedDeliveryTimeEn": "",
+      "EstimatedDeliveryDateTimeStart": null,
+      "EstimatedDeliveryDateTimeEnd": null,
+      "EstimatedDeliveryDateTimeExact": null,
+      "EstimatedPercentageBeforeDelivery": null,
+      "EstimatedDeliveryWithinFewHours": false,
+      "Dimensions": {
+        "Height": 10,
+        "Length": 20,
+        "Width": 30,
+        "Cubing": 0.2
+      },
+      "History": [
+        {
+          "ParcelHistoryId": 7001,
+          "ProcessedDate": "2026-03-04T14:05:12",
+          "ExceptionId": 730,
+          "CityDepot": "EXAMPLEVILLE",
+          "DescriptionFr": "Photo prise",
+          "DescriptionEn": "Picture taken",
+          "DescriptionShortFr": null,
+          "DescriptionShortEn": null,
+          "PhotoId": 4242,
+          "SignatureId": 0,
+          "Geocoding": {
+            "Longitude": -71.25,
+            "Latitude": 46.75
+          },
+          "Contact": ""
+        },
+        {
+          "ParcelHistoryId": 7002,
+          "ProcessedDate": "2026-03-04T14:05:12",
+          "ExceptionId": 119,
+          "CityDepot": "EXAMPLEVILLE",
+          "DescriptionFr": "Livraison complétée - Colis laissé à la porte avant",
+          "DescriptionEn": "Delivery completed - Parcel left at the front door",
+          "DescriptionShortFr": null,
+          "DescriptionShortEn": null,
+          "PhotoId": 0,
+          "SignatureId": 0,
+          "Geocoding": {
+            "Longitude": -71.25,
+            "Latitude": 46.75
+          },
+          "Contact": "SYNTHETIC SIGNER"
+        },
+        {
+          "ParcelHistoryId": 7003,
+          "ProcessedDate": "2026-03-04T14:05:12",
+          "ExceptionId": 730,
+          "CityDepot": "EXAMPLEVILLE",
+          "DescriptionFr": "Photo prise",
+          "DescriptionEn": "Picture taken",
+          "DescriptionShortFr": null,
+          "DescriptionShortEn": null,
+          "PhotoId": 4242,
+          "SignatureId": 0,
+          "Geocoding": {
+            "Longitude": -71.25,
+            "Latitude": 46.75
+          },
+          "Contact": ""
+        },
+        {
+          "ParcelHistoryId": 7004,
+          "ProcessedDate": "2026-03-04T08:01:40",
+          "ExceptionId": 720,
+          "CityDepot": "EXAMPLEVILLE",
+          "DescriptionFr": "Notification d'expédition envoyée au destinataire",
+          "DescriptionEn": "Delivery notifications sent to the consignee",
+          "DescriptionShortFr": null,
+          "DescriptionShortEn": null,
+          "PhotoId": 0,
+          "SignatureId": 0,
+          "Geocoding": {
+            "Longitude": 0,
+            "Latitude": 0
+          },
+          "Contact": ""
+        },
+        {
+          "ParcelHistoryId": 7005,
+          "ProcessedDate": "2026-03-04T07:12:03",
+          "ExceptionId": 900,
+          "CityDepot": "EXAMPLEVILLE",
+          "DescriptionFr": "Colis en route pour livraison",
+          "DescriptionEn": "Parcel out for delivery",
+          "DescriptionShortFr": null,
+          "DescriptionShortEn": null,
+          "PhotoId": 0,
+          "SignatureId": 0,
+          "Geocoding": {
+            "Longitude": 0,
+            "Latitude": 0
+          },
+          "Contact": ""
+        },
+        {
+          "ParcelHistoryId": 7006,
+          "ProcessedDate": "2026-03-04T03:22:51",
+          "ExceptionId": 901,
+          "CityDepot": "SAMPLE HUB",
+          "DescriptionFr": "Scan du colis ",
+          "DescriptionEn": "Parcel scanned",
+          "DescriptionShortFr": null,
+          "DescriptionShortEn": null,
+          "PhotoId": 0,
+          "SignatureId": 0,
+          "Geocoding": {
+            "Longitude": 0,
+            "Latitude": 0
+          },
+          "Contact": ""
+        },
+        {
+          "ParcelHistoryId": 7007,
+          "ProcessedDate": "2026-03-03T22:47:09",
+          "ExceptionId": 903,
+          "CityDepot": "SAMPLE HUB",
+          "DescriptionFr": "Scan du colis ",
+          "DescriptionEn": "Parcel scanned",
+          "DescriptionShortFr": null,
+          "DescriptionShortEn": null,
+          "PhotoId": 0,
+          "SignatureId": 0,
+          "Geocoding": {
+            "Longitude": 0,
+            "Latitude": 0
+          },
+          "Contact": ""
+        },
+        {
+          "ParcelHistoryId": 7008,
+          "ProcessedDate": "2026-03-03T16:31:27",
+          "ExceptionId": 52,
+          "CityDepot": "EXAMPLEVILLE",
+          "DescriptionFr": "Ramassage du colis confirmé",
+          "DescriptionEn": "Pickup of the parcel confirmed",
+          "DescriptionShortFr": null,
+          "DescriptionShortEn": null,
+          "PhotoId": 0,
+          "SignatureId": 0,
+          "Geocoding": {
+            "Longitude": 0,
+            "Latitude": 0
+          },
+          "Contact": ""
+        },
+        {
+          "ParcelHistoryId": 7009,
+          "ProcessedDate": "2026-03-03T09:15:00",
+          "ExceptionId": 910,
+          "CityDepot": "EXAMPLEVILLE",
+          "DescriptionFr": "Livreur en route pour cueillette",
+          "DescriptionEn": "Driver in route for pickup",
+          "DescriptionShortFr": null,
+          "DescriptionShortEn": null,
+          "PhotoId": 0,
+          "SignatureId": 0,
+          "Geocoding": {
+            "Longitude": 0,
+            "Latitude": 0
+          },
+          "Contact": ""
+        },
+        {
+          "ParcelHistoryId": 7010,
+          "ProcessedDate": "2026-03-02T17:16:11",
+          "ExceptionId": 538,
+          "CityDepot": "",
+          "DescriptionFr": "Création de l'envoi",
+          "DescriptionEn": "Shipment created",
+          "DescriptionShortFr": null,
+          "DescriptionShortEn": null,
+          "PhotoId": 0,
+          "SignatureId": 0,
+          "Geocoding": {
+            "Longitude": 0,
+            "Latitude": 0
+          },
+          "Contact": ""
+        }
+      ],
+      "StatusTooltips": [
+        {
+          "TextFr": "Texte d'aide synthétique",
+          "TextEn": "Synthetic help text",
+          "ShipmentStatus": "Creation"
+        }
+      ],
+      "ParcelStatusHistories": [
+        {
+          "ParcelStatus": "OutForDelivery",
+          "ShipmentStatusFr": "En route",
+          "ShipmentStatusEn": "Out for delivery",
+          "StatusDate": "2026-03-04T07:12:03",
+          "LastLocation": null
+        },
+        {
+          "ParcelStatus": "Delivered",
+          "ShipmentStatusFr": "Livrée",
+          "ShipmentStatusEn": "Delivered",
+          "StatusDate": "2026-03-04T14:05:12",
+          "LastLocation": null
+        }
+      ]
+    }
+  ],
+  "ConsolId": 0,
+  "Photos": null,
+  "LastStop": null,
+  "IsInvoiced": true,
+  "IsScanned": true,
+  "IsConsolidated": false,
+  "IsPickup": false,
+  "IsDelivered": true,
+  "HasCode390": false,
+  "IsGreen": false
+}

@@ -1,0 +1,71 @@
+{
+  "Message": null,
+  "Result": [
+    {
+      "shipmentInfo": {
+        "CONSIGNEE_NAME": "SMP******",
+        "CREATED_TIME": "03/07/2026 20:15:00",
+        "DATA_CODE": null,
+        "DELIVERY_TIME": "",
+        "HAWB_NO": "000000000000022",
+        "IS_POD": false,
+        "LAST_STATUS": "Arrived at destination hub",
+        "LAST_STATUS_TIME": "09/07/2026 09:45:00",
+        "NO_PIECES": 1,
+        "PKG_TYPE": "SPX",
+        "RECEIVER_LOCATION": "OSAKA, JAPAN",
+        "SENDER_LOCATION": "HA NOI, VN",
+        "TOS": "CT",
+        "WEIGHT": 3.5
+      },
+      "shipmentStatuses": [
+        {
+          "COMMENTS": "",
+          "HAWB": "000000000000022",
+          "LOCATION": "OSAKA, JAPAN",
+          "STATUS_ID": "",
+          "STATUS_VN": "Arrived at destination hub",
+          "STRDETTIME": "09/07/2026 09:45:00",
+          "TIME_LOCATION": "JAPAN Time"
+        },
+        {
+          "COMMENTS": "",
+          "HAWB": "000000000000022",
+          "LOCATION": "OSAKA, JAPAN",
+          "STATUS_ID": "",
+          "STATUS_VN": null,
+          "STRDETTIME": "08/07/2026 06:40:00",
+          "TIME_LOCATION": "VIETNAM Time"
+        },
+        {
+          "COMMENTS": "",
+          "HAWB": "000000000000022",
+          "LOCATION": "HA NOI, VIETNAM",
+          "STATUS_ID": "",
+          "STATUS_VN": null,
+          "STRDETTIME": "06/07/2026 22:05:00",
+          "TIME_LOCATION": "VIETNAM Time"
+        },
+        {
+          "COMMENTS": "",
+          "HAWB": "000000000000022",
+          "LOCATION": "HA NOI, VIETNAM",
+          "STATUS_ID": "3",
+          "STATUS_VN": "Picked Up",
+          "STRDETTIME": "06/07/2026 10:05:00",
+          "TIME_LOCATION": "VIETNAM Time"
+        },
+        {
+          "COMMENTS": "",
+          "HAWB": "000000000000022",
+          "LOCATION": "HA NOI, VIETNAM",
+          "STATUS_ID": "1",
+          "STATUS_VN": "Order Created",
+          "STRDETTIME": "03/07/2026 20:15:00",
+          "TIME_LOCATION": "VIETNAM Time"
+        }
+      ]
+    }
+  ],
+  "StatusCode": 200
+}

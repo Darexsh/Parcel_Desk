@@ -1,0 +1,57 @@
+{
+  "data": {
+    "einzelsendung": {
+      "sendungsnummer": "010000000000000000000001",
+      "activeIdentityCode": "010000000000000000000001",
+      "originalIdentityCode": "1000000000000000000003",
+      "status": "ZU",
+      "weight": 1.5,
+      "dimensions": null,
+      "estimatedDelivery": null,
+      "sendungsEvents": [
+        {
+          "timestamp": "2026-03-09T08:00:00.000+00:00",
+          "status": "AV",
+          "reasontypecode": "SE",
+          "trackingDesc": "Versender∗in bereitet die Sendung für den Versand vor",
+          "eventPlaceName": ""
+        },
+        {
+          "timestamp": "2026-03-09T16:00:00.000+00:00",
+          "status": "BEI",
+          "reasontypecode": "EZ",
+          "trackingDesc": "Sendung im Logistikzentrum in Bearbeitung",
+          "eventPlaceName": "Synthetic logistics centre"
+        },
+        {
+          "timestamp": "2026-03-09T16:02:30.000+00:00",
+          "status": "PUG",
+          "reasontypecode": "UT",
+          "trackingDesc": "Übergabe an Kooperationspartner",
+          "eventPlaceName": "Synthetic logistics centre"
+        },
+        {
+          "timestamp": "2026-03-11T09:30:00.000+00:00",
+          "status": "IMP",
+          "reasontypecode": "IB",
+          "trackingDesc": "Sendung im Zielland angekommen",
+          "eventPlaceName": "PLZ Eurodis, Italien"
+        },
+        {
+          "timestamp": "2026-03-12T07:45:00.000+00:00",
+          "status": "AZT",
+          "reasontypecode": "AT",
+          "trackingDesc": "Sendung in Zustellung",
+          "eventPlaceName": "PLZ 00000, Italien"
+        },
+        {
+          "timestamp": "2026-03-12T10:15:00.000+00:00",
+          "status": "IZ",
+          "reasontypecode": "ZU",
+          "trackingDesc": "Sendung wurde zugestellt",
+          "eventPlaceName": "PLZ 00000, Italien"
+        }
+      ]
+    }
+  }
+}

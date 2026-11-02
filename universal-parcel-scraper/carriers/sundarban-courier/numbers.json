@@ -1,0 +1,143 @@
+{
+  "carrier": "sundarban-courier",
+  "records": [
+    {
+      "number": "70138000043904",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250521122509/https://tracking.sundarbancourierltd.com/Home/getDatabyCN",
+        "date": "2025-05-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "zto",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "An archived reply of Sundarban's own tracking service, captured seconds after its tracking page was opened for this CN number, names it with its booking event."
+    },
+    {
+      "number": "10184000367706",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260806031316/https://operation.sundarbancourierltd.com/Home/getDatabyCN",
+        "date": "2026-08-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "dpd",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "An archived reply of Sundarban's own tracking service, captured with its tracking page for this CN number, lists the history from booking to out for delivery."
+    },
+    {
+      "number": "10184000363485",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260806031357/https://operation.sundarbancourierltd.com/?cnnumber=10184000363485",
+        "date": "2026-08-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "dpd",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "An archived lookup on Sundarban's own tracking page with this CN number; the page loads the history separately, so the capture shows none and was not opened."
+    },
+    {
+      "number": "70179000005963",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://operation.sundarbancourierltd.com/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "zto",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "The CN number in the sample addresses that a comment in the script of Sundarban's own tracking page gives."
+    }
+  ]
+}

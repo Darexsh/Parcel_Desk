@@ -1,0 +1,14 @@
+{
+  "carrier": "viadireta",
+  "entries": [
+    {"wording": "Registo na Plataforma da Viadirecta", "stage": "registered", "language": "pt", "confirmedBy": "live", "note": "The first movement: the shipment's data reached ViaDireta."},
+    {"wording": "Atribuição da Zona de Distribuição", "stage": "registered", "language": "pt", "confirmedBy": "live", "note": "Written on the registration's clock, before the parcel reaches the warehouse."},
+    {"wording": "Entrada no Armazém da Viadirecta", "stage": "in_transit", "language": "pt", "confirmedBy": "live", "note": "The parcel reached ViaDireta's warehouse; complaints quote it again after a failed round."},
+    {"wording": "Agendado com Destinatário para. Nova data: <date>", "stage": "in_transit", "language": "pt", "confirmedBy": "live", "note": "A delivery day agreed with the recipient, dd-mm-yyyy. Complaints quote it after a round that did not deliver too; it moves the parcel back from a round."},
+    {"wording": "O Serviço encontra-se em Distribuição", "stage": "out_for_delivery", "language": "pt", "confirmedBy": "live"},
+    {"wording": "Entrega não conseguida - Nova tentativa a. Nova data: <date>", "stage": "failed_attempt", "language": "pt", "confirmedBy": "source", "note": "Quoted from the tracking page in several Portal da Queixa complaints."},
+    {"wording": "Cliente ausente e incontactável. Nova data: <date>", "stage": "failed_attempt", "language": "pt", "confirmedBy": "source", "note": "Quoted from the tracking page in Portal da Queixa complaints, with and without the new day."},
+    {"wording": "Morada incompleta/errada", "stage": "failed_attempt", "language": "pt", "confirmedBy": "source", "note": "Quoted from the tracking page in a Portal da Queixa complaint as a failed delivery."},
+    {"wording": "Realizado com Sucesso", "stage": "delivered", "language": "pt", "confirmedBy": "live", "note": "The page sums the shipment up as delivered beside it."}
+  ]
+}

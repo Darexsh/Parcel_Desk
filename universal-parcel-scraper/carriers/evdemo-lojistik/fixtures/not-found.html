@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="tr">
+<head>
+<meta charset="UTF-8" />
+<title>Kargo Takip</title>
+<base href="https://www.evdemolojistik.com/" />
+</head>
+<body>
+    <div id="content">
+                <div class="container">
+                        <div class="col-xs-2 col-md-2"></div>
+            <div class="content-sider col-xs-12 col-md-8">
+
+                <div class="track-form-two">
+                    <form id="form-form" name="form-form" method="post" action="">
+                        <div class="form-group" style="text-align: center;">
+                            <label style="font-size: 33px; color: red; margin-bottom: 15px; line-height: 38px;">Detaylı
+                                Gönderi Durumu</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="kargo_kodu" placeholder="Kargo Takip No Ör. 000000000000">
+                            <button type="submit" class="theme-btn submit-btn">Sorgula</button>
+                        </div>
+                    </form>
+                </div>
+                                    <div class="row">
+                        <div class="col-md-12 kargo-sonuc" style="margin-bottom:20px;">Takip numarası hatalı olabilir, lütfen bilgileri kontrol ediniz.</div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+    <script type="text/javascript"><!--
+        $(document).ready(function () {
+            $("#form-form").validate({
+                rules: {
+                    kargo_kodu: {required: true, minlength: 11}
+                },
+                submitHandler: function (form) {
+                    var kargo_kodu = $('input[name=\'kargo_kodu\']').val();
+                    $('#form-form').attr('action', 'takip?kargo_kodu=' + encodeURIComponent(kargo_kodu));
+                    form.submit();
+                }
+            });
+        });
+        //--></script>
+<footer>
+  <div class="container">© Evdemo Lojistik</div>
+</footer>
+</body></html>

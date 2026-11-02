@@ -1,0 +1,56 @@
+{
+  "code": 1,
+  "msg": "请求成功",
+  "fail": false,
+  "succ": true,
+  "data": [{
+    "keyword": "200000000001",
+    "expressTypeName": "MassTrack",
+    "packageNumber": 3,
+    "packageTotalWeight": 90,
+    "packageTotalVolume": 0.5,
+    "sendCode": "02",
+    "sendName": "Home delivery",
+    "receiverName": "Example Recipient",
+    "receiverMobilePhone": "00000000000",
+    "receiverDetailedAddress": "Example Private Address",
+    "dispatchTime": "2026-01-03 08:00:00",
+    "details": [
+      {
+        "billCode": "200000000001",
+        "scanTime": "2026-01-02 12:30:00",
+        "uploadTime": "2026-01-05 19:00:00",
+        "code": 92,
+        "status": "dalam proses delivery",
+        "scanTypeName": "Scan Sampai",
+        "scanNetworkCity": "Example City",
+        "scanNetworkProvince": "Example Province",
+        "customerTracking": "Arrival at Example Facility; contact Example Staff at 00000000000",
+        "staffName": "Example Staff",
+        "staffContact": "00000000000",
+        "remark1": "Example Private Note"
+      },
+      {
+        "billCode": "200000000001",
+        "scanTime": "2026-01-02 08:00:00",
+        "code": 50,
+        "status": "dalam proses delivery",
+        "scanTypeName": "Scan Kirim",
+        "scanNetworkCity": "Example Origin",
+        "scanNetworkProvince": "Example Origin Province",
+        "customerTracking": "Departed Example Facility; shipped for Example Destination"
+      },
+      {
+        "billCode": "200000000001",
+        "scanTime": "2026-01-01 09:00:00",
+        "code": 10,
+        "status": "sudah di ambil",
+        "scanTypeName": "pengambilan paket",
+        "scanNetworkCity": "Example Origin",
+        "scanNetworkProvince": "Example Origin Province",
+        "customerTracking": "Example Courier (00000000000) picked up the parcel",
+        "picUrl": "https://example.invalid/private-proof"
+      }
+    ]
+  }]
+}

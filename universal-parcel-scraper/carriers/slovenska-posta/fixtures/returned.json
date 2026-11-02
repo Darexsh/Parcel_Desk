@@ -1,0 +1,195 @@
+{
+  "parcels": [
+    {
+      "barcode": "EE900000036SK",
+      "category": "10",
+      "documents": [],
+      "query": "EE900000036SK",
+      "weight": 0.4,
+      "sender": {
+        "country": "US"
+      },
+      "state": {
+        "at": 20590,
+        "state": "returned"
+      },
+      "events": [
+        {
+          "at": 1778851800000,
+          "desc": {
+            "en": "Delivered to addressee",
+            "sk": "Doručená"
+          },
+          "type": "IPS_EMI_BACK",
+          "on": {
+            "country": "US"
+          }
+        },
+        {
+          "at": 1777885800000,
+          "desc": {
+            "en": "Departure from outward office of exchange",
+            "sk": "Výstup z krajiny adresáta"
+          },
+          "type": "IPS_EMC_BACK"
+        },
+        {
+          "at": 1777809600000,
+          "desc": {
+            "en": "Departure from the country - return",
+            "sk": "Výstup zásielky z krajiny - vrátenie"
+          },
+          "type": "VYSVR"
+        },
+        {
+          "at": 1777708860000,
+          "desc": {
+            "en": "Unclaimed - sent back",
+            "sk": "Neprevzatá v odbernej lehote - odoslaná späť"
+          },
+          "type": "P-NOL",
+          "on": {
+            "city": "Príkladná Ves",
+            "dname": "Pošta Príkladná Ves 2",
+            "gps": [
+              48.9999,
+              18.9999
+            ],
+            "id": "999902",
+            "kind": "office",
+            "name": "Príkladná Ves 2",
+            "nsk": "príkladnáves2",
+            "phones": [
+              "0900000000"
+            ],
+            "rname": "Príkladná Ves 2",
+            "street": "Vzorová 1",
+            "type": "d",
+            "zip": "99999"
+          }
+        },
+        {
+          "at": 1776421800000,
+          "desc": {
+            "en": "Deposited - addressee not available",
+            "sk": "Uložená - adresát nezastihnutý"
+          },
+          "type": "ZNP1AN",
+          "on": {
+            "city": "Príkladná Ves",
+            "dname": "Pošta Príkladná Ves 2",
+            "gps": [
+              48.9999,
+              18.9999
+            ],
+            "id": "999902",
+            "kind": "office",
+            "name": "Príkladná Ves 2",
+            "nsk": "príkladnáves2",
+            "phones": [
+              "0900000000"
+            ],
+            "rname": "Príkladná Ves 2",
+            "street": "Vzorová 1",
+            "type": "d",
+            "zip": "99999"
+          }
+        },
+        {
+          "at": 1776412500000,
+          "desc": {
+            "en": "Out for delivery",
+            "sk": "Prevzatá na doručenie"
+          },
+          "type": "VDOOK",
+          "on": {
+            "city": "Príkladná Ves",
+            "dname": "Pošta Príkladná Ves 2",
+            "gps": [
+              48.9999,
+              18.9999
+            ],
+            "id": "999902",
+            "kind": "office",
+            "name": "Príkladná Ves 2",
+            "nsk": "príkladnáves2",
+            "phones": [
+              "0900000000"
+            ],
+            "rname": "Príkladná Ves 2",
+            "street": "Vzorová 1",
+            "type": "d",
+            "zip": "99999"
+          }
+        },
+        {
+          "at": 1776315600000,
+          "desc": {
+            "en": "In transit",
+            "sk": "V preprave"
+          },
+          "type": "VDOIO",
+          "on": {
+            "name": "Vzorovo 090",
+            "rname": "Vzorovo 090",
+            "type": "ounit"
+          }
+        },
+        {
+          "at": 1776261600000,
+          "desc": {
+            "en": "Returned from import Customs",
+            "sk": "Výstup z colnice"
+          },
+          "type": "IPS_EDC"
+        },
+        {
+          "at": 1776151800000,
+          "desc": {
+            "en": "eCustoms clearance – item placed in temporary storage – awaiting the completion of customs clearance",
+            "sk": "eColné konanie – zásielka uložená v sklade dočasnej prekážky – čaká sa na ukončenie colného konania"
+          },
+          "type": "IPS_EME_73"
+        },
+        {
+          "at": 1776098400000,
+          "desc": {
+            "en": "Presented to import Customs",
+            "sk": "Predložená na colnici"
+          },
+          "type": "IPS_EDB_CST"
+        },
+        {
+          "at": 1776072000000,
+          "desc": {
+            "en": "Arrival at inward office of exchange",
+            "sk": "Vstup do krajiny adresáta"
+          },
+          "type": "IPS_EMD_THERE"
+        },
+        {
+          "at": 1775692200000,
+          "desc": {
+            "en": "Departure from outward office of exchange",
+            "sk": "Výstup z krajiny odosielateľa"
+          },
+          "type": "IPS_EMC_THERE",
+          "on": {
+            "country": "US"
+          }
+        },
+        {
+          "at": 1775582520000,
+          "desc": {
+            "en": "Posted at post office",
+            "sk": "Podaná na pošte"
+          },
+          "type": "IPS_EMA",
+          "on": {
+            "country": "US"
+          }
+        }
+      ]
+    }
+  ]
+}

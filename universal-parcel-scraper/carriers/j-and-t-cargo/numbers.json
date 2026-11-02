@@ -1,0 +1,613 @@
+{
+  "carrier": "j-and-t-cargo",
+  "records": [
+    {
+      "number": "20147053162",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2026/05/22/surat-pembaca/paket-pakaian-terbengkalai-1-bulan-di-jt-cargo-tiba-dalam-kondisi-berjamur-dan-tidak-ada-ganti-rugi",
+        "date": "2026-05-22",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "quarantine",
+        "service": "jt cargo",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "Eleven-digit reported J&T Cargo number differs from other twelve-digit samples. Possible transcription error; never pad or repair it."
+    },
+    {
+      "number": "200252251046",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2023/08/28/tanggapan/tanggapan-perihal-penerima-harus-menunggu-lebih-lama-dari-waktu-perkiraan-akibat-kesalahan-pihak-jt-cargo",
+        "date": "2023-08-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "sf-express",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Shipment-specific public response by J&T Cargo lists five waybills; not documentation placeholders."
+    },
+    {
+      "number": "200254689403",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2023/08/28/tanggapan/tanggapan-perihal-penerima-harus-menunggu-lebih-lama-dari-waktu-perkiraan-akibat-kesalahan-pihak-jt-cargo",
+        "date": "2023-08-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Shipment-specific public response by J&T Cargo lists five waybills; not documentation placeholders."
+    },
+    {
+      "number": "200254813911",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2023/08/28/tanggapan/tanggapan-perihal-penerima-harus-menunggu-lebih-lama-dari-waktu-perkiraan-akibat-kesalahan-pihak-jt-cargo",
+        "date": "2023-08-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Shipment-specific public response by J&T Cargo lists five waybills; not documentation placeholders."
+    },
+    {
+      "number": "200255178404",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2023/08/28/tanggapan/tanggapan-perihal-penerima-harus-menunggu-lebih-lama-dari-waktu-perkiraan-akibat-kesalahan-pihak-jt-cargo",
+        "date": "2023-08-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Shipment-specific public response by J&T Cargo lists five waybills; not documentation placeholders."
+    },
+    {
+      "number": "200255320320",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2023/08/28/tanggapan/tanggapan-perihal-penerima-harus-menunggu-lebih-lama-dari-waktu-perkiraan-akibat-kesalahan-pihak-jt-cargo",
+        "date": "2023-08-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Shipment-specific public response by J&T Cargo lists five waybills; not documentation placeholders."
+    },
+    {
+      "number": "200812063341",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/02/05/surat-pembaca/sikap-kurir-yang-tidak-menyenangkan-dan-tidak-mau-mengantar-pesanan-saya",
+        "date": "2025-02-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo multi piece",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "purolator",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "First consignment reportedly has three pieces."
+    },
+    {
+      "number": "200815443617",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/03/09/surat-pembaca/kerugian-besar-karena-kelalaian-pihak-ekspedisi",
+        "date": "2025-03-09",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Customer J&T Cargo consignment."
+    },
+    {
+      "number": "200817226162",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/02/05/surat-pembaca/sikap-kurir-yang-tidak-menyenangkan-dan-tidak-mau-mengantar-pesanan-saya",
+        "date": "2025-02-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo multi piece",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "First consignment reportedly has three pieces."
+    },
+    {
+      "number": "200843783524",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/03/12/surat-pembaca/shopee-dan-jt-cargo-tidak-bertanggung-jawab-atas-kerusakan-paket-dalam-pengiriman/comment-page-2",
+        "date": "2025-03-12",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo fragile",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Customer J&T Cargo shipment; fragile-parcel report."
+    },
+    {
+      "number": "200889864156",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/05/05/surat-pembaca/keadaan-paket-rusak-adanya-paket-yang-hilang-dan-ditolaknya-pengajuan-klaim",
+        "date": "2025-05-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo multi piece",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Customer reports three large boxes under one J&T Cargo shipment."
+    },
+    {
+      "number": "200985963323",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/06/23/surat-pembaca/belanja-di-akulaku-dan-dikirim-oleh-jt-cargo-barang-tidak-diterima",
+        "date": "2025-06-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Customer explicitly names J&T Cargo and consignment."
+    },
+    {
+      "number": "201257052308",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/11/30/surat-pembaca/barang-pecah-saat-dikirim-via-jt-cargo-klaim-asuransi-ditolak-karena-alasan-packing-tidak-standar",
+        "date": "2025-11-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo insured fragile",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Customer reports insured fragile J&T Cargo shipment."
+    },
+    {
+      "number": "201452885645",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2026/04/15/surat-pembaca/pengiriman-44-koli-tidak-lengkap-jt-cargo-tetapkan-status-selesai-sepihak",
+        "date": "2026-04-15",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "jt cargo multi piece 44",
+        "reportedRole": "master_consignment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Customer reports 44 pieces under this J&T Cargo master. The reported child is linked separately."
+    },
+    {
+      "number": "201452885645034",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2026/04/29/tanggapan/tanggapan-perihal-pengiriman-44-koli-tidak-lengkap-jt-cargo-tetapkan-status-selesai-sepihak",
+        "date": "2026-04-29",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "jt cargo multi piece",
+        "reportedRole": "child_consignment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "brt",
+          "yunda",
+          "j-and-t-cargo"
+        ]
+      },
+      "note": "J&T Cargo's public reply identifies this piece of the linked consignment.",
+      "relationships": [
+        {
+          "kind": "child_of",
+          "number": "201452885645",
+          "source": {
+            "url": "https://mediakonsumen.com/2026/04/29/tanggapan/tanggapan-perihal-pengiriman-44-koli-tidak-lengkap-jt-cargo-tetapkan-status-selesai-sepihak",
+            "date": "2026-04-29",
+            "dateKind": "publication",
+            "access": "indexed_excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "number": "201655817345",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2026/08/25/surat-pembaca/kiriman-tv-40-inci-pakai-jt-cargo-dengan-asuransi-barang-hancur-tapi-klaim-ditolak",
+        "date": "2026-08-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "jt cargo insured fragile",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Customer reports fragile insured J&T Cargo shipment."
+    },
+    {
+      "number": "570250283779",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/12/09/surat-pembaca/jnt-cargo-tidak-segera-mengirim-paket-walaupun-sudah-sampai-outlet-terakhir-memutar-mutar-paket-hingga-saat-ini-tidak-ada-kejelasan",
+        "date": "2026-02-04",
+        "dateKind": "comment publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "jt cargo",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "purolator",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Customer comment supplies a J&T Cargo waybill beginning 57, unlike the 20 prefix of every other report."
+    }
+  ]
+}

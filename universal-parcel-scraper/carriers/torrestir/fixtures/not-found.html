@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-PT"  >
+<head>
+    <title>Torrestir - Tracking</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<div class="bg-top sticky-top navbar-light d-flex flex-column-reverse">
+    <div class="container py-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="https://www.torrestir.com" target="_self"><img src="/images/logotipo.png" alt="Torrestir"></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <form id="FormTop" name="FormTop" class="form-inline my-2 my-lg-0">
+                    <input id="lang" name="lang" type="hidden" value="pt" />
+                    <input autocomplete="off" id="id" name="id" class="form-control mr-sm-2" placeholder=Identificador type="text" value="" />
+                    <input type="submit" value=Atualizar class="btn btn-outline-success my-2 my-sm-0" />
+                    <a class="lang-btn" style="margin:5px">
+                        <input type="image" alt="flagPT" src="/images/portugal.png" style="width:20px; height:15px" onclick="ChangeLanguage('M0010005B00345678903','pt')" />
+                    </a>
+                    <a class="lang-btn" style="margin:5px">
+                        <input type="image" alt="flagEN" src="/images/english.png" style="width:20px; height:15px" onclick="ChangeLanguage('M0010005B00345678903','en')" />
+                    </a>
+                    <a class="lang-btn" style="margin:5px">
+                        <input type="image" alt="flagES" src="/images/espanha.png" style="width:20px; height:15px" onclick="ChangeLanguage('M0010005B00345678903','es')" />
+                    </a>
+                </form>
+            </div>
+        </nav>
+    </div>
+</div>
+<section class="home-slider owl-carousel">
+    <div class="slider-item" style="background-image:url(../../images/trackimage_dk.jpg);">
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-end">
+                <div class="col-md-7 ftco-animate mb-md-5">
+                    <span class="subheading">Siga a sua entrega</span>
+                    <h1 class="mb-4">TODOS OS DETALHES<br />DO SEU ENVIO</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ftco-section ftco-no-pt ftco-no-pb ftco-consult">
+    <div class="container">
+        <div class="row d-flex no-gutters align-items-stretch consult-wrap">
+            <div class="log-track-details">
+                <article>
+                    <div class="track">
+                            <div class="step "><span class="icon ftco-animate"> <i class="fa fa-check"></i> </span> <span class="text ftco-animate">Documentado</span></div>
+                            <div class="step "><span class="icon ftco-animate"> <i class="fa fa-th-large"></i> </span> <span class="text ftco-animate">Recolhido</span></div>
+                            <div class="step "><span class="icon ftco-animate"> <i class="fa fa-truck"></i> </span> <span class="text ftco-animate">Em tr&#226;nsito</span></div>
+                            <div class="step "><span class="icon ftco-animate"> <i class="fa fa-user"></i> </span> <span class="text ftco-animate">Em distribui&#231;&#227;o</span></div>
+                            <div class="step "><span class="icon ftco-animate"> <i class="fa fa-home"></i> </span> <span class="text ftco-animate">Entregue</span></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ftco-section">
+    <div class="container">
+        <div class="row no-gutters justify-content-center mb-5">
+            <div class="log-track-details2">
+                <p class="trackcodet"><span class="codetitle">Tracking Code: </span><span class="codenum">M0010005B00345678903 </span></p>
+                <article class="card">
+                    <div class="card-body row">
+
+                        <div class="col"> <strong class="card-item">Entidade: </strong>  </div>
+                        <div class="col"> <strong class="card-item">Ref. Entidade: </strong> </div>
+                        <div class="col"> <strong class="card-item">Nossa Refer&#234;ncia:</strong> </div>
+                        <div class="col"> <strong class="card-item">Estimado: </strong> </div>
+
+                    </div>
+                    <div class="card-body row">
+
+                        <div class="col"> <strong class="card-item">Origem: </strong>  </div>
+                        <div class="col"> <strong class="card-item">Destino: </strong> </div>
+                        <div class="col"> <strong class="card-item">Volumes:</strong> <small class="text-muted">0</small></div>
+                        <div class="col"> <strong class="card-item">Paletes:</strong> <small class="text-muted">0</small></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ftco-section">
+    <div class="container">
+        <div class="row no-gutters justify-content-center mb-5">
+            <div class="col-md-6 text-center heading-section ftco-animate">
+                <div class="centrarb">
+                    <a id="mudainfo" class="button" title="Clique aqui para obter detalhes" href="#" onclick="HideInfoDetails();return false;">Detalhes da Entrega <span><i id="mudaicon" class="fa fa-plus"></i></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div id="trackdata" style="display:none;">
+                    <div class="espaco"></div>
+                    <table class="tabela">
+                        <tr class="tabela-cabecalho">
+                            <th width="25%" style="text-align:center;">Local</th>
+                            <th width="25%" style="text-align:center">Data</th>
+                            <th width="25%" style="text-align:center">Estado</th>
+                            <th width="25%" style="text-align:center">Localiza&#231;&#227;o</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

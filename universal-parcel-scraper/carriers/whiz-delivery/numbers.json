@@ -1,0 +1,51 @@
+{
+  "carrier": "whiz-delivery",
+  "records": [
+    {
+      "number": "SW9D47892EB0",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260708142503/https://track.whizdelivery.ca/track/SW9D47892EB0",
+        "date": "2026-07-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "whiz-delivery"
+        ]
+      },
+      "note": "An archived lookup on Whiz Delivery's own tracker; the tracker still answers it."
+    },
+    {
+      "number": "SW54559603BD",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260725154813/https://track.whizdelivery.ca/track/SW54559603BD",
+        "date": "2026-07-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "whiz-delivery"
+        ]
+      },
+      "note": "An archived lookup on Whiz Delivery's own tracker; the tracker still answers it."
+    }
+  ]
+}

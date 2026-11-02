@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+<title></title>
+<link href="css/style.css?20260101000000" rel="stylesheet" type="text/css">
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script>
+function changeJob() {
+    var exmnoValue = document.getElementById('exmno').value;
+    var LangSelect = document.getElementById("Lang");
+    var selectedLang = LangSelect.options[LangSelect.selectedIndex].value; // 1
+    location.href='/pod/langchange?exmno='+exmnoValue+'&lang='+selectedLang;
+}
+</script>
+</head>
+<body>
+    <input type='hidden' name='exmno' id='exmno' value='EXK00000002J'>
+  <div class="pop-wrap">
+      <div class="pop-top">
+          <h1>Tracking Visibility            <select name='Lang' id='Lang' onchange="changeJob()" >
+                <option value=''>::::::::</option>
+                <option value="KR" >한국어</option>
+                <option value="JP"  >日本語</option>
+                <option value="EN"  selected style="background-image:url('/img/flagusa.png');">English</option>
+            </select>
+        </h1>
+          <p>
+            <span>
+                EXK00000002J
+            </span>          </p>
+          <ul>
+            <li>
+              <div class="icon">
+                <img src="image/port.png" alt="">
+              </div>
+              <div class="icon-txt">
+                <span>Port of Loading</span>  <br>
+                SAMPLE INTL APT/ SAMPLE CITY,KOREA
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <img src="image/final.png" alt="">
+              </div>
+              <div class="icon-txt">
+                <span>Final Destinationg</span> <br>
+               <!-- SAMPLE, JAPAN-->
+              </div>
+            </li>
+          </ul>
+      </div>
+      <div class="delivery-wrap">
+        <table width='100%'>
+            <tr>
+                <td align='right' colspan='2'>
+                   <font color='#c8c8c8'><small>Click the carrier name to open the local carrier's tracking page.<br>Local shipment tracking is available after customs clearance is completed.</small></font>
+                </td>
+            </tr>
+            <tr>
+                <td align='left'><h1><span><img src="image/truck.png" alt=""></span>Delivery status </h1></td>
+                <td align='right'> <h1><span>Local Delivery Service : 00000000002 <a href='https://trackings.post.japanpost.jp/services/srv/search/direct?reqCodeNo1=00000000002&searchKind=S002&locale=en' target='_exm'>Yu-Packet
+    &#129146;</a></span><h1></td>
+            </tr>
+        </table>
+        <div class="delivery-step">
+          <!--pc버전-->
+          <ul class="pc-step">
+            <li class='over'>
+              <span class="ico-wr">
+                <span class="ico ico1"></span>
+                <span class="ico-cricle"></span>
+              </span>
+              <span class="txt">
+                acceptance of goods <br>EXMATE<br>Arrival at W/H              </span>
+            </li>
+            <li >
+              <span class="ico-wr">
+                <span class="ico ico1"></span>
+                <span class="ico-cricle"></span>
+              </span>
+              <span class="txt">
+                Delivery completed              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="del-grap">
+        <h1><span>Detailed information</span></h1>
+        The scheduled date of entry may change without notice due to reasons such as flight cancellations and delays        <div class="grap">
+          <ul>
+                        <li class="over">
+              <div class="g1">
+                2026-05-11 08:45
+                <span class="g-cricle"><span></span></span>
+              </div>
+              <div class="g4">
+                Korea
+              </div>
+              <div class="g2">
+                등록
+              </div>
+              <div class="g3">
+                Registered
+              </div>
+            </li>
+            <li class="over">
+              <div class="g1">
+                2026-05-12 10:05
+                <span class="g-cricle"><span></span></span>
+              </div>
+              <div class="g4">
+                Korea
+              </div>
+              <div class="g2">
+                입고완료
+              </div>
+              <div class="g3">
+                DPC In-housing
+              </div>
+            </li>
+            <li class="over">
+              <div class="g1">
+                2026-05-13 07:30
+                <span class="g-cricle"><span></span></span>
+              </div>
+              <div class="g4">
+                Korea
+              </div>
+              <div class="g2">
+                출발
+              </div>
+              <div class="g3">
+                Departed
+              </div>
+            </li>
+            <li class="over">
+              <div class="g1">
+                2026-05-13 07:30
+                <span class="g-cricle"><span></span></span>
+              </div>
+              <div class="g4">
+                Korea
+              </div>
+              <div class="g2">
+                출발
+              </div>
+              <div class="g3">
+                Departed
+              </div>
+            </li>
+            <li class="over">
+              <div class="g1">
+                2026-05-13 09:55
+                <span class="g-cricle"><span></span></span>
+              </div>
+              <div class="g4">
+                Japan
+              </div>
+              <div class="g2">
+                현지도착
+              </div>
+              <div class="g3">
+                Arrived at Destination Country
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+<?//=$setDateType;?>
+</body>
+</html>

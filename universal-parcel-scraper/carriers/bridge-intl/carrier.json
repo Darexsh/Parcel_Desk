@@ -1,0 +1,36 @@
+{
+  "id": "bridge-intl",
+  "displayName": "Bridge Intl",
+  "aliases": [
+    "珀斯宏桥国际速递",
+    "宏桥国际速递",
+    "Bridge International Express"
+  ],
+  "region": {
+    "countries": [
+      "AU",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#f1a135"
+  },
+  "selectable": true,
+  "timezone": "Australia/Perth",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.bri-ems.com/query",
+    "canaryUrl": "https://www.bri-ems.com/query",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

@@ -1,0 +1,111 @@
+{
+  "items": {
+    "data": {
+      "itemsV2": {
+        "total": 1,
+        "data": [
+          {
+            "trackingId": "0000000000001",
+            "itemStatus": "COMPLETED",
+            "isBackward": 0,
+            "weight": 1.5,
+            "createdDate": "2026-03-02T02:15:20.000Z",
+            "originReceiveDate": "2026-03-02T02:15:20.000Z",
+            "originSendDate": "2026-03-02T06:40:05.000Z",
+            "destReceiveDate": "2026-03-03T02:05:10.000Z",
+            "destSendDate": null,
+            "sendCompleteDate": "2026-03-03T03:20:30.000Z",
+            "receiveBackwardDate": null,
+            "originBranchId": {
+              "branch_name": "ສາຂາ ທົດລອງໜຶ່ງ"
+            },
+            "destBranchId": {
+              "branch_name": "ສາຂາ ທົດລອງສອງ (ບ້ານທົດສອບ)"
+            },
+            "originProvinceId": {
+              "provinceName": "ນະຄອນຫຼວງທົດລອງ"
+            },
+            "destProvinceId": {
+              "provinceName": "ແຂວງ ທົດລອງ"
+            },
+            "receiverName": "ທ້າວ ສົມມຸດ ທົດລອງ",
+            "receiverPhone": "02000000000",
+            "customerId": {
+              "full_name": "ຮ້ານ ຕົວຢ່າງ",
+              "contact_info": "02099999999"
+            },
+            "charge_on_shop": 20000
+          }
+        ]
+      }
+    }
+  },
+  "scans": {
+    "data": {
+      "scanItems": {
+        "data": [
+          {
+            "trackingId": "0000000000001",
+            "branch": {
+              "branch_name": "ສາຂາ ທົດລອງສອງ (ບ້ານທົດສອບ)"
+            },
+            "center": {
+              "centerName": null
+            },
+            "createdAt": "2026-03-03T03:20:30.000Z",
+            "transportStatus": "FORWARD",
+            "scanStatus": "COMPLETED"
+          },
+          {
+            "trackingId": "0000000000001",
+            "branch": {
+              "branch_name": "ສາຂາ ທົດລອງສອງ (ບ້ານທົດສອບ)"
+            },
+            "center": {
+              "centerName": null
+            },
+            "createdAt": "2026-03-03T02:05:10.000Z",
+            "transportStatus": "FORWARD",
+            "scanStatus": "SCAN_IN"
+          },
+          {
+            "trackingId": "0000000000001",
+            "branch": {
+              "branch_name": null
+            },
+            "center": {
+              "centerName": "ສູນແຂວງທົດລອງ"
+            },
+            "createdAt": "2026-03-02T16:15:07.000Z",
+            "transportStatus": "FORWARD",
+            "scanStatus": "SCAN_OUT"
+          },
+          {
+            "trackingId": "0000000000001",
+            "branch": {
+              "branch_name": null
+            },
+            "center": {
+              "centerName": "ສູນຄັດແຍກທົດລອງ"
+            },
+            "createdAt": "2026-03-02T08:19:05.000Z",
+            "transportStatus": "FORWARD",
+            "scanStatus": "SCAN_IN"
+          },
+          {
+            "trackingId": "0000000000001",
+            "branch": {
+              "branch_name": "ສາຂາ ທົດລອງໜຶ່ງ"
+            },
+            "center": {
+              "centerName": null
+            },
+            "createdAt": "2026-03-02T06:40:05.000Z",
+            "transportStatus": "FORWARD",
+            "scanStatus": "SCAN_OUT"
+          }
+        ]
+      }
+    }
+  }
+}

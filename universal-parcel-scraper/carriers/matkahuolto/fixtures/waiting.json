@@ -1,0 +1,73 @@
+{
+  "parcelNumber": "MH000000028FI",
+  "senderReference": "EXAMPLE-ORDER-2",
+  "receiverReference": "EXAMPLE-REF-2",
+  "departureStation": "Malliala Esimerkki",
+  "productCategory": "XXS Parcel",
+  "trackingEvents": [
+    {
+      "time": "07:40",
+      "description": "The recipients phone number is missing or incorrect, so we were unable to send the arrival notification via SMS. The arrival notification has been sent via email if an email address is provided in the shipment information. Phone numbers can be corrected upon the senders request; please contact the sender in this case.",
+      "officeCode": null,
+      "place": null,
+      "latitude": null,
+      "longitude": null,
+      "shipmentId": 1000000000002,
+      "date": "10.03.2026"
+    },
+    {
+      "time": "16:20",
+      "description": "Your parcel is available for pick up at the pick up point Malliala pakettiautomaatti Esimerkkikeskus. Last day for pickup: 12.03.2026.",
+      "officeCode": "0002",
+      "place": "Malliala pakettiautomaatti Esimerkkikeskus, Mallitie 2",
+      "latitude": 60.2,
+      "longitude": 24.8,
+      "shipmentId": 1000000000002,
+      "date": "09.03.2026"
+    },
+    {
+      "time": "13:25",
+      "description": "We have sent the recipient a message about the arrival of the consignment (e-mail).",
+      "officeCode": null,
+      "place": "Malliala",
+      "latitude": null,
+      "longitude": null,
+      "shipmentId": 1000000000002,
+      "date": "06.03.2026"
+    },
+    {
+      "time": "07:00",
+      "description": "We will deliver the consignment to the pickup point during the day. You will receive a notification as soon as it is ready for collection.",
+      "officeCode": null,
+      "place": "Malliala 00000",
+      "latitude": null,
+      "longitude": null,
+      "shipmentId": 1000000000002,
+      "date": "06.03.2026"
+    },
+    {
+      "time": "14:10",
+      "description": "Consignment is being processed",
+      "officeCode": null,
+      "place": "Malliala",
+      "latitude": null,
+      "longitude": null,
+      "shipmentId": 1000000000002,
+      "date": "05.03.2026"
+    },
+    {
+      "time": "09:59",
+      "description": "Matkahuolto is waiting for the consignment from the sender. The consignment usually arrives at Matkahuolto within a couple of days. It takes longer for consignments arriving from abroad. The tracking information will be updated as soon as we receive the consignment.",
+      "officeCode": null,
+      "place": null,
+      "latitude": null,
+      "longitude": null,
+      "shipmentId": 1000000000002,
+      "date": "28.02.2026"
+    }
+  ],
+  "additionalServices": [],
+  "shipmentId": 1000000000002,
+  "returnShipment": false,
+  "storedUntil": "2026-03-12"
+}

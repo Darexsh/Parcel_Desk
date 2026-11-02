@@ -1,0 +1,94 @@
+{
+  "id": "bangladesh-post",
+  "displayName": "Bangladesh Post Office",
+  "aliases": [
+    "Bangladesh Post",
+    "Bangladesh EMS",
+    "Department of Posts",
+    "বাংলাদেশ ডাক বিভাগ"
+  ],
+  "region": {
+    "countries": [
+      "BD"
+    ]
+  },
+  "brand": {
+    "color": "#ce0000"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dhaka",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "bangladesh-post",
+    "steps": [
+      "direct",
+      "retry",
+      "domestic"
+    ],
+    "recognition": {
+      "rank": 909
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "destination_country",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "searchUrl": "https://ipsbd.bdpost.gov.bd/mail-tracking.html",
+    "canaryUrl": "https://ipsbd.bdpost.gov.bd/mail-tracking.html",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin_country",
+      "destination_country",
+      "service_name",
+      "postcodes",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "destination_country"
+    ],
+    "discarded": [
+      "origin_country",
+      "service_name",
+      "postcodes",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "delivered_at",
+      "recipient_name",
+      "sender_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "report.dms.bdpost.gov.bd"
+      ],
+      "pathPattern": "^/$",
+      "params": [
+        "v",
+        "V"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "bangladesh-post-s10",
+      "pattern": "^[A-Z]{2}\\d{9}BD$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

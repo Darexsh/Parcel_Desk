@@ -1,0 +1,200 @@
+{
+  "000000101": [
+    {
+      "id": "000000101",
+      "href": "/shipments/000000101",
+      "type": "item",
+      "data": {
+        "identifiers": {
+          "pronumber": "000000101",
+          "quoteId": null,
+          "pickupNumber": null,
+          "orderId": null
+        },
+        "solution": "LTL",
+        "details": {
+          "requester": null,
+          "billing": null,
+          "locationDetails": null,
+          "totalCube": null,
+          "totalDimensions": null,
+          "totalWeight": {
+            "unit": "lb",
+            "value": 120
+          },
+          "totalPieces": 2,
+          "longestSide": null,
+          "solution": "",
+          "sizeCategory": "",
+          "equipmentType": "",
+          "freightGroups": null,
+          "pickupSchedule": null,
+          "deliverySchedule": null,
+          "serviceOptions": null,
+          "specialInstructions": "CALL SYNTHETIC CONTACT AT GATE 0000"
+        },
+        "transitStatus": {
+          "status": "Delivered",
+          "statusDetails": "Your shipment was delivered on 3/12/2026 at 10:15 AM MDT. Received by SYNTHETIC SIGNER",
+          "currentLocation": null,
+          "serviceCenters": {
+            "shipper": {
+              "number": "901",
+              "airlineCode": "BAY",
+              "physicalAddress": {
+                "street1": "1 SAMPLE ROAD",
+                "street2": "",
+                "city": "BAYPORT",
+                "stateProvince": "TX",
+                "postalCode": "00000",
+                "country": "US",
+                "latLong": {
+                  "lat": 10.5,
+                  "long": -20.5
+                },
+                "isPoBox": false
+              },
+              "mailingAddress": {
+                "street1": "1 SAMPLE ROAD",
+                "street2": "",
+                "city": "BAYPORT",
+                "stateProvince": "TX",
+                "postalCode": "00000",
+                "country": "US",
+                "isPoBox": false
+              },
+              "utcOffset": 0,
+              "contacts": {
+                "serviceCenter": {
+                  "name": "ABF SERVICE CENTER 901",
+                  "contactMethods": [
+                    {
+                      "type": "Phone",
+                      "value": "0000000000",
+                      "note": "Synthetic office"
+                    },
+                    {
+                      "type": "Fax",
+                      "value": "0000000001",
+                      "note": "Synthetic"
+                    }
+                  ]
+                },
+                "sales": []
+              }
+            },
+            "consignee": {
+              "number": "902",
+              "airlineCode": "MSL",
+              "physicalAddress": {
+                "street1": "2 SAMPLE AVENUE",
+                "street2": "",
+                "city": "MESA LINDA",
+                "stateProvince": "TX",
+                "postalCode": "00000",
+                "country": "US",
+                "latLong": {
+                  "lat": 10.5,
+                  "long": -20.5
+                },
+                "isPoBox": false
+              },
+              "mailingAddress": {
+                "street1": "2 SAMPLE AVENUE",
+                "street2": "",
+                "city": "MESA LINDA",
+                "stateProvince": "TX",
+                "postalCode": "00000",
+                "country": "US",
+                "isPoBox": false
+              },
+              "utcOffset": -1,
+              "contacts": {
+                "serviceCenter": {
+                  "name": "ABF SERVICE CENTER 902",
+                  "contactMethods": [
+                    {
+                      "type": "Phone",
+                      "value": "0000000000",
+                      "note": "Synthetic office"
+                    },
+                    {
+                      "type": "Fax",
+                      "value": "0000000001",
+                      "note": "Synthetic"
+                    }
+                  ]
+                },
+                "sales": []
+              }
+            }
+          },
+          "orderedDate": null,
+          "originalDueDate": null,
+          "estimatedDelivery": null,
+          "estimatedDeliveryDate": null,
+          "estimatedDeliveryTime": null,
+          "pickedUp": "2026-03-06T15:20:11.125-06:00",
+          "inAtPickup": null,
+          "outOfPickup": null,
+          "rescheduledPickupDate": null,
+          "delivered": "2026-03-12T10:15:00-05:00",
+          "inAtDelivery": null,
+          "outOfDelivery": null,
+          "history": null,
+          "isDelayed": false,
+          "effectiveDateType": "final",
+          "effectiveDate": "2026-03-12T10:15:00",
+          "pickupStopCompletedDate": null,
+          "effectivePickupType": "pickedUp",
+          "effectivePickupDate": "2026-03-06T15:20:11",
+          "temperatureInfo": null
+        },
+        "alerts": [],
+        "phase": "delivered",
+        "quoteId": ""
+      },
+      "meta": {
+        "progress": [
+          {
+            "title": "Picked Up",
+            "completion": "complete",
+            "location": null,
+            "timestamp": null
+          },
+          {
+            "title": "Transit Complete",
+            "completion": "complete",
+            "location": null,
+            "timestamp": null
+          },
+          {
+            "title": "At Destination Service Center",
+            "completion": "complete",
+            "location": null,
+            "timestamp": null
+          },
+          {
+            "title": "Out For Delivery",
+            "completion": "complete",
+            "location": null,
+            "timestamp": null
+          },
+          {
+            "title": "Delivered",
+            "completion": "complete",
+            "location": null,
+            "timestamp": null
+          }
+        ],
+        "sub-progress": [],
+        "carrier-pros": [],
+        "is-pinned": false,
+        "security": "partial",
+        "has-open-amount": false,
+        "page-hint": "transit",
+        "affiliations": []
+      }
+    }
+  ]
+}

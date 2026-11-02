@@ -1,0 +1,236 @@
+<script type="text/javascript" src="https://static.gspostbox.com/common/js/jquery-1.8.2.min.js"></script>
+<link rel="stylesheet" href="https://static.gspostbox.com/common/css/cvsnet_style.css?upDt=260825"/>
+<link rel="stylesheet" href="https://static.gspostbox.com/common/css/cvsnet_style2.css?upDt=260825"/>
+
+<script>
+  $(document).ready(function () {
+    var trackingInfo = {"serviceType":"SLOW","latestTrackingDetail":{"transTime":"2026-05-13T08:55:19","level":4,"transWhere":"샘플허브센터(C2C)","transCode":"C07","transKind":"허브센터에 도착"},"code":200,"receiver":{"baseAddress":"*","name":"나*라","detailAddress":"**************","tel":"000****0000"},"carrierName":"GS네트웍스","sender":{"baseAddress":"*","name":"가*다","detailAddress":"**************","tel":"000****0000"},"carrierType":"GS_NETWORKS","trackingDetails":[{"transTime":"2026-05-11T15:44:01","level":1,"transWhere":"GS25샘플중앙점","transCode":"C01","transKind":"점포에서 접수"},{"transTime":"2026-05-11T22:03:27","level":2,"transWhere":"GS25샘플중앙점","transCode":"C015","transKind":"배송기사 인수"},{"transTime":"2026-05-12T14:26:50","level":3,"transWhere":"샘플저온센터","transCode":"C03","transKind":"집화센터에 도착"},{"transTime":"2026-05-13T08:55:19","level":4,"transWhere":"샘플허브센터(C2C)","transCode":"C07","transKind":"허브센터에 도착"}],"invoiceNo":"000000000002","serviceName":"반값택배","goodsName":"샘플/잡화"};
+    if (!(trackingInfo.code === 200)) {
+      <!-- 없는운송장번호 일 때 -->
+      if (trackingInfo.code === 100) {
+        $(".situationDiv").css("display", "none");
+        $("#trackingItems").append(trackingInfo.msg);
+        $("#trackingItems").attr("style", "text-align: center; font-size: 18px; color: #666;");
+        $("#invoiceNo").text(trackingInfo.invoiceNo);
+        $(".tableType3").css("display", "none");
+        $(".deliveryResult .deliveryInfo2 ul").css("background", "none");
+      <!-- 운송장번호는 있는데 api 조회가 안될 때 -->
+      } else {
+        $(".situationDiv").css("display", "none");
+        $("#trackingItems").append(trackingInfo.msg);
+        $("#trackingItems").attr("style", "text-align: center; font-size: 18px; color: #666;");
+        $("#invoiceNo").text(trackingInfo.invoiceNo);
+        $(".deliveryResult .deliveryInfo2 ul").css("background", "none");
+        $("#deliveryName").text(trackingInfo.carrierName);
+        $("#serviceName").text(trackingInfo.serviceName);
+        $("#senderName").text(trackingInfo.sendName);
+        $("#receiverName").text(trackingInfo.receiveName);
+        $("#goodsName").text(trackingInfo.goodsName);
+      }
+      return false;
+    }
+    <!-- 운송장번호가 있고 api 조회가 될 때 -->
+    $("#invoiceNo").text(trackingInfo.invoiceNo);
+    $("#deliveryName").text(trackingInfo.carrierName);
+    $("#serviceName").text(trackingInfo.serviceName);
+    $("#senderName").text(trackingInfo.sender.name);
+    $("#receiverName").text(trackingInfo.receiver.name);
+    $("#goodsName").text(trackingInfo.goodsName);
+
+    var tracks = (trackingInfo.trackingDetails).reverse();
+
+    if (tracks.length === 0) {
+
+      $(".situationDiv").css("display", "none");
+      $("#trackingItems").append("조회된 배송상태 정보가 없습니다.");
+      $("#trackingItems").attr("style", "text-align: center; font-size: 18px; color: #666;");
+    } else {
+      for (var idx in tracks) {
+        var tail = '했습니다.';
+        var transkind = tracks[idx].transKind;
+        if(transkind.substring(transkind.length - 5, transkind.length).indexOf("니다") != -1){
+          tail = '';
+        }
+
+        $("#trackingItems").append(
+            "<li>"
+            + "<p class='date'>" + (tracks[idx].transTime).toString().replace("T", "&nbsp;").split(":").slice(0, 2).join(":")
+            + "</p>"
+            + "<p class='location'>" + tracks[idx].transWhere + "</p>"
+            + "<p class='txt' style='width: auto !important;'>" + transkind + " " + tail + "</p>"
+            + "<p class='dot'></p>"
+            + "</li>"
+        );
+      }
+    }
+    $("#trackingItems > li:first-child").attr("class", "on");
+    if ("34" != "") {
+      var invoiceMemberSeq = "34";
+    }
+
+    if (invoiceMemberSeq == "") {
+        $("#sendAlimtalk").css("display", "");
+    }
+    var idx = tracks.findIndex( i => i.transCode == "C10")
+    var notIdx = tracks.findIndex( i => i.transCode == "C11")
+    var notIdx2 = tracks.findIndex( i => i.transCode == "C12")
+    if (idx > -1) {
+      var storeDate = tracks[idx].transTime
+    } else {
+      var storeDate = ""
+    }
+
+    if (notIdx > -1) {
+      var customerDate = tracks[notIdx].transTime
+    } else if (notIdx2 > -1) {
+      var customerDate = tracks[notIdx2].transTime
+    } else {
+      var customerDate = "";
+    }
+    if (customerDate == "") {
+      if (storeDate != "") {
+        $("#sendAlimtalk").attr("class", "org3");
+        $("#sendAlimtalk").css("cursor", "pointer");
+      } else {
+        $("#sendAlimtalk").attr("onclick", "");
+      }
+    } else {
+      $("#sendAlimtalk").attr("class", "blk3");
+      $("#sendAlimtalk").attr("onclick", "");
+    }
+
+    $("#copyInoviceNo").click(function(){
+        var copyInvocieNo = $("#invoiceNo").text();
+        // textarea 생성
+        const textArea = document.createElement('textarea');
+        // textarea 추가
+        document.body.appendChild(textArea);
+        // textara의 value값으로 div내부 텍스트값 설정
+        textArea.value = copyInvocieNo;
+        // textarea 선택 및 복사
+        textArea.select();
+        document.execCommand('copy');
+        // textarea 제거
+        document.body.removeChild(textArea);
+
+        alert("복사되었습니다.\n원하는 곳에 붙여넣기(Ctrl+V) 하실 수 있습니다.");
+    });
+  })
+
+  function copyInvoiceNo() {
+      var copyInvocieNo = $("#invoiceNo").text();
+      // textarea 생성
+      const textArea = document.createElement('textarea');
+      // textarea 추가
+      document.body.appendChild(textArea);
+      // textara의 value값으로 div내부 텍스트값 설정
+      textArea.value = copyInvocieNo;
+      // textarea 선택 및 복사
+      textArea.select();
+      document.execCommand('copy');
+      // textarea 제거
+      document.body.removeChild(textArea);
+
+      alert("복사되었습니다.\n원하는 곳에 붙여넣기(Ctrl+V) 하실 수 있습니다.");
+  }
+
+  function getAlimtalk() {
+    var trackingInfo = {"serviceType":"SLOW","latestTrackingDetail":{"transTime":"2026-05-13T08:55:19","level":4,"transWhere":"샘플허브센터(C2C)","transCode":"C07","transKind":"허브센터에 도착"},"code":200,"receiver":{"baseAddress":"*","name":"나*라","detailAddress":"**************","tel":"000****0000"},"carrierName":"GS네트웍스","sender":{"baseAddress":"*","name":"가*다","detailAddress":"**************","tel":"000****0000"},"carrierType":"GS_NETWORKS","trackingDetails":[{"transTime":"2026-05-11T15:44:01","level":1,"transWhere":"GS25샘플중앙점","transCode":"C01","transKind":"점포에서 접수"},{"transTime":"2026-05-11T22:03:27","level":2,"transWhere":"GS25샘플중앙점","transCode":"C015","transKind":"배송기사 인수"},{"transTime":"2026-05-12T14:26:50","level":3,"transWhere":"샘플저온센터","transCode":"C03","transKind":"집화센터에 도착"},{"transTime":"2026-05-13T08:55:19","level":4,"transWhere":"샘플허브센터(C2C)","transCode":"C07","transKind":"허브센터에 도착"}],"invoiceNo":"000000000002","serviceName":"반값택배","goodsName":"샘플/잡화"};
+    var invoice_no = trackingInfo.invoiceNo;
+    var tracks = (trackingInfo.trackingDetails).reverse();
+    var idx = tracks.findIndex( i => i.transCode == "C10")
+    var storeDate = tracks[idx].transTime
+    storeDate = storeDate.replace(/[^0-9]/g, "").substr(0, 8);
+
+    $.ajax({
+      type: "POST",
+      url: "/invoice/reSendQR.do",
+      data : {"invoice_no" : invoice_no
+             ,"bdate"  : storeDate
+             ,"tmplCd" : "H7056"
+             ,"subject" : "반값택배 QR코드 재발송(수동)"
+      },
+      success : function(data) {
+        var data = JSON.parse(data)
+        if (data.result == "success") {
+          alert("알림톡 발송에 성공했습니다");
+        } else if (data.result == "error") {
+          alert("알림톡 발송에 실패했습니다.\n운송장번호를 확인해주세요.");
+        }
+      },
+      error : function(){
+      }
+    });
+  }
+</script>
+
+
+
+<div class="deliveryResult">
+    <div class="inner">
+
+        <div class="hasBtnTit">
+            <p class="tit" style="display:inline-block!important;">조회결과</p>
+            <input type=button class="copyInoviceNo" id="copyInoviceNo" value="운송장번호 복사" onclick="javascript: copyInvoiceNo()"/>
+        </div>
+        <div class="deliveryInfo3">
+            <p class="numTit" style="text-align:left!important;">
+                운송장번호 :
+                    <span id="invoiceNo" class="num"></span>
+                        <a onclick="javascript: getAlimtalk()" class="blk3" id="sendAlimtalk" style="display:none; float: right;" >도착알림톡 재발송</a>
+                        </p>
+            <div class="tableType3">
+                <table>
+                    <colgroup>
+                        <col width="150px"/>
+                        <col width="330px"/>
+                        <col width="150px"/>
+                        <col width="330px"/>
+                    </colgroup>
+                    <tbody>
+                    <tr>
+                        <th scope="row">서비스</th>
+                        <td id="serviceName">
+                        </td>
+                        <th scope="row">배송사</th>
+                        <td id="deliveryName"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">보내는 분</th>
+                        <td id="senderName">
+                        </td>
+                        <th scope="row">받는 분</th>
+                        <td id="receiverName">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">상품명</th>
+                        <td id="goodsName"></td>
+                        <th scope="row"></th>
+                                        <td></td>
+                                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="borderIco"><img
+                    src="https://static.gspostbox.com/common/images/icon/deliveryInfo3_bg.png"
+                    alt=""/></p>
+        </div>
+
+        <p class="tit">배송정보</p>
+        <div class="deliveryInfo2">
+            <div class="situationDiv">
+                <p>처리일시</p>
+                <p>현재위치</p>
+                <p>배송상태</p>
+            </div>
+            <ul id="trackingItems"></ul>
+        </div>
+    </div>
+</div>
+
+<div class="deliNoData" style="display: none;">
+    <div class="noData" style="margin-top: 100px">
+        <p id="msg"></p>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+{
+  "carrier": "daewoo-fastex",
+  "records": [
+    {
+      "number": "252865252",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251226152217/https://fastex.pk/trackingDetail/?trackingNo=252865252",
+        "date": "2025-12-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Archived lookup on Daewoo FastEx's own tracker; the opened capture shows only the page shell, so no history was visible."
+    },
+    {
+      "number": "259759575",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251209142055/https://fastex.pk/trackingDetail/?trackingNo=259759575",
+        "date": "2025-12-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Archived lookup on Daewoo FastEx's own tracker; the opened capture shows only the page shell, so no history was visible."
+    }
+  ]
+}

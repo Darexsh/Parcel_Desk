@@ -1,0 +1,121 @@
+{
+  "trackingNumber": "UPBE00000000000000A1",
+  "merchantId": "PB",
+  "urlKey": "",
+  "isTrusted": false,
+  "isReturn": false,
+  "isPreview": false,
+  "preShipped": false,
+  "deliveryException": false,
+  "headerText": "Your package is on its way.",
+  "headerDescription": "",
+  "trackingPackageStatus": "InTransit",
+  "trackingPackageNotFound": false,
+  "trackingPackageException": false,
+  "trackingEventsModule": {
+    "eddText": null,
+    "eddTime": null,
+    "headerText": "An estimated delivery date is coming soon",
+    "secondaryTextKey": "TRACKING.DELIVERY.InTransit.secondaryText",
+    "location": "",
+    "postalCode": null,
+    "packageDelivered": false,
+    "packageShipped": false,
+    "trackingEvents": [
+      {
+        "description": "Customs Clearance",
+        "location": "ZZ",
+        "date": "Jun 2, 2026",
+        "longDate": "Tuesday, June 2, 2026",
+        "shortDate": "June 2",
+        "dayOfWeek": "Tuesday",
+        "hour": "12:10 PM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "Interpost handed item over to postal company",
+        "location": null,
+        "date": "May 30, 2026",
+        "longDate": "Saturday, May 30, 2026",
+        "shortDate": "May 30",
+        "dayOfWeek": "Saturday",
+        "hour": "04:29 PM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "Shipped from Global Shipping Center to Destination",
+        "location": "Sample Hub, Sampleshire, GB",
+        "date": "May 30, 2026",
+        "longDate": "Saturday, May 30, 2026",
+        "shortDate": "May 30",
+        "dayOfWeek": "Saturday",
+        "hour": "11:03 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Parcel Documentation and Labeling",
+        "location": "Sample Hub, Sampleshire, GB",
+        "date": "May 29, 2026",
+        "longDate": "Friday, May 29, 2026",
+        "shortDate": "May 29",
+        "dayOfWeek": "Friday",
+        "hour": "11:05 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Processing at Shipping Center",
+        "location": "Sample Hub, Sampleshire, GB",
+        "date": "May 29, 2026",
+        "longDate": "Friday, May 29, 2026",
+        "shortDate": "May 29",
+        "dayOfWeek": "Friday",
+        "hour": "11:04 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "In Transit",
+        "location": null,
+        "date": "May 29, 2026",
+        "longDate": "Friday, May 29, 2026",
+        "shortDate": "May 29",
+        "dayOfWeek": "Friday",
+        "hour": "10:04 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Tracking details uploaded",
+        "location": null,
+        "date": "May 27, 2026",
+        "longDate": "Wednesday, May 27, 2026",
+        "shortDate": "May 27",
+        "dayOfWeek": "Wednesday",
+        "hour": "12:00 PM",
+        "hasLongEventInfo": false
+      }
+    ],
+    "moreThanThreeEvents": true,
+    "packageNotFound": false,
+    "packageException": false,
+    "newestEventDescription": "Customs Clearance"
+  },
+  "shippingInfoModule": {
+    "orderNumber": null,
+    "trackingNumber": "UPBE00000000000000A1",
+    "shippingType": "Pitney Bowes Expedited Parcel Service",
+    "carrierUrl": null,
+    "carrierLogo": null,
+    "carrierCode": "PBI",
+    "carrierTrackingNumber": "UPBE00000000000000A1",
+    "packageWeight": "3 oz.",
+    "packageDimensions": null
+  },
+  "mapModule": {
+    "points": []
+  },
+  "primaryTextKey": "TRACKING.DELIVERY.InTransit.primaryText",
+  "serviceName": "Pitney Bowes Expedited Parcel Service",
+  "newestEventDescription": "Customs Clearance",
+  "isDraftPreview": false
+}

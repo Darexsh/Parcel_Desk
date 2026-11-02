@@ -1,0 +1,89 @@
+{
+  "Message": null,
+  "Result": [
+    {
+      "shipmentInfo": {
+        "CONSIGNEE_NAME": "SAM******",
+        "CREATED_TIME": "15/05/2026 09:12:40",
+        "DATA_CODE": "SAMPLEREF01",
+        "DELIVERY_TIME": "18/05/2026 14:02:31",
+        "HAWB_NO": "000000000000011",
+        "IS_POD": true,
+        "LAST_STATUS": "Shipment delivered",
+        "LAST_STATUS_TIME": "18/05/2026 14:02:31",
+        "NO_PIECES": 2,
+        "PKG_TYPE": "SPX",
+        "RECEIVER_LOCATION": "HO CHI MINH, VN",
+        "SENDER_LOCATION": "HA NOI, VN",
+        "TOS": "EXPRESS",
+        "WEIGHT": 1.25
+      },
+      "shipmentStatuses": [
+        {
+          "COMMENTS": "Người nhận: Sample Person 0900 000 000",
+          "HAWB": "000000000000011",
+          "LOCATION": "HO CHI MINH, VIETNAM",
+          "STATUS_ID": "12",
+          "STATUS_VN": "Shipment delivered",
+          "STRDETTIME": "18/05/2026 14:02:31",
+          "TIME_LOCATION": "VIETNAM Time"
+        },
+        {
+          "COMMENTS": "",
+          "HAWB": "000000000000011",
+          "LOCATION": "HO CHI MINH, VIETNAM",
+          "STATUS_ID": "9",
+          "STATUS_VN": "With delivery courier",
+          "STRDETTIME": "18/05/2026 08:10:05",
+          "TIME_LOCATION": "VIETNAM Time"
+        },
+        {
+          "COMMENTS": "",
+          "HAWB": "000000000000011",
+          "LOCATION": "HO CHI MINH, VIETNAM",
+          "STATUS_ID": "",
+          "STATUS_VN": null,
+          "STRDETTIME": "17/05/2026 05:44:12",
+          "TIME_LOCATION": "VIETNAM Time"
+        },
+        {
+          "COMMENTS": "",
+          "HAWB": "000000000000011",
+          "LOCATION": "HO CHI MINH, VIETNAM",
+          "STATUS_ID": "",
+          "STATUS_VN": null,
+          "STRDETTIME": "17/05/2026 05:44:12",
+          "TIME_LOCATION": "VIETNAM Time"
+        },
+        {
+          "COMMENTS": "",
+          "HAWB": "000000000000011",
+          "LOCATION": "HA NOI, VIETNAM",
+          "STATUS_ID": "",
+          "STATUS_VN": null,
+          "STRDETTIME": "15/05/2026 22:30:00",
+          "TIME_LOCATION": "VIETNAM Time"
+        },
+        {
+          "COMMENTS": "",
+          "HAWB": "000000000000011",
+          "LOCATION": "HA NOI, VIETNAM",
+          "STATUS_ID": "3",
+          "STATUS_VN": "Picked Up",
+          "STRDETTIME": "15/05/2026 16:20:09",
+          "TIME_LOCATION": "VIETNAM Time"
+        },
+        {
+          "COMMENTS": "",
+          "HAWB": "000000000000011",
+          "LOCATION": "HA NOI, VIETNAM",
+          "STATUS_ID": "1",
+          "STATUS_VN": "Order Created",
+          "STRDETTIME": "15/05/2026 09:12:40",
+          "TIME_LOCATION": "VIETNAM Time"
+        }
+      ]
+    }
+  ],
+  "StatusCode": 200
+}

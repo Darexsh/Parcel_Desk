@@ -1,0 +1,30 @@
+{
+  "carrier": "shadowfax",
+  "entries": [
+    {"code": "2", "wording": "In Transit: Bag containing your shipment is received at Bangalore DC", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Milestone 2. A bag scan at a delivery centre, logged before the parcel's own scan there."},
+    {"code": "2", "wording": "In Transit: Shipment is received at Shadowfax's Bangalore DC facility", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "2", "wording": "In Transit: Shipment is shipped from Shadowfax's Bangalore DC facility", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "2", "wording": "In Transit: Shipment is received at Shadowfax's Mumbai DC facility", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "7", "wording": "Delivered: Shipment has been delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Milestone 7. The summary then reads Order Delivered."},
+    {"code": "8", "wording": "Delivery failed: The shipment is getting returned to origin", "stage": "exception", "language": "en", "confirmedBy": "live", "note": "Milestone 8. Shadowfax gave up the delivery and sends the parcel back to the seller; the summary reads Delivery Failed."},
+    {"wording": "Order Received", "stage": "registered", "language": "en", "confirmedBy": "bundle", "note": "A milestone heading the tracker's script names. The tracker's first milestone: the seller shared the order."},
+    {"wording": "Shipment has been picked", "stage": "accepted", "language": "en", "confirmedBy": "bundle", "note": "A milestone heading the tracker's script names. Collected from the seller, or a return from the buyer."},
+    {"wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "bundle", "note": "A milestone heading the tracker's script names."},
+    {"wording": "Delivery Attempt Failed", "stage": "failed_attempt", "language": "en", "confirmedBy": "bundle", "note": "A milestone heading the tracker's script names. The rider tried and will try again."},
+    {"wording": "Delivery Unsuccessful", "stage": "failed_attempt", "language": "en", "confirmedBy": "bundle", "note": "A milestone heading the tracker's script names."},
+    {"wording": "Order Cancelled", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "A milestone heading the tracker's script names."},
+    {"wording": "Pick up canceled.", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "A milestone heading the tracker's script names. A return pickup the buyer or seller cancelled."},
+    {"wording": "Pick up is on hold.", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "A milestone heading the tracker's script names. A return pickup waiting on the buyer."},
+    {"wording": "Pick up is on hold as customer contact number is incorrect.", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "A milestone heading the tracker's script names."},
+    {"wording": "Order received", "stage": "registered", "language": "en", "confirmedBy": "source", "note": "Listed in TrackingMore's table of Shadowfax tracking statuses. The merchant shared the order with Shadowfax."},
+    {"wording": "Pick up unsuccessful", "stage": "exception", "language": "en", "confirmedBy": "source", "note": "Listed in TrackingMore's table of Shadowfax tracking statuses. Shadowfax could not collect the order from the merchant."},
+    {"wording": "Item picked", "stage": "accepted", "language": "en", "confirmedBy": "source", "note": "Listed in TrackingMore's table of Shadowfax tracking statuses. Collected from the merchant."},
+    {"wording": "In transit", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "Listed in TrackingMore's table of Shadowfax tracking statuses."},
+    {"wording": "Near you", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "Listed in TrackingMore's table of Shadowfax tracking statuses. The vehicle carrying the parcel is nearing the recipient."},
+    {"wording": "Delivery failed", "stage": "exception", "language": "en", "confirmedBy": "source", "note": "Listed in TrackingMore's table of Shadowfax tracking statuses. Live replies show it as milestone 8 once Shadowfax sends the parcel back to the seller, so no further attempt follows."},
+    {"wording": "Order delivered", "stage": "delivered", "language": "en", "confirmedBy": "source", "note": "Listed in TrackingMore's table of Shadowfax tracking statuses."},
+    {"wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "source", "note": "Quoted in a Voxya complaint against Shadowfax as the status sent each morning."},
+    {"wording": "Could not attempt delivery due to uncontrollable circumstances.", "stage": "failed_attempt", "language": "en", "confirmedBy": "source", "note": "Quoted in a Voxya complaint against Shadowfax as the status set in the evening when no attempt was made."},
+    {"wording": "customer not contactable", "stage": "failed_attempt", "language": "en", "confirmedBy": "source", "note": "Quoted in lower case in a Voxya complaint against Shadowfax as the tracking status of an undelivered parcel."}
+  ]
+}

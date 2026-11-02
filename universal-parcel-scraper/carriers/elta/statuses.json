@@ -1,0 +1,19 @@
+{
+  "carrier": "elta",
+  "entries": [
+    {"wording": "Label printed by customer", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The sender's own label, before ELTA has the item."},
+    {"wording": "Item deposited at ELTA", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "The sender handed the item in at the post office the scan names, minutes after the label; then it goes on in transit."},
+    {"wording": "Arrival at the airport", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At Athens airport's hub, after the domestic legs of an item leaving Greece."},
+    {"wording": "For dispatch abroad", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At Athens airport's hub two days after its arrival there: the item readied to leave Greece."},
+    {"wording": "Shipment in transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Sent on from the station the scan names, from the sender's agency onwards."},
+    {"wording": "Arrival in", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The tracker follows it with the name of the station the scan names; the map reads the opening words."},
+    {"wording": "With Courier for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"wording": "Notification of attempted delivery", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "The notice the courier leaves; it comes at the same minute as the reason the delivery failed."},
+    {"wording": "ADDRESSEE NOT AVAILABLE AT TIME OF DELIVERY", "stage": "failed_attempt", "language": "en", "confirmedBy": "live"},
+    {"wording": "ADDRESSEE REQUEST OWN PICK-UP", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "The courier's attempt ended because the recipient will collect the item instead."},
+    {"wording": "Item at post office - Can be collected", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "live", "note": "The scan names the post office or courier agency the item waits at, which becomes the pickup point."},
+    {"wording": "SMS text message sent for item to be collected", "language": "en", "confirmedBy": "live", "note": "A message to the recipient, not a movement: it has no stage of its own and the item keeps the one it had."},
+    {"wording": "Shipment delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Seen on a courier parcel collected from an agency."},
+    {"wording": "Item delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Seen on a parcel collected from a post office."}
+  ]
+}

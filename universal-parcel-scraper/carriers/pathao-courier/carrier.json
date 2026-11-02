@@ -1,0 +1,103 @@
+{
+  "id": "pathao-courier",
+  "displayName": "Pathao Courier",
+  "aliases": [
+    "Pathao",
+    "Pathao Courier Bangladesh"
+  ],
+  "region": {
+    "countries": [
+      "BD"
+    ]
+  },
+  "brand": {
+    "color": "#e83330"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dhaka",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pathao-courier",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 945
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "offset_timestamps",
+    "eta",
+    "eta_window",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://merchant.pathao.com/public-tracking?consignment_id={trackingNumber}",
+    "searchUrl": "https://pathao.com/courier/",
+    "canaryUrl": "https://pathao.com/courier/",
+    "shows": [
+      "status",
+      "history",
+      "provider_code",
+      "progress_rail",
+      "eta",
+      "driver_name",
+      "contact_details",
+      "remarks",
+      "order_contents",
+      "payment_details",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "pickup_point",
+      "coordinates"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "progress_rail",
+      "offset_timestamps",
+      "eta",
+      "eta_window",
+      "delivered_at"
+    ],
+    "discarded": [
+      "driver_name",
+      "contact_details",
+      "remarks",
+      "order_contents",
+      "payment_details",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "pickup_point",
+      "coordinates"
+    ],
+    "unavailable": [
+      "location",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "merchant.pathao.com"
+      ],
+      "pathPattern": "^/(?:public-)?tracking/?$",
+      "params": [
+        "consignment_id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "pathao-courier-1",
+      "pattern": "^D[A-Z](?:0[1-9]|[12]\\d|3[01])(?:0[1-9]|1[0-2])\\d{2}[A-Z0-9]{6}$",
+      "confidence": "high"
+    }
+  ]
+}

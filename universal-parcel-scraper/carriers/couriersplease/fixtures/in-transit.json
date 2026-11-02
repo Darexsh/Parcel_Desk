@@ -1,0 +1,155 @@
+{
+  "responseCode": "200",
+  "msg": "SUCCESS",
+  "data": {
+    "root": [
+      {
+        "consignmentInfo": [
+          {
+            "date": null,
+            "time": "Consignment #",
+            "action": "CPBZZZZ0000028"
+          },
+          {
+            "date": null,
+            "time": "Delivery ETA",
+            "action": "09 Mar 2026"
+          },
+          {
+            "date": null,
+            "time": "Dead Weight",
+            "action": "Declared 8 kg"
+          },
+          {
+            "date": null,
+            "time": "Volume",
+            "action": "Declared 0.030 m3 / 8 kg"
+          },
+          {
+            "date": null,
+            "time": "References",
+            "action": "SAMPLE-REF-0002"
+          },
+          {
+            "date": null,
+            "time": "Status",
+            "action": "delivered0 of 2"
+          },
+          {
+            "date": null,
+            "time": "Items/Coupons",
+            "action": "CPBZZZZ0000028001,CPBZZZZ0000028002"
+          }
+        ],
+        "trakingInfo": [
+          {
+            "tracker": {
+              "track": [
+                {
+                  "date": "CPBZZZZ0000028001",
+                  "time": "CPPL TRACKER",
+                  "action": null,
+                  "nodeType": null,
+                  "contractor": null,
+                  "stateName": null,
+                  "datetime": null
+                },
+                {
+                  "date": "4 Mar 2026",
+                  "time": "1:36 pm",
+                  "action": "Your parcel has been picked up",
+                  "nodeType": "pickup",
+                  "contractor": "0902(sydney)",
+                  "stateName": "NSW",
+                  "datetime": "1.36pm Wed"
+                },
+                {
+                  "date": "4 Mar 2026",
+                  "time": "2:20 pm",
+                  "action": "Shipment information received",
+                  "nodeType": "manifest",
+                  "contractor": "9900(sydney)",
+                  "stateName": "NSW",
+                  "datetime": "2.20pm Wed"
+                },
+                {
+                  "date": "4 Mar 2026",
+                  "time": "5:10 pm",
+                  "action": "Arrived at facility for processing.",
+                  "nodeType": "reweigh",
+                  "contractor": "9906(sydney)",
+                  "stateName": "NSW",
+                  "datetime": "5.10pm Wed"
+                },
+                {
+                  "date": "4 Mar 2026",
+                  "time": "8:00 pm",
+                  "action": "In Transit with Couriers Please",
+                  "nodeType": "status",
+                  "contractor": "9907(sydney)",
+                  "stateName": null,
+                  "datetime": "8.00pm Wed"
+                },
+                {
+                  "date": "5 Mar 2026",
+                  "time": "8:09 am",
+                  "action": "In transit to regional delivery centre",
+                  "nodeType": "agent",
+                  "contractor": "0903(sydney)",
+                  "stateName": "NSW",
+                  "datetime": "8.09am Thu"
+                }
+              ]
+            }
+          },
+          {
+            "tracker": {
+              "track": [
+                {
+                  "date": "CPBZZZZ0000028002",
+                  "time": "CPPL TRACKER",
+                  "action": null,
+                  "nodeType": null,
+                  "contractor": null,
+                  "stateName": null,
+                  "datetime": null
+                },
+                {
+                  "date": "4 Mar 2026",
+                  "time": "1:36 pm",
+                  "action": "Your parcel has been picked up",
+                  "nodeType": "pickup",
+                  "contractor": "0902(sydney)",
+                  "stateName": "NSW",
+                  "datetime": "1.36pm Wed"
+                },
+                {
+                  "date": "4 Mar 2026",
+                  "time": "2:20 pm",
+                  "action": "Shipment information received",
+                  "nodeType": "manifest",
+                  "contractor": "9900(sydney)",
+                  "stateName": "NSW",
+                  "datetime": "2.20pm Wed"
+                },
+                {
+                  "date": "4 Mar 2026",
+                  "time": "5:12 pm",
+                  "action": "Arrived at facility for processing.",
+                  "nodeType": "reweigh",
+                  "contractor": "9906(sydney)",
+                  "stateName": "NSW",
+                  "datetime": "5.12pm Wed"
+                }
+              ]
+            }
+          }
+        ],
+        "statusInfo": {
+          "status": "Transit",
+          "type": "consignment"
+        }
+      }
+    ]
+  }
+}

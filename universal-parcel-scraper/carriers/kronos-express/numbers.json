@@ -1,0 +1,24 @@
+{
+  "carrier": "kronos-express",
+  "records": [
+    {
+      "number": "GCMURL1854800",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://wordpress.org/plugins/bse-kronosexpress-shipping-woocommerce/",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Order note in a screenshot of the Kronos Express Shipping for WooCommerce plugin's listing: the plugin issued this Kronos Express voucher and linked it to Kronos Express's tracker as 'Track your parcel'."
+    }
+  ]
+}

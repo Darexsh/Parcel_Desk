@@ -1,0 +1,29 @@
+{
+  "carrier": "geodis-pl",
+  "records": [
+    {
+      "number": "PL2878740005530001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://spolecznosc.allegro.pl/t5/zaawansowani-sprzedawcy/brak-aktualizacji-statusu-przesy%C5%82ki-geodis-pekaes/td-p/822160",
+        "access": "full_page",
+        "date": "2024-07-08",
+        "dateKind": "comment"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "GEODIS Road Network",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "geodis-pl"
+        ]
+      },
+      "note": "A seller on Allegro's community forum gives it as its GEODIS waybill; GEODIS Poland's tracker shows it as the shipment number."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "track_code": "0000000001",
+  "baseOrder": "0000000099",
+  "status": [
+    {"date": "02-03-2026", "time": "10:15:20", "status_code": "00", "text": "Новый заказ", "textMobile": "Новый заказ"},
+    {"date": "02-03-2026", "time": "11:02:41", "status_code": "01", "text": "Груз принят на терминале", "textMobile": "Груз принят"},
+    {"date": "04-03-2026", "time": "18:30:05", "status_code": "02", "text": "Груз отправлен", "textMobile": "Отправлен"},
+    {"date": "09-03-2026", "time": "07:45:00", "status_code": "03", "text": "Груз прибыл на терминал", "textMobile": "Прибыл"},
+    {"date": "11-03-2026", "time": "14:20:33", "status_code": "04", "text": "Груз выдан", "textMobile": "Выдан"}
+  ],
+  "cityOut": {"name": "Образцовск", "code": "000000000001"},
+  "cityIn": {"name": "Примерово", "code": "000000000002"},
+  "address": "Примерово, ул. Складская, 1",
+  "phone": ["0000000000"],
+  "worktime": "Пн-Пт – 09:00-18:00; Сб-Вс – выходной",
+  "stepCount": 5,
+  "addressId": 101,
+  "daysoff": [],
+  "isDeliveryRequest": false,
+  "deliveryInfo": {
+    "EStPay": "1",
+    "ESubi": {"Vbelv": "", "Xblnr": "ОБРПРМ0000000001"},
+    "EGinf": {"Volum": "0.500", "Brgew": "120.5", "Kwmeng": "2.0"},
+    "EReci": {"Address": "ул. Складская, 1", "Street": "Складская", "HouseNum1": "1"},
+    "EsFrom": {"CityExt": "Город", "CityName": "Образцовск", "value": "ул. Синтетическая, 2"},
+    "EsTo": {"Werks": "0001", "value": "ул. Складская, 1 \"Терминал Пример\""}
+  },
+  "deliveryTime": null,
+  "possibleDelivery": false,
+  "deliveryType": null,
+  "specialName": null,
+  "specialType": null,
+  "Ekit": null
+}

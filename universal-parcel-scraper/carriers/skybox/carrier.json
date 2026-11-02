@@ -1,0 +1,88 @@
+{
+  "id": "skybox",
+  "displayName": "SkyBox",
+  "aliases": [
+    "SkyBOX",
+    "SkyBox.net",
+    "SkyBOX de Venezuela"
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "CL",
+      "BR",
+      "VE"
+    ]
+  },
+  "brand": {
+    "color": "#3c59a8"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "skybox",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://www.skybox.net/TrackingInformation/IndexPublic?tracking={trackingNumber}",
+    "searchUrl": "https://www.skybox.net/TrackingInformation/IndexPublic",
+    "canaryUrl": "https://www.skybox.net/",
+    "shows": [
+      "progress_rail",
+      "history",
+      "location",
+      "origin",
+      "destination",
+      "awb_date",
+      "recipient_id",
+      "recipient_name",
+      "weight",
+      "order_contents",
+      "tracking_alias"
+    ],
+    "scraped": [
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "progress_rail",
+      "origin",
+      "destination",
+      "awb_date",
+      "recipient_id",
+      "recipient_name",
+      "weight",
+      "order_contents",
+      "tracking_alias"
+    ],
+    "unavailable": [
+      "provider_code",
+      "eta",
+      "offset_timestamps",
+      "service_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.skybox.net",
+        "skybox.net"
+      ],
+      "pathPattern": "^/TrackingInformation/IndexPublic/?$",
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": []
+}

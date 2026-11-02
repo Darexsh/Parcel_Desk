@@ -1,0 +1,593 @@
+{
+  "carrier": "ceva-logistics",
+  "records": [
+    {
+      "number": "OV91069550",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/ceva-logistics/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-es",
+          "tnt-it"
+        ]
+      },
+      "note": "ParcelPanel's CEVA Logistics page offers it as a sample number to try. CEVA's tracker answers it as a delivered house bill."
+    },
+    {
+      "number": "CEV1101370",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/ceva-logistics/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "ParcelPanel's CEVA Logistics page gives it as an example of a house air waybill number. CEVA's tracker answers it as a house bill booked without events."
+    },
+    {
+      "number": "AZN1732639",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/ceva-logistics/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "ParcelPanel's CEVA Logistics page gives it as an example of a house bill of lading number."
+    },
+    {
+      "number": "827777154",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://ship24.com/couriers/ceva-logistics-tracking/ceva-logistics-tracking-number",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Ship24's page on CEVA Logistics tracking numbers lists it among its examples."
+    },
+    {
+      "number": "235831759-001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://ship24.com/couriers/ceva-logistics-tracking/ceva-logistics-tracking-number",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Ship24's page on CEVA Logistics tracking numbers lists it among its examples."
+    },
+    {
+      "number": "1025737677",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://ship24.com/couriers/ceva-logistics-tracking/ceva-logistics-tracking-number",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Ship24's page on CEVA Logistics tracking numbers lists it among its examples."
+    },
+    {
+      "number": "651440755",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170615060633/http://homedelivery.cevalogistics.com:80/Track.aspx?trackingID=651440755",
+        "date": "2017-06-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The Wayback Machine indexes a CEVA Home Delivery tracking lookup for this number; the capture was not opened."
+    },
+    {
+      "number": "75796178",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20160803101135/http://homedelivery.cevalogistics.com:80/Track.aspx?trackingID=75796178",
+        "date": "2016-08-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The Wayback Machine indexes a CEVA Home Delivery tracking lookup for this number; the capture was not opened."
+    },
+    {
+      "number": "84150095",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180926154713/http://homedelivery.cevalogistics.com/Track.aspx?trackingID=84150095",
+        "date": "2018-09-26",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The Wayback Machine indexes a CEVA Home Delivery tracking lookup for this number; the capture was not opened."
+    },
+    {
+      "number": "8605388448",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20160630093731/http://www.homedelivery.cevalogistics.com:80/Track.aspx?trackingID=8605388448",
+        "date": "2016-06-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "The Wayback Machine indexes a CEVA Home Delivery tracking lookup for this number; the capture was not opened."
+    },
+    {
+      "number": "99911453",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170325082446/http://homedelivery.cevalogistics.com:80/Track.aspx?trackingID=99911453",
+        "date": "2017-03-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "The Wayback Machine indexes a CEVA Home Delivery tracking lookup for this number; the capture was not opened."
+    },
+    {
+      "number": "AZN0117276",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180926152401/http://homedelivery.cevalogistics.com/Track.aspx?trackingID=AZN0117276",
+        "date": "2018-09-26",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "An archived CEVA Home Delivery tracking lookup for this number; the opened capture shows only the search form holding the number."
+    },
+    {
+      "number": "CB00071928",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180216233644/http://www.homedelivery.cevalogistics.com:80/Track.aspx?trackingID=CB00071928",
+        "date": "2018-02-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt-it"
+        ]
+      },
+      "note": "The Wayback Machine indexes a CEVA Home Delivery tracking lookup for this number; the capture was not opened."
+    },
+    {
+      "number": "CE00047947",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20161209165954/http://www.homedelivery.cevalogistics.com:80/Track.aspx?trackingID=CE00047947",
+        "date": "2016-12-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt-it"
+        ]
+      },
+      "note": "The Wayback Machine indexes a CEVA Home Delivery tracking lookup for this number; the capture was not opened."
+    },
+    {
+      "number": "OV76778301",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170519115233/http://homedelivery.cevalogistics.com:80/Track.aspx?trackingID=OV76778301",
+        "date": "2017-05-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt-it"
+        ]
+      },
+      "note": "The Wayback Machine indexes a CEVA Home Delivery tracking lookup for this number; the capture was not opened."
+    },
+    {
+      "number": "WZ1209392",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220523231756/https://homedelivery.cevalogistics.com/Track?trackingID=WZ1209392",
+        "date": "2022-05-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The Wayback Machine indexes a CEVA Home Delivery tracking lookup for this number; the capture was not opened. CEVA's tracker answers it as a house bill booked without events."
+    },
+    {
+      "number": "20455715",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220620132858/https://www.cevalogistics.com/api/ceva/track/info/airground/HouseBillNumber/20455715",
+        "date": "2022-06-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The Wayback Machine indexes a request to CEVA's tracking service for this house bill number; the capture was not opened."
+    },
+    {
+      "number": "5264000461",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240327042111/https://www.cevalogistics.com/api/ceva/track/info/airground/HouseBillNumber/5264000461",
+        "date": "2024-03-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "The Wayback Machine indexes a request to CEVA's tracking service for this house bill number; the capture was not opened."
+    },
+    {
+      "number": "8997342337",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220618165904/https://www.cevalogistics.com/api/ceva/track/info/airground/HouseBillNumber/8997342337",
+        "date": "2022-06-18",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "The Wayback Machine indexes a request to CEVA's tracking service for this house bill number; the capture was not opened."
+    },
+    {
+      "number": "CEV1110731",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230607003951/https://www.cevalogistics.com/api/ceva/track/info/airground/HouseBillNumber/CEV1110731",
+        "date": "2023-06-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "An archived reply of the tracking service behind CEVA's tracker shows this house air waybill with its pickup and terminal scans."
+    },
+    {
+      "number": "KEY3000376",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230404190425/https://www.cevalogistics.com/api/ceva/track/info/airground/HouseBillNumber/KEY3000376",
+        "date": "2023-04-04",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "The Wayback Machine indexes a request to CEVA's tracking service for this house bill number; the capture was not opened."
+    },
+    {
+      "number": "WZ1855623",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240229191059/https://www.cevalogistics.com/api/ceva/track/info/airground/HouseBillNumber/WZ1855623",
+        "date": "2024-02-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The Wayback Machine indexes a request to CEVA's tracking service for this house bill number; the capture was not opened. CEVA's tracker answers it as a delivered house bill."
+    },
+    {
+      "number": "CEV1099373",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230607003829/https://www.cevalogistics.com/api/ceva/track/info/all/HouseBillNumber/CEV1099373",
+        "date": "2023-06-07",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "The Wayback Machine indexes a request to CEVA's tracking service for this house bill number; the capture was not opened. CEVA's tracker answers it as a house bill booked without events."
+    },
+    {
+      "number": "EP20031174",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250723124005/https://www.cevalogistics.com/api/ceva/trackntrace/shipments?query=EP20031174",
+        "date": "2025-07-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt-it"
+        ]
+      },
+      "note": "The Wayback Machine indexes a CEVA Trak search request for this number; the capture was not opened. CEVA's tracker answers it as a delivered house bill."
+    },
+    {
+      "number": "OV90865832",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250819024609/https://www.cevalogistics.com/api/ceva/trackntrace/shipments?query=OV90865832",
+        "date": "2025-08-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt-it"
+        ]
+      },
+      "note": "An archived reply of the tracking service behind CEVA Trak shows this house bill with its pickup, terminal and appointment events."
+    }
+  ]
+}

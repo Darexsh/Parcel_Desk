@@ -1,0 +1,43 @@
+{
+  "id": "tiui",
+  "displayName": "Tiui",
+  "aliases": [
+    "tiui",
+    "Tiui Soluciones",
+    "Tiui Soluciones, S.A.P.I. de C.V."
+  ],
+  "region": {
+    "countries": [
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#3fa7a9"
+  },
+  "selectable": true,
+  "timezone": "America/Mexico_City",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tiuiamigo.tiui.mx/rastreo/{trackingNumber}",
+    "searchUrl": "https://tiuiamigo.tiui.mx/rastreo",
+    "canaryUrl": "https://tiui.mx/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tiuiamigo.tiui.mx"
+      ],
+      "path": "^/rastreo/(\\d{1,4}-\\d{1,3}-\\d{1,6})/?$"
+    }
+  ],
+  "detection": []
+}

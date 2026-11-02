@@ -1,0 +1,69 @@
+{
+  "id": "ark-express",
+  "displayName": "ARK Express",
+  "aliases": [
+    "方舟速递",
+    "方舟国际速递",
+    "方舟速运",
+    "方舟物流",
+    "ARK International Express",
+    "ARK International Express Pty Ltd",
+    "ARK Express Pty Ltd"
+  ],
+  "region": {
+    "countries": [
+      "AU",
+      "CN",
+      "MY"
+    ]
+  },
+  "brand": {
+    "color": "#0168b7"
+  },
+  "selectable": true,
+  "timezone": "Australia/Melbourne",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://express.arkexpress.com.au/q?s={trackingNumber}",
+    "searchUrl": "https://express.arkexpress.com.au/",
+    "canaryUrl": "https://express.arkexpress.com.au/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "express.arkexpress.com.au"
+      ],
+      "pathPattern": "^/q/?$",
+      "params": [
+        "s"
+      ]
+    },
+    {
+      "domains": [
+        "www.arkexpress.com.au",
+        "mel.arkexpress.com.au",
+        "en.arkexpress.com.au"
+      ],
+      "pathPattern": "^/searchOrder/?$",
+      "params": [
+        "orderNo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "ark-express-1",
+      "pattern": "^AP\\d{7}AU$",
+      "confidence": "low"
+    }
+  ]
+}

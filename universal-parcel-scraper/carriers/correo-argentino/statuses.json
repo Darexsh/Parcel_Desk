@@ -1,0 +1,32 @@
+{
+  "carrier": "correo-argentino",
+  "entries": [
+    {"wording": "INGRESO AL CORREO", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Posted at a branch."},
+    {"wording": "EN PROCESO DE CLASIFICACIÓN", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Sorting at a branch or processing centre."},
+    {"wording": "LLEGADA AL CENTRO DE PROCESAMIENTO", "stage": "in_transit", "language": "es", "confirmedBy": "live"},
+    {"wording": "LLEGADA DEL PAÍS", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "An item from abroad reached the international processing centre."},
+    {"wording": "EN PROCESO DE IMPORTACIÓN (*)", "stage": "customs", "language": "es", "confirmedBy": "live", "note": "The tracker's footnote: the addressee is notified, declares the item to AFIP and pays its fees, then customs authorises the delivery."},
+    {"wording": "SALIDA DEL PAÍS", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "The item left Argentina; the destination post tracks it from there. After an item from abroad was left unclaimed, it is its return."},
+    {"wording": "EN PODER DEL CARTERO", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live", "note": "With the postman for delivery."},
+    {"wording": "INTENTO DE ENTREGA", "language": "es", "confirmedBy": "portal", "note": "A delivery visit without its status column, which says whether it delivered the item; the wording alone has no stage. Seen in an archived capture of Correo Argentino's former tracker."},
+    {"wording": "INTENTO DE ENTREGA: ENTREGADO", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "A delivery visit and its status column, joined by the adapter."},
+    {"wording": "INTENTO DE ENTREGA: ENTREGA EN SUCURSAL", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Collected at the branch it waited at."},
+    {"wording": "INTENTO DE ENTREGA: EN ESPERA EN SUCURSAL", "stage": "ready_for_pickup", "language": "es", "confirmedBy": "live", "note": "Waiting at a branch for the addressee to collect it."},
+    {"wording": "INTENTO DE ENTREGA: DOMICILIO CERRADO/1 VISITA", "stage": "failed_attempt", "language": "es", "confirmedBy": "live", "note": "Nobody was in at the first visit."},
+    {"wording": "INTENTO DE ENTREGA: DESCONOCIDO", "stage": "failed_attempt", "language": "es", "confirmedBy": "live", "note": "The addressee is unknown at the address."},
+    {"wording": "INTENTO DE ENTREGA: DIRECCIÓN INSUFICIENTE", "stage": "failed_attempt", "language": "es", "confirmedBy": "live", "note": "The address is incomplete."},
+    {"wording": "INTENTO DE ENTREGA: PLAZO VENCIDO NO RECLAMO", "stage": "returned", "language": "es", "confirmedBy": "live", "note": "Nobody collected the item in time; it then goes back to its sender, abroad for an item from abroad."},
+    {"wording": "Receive item from customer (Otb)", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Posted at the foreign post of an item sent to Argentina."},
+    {"wording": "Receive item at office of exchange (Otb)", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Insert item into bag (Otb)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Bagged for dispatch abroad, also by Correo Argentino's return office for an item sent back."},
+    {"wording": "Send item abroad (EDI-received)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The origin post's dispatch, from the data it sent ahead."},
+    {"wording": "Receive item at office of exchange (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Arrived at Argentina's office of exchange."},
+    {"wording": "Record item customs information (Inb)", "stage": "customs", "language": "en", "confirmedBy": "live"},
+    {"wording": "Send item to customs (Inb)", "stage": "customs", "language": "en", "confirmedBy": "live"},
+    {"wording": "Return item from customs (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Customs handed the item back; logged again before each delivery round."},
+    {"wording": "Send item to domestic location (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Unsuccessful item delivery attempt (Inb)", "stage": "failed_attempt", "language": "en", "confirmedBy": "live"},
+    {"wording": "Receive item at collection point for pick-up (Inb)", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "live"},
+    {"wording": "Deliver item (Inb)", "stage": "delivered", "language": "en", "confirmedBy": "live"}
+  ]
+}

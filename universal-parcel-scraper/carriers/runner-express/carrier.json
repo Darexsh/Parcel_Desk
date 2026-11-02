@@ -1,0 +1,47 @@
+{
+  "id": "runner-express",
+  "displayName": "Runner Express",
+  "aliases": [
+    "Runner Express Ltd",
+    "Runner Express IL",
+    "רנר אקספרס"
+  ],
+  "region": {
+    "countries": [
+      "IL"
+    ]
+  },
+  "brand": {
+    "color": "#e71c22"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jerusalem",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://runnerexpress.co.il/track/?search_query={trackingNumber}",
+    "searchUrl": "https://runnerexpress.co.il/track/",
+    "canaryUrl": "https://runnerexpress.co.il/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "runnerexpress.co.il",
+        "www.runnerexpress.co.il"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "search_query"
+      ]
+    }
+  ],
+  "detection": []
+}

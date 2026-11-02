@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="SyntheticFormToken0000000000000000000000" />
+    <title>Royal Express | Track</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+                <form action="https://royalx.net/tracking" method="POST" class="closemodal">
+                    <input type="hidden" name="_token" value="SyntheticFormToken0000000000000000000000">
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter Your Waybill Number" name="waybill-number"
+                            class="search-form-area form-control-lg form-track" id="exampleFormControlInput1"
+                            required>
+                        <div class="input-group-append">
+                            <button id="button-addon5" type="submit" class="btn btn-danger sear-btn"><i
+                                class="fa fa-search"></i>&nbsp;&nbsp;Search</button>
+                        </div>
+                    </div>
+                </form>
+        </nav>
+    </div>
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container p-2 text-center">
+            <h5 class="animated slideInDown hero-title">Tracking</h5>
+
+        </div>
+        <div class="container">
+            <form action="https://royalx.net/tracking" method="POST">
+                <input type="hidden" name="_token" value="SyntheticFormToken0000000000000000000000">
+                                    
+                                            <div class="row p-3">
+
+                            <div class="col-lg-3"></div>
+                            <div class="col-lg-3">
+                                <div class="">
+                                    <h6><label for="">Enter Your Waybill Nubmer</label></h6>
+                                </div>
+                                <input type="text" class="form-control mb-3 tracking-input" value="AAA000001" name="waybill-number"
+                                    id="exampleFormControlInput1" autocomplete="off" required>
+                            </div>
+                            <div class="col-lg-3">
+                                <label for=""></label>
+                                <button class="btn btn-danger tracking-search">Search</button>
+                            </div>
+                            <div class="col-lg-3"></div>
+                        </div>
+                                                </form>
+        </div>
+    </div>
+    <!-- tab section -->
+    <div class="container py-4">
+                       <div class="row">
+            <div class="col-lg-4">
+                <div class="">
+                    <h6>Tracking No.<span class="text-danger"> AAA000001</span></h6>
+                                        <table>
+                                            </table>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                                    <div class="tracking-process">
+                       
+                        <ul class="timeline">
+                           
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">Transit</span>
+                                    -<span class="fw-semibold">inbound received</span></span>
+                                <p class="draft">2026-03-02 08:27:14 : YGN-C8(ရန်ကုန် (မြောက်ပိုင်း)) ရုံးမှ စာဝင်လက်ခံရရှိပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">Transit</span>
+                                    -<span class="fw-semibold">outbound received</span></span>
+                                <p class="draft">2026-02-28 13:32:51 : YGN-HB9(ရန်ကုန်) ရုံးမှ စာဝင်လက်ခံရရှိပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">Transit</span>
+                                    -<span class="fw-semibold">outbound collected</span></span>
+                                <p class="draft">2026-02-28 10:00:35 : YGN-C9(ရန်ကုန် (အရှေ့ပိုင်း)) ရုံးမှ စာဝင်လက်ခံရရှိပါသည်။</p>
+                            </li>
+                        </ul>
+                    </div>
+                                </div>
+      </div>
+                </div>
+
+    <input type="hidden" id="url" value="https://royalx.net">
+    <input type="hidden" id="token" value="SyntheticFormToken0000000000000000000000">
+    <input type="hidden" id="lang" value="en">
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "data": [
+    {"status": "in_transit", "name": "In Transit", "description": "The package is on its way to the pickup point.", "icon": "bi-file-text", "date": "24-09-2026 05:30", "color": "default"},
+    {"status": "sorting", "name": "Sorting", "description": "The package is being sorted at the central warehouse.", "icon": "bi-shuffle", "date": "23-09-2026 13:20", "color": "default"},
+    {"status": "import_customs_released", "name": "Customs Cleared", "description": "The package has successfully cleared customs.", "icon": "bi-shield-fill-check", "date": "23-09-2026 13:05", "color": "default"},
+    {"status": "import_customs_hold", "name": "Under Customs Review", "description": "The package is currently under customs review.", "icon": "bi-shield-fill-exclamation", "date": "21-09-2026 09:10", "color": "default"},
+    {"status": "waiting_for_declaration", "name": "Waiting for declaration", "description": "Parcel will be delivered only after declaration is completed", "icon": "bi-shield-fill-exclamation", "date": "20-09-2026 07:00", "color": "red"},
+    {"status": "import_customs_hold", "name": "Customs Declaration Required", "description": "No customs declaration has been submitted for the package.", "icon": "bi-shield-fill-exclamation", "date": "18-09-2026 10:00", "color": "default"},
+    {"status": "accepted_at_terminal", "name": "Arrived at Customs", "description": "The package has arrived in the destination country and is being prepared for customs clearance.", "icon": "bi-building-fill-exclamation", "date": "17-09-2026 06:45", "color": "default"},
+    {"status": "waiting_for_arrival", "name": "In Transit", "description": "The package is on its way from the origin country to the destination country.", "icon": "bi-file-text", "date": "15-09-2026 10:30", "color": "default"},
+    {"status": "waiting_for_delivery", "name": "Package Declared", "description": "The customs declaration has been submitted, and the package is being prepared for dispatch to the destination country.", "icon": "bi-hourglass-split", "date": "11-09-2026 19:40", "color": "default"},
+    {"status": "waiting_for_confirmation", "name": "Confirm Package", "description": "The package must be confirmed to continue processing.", "icon": "bi-file-text", "date": "11-09-2026 19:30", "color": "default"}
+  ],
+  "package": {"order_number": null, "updatable": false, "location_required": false, "address": null},
+  "user": {"name": "Te** Re*******", "phone": null, "pin": "0******", "pudo_name": null}
+}

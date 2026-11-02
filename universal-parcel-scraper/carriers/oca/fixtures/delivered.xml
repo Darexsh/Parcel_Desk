@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="#Oca_e_Pak">
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NumeroEnvio" type="xs:string" minOccurs="0" />
+                <xs:element name="Descripcion_Motivo" type="xs:string" minOccurs="0" />
+                <xs:element name="Desdcripcion_Estado" type="xs:string" minOccurs="0" />
+                <xs:element name="SUC" type="xs:string" minOccurs="0" />
+                <xs:element name="fecha" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <NewDataSet xmlns="">
+      <Table diffgr:id="Table1" msdata:rowOrder="0">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>En proceso de Retiro - Suc: CENTRO DE MUESTRA</Desdcripcion_Estado>
+        <SUC>Suc: CENTRO DE MUESTRA</SUC>
+        <fecha>2026-05-04 09:12:30.120</fecha>
+      </Table>
+      <Table diffgr:id="Table2" msdata:rowOrder="1">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>Retirado en Origen - Suc: CENTRO DE MUESTRA</Desdcripcion_Estado>
+        <SUC>Suc: CENTRO DE MUESTRA</SUC>
+        <fecha>2026-05-05 18:40:02.553</fecha>
+      </Table>
+      <Table diffgr:id="Table3" msdata:rowOrder="2">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>En Proceso en OCA - Suc: CENTRO DE MUESTRA</Desdcripcion_Estado>
+        <SUC>Suc: CENTRO DE MUESTRA</SUC>
+        <fecha>2026-05-06 01:15:44.900</fecha>
+      </Table>
+      <Table diffgr:id="Table4" msdata:rowOrder="3">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>Procesado en OCA - Suc: CENTRO DE MUESTRA</Desdcripcion_Estado>
+        <SUC>Suc: CENTRO DE MUESTRA</SUC>
+        <fecha>2026-05-06 01:15:49.010</fecha>
+      </Table>
+      <Table diffgr:id="Table5" msdata:rowOrder="4">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>En viaje a Centro de Distribución de Destino - Suc: CENTRO DE MUESTRA</Desdcripcion_Estado>
+        <SUC>Suc: CENTRO DE MUESTRA</SUC>
+        <fecha>2026-05-06 03:02:11.300</fecha>
+      </Table>
+      <Table diffgr:id="Table6" msdata:rowOrder="5">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>En viaje a Centro de Distribución de Destino - Suc: CENTRO DE MUESTRA</Desdcripcion_Estado>
+        <SUC>Suc: CENTRO DE MUESTRA</SUC>
+        <fecha>2026-05-06 03:02:11.300</fecha>
+      </Table>
+      <Table diffgr:id="Table7" msdata:rowOrder="6">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>Arribado a Centro de Distribución de Destino - Suc: VILLA EJEMPLO</Desdcripcion_Estado>
+        <SUC>Suc: VILLA EJEMPLO</SUC>
+        <fecha>2026-05-07 05:31:30.830</fecha>
+      </Table>
+      <Table diffgr:id="Table8" msdata:rowOrder="7">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>Programado para visita a domicilio - Suc: VILLA EJEMPLO</Desdcripcion_Estado>
+        <SUC>Suc: VILLA EJEMPLO</SUC>
+        <fecha>2026-05-07 06:40:12.040</fecha>
+      </Table>
+      <Table diffgr:id="Table9" msdata:rowOrder="8">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>Visita a Domicilio en Curso - Suc: VILLA EJEMPLO</Desdcripcion_Estado>
+        <SUC>Suc: VILLA EJEMPLO</SUC>
+        <fecha>2026-05-07 06:41:00.290</fecha>
+      </Table>
+      <Table diffgr:id="Table10" msdata:rowOrder="9">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>Estado de Visita ONLINE (Entregado) - Suc: VILLA EJEMPLO</Desdcripcion_Estado>
+        <SUC>Suc: VILLA EJEMPLO</SUC>
+        <fecha>2026-05-07 14:20:26.000</fecha>
+      </Table>
+      <Table diffgr:id="Table11" msdata:rowOrder="10">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>Entregado - Suc: VILLA EJEMPLO</Desdcripcion_Estado>
+        <SUC>Suc: VILLA EJEMPLO</SUC>
+        <fecha>2026-05-07 14:20:59.000</fecha>
+      </Table>
+      <Table diffgr:id="Table12" msdata:rowOrder="11">
+        <NumeroEnvio>1234500000000000011</NumeroEnvio>
+        <Descripcion_Motivo>Sin Motivo</Descripcion_Motivo>
+        <Desdcripcion_Estado>Acuse digitalizado - Suc: PLANTA DE MUESTRA</Desdcripcion_Estado>
+        <SUC>Suc: PLANTA DE MUESTRA</SUC>
+        <fecha>2026-05-12 11:05:41.170</fecha>
+      </Table>
+    </NewDataSet>
+  </diffgr:diffgram>
+</DataSet>

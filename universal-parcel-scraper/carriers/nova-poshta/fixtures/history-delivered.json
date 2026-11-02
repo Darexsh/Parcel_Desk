@@ -1,0 +1,16 @@
+{
+  "number": "59000000000001",
+  "sender": { "settlement": "PRIVATE-SYNTHETIC" },
+  "recipient": { "settlement": "PRIVATE-SYNTHETIC", "country_code": "UA" },
+  "scheduled_delivery_date": "2026-01-03T12:00:00.000000Z",
+  "total_weight": 2.5,
+  "parcels": [{ "number": "59000000000001" }],
+  "alternative_numbers": [],
+  "alternativeNumbersGWNew": [{ "name": "NPU", "number": "59000000000001" }],
+  "tracking": [
+    { "number": "59000000000001", "parcel_number": "59000000000001", "date": "2026-01-01T08:00:00.000000Z", "event": "ArrivalSenderWarehouse", "event_name": "Accepted at branch 1", "event_status": "passed", "code": "4", "settlement_name": "Sample City" },
+    { "number": "59000000000001", "parcel_number": "59000000000001", "date": "2026-01-03T08:00:00.000000Z", "event": "ArrivalRecipientWarehouse", "event_name": "Arrived at the branch 2", "event_status": "passed", "code": "7", "settlement_name": "Sample City" },
+    { "number": "59000000000001", "parcel_number": "59000000000001", "date": "2026-01-03T10:00:00.000000Z", "event": "ReceivedWarehouse", "event_name": "Received at branch 2", "event_status": "now", "code": "9", "settlement_name": "Sample City" },
+    { "number": "59000000000001", "parcel_number": "59000000000001", "date": "2026-01-05T10:00:00.000000Z", "event": "ReceivedDoorsFuture", "event_name": "Future delivery milestone", "event_status": "future", "code": "9" }
+  ]
+}

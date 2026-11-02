@@ -1,0 +1,61 @@
+{
+  "EstadoActual": {
+    "EstadoActualCodigo": 3,
+    "EstadoActualNombre": "En destino",
+    "RazonActualCodigo": 0,
+    "RazonActualNombre": "",
+    "DescripcionEstadoActual": "Tu paquete llegó a la sucursal de destino.",
+    "FechaUltimoEvento": "2026-06-03T09:02:10.113",
+    "UbicacionUltimoEvento": "CIUDAD PRUEBA"
+  },
+  "Mapped": {
+    "step": 3,
+    "label": "En Destino"
+  },
+  "DatosEnvio": {
+    "Serie": 1234,
+    "Tipo": "B",
+    "Numero": 2,
+    "Remitente": "Sample Shop S.",
+    "Destinatario": "Persona d. P.",
+    "Origen": "PUEBLO MUESTRA",
+    "Destino": "CIUDAD PRUEBA",
+    "TipoPago": 1,
+    "TipoEntrega": 1,
+    "DireccionEntrega": "calle de muestra, 456, Y",
+    "AgenciaDestino": {
+      "Nombre": "CIUDAD PRUEBA",
+      "Direccion": "Calle Ejemplo 200",
+      "TelefonoAtencionAlPublico": "000-0000000",
+      "Latitud": -31.1111111,
+      "Longitud": -61.2222222
+    },
+    "DetalleBultos": {
+      "CantidadBultos": 1,
+      "PesoTotalKg": 0,
+      "Bultos": [
+        {
+          "Identificador": "1234-B-00000002-1",
+          "Talle": "Chico",
+          "PesoKg": 0,
+          "AltoCm": 0,
+          "AnchoCm": 0,
+          "LargoCm": 0,
+          "UbicacionActual": "En CIUDAD PRUEBA"
+        }
+      ]
+    }
+  },
+  "VentaEventos": [
+    {
+      "FechaYHora": "2026-06-01T10:15:00",
+      "LocalidadNombre": "PUEBLO MUESTRA",
+      "NombreEvento": "Creada"
+    },
+    {
+      "FechaYHora": "2026-06-03T09:02:10.113",
+      "LocalidadNombre": "CIUDAD PRUEBA",
+      "NombreEvento": "En destino"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "carrier": "gofo-it",
+  "entries": [
+    {
+      "code": "205",
+      "wording": "Consegnato",
+      "language": "it",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "208",
+      "wording": "Il corriere è fuori per la consegna",
+      "language": "it",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "203",
+      "wording": "Preparazione alla consegna",
+      "language": "it",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "201",
+      "wording": "Arrivato alla struttura di destinazione regionale GOFO",
+      "language": "it",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "206",
+      "wording": "Consegna fallita, tipo:Destinatario assente",
+      "language": "it",
+      "stage": "failed_attempt",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "200",
+      "wording": "Il pacco ha lasciato il centro di smistamento",
+      "language": "it",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "204",
+      "wording": "Il pacco è stato restituito al centro di smistamento",
+      "language": "it",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "note": "Returned to the sorting centre after an unsuccessful delivery, not returned to the sender."
+    },
+    {
+      "code": "206",
+      "wording": "Consegna fallita, tipo:L'indirizzo è errato",
+      "language": "it",
+      "stage": "failed_attempt",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "202",
+      "wording": "Registrato presso il centro di trasferimento",
+      "language": "it",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "100",
+      "wording": "Il pacco è in fase di preparazione da parte del mittente e ci sarà presto consegnato",
+      "language": "it",
+      "stage": "registered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "257",
+      "wording": "Restituito",
+      "language": "it",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "264",
+      "wording": "Restituito",
+      "language": "it",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "300",
+      "wording": "Avviso",
+      "language": "it",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "301",
+      "wording": "Avviso",
+      "language": "it",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "206",
+      "wording": "Avviso",
+      "language": "it",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The generic alert category does not establish a failed delivery attempt; explicit failed-delivery wordings refine it."
+    }
+  ]
+}

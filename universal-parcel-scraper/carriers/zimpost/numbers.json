@@ -1,0 +1,65 @@
+{
+  "carrier": "zimpost",
+  "records": [
+    {
+      "number": "CY584755815DE",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.zimpost.co.zw/",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "One of the examples Zimpost's tracker offers to try: a German postal parcel to Zimbabwe, which the tracker finds with its scans."
+    },
+    {
+      "number": "ZPPTDZ4Y",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.zimpost.co.zw/",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "The other example Zimpost's tracker offers to try; the tracker does not find it."
+    },
+    {
+      "number": "ZP123456789ZW",
+      "role": "negative",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.zimpost.co.zw/",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The placeholder in Zimpost's tracking box. Its S10 check digit does not validate, so it is not an item number."
+    }
+  ]
+}

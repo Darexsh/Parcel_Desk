@@ -1,0 +1,138 @@
+{
+  "carrier": "gofo-nl",
+  "entries": [
+    {
+      "code": "205",
+      "wording": "Bezorgd op het bezorgadres",
+      "language": "nl",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "205",
+      "wording": "Bezorgd in de brievenbus",
+      "language": "nl",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "208",
+      "wording": "Bezorger is onderweg",
+      "language": "nl",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "203",
+      "wording": "In voorbereiding voor bezorging",
+      "language": "nl",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "201",
+      "wording": "Aangekomen in uw regio",
+      "language": "nl",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "200",
+      "wording": "Vertrokken uit de regionale hub",
+      "language": "nl",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "202",
+      "wording": "Aangekomen in de regionale hub",
+      "language": "nl",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "200",
+      "wording": "Vertrokken uit het sorteercentrum",
+      "language": "nl",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "202",
+      "wording": "Aangekomen in het sorteercentrum",
+      "language": "nl",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "200",
+      "wording": "Vertrokken uit het lokale depot",
+      "language": "nl",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "202",
+      "wording": "Aangekomen in het lokale depot",
+      "language": "nl",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "100",
+      "wording": "Zending nog niet ontvangen of verwerkt",
+      "language": "nl",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "Announced by the sender; GOFO has not received the parcel yet."
+    },
+    {
+      "code": "204",
+      "wording": "Waarschuwing",
+      "language": "nl",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "206",
+      "wording": "Waarschuwing",
+      "language": "nl",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The generic alert category does not establish a failed delivery attempt."
+    },
+    {
+      "code": "257",
+      "wording": "Teruggebracht",
+      "language": "nl",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "264",
+      "wording": "Teruggebracht",
+      "language": "nl",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "300",
+      "wording": "Waarschuwing",
+      "language": "nl",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "301",
+      "wording": "Waarschuwing",
+      "language": "nl",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    }
+  ]
+}

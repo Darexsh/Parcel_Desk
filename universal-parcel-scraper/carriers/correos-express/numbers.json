@@ -1,0 +1,742 @@
+{
+  "carrier": "correos-express",
+  "records": [
+    {
+      "number": "3230002125829719",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/pedido-falsamente-entregado/09810690efcb4f7fde",
+        "date": "2025-08-14"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to Correos Express, which stays one candidate among several."
+    },
+    {
+      "number": "3230003401602989",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/error-al-visualizar-pin-probl/e22821af1ce1efd269",
+        "date": "2026-09-24"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Publicly reported shipment number. Correos Express' own tracker returns its history."
+    },
+    {
+      "number": "7983000739053141",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/incidencia-env-C3-ADo-imposible-h/0052eb4a8375da7128",
+        "date": "2025-09-30"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to Correos Express, which stays one candidate among several."
+    },
+    {
+      "number": "32300000000000001000007",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "observed_request",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "correos-express"
+        ]
+      },
+      "note": "Synthetic parcel label: a shipment number less its check digit, parcel 01, the placeholder postcode 00000 and a GS1 check digit."
+    },
+    {
+      "number": "149189307",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/falta-de-entrega-y-servicio-de/7730e96beb7f7d4bce",
+        "date": "2025-09-11",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "auxiliary",
+        "service": "merchant return",
+        "reportedRole": "pickup_request"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Explicitly labelled pickup request number, not tracking number. The related return shipment is linked separately.",
+      "relationships": [
+        {
+          "kind": "pickup_for",
+          "number": "9083000764296837",
+          "source": {
+            "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/falta-de-entrega-y-servicio-de/7730e96beb7f7d4bce",
+            "date": "2025-09-11",
+            "dateKind": "publication",
+            "access": "indexed_excerpt"
+          }
+        }
+      ]
+    },
+    {
+      "number": "3230008310788908",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/aparece-paquete-entregado-pero/3a79cacdef3b10ca8d",
+        "date": "2025-02-11",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Customer explicitly names carrier and tracking number."
+    },
+    {
+      "number": "3230008343464527",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-no-recibido/5f70e8477cb2b77868",
+        "date": "2025-03-18",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Customer explicitly labels tracking reference."
+    },
+    {
+      "number": "3300000059821555",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/incidencia-env-C3-ADo-imposible-h/0052eb4a8375da7128",
+        "date": "2025-09-15",
+        "dateKind": "carrier reply publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "return to sender",
+        "reportedRole": "return_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Carrier response explicitly identifies this return number and pairs it with the linked outward shipment. Carrier later names the outward service Islas Maritimo.",
+      "relationships": [
+        {
+          "kind": "return_of",
+          "number": "7983000739053141",
+          "source": {
+            "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/incidencia-env-C3-ADo-imposible-h/0052eb4a8375da7128",
+            "date": "2025-09-15",
+            "dateKind": "carrier reply publication",
+            "access": "full_page"
+          }
+        }
+      ]
+    },
+    {
+      "number": "7983000718799589",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/problema-con-correos-express/bdaff1ba4d29e5c629",
+        "date": "2025-02-26",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "island customs",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Customer explicitly identifies shipment; mainland Spain to Canary Islands with documentation issue."
+    },
+    {
+      "number": "9083000764296837",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/falta-de-entrega-y-servicio-de/7730e96beb7f7d4bce",
+        "date": "2025-09-11",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "merchant return",
+        "reportedRole": "return_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Explicit tracking number for an Amazon return. The linked pickup booking has a separate identifier role."
+    },
+    {
+      "number": "9983000762577663",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/p-C3-A9rdida-de-2-400-E2-82-AC-en-env-C3-ADo-998/76592280fed714a3f7",
+        "date": "2025-09-01",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "multi piece bulky",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Customer reports one shipment consisting of two large heavy boxes. No invoice numbers are included."
+    },
+    {
+      "number": "3230003327839933",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260831053914/https://s.correosexpress.com/c?n=3230003327839933",
+        "access": "full_page",
+        "date": "2026-08-31",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Archived lookup on the carrier's tracking page; the official tracker returned its pickup-point delivery history."
+    },
+    {
+      "number": "3230003167940356",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260709101606/https://s.correosexpress.com/c?n=3230003167940356",
+        "access": "full_page",
+        "date": "2026-07-09",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Archived lookup on the carrier's tracking page; the official tracker returned its history."
+    },
+    {
+      "number": "9930003374760001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260914181158/https://s.correosexpress.com/c?n=9930003374760001",
+        "access": "full_page",
+        "date": "2026-09-14",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Shipment of the 9930 family looked up on the carrier's tracking page; the official tracker returned its history."
+    },
+    {
+      "number": "9317861135924926",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260622145433/https://s.correosexpress.com/c?n=9317861135924926",
+        "access": "full_page",
+        "date": "2026-06-22",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Shipment of the 93 sender family looked up on the carrier's tracking page; the official tracker returned its history."
+    },
+    {
+      "number": "3230003176659690",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/incumplimiento-en-la-entrega-d/854bb50219fd1e176b",
+        "access": "full_page",
+        "date": "2026-07-15",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Correos Express",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "One of two shipments a complaint names; the official tracker returned its history."
+    },
+    {
+      "number": "3230003177377739",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/incumplimiento-en-la-entrega-d/854bb50219fd1e176b",
+        "access": "full_page",
+        "date": "2026-07-15",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Correos Express",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "One of two shipments a complaint names; the official tracker returned its history."
+    },
+    {
+      "number": "6383000847283514",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/recogida-de-paquetes-no-hecho-/d2121c962044d279fd",
+        "access": "full_page",
+        "date": "2026-07-21",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Correos Express",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Shipment of the 6383 family whose latest scan is an incident handled by customer service; the official tracker returned its history."
+    },
+    {
+      "number": "7720000083375985",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/fallo-en-la-entrega/180e6c38a0d93e8eda",
+        "access": "full_page",
+        "date": "2026-07-17",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Correos Express",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Shipment of the 7720 family with repeated failed rounds before delivery; the official tracker returned its history."
+    },
+    {
+      "number": "9387101053748761",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reclamaci-C3-B3n-por-incidencia-gra/71eabeeba81e54b35f",
+        "access": "full_page",
+        "date": "2026-06-22",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Correos Express",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "One of two shipments a complaint names; the official tracker returned its history."
+    },
+    {
+      "number": "9399571035900541",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reclamaci-C3-B3n-por-incidencia-gra/71eabeeba81e54b35f",
+        "access": "full_page",
+        "date": "2026-06-22",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Correos Express",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "One of two shipments a complaint names; the official tracker returned its history."
+    },
+    {
+      "number": "9930003193286515",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/pedido-no-llega/b55f708d7c8e9e4277",
+        "access": "full_page",
+        "date": "2026-07-18",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Correos Express",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Parcel left uncollected at a pickup point and returned to the sender; the official tracker returned its history."
+    },
+    {
+      "number": "9306081061747749",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250829082620/https://s.correosexpress.com/c?n=9306081061747749",
+        "access": "full_page",
+        "date": "2025-08-29",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Shipment of the 9306 sender family looked up on the carrier's tracking page; the record has since expired from the tracker."
+    },
+    {
+      "number": "3283000810648760",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260216084344/https://s.correosexpress.com/c?n=3283000810648760",
+        "access": "full_page",
+        "date": "2026-02-16",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Shipment of the 3283 family looked up on the carrier's tracking page; the record has since expired from the tracker."
+    },
+    {
+      "number": "9380668009503067",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260525052908/https://s.correosexpress.com/c?n=9380668009503067",
+        "access": "full_page",
+        "date": "2026-05-25",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Shipment of the 9380 sender family looked up on the carrier's tracking page; the record has since expired from the tracker."
+    },
+    {
+      "number": "93005001081690801339400",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/problema-con-el-repartidor/e30b27faaae7c53755",
+        "date": "2025-02-25",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "correos-express"
+        ]
+      },
+      "note": "Customer sends this as the tracking number in a complaint to Correos Express, whose tracker takes 23-digit references whole."
+    },
+    {
+      "number": "63300084071073601363706",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/entrega-no-reliazada/8542f7d6b4f5c324da",
+        "date": "2025-03-31",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "correos-express"
+        ]
+      },
+      "note": "Customer gives this as the tracking number of an AliExpress order in a Correos Express complaint."
+    },
+    {
+      "number": "93333300545224001280445",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/pedido-direccion-incorrecta/8a6913b3112984d2b1",
+        "date": "2024-08-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "correos-express"
+        ]
+      },
+      "note": "Customer calls this the Correos Express tracking ID. The carrier's agent asked for the tracking number again, though its tracker takes 23-digit references."
+    }
+  ]
+}

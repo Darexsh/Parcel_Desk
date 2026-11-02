@@ -1,0 +1,49 @@
+{
+  "carrier": "spx-tw",
+  "records": [
+    {
+      "number": "TW251369983692W",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250108080614/https://spx.tw/detail/TW251369983692W",
+        "date": "2025-01-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "spx-tw"
+        ]
+      },
+      "note": "An archived lookup on SPX Express Taiwan's own tracker; the tracker's legacy reply, archived nine seconds later, shows the history up to the pickup store."
+    },
+    {
+      "number": "TW240743518370H",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241229131107/https://spx.tw/detail/TW240743518370H",
+        "date": "2024-12-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "spx-tw"
+        ]
+      },
+      "note": "An archived lookup on SPX Express Taiwan's own tracker; the tracker's legacy reply, archived ten seconds later, shows the history up to the pickup store."
+    }
+  ]
+}

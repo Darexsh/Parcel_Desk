@@ -1,0 +1,129 @@
+{
+  "shipment": {
+    "shipment_id": "Z9X8W7V6U5",
+    "to_city": "SPRINGVALE",
+    "to_province_code": "NM",
+    "to_postal_code": "86420-1357",
+    "to_country_code": "US",
+    "from_city": "NORTHPORT",
+    "from_province_code": "BC",
+    "from_postal_code": "V0X 9X9",
+    "from_country_code": "CA",
+    "package_description": "Parcel",
+    "size_description": "8 × 6 × 2 in",
+    "weight_description": "250 g",
+    "resolution": "delivery_confirmed",
+    "postage_description": "Chit Chats U.S. Edge",
+    "estimated_delivery_at": "2026-03-13T17:00:00.000-07:00",
+    "carrier": "usps",
+    "carrier_description": "usps",
+    "carrier_tracking_code": "4208642013579400111000001234567804",
+    "tracking_url": "https://chitchats.com/tracking/z9x8w7v6u5",
+    "ship_date": "2026-03-09",
+    "resolution_description": "Delivered",
+    "resolved_at": "2026-03-12T14:21:00.000-07:00",
+    "_deprecated_fields": {
+      "to_name": "SYNTHETIC RECIPIENT"
+    },
+    "token": "synthetictokenneverread",
+    "resolution_type": "delivered",
+    "carrier_type": "usps",
+    "recipient_city": "SPRINGVALE",
+    "recipient_province_code": "NM",
+    "recipient_postal_code": "86420-1357",
+    "recipient_country_code": "US",
+    "tracking_events": [
+      {
+        "title": "Delivered, Front Door/Porch",
+        "subtitle": null,
+        "location_description": "SPRINGVALE, NM 86420",
+        "created_at": "2026-03-12T14:21:00.000-07:00",
+        "status": "delivered"
+      },
+      {
+        "title": "Out for Delivery, Expected Delivery by 9:00pm",
+        "subtitle": null,
+        "location_description": "SPRINGVALE, NM",
+        "created_at": "2026-03-12T06:05:00.000-07:00",
+        "status": "out_for_delivery"
+      },
+      {
+        "title": "Departed USPS Facility",
+        "subtitle": null,
+        "location_description": "MIDTOWN NM DISTRIBUTION CENTER",
+        "created_at": "2026-03-11T22:40:00.000-07:00",
+        "status": "in_transit"
+      },
+      {
+        "title": "Arrived at USPS Facility",
+        "subtitle": null,
+        "location_description": "MIDTOWN NM DISTRIBUTION CENTER",
+        "created_at": "2026-03-11T19:02:00.000-07:00",
+        "status": "in_transit"
+      },
+      {
+        "title": "Arrived at USPS Facility",
+        "subtitle": null,
+        "location_description": "MIDTOWN NM DISTRIBUTION CENTER",
+        "created_at": "2026-03-11T19:02:00.000-07:00",
+        "status": "in_transit"
+      },
+      {
+        "title": "In Transit to Next Facility",
+        "subtitle": null,
+        "location_description": null,
+        "created_at": "2026-03-10T18:30:00.000-07:00",
+        "status": "in_transit"
+      },
+      {
+        "title": "Accepted at USPS Facility",
+        "subtitle": null,
+        "location_description": "LAKESIDE, WA",
+        "created_at": "2026-03-10T09:12:00.000-07:00",
+        "status": "in_transit"
+      },
+      {
+        "title": "Shipping Label Created",
+        "subtitle": null,
+        "location_description": "LAKESIDE, WA 98765",
+        "created_at": "2026-03-09T17:45:00.000-07:00",
+        "status": "pre_transit"
+      },
+      {
+        "title": "In transit",
+        "subtitle": "USPS 4208642013579400111000001234567804",
+        "location_description": null,
+        "created_at": "2026-03-09T16:29:51.551-07:00",
+        "status": "in_transit"
+      },
+      {
+        "title": "Departed from Chit Chats facility",
+        "subtitle": null,
+        "location_description": null,
+        "created_at": "2026-03-09T08:51:58.990-07:00",
+        "status": "in_transit"
+      },
+      {
+        "title": "Arrived at Chit Chats facility",
+        "subtitle": null,
+        "location_description": null,
+        "created_at": "2026-03-08T16:39:38.732-07:00",
+        "status": "in_transit"
+      },
+      {
+        "title": "Received by Chit Chats",
+        "subtitle": null,
+        "location_description": null,
+        "created_at": "2026-03-08T16:39:38.723-07:00",
+        "status": "in_transit"
+      },
+      {
+        "title": "Shipment created, Chit Chats awaiting item",
+        "subtitle": "Postage purchased",
+        "location_description": null,
+        "created_at": "2026-03-08T15:35:45.665-07:00",
+        "status": "pre_transit"
+      }
+    ]
+  }
+}

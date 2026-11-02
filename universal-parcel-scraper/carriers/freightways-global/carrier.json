@@ -1,0 +1,55 @@
+{
+  "id": "freightways-global",
+  "displayName": "Freightways Global",
+  "aliases": [
+    "First Global",
+    "First Global Logistics",
+    "First Global Mail",
+    "FG Mail Connect",
+    "fgmailconnect",
+    "FG International"
+  ],
+  "region": {
+    "countries": [
+      "NZ"
+    ]
+  },
+  "brand": {
+    "color": "#20a9e1"
+  },
+  "selectable": true,
+  "timezone": "Pacific/Auckland",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.fgmailconnect.co.nz/?id={trackingNumber}",
+    "searchUrl": "https://track.fgmailconnect.co.nz/",
+    "canaryUrl": "https://freightwaysglobal.co.nz/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.fgmailconnect.co.nz"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "domains": [
+        "track.fgmailconnect.co.nz"
+      ],
+      "path": "^/(?:\\d{6,7}-)?((?=[A-Z]*\\d)[A-Z0-9]{8,30})/?$"
+    }
+  ],
+  "detection": []
+}

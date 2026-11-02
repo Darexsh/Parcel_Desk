@@ -1,0 +1,170 @@
+{
+  "id": "dhl",
+  "displayName": "DHL",
+  "aliases": [
+    "DHL Paket",
+    "Deutsche Post DHL"
+  ],
+  "region": {
+    "countries": [
+      "DE"
+    ]
+  },
+  "brand": {
+    "color": "#ffcc00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dhl",
+    "requirements": [
+      {
+        "field": "postcode",
+        "whenTrackingNumber": "^[0-9]{12}$",
+        "validator": "internationalPostcode",
+        "optional": true,
+        "label": "Delivery postcode",
+        "type": "text",
+        "help": "Optional. DHL asks for it when several shipments share the number.",
+        "pattern": "^(?=.{3,12}$)(?=.*[0-9])[A-Za-z0-9]+(?:[ \\-][A-Za-z0-9]+)*$",
+        "maxLength": 12,
+        "inputMode": "text",
+        "autoComplete": "postal-code"
+      }
+    ],
+    "steps": [
+      "direct",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 999,
+      "pattern": "^\\d{12}$"
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://www.dhl.de/en/privatkunden/dhl-sendungsverfolgung.html?piececode={trackingNumber}",
+    "searchUrl": "https://www.dhl.de/en/privatkunden/dhl-sendungsverfolgung.html",
+    "helpUrl": "https://www.dhl.de/de/privatkunden/hilfe-kundenservice/sendungsverfolgung/probleme-loesungen.html",
+    "canaryUrl": "https://www.dhl.de/en/privatkunden/dhl-sendungsverfolgung.html",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "destination_country",
+      "recipient_name",
+      "recipient_address",
+      "signature"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "destination_country"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address",
+      "signature"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "dhl.com"
+      ],
+      "pathPattern": "^/(?![a-z]+-[a-z]+/(?:home/our-divisions|ecommerce)(?:[/.]|$))",
+      "params": [
+        "tracking-id",
+        "trackingId",
+        "piececode"
+      ],
+      "detectFromNumber": true
+    },
+    {
+      "domains": [
+        "dhl.de",
+        "deutschepost.de"
+      ],
+      "params": [
+        "tracking-id",
+        "trackingId",
+        "piececode"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "dhl-1",
+      "pattern": "^[CL][A-Z]\\d{9}DE$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "dhl-14",
+      "pattern": "^R[A-Z]\\d{9}DE$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "dhl-16",
+      "pattern": "^U[A-TV-Z]\\d{9}DE$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "dhl-15",
+      "pattern": "^A0[0-9A-F]{18}$",
+      "confidence": "high",
+      "checksum": "frankier-id"
+    },
+    {
+      "id": "dhl-9",
+      "pattern": "^JJD(?!\\d{16}$)(?!0146\\d{14}$)[A-Z0-9]{8,}$",
+      "confidence": "high"
+    },
+    {
+      "id": "dhl-8",
+      "pattern": "^JJD\\d{16}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhl-10",
+      "pattern": "^JD(?!01)\\d{18}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhl-3",
+      "pattern": "^\\d{10}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhl-13",
+      "pattern": "^0034043(?!400|447|464|489|525|533|537|542|571|579|580)(?:38[3-9]|39\\d|[45]\\d{2})\\d{10}$",
+      "confidence": "high",
+      "checksum": "sscc"
+    },
+    {
+      "id": "dhl-12",
+      "pattern": "^0034043(?!366)[345]\\d{12}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dhl-7",
+      "pattern": "^\\d{12}$",
+      "confidence": "low",
+      "checksum": "identcode"
+    }
+  ]
+}

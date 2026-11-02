@@ -1,0 +1,336 @@
+{
+  "carrier": "yunexpress",
+  "records": [
+    {
+      "number": "YT2621200705470145",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.reddit.com/r/AirReps/comments/1vfhh53/please_help_yunexpress_alibaba_tracking_stuck_on/"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress number posted on Reddit. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2623100700785323",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a9c1d3f497adcfb20e6f16e",
+        "date": "2026-09-05"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress number posted in a Trustpilot review. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2533100705018315",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/its-th%C3%A9-missing-invoice-156164/",
+        "date": "2026-01-09",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "cross border handoff",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "Customer-pasted shipment reference and reply naming YunExpress. Last mile GOFO France is reported; no GOFO identifier is supplied. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "3286039719",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://au.trustpilot.com/review/www.yunexpress.com",
+        "access": "indexed_excerpt",
+        "date": "2026-09-21",
+        "dateKind": "review update"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "unresolved_reference"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Customer attributes this numeric tracking reference to YunExpress. The dedicated adapter accepts YT references; no rule establishes this numeric family."
+    },
+    {
+      "number": "YT2625900708886066",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260930131534/https://www.yuntrack.com/parcelTracking?id=YT2625900708886066",
+        "date": "2026-09-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2641021461137928",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260925002531/https://www.yuntrack.com/parcelTracking?id=YT2641021461137928",
+        "date": "2026-09-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2626901000761105",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260928144347/https://www.yuntrack.com/parcelTracking?id=YT2626901000761105",
+        "date": "2026-09-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2615672366006032",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260619041548/https://www.yuntrack.com/parcelTracking?id=YT2615672366006032",
+        "date": "2026-06-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2611821605000240",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260430212211/https://www.yuntrack.com/parcelTracking?id=YT2611821605000240",
+        "date": "2026-04-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2625700706267305",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260930131023/https://www.yuntrack.com/parcelTracking?id=YT2625700706267305",
+        "date": "2026-09-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2626300703508261",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260928123815/https://www.yuntrack.com/parcelTracking?id=YT2626300703508261",
+        "date": "2026-09-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2627000702170639",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260927044453/https://www.yuntrack.com/parcelTracking?id=YT2627000702170639",
+        "date": "2026-09-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2610584462000287",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260421151343/https://www.yuntrack.com/parcelTracking?id=YT2610584462000287",
+        "date": "2026-04-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2609701400188748",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260407121932/https://www.yuntrack.com/parcelTracking?id=YT2609701400188748",
+        "date": "2026-04-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2512921906000504",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250612232937/https://www.yuntrack.com/parcelTracking?id=YT2512921906000504",
+        "date": "2025-06-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2528970359000821",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251023041344/https://www.yuntrack.com/parcelTracking?id=YT2528970359000821",
+        "date": "2025-10-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    },
+    {
+      "number": "YT2508501277000294",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250411172229/https://www.yuntrack.com/parcelTracking?id=YT2508501277000294",
+        "date": "2025-04-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress tracking link archived by the Wayback Machine. YunExpress's tracker returns its history."
+    }
+  ]
+}

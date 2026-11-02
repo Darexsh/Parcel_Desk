@@ -1,0 +1,49 @@
+{
+  "tuNo": "10000000004",
+  "postalCode": "9999",
+  "emailNotificationCard": false,
+  "changeDeliveryPossible": true,
+  "deliveryOwnerCode": "ATNU",
+  "owners": [
+    { "code": "ATNU", "type": "REQUEST" },
+    { "code": "ATNU", "type": "DELIVERY" }
+  ],
+  "arrivalTime": { "name": "", "value": "" },
+  "progressBar": {
+    "level": 40,
+    "retourFlag": false,
+    "evtNos": ["2.0", "0.0", "0.100"],
+    "colourIndex": 2,
+    "statusInfo": "INTRANSIT",
+    "statusText": "In transit",
+    "statusBar": [
+      { "status": "PREADVICE", "imageStatus": "COMPLETE", "imageText": "Preadvice", "statusText": "" },
+      { "status": "INTRANSIT", "imageStatus": "CURRENT", "imageText": "In transit", "statusText": "The parcel is in transit." }
+    ]
+  },
+  "references": [
+    { "type": "UNITNO", "name": "Parcel number:", "value": "10000000004" },
+    { "type": "UNIQUENO", "name": "Track ID", "value": "Z0SYNTH1" }
+  ],
+  "infos": [{ "type": "WEIGHT", "name": "Weight:", "value": "0.8 kg" }],
+  "history": [
+    {
+      "date": "2026-11-03",
+      "time": "21:14:38",
+      "evtDscr": "The parcel has left the parcel center.",
+      "address": { "countryCode": "AT", "countryName": "Austria", "city": "Hagenbrunn" }
+    },
+    {
+      "date": "2026-11-03",
+      "time": "16:02:11",
+      "evtDscr": "The parcel was handed over to GLS.",
+      "address": { "countryCode": "AT", "countryName": "Austria", "city": "Hagenbrunn" }
+    },
+    {
+      "date": "2026-11-02",
+      "time": "20:30:00",
+      "evtDscr": "The parcel data was entered into the GLS IT system; the parcel was not yet handed over to GLS.",
+      "address": { "countryCode": "AT", "countryName": "Austria", "city": "Wien" }
+    }
+  ]
+}

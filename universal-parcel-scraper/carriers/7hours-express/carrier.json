@@ -1,0 +1,44 @@
+{
+  "id": "7hours-express",
+  "displayName": "7 Hours Express",
+  "aliases": [
+    "7Hours Express"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#0950fa"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://api.7hoursexpress.com/tracking/?objectId={trackingNumber}&language=en",
+    "searchUrl": "https://api.7hoursexpress.com/tracking/",
+    "canaryUrl": "https://api.7hoursexpress.com/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "api.7hoursexpress.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "objectId"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,35 @@
+{
+  "requestId": "0000000000000102",
+  "status": "SUCCESS",
+  "payload": {
+    "cnote": "3000000102",
+    "consignmentDto": {
+      "id": 102,
+      "cnote": "3000000102",
+      "status": "LOADED",
+      "clientCode": "SYNTH02",
+      "clientName": "Example Supplies",
+      "totalBoxes": 12,
+      "bookingDateTime": 1793593200000
+    },
+    "status": "LOADED",
+    "delivered": false,
+    "displayStatusDto": { "primaryText": "IN TRANSIT", "subText": null },
+    "trackingStatus": "ON_TIME",
+    "fromCityName": "Exampur",
+    "toCityName": "Testnagar",
+    "edd": 1793817000000,
+    "cpd": 1793817000000,
+    "tat": 3,
+    "additionalTat": 0,
+    "consignorDto": { "name": "Example Supplies", "address": "3 Example Road, Exampur", "phone": "0000000000" },
+    "consigneeDto": { "name": "Test Mart", "address": "4 Test Street, Testnagar", "phone": "0000000000" },
+    "transitHistory": [
+      { "activity": "Booked", "status": "CREATED", "activityType": null, "city": "Exampur", "location": "Exampur Branch", "dateAndTime": 1793593200000 },
+      { "activity": "Pickup", "status": "INTRANSIT_TO_OU", "activityType": null, "city": "Exampur", "location": "Exampur Branch", "dateAndTime": 1793597700000, "userName": "Synthetic Picker", "userPhone": "0000000000" },
+      { "activity": "Origin PC - IN", "status": "RECEIVED_AT_OU", "activityType": "IN", "city": "Exampur", "location": "Exampur Processing Centre", "dateAndTime": 1793602800000 },
+      { "activity": "Origin PC - OUT", "status": "LOADED", "activityType": "OUT", "city": "Exampur", "location": "Exampur Processing Centre", "vehicleNumber": "XX00XX0000", "dateAndTime": 1793634000000 },
+      { "activity": "Intransit To:", "status": "INTRANSIT_TO_OU", "activityType": "INTRANSIT", "city": "Testnagar", "location": "Testnagar Processing Centre", "dateAndTime": 1793759400000, "pilotName": "Synthetic Pilot", "pilotContactNumber": "0000000000" }
+    ]
+  }
+}

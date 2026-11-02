@@ -1,0 +1,26 @@
+{
+  "carrier": "taxydema",
+  "entries": [
+    {"wording": "Παραλαβή όλων των τεμαχίων της αποστολής στο κατάστημα παραλαβής: …", "stage": "accepted", "language": "el", "confirmedBy": "live", "note": "All pieces received at the branch or hub named after the colon. A second hub can repeat it on the way."},
+    {"wording": "Αναχώρηση από κατάστημα", "stage": "in_transit", "language": "el", "confirmedBy": "live", "note": "Left the branch or hub the row names."},
+    {"wording": "Άφιξη τεμαχίου Νο: … στο κατάστημα", "stage": "in_transit", "language": "el", "confirmedBy": "live", "note": "A piece, named by its number, arrived at a branch or hub. At a hub it is followed by \" παραλαβής: \" and the hub's name."},
+    {"wording": "Άφιξη τεμαχίου στο Σταθμό Παράδοσης …", "stage": "in_transit", "language": "el", "confirmedBy": "live", "note": "A piece arrived at the delivery station named after it."},
+    {"wording": "Ανάθεση αποστολής για παράδοση σε διανομέα", "stage": "out_for_delivery", "language": "el", "confirmedBy": "live", "note": "Given to a courier for delivery."},
+    {"wording": "Η αποστολή παραδόθηκε στον παραλήπτη", "stage": "delivered", "language": "el", "confirmedBy": "live", "note": "Followed by who took the parcel and the delivery's date and time, which the adapter drops."},
+    {"wording": "ΑΠΟΣΤΟΛΗ ΕΝΗΜΕΡΩΣΗΣ ΠΑΡΑΛΗΠΤΗ ΣΤΟ ΤΗΛΕΦΩΝΟ: […] ΜΕ ΘΕΜΑ: […]", "language": "el", "confirmedBy": "live", "unmapped": true, "note": "A message to the recipient from the head office: the masked phone, then its subject, which can carry links to the parcel's delivery options or a survey. The adapter keeps only \"ΑΠΟΣΤΟΛΗ ΕΝΗΜΕΡΩΣΗΣ ΠΑΡΑΛΗΠΤΗ\"."},
+    {"wording": "Δημιουργία Αποστολής από Πελάτη (Service)", "stage": "registered", "language": "el", "confirmedBy": "portal", "note": "The customer created the shipment; the reply appends the date and time. Seen in an archived reply of the tracker's earlier format."},
+    {"wording": "Κλείσιμο Σε Συσκευασία", "stage": "accepted", "language": "el", "confirmedBy": "portal", "note": "Closed into a packing unit; the tracker of the time dated its first progress step with this event. Seen in an archived reply of the tracker's earlier format, which appends the date and time."},
+    {"wording": "Αφιξη σε Κ/Δ ΑΘΗΝΑ (ΑΧΑΡΝΑΙ)", "stage": "in_transit", "language": "el", "confirmedBy": "portal", "note": "Arrived at the Athens (Acharnes) distribution centre, which the wording names. Seen in an archived reply of the tracker's earlier format, which appends the date and time."},
+    {"wording": "Παραλαβή από σταθμό εξαγωγής.Κτχ Πάγκου-Διαδικασία χρέωσης", "stage": "in_transit", "language": "el", "confirmedBy": "portal", "note": "Received from the outbound station and checked in at the counter for charging. Seen in an archived reply of the tracker's earlier format, which appends the date and time."},
+    {"wording": "Προώθηση μέσω δικτύου εξωτερικού συνεργάτη", "stage": "in_transit", "language": "el", "confirmedBy": "portal", "note": "Forwarded through an outside partner's network for the last leg. Seen in an archived reply of the tracker's earlier format, which appends the date and time."},
+    {"wording": "Παραδόθηκε Με Στοιχεία Παράδοσης", "stage": "delivered", "language": "el", "confirmedBy": "portal", "note": "Delivered, with the delivery details recorded. Seen in an archived reply of the tracker's earlier format, which appends the date and time."},
+    {"wording": "ΠΑΡΑΔΟΘΗΚΕ", "stage": "delivered", "language": "el", "confirmedBy": "portal", "note": "Title the tracker of the time gave its last progress step once the parcel was delivered. Seen in an archived reply of the tracker's earlier format."},
+    {"wording": "ΔΗΜΙΟΥΡΓΙΑ ΑΠΟΣΤΟΛΗΣ", "stage": "registered", "language": "el", "confirmedBy": "official-doc", "note": "Progress step label on the tracker page: shipment created."},
+    {"wording": "ΠΑΡΑΛΑΒΗ", "stage": "accepted", "language": "el", "confirmedBy": "official-doc", "note": "Progress step label on the tracker page: received from the sender."},
+    {"wording": "ΣΕ ΔΙΑΚΙΝΗΣΗ", "stage": "in_transit", "language": "el", "confirmedBy": "official-doc", "note": "Progress step label on the tracker page: in transit."},
+    {"wording": "ΑΦΙΞΗ ΣΤΟ ΣΤΑΘΜΟ ΠΑΡΑΔΟΣΗΣ", "stage": "in_transit", "language": "el", "confirmedBy": "official-doc", "note": "Progress step label on the tracker page: arrived at the delivery station."},
+    {"wording": "ΠΡΟΣ ΠΑΡΑΔΟΣΗ", "stage": "out_for_delivery", "language": "el", "confirmedBy": "official-doc", "note": "Progress step label on the tracker page: out for delivery."},
+    {"wording": "ΠΑΡΑΔΟΣΗ", "stage": "delivered", "language": "el", "confirmedBy": "official-doc", "note": "Progress step label on the tracker page: delivered."},
+    {"wording": "ΕΠΙΣΤΡΟΦΗ ΣΤΟΝ ΑΠΟΣΤΟΛΕΑ", "stage": "returned", "language": "el", "confirmedBy": "official-doc", "note": "Progress step label on the tracker page, shown in place of the delivery step when the reply marks the parcel as going back to its sender: returned to the sender."}
+  ]
+}

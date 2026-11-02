@@ -1,0 +1,59 @@
+{
+  "id": "ameriship",
+  "displayName": "AmeriShip",
+  "aliases": [
+    "Stat Overnight",
+    "STAT Overnight Delivery",
+    "AmeriShip LLC"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#c62029"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://ameriship.com/track/?n={trackingNumber}",
+    "searchUrl": "https://ameriship.com/track/",
+    "canaryUrl": "https://ameriship.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "ameriship.com",
+        "www.ameriship.com"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "n"
+      ]
+    },
+    {
+      "domains": [
+        "ameriship.com",
+        "www.ameriship.com",
+        "statovernight.com",
+        "www.statovernight.com"
+      ],
+      "pathPattern": "^/tracking-results/?$",
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": []
+}

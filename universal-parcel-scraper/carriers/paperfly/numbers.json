@@ -1,0 +1,93 @@
+{
+  "carrier": "paperfly",
+  "records": [
+    {
+      "number": "PFL-BD-CB-1003641879",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260207091250/https://go-app.paperfly.com.bd/merchant/api/react/order/track_order.php?order_number=PFL-BD-CB-1003641879",
+        "date": "2026-02-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "paperfly",
+        "confidence": "high"
+      },
+      "note": "An archived reply of Paperfly's own tracking API for this reference, which Daraz gives the parcels it hands to Paperfly, lists the parcel's history from the pickup request to delivery attempts."
+    },
+    {
+      "number": "240126-341944-A1-K1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260207091250/https://go-app.paperfly.com.bd/merchant/api/react/order/track_order.php?order_number=PFL-BD-CB-1003641879",
+        "date": "2026-02-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "paperfly",
+        "confidence": "high"
+      },
+      "note": "The same archived reply of Paperfly's tracking API gives this as the parcel's Paperfly order number, with its history."
+    },
+    {
+      "number": "Z-010125-0000-A1-A1",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-19",
+      "expect": {
+        "carrier": "paperfly",
+        "confidence": "high"
+      },
+      "note": "Made-up order number in the shape of an order a merchant's system books through Paperfly's API: Z, the booking date, a serial and two letter-digit pairs."
+    },
+    {
+      "number": "100820-4491-A2-C5",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200813101221/http://www.paperfly.com.bd/tracking.php100820-4491-A2-C5",
+        "date": "2020-08-13",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "paperfly",
+        "confidence": "high"
+      },
+      "note": "An archived address on Paperfly's former tracking page, built with the number glued to tracking.php; the capture is a 404 and shows no history."
+    },
+    {
+      "number": "160720-4869-A2-K1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200718112753/http://www.paperfly.com.bd/tracking.php160720-4869-A2-K1",
+        "date": "2020-07-18",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "paperfly",
+        "confidence": "high"
+      },
+      "note": "An archived address on Paperfly's former tracking page, built with the number glued to tracking.php; the capture is a 404 and shows no history."
+    }
+  ]
+}

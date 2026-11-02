@@ -1,0 +1,64 @@
+{
+  "id": "mrw",
+  "displayName": "MRW",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "ES",
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#19133b"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "mrw",
+    "steps": [
+      "direct"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://www.mrw.es/seguimiento",
+    "searchUrl": "https://www.mrw.es/seguimiento",
+    "helpUrl": "https://www.mrw.es/empresa_mensajeria_urgente/MRW_contacto_paqueteria.asp",
+    "canaryUrl": "https://www.mrw.es/seguimiento/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "pickup_point_address",
+      "parcel_scans"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "pickup_point_address",
+      "parcel_scans"
+    ],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "mrw-1",
+      "pattern": "^\\d{12}$",
+      "confidence": "low"
+    },
+    {
+      "id": "mrw-2",
+      "pattern": "^\\d{5}[A-Z]\\d{6}$",
+      "confidence": "high"
+    }
+  ]
+}

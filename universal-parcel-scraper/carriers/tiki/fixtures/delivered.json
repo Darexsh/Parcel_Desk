@@ -1,0 +1,37 @@
+{
+  "status": 200,
+  "msg": "",
+  "response": [
+    {
+      "cnno": "990000000011",
+      "seq_no": 0,
+      "sender_reference": "",
+      "origin_tariff": "CGK01.00",
+      "destination_tariff_code": "BDO01.00",
+      "destination_city_name": "Jawa Barat",
+      "product": "REG",
+      "sys_created_on": "2026-07-01 10:12:40",
+      "consignor_name": "TOKO CONTOH",
+      "consignor_address": "DKI Jakarta",
+      "consignee_name": "ANI CONTOH",
+      "consignee_address": "Jawa Barat",
+      "weight": 2,
+      "insurance_fee": 1500,
+      "shipment_fee": 18000,
+      "pieces_no": 1,
+      "est_day": "3",
+      "est_date": "2026-07-04",
+      "history": [
+        {"seq_no": 0, "entry_date": "2026-07-04 14:20:05", "status": "POD 01", "entry_name": "CONTOHSARI [BANDUNG]", "entry_place": "BANDUNG", "noted": "Success / [M] RECEIVED BY : ANI CONTOH (YBS) 0812-3456-7890"},
+        {"seq_no": 0, "entry_date": "2026-07-04 08:31:44", "status": "DEL 01", "entry_name": "CONTOHSARI [BANDUNG]", "entry_place": "BANDUNG", "noted": "With Delivery Courier"},
+        {"seq_no": 0, "entry_date": "2026-07-03 15:02:10", "status": "DEX 03", "entry_name": "CONTOHSARI [BANDUNG]", "entry_place": "BANDUNG", "noted": "Failed : DEX 03 - [M] ALAMAT TIDAK LENGKAP"},
+        {"seq_no": 0, "entry_date": "2026-07-03 08:15:29", "status": "DEL 01", "entry_name": "CONTOHSARI [BANDUNG]", "entry_place": "BANDUNG", "noted": "With Delivery Courier"},
+        {"seq_no": 0, "entry_date": "2026-07-03 05:47:51", "status": "INC 01", "entry_name": "CONTOHSARI [BANDUNG]", "entry_place": "BANDUNG", "noted": "Arrived at TIKI BANDUNG"},
+        {"seq_no": 0, "entry_date": "2026-07-02 00:37:39", "status": "ROS", "entry_name": "PUSAT CONTOH [JAKARTA]", "entry_place": "JAKARTA", "noted": "Departed [M] BY ODCGK01BBDO01A26070001 TO BANDUNG"},
+        {"seq_no": 0, "entry_date": "2026-07-01 22:59:18", "status": "CON 01", "entry_name": "PUSAT CONTOH [JAKARTA]", "entry_place": "JAKARTA", "noted": "Departed to BANDUNG"},
+        {"seq_no": 0, "entry_date": "2026-07-01 10:12:40", "status": "MDE 01", "entry_name": "AGEN CONTOH [JAKARTA TIMUR]", "entry_place": "JAKARTA TIMUR", "noted": "Shipment Data Entry at JAKARTA TIMUR"}
+      ],
+      "image_pod": null
+    }
+  ]
+}

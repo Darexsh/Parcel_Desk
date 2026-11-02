@@ -1,0 +1,45 @@
+{
+  "id": "packli-punkt",
+  "displayName": "Päckli Punkt",
+  "aliases": [
+    "Paeckli Punkt",
+    "Päckli-Punkt"
+  ],
+  "region": {
+    "countries": [
+      "CH"
+    ]
+  },
+  "brand": {
+    "color": "#ea5a8e"
+  },
+  "selectable": true,
+  "timezone": "Europe/Zurich",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.paeckli-punkt.ch/paket-verfolgen/?packet={trackingNumber}",
+    "searchUrl": "https://www.paeckli-punkt.ch/paket-verfolgen/",
+    "canaryUrl": "https://www.paeckli-punkt.ch/paket-verfolgen/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "paeckli-punkt.ch"
+      ],
+      "pathPattern": "^/(?:(?:fr|it|en)/)?(?:paket-verfolgen|suivre-un-colis|pacchetto-pista|track-package)/?$",
+      "params": [
+        "packet"
+      ]
+    }
+  ],
+  "detection": []
+}

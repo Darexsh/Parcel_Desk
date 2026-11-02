@@ -1,0 +1,14 @@
+{
+  "carrier": "fukuyama",
+  "entries": [
+    {"wording": "受付", "stage": "accepted", "language": "ja", "confirmedBy": "live", "note": "History row for the intake at the sending branch, with its day and minute."},
+    {"wording": "発送", "stage": "in_transit", "language": "ja", "confirmedBy": "live", "note": "History row for the departure from the sending branch. The tracker gives it a day and no time."},
+    {"wording": "到着", "stage": "in_transit", "language": "ja", "confirmedBy": "live", "note": "History row for the arrival at the delivering branch."},
+    {"wording": "持出", "stage": "out_for_delivery", "language": "ja", "confirmedBy": "live", "note": "History row for the parcel taken out on the delivery round."},
+    {"wording": "配達完了", "stage": "delivered", "language": "ja", "confirmedBy": "live", "note": "History row for the delivery; handed to the recipient or the agreed place."},
+    {"wording": "配達完了です", "stage": "delivered", "language": "ja", "confirmedBy": "live", "note": "The summary's current state once the parcel is delivered."},
+    {"wording": "輸送中です", "stage": "in_transit", "language": "ja", "confirmedBy": "portal", "note": "The summary's current state in an archived capture of the tracker, while only the intake and dispatch rows had a day."},
+    {"wording": "配達中", "stage": "out_for_delivery", "language": "ja", "confirmedBy": "source", "note": "A guide to Fukuyama's tracker explains it as the driver carrying the parcel on the delivery round."},
+    {"wording": "持戻", "stage": "failed_attempt", "language": "ja", "confirmedBy": "source", "note": "Taken back to the branch, typically because nobody was in."}
+  ]
+}

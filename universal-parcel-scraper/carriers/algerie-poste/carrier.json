@@ -1,0 +1,105 @@
+{
+  "id": "algerie-poste",
+  "displayName": "Algérie Poste",
+  "aliases": [
+    "Algeria Post",
+    "Algerie Poste",
+    "EMS Champion Post Algérie",
+    "EMS Champion Post Algeria"
+  ],
+  "region": {
+    "countries": [
+      "DZ"
+    ]
+  },
+  "brand": {
+    "color": "#22297c"
+  },
+  "selectable": true,
+  "timezone": "Africa/Algiers",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "algerie-poste",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 897
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://ems.dz/track/index.php?icd={trackingNumber}",
+    "searchUrl": "https://www.ems.dz/",
+    "canaryUrl": "https://www.ems.dz/",
+    "shows": [
+      "status",
+      "history",
+      "location"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "origin_country",
+      "destination_country",
+      "delivered_at",
+      "offset_timestamps",
+      "recipient_name",
+      "sender_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "ems.dz",
+        "www.ems.dz"
+      ],
+      "pathPattern": "^/track/index\\.php$",
+      "params": [
+        "icd"
+      ]
+    },
+    {
+      "domains": [
+        "track.ems.dz"
+      ],
+      "pathPattern": "^/track\\.php$",
+      "params": [
+        "icd"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "algerie-poste-1",
+      "pattern": "^E[CDT]\\d{11}$",
+      "confidence": "low"
+    },
+    {
+      "id": "algerie-poste-s10",
+      "pattern": "^[A-Z]{2}\\d{9}DZ$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    },
+    {
+      "id": "algerie-poste-ey",
+      "pattern": "^EY\\d{9}DZ$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "thabit-logistics",
+  "displayName": "Thabit Logistics",
+  "aliases": [
+    "Thabit",
+    "ثابت",
+    "ثابت لنقل البريد",
+    "شركة الثابت لنقل البريد",
+    "Al Thabit Mail Transport",
+    "Al Thabit Company"
+  ],
+  "region": {
+    "countries": [
+      "SA"
+    ]
+  },
+  "brand": {
+    "color": "#f69321"
+  },
+  "selectable": true,
+  "timezone": "Asia/Riyadh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://thabit-logistics.com/track-shipment/{trackingNumber}",
+    "searchUrl": "https://thabit-logistics.com/track-shipment",
+    "canaryUrl": "https://thabit-logistics.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "thabit-logistics.com",
+        "www.thabit-logistics.com"
+      ],
+      "path": "^/track-shipment/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

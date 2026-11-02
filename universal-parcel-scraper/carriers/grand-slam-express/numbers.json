@@ -1,0 +1,24 @@
+{
+  "carrier": "grand-slam-express",
+  "records": [
+    {
+      "number": "915504404",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210525042954/http://www.grandslamexpress.in/Web/Track?AwbNo=915504404",
+        "date": "2021-05-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Grand Slam's own tracker address carries this AWB number; the capture shows only the page shell, so the history was not visible."
+    }
+  ]
+}

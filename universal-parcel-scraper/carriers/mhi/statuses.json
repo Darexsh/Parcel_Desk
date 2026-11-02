@@ -1,0 +1,17 @@
+{
+  "carrier": "mhi",
+  "entries": [
+    {"wording": "Your order has been processed at the UK export facility. It is now on route to the receiver.", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "MHI's own scan: the item left its export facility in the United Kingdom. Often the only event an untracked item has."},
+    {"wording": "Shipment information sent to last mile service provider", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "The courier in the destination country has the item's data, not yet the item."},
+    {"wording": "Notification sent to recipient", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The courier told the recipient the item is coming."},
+    {"wording": "Handed Over to Delivery Partner", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The courier in the destination country took the item."},
+    {"wording": "Arrived at sorting center", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "A courier's depot scan."},
+    {"wording": "Dispatched from sorting center", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "A courier's depot scan."},
+    {"wording": "Assigned to Transport", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The courier put the item on a vehicle between depots."},
+    {"wording": "Shipment at final delivery center", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Filed under Out for delivery by the page, but it comes before the delivery round; the depot that delivers the item has it."},
+    {"wording": "Delivery scheduled in the final delivery depot", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "The item is on the day's delivery round."},
+    {"wording": "Delivery attempted", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "Filed under Delivery by the page; nobody took the item."},
+    {"wording": "Arrived at Pick-up Point", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "portal", "note": "Filed under Out for delivery by the page; the item waits at a pick-up point."},
+    {"wording": "Successfully delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "The item was delivered or collected."}
+  ]
+}

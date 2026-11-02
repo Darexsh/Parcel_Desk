@@ -1,0 +1,25 @@
+{
+  "carrier": "komon-express",
+  "records": [
+    {
+      "number": "KOMON0018318124YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.askanexpertonline.com/software/t94ym-delivery-tracking-expectation-timeline.html",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "komon-express"
+        ]
+      },
+      "note": "A buyer's question about a late delivery quotes this number; Komon Express's tracker answers it."
+    }
+  ]
+}

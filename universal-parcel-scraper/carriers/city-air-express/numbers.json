@@ -1,0 +1,32 @@
+{
+  "carrier": "city-air-express",
+  "records": [
+    {
+      "number": "MN294898",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220608142728/https://caebfs.netcourier.net/online/tracking/trackinginfo/MN294898",
+        "date": "2022-06-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "city-air-express",
+          "loggi"
+        ]
+      },
+      "note": "An archived lookup on City Air Express' tracker. The tracker still answers it with the delivery's history."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "carrier": "speed-and-safe",
+  "entries": [
+    {"code": "M", "wording": "Dispatched to <branch>", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The ERP's status is \"Dispatched- \"; the page adds the branch the parcel leaves for. The scan is at the branch it leaves, and a branch can dispatch one parcel several times within minutes."},
+    {"code": "I", "wording": "Arrived at <branch>", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The ERP's status is \"Arrived- \"; the page adds the branch or hub the parcel reached. The oldest scan of a history is such an arrival, without a branch it came from."},
+    {"code": "O", "wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "The ERP's status is \"Out for Delivery- \", at the delivering branch."},
+    {"code": "D", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The ERP's status is \"Delivered- \", at the delivering branch; the row's destination is the delivery's area."},
+    {"wording": "Invalid AWB Number / No Order Tracked", "language": "en", "confirmedBy": "source", "note": "The tracking page's message when the lookup answers another statusCode than 200. A number the ERP holds nothing under gets statusCode 200 and no rows instead, so another statusCode is inconclusive."}
+  ]
+}

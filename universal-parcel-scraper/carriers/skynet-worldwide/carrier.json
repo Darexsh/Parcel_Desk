@@ -1,0 +1,90 @@
+{
+  "id": "skynet-worldwide",
+  "displayName": "SkyNet Worldwide Express",
+  "aliases": [
+    "SkyNet",
+    "SkyNet Worldwide",
+    "SkyNet WWE",
+    "Skynet Express",
+    "Deltec International Courier",
+    "Deltec Courier"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#fe0000"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "skynet-worldwide",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://tracking.skynetexpress.com/go/plm-tracking?stid=skynet&cn={trackingNumber}",
+    "canaryUrl": "https://tracking.skynetexpress.com/go/plm-tracking",
+    "shows": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "destination_country",
+      "service_type",
+      "signatory",
+      "customer_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "destination_country"
+    ],
+    "discarded": [
+      "service_type",
+      "signatory",
+      "customer_reference"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.skynetexpress.com"
+      ],
+      "pathPattern": "^/go/plm-tracking/?$",
+      "params": [
+        "cn"
+      ]
+    },
+    {
+      "domains": [
+        "tracking.frontierforce.com"
+      ],
+      "pathPattern": "^/go/plm-tracking/?$",
+      "query": "^(?=(?:[^&]*&)*stid=skynet(?:&|$))(?:[^&]*&)*?cn=([^&]+)"
+    }
+  ],
+  "detection": []
+}

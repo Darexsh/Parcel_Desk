@@ -1,0 +1,102 @@
+{
+  "id": 1000001,
+  "createdAt": "02/03/2026 21:05:10",
+  "lastRouteShipment": {
+    "id": 2000001,
+    "createdAt": "05/03/2026 02:30:00",
+    "route": {
+      "id": 30001,
+      "createdAt": "05/03/2026 01:40:00",
+      "user": {
+        "id": 401,
+        "createdAt": "01/01/2025 08:00:00"
+      }
+    },
+    "position": 12
+  },
+  "lastIncidence": {
+    "id": 5001,
+    "createdAt": "04/03/2026 18:40:12",
+    "reason": {
+      "id": 16,
+      "createdAt": "06/12/2019 13:14:00",
+      "name": "FUERA HORARIO COMERCIAL"
+    }
+  },
+  "type": "delivery",
+  "trackingNumber": "900000000011",
+  "distributor": {
+    "id": 211,
+    "createdAt": "24/08/2020 09:51:15",
+    "name": "Sample Shop"
+  },
+  "customer": {
+    "name": "Sample Recipient",
+    "phoneNumber": "+34 600 00 00 00",
+    "address": {
+      "formattedAddress": "Calle Ejemplo 1, 1A, 28000, Sample Town, España",
+      "geolocation": {
+        "latitude": "40.00000000",
+        "longitude": "-3.00000000"
+      }
+    }
+  },
+  "proofOfDelivery": {
+    "name": "Sample Receiver"
+  },
+  "status": "delivered",
+  "packages": [
+    {
+      "id": 6000001,
+      "createdAt": "02/03/2026 21:05:10",
+      "status": "delivered",
+      "trackings": [
+        {
+          "id": 7000009,
+          "createdAt": "05/03/2026 12:10:45",
+          "status": "delivered"
+        },
+        {
+          "id": 7000008,
+          "createdAt": "05/03/2026 08:30:02",
+          "status": "out_for_delivery"
+        },
+        {
+          "id": 7000007,
+          "createdAt": "04/03/2026 18:55:30",
+          "status": "hub"
+        },
+        {
+          "id": 7000006,
+          "createdAt": "04/03/2026 18:40:12",
+          "status": "failed_delivery_attempt"
+        },
+        {
+          "id": 7000005,
+          "createdAt": "04/03/2026 08:15:00",
+          "status": "out_for_delivery"
+        },
+        {
+          "id": 7000004,
+          "createdAt": "03/03/2026 17:20:41",
+          "status": "hub"
+        },
+        {
+          "id": 7000003,
+          "createdAt": "03/03/2026 17:02:19",
+          "status": "failed_delivery_attempt"
+        },
+        {
+          "id": 7000002,
+          "createdAt": "03/03/2026 09:01:33",
+          "status": "out_for_delivery"
+        },
+        {
+          "id": 7000001,
+          "createdAt": "03/03/2026 03:44:00",
+          "status": "hub"
+        }
+      ]
+    }
+  ]
+}

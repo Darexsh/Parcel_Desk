@@ -1,0 +1,46 @@
+{
+  "id": "neighbour-express",
+  "displayName": "Neighbour Express",
+  "aliases": [
+    "NeighbourExpress"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#254b8d"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.neighbourexpress.com/track?trackingNumber={trackingNumber}",
+    "searchUrl": "https://www.neighbourexpress.com/track",
+    "canaryUrl": "https://www.neighbourexpress.com/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "neighbourexpress.com",
+        "neighbourexpress.ca"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "trackingNumber",
+        "no"
+      ]
+    }
+  ],
+  "detection": []
+}

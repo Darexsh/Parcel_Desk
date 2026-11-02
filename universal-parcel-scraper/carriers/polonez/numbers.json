@@ -1,0 +1,123 @@
+{
+  "carrier": "polonez",
+  "records": [
+    {
+      "number": "PIE000MP005790",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://polonez.express/us-en/parcel-track",
+        "date": "2026-10-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "polonez",
+        "confidence": "high"
+      },
+      "note": "The example Polonez's tracking page gives for its label numbers. Meest's tracker, which the page embeds, answers it with the parcel's history from the United States to its delivery in Poland."
+    },
+    {
+      "number": "POL031MP009843",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20240225140449/https://polonezamerica.com/en/track",
+        "date": "2024-02-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "polonez",
+        "confidence": "high"
+      },
+      "note": "The example an archived copy of Polonez's tracking page gave, as did its older site in 2014."
+    },
+    {
+      "number": "UPS001LE000368",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20141024133445/http://www.polonezparcelservice.com:80/en/tracking",
+        "date": "2014-10-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "polonez",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Polonez Parcel Service's old tracker; the capture was not opened."
+    },
+    {
+      "number": "UPS001LE001171",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170508135040/http://www.polonezparcelservice.com:80/en/tracking",
+        "date": "2017-05-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "polonez",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Polonez Parcel Service's old tracker; the capture was not opened."
+    },
+    {
+      "number": "UPS001LZ998704",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20160424145415/http://polonezparcelservice.com:80/en/tracking",
+        "date": "2016-04-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "polonez",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Polonez Parcel Service's old tracker; the capture was not opened."
+    },
+    {
+      "number": "UPS001LE000935",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20160423120134/http://polonezparcelservice.com:80/pl/status",
+        "date": "2016-04-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "polonez",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Polonez Parcel Service's old tracker; the capture was not opened."
+    }
+  ]
+}

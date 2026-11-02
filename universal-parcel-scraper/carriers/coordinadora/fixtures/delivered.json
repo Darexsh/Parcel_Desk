@@ -1,0 +1,41 @@
+{
+  "isError": false,
+  "data": [
+    {
+      "codigo_remision": "12300000011",
+      "referencia": null,
+      "estado": [
+        {"hora": "16:42:05", "fecha": "2026-05-08", "codigo": "6", "descripcion": "ENTREGADA", "internacional": false},
+        {"hora": "09:15:31", "fecha": "2026-05-08", "codigo": "5", "descripcion": "EN REPARTO", "internacional": false},
+        {"hora": "05:02:47", "fecha": "2026-05-06", "codigo": "4", "descripcion": "EN TERMINAL DESTINO", "internacional": false},
+        {"hora": "22:38:10", "fecha": "2026-05-05", "codigo": "3", "descripcion": "EN TRANSPORTE", "internacional": false},
+        {"hora": "14:20:56", "fecha": "2026-05-05", "codigo": "2", "descripcion": "EN TERMINAL ORIGEN", "internacional": false},
+        {"hora": null, "fecha": "2026-05-05", "codigo": "1", "descripcion": "A RECIBIR POR COORDINADORA", "internacional": false}
+      ],
+      "novedad": [
+        {"hora": "15:07:44.218406", "fecha": "2026-05-07", "codigo": "701", "descripcion": "Se visita, no se logra entrega"},
+        {"hora": "15:07:44.218406", "fecha": "2026-05-07", "codigo": "701", "descripcion": "Se visita, no se logra entrega"},
+        {"hora": "07:31:02.5", "fecha": "2026-05-06", "codigo": "500", "descripcion": "Novedad en ruta nacional por infraestructura"}
+      ],
+      "origen": "CIUDAD MUESTRA (DEP)",
+      "destino": "PUEBLO EJEMPLO (DEP)",
+      "producto": 2,
+      "dias_promesa_servicio": 1,
+      "nombre_droop": null,
+      "direccion_droop": null,
+      "telefono_droop": null,
+      "horario_droop": null,
+      "codigo_droop": null,
+      "guias": [],
+      "tipoguia": 1,
+      "anterior": "",
+      "reportes": [
+        {"fecha_reporte": "2026-05-07", "hora_reporte": "15:10:12.104337", "fecha_respuesta": "2026-05-07", "hora_respuesta": "18:02:40.551203", "codigo_novedad": "701", "descripcion_novedad": "Se visita, no se logra entrega", "estado": 4, "codigo_tipo_solucion": 3}
+      ],
+      "terminal_droop": 4,
+      "equipo": "10"
+    }
+  ],
+  "timestamp": "2026-05-09T12:00:00.000Z",
+  "id": "0000000000000000000000000000000000000001"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "united-delivery-service",
+  "displayName": "United Delivery Service",
+  "aliases": [
+    "UDS",
+    "United Delivery Service (UDS)"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#1e4691"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "united-delivery-service",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 793
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "location",
+    "eta",
+    "weight",
+    "dimensions",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://www.uniteddeliveryservice.com/track/barcode/{trackingNumber}",
+    "searchUrl": "https://www.uniteddeliveryservice.com/track/",
+    "canaryUrl": "https://www.uniteddeliveryservice.com/track/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "location",
+      "eta",
+      "weight",
+      "dimensions",
+      "delivered_at",
+      "offset_timestamps",
+      "proof_of_delivery",
+      "delivery_photo"
+    ],
+    "scraped": [
+      "status",
+      "location",
+      "eta",
+      "weight",
+      "dimensions",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "progress_rail",
+      "proof_of_delivery",
+      "delivery_photo"
+    ],
+    "unavailable": [
+      "history",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "service_name",
+      "provider_code"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.uniteddeliveryservice.com",
+        "uniteddeliveryservice.com"
+      ],
+      "path": "^/track/barcode/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "united-delivery-service-1",
+      "pattern": "^(?:\\d{2}UDS\\d{11}|APUDS\\d{8})$",
+      "confidence": "high"
+    }
+  ]
+}

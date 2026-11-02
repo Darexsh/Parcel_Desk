@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+		<meta charset="utf-8" />
+		<title>글로벌 종합물류기업 (주)한진&gt;배송조회 </title>
+	<script type="text/javascript">
+		function WayBillSch2(obj){
+			 if($("#wblnumText2").val() == ""){
+					alert("운송장번호를 입력해주세요.");
+					$("#wblnumText2").focus();
+					return false;
+			}else{
+				 var matchStr = new RegExp("[^0-9]", "gi");
+				 var val = $("#wblnumText2").val();
+				  if(matchStr.test(val) == true){
+					alert("숫자로만 입력해주세요.");
+					return false;
+				  }else{
+					  if(val.length==12 || val.length==14){
+						return true;
+					  }else{
+							alert("잘못된 운송장번호 입니다.");
+							return false;
+						}
+				  }
+			}
+		}
+	</script>
+</head>
+<body class="isSub LogN">
+<div class="quick-box-left">
+	<p class="quick-tit">빠른 택배서비스</p>
+	<form name="transSchForm2"  id="transSchForm2" method="post" action="/kor/CMS/DeliveryMgr/WaybillResult.do" onSubmit="return WayBillSch2(this);" >
+		<input type="hidden" name="mCode" value="MN038" />
+		<div class="input-box">
+			<label for="wblnumText2" class="blind">운송장번호를 입력하세요.</label>
+			<input type="text" class="text" name="wblnumText2" id="wblnumText2" placeholder="‘-’을 제외한 운송장번호를 입력하세요." autocomplete="off">
+		</div>
+		<button type="submit"  class="btn-search"><span class="blind">검색</span></button>
+	</form>
+</div>
+
+<div id="delivery-wr">
+<div class="cont-box cont-in">
+<script>
+	function openDtlRsn(wbl_num) {
+		window.open("pop_custom_clearance.jsp?wbl_num="+ wbl_num,"통관진행상태","width=500,height=500,resizable=yes");
+	}
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("table tr").forEach(tr => {
+    const tds = tr.querySelectorAll("td");
+    const isEmpty = tds.length === 0 || Array.from(tds).every(td => td.textContent.trim() === "");
+    if (isEmpty) {
+      tr.remove();
+    }
+  });
+});
+</script>
+	<form name="ok_form" id="ok_form"  method="post" action="https://www.logii.com/interface/delvproms/delv_click.asp">
+		<input type="hidden" name="comp_code" value="hanjin" />
+		<input type="hidden" name="inv_no" value="400000000024 " />
+		<input type="hidden" name="login_yn" value="N" />
+		<input type="hidden" name="repl_wbl_num" id="repl_wbl_num" value="400000000024"/>
+	</form>
+
+	<div class="songjang-num">
+		<span class="tit">운송장번호</span> <span class="num">400000000024</span>
+	</div>
+
+	<div class="delivery-time">
+<!--   	 국내운송장, 기업물류 B2B 운송장
+	  -->
+				<p class="cal-sec"><span class="date">2026-04-07</span> <span class="time">22:10</span></p>
+		<p class="comm-sec">
+				<span class="comm-ico "></span>
+				<strong>Mega-Hub 터미널</strong>에 <strong>도착</strong>하였습니다.
+			</p>
+	</div>
+
+	 <!-- 국내운송장, 기업물류 B2B 운송장 -->
+		<div class="gap"></div>
+		<h3 class="c-tit01">기본정보</h3>
+		<table class="board-list-table delivery-tbl">
+			<caption>
+				<span class="blind"></span>
+			</caption>
+			<thead>
+				<tr style="font-weight: bold; background-color: #f0f0f0; text-align: center;">
+				    <td style="font-weight: bold;">상품명</td>
+				    <td style="font-weight: bold;">보내는 분</td>
+				    <td colspan="2" style="font-weight: bold;">받는 분</td>
+				    <td style="font-weight: bold;">운임</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td data-label="상품명">SAMPLE ITEM</td>
+					<td data-label="보내는 분">SAMP*************</td>
+					<td data-label="받는 분">박 ******</td>
+					<td data-label="받는 주소">예시군 </td>
+					<td data-label="운임">선불</td>
+			</tbody>
+		</table>
+		<div class="gap"></div>
+	<h3 class="c-tit01">배송현황  </h3>
+		<div class="delivery-step">
+			<ul>
+				<li > <span class="ico-wr"><span class="ico ico1"></span></span> <span class="num">STEP1</span><span class="txt"><span>업체상품<br>준비중</span></span></li>
+				<li > <span class="ico-wr"><span class="ico ico2"></span></span> <span class="num">STEP2</span><span class="txt"><span>상품<br>접수</span></span></li>
+				<li > <span class="ico-wr"><span class="ico ico3"></span></span> <span class="num">STEP3</span><span class="txt"><span>터미널<br>입고</span></span></li>
+				<li > <span class="ico-wr"><span class="ico ico4"></span></span> <span class="num">STEP4</span><span class="txt"><span>상품<br>이동중</span></span></li>
+				<li class="on" > <span class="ico-wr"><span class="ico ico5"></span></span> <span class="num">STEP5</span><span class="txt"><span>배송<br>터미널<br>도착</span></span></li>
+				<li > <span class="ico-wr"><span class="ico ico6"></span></span> <span class="num">STEP6</span><span class="txt"><span>배송<br>출발</span></span></li>
+				<li > <span class="ico-wr"><span class="ico ico7"></span></span> <span class="num">STEP7</span><span class="txt"><span>배송<br>완료</span></span></li>
+			</ul>
+		</div>
+
+	<div class="ssgap"></div>
+
+	<div class="waybill-tbl">
+		<table class="board-list-table">
+			<caption><span class="blind"></span></caption>
+			<thead>
+				<tr>
+					<th scope="col">날짜</th>
+					<th scope="col">시간</th>
+					<th scope="col">상품위치</th>
+					<th scope="col">배송 진행상황</th>
+				</tr>
+			</thead>
+			<tbody>
+							<tr class="">
+
+									<td class="w-date">2026-04-06</td>
+									<td class="w-time">09:37</td>
+
+								<td class="w-org">WEH</td>
+								<td class="l w-preocess">
+									<span class="stateDesc">운송장 정보가 등록되었습니다.</span>
+										<!-- <br>  -->
+								</td>
+							</tr>
+
+							<tr class="">
+
+									<td class="w-date">2026-04-06</td>
+									<td class="w-time">10:10</td>
+
+								<td class="w-org">SGI</td>
+								<td class="l w-preocess">
+									<span class="stateDesc">고객님 상품을  <strong>접수</strong>하였습니다.</span>
+										<!-- <br> (집하사원 : 이가상 -) -->
+												<br>(집하사원 : 이가상 -)
+								</td>
+							</tr>
+
+							<tr class="">
+
+									<td class="w-date">2026-04-06</td>
+									<td class="w-time">10:10</td>
+
+								<td class="w-org">SGI</td>
+								<td class="l w-preocess">
+									<span class="stateDesc">고객님 상품을 집하하여  <strong>SGI</strong>에 입고되었습니다.</span>
+										<!-- <br> (집하사원 : 이가상 -) -->
+								</td>
+							</tr>
+
+							<tr class="">
+
+									<td class="w-date">2026-04-06</td>
+									<td class="w-time">10:10</td>
+
+								<td class="w-org">SGI</td>
+								<td class="l w-preocess">
+									<span class="stateDesc">항공편으로 출발 대기중입니다.</span>
+										<!-- <br> (집하사원 : 이가상 -) -->
+								</td>
+							</tr>
+
+							<tr class="">
+
+									<td class="w-date">2026-04-07</td>
+									<td class="w-time">13:33</td>
+
+								<td class="w-org">ICN</td>
+								<td class="l w-preocess">
+									<span class="stateDesc">수입통관장에 반입되었습니다.(통관불가)</span>
+										<!-- <br> (집하사원 : 이가상 -) -->
+												<a href="https://unipass.customs.go.kr/csp/index.do?tgMenuId=MYC_MNU_00000450&tabId=6" onClick="" class="sdp-btn" target='_blank'><span>통관진행상태 확인</span></a>
+								</td>
+							</tr>
+
+							<tr class="">
+							</tr>
+
+							<tr class="">
+
+									<td class="w-date">2026-04-07</td>
+									<td class="w-time">13:35</td>
+
+								<td class="w-org">ICN</td>
+								<td class="l w-preocess">
+									<span class="stateDesc">수입통관이 완료되어 국내배송 예정입니다.</span>
+										<!-- <br> (집하사원 : 이가상 -) -->
+								</td>
+							</tr>
+
+							<tr class="">
+							</tr>
+
+							<tr class="">
+
+									<td class="w-date">2026-04-07</td>
+									<td class="w-time">13:37</td>
+
+								<td class="w-org">인천공항 터미널</td>
+								<td class="l w-preocess">
+									<span class="stateDesc"><strong>인천공항터미널</strong>에서  <strong>Mega-Hub터미널</strong>로 이동중입니다.</span>
+										<!-- <br> (집하사원 : 이가상 -) -->
+								</td>
+							</tr>
+
+							<tr class="">
+
+									<td class="w-date">2026-04-07</td>
+									<td class="w-time">22:10</td>
+
+								<td class="w-org">Mega-Hub 터미널</td>
+								<td class="l w-preocess">
+									<span class="stateDesc"><strong>Mega-Hub 터미널</strong>에  <strong>도착</strong>하였습니다.</span>
+										<!-- <br> (집하사원 : 이가상 -) -->
+								</td>
+							</tr>
+
+			</tbody>
+		</table>
+	</div>
+
+	<div class="sgap"></div>
+		<div class="info-list">
+		<p class="tit">현지 배송진행 현황은? Local Time 기준으로 현지 배송사에서 제공하는 정보입니다.</p>
+			<ul>
+				<li>자세한 사항은 콜센터로 문의하시기 바랍니다.</li>
+				<li>한국 내 배송 :  <strong class="cblue">한진택배 콜센터 (1588-0011)</strong> </li>
+			</ul>
+		</div>
+<div class="gap"></div>
+<div class="c">
+ 	<button type="button" onClick="location.href='/kor/CMS/DeliveryMgr/WaybillSch.do?mCode=MN038';" class="ldp-btn">다시 조회하기</button>
+	<button type="button" class="ldp-btn" onClick="commonPgrLayor(this, '/kor/ajx_json/DeliveryMgr/Mypage/KakakoShare.do?wblNum=400000000024&sndNam=SAMPLE&godNam=SAMPLE%20ITEM', '공유 ', '600', '550');" title="카카오톡 공유하기">카카오톡 공유</button>
+</div>
+		<div id="notice-layer" style="display: none;">
+		    <div>
+		        <h3>시스템 작업 안내</h3>
+		        <p><strong>해당 시간 동안 배송조회 서비스 이용이 불가합니다.</strong></p>
+		    </div>
+		</div>
+</div>
+</div>
+</body>
+</html>

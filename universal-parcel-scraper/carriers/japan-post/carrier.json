@@ -1,0 +1,100 @@
+{
+  "id": "japan-post",
+  "displayName": "Japan Post",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "JP"
+    ]
+  },
+  "brand": {
+    "color": "#cc0000"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "japan-post",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 4,
+      "pattern": "^\\d{12}$"
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "delivered_at",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://trackings.post.japanpost.jp/services/srv/search/direct?reqCodeNo1={trackingNumber}&locale=en",
+    "searchUrl": "https://trackings.post.japanpost.jp/services/srv/search/input?locale=en",
+    "helpUrl": "https://www.post.japanpost.jp/question/",
+    "canaryUrl": "https://trackings.post.japanpost.jp/services/srv/search",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "service_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "service_name"
+    ],
+    "discarded": [
+      "event_details",
+      "office_postcode",
+      "office_contact_details",
+      "size_class",
+      "delivery_office",
+      "parcel_count"
+    ],
+    "unavailable": [
+      "weight",
+      "sender_name",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "trackings.post.japanpost.jp"
+      ],
+      "params": [
+        "reqCodeNo1",
+        "requestNo1"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "japan-post-1",
+      "pattern": "^[A-TV-Z][A-Z]\\d{9}JP$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "japan-post-domestic",
+      "pattern": "^\\d{12}$",
+      "confidence": "low",
+      "checksum": "mod7"
+    },
+    {
+      "id": "japan-post-registered",
+      "pattern": "^\\d{11}$",
+      "confidence": "low",
+      "checksum": "mod7"
+    }
+  ]
+}

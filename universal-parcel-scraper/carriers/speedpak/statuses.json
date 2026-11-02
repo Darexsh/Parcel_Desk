@@ -1,0 +1,287 @@
+{
+  "carrier": "speedpak",
+  "entries": [
+    {
+      "wording": "Shipment Data Received",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Package Received",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Arrived at Regional Distribution Center",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Departed from Regional Distribution Center",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Export Customs Declaration Completed",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Departed from Origin Country",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Arrived at Destination Hub",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Import Customs Clearance Completed",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "货物运输中",
+      "language": "zh",
+      "stage": "in_transit",
+      "english": "In transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label, which it can send as the English wording too: the adapter shows its English."
+    },
+    {
+      "wording": "Arrival scan",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "The freight handler collected the shipment at the airport",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "The item is received by PostNL",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "The item is at the PostNL sorting center",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Out for delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "Delivered. (Recipient's front door)",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "LM Carrier: [<carrier>] , LM tracking No.: [<reference>]",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "The line naming the last-mile carrier and its reference, also written in Chinese. SpeedPAK files it under its label 同步尾程供应商, the hand-over to that carrier."
+    },
+    {
+      "wording": "订单接受",
+      "language": "zh",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "订单已创建",
+      "language": "zh",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "包裹已揽收",
+      "language": "zh",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "大包收货确认(A-SCAN)",
+      "language": "zh",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "进入集货中心",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "离开集货中心",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "进入分拣中心",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "到达分拣中心",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "离开分拣中心",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "出口国报关完成",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "始发地出发",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "航班起飞",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "航班到达",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "目的地到港",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "干线运输到达",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "进口国清关完成",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "进口清关完成",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "到达站点",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "离开站点",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "站点扫描",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "同步尾程供应商",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "尾程转运中",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "离开分拨站点",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "目的国小包收货确认",
+      "language": "zh",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "开始派送",
+      "language": "zh",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    },
+    {
+      "wording": "派送完成",
+      "language": "zh",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "note": "SpeedPAK's own label (eventDescCn), also beside a last-mile carrier's wording."
+    }
+  ]
+}

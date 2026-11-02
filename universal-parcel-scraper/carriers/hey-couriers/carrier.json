@@ -1,0 +1,47 @@
+{
+  "id": "hey-couriers",
+  "displayName": "Hey Couriers",
+  "aliases": [
+    "Heycouriers",
+    "HeyCouriers",
+    "The Big Box Group Pty Ltd"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#f5551e"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://heycouriers.com.au/tracking.html?trackingNumber={trackingNumber}",
+    "searchUrl": "https://heycouriers.com.au/tracking.html",
+    "canaryUrl": "https://heycouriers.com.au/tracking.html",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "heycouriers.com.au",
+        "www.heycouriers.com.au"
+      ],
+      "pathPattern": "^/tracking\\.html$",
+      "params": [
+        "trackingNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

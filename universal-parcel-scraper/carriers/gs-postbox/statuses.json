@@ -1,0 +1,28 @@
+{
+  "carrier": "gs-postbox",
+  "entries": [
+    {"code": "C01", "wording": "점포접수", "stage": "accepted", "language": "ko", "confirmedBy": "portal", "note": "The sender dropped the parcel at a GS25 store; older wording of C01."},
+    {"code": "C01", "wording": "점포에서 접수", "stage": "accepted", "language": "ko", "confirmedBy": "portal", "note": "The sender dropped the parcel at a GS25 store; newer wording of C01."},
+    {"code": "C015", "wording": "배송기사 인수", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "A driver collected the parcel from the store."},
+    {"code": "C015", "wording": "배송기사 수거완료", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "A driver collected the parcel from the store."},
+    {"code": "C02", "wording": "점포 → (집화)일배 입고", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "Seen in archived replies of GS Postbox's tracker for half-price (반값택배) parcels."},
+    {"code": "C03", "wording": "(집화)일배 →  허브 출고", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "Older wording of C03, with two spaces after the arrow."},
+    {"code": "C03", "wording": "집화센터에 도착", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "Newer wording of C03."},
+    {"code": "C04", "wording": "(집화)일배 →  허브 입고", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "Arrived at the hub; two spaces after the arrow."},
+    {"code": "C07", "wording": "허브센터에 도착", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "Seen in archived replies of GS Postbox's tracker for half-price (반값택배) parcels."},
+    {"code": "C09", "wording": "출고센터 배송준비중 입니다.", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "At the outbound centre, being prepared for the run to the destination store."},
+    {"code": "C095", "wording": "배송기사 인계", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "Handed to the driver who takes it to the destination store."},
+    {"code": "C10", "wording": "점포에 도착", "stage": "ready_for_pickup", "language": "ko", "confirmedBy": "portal", "note": "Arrived at the destination GS25 store for collection."},
+    {"code": "C11", "wording": "고객에게 전달", "stage": "delivered", "language": "ko", "confirmedBy": "portal", "note": "The recipient collected the parcel at the store."},
+    {"code": "11", "wording": "집화처리", "stage": "accepted", "language": "ko", "confirmedBy": "portal", "note": "CJ Logistics' pickup scan, relayed for a home delivery (국내택배) CJ carries."},
+    {"code": "41", "wording": "간선상차", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "CJ Logistics' trunk loading scan, relayed for a home delivery."},
+    {"code": "42", "wording": "간선하차", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "CJ Logistics' trunk unloading scan, relayed for a home delivery."},
+    {"code": "82", "wording": "배송출발", "stage": "out_for_delivery", "language": "ko", "confirmedBy": "portal", "note": "CJ Logistics' departure for delivery, relayed for a home delivery."},
+    {"code": "91", "wording": "배송완료", "stage": "delivered", "language": "ko", "confirmedBy": "portal", "note": "CJ Logistics' delivery, relayed for a home delivery."},
+    {"wording": "점포도착", "stage": "ready_for_pickup", "language": "ko", "confirmedBy": "official-doc", "note": "A delivery state named in GS Postbox's FAQ, for parcels waiting at the destination store."},
+    {"wording": "수령완료", "stage": "delivered", "language": "ko", "confirmedBy": "official-doc", "note": "A delivery state named in GS Postbox's FAQ: the recipient collected the parcel."},
+    {"wording": "배송중", "stage": "in_transit", "language": "ko", "confirmedBy": "official-doc", "note": "A delivery state named in GS Postbox's FAQ."},
+    {"wording": "반송접수", "stage": "returned", "language": "ko", "confirmedBy": "official-doc", "note": "A delivery state named in GS Postbox's FAQ: a return to the sender was accepted."},
+    {"wording": "반송중", "stage": "returned", "language": "ko", "confirmedBy": "official-doc", "note": "A delivery state named in GS Postbox's FAQ: the parcel is on its way back to the sender."}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gofast",
+  "displayName": "GoFast",
+  "aliases": [
+    "够快供应链",
+    "够快"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#f46a0e"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://gzgk.hailei2018.com/trackIndex.htm?documentCode={trackingNumber}",
+    "searchUrl": "https://gzgk.hailei2018.com/trackIndex.htm",
+    "canaryUrl": "https://www.gofastcn.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "gzgk.hailei2018.com"
+      ],
+      "pathPattern": "^/trackIndex\\.htm$",
+      "params": [
+        "documentCode"
+      ]
+    }
+  ],
+  "detection": []
+}

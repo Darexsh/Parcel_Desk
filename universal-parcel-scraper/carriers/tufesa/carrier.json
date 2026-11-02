@@ -1,0 +1,101 @@
+{
+  "id": "tufesa",
+  "displayName": "TufesaPack",
+  "aliases": [
+    "Tufesa",
+    "Tufesa Paquetería",
+    "Tufesa Envíos",
+    "Tufesa Pack",
+    "Grupo TUFESA"
+  ],
+  "region": {
+    "countries": [
+      "MX",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#f05a28"
+  },
+  "selectable": true,
+  "timezone": "America/Hermosillo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "tufesa",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 726
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "searchUrl": "https://tufesapack.com/paqueteria/rastreo/captura",
+    "canaryUrl": "https://tufesapack.com/paqueteria/rastreo/captura",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin",
+      "destination",
+      "delivery_method",
+      "sender_name",
+      "recipient_name",
+      "parcel_count",
+      "item_category",
+      "payment_details",
+      "related_tracking_numbers",
+      "proof_of_delivery",
+      "signatory",
+      "signature",
+      "coordinates"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "delivery_method",
+      "sender_name",
+      "recipient_name",
+      "parcel_count",
+      "item_category",
+      "payment_details",
+      "related_tracking_numbers",
+      "proof_of_delivery",
+      "signatory",
+      "signature",
+      "coordinates"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "delivery_partner",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tufesapack.com",
+        "www.tufesapack.com"
+      ],
+      "pathPattern": "^/paqueteria/rastreo/captura/?$",
+      "params": [
+        "codigo"
+      ]
+    }
+  ],
+  "detection": []
+}

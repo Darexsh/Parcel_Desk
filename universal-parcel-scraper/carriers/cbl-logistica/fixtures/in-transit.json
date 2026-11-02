@@ -1,0 +1,50 @@
+{
+  "$id": "1",
+  "success": true,
+  "LoggedIn": false,
+  "ClientErrors": null,
+  "ServerErrors": null,
+  "data": {
+    "$id": "2",
+    "datos_expedicion": {
+      "$id": "3",
+      "NENVIO": 99900000024,
+      "NOMRTE": "TIENDA DE MUESTRA SA",
+      "BULTOS": 1,
+      "PVKILOS": 3,
+      "VOL": 0,
+      "REFERENCIA": "0000000",
+      "DIA": "",
+      "F_RECOGIDA": "02/11/2026 0:00:00",
+      "F_ENTREGA": "",
+      "F_SITUACION": "03/11/2026 6:05:00",
+      "ORIGEN": "PLATAFORMA MUESTRA",
+      "DELE_PROP": "DELEGACION MUESTRA",
+      "DESTINO": "DELEGACION EJEMPLO",
+      "TELEFONO_ORIGEN": "910000000",
+      "TELEFONO_PROP": "910000001",
+      "TELEFONO_DESTINO": "980000000",
+      "EMAIL_ORIGEN": "origen@example.com",
+      "EMAIL_PROP": "delegacion@example.com",
+      "EMAIL_DESTINO": "destino@example.com",
+      "OBSER1": "",
+      "OBSER2": "",
+      "NOMCONS": "DESTINATARIA DE MUESTRA",
+      "DOMCONS": "PLAZA DE EJEMPLO 2",
+      "POBCONS": "PUEBLO DE EJEMPLO",
+      "CP_REX": "00000",
+      "HAY_INCIDENCIA": "0",
+      "SITUACION_LOCALIZADOR": "DEST",
+      "GUID": ""
+    },
+    "eventos": [
+      { "$id": "4", "Fecha": "03/11/2026 6:05:00", "Descripcion": "LLEGADA A DELEGACION DESTINO", "Ampliacion": "DELEGACION EJEMPLO" },
+      { "$id": "5", "Fecha": "03/11/2026 6:05:00", "Descripcion": "PENDIENTE DE CONCERTAR ENTREGA: 600 00 00 00 muestra@example.com", "Ampliacion": "" },
+      { "$id": "6", "Fecha": "02/11/2026 20:47:00", "Descripcion": "SALIDA DE PLATAFORMA", "Ampliacion": null },
+      { "$id": "7", "Fecha": "02/11/2026 9:12:00", "Descripcion": "DOCUMENTADA", "Ampliacion": "TIENDA DE MUESTRA SA" },
+      { "$id": "8", "Fecha": "02/11/2026 9:13:00", "Descripcion": "", "Ampliacion": "" }
+    ],
+    "incidencias": [],
+    "imagenes": []
+  }
+}

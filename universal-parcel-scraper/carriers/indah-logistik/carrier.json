@@ -1,0 +1,113 @@
+{
+  "id": "indah-logistik",
+  "displayName": "Indah Logistik",
+  "aliases": [
+    "Indah Cargo",
+    "Indah Logistik Cargo",
+    "Indah Logistic Cargo",
+    "PT Indah Logistik Cargo",
+    "Indah Logistic"
+  ],
+  "region": {
+    "countries": [
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#f28f2a"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jakarta",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "indah-logistik",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 798
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "service_name",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://indahonline.com/services/view?NO_RESI={trackingNumber}",
+    "searchUrl": "https://indahonline.com/tracking/cek-resi",
+    "canaryUrl": "https://indahonline.com/tracking/cek-resi",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin",
+      "destination",
+      "service_name",
+      "weight",
+      "parcel_count",
+      "awb_date",
+      "transit_time",
+      "payment_details",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "phone_numbers",
+      "staff_details",
+      "driver_name",
+      "signatory"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "weight"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "parcel_count",
+      "awb_date",
+      "transit_time",
+      "payment_details",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "phone_numbers",
+      "staff_details",
+      "driver_name",
+      "signatory"
+    ],
+    "unavailable": [
+      "eta",
+      "delivered_at",
+      "offset_timestamps",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "indahonline.com",
+        "www.indahonline.com"
+      ],
+      "pathPattern": "^/(?:en/)?services/view/?$",
+      "params": [
+        "NO_RESI"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "indah-logistik-1",
+      "pattern": "^[A-Z]{3}1CS(?:\\d{8}|(?:PL)?\\d{12})$",
+      "confidence": "high"
+    }
+  ]
+}

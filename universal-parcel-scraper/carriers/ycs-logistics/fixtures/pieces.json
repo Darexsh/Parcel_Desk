@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "msg": "成功",
+  "data": {
+    "00000000003": {
+      "search_status": 2,
+      "info": {"systemNumber": "00000000003", "subSystemNumber": "00", "trackingNumber": "00000000003", "weight": "8", "size": "120", "numOfPackage": 2, "full_name": "樣本公司"},
+      "batchs": {
+        "0000000000301": [
+          {"currentDate": "2026-07-01 10:00:00", "status_type": "檔案上傳成功", "external_status_type": "", "company": "", "code": 0, "estimated_date": null, "hctrt_status": null, "user": {"title": ""}},
+          {"company": "樣本站", "agents": 0, "company_belong": "樣本站", "cargo_id": 0, "status_type": "已取件", "hctrt_status": null, "code": 101, "Date1": "2026-07-01 16:00:00", "estimated_date": null, "Date2": "2026-07-01 16:00:00", "users_id": 0, "external_status_type": null, "user": {"id": 0, "title": "樣本站-司機-樣本人員"}},
+          {"company": "樣本二站", "agents": 0, "company_belong": "樣本二站", "cargo_id": 0, "status_type": "人員配送中", "hctrt_status": null, "code": 601, "Date1": "2026-07-02 08:30:00", "estimated_date": null, "Date2": "2026-07-02 08:30:00", "users_id": 0, "external_status_type": null, "user": {"id": 0, "title": "樣本二站-司機-樣本人員"}},
+          {"company": "樣本二站", "agents": 0, "company_belong": "樣本二站", "cargo_id": 0, "status_type": "已配達", "hctrt_status": null, "code": 999, "Date1": "2026-07-02 11:15:00", "estimated_date": null, "Date2": "2026-07-02 11:15:00", "users_id": 0, "external_status_type": null, "user": {"id": 0, "title": "樣本二站-司機-樣本人員"}}
+        ],
+        "0000000000302": [
+          {"currentDate": "2026-07-01 10:00:00", "status_type": "檔案上傳成功", "external_status_type": "", "company": "", "code": 0, "estimated_date": null, "hctrt_status": null, "user": {"title": ""}},
+          {"company": "樣本站", "agents": 0, "company_belong": "樣本站", "cargo_id": 0, "status_type": "已取件", "hctrt_status": null, "code": 101, "Date1": "2026-07-01 16:00:00", "estimated_date": null, "Date2": "2026-07-01 16:00:00", "users_id": 0, "external_status_type": null, "user": {"id": 0, "title": "樣本站-司機-樣本人員"}},
+          {"company": "樣本二站", "agents": 0, "company_belong": "樣本二站", "cargo_id": 0, "status_type": "人員配送中", "hctrt_status": null, "code": 601, "Date1": "2026-07-02 08:30:00", "estimated_date": null, "Date2": "2026-07-02 08:30:00", "users_id": 0, "external_status_type": null, "user": {"id": 0, "title": "樣本二站-司機-樣本人員"}},
+          {"company": "樣本二站", "agents": 0, "company_belong": "樣本二站", "cargo_id": 0, "status_type": "配完", "hctrt_status": null, "code": 999, "Date1": "2026-07-02 11:40:00", "estimated_date": null, "Date2": "2026-07-02 11:40:00", "users_id": 0, "external_status_type": null, "user": {"id": 0, "title": "樣本二站-司機-樣本人員"}}
+        ]
+      },
+      "status_type": "已配達",
+      "forth_or_back": {"0000000000301": {"hash": false, "msg": "不是來回件", "cargoNumber": ""}, "0000000000302": {"hash": false, "msg": "不是來回件", "cargoNumber": ""}}
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "carrier": "budbee",
+  "entries": [
+    {"code": "PARCEL_CREATED", "wording": "A parcel has been electronically received and registered by Budbee.", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation."},
+    {"code": "SORTED_AT_TERMINAL", "wording": "The parcel has been sorted a Budbee terminal.", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation. The missing word is Budbee's."},
+    {"code": "DELIVERY_VEHICLE_LOADED", "wording": "The parcel has been loaded into the delivery vehicle ready to begin the deliveries.", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation."},
+    {"code": "DELIVERED_TO_CONSUMER", "wording": "The parcel was successfully delivered to the consumer.", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation."},
+    {"code": "DELIVERY_FAILED", "wording": "Budbee was unable to deliver the parcel to the consumer.", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation."},
+    {"code": "DELIVERED_TO_LOCKER", "wording": "The parcel has been delivered to the locker for the consumer to collect.", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation."},
+    {"code": "INJECTED_IN_LOCKER", "wording": "The parcel has been placed in the locker to be collected.", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation."},
+    {"code": "CONSUMER_PICKED_UP_FROM_LOCKER", "wording": "The consumer has picked-up the parcel from the locker.", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation."},
+    {"code": "PARCEL_RECALLED", "wording": "A parcel has been set to be returned to the merchant.", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation."},
+    {"code": "RETURN_HOME_PICKED_UP", "wording": "The parcel has been picked-up from the consumer.", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation. A consumer return collected at home."},
+    {"code": "RETURNED_TO_MERCHANT", "wording": "The parcel picked-up from the consumer has now been returned to the merchant.", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation. The end of a consumer return: the return parcel reached the merchant."},
+    {"code": "CHANGED_TO_LOCKER_DELIVERY", "wording": "The parcel will now be delivered to a locker box.", "language": "en", "confirmedBy": "official-doc", "note": "Webhook event of Budbee's developer documentation. A change of delivery option, not a movement."},
+    {"wording": "Delivered to neighbour", "stage": "delivered", "language": "en", "confirmedBy": "bundle", "note": "Status label in the tracker's script."},
+    {"wording": "Ready to be picked up", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "bundle", "note": "Status label in the tracker's script for a locker parcel."}
+  ]
+}

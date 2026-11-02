@@ -1,0 +1,56 @@
+{
+  "id": "shipter",
+  "displayName": "Shipter",
+  "aliases": [
+    "쉽터",
+    "H3 Networks",
+    "H3 NETWORKS Co., Ltd."
+  ],
+  "region": {
+    "countries": [
+      "KR"
+    ]
+  },
+  "brand": {
+    "color": "#005eff"
+  },
+  "selectable": true,
+  "timezone": "Asia/Seoul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.shipter.kr/tracking/{trackingNumber}",
+    "searchUrl": "https://www.shipter.kr/tracking",
+    "canaryUrl": "https://www.shipter.kr/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.shipter.kr",
+        "shipter.kr"
+      ],
+      "path": "^/tracking/([A-Za-z0-9]+)/?$"
+    },
+    {
+      "domains": [
+        "shiptertracking.com"
+      ],
+      "path": "^/trackingResult/([A-Za-z0-9]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "shipter-1",
+      "pattern": "^H3[A-Z]{2}\\d{6}KR$",
+      "confidence": "low"
+    }
+  ]
+}

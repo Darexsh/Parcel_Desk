@@ -1,0 +1,93 @@
+{
+  "carrier": "delhivery",
+  "entries": [
+    {
+      "wording": "Picked Up",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "A freight milestone; it can come without scans."
+    },
+    {
+      "wording": "On the Way",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "A freight milestone."
+    },
+    {
+      "wording": "In Transit",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "IN_TRANSIT",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The current status as a token rather than words."
+    },
+    {
+      "wording": "Out for Delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "note": "A freight milestone."
+    },
+    {
+      "wording": "Dispatched",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "note": "The scan of the out-for-delivery milestone."
+    },
+    {
+      "wording": "Delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "DELIVERED_SELLER",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "note": "The status once a return reaches the seller."
+    },
+    {
+      "wording": "RTO",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "note": "Scanned when a parcel returned to origin reaches the seller."
+    },
+    {
+      "wording": "DTO",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "note": "Scanned when a customer return reaches the seller."
+    },
+    {
+      "wording": "LOST",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live"
+    },
+    {
+      "wording": "CANCELLED",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "note": "The status of a cancelled shipment or return pickup."
+    },
+    {
+      "wording": "Canceled",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "note": "The scan of a cancelled shipment or return pickup."
+    }
+  ]
+}

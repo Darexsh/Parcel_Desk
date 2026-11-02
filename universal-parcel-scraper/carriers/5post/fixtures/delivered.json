@@ -1,0 +1,64 @@
+{
+  "orders": [
+    {"orderId": "00000000-0000-4000-8000-000000000017", "clientOrderId": "99990000000017", "orderStatus": "DONE", "orderStatusAssignmentDate": "2026-03-12T17:22:09.903+03:00", "senderName": "Пример Маркет", "belong": false, "orderType": "DIRECT"}
+  ],
+  "details": {
+    "orderId": "00000000-0000-4000-8000-000000000017",
+    "clientOrderId": "99990000000017",
+    "orderStatus": "DONE",
+    "orderStatusAssignmentDate": "2026-03-12T17:22:09.903+03:00",
+    "senderName": "Пример Маркет",
+    "cargoCount": 1,
+    "priceCurrency": "RUB",
+    "totalPrice": 1234.0,
+    "paymentCurrency": "RUB",
+    "leftToPay": 0,
+    "onlinePaymentAllowed": false,
+    "plannedReceiveDateAllowed": false,
+    "plannedReceiveDateChanged": false,
+    "expiredDate": "2026-03-17T23:59:59+03:00",
+    "receiverLocationAddress": "Примерово г, Тестовая ул, 1",
+    "receiverLocationId": "00000000-0000-4000-8000-0000000000a1",
+    "receiverLocationInnerType": "POSTAMAT",
+    "receiverLocationName": "Постамат в магазине Пятёрочка",
+    "receiverLocationWorkHours": [
+      {"day": "MON", "opensAt": "08:00:00", "closesAt": "22:00:00", "timezone": "Europe/Samara", "timezoneOffset": "+04:00"}
+    ],
+    "receiverCashAllowed": false,
+    "receiverCardAllowed": true,
+    "receiverName": "Postamat",
+    "storeBrandType": "PYATEROCHKA",
+    "orderType": "DIRECT",
+    "partnerCodeName": "example",
+    "needForcedPayment": false,
+    "locationInfo": {
+      "receiver": {
+        "type": "PICKUP_POINT",
+        "address": "Примерово г, Тестовая ул, 1",
+        "id": "00000000-0000-4000-8000-0000000000a1",
+        "name": "Постамат в магазине Пятёрочка",
+        "workHours": [
+          {"day": "MON", "opensAt": "08:00:00", "closesAt": "22:00:00", "timezone": "Europe/Samara", "timezoneOffset": "+04:00"}
+        ],
+        "actionFlags": {"cashAllowed": false, "cardAllowed": true},
+        "newRegion": false
+      }
+    },
+    "tags": [],
+    "servicesInfo": [],
+    "courierDeliveryAllowed": false,
+    "addresses": [],
+    "newRegion": false
+  },
+  "history": [
+    {"id": "00000000-0000-4000-8000-000000000017", "changeDate": "2026-03-02T10:15:00.5+03:00", "status": "INFORMATION_RECEIVED", "statusLocalized": "Ожидается передача заказа в 5post", "primaryStatus": true},
+    {"changeDate": "2026-03-04T06:20:11+03:00", "status": "CUSTOMS_CLEARANCE_STARTED", "statusLocalized": "Начато таможенное оформление", "primaryStatus": false, "brokerName": "ООО Пример Брокер", "brokerEmail": "broker@example.invalid", "brokerPhone": "+70000000000", "brokerUrl": "https://broker.example.invalid"},
+    {"changeDate": "2026-03-04T11:02:45+03:00", "status": "CUSTOMS_CLEARANCE_COMPLETED", "statusLocalized": "Таможенное оформление завершено", "primaryStatus": false, "brokerName": "ООО Пример Брокер", "brokerEmail": "broker@example.invalid", "brokerPhone": "+70000000000", "brokerUrl": "https://broker.example.invalid"},
+    {"id": "00000000-0000-4000-8000-000000000017", "changeDate": "2026-03-06T22:10:05.318+03:00", "status": "WAREHOUSE_PROCESSING", "statusLocalized": "Обрабатывается на складе РЦ Тестово", "primaryStatus": true, "locationId": "00000000-0000-4000-8000-0000000000b1"},
+    {"id": "00000000-0000-4000-8000-000000000017", "changeDate": "2026-03-07T04:31:27.144+03:00", "status": "READY_FOR_SHIPMENT", "statusLocalized": "Покинул склад РЦ Тестово", "primaryStatus": true, "locationId": "00000000-0000-4000-8000-0000000000b1"},
+    {"id": "00000000-0000-4000-8000-000000000017", "changeDate": "2026-03-09T09:14:52.736+03:00", "status": "WAREHOUSE_PROCESSING", "statusLocalized": "Обрабатывается на складе РЦ Примерово", "primaryStatus": true, "locationId": "00000000-0000-4000-8000-0000000000b2"},
+    {"id": "00000000-0000-4000-8000-000000000017", "changeDate": "2026-03-10T02:47:13.581+03:00", "status": "READY_FOR_SHIPMENT", "statusLocalized": "Покинул склад. Ожидайте поступления в пункт выдачи", "primaryStatus": true, "locationId": "00000000-0000-4000-8000-0000000000b2"},
+    {"id": "00000000-0000-4000-8000-000000000017", "changeDate": "2026-03-10T12:05:38.462+03:00", "status": "DELIVERED", "statusLocalized": "Доставлен в пункт выдачи", "primaryStatus": true, "locationId": "00000000-0000-4000-8000-0000000000a1"},
+    {"id": "00000000-0000-4000-8000-000000000017", "changeDate": "2026-03-12T17:22:09.903+03:00", "status": "DONE", "statusLocalized": "Получен", "primaryStatus": true, "locationId": "00000000-0000-4000-8000-0000000000a1"}
+  ]
+}

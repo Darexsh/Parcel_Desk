@@ -1,0 +1,71 @@
+{
+  "tuNo": "10000000001",
+  "progressBar": {
+    "level": 100,
+    "statusBar": [
+      { "imageStatus": "COMPLETE", "imageText": "Preadvice", "status": "PREADVICE", "statusText": "" },
+      { "imageStatus": "COMPLETE", "imageText": "In transit", "status": "INTRANSIT", "statusText": "" },
+      { "imageStatus": "COMPLETE", "imageText": "Final parcel center", "status": "INWAREHOUSE", "statusText": "" },
+      { "imageStatus": "COMPLETE", "imageText": "In delivery", "status": "INDELIVERY", "statusText": "" },
+      { "imageStatus": "CURRENT", "imageText": "Delivered", "status": "DELIVERED", "statusText": "The parcel has been delivered." }
+    ],
+    "statusInfo": "DELIVERED",
+    "statusText": "Delivered",
+    "retourFlag": false
+  },
+  "arrivalTime": { "name": "Delivered on:", "value": "15-Sep-2026 at 10:20 o`clock" },
+  "signature": { "name": "Signature", "value": "Private Recipient" },
+  "addresses": [
+    {
+      "type": "DELIVERY",
+      "value": {
+        "name1": "Private Recipient",
+        "street1": "Private Street",
+        "postalArea": { "postalCodeDisplay": "00-000", "city": "Private Town" }
+      }
+    }
+  ],
+  "references": [{ "type": "ORDER", "name": "Order", "value": "private-order-reference" }],
+  "infos": [
+    { "type": "WEIGHT", "name": "Weight", "value": "1.4 kg" },
+    { "type": "PHONE", "name": "Phone", "value": "+48000000000" }
+  ],
+  "history": [
+    {
+      "date": "15-Sep-2026",
+      "time": "10:20",
+      "evtDscr": "The parcel has been delivered.",
+      "evtNo": "0.100",
+      "address": { "countryName": "Poland", "city": "Gniezno", "street1": "Private Street" },
+      "recipient": "Private Recipient"
+    },
+    {
+      "date": "15-Sep-2026",
+      "time": "07:45",
+      "evtDscr": "The parcel is expected to be delivered during the day.",
+      "evtNo": "0.0",
+      "address": { "countryName": "Poland", "city": "Gniezno" }
+    },
+    {
+      "date": "15-Sep-2026",
+      "time": "05:10",
+      "evtDscr": "The parcel has reached the parcel center.",
+      "evtNo": "2.0",
+      "address": { "countryName": "Poland", "city": "Gniezno" }
+    },
+    {
+      "date": "14-Sep-2026",
+      "time": "21:30",
+      "evtDscr": "The parcel has left the parcel center.",
+      "evtNo": "2.0",
+      "address": { "countryName": "Poland", "city": "Strykow" }
+    },
+    {
+      "date": "14-Sep-2026",
+      "time": "16:05",
+      "evtDscr": "The parcel data was entered into the GLS IT system; the parcel was not yet handed over to GLS.",
+      "evtNo": "3.0",
+      "address": { "countryName": "Poland", "city": "Strykow" }
+    }
+  ]
+}

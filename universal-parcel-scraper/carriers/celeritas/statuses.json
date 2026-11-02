@@ -1,0 +1,20 @@
+{
+  "carrier": "celeritas",
+  "entries": [
+    {"wording": "Envío pendiente de recibir", "stage": "registered", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14", "note": "The shop has created or loaded the order in Celeritas's system but not handed the parcel over yet."},
+    {"wording": "Lectura en almacen de Cruce", "stage": "in_transit", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14", "note": "A scan at the cross-dock warehouse; the English page calls it \"shipment received in Celeritas Hub\"."},
+    {"wording": "Lectura en almacén de Cruce", "stage": "in_transit", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14", "note": "The accented spelling of the cross-dock scan, seen on the way to the returns warehouse."},
+    {"wording": "Envío recibido en agencia de origen", "stage": "in_transit", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14", "note": "Received at the origin agency; its explanation says a message follows when it goes out for delivery."},
+    {"wording": "Recibido en plataforma local", "stage": "in_transit", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14", "note": "Arrived at the agency that delivers."},
+    {"wording": "Envío en reparto", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14"},
+    {"wording": "Pospuesta en punto", "stage": "failed_attempt", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14", "note": "Delivery to the chosen Celeritas Point postponed; seen with the out-for-delivery scan, before the parcel was held at the agency. The shared rules give it no stage."},
+    {"wording": "Destinatario ausente", "stage": "failed_attempt", "language": "es", "confirmedBy": "portal", "note": "Seen in an archived capture of the tracker: nobody was home, and the parcel goes out again the next working day."},
+    {"wording": "Entrega concertada", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Seen in an archived capture of the tracker: a delivery date agreed with the recipient, for which the parcel waits at the depot."},
+    {"wording": "Disponible para recoger en agencia de transporte", "stage": "ready_for_pickup", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14", "note": "After a failed attempt the parcel waits at the transport agency for seven days."},
+    {"wording": "Devolución preparada en plataforma local", "stage": "returned", "language": "es", "confirmedBy": "portal", "note": "Seen in an archived capture of the tracker: on its way back to the origin warehouse."},
+    {"wording": "Devolución entregada en almacén de destino", "stage": "returned", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14", "note": "The return reached the returns warehouse."},
+    {"wording": "ENVIO DEVUELTO", "stage": "returned", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14", "note": "The heading above the scans, not a scan. It holds even when a later cross-dock scan follows the return."},
+    {"wording": "EN GESTION", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14", "note": "The heading of an open shipment, not a scan. The newest scan decides the stage."},
+    {"wording": "Esta referencia no existe", "language": "es", "confirmedBy": "live", "firstSeen": "2026-10-14", "note": "The tracker's answer for a reference it does not know, not a scan."}
+  ]
+}

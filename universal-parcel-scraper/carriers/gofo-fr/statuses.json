@@ -1,0 +1,127 @@
+{
+  "carrier": "gofo-fr",
+  "entries": [
+    {
+      "code": "205",
+      "wording": "Livré",
+      "language": "fr",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "206",
+      "wording": "Échec de la livraison, motif : Le destinataire n'est pas chez lui",
+      "language": "fr",
+      "stage": "failed_attempt",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "208",
+      "wording": "Le chauffeur est en route pour la livraison",
+      "language": "fr",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "201",
+      "wording": "Votre colis est arrivé à l’agence régionale GOFO de destination",
+      "language": "fr",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "200",
+      "wording": "Colis en cours d'acheminement",
+      "language": "fr",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "202",
+      "wording": "Votre colis a été pris en charge au centre de tri",
+      "language": "fr",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "LS004",
+      "wording": "Arrivé au site de prise en charge",
+      "language": "fr",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "The parcel reaches the site that takes it in, after the sender's preparation: GOFO's first scan of it."
+    },
+    {
+      "code": "100",
+      "wording": "Votre colis est en cours de préparation par l'expéditeur",
+      "language": "fr",
+      "stage": "registered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "282",
+      "wording": "Expédition en transit vers GOFO",
+      "language": "fr",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "On its way to GOFO, which has not received it yet: the official tracking client keeps this code with 100 in its announced step, before the sorting centre's receipt (202)."
+    },
+    {
+      "code": "203",
+      "wording": "En cours",
+      "language": "fr",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "204",
+      "wording": "Alerte",
+      "language": "fr",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "257",
+      "wording": "Retourné",
+      "language": "fr",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "264",
+      "wording": "Retourné",
+      "language": "fr",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "300",
+      "wording": "Alerte",
+      "language": "fr",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "301",
+      "wording": "Alerte",
+      "language": "fr",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "206",
+      "wording": "Alerte",
+      "language": "fr",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The generic alert category does not establish a failed delivery attempt; explicit failed-delivery wordings refine it."
+    }
+  ]
+}

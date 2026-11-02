@@ -1,0 +1,435 @@
+{
+  "carrier": "dhl-ecommerce-es",
+  "records": [
+    {
+      "number": "2800000007",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-07",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Made-up ten-digit shipment number. Its shape overlaps other carriers; the portal's answer attributes it."
+    },
+    {
+      "number": "ES00000010",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-07",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-es",
+          "tnt-it"
+        ]
+      },
+      "note": "Made-up number in the short form of two letters, seven digits and a zero."
+    },
+    {
+      "number": "DE99999990",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mydhl.express.dhl/es/en/forms/tracking-number-not-10-digits.html"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-es",
+          "tnt-it"
+        ]
+      },
+      "note": "Placeholder DHL Spain shows for the short form of a parcel number."
+    },
+    {
+      "number": "5001191987",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/reviews/6a84652fcca519fc5823caf7",
+        "date": "2026-08-18"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Public report naming DHL Parcel Spain for a domestic parcel; the portal returned the history."
+    },
+    {
+      "number": "CC502655557DE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/reviews/6a9eaa3163863b88e9e12967",
+        "date": "2026-09-07"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "Public report naming DHL Parcel Spain for a parcel sent from Germany; the portal returned the history. The number is DHL Paket's and detection leaves it there."
+    },
+    {
+      "number": "CA732400595DE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/reviews/6ac49bcee7e7b3a98bf827c6",
+        "date": "2026-10-06"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "Public report on DHL Spain's page for a parcel sent from Germany that CTT Express delivered; the portal returned the history."
+    },
+    {
+      "number": "999999999999",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mydhl.express.dhl/es/en/forms/tracking-number-not-10-digits.html"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Official documentation example, not a real shipment. No rule offers this network for twelve digits; the adapter reads one when the carrier is named."
+    },
+    {
+      "number": "CH400397205DE",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mydhl.express.dhl/es/en/forms/tracking-number-not-10-digits.html"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Example of a shipment from Europe on the Spanish help page, not a real shipment. Its check digit is wrong."
+    },
+    {
+      "number": "CH9999999999DE",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mydhl.express.dhl/es/en/forms/tracking-number-not-10-digits.html"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Placeholder on the Spanish help page with one digit too many, not a real shipment."
+    },
+    {
+      "number": "FVGL9999999999",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mydhl.express.dhl/es/en/forms/tracking-number-not-10-digits.html"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Placeholder on the Spanish help page, not a real shipment. The page names the JVGL and VGL prefixes; this spelling matches neither."
+    },
+    {
+      "number": "CH540450562DE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-entregado-en-punto-de-/82b8bb89b929b76984",
+        "date": "2026-08-01",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment",
+        "service": "DHL Paket parcel from Germany"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "Quoted from DHL eCommerce's reply in the complaint; the Iberian tracker returns its history."
+    },
+    {
+      "number": "CA786219293DE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-entregado-en-punto-de-/82b8bb89b929b76984",
+        "date": "2026-08-01",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment",
+        "service": "DHL Paket parcel from Germany"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "A second customer reports the same problem; the Iberian tracker returns its history."
+    },
+    {
+      "number": "JJD00026926000832370001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/servicio-no-realizado/66d60e632c86a6bd4b",
+        "date": "2026-07-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "One of two shipments in the complaint; the Iberian tracker returns its history."
+    },
+    {
+      "number": "JJD00026926000797050001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/servicio-no-realizado/66d60e632c86a6bd4b",
+        "date": "2026-07-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "One of two shipments in the complaint; the Iberian tracker returns its history."
+    },
+    {
+      "number": "JJD00036806102768486001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reclamaci-C3-B3n-por-incumplimiento/c92a911d0c6a2c1e41",
+        "date": "2026-06-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "Parcel from Portugal; the Iberian tracker returns its history, including the agreed delivery days."
+    },
+    {
+      "number": "JJD149021938753000158483",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-no-entregado-y-devuelt/c778dd9a20b65a663f",
+        "date": "2026-05-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "Parcel from the Czech Republic sent back to its sender; the Iberian tracker returns its history."
+    },
+    {
+      "number": "DE30493380",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-bloqueado-en-centro-lo/7bb9515c2d5c705bf8",
+        "date": "2026-04-20",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-es",
+          "tnt-it"
+        ]
+      },
+      "note": "Iberian short reference given next to the parcel's German DHL number; the Iberian tracker returns its history."
+    },
+    {
+      "number": "JJD00026906000002411001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reclamaci-C3-B3n-contra-dhl-parcel-/a441ff5476d8f2480c",
+        "date": "2026-03-04",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "Parcel to Germany dropped off at a ServicePoint; the Iberian tracker returns its only scan."
+    },
+    {
+      "number": "JJD00006135051474093003",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/pedido-parado-un-mes-sin-respu/1289b73fb3392696d4",
+        "date": "2025-12-19",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "expedition_code"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "The Iberian tracker returns its history, ending in a return to the sender."
+    },
+    {
+      "number": "2541275700",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/retenci-C3-B3n-de-env-C3-ADo-pagado/5f7a5eeccd0a4b69b8",
+        "date": "2025-11-12",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Given as the DHL shipment number; the Iberian tracker returns its history, including a delivery marked early."
+    },
+    {
+      "number": "1351378503",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/no-me-entregan-mi-paquete/6a26b0ad2e557d27ab",
+        "date": "2025-10-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "The Iberian tracker returns its history."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "carrier": "apc-overnight",
+  "records": [
+    {
+      "number": "2022012001915490000159",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://sellercentral-europe.amazon.com/seller-forums/discussions/t/c588cd5511243ae40915a43e9b8c748c?postId=227c9be5fdd0249216db3e50bb9f3491",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "apc-overnight",
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "A seller on Amazon's seller forum gives it as an APC Overnight consignment number. APC's tracker returns its history."
+    },
+    {
+      "number": "2026100902014380018924",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/apc-overnight/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "apc-overnight",
+          "austrian-post",
+          "seur",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "ParcelPanel's APC Overnight page offered it as a sample to try on 11 Oct 2026. APC's tracker returns its history."
+    },
+    {
+      "number": "2026090302014380017949",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/apc-overnight/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "apc-overnight",
+          "austrian-post",
+          "seur",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "ParcelPanel's APC Overnight page offered it as a sample to try on 11 Oct 2026. APC's tracker returns its history."
+    },
+    {
+      "number": "2018041910099660000599",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://glama.ai/mcp/servers/r18w3t28uu",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "apc-overnight",
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "The Glama listing of an open-source MCP server for APC Overnight's booking API uses it as the waybill in an example prompt; it is not described as a live shipment. APC's tracker no longer finds it."
+    }
+  ]
+}

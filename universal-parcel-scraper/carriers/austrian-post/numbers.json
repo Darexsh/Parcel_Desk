@@ -1,0 +1,340 @@
+{
+  "carrier": "austrian-post",
+  "records": [
+    {
+      "number": "1011236513864670170531",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.post.at/"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "Official documentation example, not a real shipment. The source attributes it to Austrian Post, which stays one candidate among several."
+    },
+    {
+      "number": "1040906599808880244007",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a75ae37aa311760875cbad5",
+        "date": "2026-08-07"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "Public Austrian Post report. Austrian Post's tracking returns its history."
+    },
+    {
+      "number": "CA643257963AT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.paketda.de/fragen-antworten.php?suche=CA643257963AT",
+        "date": "2026-03-04"
+      },
+      "expect": {
+        "carrier": "austrian-post",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "CA482156827DE",
+      "role": "negative",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.post.at/"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Official documentation example, not a real shipment. The S10 check digit does not validate. The source attributes it to Austrian Post, which no rule claims."
+    },
+    {
+      "number": "1022755012554320168504",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://at.reclabox.com/beschwerde/203236-oesterreichische-post-wien-pakete-werden-nicht-zugestellt",
+        "access": "full_page",
+        "date": "2019-12-07",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "Österreichische Post",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "Public report names this carrier; shipment identity remains unconfirmed."
+    },
+    {
+      "number": "1034111503111560211207",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://at.reclabox.com/beschwerde/221160-oesterreichische-post-wien-kein-zustellversuch-dhl-paket-bitte-nicht-retournieren",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "Österreichische Post",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "Public report names this carrier; shipment identity remains unconfirmed."
+    },
+    {
+      "number": "50169189000593",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://at.reclabox.com/beschwerde/213735-oesterreichische-post-wien-keine-zustellung-paket-seit-22-6-2020-in-verteilung-2005",
+        "access": "full_page",
+        "date": "2020-07-15",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "Österreichische Post",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Public report names this carrier; shipment identity remains unconfirmed."
+    },
+    {
+      "number": "CA254582517AT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.paketda.de/fragen-antworten.php?suche=CA254582517AT",
+        "date": "2026-02-10",
+        "access": "full_page",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "austrian-post",
+        "confidence": "high"
+      },
+      "note": "Public report of a parcel Austrian Post sent abroad, from the German consumer forum. Austrian Post's tracking no longer knows it."
+    },
+    {
+      "number": "CP865614593AT",
+      "role": "negative",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.paketda.de/fragen-antworten.php?suche=CP865614593AT",
+        "date": "2026-04-09",
+        "access": "full_page",
+        "dateKind": "publication"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Posted under Austrian Post on the German consumer forum, but its S10 check digit does not validate, so it is not an item number as printed."
+    },
+    {
+      "number": "1044860547245344525223",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.paketda.de/fragen-antworten.php?suche=1044860547245344525223",
+        "date": "2026-10-09",
+        "access": "full_page",
+        "dateKind": "forum_post"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "An Austrian Post parcel number from a public Paketda question. Austrian Post's tracking returned its history with the parcel's weight and size."
+    },
+    {
+      "number": "010000000000000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-16",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ciblex",
+          "inpost",
+          "bpost",
+          "austrian-post"
+        ]
+      },
+      "note": "Made-up number in the shape of the EURODIS barcode of a parcel Austrian Post's tracker followed abroad."
+    },
+    {
+      "number": "1021107502202813903809",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260804115412/https://www.post.at/s/sendungsdetails?snr=1021107502202813903809",
+        "date": "2026-08-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "An Austrian Post parcel sent to Italy, from an archived capture of its own tracking page. Its tracker names the parcel by the EURODIS partner's barcode and keeps this number as the original one."
+    },
+    {
+      "number": "1046752500242253902768",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260922140554/https://www.post.at/s/sendungsdetails?snr=1046752500242253902768",
+        "date": "2026-09-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "An Austrian Post parcel sent to Germany, from an archived capture of its own tracking page. Its tracker names the parcel by the partner's S10 number and keeps this number as the original one."
+    },
+    {
+      "number": "LY960813580DE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260924041646/https://www.dhl.com/de-en/home/tracking.html?locale=true&submit=1&tracking-id=LY960813580DE",
+        "date": "2026-09-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "A German postal parcel to Austria, from an archived capture of DHL's tracking page, which linked Austrian Post's tracking. Austrian Post's tracker answers for it under the same number, from Deutsche Post's acceptance to the letterbox."
+    },
+    {
+      "number": "RN700062106IT",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/Comune-di-Montesilvano/ComunicaPA/blob/main/docs/claude/postal-globalcom.md",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "Raccomandata internazionale"
+      },
+      "expect": {
+        "carrier": "poste-italiane",
+        "confidence": "high"
+      },
+      "note": "Registered letter from Italy to Austria in a municipality's public integration notes. Austrian Post's tracker answers for it under the same number, with Poste Italiane's posting and dispatch and its own scans in Austria."
+    },
+    {
+      "number": "CY226550310DE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a6a2019bb241d023f5fd21b",
+        "date": "2026-07-29",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "A parcel sent from Germany to Austria, quoted in a review of Deutsche Post. Austrian Post's tracker answers for it under the same number, from the pre-advice to the delivery."
+    }
+  ]
+}

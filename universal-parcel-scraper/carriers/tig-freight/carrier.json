@@ -1,0 +1,43 @@
+{
+  "id": "tig-freight",
+  "displayName": "TIG Freight",
+  "aliases": [
+    "TIG Freight Management",
+    "TIG Freight Management Pty Ltd"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#17479e"
+  },
+  "selectable": true,
+  "timezone": "Australia/Melbourne",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.open360.com/tracking/{trackingNumber}",
+    "searchUrl": "https://tracking.open360.com/tracking/",
+    "canaryUrl": "https://tigfreight.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.open360.com"
+      ],
+      "path": "^/tracking/([^/?#]+)/?$",
+      "detectFromNumber": true
+    }
+  ],
+  "detection": []
+}

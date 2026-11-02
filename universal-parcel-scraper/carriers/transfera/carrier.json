@@ -1,0 +1,45 @@
+{
+  "id": "transfera",
+  "displayName": "Transfera",
+  "aliases": [
+    "Transfera d.o.o. Beograd"
+  ],
+  "region": {
+    "countries": [
+      "RS",
+      "BA",
+      "ME",
+      "MK",
+      "AL"
+    ]
+  },
+  "brand": {
+    "color": "#ed1c24"
+  },
+  "selectable": true,
+  "timezone": "Europe/Belgrade",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.transfera.com/package/{trackingNumber}",
+    "searchUrl": "https://tracking.transfera.com/",
+    "canaryUrl": "https://tracking.transfera.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.transfera.com"
+      ],
+      "path": "^/package/([^/]+)/?$"
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,30 @@
+{
+  "carrier": "mylerz",
+  "entries": [
+    {"code": "12", "wording": "Uploaded", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Consumer status (StatusBusId and StatusBusEnName) of a scan in the tracking API: the merchant uploaded the shipment."},
+    {"code": "12", "wording": "تم الرفع", "stage": "registered", "language": "ar", "confirmedBy": "live", "note": "Arabic name of the consumer status (StatusBusArName) for Uploaded."},
+    {"code": "7", "wording": "Picked from shipper", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Consumer status of a scan in the tracking API: the courier collected the parcel from the merchant."},
+    {"code": "7", "wording": "تم استلامها من التاجر", "stage": "accepted", "language": "ar", "confirmedBy": "live", "note": "Arabic name of the consumer status for Picked from shipper."},
+    {"code": "3", "wording": "In-Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Consumer status of a scan in the tracking API, beside the internal status Received in Hub."},
+    {"code": "3", "wording": "فى الطريق", "stage": "in_transit", "language": "ar", "confirmedBy": "live", "note": "Arabic name of the consumer status for In-Transit."},
+    {"code": "4", "wording": "mylerz on the way", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Consumer status of a scan in the tracking API: the courier who delivers the parcel has it, and calls the recipient from this scan."},
+    {"code": "4", "wording": "المندوب فى الطريق", "stage": "out_for_delivery", "language": "ar", "confirmedBy": "live", "note": "Arabic name of the consumer status for mylerz on the way."},
+    {"code": "2", "wording": "Delivered, Enjoy it :-)", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Consumer status of a scan in the tracking API, also the shipment's ConsumerENStatus."},
+    {"code": "2", "wording": "تم تسليمها   :-)", "stage": "delivered", "language": "ar", "confirmedBy": "live", "note": "Arabic name of the consumer status for Delivered; the reply has three spaces before the smiley."},
+    {"code": "1", "stage": "exception", "confirmedBy": "bundle", "note": "Cancelledbyshipper in the tracker's ConsumerPackageStatusEnum: the merchant cancelled the shipment."},
+    {"code": "5", "stage": "registered", "confirmedBy": "bundle", "note": "NotPickedYet in the tracker's ConsumerPackageStatusEnum: the courier has not collected the parcel from the merchant yet."},
+    {"code": "6", "stage": "returned", "confirmedBy": "bundle", "note": "Onitswaytoshipper in the tracker's ConsumerPackageStatusEnum: the parcel is going back to the merchant."},
+    {"code": "8", "stage": "exception", "confirmedBy": "bundle", "note": "Pleaserefertoshipper in the tracker's ConsumerPackageStatusEnum: the recipient has to ask the merchant."},
+    {"code": "9", "stage": "failed_attempt", "confirmedBy": "bundle", "note": "Rejectedreasontobementioned in the tracker's ConsumerPackageStatusEnum: the recipient refused the parcel at the door."},
+    {"code": "10", "stage": "returned", "confirmedBy": "bundle", "note": "Returnedtoshipper in the tracker's ConsumerPackageStatusEnum: the parcel is back with the merchant."},
+    {"code": "11", "stage": "failed_attempt", "confirmedBy": "bundle", "note": "Wewillcomeagain in the tracker's ConsumerPackageStatusEnum: a delivery that did not happen and will be tried again."},
+    {"wording": "Ready", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "Internal status name (StatusEnName) beside Uploaded. The adapter stages the consumer status beside it and shows this name only for a scan without one."},
+    {"wording": "Received by Myler", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "Internal status name beside both Picked from shipper and mylerz on the way, so it cannot tell the pickup from the delivery courier."},
+    {"wording": "Received in Hub", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "Internal status name beside In-Transit."},
+    {"wording": "Delivered", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "Internal status name beside Delivered, Enjoy it :-). The map does not read it; the shared wording rules stage a scan that shows it as delivered."},
+    {"wording": "جاهز", "language": "ar", "confirmedBy": "live", "unmapped": true, "note": "Internal status name (StatusArName) for Ready."},
+    {"wording": "استلمت", "language": "ar", "confirmedBy": "live", "unmapped": true, "note": "Internal status name for Received by Myler, used at pickup and with the delivery courier."},
+    {"wording": "موجوده بالفرع", "language": "ar", "confirmedBy": "live", "unmapped": true, "note": "Internal status name for Received in Hub."},
+    {"wording": "وصلت", "language": "ar", "confirmedBy": "live", "unmapped": true, "note": "Internal status name for Delivered."}
+  ]
+}

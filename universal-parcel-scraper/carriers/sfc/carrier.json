@@ -1,0 +1,99 @@
+{
+  "id": "sfc",
+  "displayName": "SFC Service",
+  "aliases": [
+    "SFC",
+    "Sendfromchina",
+    "Send From China",
+    "SFC Express",
+    "三态速递",
+    "深圳三态现代物流有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#ff8100"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "sfc",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 955
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivery_partner",
+    "delivery_tracking_number",
+    "destination_country"
+  ],
+  "portal": {
+    "searchUrl": "https://www.sendfromchina.com/track",
+    "canaryUrl": "https://www.sendfromchina.com/track",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "order_reference",
+      "customer_reference",
+      "service_name",
+      "origin_country",
+      "destination_country",
+      "recipient_name",
+      "driver_name",
+      "office_contact_details",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "destination_country"
+    ],
+    "discarded": [
+      "order_reference",
+      "customer_reference",
+      "service_name",
+      "origin_country",
+      "recipient_name",
+      "driver_name",
+      "office_contact_details",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "delivered_at",
+      "offset_timestamps",
+      "provider_code"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "sfc-1",
+      "pattern": "^SFC\\d[A-Z]{2}\\d{13,14}$",
+      "confidence": "high"
+    },
+    {
+      "id": "sfc-ae",
+      "pattern": "^SFC[A-Z]{2}\\d{10}YQ$",
+      "confidence": "high"
+    }
+  ]
+}

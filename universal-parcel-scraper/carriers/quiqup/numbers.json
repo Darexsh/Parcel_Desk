@@ -1,0 +1,52 @@
+{
+  "carrier": "quiqup",
+  "records": [
+    {
+      "number": "8994240",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://track-parcel.quiqup.com/",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Placeholder of the Reference No field on Quiqup's own tracker."
+    },
+    {
+      "number": "24986507",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/69c902cac4bf75a8842297f7",
+        "date": "2026-03-29",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "order number",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A customer quoted it, beside another number, as the order of a late Quiqup delivery in a review of Quiqup. Quiqup's tracker knows it as an order number, with a history."
+    }
+  ]
+}

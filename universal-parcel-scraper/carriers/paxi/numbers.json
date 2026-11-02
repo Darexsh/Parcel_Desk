@@ -1,0 +1,28 @@
+{
+  "carrier": "paxi",
+  "records": [
+    {
+      "number": "8717377014720",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.paxi.co.za/track-a-parcel",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "The example in the search field of PAXI's own tracking page."
+    }
+  ]
+}

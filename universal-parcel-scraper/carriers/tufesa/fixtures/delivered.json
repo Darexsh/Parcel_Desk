@@ -1,0 +1,42 @@
+[
+  {
+    "code": "10000000",
+    "origen": "PUEBLO EJEMPLO",
+    "destino": "VILLA MUESTRA",
+    "fecha": "02/03/2026",
+    "hora": "10:15",
+    "cant": "1",
+    "remitente": "EMPRESA MUESTRA SA DE CV",
+    "destinatario": "PERSONA EJEMPLO",
+    "Rastreo": "10000000",
+    "folio": "1",
+    "envio": "SOBRE",
+    "tipo": "PAGADO",
+    "importe": "0.00",
+    "historial": [
+      { "code": "10000000", "movimiento": "REGISTRO DE ENVIO", "ubicacion": "PUEBLO EJEMPLO", "fechamov": "02/03/2026", "horamov": "10:15", "msgnum": 0, "msgtxt": "RESULTADO EXITOSO", "mov": "RG", "fchlegible": "02 De Marzo Del 2026 10:15 Horas.", "UbicacionLegible": "Pueblo Ejemplo, Sonora", "MensageCliente": "Envío Documentado" },
+      { "code": "10000000", "movimiento": "REGISTRO DE EMBARQUE", "ubicacion": "PUEBLO EJEMPLO", "fechamov": "02/03/2026", "horamov": "18:30", "msgnum": 0, "msgtxt": "RESULTADO EXITOSO", "mov": "EM", "fchlegible": "02 De Marzo Del 2026 18:30 Horas.", "UbicacionLegible": "Pueblo Ejemplo, Sonora", "MensageCliente": "Envío En Tránsito" },
+      { "code": "10000000", "movimiento": "REGISTRO DE TRAYECTO", "ubicacion": "CIUDAD PRUEBA", "fechamov": "03/03/2026", "horamov": "04:10", "msgnum": 0, "msgtxt": "RESULTADO EXITOSO", "mov": "TK", "fchlegible": "03 De Marzo Del 2026 04:10 Horas.", "UbicacionLegible": "Ciudad Prueba, Sinaloa", "MensageCliente": "Envío En Tránsito" },
+      { "code": "10000000", "movimiento": "REGISTRO DE TRAYECTO", "ubicacion": "CIUDAD PRUEBA", "fechamov": "03/03/2026", "horamov": "05:20", "msgnum": 0, "msgtxt": "RESULTADO EXITOSO", "mov": "TK", "fchlegible": "03 De Marzo Del 2026 05:20 Horas.", "UbicacionLegible": "Ciudad Prueba, Sinaloa", "MensageCliente": "Envío En Tránsito" },
+      { "code": "10000000", "movimiento": "REGISTRO DE DESEMBARQUE", "ubicacion": "VILLA MUESTRA", "fechamov": "03/03/2026", "horamov": "07:45", "msgnum": 0, "msgtxt": "RESULTADO EXITOSO", "mov": "DS", "fchlegible": "03 De Marzo Del 2026 07:45 Horas.", "UbicacionLegible": "Villa Muestra, Sinaloa", "MensageCliente": "Envío En Tránsito" },
+      { "code": "10000000", "movimiento": "RECEPCION DE ENVIO EN CONTENEDOR", "ubicacion": "VILLA MUESTRA", "fechamov": "03/03/2026", "horamov": "12:00", "msgnum": 0, "msgtxt": "RESULTADO EXITOSO", "mov": "RC", "fchlegible": "03 De Marzo Del 2026 12:00 Horas.", "UbicacionLegible": "Villa Muestra, Sinaloa", "MensageCliente": "Recibido En Sucursal Destino" },
+      { "code": "10000000", "movimiento": "ENTREGA DE ENVIO", "ubicacion": "VILLA MUESTRA", "fechamov": "04/03/2026", "horamov": "16:40", "msgnum": 0, "msgtxt": "RESULTADO EXITOSO", "mov": "EN", "fchlegible": "04 De Marzo Del 2026 16:40 Horas.", "UbicacionLegible": "Villa Muestra, Sinaloa", "MensageCliente": "Envío Entregado" },
+      { "code": "10000000", "movimiento": "RECIBIDO POR: PERSONA EJEMPLO", "ubicacion": "ENTREGA", "fechamov": "04/03/2026", "horamov": "16:40", "msgnum": 0, "msgtxt": "RESULTADO EXITOSO", "mov": "EN", "fchlegible": "04 De Marzo Del 2026 16:40 Horas.", "UbicacionLegible": "", "MensageCliente": "" }
+    ],
+    "entrega": { "recibe": "PERSONA EJEMPLO", "lat": "10.0000", "lng": "-100.0000", "identificacion": "-", "firmab64": "AAAA", "fechamov": "04/03/2026", "horamov": "16:40", "msgnum": 1, "msgtxt": "Datos de entrega encontrados", "obsent": "" },
+    "incidencias": [],
+    "msgnum": 0,
+    "msgtxt": "RESULTADO EXITOSO",
+    "dispEntDm": 1,
+    "rastreoExt": "",
+    "orgLegible": "Pueblo Ejemplo, Sonora",
+    "dstLegible": "Villa Muestra, Sinaloa",
+    "fchEstimada": "Por definir",
+    "direccionActual": "",
+    "idcd": 0,
+    "idedo": 0,
+    "Estado": "Sinaloa",
+    "Ciudad": "Villa Muestra",
+    "TipoServicio": "OCURRE"
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "id": "chunil",
+  "displayName": "Chunil Express",
+  "aliases": [
+    "천일택배",
+    "(주)천일택배",
+    "Chunil Cargo"
+  ],
+  "region": {
+    "countries": [
+      "KR"
+    ]
+  },
+  "brand": {
+    "color": "#000080"
+  },
+  "selectable": true,
+  "timezone": "Asia/Seoul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "chunil",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 621
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://www.chunil.co.kr/HTrace/HTrace.jsp?transNo={trackingNumber}",
+    "searchUrl": "https://www.chunil.co.kr/HTrace/HTrace.jsp",
+    "canaryUrl": "https://www.chunil.co.kr/HTrace/HTrace.jsp",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "sender_name",
+      "recipient_name",
+      "signatory",
+      "origin",
+      "destination",
+      "office_contact_details",
+      "order_contents",
+      "parcel_count"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "sender_name",
+      "recipient_name",
+      "signatory",
+      "origin",
+      "destination",
+      "office_contact_details",
+      "order_contents",
+      "parcel_count"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "delivered_at",
+      "eta",
+      "weight",
+      "service_name",
+      "provider_code",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.chunil.co.kr",
+        "chunil.co.kr"
+      ],
+      "pathPattern": "^/HTrace/HTrace\\.jsp$",
+      "params": [
+        "transNo"
+      ]
+    }
+  ],
+  "detection": []
+}

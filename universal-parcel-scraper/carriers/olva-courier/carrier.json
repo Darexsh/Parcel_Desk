@@ -1,0 +1,95 @@
+{
+  "id": "olva-courier",
+  "displayName": "Olva Courier",
+  "aliases": [
+    "Olva",
+    "OLVA"
+  ],
+  "region": {
+    "countries": [
+      "PE"
+    ]
+  },
+  "brand": {
+    "color": "#fcb414"
+  },
+  "selectable": true,
+  "timezone": "America/Lima",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "olva-courier",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 911
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "weight",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://tracking.olvacourier.com/?q={trackingNumber}",
+    "searchUrl": "https://tracking.olvacourier.com/",
+    "canaryUrl": "https://tracking.olvacourier.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "order_contents",
+      "progress_rail",
+      "origin",
+      "destination"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "weight",
+      "canonical_tracking_number"
+    ],
+    "discarded": [
+      "order_contents",
+      "progress_rail",
+      "origin",
+      "destination",
+      "recipient_name",
+      "recipient_contact",
+      "recipient_id"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps",
+      "delivered_at",
+      "service_name",
+      "sender_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.olvacourier.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "q"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "olva-courier-3",
+      "pattern": "^ALIOLVA\\d{8}$",
+      "confidence": "high"
+    }
+  ]
+}

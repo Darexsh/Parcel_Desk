@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Track your shipments | Chit Chats</title>
+  <meta name="description" content="Get the latest tracking events for packages here. Track your shipment with Chit Chats by using your Chit Chats shipment ID.">
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-8 mb-5">
+          <h1 class="mb-5">
+            Track your shipment
+          </h1>
+          <div class="js-material-form mb-5">
+            <div class="js-tracking-form">
+  <form class="new_tracking_code_view_model js-material-form" id="new_tracking_code_view_model" action="/tracking" accept-charset="UTF-8" data-remote="true" method="post">
+    <div class="material-form__group js-material-form__group material-form__tracking-codes-group"><label class="material-form__label" for="tracking_code_view_model_tracking_codes">Enter your shipment IDs, one per line.</label> <textarea autocomplete="off" class="material-form__input js-material-form__control material-form__text-area js-material-form__text-area" name="tracking_code_view_model[tracking_codes]" id="tracking_code_view_model_tracking_codes">
+</textarea></div>
+    <input type="submit" name="commit" value="Track" class="btn btn-primary">
+  </form>
+            </div>
+          </div>
+          <h4>
+              Where can I find my Chit Chats shipment ID?
+          </h4>
+          <p>
+             Chit Chats shipment IDs are made up of a combination of 10 letters and numbers. E.g. AB1234C5D6
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      <div class="container mt-5">
+        <script>
+//<![CDATA[
+$(function() { new Flash('Nothing found for shipment ID W6A5B4C3D2', 'alert') })
+//]]>
+</script>
+
+<div class="js-flash alert--flash alert alert-success alert-dismissible">
+  <button type="button" class="js-flash-close close" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <span class="js-flash-content"></span>
+</div>
+      </div>
+</body>
+</html>

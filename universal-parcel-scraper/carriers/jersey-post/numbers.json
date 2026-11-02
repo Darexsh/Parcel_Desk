@@ -1,0 +1,62 @@
+{
+  "carrier": "jersey-post",
+  "records": [
+    {
+      "number": "LX118778663JE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240328174726/https://www.jerseypost.com/tools/track-trace/?tq=LX118778663JE",
+        "date": "2024-03-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A lookup archived from Jersey Post's own tracker; the capture shows the item despatched from Jersey."
+    },
+    {
+      "number": "UM254600198JE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210625134833/https://jerseypost.com/tools/track-trace/?tq=UM254600198JE",
+        "date": "2021-06-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A lookup archived from Jersey Post's own tracker; the capture shows an untracked-service item with scans relayed from the post abroad."
+    },
+    {
+      "number": "LX153962241JE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/jersey-post/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Jersey Post courier page offers it as a sample to try; Jersey Post's own tracker returns its history. Detection selects the generic postal carrier."
+    }
+  ]
+}

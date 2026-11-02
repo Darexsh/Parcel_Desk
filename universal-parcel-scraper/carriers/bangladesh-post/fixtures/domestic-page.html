@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMS Item Tracking</title>
+    <link rel="stylesheet" href="/mail_tracking_new/style.css?v=3">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-name-container">
+                <span class="company-name">Bangladesh Post Office</span>
+            </div>
+            <div class="tracking-title">Domestic Mail Item Tracking</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="search-container"><input type="hidden" name="csrf_token" id="csrf_token" value="1700000000TIME_SAMPLE0000000000000000000000000000000000000000000000000000000000000000">
+
+            <input type="text" id="searchInput" class="search-input" placeholder="Enter Item ID..." maxlength="13">
+            <button id="searchButton" class="search-button">Search</button>
+        </div>
+
+        <div id="resultsContainer">
+            <p class="message"></p>
+        </div>
+    </div>
+
+    <script src="/mail_tracking_new/script.js?v=3"></script>
+</body>
+</html>

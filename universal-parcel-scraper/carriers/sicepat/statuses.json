@@ -1,0 +1,18 @@
+{
+  "carrier": "sicepat",
+  "entries": [
+    {"wording": "TERIMA PERMINTAAN PICKUP DARI SHOPEE", "stage": "registered", "language": "id", "confirmedBy": "source", "note": "SiCepat received the marketplace's pickup request. Parcelsapp's SiCepat page quotes it among sample events."},
+    {"wording": "PAKET TELAH DIAMBIL SIGESIT", "stage": "accepted", "language": "id", "confirmedBy": "source", "note": "A SiCepat courier (SiGesit) collected the parcel; the tracker usually appends the courier's name. Quoted by Parcelsapp's SiCepat page."},
+    {"wording": "PAKET TELAH DI INPUT (MANIFESTED) DI BATAM [BATAM]", "stage": "accepted", "language": "id", "confirmedBy": "source", "note": "The parcel was entered at the named branch. Quoted by Parcelsapp's SiCepat page."},
+    {"wording": "PAKET TELAH DI TERIMA DI KANTOR PUSAT [KANTOR PUSAT]", "stage": "in_transit", "language": "id", "confirmedBy": "source", "note": "Received at the named facility. Quoted by Parcelsapp's SiCepat page."},
+    {"wording": "PAKET DI KEMBALIKAN DI JAKARTA PUSAT [GAMBIR] - (CODA) CLOSED ONCE DELIVERY ATTEMPT", "stage": "failed_attempt", "language": "id", "confirmedBy": "source", "note": "The courier reached a wrong or empty address and took the parcel back to the branch. Quoted by Parcelsapp's SiCepat page."},
+    {"wording": "Manifested", "stage": "accepted", "language": "en", "confirmedBy": "source", "note": "Status name in Parcelsapp's SiCepat status table: received at a SiCepat office, waiting to be sent."},
+    {"wording": "On Transit", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "Status name in Parcelsapp's SiCepat status table."},
+    {"wording": "Diterima di Perwakilan (ROD/Received on Destination)", "stage": "in_transit", "language": "id", "confirmedBy": "source", "note": "Received at the destination branch, not yet out for delivery. Status name in Parcelsapp's SiCepat status table."},
+    {"wording": "Antar Ulang (AU)", "stage": "failed_attempt", "language": "id", "confirmedBy": "source", "note": "Not delivered the previous day, to be delivered again. Status name in Parcelsapp's SiCepat status table."},
+    {"wording": "Bad address (BA)", "stage": "failed_attempt", "language": "en", "confirmedBy": "source", "note": "Status name in Parcelsapp's SiCepat status table. SiCepat's own complaint replies call the same issue Bad Address."},
+    {"wording": "NTH (Not Home)", "stage": "failed_attempt", "language": "en", "confirmedBy": "source", "note": "Status name in Parcelsapp's SiCepat status table."},
+    {"wording": "Misroute", "stage": "exception", "language": "en", "confirmedBy": "source", "note": "Sent on the wrong route; SiCepat reroutes it. Status name in Parcelsapp's SiCepat status table."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "source", "note": "Status name in Parcelsapp's SiCepat status table."}
+  ]
+}

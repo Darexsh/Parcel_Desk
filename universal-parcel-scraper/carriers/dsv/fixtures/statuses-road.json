@@ -1,0 +1,162 @@
+{
+  "events": [
+    {
+      "eventDate": "2026-05-14T00:00:00",
+      "eventDateTo": null,
+      "location": {
+        "locationId": null,
+        "code": "XB",
+        "place": "RECEIVERTOWN",
+        "countryCode": "XB"
+      },
+      "description": null,
+      "eventCode": "Delivery",
+      "masterEventCode": "Delivery",
+      "group": "Delivery",
+      "eventScopeType": "SHIPMENT",
+      "eventScopeId": null,
+      "timeStamp": null,
+      "cancelled": false,
+      "checked": true,
+      "hasHistory": false,
+      "hasContainerEvents": false,
+      "children": [
+        {
+          "eventDate": "2026-05-14T00:00:00",
+          "eventDateTo": "2026-05-15T00:00:00",
+          "location": {
+            "locationId": null,
+            "code": "XB",
+            "place": "RECEIVERTOWN",
+            "countryCode": "XB"
+          },
+          "description": "Estimated delivery",
+          "eventCode": "ESTIMATED_DELIVERY",
+          "masterEventCode": "ESTIMATED_DELIVERY",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": false,
+          "hasContainerEvents": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "eventDate": "2026-05-12T00:00:00",
+      "eventDateTo": null,
+      "location": {
+        "locationId": null,
+        "code": "XA",
+        "place": "SENDERTOWN",
+        "countryCode": "XA"
+      },
+      "description": null,
+      "eventCode": "Pickup",
+      "masterEventCode": "Pickup",
+      "group": "Pickup",
+      "eventScopeType": "SHIPMENT",
+      "eventScopeId": null,
+      "timeStamp": null,
+      "cancelled": false,
+      "checked": true,
+      "hasHistory": false,
+      "hasContainerEvents": false,
+      "children": [
+        {
+          "eventDate": "2026-05-12T16:40:00",
+          "eventDateTo": null,
+          "location": {
+            "locationId": null,
+            "code": "XA",
+            "place": "SENDERTOWN 00000",
+            "countryCode": "XA"
+          },
+          "description": "Actual pickup",
+          "eventCode": "ACTUAL_PICKUP",
+          "masterEventCode": "ACTUAL_PICKUP",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": false,
+          "hasContainerEvents": false,
+          "children": []
+        },
+        {
+          "eventDate": "2026-05-12T00:00:00",
+          "eventDateTo": "2026-05-12T00:00:00",
+          "location": {
+            "locationId": null,
+            "code": "XA",
+            "place": "SENDERTOWN",
+            "countryCode": "XA"
+          },
+          "description": "Requested pickup",
+          "eventCode": "REQUESTED_PICKUP",
+          "masterEventCode": "REQUESTED_PICKUP",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": false,
+          "hasContainerEvents": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "eventDate": "2026-05-11T14:25:00",
+      "eventDateTo": null,
+      "location": {
+        "locationId": null,
+        "code": "",
+        "place": null,
+        "countryCode": null
+      },
+      "description": null,
+      "eventCode": "Booking",
+      "masterEventCode": "Booking",
+      "group": "Booking",
+      "eventScopeType": "SHIPMENT",
+      "eventScopeId": null,
+      "timeStamp": null,
+      "cancelled": false,
+      "checked": true,
+      "hasHistory": false,
+      "hasContainerEvents": false,
+      "children": [
+        {
+          "eventDate": "2026-05-11T14:25:00",
+          "eventDateTo": null,
+          "location": {
+            "locationId": null,
+            "code": "",
+            "place": null,
+            "countryCode": null
+          },
+          "description": "Creation",
+          "eventCode": "CREATION",
+          "masterEventCode": "CREATION",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": false,
+          "hasContainerEvents": false,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "legData": null
+}

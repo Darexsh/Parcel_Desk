@@ -1,0 +1,49 @@
+{
+  "id": "famafutar",
+  "displayName": "FámaFutár",
+  "aliases": [
+    "Famafutar",
+    "FamaFutar",
+    "Fáma Futár",
+    "Fama Futar",
+    "Fáma Futárszolgálat",
+    "Fáma First",
+    "Fáma First Kft."
+  ],
+  "region": {
+    "countries": [
+      "HU"
+    ]
+  },
+  "brand": {
+    "color": "#ff7f00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Budapest",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://famafutar.hu/tracking/#{trackingNumber}",
+    "searchUrl": "https://famafutar.hu/tracking/",
+    "canaryUrl": "https://famafutar.hu/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "famafutar.hu",
+        "www.famafutar.hu"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "fragment": "^(\\d{24})$"
+    }
+  ],
+  "detection": []
+}

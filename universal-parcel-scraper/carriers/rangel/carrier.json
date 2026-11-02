@@ -1,0 +1,41 @@
+{
+  "id": "rangel",
+  "displayName": "Rangel",
+  "aliases": [
+    "Rangel Logistics Solutions"
+  ],
+  "region": {
+    "countries": [
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#1f285c"
+  },
+  "selectable": true,
+  "timezone": "Europe/Lisbon",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://my.rangel.com/track/search/{trackingNumber}",
+    "searchUrl": "https://my.rangel.com/track/search",
+    "canaryUrl": "https://www.rangel.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "my.rangel.com"
+      ],
+      "path": "^/track/search/([^/]+)/?$"
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,26 @@
+{
+  "carrier": "spx-vn",
+  "entries": [
+    {"code": "A000", "wording": "SLSTN đã được tạo, đang gửi yêu cầu đến đối tác vận chuyển", "stage": "registered", "language": "vi", "confirmedBy": "live", "note": "Hidden on the public page."},
+    {"code": "F000", "wording": "Người gửi đang chuẩn bị hàng", "stage": "registered", "language": "vi", "confirmedBy": "portal"},
+    {"code": "F000", "wording": "Người bán đang chuẩn bị hàng", "stage": "registered", "language": "vi", "confirmedBy": "live"},
+    {"code": "F001", "wording": "Lấy hàng không thành công vì người gửi chưa chuẩn bị hàng", "stage": "registered", "language": "vi", "confirmedBy": "portal", "note": "A failed pickup leaves the parcel with its sender."},
+    {"code": "F001", "wording": "Lấy hàng không thành công", "stage": "registered", "language": "vi", "confirmedBy": "live", "note": "A failed pickup leaves the parcel with its sender."},
+    {"code": "F098", "wording": "Người gửi đã gửi hàng tại bưu cục", "stage": "accepted", "language": "vi", "confirmedBy": "live", "note": "Followed by the drop-off point."},
+    {"code": "F100", "wording": "Đơn vị vận chuyển lấy hàng thành công", "stage": "accepted", "language": "vi", "confirmedBy": "live"},
+    {"code": "F440", "wording": "Đơn hàng đã đến kho", "stage": "in_transit", "language": "vi", "confirmedBy": "live", "note": "Followed by the hub, sometimes left blank."},
+    {"code": "F441", "wording": "Đơn hàng đã lên xe trung chuyển", "stage": "in_transit", "language": "vi", "confirmedBy": "live", "note": "Hidden on the public page."},
+    {"code": "F445", "wording": "Đơn hàng đã được phân loại và sẵn sàng trung chuyển đến điểm kế tiếp", "stage": "in_transit", "language": "vi", "confirmedBy": "live", "note": "Hidden on the public page."},
+    {"code": "F450", "wording": "Đơn hàng đã xuất khỏi kho", "stage": "in_transit", "language": "vi", "confirmedBy": "live"},
+    {"code": "F510", "wording": "Đơn hàng đã đến kho", "stage": "in_transit", "language": "vi", "confirmedBy": "live", "note": "Followed by the sorting centre."},
+    {"code": "F515", "wording": "Đơn hàng đã được phân loại và sẵn sàng trung chuyển đến điểm kế tiếp", "stage": "in_transit", "language": "vi", "confirmedBy": "live", "note": "Hidden on the public page."},
+    {"code": "F540", "wording": "Đơn hàng đang được trung chuyển", "stage": "in_transit", "language": "vi", "confirmedBy": "live", "note": "Followed by \"tới\" and the next hub."},
+    {"code": "F541", "wording": "Đơn hàng đã lên xe trung chuyển", "stage": "in_transit", "language": "vi", "confirmedBy": "live", "note": "Hidden on the public page."},
+    {"code": "F580", "wording": "Đơn hàng đang đến trạm giao hàng", "stage": "in_transit", "language": "vi", "confirmedBy": "live", "note": "Hidden on the public page."},
+    {"code": "F598", "wording": "Đã sắp xếp tài xế giao hàng", "stage": "in_transit", "language": "vi", "confirmedBy": "live", "note": "Assigning a driver is not yet out for delivery. Hidden on the public page."},
+    {"code": "F599", "wording": "Đơn hàng đã đến kho", "stage": "in_transit", "language": "vi", "confirmedBy": "live", "note": "Followed by the delivery hub."},
+    {"code": "F600", "wording": "Đang giao hàng", "stage": "out_for_delivery", "language": "vi", "confirmedBy": "live"},
+    {"code": "F650", "wording": "Giao hàng không thành công", "stage": "failed_attempt", "language": "vi", "confirmedBy": "live", "note": "Hidden on the public page."},
+    {"code": "F980", "wording": "Giao hàng thành công", "stage": "delivered", "language": "vi", "confirmedBy": "live"}
+  ]
+}

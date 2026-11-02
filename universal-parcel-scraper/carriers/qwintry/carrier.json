@@ -1,0 +1,98 @@
+{
+  "id": "qwintry",
+  "displayName": "Qwintry",
+  "aliases": [
+    "Qwintry Logistics",
+    "Qwintry Air"
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "RU"
+    ]
+  },
+  "brand": {
+    "color": "#ef7d00"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "qwintry",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 707
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "eta",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://logistics.qwintry.com/track?tracking={trackingNumber}",
+    "searchUrl": "https://logistics.qwintry.com/",
+    "canaryUrl": "https://logistics.qwintry.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "destination",
+      "delivery_method",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "consolidation_batch",
+      "transit_time"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "destination",
+      "delivery_method",
+      "consolidation_batch",
+      "transit_time"
+    ],
+    "unavailable": [
+      "weight",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "logistics.qwintry.com"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "qwintry-1",
+      "pattern": "^QR\\d{8}$",
+      "confidence": "high"
+    }
+  ]
+}

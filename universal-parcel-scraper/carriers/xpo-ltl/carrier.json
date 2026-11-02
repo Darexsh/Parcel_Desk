@@ -1,0 +1,112 @@
+{
+  "id": "xpo-ltl",
+  "displayName": "XPO",
+  "aliases": [
+    "XPO LTL",
+    "XPO Logistics",
+    "Con-way Freight"
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "CA",
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#cc0000"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "xpo-ltl",
+    "steps": [
+      "direct",
+      "retry",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 25
+    },
+    "localClocks": true,
+    "browserRecognition": {
+      "rank": 25
+    },
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "weight",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://ext-web.ltl-xpo.com/public-app/shipments?referenceNumber={trackingNumber}",
+    "searchUrl": "https://www.xpo.com/",
+    "canaryUrl": "https://www.xpo.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "weight",
+      "parcel_count",
+      "depots",
+      "route_number",
+      "sender_details",
+      "recipient_name",
+      "recipient_address",
+      "payment_details",
+      "customer_reference",
+      "proof_of_delivery",
+      "offset_timestamps"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "weight",
+      "provider_code",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "delivered_at",
+      "parcel_count",
+      "depots",
+      "route_number",
+      "sender_details",
+      "recipient_name",
+      "recipient_address",
+      "payment_details",
+      "customer_reference",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "service_name",
+      "dimensions"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "ext-web.ltl-xpo.com"
+      ],
+      "pathPattern": "^/public-app/shipments/?$",
+      "params": [
+        "referenceNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "xpo-ltl-1",
+      "pattern": "^\\d{9}$",
+      "confidence": "low",
+      "checksum": "mod7"
+    }
+  ]
+}

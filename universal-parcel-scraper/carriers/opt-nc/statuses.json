@@ -1,0 +1,30 @@
+{
+  "carrier": "opt-nc",
+  "entries": [
+    {"wording": "Votre courrier / colis a été pris en charge.", "stage": "accepted", "language": "fr", "confirmedBy": "official-doc", "note": "Asserted as the tracker's event text in OPT-NC's colisnc-sdk tests."},
+    {"wording": "Votre courrier / colis prendra le prochain départ international.", "stage": "in_transit", "language": "fr", "confirmedBy": "official-doc", "note": "Asserted as the tracker's event text in OPT-NC's colisnc-sdk tests. Waiting for the next international departure."},
+    {"wording": "Votre courrier / colis a quitté le pays.", "stage": "in_transit", "language": "fr", "confirmedBy": "official-doc", "note": "Asserted as the tracker's event text in OPT-NC's colisnc-sdk tests."},
+    {"wording": "Votre courrier / colis est arrivé dans le pays de destination.", "stage": "in_transit", "language": "fr", "confirmedBy": "official-doc", "note": "Asserted as the tracker's event text in OPT-NC's colisnc-sdk tests."},
+    {"wording": "Votre courrier / colis est en cours de dédouanement.", "stage": "customs", "language": "fr", "confirmedBy": "official-doc", "note": "Asserted as the tracker's event text in OPT-NC's colisnc-sdk tests."},
+    {"wording": "Votre courrier / colis est en cours de traitement.", "stage": "in_transit", "language": "fr", "confirmedBy": "official-doc", "note": "Asserted as the tracker's event text in OPT-NC's colisnc-sdk tests."},
+    {"wording": "Votre courrier / colis est en cours d acheminement.", "stage": "in_transit", "language": "fr", "confirmedBy": "official-doc", "note": "Asserted as the tracker's event text in OPT-NC's colisnc-sdk tests."},
+    {"wording": "Votre courrier / colis a été livré.", "stage": "delivered", "language": "fr", "confirmedBy": "official-doc", "note": "Asserted as the tracker's event text in OPT-NC's colisnc-sdk tests."},
+    {"wording": "Votre courrier/colis a été pris en charge", "stage": "accepted", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Votre courrier/colis a quitté le pays d'origine", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Votre courrier/colis est arrivé dans le pays de destination", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Votre courrier/colis est en cours de dédouanement", "stage": "customs", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Votre courrier/colis est en cours d'acheminement.", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Votre courrier/colis n'a pas pu être livré", "stage": "failed_attempt", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Votre courrier/colis a été livré", "stage": "delivered", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Envoi déposé par le client (Srt)", "stage": "accepted", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker. (Srt) marks an event at the origin post."},
+    {"wording": "Envoi reçu au bureau d’échange (Srt)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker. At the outward office of exchange abroad."},
+    {"wording": "Votre envoi a quitté le pays d’origine", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Envoi reçu au bureau d’échange (Ent)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker. (Ent) marks an event in New Caledonia; here the Nouméa office of exchange."},
+    {"wording": "Envoi soumis à traitement douanier (Ent)", "stage": "customs", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Traitement douanier en cours (Ent)", "stage": "customs", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Traitement douanier terminé (Ent)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker. Customs cleared."},
+    {"wording": "Envoi expédié vers l’établissement local (Ent)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Envoi reçu à l’établissement de distribution (Ent)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."},
+    {"wording": "Envoi : n’a pas pu être distribué (Ent)", "stage": "failed_attempt", "language": "fr", "confirmedBy": "portal", "note": "Seen in archived captures of OPT-NC's former IPS tracker."}
+  ]
+}

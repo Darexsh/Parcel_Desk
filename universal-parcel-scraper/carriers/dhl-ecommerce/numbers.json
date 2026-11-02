@@ -1,0 +1,452 @@
+{
+  "carrier": "dhl-ecommerce",
+  "records": [
+    {
+      "number": "33870000000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce"
+        ]
+      },
+      "note": "Invented placeholder used as a shape check. Filed under DHL eCommerce, which stays one candidate among several."
+    },
+    {
+      "number": "3387191106122423",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developer.dhl.com/api-reference/references-dhl-ecommerce-americas"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "Official documentation example, not a real shipment. The source attributes it to DHL eCommerce, which stays one candidate among several."
+    },
+    {
+      "number": "GM1234567890123456",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "dhl-ecommerce",
+        "confidence": "high"
+      },
+      "note": "Made-up number that follows the published format."
+    },
+    {
+      "number": "GM60511234500000001",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developer.dhl.com/api-reference/references-dhl-ecommerce-americas"
+      },
+      "expect": {
+        "carrier": "dhl-ecommerce",
+        "confidence": "high"
+      },
+      "note": "Official documentation example, not a real shipment."
+    },
+    {
+      "number": "GM99999999999",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20250125061940/https://www.dhl.com/global-en/home/tracking/id-labels.html",
+        "date": "2025-01-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "la-poste"
+        ]
+      },
+      "note": "DHL's guide to its tracking labels gives it as a DHL eCommerce example, not a real shipment: eCommerce IDs typically start with GM and run from ten to thirty-nine characters. Shorter than the sixteen to eighteen digits the high-confidence rule takes, so the GM prefix only puts DHL eCommerce first."
+    },
+    {
+      "number": "GM1203000045",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-25",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Made-up number in the shape of a DHL Parcel International Direct parcel from the United States to Australia that Webtrack answered with its history up to the hand-over to the Australian partner."
+    },
+    {
+      "number": "0031043534391627906195625053434",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developer.dhl.com/api-reference/references-dhl-ecommerce-americas"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce"
+        ]
+      },
+      "note": "Official documentation example, not a real shipment. Full label barcode rather than the number a user types. The source attributes it to DHL eCommerce; no rule matches this shape."
+    },
+    {
+      "number": "0031043534391640211895625057522",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developer.dhl.com/api-reference/references-dhl-ecommerce-americas"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce"
+        ]
+      },
+      "note": "Official documentation example, not a real shipment. Full label barcode rather than the number a user types. The source attributes it to DHL eCommerce; no rule matches this shape."
+    },
+    {
+      "number": "9261269903500013618305",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developer.dhl.com/api-reference/references-dhl-ecommerce-americas"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "Official documentation example, not a real shipment. A USPS-format number DHL eCommerce issues in the Americas; no rule claims DHL eCommerce for it."
+    },
+    {
+      "number": "9361269903500011492028",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developer.dhl.com/api-reference/references-dhl-ecommerce-americas"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "usps",
+          "dhl-ecommerce",
+          "austrian-post",
+          "estafeta"
+        ]
+      },
+      "note": "Official documentation example, not a real shipment. A USPS-format number DHL eCommerce issues in the Americas; no rule claims DHL eCommerce for it."
+    },
+    {
+      "number": "420999999261999900000000000000",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "observed_request",
+      "shapeConfirmed": "2026-10-07",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "usps",
+          "dhl-ecommerce"
+        ]
+      },
+      "note": "Made-up number in the shape Webtrack answers for a US parcel: the 420 routing prefix and ZIP code in front of the 22 digits."
+    },
+    {
+      "number": "71234567891234",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.dhl.com/discover/en-my/ship-with-dhl/track"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "zto",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "DHL eCommerce example on the Malaysian tracking page, not a real shipment. No rule offers this carrier for fourteen digits."
+    },
+    {
+      "number": "9261290316844317469885",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://webtrack.dhlglobalmail.com/?trackingnumber=9261290316844317469885"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "usps",
+          "dhl-ecommerce",
+          "austrian-post",
+          "estafeta"
+        ]
+      },
+      "note": "Public tracking link; the tracking page returned the history."
+    },
+    {
+      "number": "9261290376171504812868",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://webtrack.dhlglobalmail.com/?trackingnumber=9261290376171504812868"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "usps",
+          "dhl-ecommerce",
+          "austrian-post",
+          "estafeta"
+        ]
+      },
+      "note": "Public tracking link; the tracking page returned the history."
+    },
+    {
+      "number": "9261290376171505101329",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://webtrack.dhlglobalmail.com/?trackingnumber=9261290376171505101329"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "usps",
+          "dhl-ecommerce",
+          "austrian-post",
+          "estafeta"
+        ]
+      },
+      "note": "Public tracking link; the tracking page returned the history."
+    },
+    {
+      "number": "273551390D",
+      "role": "order_reference",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260928010620/https://webtrack.dhlecs.com/?trackingnumber=273551390D",
+        "date": "2026-09-28",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "service": "DHL Parcel Ground",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A shipper's package reference archived from a DHL eCommerce tracking link. Webtrack returned the parcel's history up to its USPS delivery and gave USPS's own number for it."
+    },
+    {
+      "number": "272085497D",
+      "role": "order_reference",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260915162452/https://webtrack.dhlecs.com/?trackingnumber=272085497D",
+        "date": "2026-09-15",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A shipper's package reference archived from a DHL eCommerce tracking link. Webtrack returned the parcel's history up to its USPS delivery."
+    },
+    {
+      "number": "9261290411503175907529",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261007204147/https://webtrack.dhlecs.com/orders?trackingNumber=9261290411503175907529",
+        "date": "2026-10-07",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "service": "DHL Parcel Plus Ground",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "usps",
+          "dhl-ecommerce",
+          "austrian-post",
+          "estafeta"
+        ]
+      },
+      "note": "Archived from a DHL eCommerce tracking link. Webtrack returned the parcel's history while it was still in DHL's network."
+    },
+    {
+      "number": "9261290357482657956985",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260927160405/https://webtrack.dhlecs.com/?trackingnumber=9261290357482657956985",
+        "date": "2026-09-27",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "usps",
+          "dhl-ecommerce",
+          "austrian-post",
+          "estafeta"
+        ]
+      },
+      "note": "Archived from a DHL eCommerce tracking link. Webtrack returned the parcel's history, including USPS accepting it after DHL's handover."
+    },
+    {
+      "number": "7227062646824406",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260622120821/https://ecommerceportal.dhl.com/track/pages/customer/trackItNowPublic.xhtml?ref=7227062646824406",
+        "date": "2026-06-22",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "service": "DHL Parcel Domestic",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Archived from a DHL eCommerce Asia tracking link. Webtrack returned a domestic parcel in Thailand delivered by DHL itself."
+    },
+    {
+      "number": "2071070246595155",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250220202851/https://webtrack.dhlecs.com/orders?trackingNumber=2071070246595155",
+        "date": "2025-02-20",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "Archived from a DHL eCommerce tracking link. Webtrack no longer lists it."
+    },
+    {
+      "number": "420127019261290376171425385106",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://webtrack.dhlglobalmail.com/?trackingnumber=420127019261290376171425385106"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "usps",
+          "dhl-ecommerce"
+        ]
+      },
+      "note": "Public tracking link; the tracking page returned the history."
+    },
+    {
+      "number": "UU000000005DE",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Synthetic number with a valid S10 check digit in the UU series issued under DE, which Webtrack answers for."
+    }
+  ]
+}

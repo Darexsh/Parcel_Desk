@@ -1,0 +1,65 @@
+{
+  "carrier": "dpd-hu",
+  "entries": [
+    {
+      "code": "PARCEL_HANDED",
+      "wording": "Parcel handed to DPD",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Moves the result to in_transit; no milestone of its own, as in DPD's map."
+    },
+    {
+      "code": "IN_TRANSIT",
+      "wording": "Your parcel is on its way",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Moves the result to in_transit; no milestone of its own, as in DPD's map."
+    },
+    {
+      "code": "AT_DELIVERY_CENTER",
+      "wording": "At delivery center",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Moves the result to in_transit; no milestone of its own, as in DPD's map."
+    },
+    {
+      "code": "AVAILABLE_FOR_COLLECTION",
+      "wording": "Ready for collection",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": ""
+    },
+    {
+      "code": "PARCEL_OUT_FOR_DELIVERY",
+      "wording": "Parcel out for delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": ""
+    },
+    {
+      "code": "UNSUCCESSFUL_DELIVERY_ATTEMPT",
+      "wording": "Unsuccessful delivery attempt",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "A retry, not a terminal state, as in DPD's map."
+    },
+    {
+      "code": "DELIVERED",
+      "wording": "Delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": ""
+    }
+  ]
+}

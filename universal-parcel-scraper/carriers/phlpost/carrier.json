@@ -1,0 +1,95 @@
+{
+  "id": "phlpost",
+  "displayName": "PHLPost",
+  "aliases": [
+    "Philippine Postal Corporation",
+    "PhilPost"
+  ],
+  "region": {
+    "countries": [
+      "PH"
+    ]
+  },
+  "brand": {
+    "color": "#9e0000"
+  },
+  "selectable": true,
+  "timezone": "Asia/Manila",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "phlpost",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 903
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "offset_timestamps",
+    "delivered_at",
+    "destination_country"
+  ],
+  "portal": {
+    "searchUrl": "https://tracking.phlpost.gov.ph/",
+    "canaryUrl": "https://tracking.phlpost.gov.ph/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin_country",
+      "destination_country",
+      "signatory",
+      "event_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at",
+      "destination_country",
+      "event_details"
+    ],
+    "discarded": [
+      "origin_country",
+      "signatory"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "postcodes",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.phlpost.gov.ph"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "TrackingNos"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "phlpost-s10",
+      "pattern": "^[A-Z]{2}\\d{9}PH$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

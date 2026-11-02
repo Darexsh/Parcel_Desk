@@ -1,0 +1,89 @@
+{
+  "id": "next-level-delivery",
+  "displayName": "Next Level",
+  "aliases": [
+    "NextLevel"
+  ],
+  "region": {
+    "countries": [
+      "BG",
+      "GR",
+      "RO",
+      "PL",
+      "SK",
+      "CZ",
+      "SI",
+      "HU",
+      "HR",
+      "CY"
+    ]
+  },
+  "brand": {
+    "color": "#eba121"
+  },
+  "selectable": true,
+  "timezone": "Europe/Sofia",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "next-level-delivery",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://nextlevel.delivery/track?awb={trackingNumber}",
+    "searchUrl": "https://nextlevel.delivery/",
+    "canaryUrl": "https://nextlevel.delivery/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "postcodes",
+      "remarks",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "postcodes",
+      "remarks"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "signatory",
+      "delivery_partner",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "nextlevel.delivery"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "awb"
+      ]
+    }
+  ],
+  "detection": []
+}

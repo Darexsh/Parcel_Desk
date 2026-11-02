@@ -1,0 +1,55 @@
+{
+  "id": "j-and-t-eg",
+  "displayName": "J&T Express Egypt",
+  "aliases": [
+    "J&T Express Egypt LLC",
+    "J&T Express (EG)",
+    "J&T Express EG",
+    "J&T Egypt",
+    "جي آند تي إكسبريس مصر"
+  ],
+  "region": {
+    "countries": [
+      "EG"
+    ]
+  },
+  "brand": {
+    "color": "#e60000"
+  },
+  "selectable": true,
+  "timezone": "Africa/Cairo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.jtexpress-eg.com/trajectoryQuery?waybillNo={trackingNumber}",
+    "searchUrl": "https://www.jtexpress-eg.com/trajectoryQuery",
+    "canaryUrl": "https://www.jtexpress-eg.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.jtexpress-eg.com",
+        "jtexpress-eg.com"
+      ],
+      "pathPattern": "^/(?:trajectoryQuery|trajectoryList)/?$",
+      "params": [
+        "waybillNo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "j-and-t-eg-1",
+      "pattern": "^JEG\\d{12}$",
+      "confidence": "low"
+    }
+  ]
+}

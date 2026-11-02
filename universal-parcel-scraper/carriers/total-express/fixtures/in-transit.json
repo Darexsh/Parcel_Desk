@@ -1,0 +1,205 @@
+{
+  "data": {
+    "encomenda": {
+      "pudo": null,
+      "ultimoStatusId": 105,
+      "previsaoEntrega": "2026-04-17",
+      "redespachoNumero": null,
+      "pedido": "SAMPLE-ORDER-2",
+      "awb": "TXAS000000002tx",
+      "nfiscal": "2*****",
+      "cliente": {
+        "fantasia": "SAMPLE OUTLET",
+        "permiteDestinatarioTratarNc": false,
+        "ticketInformacaoParaEntregaId": null
+      }
+    },
+    "layouts": [
+      {
+        "id": 1,
+        "nome": "Nacional",
+        "traducao": {
+          "idioma": "pt",
+          "nome": "Nacional"
+        },
+        "label": "nacional_padrao",
+        "ultimoStepId": 3,
+        "indOrdem": 1,
+        "etapas": [
+          {
+            "id": 1,
+            "traducao": {
+              "id": 1,
+              "idioma": "pt",
+              "nome": "Em posse da transportadora"
+            },
+            "icone": "place",
+            "ordemNum": 1,
+            "isInsucesso": false,
+            "isFixo": 1,
+            "listaStatus": [
+              {
+                "encostatid": "00000000-0000-4000-8000-000000000018",
+                "statid": 101,
+                "statusDescricao": "RECEBIDA E PROCESSADA NO CD",
+                "isInsucesso": 0,
+                "data": "2026-04-13",
+                "hora": "10:43:10",
+                "mensagemEvaTraducao": {
+                  "id": 1101,
+                  "idioma": "pt",
+                  "mensagemEva": "Seu pedido chegou ao nosso centro de distribuição e em breve seguirá para a unidade responsável pela entrega."
+                }
+              },
+              {
+                "encostatid": "00000000-0000-4000-8000-000000000019",
+                "statid": 68,
+                "statusDescricao": "COLETA RECEBIDA NO CD",
+                "isInsucesso": 0,
+                "data": "2026-04-13",
+                "hora": "10:43:10",
+                "mensagemEvaTraducao": {
+                  "id": 1101,
+                  "idioma": "pt",
+                  "mensagemEva": "Seu pedido chegou ao nosso centro de distribuição e em breve seguirá para a unidade responsável pela entrega."
+                }
+              },
+              {
+                "encostatid": "00000000-0000-4000-8000-000000000020",
+                "statid": 83,
+                "statusDescricao": "COLETA REALIZADA",
+                "isInsucesso": 0,
+                "data": "2026-04-13",
+                "hora": "10:41:27",
+                "mensagemEvaTraducao": {
+                  "id": 1105,
+                  "idioma": "pt",
+                  "mensagemEva": "Boa notícia! Seu pedido já foi coletado e está a caminho do nosso centro de distribuição."
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "traducao": {
+              "id": 2,
+              "idioma": "pt",
+              "nome": "Transferência para unidade local"
+            },
+            "icone": "local_shipping",
+            "ordemNum": 2,
+            "isInsucesso": false,
+            "isFixo": 1,
+            "listaStatus": [
+              {
+                "encostatid": "00000000-0000-4000-8000-000000000021",
+                "statid": 103,
+                "statusDescricao": "RECEBIDO CD DE:- XDD",
+                "isInsucesso": 0,
+                "data": "2026-04-15",
+                "hora": "02:55:35",
+                "mensagemEvaTraducao": {
+                  "id": 1102,
+                  "idioma": "pt",
+                  "mensagemEva": "Boa notícia! Seu pedido está sendo transferido para a unidade responsável pela entrega."
+                }
+              },
+              {
+                "encostatid": "00000000-0000-4000-8000-000000000022",
+                "statid": 79,
+                "statusDescricao": "EMBARQUE RECEBIDO NO CD:  - XDD",
+                "isInsucesso": 0,
+                "data": "2026-04-15",
+                "hora": "00:09:27",
+                "mensagemEvaTraducao": {
+                  "id": 1102,
+                  "idioma": "pt",
+                  "mensagemEva": "Boa notícia! Seu pedido está sendo transferido para a unidade responsável pela entrega."
+                }
+              },
+              {
+                "encostatid": "00000000-0000-4000-8000-000000000023",
+                "statid": 131,
+                "statusDescricao": "Embarque em ponto de passagem - XEE",
+                "isInsucesso": 0,
+                "data": "2026-04-14",
+                "hora": "07:11:41",
+                "mensagemEvaTraducao": {
+                  "id": 1102,
+                  "idioma": "pt",
+                  "mensagemEva": "Boa notícia! Seu pedido está sendo transferido para a unidade responsável pela entrega."
+                }
+              },
+              {
+                "encostatid": "00000000-0000-4000-8000-000000000024",
+                "statid": 130,
+                "statusDescricao": "Coleta em transbordo - XEE",
+                "isInsucesso": 0,
+                "data": "2026-04-13",
+                "hora": "23:37:20",
+                "mensagemEvaTraducao": {
+                  "id": 1102,
+                  "idioma": "pt",
+                  "mensagemEva": "Boa notícia! Seu pedido está sendo transferido para a unidade responsável pela entrega."
+                }
+              },
+              {
+                "encostatid": "00000000-0000-4000-8000-000000000025",
+                "statid": 78,
+                "statusDescricao": "EMBARCADO PARA:  - XDD",
+                "isInsucesso": 0,
+                "data": "2026-04-13",
+                "hora": "20:47:16",
+                "mensagemEvaTraducao": {
+                  "id": 1102,
+                  "idioma": "pt",
+                  "mensagemEva": "Boa notícia! Seu pedido está sendo transferido para a unidade responsável pela entrega."
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "traducao": {
+              "id": 3,
+              "idioma": "pt",
+              "nome": "Saída para Entrega"
+            },
+            "icone": "local_mall",
+            "ordemNum": 3,
+            "isInsucesso": false,
+            "isFixo": 1,
+            "listaStatus": [
+              {
+                "encostatid": "00000000-0000-4000-8000-000000000026",
+                "statid": 105,
+                "statusDescricao": "EM ROTA",
+                "isInsucesso": 0,
+                "data": "2026-04-15",
+                "hora": "02:55:35",
+                "mensagemEvaTraducao": {
+                  "id": 1108,
+                  "idioma": "pt",
+                  "mensagemEva": "Quase lá! Seu pedido já chegou à unidade responsável pela entrega."
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "traducao": {
+              "id": 4,
+              "idioma": "pt",
+              "nome": "Entrega Realizada"
+            },
+            "icone": "done",
+            "ordemNum": 4,
+            "isInsucesso": false,
+            "isFixo": 1,
+            "listaStatus": []
+          }
+        ]
+      }
+    ]
+  }
+}

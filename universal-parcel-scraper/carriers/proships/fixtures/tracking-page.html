@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="UTF-8">
+<title>Rastreo 2025 &#8211; Proships</title>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=sample-site-key&amp;ver=3.0" id="google-recaptcha-js"></script>
+</head>
+<body>
+<div class="elementor-shortcode">
+
+    <div id="trackingResultsPage"></div>    
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                var trackingCode = 'ML000000011MH';
+                if (typeof loadTrackingResults === 'function') {
+                    loadTrackingResults(trackingCode);
+                }
+            }, 100);
+        });
+        
+        function loadTrackingResults(trackingCode) {
+            var resultsDiv = document.getElementById('trackingResultsPage');
+            resultsDiv.innerHTML = '<div class="loading"></div>';
+            
+            var formData = new FormData();
+            formData.append('action', 'get_tracking_info');
+            formData.append('tracking_code', trackingCode);
+            formData.append('nonce', '0a1b2c3d4e');
+            
+            fetch('https://proships.com/wp-admin/admin-ajax.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(data) {
+                if (data.success && resultsDiv) {
+                    resultsDiv.innerHTML = data.data;
+                } else if (resultsDiv) {
+                    resultsDiv.innerHTML = '<div class="error-message">' + (data.data || 'Error desconocido') + '</div>';
+                }
+            });
+        }
+    </script>
+    
+</div>
+<script type="text/javascript">
+var digecoObj = {"ajaxURL":"https:\/\/proships.com\/wp-admin\/admin-ajax.php","nonce":"9f8e7d6c5b"};
+</script>
+</body>
+</html>

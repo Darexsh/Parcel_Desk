@@ -1,0 +1,112 @@
+{
+  "id": "estes-forwarding",
+  "displayName": "Estes Forwarding Worldwide",
+  "aliases": [
+    "EFW",
+    "Estes Forwarding",
+    "EFW Track"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#00345e"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "estes-forwarding",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 754
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "offset_timestamps",
+    "eta",
+    "delivered_at",
+    "service_name",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://efwtrack.com/track/{trackingNumber}",
+    "searchUrl": "https://efwtrack.com/",
+    "canaryUrl": "https://efwtrack.com/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "offset_timestamps",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "service_name",
+      "weight",
+      "parcel_count",
+      "dimensions",
+      "order_contents",
+      "location",
+      "signatory",
+      "customer_reference",
+      "delivery_partner",
+      "office_contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "offset_timestamps",
+      "eta",
+      "delivered_at",
+      "service_name",
+      "weight"
+    ],
+    "discarded": [
+      "progress_rail",
+      "eta_window",
+      "parcel_count",
+      "dimensions",
+      "order_contents",
+      "location",
+      "signatory",
+      "customer_reference",
+      "delivery_partner",
+      "office_contact_details"
+    ],
+    "unavailable": [
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "destination_country",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "efwtrack.com",
+        "www.efwtrack.com"
+      ],
+      "path": "^/track/([^/?#]+)(?:/\\d{5})?/?$"
+    },
+    {
+      "domains": [
+        "www.efwnow.com",
+        "efwnow.com"
+      ],
+      "pathPattern": "^/(?:track|my-efw)/?$",
+      "params": [
+        "txtInputNo"
+      ]
+    }
+  ],
+  "detection": []
+}

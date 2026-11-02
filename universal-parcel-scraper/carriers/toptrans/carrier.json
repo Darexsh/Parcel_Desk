@@ -1,0 +1,102 @@
+{
+  "id": "toptrans",
+  "displayName": "TOPTRANS",
+  "aliases": [
+    "TOPTRANS EU",
+    "TOPTRANS EU a.s.",
+    "Toptrans"
+  ],
+  "region": {
+    "countries": [
+      "CZ",
+      "SK"
+    ]
+  },
+  "brand": {
+    "color": "#005daa"
+  },
+  "selectable": true,
+  "timezone": "Europe/Prague",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "toptrans",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "weight",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://apis.toptrans.cz/tracking?parcel_number={trackingNumber}",
+    "searchUrl": "https://www.toptrans.cz/preprava/en/sledovani-zasilky",
+    "canaryUrl": "https://www.toptrans.cz/preprava/en/sledovani-zasilky",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "weight",
+      "parcel_count",
+      "origin",
+      "destination",
+      "departure_date",
+      "driver_name",
+      "delivery_comments",
+      "signatory",
+      "customer_reference",
+      "remarks",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "weight",
+      "canonical_tracking_number"
+    ],
+    "discarded": [
+      "parcel_count",
+      "origin",
+      "destination",
+      "departure_date",
+      "driver_name",
+      "delivery_comments",
+      "signatory",
+      "customer_reference",
+      "remarks",
+      "payment_details",
+      "depot_code"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "eta",
+      "provider_code",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "pickup_point",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "apis.toptrans.cz"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "parcel_number",
+        "item_number"
+      ]
+    }
+  ],
+  "detection": []
+}

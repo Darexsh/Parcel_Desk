@@ -1,0 +1,70 @@
+{
+  "carrier": "upaya",
+  "records": [
+    {
+      "number": "KTMKTM8304-1658055",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/Yunira0/ParcelMoover/blob/d7f1195d19430b347dc7e5a97bed93281191ceb0/docs/upaya-integration-plan.md",
+        "date": "2026-08-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "upaya"
+        ]
+      },
+      "note": "A merchant's open-source Upaya integration gives this as the tracking code Upaya's order API returned, written after testing against the live API."
+    },
+    {
+      "number": "KTMKTM12345-1234567",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://upaya.com.np/track/",
+        "date": "2026-10-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "upaya"
+        ]
+      },
+      "note": "The example Upaya's tracking form gives in its field. Its digits are a placeholder that the tracker does not know."
+    },
+    {
+      "number": "WRL2408001AZSN",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/Yunira0/ParcelMoover/blob/d7f1195d19430b347dc7e5a97bed93281191ceb0/docs/upaya-integration-plan.md",
+        "date": "2026-08-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The same integration quotes this as the path example in Upaya's client API document and reads it as a tracking code; the document itself is not public."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "hasQuery": "1",
+  "queryType": "guia_cliente",
+  "tracking": "",
+  "emision": "",
+  "display": "ALI-OLVA99000001",
+  "trackingData": {
+    "tracking": {
+      "number": "26-49900001",
+      "externalCode": "OLVA99000001",
+      "type": "NACIONAL",
+      "weight": "0.75",
+      "unitOfWeight": "KG",
+      "content": "CAJA - SOBRE CAJA PAQUETE",
+      "consignee": "DESTINATARIO DE PRUEBA",
+      "destinationAddress": "VILLA EJEMPLO, EJEMPLO",
+      "destinationPhone": null,
+      "destinationDocument": null
+    },
+    "currentStatus": {
+      "code": "EN_RUTA",
+      "name": "En ruta",
+      "date": "2026-10-15T15:50:47+00:00"
+    },
+    "timeline": [
+      {
+        "code": "ORIGEN",
+        "name": "Origen",
+        "legend": "Registro de envío exitoso",
+        "legendColor": "green",
+        "order": 1,
+        "completed": true,
+        "macro": {
+          "code": "ORIGEN",
+          "name": "Origen",
+          "detail": "VILLA EJEMPLO"
+        }
+      },
+      {
+        "code": "PROCESO_ENVIO",
+        "name": "Proceso de envío",
+        "legend": "En camino",
+        "legendColor": "green",
+        "order": 2,
+        "completed": false,
+        "macro": null
+      },
+      {
+        "code": "ENTREGADO",
+        "name": "Entregado",
+        "legend": "Proceso de entrega",
+        "legendColor": "green",
+        "order": 3,
+        "completed": false,
+        "macro": {
+          "code": "DESTINO",
+          "name": "Destino",
+          "detail": "PUERTO PRUEBA"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "code": "ORIGEN",
+        "name": "Origen",
+        "legend": "Registro de envío exitoso",
+        "legendColor": "green",
+        "status": "COMPLETADO",
+        "finishedAt": "14/10/2026",
+        "movementCount": 3,
+        "events": [
+          {
+            "statusCode": "REGISTRADO",
+            "title": "Envío registrado",
+            "description": "¡Envío Registrado!",
+            "date": "10/10/2026",
+            "time": "02:09:01",
+            "location": "VILLA EJEMPLO",
+            "color": "green"
+          },
+          {
+            "statusCode": "ALMACEN",
+            "title": "En almacén de VILLA EJEMPLO",
+            "description": "En almacén de VILLA EJEMPLO",
+            "date": "14/10/2026",
+            "time": "16:30:39",
+            "location": "VILLA EJEMPLO",
+            "color": "green"
+          },
+          {
+            "statusCode": "ALMACEN",
+            "title": "En almacén de VILLA EJEMPLO",
+            "description": "En almacén de VILLA EJEMPLO",
+            "date": "14/10/2026",
+            "time": "23:57:29",
+            "location": "VILLA EJEMPLO",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "code": "PROCESO_ENVIO",
+        "name": "Proceso de envío",
+        "legend": "En camino",
+        "legendColor": "green",
+        "status": "EN_PROCESO",
+        "finishedAt": "15/10/2026",
+        "movementCount": 2,
+        "events": [
+          {
+            "statusCode": "REPARTO",
+            "title": "En camino a tu domicilio",
+            "description": "En camino a Puerto Prueba",
+            "date": "15/10/2026",
+            "time": "00:09:36",
+            "location": "VILLA EJEMPLO",
+            "color": "yellow"
+          },
+          {
+            "statusCode": "EN_RUTA",
+            "title": "En camino a destino",
+            "description": "En almacén de PUERTO PRUEBA",
+            "date": "15/10/2026",
+            "time": "15:50:47",
+            "location": "PUERTO PRUEBA",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "code": "ENTREGADO",
+        "name": "Entregado",
+        "legend": "Proceso de entrega",
+        "legendColor": "green",
+        "status": "PENDIENTE",
+        "finishedAt": "",
+        "movementCount": 0,
+        "events": []
+      }
+    ]
+  },
+  "errorMsg": ""
+}

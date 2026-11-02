@@ -1,0 +1,13 @@
+{
+  "carrier": "logisimple",
+  "entries": [
+    {"wording": "Aceite", "stage": "registered", "language": "pt", "confirmedBy": "live", "note": "\"O pedido foi recebido e aceite pela central\": the central accepted the order. The page's progress bar puts it before the collection, and the first warehouse scan comes days later, so it is the order, not the parcel. The English page says Accepted."},
+    {"wording": "Entrada Armazém", "stage": "in_transit", "language": "pt", "confirmedBy": "live", "note": "The parcel reached one of Logisimple's warehouses, which the scan names, and waits for another van. The English page says Accepted Warehouse."},
+    {"wording": "Em Transferência", "stage": "in_transit", "language": "pt", "confirmedBy": "live", "note": "On the road from one warehouse to the one nearest the recipient. The English page says In Transport."},
+    {"wording": "A Agendar", "stage": "in_transit", "language": "pt", "confirmedBy": "live", "note": "The delivery waits for a day agreed with the recipient; the parcel stays at the warehouse. The English page leaves this state blank."},
+    {"wording": "Agendado", "stage": "in_transit", "language": "pt", "confirmedBy": "live", "note": "The delivery is booked for a day; the parcel leaves on it. The English page says Scheduled."},
+    {"wording": "Em Rota", "stage": "in_transit", "language": "pt", "confirmedBy": "live", "note": "\"O pedido encontra-se planeado para entrega\": put on a delivery round, days before the round goes out as Em Distribuição. The English page leaves this state blank."},
+    {"wording": "Em Distribuição", "stage": "out_for_delivery", "language": "pt", "confirmedBy": "live", "note": "On the day's delivery round. The English page says In Distribution."},
+    {"wording": "Entregue", "stage": "delivered", "language": "pt", "confirmedBy": "live", "note": "Every package of the order was delivered. The scan opens a proof of delivery that names who received it, which is not read. The English page says Delivered."}
+  ]
+}

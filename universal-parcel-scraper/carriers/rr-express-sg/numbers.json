@@ -1,0 +1,70 @@
+{
+  "carrier": "rr-express-sg",
+  "records": [
+    {
+      "number": "1125870563",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170326112111/http://www.tckexpress.com:80/trackresult.aspx?cn=1125870563",
+        "date": "2017-03-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Looked up on the tracker of TCK Express, RR Express's former name, as an archived address shows; the opened capture shows the page whose results load in a frame, so the history was not visible."
+    },
+    {
+      "number": "1129196224",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170624035910/http://www.tckexpress.com:80/trackresult.aspx?cn=1129196224",
+        "date": "2017-06-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki",
+          "gls-es"
+        ]
+      },
+      "note": "Looked up on the tracker of TCK Express, RR Express's former name, as an archived address shows; the opened capture shows the page whose results load in a frame, so the history was not visible."
+    }
+  ]
+}

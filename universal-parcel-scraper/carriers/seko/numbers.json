@@ -1,0 +1,156 @@
+{
+  "carrier": "seko",
+  "records": [
+    {
+      "number": "WFY9001843",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://seko.atlassian.net/wiki/spaces/RSC/pages/2470119007",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "SEKO's OmniParcel API guide uses it as the consignment number in its tracking request example."
+    },
+    {
+      "number": "PHU0012099",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://seko.atlassian.net/wiki/download/attachments/2470119007/Template-Omni-Tracking-With-Reference-v2.xlsx",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "SEKO's sample OmniParcel tracking file lists it as the consignment number."
+    },
+    {
+      "number": "PHU001209901",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://seko.atlassian.net/wiki/download/attachments/2470119007/Template-Omni-Tracking-With-Reference-v2.xlsx",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "SEKO's sample OmniParcel tracking file lists it as the barcode of the consignment's first package."
+    },
+    {
+      "number": "TSE3402603",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aa065e723f57535b0e1f741",
+        "date": "2026-09-08",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "A review on SEKO Logistics' Trustpilot page gives it as the SEKO shipping number."
+    },
+    {
+      "number": "THUMA4869178",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260825153612/https://www.sekologistics.com/en/track/?trackingNumbers=THUMA4869178",
+        "date": "2026-08-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "An archived lookup on SEKO's own tracking page; the capture was not opened."
+    },
+    {
+      "number": "074630712",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250210162427/https://www.sekologistics.com/en/track/?trackingNumbers=074630712",
+        "date": "2025-02-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on SEKO's own tracking page; the capture was not opened."
+    },
+    {
+      "number": "CE003358579MU",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://seko.atlassian.net/wiki/spaces/RSC/pages/2470119007",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "SEKO's OmniParcel API guide shows it as a consignment number in an example reply; the S10 suffix names a postal operator, so the number may belong to that network."
+    }
+  ]
+}

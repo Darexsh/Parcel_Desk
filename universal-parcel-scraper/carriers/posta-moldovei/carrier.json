@@ -1,0 +1,58 @@
+{
+  "id": "posta-moldovei",
+  "displayName": "Poșta Moldovei",
+  "aliases": [
+    "Posta Moldovei",
+    "Moldova Post",
+    "Post of Moldova"
+  ],
+  "region": {
+    "countries": [
+      "MD"
+    ]
+  },
+  "brand": {
+    "color": "#005baa"
+  },
+  "selectable": true,
+  "timezone": "Europe/Chisinau",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://posta.md/en/track-trace/mailing/{trackingNumber}",
+    "searchUrl": "https://posta.md/ro/track-trace",
+    "canaryUrl": "https://posta.md/ro/track-trace",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "posta.md"
+      ],
+      "path": "^/(?:ro|en|ru)/track-trace/mailing/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "posta.md"
+      ],
+      "pathPattern": "^/(?:ro|en|ru)/tracking/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "posta-moldovei-1",
+      "pattern": "^D[A-Z]\\d{10}(?:AR|AS|CC|RC|RR)$",
+      "confidence": "high"
+    }
+  ]
+}

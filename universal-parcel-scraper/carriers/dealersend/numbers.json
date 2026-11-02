@@ -1,0 +1,62 @@
+{
+  "carrier": "dealersend",
+  "records": [
+    {
+      "number": "DSLAF1022425992YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251129053740/https://dealer-send.com/en-US/track-my-shipment?trackingNumber=DSLAF1022425992YQ",
+        "date": "2025-11-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dealersend",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on DealerSend's own tracking page. DealerSend's tracker answers it as a parcel from Hong Kong delivered in Canada."
+    },
+    {
+      "number": "DSLAF1026220361YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260331191106/https://dealer-send.com/en-US/track-my-shipment?trackingNumber=DSLAF1026220361YQ",
+        "date": "2026-03-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dealersend",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on DealerSend's own tracking page. DealerSend's tracker answers it as a parcel from Hong Kong that GOFO delivered in the United States."
+    },
+    {
+      "number": "DSLAF1021401768YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260812030725/https://dealer-send.com/en-US/track-my-shipment?trackingNumber=DSLAF1021401768YQ",
+        "date": "2026-08-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dealersend",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on DealerSend's own tracking page. DealerSend's tracker answers it as a parcel from Hong Kong that USPS delivered in the United States."
+    }
+  ]
+}

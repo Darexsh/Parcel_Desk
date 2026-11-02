@@ -1,0 +1,105 @@
+{
+  "id": "chit-chats",
+  "displayName": "Chit Chats",
+  "aliases": [
+    "ChitChats",
+    "Chit Chats Express"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#db2b35"
+  },
+  "selectable": true,
+  "timezone": "America/Vancouver",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "chit-chats",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 115
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "provider_code",
+    "weight",
+    "dimensions",
+    "service_name",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://chitchats.com/tracking/{trackingNumber}",
+    "searchUrl": "https://chitchats.com/tracking",
+    "canaryUrl": "https://chitchats.com/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "progress_rail",
+      "provider_code",
+      "weight",
+      "dimensions",
+      "service_name",
+      "destination_country",
+      "recipient_address",
+      "sender_town",
+      "postcodes",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "provider_code",
+      "offset_timestamps",
+      "weight",
+      "dimensions",
+      "service_name",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "delivered_at",
+      "progress_rail",
+      "recipient_address",
+      "sender_town",
+      "postcodes"
+    ],
+    "unavailable": [
+      "sender_name",
+      "recipient_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "chitchats.com"
+      ],
+      "path": "^/tracking/([0-9A-Za-z]{10})/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "chit-chats-1",
+      "pattern": "^[A-Z][1-9](?=(?:\\d*[A-Z]){2})[0-9A-Z]{8}$",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "pactic",
+  "displayName": "Pactic",
+  "aliases": [
+    "Allpacka"
+  ],
+  "region": {
+    "countries": [
+      "HU",
+      "RO",
+      "PL",
+      "AT",
+      "BG",
+      "CZ",
+      "DE",
+      "GR",
+      "HR",
+      "IT",
+      "SI",
+      "SK"
+    ]
+  },
+  "brand": {
+    "color": "#390084"
+  },
+  "selectable": true,
+  "timezone": "Europe/Budapest",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pactic",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 71
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://dashboard.pactic.com/tracking?waybill={trackingNumber}",
+    "searchUrl": "https://dashboard.pactic.com/tracking",
+    "canaryUrl": "https://dashboard.pactic.com/tracking",
+    "shows": [
+      "status",
+      "history",
+      "event_details",
+      "delivery_partner",
+      "return_number",
+      "contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "delivery_partner"
+    ],
+    "discarded": [
+      "event_details",
+      "return_number",
+      "contact_details"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "offset_timestamps",
+      "weight",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "dashboard.pactic.com"
+      ],
+      "pathPattern": "^/(?:[a-z]{2}/)?(?:tracking|csomagkovetes)/?$",
+      "params": [
+        "waybill",
+        "waybillNumber"
+      ],
+      "ownNumbersOnly": true
+    }
+  ],
+  "detection": [
+    {
+      "id": "pactic-1",
+      "pattern": "^C\\d{6}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])(?:[01]\\d|2[0-3])[0-5]\\d[0-5]\\d\\d{6}$",
+      "confidence": "high"
+    }
+  ]
+}

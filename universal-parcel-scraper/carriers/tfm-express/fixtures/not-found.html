@@ -1,0 +1,73 @@
+<title>TrackSkybill</title>
+<style>
+
+     /*******************************NEW CSS ADD****************************/
+     .table thead tr th {
+         color: #198ff1 !important;
+     }
+
+     .shipmentbox-summary {
+         text-align: center;
+         padding: 17px 7px 24px;
+     }
+
+     .shipmentbox-history .table-responsive .table tr:nth-child(odd) td, .shipment-moredetail .table-responsive .table tr td {
+         background-color: #277fc729;
+         color: #198ff1;
+     }
+</style>
+<div style="text-align: center;">
+    <form id="form" action="/Skybill/TrackSkybill" method="post">
+        <input type="hidden" name="secretKey" value="00000000-0000-4000-8000-000000000000" />
+        <input type="hidden" name="clientTimeZoneOffSetHour" id="clientTimeZoneOffSetHour" value="" />
+            <table border="0" style="text-align: center; width: 290px; margin-left: auto; margin-right: auto;">
+                <tbody>
+                    <tr>
+                        <td colspan="2" style="text-align: left">
+                            <strong style="color: navy;font-size:20px;font-family:Arial;color: white;">SHIPMENT TRACKING</strong><br>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: baseline; text-align: left; width: 290px">
+                        <small style="font-family:Arial;color:lightskyblue">BY AWB NUMBER:</small>
+                        <input name="AWB" type="text" maxlength="12" id="AWB" class="searchTxtBox" style="font-weight:bold;height:35px;width:290px;">
+                        </td>
+                        <td style="vertical-align: baseline; text-align: left">
+                            <br>
+                            <a id="trackBT" class="search-btn" href="#" onclick="submitForm()"><img src="/images/search_button.png" border="0" width="35" height="35" alt="Search"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: baseline; text-align: left; width: 290px">
+                        <small style="font-family:Arial;color:lightskyblue">BY REF NUMBER:</small>
+                            <input name="txtRefNum" type="text" maxlength="20" id="txtRefNum" class="searchTxtBox" style="font-weight:bold;height:35px;width:290px;">
+                        </td>
+                        <td style="vertical-align: baseline; text-align: left">
+                            <br>
+                            <a id="trackBT2" class="search-btn" href="#" onclick="submitForm()"><img src="/images/search_button.png" border="0" width="35" height="35" alt="Search"></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        <input name="AntiforgeryFieldname" type="hidden" value="CfDJ8SYNTHETICANTIFORGERYaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_bbbbbbbbbbbb-cccc" /></form>
+    </div>
+    <div class="shipment-wrapper text-center" id="shipmentNotExists">
+        <h2>Shipment Not Found</h2>
+    </div>
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<script src="/js/moment.js?v=wz8JpOEjDzB1vo0qlAgRCNUvYtPDC5ojiUH-gHkCZ8Y"></script>
+
+<script type="text/javascript">
+    function submitForm() {
+        $("#clientTimeZoneOffSetHour").val(moment().utcOffset() / 60);
+        $("#form").submit();
+    }
+    $(function(){
+        var awb = '';
+        if(awb !="" && awb !=null){
+             $('#AWB').val(awb);
+             submitForm();
+        }
+    });
+</script>

@@ -1,0 +1,62 @@
+{
+  "carrier": "precision-deliveries",
+  "records": [
+    {
+      "number": "ASL0055543060",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260222201856/https://track.precisiondeliveries.com/api/shipment-itemId/ASL0055543060",
+        "date": "2026-02-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "precision-deliveries",
+        "confidence": "high"
+      },
+      "note": "An archived reply of Precision's own tracking API shows this Amazon parcel from its manifest through the Montreal terminal to delivery."
+    },
+    {
+      "number": "ASL0058308233",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260418143951/https://track.precisiondeliveries.com/api/shipment-itemId/ASL0058308233",
+        "date": "2026-04-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "precision-deliveries",
+        "confidence": "high"
+      },
+      "note": "An archived reply of Precision's own tracking API shows this Amazon parcel received at its Montreal terminal."
+    },
+    {
+      "number": "PRE260619CZGQ1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260619165742/https://track.precisiondeliveries.com/api/shipment-itemId/PRE260619CZGQ1",
+        "date": "2026-06-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived reply of Precision's own tracking API shows this parcel's manifest scan for a shipment handed over by Stallion Express."
+    }
+  ]
+}

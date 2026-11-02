@@ -1,0 +1,24 @@
+{
+  "carrier": "hart2hart-express",
+  "records": [
+    {
+      "number": "807012132",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20191201140303/http://harttohart-online.couriernavigator.com:80/tracking/807012132",
+        "date": "2019-12-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Hart2Hart Express's old tracker, as an archived page shows; the page loads its result separately, so the capture holds no history."
+    }
+  ]
+}

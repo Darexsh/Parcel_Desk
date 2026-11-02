@@ -1,0 +1,47 @@
+{
+  "id": "gio-express",
+  "displayName": "GIO Express",
+  "aliases": [
+    "GIO Express Inc",
+    "GIO Express Inc.",
+    "GIO eCourier"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#571216"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://gioexpress.com/tracking/?tracking={trackingNumber}&type=tracking",
+    "searchUrl": "https://gioexpress.com/tracking/",
+    "canaryUrl": "https://gioexpress.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "gioexpress.com",
+        "www.gioexpress.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": []
+}

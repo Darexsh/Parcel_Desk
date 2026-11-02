@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <title>NAQEL Express</title> -->
+	<link rel="stylesheet" href="/static/css/main.css"/>
+</head>
+<body>
+	<header id="masthead" class="header">
+		<nav>
+			<ul>
+				<li><a href="/en/sa/">Home</a></li>
+				<li>
+					<form id="cmt-contactform-nav"  autocomplete="off" class="pt-10" method="post" action="/en/sa/tracking/">
+					 <input type="hidden" name="csrfmiddlewaretoken" value="SyntheticToken0000000000000000000000000000000000000000000000000">
+					<div class="pl-10 pr-10 pb-10">
+						<b class="boldfont">Track Your Shipment</b>
+					</div>
+					<li class="pl-10 pr-10">
+						<input  type="text" id="tracktext" name="waybills" placeholder="Shipment Number" required="">
+					</li>
+					<li>
+						<div class="pl-10 pr-10 pb-10">
+						<button class="submit  cmt-btn-size-md cmt-btn-shape-square cmt-btn-style-fill cmt-btn-color-skincolor but-radius w-100"
+											type="submit">Track
+						</button></div>
+					</li>
+					</form>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+ <head>
+ <title>Shipment Tracking | Expected Delivery | NAQEL Express</title>
+ <meta name="description" content="Track your shipment with NAQEL Express."/>
+<script type="text/javascript">
+        window.activeNotifications = [
+            
+        ];
+        window.userLanguage = 'en';
+    </script>
+</head>
+ <div class="main-site">
+
+    <section class="cmt-row cmt-bgcolor-grey clearfix mt-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12 res-767-mb-25">
+                        <div class="card rounded naqelcolorA p-3">
+                            <form method="post">
+                                <input type="hidden" name="csrfmiddlewaretoken" value="SyntheticToken0000000000000000000000000000000000000000000000000"> 
+                                <label class="control-label text-white mb-2">Waybills / Reference Numbers</label>
+                                <textarea name="waybills" cols="40" rows="5" class="form-control form-control-sm" width="100%" placeholder="Please enter multiple waybills separated by comma." maxlength="300" required id="id_waybills">
+</textarea> 
+                                <small style="display: none;">Required</small>
+                                 
+                                <p class="text-danger">This field is required.</p>
+                                 
+                                <div class="clearfix">
+                                  
+                                    <button class="btn bg-danger text-white float-left cmt-btn cmt-btn-size-sm cmt-btn-shape-square  but-radius" type="submit">
+                                        <span>Track</span>
+                                    </button>
+                                    <button class="btn bg-danger text-white float-right cmt-btn cmt-btn-size-sm cmt-btn-shape-square but-radius"  onclick="clearvalue()">
+                                        <span>Reset</span>
+                                    </button>
+                                    <br>
+                                    <br>
+                                 
+                                  
+                                </div>
+                            </form>
+                        </div>
+                    <br />
+
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 res-767-mb-25">
+                    
+                    <div class="card rounded naqelcolor1 p-3">
+                        <div class="card-body bg-white">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-12">
+                                    <table class="table table-striped">
+                                        <tr class="trborder">
+                                            <th>SHIPMENT NO:</th>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr class="trborder">
+                                            <th>DESTINATION:</th>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="trborder">
+                                            
+                                            <th>EXPECTED DELIVERY:</th>
+                                            <td></td>
+
+                                            
+                                        </tr>
+                                         <tr class="trborder">
+                                            <th>CURRENT STATUS:</th>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-md-5 col-sm-12">
+                                    <table class="table table-striped">
+                                        <tr class="trborder">
+                                            <th>PICKUP DATE:</th>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="trborder">
+                                            
+                                            <th>PAYMENT METHOD:</th>
+                                            <td></td>
+                                            
+                                        </tr>
+                                        <tr class="trborder">
+                                            <th>PIECE COUNT:</th>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="trborder">
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-muted text-center p-0 m-0">
+                            <div  class="stepwizard vertical-middle">
+                                <div class="stepwizard-row">
+                                    <div class="stepwizard-step">
+
+                                        
+                                         <button type="button" class="btn btn-danger btn-circle-track" style="background-color: white !important;">
+                                        1
+                                        </button>
+                                        
+                                        <h6 class="text-white">Picked Up</h6>
+                                    </div>
+
+                                    <div class="stepwizard-step">
+                                        
+                                         <button type="button" class="btn btn-danger btn-circle-track" style="background-color: white !important;">
+                                        2
+                                        </button>
+                                        
+                                        <h6 class="text-white">In Transit</h6>
+                                    </div>
+                                    <div class="stepwizard-step">
+                                        
+                                         <button type="button" class="btn btn-danger btn-circle-track" style="background-color: white !important;">
+                                        3
+                                        </button>
+                                        
+                                        <h6 class="text-white">Delivered</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded naqelcolor1 p-3 mt-1">
+                        <h3 class="text-white Redline ">Shipment Details</h3>
+
+                        <img src="/static/images/redline.png" style="height:3px;width:100px;" />
+                        <div class="card-body">
+                             <p style="text-align: left; color: white;"><i class="fa fa-exclamation-triangle" style="color:red ; font-size: medium;"></i> Sorry Tracking information is not available </p>
+
+                         </div>
+                    </div>
+
+                    <br />
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="testmodal" class="modal fade" tabindex="-1" role="dialog">
+    <div id="dialog" class="modal-dialog" hx-target="this"></div>
+</div>
+
+<footer class="footer widget-footer clearfix">
+	<div class="container">
+		<p>Head Office - Sample Street, Sample City 00000</p>
+		<p>care@example.com</p>
+		<p>Toll Free Number KSA - 8000000000</p>
+		<p>Copyright NAQEL Company, All Rights Reserved.</p>
+	</div>
+</footer>
+</body>
+</html>

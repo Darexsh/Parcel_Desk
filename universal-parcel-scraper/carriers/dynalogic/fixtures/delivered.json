@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "data": {
+    "TrackAndTraceNumber": "90001TEST00001",
+    "OnlineAppointmentEnabled": 0,
+    "Scenario": "DEL_DEF",
+    "CustomerId": 90001,
+    "TransportResultCode": 0,
+    "ProgressData": [
+      {
+        "StepNumber": 1,
+        "Status": 1,
+        "Overlay": 0
+      },
+      {
+        "StepNumber": 2,
+        "Status": 1,
+        "Overlay": 0
+      },
+      {
+        "StepNumber": 3,
+        "Status": 1,
+        "Overlay": 0
+      },
+      {
+        "StepNumber": 4,
+        "Status": 1,
+        "Overlay": 0
+      }
+    ],
+    "ActiveStep": 4,
+    "DetailCaption": "Delivery successful",
+    "DetailTextLine1": "",
+    "DetailTextLine2": "We have delivered the shipment on Tuesday, March 3.",
+    "TransportProgress": null,
+    "PushNotificationsEnabled": false,
+    "OrderStatusForAddressee": "Completed",
+    "OrderData": null,
+    "ContactInformation": {
+      "ContactEmailAddress": "service@example.invalid",
+      "WhatsAppPhoneNumber": "31000000000",
+      "ContactPageUrl": null,
+      "OpeningHours": [
+        {
+          "Weekday": "Monday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "18:00:00"
+        },
+        {
+          "Weekday": "Tuesday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "18:00:00"
+        },
+        {
+          "Weekday": "Wednesday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "18:00:00"
+        },
+        {
+          "Weekday": "Thursday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "18:00:00"
+        },
+        {
+          "Weekday": "Friday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "18:00:00"
+        },
+        {
+          "Weekday": "Saturday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "16:00:00"
+        },
+        {
+          "Weekday": "Sunday",
+          "IsOpened": false,
+          "OpenedFrom": "00:00:00",
+          "OpenedTo": "00:00:00"
+        }
+      ],
+      "PhoneNumbers": []
+    },
+    "OrderGroup": null
+  },
+  "error": null,
+  "code": 200
+}

@@ -1,0 +1,70 @@
+{
+  "carrier": "x-express-ba",
+  "records": [
+    {
+      "number": "X003413103",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.x-express.ba/korisnicki-panel/pracenje-posiljke",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "Example shipment number in the instructions on X Express's own tracking page."
+    },
+    {
+      "number": "86876582",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.x-express.ba/korisnicki-panel/pracenje-posiljke",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Second example shipment number in the instructions on X Express's own tracking page."
+    },
+    {
+      "number": "A006766764",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.x-express.ba/images/docs/Aplikacija%20za%20najavu%20posiljaka%20-%20Uputstvo.pdf",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "allegro-one",
+        "confidence": "high"
+      },
+      "note": "Example shipment number in X Express's guide to its shipment-booking app, in the section on tracking."
+    }
+  ]
+}

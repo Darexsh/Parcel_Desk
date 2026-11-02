@@ -1,0 +1,448 @@
+{
+  "tracking_number": "BTPA0123SMPL001",
+  "shipment_tracking_number": "BTPA0123SMPL001",
+  "created_date": "2026-07-06T08:03:14",
+  "address_from": {
+    "city": "Exampleville",
+    "state": "TX",
+    "zip": "75999",
+    "country": "US",
+    "latitude": null,
+    "longitude": null
+  },
+  "address_to": {
+    "city": "Sampleton",
+    "state": "TX",
+    "zip": "77999",
+    "country": "US",
+    "latitude": 29.9876,
+    "longitude": -95.1234
+  },
+  "transaction": "00000000-0000-4000-8000-000000000001",
+  "eta": "2026-07-08T19:42:05",
+  "original_eta": "2026-07-07T22:00:00",
+  "tracking_status": {
+    "relative_time": [
+      {
+        "name": "GREENWICH_MEAN_TIME",
+        "time": "2026-07-08T19:42:05",
+        "timezone": "GMT+00:00"
+      },
+      {
+        "name": "LOCAL_TIME",
+        "time": "2026-07-08T14:42:05",
+        "timezone": "GMT-05:00"
+      }
+    ],
+    "object_created": "2026-07-08T19:42:05",
+    "status": "DELIVERED",
+    "status_details": "Delivered",
+    "location": {
+      "city": "Sampleton",
+      "state": "TX",
+      "zip": "77999",
+      "country": "US",
+      "latitude": null,
+      "longitude": null
+    },
+    "latitude": 29.9876,
+    "longitude": -95.1234,
+    "location_info": null,
+    "event_details": {
+      "ConsigneeName": "Jordan Sample",
+      "DropoffLocation": "Front Door",
+      "FailureReason": null
+    },
+    "images": [
+      {
+        "imageUrl": "https://storage.googleapis.com/download/storage/v1/b/sample-bucket/o/sample-photo-1.jpg?alt=media",
+        "image_description": null,
+        "safesearch_description": null,
+        "is_proof_of_delivery": true,
+        "is_safe_to_display": true,
+        "is_signature": false
+      },
+      {
+        "imageUrl": "https://storage.googleapis.com/download/storage/v1/b/sample-bucket/o/sample-photo-2.jpg?alt=media",
+        "image_description": null,
+        "safesearch_description": null,
+        "is_proof_of_delivery": true,
+        "is_safe_to_display": true,
+        "is_signature": false
+      },
+      {
+        "imageUrl": "https://storage.googleapis.com/download/storage/v1/b/sample-bucket/o/sample-photo-3.jpg?alt=media",
+        "image_description": null,
+        "safesearch_description": null,
+        "is_proof_of_delivery": true,
+        "is_safe_to_display": true,
+        "is_signature": true
+      }
+    ]
+  },
+  "tracking_history": [
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-07-08T19:42:05",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-07-08T14:42:05",
+          "timezone": "GMT-05:00"
+        }
+      ],
+      "object_created": "2026-07-08T19:42:05",
+      "status": "DELIVERED",
+      "status_details": "Delivered",
+      "location": {
+        "city": "Sampleton",
+        "state": "TX",
+        "zip": "77999",
+        "country": "US",
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 29.9876,
+      "longitude": -95.1234,
+      "location_info": null,
+      "event_details": {
+        "ConsigneeName": "Jordan Sample",
+        "DropoffLocation": "Front Door",
+        "FailureReason": null
+      },
+      "images": [
+        {
+          "imageUrl": "https://storage.googleapis.com/download/storage/v1/b/sample-bucket/o/sample-photo-1.jpg?alt=media",
+          "image_description": null,
+          "safesearch_description": null,
+          "is_proof_of_delivery": true,
+          "is_safe_to_display": true,
+          "is_signature": false
+        },
+        {
+          "imageUrl": "https://storage.googleapis.com/download/storage/v1/b/sample-bucket/o/sample-photo-2.jpg?alt=media",
+          "image_description": null,
+          "safesearch_description": null,
+          "is_proof_of_delivery": true,
+          "is_safe_to_display": true,
+          "is_signature": false
+        },
+        {
+          "imageUrl": "https://storage.googleapis.com/download/storage/v1/b/sample-bucket/o/sample-photo-3.jpg?alt=media",
+          "image_description": null,
+          "safesearch_description": null,
+          "is_proof_of_delivery": true,
+          "is_safe_to_display": true,
+          "is_signature": true
+        }
+      ]
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-07-08T14:05:31",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-07-08T09:05:31",
+          "timezone": "GMT-05:00"
+        }
+      ],
+      "object_created": "2026-07-08T14:05:31",
+      "status": "OUT_FOR_DELIVERY",
+      "status_details": "Out For Delivery",
+      "location": {
+        "city": "Sampleton",
+        "state": "TX",
+        "zip": "77999",
+        "country": "US",
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 29.9001,
+      "longitude": -95.2002,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-07-07T23:15:00",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-07-07T18:15:00",
+          "timezone": "GMT-05:00"
+        }
+      ],
+      "object_created": "2026-07-07T23:15:00",
+      "status": "RTS_RETURNED_TO_STATION",
+      "status_details": "RTS_RETURNED_TO_STATION",
+      "location": {
+        "city": "Sampleton",
+        "state": "TX",
+        "zip": "77999",
+        "country": "US",
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 29.9001,
+      "longitude": -95.2002,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-07-07T21:30:12",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-07-07T16:30:12",
+          "timezone": "GMT-05:00"
+        }
+      ],
+      "object_created": "2026-07-07T21:30:12",
+      "status": "DELIVERY_FAILURE",
+      "status_details": "Delivery attempted",
+      "location": {
+        "city": "Sampleton",
+        "state": "TX",
+        "zip": "77999",
+        "country": "US",
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 29.9876,
+      "longitude": -95.1234,
+      "location_info": null,
+      "event_details": {
+        "ConsigneeName": null,
+        "DropoffLocation": null,
+        "FailureReason": "Recipient not available"
+      },
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-07-07T13:58:40",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-07-07T08:58:40",
+          "timezone": "GMT-05:00"
+        }
+      ],
+      "object_created": "2026-07-07T13:58:40",
+      "status": "OUT_FOR_DELIVERY",
+      "status_details": "Out For Delivery",
+      "location": {
+        "city": "Sampleton",
+        "state": "TX",
+        "zip": "77999",
+        "country": "US",
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 29.9001,
+      "longitude": -95.2002,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-07-07T10:20:44",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-07-07T05:20:44",
+          "timezone": "GMT-05:00"
+        }
+      ],
+      "object_created": "2026-07-07T10:20:44",
+      "status": "SCANNED_AT_HUB_SMP",
+      "status_details": "Received at SMP hub",
+      "location": {
+        "city": "Sampleton",
+        "state": "TX",
+        "zip": "77999",
+        "country": "US",
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 29.9001,
+      "longitude": -95.2002,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-07-07T10:20:44",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-07-07T05:20:44",
+          "timezone": "GMT-05:00"
+        }
+      ],
+      "object_created": "2026-07-07T10:20:44",
+      "status": "SCANNED_AT_HUB_SMP",
+      "status_details": "Received at SMP hub",
+      "location": {
+        "city": "Sampleton",
+        "state": "TX",
+        "zip": "77999",
+        "country": "US",
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 29.9001,
+      "longitude": -95.2002,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-07-07T01:12:09",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-07-06T20:12:09",
+          "timezone": "GMT-05:00"
+        }
+      ],
+      "object_created": "2026-07-07T01:12:09",
+      "status": "SCANNED_AT_HUB",
+      "status_details": "Scanned at BT facility",
+      "location": {
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 32.8001,
+      "longitude": -96.9002,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-07-07T01:11:52",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-07-06T20:11:52",
+          "timezone": "GMT-05:00"
+        }
+      ],
+      "object_created": "2026-07-07T01:11:52",
+      "status": "INJECTED",
+      "status_details": "Received in BT network",
+      "location": {
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 32.8001,
+      "longitude": -96.9002,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-07-06T08:03:17",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-07-06T08:03:17",
+          "timezone": "GMT+00:00"
+        }
+      ],
+      "object_created": "2026-07-06T08:03:17",
+      "status": "TRANSACTION_CREATED",
+      "status_details": "Shipment created",
+      "location": {
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": null,
+      "longitude": null,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    },
+    {
+      "relative_time": [
+        {
+          "name": "GREENWICH_MEAN_TIME",
+          "time": "2026-07-06T08:03:15",
+          "timezone": "GMT+00:00"
+        },
+        {
+          "name": "LOCAL_TIME",
+          "time": "2026-07-06T03:03:15",
+          "timezone": "GMT-05:00"
+        }
+      ],
+      "object_created": "2026-07-06T08:03:15",
+      "status": "SHIPMENT_CREATED",
+      "status_details": "Shipment created",
+      "location": {
+        "city": "Exampleville",
+        "state": "TX",
+        "zip": "75999",
+        "country": "US",
+        "latitude": null,
+        "longitude": null
+      },
+      "latitude": 33.0101,
+      "longitude": -96.9909,
+      "location_info": null,
+      "event_details": null,
+      "images": null
+    }
+  ]
+}

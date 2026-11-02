@@ -1,0 +1,68 @@
+{
+  "type": "NORMAL",
+  "data": {
+    "state": "IN_DELIVERY",
+    "title": "최적경로로 배송중이에요\n95% 확률로 0시 49분 전에 도착!",
+    "sanitizedLoad": {
+      "id": "00000000-0000-4000-8000-000000000101",
+      "displayInvoiceNumber": "998000000033",
+      "invoiceNumber": "100000000025",
+      "clientId": "100000000001",
+      "clientName": "Sample Marketplace",
+      "clientOrderId": "SAMPLE-ORDER-0002",
+      "clientShippingId": "998000000033",
+      "state": "IN_DELIVERY",
+      "returnReserved": false,
+      "deliveryClass": "TO_24",
+      "shippingType": "STATION_TO_LM",
+      "endUserType": "B2C",
+      "orderTime": "2026-05-20T15:01:02.50466+09:00",
+      "name": "Sample Product C",
+      "businessInfo": { "name": "Sample Shop", "phone": "" },
+      "lastPossessor": { "driverName": "샘*사", "driverPhone": "000-0000-0000" },
+      "cautionTypes": [],
+      "reportTimes": {
+        "pickUpTime": "2026-05-20T17:42:38.875758851+09:00",
+        "sourceStationLoadTime": "2026-05-20T18:49:13.701644406+09:00"
+      },
+      "sender": { "name": "Sample Shop", "location": { "latitude": 37.0003, "longitude": 127.0003 } },
+      "receiver": { "name": "샘*인", "location": { "latitude": 37.0004, "longitude": 127.0004 } }
+    },
+    "sanitizedOrder": {
+      "invoiceNumber": "100000000025",
+      "state": "IN_SHIPPING",
+      "deliveryClass": "TO_24",
+      "shippingType": "STATION_TO_LM",
+      "clientShippingId": "998000000033",
+      "products": [
+        { "name": "Sample Product C", "category": "", "price": 0, "count": 1, "developerPayload": "" }
+      ]
+    },
+    "progress": {
+      "loadState": "IN_DELIVERY",
+      "pickUpTime": "2026-05-20T17:42:38.875758851+09:00",
+      "shippingTime": "2026-05-20T18:49:13.701644406+09:00",
+      "deliveryStartTime": "2026-05-20T18:49:13.701644406+09:00",
+      "deliveryTime": null,
+      "holdingDelivery": false
+    },
+    "steps": {
+      "logs": [
+        {
+          "station": { "name": "Sample Shop-물류센터", "type": "CLIENT_COLLECT", "level": "PU", "rawAddress": "Sample Address 4", "location": { "latitude": 37.0003, "longitude": 127.0003 } },
+          "arrivalTime": "2026-05-20T17:42:38.875758851+09:00",
+          "departureTime": "2026-05-20T17:42:38.875758851+09:00"
+        },
+        {
+          "station": { "name": "가나", "type": "WIDE_IN_DOOR", "level": "WD", "rawAddress": "Sample Address 1", "location": { "latitude": 37.1, "longitude": 127.1 } },
+          "arrivalTime": "2026-05-20T17:42:38.875758851+09:00",
+          "departureTime": "2026-05-20T18:49:13.701644406+09:00"
+        }
+      ],
+      "source": { "title": "Sample Shop", "time": "2026-05-20T17:42:38.875758851+09:00", "actionName": "픽업", "arrivedAtNextStation": true },
+      "destination": { "title": "도착지", "deliveryState": "IN_DELIVERY", "deliveryTime": null },
+      "shippingType": "STATION_TO_LM",
+      "fillsUnknownProgress": false
+    }
+  }
+}

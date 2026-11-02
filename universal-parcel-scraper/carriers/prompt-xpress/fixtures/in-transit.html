@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prompt Xpress Tracking Visibility</title>
+    <style>
+        /* The portal's stylesheet, left out. */
+    </style>
+</head>
+<body>
+    <div class="site-shell">
+        <header class="site-header">
+            <div class="brand">
+                <img src="/img/pxplogo.png" alt="Prompt Xpress Logo" />
+                <div class="brand-copy">
+                    <small>Public Tracking</small>
+                    <strong>Tracking & Visibility Portal</strong>
+                </div>
+            </div>
+            <div class="status-live">Live shipment visibility</div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-card">
+                    <div class="hero-copy">
+                        <span class="eyebrow">Tracking & Visibility</span>
+                        <h1>See where the shipment stands and whether delivery proof is available.</h1>
+                        <p>Search by tracking number to load the current shipment signal, branch visibility, operational freshness, and proof-of-delivery access from the public tracking services.</p>
+
+                        <form method="get" class="search-panel" action="/PublicTracking/TrackingStatus">
+                            <input type="text"
+                                   name="trackingNo"
+                                   class="search-input"
+                                   placeholder="RP10000000"
+                                   value="MC00000022"
+                                   autocomplete="off" />
+                            <button type="submit" class="search-btn">Track Shipment</button>
+                        </form>
+
+                    </div>
+
+                    <div class="hero-visibility">
+                        <div class="visibility-board">
+                            <div class="label">Shipment Signal</div>
+                            <div class="tracking-main">MC00000022</div>
+                            <div class="visibility-status">
+                                <span class="dot"></span>
+                                In Transit
+                            </div>
+                        </div>
+
+                        <div class="hero-kpis">
+                            <div class="hero-kpi">
+                                <div class="mini-label">Current Branch</div>
+                                <strong>Kurunegala</strong>
+                                <p>Most recent branch currently visible from the public tracking response.</p>
+                            </div>
+                            <div class="hero-kpi">
+                                <div class="mini-label">Visibility Depth</div>
+                                <strong>Standard</strong>
+                                <p>3 public tracking events currently available.</p>
+                            </div>
+                            <div class="hero-kpi">
+                                <div class="mini-label">Update Freshness</div>
+                                <strong>Recent update</strong>
+                                <p>Oct 14, 2026 9:20 AM</p>
+                            </div>
+                            <div class="hero-kpi">
+                                <div class="mini-label">Proof Mode</div>
+                                <strong>No POD available</strong>
+                                <p>Delivery proof can be available as an image preview or a digital POD link.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                <section class="page-content">
+                    <div class="dashboard-grid">
+                        <div>
+                            <section class="panel">
+                                <div class="panel-head">
+                                    <div>
+                                        <h2>Tracking Visibility</h2>
+                                        <p>Operational view of the latest shipment state, tracking freshness, and public visibility coverage.</p>
+                                    </div>
+                                    <span class="tracking-badge">MC00000022</span>
+                                </div>
+
+                                <div class="visibility-overview">
+                                    <div class="signal-banner">
+                                        <div class="label">Current Operational Signal</div>
+                                        <strong>In Transit</strong>
+                                        <p>The public tracking feed currently shows this shipment at <strong>Kurunegala</strong> with the latest known movement timestamp on Oct 14, 2026 at 9:20 AM.</p>
+                                    </div>
+
+                                    <div class="summary-grid">
+                                        <div class="metric">
+                                            <div class="metric-label">Latest Status</div>
+                                            <div class="metric-value">
+                                                <span class="status-pill status-transit">
+                                                    <span class="dot"></span>
+                                                    In Transit
+                                                </span>
+                                            </div>
+                                            <div class="metric-sub">Public customer-facing shipment state surfaced from the latest available tracking event.</div>
+                                        </div>
+
+                                        <div class="metric">
+                                            <div class="metric-label">Current Branch</div>
+                                            <div class="metric-value">Kurunegala</div>
+                                            <div class="metric-sub">Branch visibility is based on the latest trackable public movement associated with this item.</div>
+                                        </div>
+
+                                        <div class="metric">
+                                            <div class="metric-label">Last Updated</div>
+                                            <div class="metric-value">Oct 14, 2026</div>
+                                            <div class="metric-sub">9:20 AM</div>
+                                        </div>
+
+                                        <div class="metric">
+                                            <div class="metric-label">Proof Availability</div>
+                                            <div class="metric-value">Proof not uploaded</div>
+                                            <div class="metric-sub">POD availability depends on delivery completion and whether image or digital proof has been published.</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="visibility-strip">
+                                        <div class="visibility-card">
+                                            <span class="tag">Visibility Depth</span>
+                                            <strong>Standard</strong>
+                                            <p>3 public events are currently available through the public tracking feed.</p>
+                                        </div>
+
+                                        <div class="visibility-card">
+                                            <span class="tag">Freshness Signal</span>
+                                            <strong>Recent update</strong>
+                                            <p>The current page reflects whether this shipment has a recent movement timestamp or an older last-known status.</p>
+                                        </div>
+
+                                        <div class="visibility-card">
+                                            <span class="tag">POD Channel</span>
+                                            <strong>No POD available</strong>
+                                            <p>Prompt Xpress can expose proof as either an on-page image preview or a digital document experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                        <aside>
+                            <section class="panel panel-sticky">
+                                <div class="panel-head">
+                                    <div>
+                                        <h2>Proof of Delivery</h2>
+                                        <p>Public delivery confirmation and proof access for the tracked shipment.</p>
+                                    </div>
+                                </div>
+
+                                <div class="pod-body">
+                                    <div class="pod-frame">
+                                            <div class="empty-state">
+                                                <h3>POD not available</h3>
+                                                <p>The shipment is trackable, but proof of delivery has not yet been exposed as a public image or digital document.</p>
+                                            </div>
+                                    </div>
+                                </div>
+
+                                <div class="pod-meta">
+                                    <div class="pod-meta-card">
+                                        <span>POD Status</span>
+                                        <strong>Proof not uploaded</strong>
+                                        <p>This indicates whether the current shipment has a public image proof, a digital proof link, or no available proof yet.</p>
+                                    </div>
+                                    <div class="pod-meta-card">
+                                        <span>Tracking Reference</span>
+                                        <strong>MC00000022</strong>
+                                        <p>Use this shipment number when following up with Prompt Xpress regarding delivery confirmation.</p>
+                                    </div>
+                                </div>
+                            </section>
+                        </aside>
+                    </div>
+                </section>
+        </main>
+
+        <footer class="site-footer">
+            &copy; 2026 Prompt Xpress. Public Tracking & Visibility portal.
+        </footer>
+    </div>
+
+
+    <script>
+        var podModal = document.querySelector("[data-pod-modal]");
+        var podModalOpen = document.querySelector("[data-pod-modal-open]");
+
+        if (podModal && podModalOpen) {
+            var closeModal = function () {
+                podModal.classList.remove("is-open");
+                podModal.setAttribute("aria-hidden", "true");
+                document.body.style.overflow = "";
+            };
+
+            podModalOpen.addEventListener("click", function () {
+                var previewImg = podModalOpen.querySelector("img");
+                if (previewImg) {
+                    document.getElementById("pod-modal-img").src = previewImg.src;
+                }
+                podModal.classList.add("is-open");
+                podModal.setAttribute("aria-hidden", "false");
+                document.body.style.overflow = "hidden";
+            });
+
+            var closeButton = podModal.querySelector("[data-pod-modal-close]");
+            if (closeButton) {
+                closeButton.addEventListener("click", closeModal);
+            }
+
+            podModal.addEventListener("click", function (event) {
+                if (event.target === podModal) {
+                    closeModal();
+                }
+            });
+
+            document.addEventListener("keydown", function (event) {
+                if (event.key === "Escape" && podModal.classList.contains("is-open")) {
+                    closeModal();
+                }
+            });
+        }
+    </script>
+</body>
+</html>

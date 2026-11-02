@@ -1,0 +1,24 @@
+{
+  "trackingNumber": "9000000000000002",
+  "zipCode": "00000",
+  "result": {
+    "shipmentId": "9000000000000002",
+    "history": [
+      { "depotId": "0001", "time": "2026-10-24 16:05:00.000000", "code": "", "text": "Synthetic pickup note", "mp": "02", "status": 2 },
+      { "depotId": "0001", "time": "2026-10-24 19:40:00.000000", "code": "", "text": "Synthetic hub scan", "mp": "09", "status": 2 },
+      { "depotId": "0002", "time": "2026-10-25 02:30:00.000000", "code": "", "text": "Synthetic arrival", "mp": "05", "status": 3 }
+    ],
+    "errors": [],
+    "debug": null,
+    "header": {
+      "year": "2026",
+      "date": "2026-10-24",
+      "weight": "12",
+      "id": "SYNTHETIC-0002",
+      "bordered": "2026-10-24 21:00:00.000000",
+      "start": { "depotId": "0001", "country": "DE", "city": "Synthetic Sender Town", "zipCode": "00001" },
+      "end": { "depotId": "0002", "country": "DE", "city": "Synthetic Recipient Town", "zipCode": "00000" }
+    },
+    "status": 3
+  }
+}

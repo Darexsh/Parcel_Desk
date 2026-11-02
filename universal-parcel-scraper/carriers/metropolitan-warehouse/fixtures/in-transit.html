@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Track Your Order</title>
+    <script src="/Scripts/jquery-1.10.2.js"></script>
+    <script src="/Scripts/kendo.all.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="print_heading d-flex justify-content-between align-items-center">
+                    <span>Tracking # :   </span> <span id="SetTrackingId1" style="font-size: 15px;"></span>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" value="Central Standard Time" id="Tracking_TimeZone" />
+        <div class="row mb-3">
+            <div class="col-md-7 col-sm-12">
+                <div style="height: 40%;">
+                    <img src="/Content/images/tracking_stage2a.jpg" style="width:100%" />
+                </div>
+                <div style="height: 60%; width: 100%;">
+                    <div style=" margin-top:3px;text-align:center;">
+                        <span style="font-size: 23px;">Order Pickup Completed</span><br />
+                        <span style=" margin-left: 0px; font-size: 13px;">03/03/2026 01:05 AM <span id="EvtDateTimeZone"></span></span><br />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <div class="panel box box-info">
+                    <div class="panel-body">
+                        <div class="print_heading" style="padding: 3px; font-size: 13px;"><span>Shipping Information</span></div>
+                        <div style="padding-left:13px;">
+                            <span style="font-weight:bold;margin-right:3px;">Destination:</span> <span>Sampleville ZZ 00000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel box box-info">
+                    <div class="panel-body">
+                        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                            <div class="print_heading" style="padding: 3px; font-size: 13px;"><span> Service Type</span></div>
+                            <div style="padding:8px 0px 8px 13px;">
+                                <span>Room of Choice</span>
+                                <span></span>
+                                <span id="hover-me">
+                                    <img style="cursor:pointer;padding-bottom:3px" src="/Content/images/exc.png" />
+                                    <span class="hover-content">
+                                        <p class="delivery_type">Room Of Choice (ROC)</p>
+                                        <p>1. Appointment Scheduling</p>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-12">
+                <div id="divTransHistory"></div>
+                <span id="spanNote" style="display:none; font-style: italic; font-size: smaller;"></span>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="print_heading"><span>Order Details</span></div>
+            <div style="width:33%;float:left;">
+                <label>Tracking #:</label> <span id="SetTrackingId"></span><br />
+                <label>POMS #:</label>
+                <span>990001</span><br />
+                <label>Carrier PRO #:</label> <span></span><br />
+            </div>
+            <div style="width:33%;float:left;">
+                <label>Carrier:</label> <span>METRO</span><br />
+                <label>Client REF# 1:</label> <span>SAMPLEREF1</span><br />
+                <label>Client REF# 2:</label> <span>SAMPLEREF2</span><br />
+                <label>Tag:</label> <span></span><br />
+            </div>
+            <div style="width:33%;float:left;">
+                <label>Total Items:</label> <span>2</span><br />
+                <label>Service Type:</label> <span>ROC</span>
+                <span></span>
+                <br />
+                <label>Dimensions:</label> <span>33 cf</span><br />
+                <label>Weight:</label> <span>250 lbs</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function formatTrackingNo() {
+            var TrackingId = '500000000013';
+            var NewTrackingId = '';
+            for (var i = 0; i < TrackingId.length; i++) {
+                if (i !== 0 && i % 4 === 0) NewTrackingId += ' ';
+                NewTrackingId += TrackingId[i];
+            }
+            $("#SetTrackingId1, #SetTrackingId").text(NewTrackingId);
+        }
+
+        var historyTrans = [{"Event":"Furniture Received by Metro-<Warehouse>-Hub","ID":7000005,"EventID":23,"Date":"03/03/2026 01:05 AM","Location":"Sample Hub, CA"},{"Event":"Pickup completed, No exceptions","ID":7000004,"EventID":18,"Date":"03/03/2026 01:05 AM","Location":"EXAMPLE CITY, CA"},{"Event":"Pickup scheduled for 03/03/2026","ID":7000003,"EventID":10,"Date":"03/03/2026 01:05 AM","Location":"EXAMPLE CITY, CA"},{"Event":"Pickup document attached","ID":7000002,"EventID":92,"Date":"03/02/2026 04:10 AM","Location":"EXAMPLE CITY, CA"},{"Event":"Order registered","ID":7000001,"EventID":1,"Date":"02/24/2026 03:40 PM","Location":"EXAMPLE CITY, CA"}];
+        var abbr = "";
+
+        $(document).ready(function () {
+            var TimeZone = $('#ddlTimeZone option:selected').text() || $("#Tracking_TimeZone").val();
+            if (TimeZone) {
+                abbr = TimeZone.match(/[A-Z](?!.*\()/g).join('');
+                $("#EvtDateTimeZone").text(abbr);
+            }
+            formatTrackingNo();
+            $("#divTransHistory").kendoGrid({
+                dataSource: { data: historyTrans, pageSize: 100 },
+                columns: [
+                    { field: "Date", title: "Date" },
+                    { field: "Event", title: "Event" },
+                    { field: "Location", title: "Location" }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>

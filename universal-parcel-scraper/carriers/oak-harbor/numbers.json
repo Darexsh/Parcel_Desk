@@ -1,0 +1,271 @@
+{
+  "carrier": "oak-harbor",
+  "records": [
+    {
+      "number": "30569826",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.oakh.com/",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A comment in Oak Harbor's home page gives this PRO in an example quick trace address; it starts with 3. The tracker no longer shows it."
+    },
+    {
+      "number": "25286675",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190803102951/http://www.oakh.com:80/quicktrace&pro=25286675",
+        "date": "2019-08-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Oak Harbor's own quick trace page shows the shipment's history, received from a partner carrier and delivered by Oak Harbor."
+    },
+    {
+      "number": "81459151",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20160326120217/http://www.oakh.com:80/quicktrace&PRO=81459151",
+        "date": "2016-03-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "An archived lookup on Oak Harbor's own quick trace page shows the shipment's history, from pickup to delivery; it starts with 81."
+    },
+    {
+      "number": "29883006",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200409072800/http://www.oakh.com:80/quicktrace&pro=29883006",
+        "date": "2020-04-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Oak Harbor's own quick trace page shows the shipment's history, with refused deliveries and appointments."
+    },
+    {
+      "number": "27777623",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200427092755/http://www.oakh.com:80/quicktrace&PRO=27777623",
+        "date": "2020-04-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Oak Harbor's own quick trace page shows the shipment's history."
+    },
+    {
+      "number": "18670212",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170504175004/http://www.oakh.com:80/quicktrace&PRO=18670212",
+        "date": "2017-05-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "An archived lookup on Oak Harbor's own quick trace page shows the shipment's history."
+    },
+    {
+      "number": "20025254",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20130616232035/http://www.oakh.com:80/quicktrace&pro=20025254",
+        "date": "2013-06-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Oak Harbor's former quick trace layout shows the shipment at its destination terminal."
+    },
+    {
+      "number": "24732659",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171216025103/http://www.oakh.com:80/quicktrace&PRO=24732659",
+        "date": "2017-12-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Oak Harbor's own quick trace page; the capture was not opened."
+    },
+    {
+      "number": "26120307",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190114005946/http://www.oakh.com:80/quicktrace&pro=26120307",
+        "date": "2019-01-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Oak Harbor's own quick trace page; the capture was not opened."
+    },
+    {
+      "number": "28801889",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20191215090645/http://www.oakh.com:80/quicktrace&pro=28801889",
+        "date": "2019-12-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Oak Harbor's own quick trace page; the capture was not opened."
+    },
+    {
+      "number": "81882079",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170731082547/http://www.oakh.com:80/quicktrace&pro=81882079",
+        "date": "2017-07-31",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Oak Harbor's own quick trace page; the capture was not opened."
+    }
+  ]
+}

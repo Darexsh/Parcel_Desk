@@ -1,0 +1,214 @@
+{
+  "carrier": "mylerz",
+  "records": [
+    {
+      "number": "63777275972001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251001125116/https://api.mylerz.net/api/package/GetPackageTrackingDetailsByBarCode?barcode=63777275972001",
+        "date": "2025-10-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "mylerz"
+        ]
+      },
+      "note": "The opened capture of the tracking API behind Mylerz's tracker returns this barcode with its history from upload to delivery in Cairo."
+    },
+    {
+      "number": "63725218373092",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200520143836/http://mylerz.net:80/trackShipment/63725218373092",
+        "date": "2020-05-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "mylerz"
+        ]
+      },
+      "note": "Archived lookup on Mylerz's own tracker address; the capture was not opened (the tracker is a script app whose shell shows no history)."
+    },
+    {
+      "number": "63726082113038",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200530110719/http://mylerz.net:80/trackShipment/63726082113038",
+        "date": "2020-05-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "mylerz"
+        ]
+      },
+      "note": "Archived lookup on Mylerz's own tracker address; the capture was not opened (the tracker is a script app whose shell shows no history)."
+    },
+    {
+      "number": "63727035165137",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200609115149/http://mylerz.net:80/trackShipment/63727035165137",
+        "date": "2020-06-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "mylerz"
+        ]
+      },
+      "note": "Archived lookup on Mylerz's own tracker address; the capture was not opened (the tracker is a script app whose shell shows no history)."
+    },
+    {
+      "number": "63728261018022",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200702144507/http://mylerz.net:80/trackShipment/63728261018022",
+        "date": "2020-07-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "mylerz"
+        ]
+      },
+      "note": "Archived lookup on Mylerz's own tracker address; the capture was not opened (the tracker is a script app whose shell shows no history)."
+    },
+    {
+      "number": "63771979923018",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240310185047/https://mylerz.net/trackShipment/63771979923018",
+        "date": "2024-03-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "mylerz"
+        ]
+      },
+      "note": "Archived lookup on Mylerz's own tracker address; the capture was not opened (the tracker is a script app whose shell shows no history)."
+    }
+  ]
+}

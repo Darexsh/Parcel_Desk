@@ -1,0 +1,115 @@
+{
+  "response": {
+    "shipmentStatus": {
+      "result": [
+        {
+          "pro": "987654321",
+          "billOfLadingNumber": "SAMPLEBOL002",
+          "purchaseOrder": "NS",
+          "status": "ARRIVED AT TERMINAL",
+          "statusDateTime": "2026-11-02T08:00:00",
+          "statusDateTimeUTC": "-05:00",
+          "comment": "",
+          "city": "SAMPLE HARBOR",
+          "state": "VA",
+          "estimatedDeliveryTime": "2026-11-05T15:00:00",
+          "estimatedDeliveryTimeUTC": "-05:00",
+          "consignee": {
+            "name": "EXAMPLE STORES LLC",
+            "address1": "4 MADEUP BLVD",
+            "address2": "",
+            "city": "SAMPLE CITY",
+            "state": "NC",
+            "zip": "29999"
+          },
+          "shipper": {
+            "name": "SAMPLE FOODS",
+            "address1": "5 SYNTHETIC ST",
+            "address2": "",
+            "city": "EXAMPLEVILLE",
+            "state": "OH",
+            "zip": "49999"
+          },
+          "billTo": {
+            "name": "SAMPLE FOODS",
+            "address1": "5 SYNTHETIC ST",
+            "address2": "",
+            "city": "EXAMPLEVILLE",
+            "state": "OH",
+            "zip": "49999"
+          },
+          "interlineFrom": "",
+          "interlineFromPro": "",
+          "interlineTo": "SEFL",
+          "interlineToPro": "1234567890",
+          "shipmentDetails": {
+            "weight": "1200",
+            "pieces": "3"
+          },
+          "statusHistory": [
+            {
+              "description": "PICKED UP",
+              "location": "EXAMPLEVILLE, OH",
+              "city": "EXAMPLEVILLE",
+              "state": "OH",
+              "start": "2026-10-30T00:00:00",
+              "startUTC": "-04:00",
+              "end": "2026-10-30T00:00:00",
+              "endUTC": "-04:00"
+            },
+            {
+              "description": "DEPARTED TERMINAL",
+              "location": "EXAMPLEVILLE, OH",
+              "city": "EXAMPLEVILLE",
+              "state": "OH",
+              "start": "2026-10-30T19:45:00",
+              "startUTC": "-04:00",
+              "end": "2026-10-30T19:45:00",
+              "endUTC": "-04:00"
+            },
+            {
+              "description": "ARRIVED AT TERMINAL",
+              "location": "SAMPLE GAP, PA",
+              "city": "SAMPLE GAP",
+              "state": "PA",
+              "start": "2026-10-31T02:10:00",
+              "startUTC": "-04:00",
+              "end": "2026-10-31T02:10:00",
+              "endUTC": "-04:00"
+            },
+            {
+              "description": "DEPARTED TERMINAL",
+              "location": "SAMPLE GAP, PA",
+              "city": "SAMPLE GAP",
+              "state": "PA",
+              "start": "2026-11-01T01:30:00",
+              "startUTC": "-05:00",
+              "end": "2026-11-01T01:30:00",
+              "endUTC": "-05:00"
+            },
+            {
+              "description": "ARRIVED AT TERMINAL",
+              "location": "SAMPLE HARBOR, VA",
+              "city": "SAMPLE HARBOR",
+              "state": "VA",
+              "start": "2026-11-02T03:15:00",
+              "startUTC": "-05:00",
+              "end": "2026-11-02T03:15:00",
+              "endUTC": "-05:00"
+            },
+            {
+              "description": "DELIVERY APPOINTMENT WINDOW",
+              "location": "SAMPLE CITY, NC",
+              "city": "SAMPLE CITY",
+              "state": "NC",
+              "start": "2026-11-04T08:00:00",
+              "startUTC": "-05:00",
+              "end": "2026-11-04T12:00:00",
+              "endUTC": "-05:00"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

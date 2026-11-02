@@ -1,0 +1,374 @@
+{
+  "carrier": "mailamericas",
+  "records": [
+    {
+      "number": "MLAR042951130EX",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mailamericas.com/tracking",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "example tracking number",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "The tracking page's example in its search box. The tracker returns a delivered history for it."
+    },
+    {
+      "number": "MMXQP049053940E",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mailamericas.com/tracking",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "example tracking number",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "The tracking page's example in its message for a malformed number. The tracker returns a delivered history for it."
+    },
+    {
+      "number": "MLAR086293445EX",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://tuquejasuma.com/mailamerica/reclamos/pedido-shein-mlar086293445ex",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "Shein order",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "A complaint about MailAmericas names it in its title. The tracker returns a delivered history from Argentina."
+    },
+    {
+      "number": "MLAR042396450EX",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/review/mailamericas.com?page=2",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "reportedRole": "order",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "A review on MailAmericas' Trustpilot page names it. The tracker returns a delivered history from the United States to Argentina."
+    },
+    {
+      "number": "MLUY000058663EX",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/review/mailamericas.com?page=2",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "reportedRole": "tracking number",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "A review on MailAmericas' Trustpilot page gives it as the tracking number. The tracker returns a delivered history from China to Uruguay."
+    },
+    {
+      "number": "MLPE061797570R",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://tuquejasuma.com/mailamerica/reclamos/solicitud-de-ayuda-por-intento-fallido-de-entrega-tracking-mlpe061797570r",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "tracking number",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "A complaint about a failed delivery in Peru gives it as the tracking number. The tracker returns the parcel as returned."
+    },
+    {
+      "number": "MLPE077045388R",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/review/mailamericas.com?page=5",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "reportedRole": "tracking number",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "A review from Peru on MailAmericas' Trustpilot page gives it as the tracking number. The tracker returns the parcel as returned after failed deliveries."
+    },
+    {
+      "number": "MLCO004858315R",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://tuquejasuma.com/mailamerica/reclamos/problema-con-seguimiento-de-paquete-mlco004858315r-no-aparece-en-sistema",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "tracking number",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "A complaint says the tracker had stopped finding it for a while. The tracker returns a delivered history from China to Colombia."
+    },
+    {
+      "number": "MLCO012599462R",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://tuquejasuma.com/mailamerica/reclamos/necesito-saber-en-que-sucursal-esta-mi-pedido-mlco012599462r",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "order",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "A complaint about a delivery in Colombia names it. The tracker returns a delivered history with an export customs scan."
+    },
+    {
+      "number": "MLCR000992116R",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://tuquejasuma.com/mailamerica/reclamos/mlcr000992116r",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "order",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "A complaint titled with the number. The tracker returns a delivered history from China to Costa Rica."
+    },
+    {
+      "number": "MMXQP119499020R",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://tuquejasuma.com/mailamerica/reclamos/mmxqp119499020r-585663200012-vr518708632yp",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "tracking number",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "A complaint in Mexico lists it with the order's other numbers. The tracker returns a delivered history from China."
+    },
+    {
+      "number": "MMXQP003906641N",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://tuquejasuma.com/mailamerica/reclamos/numero-de-guia-mmxqp003906641n-paquete-mostrado-entregado-y-nunca-recibido",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "guía",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "A complaint in Mexico gives it as the waybill. The tracker returns a delivered AliExpress parcel filed under its `LP` reference, without this number."
+    },
+    {
+      "number": "MMXQP141379634R",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241002175626/https://mailamericas.com/br/tracking?tracking=MMXQP141379634R",
+        "date": "2024-10-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "Looked up on MailAmericas' own tracker, as an archived address shows. The tracker returns a delivered history from Spain to Mexico."
+    },
+    {
+      "number": "MMXQP016258945R",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200812003545/https://mailamericas.com/tracking?tracking=MMXQP016258945R",
+        "date": "2020-08-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "Looked up on MailAmericas' own tracker, as an archived address shows. The tracker returns a delivered history from China to Mexico."
+    },
+    {
+      "number": "ZH132121855MX",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241211075229/https://mailamericas.com/en/tracking?tracking=ZH132121855MX",
+        "date": "2024-12-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An S10 number looked up on MailAmericas' own tracker, as an archived address shows. The tracker returns a delivered history in Mexico; the number stays with postal detection."
+    },
+    {
+      "number": "ML559616706MH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240509234512/https://mailamericas.com/tracking?tracking=ML559616706MH",
+        "date": "2024-05-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mailamericas",
+          "chronopost"
+        ]
+      },
+      "note": "An S10 number under the Marshall Islands code, looked up on MailAmericas' own tracker. The tracker returns a delivered history in Colombia."
+    },
+    {
+      "number": "RP123674697MU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240423025955/https://mailamericas.com/tracking?tracking=RP123674697MU",
+        "date": "2024-04-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An S10 number under the Mauritius code, looked up on MailAmericas' own tracker. The tracker returns a delivered history in El Salvador."
+    },
+    {
+      "number": "EE002763955MH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240327003657/https://mailamericas.com/tracking?tracking=EE002763955MH",
+        "date": "2024-03-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mailamericas",
+          "chronopost"
+        ]
+      },
+      "note": "An S10 number looked up on MailAmericas' own tracker. The tracker returns the parcel as returned in Mexico."
+    },
+    {
+      "number": "UN057195456MU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241126235820/https://mailamericas.com/br/tracking?tracking=UN057195456MU",
+        "date": "2024-11-26",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An S10-shaped number whose check digit fails, looked up on MailAmericas' own tracker. The tracker returns a delivered history in Peru."
+    },
+    {
+      "number": "DOMC000000007R",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-22",
+      "expect": {
+        "carrier": "mailamericas",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of a MailAmericas parcel to the Dominican Republic the app tracked: DOMC, nine digits and R."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "j-and-t",
+  "displayName": "J&T Express",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "PH",
+      "ID",
+      "MY",
+      "TH",
+      "VN",
+      "SG"
+    ]
+  },
+  "brand": {
+    "color": "#ff0000"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "j-and-t",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 530
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://www.jtexpress.ph/track-and-trace?flag=1&waybillNo={trackingNumber}",
+    "searchUrl": "https://www.jtexpress.ph/track-and-trace",
+    "canaryUrl": "https://customerapp.jntexpress.id/jandt-app-ifd-web/router.do",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "recipient_name",
+      "driver_name",
+      "contact_details",
+      "proof_of_delivery",
+      "coordinates"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "recipient_name",
+      "driver_name",
+      "contact_details",
+      "proof_of_delivery",
+      "coordinates"
+    ],
+    "unavailable": [
+      "eta"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "jtexpress.ph"
+      ],
+      "params": [
+        "waybillNo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "j-and-t-1",
+      "pattern": "^\\d{12}$",
+      "confidence": "low"
+    },
+    {
+      "id": "j-and-t-2",
+      "pattern": "^JT\\d{13}$",
+      "confidence": "low"
+    },
+    {
+      "id": "j-and-t-3",
+      "pattern": "^JY\\d{10}$",
+      "confidence": "high"
+    },
+    {
+      "id": "j-and-t-4",
+      "pattern": "^JD\\d{10}$",
+      "confidence": "low"
+    },
+    {
+      "id": "j-and-t-5",
+      "pattern": "^JX\\d{10}$",
+      "confidence": "high"
+    },
+    {
+      "id": "j-and-t-6",
+      "pattern": "^J[A-Z]\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

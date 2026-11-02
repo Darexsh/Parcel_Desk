@@ -1,0 +1,78 @@
+{
+  "result": {
+    "code": 0
+  },
+  "data": [
+    {
+      "order": {
+        "orderNo": "SWECN990000000001YQ",
+        "traceStatus": "TRACE_STATUS_SIGNED",
+        "traceStatusDesc": "Sample status text",
+        "countryEnName": "United States",
+        "countryCodeTwo": "US"
+      },
+      "traces": [
+        {
+          "traceTime": 1776361152,
+          "traceDesc": "Delivered, Front Door",
+          "traceLocation": "SAMPLE CITY, CA",
+          "traceType": "TRACE_TYPE_TAIL"
+        },
+        {
+          "traceTime": 1776327314,
+          "traceDesc": "Out for Delivery",
+          "traceLocation": "SAMPLE CITY, CA",
+          "traceType": "TRACE_TYPE_TAIL"
+        },
+        {
+          "traceTime": 1776290728,
+          "traceDesc": "Arrived at Sorting Facility",
+          "traceLocation": "SAMPLE CITY, CA 99999",
+          "traceType": "TRACE_TYPE_TAIL"
+        },
+        {
+          "traceTime": 1776061200,
+          "traceDesc": "Customs clearance completed",
+          "traceLocation": "EXAMPLE GATEWAY",
+          "traceType": "TRACE_TYPE_HEAD"
+        },
+        {
+          "traceTime": 1775990469,
+          "traceDesc": "Departed from origin airport",
+          "traceLocation": "Shanghai",
+          "traceType": "TRACE_TYPE_HEAD"
+        },
+        {
+          "traceTime": 1775872812,
+          "traceDesc": "已出库",
+          "traceLocation": "上海",
+          "traceType": "TRACE_TYPE_OPERATE"
+        },
+        {
+          "traceTime": 1775872812,
+          "traceDesc": "已出库",
+          "traceLocation": "上海",
+          "traceType": "TRACE_TYPE_OPERATE"
+        },
+        {
+          "traceTime": 1775813445,
+          "traceDesc": "已入库",
+          "traceLocation": "100 Sample Road",
+          "traceType": "TRACE_TYPE_OPERATE"
+        },
+        {
+          "traceTime": 1775790720,
+          "traceDesc": "Sample Status Note",
+          "traceLocation": null,
+          "traceType": "TRACE_TYPE_OPERATE"
+        },
+        {
+          "traceTime": 1775721696,
+          "traceDesc": "",
+          "traceLocation": "Sample Desk",
+          "traceType": "TRACE_TYPE_OPERATE"
+        }
+      ]
+    }
+  ]
+}

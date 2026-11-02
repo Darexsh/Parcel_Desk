@@ -1,0 +1,136 @@
+{
+  "activeEvent": {
+    "id": "PUDO2",
+    "label": "droppedInPudo",
+    "timeline": true,
+    "variables": {
+      "Header": [{ "poe": "pudoName", "path": "pudo_name" }],
+      "Text": [
+        { "poe": "retailerName", "path": "retailer_name" },
+        { "poe": "pudoName", "path": "pudo_name" },
+        { "poe": "pudoAddress", "path": "pudo_address" },
+        { "poe": "expirationDate", "path": "pudo_expiration_date", "field_type": "date" }
+      ],
+      "Meta": [
+        { "poe": "pudoNameLabel", "path": "pudo_name" },
+        { "poe": "pudoAddressLabel", "path": "pudo_address" },
+        { "poe": "expirationDate", "path": "pudo_expiration_date", "field_type": "date" }
+      ]
+    },
+    "event_type": "direct",
+    "uniq_id": "2024-07-29 09:12:00 +0000 UTCPUDO20",
+    "timestamp": "2024-07-29T09:12:00.000Z",
+    "location": { "city": null, "country": "FR" }
+  },
+  "eventList": [
+    {
+      "id": "SM001",
+      "label": "manifested",
+      "timeline": true,
+      "variables": {
+        "Text": [{ "poe": "retailerName", "path": "retailer_name" }]
+      },
+      "event_type": "direct",
+      "uniq_id": "2024-07-27 10:50:30 +0000 UTCSM0011",
+      "timestamp": "2024-07-27T10:50:30.000Z",
+      "location": { "city": null, "country": "FR" }
+    },
+    {
+      "id": "PUDO1",
+      "label": "pudoAssigned",
+      "timeline": true,
+      "variables": {
+        "Text": [
+          { "poe": "retailerName", "path": "retailer_name" },
+          { "poe": "pudoName", "path": "pudo_name" }
+        ]
+      },
+      "event_type": "direct",
+      "uniq_id": "2024-07-27 10:50:31 +0000 UTCPUDO10",
+      "timestamp": "2024-07-27T10:50:31.000Z",
+      "location": { "city": null, "country": "FR" }
+    },
+    {
+      "id": "SM002",
+      "label": "scannedAtOrigin",
+      "timeline": true,
+      "variables": {
+        "Text": [{ "poe": "retailerName", "path": "retailer_name" }]
+      },
+      "event_type": "direct",
+      "uniq_id": "2024-07-28 16:38:19 +0000 UTCSM0020",
+      "timestamp": "2024-07-28T16:38:19.000Z",
+      "location": { "city": null, "country": "FR" }
+    },
+    {
+      "id": "PUDO2",
+      "label": "droppedInPudo",
+      "timeline": true,
+      "variables": {
+        "Text": [
+          { "poe": "retailerName", "path": "retailer_name" },
+          { "poe": "pudoName", "path": "pudo_name" },
+          { "poe": "pudoAddress", "path": "pudo_address" }
+        ]
+      },
+      "event_type": "direct",
+      "uniq_id": "2024-07-29 09:12:00 +0000 UTCPUDO20",
+      "timestamp": "2024-07-29T09:12:00.000Z",
+      "location": { "city": null, "country": "FR" }
+    },
+    {
+      "id": "PUDO3",
+      "label": "collectedByCustomer",
+      "status": "success",
+      "timeline": true,
+      "variables": {
+        "Text": [
+          { "poe": "retailerName", "path": "retailer_name" },
+          { "poe": "pudoName", "path": "pudo_name" }
+        ]
+      },
+      "secondary_section": "review",
+      "event_type": "direct",
+      "uniq_id": "PUDO3"
+    }
+  ],
+  "feedbackSuccess": false,
+  "orderTrackData": {
+    "retailer_name": "PRIVATE RETAILER",
+    "order_id": "PRIVATE INTERNAL ORDER",
+    "family_id": "PRIVATE INTERNAL ORDER",
+    "service_type": "",
+    "retailer_id": "PRIVATE RETAILER ID",
+    "external_id": "PRIVATE_REF_1",
+    "tracking_id": "PRIVATE TRACKING ID",
+    "parcel_amount": 1,
+    "delivery_type": "direct",
+    "expected_delivery_ts": {
+      "start": "2024-07-29T07:00:00.000Z",
+      "end": "2024-07-29T20:00:00.000Z"
+    },
+    "full_name": "PRIVATE RECIPIENT",
+    "email": "private@example.test",
+    "phone_number": "+33 PRIVATE PHONE",
+    "delivery_address": { "country": "FR", "post_code": "75001" },
+    "pudo_id": "PRIVATE PUDO ID",
+    "pudo_name": "Relais Exemple",
+    "pudo_expiration_date": "2024-08-05T21:59:59.000Z",
+    "pudo_address": "1 Rue Exemple, 75002, Paris, France",
+    "events": [
+      {
+        "uniq_id": "2024-07-27 10:50:30 +0000 UTCSM0011",
+        "id": "SM001",
+        "timestamp": "2024-07-27T10:50:30.000Z",
+        "location": { "city": null, "country": "FR" }
+      }
+    ],
+    "passcode": "PRIVATE PASSCODE",
+    "pudo_passcode": "PRIVATE PICKUP CODE",
+    "pudo_pickup_link": "https://example.test/PRIVATE-PICKUP-LINK"
+  },
+  "profileMismatch": false,
+  "title": "Paack | Track your order",
+  "trackingContactProvided": false,
+  "triggeredEventList": []
+}

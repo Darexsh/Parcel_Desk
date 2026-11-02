@@ -1,0 +1,101 @@
+{
+  "carrier": "custom-companies",
+  "records": [
+    {
+      "number": "33586061",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241007102502/https://api.customco.com/scripts/cgiip.exe/boldetail.htm?wbtn=PRO&wpro1=33586061&seskey=&nav=top&language=",
+        "date": "2024-10-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on The Custom Companies' shipment details page shows this shipment number delivered from Compton to Portland with its scan history."
+    },
+    {
+      "number": "68853367",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250325110403/https://api.customco.com/scripts/cgiip.exe/boldetail.htm?wbtn=PRO&wpro1=68853367&seskey=&nav=top&language=",
+        "date": "2025-03-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on The Custom Companies' shipment details page shows this shipment number delivered from Walnut, California to Savannah with its scan history."
+    },
+    {
+      "number": "68854795",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250810044840/https://api.customco.com/scripts/cgiip.exe/boldetail.htm?wbtn=PRO&wpro1=68854795&seskey=&nav=top&language=",
+        "date": "2025-08-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on The Custom Companies' shipment details page shows this shipment number delivered in Vermont with its scan history."
+    },
+    {
+      "number": "68856582",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250213045957/https://api.customco.com/scripts/cgiip.exe/boldetail.htm?wbtn=PRO&wpro1=68856582&seskey=&nav=top&language=",
+        "date": "2025-02-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on The Custom Companies' shipment details page shows this shipment number delivered in New Hampshire with its scan history."
+    }
+  ]
+}

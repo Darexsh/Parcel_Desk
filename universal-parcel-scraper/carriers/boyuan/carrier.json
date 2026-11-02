@@ -1,0 +1,53 @@
+{
+  "id": "boyuan",
+  "displayName": "Boyuan Supply Chain",
+  "aliases": [
+    "Boyuan",
+    "Boyuan Logistics",
+    "博远供应链",
+    "博远物流",
+    "广东博远"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#e60012"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.boyuangyl.com/",
+    "canaryUrl": "https://www.boyuangyl.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tms.boyuangyl.com"
+      ],
+      "pathPattern": "^/(?:en/)?trackIndex\\.htm$",
+      "params": [
+        "documentCode"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "boyuan-1",
+      "pattern": "^BY\\d{14}CN$",
+      "confidence": "low"
+    }
+  ]
+}

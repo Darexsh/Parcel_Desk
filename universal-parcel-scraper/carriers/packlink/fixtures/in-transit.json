@@ -1,0 +1,36 @@
+{
+  "shipment_reference": "ES2026COM0000000102",
+  "public_tracking_id": "SyntheticPublicId0002",
+  "last_synchronization_succeeded": "2026-05-21T10:45:00.400Z",
+  "current_status": "IN_TRANSIT",
+  "status_history": [
+    {"status": "IN_TRANSIT", "time": "2026-05-21T09:55:20.700Z"},
+    {"status": "READY_FOR_COLLECTION", "time": "2026-05-17T10:10:30.200Z"}
+  ],
+  "current_status_info": {"category": "IN_TRANSIT", "is_incident": false},
+  "transit_start_time": "2026-05-21T02:30:00Z",
+  "estimated_time_of_delivery": "2026-05-26",
+  "carrier_shipment_tracking_number": "ES2026COM0000000102",
+  "parcels": [
+    {
+      "current_status": "IN_TRANSIT",
+      "current_status_info": {"category": "IN_TRANSIT", "is_incident": false},
+      "carrier_tracking_number": "00000000000102",
+      "transit_start_time": "2026-05-21T02:30:00Z",
+      "checkpoints": [
+        {"status": "READY_FOR_COLLECTION", "status_info": {"category": "READY_FOR_COLLECTION", "is_incident": false},
+          "raw_carrier_status": {"code": "AC", "description": "RECIBIDO EN ORIGEN"}, "occurred_at": "2026-05-19T09:20:00Z",
+          "location": {"location": "SAMPLE TOWN"}},
+        {"status": "OUT_FOR_DELIVERY_INCIDENT", "status_info": {"category": "OUT_FOR_DELIVERY", "is_incident": true},
+          "raw_carrier_status": {"code": "EX", "description": "TU ENVÍO ESTÁ PENDIENTE DE LLEGAR A DESTINO"}, "occurred_at": "2026-05-20T22:15:00Z",
+          "location": {"location": "SAMPLE TOWN"}},
+        {"status": "IN_TRANSIT", "status_info": {"category": "IN_TRANSIT", "is_incident": false},
+          "raw_carrier_status": {"code": "IT", "description": "RECIBIDA INTERNACIONAL"}, "occurred_at": "2026-05-21T02:30:00Z",
+          "location": {"location": "SAMPLE TOWN"}},
+        {"status": "IN_TRANSIT", "status_info": {"category": "IN_TRANSIT", "is_incident": false},
+          "raw_carrier_status": {"code": "IT", "description": "SALIÓ DE INTERNACIONAL"}, "occurred_at": "2026-05-21T09:25:00Z",
+          "location": {"location": "SAMPLE TOWN"}}
+      ]
+    }
+  ]
+}

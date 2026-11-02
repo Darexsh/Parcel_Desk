@@ -1,0 +1,106 @@
+{
+  "success": true,
+  "data": {
+    "TrackAndTraceNumber": "90001TEST00002",
+    "OnlineAppointmentEnabled": 0,
+    "Scenario": "DEL_DEF",
+    "CustomerId": 90001,
+    "TransportResultCode": null,
+    "ProgressData": [
+      {
+        "StepNumber": 1,
+        "Status": 1,
+        "Overlay": 0
+      },
+      {
+        "StepNumber": 2,
+        "Status": 1,
+        "Overlay": 0
+      },
+      {
+        "StepNumber": 3,
+        "Status": 1,
+        "Overlay": 0
+      },
+      {
+        "StepNumber": 4,
+        "Status": 0,
+        "Overlay": 0
+      }
+    ],
+    "ActiveStep": 3,
+    "DetailCaption": "Onze medewerker is onderweg met uw zending",
+    "DetailTextLine1": "",
+    "DetailTextLine2": "Hieronder kunt u de verwachte aankomsttijd van onze medewerker volgen.",
+    "TransportProgress": {
+      "TimeLineStatus": 2,
+      "TimeLineDisabledReason": null,
+      "EtaStartDateTime": "2026-03-10T14:05:00.413",
+      "EtaEndDateTime": "2026-03-10T14:50:00.413",
+      "CarDirection": 1,
+      "DriverLastCommunicationDateTime": "2026-03-10T13:12:44.27",
+      "DepartureHubDateTime": "2026-03-10T08:31:09.6",
+      "DriverCoordinates": {
+        "Latitude": 52.1111,
+        "Longitude": 5.2222
+      },
+      "AddresseeCoordinates": null
+    },
+    "PushNotificationsEnabled": false,
+    "OrderStatusForAddressee": "Open",
+    "OrderData": null,
+    "ContactInformation": {
+      "ContactEmailAddress": "service@example.invalid",
+      "WhatsAppPhoneNumber": "31000000000",
+      "ContactPageUrl": null,
+      "OpeningHours": [
+        {
+          "Weekday": "Monday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "18:00:00"
+        },
+        {
+          "Weekday": "Tuesday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "18:00:00"
+        },
+        {
+          "Weekday": "Wednesday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "18:00:00"
+        },
+        {
+          "Weekday": "Thursday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "18:00:00"
+        },
+        {
+          "Weekday": "Friday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "18:00:00"
+        },
+        {
+          "Weekday": "Saturday",
+          "IsOpened": true,
+          "OpenedFrom": "09:00:00",
+          "OpenedTo": "16:00:00"
+        },
+        {
+          "Weekday": "Sunday",
+          "IsOpened": false,
+          "OpenedFrom": "00:00:00",
+          "OpenedTo": "00:00:00"
+        }
+      ],
+      "PhoneNumbers": []
+    },
+    "OrderGroup": null
+  },
+  "error": null,
+  "code": 200
+}

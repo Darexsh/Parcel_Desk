@@ -1,0 +1,86 @@
+{
+  "id": "boxtal",
+  "displayName": "Boxtal",
+  "aliases": [
+    "Boxtal Connect",
+    "Boxtal Shipping"
+  ],
+  "region": {
+    "countries": [
+      "FR"
+    ]
+  },
+  "brand": {
+    "color": "#1e5fa6"
+  },
+  "selectable": true,
+  "timezone": "Europe/Paris",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "boxtal",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://shipping.boxtal.com/fr/fr/suivi/suivre-mon-envoi?reference={trackingNumber}",
+    "searchUrl": "https://shipping.boxtal.com/fr/fr/suivi/suivre-mon-envoi",
+    "canaryUrl": "https://shipping.boxtal.com/fr/fr/suivi/suivre-mon-envoi",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "parcel_count"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "parcel_count"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps",
+      "weight",
+      "dimensions",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "boxtal.com",
+        "www.boxtal.com",
+        "shipping.boxtal.com"
+      ],
+      "pathPattern": "^/[a-z]{2}/[a-z]{2}/(?:app/)?(?:(?:suivi/)?suivre-mon-envoi|mon-suivi)/?$",
+      "params": [
+        "reference"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "boxtal-1",
+      "pattern": "^\\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])\\d{4}[A-Z]{4}[A-Z0-9]{4}FR$",
+      "confidence": "high"
+    }
+  ]
+}

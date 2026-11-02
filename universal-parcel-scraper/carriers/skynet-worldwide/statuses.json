@@ -1,0 +1,23 @@
+{
+  "carrier": "skynet-worldwide",
+  "entries": [
+    {"code": "2", "wording": "Collection", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "Picked up from the sender; the first scan of a history."},
+    {"code": "23", "wording": "Sorted to Destination", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"code": "3", "wording": "In Transit to Destination", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"code": "4", "wording": "Arrived Hub", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"code": "14", "wording": "Delayed Linehaul Departure", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The parcel waits for the next departure; the history moved on after it."},
+    {"code": "10", "wording": "On Hold - Customs - Awaiting Customs Clearance", "language": "en", "stage": "customs", "confirmedBy": "live"},
+    {"code": "37", "wording": "Released from Customs", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"code": "262", "wording": "Scheduled for Delivery", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "At the delivering station, booked on a delivery round."},
+    {"code": "15", "wording": "Out for Delivery", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live"},
+    {"code": "18", "wording": "Attempted Delivery - No One Available/Home", "language": "en", "stage": "failed_attempt", "confirmedBy": "live"},
+    {"code": "53", "wording": "Attempted Delivery - Unable to Deliver - Please Contact Customer Services", "language": "en", "stage": "failed_attempt", "confirmedBy": "live"},
+    {"code": "85", "wording": "On Hold - Delivery Needs To Be (Re)Scheduled For/With Consignee", "language": "en", "stage": "exception", "confirmedBy": "live", "note": "Held until the recipient arranges the delivery."},
+    {"code": "1", "wording": "Delivered", "language": "en", "stage": "delivered", "confirmedBy": "live", "note": "The tracker's summary lookup calls the same event Proof of Delivery."},
+    {"code": "19", "wording": "On Hold - In Branch", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A hold at a branch, seen at the origin before the parcel moved on. It names no problem."},
+    {"code": "124", "wording": "On Hold - In Branch", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "The same hold under another number."},
+    {"code": "45", "wording": "Shipment Returned to Sending Station", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "Seen at the destination after a failed attempt and before the delivery: the parcel went back to the depot. The wording also fits a return to the origin."},
+    {"code": "148", "wording": "Info Message Sent to Recipient", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A message to the recipient."},
+    {"code": "149", "wording": "Message Sent to Recipient", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A message to the recipient."}
+  ]
+}

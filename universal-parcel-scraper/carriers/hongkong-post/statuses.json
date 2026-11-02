@@ -1,0 +1,13 @@
+{
+  "carrier": "hongkong-post",
+  "entries": [
+    { "wording": "Sender is preparing item for posting", "language": "en", "stage": "registered", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "Seen in Hongkong Post's web history; the chatbot repeats the latest event's wording with a full stop." },
+    { "wording": "Posted", "language": "en", "stage": "accepted", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "Seen in Hongkong Post's web history." },
+    { "wording": "Handed over to carrier / Left for destination", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "Departure from Hong Kong after posting, not an acceptance." },
+    { "wording": "Arrived at processing centre (inward office of exchange)", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "Seen in Hongkong Post's web history." },
+    { "wording": "Held by customs", "language": "en", "stage": "customs", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "Routine import clearance on the live reference, followed by release and delivery." },
+    { "wording": "Released from Customs / Despatched from processing centre (inward office of exchange)", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "Seen in Hongkong Post's web history." },
+    { "wording": "Delivery incomplete", "language": "en", "stage": "failed_attempt", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "A delivery attempt that did not complete; the live reference was delivered the next day." },
+    { "wording": "Delivered", "language": "en", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-10-08", "note": "Also the chatbot's answer for the live reference, as 'Delivered.'." }
+  ]
+}

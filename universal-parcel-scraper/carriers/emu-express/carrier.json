@@ -1,0 +1,48 @@
+{
+  "id": "emu-express",
+  "displayName": "EMU Express",
+  "aliases": [
+    "Express Mail Universal",
+    "Express Mail Universal LLC",
+    "EMU Post"
+  ],
+  "region": {
+    "countries": [
+      "UZ",
+      "KZ"
+    ]
+  },
+  "brand": {
+    "color": "#8e2b84"
+  },
+  "selectable": true,
+  "timezone": "Asia/Tashkent",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://emu.uz/en/tracking?id={trackingNumber}",
+    "searchUrl": "https://emu.uz/en/tracking",
+    "canaryUrl": "https://emu.uz/en/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "emu.uz",
+        "www.emu.uz"
+      ],
+      "pathPattern": "^/(?:uz|ru|en)/tracking$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

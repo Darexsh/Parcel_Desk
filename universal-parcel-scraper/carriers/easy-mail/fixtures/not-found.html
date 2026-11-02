@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+
+  <title>Easymail Track-n-Trace</title>
+
+  <script src="/assets/js/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script src="/assets/js/recaptcha.js"></script>
+  <link rel="stylesheet" href="/css/style.css?v=1.0.4">
+</head>
+
+<body>
+<div class="container backHome my-2">
+	<a href="https://easymail.gr/">Επιστροφή στην Αρχική</a>
+</div>
+<div class="container-fluid home mb-3">
+	<div class="row">
+		<div class="col">
+			<h1 class="homeTitle mb-3"><a href="/">Track & Trace</a></h1>
+		</div>
+
+	</div>
+		<div class="row">
+		<div class="col">
+			<div class='cus-alert alert alert-danger text-center'><b>Δεν βρέθηκε η Αποστολή. Παρακαλώ επικοινωνήστε με το κατάστημα.</b></div>
+		</div>
+	</div>
+		<div class="search-form">
+		<div class="searchFormContainer">
+
+			<div class="row">
+				<div class="col">
+					<h4>Αναζήτηση αποστολής<h4>
+						</div>
+						</div>
+					<div class="row">
+						<div class="col">
+							<form id='trackntraceform' action="/" method="POST" class="form-inline">
+								<div class="form-group">
+									<input class="form-control" type="text" name="trackingNo" id="trackingNo" value="" />
+								</div>
+								<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+								<button class="g-recaptcha form-control btn btn-primary"data-sitekey="SYNTHETIC-SITE-KEY" data-callback='onSubmit' data-action='submit'><i class="emicon-search"></i></button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+					</div>
+		<div class="col tos">
+			<div class="row">
+				<h2>Όροι και προυποθέσεις</h2>
+				<p>Το σύστημα αναζήτησης έχει σχεδιαστεί για να δίνει μια γρήγορη ενημέρωση για την πορεία των αποστολών σας.</p>
+			</div>
+		</div></div>
+</body>
+</html>

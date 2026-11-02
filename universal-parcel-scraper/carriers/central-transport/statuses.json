@@ -1,0 +1,10 @@
+{
+  "carrier": "central-transport",
+  "entries": [
+    {"wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "A history row, at the shipper's town."},
+    {"wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "A history row."},
+    {"wording": "Attempted to deliver", "stage": "failed_attempt", "language": "en", "confirmedBy": "source", "note": "A Trustpilot review of Central Transport quotes it as the status the tracker shows when a delivery was not made."},
+    {"wording": "Delivered.", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The summary's status; the history has no delivery row."},
+    {"wording": "Contact Customer Service at (586) 467-1900.", "language": "en", "unmapped": true, "confirmedBy": "live", "note": "The summary's status for a shipment the tracker can say nothing more about, old ones included, which the page shows in red; it moves nothing."}
+  ]
+}

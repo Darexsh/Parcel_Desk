@@ -1,0 +1,26 @@
+{
+  "tuStatus": [
+    {
+      "postalCode": "",
+      "emailNotificationCard": false,
+      "arrivalTime": { "name": "", "value": "" },
+      "owners": [],
+      "progressBar": {
+        "level": 40,
+        "retourFlag": false,
+        "evtNos": ["2.0", "0.0", "0.100"],
+        "colourIndex": 2,
+        "statusInfo": "INTRANSIT",
+        "statusText": "In transit",
+        "statusBar": [
+          { "status": "PREADVICE", "imageStatus": "COMPLETE", "imageText": "Preadvice", "statusText": "" },
+          { "status": "INTRANSIT", "imageStatus": "CURRENT", "imageText": "In transit", "statusText": "The parcel is in transit." },
+          { "status": "INWAREHOUSE", "imageStatus": "PENDING", "imageText": "Final parcel center", "statusText": "" },
+          { "status": "INDELIVERY", "imageStatus": "PENDING", "imageText": "In delivery", "statusText": "" },
+          { "status": "DELIVERED", "imageStatus": "PENDING", "imageText": "Delivered", "statusText": "" }
+        ]
+      },
+      "tuNo": "10000000004"
+    }
+  ]
+}

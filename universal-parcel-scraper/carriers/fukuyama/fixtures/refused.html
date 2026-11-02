@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="Shift_JIS">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no,email=no,address=no">
+<title>お荷物配達状況照会・お問い合わせ番号で照会 | 福山通運</title>
+<link rel="stylesheet" href="/corp/assets/css/style.css">
+<script src="/corp/assets/js/viewport.min.js"></script>
+</head>
+<body>
+<header class="l-header_simple js-header">
+	<div class="l-header_simple_logo">
+		<a href="/"><img src="/corp/assets/img/common/header/logo_fukuyama.png" alt="福山通運"></a>
+	</div>
+</header>
+
+<main>
+	<div class="l-overlay js-overlay"></div>
+	<div class="l-content_wrap">
+		<section>
+			<div class="c-h1 opt-pt-short">
+				<div class="l-container">
+					<h1 class="c-h1_text">お荷物配達状況照会・お問い合わせ番号で照会</h1>
+				</div>
+			</div>
+
+			<div class="l-container">
+				<p class="c-text_normal">交通事情等によりお届予定時間通りの配達が出来ない場合がございますので、あらかじめご了解お願いします。</p>
+
+									<div class="c-box_warning">
+							<p class="c-box_warning_text">正しく入力されていない項目があります。</p>
+					</div>
+				
+				<h2 class="c-h2">お問い合わせ番号の入力</h2>
+
+				<form id="tracking_no_huntForm" name="tracking_no_huntForm" class="c-form" method="post" action="/corp/recieve/tracking_no_hunt" accept-charset="sjis"><div style="display:none;"><input type="hidden" name="_method" value="POST" /></div>					<p class="c-text_normal">お問い合わせ番号(10桁または11桁)を半角数字で入力してください。</p>
+
+					<div class="c-table_form">
+						<table>
+							<colgroup>
+								<col class="u-width25">
+								<col class="u-width75">
+							</colgroup>
+							<tbody>
+								<tr>
+									<th class="is-required">お問い合わせ番号</th>
+									<td>
+										<p class="c-form_warning_text">お問い合わせ番号は半角数字で入力してください。</p>										<div class="c-form_input_short is-warning"><!-- is-warningクラス付与 -->
+											<input name="data[TrackingNo][tracking_no]" type="text" id="tracking_no_hunt" class="w120 form-error" placeholder="例：01234567890" value="10000000004" />										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="c-btn_form">
+						<div class="c-btn_border_square">
+							<button type="reset">入力リセット</button>
+						</div>
+						<div class="c-btn_square_action opt-btn_lg">
+							<button type="submit">お問い合わせ開始</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+	</div>
+</main>
+<footer class="l-footer js-footer">
+	<div class="l-container">
+		<p class="l-footer_copyright">Copyright &copy; FUKUYAMA TRANSPORTING Co.,Ltd. All rights reserved.</p>
+	</div>
+</footer>
+</body>
+</html>

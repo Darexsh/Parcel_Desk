@@ -1,0 +1,264 @@
+{
+  "state": "success",
+  "data": [
+    {
+      "pno": "01900000000002",
+      "date": "2026-06-01 12:05:40",
+      "sender_cust_no": null,
+      "sender_name1": null,
+      "sender_company_name": null,
+      "sender_addr_street": null,
+      "sender_addr_city": null,
+      "sender_addr_country": null,
+      "sender_addr_postcode": null,
+      "consignee_name1": null,
+      "consignee_company_name": null,
+      "consignee_addr_street": null,
+      "consignee_addr_city": null,
+      "consignee_addr_country": null,
+      "consignee_addr_postcode": null,
+      "type": "inc",
+      "cincoming_id": 0,
+      "parcelno": "01900000000002",
+      "parcel_name": null,
+      "id": 0,
+      "verified": false,
+      "verifiedPlz": "",
+      "state": {
+        "delivered": false,
+        "redirect": {
+          "addr": false,
+          "neighbour": false,
+          "date": false,
+          "dropoff": false,
+          "pickup": false,
+          "pickup_box": false,
+          "pickup_shop": false,
+          "deny": false,
+          "home": false
+        },
+        "lt_icon": 1,
+        "livetracking": false,
+        "livetracking_today": false,
+        "is2Shop": false,
+        "shopID": null,
+        "predict": false,
+        "statusMessage": "Leider liegen uns derzeit keine Informationen zum Lieferstatus deines Pakets vor. Sobald wir Neuigkeiten zu deiner Sendung haben, findest du diese hier.",
+        "lastState": null,
+        "state": null,
+        "isPrimetime": false
+      },
+      "delivery_times": [
+        "08:00",
+        "17:00"
+      ],
+      "brand_link": null,
+      "brand_img": null,
+      "life_img_big": "https://www.mydpd.at/assets/images/sample-banner-big.jpg",
+      "life_img_small": "https://www.mydpd.at/assets/images/sample-banner-small.jpg",
+      "life_link": " https://www.dpd.com/at/de/",
+      "rtg_id": false,
+      "rtg_code": null,
+      "dstCoords": [
+        null,
+        null
+      ],
+      "lstCoords": [
+        null,
+        null
+      ],
+      "isRedirected": false,
+      "lifecycle": {
+        "lang": "de",
+        "state": 4,
+        "stateV": 4,
+        "state_info": "Hinterlegt in Pickup Paketstation",
+        "predict": null,
+        "entries": [
+          {
+            "depot": "0190",
+            "depotData": null,
+            "datetime": "20260601120500",
+            "type": null,
+            "state": {
+              "value": 0,
+              "name": "ORDER_DATA",
+              "additionalInfo": null,
+              "text": "Auftragsdaten übermittelt",
+              "textShort": "Auftragsdaten übermittelt",
+              "infoType": null,
+              "infoData": null,
+              "infoDataExtendedOnly": false,
+              "datetime": "20260601120500",
+              "extended": null
+            },
+            "volume": null,
+            "extendedOnly": false
+          },
+          {
+            "depot": "0190",
+            "depotData": [
+              "Sample Stadt",
+              "DE"
+            ],
+            "datetime": "20260602151000",
+            "type": "05",
+            "state": {
+              "value": 2,
+              "name": "ON_THE_WAY",
+              "additionalInfo": null,
+              "text": "Paket unterwegs",
+              "textShort": "Paket unterwegs",
+              "infoType": null,
+              "infoData": null,
+              "infoDataExtendedOnly": false,
+              "datetime": "20260602151000",
+              "extended": null
+            },
+            "volume": null,
+            "extendedOnly": false
+          },
+          {
+            "depot": "0180",
+            "depotData": [
+              "Example Hub",
+              "DE"
+            ],
+            "datetime": "20260602224000",
+            "type": "10",
+            "state": {
+              "value": 2,
+              "name": "ON_THE_WAY",
+              "additionalInfo": null,
+              "text": "Paket unterwegs",
+              "textShort": "Paket unterwegs",
+              "infoType": null,
+              "infoData": null,
+              "infoDataExtendedOnly": false,
+              "datetime": "20260602224000",
+              "extended": null
+            },
+            "volume": [
+              26,
+              21,
+              15
+            ],
+            "extendedOnly": false
+          },
+          {
+            "depot": "0622",
+            "depotData": [
+              "Sample Dorf",
+              "AT"
+            ],
+            "datetime": "20260604061500",
+            "type": "02",
+            "state": {
+              "value": 3,
+              "name": "IN_DEPOT",
+              "additionalInfo": null,
+              "text": "Im Paketzustellzentrum",
+              "textShort": "Im Paketzustellzentrum",
+              "infoType": null,
+              "infoData": null,
+              "infoDataExtendedOnly": false,
+              "datetime": "20260604061500",
+              "extended": null
+            },
+            "volume": null,
+            "extendedOnly": false
+          },
+          {
+            "depot": "0622",
+            "depotData": null,
+            "datetime": "20260604062200",
+            "type": "03",
+            "state": {
+              "value": 4,
+              "name": "IN_DELIVERY",
+              "additionalInfo": null,
+              "text": "In Zustellung",
+              "textShort": "In Zustellung",
+              "infoType": null,
+              "infoData": null,
+              "infoDataExtendedOnly": false,
+              "datetime": "20260604062200",
+              "extended": null
+            },
+            "volume": null,
+            "extendedOnly": false
+          },
+          {
+            "depot": "0622",
+            "depotData": null,
+            "datetime": "20260604113000",
+            "type": "14",
+            "state": {
+              "value": 4,
+              "name": "NAB",
+              "additionalInfo": null,
+              "text": "Empfänger leider nicht angetroffen.",
+              "textShort": "Nicht angetroffen",
+              "infoType": null,
+              "infoData": null,
+              "infoDataExtendedOnly": false,
+              "datetime": "20260604113000",
+              "extended": null
+            },
+            "volume": null,
+            "extendedOnly": false
+          },
+          {
+            "depot": "0622",
+            "depotData": null,
+            "datetime": "20260604113000",
+            "type": "14",
+            "state": {
+              "value": 4,
+              "name": "IN_DELIVERY",
+              "additionalInfo": "BOX",
+              "text": "In Zustellung an Pickup Paketstation",
+              "textShort": "In Zustellung an Pickup Paketstation",
+              "infoType": "shop",
+              "infoData": null,
+              "infoDataExtendedOnly": false,
+              "datetime": "20260604113000",
+              "extended": null
+            },
+            "volume": null,
+            "extendedOnly": false
+          },
+          {
+            "depot": "0622",
+            "depotData": null,
+            "datetime": "20260604114100",
+            "type": "23",
+            "state": {
+              "value": 4,
+              "name": "HANDOVER",
+              "additionalInfo": "BOX",
+              "text": "Paket wurde in der Pickup Paketstation hinterlegt",
+              "textShort": "Hinterlegt in Pickup Paketstation",
+              "infoType": "shop",
+              "infoData": null,
+              "infoDataExtendedOnly": false,
+              "datetime": "20260604114100",
+              "extended": null
+            },
+            "volume": null,
+            "extendedOnly": false
+          }
+        ],
+        "isRetoure": false,
+        "isShopRetoure": false,
+        "receiver": null,
+        "hideInfo": false,
+        "deliver_date": null
+      },
+      "high_secure": false,
+      "screen": null,
+      "_hash": "00000000000000000000000000000000",
+      "_loadtime": 1700000000
+    }
+  ]
+}

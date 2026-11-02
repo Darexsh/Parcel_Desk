@@ -1,0 +1,90 @@
+{
+  "id": "gaash",
+  "displayName": "GAASH Worldwide",
+  "aliases": [
+    "GAASH",
+    "Gaash Worldwide",
+    "GAASH Worldwide Ltd",
+    "Gaash"
+  ],
+  "region": {
+    "countries": [
+      "IL"
+    ]
+  },
+  "brand": {
+    "color": "#115ca1"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jerusalem",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gaash",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 769
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "offset_timestamps",
+    "pickup_point",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://gaashwd.com/track-parcel/?TrackingNumber={trackingNumber}",
+    "searchUrl": "https://gaashwd.com/track-parcel/",
+    "canaryUrl": "https://gaashwd.com/track-parcel/",
+    "shows": [
+      "status",
+      "history",
+      "pickup_point",
+      "customs_status",
+      "delivery_partner",
+      "contact_details",
+      "payment_details",
+      "payment_link",
+      "documents"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "offset_timestamps",
+      "pickup_point",
+      "delivered_at"
+    ],
+    "discarded": [
+      "customs_status",
+      "delivery_partner",
+      "contact_details",
+      "payment_details",
+      "payment_link",
+      "documents"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "gaashwd.com",
+        "www.gaashwd.com"
+      ],
+      "pathPattern": "^/(?:track-parcel/?|he/(?:%D7%90%D7%99%D7%AA%D7%95%D7%A8-%D7%97%D7%91%D7%99%D7%9C%D7%94|איתור-חבילה)/?)?$",
+      "params": [
+        "TrackingNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

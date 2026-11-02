@@ -1,0 +1,165 @@
+{
+  "carrier": "via-cargo",
+  "records": [
+    {
+      "number": "999008443755",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210917120327/https://www.viacargo.com.ar/api/tracking/999008443755/",
+        "date": "2021-09-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Opened capture of Via Cargo's own tracking API shows this shipment with its events from intake to the distribution centre."
+    },
+    {
+      "number": "999018346595",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250628000331/https://www.viacargo.com.ar/api/seguimiento/999018346595/",
+        "date": "2025-06-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Sent as the shipment number to Via Cargo's own tracker, as the archived address shows; the opened capture holds only the app shell. The tracker shows the shipment from intake at a branch to its delivery."
+    },
+    {
+      "number": "999019238309",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240321032701/https://www.viacargo.com.ar/api/seguimiento/999019238309/",
+        "date": "2024-03-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Sent as the shipment number to Via Cargo's own tracker, as the archived address shows; the opened capture holds only the app shell. The tracker shows the shipment from intake at a branch to its delivery."
+    },
+    {
+      "number": "999000053615",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231130181736/https://www.viacargo.com.ar/tracking/999000053615",
+        "date": "2023-11-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Sent as the shipment number to Via Cargo's own tracker, as the archived address shows; the opened capture holds only the app shell. The tracker shows the shipment from intake at a branch to its delivery."
+    },
+    {
+      "number": "999002023358",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231130125551/https://www.viacargo.com.ar/tracking/999002023358",
+        "date": "2023-11-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Sent as the shipment number to Via Cargo's own tracker, as the archived address shows; the opened capture holds only the app shell. The tracker shows the shipment from intake at a branch to its delivery."
+    }
+  ]
+}

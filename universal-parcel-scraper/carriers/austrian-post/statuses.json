@@ -1,0 +1,234 @@
+{
+  "carrier": "austrian-post",
+  "entries": [
+    {
+      "wording": "Versender*in bereitet die Sendung für den Versand vor",
+      "language": "de",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Sendung im Logistikzentrum in Bearbeitung",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Sendung in Zustellung",
+      "language": "de",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Empfänger nicht angetroffen - brieflich benachrichtigt",
+      "language": "de",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Übergabe an Zustellpartner",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "code": "PUG",
+      "wording": "Übergabe an Kooperationspartner",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-19",
+      "note": "Austrian Post hands a parcel sent abroad to the EURODIS partner that delivers it."
+    },
+    {
+      "code": "IMP",
+      "wording": "Sendung im Zielland angekommen",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-19",
+      "note": "The partner abroad reports the parcel's arrival in the destination country; the page files it under distribution."
+    },
+    {
+      "wording": "Sendung wurde zugestellt",
+      "language": "de",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "code": "IMP",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Seen without wording after the sending post's departure. The code alone is the arrival in the destination country, so it is in transit, and the adapter gives it the code's wording for that arrival, Sendung im Zielland angekommen."
+    },
+    {
+      "code": "EXP",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Seen without wording, with reason R24. The tracking page lists the scan under its date and time alone, so it keeps its code, gets no stage and never gives the status text."
+    },
+    {
+      "code": "TRA",
+      "wording": "Konsolidierung für Export",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The export hub gathers the item into an outgoing dispatch."
+    },
+    {
+      "code": "TRA",
+      "wording": "Transit",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The item is in transit."
+    },
+    {
+      "wording": "Sendungsannahme durchgeführt",
+      "language": "de",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-18"
+    },
+    {
+      "wording": "Sendung zum Transport abgeholt",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-18",
+      "note": "The collecting service picked the parcel up, here at a Hermes PaketShop."
+    },
+    {
+      "wording": "Annahme im Hermes Shop",
+      "language": "de",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-18",
+      "note": "A Hermes Austria parcel's acceptance at the PaketShop, recorded as the collecting service picks it up."
+    },
+    {
+      "code": "PUG",
+      "wording": "Sendung in Postempfangsbox abholbereit",
+      "language": "de",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-18",
+      "note": "Left in a Post Empfangsbox for the recipient to take out, with reason UPB. The page then sums the parcel up as ready for collection."
+    },
+    {
+      "code": "IZ",
+      "wording": "Sendung aus Postempfangsbox abgeholt",
+      "language": "de",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-18",
+      "note": "The recipient took the parcel out of the Post Empfangsbox, with reason ZPB. The page then sums the parcel up as delivered, although the scan carries status IZ."
+    },
+    {
+      "code": "BNT",
+      "wording": "Postaufgabe im Ausland",
+      "language": "de",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "The sending post's acceptance of an item it sends to Austria, as Austrian Post relays it."
+    },
+    {
+      "code": "BNT",
+      "wording": "Sendung in Bearbeitung Aufgabeland",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "The sending post processes an item bound for Austria."
+    },
+    {
+      "code": "BNT",
+      "wording": "Sendung für Auslandstransport bereit",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "The sending post readies an item bound for Austria for its dispatch abroad."
+    },
+    {
+      "code": "EXP",
+      "wording": "Sendung ins Zielland unterwegs",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "An item bound for Austria leaves the sending country."
+    },
+    {
+      "code": "IMP",
+      "wording": "Sendung in Österreich im Logistkzentrum eingetroffen",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "An item from abroad reaches an Austrian logistics centre; the wording's spelling is Austrian Post's."
+    },
+    {
+      "code": "BNT",
+      "wording": "Sendung in Bearbeitung Österreich",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Austrian Post processes an item from abroad after its arrival."
+    },
+    {
+      "code": "BNT",
+      "wording": "eingeworfen",
+      "language": "de",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "A letter put through the letterbox, after the delivery round; the page then sums the item up as delivered."
+    },
+    {
+      "code": "CUS",
+      "wording": "Sendung im Zollanmeldungsprozess. Weitere Info folgt.",
+      "language": "de",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-11-02",
+      "note": "The customs declaration of an item from abroad is under way, after its arrival in Austria."
+    },
+    {
+      "code": "LAG",
+      "wording": "Lagereingang - Zollanmeldungshindernis",
+      "language": "de",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-11-02",
+      "note": "The item is stored while an obstacle to its customs declaration stands; the tracking page asks the recipient for the missing documents."
+    },
+    {
+      "code": "CUD",
+      "wording": "Sendung ist im Zollprozess verzögert. Grund: unplausibler Warenwert.",
+      "language": "de",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-11-02",
+      "note": "A delay in customs, here over an implausible declared value; the reason after \"Grund:\" varies and the map reads any."
+    },
+    {
+      "code": "SN",
+      "wording": "Zollanmeldungshindernis - Rückmeldung vom Empfänger eingelangt",
+      "language": "de",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-11-02",
+      "note": "The recipient answered the obstacle to the customs declaration; the item stays in customs until it is cleared."
+    }
+  ]
+}

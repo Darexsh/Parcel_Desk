@@ -1,0 +1,131 @@
+{
+  "id": "pfc-express",
+  "displayName": "PFC Express",
+  "aliases": [
+    "PFC皇家物流",
+    "皇家物流",
+    "深圳市皇家物流有限公司",
+    "Shenzhen Royal Logistics Co., Ltd.",
+    "PFCEXPRESS Logistics Co., Ltd.",
+    "PFC EXPRESS"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "HK",
+      "US",
+      "GB",
+      "DE",
+      "ES",
+      "JP",
+      "ID",
+      "VN",
+      "TH",
+      "SG",
+      "PH",
+      "MY",
+      "PK",
+      "AE",
+      "SA",
+      "AU",
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#0e84d6"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pfc-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 856
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "service_name",
+    "destination_country",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.pfctrack.com/?nums={trackingNumber}",
+    "searchUrl": "https://www.pfctrack.com/",
+    "canaryUrl": "https://www.pfctrack.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "origin_country",
+      "destination_country",
+      "delivery_tracking_number",
+      "customer_reference",
+      "contact_details",
+      "signatory"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "destination_country",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "origin_country",
+      "customer_reference",
+      "contact_details",
+      "signatory"
+    ],
+    "unavailable": [
+      "eta",
+      "delivered_at",
+      "offset_timestamps",
+      "weight",
+      "delivery_partner",
+      "provider_code",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.pfctrack.com",
+        "pfctrack.com"
+      ],
+      "pathPattern": "^/(?:Index)?/?$",
+      "params": [
+        "nums",
+        "no"
+      ]
+    },
+    {
+      "domains": [
+        "www.pfcexpress.com",
+        "pfcexpress.com",
+        "oms.pfcexpress.com"
+      ],
+      "pathPattern": "^/Manage/(?:En)?WebManage/Inquire\\.aspx$",
+      "params": [
+        "txtID"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "pfc-express-1",
+      "pattern": "^R(?=\\d{13,17}$)\\d{5,6}2\\d(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])\\d{1,4}$",
+      "confidence": "low"
+    }
+  ]
+}

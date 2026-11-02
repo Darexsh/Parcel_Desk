@@ -1,0 +1,43 @@
+{
+  "carrier": "jcex",
+  "records": [
+    {
+      "number": "JCZ0318108989DH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/jcex",
+        "date": "2026-10-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "jcex",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's JCEX page offered it to try. JCEX's tracker answers it as a parcel from China that USPS delivered in the United States."
+    },
+    {
+      "number": "JCZ1006008960DH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/jcex",
+        "date": "2026-10-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "jcex",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's JCEX page offered it to try. JCEX's tracker answers it as a parcel from China handed to Colissimo in France."
+    }
+  ]
+}

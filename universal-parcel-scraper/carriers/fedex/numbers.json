@@ -1,0 +1,1372 @@
+{
+  "carrier": "fedex",
+  "records": [
+    {
+      "number": "041441760228964",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/fedex.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "dpd-fr",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to FedEx, which stays one candidate among several."
+    },
+    {
+      "number": "477179081230",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/fedex.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to FedEx, which stays one candidate among several."
+    },
+    {
+      "number": "532981649667",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aa95a1ed3a830f75a5b84e6",
+        "date": "2026-09-15"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Publicly reported FedEx shipment; detection lists FedEx among several twelve-digit candidates. On 2026-09-30 ParcelsApp listed its US scans as \"City, ST\"; its delivery-day order only fits local clocks."
+    },
+    {
+      "number": "541270563758",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aa6eaabc62ce509075349c1",
+        "date": "2026-09-13"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "sf-express",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Publicly reported FedEx shipment; detection lists FedEx among several twelve-digit candidates. On 2026-09-30 FedEx's own page gave the local delivery time whose digits ParcelsApp labels UTC."
+    },
+    {
+      "number": "986578788855",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/fedex.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to FedEx, which stays one candidate among several."
+    },
+    {
+      "number": "000123450000000027",
+      "role": "full_barcode",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/fedex.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ecoscooting"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. Full label barcode rather than the number a user types. The source attributes it to FedEx, which no rule claims."
+    },
+    {
+      "number": "779017972697",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/fedex.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The twelve-digit tracking number inside the source's 34-digit FedEx Express label barcode, which is a record of its own. FedEx stays one candidate among several."
+    },
+    {
+      "number": "784917580286",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/fedex.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The twelve-digit tracking number inside the source's 32-digit FedEx ASTRA label barcode, which is a record of its own. FedEx stays one candidate among several."
+    },
+    {
+      "number": "9611020987654312345672",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20160803154112/http://www.fedex.com/us/solutions/ppe/FedEx_Ground_Label_Layout_Specification.pdf"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "The worked check-digit example of FedEx Ground's label specification, not a real shipment. Full 96 barcode: its last fifteen digits, the shipper ID, package number and check digit, pass GS1, so detection prefers FedEx."
+    },
+    {
+      "number": "9622001900000000000000776632517510",
+      "role": "full_barcode",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/fedex.json"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "Open-source project example, not a real shipment. Full 34-digit FedEx Ground label barcode: its twelve-digit tracking number follows two zeros in positions 21–34 and passes its check, so detection selects FedEx."
+    },
+    {
+      "number": "271272514871",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.globkurier.pl/faq/poznaj-opinie-naszych-klientow",
+        "date": "2024-03-01",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "international parcel",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "gls-ch",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Sender explicitly names FedEx for Poland-to-Asia delivery."
+    },
+    {
+      "number": "279403051467",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/fedex.it",
+        "date": "2024-11-17",
+        "dateKind": "review date as displayed",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "international customs",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Customer explicitly publishes FedEx tracking number in international customs report."
+    },
+    {
+      "number": "6232030133050",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.globkurier.pl/opinie-fedex-trade-networks",
+        "date": "2024-01-30",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review",
+        "service": "poland domestic network unverified",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex-pl",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Thirteen-digit reference on FedEx Trade Networks category page; customer describes Polish domestic brokerage. Actual FedEx service and identifier role unverified."
+    },
+    {
+      "number": "9612804882227378545377",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://github.com/duckduckgo/zeroclickinfo-goodies/issues/393",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "FedEx tracking number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "A public report calls this 22-digit 96 barcode a FedEx tracking number, which the reporter's search engine recognized only as its last fifteen digits. Those digits pass their GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "9611019012345611887554",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20160803154112/http://www.fedex.com/us/solutions/ppe/FedEx_Ground_Label_Layout_Specification.pdf"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "Sample 96 barcode from FedEx Ground's label specification, not a real shipment. Its last fifteen digits pass their GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "9611019012345612345671",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20160803154112/http://www.fedex.com/us/solutions/ppe/FedEx_Ground_Label_Layout_Specification.pdf"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "Sample 96 barcode from FedEx Ground's label specification, not a real shipment. Its last fifteen digits pass their GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "9611804027471600040302",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20160803154112/http://www.fedex.com/us/solutions/ppe/FedEx_Ground_Label_Layout_Specification.pdf"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "Sample 96 barcode from FedEx Ground's label specification, not a real shipment. Its last fifteen digits pass their GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "9612019012345612345688",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20160803154112/http://www.fedex.com/us/solutions/ppe/FedEx_Ground_Label_Layout_Specification.pdf"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "Sample 96 barcode from FedEx Ground's label specification, not a real shipment. Its last fifteen digits pass their GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "9612804045318533301017",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20160803154112/http://www.fedex.com/us/solutions/ppe/FedEx_Ground_Label_Layout_Specification.pdf"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "Sample 96 barcode from FedEx Ground's label specification, not a real shipment. Its last fifteen digits pass their GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "9622001560001234567100794808390594",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20200215061536/http://www.fedex.com/us/gsn/barcode_guide.pdf"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "Sample 34-digit barcode from FedEx Ground's barcode modifications chart, not a real shipment. The label prints positions 23–34 as its tracking number; that number passes its check, so detection selects FedEx."
+    },
+    {
+      "number": "9632001560123456789900794808390594",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20200215061536/http://www.fedex.com/us/gsn/barcode_guide.pdf"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "Sample 34-digit barcode from FedEx Ground's barcode modifications chart, not a real shipment. The label prints positions 23–34 as its tracking number; that number passes its check, so detection selects FedEx."
+    },
+    {
+      "number": "9632001960123456789400152152152158",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20161020202345/http://www.fedex.com/us/gsn/sample_barcodes.pdf"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "Sample 34-digit barcode from FedEx Ground's sample labels, not a real shipment. The label prints positions 23–34 as its tracking number; that number passes its check, so detection selects FedEx."
+    },
+    {
+      "number": "9632080400123456789400152152152158",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20161020202345/http://www.fedex.com/us/gsn/sample_barcodes.pdf"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "Sample 34-digit barcode from FedEx Ground's sample labels, not a real shipment. The label prints positions 23–34 as its tracking number; that number passes its check, so detection selects FedEx."
+    },
+    {
+      "number": "9611020987654312345673",
+      "role": "negative",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-08",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ],
+        "not": [
+          "fedex"
+        ]
+      },
+      "note": "FedEx Ground's worked 96 barcode with its check digit changed, so FedEx is not suggested."
+    },
+    {
+      "number": "9622001560001234567100794808390595",
+      "role": "negative",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-08",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none",
+        "not": [
+          "fedex"
+        ]
+      },
+      "note": "A sample 34-digit FedEx barcode with its check digit changed, so FedEx is not suggested."
+    },
+    {
+      "number": "4200000000000000000000700000000021",
+      "role": "full_barcode",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-25",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex"
+        ]
+      },
+      "note": "The 34-digit layout behind USPS's 420 routing prefix, with digits USPS's layout does not fit, so FedEx stays a suggestion."
+    },
+    {
+      "number": "449044304137821",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developer.fedex.com/wirc/jsonapi-collections/api_groups/Track/TrackAPI_collection.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "Track API sandbox example from FedEx, not a real shipment. Its last digit is the GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "020207021381215",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developer.fedex.com/wirc/jsonapi-collections/api_groups/Track/TrackAPI_collection.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "dpd-fr",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "Track API sandbox example from FedEx, not a real shipment. Its last digit is the GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "509466710003247",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://developer.fedex.com/wirc/jsonapi-collections/api_groups/Track/TrackAPI_collection.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "Track API sandbox example FedEx names as a Ground delivery, not a real shipment. Its last digit is the GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "042332561009656",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysb.164047/gov.uscourts.nysb.164047.499.2.pdf",
+        "date": "2008-04-07",
+        "dateKind": "filing",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "FedEx Ground",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "dpd-fr",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "A public court exhibit holds FedEx Ground's proof-of-delivery letter for this tracking number. Its last digit is the GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "307349610001114",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysb.137477/gov.uscourts.nysb.137477.19482.3.pdf",
+        "date": "2010-02-17",
+        "dateKind": "filing",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "FedEx Ground",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "A public court exhibit quotes a FedEx shipment notification naming it the master number of a twelve-piece FedEx Ground shipment. Its last digit is the GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "760135915575222",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20140314131802/http://www.complaintsboard.com:80/complaints/fedex-home-very-late-delivery-c703352.html",
+        "date": "2014-03-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "FedEx Home Delivery",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "A customer's public complaint about a late FedEx Home delivery gives it as the tracking number. Its last digit is the GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "102342415431466",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20120127021537/http://www.consumeraffairs.com:80/delivery/fedex_no_deliver.html",
+        "date": "2011-07-23",
+        "dateKind": "comment publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "dpd-fr",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "A shipper's public complaint gives it as the tracking number of a FedEx package delivered to the wrong address. Its last digit is the GS1 check, so detection prefers FedEx."
+    },
+    {
+      "number": "449044304137820",
+      "role": "negative",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-07",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "brt",
+          "yunda"
+        ],
+        "not": [
+          "fedex"
+        ]
+      },
+      "note": "FedEx's Track API example with its GS1 check digit changed, so FedEx is not suggested."
+    },
+    {
+      "number": "818819882348",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6ac8dfaf96fe3357a1dfe6eb",
+        "date": "2026-10-09",
+        "access": "full_page",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "An international FedEx parcel reported in a review. FedEx tracking needs the browser service, so it was not checked here."
+    },
+    {
+      "number": "873970594430",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260719162543/https://www.fedex.com/fedextrack/index.html?tracknumbers=873970594430",
+        "date": "2026-07-19",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "gls-ch",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. FedEx tracking needs the browser service, so it was not checked here."
+    },
+    {
+      "number": "396557764681",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260302101300/https://www.fedex.com/apps/fedextrack/index.html?tracknumbers=396557764681",
+        "date": "2026-03-02",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "dhl",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. FedEx tracking needs the browser service, so it was not checked here."
+    },
+    {
+      "number": "543070066728",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250903194220/https://www.fedex.com/apps/fedextrack/index.html?tracknumbers=543070066728",
+        "date": "2025-09-03",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. FedEx tracking needs the browser service, so it was not checked here."
+    },
+    {
+      "number": "121585746108",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250827103612/https://www.fedex.com/apps/fedextrack/?action=track&action=track&tracknumbers=121585746108",
+        "date": "2025-08-27",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. FedEx tracking needs the browser service, so it was not checked here."
+    },
+    {
+      "number": "881171022565",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250514065048/https://www.fedex.com/apps/fedextrack/index.html?trknbr=881171022565",
+        "date": "2025-05-14",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. FedEx tracking needs the browser service, so it was not checked here."
+    },
+    {
+      "number": "553324223330",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260606153735/http://www.fedex.com/fedextrack/index.html?tracknumbers=553324223330&cntry_code=de",
+        "date": "2026-06-06",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. FedEx tracking needs the browser service, so it was not checked here."
+    },
+    {
+      "number": "8010 8389 6838",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260831144947/https://www.fedex.com/fedextrack/index.html?tracknumbers=8010%208389%206838&cntry_code=us",
+        "date": "2026-08-31",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A 12-digit FedEx number published with spaces in an archived FedEx tracking link."
+    },
+    {
+      "number": "4249 0852 2182",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251027110420/https://www.fedex.com/apps/fedextrack/index.html?action=track&tracknumbers=4249+0852+2182&locale=en_US&cntry_code=en",
+        "date": "2025-10-27",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A 12-digit FedEx number published with spaces in an archived FedEx tracking link."
+    },
+    {
+      "number": "961879871514044",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250510144209/https://www.fedex.com/apps/fedextrack/?action=track&action=track&tracknumbers=961879871514044",
+        "date": "2025-05-10",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "A 15-digit Ground number archived from a FedEx tracking link."
+    },
+    {
+      "number": "949856944754758",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250515020112/https://www.fedex.com/fedextrack/html/index.html?tracknumbers=949856944754758",
+        "date": "2025-05-15",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "A 15-digit Ground number archived from a FedEx tracking link."
+    },
+    {
+      "number": "002550961151924",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251021214741/https://www.fedex.com/apps/fedextrack/?action=track&action=track&tracknumbers=002550961151924",
+        "date": "2025-10-21",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "dpd-fr",
+          "hermes-de",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "A 15-digit Ground number archived from a FedEx tracking link. Its leading 0 also fits DPD France's rule."
+    },
+    {
+      "number": "61299994738840303974",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251027171149/https://www.fedex.com/apps/fedextrack/?action=track&action=track&tracknumbers=61299994738840303974",
+        "date": "2025-10-27",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "service": "FedEx Ground Economy",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "A 20-digit Ground Economy number archived from a FedEx tracking link: a USPS package number without its 92 channel, whose check digit passes with the 92 in front."
+    },
+    {
+      "number": "74890983300058417827",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250610145452/https://www.fedex.com/fedextrack/?action=track&tracknumbers=74890983300058417827&action=track",
+        "date": "2025-06-10",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "service": "FedEx Ground Economy",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "A 20-digit Ground Economy number archived from a FedEx tracking link: a USPS package number without its 92 channel, whose check digit passes with the 92 in front."
+    },
+    {
+      "number": "61290274420320913673",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260412022730/https://www.fedex.com/fedextrack/system-error?trknbr=61290274420320913673",
+        "date": "2026-04-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "FedEx Ground Economy",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. A 20-digit Ground Economy number of service type 612: a USPS package number without its 92 channel, whose check digit passes with the 92 in front. FedEx's tracker files it under SmartPost and returns its history through delivery by FedEx Ground."
+    },
+    {
+      "number": "61290367906223222924",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260411183451/https://www.fedex.com/fedextrack/system-error?trknbr=61290367906223222924",
+        "date": "2026-04-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "FedEx Ground Economy",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. A 20-digit Ground Economy number of service type 612: a USPS package number without its 92 channel, whose check digit passes with the 92 in front. FedEx's tracker files it under SmartPost and returns its history through delivery by FedEx Ground."
+    },
+    {
+      "number": "61290381371820112600",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260408201827/https://www.fedex.com/fedextrack/system-error?trknbr=61290381371820112600",
+        "date": "2026-04-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "FedEx Ground Economy",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. A 20-digit Ground Economy number of service type 612: a USPS package number without its 92 channel, whose check digit passes with the 92 in front. FedEx's tracker files it under SmartPost and returns its history through delivery by FedEx Ground."
+    },
+    {
+      "number": "74890360845720131731",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260502010548/https://www.fedex.com/fedextrack/system-error?trknbr=74890360845720131731",
+        "date": "2026-05-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "FedEx Ground Economy",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. A 20-digit Ground Economy number of service type 748: a USPS package number without its 92 channel, whose check digit passes with the 92 in front. FedEx's tracker files it under SmartPost and returns its history through delivery by FedEx Ground."
+    },
+    {
+      "number": "74890408776522880345",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260504205229/https://www.fedex.com/fedextrack/system-error?trknbr=74890408776522880345",
+        "date": "2026-05-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "FedEx Ground Economy",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. A 20-digit Ground Economy number of service type 748: a USPS package number without its 92 channel, whose check digit passes with the 92 in front. FedEx's tracker files it under SmartPost and returns its history through delivery by FedEx Ground."
+    },
+    {
+      "number": "61299998825468864607",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251109042958/https://www.fedex.com/fedextrack/system-error?trknbr=61299998825468864607",
+        "date": "2025-11-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "FedEx Ground Economy",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. A 20-digit Ground Economy number whose check digit passes with the 92 in front. FedEx's tracker now returns a later parcel under the same number, filed under SmartPost: the U.S. Postal Service accepted it under the number with 92 in front and delivered it."
+    },
+    {
+      "number": "61299998825428896854",
+      "role": "negative",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250613174313/https://www.fedex.com/fedextrack/no-results-found?trknbr=61299998825428896854",
+        "date": "2025-06-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. Its check digit, which USPS requires on every package number, fails with the 92 in front, while every Ground Economy number FedEx's tracker knew passes it, as do nearly all archived FedEx links of this family. No other check scheme fits and no swap of neighbouring digits repairs it, so a single mistyped digit is the likely cause, and detection leaves FedEx out."
+    },
+    {
+      "number": "61290983483523829637",
+      "role": "negative",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260117002305/https://www.fedex.com/fedextrack/system-error?trknbr=61290983483523829637",
+        "date": "2026-01-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "A FedEx tracking link archived by the Wayback Machine. Its check digit, which USPS requires on every package number, fails with the 92 in front, while every Ground Economy number FedEx's tracker knew passes it, as do nearly all archived FedEx links of this family. No other check scheme fits and no swap of neighbouring digits repairs it, so a single mistyped digit is the likely cause, and detection leaves FedEx out."
+    },
+    {
+      "number": "9612804169230236160243",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251016100334/https://www.fedex.com/apps/fedextrack/?action=track&action=track&tracknumbers=9612804169230236160243",
+        "date": "2025-10-16",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "A Ground 96 label barcode archived from a FedEx tracking link. It carries a 15-digit tracking number."
+    },
+    {
+      "number": "1001921334250001000300779017972697",
+      "role": "full_barcode",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/fedex.json"
+      },
+      "expect": {
+        "carrier": "fedex",
+        "confidence": "high"
+      },
+      "note": "Open-source project example, not a real shipment. Full 34-digit label barcode: its twelve-digit tracking number follows two zeros in positions 21–34 and passes its check, so detection selects FedEx."
+    },
+    {
+      "number": "32971514560102447849175802862014",
+      "role": "full_barcode",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/fedex.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Open-source project example, not a real shipment. Full label barcode rather than the number a user types. The source attributes it to FedEx; no rule matches this shape."
+    }
+  ]
+}

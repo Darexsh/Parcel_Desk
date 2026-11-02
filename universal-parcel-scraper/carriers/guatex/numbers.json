@@ -1,0 +1,62 @@
+{
+  "carrier": "guatex",
+  "records": [
+    {
+      "number": "w145LN00051",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.facebook.com/GuatExGuatemala/posts/somos-tu-aliado-para-tus-env%C3%ADos-de-paqueter%C3%ADa-pesada-o-de-volumen-guatex-est%C3%A1-pa/1258683279634739/",
+        "date": "2025-11-21",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A customer names Guatex and quotes this guía in a complaint under Guatex's own Facebook post; the comment runs the next word straight into the number."
+    },
+    {
+      "number": "A0984R00009",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://docs.hotwax.co/adoc/flow/carriers/guatex.md",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "HotWax Commerce's Guatex integration guide shows this guía in Guatex's sample success response, with two child guías."
+    },
+    {
+      "number": "A0984R00010",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://docs.hotwax.co/adoc/flow/carriers/guatex.md",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "HotWax Commerce's Guatex integration guide shows this second guía in the same sample success response, with two child guías."
+    }
+  ]
+}

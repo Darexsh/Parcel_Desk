@@ -1,0 +1,467 @@
+{
+  "carrier": "meest",
+  "records": [
+    {
+      "number": "RO319055313EE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20161219082852/https://t.meest-group.com/get.php?what=tracking&number=RO319055313EE&ext_track=",
+        "date": "2016-12-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Meest's own tracker, archived by the Wayback Machine, returns a record with it as the sender's shipment number."
+    },
+    {
+      "number": "001-0255371",
+      "role": "order_reference",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20211019081047/https://wiki.meest-group.com/uk/4-tracking-shipments?tmpl=component&print=1&page=",
+        "date": "2021-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "sender's number",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Sample output of the tracking function in Meest's own API documentation, archived by the Wayback Machine; not a real shipment."
+    },
+    {
+      "number": "CV025062099PL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-670951",
+        "date": "2018-06-29",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A review on vidhuk.ua's Meest page lists it among parcels tracked in the Meest app and still undelivered."
+    },
+    {
+      "number": "CV025078709PL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-673199",
+        "date": "2018-07-04",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A review on vidhuk.ua's Meest page asks in its headline for this parcel to be delivered."
+    },
+    {
+      "number": "CV025080225PL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-673199",
+        "date": "2018-07-04",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A review on vidhuk.ua's Meest page quotes Meest's tracking status for this parcel."
+    },
+    {
+      "number": "CV019554871PL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-673199",
+        "date": "2018-07-04",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A review on vidhuk.ua's Meest page gives it as a parcel that went back to the shop while the app still showed it out for delivery."
+    },
+    {
+      "number": "CV186889907PL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-1090715",
+        "date": "2020-01-03",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A review on vidhuk.ua's Meest page names it in its headline."
+    },
+    {
+      "number": "CV186874315PL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-1090715",
+        "date": "2020-01-03",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A review on vidhuk.ua's Meest page names it in its headline."
+    },
+    {
+      "number": "RO361480895EE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-623122",
+        "date": "2018-03-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A review on vidhuk.ua's Meest page gives it as a parcel sent from China to Ukraine."
+    },
+    {
+      "number": "RO361368707EE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-623122",
+        "date": "2018-03-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A review on vidhuk.ua's Meest page gives it as a parcel sent from China to Ukraine."
+    },
+    {
+      "number": "CV812721713US",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-712335",
+        "date": "2018-09-18",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A review on vidhuk.ua's Meest page gives it as the track number of a parcel sent from the United States."
+    },
+    {
+      "number": "CV944756321US",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-712335",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A comment under a review on vidhuk.ua's Meest page gives it as a parcel sent from New Jersey."
+    },
+    {
+      "number": "000201706246",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A review on vidhuk.ua's Meest page gives it as a domestic parcel whose tracking stopped updating."
+    },
+    {
+      "number": "201839638567",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A review on vidhuk.ua's Meest page gives it as the waybill (ТТН) of a lost parcel."
+    },
+    {
+      "number": "CV950076856US",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-2373948",
+        "date": "2026-09-04",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "On vidhuk.ua's Meest page, a reviewer gives it as their parcel number in reply to Meest's support. Meest's tracker knows it as a parcel from the United States delivered in Ukraine."
+    },
+    {
+      "number": "CV928043601EE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.vidhuk.ua/mist-ekspress/review-944082",
+        "date": "2019-07-06",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A review on vidhuk.ua's Meest page gives it as a parcel sixty days in transit."
+    },
+    {
+      "number": "CR498424991EE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250225180906/https://t.meest-group.com/n/CR498424991EE",
+        "date": "2025-02-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Looked up on Meest's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "MYCV060080099GB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231124235305/https://t.meest-group.com/n/MYCV060080099GB",
+        "date": "2023-11-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Meest's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "BG4211888QV00010G",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/meest/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "meest"
+        ]
+      },
+      "note": "ParcelPanel's Meest Express page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment. Meest's tracker knows it as a parcel from China that a partner delivers."
+    },
+    {
+      "number": "UA3382591GP00110G",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/meest/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "meest"
+        ]
+      },
+      "note": "ParcelPanel's Meest Express page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment. Meest's tracker knows it as a parcel from China."
+    },
+    {
+      "number": "UA3200617NN00030G",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230714170330/https://t.meest-group.com/n/UA3200617NN00030G",
+        "date": "2023-07-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "meest"
+        ]
+      },
+      "note": "Looked up on Meest's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "UA3930795MT00050G",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240503114802/https://t.meest-group.com/n/UA3930795MT00050G",
+        "date": "2024-05-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "meest"
+        ]
+      },
+      "note": "Looked up on Meest's own tracker, as an archived address shows; the capture was not opened."
+    }
+  ]
+}

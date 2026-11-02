@@ -1,0 +1,93 @@
+{
+  "id": "speedex",
+  "displayName": "Speedex",
+  "aliases": [
+    "SPEEDEX",
+    "Speedex Courier",
+    "SPEEDEX A.E."
+  ],
+  "region": {
+    "countries": [
+      "GR"
+    ]
+  },
+  "brand": {
+    "color": "#55b248"
+  },
+  "selectable": true,
+  "timezone": "Europe/Athens",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "speedex",
+    "steps": [
+      "direct",
+      "retry",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 938
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://www.speedex.gr/isapohi.asp?voucher_code={trackingNumber}",
+    "searchUrl": "https://www.speedex.gr/isapohi.asp",
+    "canaryUrl": "https://www.speedex.gr/isapohi.asp",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "recipient_name",
+      "office_addresses",
+      "office_contact_details",
+      "coordinates"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "recipient_name",
+      "office_addresses",
+      "office_contact_details",
+      "coordinates"
+    ],
+    "unavailable": [
+      "provider_code",
+      "eta",
+      "pickup_point",
+      "sender_name",
+      "service_name",
+      "weight",
+      "delivered_at",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "speedex.gr"
+      ],
+      "pathPattern": "^/isapohi\\.asp$",
+      "params": [
+        "voucher_code"
+      ]
+    },
+    {
+      "domains": [
+        "speedex.gr"
+      ],
+      "pathPattern": "^/speedex/NewTrackAndTrace\\.aspx$",
+      "params": [
+        "number"
+      ]
+    }
+  ],
+  "detection": []
+}

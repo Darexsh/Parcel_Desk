@@ -1,0 +1,98 @@
+{
+  "id": "osm-worldwide",
+  "displayName": "OSM Worldwide",
+  "aliases": [
+    "OSM",
+    "One Stop Mailing"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#a2002b"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "osm-worldwide",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 75
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "provider_code",
+    "delivery_partner"
+  ],
+  "portal": {
+    "url": "https://www.osmworldwide.com/tracking/?trackingIds={trackingNumber}",
+    "searchUrl": "https://www.osmworldwide.com/tracking/",
+    "canaryUrl": "https://www.osmworldwide.com/tracking/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "estimated_delivery",
+      "customer_reference",
+      "postcodes",
+      "delivery_instructions"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "estimated_delivery",
+      "provider_code"
+    ],
+    "discarded": [
+      "customer_reference",
+      "postcodes",
+      "delivery_instructions"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "service_name",
+      "weight",
+      "dimensions",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "osmworldwide.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "trackingIds",
+        "trackingNumbers"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "osm-worldwide-1",
+      "pattern": "^A\\d{10}[A-Z]{3}\\d{8}$",
+      "confidence": "high"
+    },
+    {
+      "id": "osm-worldwide-2",
+      "pattern": "^OSM[0-9A-Z]{14}$",
+      "confidence": "high"
+    }
+  ]
+}

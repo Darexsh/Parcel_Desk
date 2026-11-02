@@ -1,0 +1,73 @@
+{
+  "id": "hermes",
+  "displayName": "Hermes Einrichtungs-Service",
+  "aliases": [
+    "HES",
+    "Hermes Einrichtungsservice"
+  ],
+  "region": {
+    "countries": [
+      "DE"
+    ]
+  },
+  "brand": {
+    "color": "#0091cd"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "hermes",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 602
+    }
+  },
+  "capabilities": [
+    "history",
+    "eta",
+    "sender_name",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://myhes.de/",
+    "searchUrl": "https://myhes.de/",
+    "canaryUrl": "https://myhes.de/",
+    "shows": [
+      "status",
+      "history",
+      "eta",
+      "eta_window",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "delivery_instructions"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "eta_window",
+      "sender_name",
+      "delivered_at"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address",
+      "delivery_instructions"
+    ],
+    "unavailable": [
+      "location"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "hermes-delivery-note",
+      "pattern": "^\\d(?:00[1-9]|0[1-9]\\d|[12]\\d\\d|3[0-5]\\d|36[0-6])\\d{6}0000\\d{3}(?:\\d{2}){0,2}$",
+      "confidence": "low"
+    }
+  ]
+}

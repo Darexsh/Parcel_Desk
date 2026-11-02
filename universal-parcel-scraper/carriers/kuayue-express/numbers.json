@@ -1,0 +1,65 @@
+{
+  "carrier": "kuayue-express",
+  "records": [
+    {
+      "number": "KY4000534292346",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://baijiahao.baidu.com/s?id=1869990624603360581",
+        "date": "2026-07-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "kuayue-express",
+        "confidence": "high"
+      },
+      "note": "The waybill of a Kuayue Express shipment in a dispute an article reports."
+    },
+    {
+      "number": "KY4000231442561",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.zhihu.com/question/624816231",
+        "date": "2023-10-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "kuayue-express",
+        "confidence": "high"
+      },
+      "note": "A Zhihu question asking which carrier a waybill belongs to; it is a Kuayue Express waybill."
+    },
+    {
+      "number": "KY4000200667516",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.baidu.com/s?wd=跨越速运+KY4000",
+        "date": "2026-10-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "kuayue-express",
+        "confidence": "high"
+      },
+      "note": "A waybill people searched for with Kuayue Express's name, among Baidu's related searches."
+    }
+  ]
+}

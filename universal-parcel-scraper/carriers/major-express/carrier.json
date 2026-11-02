@@ -1,0 +1,55 @@
+{
+  "id": "major-express",
+  "displayName": "Major Express",
+  "aliases": [
+    "Мэйджор Экспресс"
+  ],
+  "region": {
+    "countries": [
+      "RU"
+    ]
+  },
+  "brand": {
+    "color": "#ee761c"
+  },
+  "selectable": true,
+  "timezone": "Europe/Moscow",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://major-express.ru/useful-services/track/?type=1&tracking-number={trackingNumber}",
+    "searchUrl": "https://major-express.ru/useful-services/track/",
+    "canaryUrl": "https://major-express.ru/useful-services/track/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "major-express.ru",
+        "www.major-express.ru"
+      ],
+      "pathPattern": "^/useful-services/track/?$",
+      "params": [
+        "tracking-number"
+      ]
+    },
+    {
+      "domains": [
+        "major-express.ru",
+        "www.major-express.ru"
+      ],
+      "pathPattern": "^/[Tt]race\\.aspx$",
+      "params": [
+        "wbnumber"
+      ]
+    }
+  ],
+  "detection": []
+}

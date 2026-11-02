@@ -1,0 +1,46 @@
+{
+  "carrier": "jamaica-post",
+  "records": [
+    {
+      "number": "ZL53533553",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://jamailtracker.jamaicapost.gov.jm/track-status.php",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt-it"
+        ]
+      },
+      "note": "Jamaica Post's Ja Mail tracker gives this as the first example of a tracking barcode number under its search field."
+    },
+    {
+      "number": "CSN6754",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://jamailtracker.jamaicapost.gov.jm/track-status.php",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Jamaica Post's Ja Mail tracker gives this as the second example of a tracking barcode number under its search field."
+    }
+  ]
+}

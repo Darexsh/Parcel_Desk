@@ -1,0 +1,24 @@
+{
+  "carrier": "american-west-express",
+  "records": [
+    {
+      "number": "CH1019159",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180310204229/http://awest.freightgate.com:80/cgi-bin/tarifftrek5.1/itrek.cgi?database=awest&type=submit&&interface=pltx&open_interface_search=Search+Now&open_text=CH1019159&SearchOn=open_billno",
+        "date": "2018-03-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on American West's own I-Trek tracker shows this pro number picked up in Moorpark, California for Missouri, in transit, with its pieces, weight and ETA."
+    }
+  ]
+}

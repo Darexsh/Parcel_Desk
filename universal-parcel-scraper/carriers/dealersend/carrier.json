@@ -1,0 +1,96 @@
+{
+  "id": "dealersend",
+  "displayName": "DealerSend",
+  "aliases": [
+    "Dealer Send",
+    "Dealer Send Logistics",
+    "Dealer Send Logistics Limited"
+  ],
+  "region": {
+    "countries": [
+      "HK"
+    ]
+  },
+  "brand": {
+    "color": "#d71d4f"
+  },
+  "selectable": true,
+  "timezone": "Asia/Hong_Kong",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dealersend",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 69
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "service_name",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://dealer-send.com/en-US/track-my-shipment?trackingNumber={trackingNumber}",
+    "searchUrl": "https://dealer-send.com/en-US/track-my-shipment",
+    "canaryUrl": "https://dealer-send.com/en-US/track-my-shipment",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin_country",
+      "destination_country",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "service_name",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "origin_country",
+      "postcodes"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps",
+      "weight",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "signature",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "dealer-send.com",
+        "www.dealer-send.com"
+      ],
+      "pathPattern": "^/(?:(?:en-US|zh-HK|zh-CN)/)?track-my-shipment/?$",
+      "params": [
+        "trackingNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "dealersend-1",
+      "pattern": "^DSLAF\\d{10}YQ$",
+      "confidence": "high"
+    }
+  ]
+}

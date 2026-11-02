@@ -1,0 +1,13 @@
+{
+  "carrier": "eparcel-kr",
+  "entries": [
+    {"code": "10", "wording": "Ready for warehousing", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "The tracker prints the code in brackets before the wording; the explanation column names the sender."},
+    {"code": "20", "wording": "Completion of the warehousing", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Explained on the tracker as the parcel arriving at the shipping company's warehouse, or with eParcel's own name."},
+    {"code": "30", "wording": "Be released", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Explained on the tracker as the parcel leaving the shipping company's warehouse, or with eParcel's own name."},
+    {"code": "100", "wording": "Aircraft departure", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The explanation column names the departure airport."},
+    {"code": "200", "wording": "Aircraft arrival", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The explanation column names the arrival airport."},
+    {"code": "500", "wording": "Start delivery", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "In a saved tracker page an open-source tracker keeps as a test fixture; the explanation is the delivery company's line about its sorting centre receiving the parcel."},
+    {"code": "550", "wording": "Currently deliverling", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "Spelled so on the saved tracker page. The delivery company's line under it said the parcel was at its warehouse on one scan and on the way to the door on another."},
+    {"code": "700", "wording": "Completion of the delivery", "stage": "delivered", "language": "en", "confirmedBy": "source", "note": "In the same saved tracker page, explained as SUCCESS."}
+  ]
+}

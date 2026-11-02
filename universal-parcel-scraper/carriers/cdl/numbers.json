@@ -1,0 +1,176 @@
+{
+  "carrier": "cdl",
+  "records": [
+    {
+      "number": "916222079-0",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220125232820/https://ship.cdldelivers.com/Xcelerator/Tracking/Tracking?orderId=916222079-0",
+        "date": "2022-01-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "box-now",
+          "cdl",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Looked up on CDL's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "935911449-0",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250711203722/https://apps.cdldelivers.com/Tracking-Page/track?id=935911449-0",
+        "date": "2025-07-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "box-now",
+          "cdl",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Looked up on CDL's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "943506776-0",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260509193114/https://apps.cdldelivers.com/Tracking-Page/track?id=943506776-0",
+        "date": "2026-05-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "box-now",
+          "cdl",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Looked up on CDL's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "CDL02855120513",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260302182433/https://apps.cdldelivers.com/Tracking-Page/track?id=CDL02855120513",
+        "date": "2026-03-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "cdl",
+        "confidence": "high"
+      },
+      "note": "Looked up on CDL's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "CDL02867080305",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260324171026/https://apps.cdldelivers.com/Tracking-Page/track?id=CDL02867080305",
+        "date": "2026-03-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "cdl",
+        "confidence": "high"
+      },
+      "note": "Looked up on CDL's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "CDDL07909376",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220620165353/https://ship.cdldelivers.com/Xcelerator/Tracking/Tracking?packageitemrefno=CDDL07909376",
+        "date": "2022-06-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "Looked up on CDL's own tracker as a package reference, as an archived address shows. CDL's tracking service lists it as a parcel's package reference, a field that also holds shippers' own references, so the prefix may be a shipper's rather than CDL's."
+    },
+    {
+      "number": "CDDL08103768",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220801134522/https://ship.cdldelivers.com/Xcelerator/Tracking/Tracking?packageitemrefno=CDDL08103768",
+        "date": "2022-08-01",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "Looked up on CDL's own tracker as a package reference, as an archived address shows; the prefix may be a shipper's rather than CDL's."
+    }
+  ]
+}

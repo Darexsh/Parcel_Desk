@@ -1,0 +1,70 @@
+{
+  "carrier": "logisimple",
+  "records": [
+    {
+      "number": "306023140225",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/logisimple/complaints/logisimple-sofa-parado-na-transportadora-desde-22-de-julho-sem-entrega-nem-contacto-138827925",
+        "date": "2025-08-13",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Portal da Queixa complaint against Logisimple: the customer quotes this as the tracking number on Logisimple's site. Logisimple's own tracking page shows the shipment's history to its delivery."
+    },
+    {
+      "number": "306023551172",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/logisimple/complaints/logisimple-falha-de-entrega-e-comunicacao-138757125",
+        "date": "2025-08-12",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Portal da Queixa complaint against Logisimple: the customer gives this as their order (encomenda) in a complaint about a missed delivery; it has the layout and the first digits of the confirmed number."
+    }
+  ]
+}

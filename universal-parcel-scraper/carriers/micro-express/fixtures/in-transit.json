@@ -1,0 +1,50 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "logId": 0,
+    "tracking_number": "ME0000000000000ABC",
+    "tracking_log": [
+      {
+        "timestamp": 1784063411939,
+        "time": "7/15/2026, 7:10:11 AM",
+        "local_time": "2026/07/15 07:10:11",
+        "description": "Item onboard ready for delivery",
+        "location": "Testford(VIC)",
+        "event_code": "OUT",
+        "time_zone": "Australia/Melbourne",
+        "time_zone2": "UTC+10:00"
+      },
+      {
+        "timestamp": 1784017230420,
+        "time": "7/14/2026, 6:20:30 PM",
+        "local_time": "2026/07/14 18:20:30",
+        "description": "Item has been received by local delivery depot",
+        "location": "Testford(VIC)",
+        "event_code": "COLLECT",
+        "time_zone": "Australia/Melbourne",
+        "time_zone2": "UTC+10:00"
+      },
+      {
+        "timestamp": 1784017230401,
+        "time": "7/14/2026, 6:20:30 PM",
+        "local_time": "2026/07/14 18:20:30",
+        "description": "Item processed by local courier at sorting facility",
+        "location": "Testford(VIC)",
+        "event_code": "IN",
+        "time_zone": "Australia/Melbourne",
+        "time_zone2": "UTC+10:00"
+      },
+      {
+        "timestamp": 1783638005811,
+        "time": "7/10/2026, 9:00:05 AM",
+        "local_time": "2026/07/10 09:00:05",
+        "description": "Order Creation, order submitted, pending to receive.",
+        "event_code": "INIT",
+        "time_zone": "Australia/Melbourne",
+        "time_zone2": "UTC+10:00"
+      }
+    ],
+    "tracking_status": "out"
+  }
+}

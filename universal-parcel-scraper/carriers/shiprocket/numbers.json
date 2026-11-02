@@ -1,0 +1,219 @@
+{
+  "carrier": "shiprocket",
+  "records": [
+    {
+      "number": "8328449311568",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221220092459/https://shiprocket.co/tracking/8328449311568",
+        "date": "2022-12-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "SRX Premium",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "shiprocket",
+          "la-poste",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "An archived Shiprocket tracking page names SRX Premium as the courier for this AWB. Shiprocket's tracker no longer knows it."
+    },
+    {
+      "number": "8326765640442",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240917055118/https://shiprocket.co/tracking/8326765640442",
+        "date": "2024-09-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "SRX Premium",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "shiprocket",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "An archived Shiprocket tracking page names SRX Premium as the courier for this AWB: Delhivery's hubs in India, Shiprocket's export hub in Delhi, then USPS in the United States."
+    },
+    {
+      "number": "8324880071944",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241126151555/https://shiprocket.co/tracking/8324880071944",
+        "date": "2024-11-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Air Cargo X",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "shiprocket",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "An archived Shiprocket tracking page names Air Cargo X as the courier, with a scan at Shiprocket's export hub in Delhi."
+    },
+    {
+      "number": "8323453324128",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260216100823/https://shiprocket.co/tracking/8323453324128",
+        "date": "2026-02-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "SRX Economy Pro",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "shiprocket",
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "An archived Shiprocket tracking page names SRX Economy Pro as the courier. Shiprocket's tracker now gives its archived view, delivered."
+    },
+    {
+      "number": "8322808791901",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://shiprocket.co/tracking/8322808791901",
+        "date": "2026-10-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "SRX Premium Pro",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "shiprocket",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "Archived by the Wayback Machine as a merchant's Shiprocket tracking link. Shiprocket's tracker gives its archived view: SRX Premium Pro, delivered."
+    },
+    {
+      "number": "8328118685422",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://shiprocket.co/tracking/8328118685422",
+        "date": "2026-10-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "SRX Premium Plus Pro",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "shiprocket",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "Archived by the Wayback Machine as a merchant's Shiprocket tracking link. Shiprocket's tracker gives its archived view: SRX Premium Plus Pro, fulfilled."
+    },
+    {
+      "number": "8329468061579",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://apidocs.shiprocket.in/",
+        "date": "2026-10-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Shiprocket Premium",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "shiprocket",
+          "la-poste",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "The AWB in the example reply of Shiprocket's international forward-shipment API, for the courier it names Shiprocket Premium, which its international serviceability example calls SRX Premium."
+    },
+    {
+      "number": "8323670318096",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250925104657/https://shiprocket.co/tracking/8323670318096",
+        "date": "2025-09-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "shiprocket",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "Archived as a Shiprocket tracking link, but the captures hold no page, so nothing shows its courier. Shiprocket's tracker no longer knows it."
+    }
+  ]
+}

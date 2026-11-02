@@ -1,0 +1,13 @@
+{
+  "carrier": "forza-delivery",
+  "entries": [
+    {"code": "15", "wording": "Generado", "language": "es", "stage": "registered", "confirmedBy": "live", "note": "The guía was created; the first scan of a history."},
+    {"code": "1", "wording": "Solicitado", "language": "es", "stage": "registered", "confirmedBy": "live", "note": "The sender asked for the collection, seconds after the guía was created."},
+    {"code": "2", "wording": "Recolectado", "language": "es", "stage": "accepted", "confirmedBy": "live"},
+    {"code": "11", "wording": "Arribó a las instalaciones", "language": "es", "stage": "in_transit", "confirmedBy": "live", "note": "Arrival at a Forza facility, repeated at each one."},
+    {"code": "10", "wording": "En Inventario", "language": "es", "stage": "in_transit", "confirmedBy": "live", "note": "Counted in a facility's stock between arrivals."},
+    {"code": "19", "wording": "En Tránsito", "language": "es", "stage": "in_transit", "confirmedBy": "live"},
+    {"code": "4", "wording": "En ruta", "language": "es", "stage": "out_for_delivery", "confirmedBy": "live", "note": "On the courier's round; the delivery followed it the same day."},
+    {"code": "5", "wording": "Entregado", "language": "es", "stage": "delivered", "confirmedBy": "live"}
+  ]
+}

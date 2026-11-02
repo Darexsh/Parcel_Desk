@@ -1,0 +1,726 @@
+[
+  {
+    "Fid": "EZ000000031IT",
+    "InfoFromEdi": {
+      "TMailitemInfoFromEDI": [
+        {
+          "Characteristics": {
+            "ExemptIndicator": false,
+            "ExpressIndicator": true,
+            "HandlingClass": {
+              "Code": null,
+              "Name": null,
+              "LocalName": null
+            },
+            "InsuredMoney": {
+              "Amount": 0.0,
+              "Currency": null
+            }
+          },
+          "DestCountry": {
+            "Code": "UZ",
+            "Name": "Uzbekistan",
+            "LocalName": null
+          },
+          "InternationalId": "EZ000000031IT",
+          "OrigCountry": {
+            "Code": "IT",
+            "Name": "Italy",
+            "LocalName": null
+          },
+          "Weight": 0.5,
+          "Events": {
+            "TMailitemEventEDI": [
+              {
+                "CustomsReleaseStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Delivery": {
+                  "DeliveryLocation": null,
+                  "DeliveryPostcode": null,
+                  "SignatoryImage": null,
+                  "SignatoryName": null
+                },
+                "DeliveryAgent": {
+                  "Code": null,
+                  "FullCode": null,
+                  "Name": null
+                },
+                "DispatchNumber": null,
+                "EdiEvent": {
+                  "Code": "A",
+                  "Name": "EMSEVT"
+                },
+                "EventOffice": {
+                  "Code": null,
+                  "Name": null
+                },
+                "IPSEventType": {
+                  "Code": "1",
+                  "Name": "Receive item from customer (Otb)",
+                  "LocalName": null,
+                  "LocalName_uz": "Mijozdan jo'natma qabul qilindi",
+                  "LocalName_ru": "Получение отправления от клиента"
+                },
+                "LocalDateTime": "2026-08-27T12:09:00",
+                "NonDeliveryMeasure": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "NonDeliveryReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "ReceivedDispatch": null,
+                "RetentionReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Charges": {
+                  "COD": {
+                    "Amount": {
+                      "Amount": 0.0,
+                      "Currency": null
+                    },
+                    "BIC": null,
+                    "IBAN": null
+                  },
+                  "Customer_charging_arrangement": {
+                    "Code": null,
+                    "Name": null,
+                    "LocalName": null
+                  }
+                },
+                "ItemArrivalStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "MrsInfo": {
+                  "ExpirationDatetime": null,
+                  "ItemOriginalId": null,
+                  "StatusCode": null
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "OperationalMailitems": {
+      "TMailitemInfoFromScanning": [
+        {
+          "Characteristics": {
+            "ExemptIndicator": false,
+            "ExpressIndicator": true,
+            "HandlingClass": {
+              "Code": null,
+              "Name": null,
+              "LocalName": null
+            },
+            "InsuredMoney": {
+              "Amount": 0.0,
+              "Currency": null
+            }
+          },
+          "DestCountry": {
+            "Code": "UZ",
+            "Name": "Uzbekistan",
+            "LocalName": null
+          },
+          "InternationalId": "EZ000000031IT",
+          "OrigCountry": {
+            "Code": "IT",
+            "Name": "Italy",
+            "LocalName": null
+          },
+          "Weight": 0.5,
+          "Charges": {
+            "COD": {
+              "Amount": {
+                "Amount": 0.0,
+                "Currency": null
+              },
+              "BIC": null,
+              "IBAN": null
+            },
+            "Customer_charging_arrangement": {
+              "Code": null,
+              "Name": null,
+              "LocalName": null
+            }
+          },
+          "Events": {
+            "TMailitemEventScanning": [
+              {
+                "CustomsReleaseStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Delivery": {
+                  "DeliveryLocation": null,
+                  "DeliveryPostcode": null,
+                  "SignatoryImage": null,
+                  "SignatoryName": null
+                },
+                "DeliveryAgent": {
+                  "Code": null,
+                  "FullCode": null,
+                  "Name": null
+                },
+                "DispatchNumber": "XXZZZAYYZZZAAEN60001001900001",
+                "EdiEvent": {
+                  "Code": "D",
+                  "Name": "Scanning"
+                },
+                "EventOffice": {
+                  "Code": "UZZZZA",
+                  "Name": "SINOV EMS"
+                },
+                "IPSEventType": {
+                  "Code": "30",
+                  "Name": "Receive item at office of exchange (Inb)",
+                  "LocalName": null,
+                  "LocalName_uz": "Ayirboshlash punktida qabul qilindi",
+                  "LocalName_ru": "Принято в пункте обмена"
+                },
+                "LocalDateTime": "2026-09-03T15:20:11",
+                "NonDeliveryMeasure": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "NonDeliveryReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "ReceivedDispatch": null,
+                "RetentionReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "CollectionPostcode": null,
+                "CustomsOffice": null,
+                "CustomsOfficeType": null,
+                "GmtDateTime": "2026-09-03T10:20:11.481",
+                "NextOffice": null
+              },
+              {
+                "CustomsReleaseStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Delivery": {
+                  "DeliveryLocation": null,
+                  "DeliveryPostcode": null,
+                  "SignatoryImage": null,
+                  "SignatoryName": null
+                },
+                "DeliveryAgent": {
+                  "Code": null,
+                  "FullCode": null,
+                  "Name": null
+                },
+                "DispatchNumber": "XXZZZAYYZZZAAEN60001001900001",
+                "EdiEvent": {
+                  "Code": "D",
+                  "Name": "Scanning"
+                },
+                "EventOffice": {
+                  "Code": "UZZZZA",
+                  "Name": "SINOV EMS"
+                },
+                "IPSEventType": {
+                  "Code": "31",
+                  "Name": "Send item to customs (Inb)",
+                  "LocalName": null,
+                  "LocalName_uz": "Bojxonaga yuborildi",
+                  "LocalName_ru": "Отправлено на таможню"
+                },
+                "LocalDateTime": "2026-09-03T15:22:40",
+                "NonDeliveryMeasure": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "NonDeliveryReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "ReceivedDispatch": null,
+                "RetentionReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "CollectionPostcode": null,
+                "CustomsOffice": null,
+                "CustomsOfficeType": null,
+                "GmtDateTime": "2026-09-03T10:22:40.102",
+                "NextOffice": null
+              },
+              {
+                "CustomsReleaseStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Delivery": {
+                  "DeliveryLocation": null,
+                  "DeliveryPostcode": null,
+                  "SignatoryImage": null,
+                  "SignatoryName": null
+                },
+                "DeliveryAgent": {
+                  "Code": null,
+                  "FullCode": null,
+                  "Name": null
+                },
+                "DispatchNumber": "XXZZZAYYZZZAAEN60001001900001",
+                "EdiEvent": {
+                  "Code": "D",
+                  "Name": "Scanning"
+                },
+                "EventOffice": {
+                  "Code": "UZZZZA",
+                  "Name": "SINOV EMS"
+                },
+                "IPSEventType": {
+                  "Code": "34",
+                  "Name": "Record item customs information (Inb)",
+                  "LocalName": null,
+                  "LocalName_uz": null,
+                  "LocalName_ru": null
+                },
+                "LocalDateTime": "2026-09-03T15:23:05",
+                "NonDeliveryMeasure": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "NonDeliveryReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "ReceivedDispatch": null,
+                "RetentionReason": {
+                  "Code": "11",
+                  "Name": "Documents required",
+                  "LocalName": null
+                },
+                "CollectionPostcode": null,
+                "CustomsOffice": null,
+                "CustomsOfficeType": null,
+                "GmtDateTime": "2026-09-03T10:23:05.390",
+                "NextOffice": null
+              },
+              {
+                "CustomsReleaseStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Delivery": {
+                  "DeliveryLocation": null,
+                  "DeliveryPostcode": null,
+                  "SignatoryImage": null,
+                  "SignatoryName": null
+                },
+                "DeliveryAgent": {
+                  "Code": null,
+                  "FullCode": null,
+                  "Name": null
+                },
+                "DispatchNumber": "XXZZZAYYZZZAAEN60001001900001",
+                "EdiEvent": {
+                  "Code": "D",
+                  "Name": "Scanning"
+                },
+                "EventOffice": {
+                  "Code": "UZZZZA",
+                  "Name": "SINOV EMS"
+                },
+                "IPSEventType": {
+                  "Code": "38",
+                  "Name": "Return item from customs (Inb)",
+                  "LocalName": null,
+                  "LocalName_uz": "Bojxonadan chiqarildi",
+                  "LocalName_ru": " Выпущено из таможни"
+                },
+                "LocalDateTime": "2026-09-08T11:02:30",
+                "NonDeliveryMeasure": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "NonDeliveryReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "ReceivedDispatch": null,
+                "RetentionReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "CollectionPostcode": null,
+                "CustomsOffice": null,
+                "CustomsOfficeType": null,
+                "GmtDateTime": "2026-09-08T06:02:30.775",
+                "NextOffice": null
+              },
+              {
+                "CustomsReleaseStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Delivery": {
+                  "DeliveryLocation": null,
+                  "DeliveryPostcode": null,
+                  "SignatoryImage": null,
+                  "SignatoryName": null
+                },
+                "DeliveryAgent": {
+                  "Code": null,
+                  "FullCode": null,
+                  "Name": null
+                },
+                "DispatchNumber": "XXZZZAYYZZZAAEN60001001900001",
+                "EdiEvent": {
+                  "Code": "D",
+                  "Name": "Scanning"
+                },
+                "EventOffice": {
+                  "Code": "UZZZZA",
+                  "Name": "SINOV EMS"
+                },
+                "IPSEventType": {
+                  "Code": "35",
+                  "Name": "Send item to domestic location (Inb)",
+                  "LocalName": null,
+                  "LocalName_uz": "Mahalliy punktga yuborildi",
+                  "LocalName_ru": "Отправлено в местный пункт"
+                },
+                "LocalDateTime": "2026-09-08T11:05:12",
+                "NonDeliveryMeasure": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "NonDeliveryReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "ReceivedDispatch": null,
+                "RetentionReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "CollectionPostcode": null,
+                "CustomsOffice": null,
+                "CustomsOfficeType": null,
+                "GmtDateTime": "2026-09-08T06:05:12.004",
+                "NextOffice": null
+              },
+              {
+                "CustomsReleaseStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Delivery": {
+                  "DeliveryLocation": null,
+                  "DeliveryPostcode": null,
+                  "SignatoryImage": null,
+                  "SignatoryName": null
+                },
+                "DeliveryAgent": {
+                  "Code": null,
+                  "FullCode": null,
+                  "Name": null
+                },
+                "DispatchNumber": "XXZZZAYYZZZAAEN60001001900001",
+                "EdiEvent": {
+                  "Code": "D",
+                  "Name": "Scanning"
+                },
+                "EventOffice": {
+                  "Code": "UZZZZA",
+                  "Name": "SINOV EMS"
+                },
+                "IPSEventType": {
+                  "Code": "32",
+                  "Name": "Receive item at delivery office (Inb)",
+                  "LocalName": null,
+                  "LocalName_uz": "Yetkazib berish bo'limiga yuborildi",
+                  "LocalName_ru": "Отправлено в отделение доставки"
+                },
+                "LocalDateTime": "2026-09-08T11:06:50",
+                "NonDeliveryMeasure": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "NonDeliveryReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "ReceivedDispatch": null,
+                "RetentionReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "CollectionPostcode": null,
+                "CustomsOffice": null,
+                "CustomsOfficeType": null,
+                "GmtDateTime": "2026-09-08T06:06:50.910",
+                "NextOffice": null
+              },
+              {
+                "CustomsReleaseStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Delivery": {
+                  "DeliveryLocation": null,
+                  "DeliveryPostcode": null,
+                  "SignatoryImage": null,
+                  "SignatoryName": "SAMPLE SIGNATORY"
+                },
+                "DeliveryAgent": {
+                  "Code": null,
+                  "FullCode": null,
+                  "Name": null
+                },
+                "DispatchNumber": "XXZZZAYYZZZAAEN60001001900001",
+                "EdiEvent": {
+                  "Code": "D",
+                  "Name": "Scanning"
+                },
+                "EventOffice": {
+                  "Code": "UZZZZA",
+                  "Name": "SINOV EMS"
+                },
+                "IPSEventType": {
+                  "Code": "37",
+                  "Name": "Deliver item (Inb)",
+                  "LocalName": null,
+                  "LocalName_uz": "Jo'natma yetkazildi",
+                  "LocalName_ru": "Доставка отправления"
+                },
+                "LocalDateTime": "2026-09-09T10:15:00",
+                "NonDeliveryMeasure": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "NonDeliveryReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "ReceivedDispatch": null,
+                "RetentionReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "CollectionPostcode": null,
+                "CustomsOffice": null,
+                "CustomsOfficeType": null,
+                "GmtDateTime": "2026-09-09T05:15:00.000",
+                "NextOffice": null
+              },
+              {
+                "CustomsReleaseStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Delivery": {
+                  "DeliveryLocation": null,
+                  "DeliveryPostcode": null,
+                  "SignatoryImage": null,
+                  "SignatoryName": null
+                },
+                "DeliveryAgent": {
+                  "Code": null,
+                  "FullCode": null,
+                  "Name": null
+                },
+                "DispatchNumber": null,
+                "EdiEvent": {
+                  "Code": "D",
+                  "Name": "Scanning"
+                },
+                "EventOffice": {
+                  "Code": null,
+                  "Name": null
+                },
+                "IPSEventType": {
+                  "Code": "1",
+                  "Name": "Receive item from customer (Otb)",
+                  "LocalName": null,
+                  "LocalName_uz": "Mijozdan jo'natma qabul qilindi",
+                  "LocalName_ru": "Получение отправления от клиента"
+                },
+                "LocalDateTime": "2026-08-27T12:09:00",
+                "NonDeliveryMeasure": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "NonDeliveryReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "ReceivedDispatch": null,
+                "RetentionReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "CollectionPostcode": null,
+                "CustomsOffice": null,
+                "CustomsOfficeType": null,
+                "GmtDateTime": null,
+                "NextOffice": null
+              },
+              {
+                "CustomsReleaseStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Delivery": {
+                  "DeliveryLocation": null,
+                  "DeliveryPostcode": null,
+                  "SignatoryImage": null,
+                  "SignatoryName": null
+                },
+                "DeliveryAgent": {
+                  "Code": null,
+                  "FullCode": null,
+                  "Name": null
+                },
+                "DispatchNumber": null,
+                "EdiEvent": {
+                  "Code": "D",
+                  "Name": "Scanning"
+                },
+                "EventOffice": {
+                  "Code": "ITZZZA",
+                  "Name": "ESEMPIO CMP"
+                },
+                "IPSEventType": {
+                  "Code": "3",
+                  "Name": "Receive item at office of exchange (Otb)",
+                  "LocalName": null,
+                  "LocalName_uz": "Ayirboshlash punktida qabul qilindi",
+                  "LocalName_ru": "Принято в пункте обмена"
+                },
+                "LocalDateTime": "2026-08-31T03:37:00",
+                "NonDeliveryMeasure": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "NonDeliveryReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "ReceivedDispatch": null,
+                "RetentionReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "CollectionPostcode": null,
+                "CustomsOffice": null,
+                "CustomsOfficeType": null,
+                "GmtDateTime": null,
+                "NextOffice": null
+              },
+              {
+                "CustomsReleaseStatus": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "Delivery": {
+                  "DeliveryLocation": null,
+                  "DeliveryPostcode": null,
+                  "SignatoryImage": null,
+                  "SignatoryName": null
+                },
+                "DeliveryAgent": {
+                  "Code": null,
+                  "FullCode": null,
+                  "Name": null
+                },
+                "DispatchNumber": null,
+                "EdiEvent": {
+                  "Code": "D",
+                  "Name": "Scanning"
+                },
+                "EventOffice": {
+                  "Code": "ITZZZA",
+                  "Name": "ESEMPIO CMP"
+                },
+                "IPSEventType": {
+                  "Code": "8",
+                  "Name": "Insert item into bag (Otb)",
+                  "LocalName": null,
+                  "LocalName_uz": "Jo'natma qopga joylandi",
+                  "LocalName_ru": "Отправление помещено в депешу для отправки в страну назначения"
+                },
+                "LocalDateTime": "2026-08-31T08:03:00",
+                "NonDeliveryMeasure": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "NonDeliveryReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "ReceivedDispatch": null,
+                "RetentionReason": {
+                  "Code": null,
+                  "Name": null,
+                  "LocalName": null
+                },
+                "CollectionPostcode": null,
+                "CustomsOffice": null,
+                "CustomsOfficeType": null,
+                "GmtDateTime": null,
+                "NextOffice": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

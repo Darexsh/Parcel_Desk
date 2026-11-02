@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "Body": {
+      "LBCTrackAndTraceResponse": {
+        "LBCTrackAndTraceResult": {
+          "TrackingStatus": {
+            "StatusCode": "0001",
+            "StatusMessage": "SUCCESS!",
+            "TrackingDetails": {
+              "TrackingDetails": {
+                "TrackingNo": "100000000001",
+                "ProdDescr": [],
+                "ConsigneeName": "PRIVATE SYNTHETIC RECIPIENT",
+                "ShipperAddress": "PRIVATE SYNTHETIC ADDRESS",
+                "Origin": { "BranchDescr": "PRIVATE SYNTHETIC BRANCH", "CityName": [], "ProvinceName": [] }
+              }
+            },
+            "TrackingHistory": {
+              "TrackingHistory": [
+                {
+                  "StatusId": "8000",
+                  "DatePosted": "10/1/2026",
+                  "StatusandLocation": "Shipment has been accepted at SYNTHETIC DEPOT.",
+                  "DatePostedTime": "9:15:20 AM",
+                  "Remarks": "PRIVATE SYNTHETIC REMARKS",
+                  "Long": [],
+                  "Lat": [],
+                  "CityName": [],
+                  "ProvinceName": []
+                },
+                {
+                  "StatusId": "8002",
+                  "DatePosted": "10/2/2026",
+                  "StatusandLocation": "Please expect delivery within the day.",
+                  "DatePostedTime": "12:05:03 PM"
+                },
+                {
+                  "StatusId": "1",
+                  "DatePosted": "10/2/2026",
+                  "StatusandLocation": "Delivered to PRIVATE SYNTHETIC RECIPIENT on 10/02/2026.",
+                  "DatePostedTime": "3:40:01 PM",
+                  "InternalStatusandLocation": "PRIVATE SYNTHETIC INTERNAL DATA",
+                  "Branch": { "BranchDescr": "PRIVATE SYNTHETIC BRANCH" }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Banner": null
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "gati",
+  "displayName": "AllcargoGATI",
+  "aliases": [
+    "Gati",
+    "Gati-KWE",
+    "Gati KWE",
+    "Gati Express",
+    "GATI Courier",
+    "Allcargo Gati",
+    "Allcargo Logistics"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#1781a4"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gati",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 43
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "eta",
+    "weight"
+  ],
+  "portal": {
+    "searchUrl": "https://www.allcargologistics.com/track-shipment",
+    "canaryUrl": "https://www.allcargologistics.com/track-shipment",
+    "shows": [
+      "status",
+      "history",
+      "origin",
+      "departure_date",
+      "destination",
+      "delivered_at",
+      "eta",
+      "recipient_name",
+      "remarks",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "eta",
+      "weight"
+    ],
+    "discarded": [
+      "origin",
+      "departure_date",
+      "destination",
+      "recipient_name",
+      "remarks",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "pickup_point",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "gati.com"
+      ],
+      "pathPattern": "^/single_dkt_track_int\\.jsp$",
+      "params": [
+        "dktNo"
+      ]
+    },
+    {
+      "domains": [
+        "gati.com"
+      ],
+      "path": "^/track-by-docket/(\\d{9})/?$"
+    }
+  ],
+  "detection": []
+}

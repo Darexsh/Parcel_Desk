@@ -1,0 +1,26 @@
+{
+  "carrier": "nhat-tin",
+  "entries": [
+    {"code": "1", "wording": "Chưa thành công", "stage": "registered", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 1 in the developer documentation's status list. Its status code is Waiting: the order is not yet complete."},
+    {"code": "2", "wording": "Chờ lấy hàng", "stage": "registered", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 2 in the developer documentation's status list. Awaiting pickup."},
+    {"code": "3", "wording": "Đã lấy hàng", "stage": "accepted", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 3 in the developer documentation's status list. Picked up."},
+    {"code": "3", "wording": "Da lay hang", "stage": "accepted", "language": "vi", "confirmedBy": "official-doc", "note": "The unaccented form of status 3 in the developer documentation's webhook example."},
+    {"code": "4", "wording": "Đã giao hàng", "stage": "delivered", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 4 in the developer documentation's status list. Also in the tracking example."},
+    {"code": "6", "wording": "Hủy", "stage": "exception", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 6 in the developer documentation's status list. Cancelled."},
+    {"code": "7", "wording": "Không phát được", "stage": "failed_attempt", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 7 in the developer documentation's status list. Could not be delivered."},
+    {"code": "9", "wording": "Đang chuyển hoàn", "stage": "returned", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 9 in the developer documentation's status list. Being returned."},
+    {"code": "10", "wording": "Đã chuyển hoàn", "stage": "returned", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 10 in the developer documentation's status list. Returned."},
+    {"code": "11", "wording": "Sự cố giao hàng", "stage": "exception", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 11 in the developer documentation's status list. Delivery problem."},
+    {"code": "12", "wording": "Vận đơn nháp", "stage": "registered", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 12 in the developer documentation's status list. Draft waybill."},
+    {"code": "13", "wording": "Đang giao hàng", "stage": "out_for_delivery", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 13 in the developer documentation's status list."},
+    {"code": "15", "wording": "Đang vận chuyển", "stage": "in_transit", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 15 in the developer documentation's status list."},
+    {"code": "16", "wording": "Đang giao hàng hoàn", "stage": "returned", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 16 in the developer documentation's status list. Delivering the return to the sender."},
+    {"code": "17", "wording": "Lỗi lấy hàng", "stage": "registered", "language": "vi", "confirmedBy": "official-doc", "note": "Order status 17 in the developer documentation's status list. A failed pickup leaves the parcel with its sender."},
+    {"wording": "Nhận vận đơn từ", "stage": "accepted", "language": "vi", "confirmedBy": "official-doc", "note": "A history event in the developer documentation's tracking example, followed by the source."},
+    {"wording": "Nhập vận đơn vào", "stage": "in_transit", "language": "vi", "confirmedBy": "official-doc", "note": "A history event in the developer documentation's tracking example, followed by the warehouse."},
+    {"wording": "Xuất vận đơn từ", "stage": "in_transit", "language": "vi", "confirmedBy": "official-doc", "note": "A history event in the developer documentation's tracking example, followed by the warehouse."},
+    {"wording": "Trả vận đơn cho", "stage": "delivered", "language": "vi", "confirmedBy": "official-doc", "note": "The final history event in the developer documentation's tracking example, followed by the receiver; its English label reads \"Delivered to\"."},
+    {"wording": "Bill import to", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "English label of \"Nhập vận đơn vào\" in the developer documentation's tracking example, followed by the warehouse."},
+    {"wording": "Bill export from", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "English label of \"Xuất vận đơn từ\" in the developer documentation's tracking example, followed by the warehouse."}
+  ]
+}

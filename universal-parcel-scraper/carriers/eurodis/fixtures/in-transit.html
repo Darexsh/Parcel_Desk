@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ENH">
+<head>
+<meta charset="UTF-8" />
+<title>Track &amp; Trace - EURODIS</title>
+<link rel='stylesheet' id='track-and-trace-css'  href='https://eurodis.com/wp-content/plugins/track-and-trace_2020/public/css/track-and-trace-public.css?ver=1.0.0' type='text/css' media='all' />
+</head>
+<body class="page-template page-template-track page-template-track-php page page-id-21">
+    <div id="main" class="tracking-page">
+        <div id="primary" class="content-area odd">
+            <div class="section-wrapper">
+    <div class="section">
+            <div class="row one_column complet_w content_box">
+                <div class="center">
+
+                     <div class="box col3-4 ">
+<h2 class='title_box'>Latest shipment information</h2><div class='info-track-head'>Choose one of the tracking options below to track your shipment throughout the EURODIS network. </div><script>
+    // only works for browsers with HTML5 support
+    try {
+        var stateObj = { foo: "bar" };
+        window.history.replaceState(stateObj, "Title", "/track-trace?200000000000000000000001");
+    } catch (e) {
+        // ignore errors
+    }
+    // hide text on result page
+    $( ".info-track-head" ).hide();
+</script>
+<a class="return-track-wrapper" href="https://eurodis.com/track-trace">
+  <div class="btn-arrow">
+      <span class="arrow"></span>
+  </div>
+  <div class="return_track">New search</div>
+</a>
+<!--<div class="title-tracking blue-title">Tracking by Shipper‘s reference</div>-->
+
+
+<script  type='text/javascript'>
+<!--
+function dozipcheck() {
+
+	jQuery.ajax({
+		type: "post",url: "/track-trace",data: { action: 'checkzip', zip: $('#zipfordetails').val(), shipmentno: '7000000000002' },
+		success: function(html){ //so, if data is retrieved, store it in html
+			var data = $.parseJSON(html);
+			if (!data['error']) {
+				jQuery("#receiver").show();
+				jQuery("#sender").show();
+				jQuery(".collireciever").show();
+			}
+		}
+	}); //close jQuery.ajax(
+}
+-->
+</script>
+
+<div class="shipm-wrapper">
+    <div class="ship-info">
+      <div class="ship-title">Shipment Overview</div>
+      <div class="ship-reference">
+        <table class="ship-info-content">
+          <tr>
+            <td class="ref-tit">Shipment number EURODIS:</td>
+            <td>7000000000002</td>
+          </tr>
+		  		            <tr>
+            <td class="ref-tit">Shipper reference:</td>
+            <td>ORDER-0001</td>
+          </tr>
+		             <tr>
+            <td class="ref-tit">Amount of parcel(s)/pallet(s):</td>
+            <td>2</td>
+          </tr>
+		  		  <tr>
+		    <td class="ref-tit">Destination country:</td>
+            <td>DE</td>
+		  </tr>
+		  		  		  <!-- enter Zip code to see more details -->
+		  <tr class="zipform">
+            <td colspan="2">To see further details about this shipment, please enter the ZIP code of the recipient:</td>
+		  </tr>
+		  <tr class="zipform">
+            <td colspan="2"><input type="text" id="zipfordetails" ><button id="btnzip"><span></span></button> <span id="error" style="display:none" class="error-message">The entered ZIP code was not correct.</span></td>
+		  </tr>
+		  <!-- show more details on successful ajax response -->
+		  <tr id="sender" style="display:none">
+            <td class="ref-tit">Sender:</td>
+            <td>Tienda Ejemplo S.L.</td>
+		  </tr>
+		  <tr id="receiver" style="display:none">
+            <td class="ref-tit">Receiver:</td>
+            <td><div id="receiverdetails"></div></td>
+		  </tr>
+
+		                    </table>
+      </div>
+    </div>
+
+    <div class="ship-history">
+	<!-- Shipment Details -->
+      <h3 class="ship-history-title">Shipment Details</h3>
+	  
+	  <div>
+		<ul>
+         
+		  <li>
+			No history information available		  </li>
+         
+		</ul>
+	  </div>
+
+    </div>
+</div>
+
+<div class="coli-wrapper">
+    <div class="coli-info">
+		<div class="coli-title">Colli Overview</div>
+		<div></div>
+		 		<div class="ship-reference">
+					<div>
+				<table class="ship-info-content">
+					<tr>
+						<td class="ref-tit">Colli number:</td>
+						<td>200000000000000000000001</td>
+					</tr>
+										<tr>
+						<td class="ref-tit">Status:</td>
+						<td><strong>in transit</strong></td>
+					</tr>
+									</table>
+		
+				<h3>
+				  Colli Details				</h3>
+				
+				<div>
+					<ul class="delivery-status-list">
+											<li class="active">
+								
+							<span></span>
+							<div>
+								<h6>in transit</h6>
+								2026-03-10, 
+								02:20								 / Musterdorf								 / DE							</div>
+						</li>
+											<li>
+								
+							<span></span>
+							<div>
+								<h6>Outbound Gateway</h6>
+								2026-03-09, 
+								11:21								 / Ejemplo								 / ES							</div>
+						</li>
+											<li>
+								
+							<span></span>
+							<div>
+								<h6>depot</h6>
+								2026-03-09, 
+								09:40							</div>
+						</li>
+											<li>
+								
+							<span></span>
+							<div>
+								<h6>depot</h6>
+								2026-03-08, 
+								18:20								 / Ejemplo								 / ES							</div>
+						</li>
+										</ul>
+				</div>
+			</div>
+					<div>
+				<table class="ship-info-content">
+					<tr>
+						<td class="ref-tit">Colli number:</td>
+						<td>200000000000000000000002</td>
+					</tr>
+										<tr>
+						<td class="ref-tit">Status:</td>
+						<td><strong>Outbound Gateway</strong></td>
+					</tr>
+									</table>
+		
+				<h3>
+				  Colli Details				</h3>
+				
+				<div>
+					<ul class="delivery-status-list">
+											<li class="active">
+								
+							<span></span>
+							<div>
+								<h6>Outbound Gateway</h6>
+								2026-03-09, 
+								11:21								 / Ejemplo								 / ES							</div>
+						</li>
+											<li>
+								
+							<span></span>
+							<div>
+								<h6>depot</h6>
+								2026-03-08, 
+								18:25								 / Ejemplo								 / ES							</div>
+						</li>
+										</ul>
+				</div>
+			</div>
+				</div>
+      
+		<div class="link_element">
+		<h3 class="acc-set-open no-close">Do you have questions regarding this shipment?</h3><br />
+					<p><a href="https://eurodis.com/faq" target="_blank">Here</a> you can find answers on frequently asked questions. In case these do not answer your individual question, please use the contact information below.</p><div class="receiver-results"><br />
+                    <span>You are the shipper? Please contact</span><br />
+                    <div class=""><br />
+                        <span>&nbsp;</span>Redur<br />
+                         <br />
++34 000 000 000<br />
+ <br />
+                        service@example.com<br />
+                        <br />
+                    </div><br />
+                </div><div class="receiver-results"><br />
+						<span>You are the receiver?</span><br />
+						<div class=""><br />
+							<span>&nbsp;</span><br />
+							Please contact either the shipper or our member in the dispatch country using the contact details above for any question about your shipment.<br />
+							<span>&nbsp;</span><br />
+							Once your shipment has arrived in the destination country, contact details of the responsible local customer service will be shown here.<br />
+						</div><br />
+					</div>		</div>
+		
+	</div>
+</div>                         
+
+     </div>
+
+</div>
+                <br class="clear">
+            </div>
+
+            </div>
+        </div>
+
+</div><!-- #main .site-main -->
+</body>
+</html>

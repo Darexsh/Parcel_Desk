@@ -1,0 +1,97 @@
+{
+  "id": "starken",
+  "displayName": "Starken",
+  "aliases": [
+    "Starken Chile"
+  ],
+  "region": {
+    "countries": [
+      "CL"
+    ]
+  },
+  "brand": {
+    "color": "#009f3e"
+  },
+  "selectable": true,
+  "timezone": "America/Santiago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "starken",
+    "steps": [
+      "direct"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://www.starken.cl/seguimiento?codigo={trackingNumber}",
+    "searchUrl": "https://www.starken.cl/seguimiento",
+    "canaryUrl": "https://www.starken.cl/seguimiento",
+    "shows": [
+      "status",
+      "history",
+      "progress_rail",
+      "eta",
+      "origin",
+      "destination",
+      "recipient_name",
+      "recipient_address",
+      "sender_name",
+      "delivery_method",
+      "payment_details",
+      "proof_of_delivery",
+      "parcel_count",
+      "customer_messages"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "eta"
+    ],
+    "discarded": [
+      "progress_rail",
+      "origin",
+      "destination",
+      "recipient_name",
+      "recipient_address",
+      "sender_name",
+      "delivery_method",
+      "payment_details",
+      "proof_of_delivery",
+      "parcel_count",
+      "customer_messages"
+    ],
+    "unavailable": [
+      "weight",
+      "service_name",
+      "location",
+      "delivered_at",
+      "offset_timestamps",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "starken.cl"
+      ],
+      "pathPattern": "^/seguimiento/?$",
+      "params": [
+        "codigo"
+      ]
+    },
+    {
+      "domains": [
+        "starken.cl"
+      ],
+      "path": "^/seguimiento/(\\d+)/?$"
+    }
+  ],
+  "detection": []
+}

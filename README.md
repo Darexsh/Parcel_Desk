@@ -46,6 +46,7 @@ team members' browsers
 Docker Compose service
   Flask application served by Gunicorn
   SQLite database in a persistent Docker volume
+  Universal Parcel Scraper API and a background tracking worker
   optional Telegram Bot API notifications
 ```
 
@@ -94,6 +95,7 @@ Cart → Cart ready → Ordered → In transit → Arrived → Picked up
 * Mark the cart ready when it can be ordered.
 * When moving an order to **In transit**, enter its tracking number and select a carrier from the administrator-configured dropdown. **Other (custom entry)** allows a one-off carrier.
 * If a tracking number is already present, mark the order in transit directly without reopening the tracking dialog.
+* A background worker checks in-transit orders through the self-hosted Universal Parcel Scraper. It changes an order to **Arrived** only when the scraper reports the `delivered` stage and uses the carrier's delivery scan time when available. Failed or inconclusive lookups leave the order unchanged.
 * When marking an order as **Picked up**, record who collected the package, where it was delivered, and where the delivery note and invoice were left. All three details are required and saved with the order. You can correct them in the edit form or remove them there to reset the order to **Arrived** and repeat the pickup flow. Administrators can configure reusable package destinations and document locations in Settings; **Other** allows custom entries.
 * Set a status manually when the normal next step does not apply; marking an order as picked up still requires the pickup details.
 
@@ -130,7 +132,7 @@ Order notifications include the order name, supplier, group, and tracking number
 
 ### Configure and start
 
-Run these commands from the `paketverwaltung` directory:
+Run these commands from the Parcel Desk project root, the directory containing `compose.yaml`:
 
 ```bash
 cp .env.example .env
@@ -178,18 +180,18 @@ The bot sends notifications only to the configured chat ID. Anyone in that Teleg
 
 ## 💾 Data and Backups
 
-The SQLite database is stored in the persistent Docker volume `order-data`. To create a consistent backup, stop the service briefly and archive the volume:
+The SQLite database is stored in the persistent Docker volume `order-data`, shared by the web app and tracking worker. To create a consistent backup, stop both database users briefly and archive the volume. First find the exact volume name with `docker volume ls`; replace `YOUR_PROJECT_order-data` below with that name:
 
 ```bash
-docker compose stop order-management
+docker compose stop order-management tracking-worker
 docker run --rm \
-  -v paketverwaltung_order-data:/source:ro \
+  -v YOUR_PROJECT_order-data:/source:ro \
   -v "$PWD":/backup \
   alpine tar czf /backup/order-data-backup.tar.gz -C /source .
-docker compose start order-management
+docker compose start order-management tracking-worker
 ```
 
-The exact volume name depends on the Compose project name; check it with `docker volume ls`. Store backups separately from the server and periodically test restoring them.
+Store backups separately from the server and periodically test restoring them.
 
 * * *
 
@@ -203,11 +205,22 @@ The exact volume name depends on the Compose project name; check it with `docker
 | `ADMIN_PASSWORD` | Password for the initial administrator; minimum 12 characters |
 | `BIND_ADDRESS` | Host interface for the published port; defaults to `127.0.0.1` |
 | `PORT` | Host port; defaults to `8000` |
+| `TRACKING_POLL_SECONDS` | Delay between tracking sweeps; defaults to `900` seconds (15 minutes) |
 | `COOKIE_SECURE` | Set to `true` when the site is served over HTTPS |
 | `TELEGRAM_BOT_TOKEN` | Optional Telegram bot token |
 | `TELEGRAM_CHAT_ID` | Optional destination chat ID; notifications stay disabled unless both Telegram values are set |
 
 Keep `.env` private and restrict its file permissions. Server users with root or Docker access may be able to inspect container configuration and secrets, so limit those privileges. Use individual server accounts and avoid sharing administrator credentials.
+
+Tracking numbers are sent from the scraper container to the relevant carrier's tracking site. The scraper API is only available to other services on the Compose network and is not published as a host port. The worker checks orders sequentially; the scraper applies its own carrier refresh limits and may return cached results.
+
+* * *
+
+## 📄 Third-Party Software
+
+Parcel Desk runs [Universal Parcel Scraper](https://github.com/plhery/universal-parcel-scraper), by Paul-Louis Hery and contributors, as a separate Docker service. Its core is licensed under **Apache License 2.0**. The upstream `LICENSE` and `NOTICE` files, along with its other component notices, are preserved in `universal-parcel-scraper/`. See [Third-Party Notices](docs/THIRD_PARTY_NOTICES.md) for attribution and license scope.
+
+Parcel Desk's own license applies to Parcel Desk code; it does not replace the separate licenses for third-party components.
 
 * * *
 
@@ -223,6 +236,12 @@ View application logs:
 
 ```bash
 docker compose logs -f order-management
+```
+
+View automatic tracking logs:
+
+```bash
+docker compose logs -f tracking-worker tracking-scraper
 ```
 
 Stop the service:
@@ -241,9 +260,11 @@ docker compose down
 | --- | --- |
 | `src/app.py` | Flask routes, database setup, access control, and notifications |
 | `src/mouser_import.py` | Mouser XLS parsing |
+| `src/tracking_worker.py` | Periodic delivery checks and automatic arrival updates |
 | `src/templates/` | HTML templates |
 | `src/static/` | Styles and browser-side behavior, including language selection |
 | `src/requirements.txt` | Python dependencies |
+| `universal-parcel-scraper/` | Third-party tracking service source, license, and notices |
 | `Dockerfile` | Application image definition |
 | `compose.yaml` | Service and persistent volume configuration |
 | `.env.example` | Configuration template |
@@ -252,7 +273,8 @@ docker compose down
 
 ## ⚠️ Notes
 
-* Tracking is manual. The application does not call carrier APIs.
+* The tracking worker checks in-transit orders through Universal Parcel Scraper every 15 minutes by default. It marks an order arrived only after a delivered status is confirmed. Carrier sites can block or limit automated lookups, so tracking results are not guaranteed.
+* Tracking numbers are sent to the carrier's website and, when enabled by the scraper, its configured fallback providers. See [Universal Parcel Scraper's privacy and limits](universal-parcel-scraper/README.md#privacy-and-limits).
 * Telegram notifications require outbound HTTPS access to `api.telegram.org`.
 * SQLite is intended for small teams. Consider PostgreSQL if the deployment grows substantially.
 * This application has not been independently security-audited. Before production internet access, plan for HTTPS, restricted server access, backups, monitoring, and a security review.

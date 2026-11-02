@@ -1,0 +1,294 @@
+{
+  "summary": {
+    "house_bill_number": "SMP0000001",
+    "shipment_id": "SMP00000010302260912",
+    "departure_local_date": "2026-03-02T09:12:00+0000",
+    "origin": {
+      "code": "SMO",
+      "name": "SAMPLE ORIGIN",
+      "country": "US",
+      "zipCode": null
+    },
+    "load": null,
+    "discharge": null,
+    "module": null,
+    "arrival_local_date": "2026-03-09T13:41:00+0000",
+    "destination": {
+      "code": "SMD",
+      "name": "SAMPLE DESTINATION",
+      "country": "US",
+      "zipCode": null
+    },
+    "main_mode": "ROA",
+    "latest_milestone": {
+      "code": "Delivered",
+      "location": {
+        "code": "SMD",
+        "name": null,
+        "country": null,
+        "zipCode": null
+      },
+      "progress": 100,
+      "arrival_local_date": "2026-03-09T13:41:00+0000"
+    },
+    "movement_type": "LTL",
+    "total_weight": [
+      {
+        "value": 120.502,
+        "unit": "KG"
+      },
+      {
+        "value": 266,
+        "unit": "LB"
+      }
+    ],
+    "total_cargo": "1",
+    "cancelled": false,
+    "estimated_co2": "0.01",
+    "actual_co2": null,
+    "actual_distance": null,
+    "creation_date": null,
+    "vessel_dates": {},
+    "departure_dates": {
+      "pickup_freight_actual": "2026-03-02T09:12:00+0000",
+      "origin_date": "2026-03-02T09:12:00+0000",
+      "origin_date_type": "pickup_freight_actual"
+    },
+    "arrival_dates": {
+      "scheduled": "2026-03-09T10:00:01+0000",
+      "estimated": "2026-03-10T00:00:00+0000",
+      "actual": "2026-03-09T13:41:00+0000",
+      "destination_date": "2026-03-09T13:41:00+0000",
+      "destination_date_type": "actual"
+    },
+    "shipping_order": null
+  },
+  "event_history": [
+    {
+      "location": {
+        "code": "SMD",
+        "name": "SAMPLE DESTINATION",
+        "country": "US",
+        "zipCode": null
+      },
+      "events": [
+        {
+          "name": "Delivery Window Confirmed with Customer",
+          "local_date": "2026-03-09T17:00:01+0000",
+          "remarks": "New - ED 03/09/26 ET 1000 LD 03/09/26 LT 1400",
+          "container": null,
+          "milestone_code": "APPSET",
+          "signature": "sys"
+        },
+        {
+          "name": "Check Out for Delivery",
+          "local_date": "2026-03-09T15:02:10+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "CHKOFD",
+          "signature": "sample.clerk"
+        },
+        {
+          "name": "Delivered",
+          "local_date": "2026-03-09T13:41:00+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "POD",
+          "signature": "SAMPLE SIGNER"
+        },
+        {
+          "name": "Out For Delivery",
+          "local_date": "2026-03-09T07:30:00+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "OFD",
+          "signature": null
+        },
+        {
+          "name": "Check Out for Delivery",
+          "local_date": "2026-03-06T15:20:00+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "CHKOFD",
+          "signature": "sample.clerk"
+        },
+        {
+          "name": "Check In",
+          "local_date": "2026-03-06T08:05:44+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "CHKINT",
+          "signature": "sample.clerk"
+        },
+        {
+          "name": "Delivery Window Offered to Customer",
+          "local_date": "2026-03-06T07:57:42+0000",
+          "remarks": "New - ED 03/09/26 ET 1000 LD 03/09/26 LT 1400",
+          "container": null,
+          "milestone_code": "APPOFR",
+          "signature": null
+        },
+        {
+          "name": "On-Hand",
+          "local_date": "2026-03-06T07:52:07+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "OHD",
+          "signature": "sample.clerk"
+        }
+      ]
+    },
+    {
+      "location": {
+        "code": "SMO",
+        "name": "Sample Origin",
+        "country": "US",
+        "zipCode": null
+      },
+      "events": [
+        {
+          "name": "Unable to Contact Customer",
+          "local_date": "2026-03-05T11:04:19+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "UNACTC",
+          "signature": "Sample Dialer"
+        },
+        {
+          "name": "Pickup",
+          "local_date": "2026-03-02T09:12:00+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "PICKUP",
+          "signature": null
+        },
+        {
+          "name": "Booking Created",
+          "local_date": "2026-03-02T09:11:30+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "HAWBCR",
+          "signature": null
+        }
+      ]
+    },
+    {
+      "location": {
+        "code": "H00",
+        "name": null,
+        "country": null,
+        "zipCode": null
+      },
+      "events": [
+        {
+          "name": "Check Out",
+          "local_date": "2026-03-03T21:33:00+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "CHKOUT",
+          "signature": "sample.driver"
+        },
+        {
+          "name": "Check In",
+          "local_date": "2026-03-03T06:24:12+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "CHKINT",
+          "signature": "sample.driver"
+        },
+        {
+          "name": "Check In",
+          "local_date": "2026-03-03T06:24:12+0000",
+          "remarks": null,
+          "container": null,
+          "milestone_code": "CHKINT",
+          "signature": "sample.driver"
+        }
+      ]
+    }
+  ],
+  "exception_history": [
+    {
+      "location": {
+        "code": null,
+        "name": null,
+        "country": null,
+        "zipCode": null
+      },
+      "exceptions": [
+        {
+          "name": "New exception",
+          "category_description": "New exception",
+          "exception_description": "Appointment delivery date",
+          "external_notes": null,
+          "cause": null,
+          "creation_date": "2026-03-06T15:20:00+0000",
+          "active": false,
+          "notes": "Appointment delivery date"
+        }
+      ]
+    }
+  ],
+  "shipment_details": {
+    "total_volume": 1.2,
+    "total_volume_measures": [
+      {
+        "value": 1.2,
+        "unit": "CBM"
+      },
+      {
+        "value": 42,
+        "unit": "CFT"
+      }
+    ],
+    "chargeable_weight": null,
+    "references": [
+      {
+        "reference": "SMP0000001",
+        "type": "HouseBillNumber"
+      },
+      {
+        "reference": "7000001",
+        "type": "OrderNumber"
+      },
+      {
+        "reference": "SAMPLEBOL001",
+        "type": "BillOfLadingNumber"
+      }
+    ],
+    "containers": null,
+    "packages": [
+      {
+        "quantity": 1,
+        "type": "PIECE",
+        "dimensions": {
+          "width": 50,
+          "width_in": 20,
+          "width_cm": 50,
+          "height": 80,
+          "height_in": 31,
+          "height_cm": 80,
+          "length": 150,
+          "length_in": 59,
+          "length_cm": 150
+        },
+        "dangerous_goods_details": null
+      }
+    ],
+    "delivery_type": null,
+    "routing": [],
+    "trip_plan": [],
+    "service_level": "5TH",
+    "added_services": [
+      "IDD"
+    ],
+    "freight_charges": {
+      "freight_terms": "Third Party Billing"
+    },
+    "shipment_number": null
+  },
+  "brokerage": false,
+  "brokerage_type": null,
+  "reference": "SMP0000001",
+  "reference_type": "HB"
+}

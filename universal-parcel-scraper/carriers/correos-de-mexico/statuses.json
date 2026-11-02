@@ -1,0 +1,22 @@
+{
+  "carrier": "correos-de-mexico",
+  "entries": [
+    {"wording": "Depósito en Oficina de Correos", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Posted at a Mexican post office."},
+    {"wording": "Deposito del Cliente en el país de origen", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Posted abroad, for an item sent to Mexico. Seen in an archived capture of the tracker."},
+    {"wording": "Deposito del Cliente en Japan", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Posted abroad; the wording can name the country of posting. Seen in an archived capture of the tracker."},
+    {"wording": "En tránsito hacia destino", "stage": "in_transit", "language": "es", "confirmedBy": "live"},
+    {"wording": "Recepción en Oficina de Correos", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Received at a post office, distribution centre or operations office."},
+    {"wording": "En zona de intercambio int. hacia el país destino, previo Aduana", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "At the outward office of exchange, in Mexico or at the foreign post of an item sent to Mexico."},
+    {"wording": "Pieza depositada en valija y enviada a oficina del País destino", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Bagged and dispatched to the destination country."},
+    {"wording": "Arribo a Zona Intercambio México, en espera de ingreso a la Aduana", "stage": "customs", "language": "es", "confirmedBy": "live", "note": "Arrived at the destination's office of exchange, waiting for customs. An arrival abroad, relayed from the foreign post, has the same wording."},
+    {"wording": "Inicio de la revisión aduanal en país destino", "stage": "customs", "language": "es", "confirmedBy": "live", "note": "Customs inspection began in the destination country."},
+    {"wording": "Inicio de la revisión aduanal en el país destino", "stage": "customs", "language": "es", "confirmedBy": "source", "note": "ParcelsApp lists it among Correos de México's statuses; not yet seen on the tracker."},
+    {"wording": "Revisión aduanal concluida", "stage": "in_transit", "language": "es", "confirmedBy": "source", "note": "Customs released the item. ParcelsApp lists it among Correos de México's statuses; not yet seen on the tracker."},
+    {"wording": "Con mensajero para entrega", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live"},
+    {"wording": "Puesta en ventanilla", "stage": "ready_for_pickup", "language": "es", "confirmedBy": "live", "note": "Left at the office's counter for collection. After the item was sent back, it waits there for the sender."},
+    {"wording": "Entrega", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "After the item was sent back, the delivery is to the sender, which the adapter reads as a return."},
+    {"wording": "Entrega Internacional", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Delivered abroad, as the destination post reports."},
+    {"wording": "Pieza devuelta por domicilio destino incorrecto", "stage": "returned", "language": "es", "confirmedBy": "live", "note": "Sent back; the wording names the reason, and every reason starts the same way."},
+    {"wording": "Pieza devuelta porque el domicilio es un lote baldío", "stage": "returned", "language": "es", "confirmedBy": "live"}
+  ]
+}

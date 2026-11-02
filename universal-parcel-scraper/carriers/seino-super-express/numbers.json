@@ -1,0 +1,36 @@
+{
+  "carrier": "seino-super-express",
+  "records": [
+    {
+      "number": "1810021358",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "http://inquire.trc.ssx.seino.co.jp/inquire/Main.jsp?uji.verb=NAHS0010_find&uji.bean=com.seibu.bean.na.NAHS0010Bean&strDenpyoNo1=1810021358",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "A search engine indexed Seino Super Express's own tracker address for it; the tracker shows its receipt and its latest scan at a branch. Seino Transportation's tracker does not know it."
+    }
+  ]
+}

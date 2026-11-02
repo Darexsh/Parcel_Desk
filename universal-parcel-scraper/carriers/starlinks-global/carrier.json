@@ -1,0 +1,88 @@
+{
+  "id": "starlinks-global",
+  "displayName": "Starlinks Global",
+  "aliases": [
+    "Starlinks Global Ltd"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#00a0af"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "starlinks-global",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "weight",
+    "delivery_partner",
+    "delivery_tracking_number",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://starlinks.app/track/{trackingNumber}",
+    "searchUrl": "https://starlinks.app/track",
+    "canaryUrl": "https://starlinks.app/track",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "destination",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "sender_name",
+      "recipient_address"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "destination_country"
+    ],
+    "discarded": [
+      "sender_name",
+      "recipient_address"
+    ],
+    "unavailable": [
+      "eta",
+      "provider_code",
+      "offset_timestamps",
+      "service_name",
+      "signature",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "starlinks.app",
+        "www.starlinks.app"
+      ],
+      "path": "^/track/([^/?#]+)/?$",
+      "ownNumbersOnly": true
+    }
+  ],
+  "detection": [
+    {
+      "id": "starlinks-global-1",
+      "pattern": "^[A-Z]{3}\\d{4}[A-Z]{2}\\d{11}$",
+      "confidence": "low"
+    }
+  ]
+}

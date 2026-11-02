@@ -1,0 +1,268 @@
+{
+  "Code": "200",
+  "ShortDescription": "Operation was successful!",
+  "Object": {
+    "Origin": "1 Sample Street, Example Town 100001, Lagos, Nigeria",
+    "Destination": "2 Example Road, Sample City 300001, Edo, Nigeria",
+    "MobileShipmentTrackings": [
+      {
+        "MobileShipmentTrackingId": 900000,
+        "Waybill": "1000000001",
+        "Location": "SAMPLE_HUB",
+        "Status": "OKT",
+        "DateTime": "2026-04-16T09:39:12.007",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 90,
+          "Code": "OKT",
+          "Incident": "SHIPMENT DELIVERED TO SAMPLE RECEIVER AT TERMINAL",
+          "Reason": "SHIPMENT COLLECTED BY CUSTOMER",
+          "Comment": "WHEN SHIPMENT IS DELIVERED AT THE TERMINAL TO THE RECEIVER",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      },
+      {
+        "MobileShipmentTrackingId": 899999,
+        "Waybill": "1000000001",
+        "Location": "SAMPLE_HUB",
+        "Status": "WC",
+        "DateTime": "2026-04-16T09:15:14.4",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 91,
+          "Code": "WC",
+          "Incident": "SHIPMENT WITH DELIVERY COURIER",
+          "Reason": "SHIPMENT WITH DELIVERY COURIER FOR DELIVERY",
+          "Comment": "SCAN BEFORE SHIPMENT IS TAKEN OUT FOR DELIVERY TO RECEIVER",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      },
+      {
+        "MobileShipmentTrackingId": 899998,
+        "Waybill": "1000000001",
+        "Location": "SAMPLE_HUB",
+        "Status": "ARF",
+        "DateTime": "2026-04-16T08:11:26.93",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 92,
+          "Code": "ARF",
+          "Incident": "ARRIVED SAMPLE_HUB",
+          "Reason": "SHIPMENT ARRIVED FINAL DESTINATION",
+          "Comment": "WHEN SHIPMENT ARRIVED FINAL DESTINATION",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      },
+      {
+        "MobileShipmentTrackingId": 899997,
+        "Waybill": "1000000001",
+        "Location": "EXAMPLE GATEWAY",
+        "Status": "DSC",
+        "DateTime": "2026-04-15T02:00:12.377",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 93,
+          "Code": "DSC",
+          "Incident": "DEPARTS EXAMPLE GATEWAY",
+          "Reason": "SHIPMENT DEPART SERVICE CENTER",
+          "Comment": "WHEN SHIPMENT DEPARTS SERVICE CENTER DIRECTLY TO DESTINATION",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      },
+      {
+        "MobileShipmentTrackingId": 899996,
+        "Waybill": "1000000001",
+        "Location": "EXAMPLE GATEWAY",
+        "Status": "ACC",
+        "DateTime": "2026-04-14T22:05:28.857",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 94,
+          "Code": "ACC",
+          "Incident": "Shipment Arrives Collation Center",
+          "Reason": "Shipment Arrives Collation Center",
+          "Comment": "Shipment Arrives Collation Center",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      },
+      {
+        "MobileShipmentTrackingId": 899995,
+        "Waybill": "1000000001",
+        "Location": "EXAMPLE GATEWAY",
+        "Status": "ACC",
+        "DateTime": "2026-04-14T22:05:28.857",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 95,
+          "Code": "ACC",
+          "Incident": "Shipment Arrives Collation Center",
+          "Reason": "Shipment Arrives Collation Center",
+          "Comment": "Shipment Arrives Collation Center",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      },
+      {
+        "MobileShipmentTrackingId": 899994,
+        "Waybill": "1000000001",
+        "Location": "SAMPLE DEPOT",
+        "Status": "DSC",
+        "DateTime": "2026-04-14T18:16:06.647",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 96,
+          "Code": "DSC",
+          "Incident": "DEPARTS SAMPLE DEPOT",
+          "Reason": "SHIPMENT DEPART SERVICE CENTER",
+          "Comment": "WHEN SHIPMENT DEPARTS SERVICE CENTER DIRECTLY TO DESTINATION",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      },
+      {
+        "MobileShipmentTrackingId": 899993,
+        "Waybill": "1000000001",
+        "Location": "SAMPLE DEPOT",
+        "Status": "ARO",
+        "DateTime": "2026-04-14T13:05:19.833",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 97,
+          "Code": "ARO",
+          "Incident": "ARRIVED OPS",
+          "Reason": "SHIPMENT ARRIVED OPERATIONS",
+          "Comment": "WHEN SHIPMENT ARRIVED THE OPS CENTER OR HUB FOR FURTHER PROCESSING",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      },
+      {
+        "MobileShipmentTrackingId": 899992,
+        "Waybill": "1000000001",
+        "Location": null,
+        "Status": "MSVC",
+        "DateTime": "2026-04-14T13:05:15.88",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 98,
+          "Code": "MSVC",
+          "Incident": "SHIPMENT ARRIVED SERVICE CENTRE FOR ONWARD PROCESSING",
+          "Reason": "SHIPMENT ARRIVED SERVICE CENTRE FOR ONWARD PROCESSING",
+          "Comment": "SHIPMENT ARRIVED SERVICE CENTRE FOR ONWARD DELIVERY",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      },
+      {
+        "MobileShipmentTrackingId": 899991,
+        "Waybill": "1000000001",
+        "Location": "12 Sample Close, Example Town",
+        "Status": "MSHC",
+        "DateTime": "2026-04-14T13:04:30.333",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 99,
+          "Code": "MSHC",
+          "Incident": "SHIPMENT ENROUTE DELIVERY",
+          "Reason": "SHIPMENT ENROUTE DELIVERY",
+          "Comment": "SHIPMENT ENROUTE DELIVERY",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      },
+      {
+        "MobileShipmentTrackingId": 899990,
+        "Waybill": "1000000001",
+        "Location": null,
+        "Status": "MAPT",
+        "DateTime": "2026-04-14T11:03:57.47",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 100,
+          "Code": "MAPT",
+          "Incident": "SHIPMENT ASSIGNED FOR PICKUP",
+          "Reason": "SHIPMENT ASSIGNED FOR PICKUP",
+          "Comment": "WHEN SHIPMENT REQUEST HAS BEEN ACCEPTED",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      },
+      {
+        "MobileShipmentTrackingId": 899989,
+        "Waybill": "1000000001",
+        "Location": null,
+        "Status": "MCRT",
+        "DateTime": "2026-04-14T11:01:36",
+        "TrackingType": "NotSpecified",
+        "ScanStatus": {
+          "MobileScanStatusId": 101,
+          "Code": "MCRT",
+          "Incident": "SHIPMENT CREATED BY CUSTOMER",
+          "Reason": "SHIPMENT CREATED BY CUSTOMER",
+          "Comment": "WHEN SHIPMENT IS CREATED BY CUSTOMER",
+          "InternalFlag": false,
+          "DateCreated": "2020-01-01T00:00:00",
+          "DateModified": "2020-01-01T00:00:00",
+          "IsDeleted": false
+        },
+        "User": "Sample Staff",
+        "ServiceCentreId": 0
+      }
+    ]
+  },
+  "more_reults": 0,
+  "Total": 0,
+  "ValidationErrors": {},
+  "AverageRatings": 0,
+  "IsVerified": false,
+  "IsEligible": false
+}

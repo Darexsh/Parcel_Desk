@@ -1,0 +1,22 @@
+{
+  "carrier": "pullman-cargo",
+  "entries": [
+    {"wording": "Venta Creada", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "The sale at a counter or distribution centre. Archived replies of the former tracker put its sale and sorting at that place in the same minute."},
+    {"wording": "Encomienda recibida en agencia", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Received at an agency or distribution centre on the way; the former tracker's RECEPCION."},
+    {"wording": "Encomienda viajando entre regiones", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Left on a trip between regions; the former tracker's MANIFESTADO INTER URBANO."},
+    {"wording": "Encomienda recibida en agencia de destino", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Received at the agency that delivers it or hands it over; the former tracker's RECEPCION DESTINO."},
+    {"wording": "Encomienda viajando entre agencias", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Sorted at the delivering agency, at the clock of the former tracker's CLASIFICACION REPARTO."},
+    {"wording": "En espera de reparto", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Waiting at the delivering agency for a delivery round."},
+    {"wording": "En reparto", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live"},
+    {"wording": "Encomienda entregada", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Delivered at the door, or collected at the agency for a parcel sent to one."},
+    {"code": "VENTA C.D.", "wording": "Venta", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "The shipment was sold at a Pullman Cargo counter or distribution centre; in archived histories it is followed within minutes by sorting at the same place."},
+    {"code": "CLASIFICACION", "wording": "Clasificado en Bodega", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Sorted in a warehouse."},
+    {"code": "EN PROCESO DE DESPACHO", "wording": "En proceso de despacho", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Being dispatched from a warehouse."},
+    {"code": "PREMANIFESTADO", "wording": "Procesando para envio", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Listed for a departing trip."},
+    {"code": "MANIFESTADO INTER URBANO", "wording": "En Viaje entre regiones", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Travelling between regions on a manifested trip."},
+    {"code": "RECEPCION", "wording": "Recepcionado en Agencia", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Received at an agency or distribution centre on the way."},
+    {"code": "RECEPCION DESTINO", "wording": "Recepcionado en lugar de entrega", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Received at the agency that delivers it or hands it over."},
+    {"code": "CLASIFICACION REPARTO", "wording": "Clasificado en bodega para reparto", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Sorted for a delivery round at the delivering agency."},
+    {"code": "ENTREGADO", "wording": "Entregado", "stage": "delivered", "language": "es", "confirmedBy": "portal"}
+  ]
+}

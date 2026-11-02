@@ -1,0 +1,22 @@
+{
+  "carrier": "sri-lanka-post",
+  "records": [
+    {
+      "number": "RA083556964LK",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://bepost.lk/p/Search/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "The example in the barcode field of the Department of Posts' Cash on Delivery tracker, which slpost.gov.lk links; its check digit is valid."
+    }
+  ]
+}

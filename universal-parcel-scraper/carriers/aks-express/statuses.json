@@ -1,0 +1,16 @@
+{
+  "carrier": "aks-express",
+  "entries": [
+    {"code": "90", "wording": "Kreiranje VIP Naloga", "stage": "registered", "language": "sr", "confirmedBy": "portal", "note": "Seen in an archived reply of AKS's tracking API: the sender created the shipment order."},
+    {"code": "239", "wording": "Trajno otkazan VIP nalog", "stage": "exception", "language": "sr", "confirmedBy": "portal", "note": "Seen in an archived reply of AKS's tracking API: the shipment order was cancelled for good."},
+    {"wording": "Preuzimanje Posiljke", "stage": "accepted", "language": "sr", "confirmedBy": "source", "note": "Listed in the open-source support chatbot of a Serbian bookshop that reads AKS's tracking API. The courier collected the parcel."},
+    {"wording": "Ulazak Na Sortirnu Traku", "stage": "in_transit", "language": "sr", "confirmedBy": "source", "note": "Listed in the open-source support chatbot of a Serbian bookshop that reads AKS's tracking API. Entered the sorting line."},
+    {"wording": "Utovar U Linijski Kamion", "stage": "in_transit", "language": "sr", "confirmedBy": "source", "note": "Listed in the open-source support chatbot of a Serbian bookshop that reads AKS's tracking API. Loaded on a line-haul truck."},
+    {"wording": "Izlaz iz Magacina", "stage": "in_transit", "language": "sr", "confirmedBy": "source", "note": "Listed in the open-source support chatbot of a Serbian bookshop that reads AKS's tracking API. Left the warehouse; the chatbot groups it with the line-haul scan."},
+    {"wording": "Posiljka Na Isporuci", "stage": "out_for_delivery", "language": "sr", "confirmedBy": "source", "note": "Listed in the open-source support chatbot of a Serbian bookshop that reads AKS's tracking API."},
+    {"wording": "Otkaz isporuke", "stage": "exception", "language": "sr", "confirmedBy": "source", "note": "Listed in the open-source support chatbot of a Serbian bookshop that reads AKS's tracking API. Delivery cancelled; the shop then asks AKS to try again."},
+    {"wording": "Vraceno u magacin", "stage": "in_transit", "language": "sr", "confirmedBy": "source", "note": "Listed in the open-source support chatbot of a Serbian bookshop that reads AKS's tracking API. Back in the warehouse after delivery was cancelled; not a return to the sender."},
+    {"wording": "Unet povrat", "stage": "returned", "language": "sr", "confirmedBy": "source", "note": "Listed in the open-source support chatbot of a Serbian bookshop that reads AKS's tracking API. A return to the sender was entered."},
+    {"wording": "Posiljka Isporucena", "stage": "delivered", "language": "sr", "confirmedBy": "source", "note": "Listed in the open-source support chatbot of a Serbian bookshop that reads AKS's tracking API."}
+  ]
+}

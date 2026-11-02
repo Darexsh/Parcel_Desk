@@ -1,0 +1,44 @@
+{
+  "id": "dakota-cargo",
+  "displayName": "Dakota Cargo",
+  "aliases": [
+    "Dakota Group",
+    "PT Dakota Buana Semesta",
+    "Dakota Buana Semesta",
+    "Dakota Logistik",
+    "Dakota Kurir",
+    "Dakota Courier"
+  ],
+  "region": {
+    "countries": [
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#120f84"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jakarta",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://dakotacargo.co.id/#lacak-kiriman",
+    "canaryUrl": "https://dakotacargo.co.id/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "dakota-cargo-1",
+      "pattern": "^\\d{3}(?:0[1-9]|1[0-2])20\\d{2}A\\d{6}$",
+      "confidence": "low"
+    }
+  ]
+}

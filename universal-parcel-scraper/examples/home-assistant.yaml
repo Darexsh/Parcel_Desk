@@ -1,0 +1,20 @@
+# Store parcel_scraper_payload and parcel_scraper_token in Home Assistant secrets.yaml.
+# Adjust the server URL and carrier for your parcel. Polling belongs to this client.
+rest:
+  - resource: http://parcel-scraper:8080/v1/track
+    method: POST
+    headers:
+      Content-Type: application/json
+      Authorization: !secret parcel_scraper_token  # "Bearer <server token>"
+    payload: !secret parcel_scraper_payload        # JSON with number and optional carrier/postcode
+    scan_interval: 3600
+    timeout: 120
+    sensor:
+      - name: Parcel stage
+        unique_id: parcel_stage
+        value_template: "{{ value_json.result.current_stage if value_json.result is defined else 'unavailable' }}"
+        json_attributes_path: "$.result"
+        json_attributes:
+          - last_status_text
+          - last_update
+          - expected_delivery

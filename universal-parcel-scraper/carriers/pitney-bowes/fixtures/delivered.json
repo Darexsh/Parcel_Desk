@@ -1,0 +1,269 @@
+{
+  "trackingNumber": "UPAAZ000000000000001",
+  "merchantId": "PB",
+  "urlKey": "",
+  "isTrusted": false,
+  "isReturn": false,
+  "isPreview": false,
+  "preShipped": false,
+  "deliveryException": false,
+  "headerText": "Your package has been delivered.",
+  "headerDescription": "",
+  "trackingPackageStatus": "Delivered",
+  "trackingPackageNotFound": false,
+  "trackingPackageException": false,
+  "trackingEventsModule": {
+    "eddText": null,
+    "eddTime": null,
+    "headerText": "",
+    "secondaryTextKey": "TRACKING.DELIVERY.Delivered.secondaryText",
+    "location": "",
+    "postalCode": null,
+    "packageDelivered": true,
+    "packageShipped": false,
+    "trackingEvents": [
+      {
+        "description": "Item has been delivered",
+        "location": null,
+        "date": "May 21, 2026",
+        "longDate": "Thursday, May 21, 2026",
+        "shortDate": "May 21",
+        "dayOfWeek": "Thursday",
+        "hour": "02:48 PM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "Parcel is out for delivery",
+        "location": null,
+        "date": "May 21, 2026",
+        "longDate": "Thursday, May 21, 2026",
+        "shortDate": "May 21",
+        "dayOfWeek": "Thursday",
+        "hour": "01:41 PM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "Item in transit by postal company",
+        "location": null,
+        "date": "May 21, 2026",
+        "longDate": "Thursday, May 21, 2026",
+        "shortDate": "May 21",
+        "dayOfWeek": "Thursday",
+        "hour": "08:10 AM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "Item in transit by postal company",
+        "location": null,
+        "date": "May 18, 2026",
+        "longDate": "Monday, May 18, 2026",
+        "shortDate": "May 18",
+        "dayOfWeek": "Monday",
+        "hour": "02:46 PM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "Customs Clearance",
+        "location": "ZZ",
+        "date": "May 15, 2026",
+        "longDate": "Friday, May 15, 2026",
+        "shortDate": "May 15",
+        "dayOfWeek": "Friday",
+        "hour": "10:02 AM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "Processed at Location",
+        "location": "Sample City, XX, ZZ",
+        "date": "May 14, 2026",
+        "longDate": "Thursday, May 14, 2026",
+        "shortDate": "May 14",
+        "dayOfWeek": "Thursday",
+        "hour": "08:41 PM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "PROCESSED AT LOCATION",
+        "location": null,
+        "date": "May 14, 2026",
+        "longDate": "Thursday, May 14, 2026",
+        "shortDate": "May 14",
+        "dayOfWeek": "Thursday",
+        "hour": "08:41 PM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "Package is created in the system",
+        "location": null,
+        "date": "May 14, 2026",
+        "longDate": "Thursday, May 14, 2026",
+        "shortDate": "May 14",
+        "dayOfWeek": "Thursday",
+        "hour": "07:40 AM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "Shipped from Global Shipping Center to Destination",
+        "location": "Sample Hub, Sampleshire, GB",
+        "date": "May 14, 2026",
+        "longDate": "Thursday, May 14, 2026",
+        "shortDate": "May 14",
+        "dayOfWeek": "Thursday",
+        "hour": "07:12 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Interpost handed item over to postal company",
+        "location": null,
+        "date": "May 11, 2026",
+        "longDate": "Monday, May 11, 2026",
+        "shortDate": "May 11",
+        "dayOfWeek": "Monday",
+        "hour": "09:58 AM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "Container Closed",
+        "location": "Sample Hub, Sampleshire, GB",
+        "date": "May 11, 2026",
+        "longDate": "Monday, May 11, 2026",
+        "shortDate": "May 11",
+        "dayOfWeek": "Monday",
+        "hour": "09:42 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Container Assignment",
+        "location": "Sample Hub, Sampleshire, GB",
+        "date": "May 11, 2026",
+        "longDate": "Monday, May 11, 2026",
+        "shortDate": "May 11",
+        "dayOfWeek": "Monday",
+        "hour": "09:30 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Parcel Documentation and Labeling",
+        "location": "Sample Hub, Sampleshire, GB",
+        "date": "May 11, 2026",
+        "longDate": "Monday, May 11, 2026",
+        "shortDate": "May 11",
+        "dayOfWeek": "Monday",
+        "hour": "08:58 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Second Dimension Event",
+        "location": "Sample Hub, Sampleshire, GB",
+        "date": "May 11, 2026",
+        "longDate": "Monday, May 11, 2026",
+        "shortDate": "May 11",
+        "dayOfWeek": "Monday",
+        "hour": "08:58 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "First Dimension Event",
+        "location": "Sample Hub, Sampleshire, GB",
+        "date": "May 11, 2026",
+        "longDate": "Monday, May 11, 2026",
+        "shortDate": "May 11",
+        "dayOfWeek": "Monday",
+        "hour": "08:58 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Processing at Shipping Center",
+        "location": "Sample Hub, Sampleshire, GB",
+        "date": "May 11, 2026",
+        "longDate": "Monday, May 11, 2026",
+        "shortDate": "May 11",
+        "dayOfWeek": "Monday",
+        "hour": "08:57 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Processing at Shipping Center",
+        "location": "Sample Hub, Sampleshire, GB",
+        "date": "May 11, 2026",
+        "longDate": "Monday, May 11, 2026",
+        "shortDate": "May 11",
+        "dayOfWeek": "Monday",
+        "hour": "08:57 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Item processed at Interpost",
+        "location": null,
+        "date": "May 11, 2026",
+        "longDate": "Monday, May 11, 2026",
+        "shortDate": "May 11",
+        "dayOfWeek": "Monday",
+        "hour": "07:58 AM",
+        "hasLongEventInfo": false,
+        "trackingUrl": "https://partner.example/track?ref=SMPLREF000&key=SampleKey000"
+      },
+      {
+        "description": "In Transit",
+        "location": null,
+        "date": "May 11, 2026",
+        "longDate": "Monday, May 11, 2026",
+        "shortDate": "May 11",
+        "dayOfWeek": "Monday",
+        "hour": "07:57 AM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Package not received by Hub or First Mile Carrier yet",
+        "location": null,
+        "date": "May 10, 2026",
+        "longDate": "Sunday, May 10, 2026",
+        "shortDate": "May 10",
+        "dayOfWeek": "Sunday",
+        "hour": "05:53 PM",
+        "hasLongEventInfo": false
+      },
+      {
+        "description": "Tracking details uploaded",
+        "location": null,
+        "date": "May 6, 2026",
+        "longDate": "Wednesday, May 6, 2026",
+        "shortDate": "May 6",
+        "dayOfWeek": "Wednesday",
+        "hour": "05:53 PM",
+        "hasLongEventInfo": false
+      }
+    ],
+    "moreThanThreeEvents": true,
+    "packageNotFound": false,
+    "packageException": false,
+    "newestEventDescription": "Item has been delivered"
+  },
+  "shippingInfoModule": {
+    "orderNumber": null,
+    "trackingNumber": "UPAAZ000000000000001",
+    "shippingType": "Pitney Bowes Expedited Parcel Service",
+    "carrierUrl": null,
+    "carrierLogo": null,
+    "carrierCode": "PBI",
+    "carrierTrackingNumber": "UPAAZ000000000000001",
+    "packageWeight": "1 lbs. 6 oz.",
+    "packageDimensions": null
+  },
+  "mapModule": {
+    "points": []
+  },
+  "primaryTextKey": "TRACKING.DELIVERY.Delivered.primaryText",
+  "serviceName": "Pitney Bowes Expedited Parcel Service",
+  "newestEventDescription": "Item has been delivered",
+  "isDraftPreview": false
+}

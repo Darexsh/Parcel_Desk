@@ -1,0 +1,24 @@
+{
+  "carrier": "pmm",
+  "records": [
+    {
+      "number": "310945240627C6380",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://pmm.com.mx/rastreo",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Example tracking number the help chat on PMM's own website gives when it asks for a tracking number or business waybill."
+    }
+  ]
+}

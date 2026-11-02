@@ -1,0 +1,155 @@
+{
+  "carrier": "emirates-post",
+  "records": [
+    {
+      "number": "RR513022184AE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://community.ebay.com/forum/shipping-57923/topic/shipments-from-the-uae-to-the-us-tracking-status-import-terminated-142837/",
+        "date": "2025-02-28",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "emirates-post",
+        "confidence": "high"
+      },
+      "note": "A UAE seller on the eBay community forum gives it as a registered letter to the United States whose Emirates Post tracking shows the import terminated."
+    },
+    {
+      "number": "CP410098760AE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240405123148/https://www.emiratespost.ae/all-services/track-a-package/step-two?q=CP410098760AE",
+        "date": "2024-04-05",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "emirates-post",
+        "confidence": "high"
+      },
+      "note": "Looked up on Emirates Post's own tracker, as an archived address shows; the opened capture shows the page without the shipment, whose results load later."
+    },
+    {
+      "number": "EG616814097AE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260612094402/https://www.emiratespost.ae/all-services/track-a-package/step-two?q=EG616814097AE",
+        "date": "2026-06-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "emirates-post",
+        "confidence": "high"
+      },
+      "note": "Looked up on Emirates Post's own tracker, as an archived address shows; the archive stored the site's refusal, not the result."
+    },
+    {
+      "number": "LA000351483AE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250813212943/https://www.emiratespost.ae/all-services/track-a-package/step-two?q=LA000351483AE",
+        "date": "2025-08-13",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "emirates-post",
+        "confidence": "high"
+      },
+      "note": "Looked up on Emirates Post's own tracker, as an archived address shows; the archive stored the site's refusal, not the result."
+    },
+    {
+      "number": "RR000137661AE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20201102163226/https://emiratespost.ae/Portal/Track?TrackingNumber=RR000137661AE&locale=en-us",
+        "date": "2020-11-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "emirates-post",
+        "confidence": "high"
+      },
+      "note": "Looked up on Emirates Post's earlier tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "1100007072005",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230819091337/https://www.emiratespost.ae/all-services/track-a-package/step-two?q=1100007072005",
+        "date": "2023-08-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Emirates Post's own tracker, as an archived address shows; the opened capture shows the page without the shipment, whose results load later. Thirteen digits is Emirates Post's domestic layout."
+    },
+    {
+      "number": "1000017524936",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220929195917/https://emiratespost.ae/Portal/Track?TrackingNumber=1000017524936",
+        "date": "2022-09-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Emirates Post's earlier tracker, as an archived address shows; the capture was not opened. Thirteen digits is Emirates Post's domestic layout."
+    }
+  ]
+}

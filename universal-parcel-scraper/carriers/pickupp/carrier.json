@@ -1,0 +1,61 @@
+{
+  "id": "pickupp",
+  "displayName": "Pickupp",
+  "aliases": [
+    "Pickupp HK",
+    "Pickupp (HK)",
+    "Pickupp Hong Kong"
+  ],
+  "region": {
+    "countries": [
+      "HK"
+    ]
+  },
+  "brand": {
+    "color": "#ef3b3b"
+  },
+  "selectable": true,
+  "timezone": "Asia/Hong_Kong",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://hk.pickupp.io/en/tracking?orderNumber={trackingNumber}",
+    "searchUrl": "https://hk.pickupp.io/en/tracking",
+    "canaryUrl": "https://hk.pickupp.io/en/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "hk.pickupp.io"
+      ],
+      "pathPattern": "^/(?:en|zh)/tracking/?$",
+      "params": [
+        "orderNumber"
+      ]
+    },
+    {
+      "domains": [
+        "portal.hk.pickupp.io"
+      ],
+      "pathPattern": "^/(?:(?:en|zh)/)?tracking/?$",
+      "params": [
+        "orderNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "pickupp-1",
+      "pattern": "^PU\\d{12}HK$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "carrier": "hound-express",
+  "records": [
+    {
+      "number": "8010116365329801",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://apis.hound-express.com/reference/httpswspodshoundexpresscomsabuesowsdeliveryserviceschangeorderstatus.md",
+        "date": "2026-10-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "Hound Express's API documentation for delivery partners uses it as the guide number in its successful-delivery and nobody-home examples."
+    },
+    {
+      "number": "9001008100001798",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://apis.hound-express.com/reference/httpswspodshoundexpresscomsabuesowsdeliveryserviceschangeorderstatus.md",
+        "date": "2026-10-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "Hound Express's API documentation for delivery partners uses it as the guide number in its refused-delivery and delayed-departure examples."
+    },
+    {
+      "number": "HP5701074100217625",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://apis.hound-express.com/reference/httpswspodshoundexpresscomsabuesowsdeliveryserviceschangeorderstatus.md",
+        "date": "2026-10-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Hound Express's API documentation for delivery partners gives it as the example guideNumber in the request schema of the same page."
+    }
+  ]
+}

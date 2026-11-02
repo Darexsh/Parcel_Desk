@@ -1,0 +1,333 @@
+{
+  "carrier": "gebrueder-weiss",
+  "records": [
+    {
+      "number": "BB18192-00309185",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://docs.retino.com/en/articles/12300996-gebruder-weiss",
+        "date": "2026-08-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Retino's help article for its Gebrüder Weiss connector gives it as an example number; it is not described as a live shipment."
+    },
+    {
+      "number": "579027961",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/gw-world/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "ParcelPanel's Gebrüder Weiss Germany page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "00391200741300108306",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20211025100613/https://my.gw-world.com/trackntrace/-/search/ELKY/00391200741300108306",
+        "date": "2021-10-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "swiss-post-cargo",
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "1592863459",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260520073929/https://my.gw-world.com/trackntrace/-/search/IKEA/1592863459",
+        "date": "2026-05-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "OS2081213",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221220074701/https://my.gw-world.com/trackntrace/-/search/meusburger/OS2081213",
+        "date": "2022-12-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "OS2087867",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221222135714/https://my.gw-world.com/trackntrace/-/search/meusburger/OS2087867",
+        "date": "2022-12-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "OS2107884",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230110102333/https://my.gw-world.com/trackntrace/-/search/meusburger/OS2107884",
+        "date": "2023-01-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "OS2211130",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230307082142/https://my.gw-world.com/trackntrace/-/search/meusburger/OS2211130",
+        "date": "2023-03-07",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "OS2260312",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230328061336/https://my.gw-world.com/trackntrace/-/search/meusburger/OS2260312",
+        "date": "2023-03-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "OS2419468",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230615064909/https://my.gw-world.com/trackntrace/-/search/meusburger/OS2419468",
+        "date": "2023-06-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "OS2483998",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230719072603/https://my.gw-world.com/trackntrace/-/search/meusburger/OS2483998",
+        "date": "2023-07-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "OS2565049",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230906051509/https://my.gw-world.com/trackntrace/-/search/meusburger/OS2565049",
+        "date": "2023-09-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "MA143323-ML225572",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260427150302/https://my.gw-world.com/en/trackntrace/-/search/3390/MA143323-ML225572",
+        "date": "2026-04-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "1546555462502576322",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250924072821/https://my.gw-world.com/en/trackntrace/-/search/400167/1546555462502576322",
+        "date": "2025-09-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "poczta-polska"
+        ]
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    },
+    {
+      "number": "3407994644",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240626093333/https://my.gw-world.com/de/trackntrace/-/search/2700/3407994644",
+        "date": "2024-06-26",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Looked up on Gebrüder Weiss's own tracker under a customer's search path, as an archived address shows; the capture shows no history, and it may be the customer's own reference."
+    }
+  ]
+}

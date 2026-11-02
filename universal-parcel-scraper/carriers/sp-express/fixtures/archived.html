@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" class="spx-green-legacy-layout">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/w2/css/frontend.css?v=2026100201" />
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/vendor-own/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=SYNTHETIC-SITE-KEY"></script>
+<title>SP Express</title>
+</head>
+<body>
+<section class="tracking">
+    <div class="trackCnt">
+        <div class="txt">
+            Track your shipment        </div>
+        <form method="POST" action="/tt" class="do-not-block">
+        <div class="trackInput">
+            <input placeholder="enter the number" type="text" name="id">
+        </div>
+        </form>
+    </div>
+</section>
+<header>
+    <div class="txt">Track&amp;trace</div>
+</header>
+
+<section id="simple">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="mainCnt">
+                        <div class="form">
+
+        <h2>Track&trace</h2>
+
+        <form id="tt-form" action="/tt/483230115000003" method="post">
+        
+
+        <div class="row">
+            <label for="id">ID shipment</label>            <input type="text" value="" name="id" id="id" />            <button class="btn btn-primary btn-default" type="submit" name="yt0">Check</button></form>        </div><!-- row -->
+
+
+    </div><!-- form -->
+
+
+<style>
+    .alert-info:after
+    {
+        background: none !important;
+    }
+</style>
+
+<h2>shipment status</h2>
+
+
+            <div class="row stat-ico-list">
+                <div class="col-sm-12 text-center">
+                    <div class="row" style="display: block;">
+                        <div class="col-lg-2 stat-item-ico-container active">
+                            <div class="stat-item-ico stat-ico-new"></div>
+                            <div class="stat-item-text">New order</div>
+                        </div>
+                        <div class="col-lg-2 stat-item-ico-container active">
+                            <div class="stat-item-ico stat-ico-accepted"></div>
+                            <div class="stat-item-text">Shipments injected</div>
+                        </div>
+                        <div class="col-lg-2 stat-item-ico-container active">
+                            <div class="stat-item-ico stat-ico-hub"></div>
+                            <div class="stat-item-text">Received in HUB</div>
+                        </div>
+                        <div class="col-lg-2 stat-item-ico-container active">
+                            <div class="stat-item-ico stat-ico-transportation"></div>
+                            <div class="stat-item-text">In transportation</div>
+                        </div>
+                        <div class="col-lg-2 stat-item-ico-container active">
+                            <div class="stat-item-ico stat-ico-delivery"></div>
+                            <div class="stat-item-text">In delivery</div>
+                        </div>
+                        <div class="col-lg-2 stat-item-ico-container active">
+                            <div class="stat-item-ico stat-ico-delivered"></div>
+                            <div class="stat-item-text">Delivered</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="tt-status-bar" style="font-weight: bold; text-align: center; font-size: 14px; background: #D4350C; color: white; width: 100%; margin: 0 auto; padding: 5px;">
+                The shipment has been successfully delivered (/France)            </div>
+
+        
+
+<br/>
+        <div class="alert alert-info text-center">
+          Przesyłkę można również śledzić bezpośrednio na stronie operatora doręczającego:<br/><br/><a href="https://www.dhl.de/en/privatkunden/dhl-sendungsverfolgung.html" target="_blank" style="text-decoration: underline;">https://www.dhl.de/en/privatkunden/dhl-sendungsverfolgung.html</a><br/><br/>UWAGA: przesyłka może być niewidoczna do momentu przekazanie jej do operatora.<br/>
+        </div>
+
+
+<h2>History</h2>
+
+    <div class="alert alert-warning">Status history is in archive </div>
+
+    <h2>Order details</h2>
+
+    <div style="text-align: center; margin: 0 auto; width: 100%; max-width: 500px;">
+        <table class="list hLeft" style="width: 100%">
+            <tr>
+                <td>Package Weight</td>
+                <td>15 kg</td>
+            </tr>
+            <tr>
+                <td>Parcel dimensions</td>
+                <td>60 x 30 x 35 cm</td>
+            </tr>
+            <tr>
+                <td>Sender country</td>
+                <td>Poland (00-003)</td>
+            </tr>
+            <tr>
+                <td>Receiver country</td>
+                <td>France (00003)</td>
+            </tr>
+            <tr>
+                <td>Sending date</td>
+                <td>2023-01-15</td>
+            </tr>
+                                            </table>
+    </div>
+
+
+
+<h2>Reference</h2>
+<a href="https://en.sp.express/tt/483230115000003">trace order</a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="bigTitle title text-center">
+            Contact us        </div>
+        <form id="ask-for-offer-form" action="/tt/483230115000003" method="post">
+            <input type="text" name="AskForOffer[name]" />
+        </form>
+    </div>
+</section>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+
+    $('#askForOfferModal').on('shown.bs.modal', function () {
+            grecaptcha.ready(function() {
+                grecaptcha.execute('SYNTHETIC-SITE-KEY', {action: 'submit'}).then(function(token) {
+                    $('#ask-for-offer-form').append('<input type="hidden" name="token" value="'+token+'" />');
+                    return true;
+                });
+            });
+        });
+});
+/*]]>*/
+</script>
+</body>
+</html>

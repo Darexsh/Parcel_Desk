@@ -1,0 +1,25 @@
+{
+  "carrier": "steadfast",
+  "entries": [
+    {"wording": "Consignment created by Sender(API).", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived reply of the tracking service."},
+    {"wording": "Status has been updated as pending", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Older wording of the first status update."},
+    {"wording": "Consignment status has been updated as Pending", "stage": "registered", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Sent to FULFILLMENT WAREHOUSE. Dispatch ID: 3194157", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Older wording. The hub and dispatch ID vary."},
+    {"wording": "Consignment sent to FULFILLMENT WAREHOUSE.  Dispatch ID: 7776162", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The hub and dispatch ID vary. Two spaces precede Dispatch."},
+    {"wording": "Lot No: 1 sent to FULFILLMENT WAREHOUSE.  Dispatch ID: 4094358", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Sent as part of a lot. The hub and dispatch ID vary."},
+    {"wording": "Received at FULFILLMENT WAREHOUSE.", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Older wording. The hub varies."},
+    {"wording": "Consignment has been received at FULFILLMENT WAREHOUSE.", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The hub varies."},
+    {"wording": "Assigned to rider.", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Rider Note: \"Phn ricive kore ni\"", "language": "en", "confirmedBy": "portal", "note": "Free text from the rider; this one says the phone call was not answered."},
+    {"wording": "Consignment has been marked as delivered by rider.", "stage": "delivered", "language": "en", "confirmedBy": "portal"},
+    {"wording": "in_review", "stage": "registered", "language": "en", "confirmedBy": "source", "note": "delivery_status value of the merchant API, from the Laravel package README by Steadfast IT: order placed and under review."},
+    {"wording": "pending", "language": "en", "confirmedBy": "source", "note": "delivery_status value of the merchant API: neither delivered nor cancelled yet."},
+    {"wording": "hold", "stage": "exception", "language": "en", "confirmedBy": "source", "note": "delivery_status value of the merchant API: on hold."},
+    {"wording": "delivered", "stage": "delivered", "language": "en", "confirmedBy": "source", "note": "delivery_status value of the merchant API."},
+    {"wording": "partial_delivered", "stage": "delivered", "language": "en", "confirmedBy": "source", "note": "delivery_status value of the merchant API: part of the order was delivered."},
+    {"wording": "cancelled", "stage": "exception", "language": "en", "confirmedBy": "source", "note": "delivery_status value of the merchant API."},
+    {"wording": "delivered_approval_pending", "stage": "delivered", "language": "en", "confirmedBy": "source", "note": "delivery_status value of the merchant API: delivered, awaiting approval."},
+    {"wording": "partial_delivered_approval_pending", "stage": "delivered", "language": "en", "confirmedBy": "source", "note": "delivery_status value of the merchant API: partly delivered, awaiting approval."},
+    {"wording": "cancelled_approval_pending", "stage": "exception", "language": "en", "confirmedBy": "source", "note": "delivery_status value of the merchant API: cancelled, awaiting approval."}
+  ]
+}

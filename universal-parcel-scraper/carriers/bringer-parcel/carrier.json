@@ -1,0 +1,88 @@
+{
+  "id": "bringer-parcel",
+  "displayName": "Bringer Parcel Xpress",
+  "aliases": [
+    "BPX",
+    "Bringer Parcel Service",
+    "Bringer Parcel Services"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#150773"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "bringer-parcel",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 639
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "offset_timestamps",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.bringerparcel.com/tracking/{trackingNumber}",
+    "searchUrl": "https://www.bringerparcel.com/tracking",
+    "canaryUrl": "https://www.bringerparcel.com/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at",
+      "related_tracking_numbers"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at"
+    ],
+    "discarded": [
+      "related_tracking_numbers"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "destination_country",
+      "delivery_partner",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.bringerparcel.com",
+        "bringerparcel.com"
+      ],
+      "path": "^/tracking/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "bringer-parcel-1",
+      "pattern": "^BPS[A-Z0-9]{12,13}$",
+      "confidence": "low"
+    }
+  ]
+}

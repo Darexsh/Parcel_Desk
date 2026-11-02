@@ -1,0 +1,106 @@
+{
+  "orderInformation": {
+    "trackingId": "99000000000022",
+    "trackingIds": [],
+    "orderId": "",
+    "partnerTracking": [],
+    "sourceLocation": {
+      "city": "SAMPLE CITY",
+      "state": "SAMPLE STATE",
+      "pincode": "000001",
+      "landmark": ""
+    },
+    "destinationLocation": {
+      "city": "SAMPLE TOWN",
+      "state": "SAMPLE STATE",
+      "pincode": "000002",
+      "landmark": ""
+    },
+    "childTrackingIds": [],
+    "parentTrackingId": "99000000000022",
+    "type": "COURIER",
+    "movement_type": "forward",
+    "pod_links": [],
+    "clientId": "000000",
+    "createdAt": "2026-04-10T06:00:00.200Z",
+    "updatedAt": "2026-04-11T03:05:01.000Z",
+    "__v": 0,
+    "receiverDetails": {
+      "receiver_mobile": "000****000",
+      "receiver_name": "SAMPLE RECIPIENT"
+    }
+  },
+  "statuses": [
+    {
+      "trackingId": "",
+      "status": "inscan_at_hub",
+      "location": "SAMPLE TOWN HUB",
+      "deliveryPartnerName": "hubops",
+      "statusTimestamp": 1775876700000,
+      "event": "inscanned_at_transit",
+      "cAwbNumber": "",
+      "movement_type": "forward",
+      "smileAwbNumber": "99000000000022",
+      "createdAt": "2026-04-11T03:05:00.800Z",
+      "updatedAt": "2026-04-11T03:05:00.800Z",
+      "category": "IN_TRANSIT",
+      "subcategory": "Shipment being processed at the InTransit Hub SAMPLE TOWN HUB "
+    },
+    {
+      "trackingId": "99000000000022",
+      "status": "outscan_at_hub",
+      "location": "SAMPLE CITY HUB",
+      "deliveryPartnerName": "hubops",
+      "statusTimestamp": 1775845800000,
+      "event": "outscan",
+      "cAwbNumber": "99000000000022",
+      "movement_type": "forward",
+      "smileAwbNumber": "99000000000022",
+      "createdAt": "2026-04-10T18:30:02.100Z",
+      "updatedAt": "2026-04-10T18:30:02.100Z",
+      "category": "IN_TRANSIT",
+      "subcategory": "Shipment departed from the InTransit Hub SAMPLE CITY HUB "
+    },
+    {
+      "trackingId": "99000000000022",
+      "status": "inscan_at_hub",
+      "location": "SAMPLE CITY HUB",
+      "deliveryPartnerName": "hubops",
+      "statusTimestamp": 1775826000000,
+      "event": "inscanned_at_transit",
+      "cAwbNumber": "99000000000022",
+      "movement_type": "forward",
+      "smileAwbNumber": "99000000000022",
+      "createdAt": "2026-04-10T13:00:00.600Z",
+      "updatedAt": "2026-04-10T13:00:00.600Z",
+      "category": "IN_TRANSIT",
+      "subcategory": "Shipment being processed at the InTransit Hub SAMPLE CITY HUB "
+    },
+    {
+      "trackingId": "99000000000022",
+      "status": "order_confirmed",
+      "location": "SAMPLE CITY",
+      "deliveryPartnerName": "sevasetu",
+      "statusTimestamp": 1775800800000,
+      "event": "order placed in system",
+      "movement_type": "forward",
+      "createdAt": "2026-04-10T06:00:00.210Z",
+      "updatedAt": "2026-04-10T06:00:00.210Z",
+      "category": "ORDER_CONFIRMED",
+      "subcategory": "Order Has been Confirmed"
+    },
+    {
+      "trackingId": "99000000000022",
+      "status": "READY_FOR_DISPATCH",
+      "location": "0 SAMPLE ROAD, SAMPLE CITY, SAMPLE STATE, 000001, India",
+      "deliveryPartnerName": "innofulfill",
+      "statusTimestamp": 1775800800000,
+      "event": "ready_for_dispatch",
+      "movement_type": "forward",
+      "createdAt": "2026-04-10T06:00:00.240Z",
+      "updatedAt": "2026-04-10T06:00:00.240Z",
+      "category": "READY_FOR_DISPATCH",
+      "subcategory": "Order is ready to be dispatched"
+    }
+  ]
+}

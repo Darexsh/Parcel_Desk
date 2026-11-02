@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="theme-color" content="#dc2626">
+    <meta name="track-token" content="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa">
+    <title>Track & Trace - Bookurier</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h1>Track &amp; Trace</h1><p id="headerSubtitle">Urmărește-ți coletul</p></div>
+        <div class="card">
+            <div class="search-section">
+                <h2>🔍 Tracking Colet</h2>
+                <div class="search-box"><input type="text" id="awbInput" placeholder="Introdu numărul AWB"><button onclick="searchAwb()">🔍 Caută</button></div>
+            </div>
+            <div class="results-section" id="resultsSection"></div>
+        </div>
+    </div>
+    <script>
+        let currentToken = document.querySelector('meta[name="track-token"]')?.content || '';
+        async function searchAwb() {
+            const awb = document.getElementById('awbInput').value.trim();
+            const response = await fetch(`https://t.bookurier.ro/track/api?awb=${encodeURIComponent(awb)}&_token=${encodeURIComponent(currentToken)}`, {
+                credentials: 'same-origin',
+                headers: { 'X-Track-Token': currentToken }
+            });
+        }
+    </script>
+</body>
+</html>

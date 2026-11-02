@@ -1,0 +1,27 @@
+{
+  "carrier": "ukp-worldwide",
+  "records": [
+    {
+      "number": "WHISU000121401",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221230175751/https://www.ukpworldwide.com/tracking/?x=WHISU000121401",
+        "date": "2022-12-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ukp-worldwide"
+        ]
+      },
+      "note": "An archived lookup on UKP Worldwide's own tracker shows this parcel's history, and its tracker still answers it."
+    }
+  ]
+}

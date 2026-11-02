@@ -1,0 +1,30 @@
+{
+  "carrier": "tnt-au",
+  "records": [
+    {
+      "number": "JFJ100014809",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.tntexpress.com.au/interaction/ASPs/trackref_detail.asp?con=JFJ100014809",
+        "date": "2026-11-02",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "TNT Australia domestic"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "TNT Australia's own tracker page for it, indexed by a search engine, lists the consignment from its lodgement to its delivery."
+    }
+  ]
+}

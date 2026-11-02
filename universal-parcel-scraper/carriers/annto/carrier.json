@@ -1,0 +1,48 @@
+{
+  "id": "annto",
+  "displayName": "ANNTO",
+  "aliases": [
+    "安得智联",
+    "安得物流",
+    "Annto Logistics",
+    "安得智联供应链科技股份有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#007ac3"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.annto.com/order?orderNoFormMain={trackingNumber}",
+    "searchUrl": "https://www.annto.com/order",
+    "canaryUrl": "https://www.annto.com/order",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "annto.com",
+        "www.annto.com"
+      ],
+      "pathPattern": "^/order$",
+      "params": [
+        "orderNoFormMain"
+      ]
+    }
+  ],
+  "detection": []
+}

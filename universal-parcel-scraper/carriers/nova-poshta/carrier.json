@@ -1,0 +1,116 @@
+{
+  "id": "nova-poshta",
+  "displayName": "Nova Poshta (Ukraine)",
+  "aliases": [
+    "Nova Poshta",
+    "Nova Post",
+    "Nova Post Ukraine",
+    "Нова Пошта"
+  ],
+  "region": {
+    "countries": [
+      "UA"
+    ]
+  },
+  "brand": {
+    "color": "#e30613"
+  },
+  "selectable": true,
+  "timezone": "Europe/Kyiv",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "nova-poshta",
+    "steps": [
+      "direct",
+      "summary"
+    ],
+    "recognition": {
+      "rank": 685
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "weight",
+    "dimensions",
+    "pickup_point",
+    "delivered_at",
+    "provider_code",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://novaposhta.ua/en/tracking/{trackingNumber}",
+    "searchUrl": "https://novaposhta.ua/en/tracking/",
+    "helpUrl": "https://novaposhta.ua/more/common-questions/",
+    "canaryUrl": "https://novaposhta.ua/en/tracking/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "weight",
+      "dimensions",
+      "pickup_point",
+      "destination_country",
+      "delivery_partner",
+      "delivery_partner_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "weight",
+      "dimensions",
+      "pickup_point",
+      "destination_country",
+      "delivery_partner",
+      "delivery_partner_reference"
+    ],
+    "discarded": [
+      "recipient_details",
+      "sender_details",
+      "addresses",
+      "payment_details",
+      "origin_country",
+      "order_references"
+    ],
+    "unavailable": [
+      "sender_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "novaposhta.ua"
+      ],
+      "path": "^/(?:en/)?tracking/(\\d{14})(?:/|$)"
+    },
+    {
+      "domains": [
+        "novapost.com"
+      ],
+      "path": "^/[a-z]{2}-[a-z]{2}/tracking/((?:RS)?(?:SH|TN)[A-Z]{2}\\d{10}|1\\d{13}|(?:20[4678]|590|595)\\d{11}|(?:21|51)\\d{12})(?:/|$)"
+    }
+  ],
+  "detection": [
+    {
+      "id": "nova-poshta-export",
+      "pattern": "^595000\\d{8}$",
+      "confidence": "low",
+      "preferred": true
+    },
+    {
+      "id": "nova-poshta-domestic",
+      "pattern": "^(?:(?:20[4678]|590|595)\\d{11}|(?:21|51)\\d{12})$",
+      "confidence": "low"
+    },
+    {
+      "id": "nova-poshta-international",
+      "pattern": "^(?:RS)?(?:SH(?!O[CPR])|TN)[A-Z]{2}\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

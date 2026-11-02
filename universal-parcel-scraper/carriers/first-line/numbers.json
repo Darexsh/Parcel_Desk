@@ -1,0 +1,101 @@
+{
+  "carrier": "first-line",
+  "records": [
+    {
+      "number": "1ST06005039050",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250318030507/https://parcelsapp.com/en/tracking/1ST06005039050",
+        "date": "2025-03-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "first-line",
+        "confidence": "high"
+      },
+      "note": "An archived tracking page. FIRST LINE's tracker answers it as a parcel flown from Shenzhen through Hong Kong to New York and delivered by USPS."
+    },
+    {
+      "number": "1ST06005101617",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250322223000/https://parcelsapp.com/en/tracking/1ST06005101617",
+        "date": "2025-03-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "first-line",
+        "confidence": "high"
+      },
+      "note": "An archived tracking page. FIRST LINE's tracker answers it as a parcel flown from Shenzhen to the United States and delivered by USPS."
+    },
+    {
+      "number": "1ST06006573354",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250522231354/https://parcelsapp.com/en/tracking/1ST06006573354",
+        "date": "2025-05-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "first-line",
+        "confidence": "high"
+      },
+      "note": "An archived tracking page. FIRST LINE's tracker answers it as a parcel flown from Shenzhen to the United States and delivered by UniUni."
+    },
+    {
+      "number": "1ST06009326824",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251025204437/https://parcelsapp.com/en/tracking/1ST06009326824",
+        "date": "2025-10-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "first-line",
+        "confidence": "high"
+      },
+      "note": "An archived tracking page. FIRST LINE's tracker answers it as a parcel flown from Shenzhen to the United States and delivered by USPS."
+    },
+    {
+      "number": "1ST18386987903",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261007121218/https://parcelsapp.com/en/tracking/1ST18386987903",
+        "date": "2026-10-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "first-line",
+        "confidence": "high"
+      },
+      "note": "An archived tracking page. FIRST LINE's tracker does not know it, so it may belong to another of the group's forwarders."
+    }
+  ]
+}

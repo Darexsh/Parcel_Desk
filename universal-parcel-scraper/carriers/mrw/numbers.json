@@ -1,0 +1,596 @@
+{
+  "carrier": "mrw",
+  "records": [
+    {
+      "number": "02673I145025",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reembolso/6d4f300aa0dd6d5c26",
+        "date": "2025-10-13"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "02680I390427",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/mi-paquete-lleva-en-22transito-22/3ca104c95fcd6886da",
+        "date": "2025-10-23"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "02692M027981",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-no-entregado/fd09f6a9ec09f35aab",
+        "date": "2025-07-07"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "02692S094204",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6ab63070e0b0b4688bf95e67",
+        "date": "2026-09-25"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number. MRW's tracker returns its current status."
+    },
+    {
+      "number": "038233020970",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-perdido/f8b8fd62addc12cbed",
+        "date": "2025-03-04"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to MRW, which stays one candidate among several."
+    },
+    {
+      "number": "04319F171575",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/demora-del-env-C3-ADo-sumado-a-malt/635ef0c643dc08ba3e",
+        "date": "2026-09-10"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number. MRW's tracker returns its history."
+    },
+    {
+      "number": "08203F557102",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/alguien-recibi-C3-B3-mi-paquete/f4db963472379569e8",
+        "date": "2025-04-30"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "00307A046991",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-extraviado-y-sin-indem/925bdf3f6a09a1c9ad",
+        "date": "2025-09-26",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "person to person parcel",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Shipment number explicitly identified in lost-parcel complaint."
+    },
+    {
+      "number": "00802A058845",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/robo-de-contenido-de-env-C3-ADo-mrw/9fd4ee0889df00a1f8",
+        "date": "2025-01-08",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Explicit shipment number in OCU complaint; A series, leading zeros retained."
+    },
+    {
+      "number": "02656A088018",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/retraso-en-recibir-en-mi-domic/a9b4c113df50836c87",
+        "date": "2025-01-03",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Customer explicitly labels this tracking number and names MRW in follow-up."
+    },
+    {
+      "number": "02720F088602",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/problema-con-un-env-C3-ADo-y-la-web/4694879330752674f7",
+        "date": "2025-01-10",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Customer explicitly identifies the shipment in an OCU complaint against MRW."
+    },
+    {
+      "number": "04316F377803",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/problemas-con-el-envio/9c6144607cbcabc0b5",
+        "date": "2025-01-03",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Customer supplies identifier in follow-up; MRW replies that shipment is out for delivery."
+    },
+    {
+      "number": "08000F422387",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/env-C3-ADo-08000f422387-no-entregad/49333c64f912649391",
+        "date": "2025-06-14",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Shipment identifier appears in complaint title; customer describes failed deliveries."
+    },
+    {
+      "number": "2044000269501958223001",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/problema-con-el-reparto-de-un-/2965dacf1e1d87dcef",
+        "date": "2025-01-04",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "quarantine",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "austrian-post",
+          "usps",
+          "estafeta"
+        ]
+      },
+      "note": "MRW's reply says its shipment numbers have twelve digits. Digits 7 to 18 have the shape of an MRW number, but MRW's tracking returns nothing for either form."
+    },
+    {
+      "number": "002202718505",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/pedido-no-recibido-y-marcado-c/CPTES00952313-64",
+        "access": "full_page",
+        "date": "2020-06-24",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "MRW",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "saia",
+          "sending"
+        ]
+      },
+      "note": "Public report names this carrier; shipment identity remains unconfirmed."
+    },
+    {
+      "number": "006071578588",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://es.trustpilot.com/reviews/6ac53fa9a1e5fbdbfd193a33",
+        "access": "full_page",
+        "date": "2026-10-06",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_number"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "sf-express",
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Twelve-digit shipment number a review quotes; MRW's tracker returned its history, with a breakdown of each parcel's scans under some rows."
+    },
+    {
+      "number": "02692R131639",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260401151658/https://www.mrw.es/seguimiento/track.asp?envio=02692R131639",
+        "access": "full_page",
+        "date": "2026-04-01",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on the carrier's tracking link; MRW's tracker returned its current status without a history."
+    },
+    {
+      "number": "02680I638686",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260113190009/https://www.mrw.es/seguimiento/track.asp?envio=02680I638686",
+        "access": "full_page",
+        "date": "2026-01-13",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on the carrier's tracking link; MRW's tracker returned its current status without a history."
+    },
+    {
+      "number": "00226F129066",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251026064159/https://www.mrw.es/seguimiento/track.asp?envio=00226F129066",
+        "access": "full_page",
+        "date": "2025-10-26",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on the carrier's tracking link, which showed it delivered; the tracker no longer answers for it."
+    },
+    {
+      "number": "02695F393326",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/mrw/complaints/mrw-atraso-na-entrega-e-falta-de-informacao-sobre-encomenda-163605126",
+        "access": "full_page",
+        "date": "2026-10-02",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Portal da Queixa complaint naming MRW. MRW's tracker on www.mrw.pt returned its history in Portuguese, from a Spanish platform to a Portuguese delivery office; www.mrw.es returned the same rows in Spanish."
+    },
+    {
+      "number": "02680j313623",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/mrw/complaints/mrw-atraso-na-entrega-de-encomenda-e-dificuldade-de-contacto-numero-de-envio-02680j313623-162724226",
+        "access": "full_page",
+        "date": "2026-09-17",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Portal da Queixa complaint quoting the number in lower case. MRW's tracker on www.mrw.pt returned its history in Portuguese, ending at a Portuguese delivery office."
+    },
+    {
+      "number": "04316F631075",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/mrw/complaints/mrw-atraso-na-entrega-de-encomenda-e-falta-de-informacao-4-161417026",
+        "access": "full_page",
+        "date": "2026-08-26",
+        "dateKind": "comment"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Quoted in the complainant's follow-up on a Portal da Queixa complaint about MRW. MRW's tracker on www.mrw.pt returned a Portuguese history that ends returned to sender after a failed delivery in Portugal."
+    },
+    {
+      "number": "01613j353188",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/mrw/complaints/mrw-atraso-na-entrega-ou-sem-paradeiro-161254526",
+        "access": "full_page",
+        "date": "2026-08-26",
+        "dateKind": "comment"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Quoted in lower case in the complainant's follow-up on a Portal da Queixa complaint about MRW. MRW's tracker on www.mrw.pt returned its history in Portuguese, from a merchant's origin office to a Portuguese delivery office."
+    },
+    {
+      "number": "02680J332288",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/mrw/complaints/mrw-atraso-prolongado-na-entrega-de-encomenda-e-falta-de-atualizacao-do-estado-162929826",
+        "access": "full_page",
+        "date": "2026-09-21",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Portal da Queixa complaint naming MRW. MRW's tracker on www.mrw.pt returned its history in Portuguese, including a PointCorner deposit in Portugal."
+    },
+    {
+      "number": "08420F316215",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/mrw/complaints/mrw-entrega-de-encomenda-atrasada-e-falta-de-esclarecimentos-163001326",
+        "access": "full_page",
+        "date": "2026-09-22",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Portal da Queixa complaint naming MRW; the number starts with a Portuguese office code. MRW's tracker on www.mrw.pt returned its history in Portuguese, including an incomplete-address incident."
+    },
+    {
+      "number": "08080f060880",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/mrw/complaints/mrw-falta-de-aviso-previo-na-entrega-encomenda-mrw-08080f060880-160703126",
+        "access": "full_page",
+        "date": "2026-08-12",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Portal da Queixa complaint quoting the number in lower case; it starts with a Portuguese office code. MRW's tracker on www.mrw.pt returned a domestic Portuguese history in Portuguese, with a breakdown of each parcel's scans under some rows."
+    },
+    {
+      "number": "02692T001203",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/mrw/complaints/mrw-erro-na-morada-associada-a-entrega-161817826",
+        "access": "full_page",
+        "date": "2026-09-01",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Portal da Queixa complaint naming MRW; T series. MRW's tracker on www.mrw.pt returned a Portuguese history that ends returned to sender after an incomplete-address incident."
+    },
+    {
+      "number": "02692S954563",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/mrw/complaints/mrw-registo-indevido-de-ausencia-na-entrega-de-encomenda-161100726",
+        "access": "full_page",
+        "date": "2026-08-19",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Portal da Queixa complaint naming MRW. MRW's tracker on www.mrw.pt returned its history in Portuguese, from a Spanish origin office to a Portuguese delivery office."
+    },
+    {
+      "number": "02692I374753",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260325153626/https://www.mrw.pt/seguimiento/track.asp?envio=02692I374753",
+        "access": "full_page",
+        "date": "2026-03-25",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "mrw",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on MRW Portugal's tracking link; MRW's tracker on www.mrw.pt returned its current status in Portuguese without a history."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "carrier": "daylight-transport",
+  "entries": [
+    {"wording": "Pickup Requested", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Seen live as the first row of a history, at the shipper's town. A pickup was booked."},
+    {"wording": "Freight Bill Entered", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Seen live before and after the pickup request, before the pickup. The freight bill was opened."},
+    {"wording": "Arrived At Shipper", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Seen live minutes before the pickup. The driver reached the shipper; the freight is not collected yet."},
+    {"wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Seen live at the shipper's town."},
+    {"wording": "Docked At Origin", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Seen live at the origin terminal after the pickup. The freight reached the terminal's dock."},
+    {"wording": "Enroute To Destination", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Seen live, repeated as the freight leaves the origin terminal and passes towns on the way."},
+    {"wording": "Arrived At Destination", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Seen live at the delivering terminal, Daylight's or a partner's."},
+    {"wording": "Appointment Required", "language": "en", "confirmedBy": "live", "note": "Seen live at the consignee's town at any point of a shipment, even before the pickup and several times. The consignee needs a delivery appointment; it moves nothing."},
+    {"wording": "Appointment Made", "language": "en", "confirmedBy": "live", "note": "Seen live before the delivery, once out of clock order with the delivery run. The delivery appointment was set; it moves nothing."},
+    {"wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Seen live at the delivering terminal."},
+    {"wording": "Arrived At Consignee", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Seen live seconds before the delivery, at the consignee's town. The driver reached the consignee."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Seen live as a row and as the shipment's status in the details, whose delivery time can date a delivery the history does not record."}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "carrier": "first-line",
+  "entries": [
+    {"wording": "Forecast has been received", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The shipper's order data, before the warehouse has the parcel; the row names no place."},
+    {"wording": "Parcel information received", "language": "en", "stage": "registered", "confirmedBy": "live"},
+    {"wording": "Barcode scanning", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "The first scan at the Shenzhen warehouse."},
+    {"wording": "Shipment arrived", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "The first scan at the Shenzhen warehouse; the shared rules would read an arrival as a later transit scan."},
+    {"wording": "Packaged", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Leaving Scan", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Export customs declaration completed", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "China's export declaration, written in Shenzhen before the flight; the parcel is not held in customs."},
+    {"wording": "Depart from facility to service provider", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Hand over to airline", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "At Hong Kong's airport after the export declaration."},
+    {"wording": "Order received", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The delivering partner's order data, such as UniUni's, written before it has the parcel."},
+    {"wording": "Next stop destination airport", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The flight, after the hand-over to the airline; the row keeps Hong Kong's airport as its place."},
+    {"wording": "The package is being submitted for customs clearance", "language": "en", "stage": "customs", "confirmedBy": "live", "note": "Import clearance: it follows the flight, and China's export declaration came before the hand-over to the airline."}
+  ]
+}

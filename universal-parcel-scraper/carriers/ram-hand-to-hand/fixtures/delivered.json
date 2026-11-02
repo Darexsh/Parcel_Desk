@@ -1,0 +1,48 @@
+{
+  "waybillNo": "RAM00000001",
+  "referenceNo": "SAMPLEREF",
+  "groups": [
+    {
+      "waybill": "RAM00000001",
+      "date": "2 March 2026",
+      "events": [
+        { "time": "09:10", "description": "CONSIGNED IN Client Site." },
+        { "time": "11:20", "description": "INTO CONTAINER IN Client Site." },
+        { "time": "13:30", "description": "DEPARTED BY ROAD TO Exampleville Hub, Sampleton FROM Client Site." },
+        { "time": "15:40", "description": "ARRIVED BY ROAD FROM Client Site TO Exampleville Hub, Sampleton." },
+        { "time": "16:50", "description": "OUT OF CONTAINER IN Exampleville Hub, Sampleton." }
+      ]
+    },
+    {
+      "waybill": "RAM00000001",
+      "date": "3 March 2026",
+      "events": [
+        { "time": "07:00", "description": "OUT FOR DELIVERY IN Exampleville Hub, Sampleton." },
+        { "time": "07:05", "description": "Outgoing SMS - Consignment has been dispatched for delivery attempt." },
+        { "time": "07:05", "description": "Outgoing Email - Consignment has been dispatched for delivery attempt." },
+        { "time": "14:00", "description": "RAMMobile NonDelivery - Incorrect Address - Incorrect address on Waybill." },
+        { "time": "17:00", "description": "UNSUCCESSFULL DELIVERY IN Exampleville Hub, Sampleton - Incorrect Address - Incorrect address on Waybill." }
+      ]
+    },
+    {
+      "waybill": "RAM00000001",
+      "date": "4 March 2026",
+      "events": [
+        { "time": "08:30", "description": "Outgoing Call - Follow up Account Query - SAMPLE NOTE CALLED ### ### #### LEFT MESSAGE ###@###.##." },
+        { "time": "09:45", "description": "Incoming Call - Arrangements Made - please see clients full address : \nUNIT #\nNO ##\nSAMPLE STREET\nSAMPLE FLATS." }
+      ]
+    },
+    {
+      "waybill": "RAM00000001",
+      "date": "5 March 2026",
+      "events": [
+        { "time": "07:15", "description": "OUT FOR DELIVERY IN Exampleville Hub, Sampleton." },
+        { "time": "07:20", "description": "Outgoing SMS - Consignment has been dispatched for delivery attempt." },
+        { "time": "10:30", "description": "RAMMobile Delivered - RECEIVED BY SAMPLE PERSON." },
+        { "time": "10:30", "description": "DELIVERED, RECEIVED BY SAMPLE PERSON." },
+        { "time": "17:30", "description": "POD RETURNED IN Exampleville Hub, Sampleton." },
+        { "time": "19:30", "description": "POD CAPTURED IN Exampleville Hub, Sampleton." }
+      ]
+    }
+  ]
+}

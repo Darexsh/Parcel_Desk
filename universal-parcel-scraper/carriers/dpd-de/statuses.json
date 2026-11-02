@@ -1,0 +1,258 @@
+{
+  "carrier": "dpd-de",
+  "entries": [
+    {
+      "code": "PARCEL_HANDED",
+      "wording": "Parcel handed to DPD",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05",
+      "note": "Moves the result to in_transit; no milestone of its own, so the event stays unmapped for the sync to classify. Its verified parcelEvents twin is ORI."
+    },
+    {
+      "code": "IN_TRANSIT",
+      "wording": "Your parcel is on its way",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05",
+      "note": "Moves the result to in_transit; no milestone of its own, so the event stays unmapped for the sync to classify."
+    },
+    {
+      "code": "AT_DELIVERY_CENTER",
+      "wording": "At delivery center",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05",
+      "note": "Moves the result to in_transit; no milestone of its own, so the event stays unmapped for the sync to classify."
+    },
+    {
+      "code": "UNSUCCESSFUL_DELIVERY_ATTEMPT",
+      "wording": "Unsuccessful delivery attempt",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05",
+      "note": "A retry, not a terminal state: the result status stays in_transit."
+    },
+    {
+      "wording": "Order information has been transmitted to DPD.",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Seen in the German app's scan list, which carries wording only."
+    },
+    {
+      "wording": "Parcel handed to Pickup parcelshop by consignor.",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Seen in the German app's scan list, which carries wording only."
+    },
+    {
+      "wording": "In transit.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Seen in the German app's scan list, which carries wording only."
+    },
+    {
+      "wording": "At parcel delivery centre.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Seen in the German app's scan list, which carries wording only."
+    },
+    {
+      "wording": "The consignee did not collect the parcel.",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "A Pickup shop's scan as DPD collects a parcel from it, written also for a parcel the sender dropped at the shop. After the parcel waited at the shop for its recipient it starts the way back; otherwise it moves nothing."
+    },
+    {
+      "wording": "Pick-up from the Pickup parcelshop by DPD driver",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "A driver collects the parcel from a Pickup shop: after the parcel waited there for its recipient it starts the way back, otherwise the driver takes on the parcel the sender dropped there."
+    },
+    {
+      "wording": "Transfer to DPD Pickup station by DPD driver.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Seen in the German app's scan list, which carries wording only."
+    },
+    {
+      "wording": "Out for delivery.",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Seen in the German app's scan list, which carries wording only."
+    },
+    {
+      "wording": "Unfortunately we have not been able to deliver your parcel.",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Seen in the German app's scan list, which carries wording only. Matches the guest API's UNSUCCESSFUL_DELIVERY_ATTEMPT at the same minute."
+    },
+    {
+      "wording": "We're sorry but your parcel couldn't be delivered as arranged.",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Seen in the German app's scan list, which carries wording only. Mapped whole because the shared classifier reads it as a delivery."
+    },
+    {
+      "wording": "Delivered by driver to DPD Pickup parcelshop/ station.",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Seen in the German app's scan list, which carries wording only. Mapped whole because the shared classifier reads it as a delivery."
+    },
+    {
+      "wording": "Picked up from DPD Pickup station by consignee.",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Seen in the German app's scan list, which carries wording only. Mapped whole because the shared classifier reads it as an acceptance."
+    },
+    {
+      "wording": "Picked up from Pickup parcelshop by consignee.",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Seen in the German app's scan list, which carries wording only. The collection from a shop, after the driver's drop-off there; delivered, like the collection from a Pickup station. Mapped whole because the shared classifier reads it as an acceptance."
+    },
+    {
+      "wording": "Delivered.",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Seen in the German app's scan list, which carries wording only."
+    },
+    {
+      "code": "ACCEPTED",
+      "wording": "Paketinfo an DPD übergeben",
+      "language": "de",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "The German app's progress rail, one state for the whole parcel."
+    },
+    {
+      "code": "ON_THE_ROAD",
+      "wording": "Paket unterwegs",
+      "language": "de",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "The German app's progress rail, one state for the whole parcel."
+    },
+    {
+      "code": "AT_DELIVERY_DEPOT",
+      "wording": "At parcel delivery centre",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "The German app's progress rail, one state for the whole parcel."
+    },
+    {
+      "code": "DELIVERED",
+      "wording": "Parcel delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "The German app's progress rail, one state for the whole parcel."
+    },
+    {
+      "code": "OUT_FOR_DELIVERY",
+      "wording": "In Zustellung",
+      "language": "de",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "The German app's progress rail, one state for the whole parcel. Seen as a state the parcel had not reached."
+    },
+    {
+      "wording": "Pickup ordered for: …",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Seen in the German app's scan list, which carries wording only. The sender booked a collection for the date shown; the parcel is not with DPD yet."
+    },
+    {
+      "wording": "Pickup not possible No goods acceptance / goods pickup.",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Seen in the German app's scan list, which carries wording only. A booked collection found no parcel to take; the parcel is still not with DPD."
+    },
+    {
+      "wording": "Parcel handed to DPD",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Seen in the German app's scan list, which carries wording only. The driver collected the parcel from the sender."
+    },
+    {
+      "wording": "Back at parcel delivery centre after an unsuccessful delivery attempt.",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Seen in the German app's scan list, which carries wording only. Follows the failed attempt the parcel waits to be retried after."
+    },
+    {
+      "wording": "Parcel has been left in: mail box",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Seen in the German app's scan list, which carries wording only. Logged with the delivery at the same minute, naming where the parcel was left."
+    },
+    {
+      "wording": "At parcel delivery centre. (Return to sender)",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Seen in the German app's scan list, which carries wording only. A return under way, which stays nonterminal like other returns to the sender."
+    },
+    {
+      "wording": "Delivered. (Return to sender)",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Seen in the German app's scan list, which carries wording only. The return reached the sender. Mapped whole because the shared classifier reads it as a return still under way."
+    },
+    {
+      "code": "RETURN_TO_SENDER",
+      "wording": "Return to sender",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "The German app's progress rail, one state for the whole parcel. Seen while the return travels and after it reaches the sender, so it stays nonterminal; the return's own delivery scan ends it."
+    }
+  ]
+}

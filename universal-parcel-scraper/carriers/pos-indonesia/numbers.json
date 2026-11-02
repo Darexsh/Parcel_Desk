@@ -1,0 +1,347 @@
+{
+  "carrier": "pos-indonesia",
+  "records": [
+    {
+      "number": "P2111130063958",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2021/12/03/tanggapan/tanggapan-pos-indonesia-masalah-kiriman-paket-tujuan-pulau-sula-ternate",
+        "date": "2021-12-03",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "pos-indonesia"
+        ]
+      },
+      "note": "Pos Indonesia's reply to a Media Konsumen letter about a parcel to the Sula islands gives it as the barcode; Pos Indonesia's app service finds the item."
+    },
+    {
+      "number": "P2312190008251",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2024/01/03/surat-pembaca/kiriman-melalui-pos-indonesia-tidak-jelas",
+        "date": "2024-01-03",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "pos-indonesia"
+        ]
+      },
+      "note": "A Media Konsumen letter about a letter sent with Pos Indonesia gives it as the resi; Pos Indonesia's app service finds the item."
+    },
+    {
+      "number": "15941320968",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2018/01/01/surat-pembaca/kiriman-paket-kilat-khusus-pos-indonesia-belum-sampai",
+        "date": "2018-01-01",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "A Media Konsumen letter gives it as the resi of a Paket Kilat Khusus parcel sent from a Pos Indonesia branch."
+    },
+    {
+      "number": "16323075978",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2018/10/03/surat-pembaca/kiriman-paket-dari-kantor-pos-tangerang-lama-tidak-bergerak",
+        "date": "2018-10-03",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "dhl-ecommerce-pl",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "A Media Konsumen letter gives it as the resi of a Pos Kilat Khusus parcel."
+    },
+    {
+      "number": "17623331974",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2019/12/14/surat-pembaca/kecewa-pelayanan-pos-kilat-khusus",
+        "date": "2019-12-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "A Media Konsumen letter gives it as the barcode of a parcel sent with PT Pos Indonesia."
+    },
+    {
+      "number": "EE212938475ID",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2021/11/23/tanggapan/tanggapan-pos-indonesia-terhadap-masalah-kiriman-barang-ke-china-a-n-eunike-aurelia",
+        "date": "2021-11-23",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Pos Indonesia's reply to a Media Konsumen letter about an item to China gives it as the barcode; Pos Indonesia's app service finds the item."
+    },
+    {
+      "number": "P2208030060194",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220805031243/https://www.posindonesia.co.id/id/tracking/P2208030060194",
+        "date": "2022-08-05",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "pos-indonesia"
+        ]
+      },
+      "note": "An archived lookup on Pos Indonesia's own tracking page passes it as the barcode; the capture was not opened. Pos Indonesia's app service finds the item."
+    },
+    {
+      "number": "P2407110206496",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240713083433/https://www.posindonesia.co.id/id/tracking/P2407110206496",
+        "date": "2024-07-13",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "pos-indonesia"
+        ]
+      },
+      "note": "An archived lookup on Pos Indonesia's own tracking page passes it as the barcode; the capture was not opened. Pos Indonesia's app service finds the item."
+    },
+    {
+      "number": "p2504170015857",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250417143633/https://www.posindonesia.co.id/id/tracking/p2504170015857",
+        "date": "2025-04-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "pos-indonesia"
+        ]
+      },
+      "note": "An archived lookup on Pos Indonesia's own tracking page passes it as the barcode; the capture was not opened. Pos Indonesia's app service finds the item. Kept in the lowercase form the lookup used."
+    },
+    {
+      "number": "RR046768837ID",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240622052833/https://www.posindonesia.co.id/id/tracking/RR046768837ID",
+        "date": "2024-06-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Pos Indonesia's own tracking page passes it as the barcode; the capture was not opened. Pos Indonesia's app service finds the item."
+    },
+    {
+      "number": "CC014356389ID",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251110025145/https://www.posindonesia.co.id/id/tracking/CC014356389ID",
+        "date": "2025-11-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Pos Indonesia's own tracking page passes it as the barcode; the capture was not opened."
+    },
+    {
+      "number": "LP004732712ID",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251110025153/https://www.posindonesia.co.id/id/tracking/LP004732712ID",
+        "date": "2025-11-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Pos Indonesia's own tracking page passes it as the barcode; the capture was not opened."
+    },
+    {
+      "number": "16574567258",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20201001192225/https://www.posindonesia.co.id/id/tracking?resi=16574567258",
+        "date": "2020-10-01",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "dhl-ecommerce-pl",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "An archived lookup on Pos Indonesia's own tracking page passes it as the barcode; the capture was not opened."
+    },
+    {
+      "number": "LP107221675JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261005043931/https://www.posindonesia.co.id/id/tracking/LP107221675JP",
+        "date": "2026-10-05",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Pos Indonesia's own tracking page passes this item from Japan as the barcode; the capture was not opened. Pos Indonesia's app service finds its delivery in Indonesia."
+    },
+    {
+      "number": "EE205187475BN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260123134244/https://www.posindonesia.co.id/en/tracking/EE205187475BN",
+        "date": "2026-01-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Pos Indonesia's own tracking page passes this item from Brunei as the barcode; the capture was not opened. Pos Indonesia's app service finds its delivery in Indonesia."
+    }
+  ]
+}

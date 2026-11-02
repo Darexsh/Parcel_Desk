@@ -1,0 +1,27 @@
+{
+  "carrier": "profit-fields",
+  "records": [
+    {
+      "number": "EWSCH9911667340YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20161027123726/http://epost.8dt.com:80/tracks.jsp?hawbno=EWSCH9911667340YQ",
+        "date": "2016-10-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "profit-fields"
+        ]
+      },
+      "note": "Looked up on Profit Fields' old tracker, as an archived page shows; the page loads its result separately, so the capture holds no history."
+    }
+  ]
+}

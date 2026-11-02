@@ -1,0 +1,27 @@
+{
+  "carrier": "tccs",
+  "records": [
+    {
+      "number": "1122944",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170620202918/http://www.tccs.in:80/Tracking.aspx?txtawbno=1122944&Number=A",
+        "date": "2017-06-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "An archived lookup on TCCS's own tracker shows this air waybill received and sent on from Mumbai to a UK partner, then OK DELIVERY with a forwarding number."
+    }
+  ]
+}

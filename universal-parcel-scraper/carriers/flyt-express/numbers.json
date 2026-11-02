@@ -1,0 +1,49 @@
+{
+  "carrier": "flyt-express",
+  "gap": "No number has been checked on Flyt Express's own tracker, which needs a picture CAPTCHA.",
+  "records": [
+    {
+      "number": "A0000921110209FY",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-flytexpress.html",
+        "date": "2021-11-18",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A shopper posted this number on a review page for Flyt Express. Flyt's tracker needs a picture CAPTCHA, so it was not checked there."
+    },
+    {
+      "number": "A000071711010228",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-flytexpress.html?p=2",
+        "date": "2018-02-07",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "royal-mail"
+        ]
+      },
+      "note": "A shopper posted this number on a review page for Flyt Express. Flyt's tracker needs a picture CAPTCHA, so it was not checked there."
+    }
+  ]
+}

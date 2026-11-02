@@ -1,0 +1,40 @@
+{
+  "id": "z-leading",
+  "displayName": "Z-Leading",
+  "aliases": [
+    "Zhongling",
+    "中领国际",
+    "Shenzhen Z-leading International Logistics"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#005ab0"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "canaryUrl": "https://t.17track.net/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "z-leading-1",
+      "pattern": "^ZL[A-Z]{2}\\d{9}$",
+      "confidence": "low"
+    }
+  ]
+}

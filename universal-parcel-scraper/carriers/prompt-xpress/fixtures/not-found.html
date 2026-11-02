@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prompt Xpress Tracking Visibility</title>
+    <style>
+        /* The portal's stylesheet, left out. */
+    </style>
+</head>
+<body>
+    <div class="site-shell">
+        <header class="site-header">
+            <div class="brand">
+                <img src="/img/pxplogo.png" alt="Prompt Xpress Logo" />
+                <div class="brand-copy">
+                    <small>Public Tracking</small>
+                    <strong>Tracking & Visibility Portal</strong>
+                </div>
+            </div>
+            <div class="status-live">Live shipment visibility</div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-card">
+                    <div class="hero-copy">
+                        <span class="eyebrow">Tracking & Visibility</span>
+                        <h1>See where the shipment stands and whether delivery proof is available.</h1>
+                        <p>Search by tracking number to load the current shipment signal, branch visibility, operational freshness, and proof-of-delivery access from the public tracking services.</p>
+
+                        <form method="get" class="search-panel" action="/PublicTracking/TrackingStatus">
+                            <input type="text"
+                                   name="trackingNo"
+                                   class="search-input"
+                                   placeholder="RP10000000"
+                                   value="RP00000099"
+                                   autocomplete="off" />
+                            <button type="submit" class="search-btn">Track Shipment</button>
+                        </form>
+
+                            <div class="feedback info">No tracking data was found for <strong>RP00000099</strong>.</div>
+                    </div>
+
+                    <div class="hero-visibility">
+                        <div class="visibility-board">
+                            <div class="label">Shipment Signal</div>
+                            <div class="tracking-main">RP00000099</div>
+                            <div class="visibility-status">
+                                <span class="dot"></span>
+                                Status unavailable
+                            </div>
+                        </div>
+
+                        <div class="hero-kpis">
+                            <div class="hero-kpi">
+                                <div class="mini-label">Current Branch</div>
+                                <strong>-</strong>
+                                <p>Most recent branch currently visible from the public tracking response.</p>
+                            </div>
+                            <div class="hero-kpi">
+                                <div class="mini-label">Visibility Depth</div>
+                                <strong>Limited</strong>
+                                <p>0 public tracking events currently available.</p>
+                            </div>
+                            <div class="hero-kpi">
+                                <div class="mini-label">Update Freshness</div>
+                                <strong>Awaiting first update</strong>
+                                <p>No timestamp available yet.</p>
+                            </div>
+                            <div class="hero-kpi">
+                                <div class="mini-label">Proof Mode</div>
+                                <strong>No POD available</strong>
+                                <p>Delivery proof can be available as an image preview or a digital POD link.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            &copy; 2026 Prompt Xpress. Public Tracking & Visibility portal.
+        </footer>
+    </div>
+
+
+    <script>
+        var podModal = document.querySelector("[data-pod-modal]");
+        var podModalOpen = document.querySelector("[data-pod-modal-open]");
+
+        if (podModal && podModalOpen) {
+            var closeModal = function () {
+                podModal.classList.remove("is-open");
+                podModal.setAttribute("aria-hidden", "true");
+                document.body.style.overflow = "";
+            };
+
+            podModalOpen.addEventListener("click", function () {
+                var previewImg = podModalOpen.querySelector("img");
+                if (previewImg) {
+                    document.getElementById("pod-modal-img").src = previewImg.src;
+                }
+                podModal.classList.add("is-open");
+                podModal.setAttribute("aria-hidden", "false");
+                document.body.style.overflow = "hidden";
+            });
+
+            var closeButton = podModal.querySelector("[data-pod-modal-close]");
+            if (closeButton) {
+                closeButton.addEventListener("click", closeModal);
+            }
+
+            podModal.addEventListener("click", function (event) {
+                if (event.target === podModal) {
+                    closeModal();
+                }
+            });
+
+            document.addEventListener("keydown", function (event) {
+                if (event.key === "Escape" && podModal.classList.contains("is-open")) {
+                    closeModal();
+                }
+            });
+        }
+    </script>
+</body>
+</html>

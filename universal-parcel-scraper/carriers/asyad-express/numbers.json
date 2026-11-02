@@ -1,0 +1,43 @@
+{
+  "carrier": "asyad-express",
+  "records": [
+    {
+      "number": "369976186",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250918135931/https://www.asyadexpress.om/track-trace/369976186",
+        "date": "2025-09-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The opened capture of Asyad Express's tracker shows the shipment with the event Order Placed (Awaiting dispatch from the shipper)."
+    },
+    {
+      "number": "RB584629627SG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230129225512/https://omanpost.om/Tracking/?trackingno=RB584629627SG+",
+        "date": "2023-01-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "singapore-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Oman Post's tracker; the app's postal fallback confirms the whole item with dated Singapore and Oman scans. Issued by another post, so postal detection names its issuer."
+    }
+  ]
+}

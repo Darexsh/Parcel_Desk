@@ -1,0 +1,11 @@
+{
+  "carrier": "j-and-t-cargo",
+  "entries": [
+    { "code": "10", "wording": "sudah di ambil", "language": "id", "stage": "accepted", "confirmedBy": "live" },
+    { "code": "50", "wording": "dalam proses delivery", "language": "id", "stage": "in_transit", "confirmedBy": "live", "note": "Departure scan, not final delivery." },
+    { "code": "90", "wording": "dalam proses delivery", "language": "id", "stage": "in_transit", "confirmedBy": "live", "note": "Arrival at an operations centre." },
+    { "code": "92", "wording": "dalam proses delivery", "language": "id", "stage": "in_transit", "confirmedBy": "live", "note": "Arrival at an outlet." },
+    { "code": "94", "wording": "dalam proses distribusi", "language": "id", "stage": "out_for_delivery", "confirmedBy": "live" },
+    { "code": "100", "wording": "Sudah Diterima", "language": "id", "stage": "delivered", "confirmedBy": "live" }
+  ]
+}

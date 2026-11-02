@@ -1,0 +1,58 @@
+{
+  "id": "collicare",
+  "displayName": "ColliCare",
+  "aliases": [
+    "ColliCare Logistics",
+    "ColliCare Logistics AS",
+    "ColliCare Norge"
+  ],
+  "region": {
+    "countries": [
+      "NO",
+      "SE",
+      "DK",
+      "FI"
+    ]
+  },
+  "brand": {
+    "color": "#f89728"
+  },
+  "selectable": true,
+  "timezone": "Europe/Oslo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.collicare.no/track-and-trace?s={trackingNumber}",
+    "searchUrl": "https://www.collicare.no/kundeservice/sporing",
+    "canaryUrl": "https://www.collicare.no/track-and-trace",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.collicare.no",
+        "collicare.no"
+      ],
+      "pathPattern": "^/track-and-trace/?$",
+      "params": [
+        "s"
+      ]
+    },
+    {
+      "domains": [
+        "www.collicare.no",
+        "collicare.no"
+      ],
+      "pathPattern": "^/track-and-trace/?$",
+      "fragment": "^/s/([^/?&]+)/?$"
+    }
+  ],
+  "detection": []
+}

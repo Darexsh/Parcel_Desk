@@ -1,0 +1,27 @@
+{
+  "carrier": "cj-logistics",
+  "entries": [
+    {"code": "11", "wording": "집화처리: 보내시는 고객님으로부터 상품을 인수받았습니다", "stage": "accepted", "language": "ko", "confirmedBy": "live", "note": "Picked up from the sender."},
+    {"code": "21", "wording": "SM입고: 고객님의 상품이 배송지에 도착하였습니다.", "stage": "in_transit", "language": "ko", "confirmedBy": "live", "note": "Received at a delivery camp. The detail line already reads as an arrival at the destination, and trunk scans can follow it."},
+    {"code": "R1", "wording": "행낭포장: 물품을 행낭포장하였습니다", "stage": "in_transit", "language": "ko", "confirmedBy": "live", "note": "Packed into a bag at a terminal."},
+    {"code": "41", "wording": "간선상차: 배송지역으로 상품이 이동중입니다.", "stage": "in_transit", "language": "ko", "confirmedBy": "live", "note": "Loaded on a trunk route; the reply names the terminal it goes to as the partner branch."},
+    {"code": "42", "wording": "간선하차: 접수하신 물품이 중계점에 도착하였습니다", "stage": "in_transit", "language": "ko", "confirmedBy": "live", "note": "Unloaded at a hub or at the delivery terminal."},
+    {"code": "43", "wording": "소분류", "stage": "in_transit", "language": "ko", "confirmedBy": "live", "note": "Sorted at a hub; the scan has no detail line."},
+    {"code": "58", "wording": "권내출고", "stage": "in_transit", "language": "ko", "confirmedBy": "live", "note": "Sent on within the area; the scan has no detail line."},
+    {"code": "61", "wording": "오도착", "stage": "in_transit", "language": "ko", "confirmedBy": "live", "note": "Arrived at the wrong terminal, which sends it on; the scan has no detail line."},
+    {"code": "62", "wording": "미발송: 물품발송이 연기되었습니다", "stage": "in_transit", "language": "ko", "confirmedBy": "live", "note": "A terminal held the parcel back for a later trunk."},
+    {"code": "63", "wording": "미출고: 물품배송이 연기되었습니다", "stage": "in_transit", "language": "ko", "confirmedBy": "live", "note": "A terminal postponed its release towards delivery."},
+    {"code": "82", "wording": "배송출발: 고객님의 상품을 배송할 예정입니다.(11~13시)", "stage": "out_for_delivery", "language": "ko", "confirmedBy": "live", "note": "With the delivery time slot; the courier's name and phone that follow are dropped."},
+    {"code": "84", "wording": "미배송: 물품배송이 지연되고 있습니다", "stage": "failed_attempt", "language": "ko", "confirmedBy": "live", "note": "Recorded by the delivery branch for a parcel it did not deliver on its round."},
+    {"code": "91", "wording": "배송완료: 고객님의 상품이 배송완료 되었습니다.", "stage": "delivered", "language": "ko", "confirmedBy": "live", "note": "The courier's name and phone that follow are dropped, and so is the receiver the reply names as the partner branch."},
+    {"code": "11", "wording": "상품인수", "stage": "accepted", "language": "ko", "confirmedBy": "portal", "note": "The www.cjlogistics.com tracker's status name for scan code 11."},
+    {"code": "11", "wording": "보내시는 고객님으로부터 상품을 인수받았습니다", "stage": "accepted", "language": "ko", "confirmedBy": "source", "note": "Event text of a 집화처리 scan in a published tracker reply."},
+    {"code": "41", "wording": "상품이동중", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "The www.cjlogistics.com tracker also names codes 21 and 44 this way."},
+    {"code": "41", "wording": "물류터미널로 상품이 이동중입니다.", "stage": "in_transit", "language": "ko", "confirmedBy": "source", "note": "The www.cjlogistics.com tracker's event text of a 간선상차 scan towards the hub."},
+    {"code": "44", "wording": "배송지역으로 상품이 이동중입니다.", "stage": "in_transit", "language": "ko", "confirmedBy": "source", "note": "The www.cjlogistics.com tracker's event text of a 간선상차 scan leaving the hub."},
+    {"code": "42", "wording": "배송지도착", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "The www.cjlogistics.com tracker's name for an arrival at the delivery branch; its event text then names the courier."},
+    {"code": "RMN", "wording": "HUB 도착", "stage": "in_transit", "language": "ko", "confirmedBy": "portal", "note": "The www.cjlogistics.com tracker's status name for code RMN."},
+    {"code": "82", "wording": "배송출발", "stage": "out_for_delivery", "language": "ko", "confirmedBy": "portal", "note": "The event text carries the courier's name and phone."},
+    {"code": "91", "wording": "배달완료", "stage": "delivered", "language": "ko", "confirmedBy": "portal", "note": "The www.cjlogistics.com tracker's status name for code 91."}
+  ]
+}

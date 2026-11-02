@@ -1,0 +1,233 @@
+{
+  "settings": {
+    "tracking_assignment_status": "true",
+    "enable_tip": "false",
+    "enable_driver_location": "true",
+    "enable_route_pickup_delay_notification": "true",
+    "enable_pod": "true",
+    "tracking_show_map": "true",
+    "public_tracking_driver": "true",
+    "tracking_theme": "dark",
+    "hide_footer": "false",
+    "client_support_phone_number": "+15550000000",
+    "axlehire_support_phone_number": "+15550000001",
+    "axlehire_support_phone_email": "support@example.com",
+    "access_codes/GATE_CODE": "true"
+  },
+  "dropoff": {
+    "dwellTime": 0,
+    "_created": "2031-01-01T00:00:00.000Z",
+    "_updated": "2031-01-01T00:00:00.000Z",
+    "_deleted": false,
+    "_etag": "0",
+    "id": 1008,
+    "status": "PENDING",
+    "corresponding_stop_id": 1,
+    "shipment_id": 100,
+    "assignment_id": 10,
+    "sequence_id": 1,
+    "type": "DROP_OFF",
+    "predicted_arrival_ts": "2031-05-06T14:00:00.000Z",
+    "estimated_arrival_ts": "2031-05-06T14:00:00.000Z",
+    "workload": 1,
+    "service_time": 2.0,
+    "remark": "Synthetic stop remark",
+    "reason": ""
+  },
+  "pickup": {
+    "dwellTime": 0,
+    "_created": "2031-01-01T00:00:00.000Z",
+    "_updated": "2031-01-01T00:00:00.000Z",
+    "_deleted": false,
+    "_etag": "0",
+    "id": 1007,
+    "status": "PENDING",
+    "corresponding_stop_id": 1,
+    "shipment_id": 100,
+    "assignment_id": 10,
+    "sequence_id": 1,
+    "type": "PICK_UP",
+    "predicted_arrival_ts": "2031-05-06T14:00:00.000Z",
+    "estimated_arrival_ts": "2031-05-06T14:00:00.000Z",
+    "workload": 1,
+    "service_time": 2.0,
+    "remark": "Synthetic stop remark",
+    "reason": ""
+  },
+  "signRequired": false,
+  "shipmentImageAnnotations": [],
+  "client": {
+    "company": "Example Shop",
+    "timezone": "America/Chicago",
+    "id": 1,
+    "logo_url": "https://example.com/logo.png"
+  },
+  "shipment": {
+    "returnShipment": false,
+    "id": 100,
+    "internal_id": "EX*****01",
+    "status": "GEOCODED",
+    "workload": 1.0,
+    "customer": {
+      "phone_number": "***-***-0000",
+      "email": "e*****@example.com"
+    },
+    "dropoff_address": {
+      "city": "Recipient Town",
+      "state": "ZZ"
+    },
+    "dropoff_earliest_ts": "2031-05-06T14:00:00.000Z",
+    "dropoff_latest_ts": "2031-05-07T01:00:00.000Z",
+    "signature_required": false,
+    "id_required": false,
+    "assignment_id": 10,
+    "region_code": "EXA",
+    "timezone": "America/Chicago",
+    "service_level": "NEXT_DAY",
+    "client_profile_id": 2,
+    "tracking_code": "zz00000000000002"
+  },
+  "outbound_events": [
+    {
+      "attributes": {
+        "client_profile_name": "Example Shop",
+        "dropoff_earliest_ts": "2031-05-06T14:00:00.000Z",
+        "dropoff_latest_ts": "2031-05-07T01:00:00.000Z"
+      },
+      "milestone": "In Transit",
+      "category": "",
+      "description": "Your package is running later than expected. It may still arrive this evening. If not, expect it tomorrow.",
+      "shipment_id": 100,
+      "signal": "PICKUP_DELAY",
+      "remark": "",
+      "stop_id": 2009,
+      "type": "OUTBOUND",
+      "ts": "2031-05-06T23:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "client_profile_name": "Example Shop"
+      },
+      "milestone": "Label created",
+      "category": "SUCCEEDED",
+      "description": "Your order has been confirmed and we will process your package once it arrives at a Jitsu warehouse.",
+      "shipment_id": 100,
+      "signal": "GEOCODED",
+      "remark": "",
+      "stop_id": 2010,
+      "type": "PLANNING",
+      "ts": "2031-05-05T15:20:00.000Z"
+    },
+    {
+      "attributes": {
+        "client_profile_name": "Example Shop"
+      },
+      "milestone": "In Transit",
+      "category": "SUCCEEDED",
+      "description": "Your order was successfully returned to Jitsu for redelivery.",
+      "shipment_id": 100,
+      "signal": "RETURN_SUCCEEDED",
+      "remark": "",
+      "stop_id": 2011,
+      "type": "OUTBOUND",
+      "ts": "2031-05-05T15:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "client_profile_name": "Example Shop"
+      },
+      "milestone": "In Transit",
+      "category": "FAILED",
+      "description": "Our delivery attempt was unsuccessful. Please click on 'Manage Delivery' to update any necessary information. ",
+      "shipment_id": 100,
+      "signal": "DROPOFF_FAILED",
+      "remark": "Synthetic driver note",
+      "stop_id": 2012,
+      "type": "OUTBOUND",
+      "ts": "2031-05-05T00:30:00.000Z"
+    },
+    {
+      "attributes": {
+        "client_profile_name": "Example Shop"
+      },
+      "milestone": "Out for Delivery",
+      "category": "SUCCEEDED",
+      "description": "Your package is on its way to be delivered by 08:00 PM on May 04.",
+      "shipment_id": 100,
+      "signal": "PICKUP_SUCCEEDED",
+      "remark": "",
+      "stop_id": 2013,
+      "type": "OUTBOUND",
+      "ts": "2031-05-04T14:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "client_profile_name": "Example Shop"
+      },
+      "milestone": "In Transit",
+      "category": "SUCCEEDED",
+      "description": "Your package has been received at a Jitsu facility and will be delivered soon.",
+      "shipment_id": 100,
+      "signal": "RECEIVED_OK",
+      "remark": "",
+      "stop_id": 2014,
+      "type": "INBOUND",
+      "ts": "2031-05-04T06:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "client_profile_name": "Example Shop"
+      },
+      "milestone": "Processing",
+      "category": "SUCCEEDED",
+      "description": "We have received information about your delivery. If you are experiencing a delay, please contact the retailer",
+      "shipment_id": 100,
+      "signal": "CREATED",
+      "remark": "",
+      "stop_id": 2015,
+      "type": "PLANNING",
+      "ts": "2031-05-01T15:00:00.000Z"
+    }
+  ],
+  "driver": {
+    "id": 7,
+    "vehicle_make": "Example",
+    "vehicle_model": "Van"
+  },
+  "client_profile": {
+    "name": "Example Shop",
+    "logo": "https://example.com/profile.png",
+    "is_use_profile_name": false,
+    "is_use_profile_logo": false,
+    "is_use_profile_label": false,
+    "is_use_profile_email": false,
+    "is_use_profile_phone": false,
+    "is_use_profile_sms_template": false
+  },
+  "access_code_map": {},
+  "business": false,
+  "eco_friendly": false,
+  "extra_text": {
+    "eco_friendly": "Synthetic note"
+  },
+  "zip": {
+    "zipcode": 99999,
+    "latitude": 0.5,
+    "longitude": -0.5
+  },
+  "approved_pod_number": 0,
+  "no_service_dates": [
+    {
+      "key": "EXAMPLE_HOLIDAY",
+      "name": "Example Holiday",
+      "date": "2031-05-07",
+      "off": true
+    },
+    {
+      "key": "EXAMPLE_OBSERVANCE",
+      "name": "Example Observance",
+      "date": "2031-05-08",
+      "off": false
+    }
+  ]
+}

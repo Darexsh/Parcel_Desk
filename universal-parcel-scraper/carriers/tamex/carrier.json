@@ -1,0 +1,42 @@
+{
+  "id": "tamex",
+  "displayName": "Tamex",
+  "aliases": [
+    "تاميكس"
+  ],
+  "region": {
+    "countries": [
+      "SA"
+    ]
+  },
+  "brand": {
+    "color": "#4f1b52"
+  },
+  "selectable": true,
+  "timezone": "Asia/Riyadh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tamex.com.sa/track/{trackingNumber}",
+    "searchUrl": "https://tamex.com.sa/track",
+    "canaryUrl": "https://tamex.com.sa/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tamex.com.sa",
+        "www.tamex.com.sa"
+      ],
+      "path": "^/track/([A-Za-z0-9]+)/?$"
+    }
+  ],
+  "detection": []
+}

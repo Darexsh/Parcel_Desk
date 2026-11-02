@@ -1,0 +1,103 @@
+{
+  "carrier": "shipentegra",
+  "records": [
+    {
+      "number": "1SE588480146",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260120175142/https://track.shipentegra.com/track_service.php",
+        "date": "2026-01-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "shipentegra",
+        "confidence": "high"
+      },
+      "note": "ShipEntegra's own tracking API, archived in the same second as a lookup of this number on track.shipentegra.com, returns it with a pending event and a Mexican destination."
+    },
+    {
+      "number": "587087882",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/shipentegra/kayip-gonderi-ve-cevapsiz-cagri-merkezi-nedeniyle-siddetli-magduriyet",
+        "date": "2025-11-18",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A Şikayetvar complaint about parcels lost after leaving Turkey with ShipEntegra lists this among its ShipEntegra tracking numbers, apart from the shop's order numbers. ShipEntegra's tracker knows it."
+    },
+    {
+      "number": "587038676",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/shipentegra/kayip-gonderi-ve-cevapsiz-cagri-merkezi-nedeniyle-siddetli-magduriyet",
+        "date": "2025-11-18",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The same Şikayetvar complaint lists this as its second ShipEntegra tracking number. ShipEntegra's tracker knows it."
+    },
+    {
+      "number": "589448649",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/shipentegra?page=4",
+        "date": "2026-06-04",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt"
+        ]
+      },
+      "note": "A Şikayetvar complaint gives this as the label number of a parcel handed to ShipEntegra and recorded at its Istanbul transfer centre. ShipEntegra's tracker knows it."
+    },
+    {
+      "number": "590479936",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/shipentegra?page=4",
+        "date": "2026-06-09",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A Şikayetvar complaint about US customs charges gives this as the tracking number of a shipment sent with ShipEntegra. ShipEntegra's tracker knows it."
+    }
+  ]
+}

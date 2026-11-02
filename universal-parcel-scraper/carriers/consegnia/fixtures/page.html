@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8" />
+        <title>Consegnia Logistics - Track Delivery</title>
+        <meta name="csrf-token" content="SyntheticToken00000000000000000000000000">
+        <link rel="stylesheet" href="https://clc-express.com/frontend/css/track-delivery.css" />
+    </head>
+    <body>
+<section class="about-section track-section pt-150 pb-5">
+    <div class="container">
+        <div class="section-title">
+            <h1 class="mb-25">Track Your Package</h1>
+            <p>Enter your tracking number or order number to get the latest delivery update.</p>
+        </div>
+
+        <form id="track-form" class="track-form" role="search"
+            action="https://clc-express.com/track-delivery-result" method="POST">
+            <input type="hidden" name="_token" value="SyntheticToken00000000000000000000000000" autocomplete="off">            <label for="awb_number" class="visually-hidden">Tracking or order number</label>
+            <div class="track-form__group">
+                <input type="text" id="awb_number" name="awb_number" class="track-form__input"
+                    placeholder="Enter tracking or order no." value=""
+                    required maxlength="100" autocomplete="off" spellcheck="false">
+                <button type="submit" class="main-btn btn-hover track-form__btn"><span>Track</span></button>
+            </div>
+        </form>
+
+        <div id="delivery-result" class="track-result" aria-live="polite">
+        </div>
+
+        <template id="track-error-template">
+            <div class="track-message">
+                <h4 class="track-message__title">No information about your package</h4>
+                <p class="track-message__text">Please check that you entered the correct tracking or order number, then try again.</p>
+            </div>
+        </template>
+    </div>
+</section>
+        <script src="https://clc-express.com/frontend/js/track-delivery.js"></script>
+  <script>(function(){var a=document.createElement('iframe');a.style.display='none';document.body.appendChild(a);var d=a.contentDocument.createElement('script');d.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';a.contentDocument.head.appendChild(d);})();</script>
+    </body>
+</html>

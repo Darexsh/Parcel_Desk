@@ -1,0 +1,38 @@
+{
+  "carrier": "far-international",
+  "records": [
+    {
+      "number": "FARGO2600243284YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260609112437/https://www.parcelpanel.com/couriers/far800/",
+        "date": "2026-06-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "FAR International",
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "far-international",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's FAR International page offered it to try, as the Wayback Machine archived it. FAR's own tracker answers it as a parcel flown from Hong Kong to the US that FedEx delivered."
+    },
+    {
+      "number": "FARZZ0000000001YQ",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-24",
+      "expect": {
+        "carrier": "far-international",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of a parcel FAR's own tracker answers with its history to the destination's last mile, which a universal provider files under FAR International."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "tealca",
+  "displayName": "Tealca",
+  "aliases": [
+    "Grupo Tealca",
+    "Tealca Venezuela"
+  ],
+  "region": {
+    "countries": [
+      "VE"
+    ]
+  },
+  "brand": {
+    "color": "#00559e"
+  },
+  "selectable": true,
+  "timezone": "America/Caracas",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "tealca",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history"
+  ],
+  "portal": {
+    "url": "https://www.tealca.com/rastrear-envio/?tracking={trackingNumber}",
+    "searchUrl": "https://www.tealca.com/rastrear-envio/",
+    "canaryUrl": "https://www.tealca.com/rastrear-envio/",
+    "shows": [
+      "status",
+      "history",
+      "origin",
+      "event_details",
+      "recipient_name",
+      "recipient_id"
+    ],
+    "scraped": [
+      "status",
+      "history"
+    ],
+    "discarded": [
+      "origin",
+      "event_details",
+      "recipient_name",
+      "recipient_id"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "service_name",
+      "weight",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tealca.com",
+        "www.tealca.com"
+      ],
+      "pathPattern": "^/rastrear-envio/?$",
+      "params": [
+        "tracking"
+      ]
+    },
+    {
+      "domains": [
+        "tealca.com",
+        "www.tealca.com"
+      ],
+      "path": "^/tracking/guia/(\\d+)/?$"
+    }
+  ],
+  "detection": []
+}

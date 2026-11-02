@@ -1,0 +1,57 @@
+{
+  "id": "intereuropa",
+  "displayName": "Intereuropa",
+  "aliases": [
+    "Intereuropa d.d.",
+    "Intereuropa d.o.o.",
+    "InterEuropa",
+    "Intereuropa Group"
+  ],
+  "region": {
+    "countries": [
+      "SI",
+      "HR",
+      "BA",
+      "RS"
+    ]
+  },
+  "brand": {
+    "color": "#1b5949"
+  },
+  "selectable": true,
+  "timezone": "Europe/Ljubljana",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.intereuropa.si/si/tracking?pg=tracking&code={trackingNumber}",
+    "searchUrl": "https://orders.intereuropa.si/ietracking/",
+    "canaryUrl": "https://orders.intereuropa.si/ietracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.intereuropa.si",
+        "intereuropa.si"
+      ],
+      "pathPattern": "^/si/tracking/?$",
+      "params": [
+        "code"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "intereuropa-1",
+      "pattern": "^NRSI\\d{9}$",
+      "confidence": "high"
+    }
+  ]
+}

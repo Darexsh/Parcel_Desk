@@ -1,0 +1,38 @@
+{
+  "id": "la-poste-ci",
+  "displayName": "La Poste de Côte d'Ivoire",
+  "aliases": [
+    "La Poste CI",
+    "Poste de Côte d'Ivoire",
+    "Poste CI",
+    "Ivory Coast Post",
+    "Côte d'Ivoire Post",
+    "Ivory Coast EMS"
+  ],
+  "region": {
+    "countries": [
+      "CI"
+    ]
+  },
+  "brand": {
+    "color": "#00614a"
+  },
+  "selectable": true,
+  "timezone": "Africa/Abidjan",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://laposte.ci.post/tracking-colis",
+    "canaryUrl": "https://laposte.ci.post/tracking-colis",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

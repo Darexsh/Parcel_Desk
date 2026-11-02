@@ -1,0 +1,142 @@
+{
+  "carrier": "ase-express",
+  "records": [
+    {
+      "number": "A1000703624",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200430081346/http://tracking.ase.com.tr/en/cwb/A1000703624",
+        "date": "2020-04-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it"
+        ]
+      },
+      "note": "An archived lookup on ASE's own tracker shows this shipment from Türkiye to Azerbaijan."
+    },
+    {
+      "number": "13806613601",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200617100602/http://tracking.ase.com.tr/en/cwb/13806613601",
+        "date": "2020-06-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "An archived lookup on ASE's own tracker shows this shipment from Uzbekistan to Russia."
+    },
+    {
+      "number": "13546390454",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200701120041/http://tracking.ase.com.tr/tr/cwb/13546390454",
+        "date": "2020-07-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "old-dominion",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "An archived lookup on ASE's own tracker shows this shipment delivered from Turkmenistan to the United Arab Emirates."
+    },
+    {
+      "number": "SP190010632",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20161205204001/http://tracking.ase.com.tr/tr/cwb2/SP190010632",
+        "date": "2016-12-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it",
+          "prompt-xpress"
+        ]
+      },
+      "note": "An archived lookup on ASE's own tracker shows this shipment returned between Russia and Türkiye."
+    },
+    {
+      "number": "1605311318001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170409233244/http://tracking.ase.com.tr/tr/cwb2/1605311318001",
+        "date": "2017-04-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "An archived lookup on ASE's own tracker shows this shipment from Türkiye to Russia."
+    }
+  ]
+}

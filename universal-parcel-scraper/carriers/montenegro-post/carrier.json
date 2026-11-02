@@ -1,0 +1,46 @@
+{
+  "id": "montenegro-post",
+  "displayName": "Pošta Crne Gore",
+  "aliases": [
+    "Montenegro Post",
+    "Posta Crne Gore",
+    "Post of Montenegro"
+  ],
+  "region": {
+    "countries": [
+      "ME"
+    ]
+  },
+  "brand": {
+    "color": "#fab900"
+  },
+  "selectable": true,
+  "timezone": "Europe/Podgorica",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://webpostar.postacg.me/web_services/track_and_trace?tracking_number={trackingNumber}",
+    "searchUrl": "https://webpostar.postacg.me/web_services/track_and_trace",
+    "canaryUrl": "https://webpostar.postacg.me/web_services/track_and_trace",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "webpostar.postacg.me"
+      ],
+      "pathPattern": "^/web_services/track_and_trace/?$",
+      "params": [
+        "tracking_number"
+      ]
+    }
+  ],
+  "detection": []
+}

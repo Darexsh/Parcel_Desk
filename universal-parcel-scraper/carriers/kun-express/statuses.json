@@ -1,0 +1,18 @@
+{
+  "carrier": "kun-express",
+  "entries": [
+    {"wording": "Shipment information received", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The order data, before Kun Express has the parcel."},
+    {"code": "ARRIVAL", "wording": "Arrived at the receiving point", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "The warehouse's receipt, at the place KUN Warehouse."},
+    {"code": "SHIPMENT", "wording": "KUN Warehouse", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The warehouse's departure row has no text, so its place stands as the wording."},
+    {"wording": "Arrive at the delivery point", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "A Hangzhou row where the shipper hands the parcel over, before the warehouse's receipt; the delivery point is not the recipient's."},
+    {"wording": "Cargo leaving the operation center", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Arrive at the sorting center for operation and transfer", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "arrive at international airport to abroad", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Waiting to be loaded", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Waiting for the flight."},
+    {"wording": "Shipment started the customs clearance process at origin", "language": "en", "stage": "customs", "confirmedBy": "live", "note": "Export clearance in China."},
+    {"wording": "departed from airport of origin", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "U.S. Postal Service, The goods are in transit", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Kun Express's own row at the airports of the flight, naming the delivery carrier; not a USPS scan."},
+    {"wording": "arrived at airport of destination", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "custom clearance completed", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Import clearance in the United States, at the place US. Written to the minute, so it keeps its wall clock."}
+  ]
+}

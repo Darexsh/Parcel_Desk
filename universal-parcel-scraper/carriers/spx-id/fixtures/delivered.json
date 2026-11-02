@@ -1,0 +1,340 @@
+{
+  "retcode": 0,
+  "data": {
+    "fulfillment_info": {
+      "deliver_type": 1
+    },
+    "sls_tracking_info": {
+      "sls_tn": "ID260000000001A",
+      "client_order_id": "1000000000000000001",
+      "receiver_name": "Orang Contoh",
+      "receiver_type_name": "",
+      "records": [
+        {
+          "tracking_code": "F980",
+          "tracking_name": "Delivered",
+          "description": "Pesanan tiba di alamat tujuan. diterima oleh Orang Contoh.",
+          "display_flag": 1,
+          "actual_time": 1779180000,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Hub Contoh",
+            "location_type_name": "",
+            "lng": "106.8",
+            "lat": "-6.2",
+            "full_address": "Jalan Contoh 1"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pesanan tiba di alamat tujuan. diterima oleh Orang Contoh.",
+          "seller_description": "Pesanan tiba di alamat tujuan. diterima oleh Orang Contoh.",
+          "milestone_code": 8,
+          "milestone_name": "Delivered"
+        },
+        {
+          "tracking_code": "F600",
+          "tracking_name": "Out For Delivery",
+          "description": "Pesanan dalam proses pengantaran.",
+          "display_flag": 1,
+          "actual_time": 1779165600,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Hub Contoh",
+            "location_type_name": "",
+            "lng": "106.8",
+            "lat": "-6.2",
+            "full_address": "Jalan Contoh 1"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pesanan dalam proses pengantaran.",
+          "seller_description": "Pesanan dalam proses pengantaran.",
+          "milestone_code": 6,
+          "milestone_name": "Out for delivery"
+        },
+        {
+          "tracking_code": "F598",
+          "tracking_name": "Delivery Driver Assigned",
+          "description": "Kurir sudah ditugaskan. Pesanan akan dikirim.",
+          "display_flag": 0,
+          "actual_time": 1779165240,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Hub Contoh",
+            "location_type_name": "",
+            "lng": "106.8",
+            "lat": "-6.2",
+            "full_address": "Jalan Contoh 1"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 0,
+          "buyer_description": "Kurir sudah ditugaskan. Pesanan akan dikirim.",
+          "seller_description": "Kurir sudah ditugaskan. Pesanan akan dikirim.",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F599",
+          "tracking_name": "Enter Last Mile Hub",
+          "description": "Pesanan diproses di lokasi transit Kota Contoh, Hub Contoh.",
+          "display_flag": 1,
+          "actual_time": 1779144000,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Hub Contoh",
+            "location_type_name": "",
+            "lng": "106.8",
+            "lat": "-6.2",
+            "full_address": "Jalan Contoh 1"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pesanan diproses di lokasi transit Kota Contoh, Hub Contoh.",
+          "seller_description": "Pesanan diproses di lokasi transit Kota Contoh, Hub Contoh.",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F580",
+          "tracking_name": "Domestic Line Haul End",
+          "description": "Pesanan tiba di lokasi transit Kota Contoh, Hub Contoh.",
+          "display_flag": 1,
+          "actual_time": 1779140400,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "DC Sampel",
+            "location_type_name": "",
+            "lng": "106.6",
+            "lat": "-6.1",
+            "full_address": "Jalan Contoh 1"
+          },
+          "next_location": {
+            "location_name": "Hub Contoh",
+            "location_type_name": "",
+            "lng": "106.8",
+            "lat": "-6.2",
+            "full_address": "Jalan Contoh 1"
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pesanan tiba di lokasi transit Kota Contoh, Hub Contoh.",
+          "seller_description": "Pesanan tiba di lokasi transit Kota Contoh, Hub Contoh.",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F550",
+          "tracking_name": "Domestic Line Haul Transportation",
+          "description": "Pesanan dikirim dari lokasi sortir Kota Sampel,  DC Sampel ke Kota Contoh, Hub Contoh via darat dengan estimasi waktu 1 hari.",
+          "display_flag": 1,
+          "actual_time": 1779108000,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "DC Sampel",
+            "location_type_name": "",
+            "lng": "106.6",
+            "lat": "-6.1",
+            "full_address": "Jalan Contoh 1"
+          },
+          "next_location": {
+            "location_name": "Hub Contoh",
+            "location_type_name": "",
+            "lng": "106.8",
+            "lat": "-6.2",
+            "full_address": "Jalan Contoh 1"
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pesanan dikirim dari lokasi sortir Kota Sampel,  DC Sampel ke Kota Contoh, Hub Contoh via darat dengan estimasi waktu 1 hari.",
+          "seller_description": "Pesanan dikirim dari lokasi sortir Kota Sampel,  DC Sampel ke Kota Contoh, Hub Contoh via darat dengan estimasi waktu 1 hari.",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F510",
+          "tracking_name": "Enter Domestic Sorting Center",
+          "description": "Pesanan diproses di lokasi sortir Kota Sampel, DC Sampel.",
+          "display_flag": 1,
+          "actual_time": 1779072000,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "DC Sampel",
+            "location_type_name": "",
+            "lng": "106.6",
+            "lat": "-6.1",
+            "full_address": "Jalan Contoh 1"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pesanan diproses di lokasi sortir Kota Sampel, DC Sampel.",
+          "seller_description": "Pesanan diproses di lokasi sortir Kota Sampel, DC Sampel.",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F510",
+          "tracking_name": "Enter Domestic Sorting Center",
+          "description": "Pesanan diproses di lokasi sortir Kota Sampel, DC Sampel.",
+          "display_flag": 1,
+          "actual_time": 1779072000,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "DC Sampel",
+            "location_type_name": "",
+            "lng": "106.6",
+            "lat": "-6.1",
+            "full_address": "Jalan Contoh 1"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pesanan diproses di lokasi sortir Kota Sampel, DC Sampel.",
+          "seller_description": "Pesanan diproses di lokasi sortir Kota Sampel, DC Sampel.",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F100",
+          "tracking_name": "Pickup From Domestic Seller",
+          "description": "Pesanan telah diserahkan ke jasa kirim untuk diproses.",
+          "display_flag": 1,
+          "actual_time": 1779036000,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Kota Penjual",
+            "location_type_name": "",
+            "lng": "106.9",
+            "lat": "-6.3",
+            "full_address": "Jalan Penjual 2"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pesanan telah diserahkan ke jasa kirim untuk diproses.",
+          "seller_description": "Pesanan telah diserahkan ke jasa kirim untuk diproses.",
+          "milestone_code": 2,
+          "milestone_name": "Picked up"
+        },
+        {
+          "tracking_code": "A000",
+          "tracking_name": "SLSTN Created",
+          "description": "SLSTN has been created, sending request to logistics partners",
+          "display_flag": 0,
+          "actual_time": 1779000000,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 0,
+          "buyer_description": "SLSTN has been created, sending request to logistics partners",
+          "seller_description": "SLSTN has been created, sending request to logistics partners",
+          "milestone_code": 1,
+          "milestone_name": "Order created"
+        },
+        {
+          "tracking_code": "F000",
+          "tracking_name": "Manifested",
+          "description": "Pengirim telah mengatur pengiriman. Menunggu pesanan diserahkan ke pihak jasa kirim.",
+          "display_flag": 1,
+          "actual_time": 1779000000,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pengirim telah mengatur pengiriman. Menunggu pesanan diserahkan ke pihak jasa kirim.",
+          "seller_description": "Pengirim telah mengatur pengiriman. Menunggu pesanan diserahkan ke pihak jasa kirim.",
+          "milestone_code": 1,
+          "milestone_name": "Order created"
+        }
+      ]
+    },
+    "is_instant_order": false,
+    "is_shopee_market_order": true
+  },
+  "message": "success",
+  "detail": "",
+  "debug": ""
+}

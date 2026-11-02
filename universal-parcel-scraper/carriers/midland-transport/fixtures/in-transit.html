@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="/bundles/jquery?v=0000000000000000000000000000000000000000001"></script>
+</head>
+<body style="height:100%">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container" style="width:96%">
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <form action="/Tracking/TrackClientTrackings" class="navbar-form text-center">
+                    <div class="input-group">
+                        <input class="form-control text-box single-line" id="TrackingNumber" name="TrackingNumber" placeholder="Track Another Shipment" type="text" value="0000000000000000" />
+                    </div>
+                    <div class="navbar-right">
+                        <div class="input-group">
+                            <span class="input-group-addon">Preferred Language</span>
+                            <select class="form-control" id="Lang" name="Lang" onchange="$(&#39;form&#39;).submit()"><option selected="selected" value="0">English</option>
+<option value="1">French</option>
+</select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content" style="width:97%; padding:70px; height:100%">
+        <div id="divTrackDetails">
+<div class="row">
+<script>
+    var isWhiteLabel = true;
+    function BuildSendleToken(TrackingNumber) { }
+</script>
+<div id="TrackingPageContainer" style="display: none;">
+    <div class="row">
+        <div class="col-xs-12 status-container">
+                <div class="status-pointer" style="z-index:3;">
+                    <div class="status-text">Shipment Created</div>
+                    <div class="status-date">
+                        <div class="status-day">Monday,&nbsp;</div>
+                        Mar 09 2026
+                    </div>
+                </div>
+                <div class="status-pointer" style="z-index:2;">
+                    <div class="status-text">Picked Up</div>
+                    <div class="status-date">
+                        <div class="status-day">Monday,&nbsp;</div>
+                        Mar 09 2026 18:02
+                    </div>
+                </div>
+                <div class="status-pointer" style="z-index:1;">
+                    <div class="status-text">In Transit</div>
+                    <div class="status-date">
+                        <div class="status-day">Tuesday,&nbsp;</div>
+                        Mar 10 2026 02:31
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">0000000000000000</div>
+            </div>
+            <div id="pageBody" class="panel-body">
+                <div class="row" id="SenderAndCarrierInfo" style="display: none;">
+                    <div id="senderInfoBody" class="col-xs-12 col-sm-12" style="display: none;">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <div class="col-xs-12">
+                                    <h4 class="help-block">
+                                        Below is the info of the company who sent you something. If you have any questions about your something, please contact them at the info below:                                            </h4>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg">
+                                    <h4>
+                                        <span class="glyphicon glyphicon-home"></span>
+                                        EXAMPLE OUTFITTERS LTD
+                                    </h4>
+                                    <h4>
+                                        <span class="glyphicon glyphicon-earphone"></span>
+                                        0000000000
+                                    </h4>
+                                    <h4>
+                                        <span class="glyphicon glyphicon-envelope"></span>
+                                        orders@example.com
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carrierInfoBody" class="col-xs-12 col-sm-12" style="display: none;">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <div class="hidden-xs hidden-sm hidden-md col-lg-4">
+                                    <img src="https://carrier-connect.2ship.com/CarrierLogo/Carrier_00000.png" alt="Midland Courier" title="Midland Courier" />
+                                    <p class="text-muted">Midland Courier</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-12 col-md-push-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body text-center">
+                                <div class="form-group">
+                                    <div class="alert alert-info" data-status-type="2" style="text-align:center">
+                                        <strong class="text-uppercase">In Transit</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 col-md-pull-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <p class="text-muted">
+                                            Ship Date:
+                                            <strong style="float:right">
+                                                Mar 09 2026
+                                            </strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <p class="text-muted">
+                                            Shipment Created Date:
+                                            <strong style="float:right">
+                                                Mar 09 2026 15:40                                                    </strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <hr />
+                                    <div class="scan-content"><p class="text-uppercase text-muted scan-description" data-location="CANADA, ONTARIO, SAMPLETON">CANADA, ONTARIO, SAMPLETON</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <p class="text-muted">
+                                            Expected Delivery:
+                                            <strong style="float:right">
+                                                Mar 12 2026                                                        </strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <p class="text-muted">
+                                            Updated Expected Delivery:
+                                            <strong style="float:right">
+                                                - 
+                                            </strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <hr />
+                                    <div class="scan-content"><p class="text-uppercase text-muted scan-description" data-location="CANADA, NOVA SCOTIA, EXAMPLE COVE">CANADA, NOVA SCOTIA, EXAMPLE COVE</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTravelHistory">
+                                <div class="panel-title">
+                                    <a class="" role="button" data-toggle="collapse" href="#collapseTravelHistory" aria-expanded="true" aria-controls="collapseTravelHistory">
+                                        Travel History
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapseTravelHistory" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTravelHistory" aria-expanded="true">
+                                <div class="panel-body activity-scroll" style="overflow-y: auto; max-height:400px;">
+                                    <div class="panel panel-default" style="min-width: 350px; margin-bottom: 0;">
+                                        <div class="panel-body">
+                                            <table class="table table-bordered" style="margin-bottom: 0;">
+                                                <thead>
+                                                    <tr>
+                                                        <th>
+                                                            Scan Date:
+                                                        </th>
+                                                        <th>
+                                                            Activity:
+                                                        </th>
+                                                        <th>
+                                                            Description:
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                        <tr class="scan-content">
+                                                            <td>09 Mar 2026 18:02</td>
+                                                            <td>Picked Up</td>
+                                                            <td class="scan-description text-center" data-location="CANADA, ONTARIO, SAMPLETON">Picked up(SAMPLETON,ON)</td>
+                                                        </tr>
+                                                        <tr class="scan-content">
+                                                            <td>10 Mar 2026 02:31</td>
+                                                            <td>In Transit</td>
+                                                            <td class="scan-description text-center" data-location="CANADA, NEW BRUNSWICK, TESTVILLE">Processed at Sort Facility(TESTVILLE,NB)</td>
+                                                        </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="panel panel-default">
+                            <div id="collapseMap" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingMap">
+                                <div class="panel-body">
+                                    <div id="Map" class="map-container"></div>
+                                    <script>function DrawLines() { DrawLine([{"Location":"CANADA, ONTARIO, SAMPLETON","Country":"CA","Latitude":null,"Longitude":null},{"Location":"CANADA, NEW BRUNSWICK, TESTVILLE","Country":"CA","Latitude":null,"Longitude":null},{"Location":"CANADA, NOVA SCOTIA, EXAMPLE COVE","Country":"CA","Latitude":null,"Longitude":null}], false); }</script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="panel panel-default" style="margin-bottom: 0;">
+                            <div class="panel-heading" role="tab" id="headingShipmentDetails">
+                                <div class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapseShipmentDetails" aria-expanded="false" aria-controls="collapseShipmentDetails">
+                                        Shipment Details
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapseShipmentDetails" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingShipmentDetails">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="form-group">
+                                                <label>Package Tracking#:</label>
+                                                0000000000000000
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Shipment Reference:</label>
+                                                EXAMPLE-REF-0000
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Shipment Number of Packages:</label>
+                                                1
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="form-group">
+                                                <label>Carrier:</label>
+                                                Midland Courier
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="form-group">
+                                                <label>Service:</label>
+                                                Ground
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                    <tr><td colspan="2"><label>Related Tracking #s</label></td></tr>
+                                                    <tr>
+                                                        <th> Tracking Number</th>
+                                                        <th> Tracking Status</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                        <tr>
+                                                            <td>0000000000000000</td>
+                                                            <td>In Transit</td>
+                                                        </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+        </div>
+        <div id="divLoading" style="display: none;">
+            <hr />
+        </div>
+    </div>
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=00000000000000000000000000000000&ns=1&cb=000000000" async></script></body>
+</html>

@@ -1,0 +1,152 @@
+{
+  "items": {
+    "data": {
+      "itemsV2": {
+        "total": 1,
+        "data": [
+          {
+            "trackingId": "0000000000003",
+            "itemStatus": "COMPLETED",
+            "isBackward": 1,
+            "weight": 2,
+            "createdDate": "2026-05-01T03:00:00.000Z",
+            "originReceiveDate": "2026-05-01T03:00:00.000Z",
+            "originSendDate": "2026-05-01T07:00:00.000Z",
+            "destReceiveDate": "2026-05-02T02:30:00.000Z",
+            "destSendDate": "2026-05-12T04:00:00.000Z",
+            "sendCompleteDate": "2026-05-14T05:00:00.000Z",
+            "receiveBackwardDate": "2026-05-13T03:10:00.000Z",
+            "originBranchId": {
+              "branch_name": "ສາຂາ ທົດລອງໜຶ່ງ"
+            },
+            "destBranchId": {
+              "branch_name": "ສາຂາ ທົດລອງສອງ (ບ້ານທົດສອບ)"
+            },
+            "originProvinceId": {
+              "provinceName": "ນະຄອນຫຼວງທົດລອງ"
+            },
+            "destProvinceId": {
+              "provinceName": "ແຂວງ ທົດລອງ"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "scans": {
+    "data": {
+      "scanItems": {
+        "data": [
+          {
+            "trackingId": "0000000000003",
+            "branch": {
+              "branch_name": "ສາຂາ ທົດລອງໜຶ່ງ"
+            },
+            "center": {
+              "centerName": null
+            },
+            "createdAt": "2026-05-14T05:00:00.000Z",
+            "transportStatus": "BACKWARD",
+            "scanStatus": "COMPLETED"
+          },
+          {
+            "trackingId": "0000000000003",
+            "branch": {
+              "branch_name": "ສາຂາ ທົດລອງໜຶ່ງ"
+            },
+            "center": {
+              "centerName": null
+            },
+            "createdAt": "2026-05-13T03:10:00.000Z",
+            "transportStatus": "BACKWARD",
+            "scanStatus": "SCAN_IN"
+          },
+          {
+            "trackingId": "0000000000003",
+            "branch": {
+              "branch_name": null
+            },
+            "center": {
+              "centerName": "ສູນຄັດແຍກທົດລອງ"
+            },
+            "createdAt": "2026-05-12T20:00:00.000Z",
+            "transportStatus": "BACKWARD",
+            "scanStatus": "SCAN_OUT"
+          },
+          {
+            "trackingId": "0000000000003",
+            "branch": {
+              "branch_name": null
+            },
+            "center": {
+              "centerName": "ສູນຄັດແຍກທົດລອງ"
+            },
+            "createdAt": "2026-05-12T10:00:00.000Z",
+            "transportStatus": "BACKWARD",
+            "scanStatus": "SCAN_IN"
+          },
+          {
+            "trackingId": "0000000000003",
+            "branch": {
+              "branch_name": "ສາຂາ ທົດລອງສອງ (ບ້ານທົດສອບ)"
+            },
+            "center": {
+              "centerName": null
+            },
+            "createdAt": "2026-05-12T04:00:00.000Z",
+            "transportStatus": "BACKWARD",
+            "scanStatus": "SCAN_OUT"
+          },
+          {
+            "trackingId": "0000000000003",
+            "branch": {
+              "branch_name": "ສາຂາ ທົດລອງສອງ (ບ້ານທົດສອບ)"
+            },
+            "center": {
+              "centerName": null
+            },
+            "createdAt": "2026-05-02T02:30:00.000Z",
+            "transportStatus": "FORWARD",
+            "scanStatus": "SCAN_IN"
+          },
+          {
+            "trackingId": "0000000000003",
+            "branch": {
+              "branch_name": null
+            },
+            "center": {
+              "centerName": "ສູນຄັດແຍກທົດລອງ"
+            },
+            "createdAt": "2026-05-01T20:00:00.000Z",
+            "transportStatus": "FORWARD",
+            "scanStatus": "SCAN_OUT"
+          },
+          {
+            "trackingId": "0000000000003",
+            "branch": {
+              "branch_name": null
+            },
+            "center": {
+              "centerName": "ສູນຄັດແຍກທົດລອງ"
+            },
+            "createdAt": "2026-05-01T10:00:00.000Z",
+            "transportStatus": "FORWARD",
+            "scanStatus": "SCAN_IN"
+          },
+          {
+            "trackingId": "0000000000003",
+            "branch": {
+              "branch_name": "ສາຂາ ທົດລອງໜຶ່ງ"
+            },
+            "center": {
+              "centerName": null
+            },
+            "createdAt": "2026-05-01T07:00:00.000Z",
+            "transportStatus": "FORWARD",
+            "scanStatus": "SCAN_OUT"
+          }
+        ]
+      }
+    }
+  }
+}

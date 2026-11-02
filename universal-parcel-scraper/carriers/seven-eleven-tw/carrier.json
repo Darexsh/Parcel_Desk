@@ -1,0 +1,50 @@
+{
+  "id": "seven-eleven-tw",
+  "displayName": "7-ELEVEN Taiwan",
+  "aliases": [
+    "統一超商",
+    "交貨便",
+    "賣貨便",
+    "7-ELEVEN 交貨便",
+    "7-11 交貨便"
+  ],
+  "region": {
+    "countries": [
+      "TW"
+    ]
+  },
+  "brand": {
+    "color": "#00734d"
+  },
+  "selectable": true,
+  "timezone": "Asia/Taipei",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://eservice.7-11.com.tw/e-tracking/search.aspx",
+    "canaryUrl": "https://eservice.7-11.com.tw/e-tracking/search.aspx",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "eservice.7-11.com.tw"
+      ],
+      "pathPattern": "^/E-Tracking/search\\.aspx$",
+      "params": [
+        "CRM_PaymentNo",
+        "txtProductNum",
+        "ProductNum",
+        "TrackingNo"
+      ]
+    }
+  ],
+  "detection": []
+}

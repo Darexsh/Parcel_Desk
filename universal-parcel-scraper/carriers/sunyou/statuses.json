@@ -1,0 +1,178 @@
+{
+  "carrier": "sunyou",
+  "entries": [
+    {
+      "code": "0",
+      "confirmedBy": "fixture",
+      "firstSeen": "2026-09-12",
+      "note": "Explicit \"no such shipment\"; reported as a clean 404 and never classified."
+    },
+    {
+      "code": "1",
+      "stage": "in_transit",
+      "confirmedBy": "fixture",
+      "firstSeen": "2026-09-12",
+      "note": "Shipment-level display status; only the newest scan inherits it."
+    },
+    {
+      "code": "2",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "fixture",
+      "firstSeen": "2026-09-12",
+      "note": "Waiting at a pickup point."
+    },
+    {
+      "code": "3",
+      "stage": "failed_attempt",
+      "confirmedBy": "fixture",
+      "firstSeen": "2026-09-12",
+      "note": "Shipment-level display status; only the newest scan inherits it."
+    },
+    {
+      "code": "4",
+      "stage": "delivered",
+      "confirmedBy": "fixture",
+      "firstSeen": "2026-09-12",
+      "note": "Shipment-level display status; only the newest scan inherits it."
+    },
+    {
+      "code": "5",
+      "stage": "failed_attempt",
+      "confirmedBy": "fixture",
+      "firstSeen": "2026-09-12",
+      "note": "Shipment-level display status; only the newest scan inherits it."
+    },
+    {
+      "code": "6",
+      "stage": "failed_attempt",
+      "confirmedBy": "fixture",
+      "firstSeen": "2026-09-12",
+      "note": "Shipment-level display status; only the newest scan inherits it."
+    },
+    {
+      "code": "PreAlert",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10",
+      "note": "Pre-shipment information received."
+    },
+    {
+      "code": "InboundScan",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10",
+      "note": "Accepted at the SunYou facility."
+    },
+    {
+      "code": "Dispatch",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "ClearanceSuccessed_Export",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10",
+      "note": "Export clearance done at origin."
+    },
+    {
+      "code": "PortArrival",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "PortDeparture",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "TransitCountryArrival",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "TransitCountryDeparted",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "DestinationAirPortArrival",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "ClearanceProcess",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "ClearanceInspect",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "ClearanceSuccessed",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10",
+      "note": "Import clearance done."
+    },
+    {
+      "code": "HandoverLastMile",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10",
+      "note": "Handed to the last-mile carrier."
+    },
+    {
+      "code": "LastmileCenterArrival",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "DeliveryStationArrival",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "DeliveryStationDepart",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "OutForDelivery",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "Delivered",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "Delivered_Mailbox",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    },
+    {
+      "code": "Delivered_Doorstep",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "libya-post",
+  "displayName": "Libya Post",
+  "aliases": [
+    "Libya Post Company",
+    "شركة بريد ليبيا",
+    "بريد ليبيا"
+  ],
+  "region": {
+    "countries": [
+      "LY"
+    ]
+  },
+  "brand": {
+    "color": "#286db4"
+  },
+  "selectable": true,
+  "timezone": "Africa/Tripoli",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.libyapost.ly:7040/ipswt/IPSWeb_item_events.aspx?itemid={trackingNumber}",
+    "searchUrl": "https://tracking.libyapost.ly:7040/ipswt/",
+    "canaryUrl": "https://libyapost.ly/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.libyapost.ly"
+      ],
+      "pathPattern": "^/ipswt/IPSWeb_item_events\\.aspx$",
+      "params": [
+        "itemid"
+      ]
+    }
+  ],
+  "detection": []
+}

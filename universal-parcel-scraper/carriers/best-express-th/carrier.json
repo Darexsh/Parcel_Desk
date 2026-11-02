@@ -1,0 +1,57 @@
+{
+  "id": "best-express-th",
+  "displayName": "BEST Express Thailand",
+  "aliases": [
+    "BEST Express (Thailand)",
+    "BEST Express TH",
+    "BEST Inc. Thailand",
+    "BEST Logistics Technology (Thailand)",
+    "เบสท์ เอ็กซ์เพรส",
+    "เบสท์ โลจิสติกส์ เทคโนโลยี (ประเทศไทย)"
+  ],
+  "region": {
+    "countries": [
+      "TH"
+    ]
+  },
+  "brand": {
+    "color": "#d80c18"
+  },
+  "selectable": true,
+  "timezone": "Asia/Bangkok",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.best-inc.co.th/track?bills={trackingNumber}",
+    "searchUrl": "https://www.best-inc.co.th/track",
+    "canaryUrl": "https://www.best-inc.co.th/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "best-inc.co.th",
+        "www.best-inc.co.th"
+      ],
+      "pathPattern": "^/(?:wapp/)?track/?$",
+      "params": [
+        "bills",
+        "waybill"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "best-express-th-1",
+      "pattern": "^6685\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

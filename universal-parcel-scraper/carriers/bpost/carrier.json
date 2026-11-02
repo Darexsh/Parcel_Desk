@@ -1,0 +1,119 @@
+{
+  "id": "bpost",
+  "displayName": "bpost",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "BE"
+    ]
+  },
+  "brand": {
+    "color": "#ef2637"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "bpost",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 810,
+      "pattern": "^(?:3232\\d{14}|(?:3232|3299)\\d{20}|[A-Z]{2}\\d{9}BE|JJBE[A-Z]\\d{18}(?:\\d{4})?)$"
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "weight",
+    "dimensions",
+    "pickup_point",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://track.bpost.cloud/",
+    "searchUrl": "https://track.bpost.cloud/",
+    "helpUrl": "https://www.bpost.be/nl/faq/mijn-pakje-lijkt-ergens-vast-te-zitten-het-beweegt-al-een-tijdje-niet-meer-op-track-trace",
+    "canaryUrl": "https://track.bpost.cloud/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "dimensions",
+      "pickup_point",
+      "delivered_at"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "dimensions",
+      "pickup_point",
+      "delivered_at"
+    ],
+    "discarded": [
+      "recipient",
+      "sender",
+      "recipient_address",
+      "contact_details",
+      "delivery_preferences",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "bpost.be"
+      ],
+      "params": [
+        "itemCodes"
+      ]
+    },
+    {
+      "domains": [
+        "track.bpost.cloud"
+      ],
+      "pathPattern": "^/etr/light/performSearch\\.do$",
+      "params": [
+        "itemCodes"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "bpost-numeric-prefix",
+      "pattern": "^(?:3232\\d{14}|(?:3232|3299)\\d{20})$",
+      "confidence": "low",
+      "preferred": true
+    },
+    {
+      "id": "bpost-1",
+      "pattern": "^\\d{18}$",
+      "confidence": "low"
+    },
+    {
+      "id": "bpost-2",
+      "pattern": "^\\d{24}$",
+      "confidence": "low"
+    },
+    {
+      "id": "bpost-3",
+      "pattern": "^(?!U)[A-Z]{2}\\d{9}BE$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "bpost-jjbe",
+      "pattern": "^JJBE[A-Z]\\d{18}(?:\\d{4})?$",
+      "confidence": "high"
+    }
+  ]
+}

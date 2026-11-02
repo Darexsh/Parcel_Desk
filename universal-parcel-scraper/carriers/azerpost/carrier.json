@@ -1,0 +1,55 @@
+{
+  "id": "azerpost",
+  "displayName": "Azerpost",
+  "aliases": [
+    "Azerpoçt",
+    "Azərpoçt",
+    "Азерпочта",
+    "Azerbaijan Post"
+  ],
+  "region": {
+    "countries": [
+      "AZ"
+    ]
+  },
+  "brand": {
+    "color": "#034c7d"
+  },
+  "selectable": true,
+  "timezone": "Asia/Baku",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.azerpost.az/az/xidmetler/gonderislerin-izlenmesi?package_id={trackingNumber}",
+    "searchUrl": "https://www.azerpost.az/az/xidmetler/gonderislerin-izlenmesi",
+    "canaryUrl": "https://www.azerpost.az/az/xidmetler/gonderislerin-izlenmesi",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "azerpost.az",
+        "www.azerpost.az"
+      ],
+      "pathPattern": "^/(?:az/xidmetler/gonderislerin-izlenmesi|en/services/tracking-of-shipments|ru/uslugi/otslezivanie-otpravlenii)/?$",
+      "params": [
+        "package_id"
+      ]
+    },
+    {
+      "domains": [
+        "azerpost.az",
+        "www.azerpost.az"
+      ],
+      "path": "^/(?:az|en)/tracking/([A-Za-z]{2}\\d{9}[A-Za-z]{2})/?$"
+    }
+  ],
+  "detection": []
+}

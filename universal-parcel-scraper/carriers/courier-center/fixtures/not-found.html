@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="utf-8" />
+<title>Εντοπισμός Πακέτου</title>
+<script src="/cdn-cgi/challenge-platform/scripts/jsd/main.js"></script>
+</head>
+<body>
+<section class="main">
+<div class="track">
+    <div class="track-header">
+        <div class="container">
+        	<div class="title">
+            	<h2>Εντοπισμός Πακέτου</h2>
+        		<div class="order">
+                	<span>Ο Αριθμός Αποδεικτικού σας </span>
+                	<strong>#  </strong>
+                </div>
+            </div>
+            <div class="collateral">
+            	<div class="new-search">
+    <form action="https://www.courier.gr/track/result/" id="trackForm" method="post">
+        <div class="search-box">
+            <input name="tracknr" id="tracknr" class="tracknr input-text" type="text" placeholder=" Ψάξτε νέο αριθμό φορτωτικής"/>
+            <button class="search-button" type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
+        </div>
+    </form>
+</div>
+            </div>
+        </div>
+	</div>
+	<div class="track-result container">
+		<h4 class="error">Υπήρξε πρόβλημα με την αναζήτηση</h4>
+		<p style="text-align:center;">
+				                          Δεν βρέθηκε φορτωτική με τον αριθμό 013000000055       			</p>
+    </div>
+</div>
+</section>
+<footer id="footer" class="footer" role="footer">
+<script type="text/javascript">
+  document.querySelectorAll("div.id strong").forEach(function (label) { label.title = "Αριθμός Φορτωτικής"; });
+</script>
+</footer>
+</body>
+</html>

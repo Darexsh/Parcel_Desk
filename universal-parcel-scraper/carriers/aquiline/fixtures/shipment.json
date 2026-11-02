@@ -1,0 +1,65 @@
+{
+  "result": {
+    "success": true,
+    "data": {
+      "trackingNumber": "AQUAA9900000001YQ",
+      "currentStatus": "Error",
+      "statusCode": "unknown",
+      "origin": "US",
+      "destination": "US",
+      "estimatedDelivery": null,
+      "lastUpdate": "2026-03-12T05:10:24.186Z",
+      "events": [
+        {
+          "date": "2026-03-09 15:43:00",
+          "status": "Package is out for delivery.",
+          "location": "Example Town, US",
+          "description": "Package is out for delivery."
+        },
+        {
+          "date": "2026-03-09 06:38:00",
+          "status": "Package arrived at a carrier facility.",
+          "location": "Example Town, US",
+          "description": "Package arrived at a carrier facility."
+        },
+        {
+          "date": "2026-03-08 20:12:00",
+          "status": "A carrier delay has occurred.",
+          "location": "Example Town, US",
+          "description": "A carrier delay has occurred."
+        },
+        {
+          "date": "2026-03-08 03:51:00",
+          "status": "Package being processed at carrier facility.",
+          "location": "",
+          "description": "Package being processed at carrier facility."
+        },
+        {
+          "date": "2026-03-07 00:26:00",
+          "status": "Package left at a carrier facility.",
+          "location": "Example City, ST US",
+          "description": "Package left at a carrier facility."
+        },
+        {
+          "date": "2026-03-06 21:00:00",
+          "status": "Package arrived at a carrier facility.",
+          "location": "Example City, ST US",
+          "description": "Package arrived at a carrier facility."
+        },
+        {
+          "date": "2026-03-06 00:00:00",
+          "status": "Package left the shipper facility",
+          "location": "1 Synthetic Way, 00000, US",
+          "description": "Package left the shipper facility"
+        },
+        {
+          "date": "2026-03-05 22:49:45",
+          "status": "Shipping label created. Carrier awaiting item",
+          "location": "",
+          "description": "Shipping label created. Carrier awaiting item"
+        }
+      ]
+    },
+    "cached": false
+  }
+}

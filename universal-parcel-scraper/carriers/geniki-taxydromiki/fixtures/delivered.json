@@ -1,0 +1,89 @@
+{
+  "success": true,
+  "8000000017": {
+    "TrackAndTraceResult": {
+      "Result": 0,
+      "Checkpoints": {
+        "Checkpoint": [
+          {
+            "Status": "Shipment label created/printed",
+            "StatusCode": "C_NW",
+            "StatusDate": "2026-01-05T10:15:42.37",
+            "Shop": "SHIPPER",
+            "Latitude": "0",
+            "Longitude": "0"
+          },
+          {
+            "Status": "Departure from Service Point",
+            "StatusCode": "C_K8",
+            "StatusDate": "2026-01-05T17:20:11",
+            "Shop": "ΔΕΙΓΜΑ 1 ΟΔΟΣ 10",
+            "Latitude": "37.00001",
+            "Longitude": "22.00001"
+          },
+          {
+            "Status": "Arrival at hub",
+            "StatusCode": "C_H1",
+            "StatusDate": "2026-01-06T01:02:03",
+            "Shop": "ΚΕΝΤΡΟ ΔΕΙΓΜΑ",
+            "Latitude": "37.50001",
+            "Longitude": "22.50001"
+          },
+          {
+            "Status": "Departure from hub",
+            "StatusCode": "C_H2",
+            "StatusDate": "2026-01-06T02:30:00",
+            "Shop": "ΚΕΝΤΡΟ ΔΕΙΓΜΑ",
+            "Latitude": "37.50001",
+            "Longitude": "22.50001"
+          },
+          {
+            "Status": "Arrival at Service Point",
+            "StatusCode": "C_A1",
+            "StatusDate": "2026-01-06T08:10:00",
+            "Shop": "ΠΑΡΑΔΕΙΓΜΑ",
+            "Latitude": "0",
+            "Longitude": "0"
+          },
+          {
+            "Status": "Routing to other service point",
+            "StatusCode": "C_L1",
+            "StatusDate": "2026-01-06T09:00:00",
+            "Shop": "ΠΑΡΑΔΕΙΓΜΑ",
+            "Latitude": "0",
+            "Longitude": "0"
+          },
+          {
+            "Status": "Arrival at Service Point",
+            "StatusCode": "C_A1",
+            "StatusDate": "2026-01-06T14:45:10",
+            "Shop": "ΔΕΙΓΜΑΤΟΥΠΟΛΗ",
+            "Latitude": "38.00001",
+            "Longitude": "23.00001"
+          },
+          {
+            "Status": "Out for Delivery",
+            "StatusCode": "C_A3",
+            "StatusDate": "2026-01-07T07:40:00",
+            "Shop": "ΔΕΙΓΜΑΤΟΥΠΟΛΗ",
+            "Latitude": "0",
+            "Longitude": "0"
+          },
+          {
+            "Status": "Shipment Delivered",
+            "StatusCode": "C_W2",
+            "StatusDate": "2026-01-07T11:05:51",
+            "Shop": "ΔΕΙΓΜΑΤΟΥΠΟΛΗ",
+            "Latitude": "38.12345",
+            "Longitude": "23.12345"
+          }
+        ]
+      },
+      "Status": "DELIVERED",
+      "DeliveryDate": "2026-01-07T11:05:00",
+      "Consignee": "PRIVATE PERSON",
+      "ReturningServiceVoucher": "8000000099",
+      "DeliveredAt": "RECIPIENT"
+    }
+  }
+}

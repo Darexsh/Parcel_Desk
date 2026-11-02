@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hispapost</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="SyntheticMetaToken0000000000000000000000000000000000000000000000000000000000000000000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand bg-light fixed-top main d-print-none">
+      <a class="navbar-brand" href="/"><img src="/assets/hispapost_logo_public.png" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#userInfoNavbar" aria-controls="userInfoNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="userInfoNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" tabindex="-1" aria-disabled="true" href="/tracking">Castellano</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" tabindex="-1" aria-disabled="true" href="/tracking">Euskera</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" tabindex="-1" aria-disabled="true" href="/tracking">Català</a>
+          </li>
+        </ul>
+      </div>
+      <a class="navbar-brand ml-5" href="/"></a>
+      
+    </nav>
+
+
+    <!-- Page content -->
+      <div class="container">
+          <div class="alert alert-dismissable alert-danger">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            No hemos encontrado ningún envío con código de barras CNES90000000017
+          </div>
+        <main role="main">
+          <div class="jumbotron">
+<div class="page-title">
+  <h1>Localizador de envíos</h1>
+</div>
+
+<div class="row">
+  <div class="offset-md-1 col-sm-6">
+    <div class="tracking-form">
+      <form data-turbo="false" action="/tracking" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="SyntheticFormToken-0000000000000000000000000000000000000000000000000000000000000000000000" />
+        <div class="form-group">
+          <label for="barcode">Introduce el código de barras para conocer el estado del envío:</label>
+          <input class="form-control form-control-lg" autofocus="autofocus" required="required" type="text" name="barcode" id="barcode" />
+        </div>
+
+        <div class="form-group">
+          <input type="submit" name="commit" value="Consultar" class="btn btn-primary" data-disable-with="Consultar" />
+        </div>
+</form>    </div>
+  </div>
+</div>
+</div>
+
+          
+        </main>
+
+      </div>
+
+  </body>
+</html>

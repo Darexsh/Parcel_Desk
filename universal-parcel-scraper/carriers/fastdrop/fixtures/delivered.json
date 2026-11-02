@@ -1,0 +1,21 @@
+{
+  "package": {
+    "shortcode": "SMPL7QX",
+    "tracking_code": "0000000017",
+    "status": "delivered",
+    "pickup_location": { "lat": 35.9, "lng": 14.5 },
+    "destination_location": { "lat": 35.88, "lng": 14.4 },
+    "journey": [
+      { "resolved_at": "2026-03-12T13:20:05.000Z", "type": "dropoff", "failure_reason": null, "location_type": "destination", "outcome": "success" },
+      { "resolved_at": "2026-03-12T07:41:10.000Z", "type": "pickup", "failure_reason": null, "location_type": "hub", "outcome": "success" },
+      { "resolved_at": "2026-03-11T15:02:33.000Z", "type": "dropoff", "failure_reason": null, "location_type": "hub", "outcome": "success" },
+      { "resolved_at": "2026-03-11T12:48:00.000Z", "type": "dropoff", "failure_reason": { "title": "Customer not at home" }, "location_type": "destination", "outcome": "failure" },
+      { "resolved_at": "2026-03-11T07:35:51.000Z", "type": "pickup", "failure_reason": null, "location_type": "hub", "outcome": "success" },
+      { "resolved_at": "2026-03-10T16:12:09.000Z", "type": "dropoff", "failure_reason": null, "location_type": "hub", "outcome": "success" },
+      { "resolved_at": "2026-03-10T10:05:27.000Z", "type": "pickup", "failure_reason": null, "location_type": "pickup", "outcome": "success" }
+    ],
+    "eta": null,
+    "driver": null,
+    "stops_before_start_count": null
+  }
+}

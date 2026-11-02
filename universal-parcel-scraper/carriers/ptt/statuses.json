@@ -1,0 +1,22 @@
+{
+  "carrier": "ptt",
+  "entries": [
+    {"wording": "KABUL EDİLDİ", "stage": "accepted", "language": "tr", "confirmedBy": "live", "note": "Accepted at the office the scan names."},
+    {"wording": "Yurtdışı Kabul Edildi", "stage": "accepted", "language": "tr", "confirmedBy": "portal", "note": "Accepted from abroad; one of the statuses the tracking window on www.ptt.gov.tr styles."},
+    {"wording": "TRANSFER SÜRECİNDE", "stage": "in_transit", "language": "tr", "confirmedBy": "live", "note": "Sent on between offices. Abroad, the relayed foreign event comes before it, and a dispatch abroad follows it as \"Yurtdışına Sevk Edildi\"."},
+    {"wording": "İL İÇİ AKTARMADA", "stage": "in_transit", "language": "tr", "confirmedBy": "live", "note": "Sent on within a province. \"PTT İşyerine Girdi\" (entered the office) or \"PTT İşyerinden Çıktı\" (left the office) can come before it."},
+    {"wording": "Araca Yüklendi", "stage": "in_transit", "language": "tr", "confirmedBy": "portal", "note": "Loaded onto a vehicle; one of the statuses the tracking window on www.ptt.gov.tr styles."},
+    {"wording": "DAĞITIMDA", "stage": "out_for_delivery", "language": "tr", "confirmedBy": "live"},
+    {"wording": "TESLİM EDİLEMEDİ", "stage": "failed_attempt", "language": "tr", "confirmedBy": "live", "note": "Followed by the reason, such as \"Adreste Tanınmıyor\" or \"Adreste Yok/Kapalı-Haber Kağıdı Bırakıldı\". Abroad, \"Teslim girisiminde bulunuldu veya Teslim edilemedi (Gelen)\" comes before it."},
+    {"wording": "PTT İŞYERİNDE", "stage": "ready_for_pickup", "language": "tr", "confirmedBy": "live", "note": "At the PTT office the scan names, after a failed delivery. The office becomes the pickup point."},
+    {"wording": "KARGOMATA BIRAKILDI", "stage": "ready_for_pickup", "language": "tr", "confirmedBy": "portal", "note": "Left in a Kargomat locker; one of the statuses the tracking window on www.ptt.gov.tr styles."},
+    {"wording": "PTT İŞYERİNDE (MEVKUF) Elde Kalmış Gönderi", "stage": "exception", "language": "tr", "confirmedBy": "live", "note": "The office holds an item nobody collected. Seen on an item returned to the office that accepted it."},
+    {"wording": "İADE", "stage": "returned", "language": "tr", "confirmedBy": "live", "note": "On its way back to the sender, followed by the reason, such as \"Tanınmıyor\"."},
+    {"wording": "TESLİM EDİLDİ", "stage": "delivered", "language": "tr", "confirmedBy": "live", "note": "A slash and the masked name of whoever signed for the item can follow; the adapter drops them. Abroad, \"Gonderi teslim edildi (Gelen)\" comes before it."},
+    {"wording": "Gonderi teslim merkezinde alindi (Gelen) TRANSFER SÜRECİNDE", "stage": "in_transit", "language": "tr", "confirmedBy": "live", "note": "Abroad: received at the delivery office."},
+    {"wording": "Gonderi gumruk bilgileri kayit edildi (Gelen) TRANSFER SÜRECİNDE", "stage": "customs", "language": "tr", "confirmedBy": "live", "note": "Abroad: the item's customs details were recorded."},
+    {"wording": "Gonderi gumruge sevk edildi (Gelen) TRANSFER SÜRECİNDE", "stage": "customs", "language": "tr", "confirmedBy": "live", "note": "Abroad: sent to customs."},
+    {"wording": "Gonderi gumrukten çıktı (Gelen) TRANSFER SÜRECİNDE", "stage": "in_transit", "language": "tr", "confirmedBy": "live", "note": "Abroad: released from customs."},
+    {"wording": "Gönderi Yurt Içi Merkezine Sevk Edildi TRANSFER SÜRECİNDE", "stage": "in_transit", "language": "tr", "confirmedBy": "live", "note": "Abroad: sent on to a domestic centre of the destination country."}
+  ]
+}

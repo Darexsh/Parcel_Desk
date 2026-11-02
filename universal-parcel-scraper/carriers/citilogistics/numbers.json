@@ -1,0 +1,61 @@
+{
+  "carrier": "citilogistics",
+  "records": [
+    {
+      "number": "CAM000011312",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20140404064300/http://tracking.citilogistics.ca:80/trackit.php?trackid=CAM000011312",
+        "date": "2014-04-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "An archived lookup on Citilogistics's former tracking page shows this consignment code delivered by Canada Post, under the older three-letter layout."
+    },
+    {
+      "number": "19302939471",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250724052544/https://tracking.citilogistics.ca/index.php?trackid=19302939471",
+        "date": "2025-07-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "The archived request carries Citilogistics's eleven-digit consignment code; the live guest tracker returns its dated history."
+    }
+  ]
+}

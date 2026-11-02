@@ -1,0 +1,112 @@
+{
+  "carrier": "egxpress",
+  "records": [
+    {
+      "number": "FED2026102590048855",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.egyptexpress.com.eg/TrackingFile/TrackTemplate.xls",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "egxpress"
+        ]
+      },
+      "note": "One of the waybills in the bulk-tracking example file EGXPRESS's site offers for download; its tracker finds it, delivered."
+    },
+    {
+      "number": "FED2026102590139345",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.egyptexpress.com.eg/TrackingFile/TrackTemplate.xls",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "egxpress"
+        ]
+      },
+      "note": "One of the waybills in the bulk-tracking example file EGXPRESS's site offers for download."
+    },
+    {
+      "number": "FED2026102590048856",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.egyptexpress.com.eg/TrackingFile/TrackTemplate.xls",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "egxpress"
+        ]
+      },
+      "note": "One of the waybills in the bulk-tracking example file EGXPRESS's site offers for download."
+    },
+    {
+      "number": "FED2026102590048880",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.egyptexpress.com.eg/TrackingFile/TrackTemplate.xls",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "egxpress"
+        ]
+      },
+      "note": "One of the waybills in the bulk-tracking example file EGXPRESS's site offers for download."
+    },
+    {
+      "number": "101693565",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://apps.shopify.com/setting-app",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A label in the screenshots of the EGXPRESS Shipping app's Shopify listing gives it as the air waybill number; EGXPRESS's tracker does not find it."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "carrier": "messenger-cz",
+  "records": [
+    {
+      "number": "13884E92",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260618110737/https://tracking.messenger.cz/13884E92",
+        "date": "2026-06-18",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "Archived lookup on Messenger's own tracker; the capture holds only the app shell, so the history was not visible."
+    },
+    {
+      "number": "350E66FC",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260611155629/https://tracking.messenger.cz/350E66FC",
+        "date": "2026-06-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "Archived lookup on Messenger's own tracker; the capture holds only the app shell, so the history was not visible."
+    },
+    {
+      "number": "7CE4E792",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260512114913/https://tracking.messenger.cz/7CE4E792",
+        "date": "2026-05-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "Archived lookup on Messenger's own tracker; the capture holds only the app shell, so the history was not visible."
+    }
+  ]
+}

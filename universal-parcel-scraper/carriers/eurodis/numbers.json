@@ -1,0 +1,153 @@
+{
+  "carrier": "eurodis",
+  "records": [
+    {
+      "number": "7490097368029",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20171012052232/http://eurodis.com/trackresults/",
+        "date": "2017-10-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "The EURODIS shipment number of the sample result EURODIS's own results page showed without a search, delivered in Spain with two colli listed; it is the page's example, not a lookup."
+    },
+    {
+      "number": "000251681270000013408820",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20171012052232/http://eurodis.com/trackresults/",
+        "date": "2017-10-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ciblex",
+          "inpost",
+          "bpost",
+          "austrian-post"
+        ]
+      },
+      "note": "First collo barcode of the same sample result on EURODIS's own results page, listed under that shipment with its delivery in Spain."
+    },
+    {
+      "number": "000251681270000013408821",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20171012052232/http://eurodis.com/trackresults/",
+        "date": "2017-10-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ciblex",
+          "inpost",
+          "bpost",
+          "austrian-post"
+        ]
+      },
+      "note": "Second collo barcode of the same sample result on EURODIS's own results page, listed under that shipment with its delivery in Spain."
+    },
+    {
+      "number": "158032600013595513602800",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251219203442/https://eurodis.com/track-trace?158032600013595513602800=",
+        "date": "2025-12-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ciblex",
+          "inpost",
+          "bpost",
+          "austrian-post"
+        ]
+      },
+      "note": "A collo barcode on an archived EURODIS result page: sent from Austria and delivered in Hungary, where the page names Express One and the same number as the delivery partner's."
+    },
+    {
+      "number": "7430409757999",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251219203442/https://eurodis.com/track-trace?158032600013595513602800=",
+        "date": "2025-12-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "The EURODIS shipment number the same archived result page gives that collo's shipment."
+    },
+    {
+      "number": "158139000019557873601025",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260720081535/https://eurodis.com/track-trace?158139000019557873601025",
+        "date": "2026-07-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ciblex",
+          "inpost",
+          "bpost",
+          "austrian-post"
+        ]
+      },
+      "note": "A collo barcode on an archived EURODIS result page: sent from the Netherlands to Hungary, in transit through Germany."
+    }
+  ]
+}

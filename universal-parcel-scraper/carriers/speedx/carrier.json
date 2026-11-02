@@ -1,0 +1,78 @@
+{
+  "id": "speedx",
+  "displayName": "SpeedX",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#1aa3ff"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "speedx",
+    "steps": [
+      "direct"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://tracking.speedx.io/{trackingNumber}",
+    "searchUrl": "https://tracking.speedx.io/",
+    "helpUrl": "https://speedx.io/customer-service-and-support/",
+    "canaryUrl": "https://tracking.speedx.io/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "recipient_address",
+      "delivery_comments",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "provider_code"
+    ],
+    "discarded": [
+      "recipient_address",
+      "delivery_comments",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.speedx.io"
+      ],
+      "path": "^/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "speedx-1",
+      "pattern": "^SPX[A-Z]{3}\\d{12}$",
+      "confidence": "high"
+    },
+    {
+      "id": "speedx-2",
+      "pattern": "^SPX[A-Z]{3}\\d{18}$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ghtk",
+  "displayName": "GHTK",
+  "aliases": [
+    "Giao Hàng Tiết Kiệm",
+    "Giao Hang Tiet Kiem",
+    "iGHTK"
+  ],
+  "region": {
+    "countries": [
+      "VN"
+    ]
+  },
+  "brand": {
+    "color": "#01b53b"
+  },
+  "selectable": true,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://i.ghtk.vn/{trackingNumber}",
+    "searchUrl": "https://i.ghtk.vn/",
+    "canaryUrl": "https://i.ghtk.vn/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "i.ghtk.vn"
+      ],
+      "path": "^/(S\\d+\\.[^/?#]+|\\d{9,10})/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "ghtk-1",
+      "pattern": "^S\\d{5,9}[A-Z][A-Z0-9]{1,14}\\d{9,10}$",
+      "confidence": "high"
+    }
+  ]
+}

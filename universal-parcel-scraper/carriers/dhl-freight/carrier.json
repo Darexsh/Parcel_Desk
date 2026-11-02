@@ -1,0 +1,119 @@
+{
+  "id": "dhl-freight",
+  "displayName": "DHL Freight",
+  "aliases": [
+    "DHL Freight GmbH",
+    "DHL ActiveTracing",
+    "DHL Active Tracing",
+    "DHL Freight Active Tracing",
+    "DHL Frachtverfolgung"
+  ],
+  "region": {
+    "countries": [
+      "DE",
+      "SE",
+      "AT",
+      "PL",
+      "NL",
+      "BE",
+      "FR",
+      "IT",
+      "ES",
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#ffcc00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dhl-freight",
+    "steps": [
+      "direct",
+      "retry",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 437
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "service_name",
+    "weight",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://activetracing.dhl.com/DatPublic/datSelection.do?autoSearch=true&search=consignmentId&l=DE&a={trackingNumber}",
+    "searchUrl": "https://activetracing.dhl.com/",
+    "canaryUrl": "https://activetracing.dhl.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "weight",
+      "destination_country",
+      "destination",
+      "origin",
+      "parcel_count",
+      "volume",
+      "departure_date",
+      "delivered_at",
+      "tracking_alias",
+      "proof_of_delivery",
+      "signature"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "weight",
+      "destination_country"
+    ],
+    "discarded": [
+      "destination",
+      "origin",
+      "parcel_count",
+      "volume",
+      "departure_date",
+      "delivered_at",
+      "tracking_alias",
+      "proof_of_delivery",
+      "signature"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps",
+      "provider_code",
+      "sender_name",
+      "recipient_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "activetracing.dhl.com"
+      ],
+      "pathPattern": "^/DatPublic/datSelection\\.do$",
+      "params": [
+        "a",
+        "valuePackageField",
+        "valueShipmentOrderField"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "dhl-freight-2",
+      "pattern": "^JND\\d{17}$",
+      "confidence": "low"
+    }
+  ]
+}

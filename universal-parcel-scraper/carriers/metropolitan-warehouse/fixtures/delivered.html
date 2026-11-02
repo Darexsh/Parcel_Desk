@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Track Your Order</title>
+    <script src="/Scripts/jquery-1.10.2.js"></script>
+    <script src="/Scripts/kendo.all.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="print_heading d-flex justify-content-between align-items-center">
+                    <span>Tracking # :   </span> <span id="SetTrackingId1" style="font-size: 15px;"></span>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" value="Eastern Standard Time" id="Tracking_TimeZone" />
+        <div class="row mb-3">
+            <div class="col-md-7 col-sm-12">
+                <div style="height: 40%;">
+                    <img src="/Content/images/tracking_stage2a.jpg" style="width:100%" />
+                </div>
+                <div style="height: 60%; width: 100%;">
+                    <div style=" margin-top:3px;text-align:center;">
+                        <span style="font-size: 23px;">Order Delivery Completed</span><br />
+                        <span style=" margin-left: 0px; font-size: 13px;">04/09/2026 11:07 AM <span id="EvtDateTimeZone"></span></span><br />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <div class="panel box box-info">
+                    <div class="panel-body">
+                        <div class="print_heading" style="padding: 3px; font-size: 13px;"><span>Shipping Information</span></div>
+                        <div style="padding-left:13px;">
+                            <span style="font-weight:bold;margin-right:3px;">Destination:</span> <span>Sampleville ZZ 00000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel box box-info">
+                    <div class="panel-body">
+                        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                            <div class="print_heading" style="padding: 3px; font-size: 13px;"><span> Service Type</span></div>
+                            <div style="padding:8px 0px 8px 13px;">
+                                <span>Threshold</span>
+                                <span></span>
+                                <span id="hover-me">
+                                    <img style="cursor:pointer;padding-bottom:3px" src="/Content/images/exc.png" />
+                                    <span class="hover-content">
+                                        <p class="delivery_type">Threshold (TH)</p>
+                                        <p>1. Appointment Scheduling</p>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-12">
+                <div id="divTransHistory"></div>
+                <span id="spanNote" style="display:none; font-style: italic; font-size: smaller;"></span>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="print_heading"><span>Order Details</span></div>
+            <div style="width:33%;float:left;">
+                <label>Tracking #:</label> <span id="SetTrackingId"></span><br />
+                <label>POMS #:</label>
+                <span>990002</span><br />
+                <label>Carrier PRO #:</label> <span></span><br />
+            </div>
+            <div style="width:33%;float:left;">
+                <label>Carrier:</label> <span>METRO</span><br />
+                <label>Client REF# 1:</label> <span>SAMPLEREF1</span><br />
+                <label>Client REF# 2:</label> <span>SAMPLEREF2</span><br />
+                <label>Tag:</label> <span></span><br />
+            </div>
+            <div style="width:33%;float:left;">
+                <label>Total Items:</label> <span>2</span><br />
+                <label>Service Type:</label> <span>TH</span>
+                <span></span>
+                <br />
+                <label>Dimensions:</label> <span>33 cf</span><br />
+                <label>Weight:</label> <span>0 lbs</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function formatTrackingNo() {
+            var TrackingId = '500000000021';
+            var NewTrackingId = '';
+            for (var i = 0; i < TrackingId.length; i++) {
+                if (i !== 0 && i % 4 === 0) NewTrackingId += ' ';
+                NewTrackingId += TrackingId[i];
+            }
+            $("#SetTrackingId1, #SetTrackingId").text(NewTrackingId);
+        }
+
+        var historyTrans = [{"Event":"Delivery Completed, No Exceptions","ID":8000016,"EventID":54,"Date":"04/09/2026 11:07 AM","Location":"Sampleville, ZZ"},{"Event":"Arrived at Delivery Location","ID":8000015,"EventID":86,"Date":"04/09/2026 10:43 AM","Location":"Sampleville, ZZ"},{"Event":"Delivery Scheduled for WEEK OF 04/06/2026","ID":8000014,"EventID":43,"Date":"03/30/2026 01:17 PM","Location":""},{"Event":"Delivery Appointment Canceled","ID":8000013,"EventID":44,"Date":"03/30/2026 12:56 PM","Location":""},{"Event":"Delivery Rescheduled for WEEK OF 03/30/2026","ID":8000012,"EventID":46,"Date":"03/20/2026 07:48 AM","Location":null},{"Event":"Reached Delivery Hub","ID":8000011,"EventID":107,"Date":"03/18/2026 08:10 AM","Location":""},{"Event":"Furniture Received by Metro-\u003cWarehouse\u003e-Hub","ID":8000010,"EventID":23,"Date":"03/18/2026 08:10 AM","Location":"Sample Harbor, Georgia"},{"Event":"Order enroute to Metro-\u003cWarehouse\u003e-Hub","ID":8000009,"EventID":24,"Date":"03/17/2026 08:17 AM","Location":"In Transit"},{"Event":"Synthetic hub note","ID":8000008,"EventID":999,"Date":"03/16/2026 09:00 AM","Location":"Sample Hub, CA"},{"Event":"Furniture Received by Metro-\u003cWarehouse\u003e-Hub","ID":8000007,"EventID":23,"Date":"03/16/2026 12:11 AM","Location":"Sample Hub, CA"},{"Event":"Furniture Received by Metro-\u003cWarehouse\u003e-Hub","ID":8000006,"EventID":23,"Date":"03/16/2026 12:11 AM","Location":"Sample Hub, CA"},{"Event":"Pickup completed, No exceptions","ID":8000005,"EventID":18,"Date":"03/15/2026 10:15 AM","Location":"EXAMPLE CITY, CA"},{"Event":"Pickup scheduled for 03/15/2026","ID":8000004,"EventID":10,"Date":"03/10/2026 01:17 PM","Location":""},{"Event":"Order registered","ID":8000003,"EventID":1,"Date":"03/08/2026 01:21 AM","Location":""}];
+        var abbr = "";
+
+        $(document).ready(function () {
+            var TimeZone = $('#ddlTimeZone option:selected').text() || $("#Tracking_TimeZone").val();
+            if (TimeZone) {
+                abbr = TimeZone.match(/[A-Z](?!.*\()/g).join('');
+                $("#EvtDateTimeZone").text(abbr);
+            }
+            formatTrackingNo();
+            $("#divTransHistory").kendoGrid({
+                dataSource: { data: historyTrans, pageSize: 100 },
+                columns: [
+                    { field: "Date", title: "Date" },
+                    { field: "Event", title: "Event" },
+                    { field: "Location", title: "Location" }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>

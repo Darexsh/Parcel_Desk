@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ENH">
+<head>
+<meta charset="UTF-8" />
+<title>Track &amp; Trace - EURODIS</title>
+<link rel='stylesheet' id='track-and-trace-css'  href='https://eurodis.com/wp-content/plugins/track-and-trace_2020/public/css/track-and-trace-public.css?ver=1.0.0' type='text/css' media='all' />
+</head>
+<body class="page-template page-template-track page-template-track-php page page-id-21">
+    <div id="main" class="tracking-page"> 
+        <div id="primary" class="content-area odd">
+            <div class="section-wrapper">
+    <div class="section">
+            <div class="row one_column complet_w content_box">
+                <div class="center">
+
+                     <div class="box col3-4 ">
+<h2 class='title_box'>Latest shipment information</h2><div class='info-track-head'>Choose one of the tracking options below to track your shipment throughout the EURODIS network. </div><div>
+    <p class="errorMsg">No shipment matching with the entered tracking criteria!</p>
+</div>
+
+
+<h3 class="accordion first collo">Tracking by collo barcode</h3>
+<div id="trackCollos">
+  <div class="trackCollo-wrapper track-wrapper">
+  
+    	
+     
+    
+    <div class="info-track">Enter the 24-digit barcode to track your shipment throughout the EURODIS network:</div>
+        <form method="post" id="trackCollo_form" action="https://eurodis.com/track-trace">
+        <input type="hidden" name="track_and_trace_hidden_field" value="trackCollo" />
+        <input type="text" placeholder="Barcode" name="trackCollo-input" class="input-track" value=""/>
+		        <button type="submit" class="submit-track" id="trackCollo-submit"><span class="btn-submit"></span></button>
+        <br class="clear" />
+    </form>
+      
+  </div>
+</div>
+<h3 class="accordion">Tracking by EURODIS shipment number</h3>
+    <div id="trackEurodis"> 
+      <div class="trackEurodis-wrapper track-wrapper">  
+                  
+        <div class="info-track">Enter the 13-digit EURODIS shipment number to track your shipment throughout the EURODIS network:</div>        
+                <form method="post" id="trackEurodis_form" class="" action="https://eurodis.com/track-trace">
+            <input type="hidden" name="track_and_trace_hidden_field" value="trackEurodis" />
+            <input type="text" placeholder="EURODIS shipment number" name="trackEurodis-input" class="input-track" />
+                        <button type="submit" class="submit-track" id="trackEurodis-submit"><span class="btn-submit"></span></button>
+            <br class="clear" /> 
+          </form>
+      </div>
+    </div><h3 class="accordion">Tracking by shipper's reference</h3>
+<div id="trackShyper"> 
+	<div class="trackShyper-wrapper track-wrapper">
+	
+		
+    	
+              
+    <div class="info-track">Enter the destination country, ZIP code of destination and shipper´s reference </br> to track your shipment throughout the EURODIS network:</div>
+        <form method="post" id="trackShyper_form" action="https://eurodis.com/track-trace">
+		<input type="hidden" name="track_and_trace_hidden_field" value="trackShyper" />
+        <select required="required" name="trackShyper-Country">
+                     <option value="AT">Austria</option>
+                     <option value="DE">Germany</option>
+                   </select>
+	   <input type="text" placeholder="ZIP code*" name="trackShyper-ZipInput" class="input-track" />
+       <input type="text" placeholder="Shipper´s reference" name="trackShyper-input" class="input-track" />
+              <button type="submit" class="submit-track" id="trackShyper-submit"><span class="btn-submit"></span></button>
+       <br class="clear" />
+   </form>
+   <div class="info-track"></div>
+	</div>
+</div><h3 class="accordion">Tracking by dispatch partner’s shipment number</h3>
+<div id="trackPartners"> 
+	<div class="trackPartners-wrapper track-wrapper">  
+	
+		
+                
+    <div class="info-track">Enter the dispatch country and dispatch partner´s shipment number to track your shipment throughout the EURODIS network.</div> 
+        <form method="post" id="trackPartners_form" action="https://eurodis.com/track-trace">
+		<input type="hidden" name="track_and_trace_hidden_field" value="trackPartners" />
+        <select required="required" name="trackPartners-Country">
+                     <option value="AT">Austria</option>
+                     <option value="DE">Germany</option>
+                        </select>
+        <input type="text" placeholder="dispatch partner´s shipment number" name="trackPartners-input" class="input-track" />
+                <button type="submit" class="submit-track" id="trackPartners-submit"><span class="btn-submit"></span></button>
+        <br class="clear" />
+	</form>
+    </div>
+</div>                         
+
+
+          
+
+     </div>
+
+</div>
+                <br class="clear">
+            </div>
+
+            </div>
+        </div>
+ 
+
+
+</div><!-- #main .site-main -->
+</body>
+</html>

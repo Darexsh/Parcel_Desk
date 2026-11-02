@@ -1,0 +1,129 @@
+{
+  "carrier": "express-one-bg",
+  "records": [
+    {
+      "number": "29598760",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/eushipments.com",
+        "date": "2026-08-08",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "euShipments"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A customer review quotes it as an euShipments order's tracking number; Express One Bulgaria's tracker shows the shipment delivered under the same bill of lading."
+    },
+    {
+      "number": "28561866",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260608121448/https://expressone.bg/bg/tracking/28561866",
+        "date": "2026-06-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Looked up on Express One Bulgaria's own tracker, as an archived address shows; the tracker shows the shipment under the same bill of lading."
+    },
+    {
+      "number": "158278800050128255906301",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260504092941/https://expressone.bg/en/tracking/158278800050128255906301",
+        "date": "2026-05-04",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ciblex",
+          "inpost",
+          "bpost",
+          "austrian-post"
+        ]
+      },
+      "note": "A package barcode looked up on Express One Bulgaria's own tracker, as an archived address shows; the tracker answers with the shipment's eight-digit bill of lading. The last four digits are the destination's postcode."
+    },
+    {
+      "number": "158278800069617235907280",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260812155942/https://expressone.bg/en/tracking/158278800069617235907280",
+        "date": "2026-08-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ciblex",
+          "inpost",
+          "bpost",
+          "austrian-post"
+        ]
+      },
+      "note": "A package barcode looked up on Express One Bulgaria's own tracker, as an archived address shows; the tracker answers with the shipment's eight-digit bill of lading, delivered at a pickup point in the town whose postcode the barcode ends in."
+    },
+    {
+      "number": "158278800025728334040064",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251228115638/https://expressone.bg/en/tracking/158278800025728334040064",
+        "date": "2025-12-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ciblex",
+          "inpost",
+          "bpost",
+          "austrian-post"
+        ]
+      },
+      "note": "A package barcode looked up on Express One Bulgaria's own tracker, as an archived address shows, with the prefix of the confirmed ones; the tracker no longer finds it."
+    }
+  ]
+}

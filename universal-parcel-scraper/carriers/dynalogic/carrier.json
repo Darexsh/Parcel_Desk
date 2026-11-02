@@ -1,0 +1,85 @@
+{
+  "id": "dynalogic",
+  "displayName": "Dynalogic",
+  "aliases": [
+    "DynaLogic",
+    "Dynalogic Benelux"
+  ],
+  "region": {
+    "countries": [
+      "NL",
+      "BE"
+    ]
+  },
+  "brand": {
+    "color": "#66839c"
+  },
+  "selectable": true,
+  "timezone": "Europe/Amsterdam",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dynalogic",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 120
+    }
+  },
+  "capabilities": [
+    "provider_code",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://track.mydynalogic.eu/track/login?ordernumber={trackingNumber}",
+    "searchUrl": "https://track.mydynalogic.eu/track/login",
+    "canaryUrl": "https://track.mydynalogic.eu/track/login",
+    "shows": [
+      "status",
+      "progress_rail",
+      "eta_window",
+      "delivered_at",
+      "coordinates",
+      "office_contact_details",
+      "office_opening_hours",
+      "history",
+      "sender_name",
+      "customer_reference",
+      "order_contents",
+      "delivery_instructions",
+      "payment_details",
+      "driver_name",
+      "recipient_name",
+      "recipient_address",
+      "recipient_contact"
+    ],
+    "scraped": [
+      "status",
+      "progress_rail",
+      "provider_code",
+      "eta_window"
+    ],
+    "discarded": [
+      "delivered_at",
+      "coordinates",
+      "office_contact_details",
+      "office_opening_hours",
+      "history",
+      "sender_name",
+      "customer_reference",
+      "order_contents",
+      "delivery_instructions",
+      "payment_details",
+      "driver_name",
+      "recipient_name",
+      "recipient_address",
+      "recipient_contact"
+    ],
+    "unavailable": [
+      "location",
+      "weight"
+    ]
+  },
+  "links": [],
+  "detection": []
+}

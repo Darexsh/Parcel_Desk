@@ -1,0 +1,46 @@
+{
+  "id": "jrs-express",
+  "displayName": "JRS Express",
+  "aliases": [
+    "JRS",
+    "JRS Business Corporation"
+  ],
+  "region": {
+    "countries": [
+      "PH"
+    ]
+  },
+  "brand": {
+    "color": "#046a38"
+  },
+  "selectable": true,
+  "timezone": "Asia/Manila",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://jrs-express.com/track?or={trackingNumber}",
+    "searchUrl": "https://jrs-express.com/track",
+    "canaryUrl": "https://jrs-express.com/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "jrs-express.com",
+        "www.jrs-express.com"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "or"
+      ]
+    }
+  ],
+  "detection": []
+}

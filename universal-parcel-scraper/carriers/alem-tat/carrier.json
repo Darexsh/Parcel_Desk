@@ -1,0 +1,46 @@
+{
+  "id": "alem-tat",
+  "displayName": "Alem TAT",
+  "aliases": [
+    "Алем ТАТ",
+    "Alem-Tat",
+    "ТОО «Алем ТАТ»"
+  ],
+  "region": {
+    "countries": [
+      "KZ"
+    ]
+  },
+  "brand": {
+    "color": "#3b2d88"
+  },
+  "selectable": true,
+  "timezone": "Asia/Almaty",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.alemtat.kz/tracking/?n={trackingNumber}",
+    "searchUrl": "https://www.alemtat.kz/tracking/",
+    "canaryUrl": "https://www.alemtat.kz/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "alemtat.kz"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "n"
+      ]
+    }
+  ],
+  "detection": []
+}

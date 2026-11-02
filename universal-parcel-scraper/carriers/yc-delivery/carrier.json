@@ -1,0 +1,46 @@
+{
+  "id": "yc-delivery",
+  "displayName": "YC Delivery",
+  "aliases": [
+    "YCお届け便",
+    "YC お届け便",
+    "yc-otodoke"
+  ],
+  "region": {
+    "countries": [
+      "JP"
+    ]
+  },
+  "brand": {
+    "color": "#004092"
+  },
+  "selectable": true,
+  "timezone": "Asia/Tokyo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.e1.yc-otodoke.com/inquiry/?deliveryNumber={trackingNumber}",
+    "searchUrl": "https://www.e1.yc-otodoke.com/inquiry/",
+    "canaryUrl": "https://www.e1.yc-otodoke.com/inquiry/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "e1.yc-otodoke.com"
+      ],
+      "pathPattern": "^/inquiry/?$",
+      "params": [
+        "deliveryNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

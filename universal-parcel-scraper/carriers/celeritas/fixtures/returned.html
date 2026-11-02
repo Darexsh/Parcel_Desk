@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+<meta charset="UTF-8">
+<title>Seguimiento de envío | Celeritas</title>
+<link rel="alternate" hreflang="es-ES" href="/seguimiento-paquete-pedidos"/>
+<link rel="alternate" hreflang="en-GB" href="/en/order-package-tracking/"/>
+</head>
+<body class="page-template-default page">
+<main id="qodef-page-outer">
+    <div class="elementor-element elementor-widget elementor-widget-heading">
+        <h3 class="elementor-heading-title elementor-size-default">Seguimiento de tu pedido</h3>
+    </div>
+    <div class="elementor-element elementor-widget elementor-widget-shortcode">
+        <div class="elementor-widget-container">
+            <div class="elementor-shortcode">
+                <form action="" method="post" id="form1">
+                    <input type="hidden" id="form_nonce_name" name="form_nonce_name" value="0a1b2c3d4e"/>
+                    <input type="hidden" name="_wp_http_referer" value="/seguimiento-paquete-pedidos"/>
+                    <input type="hidden" value="mostrarEstados" name="method" id="method">
+                    <input class="wpcf7-form-control wpcf7-text" type="text" id="buscar-otro-paquete" name="identificador" placeholder="Introduzca el ID del envío" class="required">
+                    <button class="wpcf7-form-control wpcf7-submit botonlocalizar" type="submit"><span class="qodef-m-button-text">Localizar</span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-widget elementor-widget-shortcode">
+        <div class="elementor-widget-container">
+            <div class="desplazador"></div>
+            <div class="elementor-shortcode">
+                <!-- redirect by lang param -->
+                <!-- get order by url params -->
+                <!-- modal -->
+                <div class="modal fade " id="problemas-identificacion-paquete">
+                    <div class="modal-backdrop fade in"></div>
+                    <div class="modal-dialog in fade">
+                        <div class="modal-content">
+                            <a href="/" class="close"></a>
+                            <div class="ico-warning"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal -->
+                <main>
+                    <!-- seguimiento del paquete -->
+                    <section class="seguimiento-paquete container-lg">
+                        <div class="progress">
+                            <div class="progress-completed" data-event-code="40"></div>
+                            <div class="truck-container"><div class="truck"><span class="truck-img"></span></div></div>
+                        </div>
+                        <div class="order-tracking-details">
+                            <span>Detalles de tu pedido</span>
+                            <ul>
+                            <li>
+                                <span class="first-column">Pedido de:</span>
+                                <span class="second-column">OTRA TIENDA</span>
+                            </li>
+                            <li>
+                                <span class="first-column">Tu número de referencia:</span>
+                                <span class="second-column">934567812</span>
+                            </li>
+                            <li>
+                                <span class="first-column">Tu número de pedido:</span>
+                                <span class="second-column">77001234</span>
+                            </li>
+                            <li>
+                                <span class="first-column">Transportista encargado de tu pedido:</span>
+                                <span class="second-column">REPARTOS DE PRUEBA</span>
+                            </li>
+                            <li>
+                                <span class="first-column">Fecha de pedido al transportista:</span>
+                                <span class="second-column">05/05/2026 15:58:10</span>
+                            </li>
+                            <li>
+                                <span class="first-column">Origen:</span>
+                                <span class="second-column">Polígono Ficticio</span>
+                            </li>
+                            <li>
+                                <span class="first-column">Punto:</span>
+                                <span class="second-column">
+                                      <a style="color:#009AAB" href="https://return.celeritastransporte.com/emerchant/mvc/pupInfo?pup=99999&lang=es" target="_blank">PAPELERÍA DE PRUEBA (+ info aquí)</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="first-column">Destino:</span>
+                                <span class="second-column">CIUDAD INVENTADA </span>
+                            </li>
+                            <li>
+                                <span class="first-column">Número de bultos:</span>
+                                <span class="second-column">1</span>
+                            </li>
+                            <li>
+                                <span class="first-column">Kilos:</span>
+                                <span class="second-column">2,35</span>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="order-tracking-situations">
+                            <div class="event-name-block">
+                                <span class="event-name">ENVIO DEVUELTO</span>
+                            </div>
+                            <div class="timeline">
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>21/05/2026 - 21:40</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Lectura en almacén de Cruce</span>
+                                        <p>Tu envío está preparado para ser entregado en el almacén de devolución.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>20/05/2026 - 22:05</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Devolución entregada en almacén de destino</span>
+                                        <p>Tu pedido ha llegado al almacén de devolución.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>20/05/2026 - 14:12</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Lectura en almacen de Cruce</span>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>14/05/2026 - 08:30</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Envío pendiente de recibir</span>
+                                        <p>Tu pedido ha sido cargado en nuestro sistema pero todavía no nos lo han entregado.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>09/05/2026 - 09:02</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Disponible para recoger en agencia de transporte</span>
+                                        <p>Hemos intentado entregar el pedido y no ha sido posible. Está en la agencia de transporte. Puedes recogerlo en los próximos 7 días.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>08/05/2026 - 12:37</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Pospuesta en punto</span>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>08/05/2026 - 12:37</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Recibido en plataforma local</span>
+                                        <p>Tu pedido ha llegado a la agencia encargada de la entrega, ¡no queda nada para que intentemos entregártelo!</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>08/05/2026 - 12:37</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Envío en reparto</span>
+                                        <p>Tu pedido está en el vehículo de reparto hoy e intentaremos entregártelo.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>08/05/2026 - 12:37</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Envío en reparto</span>
+                                        <p>Tu pedido está en el vehículo de reparto hoy e intentaremos entregártelo.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>07/05/2026 - 18:44</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Envío recibido en agencia de origen</span>
+                                        <p>¡Hemos recibido tu pedido! Cuando salga a reparto, te informaremos con un SMS o e-mail.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>06/05/2026 - 16:21</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Lectura en almacen de Cruce</span>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="timeline-event">
+                                    <div class="circle"></div>
+                                    <div>
+                                        <time>05/05/2026 - 15:58</time>
+                                        - <span style="color:#EE7D00;font-weight:bold;">Envío pendiente de recibir</span>
+                                        <p>Tu pedido ha sido creado en nuestro sistema pero todavía no nos lo han entregado.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+</main>
+<footer id="colophon" role="contentinfo"><p>Celeritas Transporte y Logística</p></footer>
+<!-- verde #009aab naranja #EE7D00 -->
+</body>
+</html>

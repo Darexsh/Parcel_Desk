@@ -1,0 +1,290 @@
+{
+  "carrier": "phlpost",
+  "records": [
+    {
+      "number": "EE182948114PH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210524112636/https://tracking.phlpost.gov.ph/?TrackingNos=EE182948114PH",
+        "date": "2021-05-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on PHLPost's tracker for an EMS item it issued. The tracker answers it with its posting in the Philippines and its delivery in the United States."
+    },
+    {
+      "number": "CP303322780PH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-phlpost.html?p=3",
+        "date": "2018-04-28",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A buyer on the PhilPost review page names this parcel and says it was sent by the Philippine post. PHLPost's tracker no longer finds it."
+    },
+    {
+      "number": "en124358585jp",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-phlpost.html",
+        "date": "2021-09-24",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "A customer on the PhilPost review page quotes this EMS item from Japan and complains about its Manila to Davao leg. PHLPost's tracker answers it with Japan Post's dispatch, customs in the Philippines and PHLPost's delivery."
+    },
+    {
+      "number": "RX716993586CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251027131136/https://tracking.phlpost.gov.ph/?TrackingNos=RX716993586CN",
+        "date": "2025-10-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on PHLPost's tracker, an inbound item from the issuing post; capture not opened. PHLPost's tracker does not find it."
+    },
+    {
+      "number": "RX875076755CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240620133128/https://tracking.phlpost.gov.ph/?TrackingNos=RX875076755CN+",
+        "date": "2024-06-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on PHLPost's tracker, an inbound item from the issuing post; capture not opened. PHLPost's tracker does not find it."
+    },
+    {
+      "number": "RG961086013CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240806161835/https://tracking.phlpost.gov.ph/?TrackingNos=RG961086013CN+",
+        "date": "2024-08-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on PHLPost's tracker, an inbound item from the issuing post; capture not opened. PHLPost's tracker does not find it."
+    },
+    {
+      "number": "RW108887686CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250610143926/https://tracking.phlpost.gov.ph/?TrackingNos=RW108887686CN%0D%0A",
+        "date": "2025-06-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on PHLPost's tracker, an inbound item from the issuing post; capture not opened. PHLPost's tracker does not find it."
+    },
+    {
+      "number": "RP120466925CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250610095733/https://tracking.phlpost.gov.ph/?TrackingNos=RP120466925CN%0D%0ARP116670955CN",
+        "date": "2025-06-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Archived two-number lookup on PHLPost's tracker, an inbound item from the issuing post; capture not opened. PHLPost's tracker does not find it."
+    },
+    {
+      "number": "RY551743010CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171214051827/http://oss-tnt.phlpost.gov.ph:80/track-and-trace/RY551743010CN",
+        "date": "2017-12-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on PHLPost's former track-and-trace page, an inbound item; opened capture shows the page shell, history not visible. PHLPost's tracker no longer finds it."
+    },
+    {
+      "number": "UM630388333US",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171214064132/http://oss-tnt.phlpost.gov.ph:80/track-and-trace/UM630388333US",
+        "date": "2017-12-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on PHLPost's former track-and-trace page, an inbound item from the issuing post; capture not opened. PHLPost's tracker no longer finds it."
+    },
+    {
+      "number": "EG250511081KR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190811180536/http://oss-tnt.phlpost.gov.ph:80/track-and-trace/EG250511081KR",
+        "date": "2019-08-11",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "korea-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on PHLPost's former track-and-trace page, an inbound item from the issuing post; capture not opened. PHLPost's tracker answers it with domestic scans on the way to its delivery office."
+    },
+    {
+      "number": "RI249719861BG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180126120051/http://oss-tnt.phlpost.gov.ph:80/track-and-trace/RI249719861BG",
+        "date": "2018-01-26",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on PHLPost's former track-and-trace page, an inbound item from the issuing post; capture not opened. PHLPost's tracker no longer finds it."
+    },
+    {
+      "number": "RR081922489PH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20201223180346/https://www.ship24.com/tracking?p=RR081922489PH",
+        "date": "2020-12-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Archived Ship24 lookup for a registered item PHLPost issued; capture not opened. PHLPost's tracker answers it with its dispatch from the Philippines and its delivery in the United Kingdom."
+    },
+    {
+      "number": "UC093868096PH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251015023412/https://global.cainiao.com/detail.htm?mailNoList=UC093868096PH&spm=a3708.7860688.0.d01",
+        "date": "2025-10-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Archived Cainiao lookup for an item PHLPost issued; capture not opened. PHLPost's tracker answers it with the IPS import of its customs data."
+    },
+    {
+      "number": "EA463657474CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-phlpost.html",
+        "date": "2020-09-21",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "A customer on the PhilPost review page quotes this EMS item from China. PHLPost's tracker answers it with its arrival in the Philippines, failed deliveries and its dispatch back."
+    }
+  ]
+}

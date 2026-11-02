@@ -1,0 +1,46 @@
+{
+  "id": "e-cargo",
+  "displayName": "e-Cargo",
+  "aliases": [
+    "E-Cargo Logistics",
+    "E-Cargo Logistics Ltd",
+    "אי קרגו"
+  ],
+  "region": {
+    "countries": [
+      "IL"
+    ]
+  },
+  "brand": {
+    "color": "#ee4037"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jerusalem",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.e-cargo.co.il/CargoTracking/public-tracking/search?searchKey={trackingNumber}",
+    "searchUrl": "https://tracking.e-cargo.co.il/CargoTracking/public-tracking/search",
+    "canaryUrl": "https://e-cargo.co.il/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.e-cargo.co.il"
+      ],
+      "pathPattern": "^/CargoTracking/public-tracking/search/?$",
+      "params": [
+        "searchKey"
+      ]
+    }
+  ],
+  "detection": []
+}

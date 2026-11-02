@@ -1,0 +1,85 @@
+{
+  "result": {
+    "PickupFranchise": "Eastport",
+    "PickupFranchiseCode": "SYD",
+    "PickupFranchiseCurrentDate": "17/03/2026",
+    "PickupFranchiseCurrentTime": "10:00:00",
+    "DeliveryFranchise": "Northgate",
+    "DeliveryFranchiseCode": "MEL",
+    "DeliveryFranchiseCurrentDate": "17/03/2026",
+    "DeliveryFranchiseCurrentTime": "10:00:00",
+    "DeliveryETADate": "18/03/2026",
+    "TSSDeliveryDays": "2",
+    "LabelNumber": "00399999900000000423",
+    "Scans": [
+      {
+        "Type": "P",
+        "Courier": "520",
+        "Description": "Picked up from sender",
+        "Date": "16/03/2026 11:05:00",
+        "RealDateTime": "2026-03-16 11:05:00",
+        "Name": "Eastport",
+        "Franchise": "SYD",
+        "Status": "PPP",
+        "StatusDescription": "Our courier has picked up your parcel from the sender. You will receive updates as your parcel moves through the delivery network.",
+        "CompanyInfo": null,
+        "UploadDate": "16/03/2026",
+        "Signature": "",
+        "ParcelConnectAgent": null
+      },
+      {
+        "Type": "T",
+        "Courier": "520",
+        "Description": "Your parcel is in our care",
+        "Date": "16/03/2026 17:45:10",
+        "RealDateTime": "2026-03-16 17:45:10",
+        "Name": "Northgate",
+        "Franchise": "MEL",
+        "Status": "054",
+        "StatusDescription": "Your parcel has arrived at our Aramex depot.",
+        "CompanyInfo": null,
+        "UploadDate": "16/03/2026",
+        "Signature": "",
+        "ParcelConnectAgent": null
+      }
+    ],
+    "Signature": "",
+    "DistributedTo": "Recipient Fixture",
+    "DistributedDate": "1/3/2026",
+    "Reference": "REF-FIXTURE-17",
+    "OriginalLabelNumber": "QX9000000058",
+    "IsOnforward": "0",
+    "IsNZPostOnforward": false,
+    "OnforwardLabelNumber": "",
+    "CallingCard": "",
+    "CountryCode": "1",
+    "CallingCardLabelNumbers": [],
+    "HasDScan": false,
+    "LastScanDate": "2026-03-16 17:45:10",
+    "WasScannedLast24Hours": false,
+    "AddressOnParcel": null,
+    "AtDepot": false,
+    "IsInternationalJourney": false,
+    "ShouldLogParcelEnquiry": false,
+    "IsPriorityParcel": false,
+    "DeliveryServiceType": {
+      "ServiceCode": "ATL",
+      "Description": "If address is unattended, parcel will be left in a safe place where available"
+    },
+    "TransitHubs": {
+      "IsDelayed": false,
+      "Display": "Disable",
+      "ReasonCode": "NotEnoughData",
+      "Hubs": []
+    },
+    "ServiceDelay": {
+      "IsDelayed": false,
+      "Message": ""
+    },
+    "RealisedDate": null,
+    "HasBulkDropScans": false,
+    "HasPodPhoto": false,
+    "HasSignature": false
+  },
+  "generated_in": "41ms"
+}

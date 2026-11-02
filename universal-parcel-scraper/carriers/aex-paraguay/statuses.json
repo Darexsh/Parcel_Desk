@@ -1,0 +1,27 @@
+{
+  "carrier": "aex-paraguay",
+  "entries": [
+    {"wording": "El remitente generó la etiqueta de envío y el paquete está pendiente de retiro por AEX", "stage": "registered", "language": "es", "confirmedBy": "live", "note": "Event line of the tracking page: the sender generated the label and AEX has not collected the parcel yet."},
+    {"wording": "Guía generada", "stage": "registered", "language": "es", "confirmedBy": "live", "note": "State beside the label event, and the first step of the page's progress rail."},
+    {"wording": "Recepción en oficina de AEX", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Event line: received at an AEX office."},
+    {"wording": "Paquete en oficinas de AEX", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "State beside 'Recepción en oficina de AEX'."},
+    {"wording": "El paquete fue retirado y se encuentra en poder de AEX", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Event line: AEX collected the parcel from the sender."},
+    {"wording": "Recolección realizada", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "State beside the collection event."},
+    {"wording": "Asignado a repartidor para entrega", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live", "note": "Event line and state alike: the guía was assigned to a driver for delivery, hours before the delivery."},
+    {"wording": "Paquete recibido por AEX", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Second step of the page's progress rail."},
+    {"wording": "En camino", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Third step of the page's progress rail."},
+    {"wording": "Salió para entrega", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live", "note": "Fourth step of the page's progress rail."},
+    {"wording": "Solicitud de servicio creada.", "stage": "registered", "language": "es", "confirmedBy": "portal", "note": "Event column of the former page: the sender created the service request."},
+    {"wording": "Pendiente", "stage": "registered", "language": "es", "confirmedBy": "portal", "note": "State column of the former page beside 'Solicitud de servicio creada.'."},
+    {"wording": "Recepcion en oficinas de AEX", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Event column of the former page: received at an AEX office."},
+    {"wording": "En oficinas de AEX", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "State column of the former page beside 'Recepcion en oficinas de AEX'."},
+    {"wording": "Pickup realizado", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Event column of the former page: AEX collected the parcel (the API documentation calls the collection 'retiro (pickup)')."},
+    {"wording": "Retiro realizado", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "State column of the former page beside 'Pickup realizado'."},
+    {"wording": "Salida a ruta para entrega", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal", "note": "Event column of the former page."},
+    {"wording": "En ruta para entrega", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal", "note": "State column of the former page beside 'Salida a ruta para entrega'."},
+    {"wording": "En ruta para la entrega", "stage": "out_for_delivery", "language": "es", "confirmedBy": "official-doc", "note": "Given as an example state in AEX's API documentation for the tracking call."},
+    {"wording": "Entrega realizada", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Event line, which the current page capitalizes as 'Entrega Realizada'; AEX's API documentation gives the same event as code W5."},
+    {"wording": "Entregada", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "State beside the delivery event, and the last step of the page's progress rail."},
+    {"code": "E", "wording": "Entregado", "stage": "delivered", "language": "es", "confirmedBy": "official-doc", "note": "State in the webhook example of AEX's API documentation; the tracking page shows no codes."}
+  ]
+}

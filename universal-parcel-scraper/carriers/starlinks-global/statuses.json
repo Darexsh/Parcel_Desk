@@ -1,0 +1,33 @@
+{
+  "carrier": "starlinks-global",
+  "entries": [
+    {"wording": "Accepted at Processing Hub", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Event title: Starlinks Global's hub in the shipper's country has the parcel."},
+    {"wording": "Despatched to Destination", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event title: the parcel left for the destination country."},
+    {"wording": "Linehaul Export to Destination", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text beside \"Despatched to Destination\"; the page names the hub and its country after it."},
+    {"wording": "Customs cleared", "stage": "customs", "language": "en", "confirmedBy": "portal", "note": "Event title, with the text \"Customs Cleared\": the destination's customs released the parcel."},
+    {"wording": "Received by carrier", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event title: the last-mile courier took the parcel."},
+    {"wording": "Processed in carrier facility", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text beside \"Received by carrier\"; the page names the courier's facility and its country after it."},
+    {"wording": "In transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event title for the courier's network."},
+    {"wording": "In Transit, with carrier", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text beside \"In transit\"; can name a place and its country after it."},
+    {"wording": "In Transit, with delivery partner", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text beside \"In transit\"; can name a place and its country after it."},
+    {"wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Event title and text: with the courier for delivery."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Event title and text: the courier delivered the parcel; the text can name the place."},
+    {"wording": "Processed at Carrier Origin Hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event title: sorted at the hub in the shipper's country."},
+    {"wording": "Prepared for Export", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text at the hub in the shipper's country before the line haul."},
+    {"wording": "Linehaul Export to Destination Country", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text beside \"Despatched to Destination\"; can name the country after it."},
+    {"wording": "Arrived at Destination Hub", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event title and text: the parcel reached the hub in the destination country."},
+    {"wording": "Received in Destination Country", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text: the parcel reached the destination country; can name it after it."},
+    {"wording": "Customs Clearance - Complete", "stage": "customs", "language": "en", "confirmedBy": "portal", "note": "Text beside \"Customs cleared\"."},
+    {"wording": "Received by Final Mile Carrier", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text beside \"Received by carrier\"."},
+    {"wording": "In Transit, with delivery carrier", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text beside \"In transit\"."},
+    {"wording": "In Transit, USPS awaiting item", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text beside \"In transit\": the postal service has the label, not yet the parcel."},
+    {"wording": "Arrived at Post Office", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text in the postal service's network; can name the country after it."},
+    {"wording": "Delivery Scheduled", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event title: the courier has planned the delivery."},
+    {"wording": "Item to be Redirected DHL ServicePoint", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Text: the courier sends the parcel on to a service point."},
+    {"wording": "Delivery Attempted", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "Event title and text: the courier could not deliver; the text can name the country."},
+    {"wording": "Delivery awaiting collection", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "portal", "note": "Event title: the parcel waits at a pick-up point."},
+    {"wording": "Item Available at Pick-up Point", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "portal", "note": "Text: the parcel waits at a pick-up point."},
+    {"wording": "Returned to Origin", "stage": "returned", "language": "en", "confirmedBy": "portal", "note": "Event title: the parcel went back to the shipper's country."},
+    {"wording": "Shipment Returned to Origin", "stage": "returned", "language": "en", "confirmedBy": "portal", "note": "Text beside \"Returned to Origin\"."}
+  ]
+}

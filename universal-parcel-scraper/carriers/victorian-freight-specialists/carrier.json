@@ -1,0 +1,46 @@
+{
+  "id": "victorian-freight-specialists",
+  "displayName": "Victorian Freight Specialists",
+  "aliases": [
+    "Victorian Freight Specialists Pty Ltd",
+    "Victorian Freight",
+    "VFS Good Track"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#ffde00"
+  },
+  "selectable": true,
+  "timezone": "Australia/Melbourne",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://web.victorianfreight.com.au/webconsignment/FTSSearch-v2.aspx?connum={trackingNumber}",
+    "searchUrl": "https://web.victorianfreight.com.au/webconsignment/FTSSearch-v2.aspx",
+    "canaryUrl": "https://www.vfs.com.au/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "web.victorianfreight.com.au"
+      ],
+      "pathPattern": "^/webconsignment/FTSSearch-v2\\.aspx$",
+      "params": [
+        "connum"
+      ]
+    }
+  ],
+  "detection": []
+}

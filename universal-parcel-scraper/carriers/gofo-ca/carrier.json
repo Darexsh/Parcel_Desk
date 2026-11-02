@@ -1,0 +1,80 @@
+{
+  "id": "gofo-ca",
+  "displayName": "GOFO Canada",
+  "aliases": [
+    "GOFO CA"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#fc4c02"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gofo-ca",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 471
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://www.gofo.com/ca/track?searchID={trackingNumber}",
+    "searchUrl": "https://www.gofo.com/ca/track",
+    "canaryUrl": "https://www.gofo.com/ca/track",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "eta"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "service_name"
+    ],
+    "discarded": [
+      "delivery_detail",
+      "proof_images",
+      "coordinates",
+      "departments",
+      "unlabelled_weight",
+      "eta"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "gofo.com"
+      ],
+      "pathPattern": "^/ca(?:/|$)",
+      "params": [
+        "searchID"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "gofo-ca-1",
+      "pattern": "^GFCA\\d{14}$",
+      "confidence": "high"
+    }
+  ]
+}

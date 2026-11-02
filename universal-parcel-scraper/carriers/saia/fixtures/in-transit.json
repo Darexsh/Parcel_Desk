@@ -1,0 +1,51 @@
+{
+  "proNumber": "99900000010",
+  "shipper": { "name": "Example Shipper Co", "addressLine1": "1 Sample Road", "addressLine2": "Dock 9", "city": "Shipper Town", "state": "GA", "zip": "00001" },
+  "consignee": { "name": "Example Consignee Inc", "addressLine1": "2 Sample Avenue", "addressLine2": "", "city": "Consignee Town", "state": "OH", "zip": "00002" },
+  "lineItems": [
+    { "pieces": "3", "code": "PLT", "hazardous": "N", "description": "Synthetic goods", "weight": "1200", "shipmentType": "LTL" }
+  ],
+  "referenceNumbers": { "customerBOLNumber": "SYNTHBOL1", "masterProNumber": "", "purchaseOrderNumber": "SYNTHPO1", "pickupNumber": "SYNTHPU1", "customerShipperNumber": "SYNTHCS1", "referenceNumber": "SYNTHREF1" },
+  "deliveryInformation": {
+    "expectedDeliveryDate": "2031-04-17",
+    "expectedDeliveryTime": { "from": "09:30", "to": "13:45" },
+    "deliveryAppointmentDate": "N/A",
+    "deliveryAppointmentTime": "",
+    "deliveryDate": "",
+    "deliveryDateSecondary": "0",
+    "deliveryTime": { "from": "", "to": "" },
+    "signature": "",
+    "hasDeliveryAppointment": false,
+    "isDeliveryAppointmentDate": false,
+    "isContactCustomerService": false,
+    "isAppointmentRequiredCall": false
+  },
+  "shipmentInformation": {
+    "totalPieces": "3",
+    "totalWeight": "1200",
+    "totalCube": "88",
+    "type": "PPD",
+    "driverNumber": "99001",
+    "trailerNumber": "990001",
+    "pickupDate": "2031-04-14",
+    "serviceDays": "N/A",
+    "guaranteed": "",
+    "status": "At Destination Terminal",
+    "exceptionWarning": false,
+    "canViewConfidentialInformation": false
+  },
+  "history": [
+    { "activity": "Arrived at Destination Terminal", "city": "Example City", "date": "2031-04-16", "state": "OH", "time": "11:07 pm", "display": true },
+    { "activity": "Departed from Terminal", "city": "Sample Hub", "date": "2031-04-16", "state": "TN", "time": "12:52 pm", "display": true },
+    { "activity": "Arrived at Breakbulk Terminal", "city": "Sample Hub", "date": "2031-04-15", "state": "TN", "time": "03:18 am", "display": true },
+    { "activity": "Departed from Terminal", "city": "Origin Town", "date": "2031-04-14", "state": "GA", "time": "09:41 pm", "display": true },
+    { "activity": "Arrived at Origin Terminal", "city": "Origin Town", "date": "2031-04-14", "state": "GA", "time": "06:26 pm", "display": false },
+    { "activity": "Depart from Customer Location", "city": "Shipper Town", "date": "2031-04-14", "state": "GA", "time": "04:59 pm", "display": false },
+    { "activity": "Pickup from Customer", "city": "Shipper Town", "date": "2031-04-14", "state": "GA", "time": "12:13 pm", "display": false }
+  ],
+  "terminalInformation": {
+    "destinationTerminal": { "addressLine1": "3 Example Way", "addressLine2": "", "city": "Example City", "fax": "5550000001", "manager": "Example Manager", "name": "Example City Terminal", "state": "OH", "telephone": "5550000002", "tid": "EXA", "tollFreeNumber": "8000000003", "zip": "00003" },
+    "originTerminal": { "addressLine1": "4 Sample Way", "addressLine2": "", "city": "Origin Town", "fax": "5550000004", "manager": "Sample Manager", "name": "Origin Town Terminal", "state": "GA", "telephone": "5550000005", "tid": "SMP", "tollFreeNumber": "8000000006", "zip": "00004" }
+  },
+  "trustedUser": false
+}

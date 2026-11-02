@@ -1,0 +1,51 @@
+{
+  "id": "wassel",
+  "displayName": "Wassel",
+  "aliases": [
+    "Wassel (واصل)",
+    "Wassel Logistics",
+    "واصل",
+    "واصل لوجستيك",
+    "Palestinian Distribution and Logistics Services",
+    "الفلسطينية للتوزيع والخدمات اللوجستية"
+  ],
+  "region": {
+    "countries": [
+      "PS"
+    ]
+  },
+  "brand": {
+    "color": "#112c45"
+  },
+  "selectable": true,
+  "timezone": "Asia/Hebron",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://wassel.ps/en/tracking?awb={trackingNumber}",
+    "searchUrl": "https://wassel.ps/en/tracking",
+    "canaryUrl": "https://wassel.ps/en/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "wassel.ps",
+        "www.wassel.ps"
+      ],
+      "pathPattern": "^/(?:en|ar)/tracking/?$",
+      "params": [
+        "awb",
+        "trackingNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

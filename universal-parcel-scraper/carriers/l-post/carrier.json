@@ -1,0 +1,100 @@
+{
+  "id": "l-post",
+  "displayName": "L-POST",
+  "aliases": [
+    "Л-Пост",
+    "Лабиринт-Пост",
+    "Labirint Post",
+    "L Post"
+  ],
+  "region": {
+    "countries": [
+      "RU"
+    ]
+  },
+  "brand": {
+    "color": "#5b2599"
+  },
+  "selectable": true,
+  "timezone": "Europe/Moscow",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "l-post",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 808
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "eta",
+    "pickup_point",
+    "sender_name"
+  ],
+  "portal": {
+    "url": "https://l-post.ru/tracking?id={trackingNumber}",
+    "searchUrl": "https://l-post.ru/tracking",
+    "canaryUrl": "https://l-post.ru/tracking",
+    "shows": [
+      "status",
+      "history",
+      "eta",
+      "eta_window",
+      "pickup_point",
+      "pickup_deadline",
+      "sender_name",
+      "recipient_address",
+      "payment_details",
+      "office_contact_details",
+      "delivery_method",
+      "customer_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "eta",
+      "pickup_point",
+      "sender_name"
+    ],
+    "discarded": [
+      "eta_window",
+      "pickup_deadline",
+      "recipient_address",
+      "payment_details",
+      "office_contact_details",
+      "delivery_method",
+      "customer_reference"
+    ],
+    "unavailable": [
+      "location",
+      "offset_timestamps",
+      "recipient_name",
+      "weight",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "l-post.ru"
+      ],
+      "pathPattern": "^/tracking(?:/order)?/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "l-post-1",
+      "pattern": "^ABC\\d{8}$",
+      "confidence": "high"
+    }
+  ]
+}

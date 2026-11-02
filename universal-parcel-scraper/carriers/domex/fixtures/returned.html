@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>Order Details - Domex</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+
+<body>
+<div class=" w-full">
+        <header class=" w-full fixed z-50">
+            <nav class=" w-full">
+                <ul>
+                    <li class=" font-[500] text-[13px]"><a class=" hover:text-[#FFCD05] font-bold  " href="https://domex.lk/about.php">ABOUT</a></li>
+                    <li class=" font-[500] text-[13px]"><a class=" hover:text-[#FFCD05] font-bold " href="https://domex.lk/branches.php">BRANCHES</a></li>
+                </ul>
+                <a href="https://portal.domex.lk/"><button style="font-family: Oxygen;">Login to Portal</button></a>
+            </nav>
+        </header>
+        <script>
+            $("#reg-btn").click(function () {
+                $("#reg-list").toggleClass(" hidden");
+            });
+        </script><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <style>
+        th,
+        td {
+            font-family: "Montserrat";
+        }
+    </style>
+</head>
+<body>
+    <!-- hotline -->
+
+    <div class=" w-full bg-[#FFCD05] min-[300px]:pt-[9vh] min-[800px]:pt-[10vh]">
+
+        <div class=" min-[300px]:w-full min-[800px]:w-[70%] mx-auto">
+
+            <h1
+
+                class=" min-[300px]:text-[13px] text-center min-[800px]:text-[35px] bg-[#FFCD05] min-[300px]:p-2 min-[800px]:p-5">
+
+                HOTLINE: <span href="tel:0110000000" class=" text-[#7A1B28]">011 0 000 000 </span>| PICK-UP-DESK: <span
+
+                    href="tel:0110000000" class=" text-[#7A1B28]">011 0 00 00 01</span></h1>
+
+        </div>
+
+    </div>
+<form method="get" action="/Order-Details.php" class="flex flex-row gap-5">
+    <div class=" w-full mt-[2rem]">
+        <div class=" min-[300px]:w-[95%] min-[800px]:w-[90%] mx-auto">
+            <div class=" grid grid-cols-1">
+                <div class=" w-full" style="background-color: #7a1b28; padding: 20px; text-align: center;">
+                    <input type="text" id="wbno" name="wbno" placeholder="Enter Waybill No:" class="focus-visible:outline-none:text-[13px]" style="min-width: 190px; max-width: 300px; height:40px; padding-left:10px;" value="EC000000003">
+                    <button style="background-color: #ffcd05; height: 40px; padding: 7px; border-radius: 6px; color: white; font-weight: bold; text-shadow: 0 0 2px black; margin-left: 5px;" >TRACK YOUR ORDER</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+            <div class=" w-full mt-[2rem]">
+        <div class=" min-[300px]:w-[95%] min-[800px]:w-[90%] mx-auto">
+            <div class=" grid min-[300px]:grid-cols-1 min-[800px]:grid-cols-2 gap-4 mb-[2rem]">
+                <div class=" w-full grid gap-2">
+                    <div class=" w-full">
+                        <table class=" w-full border-[1px] border-black rounded-lg">
+                            <tr>
+                                <th class=" bg-[#ffcd05] p-4 text-[#781a28] font-bold text-[20px]" colspan="2">WAYBILL INFORMATION</th>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 w-[40%] border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Waybill No:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="WayBillNumber">EC000000003</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Pickup Date:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="pickupDate">2026-05-04</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Paymemnt Method:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="paymentMethod">Cash</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Item Type:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="itemType">Parcel</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Is Paid:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="ispaid">Yes</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">No. of pieces:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="no_of_peace">1</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Pkg. Weight(g)::</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="weight">1 (g)</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class=" w-full">
+                        <table class=" w-full border-[1px] border-black">
+                            <tr>
+                                <th class=" bg-[#ffcd05] p-4 text-[#781a28] font-bold text-[20px]" colspan="2">SENDER'S INFOMATION</th>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 w-[40%] border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]" >Sender's Name:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="senderName">SAMPLE STORE (TEST)</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 w-[40%] border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]" >Sender's Address:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="senderAddress">NO 1, EXAMPLE ROAD, SAMPLETOWN.</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 w-[40%] border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]" >Sender's Contact No:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="senderContactNo">0700000000</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Pickup City:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="pickupCity"></td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+
+                <div class=" w-full grid gap-3">
+
+                    <div class=" w-full">
+                        <table class=" w-full border-[1px] border-black">
+                            <tr>
+                                <th class=" bg-[#ffcd05] p-4 text-[#781a28] font-bold text-[20px]" colspan="2">Delivery INFORMATION</th>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 w-[40%] py-9 border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Delivered by:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="deliveredBy"></td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Delivered To:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="deliveredTo"></td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                    <div class=" w-full">
+                        <table class=" w-full border-[1px] border-black">
+                            <tr>
+                                <th class=" bg-[#ffcd05] p-4 text-[#781a28] font-bold text-[20px]" colspan="2">RECEIVER'S INFORMATION</th>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 w-[40%] py-10  border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Receiver's Name:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="ReceiverName">TEST RECEIVER</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Receiver's Phone: </td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="ReceiverPhone">0700000001/0700000002</td>
+                            </tr>
+                            <tr>
+                                <td class=" p-2 border-[1px] border-black bg-[#781a28] font-[500] text-[#ffcd05]">Destination City:</td>
+                                <td class=" p-2 border-[1px] border-black font-[500] text-[16px]" id="DistinationCity">Riverside</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class=" grid grid-cols-1">
+                <div class=" w-full">
+                    <table class=" w-full border-[1px] border-black">
+                        <tr>
+                            <th class=" bg-[#ffcd05] p-4 text-[#781a28] font-bold text-[20px]" colspan="2">TRACKING INFORMATION</th>
+                        </tr>
+    <tr>
+        <th class=" bg-[#781a28] border-r-[1px] border-black p-2 text-[#ffcd05] font-bold text-[20px]">Date / Time</th>
+        <th class=" bg-[#781a28] p-2 text-[#ffcd05] font-bold text-[20px]">Delivery Status:</th>
+    </tr>
+    <tbody id="tracking-table-body">
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-04 @ (1:10 pm)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Waiting To Pickup By Customer location        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-04 @ (8:30 pm)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Parcel Send to Sort Facility By Northbay        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-05 @ (1:20 am)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Arrived at Sort Facility By Central Ops Hub        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-05 @ (2:45 am)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">In Transit By Central Ops Hub        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-05 @ (8:40 am)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Parcel Received By Hilltown        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-05 @ (10:05 am)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Out For Delivery By Hilltown        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-05 @ (3:50 pm)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Hold By Hilltown        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-06 @ (2:15 pm)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Hold By Hilltown        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-07 @ (1:30 pm)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Return To Next Branch By Hilltown        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-07 @ (5:10 pm)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Parcel Send to Sort Facility By Hilltown        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-08 @ (12:15 am)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Arrived at Sort Facility By Central Ops Hub        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-08 @ (12:15 am)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Arrived at Sort Facility By Central Ops Hub        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-08 @ (2:05 am)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">In Transit By Central Ops Hub        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-08 @ (9:00 am)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Parcel Received By Northbay        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-08 @ (11:40 am)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Return To Customer By Northbay        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-08 @ (11:52 am)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Return To Customer Confirmed By Northbay        </td>
+    </tr>
+
+           <tr>
+            <td class=" p-2 border-[1px] border-black  font-[500] ">2026-05-11 @ (10:25 am)</td>
+            <td class=" p-2 border-[1px] border-black font-[500] text-[16px]">Complete By HO - FINANCE        </td>
+    </tr>
+
+                                           </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- door-to door  -->
+
+    <div class=" w-full">
+        <h1 class=" text-center">Fast Door-to-Door <span class=" text-[#7A1B28]">Courier Service</span></h1>
+        <div>
+            <h1 id="countdown">0+</h1>
+            <h2>Branches</h2>
+        </div>
+    </div>
+<script>
+    let count = 0;
+    const countdownElement = document.getElementById('countdown');
+</script>
+    <footer class=" w-full">
+    <div class=" w-full  bg-[#7A1B28]">
+        <ul>
+            <li class="mb-2"><a href="https://domex.lk/branches.php" class="hover:underline">Branches & Delivery Schedule</a></li>
+            <li class="mb-2"><a href="https://domex.lk/contact.php" class="hover:underline">Contact Us</a></li>
+        </ul>
+    </div>
+</footer>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+
+</html>   
+</body>
+</html>

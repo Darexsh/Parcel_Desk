@@ -1,0 +1,50 @@
+{
+  "responseStatus": null,
+  "globalDelivered": true,
+  "globalBoxtalState": "F",
+  "globalTrackingUrl": "https://www.mondialrelay.com/public/permanent/tracking.aspx?ens=TEST0000&exp=00000017&pays=FR&language=FR&crc=0000",
+  "packageTrackings": [
+    {
+      "boxtalReference": "2603150000MONRAB12FR",
+      "carrierReference": "00000017",
+      "packageReference": "00000017",
+      "clientReference": "ORDER-0001",
+      "packageClientReference": null,
+      "carrierCode": "MONR",
+      "serviceCode": "CpourToi",
+      "trackingUrl": "https://www.mondialrelay.com/public/permanent/tracking.aspx?ens=TEST0000&exp=00000017&pays=FR&language=FR&crc=0000",
+      "lines": [
+        {
+          "carrierCode": "MONR", "serviceCode": "CpourToi", "boxtalReference": "2603150000MONRAB12FR",
+          "carrierReference": "00000017", "packageReference": "00000017", "clientReference": "ORDER-0001", "packageClientReference": null,
+          "trackingDate": "2026-03-19T15:56:30", "message": "Colis livré au destinataire", "description": null, "localization": "Relais Test",
+          "carrierState": "LIV", "carrierSubState": "DES", "boxtalState": "F", "boxtalSubStatus": "DELIVERED", "boxtalMessage": "Livré",
+          "emcState": "LIV", "finalState": true, "newEvent": false, "type": "WEBHOOK"
+        },
+        {
+          "carrierCode": "MONR", "serviceCode": "CpourToi", "boxtalReference": "2603150000MONRAB12FR",
+          "carrierReference": "00000017", "packageReference": "00000017", "clientReference": "ORDER-0001", "packageClientReference": null,
+          "trackingDate": "2026-03-18T09:12:00", "message": "Colis disponible au Point Relais", "description": null, "localization": "Relais Test",
+          "carrierState": "REL", "carrierSubState": null, "boxtalState": "G", "boxtalSubStatus": "AT_RELAY_POINT", "boxtalMessage": "Au point relais",
+          "emcState": "ENV", "finalState": false, "newEvent": false, "type": "WEBHOOK"
+        },
+        {
+          "carrierCode": "MONR", "serviceCode": "CpourToi", "boxtalReference": "2603150000MONRAB12FR",
+          "carrierReference": "00000017", "packageReference": "00000017", "clientReference": "ORDER-0001", "packageClientReference": null,
+          "trackingDate": "2026-03-16T21:40:00", "message": "Colis en cours d'acheminement", "description": "Agence de tri", "localization": null,
+          "carrierState": null, "carrierSubState": null, "boxtalState": "C", "boxtalSubStatus": "IN_TRANSIT", "boxtalMessage": "En cours d'acheminement",
+          "emcState": "ENV", "finalState": false, "newEvent": false, "type": "WS"
+        },
+        {
+          "carrierCode": "MONR", "serviceCode": "CpourToi", "boxtalReference": "2603150000MONRAB12FR",
+          "carrierReference": "00000017", "packageReference": "00000017", "clientReference": "ORDER-0001", "packageClientReference": null,
+          "trackingDate": "2026-03-16T11:32:00", "message": "Prise en charge point relais", "description": null, "localization": "Relais Origine",
+          "carrierState": null, "carrierSubState": null, "boxtalState": "C", "boxtalSubStatus": "IN_TRANSIT", "boxtalMessage": "En cours d'acheminement",
+          "emcState": "ENV", "finalState": false, "newEvent": false, "type": "WS"
+        }
+      ],
+      "delivered": true,
+      "shipped": false
+    }
+  ]
+}

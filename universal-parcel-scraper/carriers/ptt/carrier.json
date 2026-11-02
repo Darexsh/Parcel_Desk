@@ -1,0 +1,87 @@
+{
+  "id": "ptt",
+  "displayName": "PTT",
+  "aliases": [
+    "PTT Kargo",
+    "Turkish Post",
+    "Turkey Post",
+    "Türk Postası",
+    "PTT Posta"
+  ],
+  "region": {
+    "countries": [
+      "TR"
+    ]
+  },
+  "brand": {
+    "color": "#00a9ce"
+  },
+  "selectable": true,
+  "timezone": "Europe/Istanbul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ptt",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 400
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "weight",
+    "pickup_point"
+  ],
+  "portal": {
+    "url": "https://www.ptt.gov.tr/",
+    "searchUrl": "https://www.ptt.gov.tr/",
+    "canaryUrl": "https://www.ptt.gov.tr/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "sender_name",
+      "recipient_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "pickup_point"
+    ],
+    "discarded": [
+      "sender_name",
+      "recipient_name",
+      "signatory",
+      "postage",
+      "acceptance_office",
+      "delivery_office"
+    ],
+    "unavailable": [
+      "eta",
+      "service_name",
+      "offset_timestamps"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "ptt-1",
+      "pattern": "^KP\\d{11}$",
+      "confidence": "high"
+    },
+    {
+      "id": "ptt-s10",
+      "pattern": "^[A-Z]{2}\\d{9}TR$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

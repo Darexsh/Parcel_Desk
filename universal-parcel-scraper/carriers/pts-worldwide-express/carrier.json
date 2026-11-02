@@ -1,0 +1,99 @@
+{
+  "id": "pts-worldwide-express",
+  "displayName": "PTS Worldwide Express",
+  "aliases": [
+    "PTS Kargo"
+  ],
+  "region": {
+    "countries": [
+      "TR"
+    ]
+  },
+  "brand": {
+    "color": "#be1722"
+  },
+  "selectable": true,
+  "timezone": "Europe/Istanbul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pts-worldwide-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 818
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://tracking.pts.net/{trackingNumber}",
+    "searchUrl": "https://wp.pts.net/gonderi-takip",
+    "canaryUrl": "https://wp.pts.net/gonderi-takip",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "origin_country",
+      "destination_country",
+      "canonical_tracking_number",
+      "recipient_address",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "destination_country",
+      "canonical_tracking_number",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "origin_country",
+      "recipient_address"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "delivered_at",
+      "offset_timestamps",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.pts.net"
+      ],
+      "path": "^/([0-9]+)/?$"
+    },
+    {
+      "domains": [
+        "pts.net",
+        "www.pts.net"
+      ],
+      "pathPattern": "^/sqlptstrack\\.php$",
+      "params": [
+        "trackid"
+      ]
+    }
+  ],
+  "detection": []
+}

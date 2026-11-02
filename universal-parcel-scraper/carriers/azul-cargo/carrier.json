@@ -1,0 +1,45 @@
+{
+  "id": "azul-cargo",
+  "displayName": "Azul Cargo Express",
+  "aliases": [
+    "Azul Cargo",
+    "Azul Linhas Aéreas Cargo"
+  ],
+  "region": {
+    "countries": [
+      "BR"
+    ]
+  },
+  "brand": {
+    "color": "#011e40"
+  },
+  "selectable": true,
+  "timezone": "America/Sao_Paulo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "canaryUrl": "https://www.azulcargoexpress.com.br/Rastreio/Rastreio",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.azulcargoexpress.com.br",
+        "azulcargoexpress.com.br",
+        "www.azulcargo.com.br"
+      ],
+      "pathPattern": "^/+Rastreio\\.aspx$",
+      "params": [
+        "n"
+      ]
+    }
+  ],
+  "detection": []
+}

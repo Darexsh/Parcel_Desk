@@ -1,0 +1,10 @@
+{
+  "carrier": "best-overnite-express",
+  "entries": [
+    {"wording": "PICK UP MADE", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Scan of the tracking service: the freight was collected; its place is the origin terminal's town."},
+    {"wording": "DELIVERED (CLEAR)", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Scan of the tracking service: a delivery signed for without exceptions; its place is who signed."},
+    {"wording": "LINE", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Status column of the classic PRO trace: the shipment left the origin terminal on a line-haul trip."},
+    {"wording": "DELVR", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Status column of the classic PRO trace: delivery from the destination terminal."},
+    {"wording": "DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Signature line of the classic PRO trace, next to the receiver's name and the delivery times."}
+  ]
+}

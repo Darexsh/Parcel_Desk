@@ -1,0 +1,14 @@
+{
+  "carrier": "osm-worldwide",
+  "entries": [
+    {"code": "OSM02", "wording": "Shipping label created - OSM awaiting item", "language": "en", "stage": "registered", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The shipper's label, before OSM has the parcel."},
+    {"code": "OSM04", "wording": "Arrived at OSM facility", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "Each OSM facility the parcel reaches, the first as well."},
+    {"code": "OSM05", "wording": "Departed OSM facility", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-12"},
+    {"code": "OSM06", "wording": "Package arrived at courier partner", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The hand-over to the last mile partner, which the tracker does not name."},
+    {"code": "OSM07", "wording": "Package accepted at courier partner", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The last mile partner takes the parcel from OSM, after OSM's own facility scans: no acceptance."},
+    {"code": "OSM09", "wording": "Package processed by courier partner", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "A last mile partner's sort."},
+    {"code": "OSM13", "wording": "Package left courier partner and is on its way", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "A last mile partner's scan. It can come days before the delivery, so it is not taken as out for delivery."},
+    {"code": "OSM01", "wording": "Package delivered", "language": "en", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-10-12"},
+    {"wording": "Picked Up by Shipping Partner", "language": "en", "stage": "registered", "confirmedBy": "documentation", "note": "OSM's FAQ says this scan is made when the label is uploaded and does not mean OSM has the parcel."}
+  ]
+}

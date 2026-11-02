@@ -1,0 +1,22 @@
+{
+  "statusCode": 200, "message": "Success", "data": [{
+    "awb": "00000000000001", "productType": "B2B", "currentFlow": "Forward", "currentTrackIndex": 3,
+    "referenceNo": "private-reference", "lrn": "private-lr",
+    "addressInfo": { "name": "Private Recipient", "address": "Example Address" },
+    "status": { "status": "DELIVERED", "statusType": "DL", "statusDateTime": "2026-03-04T10:00:00.000000", "instructions": "Private instruction" },
+    "trackingStates": [
+      { "label": "Picked Up", "date": "Tue, 24 Feb, 9:15 AM", "scanDateTime": "", "scans": null },
+      { "label": "On the Way", "date": "Fri, 27 Feb, 6:00 AM", "scanDateTime": "", "scans": [
+        { "scan": "In Transit", "scanType": "UD", "scanDateTime": "", "cityLocation": "Example Gateway" },
+        { "scan": "In Transit", "scanType": "UD", "scanDateTime": "", "cityLocation": "Example Hub" },
+        { "scan": "In Transit", "scanType": "UD", "scanDateTime": "", "cityLocation": "Example Hub" }
+      ] },
+      { "label": "Out for Delivery", "date": "Mon, 2 Mar, 10:30 AM", "scanDateTime": "", "scans": [
+        { "scan": "Dispatched", "scanType": "UD", "scanDateTime": "", "cityLocation": "Example City" }
+      ] },
+      { "label": "Delivered", "date": "Mon, 2 Mar, 7:45 PM", "scanDateTime": "", "scans": [
+        { "scan": "Delivered", "scanType": "DL", "scanDateTime": "", "cityLocation": "Example City", "scanNslRemark": "Private remark" }
+      ] }
+    ]
+  }]
+}

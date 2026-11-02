@@ -1,0 +1,81 @@
+{
+  "carrier": "flickpost",
+  "records": [
+    {
+      "number": "EW008643669MY",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260824030933/https://flickpost.com/tracking/?trackingNumber=EW008643669MY",
+        "date": "2026-08-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "pos-malaysia",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Flickpost's own tracker answers this Pos Malaysia number with a 2026 parcel from Malaysia that a partner delivered in the United States."
+    },
+    {
+      "number": "EW004577235MY",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://flickpost.com/how-to-track-shipment-status/",
+        "date": "2026-11-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "pos-malaysia",
+        "confidence": "high"
+      },
+      "note": "A screenshot of Flickpost's tracker on its how-to-track page shows this Pos Malaysia number held for customs inspection."
+    },
+    {
+      "number": "X018660",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://flickpost.com/how-to-track-shipment-status/",
+        "date": "2026-11-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The same screenshot on Flickpost's how-to-track page shows this id of its own as delivered; its tracker answers it with a 2024 priority parcel."
+    },
+    {
+      "number": "LP589729485MY",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://flickpost.com/how-to-track-shipment-status/",
+        "date": "2026-11-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "pos-malaysia",
+        "confidence": "high"
+      },
+      "note": "The same screenshot on Flickpost's how-to-track page shows this Pos Malaysia number awaiting clearance abroad; its tracker answers it with a 2024 parcel delivered in Australia."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+
+<div id="dashboard-features-info">
+	<div class="features-info-container">
+		 <ul class="nav nav-tabs" id="featuresTab">
+			 <li class="active">
+			 	<a class="clear-srch-res relativePos" id="clear-srch-res" onclick="_searchportlet_WAR_searchportlet_clearResults('https://www.myteamge.com/search-shipment?p_p_id=searchportlet_WAR_searchportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_searchportlet_WAR_searchportlet_searchMode=clear-results');">
+			 		<span class="ico-cancelled tab-cnc"></span>
+			 	</a>
+			 	<span class="ico-loading"></span>
+			 </li>
+		</ul>
+	</div>
+	<div class="tab-content">
+		<div class="clearfix quick-srch-results">
+			<div class="content-title download-signIn-check hidden">
+				<span class="total-counter">Displaying 1 search</span>
+					<a href='https://www.myteamge.com/search-shipment?p_p_id=searchportlet_WAR_searchportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=downloadSearchResults&p_p_cacheability=cacheLevelPage' class="download-text"><span class="save-search-download-link"><i class="ico-download-2 title"></i>Download</span></a>
+			</div>
+			<table border="0" width="100%" id="quickSearchTableResult">
+				<tr class="grid-header hide-in-mob hidden-xs">
+					<th><span class="hide-in-mob">Shipment no.</span></th>
+					<th class="hide-in-mob">References</th>
+					<th class="hide-in-mob">Milestone</th>
+					<th>Sender location</th>
+					<th>Receiver location</th>
+					<th>Estimated/Actual delivery</th>
+					<th class="items">Items</th>
+				</tr>
+					  		<tr class="grid-row-header single-term">
+					  			<td colspan="7">
+					    			<b>1 shipment</b> matches<span class="srch-term"> 9900000000017</span> in our systems
+					    		</td>
+					    	</tr>
+							<tr class="grid-row data-row IsCollapse  9900000000017" data-refnum="0f1e2d3c4b5a69788796a5b4c3d2e1f00f1e2d3c"  data-busUnit ="IPEC">
+								<td class="shipmentRef mobdv-clearfix" >
+								    <div class="shipment-no-div">
+									    <!-- <i class="ico-save flLeft ico-star-mob"></i> 
+									    <span class="device-label">Shipment no.</span>-->
+									    <label class="data-title visible-xs">Shipment no.</label>
+										<span class="shipNo">9900000000017
+</span>
+								    </div>
+								</td>
+								<td class="senderRef">
+									<div class="sender-ref">
+										<!--<span class="device-label">References</span>-->
+										<label class="data-title visible-xs">References</label>
+									</div>
+								</td>
+									<td class="clear milestone hide-in-mob">
+										<!-- <span class="ico-exception excptn-row IsHide-excptn flLeft"></span> -->
+											<i class="ico-delivered del-color ico-style flLeft hide-in-mob"></i>
+											<span class="status-content hide-in-mob">Delivered</span>
+									</td>
+									<td class="senderLoc hide-in-mob">
+									<!--<span class="mob-label">Sender location</span>-->
+									<label class="data-title visible-xs">Sender location</label>
+										Sampleton
+												VIC
+								</td>
+								<td class="deliveryLoc hide-in-mob">
+									<!--<span class="mob-label">Receiver location</span>-->
+									<label class="data-title visible-xs">Receiver location</label>
+										Testbury
+												VIC
+								</td>
+								<td class="estimatedDeliveryDate">
+									<!-- <span class="mob-label">Estimated delivery</span> -->
+									<label class="data-title visible-xs">Estimated/Actual delivery</label>
+									22 Sep 2026
+								</td>
+								<td class="items">
+									<!-- <span class="mob-label">Items</span> -->
+									<label class="data-title visible-xs">Items</label>
+									2
+								</td>
+								<td class="clear milestone align-middle device-only">
+								    <!-- <span class="ico-exception excptn-row IsHide-excptn flLeft"></span> -->
+								    <i class="ico-delivered del-color ico-style flLeft"></i>
+		                            <span class="status-content">Delivered</span>
+		                        </td>
+								<td class="senderLoc align-middle device-only">
+										Sampleton
+												VIC
+								</td>
+								<td class="deliveryLoc align-middle device-only">
+										Testbury
+												VIC
+								</td>
+		                    </tr>
+				<tr class="grid-row-footer hidden">
+					<td colspan="7" align="center">
+			  		</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+function _searchportlet_WAR_searchportlet_clearResults(clearResultsUrl) {
+	$('#clear-srch-res .tab-cnc').addClass('hidden-def');
+	$('#clear-srch-res').addClass('active_loader');
+	$$dom.jQ13.ajax({
+		type: "GET",
+		url: clearResultsUrl,
+		cache: false,
+		success: function() {
+			$( '#searchResults' ).empty();
+			$('.progress-bar-image').addClass('hidden-def');
+		},
+		error: function(jqXHR, textStatus, errorThrown) {
+			$('#clear-srch-res .tab-cnc').removeClass('hidden-def');
+			$('#clear-srch-res').removeClass('active_loader');
+		}
+	}); 
+}
+</script>
+<script type="text/javascript">
+    //validayeDeliveryDateFn('quicksearch');
+          if(themeDisplay.isSignedIn()){
+          $('.download-signIn-check').removeClass('hidden');
+          }
+</script>

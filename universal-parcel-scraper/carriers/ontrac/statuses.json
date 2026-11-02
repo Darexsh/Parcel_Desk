@@ -1,0 +1,88 @@
+{
+  "carrier": "ontrac",
+  "entries": [
+    {
+      "wording": "Package Delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "code": "DLVD"
+    },
+    {
+      "wording": "Out for Delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "code": "OFDL"
+    },
+    {
+      "wording": "Loaded onto vehicle",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "code": "LOAD"
+    },
+    {
+      "wording": "Business closed. Please provide hours",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "code": "BCLD"
+    },
+    {
+      "wording": "Delivery Pending",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "code": "UTLV"
+    },
+    {
+      "wording": "Arrived at Final Servicing Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "code": "SFCT"
+    },
+    {
+      "wording": "Origin Scan",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "code": "ORIG"
+    },
+    {
+      "wording": "On its way to OnTrac",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "code": "EXRL"
+    },
+    {
+      "code": "ONHD",
+      "wording": "Details needed. Please contact us",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "OnTrac holds the parcel until the recipient supplies address details or delivery instructions; its code list files this as an exception."
+    },
+    {
+      "code": "NFRP",
+      "wording": "Order has been transferred to another carrier",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "portal",
+      "firstSeen": "2026-09-28",
+      "note": "OnTrac's code table and tracking page call it Delivered, but the parcel went to another carrier, which the reply does not name. A handoff is not a delivery to the recipient."
+    },
+    {
+      "code": "NDMI",
+      "wording": "Incomplete address. Please contact us",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "The driver could not deliver for missing address details; OnTrac's code list files it as a delivery attempt."
+    }
+  ]
+}

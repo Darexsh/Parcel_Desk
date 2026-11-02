@@ -1,0 +1,107 @@
+{
+  "parcels": [
+    {
+      "barcode": "CE900000022SK",
+      "category": "4",
+      "documents": [],
+      "query": "CE900000022SK",
+      "weight": 1.25,
+      "recipient": {
+        "country": "DE"
+      },
+      "state": {
+        "at": 20640,
+        "state": "delivered"
+      },
+      "events": [
+        {
+          "at": 1783333200000,
+          "desc": {
+            "en": "Delivered to addressee",
+            "sk": "Doručená"
+          },
+          "type": "IPS_EMI_THERE",
+          "on": {
+            "country": "DE"
+          }
+        },
+        {
+          "at": 1783323900000,
+          "desc": {
+            "en": "Out for delivery",
+            "sk": "Prevzatá na doručenie"
+          },
+          "type": "IPS_EDG_THERE",
+          "on": {
+            "country": "DE"
+          }
+        },
+        {
+          "at": 1783116600000,
+          "desc": {
+            "en": "Departure from inward office of exchange",
+            "sk": "Výstup zásielky zo vstupného výmenného úradu/z colnice"
+          },
+          "type": "IPS_EMF",
+          "on": {
+            "country": "DE"
+          }
+        },
+        {
+          "at": 1783101720000,
+          "desc": {
+            "en": "Arrival at inward office of exchange",
+            "sk": "Vstup do krajiny adresáta"
+          },
+          "type": "IPS_EMD_THERE",
+          "on": {
+            "country": "DE"
+          }
+        },
+        {
+          "at": 1782962100000,
+          "desc": {
+            "en": "Departure from outward office of exchange",
+            "sk": "Výstup z krajiny odosielateľa"
+          },
+          "type": "IPS_EMC_THERE"
+        },
+        {
+          "at": 1782934812000,
+          "desc": {
+            "en": "In transit",
+            "sk": "V preprave"
+          },
+          "type": "VDOIO"
+        },
+        {
+          "at": 1782914815000,
+          "desc": {
+            "en": "Posted {office}",
+            "sk": "Podaná {office}"
+          },
+          "type": "PODOD",
+          "on": {
+            "city": "Vzorovo",
+            "dname": "Pošta Vzorovo 1",
+            "gps": [
+              48.9999,
+              18.9999
+            ],
+            "id": "999901",
+            "kind": "office",
+            "name": "Vzorovo 1",
+            "nsk": "vzorovo1",
+            "phones": [
+              "0900000000"
+            ],
+            "rname": "Vzorovo 1",
+            "street": "Vzorová 1",
+            "type": "p",
+            "zip": "99999"
+          }
+        }
+      ]
+    }
+  ]
+}

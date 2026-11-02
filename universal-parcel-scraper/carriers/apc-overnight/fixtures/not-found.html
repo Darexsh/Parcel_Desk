@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APC - Choice</title>
+    <link rel="stylesheet" href="/css/apc-default.css" />
+    <link rel="stylesheet" href="/css/TrackParcel.css" type="text/css" />
+    <script src="/js/inflight.js"></script>
+</head>
+<body>
+    <div class="layout-body fill-height">
+        <header>
+            <div class="apc-banner">
+                <img class="logo" src="/img/apc-logo.svg" alt="APC Logo" />
+            </div>
+        </header>
+        <main>
+<div class="login-body">
+    <div class="main-content">
+        <div class="login-content">
+            <div class="login-text">
+                <p>Track and rearrange your deliveries with</p>
+                <p class="apc-choice-logo-as-text">APC Choice</p>
+            </div>
+
+            <div class="login-form">
+
+                <p>
+                    Please complete both the fields below to track your parcel.
+                    If you cannot resolve your query via this page and would like support from
+                    your local delivery depot, please contact us.
+                </p>
+
+<form action="/APCChoice" method="post">                    <span id="notification"></span>
+                    <div class="field-container">
+                        <div class="field-group shrink-0 grow-1">
+                            <label for="ConsignmentNumber">Consignment Number:</label>
+                            <input id="ConsignmentNumber" maxlength="22" name="ConsignmentNumber" type="text" value="2026030599999999999991" />
+                            <span class="field-validation-valid" data-valmsg-for="ConsignmentNumber" data-valmsg-replace="true"></span>
+                        </div>
+                        <div class="field-group shrink-1 grow-1">
+                            <label for="Postcode">Postcode:</label>
+                            <input id="Postcode" maxlength="8" name="Postcode" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="Postcode" data-valmsg-replace="true"></span>
+                        </div>
+                        <div class="field-group fixed-size">
+                            <button id="submitButtonLogin" type="submit" class="btn apc-btn-primary">Find My Parcel</button>
+                        </div>
+                    </div>
+<input name="__RequestVerificationToken" type="hidden" value="SYNTHETIC-TOKEN" /></form>
+
+                    <div class="login-error-container">
+                            <p class="login-error">Your consignment could not be found</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="login-faqs">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq">
+            <h2>
+                <span class="faq-title">What&rsquo;s a consignment number?</span>
+                <span class="icon"></span>
+            </h2>
+            <p>A consignment number is the 7&ndash;digit tracking reference assigned to your parcel.</p>
+        </div>
+    </div>
+</div>
+<script src="/js/Login.js"></script>
+        </main>
+        <div class="flex-grow-1"></div>
+        <footer id="apcfooter">
+            <p>
+                The Alternative Parcels Company Limited, Example Sortation Centre, Sampletown <br />
+                Registered in England and Wales
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/themes/user/procarrier/css/app.css?v=4.76b">
+
+        <title>Pro Carrier Tracking</title>
+        <meta name="description" content="Pro Carrier Tracking">
+    </head>
+
+    <body id="body" data-toggler=".lock">
+    <link rel="stylesheet" href="https://use.typekit.net/aoo2bol.css">
+
+      <main>
+
+        <header class="header">
+            <div class="grid-container">
+                <div class="grid-x align-middle" >
+                    <div class="cell small-6 large-8">
+                        <a href="https://weareprocarrier.com/"><img class="logo" src="https://tracker-content-silo.ams3.cdn.digitaloceanspaces.com/cms-files/pro-carrier-logo.svg" alt="Pro Carrier logo" border="0"></a>
+                        <h3 class="logo-title logo-title--desktop">Delivery Tracking</h3>
+                    </div>
+                      <div class="cell small-6 large-4 text-right">
+                            <div id="google_translate_element"></div>
+                            <button class="button button--translate notranslate" type="button" data-toggle="language-dropdown"><span id="selected-language"></span></button>
+                            <div class="dropdown-pane bottom right" id="language-dropdown" data-dropdown data-close-on-click	>
+                                <ul class="menu menu--translate vertical text-left notranslate">
+                                    <li><a href="#en" onclick="doGTranslate('en|en')" id="lang-en" title="English"><img src="/themes/user/procarrier/img/flags/svg/en.svg" alt="en" /> English</a></li>
+                                    <li><a href="#fr" onclick="doGTranslate('en|fr')" id="lang-fr" title="Français"><img src="/themes/user/procarrier/img/flags/svg/fr.svg" alt="fr" /> Français</a></li>
+                                </ul>
+                            </div>
+                          <h3 class="logo-title logo-title--mobile">Delivery Tracking</h3>
+                      </div>
+                </div>
+            </div>
+        </header>
+
+                  <section class="hero" style="background-image: url('https://tracker-content-silo.ams3.cdn.digitaloceanspaces.com/cms-files/hero-ecommerce-overlay_%281%29_1.jpg'); " >
+   <div class="grid-container">
+       <div class="grid-x align-middle">
+           <div class="cell large-12">
+               <h1>
+                    Track <span>your order</span>
+                 </h1>
+                  <p>To check the status of your order simply enter your tracking number below. This can be found in your dispatch email.</p>
+               <form action="/" method="GET" class="track-shipment-form">
+                   <input type="text" class="track-shipment-form__tn" name="tn" required >
+                   <button class="track-shipment-form__button"><span>Track</span></button>
+               </form>
+
+               <div class="switch-service switch-service--returns">
+                 <a href="/returns">Need to track a return?</a>
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
+
+
+                  <div class="callout callout--fixed alert" data-closable>
+                    <h3>Error</h3>
+                    <p>Shipment not found (DG00000000000)</p>
+                    <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+  </main>
+
+        <script src="/themes/user/procarrier/js/jquery.min.js?v=4.76b"></script>
+        <script src="/themes/user/procarrier/js/foundation.min.js?v=4.76b"></script>
+        <script type="text/javascript">
+            $(document).foundation();
+        </script>
+
+    <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'0000000000000000',t:'MDAwMDAwMDAwMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

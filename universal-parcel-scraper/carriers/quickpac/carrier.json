@@ -1,0 +1,83 @@
+{
+  "id": "quickpac",
+  "displayName": "Quickpac",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "CH"
+    ]
+  },
+  "brand": {
+    "color": "#ed1c24"
+  },
+  "selectable": true,
+  "timezone": "Europe/Zurich",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "planzer",
+    "upstreamName": "Planzer",
+    "steps": [
+      "direct"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "eta",
+    "weight",
+    "dimensions",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://tracking.app.planzer.ch/delivery/info?deliveryNumber={trackingNumber}",
+    "searchUrl": "https://www.planzer-paket.ch/de/",
+    "helpUrl": "https://www.planzer-paket.ch/de/kontakt/",
+    "canaryUrl": "https://tracking.app.planzer.ch/",
+    "shows": [
+      "status",
+      "history",
+      "eta",
+      "weight",
+      "dimensions",
+      "destination_country",
+      "recipient_address"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "weight",
+      "dimensions",
+      "delivered_at",
+      "destination_country"
+    ],
+    "discarded": [
+      "recipient_address"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "quickpac.ch"
+      ],
+      "params": [
+        "parcel"
+      ]
+    },
+    {
+      "domains": [
+        "tracking.app.planzer.ch"
+      ],
+      "params": [
+        "deliveryNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "quickpac-1",
+      "pattern": "^44\\d{16}$",
+      "confidence": "high"
+    }
+  ]
+}

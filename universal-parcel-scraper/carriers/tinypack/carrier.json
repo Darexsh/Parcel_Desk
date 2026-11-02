@@ -1,0 +1,45 @@
+{
+  "id": "tinypack",
+  "displayName": "TinyPack",
+  "aliases": [
+    "Tiny Pack",
+    "Distribuidora y Transportadora del Pacífico"
+  ],
+  "region": {
+    "countries": [
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#3dae2b"
+  },
+  "selectable": true,
+  "timezone": "America/Mexico_City",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tinypack.mx/rastreo?codigo={trackingNumber}",
+    "searchUrl": "https://tinypack.mx/rastreo/",
+    "canaryUrl": "https://tinypack.mx/rastreo/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tinypack.mx"
+      ],
+      "pathPattern": "^/rastreo/?$",
+      "params": [
+        "codigo"
+      ]
+    }
+  ],
+  "detection": []
+}

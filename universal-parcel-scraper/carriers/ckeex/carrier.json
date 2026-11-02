@@ -1,0 +1,48 @@
+{
+  "id": "ckeex",
+  "displayName": "CkeEx",
+  "aliases": [
+    "希凯易",
+    "浙江希凯易国际货运代理有限公司",
+    "City Know Express Co., Ltd.",
+    "绍兴城晓国际货运代理有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#e8651b"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.ckeex.com/track.html?nos={trackingNumber}",
+    "searchUrl": "https://www.ckeex.com/track.html",
+    "canaryUrl": "https://www.ckeex.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.ckeex.com",
+        "ckeex.com"
+      ],
+      "pathPattern": "^/track\\.html$",
+      "params": [
+        "nos"
+      ]
+    }
+  ],
+  "detection": []
+}

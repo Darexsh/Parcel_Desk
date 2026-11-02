@@ -1,0 +1,50 @@
+{
+  "id": "cargobus",
+  "displayName": "Cargobus",
+  "aliases": [
+    "CargoBus",
+    "Cargobus EE",
+    "Cargobus Eesti",
+    "T Grupp",
+    "T Grupp OÜ"
+  ],
+  "region": {
+    "countries": [
+      "EE",
+      "LV",
+      "LT"
+    ]
+  },
+  "brand": {
+    "color": "#006ade"
+  },
+  "selectable": true,
+  "timezone": "Europe/Tallinn",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://cargobusee.opter.cloud/TT?keyword={trackingNumber}",
+    "searchUrl": "https://cargobusee.opter.cloud/tt",
+    "canaryUrl": "https://cargobusee.opter.cloud/tt",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "cargobusee.opter.cloud"
+      ],
+      "pathPattern": "^/[Tt][Tt]/?$",
+      "params": [
+        "keyword"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "speedpak",
+  "displayName": "SpeedPAK",
+  "aliases": [
+    "Orange Connex",
+    "OrangeConnex"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#ee7532"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "speedpak",
+    "steps": [
+      "direct"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.orangeconnex.com/tracking",
+    "searchUrl": "https://www.orangeconnex.com/tracking",
+    "helpUrl": "https://www.ebay.com/help/buying/returns-refunds/get-help-item-hasnt-arrived?id=4042",
+    "canaryUrl": "https://www.orangeconnex.com/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner",
+      "delivered_at"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner",
+      "delivered_at"
+    ],
+    "discarded": [
+      "postcodes"
+    ],
+    "unavailable": [
+      "eta",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "orangeconnex.com",
+        "orangeconnex.cn"
+      ],
+      "params": [
+        "trackingNumber",
+        "trackingNumbers"
+      ],
+      "ownNumbersOnly": true
+    }
+  ],
+  "detection": [
+    {
+      "id": "speedpak-1",
+      "pattern": "^E[ES][A-Z0-9]{26}$",
+      "confidence": "high"
+    }
+  ]
+}

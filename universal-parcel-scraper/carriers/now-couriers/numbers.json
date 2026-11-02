@@ -1,0 +1,72 @@
+{
+  "carrier": "now-couriers",
+  "records": [
+    {
+      "number": "SH 02319901",
+      "role": "composite",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://assets-nowcouriers.nowcouriers.co.nz/app/uploads/2022/10/NOW-Couriers-Prepaid-Tickets-Reference-Guide.pdf",
+        "date": "2022-10-19",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt-it"
+        ]
+      },
+      "note": "Now Couriers' prepaid tickets reference guide shows it on its orange national ticket: product code and ticket number."
+    },
+    {
+      "number": "AB 07494351",
+      "role": "composite",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://assets-nowcouriers.nowcouriers.co.nz/app/uploads/2022/10/NOW-Couriers-Prepaid-Tickets-Reference-Guide.pdf",
+        "date": "2022-10-19",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt-it"
+        ]
+      },
+      "note": "Now Couriers' prepaid tickets reference guide shows it on its Auckland ticket; the track and trace page used it as its example too."
+    },
+    {
+      "number": "AB 04816950",
+      "role": "composite",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20120929002712/http://www.nowcouriers.co.nz:80/tt_prepaid.html",
+        "date": "2012-09-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce-es",
+          "tnt-it"
+        ]
+      },
+      "note": "Now Couriers' prepaid ticket tracking page gives it as its example: product code and ticket number."
+    }
+  ]
+}

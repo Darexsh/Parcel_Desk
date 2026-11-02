@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+  <title>Sendungsverfolgung</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="style/intex.css?_=1700000000" />
+  <script type="text/javascript">
+  //<![CDATA[
+    function activate_mail(sdnr, mid)
+    {
+      location.href = 'index.php?sdnr='+sdnr+'&mid='+mid+'&activate_mail=1';
+    }
+
+    window.onload = function(){
+      document.getElementById('sendungsnummer').focus();
+    };
+  //]]>
+  </script>
+</head>
+<body>
+<div id="website">
+  <div id="content">
+    Eine Sendung mit der Nummer: 4000009-9<br />konnte nicht ermittelt werden!<br /><br /><button onclick="location.href = 'index.php?mid=1'">Neue Abfrage</button>&nbsp;&nbsp;&nbsp;<button onclick="window.open('https://www.fedex.com/fedextrack/?tracknumbers=4000009-9&cntry_code=de', 'fedex',',scrollbars,height=600,width=1100,left=100,top=100');" style="width:auto; padding-left:10px; padding-right:10px;">Sendung bei FedEx abfragen</button>  </div>
+</div>
+<a name="bottom"></a>
+<script type="text/javascript">
+//<![CDATA[
+  //]]>
+</script>
+</body>
+</html>

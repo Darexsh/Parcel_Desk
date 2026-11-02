@@ -1,0 +1,44 @@
+{
+  "id": "sway",
+  "displayName": "Sway",
+  "aliases": [
+    "Returnmates",
+    "Sway (Returnmates)",
+    "ShipSway",
+    "Sway Delivery"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#635ff5"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.shipsway.com/{trackingNumber}",
+    "searchUrl": "https://track.shipsway.com/",
+    "canaryUrl": "https://www.shipsway.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.shipsway.com"
+      ],
+      "path": "^/([A-Za-z0-9][A-Za-z0-9-]{5,39})/?$"
+    }
+  ],
+  "detection": []
+}

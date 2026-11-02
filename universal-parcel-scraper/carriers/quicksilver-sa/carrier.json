@@ -1,0 +1,95 @@
+{
+  "id": "quicksilver-sa",
+  "displayName": "Quicksilver",
+  "aliases": [
+    "Quick Silver Express",
+    "QuickSilver",
+    "Quicksilver company for transportation and storage",
+    "كويك سيلفر",
+    "كويك سلفر",
+    "شركة كويك سيلفر للنقل والتخزين"
+  ],
+  "region": {
+    "countries": [
+      "SA"
+    ]
+  },
+  "brand": {
+    "color": "#805fa4"
+  },
+  "selectable": true,
+  "timezone": "Asia/Riyadh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "quicksilver-sa",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://erp.quick-silver.express/v2/tracking/{trackingNumber}",
+    "searchUrl": "https://quick-silver.express/Tracking",
+    "canaryUrl": "https://quick-silver.express/Tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "proof_of_delivery",
+      "contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "proof_of_delivery",
+      "contact_details"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "eta",
+      "weight",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "pickup_point",
+      "delivery_partner",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "erp.quick-silver.express"
+      ],
+      "path": "^/v2/tracking/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "quick-silver.express",
+        "www.quick-silver.express"
+      ],
+      "pathPattern": "^/Tracking/?$",
+      "params": [
+        "tracking_number"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "quicksilver-sa-1",
+      "pattern": "^QS\\d{9}$",
+      "confidence": "low"
+    }
+  ]
+}

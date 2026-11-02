@@ -1,0 +1,28 @@
+{
+  "carrier": "gobolt",
+  "entries": [
+    {"code": "label_created", "wording": "Shipment created", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Seen live and in an archived reply of the tracking API as a step's description."},
+    {"code": "label_created", "wording": "Shipment Created", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived reply of the tracking API. Step of the progress rail."},
+    {"code": "label_scanned", "wording": "Package received in Boucherville", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Seen live as a step's description. It names the hub's town; the page calls the step the first scan at GoBolt's hub."},
+    {"code": "label_scanned", "wording": "Processing Shipment", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived reply of the tracking API. Step of the progress rail."},
+    {"code": "label_received_at_destination", "wording": "Package received in local facility", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Step name and label in the tracker's script, not seen together on a parcel."},
+    {"code": "label_out_for_delivery", "wording": "Package has left warehouse", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Seen live and in an archived reply of the tracking API as a step's description."},
+    {"code": "label_out_for_delivery", "wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived reply of the tracking API. Step of the progress rail."},
+    {"code": "label_delivered", "wording": "Package delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Seen live as a step's description."},
+    {"code": "label_delivered", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived reply of the tracking API. Step of the progress rail."},
+    {"code": "label_failed", "wording": "Delivery attempted", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "Label in the tracker's script, not seen on a parcel. The page shows a failed step's description as the driver's note, and the parcel goes out again."},
+    {"code": "label_failed", "wording": "Delivery attempted - customer not at home", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "Label in the tracker's script, not seen on a parcel. A failed step's reason."},
+    {"code": "label_failed", "wording": "Delivery Attempted - Refused By Customer", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "Label in the tracker's script, not seen on a parcel. The recipient refused the delivery."},
+    {"code": "label_failed", "wording": "Delivery unsuccessful - issue on route", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Label in the tracker's script, not seen on a parcel. A problem on the route rather than a visit to the door."},
+    {"code": "label_failed", "wording": "Delivery unsuccessful - lost package", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Label in the tracker's script, not seen on a parcel. The package was lost."},
+    {"code": "label_failed", "wording": "Delivery unsuccessful - damaged items", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Label in the tracker's script, not seen on a parcel."},
+    {"code": "label_failed", "wording": "Delivery unsuccessful - return to merchant", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Label in the tracker's script, not seen on a parcel. The parcel goes back to the merchant."},
+    {"code": "label_returned_to_warehouse", "wording": "Returned package to warehouse", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Step name and label in the tracker's script, not seen together on a parcel. Back at GoBolt's warehouse for another run; the page shows the label as \"Returned package to GoBolt warehouse\"."},
+    {"code": "label_lost", "wording": "We can't locate your package", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "The title the tracker's script gives the step; its description was not seen."},
+    {"code": "label_return_scheduled", "wording": "Pickup booked", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "The title the tracker's script gives a return's step; its description was not seen."},
+    {"code": "label_return_out_for_pickup", "wording": "On the way to pick it up", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "The title the tracker's script gives a return's step; its description was not seen. A driver is on the way to collect the return."},
+    {"code": "label_return_picked_up", "wording": "Picked up", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "The title the tracker's script gives a return's step; its description was not seen."},
+    {"wording": "En Cours de Livraison", "stage": "out_for_delivery", "language": "fr", "confirmedBy": "official-doc", "note": "Label in the tracker's script, not seen on a parcel. French label for Out for Delivery."},
+    {"wording": "Livré", "stage": "delivered", "language": "fr", "confirmedBy": "official-doc", "note": "Label in the tracker's script, not seen on a parcel. French label for Delivered."}
+  ]
+}

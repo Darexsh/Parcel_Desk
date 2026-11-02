@@ -1,0 +1,444 @@
+{
+  "carrier": "magyar-posta",
+  "records": [
+    {
+      "number": "PB00010122727",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://parcelsapp.com/en/carriers/hungary-post",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL Business Parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta",
+          "la-poste"
+        ]
+      },
+      "note": "ParcelsApp's Hungary Post page prints it as an MPL business-parcel number; it is not described as a live shipment."
+    },
+    {
+      "number": "EA004037757HU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://parcelsapp.com/en/carriers/hungary-post",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "EMS",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "ParcelsApp's Hungary Post page prints it as an EMS number; it is not described as a live shipment."
+    },
+    {
+      "number": "PNAW250000715",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/MPLAPI_push_tracking_hu.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's MPL push-tracking API guide shows it as a parcel's PackageId in its example reply; it is not described as a live shipment."
+    },
+    {
+      "number": "PNAW250000728",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/MPLAPI_push_tracking_hu.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's MPL push-tracking API guide shows it as a parcel's PackageId in its example reply; it is not described as a live shipment."
+    },
+    {
+      "number": "PNE8T03807415",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251126081449/https://www.posta.hu/nyomkovetes/nyitooldal?searchvalue=PNE8T03807415",
+        "date": "2025-11-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Looked up on Magyar Posta's tracker, as an archived address shows; the capture holds only the search form. The tracker answers with a domestic parcel's history from the sender's data to its delivery."
+    },
+    {
+      "number": "PNJGY56798744",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250923094012/https://www.posta.hu/nyomkovetes/nyitooldal?searchvalue=PNJGY56798744",
+        "date": "2025-09-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Looked up on Magyar Posta's tracker, as an archived address shows; the capture holds only the search form. The tracker answers with a delivered domestic parcel."
+    },
+    {
+      "number": "RR785780564HU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250508233206/https://www.posta.hu/nyomkovetes/nyitooldal?searchvalue=RR785780564HU",
+        "date": "2025-05-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "registered letter",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Looked up on Magyar Posta's tracker, as an archived address shows; the capture holds only the search form. The tracker answers with a registered item's international events."
+    },
+    {
+      "number": "LR294360805NL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260915152251/https://www.posta.hu/nyomkovetes/nyitooldal?searchvalue=LR294360805NL",
+        "date": "2026-09-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spring-gds",
+        "confidence": "high"
+      },
+      "note": "Looked up on Magyar Posta's tracker, as an archived address shows; the capture holds only the search form. The tracker answers with a letter from the Netherlands waiting at a Hungarian post office, then delivered."
+    },
+    {
+      "number": "CH168862545NL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/magyar-posta/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "spring-gds",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Magyar Posta page offers it as a sample number. Magyar Posta's tracker answers with a parcel from the Netherlands delivered in Hungary."
+    },
+    {
+      "number": "PNAAA50069529",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/MPLAPI_technikai_leiras.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's MPL API guide shows it as the tracking number of a created shipment; it is not described as a live shipment."
+    },
+    {
+      "number": "PKQZ050115785",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/MPLAPI_technikai_leiras.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's MPL API guide shows it as the tracking number of a created shipment; it is not described as a live shipment."
+    },
+    {
+      "number": "PB2SW00021917",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/Nyomkovetes_technikai_leiras.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL business parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's tracking API guide uses it in its request and reply examples; it is not described as a live shipment."
+    },
+    {
+      "number": "PN00019954019",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/Nyomkovetes_technikai_leiras.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta",
+          "la-poste"
+        ]
+      },
+      "note": "Magyar Posta's tracking API guide lists it in an example reply; it is not described as a live shipment."
+    },
+    {
+      "number": "RL15050014358643",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220727091109/https://www.posta.hu/nyomkovetes/nyitooldal?searchvalue=RL15050014358643",
+        "date": "2022-07-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "domestic registered letter",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Looked up on Magyar Posta's tracker, as an archived address shows; the capture holds only the search form. The tracker names the RL series as its domestic letters, sixteen characters long."
+    },
+    {
+      "number": "JJH30AAAAAPL00000001",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/ikrnyomkovproxy/",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL Europe Standard",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's tracker gives it as the example of an MPL Europe Standard (DHL) parcel number; it is not described as a live shipment."
+    },
+    {
+      "number": "PIBBZ500001190019023000000",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/MPLAPI_technical_description.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's MPL API guide in English shows it as a package tracking number of a created shipment: the shipment's number, then a three-digit package index and ten digits. It is not described as a live shipment."
+    },
+    {
+      "number": "PKAAA500582060011138001500",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/MPLAPI_technical_description.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's MPL API guide in English shows it as a package tracking number of a created shipment: the shipment's number, then a three-digit package index and ten digits. It is not described as a live shipment."
+    },
+    {
+      "number": "PKBBZ500001220012801003000",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/MPLAPI_technical_description.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's MPL API guide in English shows it as a package tracking number of a created shipment: the shipment's number, then a three-digit package index and ten digits. It is not described as a live shipment."
+    },
+    {
+      "number": "PKQZ0501157850021138000000",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/MPLAPI_technical_description.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's MPL API guide in English shows it as a package tracking number of a created shipment: the shipment's number, then a three-digit package index and ten digits. It is not described as a live shipment."
+    },
+    {
+      "number": "PNAAA500000340017101000000",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/MPLAPI_technical_description.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's MPL API guide in English shows it as a package tracking number of a created shipment: the shipment's number, then a three-digit package index and ten digits. It is not described as a live shipment."
+    },
+    {
+      "number": "PNQZ0501157850011138000000",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.hu/static/internet/download/MPLAPI_technical_description.pdf",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "MPL parcel",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "magyar-posta"
+        ]
+      },
+      "note": "Magyar Posta's MPL API guide in English shows it as a package tracking number of a created shipment: the shipment's number, then a three-digit package index and ten digits. It is not described as a live shipment."
+    }
+  ]
+}

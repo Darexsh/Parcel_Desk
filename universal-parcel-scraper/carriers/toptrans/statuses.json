@@ -1,0 +1,11 @@
+{
+  "carrier": "toptrans",
+  "entries": [
+    {"wording": "Přijata objednávka přepravy", "stage": "registered", "language": "cs", "confirmedBy": "live", "note": "Transport order received; TOPTRANS has not collected the shipment yet. Also in archived lookups on its tracking service."},
+    {"wording": "Zásilka svezena do skladu", "stage": "accepted", "language": "cs", "confirmedBy": "live", "note": "Collected into the pickup depot's warehouse. Also in archived lookups."},
+    {"wording": "Zásilka odešla do cílového střediska", "stage": "in_transit", "language": "cs", "confirmedBy": "live", "note": "Left for the destination depot, on a row without a depot. Also in archived lookups."},
+    {"wording": "Zásilka je na rozvozovém středisku", "stage": "in_transit", "language": "cs", "confirmedBy": "live", "note": "At the delivery depot, also after a delivery round that did not deliver. Also in archived lookups."},
+    {"wording": "Zásilka se rozváží", "stage": "out_for_delivery", "language": "cs", "confirmedBy": "live", "note": "Also in archived lookups."},
+    {"wording": "Zásilka doručena", "stage": "delivered", "language": "cs", "confirmedBy": "live", "note": "Also in archived lookups."}
+  ]
+}

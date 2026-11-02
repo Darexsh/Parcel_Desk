@@ -1,0 +1,24 @@
+{
+  "carrier": "pactic",
+  "records": [
+    {
+      "number": "C1293260113143739958059",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260118165957/https://dashboard.pactic.com/api/Meta/tracking?waybill=C1293260113143739958059",
+        "date": "2026-01-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "pactic",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Pactic’s tracking API. The tracker still knows it as a parcel of its own, delivered at a parcel locker after Pactic’s Polish hub; its number embeds the time of its first status."
+    }
+  ]
+}

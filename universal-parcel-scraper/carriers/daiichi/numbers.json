@@ -1,0 +1,101 @@
+{
+  "carrier": "daiichi",
+  "records": [
+    {
+      "number": "33240868080",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260217124727/http://www.daiichi-kamotsu.co.jp/CGI/W3X05IM.PGM?KEY1=33240868080",
+        "date": "2026-02-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An archived lookup on Daiichi Freight System's own tracker, which answers that it holds no record of this number."
+    },
+    {
+      "number": "32406816153",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20000229031758/http://www.daiichi-kamotsu.co.jp:80/CGI/W3X01IM.PGM?KEY1=32406816153&KEY2=32406816116&KEY3=32406816142&KEY4=&KEY5=32406816131&KEY6=&KEY7=32406816120&KEY8=&KEY9=32406816105&KEY0=",
+        "date": "2000-02-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An archived lookup of six numbers on Daiichi Freight System's own tracker shows this consignment accepted at Komaki."
+    },
+    {
+      "number": "30973176780",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20000229060130/http://www.daiichi-kamotsu.co.jp:80/CGI/W3X01IM.PGM?KEY1=30973176780&KEY2=&KEY3=&KEY4=&KEY5=&KEY6=&KEY7=&KEY8=&KEY9=&KEY0=",
+        "date": "2000-02-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "An archived lookup on Daiichi Freight System's own tracker shows this consignment accepted at Yokohama and delivered."
+    }
+  ]
+}

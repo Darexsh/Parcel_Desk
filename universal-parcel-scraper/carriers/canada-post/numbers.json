@@ -1,0 +1,719 @@
+{
+  "carrier": "canada-post",
+  "records": [
+    {
+      "number": "0073938000549297",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/canadapost.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to Canada Post, which stays one candidate among several."
+    },
+    {
+      "number": "4002847016405018",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/canadapost.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to Canada Post, which stays one candidate among several."
+    },
+    {
+      "number": "7023210039414604",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/karrioapi/karrio/blob/deea10f8568b2d48c71bbcc11ec11c62cdaf2a6a/modules/connectors/canadapost/tests/canadapost/test_tracking.py"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to Canada Post, which stays one candidate among several."
+    },
+    {
+      "number": "7035114477138472",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/jkeen/tracking_number_data/blob/main/couriers/canadapost.json"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to Canada Post, which stays one candidate among several."
+    },
+    {
+      "number": "EE187921626CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/item-returned-from-customs-11207/",
+        "date": "2018-01-22"
+      },
+      "expect": {
+        "carrier": "canada-post",
+        "confidence": "high"
+      },
+      "note": "Sender explicitly calls this a Canada Post tracking number; shipment and attribution were not independently verified."
+    },
+    {
+      "number": "7310061500015768",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://github.com/christonog/ltracker/issues/2",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      }
+    },
+    {
+      "number": "2010505799436494",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261005194842/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=2010505799436494",
+        "date": "2026-10-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "8510870804504756",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261002200718/https://www.canadapost-postescanada.ca/track-reperage/en/details/8510870804504756",
+        "date": "2026-10-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "7321315938874357",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260910181126/https://www.canadapost-postescanada.ca/track-reperage/en/details/7321315938874357",
+        "date": "2026-09-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "4013252268893142",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260914033356/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=4013252268893142",
+        "date": "2026-09-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "1026650089084900",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260925190639/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=1026650089084900",
+        "date": "2026-09-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "0102838280733366",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260917172119/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=0102838280733366",
+        "date": "2026-09-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "1287681540123295",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260929224447/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=1287681540123295",
+        "date": "2026-09-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "6102015352774270",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260916214810/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=6102015352774270",
+        "date": "2026-09-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "9542519247157582",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260901032807/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=9542519247157582",
+        "date": "2026-09-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "8431069501761751",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260913131158/https://www.canadapost-postescanada.ca/track-reperage/en/details/8431069501761751",
+        "date": "2026-09-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "4012894218527793",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260929202659/https://www.canadapost-postescanada.ca/track-reperage/en/details/4012894218527793",
+        "date": "2026-09-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "2016116554470499",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260930000109/https://www.canadapost-postescanada.ca/track-reperage/en/details/2016116554470499",
+        "date": "2026-09-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Canada Post parcel PIN whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "LA586492541CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261005164912/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=LA586492541CA",
+        "date": "2026-10-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "canada-post",
+        "confidence": "high"
+      },
+      "note": "A Canada Post postal number whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "EE503826142CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261001174909/https://www.canadapost-postescanada.ca/track-reperage/en/details/EE503826142CA",
+        "date": "2026-10-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "canada-post",
+        "confidence": "high"
+      },
+      "note": "A Canada Post postal number whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "RT012072574CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261002185031/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=rt012072574ca",
+        "date": "2026-10-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "canada-post",
+        "confidence": "high"
+      },
+      "note": "A Canada Post postal number whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "RN920063772CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260814184821/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=RN920063772CA",
+        "date": "2026-08-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "canada-post",
+        "confidence": "high"
+      },
+      "note": "A Canada Post postal number whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "MW628634512CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260909044213/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=MW628634512CA",
+        "date": "2026-09-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "canada-post",
+        "confidence": "high"
+      },
+      "note": "A Canada Post postal number whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "LX499889625CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260921075532/https://www.canadapost-postescanada.ca/track-reperage/en/details/LX499889625CA",
+        "date": "2026-09-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "canada-post",
+        "confidence": "high"
+      },
+      "note": "A Canada Post postal number whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "GD552162373CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260927182151/https://www.canadapost-postescanada.ca/track-reperage/en/details/GD552162373CA",
+        "date": "2026-09-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "canada-post",
+        "confidence": "high"
+      },
+      "note": "A Canada Post postal number whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "PG756920321CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260912171311/https://www.canadapost-postescanada.ca/track-reperage/en/details/PG756920321CA",
+        "date": "2026-09-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "canada-post",
+        "confidence": "high"
+      },
+      "note": "A Canada Post postal number whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "CC242123085CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260921204349/https://www.canadapost-postescanada.ca/track-reperage/en/details/CC242123085CA",
+        "date": "2026-09-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "canada-post",
+        "confidence": "high"
+      },
+      "note": "A Canada Post postal number whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "LM221921875CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260803200630/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=LM221921875CA",
+        "date": "2026-08-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "canada-post",
+        "confidence": "high"
+      },
+      "note": "A Canada Post postal number whose tracking page the Wayback Machine archived. Canada Post's tracker returns its history."
+    },
+    {
+      "number": "LV297667943US",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260926014108/https://www.canadapost-postescanada.ca/track-reperage/en/resultList?searchFor=LV297667943US",
+        "date": "2026-09-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "usps",
+        "confidence": "high"
+      },
+      "note": "Mail from the United States whose Canada Post tracking page the Wayback Machine archived. Canada Post's tracker returns its journey in Canada under the sending post's number."
+    },
+    {
+      "number": "LX332418661JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261004191125/https://www.canadapost-postescanada.ca/track-reperage/en/details/LX332418661JP",
+        "date": "2026-10-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "Mail from Japan whose Canada Post tracking page the Wayback Machine archived. Canada Post's tracker returns its journey in Canada under the sending post's number."
+    },
+    {
+      "number": "LP076185097IN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260928170537/https://www.canadapost-postescanada.ca/track-reperage/en/details/LP076185097IN",
+        "date": "2026-09-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "india-post",
+        "confidence": "high"
+      },
+      "note": "Mail from India whose Canada Post tracking page the Wayback Machine archived. Canada Post's tracker returns its journey in Canada under the sending post's number."
+    },
+    {
+      "number": "LK285238791AU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260929172840/https://www.canadapost-postescanada.ca/track-reperage/en/details/LK285238791AU",
+        "date": "2026-09-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "australia-post",
+        "confidence": "high"
+      },
+      "note": "Mail from Australia whose Canada Post tracking page the Wayback Machine archived. Canada Post's tracker returns its journey in Canada under the sending post's number."
+    },
+    {
+      "number": "EB096990247KR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260915012227/https://www.canadapost-postescanada.ca/track-reperage/en/search?searchFor=EB096990247KR",
+        "date": "2026-09-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "korea-post",
+        "confidence": "high"
+      },
+      "note": "Mail from South Korea whose Canada Post tracking page the Wayback Machine archived. Canada Post's tracker returns its journey in Canada under the sending post's number."
+    }
+  ]
+}

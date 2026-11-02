@@ -1,0 +1,51 @@
+{
+  "id": "uof-express",
+  "displayName": "UOF International",
+  "aliases": [
+    "UOF EXPRESS",
+    "骏佳国际",
+    "Shanghai Junjia International Logistics",
+    "上海骏佳翊供应链管理有限公司",
+    "上海骏佳国际物流有限公司",
+    "上海駿佳国際物流"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "JP"
+    ]
+  },
+  "brand": {
+    "color": "#e66814"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.uofexp.com/search_order.aspx?trackNumber={trackingNumber}",
+    "searchUrl": "https://www.uofexp.com/search_order.aspx",
+    "canaryUrl": "https://www.uofexp.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.uofexp.com",
+        "uofexp.com"
+      ],
+      "pathPattern": "^/search_order\\.aspx$",
+      "params": [
+        "trackNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

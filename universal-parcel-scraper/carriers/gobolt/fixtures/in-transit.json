@@ -1,0 +1,19 @@
+{
+  "tracking_number": "ABCDEF123456",
+  "label_status": "label_out_for_delivery",
+  "label_delivered_at": null,
+  "label_description": "Package has left warehouse",
+  "active_transit_sequence": 3,
+  "transit_flow": [
+    {"name": "label_created", "description": "Shipment Created", "sequence": 1},
+    {"name": "label_scanned", "description": "Processing Shipment", "sequence": 2},
+    {"name": "label_out_for_delivery", "description": "Out for Delivery", "sequence": 3},
+    {"name": "label_delivered", "description": "Delivered", "sequence": 4}
+  ],
+  "transit_steps": [
+    {"name": "label_out_for_delivery", "description": "Package has left warehouse", "location": "Exampleton, Québec, Canada", "created_at": "2026-05-20T08:02:03.000-04:00", "updated_at": "2026-05-20T08:02:03.000-04:00"},
+    {"name": "label_scanned", "description": "Package received in Exampleton", "location": "Exampleton, Québec, Canada", "created_at": "2026-05-20T08:01:39.000-04:00", "updated_at": "2026-05-20T08:01:39.000-04:00"},
+    {"name": "label_created", "description": "Shipment created", "location": null, "created_at": "2026-05-19T12:17:49.225-04:00", "updated_at": "2026-05-19T12:17:49.225-04:00"}
+  ],
+  "estimated_delivery_date": "2026-05-20T07:00:00.000-04:00"
+}

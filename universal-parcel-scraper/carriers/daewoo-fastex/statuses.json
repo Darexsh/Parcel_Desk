@@ -1,0 +1,12 @@
+{
+  "carrier": "daewoo-fastex",
+  "entries": [
+    {"wording": "Shipment picked", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Step of the progress rail in an archived capture of the former consignment tracking page (template, not a parcel's history)."},
+    {"wording": "Dispatched", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Step of the progress rail in an archived capture of the former consignment tracking page (template)."},
+    {"wording": "Arrived", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Step of the progress rail in an archived capture of the former consignment tracking page (template): arrival at the destination terminal."},
+    {"wording": "Assigned to FastEX", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Step of the progress rail in an archived capture of the former consignment tracking page (template): the consignment is handed to FastEx for door delivery."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Step of the progress rail in an archived capture of the former consignment tracking page (template)."},
+    {"wording": "Returned to Source", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Explained on FastEx's FAQ page: the shipment went back to the sender who booked it."},
+    {"wording": "Hold in Operations", "stage": "exception", "language": "en", "confirmedBy": "source", "note": "Quoted in a review on FastEx's Trustpilot page for a parcel held at the destination terminal."}
+  ]
+}

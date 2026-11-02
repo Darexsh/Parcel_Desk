@@ -1,0 +1,59 @@
+{
+  "id": "postaplus",
+  "displayName": "PostaPlus",
+  "aliases": [
+    "Posta Plus",
+    "Postaplus",
+    "Pplus"
+  ],
+  "region": {
+    "countries": [
+      "KW",
+      "AE",
+      "BH"
+    ]
+  },
+  "brand": {
+    "color": "#ea7c25"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kuwait",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.postaplus.com/?trackid={trackingNumber}&trackby=awb",
+    "searchUrl": "https://www.postaplus.com/",
+    "canaryUrl": "https://www.postaplus.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.postaplus.com",
+        "postaplus.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "trackid"
+      ]
+    },
+    {
+      "domains": [
+        "www.postaplus.com",
+        "postaplus.com"
+      ],
+      "pathPattern": "^/Customer/ShipmentDetails\\.aspx$",
+      "params": [
+        "sno"
+      ]
+    }
+  ],
+  "detection": []
+}

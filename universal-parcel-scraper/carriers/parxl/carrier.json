@@ -1,0 +1,43 @@
+{
+  "id": "parxl",
+  "displayName": "Parxl",
+  "aliases": [
+    "Parxl by Singapore Airlines",
+    "SIA Parxl",
+    "Singapore Airlines Parxl"
+  ],
+  "region": {
+    "countries": [
+      "SG"
+    ]
+  },
+  "brand": {
+    "color": "#129bb0"
+  },
+  "selectable": true,
+  "timezone": "Asia/Singapore",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.parxl.com/{trackingNumber}",
+    "searchUrl": "https://track.parxl.com/",
+    "canaryUrl": "https://parxl.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.parxl.com"
+      ],
+      "path": "^/([A-Za-z0-9]+)/?$"
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,125 @@
+{
+  "carrier": "opt-nc",
+  "records": [
+    {
+      "number": "CV413505343NZ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190720045347/http://webtrack.opt.nc/ipswebtracking/IPSWeb_item_events.asp?itemid=CV413505343NZ",
+        "date": "2019-07-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on OPT-NC's former tracker shows this New Zealand parcel's history through customs in Nouméa to delivery in Païta."
+    },
+    {
+      "number": "CD807124488NL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180429055724/http://webtrack.opt.nc:80/ipswebtracking/IPSWeb_item_events.asp?itemid=CD807124488NL&Submit=Envoyer",
+        "date": "2018-04-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "spring-gds",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on OPT-NC's former tracker shows this parcel from the Netherlands reaching the Nouméa exchange office and clearing customs."
+    },
+    {
+      "number": "CF028201988US",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171231224953/http://webtrack.opt.nc:80/ipswebtracking/IPSWeb_item_events.asp?itemid=CF028201988US&Submit=Envoyer",
+        "date": "2017-12-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "usps",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on OPT-NC's former tracker shows this USPS parcel posted and leaving the United States for New Caledonia."
+    },
+    {
+      "number": "CA107308006SI",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/opt-nc/colisnc-sdk/blob/main/src/test/java/ColisCrawlerTest.java",
+        "date": "2023-06-19",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "posta-slovenije",
+        "confidence": "high"
+      },
+      "note": "OPT-NC's own parcel SDK tests its tracker crawler on this parcel from Slovenia, asserting eight events in Nouméa up to delivery; OPT-NC's Docker Hub API image uses it as its example too."
+    },
+    {
+      "number": "7C00011779698",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171231090634/http://webtrack.opt.nc:80/ipswebtracking/IPSWeb_item_events.asp?itemid=7C00011779698&Submit=Envoyer",
+        "date": "2017-12-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "la-poste",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on OPT-NC's former tracker shows this Colissimo parcel from France through customs in Nouméa to a failed delivery."
+    },
+    {
+      "number": "8Z00136833343",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/opt-nc/colisnc-sdk/blob/main/src/test/java/ColisCrawlerTest.java",
+        "date": "2023-06-19",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "la-poste",
+        "confidence": "high"
+      },
+      "note": "OPT-NC's own parcel SDK tests its tracker crawler on this Colissimo number, expecting ten events, and its README uses it as the command-line example."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "jcw-express",
+  "displayName": "JCW Express",
+  "aliases": [
+    "JCW"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#e94a25"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://jcwexpress.com/tracking?codes={trackingNumber}",
+    "searchUrl": "https://jcwexpress.com/tracking",
+    "canaryUrl": "https://jcwexpress.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "jcwexpress.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "codes"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "usasd",
+  "displayName": "SD Group",
+  "aliases": [
+    "Usasd",
+    "S & D Logistics",
+    "S & D Logistics Inc",
+    "美国顺达集团",
+    "美国顺达快递"
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#015aaa"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.usasd.com/index.php?c=index&f=search&sn={trackingNumber}",
+    "searchUrl": "https://www.usasd.com/",
+    "canaryUrl": "https://www.usasd.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "usasd.com",
+        "www.usasd.com"
+      ],
+      "pathPattern": "^/index\\.php$",
+      "params": [
+        "sn"
+      ]
+    }
+  ],
+  "detection": []
+}

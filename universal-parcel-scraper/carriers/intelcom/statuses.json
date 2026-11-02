@@ -1,0 +1,19 @@
+{
+  "carrier": "intelcom",
+  "entries": [
+    { "code": "0", "wording": "Your package will be in good hands with Dragonfly!", "language": "en", "stage": "registered", "confirmedBy": "live" },
+    { "code": "0", "wording": "Your package will be in good hands with Intelcom!", "language": "en", "stage": "registered", "confirmedBy": "live" },
+    { "code": "0", "wording": "Pickup requested by merchant.", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The first status of a return the merchant asked Intelcom to collect." },
+    { "code": "105", "wording": "Dragonfly has your package!", "language": "en", "stage": "accepted", "confirmedBy": "live" },
+    { "code": "105", "wording": "Intelcom has your package!", "language": "en", "stage": "accepted", "confirmedBy": "live" },
+    { "code": "106", "wording": "Your package is on the move!", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "code": "108", "wording": "Your package is being prepared for delivery!", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "code": "155", "wording": "Your package is being prepared for delivery!", "language": "en", "stage": "in_transit", "confirmedBy": "portal", "note": "Seen in archived replies of the tracking service, with the same label as 108." },
+    { "code": "300", "wording": "On our way to you!", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live" },
+    { "code": "200", "wording": "We're on our way!", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "A return pickup: the driver is on the way to collect it from the customer." },
+    { "code": "601", "wording": "Hooray! Your package is here", "language": "en", "stage": "delivered", "confirmedBy": "live" },
+    { "code": "602", "wording": "We got it!", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "A return collected from the customer. The service also flags it delivered, which the adapter ignores for pickups." },
+    { "code": "860", "wording": "Uh-oh! We're unable to locate your package", "language": "en", "stage": "exception", "confirmedBy": "live" },
+    { "code": "850", "wording": "Mission accomplished!", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "A collected return sent on towards the merchant, where Intelcom's part ends." }
+  ]
+}

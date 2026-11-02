@@ -1,0 +1,22 @@
+{
+  "awbBarcode": "1000000001",
+  "statusMessage": "Delivered",
+  "statusColor": "#000000",
+  "undeliveredPieces": "",
+  "envelope": "0",
+  "parcel": "1",
+  "confirmedDate": null,
+  "confirmedBy": "Synthetic Signer; PIN:0000",
+  "responseCode": "Ramburs/Retur/Redirectionare: SYNTHETIC-REF-1",
+  "transitTime": null,
+  "events": [
+    { "date": "2026-03-02T15:04:05.12", "event": "Pickup shipment", "countyName": "Alba", "localityName": "ALBA IULIA" },
+    { "date": "2026-03-02T17:10:20.5", "event": "Consolidation scan", "countyName": "Alba", "localityName": "ALBA IULIA" },
+    { "date": "2026-03-02T17:10:20.5", "event": "Received in warehouse Alba [Depozit]", "countyName": "Alba", "localityName": "ALBA IULIA" },
+    { "date": "2026-03-02T21:30:00.333", "event": "Automatic parcel sorting", "countyName": "Sibiu", "localityName": "SIBIU" },
+    { "date": "2026-03-03T03:15:44.1", "event": "Received in warehouse Arad [Depozit]", "countyName": "Arad", "localityName": "ARAD" },
+    { "date": "2026-03-03T03:15:44.17", "event": "Received in warehouse Arad [Depozit]", "countyName": "Arad", "localityName": "ARAD" },
+    { "date": "2026-03-03T08:02:09.07", "event": "With courier", "countyName": "Arad", "localityName": "ARAD" },
+    { "date": "2026-03-03T11:45:30.987", "event": "Delivered", "countyName": "Arad", "localityName": "ARAD" }
+  ]
+}

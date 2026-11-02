@@ -1,0 +1,57 @@
+{
+  "data": {
+    "einzelsendung": {
+      "sendungsnummer": "LM000000005CN",
+      "activeIdentityCode": "LM000000005CN",
+      "originalIdentityCode": "LM000000005CN",
+      "status": null,
+      "weight": null,
+      "dimensions": null,
+      "estimatedDelivery": null,
+      "sendungsEvents": [
+        {
+          "timestamp": "2026-03-02T20:48:08.000+00:00",
+          "status": "IMP",
+          "reasontypecode": "",
+          "trackingDesc": "Sendung im Zielland angekommen",
+          "eventPlaceName": ""
+        },
+        {
+          "timestamp": "2026-03-03T06:42:10.000+00:00",
+          "status": "IMP",
+          "reasontypecode": "",
+          "trackingDesc": "Sendung in Österreich im Logistkzentrum eingetroffen",
+          "eventPlaceName": ""
+        },
+        {
+          "timestamp": "2026-03-03T06:42:11.000+00:00",
+          "status": "CUS",
+          "reasontypecode": "",
+          "trackingDesc": "Sendung im Zollanmeldungsprozess. Weitere Info folgt.",
+          "eventPlaceName": ""
+        },
+        {
+          "timestamp": "2026-03-06T06:24:59.000+00:00",
+          "status": "LAG",
+          "reasontypecode": "",
+          "trackingDesc": "Lagereingang - Zollanmeldungshindernis",
+          "eventPlaceName": "Synthetic logistics centre"
+        },
+        {
+          "timestamp": "2026-03-06T06:25:00.000+00:00",
+          "status": "CUD",
+          "reasontypecode": "",
+          "trackingDesc": "Sendung ist im Zollprozess verzögert. Grund: unplausibler Warenwert.",
+          "eventPlaceName": "Synthetic logistics centre"
+        },
+        {
+          "timestamp": "2026-03-06T08:11:53.347+00:00",
+          "status": "SN",
+          "reasontypecode": "",
+          "trackingDesc": "Zollanmeldungshindernis - Rückmeldung vom Empfänger eingelangt",
+          "eventPlaceName": ""
+        }
+      ]
+    }
+  }
+}

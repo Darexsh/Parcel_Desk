@@ -1,0 +1,74 @@
+{
+  "id": "burd-delivery",
+  "displayName": "Burd Delivery",
+  "aliases": [
+    "Burd",
+    "Burd Bud"
+  ],
+  "region": {
+    "countries": [
+      "DK"
+    ]
+  },
+  "brand": {
+    "color": "#ec008c"
+  },
+  "selectable": true,
+  "timezone": "Europe/Copenhagen",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "burd-delivery",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 861
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "offset_timestamps",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://burd.dk/track?code={trackingNumber}",
+    "searchUrl": "https://burd.dk/",
+    "canaryUrl": "https://burd.dk/",
+    "shows": [
+      "status",
+      "history"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "pickup_point",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "burd.dk",
+        "www.burd.dk"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "code"
+      ]
+    }
+  ],
+  "detection": []
+}

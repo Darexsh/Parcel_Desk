@@ -1,0 +1,132 @@
+{
+  "id": "lietuvos-pastas",
+  "displayName": "Lietuvos paštas",
+  "aliases": [
+    "Lietuvos pastas",
+    "LP Express",
+    "Lithuanian Post",
+    "Lithuania Post"
+  ],
+  "region": {
+    "countries": [
+      "LT"
+    ]
+  },
+  "brand": {
+    "color": "#fedd00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Vilnius",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "lietuvos-pastas",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 895
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "pickup_point",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://lpexpress.lt/track?parcel={trackingNumber}",
+    "searchUrl": "https://lpexpress.lt/track",
+    "helpUrl": "https://www.post.lt/lt/kontaktai",
+    "canaryUrl": "https://lpexpress.lt/track",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "pickup_point",
+      "pickup_point_address",
+      "postcodes",
+      "progress_rail"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "pickup_point",
+      "destination_country"
+    ],
+    "discarded": [
+      "pickup_point_address",
+      "postcodes",
+      "progress_rail"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "lpexpress.lt"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "parcel"
+      ]
+    },
+    {
+      "domains": [
+        "lpexpress.lt"
+      ],
+      "path": "^/(?:track/id|tracking)/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "post.lt"
+      ],
+      "pathPattern": "^/(?:lt/pagalba/siuntu-paieska|en/help/parcel-search)(?:/index)?/?$",
+      "params": [
+        "num",
+        "parcel_number"
+      ]
+    },
+    {
+      "domains": [
+        "post.lt"
+      ],
+      "pathPattern": "^/(?:[a-z]{2}/)?siuntu-sekimas/?$",
+      "params": [
+        "parcels"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "lietuvos-pastas-own",
+      "pattern": "^(?:[CE][A-Z]|HC)\\d{9}LT$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "lietuvos-pastas-1",
+      "pattern": "^(?:CC|CH|HC)\\d{9}LT$",
+      "confidence": "low"
+    },
+    {
+      "id": "lietuvos-pastas-s10",
+      "pattern": "^[A-Z]{2}\\d{9}LT$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

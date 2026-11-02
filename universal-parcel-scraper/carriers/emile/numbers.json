@@ -1,0 +1,94 @@
+{
+  "carrier": "emile",
+  "records": [
+    {
+      "number": "EM200006549049CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260102183550/https://track.4px.com/query/EM200006549049CA",
+        "date": "2026-01-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "emile"
+        ]
+      },
+      "note": "A lookup on 4PX's tracker archived by the Wayback Machine. 4PX's feed returns the parcel's history and names Emile as its last-mile provider. Emile's anonymous XML service confirms the whole barcode and Canadian delivery history."
+    },
+    {
+      "number": "EM100048497916CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250306075727/https://global.cainiao.com/global/detail.json?mailNos=EM100048497916CA&lang=en-US&language=en-US",
+        "date": "2025-03-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "emile"
+        ]
+      },
+      "note": "A lookup on Cainiao's global tracker archived by the Wayback Machine. The archived history of this AliExpress parcel ends with a Canadian local delivery company receiving it, but Cainiao names no company; only the shape points to Emile."
+    },
+    {
+      "number": "EM100047250023CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250217144441/https://www.parcelpanel.com/couriers/emile/",
+        "date": "2025-02-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "emile"
+        ]
+      },
+      "note": "The number ParcelPanel's Emile tracking page offered to try, archived by the Wayback Machine. The page rotates its example."
+    },
+    {
+      "number": "EM200009946130CA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260410161436/https://www.parcelpanel.com/couriers/emile/",
+        "date": "2026-04-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "emile"
+        ]
+      },
+      "note": "The number ParcelPanel's Emile tracking page offered to try, archived by the Wayback Machine. The page rotates its example. Emile's anonymous XML service confirms the whole barcode and Canadian delivery history."
+    }
+  ]
+}

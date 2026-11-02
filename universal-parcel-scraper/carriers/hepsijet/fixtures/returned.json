@@ -1,0 +1,102 @@
+{
+  "status": "OK",
+  "data": [
+    {
+      "arrivalBranch": "Kıyıköy Dağıtım Merkezi",
+      "customerDeliveryNo": "ZZRTN00000000003",
+      "barcode": "ZZRTN00000000003",
+      "deliveryType": "MARKET_PLACE",
+      "currentLocation": "Satıcıda",
+      "lastTransaction": "Satıcıya iade edildi",
+      "receiver": "S***** B*****",
+      "receiverCity": "Kıyıkent",
+      "receiverTown": "KIYIKÖY",
+      "sender": "SAMPLE SUPPLIES",
+      "recipientName": "S***** B*****",
+      "deliveryDateCurrent": "2026-05-08",
+      "deliverySlotCurrent": 1,
+      "deliveredPerson": "S***** M*****",
+      "deliveredDate": "2026-05-08T10:31:00+03:00",
+      "trackingUrl": "https://hepsijet.com/gonderi-takibi/ZZRTN00000000003",
+      "deliveryStatus": "DELIVERED",
+      "operationStatus": "IN_CUSTOMER",
+      "transactionType": "DELIVERY_ATTEMPT",
+      "transactions": [
+        {
+          "deliveryStatus": "COLLECTED",
+          "operationStatus": "IN_DELIVERY_TRANSIT",
+          "transactionType": "TAKE_CUSTODY",
+          "transactionDateTime": "2026-05-01T13:10:15+03:00",
+          "location": "Merkezköy Dağıtım Merkezi",
+          "transaction": "Gönderi Alındı"
+        },
+        {
+          "deliveryStatus": "TRANSFERRING_TRANSFER",
+          "operationStatus": "IN_RING_VEHICLE",
+          "transactionType": "APPROVE_RING_ARRIVE",
+          "transactionDateTime": "2026-05-02T13:42:31+03:00",
+          "location": "Kıyıkent Tm Aktarma Merkezi",
+          "transaction": "Transfer Sürecinde"
+        },
+        {
+          "deliveryStatus": "UNDELIVERED",
+          "operationStatus": "IN_XDOCK",
+          "transactionType": "TAKE_CUSTODY",
+          "transactionDateTime": "2026-05-05T15:26:19+03:00",
+          "location": "Kıyıköy Dağıtım Merkezi",
+          "nonDeliveryReason": "DAMAGED",
+          "nonDeliveryReasonMessage": "Hasarlı",
+          "transaction": "Teslim Edilemedi"
+        },
+        {
+          "deliveryStatus": "TRANSFERRING_TRANSFER",
+          "operationStatus": "IN_RING_VEHICLE",
+          "transactionType": "APPROVE_RING_ARRIVE",
+          "transactionDateTime": "2026-05-06T18:11:59+03:00",
+          "location": "Kıyıkent Tm Aktarma Merkezi",
+          "nonDeliveryReason": "DAMAGED",
+          "transaction": "Transfer Sürecinde"
+        },
+        {
+          "deliveryStatus": "TRANSFERRING_RETURN",
+          "operationStatus": "IN_RING_TRANSIT",
+          "transactionType": "APPROVE_RING_DEPART",
+          "transactionDateTime": "2026-05-07T07:51:50+03:00",
+          "nonDeliveryReason": "DAMAGED",
+          "transaction": "Transfer Merkezine Ulaştı"
+        },
+        {
+          "deliveryStatus": "DELIVERED",
+          "operationStatus": "IN_CUSTOMER",
+          "transactionType": "DELIVERY_ATTEMPT",
+          "transactionDateTime": "2026-05-08T10:31:00+03:00",
+          "location": "Satıcıda",
+          "deliveredPerson": "S***** M***** (Kendi)",
+          "transaction": "İade Edildi"
+        },
+        {
+          "deliveryStatus": "DELIVERED",
+          "operationStatus": "IN_CUSTOMER",
+          "transactionType": "DELIVERY_ATTEMPT",
+          "transactionDateTime": "2026-05-08T10:31:00+03:00",
+          "location": "Satıcıda",
+          "deliveredPerson": "S***** M***** (Kendi)",
+          "transaction": "Satıcıya iade edildi"
+        }
+      ],
+      "distributionType": {
+        "id": 1,
+        "type": "AT",
+        "description": "Adrese Teslim"
+      },
+      "desi": 21.0,
+      "productName": "Standart Teslimat",
+      "deliveryDatePromised": "2026-05-04T23:59:59+03:00",
+      "liveTracking": true,
+      "recall": true,
+      "senderMerchant": "SAMPLE SUPPLIES",
+      "deliveryDateOriginal": "2026-05-01",
+      "vendorDelivery": false
+    }
+  ]
+}

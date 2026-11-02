@@ -1,0 +1,54 @@
+{
+  "id": "custom-companies",
+  "displayName": "The Custom Companies",
+  "aliases": [
+    "Custom Companies",
+    "The Custom Companies, Inc."
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#ffca43"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://api.customco.com/shipmenttrace.htm?referencenumber={trackingNumber}",
+    "searchUrl": "https://www.customco.com/",
+    "canaryUrl": "https://www.customco.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "api.customco.com"
+      ],
+      "pathPattern": "^/shipmenttrace\\.htm$",
+      "params": [
+        "referencenumber"
+      ]
+    },
+    {
+      "domains": [
+        "api.customco.com"
+      ],
+      "pathPattern": "^/scripts/cgiip\\.exe/boldetail\\.htm$",
+      "params": [
+        "wpro1"
+      ]
+    }
+  ],
+  "detection": []
+}

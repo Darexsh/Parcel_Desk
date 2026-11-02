@@ -1,0 +1,69 @@
+{
+  "carrier": "dpe-express",
+  "records": [
+    {
+      "number": "12116797125",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180208111511/http://www.dpe.net.cn:80/Tracking.php?tracknumbers=12116797125",
+        "date": "2018-02-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on DPE Express's own tracker, which answered it with its history, as an archived page shows."
+    },
+    {
+      "number": "12116798105",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180209233809/http://www.dpe.net.cn:80/Tracking.php?tracknumbers=12116798105",
+        "date": "2018-02-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on DPE Express's own tracker, which answered it with its history, as an archived page shows."
+    }
+  ]
+}

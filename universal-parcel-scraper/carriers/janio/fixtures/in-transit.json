@@ -1,0 +1,74 @@
+[
+  {
+    "tracking_no": "JNHK000000000000",
+    "version": "V2",
+    "early_est_date": null,
+    "est_date": null,
+    "pickup_country": "Singapore",
+    "consignee_country": "Hong Kong",
+    "masked_consignee_email": null,
+    "epod_exists": false,
+    "status_updates": [
+      {
+        "status": "ORDER_CREATED",
+        "description": "We have received the order details, but not the parcel.",
+        "country": null,
+        "address": null,
+        "updated_on": "2026-06-01T02:00:00.000000Z"
+      }
+    ]
+  },
+  {
+    "tracking_no": "JNSG000000000000",
+    "version": "V2",
+    "early_est_date": null,
+    "est_date": null,
+    "pickup_country": "Hong Kong",
+    "consignee_country": "Singapore",
+    "masked_consignee_email": "sa****le@ex*****e.com",
+    "epod_exists": false,
+    "status_updates": [
+      {
+        "status": "IN_TRANSIT_WITHIN_DESTINATION_COUNTRY",
+        "description": "The parcel has arrived at a warehouse and is awaiting processing.",
+        "country": "Singapore",
+        "address": ", Singapore, Singapore",
+        "updated_on": "2026-06-04T09:41:27Z",
+        "partner_name": "spx",
+        "partner_status": "SAMPLE_STATUS",
+        "partner_data": null
+      },
+      {
+        "status": "CROSS_BORDER_TRANSIT",
+        "description": "Your order is scheduled for a flight from Hong Kong to Singapore",
+        "country": null,
+        "address": null,
+        "updated_on": "2026-06-03T00:00:00Z"
+      },
+      {
+        "status": "IN_TRANSIT_WITHIN_ORIGIN_COUNTRY",
+        "description": "The parcel is currently being processed at a warehouse.",
+        "country": "Hong Kong",
+        "address": ", Sample District, Sample Territory, Hong Kong",
+        "updated_on": "2026-06-02T06:05:22.009237Z"
+      },
+      {
+        "status": "FAILED_PICKUP",
+        "description": "The parcel was not successfully picked up because it was not ready for collection.",
+        "country": "",
+        "address": "",
+        "updated_on": "2026-06-01T10:00:00Z"
+      },
+      {
+        "status": "ORDER_CREATED",
+        "description": "We have received the order details, but not the parcel.",
+        "country": null,
+        "address": null,
+        "updated_on": "2026-06-01T02:55:06.239949Z"
+      }
+    ],
+    "external_tracking_nos": {
+      "spx": "SPXSG000000000000"
+    }
+  }
+]

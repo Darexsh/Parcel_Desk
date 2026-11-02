@@ -1,0 +1,71 @@
+{
+  "id": "dpd-hu",
+  "displayName": "DPD Hungary",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "HU"
+    ]
+  },
+  "brand": {
+    "color": "#dc0032"
+  },
+  "selectable": true,
+  "timezone": "Europe/Budapest",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dpd-hu",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 804
+    }
+  },
+  "capabilities": [
+    "history",
+    "eta",
+    "delivered_at",
+    "provider_code",
+    "delivery_partner"
+  ],
+  "portal": {
+    "url": "https://www.dpdgroup.com/hu/mydpd/my-parcels/search?lang=en&parcelNumber={trackingNumber}",
+    "searchUrl": "https://www.dpd.com/hu/hu/",
+    "canaryUrl": "https://www.dpd.com/hu/hu/",
+    "shows": [
+      "status",
+      "history"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "delivered_at",
+      "provider_code",
+      "delivery_partner"
+    ],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "dpdgroup.com",
+        "dpd.com"
+      ],
+      "pathPattern": "^/hu(?:/|$)",
+      "params": [
+        "parcelNumber",
+        "parcelnumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "dpd-hu-1",
+      "pattern": "^\\d{14}$",
+      "confidence": "low"
+    }
+  ]
+}

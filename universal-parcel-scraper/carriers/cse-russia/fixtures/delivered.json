@@ -1,0 +1,159 @@
+{
+  "found": [
+    {
+      "Error": false,
+      "Type": "waybill",
+      "Number": "100-000000017",
+      "Info": "",
+      "AgentURL": "",
+      "CreateDate": "04.03.2026",
+      "State": "Доставка завершена",
+      "PlannedDeliveryPeriodMin": 2,
+      "PlannedDeliveryPeriodMax": 3,
+      "PlannedDeliveryDate": "03.03.2026",
+      "FromGeo": "Примерово г",
+      "ToGeo": "Тестовск г",
+      "TypeOfCargo": "Груз",
+      "Weight": 3.4,
+      "TakeDate": "27.02.2026",
+      "Guid": "00000000-0000-4000-8000-000000000017",
+      "InfoEn": "",
+      "StateEn": "Delivery completed",
+      "FromGeoEn": "PRIMEROVO",
+      "ToGeoEn": "TESTOVSK",
+      "TypeOfCargoEn": "Parcel",
+      "ToGeoPoint": {
+        "Long": "0",
+        "Lat": "0"
+      },
+      "FromGeoPoint": {
+        "Long": "0",
+        "Lat": "0"
+      },
+      "ToPVZ": "00000000-0000-0000-0000-000000000000",
+      "ViewStatus": [
+        {
+          "Key": "1",
+          "Name": "Зарегистрирована накладная",
+          "Guid": "00000000-0000-4000-8000-000000000001"
+        },
+        {
+          "Key": "11",
+          "Name": "",
+          "Guid": "00000000-0000-4000-8000-000000000002"
+        },
+        {
+          "Key": "2",
+          "Name": "",
+          "Guid": "00000000-0000-4000-8000-000000000003"
+        },
+        {
+          "Key": "3",
+          "Name": "Груз передан на доставку",
+          "Guid": "00000000-0000-4000-8000-000000000004"
+        }
+      ],
+      "Distribution": false,
+      "Sender": null,
+      "Recipient": null,
+      "History": {
+        "order_info": [
+          {
+            "EventDate": "27.02.2026 15:32",
+            "EventName": "На основании заказа оформлена накладная",
+            "EventInfo": "Накладная (Накладная): 100-000000017 от 27.02.2026,",
+            "EventNameEn": "Waybill issued based on the order",
+            "EventInfoEn": ""
+          },
+          {
+            "EventDate": "27.02.2026 15:29",
+            "EventName": "Отправление получено курьером",
+            "EventInfo": "Груз принят (Курьер: Курьеров Иван Петрович)",
+            "EventNameEn": "Shipment received by the courier",
+            "EventInfoEn": ""
+          },
+          {
+            "EventDate": "27.02.2026 15:29",
+            "EventName": "Отправление забрано",
+            "EventInfo": "Курьеров Иван Петрович",
+            "EventNameEn": "Shipment picked up",
+            "EventInfoEn": ""
+          },
+          {
+            "EventDate": "27.02.2026 15:14",
+            "EventName": "Курьер уже в пути",
+            "EventInfo": "Курьер в дороге (Курьер: Курьеров Иван Петрович)",
+            "EventNameEn": "Courier is already on the way",
+            "EventInfoEn": ""
+          },
+          {
+            "EventDate": "27.02.2026 14:51",
+            "EventName": "Принят. Идет обработка",
+            "EventInfo": "",
+            "EventNameEn": "Accepted. Processing...",
+            "EventInfoEn": ""
+          }
+        ],
+        "waybill_info": [
+          {
+            "EventDate": "04.03.2026 16:02",
+            "EventName": "Доставка завершена",
+            "EventInfo": "",
+            "EventNameEn": "Delivery completed",
+            "EventInfoEn": "",
+            "EventGeography": ""
+          },
+          {
+            "EventDate": "04.03.2026 09:26",
+            "EventName": "Ожидайте курьера сегодня",
+            "EventInfo": "Курьер: <Доставкин Пётр Сергеевич>, телефон: <+70000000000>",
+            "EventNameEn": "Await the courier today",
+            "EventInfoEn": "",
+            "EventGeography": "Тестовск г"
+          },
+          {
+            "EventDate": "04.03.2026 09:12",
+            "EventName": "Груз передан на доставку",
+            "EventInfo": "",
+            "EventNameEn": "Cargo handed over for delivery",
+            "EventInfoEn": "",
+            "EventGeography": "Тестовск г"
+          },
+          {
+            "EventDate": "03.03.2026 18:40",
+            "EventName": "Информация по отправлению",
+            "EventInfo": "Получатель/ компания на адресе не найдены: Телефон не отвечает/недоступен",
+            "EventNameEn": "Information about the shipment",
+            "EventInfoEn": "",
+            "EventGeography": ""
+          },
+          {
+            "EventDate": "03.03.2026 09:05",
+            "EventName": "Груз передан на доставку",
+            "EventInfo": "",
+            "EventNameEn": "Cargo handed over for delivery",
+            "EventInfoEn": "",
+            "EventGeography": "Тестовск г"
+          },
+          {
+            "EventDate": "27.02.2026 17:12",
+            "EventName": "Отправление в пути",
+            "EventInfo": "",
+            "EventNameEn": "Shipment is on the way",
+            "EventInfoEn": "",
+            "EventGeography": "Примерово г"
+          },
+          {
+            "EventDate": "27.02.2026 15:32",
+            "EventName": "Отправление создано",
+            "EventInfo": "По документу: Заказ 100-000000066 от 27.02.2026 14:51:00, зарегистрирована накладная",
+            "EventNameEn": "Shipment created",
+            "EventInfoEn": "",
+            "EventGeography": "Регистрово г"
+          }
+        ]
+      }
+    }
+  ],
+  "notfound": []
+}

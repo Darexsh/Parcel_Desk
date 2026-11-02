@@ -1,0 +1,85 @@
+{
+  "id": "transaher",
+  "displayName": "Transaher",
+  "aliases": [
+    "Grupo Transaher"
+  ],
+  "region": {
+    "countries": [
+      "ES",
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#233b81"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "transaher",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 852
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "sender_name"
+  ],
+  "portal": {
+    "url": "https://clientes.transaher.es/webclient/htracking/-5,0,{trackingNumber}",
+    "searchUrl": "https://transaher.es/",
+    "canaryUrl": "https://transaher.es/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "recipient_name",
+      "tracking_alias",
+      "customer_reference",
+      "departure_date",
+      "sender_name",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "sender_name"
+    ],
+    "discarded": [
+      "progress_rail",
+      "recipient_name",
+      "tracking_alias",
+      "customer_reference",
+      "departure_date",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "location",
+      "provider_code",
+      "eta",
+      "weight",
+      "delivered_at",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "clientes.transaher.es"
+      ],
+      "path": "^/webclient/h?tracking/-5,0,([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "transaher-1",
+      "pattern": "^103\\d{24}$",
+      "confidence": "high"
+    }
+  ]
+}

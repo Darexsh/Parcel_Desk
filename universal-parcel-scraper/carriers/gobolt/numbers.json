@@ -1,0 +1,60 @@
+{
+  "carrier": "gobolt",
+  "records": [
+    {
+      "number": "100227881387",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260818124109/https://api.secondcloset.com/logistics/api/v1/bolt_shipping_labels/search?tracking_number=100227881387",
+        "date": "2026-08-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Archived reply of GoBolt's own tracking API, which its tracker calls; it shows the parcel created, received in Boucherville and out for delivery."
+    },
+    {
+      "number": "CZWE4EGFFJU8",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240703182347/https://api.secondcloset.com/logistics/api/v1/bolt_shipping_labels/search?tracking_number=CZWE4EGFFJU8",
+        "date": "2024-07-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "Archived reply of GoBolt's own tracking API, which its tracker calls; it shows the shipment created in Markham."
+    }
+  ]
+}

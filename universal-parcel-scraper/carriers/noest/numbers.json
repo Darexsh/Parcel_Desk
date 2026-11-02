@@ -1,0 +1,24 @@
+{
+  "carrier": "noest",
+  "records": [
+    {
+      "number": "QWJ-35C-10348784",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/rjewls/white-site/blob/00df9358be8b8029405f666c9a37c77c0a3d0247/INTEGRATION_STATUS.md",
+        "date": "2025-08-09",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A merchant's integration notes give this as the tracking number NOEST's create-order API returned in a successful live test."
+    }
+  ]
+}

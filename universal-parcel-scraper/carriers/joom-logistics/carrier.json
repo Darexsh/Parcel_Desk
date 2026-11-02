@@ -1,0 +1,46 @@
+{
+  "id": "joom-logistics",
+  "displayName": "Joom Logistics",
+  "aliases": [
+    "Joom Logistics Limited"
+  ],
+  "region": {
+    "countries": [
+      "HK",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#2d2f43"
+  },
+  "selectable": true,
+  "timezone": "Asia/Hong_Kong",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://joomlogistics.com/en/track?id={trackingNumber}",
+    "searchUrl": "https://joomlogistics.com/en/track",
+    "canaryUrl": "https://joomlogistics.com/en/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "joomlogistics.com",
+        "logistics.joom.com"
+      ],
+      "pathPattern": "^/[a-z]{2}/track/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

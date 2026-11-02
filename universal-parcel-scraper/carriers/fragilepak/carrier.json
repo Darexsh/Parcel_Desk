@@ -1,0 +1,52 @@
+{
+  "id": "fragilepak",
+  "displayName": "FragilePAK",
+  "aliases": [
+    "FragilePak",
+    "Fragile Pak",
+    "Progistics Distribution"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#e65525"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.agentgrid.net/progistics/?id={trackingNumber}",
+    "searchUrl": "https://fragilepak.com/expecting-a-delivery/",
+    "canaryUrl": "https://fragilepak.com/expecting-a-delivery/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.agentgrid.net"
+      ],
+      "pathPattern": "^/progistics/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "fragilepak-1",
+      "pattern": "^902\\d{6}[\\dX]$",
+      "confidence": "low"
+    }
+  ]
+}

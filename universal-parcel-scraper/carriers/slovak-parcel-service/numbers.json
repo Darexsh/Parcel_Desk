@@ -1,0 +1,238 @@
+{
+  "carrier": "slovak-parcel-service",
+  "records": [
+    {
+      "number": "703-010-3078147117",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240119002106/https://www.sps-sro.sk/sledovanie-zasielky/?country_id=&shipment_id=703-010-3078147117",
+        "date": "2024-01-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Looked up on SPS's own tracker, as an archived address shows; the capture was not opened. It carries two digits more than SPS's parcel numbers, and the next address shows the tracker answering with the parcel of those first fourteen digits. SPS's tracker accepts that longer form, which its tracking service also uses to name parcels, but no longer knows this one, so no reply ties it to SPS."
+    },
+    {
+      "number": "703-010-30781471",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240119002115/https://www.sps-sro.sk/sledovanie-zasielky/?country_id=&shipment_id=703-010-3078147117&kundenr=&km_mandr=&rec_zip=&parcel_id=703-010-30781471",
+        "date": "2024-01-19",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "zto",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "slovak-parcel-service"
+        ]
+      },
+      "note": "Named as the parcel of a shipment looked up on SPS's own tracker, as an archived result address shows; the capture was not opened. SPS's tracking service no longer knows it, which can mean its records expired."
+    },
+    {
+      "number": "030-43181455",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240527202512/https://www.sps-sro.sk/sledovanie-zasielky/?country_id=&shipment_id=030-43181455",
+        "date": "2024-05-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on SPS's own tracker without the 703 country prefix, as an archived address shows. SPS's tracking service returns the parcel's history for this form too."
+    },
+    {
+      "number": "703-030-43181455",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240527202520/https://www.sps-sro.sk/sledovanie-zasielky/?country_id=&shipment_id=030-43181455&kundenr=&km_mandr=&rec_zip=&parcel_id=703-030-43181455",
+        "date": "2024-05-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "zto",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "slovak-parcel-service"
+        ]
+      },
+      "note": "Named as the parcel of a shipment looked up on SPS's own tracker, as an archived result address shows. SPS's tracking service returns its history."
+    },
+    {
+      "number": "030-43181927",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240529143604/https://www.sps-sro.sk/sledovanie-zasielky/?country_id=&shipment_id=030-43181927",
+        "date": "2024-05-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on SPS's own tracker without the 703 country prefix, as an archived address shows. SPS's tracking service returns the history of the parcel with that prefix."
+    },
+    {
+      "number": "703-030-43181927",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240529143615/https://www.sps-sro.sk/sledovanie-zasielky/?country_id=&shipment_id=030-43181927&kundenr=&km_mandr=&rec_zip=&parcel_id=703-030-43181927",
+        "date": "2024-05-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "zto",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "slovak-parcel-service"
+        ]
+      },
+      "note": "Named as the parcel of a shipment looked up on SPS's own tracker, as an archived result address shows. SPS's tracking service returns its history."
+    },
+    {
+      "number": "703-030-44933746",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240830130239/https://www.sps-sro.sk/sledovanie-zasielky/?shipment_id=703-030-44933746",
+        "date": "2024-08-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "zto",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "slovak-parcel-service"
+        ]
+      },
+      "note": "Looked up on SPS's own tracker, as an archived address shows. SPS's tracking service returns its history."
+    }
+  ]
+}

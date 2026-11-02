@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Tracking - Archived</title>
+  <script src="https://www.google.com/recaptcha/api.js?render=6Lc0000000000000000000000000000000000000"></script>
+</head>
+<body>
+
+  <div class="security-banner">
+    <span style="font-weight:600;color:#111111;">Payment safety advisory</span> · If you receive any messages from an unverified source asking for payment, <span style="font-weight:600;color:#111111;">do not reply or share payment details</span>. Block and report the sender immediately.
+  </div>
+
+  <div class="header">
+        <span class="brand-logo">
+                  <span class="brand-text">Example Store</span>
+              </span>
+      </div>
+
+  <div class="verify-banner">
+    This is an archived tracking view. <a href="#" id="verifyBuyerLink">Verify as buyer</a> to see full tracking details, live map, and scan history.
+  </div>
+
+  <div id="verifyContext" data-awb="8320000000003" style="display:none;"></div>
+
+  <div class="verify-modal-backdrop" id="verifyModal" role="dialog" aria-modal="true" aria-labelledby="verifyModalTitle">
+    <div class="verify-modal">
+      <button type="button" class="verify-modal-close" id="verifyModalClose" aria-label="Close">&times;</button>
+      <h3 id="verifyModalTitle">Verify as buyer</h3>
+
+      <div id="verifyStepSend">
+        <p>We'll send a one-time password (OTP) to the mobile number registered on your order. Use it to unlock the full tracking details.</p>
+        <button type="button" class="verify-btn" id="verifySendBtn">Send OTP</button>
+        <div class="verify-msg" id="verifySendMsg"></div>
+      </div>
+
+      <div id="verifyStepOtp" style="display:none;">
+        <p>Enter the 6-digit OTP sent to your registered mobile number.</p>
+        <input type="tel" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="\d{6}" class="verify-input" id="verifyOtpInput" placeholder="______">
+        <button type="button" class="verify-btn" id="verifyOtpBtn">Verify OTP</button>
+        <div class="verify-msg" id="verifyOtpMsg"></div>
+        <button type="button" class="verify-resend" id="verifyResendBtn" disabled>Resend OTP in <span id="verifyResendTimer">30</span>s</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tracking-card">
+
+    <div class="status-section">
+      <div class="status-label">Status:</div>
+      <div class="status-value delivered">DELIVERED</div>
+            <div class="otp_verified_tag" style="font-size: 11px; color: #1A73D9;">OTP verified</div>
+            <div class="delivered-date">02 Oct 2026</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="order-details">
+      <div class="section-header">
+        <span class="section-title">Order Details</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Order ID</span>
+        <span class="detail-value">********************003</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Order Placed On</span>
+        <span class="detail-value">** Sep 2026</span>
+      </div>
+
+            <div class="courier-inline">
+        <div class="courier-logo">
+                      <img src="https://shiprocket.co/post_order/img/courier/thumb/srx_economy_pro.png" alt="SRX Economy Pro">
+                  </div>
+        <div>
+          <div class="courier-name">SRX Economy Pro</div>
+                    <div class="tracking-id-label">Tracking ID &nbsp;<span class="tracking-id-value">83200000*****</span></div>
+                  </div>
+      </div>
+          </div>
+
+  </div>
+
+  <div class="footer">
+        <div class="powered">Powered By <span class="sr-logo-text">Shiprocket</span></div>
+      </div>
+
+  <script>
+    (function () {
+      var ctxEl = document.getElementById('verifyContext');
+      var AWB = (ctxEl && ctxEl.getAttribute('data-awb')) || '';
+      var SEND_OTP_URL = '/tracking/send-otp';
+      var VERIFY_OTP_URL = '/tracking/verify-otp';
+    })();
+  </script>
+
+</body>
+</html>

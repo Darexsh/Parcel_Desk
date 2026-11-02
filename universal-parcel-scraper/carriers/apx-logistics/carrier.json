@@ -1,0 +1,50 @@
+{
+  "id": "apx-logistics",
+  "displayName": "APX Logistics",
+  "aliases": [
+    "APX Courier",
+    "Asian Pacific Express",
+    "APX International",
+    "APX International Domestic Courier Cargo Service",
+    "Asian Pacific Domestic Logistics"
+  ],
+  "region": {
+    "countries": [
+      "PK",
+      "AE"
+    ]
+  },
+  "brand": {
+    "color": "#4530f9"
+  },
+  "selectable": true,
+  "timezone": "Asia/Karachi",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://corporate.apxlog.com/trc/tracking.php?id={trackingNumber}",
+    "searchUrl": "https://www.apxlog.com/index.php/en/",
+    "canaryUrl": "https://corporate.apxlog.com/trc/tracking.php",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "corporate.apxlog.com",
+        "apxlog.com"
+      ],
+      "pathPattern": "^/trc/tracking\\.php$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

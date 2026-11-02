@@ -1,0 +1,46 @@
+{
+  "id": "gle-colombia",
+  "displayName": "G.L.E.",
+  "aliases": [
+    "G.L.E. Colombia",
+    "Grupo Logístico Especializado",
+    "Grupo Logístico Especializado S.A.S."
+  ],
+  "region": {
+    "countries": [
+      "CO"
+    ]
+  },
+  "brand": {
+    "color": "#d81730"
+  },
+  "selectable": true,
+  "timezone": "America/Bogota",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://agile.glecolombia.com/GLEWeb/Home/DetailsGuia?guia={trackingNumber}",
+    "searchUrl": "https://www.glecolombia.com/es/rastreo",
+    "canaryUrl": "https://www.glecolombia.com/es/rastreo",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "agile.glecolombia.com"
+      ],
+      "pathPattern": "^/GLEWeb/Home/DetailsGuia/?$",
+      "params": [
+        "guia"
+      ]
+    }
+  ],
+  "detection": []
+}

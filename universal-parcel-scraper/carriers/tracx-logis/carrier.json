@@ -1,0 +1,120 @@
+{
+  "id": "tracx-logis",
+  "displayName": "TracX Logis",
+  "aliases": [
+    "Qxpress",
+    "QXPRESS",
+    "TracX",
+    "Tracx Logis"
+  ],
+  "region": {
+    "countries": [
+      "SG",
+      "KR",
+      "JP",
+      "HK",
+      "TW"
+    ]
+  },
+  "brand": {
+    "color": "#0084ca"
+  },
+  "selectable": true,
+  "timezone": "Asia/Singapore",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "tracx-logis",
+    "steps": [
+      "direct",
+      "action",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 777
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "offset_timestamps",
+    "delivered_at",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.tracxlogis.com/tracking?trackingNo={trackingNumber}",
+    "searchUrl": "https://www.tracxlogis.com/tracking",
+    "canaryUrl": "https://www.tracxlogis.com/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at",
+      "progress_rail",
+      "origin_country",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "customer_reference",
+      "recipient_name",
+      "remarks"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "origin_country",
+      "customer_reference",
+      "recipient_name",
+      "remarks"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracxlogis.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "trackingNo"
+      ]
+    },
+    {
+      "domains": [
+        "qxpress.net"
+      ],
+      "pathPattern": "^/Customer/PopupTraceParcels/?$",
+      "params": [
+        "TrackingNo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "tracx-logis-1",
+      "pattern": "^QSP\\d{9}$",
+      "confidence": "high"
+    }
+  ]
+}

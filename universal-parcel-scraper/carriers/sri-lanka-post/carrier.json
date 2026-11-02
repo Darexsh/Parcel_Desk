@@ -1,0 +1,35 @@
+{
+  "id": "sri-lanka-post",
+  "displayName": "Sri Lanka Post",
+  "aliases": [
+    "SL Post",
+    "SL Post Courier",
+    "Department of Posts Sri Lanka"
+  ],
+  "region": {
+    "countries": [
+      "LK"
+    ]
+  },
+  "brand": {
+    "color": "#cf1839"
+  },
+  "selectable": true,
+  "timezone": "Asia/Colombo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://slpmail.slpost.gov.lk/track/",
+    "canaryUrl": "https://slpmail.slpost.gov.lk/track/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

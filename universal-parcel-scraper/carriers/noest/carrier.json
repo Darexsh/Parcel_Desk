@@ -1,0 +1,78 @@
+{
+  "id": "noest",
+  "displayName": "NOEST Express",
+  "aliases": [
+    "NOEST",
+    "Noest Express",
+    "Nord et Ouest Express"
+  ],
+  "region": {
+    "countries": [
+      "DZ"
+    ]
+  },
+  "brand": {
+    "color": "#003462"
+  },
+  "selectable": true,
+  "timezone": "Africa/Algiers",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "noest",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 767
+    }
+  },
+  "capabilities": [
+    "history",
+    "offset_timestamps",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://app.noest-dz.com/list/t/{trackingNumber}",
+    "searchUrl": "https://app.noest-dz.com/list/t",
+    "canaryUrl": "https://app.noest-dz.com/list/t",
+    "shows": [
+      "status",
+      "history",
+      "event_details",
+      "remarks"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "offset_timestamps",
+      "delivered_at"
+    ],
+    "discarded": [
+      "event_details",
+      "remarks"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name",
+      "pickup_point",
+      "sender_name",
+      "recipient_name",
+      "destination_country",
+      "proof_of_delivery",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "app.noest-dz.com"
+      ],
+      "path": "^/(?:list/t|tracking)/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

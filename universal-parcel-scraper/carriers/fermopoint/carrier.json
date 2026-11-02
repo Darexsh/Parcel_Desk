@@ -1,0 +1,72 @@
+{
+  "id": "fermopoint",
+  "displayName": "Fermopoint",
+  "aliases": [
+    "Fermo!Point",
+    "fermopoint",
+    "BRT-fermopoint"
+  ],
+  "region": {
+    "countries": [
+      "IT"
+    ]
+  },
+  "brand": {
+    "color": "#dc0032"
+  },
+  "selectable": true,
+  "timezone": "Europe/Rome",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "fermopoint",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 872
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://www.fermopoint.it/prenotazione/{trackingNumber}",
+    "searchUrl": "https://www.fermopoint.it/traccia-un-ritiro",
+    "canaryUrl": "https://www.fermopoint.it/traccia-un-ritiro",
+    "shows": [
+      "status",
+      "history"
+    ],
+    "scraped": [
+      "status",
+      "history"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "pickup_point",
+      "delivered_at",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "fermopoint.it"
+      ],
+      "path": "^/(?:prenotazione|fermoticket)/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "fermopoint-1",
+      "pattern": "^[A-Z][A-Z0-9]{4}[A-Z]{2}\\d{6}$",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "pasarex",
+  "displayName": "PasarEX",
+  "aliases": [
+    "Pasar Express",
+    "PASAR EXPRESS SAS",
+    "Pasar Express S.A."
+  ],
+  "region": {
+    "countries": [
+      "CO",
+      "CL",
+      "PA",
+      "BB"
+    ]
+  },
+  "brand": {
+    "color": "#124381"
+  },
+  "selectable": true,
+  "timezone": "America/Bogota",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.pasarex.com/?awb={trackingNumber}",
+    "searchUrl": "https://tracking.pasarex.com/",
+    "canaryUrl": "https://pasarex.com/co/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.pasarex.com"
+      ],
+      "pathPattern": "^/(?:tracking)?/?$",
+      "params": [
+        "awb"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "pasarex-1",
+      "pattern": "^AMZPSR\\d{9}$",
+      "confidence": "low"
+    }
+  ]
+}

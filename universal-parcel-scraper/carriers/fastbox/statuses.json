@@ -1,0 +1,11 @@
+{
+  "carrier": "fastbox",
+  "entries": [
+    {"code": "Shipping soon", "wording": "Order Accepted", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "Fastbox's order at its warehouse, before the parcel ships."},
+    {"code": "Ready for International shipping", "wording": "Processed Through Facility for International Shipping", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "Processed at Fastbox's warehouse for its international shipping."},
+    {"code": "International Shipping", "wording": "Hand over to Delivery Company", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Handed to the partner that carries the parcel abroad."},
+    {"code": "InfoReceived", "wording": "Item Booked", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "A partner's advance data. The destination post's wording stages it first; after the parcel moved on it is in transit."},
+    {"code": "InTransit", "wording": "Ready for dispatch", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "A partner's scan whose wording the shared rules do not stage."},
+    {"code": "OutForDelivery", "wording": "Taken out for delivery", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live", "note": "The destination post's round."}
+  ]
+}

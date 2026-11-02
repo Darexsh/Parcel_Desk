@@ -1,0 +1,113 @@
+{
+  "id": "interrapidisimo",
+  "displayName": "Inter Rapidísimo",
+  "aliases": [
+    "Interrapidisimo",
+    "Inter Rapidisimo",
+    "InterRapidísimo"
+  ],
+  "region": {
+    "countries": [
+      "CO"
+    ]
+  },
+  "brand": {
+    "color": "#18191a"
+  },
+  "selectable": true,
+  "timezone": "America/Bogota",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "interrapidisimo",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 969
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://siguetuenvio.interrapidisimo.com/{trackingNumber}",
+    "searchUrl": "https://interrapidisimo.com/",
+    "canaryUrl": "https://siguetuenvio.interrapidisimo.com/",
+    "shows": [
+      "status",
+      "history",
+      "progress_rail",
+      "eta",
+      "eta_window",
+      "origin",
+      "destination",
+      "office_addresses",
+      "coordinates",
+      "future_milestones",
+      "return_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "progress_rail",
+      "eta_window",
+      "origin",
+      "destination",
+      "office_addresses",
+      "coordinates",
+      "future_milestones",
+      "return_number"
+    ],
+    "unavailable": [
+      "provider_code",
+      "weight",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www3.interrapidisimo.com"
+      ],
+      "pathPattern": "^/PortalConsulta/Vista/ExploradorGuias/ConsultaGuiaConMen\\.aspx$",
+      "params": [
+        "tbxNumeroGuia"
+      ]
+    },
+    {
+      "domains": [
+        "interrapidisimo.com"
+      ],
+      "pathPattern": "^/(?:index\\.php/)?sigue-tu-envio/?$",
+      "params": [
+        "guia"
+      ]
+    },
+    {
+      "domains": [
+        "interrapidisimo.com"
+      ],
+      "pathPattern": "^/ExploradorEnvios/Views/?$",
+      "params": [
+        "guia"
+      ]
+    },
+    {
+      "domains": [
+        "siguetuenvio.interrapidisimo.com"
+      ],
+      "path": "^/(\\d{12,13})/?$"
+    }
+  ],
+  "detection": []
+}

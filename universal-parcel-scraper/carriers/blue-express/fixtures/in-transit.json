@@ -1,0 +1,236 @@
+{
+  "status": "ok",
+  "message": "Os Micro State",
+  "data": {
+    "traceMicrostates": {
+      "orderId": "9000000020",
+      "orderType": 0,
+      "isCrossBorder": false,
+      "isReverseLogistics": false,
+      "microstates": [
+        {
+          "formattedDate": "18 de abril 2026",
+          "rawDate": "18-04-2026",
+          "events": [
+            {
+              "name": "LD_TAG",
+              "time": "09:41:00",
+              "title": "En reparto",
+              "locationName": "RDES12-2-DES1C",
+              "displayLocationName": "Ciudad Destino",
+              "displayLocationAddress": "Ciudad Destino",
+              "type": "check",
+              "eventCode": "LD"
+            }
+          ]
+        },
+        {
+          "formattedDate": "18 de abril 2026",
+          "rawDate": "18-04-2026",
+          "events": [
+            {
+              "name": "CE_TAG",
+              "time": "07:58:00",
+              "title": "Entrega durante el próximo día hábil",
+              "locationName": "RDES12-2-DES1C",
+              "displayLocationName": "Ciudad Destino",
+              "displayLocationAddress": "Ciudad Destino",
+              "type": "check",
+              "eventCode": "CE"
+            }
+          ]
+        },
+        {
+          "formattedDate": "17 de abril 2026",
+          "rawDate": "17-04-2026",
+          "events": [
+            {
+              "name": "SQ_TAG",
+              "time": "13:20:00",
+              "title": "Nueva dirección de entrega",
+              "locationName": "RCEN900-2-CEN7C",
+              "displayLocationName": "Ciudad Central",
+              "displayLocationAddress": "Ciudad Central",
+              "type": "check",
+              "eventCode": "SQ",
+              "subEventCode": "SC_OD"
+            }
+          ]
+        },
+        {
+          "formattedDate": "17 de abril 2026",
+          "rawDate": "17-04-2026",
+          "events": [
+            {
+              "name": "CH_TAG",
+              "time": "13:20:00",
+              "locationName": "RCEN900-2-CEN7C",
+              "displayLocationName": "Ciudad Central",
+              "displayLocationAddress": "Ciudad Central",
+              "type": "attention",
+              "eventCode": "CH"
+            }
+          ]
+        },
+        {
+          "formattedDate": "17 de abril 2026",
+          "rawDate": "17-04-2026",
+          "events": [
+            {
+              "name": "TS_TAG",
+              "time": "13:19:58",
+              "title": "Problema de entrega",
+              "locationName": "RDES12-2-DES1C",
+              "displayLocationName": "Ciudad Destino",
+              "displayLocationAddress": "Ciudad Destino",
+              "type": "warning",
+              "eventCode": "TS"
+            }
+          ]
+        },
+        {
+          "formattedDate": "17 de abril 2026",
+          "rawDate": "17-04-2026",
+          "events": [
+            {
+              "name": "DI_TAG",
+              "time": "11:26:13",
+              "title": "Dirección inubicable",
+              "locationName": "RDES12-2-DES1C",
+              "displayLocationName": "Ciudad Destino",
+              "displayLocationAddress": "Ciudad Destino",
+              "type": "warning",
+              "eventCode": "DI"
+            }
+          ]
+        },
+        {
+          "formattedDate": "17 de abril 2026",
+          "rawDate": "17-04-2026",
+          "events": [
+            {
+              "name": "LD_TAG",
+              "time": "09:30:00",
+              "title": "En reparto",
+              "locationName": "RDES12-2-DES1C",
+              "displayLocationName": "Ciudad Destino",
+              "displayLocationAddress": "Ciudad Destino",
+              "type": "check",
+              "eventCode": "LD"
+            }
+          ]
+        },
+        {
+          "formattedDate": "17 de abril 2026",
+          "rawDate": "17-04-2026",
+          "events": [
+            {
+              "name": "DA_TAG",
+              "time": "07:57:00",
+              "title": "Paquete en centro de distribución",
+              "locationName": "RDES21-2-DES1C",
+              "displayLocationName": "Ciudad Destino",
+              "displayLocationAddress": "Ciudad Destino",
+              "type": "check",
+              "eventCode": "DA"
+            }
+          ]
+        },
+        {
+          "formattedDate": "16 de abril 2026",
+          "rawDate": "16-04-2026",
+          "events": [
+            {
+              "name": "IC_TAG",
+              "time": "23:52:34",
+              "title": "Traslado interregional",
+              "locationName": "RCEN1-2-CEN7C",
+              "displayLocationName": "Ciudad Central",
+              "displayLocationAddress": "Ciudad Central",
+              "type": "check",
+              "eventCode": "IC"
+            }
+          ]
+        },
+        {
+          "formattedDate": "16 de abril 2026",
+          "rawDate": "16-04-2026",
+          "events": [
+            {
+              "name": "PUH_TAG",
+              "time": "19:21:36",
+              "title": "Centro de distribución de Blue Express",
+              "locationName": "HUBCEN7-1-CEN7C",
+              "displayLocationName": "Ciudad Central",
+              "displayLocationAddress": "Ciudad Central",
+              "type": "check",
+              "eventCode": "PUH"
+            }
+          ]
+        },
+        {
+          "formattedDate": "16 de abril 2026",
+          "rawDate": "16-04-2026",
+          "events": [
+            {
+              "name": "CBM_TAG",
+              "time": "19:21:36",
+              "locationName": "HUBCEN7-1-CEN7C",
+              "displayLocationName": "Ciudad Central",
+              "displayLocationAddress": "Ciudad Central",
+              "type": "warning",
+              "eventCode": "CBM"
+            }
+          ]
+        },
+        {
+          "formattedDate": "15 de abril 2026",
+          "rawDate": "15-04-2026",
+          "events": [
+            {
+              "name": "PU_TAG",
+              "time": "15:04:15",
+              "title": "Retirado",
+              "locationName": "RORI103-2-ORI1C",
+              "displayLocationName": "Ciudad Origen",
+              "displayLocationAddress": "Ciudad Origen",
+              "type": "check",
+              "eventCode": "PU"
+            }
+          ]
+        },
+        {
+          "formattedDate": "15 de abril 2026",
+          "rawDate": "15-04-2026",
+          "events": [
+            {
+              "name": "GE_TAG",
+              "time": "10:00:12",
+              "title": "Aviso de envío recibido",
+              "locationName": "RORI1-2-ORI1C",
+              "displayLocationName": "Ciudad Origen",
+              "displayLocationAddress": "Ciudad Origen",
+              "type": "check",
+              "eventCode": "GE"
+            }
+          ]
+        },
+        {
+          "formattedDate": "15 de abril 2026",
+          "rawDate": "15-04-2026",
+          "events": [
+            {
+              "name": "FI_TAG",
+              "time": "10:00:11",
+              "locationName": "RORI1-2-ORI1C",
+              "displayLocationName": "Ciudad Origen",
+              "displayLocationAddress": "Ciudad Origen",
+              "type": "check",
+              "eventCode": "FI"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

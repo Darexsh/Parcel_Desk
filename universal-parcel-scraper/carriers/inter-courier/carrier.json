@@ -1,0 +1,47 @@
+{
+  "id": "inter-courier",
+  "displayName": "Intercourier",
+  "aliases": [
+    "Inter Courier",
+    "INTERCOURIER",
+    "INTERCOURIER - Serviço Expresso Global"
+  ],
+  "region": {
+    "countries": [
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#76ba59"
+  },
+  "selectable": true,
+  "timezone": "Europe/Lisbon",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://intercourier.pt/pt/tracking?tracking={trackingNumber}",
+    "searchUrl": "https://intercourier.pt/pt/tracking",
+    "canaryUrl": "https://intercourier.pt/pt/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "intercourier.pt",
+        "www.intercourier.pt"
+      ],
+      "pathPattern": "^/(?:pt|en)/tracking/?$",
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": []
+}

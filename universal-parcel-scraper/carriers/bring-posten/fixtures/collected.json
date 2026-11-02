@@ -1,0 +1,34 @@
+{
+  "consignmentWithDomainAsync": {
+    "consignmentId": "70000000000000001",
+    "numberOfConsignmentItems": 1,
+    "domain": {"isMultiParcel": false},
+    "senderName": "Example Shop AS",
+    "recipientAddress": {"addressLine1": "", "postalCode": "9999", "city": "PRIVATE TOWN", "countryCode": "NO"},
+    "packageSet": [{
+      "brand": "BRING",
+      "packageNumber": "370000000000000001",
+      "statusDescription": "",
+      "expectedPickupUnitId": "100001",
+      "expectedPickupUnitName": "Example Parcel Locker",
+      "expectedPickupUnitURL": "https://www.bring.no/kart?ID=100001",
+      "recipientName": null,
+      "recipientMobileNumber": null,
+      "domain": {
+        "currentStatus": "DELIVERED",
+        "latestSignificantEvent": {"status": "DELIVERED", "dateIso": "2026-01-06T12:00:00+01:00", "insignificant": false, "lmEventCode": "I5", "city": "", "unitId": "100001"},
+        "parcelLocker": "BringBox",
+        "deliveryType": {"type": "pickup-point", "pickupPointInfo": {"expectedPickupUnitName": "Example Parcel Locker", "expectedPickupUnitURL": "https://www.bring.no/kart?ID=100001"}},
+        "returnData": {"isReturned": false},
+        "eta": {"status": "MISSING"}
+      },
+      "eventSet": [
+        {"status": "DELIVERED", "description": "The shipment has been delivered from a parcel box.", "dateIso": "2026-01-06T12:00:00+01:00", "insignificant": false, "lmEventCode": "I5", "lmCauseCode": "", "postalCode": "", "city": "", "unitId": "100001"},
+        {"status": "READY_FOR_PICKUP", "description": "The parcel has arrived at <a href=\"https://www.bring.no/kart?ID=100001\">Example Parcel Locker</a>.", "dateIso": "2026-01-05T12:00:00+01:00", "insignificant": false, "lmEventCode": "Q", "lmCauseCode": "", "postalCode": "", "city": "EXAMPLE TOWN", "unitId": "100001"},
+        {"status": "TRANSPORT_TO_RECIPIENT", "description": "The parcel is now on its way to the delivery address.", "dateIso": "2026-01-05T08:00:00+01:00", "insignificant": false, "lmEventCode": "K3", "lmCauseCode": "", "postalCode": "0001", "city": "EXAMPLE TOWN", "unitId": "200001"},
+        {"status": "IN_TRANSIT", "description": "The parcel has been registered with us.", "dateIso": "2026-01-04T12:00:00+01:00", "insignificant": false, "lmEventCode": "R", "lmCauseCode": "", "postalCode": "0002", "city": "EXAMPLE CITY", "unitId": "200002"},
+        {"status": "PRE_NOTIFIED", "description": "The sender has let us know that a parcel is on its way.", "dateIso": "2026-01-03T12:00:00+01:00", "insignificant": false, "lmEventCode": "T", "lmCauseCode": "", "postalCode": "", "city": "", "unitId": "200003"}
+      ]
+    }]
+  }
+}

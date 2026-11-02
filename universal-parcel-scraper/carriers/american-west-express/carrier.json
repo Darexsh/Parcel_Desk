@@ -1,0 +1,91 @@
+{
+  "id": "american-west-express",
+  "displayName": "American West",
+  "aliases": [
+    "AWest",
+    "American West Worldwide Express"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#2d419a"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "american-west-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://awest.freightgate.com/cgi-bin/tarifftrek5.1/itrek.cgi?database=awest&type=submit&interface=pltx&open_interface_search=Search+Now&open_text={trackingNumber}&SearchOn=open_billno",
+    "searchUrl": "https://awest.freightgate.com/awestTrack.html",
+    "canaryUrl": "https://awest.freightgate.com/awestTrack.html",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "eta",
+      "terminal_eta",
+      "parcel_count",
+      "weight",
+      "customer_reference",
+      "origin",
+      "destination",
+      "office_contact_details"
+    ],
+    "scraped": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "provider_code",
+      "eta"
+    ],
+    "discarded": [
+      "terminal_eta",
+      "parcel_count",
+      "weight",
+      "customer_reference",
+      "origin",
+      "destination",
+      "office_contact_details"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "delivered_at",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "signatory",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "awest.freightgate.com"
+      ],
+      "pathPattern": "^/cgi-bin/tarifftrek5\\.1/itrek\\.cgi$",
+      "params": [
+        "open_text"
+      ]
+    }
+  ],
+  "detection": []
+}

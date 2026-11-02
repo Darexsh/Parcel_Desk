@@ -1,0 +1,90 @@
+{
+  "id": "shiprocket",
+  "displayName": "Shiprocket",
+  "aliases": [
+    "ShiprocketX",
+    "Shiprocket X",
+    "Shiprocket Cross Border"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#735ae5"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "shiprocket",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true,
+    "recognition": {
+      "rank": 592
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "offset_timestamps",
+    "eta",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://shiprocket.co/tracking/{trackingNumber}",
+    "searchUrl": "https://www.shiprocket.in/shipment-tracking/",
+    "canaryUrl": "https://shiprocket.co/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "service_name",
+      "sender_name",
+      "order_reference",
+      "recipient_address"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "sender_name",
+      "order_reference",
+      "recipient_address"
+    ],
+    "unavailable": [
+      "provider_code",
+      "recipient_name",
+      "proof_of_delivery",
+      "weight"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "shiprocket.co"
+      ],
+      "path": "^/tracking/([A-Za-z0-9]{8,30})/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "shiprocket-1",
+      "pattern": "^832\\d{10}$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

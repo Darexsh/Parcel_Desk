@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>ATS Healthcare - Quick Track</title>
+  <script type="text/javascript">var synthetic = true;</script>
+</head>
+<body>
+  <form method="post" action="./quickTrackResult?ship=000000099" id="frmQuickTrackResult">
+    <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="c3ludGhldGlj" />
+    <ul><li><a href="../contact.aspx">Contact</a></li></ul>
+    <div id="ContentTemplateQuickTrack">
+      <div>
+        <a id="hypLinkBack" href="ShipTracking-en.aspx">back</a>
+      </div>
+      <br />
+      <div>
+        <table cellspacing="0" rules="all" border="1" id="dgPOD" style="width:100%;border-collapse:collapse;">
+          <tr>
+            <th scope="col">&nbsp;</th><th scope="col">Shipment</th><th scope="col">Date</th><th scope="col">Time</th><th scope="col">Signature</th><th scope="col">Status</th>
+          </tr><tr onclick="javascript:__doPostBack(&#39;dgPOD&#39;,&#39;Select$0&#39;)">
+            <td><a href="javascript:__doPostBack(&#39;dgPOD&#39;,&#39;Select$0&#39;)">Select</a></td><td style="width:15%;">000000099</td><td style="width:10%;">&nbsp;</td><td style="width:10%;">&nbsp;</td><td style="width:20%;">&nbsp;</td><td style="width:35%;">Shipping label created for ATS Healthcare</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="divQuickTrackShipDetail">
+      <div class="row">
+        <span id="lblShip">No detail for shipment 000000099</span>
+      </div>
+      <div id="divLinkLoc" class="row">
+      </div>
+      <div id="divProgressDescr" class="col-md-12 col-sm-12">
+      </div>
+    </div>
+    <div>
+      <input type="hidden" name="txtTimeOffSet" id="txtTimeOffSet" />
+    </div>
+  </form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "carrier": "straightship",
+  "entries": [
+    {"wording": "Package information is created in the system", "stage": "registered", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Customs Released", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-19", "note": "Relayed by universal providers between the shipper's details and the first scan in Canada."},
+    {"wording": "Package Received with Origin Scan warehouse", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "The first scan in Canada, at the same time as the first station row. The history row adds the town and province in brackets."},
+    {"wording": "Package is received at a Straightship station", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The history row adds the town and province in brackets."},
+    {"wording": "Arrived at Facility", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Older pages; the history row adds the town and province in brackets."},
+    {"wording": "Package arrived at transit station", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Loading", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "At the station before the delivery round, sometimes twice a few seconds apart."},
+    {"wording": "Delivery is in progress", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen after a delivery attempt, before a return; the history row adds the town and province in brackets."},
+    {"wording": "Your order is in Progress", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen days after a delivery round that did not deliver, before a return."},
+    {"wording": "Shipment delayed", "stage": "exception", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Package will be delivered before 9:00pm", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "The driver's round: a delivery or an attempt follows the same day. The history row adds the town and province in brackets."},
+    {"wording": "An attempt was made to deliver your package-consignee closed (please e-mail SS@straightship.com to make arrangement)", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal"},
+    {"wording": "An attempt was made to deliver your package-unable to leave package at safe location (please e-mail SS@straightship.com to make arrangement)", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Attempted Delivery", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "The history row adds the town and province in brackets; also a Package Status summary value."},
+    {"wording": "Package is being returned to shipper", "stage": "returned", "language": "en", "confirmedBy": "portal", "note": "With or without the town and province in brackets. A station can still scan the parcel afterwards and send it out again."},
+    {"wording": "Ready For Shipping", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Package Status summary value on older pages; it can stay after scans."},
+    {"wording": "ReadyForShipping", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Package Status summary value; it stays while the parcel moves between stations."},
+    {"wording": "Shipped", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Package Status summary value, seen while the parcel was on its delivery round. Universal providers relay it as a scan."},
+    {"wording": "ReturnedToSender", "stage": "returned", "language": "en", "confirmedBy": "portal", "note": "Package Status summary value once the parcel goes back to the shipper."}
+  ]
+}

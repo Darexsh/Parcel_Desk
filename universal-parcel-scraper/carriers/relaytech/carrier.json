@@ -1,0 +1,97 @@
+{
+  "id": "relaytech",
+  "displayName": "Relay",
+  "aliases": [
+    "Relay Technology",
+    "Relay Tech",
+    "Relaytech"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#d6ec83"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "relaytech",
+    "requirements": [
+      {
+        "field": "postcode",
+        "whenTrackingNumber": "^RELR[A-Z0-9]{8}$",
+        "validator": "internationalPostcode",
+        "optional": true,
+        "showsMore": true,
+        "label": "Delivery postcode",
+        "type": "text",
+        "placeholder": "SW1A 1AA",
+        "help": "Relay shows a shipment only with its delivery postcode. Without it, other sources are asked.",
+        "pattern": "^(?:[Gg][Ii][Rr]|[A-PR-UWYZa-pr-uwyz](?:[0-9][0-9A-HJKPSTUWa-hjkpstuw]?|[A-HK-Ya-hk-y][0-9][0-9ABEHMNPRVWXYabehmnprvwxy]?)) ?[0-9][ABD-HJLNP-UW-Zabd-hjlnp-uw-z]{2}$",
+        "maxLength": 8,
+        "inputMode": "text",
+        "autoComplete": "postal-code"
+      }
+    ],
+    "steps": [
+      "direct"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "eta",
+    "eta_window",
+    "pickup_point",
+    "delivered_at"
+  ],
+  "portal": {
+    "searchUrl": "https://relaytech.co/track-order",
+    "canaryUrl": "https://relaytech.co/track-order",
+    "shows": [
+      "status",
+      "history",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "pickup_point",
+      "sender_name",
+      "recipient_address",
+      "delivery_instructions",
+      "proof_of_delivery",
+      "coordinates"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "pickup_point"
+    ],
+    "discarded": [
+      "sender_name",
+      "recipient_address",
+      "delivery_instructions",
+      "proof_of_delivery",
+      "coordinates"
+    ],
+    "unavailable": [
+      "location",
+      "weight"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "relaytech-1",
+      "pattern": "^RELR[A-Z0-9]{8}$",
+      "confidence": "high"
+    }
+  ]
+}

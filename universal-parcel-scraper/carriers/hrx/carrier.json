@@ -1,0 +1,54 @@
+{
+  "id": "hrx",
+  "displayName": "HRX",
+  "aliases": [
+    "HRX SIA",
+    "HRX AS",
+    "HRX UAB",
+    "HRX Finland",
+    "HRX Finland Oy",
+    "HRX Sverige",
+    "HR-Express",
+    "HR-Express Oy",
+    "HRX E-com Parcel"
+  ],
+  "region": {
+    "countries": [
+      "FI",
+      "EE",
+      "LV",
+      "LT",
+      "PL",
+      "SE"
+    ]
+  },
+  "brand": {
+    "color": "#e82c2a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Tallinn",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://wop.hrx.eu/public/tracking/{trackingNumber}",
+    "searchUrl": "https://www.hrx.lv/en/track-trace/",
+    "canaryUrl": "https://www.hrx.lv/en/track-trace/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "wop.hrx.eu"
+      ],
+      "path": "^/public/tracking/([^/]+)/?$"
+    }
+  ],
+  "detection": []
+}

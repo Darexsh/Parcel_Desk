@@ -1,0 +1,29 @@
+{
+  "carrier": "daily-xpress",
+  "records": [
+    {
+      "number": "15455859",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/delivery-denied-by-courier-service-represenatative/238325",
+        "date": "2024-11-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A Voxya complaint against Daily Xpress Courier Cargo gives it as the AWB number of a courier booked at the Daily Xpress office in Panipat for Lucknow."
+    }
+  ]
+}

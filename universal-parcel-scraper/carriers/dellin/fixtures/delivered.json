@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "status": 200,
+    "currentPage": 1,
+    "nextPage": null,
+    "prevPage": null,
+    "totalPages": 1,
+    "generatedAt": "2026-03-07 12:00:00",
+    "onlinePayment": "off",
+    "counteragentsUpdatedAt": null
+  },
+  "orders": [
+    {
+      "orderNumber": null,
+      "orderDate": null,
+      "orderId": "600000000011",
+      "orderedAt": "2026-03-02 15:20:00",
+      "state": "finished",
+      "stateName": "Заказ завершен",
+      "stateDate": "2026-03-06",
+      "progressPercent": 100,
+      "derival": {
+        "city": "Тестовск г (Тестовская обл.)",
+        "cityId": 202,
+        "cityCode": "0000000000000000000000000",
+        "address": null,
+        "addressCode": null,
+        "terminalName": null,
+        "terminalAddress": null,
+        "terminalId": 22,
+        "timeEnd": null,
+        "timeStart": null,
+        "driver": {
+          "driverName": null,
+          "driverPhone": null
+        },
+        "vehicle": {
+          "vehicleType": null,
+          "vehicleLicencePlate": null
+        }
+      },
+      "arrival": {
+        "city": "Примерово г (Примерная обл.)",
+        "cityId": 101,
+        "cityCode": "0000000000000000000000000",
+        "address": null,
+        "addressCode": null,
+        "terminalName": null,
+        "terminalAddress": "000000, Примерная обл., Примерово г, Тестовая ул, д 1",
+        "terminalId": 11,
+        "terminalCity": "Примерово",
+        "terminalCoordinates": [
+          10.5,
+          20.5
+        ],
+        "terminalEmail": null,
+        "terminalPhones": "7 (000) 000-00-00",
+        "timeEnd": null,
+        "timeStart": null,
+        "driver": {
+          "driverName": null,
+          "driverPhone": null
+        },
+        "vehicle": {
+          "vehicleType": null,
+          "vehicleLicencePlate": null
+        },
+        "callCenterPhones": "8-800-000-00-00",
+        "terminalWorktables": {
+          "sun": "08:00-20:00",
+          "mon": "08:00-20:00",
+          "tue": "08:00-20:00",
+          "wed": "08:00-20:00",
+          "thu": "08:00-20:00",
+          "fri": "08:00-20:00",
+          "sat": "08:00-20:00"
+        },
+        "specialWorktable": {
+          "receive": [],
+          "giveout": []
+        }
+      },
+      "brandUid": null,
+      "sender": {
+        "opf": null,
+        "opfUid": null,
+        "name": null,
+        "address": null,
+        "isPhysical": null,
+        "inn": null,
+        "documentType": null,
+        "documentSeries": null,
+        "documentNumber": null,
+        "counteragentUid": null,
+        "contacts": null,
+        "phones": null
+      },
+      "receiver": {
+        "opf": null,
+        "opfUid": null,
+        "name": null,
+        "address": null,
+        "isPhysical": null,
+        "inn": null,
+        "documentType": null,
+        "documentSeries": null,
+        "documentNumber": null,
+        "counteragentUid": null,
+        "anonym": false,
+        "anonymPhone": null,
+        "anonymEmail": null,
+        "contacts": null,
+        "phones": null
+      },
+      "payer": {
+        "opf": null,
+        "opfUid": null,
+        "name": null,
+        "isPhysical": null,
+        "inn": null,
+        "documentType": null,
+        "documentSeries": null,
+        "documentNumber": null,
+        "counteragentUid": null,
+        "contacts": null,
+        "phones": null
+      },
+      "freight": {
+        "name": null,
+        "weight": null,
+        "oversizedWeight": null,
+        "volume": null,
+        "oversizedVolume": null,
+        "places": null,
+        "oversizedPlaces": null,
+        "length": null,
+        "width": null,
+        "height": null
+      },
+      "cargoPlaces": null,
+      "isAir": false,
+      "air": {},
+      "locks": [],
+      "webOrderItemsSum": null,
+      "withWebOrder": false,
+      "vat": null,
+      "totalSum": "4321.0",
+      "priceComment": "",
+      "isPaid": true,
+      "isPreorder": null,
+      "produceDate": null,
+      "declineReason": null,
+      "orderDates": {
+        "arrivalToOspReceiver": "2026-03-05",
+        "arrivalToOspReceiverMax": null,
+        "arrivalToOspReceiverAccdoc": null,
+        "arrivalToOspSender": "2026-03-02",
+        "arrivalToReceiver": "2026-03-06 00:00:00",
+        "declineDate": null,
+        "derivalFromOspReceiver": null,
+        "derivalFromOspReceiverMax": null,
+        "derivalFromOspReceiverAccdoc": null,
+        "giveoutFromOspReceiver": null,
+        "giveoutFromOspReceiverMax": null,
+        "derivalFromOspSender": "2026-03-03 00:00:00",
+        "draftLastUpdate": null,
+        "finish": "2026-03-06 00:00:00",
+        "firstDocumentCreatedDate": "2026-03-02",
+        "pickup": null,
+        "processingDate": null,
+        "warehousing": null
+      },
+      "orderTimeInDays": {
+        "delivery": null,
+        "deliveryAccdoc": 0
+      },
+      "orderedDeliveryFromAddress": false,
+      "availableDeliveryFromAddress": false,
+      "orderedDeliveryToAddress": true,
+      "availableDeliveryToAddress": false,
+      "customerUid": null,
+      "hasAccess": false,
+      "isFavorite": null,
+      "isContainer": false,
+      "sfrequest": null,
+      "documents": [
+        {
+          "id": "26-00000000017",
+          "uid": "0x00000000000000000000000000000004",
+          "type": "shipping",
+          "createDate": "2026-03-02 15:20:00",
+          "state": "in way",
+          "sender": {},
+          "receiver": {},
+          "payer": {
+            "isPhysical": true
+          },
+          "produceDate": null,
+          "forwarderId": null,
+          "comment": null,
+          "fullDocumentId": null,
+          "freight": {},
+          "derival": {},
+          "arrival": {},
+          "barcode": null,
+          "payment": true,
+          "totalSum": 4321.0,
+          "debtSum": null,
+          "serviceKind": null,
+          "organization": null,
+          "paymentsConflict": null,
+          "services": [
+            {
+              "name": "Перевозка автотранспортная"
+            },
+            {
+              "name": "Экспедирование до клиента"
+            }
+          ],
+          "accompanyingDocuments": [],
+          "availableDocs": [],
+          "vat": null,
+          "freightDirection": "straight",
+          "paymentState": "paid"
+        },
+        {
+          "id": "26-00000000025",
+          "uid": "0x00000000000000000000000000000004",
+          "type": "shipping",
+          "createDate": "2026-03-06 10:00:00",
+          "state": "in way",
+          "sender": {},
+          "receiver": {},
+          "payer": {
+            "isPhysical": true
+          },
+          "produceDate": null,
+          "forwarderId": null,
+          "comment": null,
+          "fullDocumentId": null,
+          "freight": {},
+          "derival": {},
+          "arrival": {},
+          "barcode": null,
+          "payment": true,
+          "totalSum": 0.0,
+          "debtSum": null,
+          "serviceKind": null,
+          "organization": null,
+          "paymentsConflict": null,
+          "services": [
+            {
+              "name": "Страховка"
+            }
+          ],
+          "accompanyingDocuments": [],
+          "availableDocs": [],
+          "vat": null,
+          "freightDirection": "straightAdditional",
+          "paymentState": "paid"
+        }
+      ],
+      "detailedStatus": null,
+      "detailedStatusRus": null,
+      "note": null,
+      "acceptanceActs": [],
+      "primaryShippingUid": null,
+      "paymentState": "paid",
+      "docsRequired": null,
+      "detailsStatusCaption": "Заказ завершен 06 мар 2026\nГруз выдан",
+      "listStatusCaption": "Заказ завершен 06 мар 2026\nГруз выдан",
+      "orderDatesExtended": [
+        {
+          "date": "2 марта",
+          "date_full": "2026-03-02",
+          "description": "принят на терминале отправки",
+          "specify": "",
+          "is_calculated": false
+        },
+        {
+          "date": "5 марта",
+          "date_full": "2026-03-05",
+          "description": "прибыл на терминал г. Примерово",
+          "specify": "",
+          "is_calculated": false
+        },
+        {
+          "date": "6 марта",
+          "date_full": "2026-03-06",
+          "description": "доставлен на адрес получения",
+          "specify": "",
+          "is_calculated": false
+        },
+        {
+          "date": "...",
+          "date_full": null,
+          "description": "сопроводительные документы прибыли на терминал г. Примерово",
+          "specify": "",
+          "is_calculated": false
+        },
+        {
+          "date": "...",
+          "date_full": null,
+          "description": "сопроводительные документы отправляются адресату",
+          "specify": "",
+          "is_calculated": false
+        }
+      ],
+      "blocksCaption": null,
+      "documentsReturnDate": null,
+      "scoringAvailable": false,
+      "statedValue": 10000.0,
+      "shipmentLabelCargoPlace": null,
+      "arrivalTimeStart": null
+    }
+  ],
+  "information": null,
+  "deleted": null
+}

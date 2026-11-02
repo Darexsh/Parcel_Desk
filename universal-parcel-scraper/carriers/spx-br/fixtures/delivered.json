@@ -1,0 +1,456 @@
+{
+  "retcode": 0,
+  "data": {
+    "fulfillment_info": {
+      "deliver_type": 1
+    },
+    "sls_tracking_info": {
+      "sls_tn": "BR2600000000011",
+      "client_order_id": "1000000000000000001",
+      "receiver_name": "Pessoa Exemplo",
+      "receiver_type_name": "",
+      "records": [
+        {
+          "tracking_code": "F980",
+          "tracking_name": "Delivered",
+          "description": "Pedido entregue",
+          "display_flag": 1,
+          "actual_time": 1779195200,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pedido entregue. Recebido por: Pessoa Exemplo",
+          "seller_description": "Pedido entregue",
+          "milestone_code": 8,
+          "milestone_name": "Delivered"
+        },
+        {
+          "tracking_code": "F600",
+          "tracking_name": "Out For Delivery",
+          "description": "Pedido em rota de entrega para seu endereço, aguarde pelas próximas horas.",
+          "display_flag": 1,
+          "actual_time": 1779179200,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 12,
+          "buyer_description": "Pedido em rota de entrega para seu endereço, aguarde pelas próximas horas.",
+          "seller_description": "Pedido em rota de entrega para seu endereço, aguarde pelas próximas horas.",
+          "milestone_code": 6,
+          "milestone_name": "Out for delivery"
+        },
+        {
+          "tracking_code": "F599",
+          "tracking_name": "Enter Last Mile Hub",
+          "description": "Seu pedido chegou ao último centro logístico: Porto Modelo - RJ",
+          "display_flag": 0,
+          "actual_time": 1779162200,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Porto Modelo - RJ",
+            "location_type_name": "",
+            "lng": "-43.250000",
+            "lat": "-22.800000",
+            "full_address": "BR Rio de Janeiro Porto Modelo Rua Modelo 300"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 9,
+          "buyer_description": "Seu pedido chegou ao último centro logístico: Porto Modelo - RJ",
+          "seller_description": "Seu pedido chegou ao último centro logístico: Porto Modelo - RJ",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F540",
+          "tracking_name": "Left Domestic Sorting Center",
+          "description": "Seu pedido saiu do centro logístico: Vila Amostra - SP",
+          "display_flag": 1,
+          "actual_time": 1779122800,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Seu pedido saiu do centro logístico: Vila Amostra - SP",
+          "seller_description": "Seu pedido saiu do centro logístico: Vila Amostra - SP",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F541",
+          "tracking_name": "Loaded to Truck in Sorting Centre",
+          "description": "Seu pedido foi carregado e deixará o centro de triagem em breve",
+          "display_flag": 0,
+          "actual_time": 1779122790,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 0,
+          "buyer_description": "Seu pedido foi carregado e deixará o centro de triagem em breve",
+          "seller_description": "Seu pedido foi carregado e deixará o centro de triagem em breve",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F515",
+          "tracking_name": "Packed in Domestic Sorting Centre",
+          "description": "O pedido está em separação no centro logístico, novas atualizações em até 1 dia.",
+          "display_flag": 1,
+          "actual_time": 1779046400,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Vila Amostra - SP",
+            "location_type_name": "",
+            "lng": "-46.550000",
+            "lat": "-23.700000",
+            "full_address": "BR Sao Paulo Vila Amostra Avenida Amostra 200"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "O pedido está em separação no centro logístico, novas atualizações em até 1 dia.",
+          "seller_description": "O pedido está em separação no centro logístico, novas atualizações em até 1 dia.",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F510",
+          "tracking_name": "Enter Domestic Sorting Center",
+          "description": "O pedido chegou ao centro de : Vila Amostra - SP e segue para a próxima etapa.",
+          "display_flag": 1,
+          "actual_time": 1779036400,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Vila Amostra - SP",
+            "location_type_name": "",
+            "lng": "-46.550000",
+            "lat": "-23.700000",
+            "full_address": "BR Sao Paulo Vila Amostra Avenida Amostra 200"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "O pedido chegou ao centro de : Vila Amostra - SP e segue para a próxima etapa.",
+          "seller_description": "O pedido chegou ao centro de : Vila Amostra - SP e segue para a próxima etapa.",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F510",
+          "tracking_name": "Enter Domestic Sorting Center",
+          "description": "O pedido chegou ao centro de : Vila Amostra - SP e segue para a próxima etapa.",
+          "display_flag": 1,
+          "actual_time": 1779036400,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Vila Amostra - SP",
+            "location_type_name": "",
+            "lng": "-46.550000",
+            "lat": "-23.700000",
+            "full_address": "BR Sao Paulo Vila Amostra Avenida Amostra 200"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "O pedido chegou ao centro de : Vila Amostra - SP e segue para a próxima etapa.",
+          "seller_description": "O pedido chegou ao centro de : Vila Amostra - SP e segue para a próxima etapa.",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F450",
+          "tracking_name": "Left Domestic First Mile Hub",
+          "description": "Seu pedido saiu do centro logístico: Cidade Exemplo - SP",
+          "display_flag": 1,
+          "actual_time": 1779026400,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Seu pedido saiu do centro logístico: Cidade Exemplo - SP",
+          "seller_description": "Seu pedido saiu do centro logístico: Cidade Exemplo - SP",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F440",
+          "tracking_name": "Enter Domestic First Mile Hub",
+          "description": "Seu pedido chegou ao centro logístico: Cidade Exemplo - SP",
+          "display_flag": 1,
+          "actual_time": 1778988400,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Cidade Exemplo - SP",
+            "location_type_name": "",
+            "lng": "-46.600000",
+            "lat": "-23.500000",
+            "full_address": "BR Sao Paulo Cidade Exemplo Rua Exemplo 100"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Seu pedido chegou ao centro logístico: Cidade Exemplo - SP",
+          "seller_description": "Seu pedido chegou ao centro logístico: Cidade Exemplo - SP",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F100",
+          "tracking_name": "Pickup From Domestic Seller",
+          "description": "Seu pedido foi coletado",
+          "display_flag": 1,
+          "actual_time": 1778980000,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Bairro do Vendedor - SP",
+            "location_type_name": "",
+            "lng": "-46.700000",
+            "lat": "-23.400000",
+            "full_address": "BR Sao Paulo Rua do Vendedor 400"
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 12,
+          "buyer_description": "Seu pedido foi coletado",
+          "seller_description": "Seu pedido foi coletado",
+          "milestone_code": 5,
+          "milestone_name": "In transit"
+        },
+        {
+          "tracking_code": "F001",
+          "tracking_name": "Unsuccessful Pickup Attempt",
+          "description": "Não conseguimos coletar o pedido: Remetente não preparou o pedido",
+          "display_flag": 0,
+          "actual_time": 1778970000,
+          "reason_code": "R101",
+          "reason_desc": "Não havia pacotes para coletar",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 4,
+          "buyer_description": "Não conseguimos coletar o pedido: Remetente não preparou o pedido",
+          "seller_description": "Não conseguimos coletar o pedido: Remetente não preparou o pedido",
+          "milestone_code": 1,
+          "milestone_name": "Preparing to ship"
+        },
+        {
+          "tracking_code": "F004",
+          "tracking_name": "Courier assigned",
+          "description": "Motorista localizado, favor aguardar a realização da coleta.",
+          "display_flag": 0,
+          "actual_time": 1778950000,
+          "reason_code": "R00",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 1,
+          "buyer_description": "Motorista localizado, favor aguardar a realização da coleta.",
+          "seller_description": "Motorista localizado, favor aguardar a realização da coleta.",
+          "milestone_code": 1,
+          "milestone_name": "Preparing to ship"
+        },
+        {
+          "tracking_code": "F000",
+          "tracking_name": "Manifested",
+          "description": "Pedido em preparação",
+          "display_flag": 1,
+          "actual_time": 1778940000,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 12,
+          "buyer_description": "O seu pedido está sendo preparado para envio.",
+          "seller_description": "Pedido em preparação",
+          "milestone_code": 1,
+          "milestone_name": "Preparing to ship"
+        },
+        {
+          "tracking_code": "A000",
+          "tracking_name": "SLSTN Created",
+          "description": "SLSTN has been created, sending request to logistic partners",
+          "display_flag": 0,
+          "actual_time": 1778939996,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 0,
+          "buyer_description": "SLSTN has been created, sending request to logistic partners",
+          "seller_description": "SLSTN has been created, sending request to logistic partners",
+          "milestone_code": 1,
+          "milestone_name": "Preparing to ship"
+        }
+      ]
+    },
+    "is_instant_order": false,
+    "is_shopee_market_order": true
+  },
+  "message": "success",
+  "detail": "",
+  "debug": ""
+}

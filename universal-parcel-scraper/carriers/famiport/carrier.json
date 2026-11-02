@@ -1,0 +1,59 @@
+{
+  "id": "famiport",
+  "displayName": "FamilyMart Taiwan",
+  "aliases": [
+    "FamiPort",
+    "FamilyMart",
+    "全家",
+    "全家便利商店",
+    "全家便利商店股份有限公司",
+    "全家店到店",
+    "全家日翊"
+  ],
+  "region": {
+    "countries": [
+      "TW"
+    ]
+  },
+  "brand": {
+    "color": "#018cd6"
+  },
+  "selectable": true,
+  "timezone": "Asia/Taipei",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://fmec.famiport.com.tw/FP_Entrance/QueryBox?orderno={trackingNumber}",
+    "searchUrl": "https://fmec.famiport.com.tw/FP_Entrance/QueryBox",
+    "canaryUrl": "https://fmec.famiport.com.tw/FP_Entrance/QueryBox",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "fmec.famiport.com.tw"
+      ],
+      "pathPattern": "^/FP_Entrance/QueryBox/?$",
+      "params": [
+        "orderno"
+      ]
+    },
+    {
+      "domains": [
+        "ecfme.fme.com.tw"
+      ],
+      "pathPattern": "^/FMEDCFPWebV2_II/index\\.aspx$",
+      "params": [
+        "orderno"
+      ]
+    }
+  ],
+  "detection": []
+}

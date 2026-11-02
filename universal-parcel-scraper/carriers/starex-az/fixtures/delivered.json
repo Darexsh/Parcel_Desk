@@ -1,0 +1,17 @@
+{
+  "data": [
+    {"status": "delivered", "name": "Delivered", "description": "The package has been successfully delivered", "icon": "bi-check-circle-fill", "date": "18-09-2026 16:05", "color": "default"},
+    {"status": "ready_for_pickup", "name": "Ready for Pickup", "description": "The package is ready for pickup at the branch.", "icon": "bi-file-text", "date": "17-09-2026 11:20", "color": "default"},
+    {"status": "in_transit", "name": "In Transit", "description": "The package is on its way to the pickup point.", "icon": "bi-file-text", "date": "17-09-2026 06:40", "color": "default"},
+    {"status": "sorting", "name": "Sorting", "description": "The package is being sorted at the central warehouse.", "icon": "bi-shuffle", "date": "16-09-2026 14:10", "color": "default"},
+    {"status": "import_customs_released", "name": "Customs Cleared", "description": "The package has successfully cleared customs.", "icon": "bi-shield-fill-check", "date": "16-09-2026 14:10", "color": "default"},
+    {"status": "import_customs_hold", "name": "Customs Hold", "description": "The package has been referred for additional customs inspection.", "icon": "bi-shield-fill-exclamation", "date": "12-09-2026 09:30", "color": "default"},
+    {"status": "accepted_at_terminal", "name": "Arrived at Customs", "description": "The package has arrived in the destination country and is being prepared for customs clearance.", "icon": "bi-building-fill-exclamation", "date": "10-09-2026 08:15", "color": "default"},
+    {"status": "waiting_for_arrival", "name": "In Transit", "description": "The package is on its way from the origin country to the destination country.", "icon": "bi-file-text", "date": "08-09-2026 11:00", "color": "default"},
+    {"status": "export_customs_clearance", "name": "Export Customs Clearance", "description": "The package is undergoing export customs clearance.", "icon": "bi-file-text", "date": "07-09-2026 16:20", "color": "default"},
+    {"status": "accepted_at_facility", "name": "At Origin Warehouse", "description": "The package has been received at the origin warehouse and is being prepared for dispatch.", "icon": "bi-clipboard2-check-fill", "date": "05-09-2026 22:50", "color": "default"},
+    {"status": "waiting_for_delivery", "name": "Package Created", "description": "The package has been created in the system.", "icon": "bi-hourglass-split", "date": "01-09-2026 07:45", "color": "default"}
+  ],
+  "package": {"order_number": "0000000000000000", "updatable": false, "location_required": false, "address": null},
+  "user": {"name": "Te** Re*******", "phone": "*****0000", "pin": "0******", "pudo_name": "Starex Sample filialı"}
+}

@@ -1,0 +1,62 @@
+{
+  "carrier": "exmate",
+  "records": [
+    {
+      "number": "EXK05127188J",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260915010652/https://pod.exmate.net/pod/?exmno=EXK05127188J",
+        "date": "2026-09-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "exmate",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Exmate's own tracker shows the parcel from registration in Korea to customs clearance in Japan, then handed to Sagawa for delivery."
+    },
+    {
+      "number": "EXK05223194J",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260915010630/https://pod.exmate.net/pod/?exmno=EXK05223194J",
+        "date": "2026-09-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "exmate",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Exmate's own tracker shows the parcel registered in Korea, with a Japan Post Yu-Packet number for delivery in Japan."
+    },
+    {
+      "number": "EXK01724145J",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250428181938/https://pod.exmate.net/pod/?exmno=EXK01724145J",
+        "date": "2025-04-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "exmate",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Exmate's own tracker. The capture is a redirect without the page and was not opened."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="SampleCsrfToken0000000000000000000000000">
+
+    <title>Track collection parcel</title>
+
+    <!-- Scripts -->
+    <script src="/js/public.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <header class="track-header">
+                <a class="navbar-brand" href="https://starlinks.app">
+                    <img src="/images/sample-logo.png" alt="Starlinks">
+                </a>
+        </header>
+
+        <main class="py-4 track-page track-page-template-custom-1">
+                <public-tracking-page
+        :parcel="{&quot;track_number&quot;:&quot;GF0000000000000017&quot;,&quot;system_track_number&quot;:&quot;XYZ0001GB12345678001&quot;,&quot;carrier_tracking_url&quot;:&quot;https://www.gofo.com/us/track?searchID=GF0000000000000017&quot;,&quot;additional_track_number&quot;:&quot;GF0000000000000017&quot;,&quot;shipper_company&quot;:&quot;Example Shop&quot;,&quot;carrier&quot;:{&quot;title&quot;:&quot;Example Regional LAX&quot;},&quot;weight&quot;:0.2,&quot;weight_unit&quot;:&quot;kg&quot;,&quot;consignee_city&quot;:&quot;Sampleville&quot;,&quot;consignee_country&quot;:&quot;US&quot;,&quot;status&quot;:{&quot;title&quot;:&quot;Delivered&quot;},&quot;isCancelled&quot;:false,&quot;events&quot;:[{&quot;date&quot;:&quot;2026-03-12 10:32:09&quot;,&quot;title&quot;:&quot;Delivered&quot;,&quot;description&quot;:&quot;Delivered&quot;},{&quot;date&quot;:&quot;2026-03-12 07:05:03&quot;,&quot;title&quot;:&quot;Out for Delivery&quot;,&quot;description&quot;:&quot;Out for Delivery&quot;},{&quot;date&quot;:&quot;2026-03-12 06:55:03&quot;,&quot;title&quot;:&quot;In transit&quot;,&quot;description&quot;:&quot;In Transit, with delivery partner&quot;},{&quot;date&quot;:&quot;2026-03-11 12:32:56&quot;,&quot;title&quot;:&quot;In transit&quot;,&quot;description&quot;:&quot;In Transit, with delivery partner&quot;},{&quot;date&quot;:&quot;2026-03-10 12:51:37&quot;,&quot;title&quot;:&quot;Received by carrier&quot;,&quot;description&quot;:&quot;Processed in carrier facility at EXAMPLEBURG, US&quot;},{&quot;date&quot;:&quot;2026-03-08 15:40:00&quot;,&quot;title&quot;:&quot;Customs cleared&quot;,&quot;description&quot;:&quot;Customs Cleared&quot;},{&quot;date&quot;:&quot;2026-03-07 21:50:53&quot;,&quot;title&quot;:&quot;Despatched to Destination&quot;,&quot;description&quot;:&quot;Linehaul Export to Destination at Sampleton, GB&quot;},{&quot;date&quot;:&quot;2026-03-06 18:25:21&quot;,&quot;title&quot;:&quot;Accepted at Processing Hub&quot;,&quot;description&quot;:&quot;&quot;}]}"
+        :brand="{&quot;id&quot;:54,&quot;name&quot;:&quot;Starlinks&quot;,&quot;is_active&quot;:true}"
+        :holidays="null"
+        :is-starlinks="true"
+        :zipcode-required="false"
+        :zipcode="&quot;&quot;"
+        :search="&quot;XYZ0001GB12345678001&quot;"
+        :csrf-token="&quot;SampleCsrfToken0000000000000000000000000&quot;"
+        error=""
+    ></public-tracking-page>
+        </main>
+
+    </div>
+</body>
+</html>

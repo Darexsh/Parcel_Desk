@@ -1,0 +1,32 @@
+{
+  "carrier": "sp-express",
+  "entries": [
+    {"wording": "Nowe zlecenie", "stage": "registered", "language": "pl", "confirmedBy": "portal"},
+    {"wording": "Przetwarzanie zamówienia", "stage": "registered", "language": "pl", "confirmedBy": "portal"},
+    {"wording": "Zlecenie zaakceptowane", "stage": "registered", "language": "pl", "confirmedBy": "portal", "note": "The order is accepted by the system, before the parcel is handed over."},
+    {"wording": "Dane zostały przetworzone", "stage": "registered", "language": "pl", "confirmedBy": "portal", "note": "Followed by the Nysa hub's manifest note."},
+    {"wording": "W przewozie", "stage": "in_transit", "language": "pl", "confirmedBy": "portal"},
+    {"wording": "Przesyłka została zeskanowana w centrum doręczeniowym", "stage": "in_transit", "language": "pl", "confirmedBy": "portal"},
+    {"wording": "Przesyłka została procesowana - oddział doręczający", "stage": "in_transit", "language": "pl", "confirmedBy": "portal"},
+    {"wording": "Przesyłka jest transportowana do kolejnego oddziału podwykonawcy Świata Przesyłek- prosimy oczekiwać kolejnego statusu", "stage": "in_transit", "language": "pl", "confirmedBy": "portal", "note": "The parcel is on its way to the subcontractor that delivers it."},
+    {"wording": "Przesyłka została załadowana na samochód doręczający", "stage": "out_for_delivery", "language": "pl", "confirmedBy": "portal"},
+    {"wording": "Przesyłka jest w doręczeniu", "stage": "out_for_delivery", "language": "pl", "confirmedBy": "portal"},
+    {"wording": "Przesyłka została doręczona", "stage": "delivered", "language": "pl", "confirmedBy": "portal"},
+    {"wording": "Doręczona", "stage": "delivered", "language": "pl", "confirmedBy": "portal"},
+    {"wording": "Posiadamy Dane elektroniczne, ale przesyłka jeszcze nie została nadana. Będzie ona transportowana trybem ekonomicznym do UE, i trafi do agencji celnej. Doręczenia można spodziewać się do 60 dni.", "stage": "registered", "language": "pl", "confirmedBy": "portal", "note": "Seen on the Cainiao page: electronic data received, the parcel not yet sent; economy transport to the EU through a customs agency."},
+    {"wording": "Inbound scan", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Seen on the Polish Cainiao page with the Nysa hub in brackets."},
+    {"wording": "PRZESYŁKA DOTARŁA DO ODDZIAŁU", "stage": "in_transit", "language": "pl", "confirmedBy": "portal", "note": "Seen on the Cainiao page: the parcel reached a branch."},
+    {"wording": "Request for shipping label", "stage": "registered", "language": "en", "confirmedBy": "portal"},
+    {"wording": "System is processing the order", "stage": "registered", "language": "en", "confirmedBy": "portal"},
+    {"wording": "System has accepted the order", "stage": "registered", "language": "en", "confirmedBy": "portal"},
+    {"wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen with the Nysa hub in brackets."},
+    {"wording": "Outgoing manifest generated", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The hub's outgoing manifest, before hand-over to the delivering network."},
+    {"wording": "The shipment has been successfully delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Delivery Taken Over By DPD", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The tracker relays the delivering partner's scans; DPD has taken the parcel over from the hub."},
+    {"wording": "DPD Internal Forwarding", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Parcel At DPD Destination Depot", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Parcel In Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Parcel Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "The place column and the status bar can name who signed, which is not kept."},
+    {"wording": "Przesyłka została przekazana do finalnego operatora doręczającego", "stage": "in_transit", "language": "pl", "confirmedBy": "source", "note": "Quoted by a reader on a consumer blog (ppe.pl): handed to the final delivery operator."}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "team-express-ae",
+  "displayName": "Team Express",
+  "aliases": [
+    "Team Express Services",
+    "Team Express Services, LLC"
+  ],
+  "region": {
+    "countries": [
+      "AE"
+    ]
+  },
+  "brand": {
+    "color": "#e94e1e"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dubai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "team-express-ae",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "service_name",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://teamexpressme.com/tracking?trackno={trackingNumber}",
+    "searchUrl": "https://teamexpressme.com/tracking",
+    "canaryUrl": "https://teamexpressme.com/tracking",
+    "shows": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "service_name",
+      "origin",
+      "destination",
+      "destination_country",
+      "customer_reference",
+      "departure_date",
+      "signatory",
+      "delivered_at",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "service_name",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "customer_reference",
+      "departure_date",
+      "signatory",
+      "delivered_at"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "offset_timestamps",
+      "proof_of_delivery",
+      "sender_name",
+      "recipient_name",
+      "recipient_address"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "teamexpressme.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "trackno"
+      ]
+    }
+  ],
+  "detection": []
+}

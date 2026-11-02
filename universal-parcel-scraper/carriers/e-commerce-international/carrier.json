@@ -1,0 +1,81 @@
+{
+  "id": "e-commerce-international",
+  "displayName": "E-Commerce International",
+  "aliases": [
+    "E-com International",
+    "ecommerce-system.com"
+  ],
+  "region": {
+    "countries": [
+      "PL",
+      "UA"
+    ]
+  },
+  "brand": {
+    "color": "#12399c"
+  },
+  "selectable": true,
+  "timezone": "Europe/Warsaw",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "e-commerce-international",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "offset_timestamps",
+    "delivered_at",
+    "provider_code",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://ecommerce-system.com/track/{trackingNumber}",
+    "searchUrl": "https://ecommerce-system.com/track",
+    "canaryUrl": "https://ecommerce-system.com/track",
+    "shows": [
+      "status",
+      "history",
+      "offset_timestamps",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "offset_timestamps",
+      "provider_code",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name",
+      "destination",
+      "signature",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "ecommerce-system.com",
+        "www.ecommerce-system.com"
+      ],
+      "path": "^/track/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "e-commerce-international-1",
+      "pattern": "^PL15\\d{9}UA$",
+      "confidence": "high"
+    }
+  ]
+}

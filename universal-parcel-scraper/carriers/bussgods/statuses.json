@@ -1,0 +1,22 @@
+{
+  "carrier": "bussgods",
+  "entries": [
+    {"wording": "Registrerad", "stage": "registered", "language": "sv", "confirmedBy": "official-doc", "note": "Status list of the Bussgods API documentation (FRAM WCF service). The fraktsedel is registered before the goods are handed in."},
+    {"wording": "Inlämnad", "stage": "accepted", "language": "sv", "confirmedBy": "portal", "note": "Handed in at a Bussgods agent or terminal; a second one can follow at the next station."},
+    {"wording": "Vidaresänd", "stage": "in_transit", "language": "sv", "confirmedBy": "portal", "note": "Forwarded from a terminal towards the next station."},
+    {"wording": "Avsänd", "stage": "in_transit", "language": "sv", "confirmedBy": "official-doc", "note": "Status list of the Bussgods API documentation (FRAM WCF service). Dispatched."},
+    {"code": "7", "wording": "Registrerad (distribution)", "stage": "in_transit", "language": "sv", "confirmedBy": "official-doc", "note": "Status list of the Bussgods API documentation (FRAM WCF service). Registered for distribution at the receiving end."},
+    {"code": "18", "wording": "På väg till ombud/kund", "stage": "in_transit", "language": "sv", "confirmedBy": "official-doc", "note": "Status list of the Bussgods API documentation (FRAM WCF service). On the way to the receiving agent or the customer."},
+    {"code": "19", "wording": "Felsorterat, sändningen försenad", "stage": "exception", "language": "sv", "confirmedBy": "official-doc", "note": "Status list of the Bussgods API documentation (FRAM WCF service). Missorted, the shipment is delayed."},
+    {"wording": "Anländ", "stage": "ready_for_pickup", "language": "sv", "confirmedBy": "portal", "note": "Arrived at the receiving agent; the tracker adds that Bussgods texts the receiver when goods have arrived and can be collected. It also precedes a door delivery."},
+    {"code": "24", "wording": "Inhämtad", "stage": "accepted", "language": "sv", "confirmedBy": "live", "note": "Seen in the tracker's reply. Collected from the sender."},
+    {"code": "25", "wording": "Inhämtad hos ombud", "stage": "in_transit", "language": "sv", "confirmedBy": "live", "note": "Seen in the tracker's reply. Collected from an agent."},
+    {"code": "26", "wording": "Lämnad hos ombud", "language": "sv", "confirmedBy": "live", "note": "Seen in the tracker's reply. Left at an agent, which can be the sender handing the parcel in or a driver leaving it on the way; no milestone of its own."},
+    {"wording": "Utlämnad", "stage": "delivered", "language": "sv", "confirmedBy": "portal", "note": "Handed out to the receiver at the agent."},
+    {"wording": "Utkörd", "stage": "delivered", "language": "sv", "confirmedBy": "portal", "note": "Delivered to the door by the home-delivery service; the tracker script names its two API codes Delivered and DeliveredWithoutSignature. A 2015 capture shows it at a terminal before arrival at the receiving agent."},
+    {"code": "21", "wording": "Utkörning misslyckades", "stage": "failed_attempt", "language": "sv", "confirmedBy": "official-doc", "note": "Status list of the Bussgods API documentation (FRAM WCF service). Door delivery failed."},
+    {"wording": "Retur", "stage": "returned", "language": "sv", "confirmedBy": "portal", "note": "Sent back to the sender."},
+    {"code": "6", "wording": "Utbetald", "language": "sv", "confirmedBy": "official-doc", "note": "Status list of the Bussgods API documentation (FRAM WCF service). The cash-on-delivery amount was paid out; not a movement of the parcel."},
+    {"code": "8", "wording": "Sändningen har fått nytt sändningsnummer", "language": "sv", "confirmedBy": "official-doc", "note": "Status list of the Bussgods API documentation (FRAM WCF service). The shipment was given a new number; not a movement of the parcel."}
+  ]
+}

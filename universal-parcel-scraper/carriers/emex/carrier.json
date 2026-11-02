@@ -1,0 +1,49 @@
+{
+  "id": "emex",
+  "displayName": "EMEX",
+  "aliases": [
+    "EMEX Kazakhstan",
+    "EMEX Express",
+    "Emexnet",
+    "ТОО EMEX",
+    "ТОО «ЕМЕХ»"
+  ],
+  "region": {
+    "countries": [
+      "KZ"
+    ]
+  },
+  "brand": {
+    "color": "#0d237a"
+  },
+  "selectable": true,
+  "timezone": "Asia/Almaty",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.emex.kz/otslezhivanie-po-kazahstanu?id={trackingNumber}",
+    "searchUrl": "https://www.emex.kz/otslezhivanie-po-kazahstanu",
+    "canaryUrl": "https://www.emex.kz/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.emex.kz",
+        "emex.kz"
+      ],
+      "pathPattern": "^/otslezhivanie-po-kazahstanu/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

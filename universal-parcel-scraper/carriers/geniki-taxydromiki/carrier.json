@@ -1,0 +1,84 @@
+{
+  "id": "geniki-taxydromiki",
+  "displayName": "Geniki Taxydromiki",
+  "aliases": [
+    "Γενική Ταχυδρομική",
+    "Geniki Taxidromiki",
+    "General Post"
+  ],
+  "region": {
+    "countries": [
+      "GR"
+    ]
+  },
+  "brand": {
+    "color": "#004fa0"
+  },
+  "selectable": true,
+  "timezone": "Europe/Athens",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "geniki-taxydromiki",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 140
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://taxydromiki.com/track/{trackingNumber}",
+    "searchUrl": "https://taxydromiki.com/track/",
+    "canaryUrl": "https://taxydromiki.com/track/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "milestones",
+      "recipient_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "milestones",
+      "recipient_name",
+      "coordinates",
+      "delivery_detail",
+      "return_number"
+    ],
+    "unavailable": [
+      "eta",
+      "pickup_point",
+      "sender_name",
+      "weight",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "taxydromiki.com"
+      ],
+      "path": "^/(?:en/)?track/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "geniki-taxydromiki-1",
+      "pattern": "^\\d{10}$",
+      "rawPattern": "^\\d{10}$",
+      "confidence": "low",
+      "checksum": "mod7"
+    }
+  ]
+}

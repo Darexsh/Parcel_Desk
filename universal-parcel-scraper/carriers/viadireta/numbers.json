@@ -1,0 +1,81 @@
+{
+  "carrier": "viadireta",
+  "records": [
+    {
+      "number": "VD307149723551",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/via-directa/complaints/viadireta-atraso-significativo-na-entrega-de-encomenda-e-falta-de-informacao-clara-164327326",
+        "date": "2026-10-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "viadireta",
+        "confidence": "high"
+      },
+      "note": "A Portal da Queixa complaint about a delayed delivery to the islands gives it as the ViaDireta number, and ViaDireta's reply names it. Its tracking page shows six movements, from registration to delivery."
+    },
+    {
+      "number": "VDVD200126002349",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/via-directa/complaints/viadireta-entrega-marcada-como-entregue-mas-nao-foi-entregue-148825826",
+        "date": "2026-01-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "viadireta",
+        "confidence": "high"
+      },
+      "note": "A Portal da Queixa complaint gives it as the parcel's code, and ViaDireta's reply names it with the delivery its system records. It embeds 20 January 2026, two days before the complaint."
+    },
+    {
+      "number": "VDVD200526010401",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/via-directa/complaints/viadireta-encomenda-nao-entregue-83-156390226",
+        "date": "2026-06-03",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "viadireta",
+        "confidence": "high"
+      },
+      "note": "The customer gives it when ViaDireta asks for the parcel's reference, and ViaDireta's next reply says the parcel was delivered. It embeds 20 May 2026."
+    },
+    {
+      "number": "VDVD161225074709",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/via-directa/complaints/viadireta-encomenda-marcada-como-entregue-mas-nao-entregue-146305525",
+        "date": "2025-12-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "viadireta",
+        "confidence": "high"
+      },
+      "note": "A Portal da Queixa complaint about ViaDireta gives it as the shipment code its tracking page showed delivered. It embeds 16 December 2025, the day before the complaint."
+    }
+  ]
+}

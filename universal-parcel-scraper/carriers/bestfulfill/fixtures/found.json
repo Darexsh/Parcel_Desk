@@ -1,0 +1,23 @@
+{
+  "number": "BEST00000000000001",
+  "localCarrier": "",
+  "localNumber": "",
+  "oriChannel": "",
+  "oriNumber": "",
+  "oriCountry": "CN",
+  "destCountry": "US",
+  "status": "Delivered",
+  "events": [
+    { "time": "2026-01-05T07:25:20+00:00", "location": "", "content": "order received", "status": "InfoReceived_InfoReceived" },
+    { "time": "2026-01-05T07:25:22+00:00", "location": "", "content": "Parcel information received", "status": "InfoReceived_InfoReceived" },
+    { "time": "2026-01-07T08:32:40+08:00", "location": "Sample Origin", "content": "PICK UP", "status": "InTransit_PickedUp" },
+    { "time": "2026-01-07T20:10:00+08:00", "location": "Sample Origin", "content": "Depart from facility", "status": "InTransit_Other" },
+    { "time": "2026-01-08T11:00:00+08:00", "location": "Sample Origin", "content": "Export customs clearance completed", "status": "InTransit_CustomsProcessing" },
+    { "time": "2026-01-10T09:15:00-05:00", "location": "SAMPLE CITY", "content": "customs cleared", "status": "InTransit_CustomsProcessing" },
+    { "time": "2026-01-10T09:15:00-05:00", "location": "", "content": "Last Mile Tracking Number: 9200000000000000000001", "status": "InTransit_Other" },
+    { "time": "2026-01-11T14:02:00-05:00", "location": "SAMPLE TOWN, NY 00000", "content": "Arrived at USPS Regional Facility", "status": "InTransit_Other" },
+    { "time": "2026-01-12T07:10:00-05:00", "location": "SAMPLE TOWN, NY 00000", "content": "Out for Delivery, Expected Delivery Between 11:15am and 1:15pm", "status": "OutForDelivery_Other" },
+    { "time": "2026-01-12T07:10:00-05:00", "location": "SAMPLE TOWN, NY 00000", "content": "Out for Delivery", "status": "OutForDelivery_Other" },
+    { "time": "2026-01-12T13:03:18-05:00", "location": "SAMPLE TOWN, NY 00000", "content": "Delivered", "status": "Delivered_Other" }
+  ]
+}

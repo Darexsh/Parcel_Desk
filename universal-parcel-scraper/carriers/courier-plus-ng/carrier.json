@@ -1,0 +1,46 @@
+{
+  "id": "courier-plus-ng",
+  "displayName": "CourierPlus",
+  "aliases": [
+    "CourierPlus Nigeria",
+    "Courier Plus",
+    "Courier Plus Nigeria",
+    "CourierPlus Services Limited"
+  ],
+  "region": {
+    "countries": [
+      "NG"
+    ]
+  },
+  "brand": {
+    "color": "#f16139"
+  },
+  "selectable": true,
+  "timezone": "Africa/Lagos",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://selfservice.courierplus-ng.com/track-shipment",
+    "canaryUrl": "https://selfservice.courierplus-ng.com/track-shipment",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "trackplus.courierplus-ng.com"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "query"
+      ]
+    }
+  ],
+  "detection": []
+}

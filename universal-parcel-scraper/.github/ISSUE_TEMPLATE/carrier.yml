@@ -1,0 +1,21 @@
+name: A carrier stopped working
+description: Report a retrieval or parsing problem with synthetic evidence.
+body:
+  - type: input
+    id: carrier
+    attributes:
+      label: Carrier and package version
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include the failure kind and expected behavior. No real tracking numbers, postcodes, full capability URLs or recipient details.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Synthetic reproduction
+      description: Redacted fixture, safe error details or a public tracker URL without parcel credentials.

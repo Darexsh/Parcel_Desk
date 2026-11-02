@@ -1,0 +1,62 @@
+{
+  "success": 1,
+  "code": 200,
+  "data": {
+    "success": [
+      {
+        "waybillNo": "GFCA00000000000001",
+        "trackingNumber": "GFCA00000000000001",
+        "status": "Delivered",
+        "trackEventCount": 4,
+        "frCountry": "CA",
+        "toCountry": "CA",
+        "serviceName": "CIRRO Parcel",
+        "weight": "0.5",
+        "estimatedArrivalTime": null,
+        "lastTrackEvent": {
+          "processCode": "205",
+          "processDate": "2026-01-04T12:00:00.000-0500",
+          "processContent": "Delivered, Front Desk/Reception. For Delivery Issues & Tracking Support, Contact GOFO at +1 000 000-0000 or support@example.com",
+          "processCity": "Example City",
+          "processProvince": "Ontario",
+          "processTimeZone": "America/Toronto"
+        },
+        "trackEventList": [
+          {
+            "processCode": "205",
+            "processDate": "2026-01-04T12:00:00.000-0500",
+            "processContent": "Delivered, Front Desk/Reception. For Delivery Issues & Tracking Support, Contact GOFO at +1 000 000-0000 or support@example.com",
+            "processCity": "Example City",
+            "processProvince": "Ontario",
+            "processTimeZone": "America/Toronto"
+          },
+          {
+            "processCode": "208",
+            "processDate": "2026-01-04T08:00:00.000-0500",
+            "processContent": "Out for Delivery",
+            "processCity": "Example City",
+            "processProvince": "Ontario",
+            "processTimeZone": "America/Toronto"
+          },
+          {
+            "processCode": "202",
+            "processDate": "2026-01-03T18:00:00.000-0500",
+            "processContent": "Arrived at GOFO Regional Hub",
+            "processCity": "Example City",
+            "processProvince": "Ontario",
+            "processTimeZone": "America/Vancouver"
+          },
+          {
+            "processCode": "100",
+            "processDate": "2026-01-01T12:00:00.000-0500",
+            "processContent": "Shipping Label Created",
+            "processTimeZone": "US/Eastern"
+          }
+        ]
+      }
+    ],
+    "error": {
+      "errorCount": 0
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "forza-delivery",
+  "displayName": "Forza Delivery Express",
+  "aliases": [
+    "Forza Delivery",
+    "Forza",
+    "Forza Delivery Guatemala"
+  ],
+  "region": {
+    "countries": [
+      "GT",
+      "SV",
+      "HN"
+    ]
+  },
+  "brand": {
+    "color": "#ea5c1d"
+  },
+  "selectable": true,
+  "timezone": "America/Guatemala",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "forza-delivery",
+    "steps": [
+      "direct",
+      "retry",
+      "browser"
+    ],
+    "browser": true,
+    "recognition": {
+      "rank": 633
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://rastreo.forzadelivery.com/{trackingNumber}",
+    "canaryUrl": "https://rastreo.forzadelivery.com/",
+    "shows": [
+      "status",
+      "history",
+      "progress_rail",
+      "eta",
+      "destination",
+      "parcel_count",
+      "item_category",
+      "recipient_name",
+      "signatory",
+      "sender_name",
+      "proof_of_delivery",
+      "coordinates",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code"
+    ],
+    "discarded": [
+      "progress_rail",
+      "eta",
+      "destination",
+      "parcel_count",
+      "item_category",
+      "recipient_name",
+      "signatory",
+      "sender_name",
+      "proof_of_delivery",
+      "coordinates",
+      "payment_details"
+    ],
+    "unavailable": [
+      "location",
+      "weight",
+      "service_name",
+      "offset_timestamps",
+      "delivered_at"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "rastreo.forzadelivery.com"
+      ],
+      "path": "^/(FD\\d+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "forza-delivery-1",
+      "pattern": "^FD\\d{6,8}$",
+      "confidence": "low"
+    }
+  ]
+}

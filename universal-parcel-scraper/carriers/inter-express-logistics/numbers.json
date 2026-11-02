@@ -1,0 +1,46 @@
+{
+  "carrier": "inter-express-logistics",
+  "records": [
+    {
+      "number": "FCD0062203617",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200625085242/http://ebooking.iel.co.th:3001/getTracking/FCD0062203617",
+        "date": "2020-06-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived reply of IEL's own tracking API for this number, showing it delivered."
+    },
+    {
+      "number": "IEL9072300018",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200210005838/http://ebooking.iel.co.th:80/tracking/?trackingNumber=IEL9072300018",
+        "date": "2020-02-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "inter-express-logistics"
+        ]
+      },
+      "note": "An archived lookup on IEL's own tracker; the capture holds no result."
+    }
+  ]
+}

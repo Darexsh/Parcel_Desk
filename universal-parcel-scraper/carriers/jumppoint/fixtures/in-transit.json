@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "trackings": [
+      {
+        "trackingNumber": "JP000000000202",
+        "createdAt": "2026-06-08T03:00:00.000Z",
+        "shipmentState": "ON_THE_WAY_TO_PICK_UP_STORE",
+        "deliveryDate": "2026-06-09T16:00:00.000Z",
+        "sameDayDelivery": 0,
+        "itemType": "parcel",
+        "temperatureType": "non",
+        "pickUpStoreTrackingNumber": "SAMPLESTORE0001",
+        "pickUpStoreDetail": {
+          "alias": "Sample Pick-up Point",
+          "address": "Shop 1, 1 Sample Street, Sample District",
+          "contact_number": "00000000",
+          "monday_from": "10:00",
+          "monday_to": "20:00",
+          "public_holiday_from": null,
+          "public_holiday_to": null
+        },
+        "statusLogs": [
+          { "createdAt": "2026-06-08T04:12:00.000Z", "status": "SENDER_DROPPED_OFF_AT_PICK_UP_STORE" },
+          { "createdAt": "2026-06-08T10:45:30.000Z", "status": "ON_THE_WAY_TO_WAREHOUSE" },
+          { "createdAt": "2026-06-08T14:20:10.000Z", "status": "ARRIVED_AT_WAREHOUSE" },
+          { "createdAt": "2026-06-09T00:30:00.000Z", "status": "CONFIRMED" },
+          { "createdAt": "2026-06-09T03:15:42.000Z", "status": "ON_THE_WAY_TO_PICK_UP_STORE" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "pannon-xp",
+  "displayName": "Pannon XP",
+  "aliases": [
+    "PXP Futár",
+    "PXP Futar",
+    "Pannon XP Kft."
+  ],
+  "region": {
+    "countries": [
+      "HU"
+    ]
+  },
+  "brand": {
+    "color": "#f68121"
+  },
+  "selectable": true,
+  "timezone": "Europe/Budapest",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://mypxp.pannonxp.hu/csomagkovetes",
+    "canaryUrl": "https://mypxp.pannonxp.hu/csomagkovetes",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "pannon-xp-1",
+      "pattern": "^35814\\d{19}$",
+      "confidence": "high"
+    }
+  ]
+}

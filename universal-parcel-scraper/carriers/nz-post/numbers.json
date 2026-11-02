@@ -1,0 +1,322 @@
+{
+  "carrier": "nz-post",
+  "records": [
+    {
+      "number": "EP318770974NZ",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://gist.github.com/zxp/e83a4a1b7294a5ed6207",
+        "date": "2015-08-29"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "Open-source project example, not a real shipment. NZ Post's tracker no longer knows it."
+    },
+    {
+      "number": "LX072774186NZ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/package-stuck-160626/",
+        "date": "2026-08-31"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment from New Zealand to China. NZ Post's tracker returns its history, ending held for customs clearance."
+    },
+    {
+      "number": "XY123456789NZ",
+      "role": "negative",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.nzpost.co.nz/business/developer-centre/nz-post-legacy-apis/tracking-api/track-method"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "chronopost"
+        ]
+      },
+      "note": "Official documentation example, not a real shipment. The S10 check digit does not validate. The source attributes it to NZ Post, which no rule claims."
+    },
+    {
+      "number": "EP559083729NZ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/parcel-not-delivered-yet-156048/",
+        "date": "2026-01-07",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "international parcel",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "Customer shipment report; a related post names NZ Post. NZ Post's tracker returns its history to delivery in China."
+    },
+    {
+      "number": "2986680554343601PLN002AS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260823235401/https://tools.nzpost.co.nz/tracking/api/details?tn=2986680554343601PLN002AS",
+        "date": "2026-08-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "courier label",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "An NZ Post tracking request archived by the Wayback Machine. A courier label: sixteen digits, a depot code, three digits and a two-letter suffix. NZ Post's tracker returns its domestic history to delivery."
+    },
+    {
+      "number": "2130900025704001IVC001BS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260811095336/https://tools.nzpost.co.nz/tracking/api/details?tn=2130900025704001IVC001BS",
+        "date": "2026-08-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "courier label",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "An NZ Post tracking request archived by the Wayback Machine. A courier label with a BS suffix; its history has a carded attempt, a handover for collection and delivery from a post outlet."
+    },
+    {
+      "number": "4253940000185101HAM001ON",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260603030142/https://tools.nzpost.co.nz/tracking/api/details?tn=4253940000185101HAM001ON",
+        "date": "2026-06-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "courier label",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "An NZ Post tracking request archived by the Wayback Machine. A courier label with an ON suffix; NZ Post's tracker returns its history, with a delay, to delivery."
+    },
+    {
+      "number": "2541300764830001PLN025JS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260422021726/https://tools.nzpost.co.nz/tracking/api/details?tn=2541300764830001PLN025JS",
+        "date": "2026-04-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "courier label",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "An NZ Post tracking request archived by the Wayback Machine. A courier label with a JS suffix; NZ Post's tracker returns its history to delivery."
+    },
+    {
+      "number": "2756993861391201WRE001JN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260409170701/https://tools.nzpost.co.nz/tracking/api/details?tn=2756993861391201WRE001JN",
+        "date": "2026-04-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "courier label",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "An NZ Post tracking request archived by the Wayback Machine. A courier label with a JN suffix; NZ Post's tracker returns its history to delivery."
+    },
+    {
+      "number": "2986680530749201AKL002AS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260326223038/https://tools.nzpost.co.nz/tracking/api/details?tn=2986680530749201AKL002AS",
+        "date": "2026-03-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "courier label",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "An NZ Post tracking request archived by the Wayback Machine. The most common courier label suffix, AS; NZ Post's tracker returns its history to delivery."
+    },
+    {
+      "number": "2756993827780901TIM003AN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260908014544/https://tools.nzpost.co.nz/tracking/api/parceltrack/parcels?tracking_reference=2756993827780901TIM003AN",
+        "date": "2026-09-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "courier label",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "An NZ Post tracking request archived by the Wayback Machine. A courier label NZ Post's tracker no longer knows; its sixteen digits alone are not a tracking reference either."
+    },
+    {
+      "number": "00793535000019932011",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260916212835/https://tools.nzpost.co.nz/tracking/api/details?tn=00793535000019932011",
+        "date": "2026-09-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "domestic parcel barcode",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "swiss-post-cargo",
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "An NZ Post tracking request archived by the Wayback Machine. A twenty-digit barcode; the history starts with shipment data and an air leg before delivery."
+    },
+    {
+      "number": "00794210392909912519",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260721014239/https://tools.nzpost.co.nz/tracking/api/details?tn=00794210392909912519",
+        "date": "2026-07-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "domestic parcel barcode",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "swiss-post-cargo",
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "An NZ Post tracking request archived by the Wayback Machine. A twenty-digit barcode NZ Post's tracker knows."
+    },
+    {
+      "number": "LX070771598NZ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260609154704/https://tools.nzpost.co.nz/tracking/api/details?tn=LX070771598NZ",
+        "date": "2026-06-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "international mail",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "An NZ Post tracking request archived by the Wayback Machine. Outbound international mail; the history follows the airline legs."
+    },
+    {
+      "number": "CC560526764NZ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260407075254/https://tools.nzpost.co.nz/tracking/api/details?tn=CC560526764NZ",
+        "date": "2026-04-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "international parcel",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "An NZ Post tracking request archived by the Wayback Machine. An outbound parcel NZ Post's tracker follows to delivery abroad."
+    },
+    {
+      "number": "XD037763553NZ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20211206225201/https://www.aramex.co.nz/tracking-api/?callback&LabelNo=9Q0001464687&dataFormat=json",
+        "date": "2021-12-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "nz-post",
+        "confidence": "high"
+      },
+      "note": "NZ Post's label for a parcel Aramex New Zealand handed on for a rural delivery, as an archived Aramex reply shows. NZ Post's tracker no longer knows it."
+    }
+  ]
+}

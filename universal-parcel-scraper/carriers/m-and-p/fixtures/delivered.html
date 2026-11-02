@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+<!-- Security Headers -->
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<!-- Canonical URL Protection -->
+<link rel="canonical" href="https://www.mulphilog.com/tracking/100000000000001">
+
+    <meta name="description" content="">
+    <title>Muller & Phipps | Courier</title>
+    <link rel="stylesheet" href="https://www.mulphilog.com/frontend/assets/css/layout.css">
+<link rel="stylesheet" href="https://www.mulphilog.com/frontend/assets/css/style.css">
+    <link rel="stylesheet" href="https://www.mulphilog.com/frontend/assets/css/tracking.css">
+</head>
+
+<body>
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 text-right">
+                    <div class="th-right">
+                        <ul>
+                            <li class="th-feild">
+                                <div id="tracking-header-new">
+                                    <form method="GET" id="headerTrackingForm">
+                                        <div class="th-feild">
+                                            <input type="number" name="consignment" id="consignmentInputHeader"
+                                                placeholder="Enter Tracking Number" value="">
+                                            <button type="submit" id="trackBtnHeader" disabled>
+                                                <img src="https://www.mulphilog.com/frontend/assets/images/mb-btn.png"
+                                                    class="mb-btn-img" alt="img">
+                                            </button>
+                                        </div>
+                                        <p id="error-message-header" style="color: red; display: none; font-size:14px;">
+                                            Please enter at least 7 digits.</p>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="inner-banner">
+        <div class="container wow lightSpeedIn animated" data-wow-delay="0.7s">
+            <h5>Result
+                <span>Tracking<b>.</b></span>
+            </h5>
+        </div>
+    </section>
+
+    <div class="content-wrapper">
+        <div class="container-full">
+            <section class="content inputBox">
+                <form method="GET" id="trackingForm">
+                    <input type="hidden" name="_token" value="SYNTHETICFORMTOKEN0000000000000000000000" autocomplete="off">                    <div class="row align-items-start">
+                        <div class="col-md-3 consignment-box">
+                            <label class="form-label">Consignment Number</label>
+                            <input type="number" name="consignment" class="form-control" id="consignmentInput"
+                                value="100000000000001" required>
+
+                            <div id="error-message" style="color: red; display: none; margin: 10px 0;">
+                                Please enter at least 7 digits.
+                            </div>
+
+                            <div class="hn-btn-box">
+                                <button type="submit" class="help-btn" id="trackBtn">Track</button>
+                            </div>
+                        </div>
+
+                                                    <div class="col">
+                                <label class="form-label">Order ID</label>
+                                <input type="text" class="form-control" value="#SYN0001" readonly>
+                            </div>
+                        
+                        <div class="col">
+                            <label class="form-label">Booking Date</label>
+                            <input type="text" class="form-control" value="09 Feb 2026"
+                                readonly>
+                        </div>
+
+                        <div class="col">
+                            <label class="form-label">From</label>
+                            <input type="text" class="form-control"
+                                value="Fictive Shop" readonly>
+                            <input type="text" class="form-control mt-2"
+                                value="Northville" readonly>
+                        </div>
+
+                        <div class="col">
+                            <label class="form-label">To</label>
+                            <input type="text" class="form-control"
+                                value="Fictive Person" readonly>
+                            <input type="text" class="form-control mt-2"
+                                value="Southport" readonly>
+                        </div>
+
+                        <div class="col d-flex flex-column justify-content-start">
+                            <label class="form-label">&nbsp;</label> <!-- Spacer to align with other labels -->
+                            <div class="d-flex flex-column">
+                                <a href="https://www.mulphilog.com/help" class="help-btn mb-2">Help</a>
+
+                                
+                                                                    <a href="javascript:void(0)" class="help-btn" id="notifyBtn">Notify Me!</a>
+                                                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </section>
+        </div>
+
+        <div class="container-full" id="orderTrackSection">
+            <section class="content root">
+                                    
+                    <div class="order-track">
+                                                    <div class="order-track-step last">
+                                <div class="order-track-text order-track-text-left">
+                                    <span class="order-track-text-sub last-date">12 Feb 2026 <br>
+                                        04:05 pm</span>
+                                </div>
+                                <div class="order-track-status">
+                                    <span
+                                        class="order-track-status-dot order-track-status-last"></span>
+                                    <span class="order-track-status-line"></span>
+                                </div>
+                                <div class="order-track-text order-track-text-right">
+                                    <p class="order-track-text-stat status">Delivered</p>
+                                    <p class="order-track-text-stat location">SOUTHPORT</p>
+                                    <p class="order-track-text-stat status-message">
+                                        The shipment has been delivered at the consignee's address and has been recieved by Fictive Signer  12
+                                    </p>
+                                </div>
+                            </div>
+                                                    <div class="order-track-step ">
+                                <div class="order-track-text order-track-text-left">
+                                    <span class="order-track-text-sub last-date">12 Feb 2026 <br>
+                                        09:40 am</span>
+                                </div>
+                                <div class="order-track-status">
+                                    <span
+                                        class="order-track-status-dot "></span>
+                                    <span class="order-track-status-line"></span>
+                                </div>
+                                <div class="order-track-text order-track-text-right">
+                                    <p class="order-track-text-stat status">Out-for-Delivery</p>
+                                    <p class="order-track-text-stat location">SOUTHPORT</p>
+                                    <p class="order-track-text-stat status-message">
+                                        The shipment has been scheduled for delivery. Please keep your mobile on and prepare the exact amount for COD transaction
+                                    </p>
+                                </div>
+                            </div>
+                                                    <div class="order-track-step ">
+                                <div class="order-track-text order-track-text-left">
+                                    <span class="order-track-text-sub last-date">12 Feb 2026 <br>
+                                        09:40 am</span>
+                                </div>
+                                <div class="order-track-status">
+                                    <span
+                                        class="order-track-status-dot "></span>
+                                    <span class="order-track-status-line"></span>
+                                </div>
+                                <div class="order-track-text order-track-text-right">
+                                    <p class="order-track-text-stat status">Out-for-Delivery</p>
+                                    <p class="order-track-text-stat location">SOUTHPORT</p>
+                                    <p class="order-track-text-stat status-message">
+                                        The shipment has been scheduled for delivery. Please keep your mobile on and prepare the exact amount for COD transaction
+                                    </p>
+                                </div>
+                            </div>
+                                                    <div class="order-track-step ">
+                                <div class="order-track-text order-track-text-left">
+                                    <span class="order-track-text-sub last-date">11 Feb 2026 <br>
+                                        03:02 am</span>
+                                </div>
+                                <div class="order-track-status">
+                                    <span
+                                        class="order-track-status-dot "></span>
+                                    <span class="order-track-status-line"></span>
+                                </div>
+                                <div class="order-track-text order-track-text-right">
+                                    <p class="order-track-text-stat status">Reached at Destination</p>
+                                    <p class="order-track-text-stat location">SOUTHPORT</p>
+                                    <p class="order-track-text-stat status-message">
+                                        The shipment has been arrived at the destination city and will be scheduled for delivery
+                                    </p>
+                                </div>
+                            </div>
+                                                    <div class="order-track-step ">
+                                <div class="order-track-text order-track-text-left">
+                                    <span class="order-track-text-sub last-date">09 Feb 2026 <br>
+                                        08:15 pm</span>
+                                </div>
+                                <div class="order-track-status">
+                                    <span
+                                        class="order-track-status-dot "></span>
+                                    <span class="order-track-status-line"></span>
+                                </div>
+                                <div class="order-track-text order-track-text-right">
+                                    <p class="order-track-text-stat status">In-transit</p>
+                                    <p class="order-track-text-stat location">NORTHVILLE</p>
+                                    <p class="order-track-text-stat status-message">
+                                        The shipment has been dispatched and is on its way to the  destination city
+                                    </p>
+                                </div>
+                            </div>
+                                                    <div class="order-track-step ">
+                                <div class="order-track-text order-track-text-left">
+                                    <span class="order-track-text-sub last-date">09 Feb 2026 <br>
+                                        06:30 pm</span>
+                                </div>
+                                <div class="order-track-status">
+                                    <span
+                                        class="order-track-status-dot "></span>
+                                    <span class="order-track-status-line"></span>
+                                </div>
+                                <div class="order-track-text order-track-text-right">
+                                    <p class="order-track-text-stat status">Arrived at OPS Facility</p>
+                                    <p class="order-track-text-stat location">NORTHVILLE</p>
+                                    <p class="order-track-text-stat status-message">
+                                        The shipment has been arrived at M&P operations at the origin hub and will be scheduled for transit
+                                    </p>
+                                </div>
+                            </div>
+                                                    <div class="order-track-step ">
+                                <div class="order-track-text order-track-text-left">
+                                    <span class="order-track-text-sub last-date">09 Feb 2026 <br>
+                                        12:10 pm</span>
+                                </div>
+                                <div class="order-track-status">
+                                    <span
+                                        class="order-track-status-dot "></span>
+                                </div>
+                                <div class="order-track-text order-track-text-right">
+                                    <p class="order-track-text-stat status">Booked</p>
+                                    <p class="order-track-text-stat location">NORTHVILLE</p>
+                                    <p class="order-track-text-stat status-message">
+                                        Your order has been placed. It will be packed and prepared for shipment.
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
+                            </section>
+        </div>
+
+        
+
+        <div class="modal fade" id="notifyModal" tabindex="-1" aria-labelledby="notifyModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <form id="notifyForm">
+                        <input type="hidden" name="_token" value="SYNTHETICFORMTOKEN0000000000000000000000" autocomplete="off">                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="consignment" class="form-label">Consignment Number</label>
+                                <input type="text" id="modalConsignment" name="consignment" class="form-control"
+                                    placeholder="Enter your consignment number" readonly required>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container wow fadeInUp animated" data-wow-delay="0.2s">
+        <p>
+            Our global logistics expertise, advanced supply chain technology & customized logistics
+            solutions help you create and sustain a successful supply chain experience.
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>

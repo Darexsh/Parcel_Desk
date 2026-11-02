@@ -1,0 +1,102 @@
+{
+  "id": "cbl-logistica",
+  "displayName": "CBL Logística",
+  "aliases": [
+    "CBL Logistica",
+    "CBL",
+    "Cbl Logistica"
+  ],
+  "region": {
+    "countries": [
+      "ES",
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#e31d1a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "cbl-logistica",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 851
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history"
+  ],
+  "portal": {
+    "url": "https://clientes.cbl-logistica.com/public/consultaenvio.aspx?id={trackingNumber}",
+    "searchUrl": "https://clientes.cbl-logistica.com/public/consultaenvio.aspx",
+    "canaryUrl": "https://clientes.cbl-logistica.com/public/consultaenvio.aspx",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "event_details",
+      "customer_reference",
+      "sender_name",
+      "parcel_count",
+      "weight",
+      "volume",
+      "departure_date",
+      "delivery_date",
+      "recipient_name",
+      "recipient_address",
+      "postcodes",
+      "remarks",
+      "proof_of_delivery",
+      "origin",
+      "office_contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history"
+    ],
+    "discarded": [
+      "progress_rail",
+      "event_details",
+      "customer_reference",
+      "sender_name",
+      "parcel_count",
+      "weight",
+      "volume",
+      "departure_date",
+      "delivery_date",
+      "recipient_name",
+      "recipient_address",
+      "postcodes",
+      "remarks",
+      "proof_of_delivery",
+      "origin",
+      "office_contact_details"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "service_name",
+      "pickup_point",
+      "provider_code",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "clientes.cbl-logistica.com"
+      ],
+      "pathPattern": "^/public/consultaenvio\\.aspx$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

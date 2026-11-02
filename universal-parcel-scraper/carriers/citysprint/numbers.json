@@ -1,0 +1,29 @@
+{
+  "carrier": "citysprint",
+  "records": [
+    {
+      "number": "76939836",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://uk.trustpilot.com/reviews/6aab1492315ec0fea3cd9836",
+        "date": "2026-09-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A review on CitySprint's Trustpilot page gives it as the CitySprint tracking number of a Wickes delivery; CitySprint replied to the review."
+    }
+  ]
+}

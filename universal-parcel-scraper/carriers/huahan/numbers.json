@@ -1,0 +1,125 @@
+{
+  "carrier": "huahan",
+  "records": [
+    {
+      "number": "HHWCO0296000051YQ",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20210615072711/http://new.hh-exp.com:8181/docs/mindoc/createOrder",
+        "date": "2021-06-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "huahan",
+        "confidence": "high"
+      },
+      "note": "HuaHan's API documentation gives it as an example of the HuaHan waybill number, which it says tracks on 17TRACK and on HuaHan's site."
+    },
+    {
+      "number": "HHWDE9344000011YQ",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20210615073712/http://new.hh-exp.com:8181/docs/mindoc/getCargoTrack",
+        "date": "2021-06-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "huahan",
+        "confidence": "high"
+      },
+      "note": "HuaHan's API documentation uses it in its tracking example, with scans in Shenzhen and France as the destination."
+    },
+    {
+      "number": "HHWDE9344000012YQ",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20210615073712/http://new.hh-exp.com:8181/docs/mindoc/getCargoTrack",
+        "date": "2021-06-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "huahan",
+        "confidence": "high"
+      },
+      "note": "HuaHan's API documentation uses it in its tracking example, with the order data received and Finland as the destination."
+    },
+    {
+      "number": "HHWQV2359000002YQ",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20231206050623/http://new.hh-exp.com:8181/docs/mindoc/getCargoTrackPdd",
+        "date": "2023-12-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "huahan",
+        "confidence": "high"
+      },
+      "note": "HuaHan's API documentation uses it in a later tracking example, with scans in Shenzhen and the United States as the destination."
+    },
+    {
+      "number": "HHWWD6248490101YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://parcelwill.com/couriers/hhexp",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "huahan",
+        "confidence": "high"
+      },
+      "note": "ParcelWill's HuaHan page offers it as a sample to try; an aggregator sample that no HuaHan source ties to a shipment."
+    },
+    {
+      "number": "HHWAB0000000001YQ",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-19",
+      "expect": {
+        "carrier": "huahan",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of HuaHan parcels the app tracked."
+    },
+    {
+      "number": "HHWXY0000000002YQ",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-19",
+      "expect": {
+        "carrier": "huahan",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of HuaHan parcels the app tracked."
+    }
+  ]
+}

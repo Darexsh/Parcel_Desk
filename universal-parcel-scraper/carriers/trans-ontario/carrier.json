@@ -1,0 +1,36 @@
+{
+  "id": "trans-ontario",
+  "displayName": "Trans-Ontario Express",
+  "aliases": [
+    "Trans Ontario",
+    "Trans Ontario Express",
+    "TransOntario"
+  ],
+  "region": {
+    "countries": [
+      "CA",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#1f4aee"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://trace.transontario.com/",
+    "canaryUrl": "https://trace.transontario.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

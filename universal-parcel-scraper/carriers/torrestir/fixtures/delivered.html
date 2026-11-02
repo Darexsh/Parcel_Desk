@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-PT"  >
+<head>
+    <title>Torrestir - Tracking</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<div class="bg-top sticky-top navbar-light d-flex flex-column-reverse">
+    <div class="container py-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="https://www.torrestir.com" target="_self"><img src="/images/logotipo.png" alt="Torrestir"></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <form id="FormTop" name="FormTop" class="form-inline my-2 my-lg-0">
+                    <input id="lang" name="lang" type="hidden" value="pt" />
+                    <input autocomplete="off" id="id" name="id" class="form-control mr-sm-2" placeholder=Identificador type="text" value="" />
+                    <input type="submit" value=Atualizar class="btn btn-outline-success my-2 my-sm-0" />
+                    <a class="lang-btn" style="margin:5px">
+                        <input type="image" alt="flagPT" src="/images/portugal.png" style="width:20px; height:15px" onclick="ChangeLanguage('M0010003A00123456781','pt')" />
+                    </a>
+                    <a class="lang-btn" style="margin:5px">
+                        <input type="image" alt="flagEN" src="/images/english.png" style="width:20px; height:15px" onclick="ChangeLanguage('M0010003A00123456781','en')" />
+                    </a>
+                    <a class="lang-btn" style="margin:5px">
+                        <input type="image" alt="flagES" src="/images/espanha.png" style="width:20px; height:15px" onclick="ChangeLanguage('M0010003A00123456781','es')" />
+                    </a>
+                </form>
+            </div>
+        </nav>
+    </div>
+</div>
+<section class="home-slider owl-carousel">
+    <div class="slider-item" style="background-image:url(../../images/trackimage_dk.jpg);">
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-end">
+                <div class="col-md-7 ftco-animate mb-md-5">
+                    <span class="subheading">Siga a sua entrega</span>
+                    <h1 class="mb-4">TODOS OS DETALHES<br />DO SEU ENVIO</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ftco-section ftco-no-pt ftco-no-pb ftco-consult">
+    <div class="container">
+        <div class="row d-flex no-gutters align-items-stretch consult-wrap">
+            <div class="log-track-details">
+                <article>
+                    <div class="track">
+                            <div class="step active "><span class="icon ftco-animate"> <i class="fa fa-check"></i> </span> <span class="text ftco-animate">Documentado</span></div>
+                            <div class="step active "><span class="icon ftco-animate"> <i class="fa fa-th-large"></i> </span> <span class="text ftco-animate">Recolhido</span></div>
+                            <div class="step active "><span class="icon ftco-animate"> <i class="fa fa-truck"></i> </span> <span class="text ftco-animate">Em tr&#226;nsito</span></div>
+                            <div class="step active"><span class="icon ftco-animate"> <i class="fa fa-user"></i> </span> <span class="text ftco-animate">Em distribui&#231;&#227;o</span></div>
+                            <div class="step active"><span class="icon ftco-animate"> <i class="fa fa-home"></i> </span> <span class="text ftco-animate">Entregue</span></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ftco-section">
+    <div class="container">
+        <div class="row no-gutters justify-content-center mb-5">
+            <div class="log-track-details2">
+                <p class="trackcodet"><span class="codetitle">Tracking Code: </span><span class="codenum">M0010003A00123456781 </span></p>
+                <article class="card">
+                    <div class="card-body row">
+
+                        <div class="col"> <strong class="card-item">Entidade: </strong>EMPRESA SINT&#201;TICA, LDA  </div>
+                        <div class="col"> <strong class="card-item">Ref. Entidade: </strong>REF-0001 </div>
+                        <div class="col"> <strong class="card-item">Nossa Refer&#234;ncia:</strong> 0.10.3.12345678</div>
+                        <div class="col"> <strong class="card-item">Estimado: </strong>2026-01-13 10:05 / 10:35 </div>
+
+                    </div>
+                    <div class="card-body row">
+
+                        <div class="col"> <strong class="card-item">Origem: </strong>ALDEIA EXEMPLO  </div>
+                        <div class="col"> <strong class="card-item">Destino: </strong>CIDADE PROVA </div>
+                        <div class="col"> <strong class="card-item">Volumes:</strong> <small class="text-muted">2</small></div>
+                        <div class="col"> <strong class="card-item">Paletes:</strong> <small class="text-muted">0</small></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ftco-section">
+    <div class="container">
+        <div class="row no-gutters justify-content-center mb-5">
+            <div class="col-md-6 text-center heading-section ftco-animate">
+                <div class="centrarb">
+                    <a id="mudainfo" class="button" title="Clique aqui para obter detalhes" href="#" onclick="HideInfoDetails();return false;">Detalhes da Entrega <span><i id="mudaicon" class="fa fa-plus"></i></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div id="trackdata" style="display:none;">
+                    <div class="espaco"></div>
+                    <table class="tabela">
+                        <tr class="tabela-cabecalho">
+                            <th width="25%" style="text-align:center;">Local</th>
+                            <th width="25%" style="text-align:center">Data</th>
+                            <th width="25%" style="text-align:center">Estado</th>
+                            <th width="25%" style="text-align:center">Localiza&#231;&#227;o</th>
+                        </tr>
+                            <tr class="tabela-linhas">
+                                <td class="tabela-linhas" style="text-align:left;padding-left:20px">
+                                    <input id="listaTracking_0__IdMoment" name="listaTracking[0].IdMoment" type="hidden" value="Registo" />
+                                    Registo
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                    <input id="listaTracking_0__BeginDate" name="listaTracking[0].BeginDate" type="hidden" value="2026-01-12 00:00" />
+                                    2026-01-12 00:00
+                                </td>
+                                <td class="tabela-linhas" style="text-align:left; padding-left:20px">
+                                    <input id="listaTracking_0__Description" name="listaTracking[0].Description" type="hidden" value="Guia Criada" />
+                                    Guia Criada
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                </td>
+                                <input id="listaTracking_0__EndDate" name="listaTracking[0].EndDate" type="hidden" value="2026-01-12 16:40" />
+                                <input id="listaTracking_0__latitude" name="listaTracking[0].latitude" type="hidden" value="" />
+                                <input id="listaTracking_0__longitude" name="listaTracking[0].longitude" type="hidden" value="" />
+                            </tr>
+                            <tr class="tabela-linhas">
+                                <td class="tabela-linhas" style="text-align:left;padding-left:20px">
+                                    <input id="listaTracking_1__IdMoment" name="listaTracking[1].IdMoment" type="hidden" value="Em Viagem" />
+                                    Em Viagem
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                    <input id="listaTracking_1__BeginDate" name="listaTracking[1].BeginDate" type="hidden" value="2026-01-12 16:40" />
+                                    2026-01-12 16:40
+                                </td>
+                                <td class="tabela-linhas" style="text-align:left; padding-left:20px">
+                                    <input id="listaTracking_1__Description" name="listaTracking[1].Description" type="hidden" value="Recolhido" />
+                                    Recolhido
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                </td>
+                                <input id="listaTracking_1__EndDate" name="listaTracking[1].EndDate" type="hidden" value="2026-01-12 16:40" />
+                                <input id="listaTracking_1__latitude" name="listaTracking[1].latitude" type="hidden" value="" />
+                                <input id="listaTracking_1__longitude" name="listaTracking[1].longitude" type="hidden" value="" />
+                            </tr>
+                            <tr class="tabela-linhas">
+                                <td class="tabela-linhas" style="text-align:left;padding-left:20px">
+                                    <input id="listaTracking_2__IdMoment" name="listaTracking[2].IdMoment" type="hidden" value="ARM. VILA SINT&#201;TICA" />
+                                    ARM. VILA SINT&#201;TICA
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                    <input id="listaTracking_2__BeginDate" name="listaTracking[2].BeginDate" type="hidden" value="2026-01-12 16:40" />
+                                    2026-01-12 16:40
+                                </td>
+                                <td class="tabela-linhas" style="text-align:left; padding-left:20px">
+                                    <input id="listaTracking_2__Description" name="listaTracking[2].Description" type="hidden" value="Na Plataforma de Origem" />
+                                    Na Plataforma de Origem
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                        <a class="button2" title="" href="#" onclick="return ExibirGoogleMaps(41.1111,-8.2222)">Ver Mapa <span><i class="fa fa-map-marker"></i></span></a>
+                                </td>
+                                <input id="listaTracking_2__EndDate" name="listaTracking[2].EndDate" type="hidden" value="2026-01-13 02:15" />
+                                <input id="listaTracking_2__latitude" name="listaTracking[2].latitude" type="hidden" value="41.1111" />
+                                <input id="listaTracking_2__longitude" name="listaTracking[2].longitude" type="hidden" value="-8.2222" />
+                            </tr>
+                            <tr class="tabela-linhas">
+                                <td class="tabela-linhas" style="text-align:left;padding-left:20px">
+                                    <input id="listaTracking_3__IdMoment" name="listaTracking[3].IdMoment" type="hidden" value="Em Viagem" />
+                                    Em Viagem
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                    <input id="listaTracking_3__BeginDate" name="listaTracking[3].BeginDate" type="hidden" value="2026-01-13 02:15" />
+                                    2026-01-13 02:15
+                                </td>
+                                <td class="tabela-linhas" style="text-align:left; padding-left:20px">
+                                    <input id="listaTracking_3__Description" name="listaTracking[3].Description" type="hidden" value="Em Transito" />
+                                    Em Transito
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                </td>
+                                <input id="listaTracking_3__EndDate" name="listaTracking[3].EndDate" type="hidden" value="2026-01-13 05:30" />
+                                <input id="listaTracking_3__latitude" name="listaTracking[3].latitude" type="hidden" value="" />
+                                <input id="listaTracking_3__longitude" name="listaTracking[3].longitude" type="hidden" value="" />
+                            </tr>
+                            <tr class="tabela-linhas">
+                                <td class="tabela-linhas" style="text-align:left;padding-left:20px">
+                                    <input id="listaTracking_4__IdMoment" name="listaTracking[4].IdMoment" type="hidden" value="ARM. CIDADE PROVA" />
+                                    ARM. CIDADE PROVA
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                    <input id="listaTracking_4__BeginDate" name="listaTracking[4].BeginDate" type="hidden" value="2026-01-13 05:30" />
+                                    2026-01-13 05:30
+                                </td>
+                                <td class="tabela-linhas" style="text-align:left; padding-left:20px">
+                                    <input id="listaTracking_4__Description" name="listaTracking[4].Description" type="hidden" value="Na Plataforma de Destino" />
+                                    Na Plataforma de Destino
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                        <a class="button2" title="" href="#" onclick="return ExibirGoogleMaps(38.7777,-9.3333)">Ver Mapa <span><i class="fa fa-map-marker"></i></span></a>
+                                </td>
+                                <input id="listaTracking_4__EndDate" name="listaTracking[4].EndDate" type="hidden" value="2026-01-13 09:20" />
+                                <input id="listaTracking_4__latitude" name="listaTracking[4].latitude" type="hidden" value="38.7777" />
+                                <input id="listaTracking_4__longitude" name="listaTracking[4].longitude" type="hidden" value="-9.3333" />
+                            </tr>
+                            <tr class="tabela-linhas">
+                                <td class="tabela-linhas" style="text-align:left;padding-left:20px">
+                                    <input id="listaTracking_5__IdMoment" name="listaTracking[5].IdMoment" type="hidden" value="Em Viagem" />
+                                    Em Viagem
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                    <input id="listaTracking_5__BeginDate" name="listaTracking[5].BeginDate" type="hidden" value="2026-01-13 09:20" />
+                                    2026-01-13 09:20
+                                </td>
+                                <td class="tabela-linhas" style="text-align:left; padding-left:20px">
+                                    <input id="listaTracking_5__Description" name="listaTracking[5].Description" type="hidden" value="Em Distribui&#231;ao" />
+                                    Em Distribui&#231;ao
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                </td>
+                                <input id="listaTracking_5__EndDate" name="listaTracking[5].EndDate" type="hidden" value="2026-01-13 18:05" />
+                                <input id="listaTracking_5__latitude" name="listaTracking[5].latitude" type="hidden" value="" />
+                                <input id="listaTracking_5__longitude" name="listaTracking[5].longitude" type="hidden" value="" />
+                            </tr>
+                            <tr class="tabela-linhas">
+                                <td class="tabela-linhas" style="text-align:left;padding-left:20px">
+                                    <input id="listaTracking_6__IdMoment" name="listaTracking[6].IdMoment" type="hidden" value="ARM. CIDADE PROVA" />
+                                    ARM. CIDADE PROVA
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                    <input id="listaTracking_6__BeginDate" name="listaTracking[6].BeginDate" type="hidden" value="2026-01-13 18:05" />
+                                    2026-01-13 18:05
+                                </td>
+                                <td class="tabela-linhas" style="text-align:left; padding-left:20px">
+                                    <input id="listaTracking_6__Description" name="listaTracking[6].Description" type="hidden" value="Devolvido" />
+                                    Devolvido
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                        <a class="button2" title="" href="#" onclick="return ExibirGoogleMaps(38.7777,-9.3333)">Ver Mapa <span><i class="fa fa-map-marker"></i></span></a>
+                                </td>
+                                <input id="listaTracking_6__EndDate" name="listaTracking[6].EndDate" type="hidden" value="2026-01-14 09:10" />
+                                <input id="listaTracking_6__latitude" name="listaTracking[6].latitude" type="hidden" value="38.7777" />
+                                <input id="listaTracking_6__longitude" name="listaTracking[6].longitude" type="hidden" value="-9.3333" />
+                            </tr>
+                            <tr class="tabela-linhas">
+                                <td class="tabela-linhas" style="text-align:left;padding-left:20px">
+                                    <input id="listaTracking_7__IdMoment" name="listaTracking[7].IdMoment" type="hidden" value="Em Viagem" />
+                                    Em Viagem
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                    <input id="listaTracking_7__BeginDate" name="listaTracking[7].BeginDate" type="hidden" value="2026-01-14 09:10" />
+                                    2026-01-14 09:10
+                                </td>
+                                <td class="tabela-linhas" style="text-align:left; padding-left:20px">
+                                    <input id="listaTracking_7__Description" name="listaTracking[7].Description" type="hidden" value="Em Distribui&#231;ao" />
+                                    Em Distribui&#231;ao
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                </td>
+                                <input id="listaTracking_7__EndDate" name="listaTracking[7].EndDate" type="hidden" value="2026-01-14 11:22" />
+                                <input id="listaTracking_7__latitude" name="listaTracking[7].latitude" type="hidden" value="" />
+                                <input id="listaTracking_7__longitude" name="listaTracking[7].longitude" type="hidden" value="" />
+                            </tr>
+                            <tr class="tabela-linhas">
+                                <td class="tabela-linhas" style="text-align:left;padding-left:20px">
+                                    <input id="listaTracking_8__IdMoment" name="listaTracking[8].IdMoment" type="hidden" value="Destinat&#225;rio" />
+                                    Destinat&#225;rio
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                    <input id="listaTracking_8__BeginDate" name="listaTracking[8].BeginDate" type="hidden" value="2026-01-14 11:22" />
+                                    2026-01-14 11:22
+                                </td>
+                                <td class="tabela-linhas" style="text-align:left; padding-left:20px">
+                                    <input id="listaTracking_8__Description" name="listaTracking[8].Description" type="hidden" value="Entregue" />
+                                    Entregue
+                                </td>
+                                <td class="tabela-linhas" style="text-align:center;">
+                                </td>
+                                <input id="listaTracking_8__EndDate" name="listaTracking[8].EndDate" type="hidden" value="2026-01-14 11:22" />
+                                <input id="listaTracking_8__latitude" name="listaTracking[8].latitude" type="hidden" value="" />
+                                <input id="listaTracking_8__longitude" name="listaTracking[8].longitude" type="hidden" value="" />
+                            </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

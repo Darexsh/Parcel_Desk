@@ -1,0 +1,80 @@
+{
+  "id": "landmark-global",
+  "displayName": "Landmark Global",
+  "aliases": [
+    "IMX France",
+    "IMX Postal",
+    "FDM",
+    "FDM Logistics",
+    "Freight Distribution Management",
+    "Landmark Global Australia",
+    "Landmark Global – Australia"
+  ],
+  "region": {
+    "countries": []
+  },
+  "brand": {
+    "color": "#e62337"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "landmark-global",
+    "steps": [
+      "direct"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivery_partner",
+    "delivery_tracking_number",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://track.landmarkglobal.com/?search={trackingNumber}",
+    "searchUrl": "https://track.landmarkglobal.com/",
+    "canaryUrl": "https://track.landmarkglobal.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner",
+      "destination_country"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner",
+      "destination_country"
+    ],
+    "discarded": [
+      "order_references",
+      "package_references",
+      "payment_actions"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.landmarkglobal.com",
+        "landmarkglobal.com"
+      ],
+      "params": [
+        "search",
+        "trck"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "landmark-global-1",
+      "pattern": "^LTN\\d{8,9}(?:N1)?$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "messages": ["Success"],
+    "phone": "8005550100",
+    "email": "updates@example.com",
+    "chatflag": "false",
+    "chatkey": "",
+    "DAWebsite": "",
+    "DANumber": ""
+  },
+  "payload": [
+    {
+      "shipmenttype": "domestic",
+      "trackingnumber": "7654321",
+      "schedulingtrackingnumber": "7654321",
+      "servicelevel": "Economy",
+      "servicelevelcode": "EC",
+      "serviceleveltext": "Delivery by 5:00 PM on or before the seventh business day.",
+      "productcode": "NOREV",
+      "readydateGMT": "05/11/26 09:00",
+      "shipmentdate": "05/11/26 09:00",
+      "scheduledDelivery": {
+        "fromGMT": "05/18/26 21:00",
+        "toGMT": "05/18/26 04:00",
+        "scheduledDeliveryType": "By"
+      },
+      "scheduledDELactive": false,
+      "maxArrow": "3",
+      "PODName": "",
+      "PODDate": "",
+      "freight": [
+        {"description": "SYNTHETIC SHELF UNIT", "pieces": "1", "itemtype": "PCS", "weight": "52.00", "length": "26.00", "width": "26.00", "height": "12.00"}
+      ],
+      "events": [
+        {"code": "PUR", "description": "Shipment Created", "datetimeGMT": "05/11/26 14:20"},
+        {"code": "ETD", "description": "Estimated Delivery Date *", "datetimeGMT": "05/18/26 21:00"},
+        {"code": "APP", "description": "Appointment Created", "datetimeGMT": "05/18/26 04:00"},
+        {"code": "PUP", "description": "Picked Up", "datetimeGMT": "05/12/26 18:03"},
+        {"code": "OHO", "description": "Arrived at Origin City", "datetimeGMT": "05/13/26 04:47"},
+        {"code": "INT", "description": "In Transit", "datetimeGMT": "05/14/26 05:02"}
+      ],
+      "freightlocations": [
+        {"city": "EXAMPLEVILLE", "state": "VA", "datetimeGMT": "05/13/26 05:00"}
+      ]
+    }
+  ]
+}

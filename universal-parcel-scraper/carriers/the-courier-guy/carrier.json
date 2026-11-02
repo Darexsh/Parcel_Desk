@@ -1,0 +1,81 @@
+{
+  "id": "the-courier-guy",
+  "displayName": "The Courier Guy",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "ZA"
+    ]
+  },
+  "brand": {
+    "color": "#264796"
+  },
+  "selectable": true,
+  "timezone": "Africa/Johannesburg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "the-courier-guy",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 730
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://portal.thecourierguy.co.za/track?ref={trackingNumber}",
+    "searchUrl": "https://portal.thecourierguy.co.za/track",
+    "canaryUrl": "https://portal.thecourierguy.co.za/track",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "service_name"
+    ],
+    "discarded": [
+      "messages",
+      "contact_details",
+      "proof_images",
+      "eta"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "portal.thecourierguy.co.za",
+        "track.thecourierguy.co.za"
+      ],
+      "pathPattern": "^/(?:track/?)?$",
+      "params": [
+        "ref"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "the-courier-guy-1",
+      "pattern": "^(?:DD|LD)[A-Z0-9]{6}$",
+      "confidence": "low"
+    },
+    {
+      "id": "the-courier-guy-2",
+      "pattern": "^LL[A-Z0-9]{6}$",
+      "confidence": "low"
+    }
+  ]
+}

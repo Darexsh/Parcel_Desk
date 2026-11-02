@@ -1,0 +1,21 @@
+{
+  "carrier": "zajil",
+  "entries": [
+    {"code": "processing", "wording": "Processing", "stage": "registered", "language": "en", "confirmedBy": "bundle", "note": "The tracking page's script puts the processing website_update value on the first step of its rail, under this label."},
+    {"code": "In_Transit", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "The tracking page's script puts the In_Transit website_update value, and most others, on the second step of its rail, under this label."},
+    {"code": "delivered", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "bundle", "note": "The tracking page's script puts the delivered website_update value on the last step of its rail, under this label."},
+    {"code": "In_Transit", "wording": "جارى عمليه النقل", "stage": "in_transit", "language": "ar", "confirmedBy": "live", "note": "Transport in progress; seen for a shipment released from a hub."},
+    {"code": "delivered", "wording": "تم التوصيل", "stage": "delivered", "language": "ar", "confirmedBy": "live"},
+    {"code": "pickup_scheduled", "wording": "pickup_scheduled", "stage": "registered", "language": "en", "confirmedBy": "bundle", "note": "A website_update value the tracking page's script names; the page shows it on its rail as In Transit. A collection is booked; the parcel is still with the shipper."},
+    {"code": "pickup_completed", "wording": "pickup_completed", "stage": "accepted", "language": "en", "confirmedBy": "bundle", "note": "A website_update value the tracking page's script names; the page shows it on its rail as In Transit."},
+    {"code": "arrived", "wording": "arrived", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "A website_update value the tracking page's script names; the page shows it on its rail as In Transit."},
+    {"code": "out_for_delviery", "wording": "out_for_delviery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "bundle", "note": "A website_update value the tracking page's script names; the page shows it on its rail as In Transit. The spelling is Zajil's."},
+    {"code": "undelivered", "wording": "undelivered", "stage": "failed_attempt", "language": "en", "confirmedBy": "bundle", "note": "A website_update value the tracking page's script names; the page shows it on its rail as In Transit."},
+    {"code": "recheduled", "wording": "recheduled", "stage": "failed_attempt", "language": "en", "confirmedBy": "bundle", "note": "A website_update value the tracking page's script names; the page shows it on its rail as In Transit. A delivery moved to another day; the spelling is Zajil's."},
+    {"code": "ready_for_collection", "wording": "ready_for_collection", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "bundle", "note": "A website_update value the tracking page's script names; the page shows it on its rail as In Transit."},
+    {"code": "returned_to_shipper", "wording": "returned_to_shipper", "stage": "returned", "language": "en", "confirmedBy": "bundle", "note": "A website_update value the tracking page's script names; the page shows it on its rail as In Transit."},
+    {"code": "rejected_by_customer", "wording": "rejected_by_customer", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "A website_update value the tracking page's script names; the page shows it on its rail as In Transit. Refused by the recipient."},
+    {"code": "cancelled", "wording": "cancelled", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "A website_update value the tracking page's script names; the page shows it on its rail as In Transit."},
+    {"code": "Hold", "wording": "Hold", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "A website_update value the tracking page's script names; the page shows it on its rail as In Transit."}
+  ]
+}

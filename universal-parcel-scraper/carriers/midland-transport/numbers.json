@@ -1,0 +1,51 @@
+{
+  "carrier": "midland-transport",
+  "records": [
+    {
+      "number": "1524010008830001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250618221054/https://ship.midlandtransport.com/Tracking/TrackClientTrackings?TrackingNumber=1524010008830001&Lang=0",
+        "date": "2025-06-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "An archived lookup on Midland's own tracker shows a Midland Courier ground parcel's history from pickup to delivery."
+    },
+    {
+      "number": "2606250011700001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260914012206/https://ship.midlandtransport.com/Tracking/TrackClientTrackings?TrackingNumber=2606250011700001",
+        "date": "2026-09-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "An archived lookup on Midland's own tracker shows a Midland Courier ground parcel that was created but not yet scanned."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "carrier": "pack-man",
+  "records": [
+    {
+      "number": "A-20185489",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230802183517/https://www.courier.pack-man.gr/pegasus/courier04/search00.php?pcode=SEARCHVOUCHER&r18p01=A-20185489",
+        "date": "2023-08-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Archived lookup on Pack-Man's former voucher search on courier.pack-man.gr; the capture shows the voucher pending collection, then collected by Pack-man Courier."
+    },
+    {
+      "number": "A-20799123",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://pack-man.gr/anazitisi-apostolis.html",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Example in the code field of Pack-Man's own shipment search page, in the same layout as the archived voucher."
+    }
+  ]
+}

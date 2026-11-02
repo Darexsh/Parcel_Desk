@@ -1,0 +1,29 @@
+{
+  "carrier": "sagawa-global",
+  "entries": [
+    {"wording": "Preparing for dispatch", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "The first scan, at the origin station abroad."},
+    {"wording": "出荷準備中", "stage": "accepted", "language": "ja", "confirmedBy": "live", "note": "The Japanese page's first scan, at the origin station abroad."},
+    {"wording": "On Board Aircraft", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "現地へ輸送中", "stage": "in_transit", "language": "ja", "confirmedBy": "live", "note": "In transit to the destination country; the English page calls it On Board Aircraft."},
+    {"code": "TA", "wording": "ARRIVED AT TRANSIT POINT", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "Quoted with its code from a reply of the tracker's XML endpoint in an open-source shop's SGX tracking code."},
+    {"wording": "経由地を出発", "stage": "in_transit", "language": "ja", "confirmedBy": "portal", "note": "Departed from a transit point."},
+    {"wording": "Estimated Arrival date at airport", "language": "en", "confirmedBy": "live", "note": "The flight's expected arrival date, listed as a row of the history; not an event, so the adapter drops it."},
+    {"wording": "フライト到着予定日", "language": "ja", "confirmedBy": "live", "note": "The flight's expected arrival date, listed as a row of the history; not an event, so the adapter drops it."},
+    {"wording": "Arrrived at Destination Airport", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Spelt this way on the English page: the flight reached the Japanese airport."},
+    {"wording": "現地空港に到着", "stage": "in_transit", "language": "ja", "confirmedBy": "live", "note": "The flight reached the Japanese airport."},
+    {"wording": "In transit to our bonded warehouse", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "自社倉庫へ転送中", "stage": "in_transit", "language": "ja", "confirmedBy": "live", "note": "On the way from the airport to SGH Global Japan's bonded warehouse."},
+    {"wording": "Arrived At Destination / Customs Clearance", "stage": "customs", "language": "en", "confirmedBy": "live", "note": "Arrived in Japan and in customs."},
+    {"wording": "Arrived At Destination", "stage": "customs", "language": "en", "confirmedBy": "portal", "note": "Older pages' wording of the scan the Japanese page calls 現地に到着/通関中, which the clearance followed."},
+    {"wording": "現地に到着/通関中", "stage": "customs", "language": "ja", "confirmedBy": "live", "note": "Arrived in Japan and in customs."},
+    {"wording": "CLEARANCE RELEASE", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Released by customs."},
+    {"wording": "通関許可", "stage": "in_transit", "language": "ja", "confirmedBy": "live", "note": "Released by customs."},
+    {"wording": "お荷物を発送しました", "stage": "in_transit", "language": "ja", "confirmedBy": "live", "note": "Sent on from the airport for domestic delivery by Sagawa Express; the footer then names the Sagawa Express waybill."},
+    {"wording": "Out For Delivery", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The English page's wording of お荷物を発送しました: the hand-over to Sagawa Express at the airport, which delivers a day or more later."},
+    {"wording": "ABSENCE", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "Sagawa Express found nobody in; the page shows the destination station rather than a place of its own."},
+    {"wording": "不在", "stage": "failed_attempt", "language": "ja", "confirmedBy": "live", "note": "Sagawa Express found nobody in."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The history shows it followed by [STAMP]."},
+    {"wording": "配達完了", "stage": "delivered", "language": "ja", "confirmedBy": "live", "note": "The history shows it followed by [STAMP]."},
+    {"wording": "配達完了(Delivered)(派送完毕，已签收)", "stage": "delivered", "language": "ja", "confirmedBy": "portal", "note": "The status column of the list the tracker shows when a lookup matches several records, in Japanese, English and Chinese."}
+  ]
+}

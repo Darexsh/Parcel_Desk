@@ -1,0 +1,24 @@
+{
+  "carrier": "airspeed",
+  "records": [
+    {
+      "number": "035129052",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240909133523/https://logistics.airspeed.com.ph/track/TrackingSearch.aspx?waybill=035129052",
+        "date": "2024-09-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Airspeed's own cargo tracker shows its scans; the tracker still finds it, delivered."
+    }
+  ]
+}

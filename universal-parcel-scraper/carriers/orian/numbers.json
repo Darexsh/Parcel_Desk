@@ -1,0 +1,68 @@
+{
+  "carrier": "orian",
+  "records": [
+    {
+      "number": "535821090-0",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250515135938/https://tracking-ecom.orian.com/api/CargoTrackingSearch/GetShipments?&Tenant=126&SearchKey=535821090-0&CaptchaCode=&CaptchaKey=",
+        "date": "2025-05-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "box-now",
+          "cdl",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "An archived reply of the search behind Orian's own e-commerce tracker shows this house number on an iHerb air shipment from New York to Tel Aviv, at its Created milestone, to be delivered by Orian's own couriers."
+    },
+    {
+      "number": "100019472631",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240203221653/http://www.orian.com/OrianBarcodeTracking/?b=100019472631",
+        "date": "2024-02-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "An archived lookup on Orian's own domestic barcode tracker carries this delivery order number; the capture is a redirect whose target was not archived, so no history was seen."
+    }
+  ]
+}

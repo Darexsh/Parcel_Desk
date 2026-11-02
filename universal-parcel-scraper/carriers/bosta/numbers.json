@@ -1,0 +1,195 @@
+{
+  "carrier": "bosta",
+  "records": [
+    {
+      "number": "47680643",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260112112317/https://tracking.bosta.co/shipments/track/47680643?lang=en",
+        "date": "2026-01-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Looked up on Bosta's tracking API behind its tracking page; the opened capture names Bosta as provider and shows the shipment's creation event."
+    },
+    {
+      "number": "53030038",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260101234144/https://tracking.bosta.co/shipments/track/53030038?lang=ar",
+        "date": "2026-01-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Looked up in Arabic on Bosta's tracking API behind its tracking page; the opened capture names Bosta as provider and shows the shipment's creation event."
+    },
+    {
+      "number": "21388307",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250809014827/https://bosta.co/en-eg/tracking-shipments?shipment-number=21388307",
+        "date": "2025-08-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Archived lookup on Bosta's own tracking page; the capture was not opened because the page renders the history from a script. Bosta's tracker knows it."
+    },
+    {
+      "number": "7234258",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/AbdelrahmanTolba/Bosta-Task/blob/main/README.md",
+        "date": "2024-01-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "One of the tracking numbers Bosta's front-end assessment tells candidates to search on its tracking API, as copied into a candidate's README. Bosta's tracker knows it."
+    },
+    {
+      "number": "13737343",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/AbdelrahmanTolba/Bosta-Task/blob/main/README.md",
+        "date": "2024-01-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "One of the tracking numbers Bosta's front-end assessment tells candidates to search on its tracking API, as copied into a candidate's README. Bosta's tracker knows it."
+    },
+    {
+      "number": "67151313",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/AbdelrahmanTolba/Bosta-Task/blob/main/README.md",
+        "date": "2024-01-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "One of the tracking numbers Bosta's front-end assessment tells candidates to search on its tracking API, as copied into a candidate's README. Bosta's tracker knows it."
+    },
+    {
+      "number": "36406704",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/AbduHany/bosta_frontend_assessment/blob/main/README.md",
+        "date": "2024-12-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Listed as a sample tracking number for Bosta's tracking API (tracking.bosta.co/shipments/track) in a Bosta front-end assessment README. Bosta's tracker knows it as a shipment to Saudi Arabia."
+    },
+    {
+      "number": "1094442",
+      "role": "quarantined",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/AbduHany/bosta_frontend_assessment/blob/main/README.md",
+        "date": "2024-12-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "Listed as a sample tracking number for Bosta's tracking API (tracking.bosta.co/shipments/track) in a Bosta front-end assessment README. Bosta's tracker now answers it with another shipment under a ten-digit number, so it may not be a shipment number."
+    }
+  ]
+}

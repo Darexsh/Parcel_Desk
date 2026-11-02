@@ -1,0 +1,1003 @@
+{
+  "carrier": "japan-post",
+  "records": [
+    {
+      "number": "CI076369983JP",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://gist.github.com/zxp/e83a4a1b7294a5ed6207",
+        "date": "2015-08-29"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "Open-source project example, not a real shipment."
+    },
+    {
+      "number": "UL123456789JP",
+      "role": "negative",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.post.japanpost.jp/service/send/oversea/information/ems_search_en.html"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Official documentation example, not a real shipment. The S10 check digit does not validate. The source attributes it to Japan Post, which no rule claims."
+    },
+    {
+      "number": "EN357239493JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/parcel-sent-from-japan-by-ems-en357239493jp-143369/",
+        "date": "2024-12-26"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "Sender reports an EMS parcel posted at a Japanese post office; not independently verified."
+    },
+    {
+      "number": "RX067132330JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/import-stopped-74058/",
+        "date": "2020-12-03"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "Sender reports a Japan-to-China shipment and refers to contacting Japan Post; not independently verified."
+    },
+    {
+      "number": "CN 022 918 231 JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/import-stopped-74058/",
+        "date": "2021-11-22",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "Customer pastes Japan Post tracking rows for parcels held at Chinese import. Original spacing is preserved."
+    },
+    {
+      "number": "CN 022 808 960 JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/import-stopped-74058/",
+        "date": "2021-11-22",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "Customer pastes Japan Post tracking rows for parcels held at Chinese import. Original spacing is preserved."
+    },
+    {
+      "number": "CN 022 808 704 JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/import-stopped-74058/",
+        "date": "2021-11-22",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "Customer pastes Japan Post tracking rows for parcels held at Chinese import. Original spacing is preserved."
+    },
+    {
+      "number": "CN 022 964 117 JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/import-stopped-74058/",
+        "date": "2021-11-22",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "Customer pastes Japan Post tracking rows for parcels held at Chinese import. Original spacing is preserved."
+    },
+    {
+      "number": "CN 022 962 836 JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/import-stopped-74058/",
+        "date": "2021-11-22",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "Customer pastes Japan Post tracking rows for parcels held at Chinese import. Original spacing is preserved."
+    },
+    {
+      "number": "EL 439 549 911 JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/import-stopped-94592/",
+        "date": "2021-07-28",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "Sender reports a parcel from Japan to a Chinese warehouse. The suffix names Japan Post as the issuing postal operator. Original spacing is preserved."
+    },
+    {
+      "number": "EN157656352JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/my-package-reached-shenzhen-but-then-went-back-to-shanghai-111001/",
+        "date": "2022-02-21",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "Customer reports a parcel from Japan to China. The suffix names Japan Post as the issuing postal operator."
+    },
+    {
+      "number": "6271-4993-2452",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-90507.pdf",
+        "date": "2021-07-29",
+        "dateKind": "judgment",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Letter Pack Plus",
+        "reportedRole": "reported_shipment",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "An IP High Court judgment cites Japan Post's delivery record for this Letter Pack Plus. Twelve digits stay a suggestion shared with other carriers."
+    },
+    {
+      "number": "1261-2550-4536",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14149706284",
+        "date": "2015-08-30",
+        "dateKind": "forum_post",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Letter Pack",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "sf-express",
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Recipient quotes the number given for a Letter Pack that tracking did not yet show; not independently verified."
+    },
+    {
+      "number": "263823775762",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/hina0118/paa/blob/d4882e599b7019673358fff5f4ff957d788605e1/src-tauri/src/plugins/yodobashi/parsers/send.rs",
+        "date": "2026-04-12"
+      },
+      "context": {
+        "service": "Yu-Pack",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Mail-parser fixture: a retailer's shipping notice names Japan Post Yu-Pack and links the number to Japan Post's tracking."
+    },
+    {
+      "number": "560045430206",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/hina0118/paa/blob/f5ea38d8b1da1240029f13a76d1012a93a9a1b60/src-tauri/src/plugins/hobbyjapan/parsers/send.rs",
+        "date": "2026-05-29"
+      },
+      "context": {
+        "service": "Yu-Pack",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Mail-parser fixture: a retailer's shipping notice names Japan Post Yu-Pack."
+    },
+    {
+      "number": "6286-8414-1971",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://torisedo.com/48345.html",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Click Post",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "gls-ch",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A guide lists it as a past Click Post number; not independently verified."
+    },
+    {
+      "number": "372-67-45246-0",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000956590.pdf",
+        "date": "2026-08-28",
+        "dateKind": "mailing",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Simplified registered mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "A regional bureau of Japan's land ministry lists the simplified registered mail numbers of the certificates it posted and refers recipients to Japan Post's tracking."
+    },
+    {
+      "number": "372-67-46206-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000956591.pdf",
+        "date": "2026-08-28",
+        "dateKind": "mailing",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Simplified registered mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "A regional bureau of Japan's land ministry lists the simplified registered mail numbers of the certificates it posted and refers recipients to Japan Post's tracking."
+    },
+    {
+      "number": "372-67-41345-5",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000956592.pdf",
+        "date": "2026-08-28",
+        "dateKind": "mailing",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Simplified registered mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "A regional bureau of Japan's land ministry lists the simplified registered mail numbers of the certificates it posted and refers recipients to Japan Post's tracking."
+    },
+    {
+      "number": "372-67-53094-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000959754.pdf",
+        "date": "2026-10-02",
+        "dateKind": "mailing",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Simplified registered mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "A regional bureau of Japan's land ministry lists the simplified registered mail numbers of the certificates it posted and refers recipients to Japan Post's tracking."
+    },
+    {
+      "number": "117-24-63493-5",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-85085.pdf",
+        "date": "2015-04-15",
+        "dateKind": "judgment",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Registered mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "A Tokyo District Court judgment cites this registered letter and Japan Post's delivery certificate for it."
+    },
+    {
+      "number": "106-40-21653-2",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-11918.pdf",
+        "date": "2002-04-11",
+        "dateKind": "judgment",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Registered mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "cdek",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "A Tokyo District Court decision quotes the acceptance number of a registered letter one party sent the other."
+    },
+    {
+      "number": "131-12-38385-2",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20070320033839/http://www.coins.tsukuba.ac.jp/~yagi/yusei_system_trouble/",
+        "date": "2004-04-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Registered mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "An archived university page shows the sender's registered mail receipt and Japan Post's tracking result for this number."
+    },
+    {
+      "number": "474-60-00017-3",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.post.japanpost.jp/whats_new/2009/0225_01_c05.pdf",
+        "date": "2009-02-20",
+        "dateKind": "document date"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "Sample receipt for Japan Post's simplified registered mail slip, not a real item. Its seven consecutive sample numbers all carry the check digit."
+    },
+    {
+      "number": "302-50-84809-5",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://torisedo.com/56724.html",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Simplified registered mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "A guide lists it as a past simplified registered mail number; not independently verified."
+    },
+    {
+      "number": "540-19-15318-2",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://torisedo.com/56781.html",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Recorded mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "A guide lists it as a past recorded mail number; not independently verified."
+    },
+    {
+      "number": "908-81-15623-6",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://torisedo.com/56838.html",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Simplified registered mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "A guide lists it as a past simplified registered mail number; not independently verified."
+    },
+    {
+      "number": "501-46-75268-1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.hakosuke.com/mibarai/index.html",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Recorded mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "A seller's blog pastes Japan Post's tracking history for this recorded letter."
+    },
+    {
+      "number": "675-60-24127-6",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://yubin.2-d.jp/y4/23.html",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Recorded mail",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl",
+          "speedy"
+        ]
+      },
+      "note": "A postal guide transcribes a recorded mail receipt for ten consecutive postcards; this is the first number."
+    },
+    {
+      "number": "474-60-00017-0",
+      "role": "negative",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-08",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ],
+        "not": [
+          "japan-post"
+        ]
+      },
+      "note": "Japan Post's sample registered mail number with its check digit changed, so Japan Post is not suggested."
+    },
+    {
+      "number": "152515917783",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260902182854/https://trackings.post.japanpost.jp/services/srv/search/direct?&reqCodeNo1=152515917783&locale=jp",
+        "date": "2026-09-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Yu-Pack",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A Japan Post tracking link archived by the Wayback Machine. Japan Post's tracker returns its Yu-Pack history."
+    },
+    {
+      "number": "860353703506",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260902055101/https://trackings.post.japanpost.jp/services/srv/search/direct?locale=en&reqCodeNo1=860353703506&searchKind=S002",
+        "date": "2026-09-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Yu-Pack",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A Japan Post tracking link archived by the Wayback Machine. Japan Post's tracker returns its Yu-Pack history."
+    },
+    {
+      "number": "954055535285",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260825064926/https://trackings.post.japanpost.jp/services/srv/search/direct?reqCodeNo1=954055535285&searchKind=S002&locale=en",
+        "date": "2026-08-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Yu-Pack",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A Japan Post tracking link archived by the Wayback Machine. Japan Post's tracker returns its Yu-Pack history with a designated delivery date."
+    },
+    {
+      "number": "263881387405",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260711012636/https://trackings.post.japanpost.jp/services/srv/search/direct?&reqCodeNo1=263881387405&locale=ja",
+        "date": "2026-07-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Yu-Pack",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "purolator",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A Japan Post tracking link archived by the Wayback Machine. Japan Post's tracker returns its Yu-Pack history."
+    },
+    {
+      "number": "CL105844885JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260524050557/https://trackings.post.japanpost.jp/services/srv/search/direct?locale=en&reqCodeNo1=CL105844885JP",
+        "date": "2026-05-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "A Japan Post tracking link archived by the Wayback Machine. Japan Post's tracker returns its international history."
+    },
+    {
+      "number": "LP107777790JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261005062200/https://trackings.post.japanpost.jp/services/srv/search/direct?locale=en&reqCodeNo1=LP107777790JP",
+        "date": "2026-10-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "japan-post",
+        "confidence": "high"
+      },
+      "note": "A Japan Post tracking link archived by the Wayback Machine. Japan Post's tracker returns its international history."
+    }
+  ]
+}

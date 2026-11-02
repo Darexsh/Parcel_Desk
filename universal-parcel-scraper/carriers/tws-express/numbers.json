@@ -1,0 +1,279 @@
+{
+  "carrier": "tws-express",
+  "records": [
+    {
+      "number": "284800D026896",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171210000119/http://www.twsexpresscourier.it:80/Ricerca.aspx?ldv=284800D026896",
+        "date": "2017-12-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "poste-italiane",
+          "tws-express"
+        ]
+      },
+      "note": "An archived lookup on TWS's own tracker shows this waybill from departure to delivery."
+    },
+    {
+      "number": "2876986261942",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170718222536/http://www.twsexpresscourier.it:80/Ricerca.aspx?ldv=2876986261942",
+        "date": "2017-07-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "An archived lookup on TWS's own tracker shows this all-digit waybill from departure to delivery."
+    },
+    {
+      "number": "287528I253431",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220923135017/https://tsmbe.it/extracking/trackingStatusLdv",
+        "date": "2022-09-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "poste-italiane",
+          "tws-express"
+        ]
+      },
+      "note": "An archived answer from the tracking API behind mytws.it, captured with the page lookup for this waybill, shows its NUOVA and CONFERMATA events."
+    },
+    {
+      "number": "285740I145955",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220930150340/https://www.mytws.it/tracking-status;ldv=285740I145955",
+        "date": "2022-09-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "poste-italiane",
+          "tws-express"
+        ]
+      },
+      "note": "An archived lookup on TWS's own tracker address; the capture was opened but shows only the page shell, so the history was not visible."
+    },
+    {
+      "number": "288364I088689",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/mancata-consegna/CPTIT01831437-77",
+        "date": "2023-07-12",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "poste-italiane",
+          "tws-express"
+        ]
+      },
+      "note": "A complaint names the courier TWS Express Courier and gives this as its waybill number."
+    },
+    {
+      "number": "288364I193990",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/mancata-consegna/CPTIT01860588-31",
+        "date": "2023-08-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "poste-italiane",
+          "tws-express"
+        ]
+      },
+      "note": "A complaint addressed to TWS quotes this waybill, and T.W.S. Express Courier answered it the same day."
+    },
+    {
+      "number": "289850I023991",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/ordine-bloccato/5d197b18eaf83b349b",
+        "date": "2024-12-16",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "poste-italiane",
+          "tws-express"
+        ]
+      },
+      "note": "A complaint addressed to T.W.S. Express Courier quotes this waybill."
+    },
+    {
+      "number": "289850I019035",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/spedizione-in-transito-con-ult/d77cc9ae8ccf88a4ad",
+        "date": "2024-12-13",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "poste-italiane",
+          "tws-express"
+        ]
+      },
+      "note": "The sender's customer service quotes this waybill with its mytws.it tracking link in a reply on a complaint."
+    },
+    {
+      "number": "289850I008656",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/spedizione-pacco/cbf2a7cd214641a398",
+        "date": "2024-12-13",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "poste-italiane",
+          "tws-express"
+        ]
+      },
+      "note": "The sender's customer service quotes this waybill with its mytws.it tracking link in a reply on a complaint."
+    },
+    {
+      "number": "281790J005342",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/pacco-mai-consegnato/97100790593538ad68",
+        "date": "2025-12-16",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "poste-italiane",
+          "tws-express"
+        ]
+      },
+      "note": "A complaint addressed to TWS quotes this number and says its tracking shows the parcel held."
+    },
+    {
+      "number": "1UW0S11090797",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/pacco-mai-consegnato/fb4a31b168de19e1c4",
+        "date": "2026-02-02",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "poste-italiane",
+        "confidence": "high"
+      },
+      "note": "A complaint says the sender gave this parcel to the courier TWS, and TWS's tracker follows it, but the number is a Poste Delivery Business waybill that Poste Italiane's rule claims."
+    },
+    {
+      "number": "1UW0S16122102",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/pacco-che-non-si-sa-dov'-C3-A8!!/a29be420edde1b78d8",
+        "date": "2025-08-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "poste-italiane",
+        "confidence": "high"
+      },
+      "note": "A complaint names TWS as the courier for this number, which is a Poste Delivery Business waybill; the complainant turned to Poste's customer service."
+    }
+  ]
+}

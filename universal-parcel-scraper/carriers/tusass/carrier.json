@@ -1,0 +1,46 @@
+{
+  "id": "tusass",
+  "displayName": "Tusass",
+  "aliases": [
+    "TELE-POST",
+    "Tele-Post",
+    "POST Greenland",
+    "TELE Greenland",
+    "Greenland Post"
+  ],
+  "region": {
+    "countries": [
+      "GL"
+    ]
+  },
+  "brand": {
+    "color": "#26a8b2"
+  },
+  "selectable": true,
+  "timezone": "America/Nuuk",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.tusass.gl/en/track-and-trace/#{trackingNumber}",
+    "searchUrl": "https://www.tusass.gl/en/track-and-trace/",
+    "canaryUrl": "https://www.tusass.gl/en/track-and-trace/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tusass.gl"
+      ],
+      "pathPattern": "^/(?:en/|da/)?track-and-trace/?$",
+      "fragment": "^([A-Za-z0-9]{8,32})$"
+    }
+  ],
+  "detection": []
+}

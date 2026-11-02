@@ -1,0 +1,29 @@
+{
+  "carrier": "intex-paketdienst",
+  "records": [
+    {
+      "number": "0512236-5",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200514094946/https://www.intex-paketdienst.de/sendungsstatus/index.php?sdnr=0512236-5",
+        "date": "2020-05-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on INTEX's own tracker shows this shipment from data receipt to the delivery station."
+    }
+  ]
+}

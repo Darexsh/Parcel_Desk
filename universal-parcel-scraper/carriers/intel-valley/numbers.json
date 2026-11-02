@@ -1,0 +1,21 @@
+{
+  "carrier": "intel-valley",
+  "gap": "No public page shows a whole Intel-Valley tracking number.",
+  "records": [
+    {
+      "number": "IV123400000017",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-25",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "intel-valley"
+        ]
+      },
+      "note": "Made-up number in the shape of a parcel the app tracked, which a universal provider filed under INTEL-VALLEY."
+    }
+  ]
+}

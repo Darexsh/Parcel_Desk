@@ -1,0 +1,65 @@
+{
+  "carrier": "credifin",
+  "records": [
+    {
+      "number": "120212210008415430",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250416212129/https://api.credifin.com.ar/api/track/120212210008415430",
+        "date": "2025-04-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ecoscooting"
+        ]
+      },
+      "note": "An archived reply of Credifin's tracking API, which its former tracker page at tracking.credifin.com.ar called, shows this shipment's history from the origin branch to home delivery rounds in April 2025."
+    },
+    {
+      "number": "120212218233556",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250416212129/https://api.credifin.com.ar/api/track/120212210008415430",
+        "date": "2025-04-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "package label",
+        "assessment": "candidate"
+      },
+      "relationships": [
+        {
+          "kind": "child_of",
+          "number": "120212210008415430",
+          "source": {
+            "url": "https://web.archive.org/web/20250416212129/https://api.credifin.com.ar/api/track/120212210008415430",
+            "date": "2025-04-16",
+            "dateKind": "capture",
+            "access": "full_page"
+          }
+        }
+      ],
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "The same archived tracking API reply gives it as the label ('etiqueta') of the shipment's only package on every event; the lookup itself used the shipment number."
+    }
+  ]
+}

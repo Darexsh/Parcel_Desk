@@ -1,0 +1,26 @@
+{
+  "carrier": "rivigo",
+  "entries": [
+    {"code": "DRAFTED", "wording": "Drafted", "language": "en", "stage": "registered", "confirmedBy": "bundle", "note": "A consignment status of the client dashboard: a note started and not yet booked."},
+    {"code": "CREATED", "wording": "Created", "language": "en", "stage": "registered", "confirmedBy": "bundle", "note": "The booking, as the client dashboard labels it."},
+    {"code": "CREATED", "wording": "Pickup", "language": "en", "stage": "accepted", "confirmedBy": "bundle", "note": "The tracking page keeps the Pickup wording of a booking or first leg: the collection from the consignor."},
+    {"code": "INTRANSIT_TO_OU", "language": "en", "stage": "in_transit", "confirmedBy": "bundle", "note": "On the way to an operating unit; the progress rail calls it INTRANSIT."},
+    {"code": "INTRANSIT_TO_OU", "wording": "Pickup", "language": "en", "stage": "accepted", "confirmedBy": "bundle", "note": "The collection, on the leg to the first operating unit."},
+    {"code": "REACHED_AT_PICKUP_BRANCH_OFFICE", "wording": "Reached at Pickup Branch Office", "language": "en", "stage": "in_transit", "confirmedBy": "bundle"},
+    {"code": "REACHED_AT_PICKUP_PROCESSING_CENTER", "wording": "Reached at Pickup Processing Center", "language": "en", "stage": "in_transit", "confirmedBy": "bundle"},
+    {"code": "RECEIVED_AT_OU", "wording": "Origin PC - IN", "language": "en", "stage": "in_transit", "confirmedBy": "bundle", "note": "At the origin processing centre; the page labels it Received."},
+    {"code": "RECEIVED_AT_OU", "wording": "Destination PC - IN", "language": "en", "stage": "in_transit", "confirmedBy": "bundle", "note": "At the destination processing centre; the page labels it Arrived."},
+    {"code": "LOADED", "language": "en", "stage": "in_transit", "confirmedBy": "bundle", "note": "Loaded on a vehicle; the page labels the first one Dispatched and leaves the later ones out."},
+    {"code": "UNLOADED", "language": "en", "stage": "in_transit", "confirmedBy": "bundle", "note": "Unloaded at an operating unit; the public page leaves these rows out."},
+    {"code": "IN_TRANSIT", "language": "en", "stage": "in_transit", "confirmedBy": "bundle", "note": "A consignment status of the client dashboard."},
+    {"code": "AT_TRANSSHIPMENT_PROCESSING_CENTER", "wording": "At Transshipment Processing Center", "language": "en", "stage": "in_transit", "confirmedBy": "bundle"},
+    {"code": "AT_TRANSSHIPMENT_BRANCH_OFFICE", "wording": "At Transshipment Branch Office", "language": "en", "stage": "in_transit", "confirmedBy": "bundle"},
+    {"code": "RECEIVED_AT_DELIVERY_PROCESSING_CENTER", "wording": "Received at Delivery Processing Center", "language": "en", "stage": "in_transit", "confirmedBy": "bundle"},
+    {"code": "RECEIVED_AT_DELIVERY_BRANCH_OFFICE", "wording": "Received at Delivery Branch Office", "language": "en", "stage": "in_transit", "confirmedBy": "bundle"},
+    {"code": "OUT_FOR_DELIVERY", "wording": "Out for delivery", "language": "en", "stage": "out_for_delivery", "confirmedBy": "bundle", "note": "The page adds the attempt's number to the wording."},
+    {"code": "UNDELIVERED", "wording": "Undelivered", "language": "en", "stage": "failed_attempt", "confirmedBy": "bundle", "note": "A delivery attempt that failed; the page adds its number and reason."},
+    {"code": "PARTIALLY_DELIVERED", "wording": "Partially delivered", "language": "en", "stage": "in_transit", "confirmedBy": "bundle", "note": "Some boxes delivered and the others delayed, so the consignment is not delivered."},
+    {"code": "DELIVERED_POD_PENDING", "wording": "Delivered POD pending", "language": "en", "stage": "delivered", "confirmedBy": "bundle", "note": "Delivered, with the signed proof of delivery still to be uploaded."},
+    {"code": "DELIVERED", "wording": "Delivered", "language": "en", "stage": "delivered", "confirmedBy": "bundle"}
+  ]
+}

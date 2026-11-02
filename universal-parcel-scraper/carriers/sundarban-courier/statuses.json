@@ -1,0 +1,28 @@
+{
+  "carrier": "sundarban-courier",
+  "entries": [
+    {"wording": "Booking Complete", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Booked at the sending branch; the page shows it as a Bengali sentence naming the branch."},
+    {"wording": "Out for Destination", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Sent on from a branch or hub towards the next one; the page shows it as a Bengali sentence naming both."},
+    {"wording": "Received by Dest.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Received at the next hub or the delivering branch; the page shows it as a Bengali sentence naming the branch."},
+    {"wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "The page shows it as a Bengali sentence naming the branch."},
+    {"wording": "Ready for C/D", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects: ready for collection at the branch counter."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The page shows it as a Bengali sentence."},
+    {"wording": "Return", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects: returned to the sender."},
+    {"wording": "Return at office", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects."},
+    {"wording": "Return & Delivered", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects: the return has reached the sender."},
+    {"wording": "Damage", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects."},
+    {"wording": "পণ্যটি ডেলিভারি সম্পন্ন হয়েছে।", "stage": "delivered", "language": "bn", "confirmedBy": "official-doc", "note": "The sentence the tracking page prints for Delivered."},
+    {"wording": "আপনার পণ্যটি প্রেরকের কাছে রিটার্ন করা হয়েছে।", "stage": "returned", "language": "bn", "confirmedBy": "official-doc", "note": "The sentence the tracking page prints for Return."},
+    {"code": "export_processing", "wording": "Export Processing", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects for international shipments."},
+    {"code": "export_customs_processing", "wording": "Export Customs Processing", "stage": "customs", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects for international shipments."},
+    {"code": "shipment_in_transit", "wording": "Shipment In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects for international shipments."},
+    {"code": "shipment_off_loaded", "wording": "Shipment Offloaded", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects for international shipments."},
+    {"code": "shipment_delayed_in_transit", "wording": "Shipment Delayed In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects for international shipments."},
+    {"code": "shipment_arrived_at_dest", "wording": "Shipment Arrived At Destination", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects for international shipments."},
+    {"code": "customs_clearance_at_dest", "wording": "Customs Clearance At Destination", "stage": "customs", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects for international shipments."},
+    {"code": "customs_clearance_delay", "wording": "Customs Clearance Delay", "stage": "customs", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects for international shipments."},
+    {"code": "shipment_ready_for_delivery", "wording": "Shipment Ready For Delivery", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects for international shipments."},
+    {"code": "shipment_delivered", "wording": "Shipment Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects for international shipments."},
+    {"code": "delivery_missed_rcpt_unavailable", "wording": "Delivery Missed Due To Recipient Unavailable", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "Status the tracking page's script expects for international shipments."}
+  ]
+}

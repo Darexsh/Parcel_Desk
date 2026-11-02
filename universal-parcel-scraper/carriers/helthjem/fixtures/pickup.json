@@ -1,0 +1,20 @@
+{
+  "data": {
+    "getParcelTrackingDetails": {
+      "parcelReference": "70724763999000029",
+      "trackingNumber": "370724769990000021",
+      "shipmentNumber": "70724763999000029",
+      "status": "READY_FOR_PICKUP",
+      "isPostnordProduct": false,
+      "events": [
+        { "apiKey": "001", "status": "REGISTERED", "createdAt": "2026-06-01T20:00:00+02:00", "location": null, "message": { "content": "Nettbutikken har meldt at en pakke er på vei!" } },
+        { "apiKey": "002", "status": "IN_TRANSIT", "createdAt": "2026-06-02T18:00:00+02:00", "location": "Exampletown", "message": { "content": "Vi har mottatt pakken din, og gjør den klar for veien videre." } },
+        { "apiKey": "901", "status": "CONVERTED_TO_STORE", "createdAt": "2026-06-02T23:50:00+02:00", "location": "Sampleby", "message": { "content": "Pakken sendes til et hentested." } },
+        { "apiKey": "902", "status": "DELIVERING_TO_STORE", "createdAt": "2026-06-03T06:30:00+02:00", "location": null, "message": null },
+        { "apiKey": "903", "status": "READY_FOR_PICKUP", "createdAt": "2026-06-03T09:15:00+02:00", "location": null, "message": { "content": "Pakken er klar til henting." } }
+      ],
+      "servicePoint": { "name": "Example Kiosk Sampleby" },
+      "shop": { "name": "Sample Store" }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "top-logistics-au",
+  "displayName": "Top Logistics Australia",
+  "aliases": [
+    "Top Logistics Australia Pty Ltd",
+    "Top Logistics Australia (TLA)"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#193064"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://toplogistics.com.au/?s={trackingNumber}",
+    "searchUrl": "https://toplogistics.com.au/",
+    "canaryUrl": "https://toplogistics.com.au/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "toplogistics.com.au"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "s"
+      ]
+    }
+  ],
+  "detection": []
+}

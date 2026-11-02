@@ -1,0 +1,75 @@
+{
+  "carrier": "leopards-courier",
+  "records": [
+    {
+      "number": "ID755654883",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240122132636/http://new.leopardscod.com/track_shipment/track_packet/83037533",
+        "date": "2024-01-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-it"
+        ]
+      },
+      "note": "An archived page of Leopards' COD tracker on leopardscod.com shows this tracking number for a packet booked and picked up in Islamabad, with its transfers, a pending wrong-address event and courier assignments."
+    },
+    {
+      "number": "KI0646202929",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260918090914/https://pk.leopardscourier.com/shipment_tracking_view?cn_number=KI0646202929",
+        "date": "2026-09-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Sent to Leopards' own tracker, as an archived address shows. The opened capture, taken before its first scan, says the number is invalid or not found; Leopards' tracking page later shows its delivery."
+    },
+    {
+      "number": "KI0646319661",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260922134325/https://pk.leopardscourier.com/shipment_tracking_view?cn_number=KI0646319661",
+        "date": "2026-09-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Sent to Leopards' own tracker, as an archived address shows. The opened capture, taken before its first scan, says the number is invalid or not found; Leopards' tracking page later shows its delivery."
+    }
+  ]
+}

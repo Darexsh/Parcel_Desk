@@ -1,0 +1,249 @@
+{
+  "carrier": "ctt",
+  "records": [
+    {
+      "number": "LA136353435PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/ctt/complaints/ctt-atraso-na-entrega-377-163329926",
+        "date": "2026-09-28"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number. CTT's tracker returns its history."
+    },
+    {
+      "number": "RL402552798PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/ritardo-consegna-raccomandata/f9bc9dea8c8224161d",
+        "date": "2025-11-03"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number. CTT's tracker returns its history."
+    },
+    {
+      "number": "CO 0766 4891 2 PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/ctt/complaints/ctt-falha-na-distribuicao-de-encomendas-53830621",
+        "date": "2021-01-26",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "domestic island parcel",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Customer describes registered parcel to Madeira; CO prefix is preserved without inferring a product from it."
+    },
+    {
+      "number": "RH 5830 9947 7 PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/ctt/complaints/ctt-nao-entrega-de-correio-registado-6-56680821",
+        "date": "2021-03-08",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "simple registered letter",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Customer explicitly describes a letter sent by registo simples."
+    },
+    {
+      "number": "RH 6644 4592 2 PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/ctt/complaints/ctt-atraso-nas-entregas-do-correio-registado-6-50892520",
+        "date": "2020-12-17",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "domestic island registered parcel",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Customer explicitly supplies registered parcel reference to Madeira."
+    },
+    {
+      "number": "RH 7397 2813 9 PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/ctt/complaints/ctt-correio-registado-marcado-como-entregue-no-entanto-nao-foi-entregue-68722621",
+        "date": "2021-12-15",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "registered mail",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Customer explicitly provides registered-post reference and reports delivered status."
+    },
+    {
+      "number": "RH 7879 4002 5 PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/ctt/complaints/ctt-correspondencia-violada-10-65095021",
+        "date": "2021-09-20",
+        "dateKind": "complaint updated",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "international registered letter",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Sender explicitly provides reference for an international registered letter to France."
+    },
+    {
+      "number": "RL 0364 5907 6 PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/ctt-expresso/complaints/ctt-expresso-objeto-enviado-por-correio-registado-que-nao-chegou-ao-seu-destino-111795024",
+        "date": "2024-05-01",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "international registered mail",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Customer describes registered post from Portugal to France; complaint category CTT Expresso does not establish CTT Express Spain service."
+    },
+    {
+      "number": "RL 0841 0374 4 PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/ctt/complaints/ctt-falta-de-entrega-de-encomenda-em-correio-registado-nacional-101111523",
+        "date": "2023-10-21",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "domestic island registered parcel",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Customer reports registered parcel to Madeira; raw spaced input retained."
+    },
+    {
+      "number": "RL 2034 2833 2 PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/ctt/complaints/ctt-extravio-de-correio-registado-3-150969026",
+        "date": "2026-02-24",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "registered letter acknowledgement",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Sender reports registered mail with acknowledgement of receipt; spaced printed identifier retained. CTT's tracker returns its history."
+    },
+    {
+      "number": "RL 2235 1591 0 PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/ctt/complaints/ctt-correio-registado-c-ar-entrega-ao-proprio-e-valor-declarado-aparece-no-site-dos-ctt-como-entregue-a-outra-pessoa-120093624",
+        "date": "2024-10-08",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "registered declared value personal delivery",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Sender lists registered mail, acknowledgement, personal delivery and declared value as purchased services. No recipient details retained."
+    },
+    {
+      "number": "RL 2811 7996 5 PT",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://portaldaqueixa.com/brands/ctt/complaints/ctt-nao-entrega-de-carta-registada-com-aviso-de-recepcao-1-155401326",
+        "date": "2026-05-16",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "registered letter returned",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt",
+        "confidence": "high"
+      },
+      "note": "Sender reports a registered letter with acknowledgement of receipt subsequently returned. CTT's tracker returns its history."
+    }
+  ]
+}

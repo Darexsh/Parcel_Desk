@@ -1,0 +1,94 @@
+{
+  "id": "teleship",
+  "displayName": "Teleship",
+  "aliases": [
+    "Teleship Limited"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#ff66d2"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "teleship",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 842
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "eta",
+    "delivered_at",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://teleship.com/tracking?number={trackingNumber}",
+    "searchUrl": "https://teleship.com/tracking",
+    "canaryUrl": "https://teleship.com/tracking",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "eta",
+      "delivered_at",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail"
+    ],
+    "unavailable": [
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "teleship.com",
+        "www.teleship.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "number",
+        "trackingNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "teleship-ts",
+      "pattern": "^TSGB[A-Z]{2}[A-Z0-9]{15}$",
+      "confidence": "low"
+    }
+  ]
+}

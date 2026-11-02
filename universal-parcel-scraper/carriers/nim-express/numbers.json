@@ -1,0 +1,285 @@
+{
+  "carrier": "nim-express",
+  "records": [
+    {
+      "number": "6801812122447",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190503015202/http://www.nimexpress.com:80/web/p/tracking?i=6801812122447",
+        "date": "2019-05-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fedex-pl"
+        ]
+      },
+      "note": "Looked up on Nim Express's own tracker at nimexpress.com, as an archived address shows; the capture shows the tracker with this number in its search field, but the history loads by script from Nim Express's service host, so it is not visible."
+    },
+    {
+      "number": "6101805431663",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251021165622/https://www.nimexpress.com/web/p/tracking?i=6101805431663",
+        "date": "2025-10-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fedex-pl"
+        ]
+      },
+      "note": "Looked up on Nim Express's own tracker at nimexpress.com, as an archived address shows; the capture holds only the current page shell, so the history is not visible."
+    },
+    {
+      "number": "6821705056970",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170828200713/http://www.nimexpress.com/web/p/tracking?i=6821705056970",
+        "date": "2017-08-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fedex-pl"
+        ]
+      },
+      "note": "Looked up on Nim Express's own tracker at nimexpress.com, as an archived address shows; the capture holds the tracker's script, which requests this bill number from Nim Express's service host, but the history itself is not visible."
+    },
+    {
+      "number": "3221510001166",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20160409203639/http://www.nimexpress.com/web/p/tracking?i=3221510001166",
+        "date": "2016-04-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Nim Express's own tracker at nimexpress.com, as an archived address shows; the capture holds the tracker's script, which requests this bill number from Nim Express's service host, but the history itself is not visible."
+    },
+    {
+      "number": "6821903101809",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190322220505/http://www.nimexpress.com:80/web/p/tracking?i=6821903101809",
+        "date": "2019-03-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fedex-pl"
+        ]
+      },
+      "note": "Looked up on Nim Express's own tracker at nimexpress.com, as an archived address shows; the capture was not opened, and the tracker loads history by script, so the history is not visible."
+    },
+    {
+      "number": "6841909101456",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190322220516/http://www.nimexpress.com:80/web/p/tracking?i=6841909101456",
+        "date": "2019-03-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Nim Express's own tracker at nimexpress.com, as an archived address shows; the capture was not opened, and the tracker loads history by script, so the history is not visible."
+    },
+    {
+      "number": "6101409256327",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171105204737/http://www.nimexpress.com/web/p/tracking?i=6101409256327",
+        "date": "2017-11-05",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fedex-pl"
+        ]
+      },
+      "note": "Looked up on Nim Express's own tracker at nimexpress.com, as an archived address shows; the capture was not opened, and the tracker loads history by script, so the history is not visible."
+    },
+    {
+      "number": "6801607051099",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171115065104/http://www.nimexpress.com/web/p/tracking?i=6801607051099",
+        "date": "2017-11-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fedex-pl"
+        ]
+      },
+      "note": "Looked up on Nim Express's own tracker at nimexpress.com, as an archived address shows; the capture was not opened, and the tracker loads history by script, so the history is not visible."
+    },
+    {
+      "number": "681607448578",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180918180443/http://www.nimexpress.com:80/web/p/tracking?i=681607448578",
+        "date": "2018-09-18",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Nim Express's own tracker at nimexpress.com, as an archived address shows; the capture was not opened, and the tracker loads history by script, so the history is not visible."
+    },
+    {
+      "number": "599050034752",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180918180350/http://www.nimexpress.com:80/web/p/tracking?i=599050034752",
+        "date": "2018-09-18",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Nim Express's own tracker at nimexpress.com, as an archived address shows; the capture was not opened, and the tracker loads history by script, so the history is not visible."
+    }
+  ]
+}

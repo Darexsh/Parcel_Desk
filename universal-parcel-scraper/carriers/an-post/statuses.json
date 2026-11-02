@@ -1,0 +1,366 @@
+{
+  "carrier": "an-post",
+  "entries": [
+    {
+      "code": "35",
+      "wording": "We have received information about your incoming item from the sender",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "The website calls it the customer pre-advice."
+    },
+    {
+      "code": "15",
+      "wording": "Your item has been handed to An Post",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "48",
+      "wording": "We have your item and will process it for delivery",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "The website counts it among the codes of an item accepted into the network."
+    },
+    {
+      "code": "49",
+      "wording": "Your item is going to a sorting office for delivery in",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The wording ends there; the location was empty."
+    },
+    {
+      "code": "67",
+      "wording": "Your item is being sorted by the local delivery provider",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Relayed scans of the destination country's delivery partner on an outbound item, in whole minutes."
+    },
+    {
+      "code": "4",
+      "wording": "Your item is out for delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "14",
+      "wording": "Your item has been delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "70",
+      "wording": "Your item is now available for collection",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "14",
+      "wording": "Your item has been delivered to your safe spot.",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "52",
+      "wording": "Your delivery is in …, POST OFFICE",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "note": "The wording names the post office the item is in. Live, post office ones came after a delivery to that office and before the collection there, with a delivery record; the app files code 52 under sorting, so other wording stays in transit."
+    },
+    {
+      "code": "16",
+      "wording": "Your item was delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "bundle",
+      "note": "The website's wording for a delivery attempt whose reason says it was delivered."
+    },
+    {
+      "code": "16",
+      "wording": "We attempted to deliver your item",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "bundle",
+      "note": "The website's wording for any other attempt; the app files code 16 under delivery attempted."
+    },
+    {
+      "code": "13",
+      "wording": "Your item was not collected within the specified timeframe. This item will now be returned to sender.",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "note": "The app files it under delivery attempted. Live, a relayed partner scan after a delivery attempt; the item was delivered the next day."
+    },
+    {
+      "code": "42",
+      "stage": "delivered",
+      "confirmedBy": "bundle",
+      "note": "The website shows a delivery photo or signature for it; the app files it under delivered."
+    },
+    {
+      "code": "7",
+      "stage": "customs",
+      "confirmedBy": "bundle",
+      "note": "The app files it under customs."
+    },
+    {
+      "code": "9",
+      "stage": "customs",
+      "confirmedBy": "bundle",
+      "note": "The app files it under customs."
+    },
+    {
+      "code": "64",
+      "stage": "customs",
+      "confirmedBy": "bundle",
+      "note": "The app files it under customs."
+    },
+    {
+      "code": "65",
+      "stage": "customs",
+      "confirmedBy": "bundle",
+      "note": "The app files it under customs."
+    },
+    {
+      "code": "66",
+      "stage": "customs",
+      "confirmedBy": "bundle",
+      "note": "The app files it under customs."
+    },
+    {
+      "code": "83",
+      "stage": "customs",
+      "confirmedBy": "bundle",
+      "note": "The website's customs charge raised."
+    },
+    {
+      "code": "86",
+      "stage": "customs",
+      "confirmedBy": "bundle",
+      "note": "The website's customs charge refused; the app files it under customs."
+    },
+    {
+      "code": "87",
+      "stage": "customs",
+      "confirmedBy": "bundle",
+      "note": "The website's customs charge expired; the app files it under customs."
+    },
+    {
+      "code": "32",
+      "stage": "accepted",
+      "confirmedBy": "bundle",
+      "note": "The website counts it among the codes of an item accepted into the network."
+    },
+    {
+      "code": "37",
+      "wording": "We have your item and will process it for delivery",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "The website counts it among the codes of an item accepted into the network; code 48 has the same wording."
+    },
+    {
+      "code": "6",
+      "stage": "accepted",
+      "confirmedBy": "bundle",
+      "note": "The app files it under item received."
+    },
+    {
+      "code": "36",
+      "stage": "accepted",
+      "confirmedBy": "bundle",
+      "note": "The app files it under item received."
+    },
+    {
+      "code": "41",
+      "stage": "accepted",
+      "confirmedBy": "bundle",
+      "note": "The app files it under item received."
+    },
+    {
+      "code": "1",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under sorting; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "8",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under sorting; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "19",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under sorting; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "46",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under sorting; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "51",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under sorting; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "52",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under sorting; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "57",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under sorting; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "78",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under sorting; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "85",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The website's customs charge paid; the app files it under sorting."
+    },
+    {
+      "code": "5",
+      "wording": "Your item is being sent internationally. We will aim to show tracking updates as they become available, or visit the local delivery provider website for updates.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it. Live, An Post breaks the line after \"tracking\"."
+    },
+    {
+      "code": "40",
+      "wording": "Your item arrived abroad. We will aim to show tracking information from the receiving post, but would recommend tracking the item further on their site",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "43",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "44",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "45",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "47",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "50",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "63",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "68",
+      "wording": "Your item is in the sorting office of the local delivery provider",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it. A relayed scan of the destination country's delivery partner."
+    },
+    {
+      "code": "69",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "73",
+      "wording": "Your item is being prepared for delivery",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it. Live, it comes before the out-for-delivery scan."
+    },
+    {
+      "code": "79",
+      "stage": "in_transit",
+      "confirmedBy": "bundle",
+      "note": "The app files it under in transit, beside codes 4 and 70; out-for-delivery or collection wording narrows it."
+    },
+    {
+      "code": "53",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The app files it under return to sender; wording of a return still under way narrows it to an exception."
+    },
+    {
+      "code": "55",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The app files it under return to sender; wording of a return still under way narrows it to an exception."
+    },
+    {
+      "code": "56",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The app files it under return to sender; wording of a return still under way narrows it to an exception."
+    },
+    {
+      "code": "71",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The app files it under return to sender; wording of a return still under way narrows it to an exception."
+    },
+    {
+      "code": "75",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The app files it under return to sender; wording of a return still under way narrows it to an exception."
+    },
+    {
+      "code": "76",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The app files it under return to sender; wording of a return still under way narrows it to an exception."
+    },
+    {
+      "code": "77",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The app files it under return to sender; wording of a return still under way narrows it to an exception."
+    }
+  ]
+}

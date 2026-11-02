@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+        <head>
+            <meta charset="UTF-8">
+            <title>
+                parcel tracking -
+            </title>
+        </head>
+        <body>
+<form method="post" action="/online-services/parcel-tracking.aspx?trackNums=ND000000000000A0A0A0" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="SYNTHETIC-VIEWSTATE" />
+</div>
+<!-- Result Set Panel -->
+<h1 style="text-align: center; position: relative;">
+    <span id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_lblMainTitle">Parcel Tracking</span>
+</h1>
+<div id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_pnlInput">
+    <div id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_pnlPins">
+        <span id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_Label1">Enter up to 25 tracking numbers, one per line.</span>
+        <textarea name="ctl00$ctl00$ContentPlaceHolderDefault$TrackingMain_2$txtPin" rows="25" cols="20" id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_txtPin" aria-label="Pins" style="height:100px;width:95%;">ND000000000000A0A0A0</textarea>
+        <span id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_RequiredFieldPin" style="color:Red;visibility:hidden;">Required</span>
+    </div>
+    <div style="margin: 5px;">
+        <span id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_Label13">Data is available for a duration of 6 months</span>
+        <table style="width: 100%;">
+            <tr>
+                <td align="left" colspan="2">
+                    <p class="h3">
+                        <span id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_lblError" style="color:Red;"></span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+	<table class="table table-striped" cellspacing="0" border="0" id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_gvresult" style="border-width:0px;border-collapse:collapse;">
+		<tr align="left" valign="top" style="color:Black;font-size:Medium;font-weight:bold;">
+			<th scope="col">Tracking Number</th><th align="left" valign="top" scope="col">Last Updated</th><th align="left" valign="top" scope="col">Status</th><th align="left" valign="top" scope="col">Signature</th><th align="left" valign="top" scope="col">Est Delivery Date</th>
+		</tr><tr>
+			<td>
+                    <a id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_gvresult_ctl02_linkbtnPinNumber" disabled="disabled">ND000000000000A0A0A0</a>
+                </td><td>2026-10-19 01:17:00</td><td>Not Found</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div>
+    <div id="pnlPinDetail" class="container" style="padding-top: 10px;">
+        <div id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_UpdatePanelDetailOptions">
+</div>
+        <div id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_UpdatePanelDetail">
+                <div id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_pnlPinTrackingDetail" style="display: none;">
+                    <div id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_pnlSmartSport" style="display:none;">
+                        <div class="row" style="padding: 20px 0 20px 0;">
+                            <div class="col-4">
+                                <h3 style="color: darkblue;">
+                                    Locations
+                                </h3>
+                                <hr style="border-top: 3px solid blue;" />
+                                <div id="linkbranch">
+                                    <span id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_lblName"><h4> <Strong>Company</Strong> </h4></span>
+                                    <br />
+                                    <br />
+                                    <span id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_lblAddress"><h4> <Strong>Address</Strong> </h4></span>
+                                    <br />
+                                    <br />
+                                    <h4> <Strong>Hours of Operations:</Strong> </h4>
+                                    <br />
+                                    <input type="hidden" name="ctl00$ctl00$ContentPlaceHolderDefault$TrackingMain_2$HiddenGPSLat" id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_HiddenGPSLat" />
+                                    <input type="hidden" name="ctl00$ctl00$ContentPlaceHolderDefault$TrackingMain_2$HiddenGPSLng" id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_HiddenGPSLng" />
+                                    <input type="hidden" name="ctl00$ctl00$ContentPlaceHolderDefault$TrackingMain_2$HiddenAddress" id="ctl00_ctl00_ContentPlaceHolderDefault_TrackingMain_2_HiddenAddress" />
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div id="MapImage" style="height: 500px; width: 100%;"></div>
+                            </div>
+                        </div>
+		</div>
+                    <div aria-label="Tracking Detail result">
+                        <div>                            
+                        </div>
+                        <div>
+		</div>
+                        <div>                            
+                        </div>
+                    </div>
+	</div>
+</div>
+    </div>
+</div>
+</form>
+        </body>
+    </html>

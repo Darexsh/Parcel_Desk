@@ -1,0 +1,109 @@
+{
+  "parcels": [
+    {
+      "barcode": "RR900000040SK",
+      "category": "4",
+      "documents": [],
+      "query": "RR900000040SK",
+      "weight": 2.5,
+      "actions": [
+        "notifs"
+      ],
+      "state": {
+        "on": {
+          "city": "Vzorovo",
+          "dname": "BalíkoBOX Vzorovo Námestie",
+          "gps": [
+            48.9999,
+            18.9999
+          ],
+          "id": "999903",
+          "kind": "bbox",
+          "name": "BalíkoBOX Vzorovo Námestie",
+          "nsk": "balíkoboxvzorovonámestie",
+          "phones": [
+            "0900000000"
+          ],
+          "rname": "BalíkoBOX Vzorovo Námestie",
+          "street": "Vzorová 1",
+          "type": "d",
+          "zip": "99999"
+        },
+        "state": "retained",
+        "till": 20550
+      },
+      "events": [
+        {
+          "at": 1775121240000,
+          "desc": {
+            "en": "Deposited in ParcelBOX {office}",
+            "sk": "Uložená v BalíkoBOXe {office}"
+          },
+          "type": "ZNBB",
+          "on": {
+            "city": "Vzorovo",
+            "dname": "BalíkoBOX Vzorovo Námestie",
+            "gps": [
+              48.9999,
+              18.9999
+            ],
+            "id": "999903",
+            "kind": "bbox",
+            "name": "BalíkoBOX Vzorovo Námestie",
+            "nsk": "balíkoboxvzorovonámestie",
+            "phones": [
+              "0900000000"
+            ],
+            "rname": "BalíkoBOX Vzorovo Námestie",
+            "street": "Vzorová 1",
+            "type": "d",
+            "zip": "99999"
+          }
+        },
+        {
+          "at": 1775066400000,
+          "desc": {
+            "en": "Change of delivery day",
+            "sk": "Zmena dňa doručovania"
+          },
+          "type": "ZDD"
+        },
+        {
+          "at": 1775046780000,
+          "desc": {
+            "en": "In transit",
+            "sk": "V preprave"
+          },
+          "type": "VDOIO"
+        },
+        {
+          "at": 1774951320000,
+          "desc": {
+            "en": "Posted",
+            "sk": "Podaná"
+          },
+          "type": "PODOD",
+          "on": {
+            "city": "Vzorovo",
+            "dname": "Pošta Vzorovo 1",
+            "gps": [
+              48.9999,
+              18.9999
+            ],
+            "id": "999901",
+            "kind": "office",
+            "name": "Vzorovo 1",
+            "nsk": "vzorovo1",
+            "phones": [
+              "0900000000"
+            ],
+            "rname": "Vzorovo 1",
+            "street": "Vzorová 1",
+            "type": "p",
+            "zip": "99999"
+          }
+        }
+      ]
+    }
+  ]
+}

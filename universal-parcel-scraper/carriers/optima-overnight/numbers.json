@@ -1,0 +1,51 @@
+{
+  "carrier": "optima-overnight",
+  "records": [
+    {
+      "number": "P00210022663126",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260416212852/https://shipoptima.com/tracking/",
+        "date": "2026-04-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "optima-overnight",
+          "transmission"
+        ]
+      },
+      "note": "An archived capture of Optima's own tracking page carries this number from the lookup that led to it; Optima's tracker answers it."
+    },
+    {
+      "number": "P30283718557319",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251205000943/https://shipoptima.com/tracking/",
+        "date": "2025-12-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "optima-overnight",
+          "transmission"
+        ]
+      },
+      "note": "An archived capture of Optima's own tracking page carries this number from the lookup that led to it; Optima's tracker answers it."
+    }
+  ]
+}

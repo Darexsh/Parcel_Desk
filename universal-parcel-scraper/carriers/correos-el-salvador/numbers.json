@@ -1,0 +1,24 @@
+{
+  "carrier": "correos-el-salvador",
+  "records": [
+    {
+      "number": "RB968554210SG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20201101005530/https://www.correos.gob.sv/rastrear-paquete/RB968554210SG",
+        "date": "2020-11-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "singapore-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on the former Correos de El Salvador tracker for an inbound letter from Singapore; the capture shows only the app shell. Correos de El Salvador's tracker shows the letter received at the office of exchange and delivered in San Salvador."
+    }
+  ]
+}

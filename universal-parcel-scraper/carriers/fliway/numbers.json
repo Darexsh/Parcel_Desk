@@ -1,0 +1,49 @@
+{
+  "carrier": "fliway",
+  "records": [
+    {
+      "number": "BW1940879",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170612152816/http://online.fliway.com:80/Public/Track/BW1940879",
+        "date": "2017-06-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Archived lookup on Fliway's own consignment tracker; the opened capture shows only the empty result template, so the history was not visible."
+    },
+    {
+      "number": "ZXL97264",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20150330020509/http://online.fliway.com:80/Public/Track/ZXL97264",
+        "date": "2015-03-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "Archived lookup on Fliway's own consignment tracker; the opened capture shows only the empty result template, so the history was not visible."
+    }
+  ]
+}

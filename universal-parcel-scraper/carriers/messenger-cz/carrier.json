@@ -1,0 +1,102 @@
+{
+  "id": "messenger-cz",
+  "displayName": "Messenger",
+  "aliases": [
+    "Messenger a.s."
+  ],
+  "region": {
+    "countries": [
+      "CZ",
+      "SK"
+    ]
+  },
+  "brand": {
+    "color": "#fedf05"
+  },
+  "selectable": true,
+  "timezone": "Europe/Prague",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "messenger-cz",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "delivered_at",
+    "eta",
+    "eta_window",
+    "service_name",
+    "pickup_point"
+  ],
+  "portal": {
+    "url": "https://tracking.messenger.cz/{trackingNumber}",
+    "searchUrl": "https://tracking.messenger.cz/",
+    "canaryUrl": "https://tracking.messenger.cz/",
+    "shows": [
+      "status",
+      "history",
+      "progress_rail",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "service_name",
+      "pickup_point",
+      "pickup_point_address",
+      "office_opening_hours",
+      "pickup_deadline",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "postcodes",
+      "size_class",
+      "payment_details",
+      "coordinates",
+      "delivery_options"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "service_name",
+      "pickup_point",
+      "pickup_point_address"
+    ],
+    "discarded": [
+      "progress_rail",
+      "office_opening_hours",
+      "pickup_deadline",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "postcodes",
+      "size_class",
+      "payment_details",
+      "coordinates",
+      "delivery_options"
+    ],
+    "unavailable": [
+      "location",
+      "weight",
+      "provider_code",
+      "proof_of_delivery",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.messenger.cz"
+      ],
+      "path": "^/(?:consignment/)?((?=[A-Za-z]*[0-9])[0-9A-Za-z]{8,15})/?$"
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,274 @@
+{
+  "carrier": "st-courier",
+  "records": [
+    {
+      "number": "011171418743",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20130421070736/http://www.stcourier.com:80/cgi_bin/show_status1.php?awb_no=011171418743",
+        "date": "2013-04-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "An archived lookup on ST Courier's own tracker shows this AWB moving from Chennai to Ooty, taken for delivery and delivered."
+    },
+    {
+      "number": "030501065973",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20130210072342/http://www.stcourier.com:80/cgi_bin/show_status1.php?awb_no=030501065973",
+        "date": "2013-02-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "An archived lookup on ST Courier's own tracker shows this AWB moving from Bangalore through Chennai and delivered."
+    },
+    {
+      "number": "52490878996",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180217173434/http://www.stcourier.com:80/cgi_bin/show_status1.php?awb=52490878996",
+        "date": "2018-02-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "dhl-ecommerce-pl",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "Looked up on ST Courier's own tracker, as an archived address shows; the opened capture holds the page's script source instead of a result."
+    },
+    {
+      "number": "64172872315",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/package-not-delivered/251032",
+        "date": "2025-09-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "old-dominion",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl",
+          "speedy"
+        ]
+      },
+      "note": "A Voxya complaint against ST Courier gives it as the AWB consignment marked delivered but not received."
+    },
+    {
+      "number": "64196801981",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/packaged-delayed-/252602",
+        "date": "2025-10-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl",
+          "speedy"
+        ]
+      },
+      "note": "A Voxya complaint against ST Courier gives it as the AWB number of a delayed parcel."
+    },
+    {
+      "number": "64217381174",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/package-not-delivered-/253619",
+        "date": "2025-11-13",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl",
+          "speedy"
+        ]
+      },
+      "note": "A Voxya complaint against ST Courier gives it as the AWB number of a parcel not delivered within Chennai."
+    },
+    {
+      "number": "58098995905",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://consumercourt.net/threads/missing-parcel-not-claimed.164/",
+        "date": "2024-12-18",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "A consumer forum post gives it as the ST Courier tracking number of a parcel the website showed delivered but that never arrived."
+    },
+    {
+      "number": "64308306285",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.consumercomplaints.in/st-courier-delay-in-delivery-awb-no-64308306285-guindy-hub-hold-status-c3540757",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "dhl-ecommerce-pl",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl",
+          "speedy"
+        ]
+      },
+      "note": "A complaint against ST Courier names it as the AWB number of a parcel held at its Guindy hub in Chennai; the number is in the complaint's address."
+    }
+  ]
+}

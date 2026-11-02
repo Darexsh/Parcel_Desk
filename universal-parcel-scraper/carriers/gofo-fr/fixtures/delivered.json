@@ -1,0 +1,100 @@
+{
+  "code": 200,
+  "msg": "Success",
+  "data": [
+    {
+      "waybillNo": "GFFR00000000000001",
+      "trackingNumber": "PK-0000000000000000001-0",
+      "frCountry": "FR",
+      "toCountry": "FR",
+      "status": "Delivered",
+      "trackEventCount": 7,
+      "trackEventList": [
+        {
+          "processDate": "2026-01-04T12:00:00.000+0100",
+          "processContent": "Livré En boîte aux lettres, PIN: Non. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Livré En boîte aux lettres, PIN: Non",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE TOWN",
+          "processCode": "205",
+          "trackStatus": "6"
+        },
+        {
+          "processDate": "2026-01-03T12:00:00.000+0100",
+          "processContent": "Échec de la livraison, motif : Le destinataire n'est pas chez lui. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Échec de la livraison, motif : Le destinataire n'est pas chez lui",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE TOWN",
+          "processCode": "206",
+          "trackStatus": "7"
+        },
+        {
+          "processDate": "2026-01-03T08:00:00.000+0100",
+          "processContent": "Le chauffeur est en route pour la livraison. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Le chauffeur est en route pour la livraison",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE TOWN",
+          "processCode": "208",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-02T18:00:00.000+0100",
+          "processContent": "Votre colis est arrivé à l’agence régionale GOFO de destination. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Votre colis est arrivé à l’agence régionale GOFO de destination",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE HUB",
+          "processCode": "201",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-02T16:00:00.000+0100",
+          "processContent": "Colis en cours d'acheminement. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Colis en cours d'acheminement",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE HUB",
+          "processCode": "200",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-02T12:00:00.000+0100",
+          "processContent": "Votre colis a été pris en charge au centre de tri. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Votre colis a été pris en charge au centre de tri",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE HUB",
+          "processCode": "202",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-01T12:00:00.000+0100",
+          "processContent": "Votre colis est en cours de préparation par l'expéditeur. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Votre colis est en cours de préparation par l'expéditeur",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": null,
+          "processCode": "100",
+          "trackStatus": "2"
+        }
+      ],
+      "lastTrackEvent": {
+        "processDate": "2026-01-04T12:00:00.000+0100",
+        "processContent": "Livré En boîte aux lettres, PIN: Non. PRIVATE SUPPORT DETAIL",
+        "mainContent": "Livré En boîte aux lettres, PIN: Non",
+        "subContent": "PRIVATE SUPPORT DETAIL",
+        "processLocation": "EXAMPLE TOWN",
+        "processCode": "205",
+        "trackStatus": "6"
+      },
+      "serviceName": "GOFO Parcel",
+      "weight": 1,
+      "number": "PRIVATE REFERENCE",
+      "sign": "PRIVATE SIGNATURE",
+      "podImgList": [
+        "PRIVATE PROOF"
+      ],
+      "thirdNo": "PRIVATE REFERENCE",
+      "noticeContents": [
+        "PRIVATE NOTICE"
+      ],
+      "expectedDeliveryTime": "2026-01-06"
+    }
+  ]
+}

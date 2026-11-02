@@ -1,0 +1,17 @@
+{
+  "carrier": "loomis-express",
+  "entries": [
+    { "wording": "Shipment Record Received", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The shipment record, dated by its day alone." },
+    { "wording": "Couldn't Pick It Up-Trying Again Soon", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "A failed pickup: the parcel is still with its shipper." },
+    { "wording": "Picked Up and On the Move!", "language": "en", "stage": "accepted", "confirmedBy": "live" },
+    { "wording": "Package Has Arrived at Our Facility", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "wording": "Arrived at Terminal", "language": "en", "stage": "in_transit", "confirmedBy": "portal", "note": "An older wording of the arrival scan, in an archived results page." },
+    { "wording": "Sorting It Out-Stay Tuned!", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "wording": "Sort Through Facility", "language": "en", "stage": "in_transit", "confirmedBy": "portal", "note": "An older wording of the sort scan, in an archived results page." },
+    { "wording": "Departing sort facility", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "wording": "Out for Delivery-Almost There!", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live" },
+    { "wording": "Can't Find the Address-Checking Again!", "language": "en", "stage": "failed_attempt", "confirmedBy": "prior-art", "note": "Canpar's tracker words this TransForce scan code the same way." },
+    { "wording": "Your Package was Delivered with no Signa", "language": "en", "stage": "delivered", "confirmedBy": "live", "note": "Delivery wordings are cut short and can go on with where the parcel was left, as in \"Left at Receiving Dock\"; any wording starting \"Your Package was Delivered\" or \"Our Package was Delivered\" is a delivery." },
+    { "wording": "Estimated Delivery Date", "language": "en", "confirmedBy": "live", "note": "The estimated delivery day, listed as the newest row while the parcel is on its way. It is kept as the estimate, not as a scan." }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "carrier": "postex",
+  "records": [
+    {
+      "number": "25402140002878",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250730163149/https://postex.pk/tracking?cn=25402140002878",
+        "date": "2025-07-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Sent to PostEx's own tracker on postex.pk, as an archived address shows; the opened capture holds only the page shell, so no history is visible."
+    },
+    {
+      "number": "26402140002879",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250730141845/https://postex.pk/tracking?cn=26402140002879",
+        "date": "2025-07-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Sent to PostEx's own tracker on postex.pk, as an archived address shows; the capture was not opened and no history is visible."
+    },
+    {
+      "number": "21294400207049",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a5b5ef680f3d4832a3352af",
+        "date": "2026-07-18",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "nova-poshta"
+        ]
+      },
+      "note": "A customer's Trustpilot review of PostEx gives it as the tracking number of an order. PostEx's tracker knows it, with a history from the merchant's warehouse to the delivery."
+    },
+    {
+      "number": "24579690103460",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a59efdf72178582bfa6d516",
+        "date": "2026-07-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "A customer's Trustpilot review of PostEx gives it as the tracking ID of an order. PostEx's tracker knows it, with a history from the merchant's warehouse to the delivery."
+    },
+    {
+      "number": "10388820331824",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220529081555/https://callcourier.com.pk/tracking/?tc=10388820331824",
+        "date": "2022-05-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Call Courier",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "dpd",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "An opened archived lookup on Call Courier's own tracker shows this consignment booked and carried to its destination branch. PostEx's tracker, which now answers for Call Courier, knows the number without a history."
+    },
+    {
+      "number": "10740270012959",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221011155644/https://callcourier.com.pk/tracking/?tc=10740270012959",
+        "date": "2022-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Call Courier",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "dpd",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "An opened archived lookup on Call Courier's own tracker shows this consignment booked. PostEx's tracker, which now answers for Call Courier, knows the number without a history."
+    }
+  ]
+}

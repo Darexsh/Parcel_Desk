@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": "9000000002",
+      "state": "in-transit",
+      "lastPickUpTime": null,
+      "returnAllowed": true,
+      "compartmentSize": null,
+      "origin": {
+        "id": "2",
+        "title": null,
+        "name": "Any-APM",
+        "addressLine1": "Wildcard APM used as an origin location",
+        "addressLine2": null,
+        "postalCode": "",
+        "country": null,
+        "image": null,
+        "note": "",
+        "type": "any-apm",
+        "deliveryPartnerParcelId": null
+      },
+      "destination": {
+        "id": "201",
+        "title": "3 Sample Street, 66666",
+        "name": "BOX NOW Sample Bakery",
+        "addressLine1": "3 Sample Street",
+        "addressLine2": "Samplecity",
+        "postalCode": "66666",
+        "country": "BG",
+        "image": "https://example.invalid/locker.jpg",
+        "note": "Inside the sample bakery",
+        "lat": "42.00000",
+        "lng": "23.00000",
+        "type": "apm",
+        "deliveryPartnerParcelId": null
+      },
+      "events": [
+        { "type": "new", "createTime": "2026-03-09T06:00:00.000Z" },
+        { "type": "accepted-to-locker", "locationDisplayName": "BOX NOW Example Market", "postalCode": "77777", "createTime": "2026-03-09T10:15:00.000Z" },
+        { "type": "in-depot", "locationDisplayName": "SAMPLE HUB", "postalCode": "44444", "createTime": "2026-03-10T14:25:00.000Z" }
+      ],
+      "payment": { "amount": { "amount": "0.00", "currency": "EUR" }, "mode": "prepaid", "state": "not-required", "vivaPayment": true },
+      "etaDate": "2026-03-12T22:30:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "carrier": "asendia",
+  "records": [
+    {
+      "number": "AHOY1X39DP45",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ship24.com/couriers/asendia-tracking"
+      },
+      "expect": {
+        "carrier": "asendia",
+        "confidence": "high"
+      },
+      "note": "Published Pirate Ship export number carried by Asendia USA; A1 returned its delivered history on 2026-09-22."
+    },
+    {
+      "number": "AS010007869US",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ship24.com/couriers/asendia-tracking"
+      },
+      "expect": {
+        "carrier": "asendia",
+        "confidence": "high"
+      },
+      "note": "Published Asendia USA example with an invalid S10 check digit; A1 had no data for it on 2026-09-22."
+    },
+    {
+      "number": "AS010501721US",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ship24.com/couriers/asendia-tracking"
+      },
+      "expect": {
+        "carrier": "asendia",
+        "confidence": "high"
+      },
+      "note": "Published Asendia USA example; Asendia USA's A1 tracking returned its delivered history on 2026-09-22."
+    },
+    {
+      "number": "ASE12345678",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "asendia",
+        "confidence": "high"
+      },
+      "note": "Made-up number that follows the published format."
+    },
+    {
+      "number": "ASHK12123456789011",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://a1api.asendiausa.com/swagger/index.html?urls.primaryName=Parcel+v1.0"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Example Asendia unique identifier (ashid) in Asendia USA's Parcel API reference, not a real shipment."
+    },
+    {
+      "number": "EEUS027373790JP0",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ship24.com/couriers/asendia-tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Published eBay International Shipping number attributed to Asendia; A1 had no data for it on 2026-09-22. On 2026-09-30 ParcelsApp filed its Asendia scans under EasyShip on local clocks, matching Ship24's instants and Swiss Post's own scan when read in each place's zone."
+    },
+    {
+      "number": "EEUS027988469JP0",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ship24.com/couriers/asendia-tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Published eBay International Shipping number carried by Asendia USA; A1 returned its delivered history on 2026-09-22."
+    },
+    {
+      "number": "LF079877211FR",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://marketplace.fnacdarty.com/s/article/Dois-je-obligatoirement-renseigner-un-num%C3%A9ro-de-suivi-tracking-pour-ma-commande?language=fr_BE"
+      },
+      "expect": {
+        "carrier": "la-poste",
+        "confidence": "high"
+      },
+      "note": "Published integration example, not a real shipment. The source attributes it to Asendia; detection selects La Poste / Colissimo."
+    },
+    {
+      "number": "LS232735825CH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a680c8b8a48f47256b888b9",
+        "date": "2026-07-28"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "swiss-post",
+        "confidence": "high"
+      },
+      "note": "Publicly reported Asendia USA shipment returned from Germany through Switzerland; detection selects Swiss Post. On 2026-09-30 ParcelsApp listed its Asendia USA scans in both countries at the UTC instants A1 returned."
+    },
+    {
+      "number": "LS244428589CH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aa36fc3b355e35ecf1ef14e",
+        "date": "2026-09-11"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "swiss-post",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment sent from the USA through Asendia; detection selects Swiss Post. Asendia USA's A1 tracking returned its history on 2026-09-29."
+    },
+    {
+      "number": "UX000352872CH",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://a1api.asendiausa.com/swagger/index.html?urls.primaryName=Parcel+v1.0"
+      },
+      "expect": {
+        "carrier": "swiss-post",
+        "confidence": "high"
+      },
+      "note": "Example value of the trackingNumber field in Asendia USA's Parcel API reference, not a real shipment; detection selects Swiss Post for this S10 shape."
+    },
+    {
+      "number": "UX911572560FR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a064349008e8e5d4cf776a3",
+        "date": "2026-05-14"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "la-poste",
+        "confidence": "high"
+      },
+      "note": "Publicly reported Asendia USA shipment; detection selects La Poste / Colissimo. On 2026-09-30 ParcelsApp listed its Asendia USA scans at the UTC instants A1 returned."
+    },
+    {
+      "number": "LN242142606US",
+      "role": "quarantined",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://gist.github.com/zxp/e83a4a1b7294a5ed6207"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "usps",
+        "confidence": "high"
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to Asendia; detection names USPS, the issuing post."
+    },
+    {
+      "number": "ASDLP2465555",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6abcd8256a8ec4876d0eb51f",
+        "date": "2026-09-30",
+        "access": "full_page",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "Asendia USA's tracking returned this parcel's history, handed to USPS for Kyrgyzstan. One reported reference of this layout."
+    },
+    {
+      "number": "00393580940154104992",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a4320194901e423a66fe928",
+        "date": "2026-06-30",
+        "access": "full_page",
+        "dateKind": "publication"
+      },
+      "context": {
+        "reportedRole": "last-mile label number",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dai-post",
+          "swiss-post-cargo",
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "Asendia USA's tracking returned this parcel's history, flown from London and ready for pickup in Australia through DAI Post. A last-mile partner's label number, not an Asendia format."
+    },
+    {
+      "number": "EEUS026904543AE0",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/asendia.com",
+        "date": "2026-05-10",
+        "access": "full_page",
+        "dateKind": "publication"
+      },
+      "context": {
+        "service": "eBay International Shipping",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An eBay International Shipping number for the United Arab Emirates, reported on Asendia's review page. Asendia USA's tracking had no data for it."
+    },
+    {
+      "number": "ESUS257007812",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://community.ebay.com/t5/Shipping/Delivery/m-p/35062626",
+        "access": "full_page",
+        "date": "2025-05-01",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "eBay International Standard Delivery",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "asendia"
+        ]
+      },
+      "note": "A seller quotes this eBay International Standard Delivery number in eBay's community, and a reply finds it in Asendia's service. Asendia's tracker no longer finds it."
+    },
+    {
+      "number": "ESUS188691531",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://community.ebay.com/t5/Report-eBay-Technical-Issues/SHIPPING-SPORTS-CARDS-USING-STANDARD-ENVELOPE-TRACKING-ISSUES/m-p/34407457",
+        "access": "full_page",
+        "date": "2024-04-14",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "asendia"
+        ]
+      },
+      "note": "A seller quotes this number from eBay's shipping program in eBay's community; the thread does not name the carrier. Asendia's tracker no longer finds it."
+    }
+  ]
+}

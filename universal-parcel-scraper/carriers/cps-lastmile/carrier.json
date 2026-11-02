@@ -1,0 +1,39 @@
+{
+  "id": "cps-lastmile",
+  "displayName": "CPS Last Mile",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "GT"
+    ]
+  },
+  "brand": {
+    "color": "#f88f1c"
+  },
+  "selectable": true,
+  "timezone": "America/Guatemala",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.cpslastmile.com/wr/{trackingNumber}",
+    "searchUrl": "https://tracking.cpslastmile.com/",
+    "canaryUrl": "https://cpslastmile.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.cpslastmile.com"
+      ],
+      "path": "^/wr/([A-Za-z0-9]+)/?$"
+    }
+  ],
+  "detection": []
+}

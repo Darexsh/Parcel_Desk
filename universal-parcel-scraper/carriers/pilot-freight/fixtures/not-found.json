@@ -1,0 +1,70 @@
+{
+  "TrackingResponse": [
+    {
+      "TrackingInfo": {
+        "TrackingNumber": "",
+        "ShipDate": "0001-01-01T00:00:00",
+        "AppointmentStartDate": "0001-01-01T00:00:00",
+        "AppointmentEndDate": "0001-01-01T00:00:00",
+        "EstimateDelvDate": "0001-01-01T00:00:00",
+        "Service": "",
+        "Product": "",
+        "LineItemList": null,
+        "CommentList": [],
+        "ReferenceItemList": null,
+        "PackageShipper": null,
+        "PackageConsignee": null,
+        "PackageThirdParty": null,
+        "TrackingEventHistory": null
+      },
+      "TrackingErrorInfo": {
+        "TrackingNumber": "",
+        "TrackingErrorDetail": {
+          "ErrorDetailCode": "ERROR_102",
+          "ErrorDetailCodeDesc": "NO TRACKING INFO FOUND"
+        }
+      },
+      "TotalCharge": "",
+      "PayType": "",
+      "ProductServiceInfo": {
+        "ProductShortDescription": "",
+        "ProductLongDescription": "",
+        "ServiceType": "",
+        "ServiceDescription": ""
+      },
+      "PODInfo": {
+        "PODName": "",
+        "PODDateTime": "0001-01-01T00:00:00"
+      },
+      "StationInfo": {
+        "ContactStationCode": "",
+        "ContactStationName": "",
+        "ContactStationPhone": "",
+        "ContactStationEmail": "",
+        "ChatEnabled": false
+      },
+      "ContactInfo": {
+        "Origin": {
+          "Code": "",
+          "Email": "",
+          "Phone": "",
+          "IsMaersk": true
+        },
+        "Destination": {
+          "Code": "",
+          "Email": "",
+          "Phone": "",
+          "IsMaersk": true
+        }
+      },
+      "TrackingLinks": {
+        "IsShipmentHD": false,
+        "IsSchedulingLink": false,
+        "SchedulingLink": "",
+        "IsImagingLink": false,
+        "ImagingLink": ""
+      },
+      "BillTo": 0
+    }
+  ]
+}

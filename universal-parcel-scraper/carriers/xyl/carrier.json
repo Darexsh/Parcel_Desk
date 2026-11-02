@@ -1,0 +1,49 @@
+{
+  "id": "xyl",
+  "displayName": "XYL",
+  "aliases": [
+    "XYL 816Kapro",
+    "816Kapro",
+    "兴远国际",
+    "兴远国际物流",
+    "广州市兴远国际物流有限公司",
+    "Xingyuan International Logistics"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#d0b692"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://816kf.kingtrans.cn/WebTrack?action=list&language=en&istrack=false&bills={trackingNumber}",
+    "searchUrl": "https://www.816kf.com/",
+    "canaryUrl": "https://www.816kf.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "816kf.kingtrans.cn"
+      ],
+      "pathPattern": "^/WebTrack$",
+      "params": [
+        "bills"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,14 @@
+{
+  "carrier": "postmedia-parcel-services",
+  "entries": [
+    {"wording": "Shipment has left seller facility and is in transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "First event, from the seller's or marketplace's facility, before Postmedia's hub scan."},
+    {"wording": "L'envoi a quitté l'établissement du vendeur et est en transit", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "French wording of the first event."},
+    {"wording": "Arrival Scan/Received Hub", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "First scan at a Postmedia hub."},
+    {"wording": "Scan d'arrivée/centre de réception", "stage": "accepted", "language": "fr", "confirmedBy": "portal"},
+    {"wording": "Out for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal"},
+    {"wording": "En cours de livraison", "stage": "out_for_delivery", "language": "fr", "confirmedBy": "portal"},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Livré", "stage": "delivered", "language": "fr", "confirmedBy": "portal"},
+    {"wording": "Available for pickup", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "official-doc", "note": "From the tracker's own script, which shows the pickup location for this status; not seen in a captured history."}
+  ]
+}

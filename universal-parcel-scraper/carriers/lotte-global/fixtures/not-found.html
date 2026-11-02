@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>롯데글로벌로지스</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript">var menu = { "reservation": ["택배조회", "택배예약"] };</script>
+</head>
+<body>
+<div id="wrap">
+    <div id="header"><ul class="gnb"><li><a href="/home/reservation/tracking/index">택배조회</a></li></ul></div>
+    <div id="container">
+        <!-- contents -->
+        <div id="contents">
+            <div class="inner">
+                <div class="contTitArea">
+                    <h3 class="titDep3">택배조회</h3>
+                    <p>온라인으로 택배화물의 현위치를 조회 할 수 있습니다.</p>
+                </div>
+
+                <!-- contArea -->
+                <div class="contArea">
+                    <table class="tblH mt60">
+                        <caption>조회 테이블은 운송장 번호, 보내는 분, 받는 분, 상품명, 배달결과로 구성되어 있습니다.</caption>
+                        <colgroup>
+                            <col style="width:25%" span="4">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">운송장 번호</th>
+                                <th scope="col">발송지</th>
+                                <th scope="col">도착지</th>
+                                <th scope="col">배달결과</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+	                                <td>200000000060</td>
+	                                <td>***</td>
+	                                <td>***</td>
+	                                <td> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <ul class="contStep goodsStep">
+                        <li class="item01"><span>상품접수</span></li> <!-- 현재 택배 위치일때 on 추가 -->
+                        <!-- <li class="item02"><span>터미널 입고</span></li> -->
+                        <li class="item03"><span>상품 이동중</span></li>
+                        <!-- <li class="item04"><span>배달지 도착</span></li> -->
+                        <li class="item05"><span>배송 출발</span></li>
+                        <li class="item06"><span>배달 완료</span></li>
+                    </ul>
+
+                    <div class="tblTopArea tr">
+                        <a href="https://www.logii.com/interface/delvproms/delv_click.asp?comp_code=hd&inv_no=200000000060&login_yn=N&login_id=&login_name=&page_type=P" class="btnLG btnS btnPopup"><span>택배 캐쉬백포인트 적립</span></a>
+                    </div>
+
+                    <table class="tblH">
+                        <caption>조회 테이블은 단계, 시간, 현재위치, 처리현황으로 구성되어 있습니다.</caption>
+                        <colgroup>
+                            <col style="width:20%" span="3">
+                            <col style="width:auto">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">단계</th>
+                                <th scope="col">시간</th>
+                                <th scope="col">현재위치</th>
+                                <th scope="col">처리현황</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        	<!-- 택배 상태 아이콘 변경을 위해 사용 -->
+                        	<tr>
+                        		<td colspan="4">보내시는 고객님께서 상품 발송 준비중입니다.</td>
+                        	</tr>
+                        	<!-- 택배 상태 아이콘 변경을 위해 사용 -->
+                        </tbody>
+                    </table>
+                    <input type="hidden" id="goodsStep" value="">
+                </div>
+                <!-- //contArea -->
+            </div>
+        </div>
+        <!-- //contents -->
+    </div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var goodsStep = $("#goodsStep").val();
+		if (goodsStep != "") { $("."+goodsStep).addClass("on"); }
+	});
+</script>
+</body>
+</html>

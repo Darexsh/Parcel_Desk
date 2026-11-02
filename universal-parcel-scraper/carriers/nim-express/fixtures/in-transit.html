@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <title>Nim Express ขนส่งสินค้าทั่วไปและสินค้าควบคุมอุณหภูมิ -</title>
+</head>
+<body>
+<header class="nx-header">
+  <div class="nx-container nx-header__inner">
+    <a class="nx-logo" href="/web/p/home">
+      <img src="/web/p/resources/assets/img/nim-logo-2026.png" alt="นิ่มเอ็กซ์เพรส">
+    </a>
+
+    <form class="nx-track" id="h-form_Tracking" action="/web/p/tracking" method="get">
+      <input class="nx-track__input" type="search" name="h_i" id="h_i" placeholder='ค้นหาเลขบิลสินค้า/Tracking no.พร้อมกันได้มากสุด 20 รายการ โดยใช้เครื่องหมาย comma "," หรือเว้นวรรค " "'>
+      <button class="nx-track__submit" type="submit">ติดตามพัสดุ</button>
+      <div id="h-form-error"></div>
+    </form>
+  </div>
+</header>
+
+<section class="nx-page-hero">
+  <div class="nx-container">
+    <h1 class="nx-page-hero__title">ติดตามพัสดุ</h1>
+  </div>
+</section>
+
+<section class="nx-tracking-search">
+  <div class="nx-container nx-tracking-search__inner">
+    <form action="tracking" modelAttribute="tracking_form" id="form_Tracking" method="POST">
+      <input type="hidden" id="real_ip" name="real_ip" value="192.0.2.1" />
+      <div class="nx-tracking-search__row">
+        <input id="i" style="width: 100%; font-size: 20px;" type="text" name="billNo" value="0000000000002" size="40">
+        <button class="nx-tracking-search__submit Track-confirm" type="button" onclick="javascript:$('#form_Tracking').submit();">ตรวจสอบ</button>
+      </div>
+      <div id="form-error" class="nx-tracking-search__error"></div>
+      <p class="nx-tracking-search__hint">ค้นหาเลขบิลสินค้า/Tracking no.พร้อมกันได้มากสุด 20 รายการ โดยใช้เครื่องหมาย comma "," หรือเว้นวรรค " "</p>
+    </form>
+
+      </div>
+</section>
+
+<section class="nx-tracking-results">
+  <div class="nx-container">
+    <div id="noData"><p style="text-align: center; font-size:30px; text-decoration: none; display: none;"></p></div>
+    <div id="showData">
+      <div id='billTopic' class="row"></div>
+      <div id='billDC' class="row"></div>
+      <div id='billRC' class="row"></div>
+
+      <div id="showTrack" class="nx-tracking-list">
+                        <div class="nx-tracking-card">
+          <div class="nx-tracking-card__head">
+            <h2 class="nx-tracking-card__title">
+              1. Tracking no. 0000000000002
+                          </h2>
+          </div>
+
+          
+          
+          <ul class="nx-tracking-timeline">
+                        <li class="nx-tracking-timeline__item is-latest">
+              <span class="nx-tracking-timeline__dot"></span>
+              <div class="nx-tracking-timeline__body">
+                <div class="nx-tracking-timeline__date">11/10/2569 03:30:00</div>
+                <div class="nx-tracking-timeline__desc">
+                  พัสดุถึงศูนย์คัดแยก
+                  <br><span class="nx-tracking-timeline__ref">102 ศูนย์คัดแยก ทดสอบ</span>                </div>
+              </div>
+            </li>
+                                    <li class="nx-tracking-timeline__item">
+              <span class="nx-tracking-timeline__dot"></span>
+              <div class="nx-tracking-timeline__body">
+                <div class="nx-tracking-timeline__date">10/10/2569 19:00:00</div>
+                <div class="nx-tracking-timeline__desc">
+                  พัสดุออกจากต้นทาง
+                  <br><span class="nx-tracking-timeline__ref">104 DC ทดสอบ</span>                </div>
+              </div>
+            </li>
+                                    <li class="nx-tracking-timeline__item">
+              <span class="nx-tracking-timeline__dot"></span>
+              <div class="nx-tracking-timeline__body">
+                <div class="nx-tracking-timeline__date">10/10/2569 16:20:00</div>
+                <div class="nx-tracking-timeline__desc">
+                  รับพัสดุเข้า
+                  <br><span class="nx-tracking-timeline__ref">104 DC ทดสอบ</span>                </div>
+              </div>
+            </li>
+                                    <li class="nx-tracking-timeline__item">
+              <span class="nx-tracking-timeline__dot"></span>
+              <div class="nx-tracking-timeline__body">
+                <div class="nx-tracking-timeline__date">10/10/2569 10:25:00</div>
+                <div class="nx-tracking-timeline__desc">
+                  สร้างบิลเข้าระบบ Tracking no. 0000000000002
+                  <br><span class="nx-tracking-timeline__ref">Drop point สาขา ตัวอย่าง</span>                </div>
+              </div>
+            </li>
+                      </ul>
+
+                  </div>
+
+        
+        
+                      </div>
+
+      <table id="billInformations" class="table" width="880" border="0" cellspacing="0" cellpadding="3" align="center" style="margin-top: 30px; display: none;">
+        <thead>
+          <tr>
+            <th class="text-center">ลำดับ</th>
+            <th class="text-center">วันที่/เวลา</th>
+            <th class="text-center">ประเภทผู้แจ้งข้อมูล</th>
+            <th class="text-center">ประเภทข้อมูล</th>
+            <th class="text-center">ข้อความ</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<script>
+	function chk_phoneMap(i,mode){
+		var phone = document.getElementById('phone_check'+i).value;
+		var bill_no = document.getElementById('bill_check'+i).value;
+		$.ajax(	{ url : "https://app1.nimexpress.com/nss/getDataGSONService.htm?arg_arguments="+bill_no+",rec_mobile_map,"+phone+"&arg_object=billSME2Manager&arg_class=com.google.gson.JsonObject&arg_method=checkDataBill",
+			type: "POST"
+		});
+	}
+</script>
+
+  </body>
+</html>

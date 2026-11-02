@@ -1,0 +1,48 @@
+{
+  "carrier": "air-star-xpress",
+  "records": [
+    {
+      "number": "30029698",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/package-not-delivered-/181194",
+        "date": "2023-01-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A Voxya complaint against Air Star Express Courier Service gives it as the courier number of a shipment dispatched from Kota to Mumbai that had not arrived."
+    },
+    {
+      "number": "205093117",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/package-not-delivered/206676",
+        "date": "2023-08-06",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A Voxya complaint against Air Star Express Courier Service gives it as the tracking id of a book a Jaipur book shop sent by this courier."
+    }
+  ]
+}

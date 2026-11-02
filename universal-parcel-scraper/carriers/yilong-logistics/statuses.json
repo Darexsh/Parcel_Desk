@@ -1,0 +1,10 @@
+{
+  "carrier": "yilong-logistics",
+  "entries": [
+    {"code": "ARRIVAL", "wording": "Package received and scanned at warehouse", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "The first scan in Yilong Logistics' hands."},
+    {"code": "SHIPMENT", "wording": "Package departed from the warehouse", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Customs export clearance completed", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Released by export customs; the parcel carries on."},
+    {"wording": "Package handed over to airline", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "货物电子信息已经收到", "language": "zh", "stage": "registered", "confirmedBy": "prior-art", "note": "The platform writes this row itself for an order without scans, on its creation time."}
+  ]
+}

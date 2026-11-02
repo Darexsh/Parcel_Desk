@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "trackingCode": "011126AB7C9D2E4F6G",
+    "clientName": "SYNTHETIC SENDER",
+    "fiscalNoteNumber": "SYNTHETIC INVOICE",
+    "orderNumber": "SYNTHETIC ORDER",
+    "name": "SYNTHETIC RECIPIENT",
+    "street": "Example Street",
+    "number": "88",
+    "neighborhood": "Example District",
+    "city": "Example City",
+    "state": "ZZ",
+    "zip": 8000000,
+    "complement": "SYNTHETIC ADDRESS DETAIL",
+    "deliveryForecast": "2026-11-04T00:00:00",
+    "volumes": [
+      {
+        "receivedBy": "SYNTHETIC SIGNATORY",
+        "events": [
+          { "date": "2026-11-01T12:08:01.123Z", "description": "Pedido Criado | Aguardando Postagem Remetente" },
+          { "date": "2026-11-01T18:39:00.12Z", "description": "Encomenda Conferida" },
+          { "date": "2026-11-01T22:46:00Z", "description": "Em Rota | Preparando para entrega" },
+          { "date": "2026-11-02T17:48:00.001Z", "description": "Processo de Entrega Iniciado" },
+          { "date": "2026-11-03T13:29:00.1Z", "description": "Em Rota | Preparando para entrega" },
+          { "date": "2026-11-03T13:33:00Z", "description": "Destinatario Ausente | Local Fechado" },
+          { "date": "2026-11-03T17:49:00.003Z", "description": "Processo de Entrega Iniciado" },
+          { "date": "2026-11-03T21:01:02.321Z", "description": "Encomenda Entregue" }
+        ]
+      }
+    ]
+  }
+}

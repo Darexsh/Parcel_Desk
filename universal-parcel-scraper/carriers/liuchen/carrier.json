@@ -1,0 +1,49 @@
+{
+  "id": "liuchen",
+  "displayName": "Liuchen",
+  "aliases": [
+    "六尘",
+    "六尘物流",
+    "六尘国际物流",
+    "Liuchen Logistics",
+    "Liuchen International Logistics"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#b81c25"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.liuchenwl.com/index/tracknumber/track?nos={trackingNumber}",
+    "searchUrl": "https://www.liuchenwl.com/",
+    "canaryUrl": "https://www.liuchenwl.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.liuchenwl.com",
+        "liuchenwl.com"
+      ],
+      "pathPattern": "^/index/tracknumber/track/?$",
+      "params": [
+        "nos"
+      ]
+    }
+  ],
+  "detection": []
+}

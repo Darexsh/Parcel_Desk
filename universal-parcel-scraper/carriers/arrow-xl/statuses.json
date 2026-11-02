@@ -1,0 +1,28 @@
+{
+  "carrier": "arrow-xl",
+  "entries": [
+    {"wording": "Order Data Created", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The retailer's order reached ArrowXL; the item is still with the retailer."},
+    {"wording": "Order Data Received", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Comes with the order or collection data, at the same minute."},
+    {"wording": "Collection Data Created", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "A collection from the customer was set up for the retailer."},
+    {"wording": "Out For Collection", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The crew is on its way to collect; the item is still with the customer."},
+    {"wording": "Collection Success", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "The crew took the item from the customer. The page then says \"Your collection was successful.\""},
+    {"wording": "Despatched To Client Return Site", "stage": "returned", "language": "en", "confirmedBy": "live", "note": "Sent on to the retailer's returns site; seen after a collection."},
+    {"wording": "Stock Received Into Network", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "The first scan in ArrowXL's network, before the delivering depot's."},
+    {"wording": "Stock Received In Delivery Site", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At the delivering depot, which current pages call \"Local Hub\". It repeats after a failed attempt."},
+    {"wording": "Loaded Onto Delivery Van", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Loaded on the delivery day; a failed attempt can follow it without an \"Out For Delivery\" scan."},
+    {"wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"wording": "Unable To Deliver - No-One Home - Carded", "stage": "failed_attempt", "language": "en", "confirmedBy": "live"},
+    {"wording": "Unable To Deliver - Unable To Reach Property", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Unable To Deliver - Unable To Locate Property", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Delivery Success Electronic Signature Captured", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The page then says \"Your delivery was successful.\""},
+    {"wording": "Delivery Success", "stage": "delivered", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Order Held - Contact Supplier", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Held until the retailer sorts it out."},
+    {"wording": "Customer Booked …", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "The delivery or collection day the customer booked, as \"Customer Booked 12-MAR-2026\". It can come before the item reaches ArrowXL, and moves nothing; the adapter reads its day as the expected delivery."},
+    {"wording": "Route Planned For …", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "The crew's route for the day it names, as \"Route Planned For 12-MAR-2026\", planned the evening before; it moves nothing."},
+    {"wording": "Customer Postponed …", "language": "en", "confirmedBy": "portal", "unmapped": true, "note": "The later day the customer moved the delivery to, as \"Customer Postponed 20-MAR-2026\"; it moves nothing."},
+    {"wording": "Available To Make Booking", "language": "en", "confirmedBy": "portal", "unmapped": true, "note": "The item is at the depot and the customer can book a day; it moves nothing."},
+    {"wording": "Customer Contact - Details Updated", "language": "en", "confirmedBy": "portal", "unmapped": true, "note": "Customer service updated the customer's contact details."},
+    {"wording": "Customer Contact - Address Updated", "language": "en", "confirmedBy": "portal", "unmapped": true, "note": "Customer service updated the delivery address."},
+    {"wording": "Arrowxl Will Contact Customer", "language": "en", "confirmedBy": "portal", "unmapped": true, "note": "ArrowXL is to call the customer, as after a delivery that could not be planned."}
+  ]
+}

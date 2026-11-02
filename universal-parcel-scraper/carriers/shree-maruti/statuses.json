@@ -1,0 +1,29 @@
+{
+  "carrier": "shree-maruti",
+  "entries": [
+    {"code": "order_placed", "wording": "Order Placed", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code order_placed."},
+    {"code": "ready_for_dispatch", "wording": "Ready For Dispatch", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Seen live as READY_FOR_DISPATCH, the booking handed to dispatch; the row's location is the sender's address."},
+    {"code": "order_confirmed", "wording": "Shipment Confirmed", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The booking recorded. The tracker labels it Shipment Confirmed for courier bookings and Order Confirmed otherwise."},
+    {"code": "pickup_scheduled", "wording": "Pickup Scheduled", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code pickup_scheduled."},
+    {"code": "not_picked_up", "wording": "Pickup Failed", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code not_picked_up. The courier did not collect the parcel."},
+    {"code": "pickup_completed", "wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code pickup_completed."},
+    {"code": "in_transit", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code in_transit. The script shows the same label for hub scans, bagging and dispatch codes."},
+    {"code": "inscan_at_hub", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Received at a hub; the row names the hub."},
+    {"code": "outscan_to_cp", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Sent from a hub to a delivery branch."},
+    {"code": "outscan_at_hub", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Departed from a hub."},
+    {"code": "inscanned_at_cp", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Received at the delivery branch; the row's location is sometimes the placeholder default."},
+    {"code": "ready_for_delivery", "wording": "Ready For Delivery", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code ready_for_delivery. At the delivery branch."},
+    {"code": "out_for_delivery", "wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Seen live from the delivery branch's run sheet."},
+    {"code": "undelivered", "wording": "Delivery Attempted", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code undelivered."},
+    {"code": "carry_forward_to_next_day", "wording": "Delivery Rescheduled", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code carry_forward_to_next_day. Not delivered today and carried forward to the next day."},
+    {"code": "delivered", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Seen live, from the courier's app and again in copies imported later."},
+    {"code": "on_hold", "wording": "On Hold", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code on_hold."},
+    {"code": "damaged", "wording": "Shipment Damaged", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code damaged."},
+    {"code": "lost", "wording": "Shipment Lost", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code lost."},
+    {"code": "rto_initiated", "wording": "Return Initiated", "stage": "returned", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code rto_initiated."},
+    {"code": "rto_in_transit", "wording": "Return In Transit", "stage": "returned", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code rto_in_transit."},
+    {"code": "rto_delivered", "wording": "Returned To Sender", "stage": "returned", "language": "en", "confirmedBy": "portal", "note": "Label Shree Maruti's tracker script (tracking.shreemaruti.com) shows for the event code rto_delivered."},
+    {"wording": "SEND FOR DELIVERY", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Status column of Shree Maruti's former tracker (shreemaruticourier.com) in an archived lookup."},
+    {"wording": "Client not available", "stage": "failed_attempt", "language": "en", "confirmedBy": "source", "note": "Quoted in a customer review on TrackingMore's Shree Maruti page as the reason the courier records for undelivered parcels."}
+  ]
+}

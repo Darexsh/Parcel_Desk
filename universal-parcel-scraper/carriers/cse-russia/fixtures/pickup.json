@@ -1,0 +1,169 @@
+{
+  "found": [
+    {
+      "Error": false,
+      "Type": "waybill",
+      "Number": "100-0000000-00049",
+      "Info": "Уточнение данных по накладной (доставке) клиентом: Предоставлены дополнительные данные о получателе",
+      "AgentURL": "",
+      "CreateDate": "12.09.2026",
+      "State": "Информация по отправлению",
+      "PlannedDeliveryPeriodMin": 2,
+      "PlannedDeliveryPeriodMax": 3,
+      "PlannedDeliveryDate": "22.09.2026",
+      "FromGeo": "Примерово г",
+      "ToGeo": "Тестовск г",
+      "TypeOfCargo": "Груз",
+      "Weight": 0.32,
+      "TakeDate": "13.09.2026",
+      "Guid": "00000000-0000-4000-8000-000000000049",
+      "InfoEn": "",
+      "StateEn": "Information about the shipment",
+      "FromGeoEn": "PRIMEROVO",
+      "ToGeoEn": "",
+      "TypeOfCargoEn": "Parcel",
+      "ToGeoPoint": {
+        "Long": "0",
+        "Lat": "0"
+      },
+      "FromGeoPoint": {
+        "Long": "0",
+        "Lat": "0"
+      },
+      "ToPVZ": "00000000-0000-0000-0000-000000000000",
+      "ViewStatus": [
+        {
+          "Key": "1",
+          "Name": "Зарегистрирована накладная",
+          "Guid": "00000000-0000-4000-8000-000000000001"
+        },
+        {
+          "Key": "2",
+          "Name": "",
+          "Guid": "00000000-0000-4000-8000-000000000002"
+        },
+        {
+          "Key": "3",
+          "Name": "",
+          "Guid": "00000000-0000-4000-8000-000000000003"
+        }
+      ],
+      "Distribution": false,
+      "Sender": null,
+      "Recipient": null,
+      "History": {
+        "order_info": [
+          {
+            "EventDate": "13.09.2026 18:46",
+            "EventName": "Отправление получено курьером",
+            "EventInfo": "Груз принят (Курьер: Курьеров Иван Петрович)",
+            "EventNameEn": "Shipment received by the courier",
+            "EventInfoEn": ""
+          },
+          {
+            "EventDate": "12.09.2026 12:16",
+            "EventName": "Принят. Идет обработка",
+            "EventInfo": "",
+            "EventNameEn": "Accepted. Processing...",
+            "EventInfoEn": ""
+          }
+        ],
+        "waybill_info": [
+          {
+            "EventDate": "21.09.2026 15:54",
+            "EventName": "Информация по отправлению",
+            "EventInfo": "Уточнение данных по накладной (доставке) клиентом: Предоставлены дополнительные данные о получателе",
+            "EventNameEn": "Information about the shipment",
+            "EventInfoEn": "",
+            "EventGeography": ""
+          },
+          {
+            "EventDate": "20.09.2026 11:12",
+            "EventName": "Ожидает в пункте выдачи",
+            "EventInfo": "Груз доставлен в ПВЗ: ПВЗ. Тестовск/ПВЗ (2) Пунктова Анна 2_Тестовск",
+            "EventNameEn": "Awaiting at the pickup point",
+            "EventInfoEn": "",
+            "EventGeography": "Середино г",
+            "EventPvzInfo": {
+              "Address": "000000, Тестовская обл, г Тестовск, ул Садовая, дом 5",
+              "Schedule": [
+                {
+                  "days": "пн-вс",
+                  "time": "10:00-21:00"
+                }
+              ],
+              "Phones": [
+                "+7 000 000 00 00"
+              ]
+            }
+          },
+          {
+            "EventDate": "18.09.2026 18:28",
+            "EventName": "Груз выбыл из ПВЗ",
+            "EventInfo": "Груз отправлен с ПВЗ на ПВЗ: ПВЗ. Окрестово/ПВЗ (1) Пунктов Олег 1_Окрестово",
+            "EventNameEn": "The cargo has left the pickup point",
+            "EventInfoEn": "",
+            "EventGeography": "Середино г",
+            "EventPvzInfo": {
+              "Address": "000000, Тестовская обл, г Окрестово, ул Лесная, дом 1",
+              "Schedule": [
+                {
+                  "days": "пн-вс",
+                  "time": "10:00-21:00"
+                }
+              ],
+              "Phones": [
+                "+7 000 000 00 00"
+              ]
+            }
+          },
+          {
+            "EventDate": "17.09.2026 06:59",
+            "EventName": "Информация по отправлению",
+            "EventInfo": "Переадресация через виджет: Переадресация через виджет",
+            "EventNameEn": "Information about the shipment",
+            "EventInfoEn": "",
+            "EventGeography": ""
+          },
+          {
+            "EventDate": "15.09.2026 18:41",
+            "EventName": "Ожидает в пункте выдачи",
+            "EventInfo": "Груз доставлен в ПВЗ: ПВЗ. Окрестово/ПВЗ (1) Пунктов Олег 1_Окрестово",
+            "EventNameEn": "Awaiting at the pickup point",
+            "EventInfoEn": "",
+            "EventGeography": "Середино г",
+            "EventPvzInfo": {
+              "Address": "000000, Тестовская обл, г Окрестово, ул Лесная, дом 1",
+              "Schedule": [
+                {
+                  "days": "пн-вс",
+                  "time": "10:00-21:00"
+                }
+              ],
+              "Phones": [
+                "+7 000 000 00 00"
+              ]
+            }
+          },
+          {
+            "EventDate": "13.09.2026 20:14",
+            "EventName": "Отправление в пути",
+            "EventInfo": "",
+            "EventNameEn": "Shipment is on the way",
+            "EventInfoEn": "",
+            "EventGeography": "Примерово г"
+          },
+          {
+            "EventDate": "12.09.2026 12:16",
+            "EventName": "Отправление создано",
+            "EventInfo": "По документу: Заказ 100-000000074 от 12.09.2026 12:16:00, зарегистрирована накладная",
+            "EventNameEn": "Shipment created",
+            "EventInfoEn": "",
+            "EventGeography": "Примерово г"
+          }
+        ]
+      }
+    }
+  ],
+  "notfound": []
+}

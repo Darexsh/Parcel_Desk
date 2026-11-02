@@ -1,0 +1,20 @@
+{
+  "carrier": "citylink-express",
+  "entries": [
+    {"code": "SR", "wording": "Shipment information sent to City-Link", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The shipper's record, without a location, before City-Link has the parcel."},
+    {"code": "PK", "wording": "Arrived City-Link facility", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Both the first scan at the origin facility and arrivals at later hubs."},
+    {"code": "OB", "wording": "Departed City-Link origin facility", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "CR", "wording": "At City-Link local facility", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Seen at the hub at Kuala Lumpur's airport."},
+    {"code": "HD", "wording": "Departure scan", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "HD", "wording": "Departed sorting facility", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "RV", "wording": "At City-Link local facility", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At the facility that delivers."},
+    {"code": "OD", "wording": "With City-Link delivery courier", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "The tracker names the courier after a colon; the adapter drops the name."},
+    {"code": "SP:60", "wording": "Unable To Contact Receiver At Primary Number", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "A problem scan with disposal code 60."},
+    {"code": "DL:91", "wording": "Package Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The tracker adds \"- Signed for by:\" and a name; the adapter drops both."},
+    {"wording": "Shipment Collected", "stage": "accepted", "language": "en", "confirmedBy": "source", "note": "A Lowyat forum post pastes it from City-Link's tracker."},
+    {"wording": "Shipment Bound for RAWANG, MALAYSIA", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "Sorted for the named destination hub. A Lowyat forum post pastes it from City-Link's tracker."},
+    {"wording": "Depart to SHAH ALAM, MALAYSIA", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "Left for the named hub. A Lowyat forum post pastes it from City-Link's tracker."},
+    {"wording": "Received by", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "Received at a hub; the location is in its own column. A Lowyat forum post pastes it from City-Link's tracker."},
+    {"wording": "UNABLE TO ACCESS", "stage": "failed_attempt", "language": "en", "confirmedBy": "source", "note": "The courier could not reach the premises. A Lowyat forum post pastes it from City-Link's tracker."}
+  ]
+}

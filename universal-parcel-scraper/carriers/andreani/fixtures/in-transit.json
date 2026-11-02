@@ -1,0 +1,145 @@
+{
+  "stepEnCaminoIsGray": false,
+  "stepEntregadoIsGray": false,
+  "viewButtonNoti": false,
+  "ordenMaxima": 2,
+  "numeroAndreani": "360009000000020",
+  "fechaEstimadaDeEntrega": "",
+  "nombreRemitente": "TIENDA DE EJEMPLO",
+  "tipoRespuesta": "1",
+  "cliente": {
+    "rubro": "EJEMPLO ",
+    "mail": "remitente@example.com",
+    "canalDeVenta": "",
+    "tieneTN": true,
+    "tieneCC": false,
+    "fechaAlta": null,
+    "tipoDeFactura": "",
+    "codigo": "0000000001",
+    "nombre": "TIENDA DE EJEMPLO SRL",
+    "nombreFantasia": "TIENDA DE EJEMPLO",
+    "cuit": "30000000007",
+    "esCorporativo": true,
+    "contrato": {
+      "codigo": "400000001",
+      "descripcion": "CONTRATO DE EJEMPLO",
+      "servicio": "ENCOMIENDA ECOMMERCE",
+      "segmento": "EJEMPLO",
+      "tipoDeEntrega": "DOMICILIO",
+      "canal": "B2C",
+      "condicionDeEntrega": "MAYOR DE 18 AÑOS",
+      "requierePin": false,
+      "visitasTotales": 2
+    }
+  },
+  "procesoActual": {
+    "orden": 3,
+    "observaciones": "",
+    "funciones": [],
+    "preguntasFrecuentes": [
+      {
+        "id": 1,
+        "pregunta": "<b>¿Pregunta de ejemplo?</b>",
+        "respuesta": "<div><p>Respuesta de ejemplo.</p></div>"
+      }
+    ],
+    "color": "var(--secondary-green); var(--shadow-green)",
+    "icono": "faTruck",
+    "titulo": "En camino",
+    "colorTitulo": "var(--secondary-green); var(--shadow-green)",
+    "fechaUltimoEvento": "2026-04-21T08:05:39.61"
+  },
+  "timelines": [
+    {
+      "id": 1,
+      "orden": 2,
+      "titulo": "Ingresado",
+      "icono": "faBox",
+      "colorTitulo": "var(--gray-700); var(--gray-700)",
+      "color": "var(--gray-700); var(--gray-700)",
+      "traducciones": [
+        {
+          "traduccion": "<p>¡Ya tenemos tu envío! El circuito comienza en&nbsp;<span style=\"font-weight: 700; font-size: 1rem;\">Ciudad Origen</span><span style=\"font-weight: bolder; font-size: 1rem;\">, Provincia Origen.</span></p><p>Pronto lo enviaremos a la sucursal encargada de la entrega.</p>",
+          "fechaEvento": "2026-04-20T10:12:08.3",
+          "sucursal": {
+            "id": "901",
+            "codigo": "ORG",
+            "nombre": "Origen (av Ejemplo)"
+          }
+        }
+      ],
+      "colorGriseado": "var(--c-gray-400)",
+      "esCaminoDeseado": true,
+      "esCortaTraza": false,
+      "fechaUltimoEvento": "2026-04-20T10:12:08.3"
+    },
+    {
+      "id": 2,
+      "orden": 3,
+      "titulo": "En camino",
+      "icono": "faTruck",
+      "colorTitulo": "var(--secondary-green); var(--shadow-green)",
+      "color": "var(--secondary-green); var(--shadow-green)",
+      "traducciones": [
+        {
+          "traduccion": "Hoy te visitaremos para entregarte tu envío.",
+          "fechaEvento": "2026-04-21T08:05:39.61",
+          "sucursal": {
+            "id": "903",
+            "codigo": "DST",
+            "nombre": "Destino (calle 1)"
+          }
+        },
+        {
+          "traduccion": "La sucursal <b>Destino (calle 1)</b> ya está procesando tu envío. ¡Pronto tendrás novedades!",
+          "fechaEvento": "2026-04-21T06:40:12",
+          "sucursal": {
+            "id": "903",
+            "codigo": "DST",
+            "nombre": "Destino (calle 1)"
+          }
+        },
+        {
+          "traduccion": "Tu envío se encuentra en camino a la sucursal <b>Destino (calle 1)</b>.",
+          "fechaEvento": "2026-04-20T18:03:57.137",
+          "sucursal": {
+            "id": "901",
+            "codigo": "ORG",
+            "nombre": "Origen (av Ejemplo)"
+          }
+        }
+      ],
+      "colorGriseado": "var(--c-gray-400)",
+      "esCaminoDeseado": true,
+      "esCortaTraza": false,
+      "fechaUltimoEvento": "2026-04-21T08:05:39.61"
+    },
+    {
+      "id": 3,
+      "orden": 5,
+      "titulo": "Entregado",
+      "icono": "faFlagCheckered",
+      "colorTitulo": "var(--gray-700); var(--gray-700)",
+      "color": "var(--gray-700); var(--gray-700)",
+      "traducciones": [],
+      "colorGriseado": "var(--c-gray-400)",
+      "esCaminoDeseado": true,
+      "esCortaTraza": true,
+      "fechaUltimoEvento": null
+    }
+  ],
+  "ultimaMilla": {
+    "coordenadaTransporte": "",
+    "coordenadaDestino": "",
+    "domicilioDestino": "",
+    "viewButtonMilla": false,
+    "fechaEta": null,
+    "dniChofer": "",
+    "nombreChofer": ""
+  },
+  "modeloUtilizadoParaTraduccion": {
+    "idModelo": "1",
+    "nombreModelo": "Traza Estándar - No Logueado"
+  },
+  "acciones": []
+}

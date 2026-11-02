@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>배송추척</title>
+    <link rel="stylesheet" type="text/css" href="resource/tracking/suio.css" media="all" charset="utf-8" />
+</head>
+
+<body id="popup">
+    <div id="wrap" class="fastboxWrap">
+        <!-- fastbox일 경우 class="fastboxWrap", GLS일 경우 class="glxWrap" -->
+        <h1 class="mTrackOrder"><img src="//img.echosting.cafe24.com/scm/dhub/h1_fastbox_logo.gif" alt="TRACK ORDER" />
+        </h1>
+        <div class="section">
+            <div class="mBoard gMedium">
+                <form name="Tracking" id="Tracking">
+                    <table border="1" summary="">
+                        <caption>FB Invoice Search</caption>
+                        <tbody>
+                            <tr>
+                                <th scope="row">FB Invoice No.</th>
+                                <td>
+                                    <input type="text" class="fText" style="width:210px;" name="fb_invoice_no"
+                                        value="FB2601010000000001" />
+                                    <a href="#none" onclick="Tracking.submit()"
+                                        class="btnSearch"><span>Search</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+                <div class="section">
+            <div class="mTitle">
+                <h2>FASTBOX Shipment Information</h2>
+            </div>
+            <div class="mState gMerge">
+                <a href="#none" class="btnNormal"
+                    onclick="DomesticTracking('EE000000005KR', 49, '_blank', 'India')"><span>Courier
+                        Detail &gt;</span></a>
+            </div>
+            <div class="mBoard">
+                <table border="1" summary="">
+                    <caption>FASTBOX Shipment Information</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Destination Country</th>
+                            <th scope="col">Domestic Invoice No</th>
+                            <th scope="col">Shipping Company</th>
+                            <th scope="col">Departed From</th>
+                            <th scope="col">Reciepient</th>
+                            <th scope="col">Reciepient's Address</th>
+                        </tr>
+                    </thead>
+                    <tbody class="center">
+                        <tr>
+                            <td>India</td>
+                            <td>EE000000005KR</td>
+                            <td>Korea Post EMS</td>
+                            <td>SOUTH KOREA</td>
+                            <td>EXAMPLE RECIPIENT*****</td>
+                            <td>EXAMPLE STATE EXAMPLE TOWN 1 EXAMPLE STREET*****</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="section">
+            <div class="mTitle">
+                <h2>Your Package Was In Transit</h2>
+            </div>
+            <div class="mBoard">
+                <table border="1" summary="">
+                    <caption>Your Package Was In Transit</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">DATE TIME</th>
+                            <th scope="col">STATUS</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Shipping</th>
+                            <th scope="col">Detail</th>
+                        </tr>
+                    </thead>
+                    <tbody class="center">
+                                                <tr>
+                            <td>2026-01-02 <span class="txtLight">10:15</span></td>
+                            <td>Shipping soon</td>
+                            <td>Fastbox warehouse</td>
+                            <td>FASTBOX</td>
+                            <td>Order Accepted</td>
+                            </tr>
+                                                <tr>
+                            <td>2026-01-05 <span class="txtLight">09:40</span></td>
+                            <td>Ready for International shipping</td>
+                            <td>Fastbox warehouse</td>
+                            <td>FASTBOX</td>
+                            <td>Processed Through Facility for International Shipping</td>
+                            </tr>
+                                                <tr>
+                            <td>2026-01-05 <span class="txtLight">11:40</span></td>
+                            <td>International Shipping</td>
+                            <td>-</td>
+                            <td>Korea Post EMS</td>
+                            <td>Hand over to Delivery Company</td>
+                            </tr>
+                                                <tr>
+                            <td>2026-01-05 <span class="txtLight">16:00</span></td>
+                            <td>InTransit</td>
+                            <td>INCHEON</td>
+                            <td>Korea Post EMS</td>
+                            <td>Posting/Collection</td>
+                            </tr>
+                                                <tr>
+                            <td>2026-01-05 <span class="txtLight">21:30</span></td>
+                            <td>InfoReceived</td>
+                            <td>Office - 00000</td>
+                            <td>Example Post International</td>
+                            <td>Item Booked</td>
+                            </tr>
+                                                <tr>
+                            <td>2026-01-05 <span class="txtLight">23:30</span></td>
+                            <td>InTransit</td>
+                            <td>INCHEON</td>
+                            <td>Korea Post EMS</td>
+                            <td>Received by Air carriers</td>
+                            </tr>
+                                                <tr>
+                            <td>2026-01-05 <span class="txtLight">21:30</span></td>
+                            <td>InfoReceived</td>
+                            <td>Office - 00000</td>
+                            <td>Example Post International</td>
+                            <td>Item Booked</td>
+                            </tr>
+                                                <tr>
+                            <td>2026-01-06 <span class="txtLight">04:55</span></td>
+                            <td>InTransit</td>
+                            <td>SEOUL INTERNATIONAL POST OFFICE</td>
+                            <td>Example Post International</td>
+                            <td>Item received</td>
+                            </tr>
+                                                <tr>
+                            <td>2026-01-08 <span class="txtLight">21:20</span></td>
+                            <td>InTransit</td>
+                            <td>EXAMPLE CITY, EMS CENTRE</td>
+                            <td>Example Post International</td>
+                            <td>Item received at office of exchange (Inb)</td>
+                            </tr>
+                                                <tr>
+                            <td>2026-01-08 <span class="txtLight">21:25</span></td>
+                            <td>InTransit</td>
+                            <td>EXAMPLE CITY, EMS CENTRE</td>
+                            <td>Example Post International</td>
+                            <td>Item presented to import Customs</td>
+                            </tr>
+                                                <tr>
+                            <td>2026-01-10 <span class="txtLight">16:10</span></td>
+                            <td>OutForDelivery</td>
+                            <td>EXAMPLE TOWN</td>
+                            <td>Example Post International</td>
+                            <td>Taken out for delivery</td>
+                            </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <p>You can track your shipping on shipping company's website by clicking Courier Detail button.</p>
+        </div>
+    </body>
+
+</html>

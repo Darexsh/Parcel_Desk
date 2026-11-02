@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" data-no-framekiller="false">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow"/>
+  <script src="/DatPublic/csrfguard" type="text/javascript"></script>
+  <title>Active Tracing - Selection</title>
+</head>
+<body>
+<div class="main">
+    <div class="navigation_main">
+        <ul id="nav">
+          <li><a href="/DatPublic/datSelection.do" class="nav_top_active">Consignment tracking</a></li>
+        </ul>
+        <div class="quicksearch">
+            <form name="datSelectionForm" method="post" action="/DatPublic/datSelection.do">
+                <input type="hidden" name="search" value="consignmentId">
+                <label for="quicksearch_01">Consignment ID</label>
+                <input type="text" name="valueComboField" maxlength="35" size="20" value="SMP-DL-0000009" id="quicksearch_01" class="keyword">
+                <input type="submit" name="searchConsignmentId" value="go" class="search">
+            </form>
+        </div>
+    </div>
+    <div class="main_area">
+        <div class="content_main_container">
+            <div class="content_main_index">
+                <div class="container_title">
+                    <h1>DHL ACTIVETRACING</h1>
+                </div>
+                <div class="container">
+                            <form name="datSelectionForm" method="post" action="/DatPublic/datSelection.do" class="datSelectionForm waitingSpinner">
+                                <input type="hidden" name="search" value="combined">
+                                <table border="0" cellspacing="0" class="inf" width="95%">
+                                    <tr>
+                                        <td width="10%"></td>
+                                        <td class="text-center"><input type="text" name="kr" maxlength="70" size="35" value="" id="search1"></td>
+                                        <td width="35%" align="left">
+                                            <input type="hidden" name="focus" value="search1"/>
+                                            <input type="submit" name="searchCombined" value="track" class="btn input-width-110">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td class="font-size-small text-center">Your reference</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </form>
+                            <div class="wrn">
+                            </div>
+                            <form name="datSelectionForm" method="post" action="/DatPublic/datSelection.do" class="datSelectionForm waitingSpinner">
+                                <input type="hidden" name="search" value="consignmentId">
+                                <input type="hidden" name="at" value="cons_ordercode">
+                                <table border="0" cellspacing="0" class="" width="95%">
+                                    <tr>
+                                        <td width="10%"></td>
+                                        <td class="text-center" width="55%">
+                                            <input type="text" name="valueShipmentOrderField" maxlength="35" size="20" value="" id="search2"></td>
+                                        <td width="35%" align="left">
+                                            <input type="hidden" name="focus" value="search2"/>
+                                            <input type="submit" name="searchConsignmentId" value="track" class="btn input-width-110">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td class="font-size-small text-center">DHL Order code / Consignment ID</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </form>
+                            <div class="wrn">
+                                There is no consignment matching your search criteria.<br />
+                            </div>
+                            <form name="datSelectionForm" method="post" action="/DatPublic/datSelection.do" class="datSelectionForm waitingSpinner">
+                                <input type="hidden" name="search" value="consignmentId">
+                                <input type="hidden" name="at" value="package">
+                                <table border="0" cellspacing="0" class="" width="95%">
+                                    <tr>
+                                        <td width="10%"></td>
+                                        <td class="text-center" width="55%">
+                                            <input type="text" name="valuePackageField" maxlength="35" size="20" value="" id="search3">
+                                        </td>
+                                        <td width="35%" align="left">
+                                            <input type="hidden" name="focus" value="search3"/>
+                                            <input type="submit" name="searchConsignmentId" value="track" class="btn input-width-110">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td class="font-size-small text-center">DHL Package ID / DHL License Plate</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </form>
+                            <div class="wrn">
+                            </div>
+                            <p>Only one field is mandatory.</p>
+                            <table border="0" cellspacing="0" class="inf table-layout-fixed" width="95%">
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td colspan="5">
+                                        <div id="trackAndTrace">
+                                            <p>
+                                                <a href="https://www.dhl.com/global-en/home/tracking.html?submit=1&amp;amp;tracking-id=SMP-DL-0000009" target="_blank"
+                                                   rel="noopener noreferrer">
+                                                    Search for SMP-DL-0000009 in other DHL systems.
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

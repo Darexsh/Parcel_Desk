@@ -1,0 +1,15 @@
+{
+  "carrier": "express-one-bg",
+  "entries": [
+    {"wording": "Data received - shipment pending", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The sender's data, before Express One has the parcel. The only status shown without an office or town."},
+    {"wording": "HUB Inbound", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Arrived at the sorting hub; the page names the hub's town."},
+    {"wording": "Parcel is in ExpressOne office", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At the delivery office, before the van and again after a failed attempt."},
+    {"wording": "The shipment has been loaded to the van", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "With the courier for delivery."},
+    {"wording": "Not delivered", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "A delivery attempt that failed; the page gives no reason."},
+    {"wording": "Available for office pickup", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "live", "note": "Waiting at an office for the recipient."},
+    {"wording": "Confirmed for delivery by PUDO", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "live", "note": "The pickup office took the parcel in; the page links the office."},
+    {"wording": "Confirmed for delivery by PUP", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "live", "note": "A partner pickup point took the parcel in; the page links the point."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Delivered or collected."},
+    {"wording": "Finalized", "language": "en", "confirmedBy": "live", "note": "Closes the shipment's record after its delivery and moves nothing, so the stage before it stands."}
+  ]
+}

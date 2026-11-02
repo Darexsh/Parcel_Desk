@@ -1,0 +1,90 @@
+{
+  "id": "madhur-courier",
+  "displayName": "Madhur Courier Services",
+  "aliases": [
+    "Madhur Couriers",
+    "Madhur Courier Service Pvt Ltd",
+    "Madhur Courier"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#e31e24"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "madhur-courier",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true,
+    "dateOnlyScans": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "searchUrl": "https://madhurcouriers.in/CNoteTracking",
+    "canaryUrl": "https://madhurcouriers.in/CNoteTracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "parcel_count",
+      "driver_name",
+      "contact_details",
+      "signatory",
+      "remarks"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "parcel_count",
+      "driver_name",
+      "contact_details",
+      "signatory",
+      "remarks"
+    ],
+    "unavailable": [
+      "scan_times",
+      "offset_timestamps",
+      "delivered_at",
+      "eta",
+      "weight",
+      "service_name",
+      "proof_of_delivery",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "madhurexpress.net"
+      ],
+      "pathPattern": "^/madhurnet/cnsgtracking_2\\.aspx$",
+      "params": [
+        "cno"
+      ]
+    }
+  ],
+  "detection": []
+}

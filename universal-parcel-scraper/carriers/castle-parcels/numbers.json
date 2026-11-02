@@ -1,0 +1,97 @@
+{
+  "carrier": "castle-parcels",
+  "records": [
+    {
+      "number": "NI25 03728987",
+      "role": "composite",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20260205121713/https://www.castleparcels.co.nz/tracktrace.html",
+        "date": "2026-02-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "Castle Parcels' track and trace page gives it as its courier ticket example: product code and ticket number."
+    },
+    {
+      "number": "14542696",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20260205121713/https://www.castleparcels.co.nz/tracktrace.html",
+        "date": "2026-02-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Castle Parcels' track and trace page gives it as the label number of its sample charge label."
+    },
+    {
+      "number": "N10W 00814641",
+      "role": "composite",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20220118213046/https://castleparcels.co.nz/documents/wlg_ticketguide.pdf",
+        "date": "2022-01-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "Castle Parcels' Wellington ticket guide shows it on its national distribution ticket: a product code with digits and the ticket number."
+    },
+    {
+      "number": "LW 05286031",
+      "role": "composite",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171013143104/http://www.castleparcels.co.nz:80/cpl/servlet/ITNG_TAndTServlet?page=1&Key_Type=Ticket&VCCA=Enabled&product_code=LW&serial_number=05286031&Submit=Track+Courier+Ticket",
+        "date": "2017-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt-it"
+        ]
+      },
+      "note": "A courier ticket looked up on Castle Parcels' own tracker; the opened capture shows its pickup, non-delivery and on-board scans."
+    }
+  ]
+}

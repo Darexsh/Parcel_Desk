@@ -1,0 +1,47 @@
+{
+  "id": "depo",
+  "displayName": "Depo",
+  "aliases": [
+    "Depo.sk",
+    "DEPO výdajné miesta",
+    "Mediaprint-Kapa Pressegrosso"
+  ],
+  "region": {
+    "countries": [
+      "SK"
+    ]
+  },
+  "brand": {
+    "color": "#f36a10"
+  },
+  "selectable": true,
+  "timezone": "Europe/Bratislava",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://depo.sk/sledovanie-zasielky/?number={trackingNumber}",
+    "searchUrl": "https://depo.sk/sledovanie-zasielky/",
+    "canaryUrl": "https://depo.sk/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "depo.sk",
+        "www.depo.sk"
+      ],
+      "pathPattern": "^/sledovanie-zasielky/?$",
+      "params": [
+        "number"
+      ]
+    }
+  ],
+  "detection": []
+}

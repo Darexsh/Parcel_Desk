@@ -1,0 +1,46 @@
+{
+  "carrier": "morning-global",
+  "records": [
+    {
+      "number": "HK101003756PH01",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220910111838/https://www.morninglobal.com/yundan/status.php?ydh=HK101003756PH01",
+        "date": "2022-09-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Morning Global's former tracker page shows its history from collection and the Hong Kong hub to arrival at the destination."
+    },
+    {
+      "number": "BR003081784MG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251006122024/https://www.morninglobal.com/yundan/call/status_search.php",
+        "date": "2025-10-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "morning-global"
+        ]
+      },
+      "note": "The archived reply of Morning Global's tracking API, captured with the tracker page's lookup of this number, shows its history from order creation in Hong Kong to out for delivery in Canada."
+    }
+  ]
+}

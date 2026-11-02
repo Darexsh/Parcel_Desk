@@ -1,0 +1,16 @@
+[
+  {
+    "id": "21",
+    "trackingCode": "BPS0000000000002",
+    "status": "customs",
+    "createdAt": "2026-06-01T08:00:00.000Z",
+    "externalTrackingNumber": null,
+    "events": [
+      {"id": "25", "status": "customs", "location": null, "bpxEventCode": "BPS-0700", "bpxEventDescription": "Arrived at destination customs", "createdAt": "2026-06-09T14:45:00.000Z"},
+      {"id": "24", "status": "in_transit", "location": "Sample Airport", "bpxEventCode": "BPS-1820", "bpxEventDescription": "Departed on flight", "createdAt": "2026-06-07T02:10:00.000Z"},
+      {"id": "23", "status": "assigned", "location": "Sample Town", "bpxEventCode": null, "bpxEventDescription": null, "createdAt": "2026-06-05T19:30:00.000Z"},
+      {"id": "22", "status": "received_for_shipping", "location": "Sample Town", "bpxEventCode": "BPS-0002", "bpxEventDescription": "Received at the BPX warehouse", "createdAt": "2026-06-04T16:20:00.000Z"},
+      {"id": "20", "status": "label_generated", "location": "", "bpxEventCode": "BPS-0001", "bpxEventDescription": "Label Created", "createdAt": "2026-06-01T08:00:03.000Z"}
+    ]
+  }
+]

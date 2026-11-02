@@ -1,0 +1,312 @@
+{
+  "carrier": "kyoungdong",
+  "records": [
+    {
+      "number": "3209033200159",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170920074550/http://kdexp.com:80/basicNewDelivery.kd?barcode=3209033200159",
+        "date": "2017-09-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Kyungdong Express's old tracker; the opened capture names the number, but the history loaded by script and is not in it."
+    },
+    {
+      "number": "5106030800485",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231231125045/http://kdexp.com/basicNewDelivery.kd?barcode=5106030800485",
+        "date": "2023-12-31",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Kyungdong Express's old tracker address, as an archived address shows; the old address redirected by then and the capture was not opened."
+    },
+    {
+      "number": "2001070800064",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230516174324/http://kdexp.com/basicNewDelivery.kd?barcode=2001070800064",
+        "date": "2023-05-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Looked up on Kyungdong Express's old tracker address, as an archived address shows; the old address redirected by then and the capture was not opened."
+    },
+    {
+      "number": "2001075200647",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240102050736/http://kdexp.com/basicNewDelivery.kd?barcode=2001075200647",
+        "date": "2024-01-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Looked up on Kyungdong Express's old tracker address, as an archived address shows; the old address redirected by then and the capture was not opened."
+    },
+    {
+      "number": "2001075100530",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240712053654/http://kdexp.com/basicNewDelivery.kd?barcode=2001075100530",
+        "date": "2024-07-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Looked up on Kyungdong Express's old tracker address, as an archived address shows; the old address redirected by then and the capture was not opened."
+    },
+    {
+      "number": "2001074900696",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251020054905/http://kdexp.com/basicNewDelivery.kd?barcode=2001074900696",
+        "date": "2025-10-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Looked up on Kyungdong Express's old tracker address, as an archived address shows; the old address redirected by then and the capture was not opened."
+    },
+    {
+      "number": "8225070026986",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://kin.naver.com/qna/detail.naver?dirId=81302&docId=486817387",
+        "date": "2025-07-05",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "A Naver KnowledgeiN question titled about Kyungdong Express gives it; an answer quotes its arrival and dispatch scans."
+    },
+    {
+      "number": "8026030561747",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://kin.naver.com/qna/detail.naver?dirId=81302&docId=492417947",
+        "date": "2026-03-11",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "A Naver KnowledgeiN question about a Kyungdong Express lookup gives it as the waybill number."
+    },
+    {
+      "number": "8026081691918",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://kin.naver.com/qna/detail.naver?dirId=81302&docId=494987837",
+        "date": "2026-09-01",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "A Naver KnowledgeiN question asks when this Kyungdong Express parcel will arrive. Kyungdong's tracker answers it with its scans."
+    },
+    {
+      "number": "8026090773281",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://kin.naver.com/qna/detail.naver?dirId=81302&docId=495130127",
+        "date": "2026-09-12",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "A Naver KnowledgeiN question about a Kyungdong Express lookup gives it. Kyungdong's tracker answers it with its scans."
+    },
+    {
+      "number": "8026091635480",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://kin.naver.com/qna/detail.naver?dirId=81302&docId=495367519",
+        "date": "2026-09-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "A Naver KnowledgeiN question about a stalled Kyungdong Express parcel gives it as the waybill number. Kyungdong's tracker answers it with its scans."
+    },
+    {
+      "number": "8026100380015",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://kin.naver.com/qna/detail.naver?dirId=81302&docId=495470957",
+        "date": "2026-10-08",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda"
+        ]
+      },
+      "note": "A Naver KnowledgeiN question tagged Kyungdong Express gives it as the waybill being tracked. Kyungdong's tracker answers it with its scans."
+    }
+  ]
+}

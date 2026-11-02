@@ -1,0 +1,13 @@
+{
+  "carrier": "team-express-ae",
+  "entries": [
+    {"code": "SHIPMENT INFORMATION RECEIVED", "wording": "SHIPMENT INFORMATION RECEIVED", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Seen in a live reply of Team Express's tracker as the first scan of a domestic shipment, without a location; the shipper's data reached Team Express."},
+    {"code": "In Transit", "wording": "Shipment Collected at Despatch Center", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "The first scan of an export at Team Express's own center; the tracker files it under the status \"In Transit\"."},
+    {"code": "Collected", "wording": "Shipment Collected from Shipper", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Filed under the status \"Collected\"."},
+    {"code": "SHIPMENT ARRIVED AT HUB FACILITY", "wording": "SHIPMENT ARRIVED AT HUB FACILITY", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Seen in a live reply of Team Express's tracker at its Dubai hub."},
+    {"code": "OTHERS", "wording": "FORWARDED TO DESTINATION", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "An export handed on toward the destination country; the tracker files it under \"OTHERS\" and can show the onward carrier's forwarding number."},
+    {"code": "OUT FOR DELIVERY", "wording": "OUT FOR DELIVERY", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Seen in a live reply of Team Express's tracker."},
+    {"code": "DELIVERED", "wording": "DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Seen in a live reply of Team Express's tracker as the last scan and the current status, beside the delivery date and who signed."},
+    {"code": "Delivered", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Shown as an export's current status, with the delivery date and who received it, while its scans stop at the hand-over to the partner abroad."}
+  ]
+}

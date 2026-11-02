@@ -1,0 +1,10 @@
+{
+  "carrier": "kwick-box",
+  "entries": [
+    {"code": "AcceptOffer", "wording": "Pending Delivery", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Title the tracker's own script shows for this status code; not seen in a captured history."},
+    {"code": "ItemStoredInWarehouse", "wording": "Kwickbox warehouse", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Title the tracker's own script shows for this status code; not seen in a captured history. The parcel is stored in KwickBox's warehouse."},
+    {"code": "ItemAssignedToCourier", "wording": "Out for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Title the tracker's own script shows for this status code; not seen in a captured history."},
+    {"code": "ItemDeliveredToCustomer", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Title the tracker's own script shows for this status code; not seen in a captured history."},
+    {"code": "ReturnedToCompanyStore", "wording": "Failed Delivery", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Title the tracker's own script shows for this status code; not seen in a captured history. The code says the parcel went back to the sender's store."}
+  ]
+}

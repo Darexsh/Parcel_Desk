@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8" />
+    <title>GETOnline</title>
+  </head>
+  <body class="fixed-header menu-pin  ">
+<div class=" container-fluid container-fixed-lg  no-trackingstatus" style="display:none;">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="card-block" style="justify-content: center;display: grid;">
+                <h5 class="last-status mb-2">No tracking found for this number.</h5>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class=" container-fluid container-fixed-lg bg-primary-light trackingstatus-connote" style="display:none;">
+    <h3 class="cn1 m-t-0">&nbsp;</h3>
+    <span class="last-notes text14 bold">&nbsp;</span>
+    <span class="langlbl text12 lblsenderref" style="display:none" langtag="trackingstatus_SenderRef">Sender Ref</span>
+    <span class="senderref text14"></span>
+    <span class="destination bold"></span>
+    <span class="langlbl text12" langtag="trackingstatus_Servicetype" id="lblservicetype">Service Type</span>
+    <span class="servicetype" id="servicetype"></span>
+</div>
+<div class="tracking-events"></div>
+<!--html end here-->
+
+    <!-- BEGIN PAGE LEVEL JS --> <!--js here-->
+    <script>
+          //from js/gen-func
+        function js_searchnumber() {
+            var stid = getUrlParameter("stid");
+            if (stid == "") { location.href = errorsite; return false; }
+            var cn = $("#txtsearch").val();
+            
+            cn = cn.trim();
+            if (cn == "") {
+                alert("Please enter tracking number");
+                return false;
+            }
+           
+            location.href = "plm-tracking?cn=" + cn + "&stid=" + stid;
+            return false;
+        }
+        function js_getTrack() {
+            var cn = getUrlParameter("cn");
+            var stid = getUrlParameter("stid");
+            var a = getUrlParameter("action");
+            var status = getUrlParameter("status");
+            if (stid == "") { location.href = errorsite; return false; }
+            if (cn == "") { location.href = location.origin + "/tracking_search.aspx?stid=" + stid; return false; }
+
+           
+            $(".cn").html(cn);
+            $(".cn1").html(cn);
+
+            $(".trackingstatus").show();
+            $(".last-notes, .trackingstatus-connote").hide();
+
+        //var obj = $.parseJSON(data);
+        
+            $(".tracking-events").html("");
+       
+            var sno = 0;
+        
+            $(".no-trackingstatus").show();
+            $(".trackingstatus, .trackingstatus-connote, .tracking-events").hide();
+                             
+            return false;
+           
+
+            $(".hdntoggle").click(function () {
+                if ($(this).attr("aria-expanded") == "true") {
+                    $(this).html("Show all events");
+                } else {
+                    $(this).html("Hide events");
+                }
+            });
+
+            if ($(".nav-item").find("a:visible").length == 1) {
+                $("#trackingmenubar").hide();
+                $(".tracking-top-header").hide();
+            } else {
+                $(".trackingstatus-connote .cn").html("&nbsp;");
+                $(".trackingstatus-connote .cn1").html("&nbsp;");
+            }
+            
+            $(".hdnintransit").click();
+            
+        }
+
+        function VerifyNow(stg) {
+            $("#hddn_stg").val(stg);
+        }
+    </script>
+  </body>
+</html>

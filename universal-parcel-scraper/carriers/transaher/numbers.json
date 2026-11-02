@@ -1,0 +1,43 @@
+{
+  "carrier": "transaher",
+  "records": [
+    {
+      "number": "103024281026650620001108013",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250715113526/https://clientes.transaher.es/webclient/htracking/-5,0,103024281026650620001108013",
+        "date": "2025-07-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "transaher",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Transaher's own tracker address carries this 27-digit number. The tracker returns a delivered history for it."
+    },
+    {
+      "number": "103024281026650820001108013",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250717090950/https://clientes.transaher.es/webclient/tracking/-5,0,103024281026650820001108013",
+        "date": "2025-07-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "transaher",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Transaher's own tracker address carries this 27-digit number. The tracker no longer finds it."
+    }
+  ]
+}

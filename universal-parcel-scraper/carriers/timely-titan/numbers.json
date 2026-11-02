@@ -1,0 +1,24 @@
+{
+  "carrier": "timely-titan",
+  "records": [
+    {
+      "number": "TT2600303503680CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.kuaidi100.com/all/timelytitan.shtml",
+        "date": "2026-10-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "timely-titan",
+        "confidence": "high"
+      },
+      "note": "Kuaidi100's Timely Titan page offered it as its example. Timely Titan's tracker returns a delivered history from a warehouse in Hong Kong through Macau to the delivering post in China."
+    }
+  ]
+}

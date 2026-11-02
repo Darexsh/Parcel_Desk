@@ -1,0 +1,12 @@
+{
+  "carrier": "ncs-courier",
+  "entries": [
+    {"wording": "Open", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "From the status handling in the script of NCS's own tracking page (code.recaptcha.js), which shows the status code in each history line. A pickup request not yet taken."},
+    {"wording": "Assigned", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "From the status handling in the script of NCS's own tracking page (code.recaptcha.js), which shows the status code in each history line. Pickup assigned to a courier."},
+    {"wording": "Dispatched", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "From the status handling in the script of NCS's own tracking page (code.recaptcha.js), which shows the status code in each history line. The pickup courier was sent."},
+    {"wording": "Canceled", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "From the status handling in the script of NCS's own tracking page (code.recaptcha.js), which shows the status code in each history line. The pickup was cancelled."},
+    {"wording": "PU", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "From the status handling in the script of NCS's own tracking page (code.recaptcha.js), which shows the status code in each history line. Picked up."},
+    {"wording": "OD", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "From the status handling in the script of NCS's own tracking page (code.recaptcha.js), which shows the status code in each history line. On delivery."},
+    {"wording": "OK", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "From the status handling in the script of NCS's own tracking page (code.recaptcha.js), which shows the status code in each history line. Delivered; the line then names the recipient."}
+  ]
+}

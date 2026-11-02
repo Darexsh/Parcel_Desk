@@ -1,0 +1,176 @@
+{
+  "carrier": "vrl-logistics",
+  "records": [
+    {
+      "number": "9001204507",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171216220521/http://vrlgroup.in:80/vrlwebs/lrtrack.aspx?lno=9001204507",
+        "date": "2017-12-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "An archived lookup on VRL's LR tracking page shows this LR with booking details, a not-delivered status and a cancelled delivery run."
+    },
+    {
+      "number": "9002045071",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171124075240/http://vrlgroup.in:80/vrlwebs/lrtrack.aspx?lno=9002045071",
+        "date": "2017-11-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "An archived lookup on VRL's LR tracking page shows this LR with booking details, a not-delivered status and a delivery run cancelled as refused."
+    },
+    {
+      "number": "1013095234",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171121035752/http://vrlgroup.in:80/vrlwebs/lrtrack.aspx?lno=1013095234",
+        "date": "2017-11-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "An archived lookup on VRL's LR tracking page shows this LR with booking details, loading history and an out-for-delivery run."
+    },
+    {
+      "number": "111467809",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171125201047/http://vrlgroup.in:80/vrlwebs/lrtrack.aspx?lno=111467809",
+        "date": "2017-11-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on VRL's LR tracking page shows this LR with booking details, loading history and its delivery."
+    },
+    {
+      "number": "9002785853",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180223224706/http://vrlgroup.in:80/vrlwebs/lrtrack.aspx?lno=9002785853",
+        "date": "2018-02-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "An archived lookup on VRL's LR tracking page shows this LR with booking details, a cancelled delivery run and the later delivery."
+    },
+    {
+      "number": "1085512249",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250524225317/https://vrlgroup.in/tc.aspx?lrno=1085512249",
+        "date": "2025-05-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "An archived lookup on VRL's consignment tracking page; the opened capture loads the result separately and shows no details. VRL's current tracker knows the LR, with its booking, transit rows and delivery."
+    }
+  ]
+}

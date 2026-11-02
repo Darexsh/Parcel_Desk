@@ -1,0 +1,62 @@
+{
+  "carrier": "ycs-logistics",
+  "records": [
+    {
+      "number": "1781367550001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://track.tw/carrier/9b5fcd99-796c-4319-a347-fb6a4fe7e47f",
+        "date": "2026-06-14",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "A customer comment on Track.TW's YCS page asks whether 音速物流 delivered the parcel with this barcode. YCS's tracker does not know it."
+    },
+    {
+      "number": "70001448601",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://track.tw/carrier/9b5fcd99-796c-4319-a347-fb6a4fe7e47f",
+        "date": "2025-08-24",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight",
+          "ppl"
+        ]
+      },
+      "note": "A customer comment on Track.TW's YCS page asks why this tracking number has not been delivered; the comment itself does not name the carrier. YCS's tracker knows it as a delivered parcel."
+    }
+  ]
+}

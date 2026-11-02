@@ -1,0 +1,107 @@
+{
+  "carrier": "quickpac",
+  "records": [
+    {
+      "number": "440010970004135028",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://blog.emeidi.com/2025/05/26/quickpac-pakete-tracken/",
+        "date": "2025-05-26"
+      },
+      "expect": {
+        "carrier": "quickpac",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "440012345612345678",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-09-10",
+      "expect": {
+        "carrier": "quickpac",
+        "confidence": "high"
+      },
+      "note": "Made-up number that follows the published format."
+    },
+    {
+      "number": "440010011954679368",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241005080929/https://quickpac.ch/de/tracking?identcode=440010011954679368",
+        "date": "2024-10-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "quickpac",
+        "confidence": "high"
+      },
+      "note": "A Quickpac tracking link archived by the Wayback Machine; the capture shows only the search page, and Planzer's tracker, which serves Quickpac numbers, has no history for it."
+    },
+    {
+      "number": "440010400100017831",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230227122634/https://quickpac.ch/de/tracking?identcode=440010400100017831",
+        "date": "2023-02-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "quickpac",
+        "confidence": "high"
+      },
+      "note": "A Quickpac tracking link archived by the Wayback Machine; the capture shows only the search page, and Planzer's tracker, which serves Quickpac numbers, has no history for it."
+    },
+    {
+      "number": "440010400100601488",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241112130723/https://quickpac.ch/de/tracking?identcode=440010400100601488",
+        "date": "2024-11-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "quickpac",
+        "confidence": "high"
+      },
+      "note": "A Quickpac tracking link archived by the Wayback Machine; the capture shows only the search page, and Planzer's tracker, which serves Quickpac numbers, has no history for it."
+    },
+    {
+      "number": "440010970000878093",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240419175827/https://quickpac.ch/de/tracking?identcode=440010970000878093",
+        "date": "2024-04-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "quickpac",
+        "confidence": "high"
+      },
+      "note": "A Quickpac tracking link archived by the Wayback Machine; the capture shows only the search page, and Planzer's tracker, which serves Quickpac numbers, has no history for it."
+    }
+  ]
+}

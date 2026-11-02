@@ -1,0 +1,137 @@
+{
+  "carrier": "danske-fragtmaend",
+  "records": [
+    {
+      "number": "VH101334",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.fragt.dk/media/1546/simpel-integration-til-track-trace.pdf",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "Danske Fragtmænd's Track & Trace integration guide gives it as the example consignment note number in its tracker link."
+    },
+    {
+      "number": "90725216499100001401VH101334",
+      "role": "full_barcode",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.fragt.dk/media/1546/simpel-integration-til-track-trace.pdf",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "danske-fragtmaend",
+        "confidence": "high"
+      },
+      "note": "The same guide gives it as the example collicode, a parcel barcode that ends with the consignment note number, in its colli tracker link."
+    },
+    {
+      "number": "AN725955",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231204085816/https://trace.fragt.dk/backend/api/tracktrace/GetByConsignmentNumber?consignmentNumber=AN725955&language=1",
+        "date": "2023-12-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "An archived reply of the tracker's own API on trace.fragt.dk; it shows the consignment's pickup, delivery attempts and events."
+    },
+    {
+      "number": "90249637709100001401AN725955",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231204085816/https://trace.fragt.dk/backend/api/tracktrace/GetByConsignmentNumber?consignmentNumber=AN725955&language=1",
+        "date": "2023-12-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "danske-fragtmaend",
+        "confidence": "high"
+      },
+      "note": "The parcel barcode (collicode) listed for the consignment in the same archived tracker reply."
+    },
+    {
+      "number": "FA948053",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260526141508/https://trace.fragt.dk/backend/api/tracktrace/GetByConsignmentNumber?consignmentNumber=FA948053&language=1",
+        "date": "2026-05-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "An archived reply of the tracker's own API on trace.fragt.dk; it shows the consignment's events."
+    },
+    {
+      "number": "90702050809100001401FA948053",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260526141508/https://trace.fragt.dk/backend/api/tracktrace/GetByConsignmentNumber?consignmentNumber=FA948053&language=1",
+        "date": "2026-05-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "danske-fragtmaend",
+        "confidence": "high"
+      },
+      "note": "The parcel barcode (collicode) listed for the consignment in the same archived tracker reply."
+    }
+  ]
+}

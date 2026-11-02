@@ -1,0 +1,21 @@
+{
+  "carrier": "ywe",
+  "entries": [
+    {"wording": "Shipping Order Created.", "stage": "registered", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-24"},
+    {"wording": "Container picked up by YWE,LAX01 Awaiting Item.", "stage": "accepted", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-24", "note": "YWE has the container the parcel flew in, before the parcel's own scan. Other hubs' codes take LAX01's place."},
+    {"wording": "Container received", "stage": "accepted", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-24", "note": "The hub received the container, between two of its pickup notes."},
+    {"wording": "Parcel received by in LAX01.", "stage": "accepted", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-24", "note": "The parcel's first scan at the hub. Other hubs' codes take LAX01's place."},
+    {"wording": "Parcel received by NJC01.", "stage": "accepted", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-29", "note": "The same first scan at the hub, worded without \"in\". Other hubs' codes take NJC01's place."},
+    {"wording": "Parcel departed from Facility.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-24"},
+    {"wording": "Parcel received by transit facility.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-26", "note": "A hub on the way between YWE's own, before the delivery station."},
+    {"wording": "In processing at transit facility.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-26"},
+    {"wording": "In transit to next facility.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-26"},
+    {"wording": "Parcel received by local  Facility.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-24", "note": "The delivery station; the tracker files it under Alert."},
+    {"wording": "Parcel is out for delivery.", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-24"},
+    {"wording": "Parcel has been delivered.(Front door)", "stage": "delivered", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-24", "note": "The parenthesis names where the parcel was left. Other places take Front door's place."},
+    {"wording": "Parcel delivery abnormal [Restricted Address].Parcel will be returned to the warehouse.", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-24", "note": "A failed delivery going back to YWE's warehouse, not to the sender: the parcel goes out for delivery again. Other reasons take the bracket's place, and a space can follow the full stop."},
+    {"wording": "Parcel delivery failed [Wrong Address]. Parcel will be returned to the warehouse.", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-31", "note": "The same failed delivery back to YWE's warehouse, worded as failed, such as for a rejected parcel; the parcel goes out for delivery again. Other reasons take the bracket's place."},
+    {"wording": "Return to sender", "stage": "exception", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-24", "note": "The return starts; it has not reached the sender."},
+    {"wording": "Returned to sender, shipment has been received in sender warehouse.", "stage": "returned", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-24"}
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "tonami",
+  "displayName": "Tonami Transportation",
+  "aliases": [
+    "Tonami",
+    "TONAMI",
+    "Tonami Unyu",
+    "TONAMI TRANSPORTATION CO., LTD.",
+    "トナミ運輸",
+    "トナミ運輸株式会社"
+  ],
+  "region": {
+    "countries": [
+      "JP"
+    ]
+  },
+  "brand": {
+    "color": "#b50005"
+  },
+  "selectable": true,
+  "timezone": "Asia/Tokyo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "tonami",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 791
+    },
+    "localClocks": true,
+    "dateOnlyScans": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "weight",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://trc1.tonami.co.jp/trc/search3/excSearch3?id%5B0%5D={trackingNumber}",
+    "searchUrl": "https://trc1.tonami.co.jp/trc/search3/excSearch3",
+    "canaryUrl": "https://www.tonami.co.jp/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "volume",
+      "parcel_count",
+      "delivered_at",
+      "delivery_partner",
+      "delivery_partner_reference",
+      "office_contact_details",
+      "office_addresses"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "delivered_at"
+    ],
+    "discarded": [
+      "volume",
+      "parcel_count",
+      "delivery_partner",
+      "delivery_partner_reference",
+      "office_contact_details",
+      "office_addresses"
+    ],
+    "unavailable": [
+      "provider_code",
+      "eta",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "trc1.tonami.co.jp"
+      ],
+      "pathPattern": "^/trc/search3/excSearch3$",
+      "params": [
+        "id[0]"
+      ]
+    }
+  ],
+  "detection": []
+}

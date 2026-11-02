@@ -1,0 +1,55 @@
+{
+  "carrier": "aeropost",
+  "records": [
+    {
+      "number": "CR1275795222",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250516045703/https://api.shipper.aeropost.com/api/tracking_site/CR1275795222",
+        "date": "2025-05-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aeropost",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "An archived answer from Aeropost's own tracking API shows the Costa Rica shipment and its history."
+    },
+    {
+      "number": "CR3325784701",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251211041717/https://api.shipper.aeropost.com/api/tracking_site/CR3325784701",
+        "date": "2025-12-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "aeropost",
+          "aramex-au",
+          "aramex-nz"
+        ]
+      },
+      "note": "An archived answer from Aeropost's own tracking API shows the Costa Rica shipment and its history."
+    }
+  ]
+}

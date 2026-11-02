@@ -1,0 +1,44 @@
+{
+  "carrier": "colisweb",
+  "records": [
+    {
+      "number": "11854362",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/69d652f26c2dbef5f8ee61fb",
+        "date": "2026-04-08"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Public report attributed to Colisweb, whose tracking returns its history. Eight digits are shared with other carriers, so Colisweb is one suggestion among several."
+    },
+    {
+      "number": "87654321",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-09-10",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "Invented placeholder used as a shape check. Filed under Colisweb, which no rule claims."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "carrier": "shree-nandan",
+  "records": [
+    {
+      "number": "1052200113315",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171205234449/http://www.shreenandancourier.com:80/TrackingInfo.aspx?cn=1052200113315",
+        "date": "2017-12-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "An archived lookup on Shree Nandan's own tracker shows this document booked at Valsad, sent through the Valsad hub to Vapi and delivered."
+    },
+    {
+      "number": "2430200218223",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220628091132/http://www.shreenandancourier.com/TrackingInfo.aspx?cn=2430200218223",
+        "date": "2022-06-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "An archived lookup on Shree Nandan's own tracker shows this document booked at Palanpur and moving between the Ahmedabad, Mumbai and Bangalore hubs."
+    },
+    {
+      "number": "1994200003300",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230722084740/https://connectingnandan.com/web-tracking/1994200003300",
+        "date": "2023-07-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Archived as a web-tracking address on the carrier's Connecting Nandan platform and as a lookup on its own tracker the same day; the opened capture is the application shell without the history."
+    },
+    {
+      "number": "1706200066737",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170407180918/http://www.shreenandancourier.com:80/TrackingInfo.aspx?cn=1706200066737",
+        "date": "2017-04-07",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "An archived lookup on Shree Nandan's own tracker carries this consignment number; the capture was not opened, so its history was not seen."
+    },
+    {
+      "number": "2281101017205",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170920235406/http://www.shreenandancourier.com:80/TrackingInfo.aspx?cn=2281101017205",
+        "date": "2017-09-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "An archived lookup on Shree Nandan's own tracker carries this consignment number; the capture was not opened, so its history was not seen."
+    },
+    {
+      "number": "1176101017977",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200921004327/http://www.shreenandancourier.com/TrackingInfo.aspx?cn=1176101017977",
+        "date": "2020-09-21",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "An archived lookup on Shree Nandan's own tracker carries this consignment number; the capture was not opened, so its history was not seen."
+    },
+    {
+      "number": "1653252004446",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/parcel-no-/254277",
+        "date": "2025-11-29",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "A Voxya complaint against Shree Nandan Courier gives it, in Hindi, as the number of a parcel not delivered for five days."
+    }
+  ]
+}

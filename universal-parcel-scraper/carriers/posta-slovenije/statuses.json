@@ -1,0 +1,25 @@
+{
+  "carrier": "posta-slovenije",
+  "entries": [
+    { "code": "NAJ", "wording": "The item information has been received in the Pošta Slovenije system", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The sender's data arrived; the detail line says the item is not handed over yet." },
+    { "code": "S", "wording": "The item has arrived at Pošta Slovenije", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "Accepted at the post office or centre the scan names. Inbound items get it when they reach Slovenia." },
+    { "code": "EMA", "wording": "Posting/collection", "language": "en", "stage": "accepted", "confirmedBy": "live", "firstSeen": "2026-10-24", "note": "UPU EMA: the item posted for abroad." },
+    { "code": "EMB", "wording": "Arrival at outward OE", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-24", "note": "UPU EMB: the item at the outward office of exchange." },
+    { "code": "EMC", "wording": "Departure from outward OE", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-02", "note": "UPU EMC: the item leaves the outward office of exchange for abroad." },
+    { "code": "EMJ", "wording": "Arrival at transit OE", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-30", "note": "UPU EMJ: the item at an office of exchange of a country it crosses on its way." },
+    { "code": "EMK", "wording": "Departure from transit OE", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-30", "note": "UPU EMK: the item leaves that transit office of exchange." },
+    { "code": "EMD", "wording": "Arrival at inward OE", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-27", "note": "UPU EMD: the item from abroad at the inward office of exchange." },
+    { "code": "EMF", "wording": "Departure from inward OE", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-27", "note": "UPU EMF: the item leaves the inward office of exchange on its way to delivery." },
+    { "code": "EMG", "wording": "Arrival at delivery office", "language": "en", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-29", "note": "UPU EMG: the item from abroad at the office that delivers it." },
+    { "code": "EMI", "wording": "Final delivery", "language": "en", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-10-29", "note": "UPU EMI: final delivery to the recipient, seen after the inward EMC to EMG events." },
+    { "code": "N", "wording": "The item is expected to be delivered today", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live", "note": "Seen with the detail line \"The item is out for doorstep delivery\"." },
+    { "code": "VLPAKP", "wording": "The item is on its way to the selected parcel locker", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live" },
+    { "code": "VL", "wording": "The item was delivered to the mailbox / P.O. box", "language": "en", "stage": "delivered", "confirmedBy": "live", "note": "Seen with the detail line \"The item was delivered to the doorstep\". After an item was sent back, the adapter reads it as returned." },
+    { "code": "POTPKTM", "wording": "Unsuccessful delivery", "language": "en", "stage": "failed_attempt", "confirmedBy": "live", "note": "The Slovenian wording is more exact: nobody collected the item from the parcel locker in time." },
+    { "code": "V", "wording": "Unsuccessful delivery attempt", "language": "en", "stage": "failed_attempt", "confirmedBy": "live", "note": "Not collected. The next step follows, such as \"The item is ready for pickup at the post office\"." },
+    { "code": "V", "wording": "Unsuccessful delivery attempt. Item is being returned to the sender", "language": "en", "stage": "exception", "confirmedBy": "live", "note": "Not collected and sent back to the sender. A delivery after it reaches the sender." },
+    { "code": "VDO", "wording": "Unsuccessful delivery attempt", "language": "en", "stage": "failed_attempt", "confirmedBy": "live", "note": "Could not be delivered; seen with the next step \"The item will be redirected to the post office\"." },
+    { "code": "IZR", "wording": "The item is ready for pickup at the post office", "language": "en", "stage": "ready_for_pickup", "confirmedBy": "live", "note": "Its place names the post office the item waits at." },
+    { "code": "PVI", "wording": "The item is ready for pickup at the post office", "language": "en", "stage": "ready_for_pickup", "confirmedBy": "live", "note": "Its place names the post office the item waits at, after a failed delivery." }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "carrier": "pos-indonesia",
+  "entries": [
+    {"code": "PENDING", "wording": "Connote telah dibuat di lokasi [destination]", "language": "id", "stage": "accepted", "confirmedBy": "live", "note": "The waybill made where the item is posted. The place it names is where the item goes."},
+    {"code": "INBAG", "wording": "Barang anda telah melewati proses bagging di Kantor Pos [office]", "language": "id", "stage": "in_transit", "confirmedBy": "live", "note": "Put in a bag at an office. A scan without wording reads as the action, Bagging."},
+    {"code": "INLOCATION", "wording": "Barang anda telah melewati proses receiving di Kantor Pos [office]", "language": "id", "stage": "in_transit", "confirmedBy": "live", "note": "Received at an office or a processing centre."},
+    {"code": "INVEHICLE", "wording": "Barang anda [number] telah melewati proses ManifestR7 dengan nomor bag [bag] di [office] dan nomor R7 [manifest]", "language": "id", "stage": "in_transit", "confirmedBy": "live", "note": "Loaded on a vehicle under a dispatch manifest."},
+    {"code": "UNBAG", "wording": "Barang anda [number] telah melewati proses unbagging dengan nomor bag [bag] di [office]", "language": "id", "stage": "in_transit", "confirmedBy": "live", "note": "Taken out of its bag at the next office."},
+    {"code": "DELIVERYRUNSHEET", "wording": "Barang anda telah melewati proses DeliveryRunsheet di Kantor Pos [office]", "language": "id", "stage": "out_for_delivery", "confirmedBy": "live", "note": "On a postman's delivery run sheet."},
+    {"code": "DELIVERED", "wording": "Barang anda selesai dikirim dan diterima", "language": "id", "stage": "delivered", "confirmedBy": "live", "note": "Delivered. The service names the recipient and how they relate to the addressee after the wording; the adapter drops both."},
+    {"wording": "Posting Loket", "stage": "accepted", "language": "id", "confirmedBy": "source", "note": "Posted at a counter. Listed in Parcelsapp's Pos Indonesia status table."},
+    {"wording": "Penerimaan di loket : BLOK 5", "stage": "accepted", "language": "id", "confirmedBy": "source", "note": "Accepted at a counter; the branch follows the colon. Quoted by Parcelsapp's Pos Indonesia page as a sample event."},
+    {"wording": "Manifest Serah", "stage": "in_transit", "language": "id", "confirmedBy": "source", "note": "Handed over for dispatch. Listed in Parcelsapp's Pos Indonesia status table."},
+    {"wording": "Berangkat ke Kantor Penerusan", "stage": "in_transit", "language": "id", "confirmedBy": "source", "note": "Left for a forwarding office. Listed in Parcelsapp's Pos Indonesia status table."},
+    {"wording": "Berangkat ke Kantor POS Tujuan", "stage": "in_transit", "language": "id", "confirmedBy": "source", "note": "Left for the destination post office. Listed in Parcelsapp's Pos Indonesia status table."},
+    {"wording": "Tiba di Hub BATAM", "stage": "in_transit", "language": "id", "confirmedBy": "source", "note": "Arrived at a hub. Quoted by Parcelsapp's Pos Indonesia page as a sample event."},
+    {"wording": "Manifest Terima", "stage": "in_transit", "language": "id", "confirmedBy": "source", "note": "Received at the delivering office. Listed in Parcelsapp's Pos Indonesia status table."},
+    {"wording": "Diteruskan ke Kantor Antaran Kalijati", "stage": "in_transit", "language": "id", "confirmedBy": "source", "note": "Forwarded to a delivery office. Quoted by Parcelsapp's Pos Indonesia page as a sample event."},
+    {"wording": "Tiba di Kantor Antaran Kalijati", "stage": "in_transit", "language": "id", "confirmedBy": "source", "note": "Arrived at a delivery office. Quoted by Parcelsapp's Pos Indonesia page as a sample event."},
+    {"wording": "Antaran", "stage": "out_for_delivery", "language": "id", "confirmedBy": "source", "note": "Out for delivery. Listed in Parcelsapp's Pos Indonesia status table."},
+    {"wording": "Selesai Antar", "stage": "delivered", "language": "id", "confirmedBy": "source", "note": "Delivery completed. Listed in Parcelsapp's Pos Indonesia status table."},
+    {"wording": "Alamat Tidak Jelas", "stage": "failed_attempt", "language": "id", "confirmedBy": "source", "note": "Address unclear. Listed in Parcelsapp's Pos Indonesia status table."},
+    {"wording": "Penerima Tidak Dikenal", "stage": "failed_attempt", "language": "id", "confirmedBy": "source", "note": "Recipient not known at the address. Listed in Parcelsapp's Pos Indonesia status table."},
+    {"wording": "Rumah Kosong / Pindah Alamat", "stage": "failed_attempt", "language": "id", "confirmedBy": "source", "note": "House empty or recipient moved. Listed in Parcelsapp's Pos Indonesia status table."},
+    {"wording": "Ditolak", "stage": "failed_attempt", "language": "id", "confirmedBy": "source", "note": "Refused by the recipient. Listed in Parcelsapp's Pos Indonesia status table."}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "carrier": "safexpress",
+  "entries": [
+    {"code": "BOOKED", "wording": "BOOKED", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The detail row records waybill generation, before a physical arrival."},
+    {"code": "IN-TRANSIT", "wording": "IN-TRANSIT", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "ARRIVED AT DESTINATION", "wording": "ARRIVED AT DESTINATION", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "OUT FOR DELIVERY", "wording": "OUT FOR DELIVERY", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"code": "DELIVERED", "wording": "DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"wording": "Partially delivered", "stage": "in_transit", "language": "en", "confirmedBy": "fixture", "note": "Written by the adapter when the delivered package count is smaller than the total."}
+  ]
+}

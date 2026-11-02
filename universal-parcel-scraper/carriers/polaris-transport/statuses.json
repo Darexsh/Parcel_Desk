@@ -1,0 +1,16 @@
+{
+  "carrier": "polaris-transport",
+  "entries": [
+    {"code": "ENTERED/DR", "wording": "ENTERED", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "From the status mapping in the script of Polaris's trace page, seen in an archived capture: the page shows ENTERED for ENTERED/DR, the /DR suffix meaning customs documents were received."},
+    {"code": "SCHED FOR PICK", "wording": "SCHEDULED FOR PICKUP", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "From the status mapping in the script of Polaris's trace page, seen in an archived capture: the page shows the same wording for SCHED PICK/DR."},
+    {"code": "PICKED UP/DR", "wording": "PICKED UP", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "From the status mapping in the script of Polaris's trace page, seen in an archived capture: the page shows PICKED UP for PICKED UP/DR."},
+    {"code": "ARRV ORIG", "wording": "ARRIVED AT ORIGIN", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "From the status mapping in the script of Polaris's trace page, seen in an archived capture."},
+    {"code": "IN TRNS/ON FILE", "wording": "IN TRANSIT", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "From the status mapping in the script of Polaris's trace page, seen in an archived capture: the page shows IN TRANSIT for IN TRANSIT/DR and IN TRNS/ON FILE; the archived trace reply for a real PRO carries IN TRNS/ON FILE."},
+    {"code": "CUSTOMS_CLEARED", "wording": "CUSTOMS CLEARED", "stage": "customs", "language": "en", "confirmedBy": "portal", "note": "From the status mapping in the script of Polaris's trace page, seen in an archived capture."},
+    {"code": "ARRV DEST", "wording": "ARRIVED AT DESTINATION", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "From the status mapping in the script of Polaris's trace page, seen in an archived capture."},
+    {"code": "SCHED FOR DELV", "wording": "SCHEDULED FOR DELIVERY", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "From the status mapping in the script of Polaris's trace page, seen in an archived capture."},
+    {"code": "OUT FOR DEL", "wording": "OUT FOR DELIVERY", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "From the status mapping in the script of Polaris's trace page, seen in an archived capture."},
+    {"wording": "DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "From the status mapping in the script of Polaris's trace page, seen in an archived capture."},
+    {"code": "DELVD/BILLED", "wording": "DELIVERED & BILLED", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "From the status mapping in the script of Polaris's trace page, seen in an archived capture."}
+  ]
+}

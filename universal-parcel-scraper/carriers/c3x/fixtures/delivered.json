@@ -1,0 +1,65 @@
+{
+  "statusCode": 200,
+  "message": "Success",
+  "data": {
+    "AirwayBillTrackList": [
+      {
+        "AirWayBillNo": "3000000000",
+        "Destination": "ABU DHABI-UNITED ARAB EMIRATES",
+        "ForwardingNumber": "",
+        "Origin": "SHARJAH-UNITED ARAB EMIRATES",
+        "ShipmentProgress": 5,
+        "ShipperReference": "SYN-ORDER-0001 / SYN-ORDER-0002",
+        "TrackingLogDetails": [
+          {
+            "ActivityDate": "Tuesday 15  September  2026",
+            "ActivityTime": "14:25",
+            "DeliveredTo": "SAMPLE RECEIVER",
+            "Location": "ABU DHABI",
+            "Remarks": "Delivered",
+            "Status": "POD"
+          },
+          {
+            "ActivityDate": "Tuesday 15  September  2026",
+            "ActivityTime": "06:40",
+            "DeliveredTo": "",
+            "Location": "ABU DHABI",
+            "Remarks": "With Delivery Courier",
+            "Status": "WC"
+          },
+          {
+            "ActivityDate": "Monday 14  September  2026",
+            "ActivityTime": "22:05",
+            "DeliveredTo": "",
+            "Location": "DUBAI",
+            "Remarks": "Shipment Information Received",
+            "Status": "INF"
+          },
+          {
+            "ActivityDate": "Monday 14  September  2026",
+            "ActivityTime": "02:15",
+            "DeliveredTo": "",
+            "Location": "DUBAI",
+            "Remarks": "Arrived Facility",
+            "Status": "AF"
+          }
+        ],
+        "Weight": "2.500"
+      }
+    ],
+    "Code": 1,
+    "Description": "Success",
+    "POAImages": {
+      "Attempt1": "",
+      "Attempt2": "",
+      "Attempt3": "",
+      "Code": 1,
+      "Description": "Success"
+    },
+    "POAImagesFilter": [
+      "Attempt1",
+      "Attempt2",
+      "Attempt3"
+    ]
+  }
+}

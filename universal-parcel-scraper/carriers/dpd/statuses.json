@@ -1,0 +1,396 @@
+{
+  "carrier": "dpd",
+  "entries": [
+    {
+      "code": "ORDER_CREATED",
+      "wording": "Order created",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-12",
+      "note": ""
+    },
+    {
+      "code": "PARCEL_HANDED",
+      "wording": "Parcel handed to DPD",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-12",
+      "note": "Moves the result to in_transit; no milestone of its own, so the event stays unmapped for the sync to classify. Its verified parcelEvents twin is ORI."
+    },
+    {
+      "code": "IN_TRANSIT",
+      "wording": "Your parcel is on its way",
+      "language": "en",
+      "confirmedBy": "fixture",
+      "firstSeen": "2026-09-12",
+      "note": "Moves the result to in_transit; no milestone of its own, so the event stays unmapped for the sync to classify."
+    },
+    {
+      "code": "AT_DELIVERY_CENTER",
+      "wording": "At delivery center",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-12",
+      "note": "Moves the result to in_transit; no milestone of its own, so the event stays unmapped for the sync to classify."
+    },
+    {
+      "code": "PARCEL_OUT_FOR_DELIVERY",
+      "wording": "Parcel out for delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-12",
+      "note": ""
+    },
+    {
+      "code": "AVAILABLE_FOR_COLLECTION",
+      "wording": "Ready for collection",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "fixture",
+      "firstSeen": "2026-09-12",
+      "note": "The only value that unlocks the pickup-point name."
+    },
+    {
+      "code": "UNSUCCESSFUL_DELIVERY_ATTEMPT",
+      "wording": "Unsuccessful delivery attempt",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-12",
+      "note": "A retry, not a terminal state: the result status stays in_transit."
+    },
+    {
+      "code": "RETURN_TO_SENDER",
+      "wording": "Return to sender",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-12",
+      "note": "Terminal, reported with the exception status."
+    },
+    {
+      "code": "DELIVERED",
+      "wording": "Delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-12",
+      "note": ""
+    },
+    {
+      "code": "OTHER",
+      "wording": "Other tracking update",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-12",
+      "note": "The guest API's catch-all; neither a status nor a stage is derived from it, and it keeps the stage of the scan before it."
+    },
+    {
+      "code": "CCO",
+      "wording": "Your parcel cleared customs successfully",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-26",
+      "note": "Scan code (Customs - Out) with no parcelHistory twin. Its country is the UNDEFINED placeholder, so the scan has no place."
+    },
+    {
+      "code": "ORI",
+      "wording": "Your parcel arrived at our depot",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-26",
+      "note": "Scan code (Origin depot - In), at the same instant as PARCEL_HANDED. Unmapped like its twin, so the event and the result stage both come from this wording; a stage here would disagree with the result stage and put accepted after customs on imports."
+    },
+    {
+      "code": "SPL",
+      "wording": "Your parcel is on its way",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05",
+      "note": "Scan code worded like IN_TRANSIT, seen both before and after ORI. Unmapped like IN_TRANSIT: it names no milestone of its own."
+    },
+    {
+      "code": "HUI",
+      "wording": "Your parcel arrived at our hub",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Scan code: arrival at a hub."
+    },
+    {
+      "code": "HUS",
+      "wording": "Your parcel is ready to be transported to our next premises",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Scan code: the hub sends the parcel on."
+    },
+    {
+      "code": "LHI",
+      "wording": "Your parcel is on its way",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Scan code worded like IN_TRANSIT, seen between the hub and the delivery depot."
+    },
+    {
+      "code": "DLI",
+      "wording": "Your parcel arrived at our delivery depot",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-26",
+      "note": "Scan code (Destination depot - Inbound), at the same instant as AT_DELIVERY_CENTER."
+    },
+    {
+      "code": "DLS",
+      "wording": "Your parcel has been sorted and is ready for delivery",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Scan code: sorted at the delivery depot, before DLO."
+    },
+    {
+      "code": "DLQ",
+      "wording": "Your parcel is at our delivery depot, it will soon be on its way",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "Scan code: waiting at the delivery depot, before DLO."
+    },
+    {
+      "code": "DLO",
+      "wording": "Your parcel is out for delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-26",
+      "note": "Scan code (Destination depot - Out for delivery), at the same instant as PARCEL_OUT_FOR_DELIVERY."
+    },
+    {
+      "code": "DEY",
+      "wording": "Your parcel has been delivered successfully",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-26",
+      "note": "Scan code (Delivery - Delivered), at the same instant as DELIVERED."
+    },
+    {
+      "code": "DEYY",
+      "wording": "We received the proof of delivery",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-26",
+      "note": "Scan code (Delivery - Proof of delivery), minutes after DEY with no place. Dropped when a delivery scan is listed or the enumeration is not DELIVERED; staged delivered only when it is the sole delivery evidence of a delivered parcel. Its podUrl is never kept."
+    },
+    {
+      "code": "PKY",
+      "wording": "We have collected your parcel",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-16",
+      "note": "Scan code, the driver's pickup from the sender, seen on a German parcel between ENA and the origin depot."
+    },
+    {
+      "code": "SPX",
+      "wording": "Your parcel is on our premises, it will soon be on its way",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-13",
+      "note": "Scan code, seen on a German parcel before the line haul."
+    },
+    {
+      "code": "DLR",
+      "wording": "We couldn't deliver your parcel and had to return it to the depot",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-13",
+      "note": "Scan code: a failed delivery round, back at the delivery depot."
+    },
+    {
+      "code": "DLW",
+      "wording": "Your parcel is being held at our delivery depot, your premises were closed",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-13",
+      "note": "Scan code: a failed delivery round, the recipient's premises closed."
+    },
+    {
+      "code": "DEX",
+      "wording": "We couldn't deliver your parcel, it will soon be available at a retrieval point. You will be informed of the location upon arrival",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-13",
+      "note": "Scan code: a failed delivery round; the parcel goes on to a pickup point."
+    },
+    {
+      "code": "DEXD",
+      "wording": "There was an issue to drop off your parcel due to a lack of space in the retrieval point",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Scan code: the round ended at a pickup point with no space for the parcel, which went back to the depot."
+    },
+    {
+      "code": "DEHD",
+      "wording": "Your parcel has been delivered to the retrieval point, it will soon be available for collection",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-13",
+      "note": "Scan code: the parcel reaches the pickup point, which is no delivery to the recipient."
+    },
+    {
+      "code": "DEHDY",
+      "wording": "Your parcel has been delivered to the retrieval point",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-13",
+      "note": "Scan code: the parcel reaches the pickup point, which is no delivery to the recipient."
+    },
+    {
+      "code": "DODEI",
+      "wording": "Your parcel is available at the retrieval point",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-13",
+      "note": "Scan code at the same instant as AVAILABLE_FOR_COLLECTION."
+    },
+    {
+      "code": "DOMSDLO",
+      "wording": "Your parcel is available at the retrieval point",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-13",
+      "note": "The notice of DODEI, sent without a place."
+    },
+    {
+      "code": "DODEY",
+      "wording": "You have collected your parcel",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-13",
+      "note": "Scan code at the same instant as DELIVERED: the recipient collected the parcel from the pickup point."
+    },
+    {
+      "code": "DODEYY",
+      "wording": "We received the proof of delivery",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-13",
+      "note": "The proof of delivery after a collection from a pickup point, read like DEYY."
+    },
+    {
+      "code": "SPE",
+      "wording": "Your parcel is estimated to be delivered on: <date>",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-07",
+      "note": "A delivery estimate or a changed delivery day, not a scan; the date follows the colon. It keeps the stage of the scan before it."
+    },
+    {
+      "code": "MSDLO",
+      "wording": "We informed you via email that your parcel will be delivered on <date>",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-06",
+      "note": "The notice DPD emailed for the delivery round, not a scan; it keeps the stage of the scan before it."
+    },
+    {
+      "code": "MSDLX",
+      "wording": "We couldn't send a notification with your delivery details",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "DPD failing to send the delivery details, not a scan: seen before and after the delivery round, it keeps the stage of the scan before it."
+    },
+    {
+      "code": "MIDLI",
+      "wording": "Your parcel will be delivered to a safe place according to your instructions",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05",
+      "note": "The recipient's delivery instruction, not a scan; it can come while DPD has only the label, and keeps the stage of the scan before it."
+    },
+    {
+      "code": "MIA",
+      "wording": "We received your delivery instructions",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-16",
+      "note": "The receipt of the recipient's delivery instruction, not a scan; it can come while DPD has only the label, and keeps the stage of the scan before it."
+    },
+    {
+      "code": "MII",
+      "wording": "Your parcel will be delivered to a safe place according to your instructions",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-16",
+      "note": "The recipient's delivery instruction, as MIDLI words it, not a scan; it keeps the stage of the scan before it."
+    },
+    {
+      "code": "ENA",
+      "wording": "We are exchanging data internally",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-02",
+      "note": "A data exchange inside DPD's systems, not a scan; seen twice before the parcel reached the origin depot."
+    },
+    {
+      "code": "CNP",
+      "wording": "We received your labelling information",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-19",
+      "note": "Scan code: DPD receives the label data, the first scan of a German parcel left at a pickup point, before ENA."
+    },
+    {
+      "code": "DOPKY",
+      "wording": "Your parcel has been dropped off in the retrieval point",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-19",
+      "note": "Scan code: the sender hands the parcel in at a pickup point, after ENA and before DODEH."
+    },
+    {
+      "code": "DODEH",
+      "wording": "Your parcel has been collected by the driver from the retrieval point",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-19",
+      "note": "Scan code: the driver takes the sender's hand-in from the pickup point on to the origin depot."
+    },
+    {
+      "code": "ORS",
+      "wording": "Your parcel is ready to be transported to our next premises",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-19",
+      "note": "Scan code worded like HUS, seen at the origin depot after DODEH."
+    }
+  ]
+}

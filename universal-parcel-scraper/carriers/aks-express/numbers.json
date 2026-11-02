@@ -1,0 +1,37 @@
+{
+  "carrier": "aks-express",
+  "records": [
+    {
+      "number": "6117109003",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171001003449/http://www.akskurir.com:80/AKSVipService/Pracenje/6117109003",
+        "date": "2017-10-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "An archived reply of AKS's own tracking API for this number; it shows a VIP order created in Beograd and then cancelled."
+    }
+  ]
+}

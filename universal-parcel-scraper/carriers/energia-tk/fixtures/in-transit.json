@@ -1,0 +1,160 @@
+{
+  "idSending": 90000000000011,
+  "docnum": "9902-0000002",
+  "idClientFrom": 90000000000012,
+  "idClientTo": 90000000000013,
+  "idCityFrom": 9002,
+  "idCityTo": 9001,
+  "cityFrom": {
+    "id": 9002,
+    "name": "Примерск"
+  },
+  "cityTo": {
+    "id": 9001,
+    "name": "Образцово"
+  },
+  "cargoName": "образцы",
+  "request": null,
+  "deliveryTo": null,
+  "weight": 31.5,
+  "volume": 0.2,
+  "places": 3,
+  "priceTripType": {
+    "id": 3,
+    "title": "ЖД"
+  },
+  "deliveryDateFrom": 1778803200,
+  "deliveryDateTo": 1779667200,
+  "deliveryDateFromFormatted": "15.05.2026",
+  "deliveryDateToFormatted": "25.05.2026",
+  "sendDate": "2026-05-04T05:16:00.000+00:00",
+  "senderIsPaid": true,
+  "recipientIsPaid": false,
+  "senderTotalPrice": 2100,
+  "recipientTotalPrice": 0,
+  "warehouseTo": {
+    "id": 29001,
+    "title": "Образцово Северная",
+    "address": "ул. Образцовая, 1",
+    "workTime": [
+      {
+        "day": 1,
+        "end": "18:00",
+        "begin": "09:00"
+      },
+      {
+        "day": 2,
+        "end": "18:00",
+        "begin": "09:00"
+      },
+      {
+        "day": 3,
+        "end": "18:00",
+        "begin": "09:00"
+      },
+      {
+        "day": 4,
+        "end": "18:00",
+        "begin": "09:00"
+      },
+      {
+        "day": 5,
+        "end": "18:00",
+        "begin": "09:00"
+      },
+      {
+        "day": 6,
+        "end": "15:00",
+        "begin": "10:00"
+      },
+      {
+        "day": 7,
+        "end": "",
+        "begin": ""
+      }
+    ],
+    "phone": "+7 (000) 000-0000",
+    "email": "sample@example.invalid",
+    "zipcode": 0,
+    "latitude": 50.1234,
+    "longitude": 40.5678,
+    "idCity": 9001,
+    "isInternal": 0,
+    "code": "9902",
+    "isIssuer": 1,
+    "type": 1,
+    "maxWeight": 800,
+    "maxVolume": 3,
+    "maxLength": 3,
+    "maxWidth": 2.4,
+    "maxHeight": 2.4,
+    "fulladdress": "г. Образцово, ул. Образцовая, 1",
+    "additionalAddressInfo": null
+  },
+  "isDelivery": false,
+  "states": [
+    {
+      "idState": 1,
+      "idSubState": 2,
+      "subStateTitle": "В пути",
+      "movingDate": 1778158571,
+      "movingDateFormatted": "07.05.2026",
+      "amount": 1,
+      "title": "На складе",
+      "stateInfo": {
+        "idWare": 29002,
+        "warehouse": {
+          "id": 29002,
+          "title": "МСК Образцовый П",
+          "address": "Логистическая ул., 7",
+          "workTime": null,
+          "phone": "+7 (000) 000-0000",
+          "email": "sample@example.invalid",
+          "zipcode": 0,
+          "latitude": 55.1111,
+          "longitude": 37.2222,
+          "idCity": 9003,
+          "isInternal": 0,
+          "code": "",
+          "isIssuer": 0,
+          "type": 1,
+          "maxWeight": 800,
+          "maxVolume": 3,
+          "maxLength": 3,
+          "maxWidth": 2.4,
+          "maxHeight": 2.4,
+          "fulladdress": "г. Примерная, Логистическая ул., 7",
+          "additionalAddressInfo": ""
+        },
+        "trip": null,
+        "issued": null
+      }
+    },
+    {
+      "idState": 2,
+      "idSubState": 2,
+      "subStateTitle": "В пути",
+      "movingDate": 1778228134,
+      "movingDateFormatted": "08.05.2026",
+      "amount": 2,
+      "title": "В рейсе",
+      "stateInfo": {
+        "idWare": 0,
+        "warehouse": null,
+        "trip": {
+          "id": 90000000000020,
+          "cityFrom": {
+            "id": 9003,
+            "name": "ПРИМЕРНАЯ"
+          },
+          "cityTo": {
+            "id": 9001,
+            "name": "Образцово"
+          },
+          "date": 1778180410
+        },
+        "issued": null
+      }
+    }
+  ]
+}

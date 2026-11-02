@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Seguir Envio | Transporte e Estafetagem em Portugal</title>
+    <link rel="canonical" href="https://www.viadireta.pt/tracking">
+    <script>window.vdRecaptchaKey = 'synthetic-site-key';</script>
+    <script src="https://www.google.com/recaptcha/api.js?render=synthetic-site-key" async defer></script>
+</head>
+<body>
+    <main>
+        <section class="page-header">
+    <h1>Seguir Envio</h1>
+    <p>Acompanhe o estado da sua encomenda em tempo real.</p>
+</section>
+
+<section class="content">
+    <div class="container" style="max-width:680px;">
+        <div class="card form-light">
+            <form method="GET" action="https://www.viadireta.pt/tracking">
+                <div class="form-field">
+                    <label for="codigo">Número de envio</label>
+                    <input type="text" id="codigo" name="codigo"
+                           placeholder="Ex: VD0000000000"
+                           value="VD900000000099"
+                           autocomplete="off">
+                </div>
+                <button type="submit" class="btn btn-block">SEGUIR ENVIO</button>
+            </form>
+
+                                        <div class="alert alert-error" style="margin-top:24px;">
+                    Pedimos desculpa, mas ainda não está a ser possível verificar o estado da sua encomenda. Por favor, tente novamente mais tarde, ou utilize o formulário de contacto clicando no botão abaixo.<!--A API retornou um erro inesperado. Tente mais tarde.-->
+                </div>
+
+                        <div class="trk-actions" style="margin-top:16px;">
+                <button type="button" class="trk-action-btn trk-action-btn-info" onclick="document.getElementById('trkErrModal').classList.add('open')">
+                    NÃO SEI O NÚMERO DA MINHA ENCOMENDA
+                </button>
+            </div>
+                    </div>
+
+            <div id="trkErrModal" class="cand-overlay" role="dialog" aria-modal="true">
+                <div class="cand-dialog">
+                    <form id="trkErrForm" action="https://www.viadireta.pt/tracking/info" novalidate>
+                        <input type="hidden" name="_token" value="synthetic-token" autocomplete="off">
+                        <label>Nº de Envio</label>
+                        <input type="text" name="codigo" value="VD900000000099" maxlength="50">
+                        <input type="email" name="email" required maxlength="200">
+                        <textarea name="mensagem" required maxlength="3000" rows="5"></textarea>
+                    </form>
+                </div>
+            </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="site-footer">
+        <form method="GET" action="https://www.viadireta.pt/tracking" class="footer-track-form">
+            <label for="footerTrackCode">Seguir Envio</label>
+            <input id="footerTrackCode" type="text" name="codigo" placeholder="Número de envio: VD0000000000" autocomplete="off">
+            <button type="submit">SEGUIR</button>
+        </form>
+        <p>© 2026 ViaDireta - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

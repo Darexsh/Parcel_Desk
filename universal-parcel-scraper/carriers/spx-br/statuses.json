@@ -1,0 +1,409 @@
+{
+  "carrier": "spx-br",
+  "entries": [
+    {
+      "code": "A000",
+      "wording": "SLSTN has been created, sending request to logistic partners",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F000",
+      "wording": "Pedido em preparação",
+      "language": "pt",
+      "stage": "registered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F000",
+      "wording": "Recebemos o seu pedido no nosso armazém e estamos preparando para envio.",
+      "language": "pt",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "Cross-border parcels: the line once the overseas warehouse has the order."
+    },
+    {
+      "code": "F004",
+      "wording": "Motorista localizado, favor aguardar a realização da coleta.",
+      "language": "pt",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F001",
+      "wording": "Não conseguimos coletar o pedido: Remetente não preparou o pedido",
+      "language": "pt",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page. A failed pickup leaves the parcel with its seller."
+    },
+    {
+      "code": "F098",
+      "wording": "Pedido postado",
+      "language": "pt",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "The seller's drop-off at a point in Brazil, before SPX collects the parcel from it. The wording goes on to name the point's town, which is left out."
+    },
+    {
+      "code": "F099",
+      "wording": "Pickup From Cross Border Seller",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "No Portuguese line of its own; the English tracking name stands in."
+    },
+    {
+      "code": "F100",
+      "wording": "Seu pedido foi coletado",
+      "language": "pt",
+      "stage": "accepted",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F200",
+      "wording": "[China] O pedido chegou ao centro de triagem de <location>",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F210",
+      "wording": "Reetiquetagem no Armazém de Trânsito",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F219",
+      "wording": "Remarcado no Armazém de Trânsito",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F230",
+      "wording": "Embalando no Armazém de Trânsito",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F239",
+      "wording": "Embalado no Armazém de Trânsito",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F202",
+      "wording": "Pedido chegou no centro logístico de transferência",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F207",
+      "wording": "Transit Warehouse Transfer Received",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F206",
+      "wording": "Pedido saiu do centro logístico",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F299",
+      "wording": "[China] Pedido saiu do centro logístico de <location>",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F300",
+      "wording": "[China]O pedido foi coletado pela transportadora responsável pelo envio ao Brasil.",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F302",
+      "wording": "Forwarder warehouse outbound",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F339",
+      "wording": "[China]O pedido foi liberado na alfândega de exportação",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Export clearance is a transit milestone."
+    },
+    {
+      "code": "F341",
+      "wording": "Pedido saiu da origem: <location>",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F350",
+      "wording": "Pedido chegou no porto de trânsito: <location>",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F355",
+      "wording": "Pedido saiu do porto de trânsito : <location>",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F360",
+      "wording": "Pedido chegou no Brasil",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F410",
+      "wording": "Parcel inbounded import dispatch warehouse",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F419",
+      "wording": "Pedido em transferência para última etapa",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "After the customs release, before the last-mile hub (F599)."
+    },
+    {
+      "code": "F366",
+      "wording": "Pedido está na alfândega de importação",
+      "language": "pt",
+      "stage": "customs",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F370",
+      "wording": "Pedido está sendo processado pela alfândega de importação",
+      "language": "pt",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F380",
+      "wording": "Pedido em inspeção na alfândega de importação",
+      "language": "pt",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "note": "Some checks add the customs reason after a colon."
+    },
+    {
+      "code": "F399",
+      "wording": "Import Customs Cleared",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Released by customs. Seen without a Portuguese line."
+    },
+    {
+      "code": "F979",
+      "wording": "O pacote não pôde ser importado, será retornado ou confiscado pela alfândega",
+      "language": "pt",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "note": "Customs refused the import."
+    },
+    {
+      "code": "F440",
+      "wording": "Seu pedido chegou ao centro logístico: <location>",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F441",
+      "wording": "Parcel is loaded into truck, to leave first mile hub soon",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F450",
+      "wording": "Seu pedido saiu do centro logístico: <location>",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F510",
+      "wording": "O pedido chegou ao centro de : <location> e segue para a próxima etapa.",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F515",
+      "wording": "O pedido está em separação no centro logístico, novas atualizações em até 1 dia.",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F541",
+      "wording": "Seu pedido foi carregado e deixará o centro de triagem em breve",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F540",
+      "wording": "Seu pedido saiu do centro logístico: <location>",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F580",
+      "wording": "System reminder: Not in use, no need edit yet.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page. The line is a placeholder; the code is the line haul's arrival at the sorting centre."
+    },
+    {
+      "code": "F550",
+      "wording": "Pedido em trânsito",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "A103",
+      "wording": "Seu pedido foi processado e avançará em breve. Acompanhe as próximas atualizações!",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "A103",
+      "wording": "Seu pedido está em processamento logístico ( <location> ).",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F596",
+      "wording": "Pedido embalado no hub",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F599",
+      "wording": "Seu pedido chegou ao último centro logístico: <location>",
+      "language": "pt",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F600",
+      "wording": "Pedido em rota de entrega para seu endereço, aguarde pelas próximas horas.",
+      "language": "pt",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F650",
+      "wording": "Houve um imprevisto durante a entrega do seu pedido e, por isso, ela não pôde ser concluída hoje. Estamos reorganizando a rota para realizar uma nova tentativa o quanto antes.",
+      "language": "pt",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "note": "A delivery that could not be completed that day, with another attempt to follow."
+    },
+    {
+      "code": "F980",
+      "wording": "Pedido entregue",
+      "language": "pt",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "note": "The buyer's line adds who took the parcel; that line is not read."
+    },
+    {
+      "code": "F671",
+      "wording": "Pedido de devolução chegou no centro logístico: <location>",
+      "language": "pt",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F672",
+      "wording": "Parcel is packed for transportation in",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F674",
+      "wording": "Parcel has been loaded to truck, to leave soon",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F677",
+      "wording": "Pedido de devolução está a caminho .",
+      "language": "pt",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "note": "Hidden on the public page."
+    },
+    {
+      "code": "F680",
+      "wording": "Pedido será devolvido ao vendedor",
+      "language": "pt",
+      "stage": "returned",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "F999",
+      "wording": "Pedido devolvido",
+      "language": "pt",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "note": "Back with the seller."
+    }
+  ]
+}

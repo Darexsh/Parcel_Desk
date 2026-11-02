@@ -1,0 +1,231 @@
+{
+  "carrier": "ptt",
+  "records": [
+    {
+      "number": "2783745005292",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/ptt-kargo/takip-edemiyorum",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "A complaint on Şikayetvar's PTT Kargo page gives it as the parcel's tracking number. PTT's shipment query returns its history; no rule claims thirteen digits."
+    },
+    {
+      "number": "2719919119816",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/ptt-kargo/takip-edemiyorum",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "A complaint on Şikayetvar's PTT Kargo page gives it as the parcel's tracking number."
+    },
+    {
+      "number": "kp06670762705",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/ptt-kargo/takip-edemiyorum",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ptt",
+        "confidence": "high"
+      },
+      "note": "A complaint on Şikayetvar's PTT Kargo page gives it as the parcel's barcode number."
+    },
+    {
+      "number": "2783840658119",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/ptt-kargo/kod/takip-numarasi",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "A complaint on Şikayetvar's PTT Kargo page gives it as the parcel's barcode number."
+    },
+    {
+      "number": "KP06703843678",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/ptt-kargo/kod/takip-numarasi",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ptt",
+        "confidence": "high"
+      },
+      "note": "A complaint on Şikayetvar's PTT Kargo page gives it as the parcel's tracking number. PTT's shipment query returns its history."
+    },
+    {
+      "number": "kp06294374750",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/ptt-kargo/takip-no-gelmedi",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ptt",
+        "confidence": "high"
+      },
+      "note": "A complaint on Şikayetvar's PTT Kargo page gives it as the parcel's tracking number."
+    },
+    {
+      "number": "6192602607450",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/ptt-kargo/takip-no-gelmedi",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fedex-pl"
+        ]
+      },
+      "note": "A complaint on Şikayetvar's PTT Kargo page gives it as the parcel's tracking number."
+    },
+    {
+      "number": "2754440996314",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/ptt-kargo/takip-no-gelmedi",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "A complaint on Şikayetvar's PTT Kargo page gives it as the parcel's tracking number."
+    },
+    {
+      "number": "RR383182593TR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/ptt-kargo/yurt-disi/takip-numarasi",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A complaint on Şikayetvar's PTT Kargo page gives it as a registered letter's tracking number to Spain. PTT's shipment query returns its history; detection selects the generic postal carrier."
+    },
+    {
+      "number": "CP078296555TR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/ptt-kargo/yurt-disi/takip-numarasi",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A complaint on Şikayetvar's PTT Kargo page gives it as an international parcel's tracking number. PTT's shipment query returns its history; detection selects the generic postal carrier."
+    },
+    {
+      "number": "EM020412924TR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.sikayetvar.com/ptt-kargo/yurt-disi/takip-numarasi",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A complaint on Şikayetvar's PTT Kargo page gives it as an EMS item's tracking number to Montenegro."
+    }
+  ]
+}

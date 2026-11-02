@@ -1,0 +1,32 @@
+{
+  "tracking_number": "640000000000000000000001",
+  "service": "inpost_locker_standard",
+  "type": "inpost_locker_standard",
+  "status": "delivered",
+  "custom_attributes": {
+    "size": "A",
+    "target_machine_id": "EXA001",
+    "target_machine_detail": {
+      "name": "EXA001",
+      "address": { "line1": "Example Street 1", "line2": "00-000 Exampletown" },
+      "type": ["parcel_locker"],
+      "location_description": "PRIVATE_SYNTHETIC_POINT_DETAIL",
+      "location": { "latitude": 50, "longitude": 20 },
+      "opening_hours": "24/7"
+    },
+    "dropoff_machine_detail": {
+      "name": "PRIVATE_SYNTHETIC_SENDER_POINT",
+      "address": { "line1": "PRIVATE_SYNTHETIC_SENDER_ADDRESS" }
+    }
+  },
+  "tracking_details": [
+    { "status": "delivered", "origin_status": "DOR", "datetime": "2026-05-04T10:00:00.000+02:00" },
+    { "status": "ready_to_pickup", "origin_status": "UWP", "datetime": "2026-05-03T09:00:00.000+02:00" },
+    { "status": "adopted_at_sorting_center", "origin_status": "PWP", "datetime": "2026-05-02T12:00:00.000+02:00" }
+  ],
+  "expected_flow": [
+    { "status": "returned_to_sender" }
+  ],
+  "created_at": "2026-05-01T08:00:00.000+02:00",
+  "updated_at": "2026-05-04T10:00:00.000+02:00"
+}

@@ -1,0 +1,20 @@
+{
+  "carrier": "citymail",
+  "entries": [
+    {"wording": "Vi har fått beställning på en leverans till dig och väntar på ditt paket", "stage": "registered", "language": "sv", "confirmedBy": "portal", "note": "The sender booked the delivery; CityMail is waiting for the parcel."},
+    {"wording": "Paketet har aviserats, men ännu inte lämnats in till CityMail", "stage": "registered", "language": "sv", "confirmedBy": "portal", "note": "Pre-advised by the sender but not yet handed to CityMail."},
+    {"wording": "Försändelsen har aviserats, men ännu inte lämnats in till CityMail", "stage": "registered", "language": "sv", "confirmedBy": "portal", "note": "The same pre-advice on CityMail's former mailbox-parcel tracker."},
+    {"wording": "Paketet har ankommit till terminal", "stage": "in_transit", "language": "sv", "confirmedBy": "portal", "note": "Arrived at a CityMail terminal, which the location column names."},
+    {"wording": "Paket har ankommit till vår terminal", "stage": "in_transit", "language": "sv", "confirmedBy": "portal", "note": "Arrived at a CityMail terminal; a newer wording of the same scan."},
+    {"wording": "Paketet förbereds för leverans", "stage": "in_transit", "language": "sv", "confirmedBy": "portal", "note": "Sorted for the delivery round; one capture shows it days before the estimated delivery date, so it does not mean out for delivery."},
+    {"wording": "Paketet är utdelat, vid dörr/finns i påse på brevlåda", "stage": "delivered", "language": "sv", "confirmedBy": "portal", "note": "Delivered at the door or in a bag on the letterbox."},
+    {"wording": "Paketet har levererats hem till dig", "stage": "delivered", "language": "sv", "confirmedBy": "portal", "note": "Delivered to the recipient's home."},
+    {"wording": "Vi har fått en beställning på en leverans och väntar på paketet", "stage": "registered", "language": "sv", "confirmedBy": "portal", "note": "The booking, in a wording without \"till dig\"; CityMail is waiting for the parcel."},
+    {"wording": "Paketet har levererats till din brevlåda/postfack", "stage": "delivered", "language": "sv", "confirmedBy": "portal", "note": "Delivered to the recipient's letterbox or PO box; the location column names the delivery postcode and town."},
+    {"wording": "Leveransen kunde inte genomföras, brevlåda saknades på adressen", "stage": "failed_attempt", "language": "sv", "confirmedBy": "portal", "note": "No letterbox at the address; the location is the CityMail office the parcel went back to. One capture shows it minutes after a letterbox delivery scan."},
+    {"wording": "Namn saknades på adressen - leveransen kunde inte genomföras", "stage": "failed_attempt", "language": "sv", "confirmedBy": "portal", "note": "No name on the address; the parcel went back to the CityMail office and was then sent to a service point."},
+    {"wording": "Paketet är på väg till ombud", "stage": "in_transit", "language": "sv", "confirmedBy": "portal", "note": "On the way from a CityMail office to a service point (ombud)."},
+    {"wording": "Paketet har levererats till ombud", "stage": "ready_for_pickup", "language": "sv", "confirmedBy": "portal", "note": "Left at a service point for collection; the location column names the point."},
+    {"wording": "Paketet hämtades inte ut i tid och skickas tillbaka till avsändaren", "stage": "returned", "language": "sv", "confirmedBy": "portal", "note": "Not collected from the service point in time and sent back to the sender."}
+  ]
+}

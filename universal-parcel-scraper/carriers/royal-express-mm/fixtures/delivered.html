@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="SyntheticFormToken0000000000000000000000" />
+    <title>Royal Express | Track</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+                <form action="https://royalx.net/tracking" method="POST" class="closemodal">
+                    <input type="hidden" name="_token" value="SyntheticFormToken0000000000000000000000">
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter Your Waybill Number" name="waybill-number"
+                            class="search-form-area form-control-lg form-track" id="exampleFormControlInput1"
+                            required>
+                        <div class="input-group-append">
+                            <button id="button-addon5" type="submit" class="btn btn-danger sear-btn"><i
+                                class="fa fa-search"></i>&nbsp;&nbsp;Search</button>
+                        </div>
+                    </div>
+                </form>
+        </nav>
+    </div>
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container p-2 text-center">
+            <h5 class="animated slideInDown hero-title">Tracking</h5>
+
+        </div>
+        <div class="container">
+            <form action="https://royalx.net/tracking" method="POST">
+                <input type="hidden" name="_token" value="SyntheticFormToken0000000000000000000000">
+                                    
+                                            <div class="row p-3">
+
+                            <div class="col-lg-3"></div>
+                            <div class="col-lg-3">
+                                <div class="">
+                                    <h6><label for="">Enter Your Waybill Nubmer</label></h6>
+                                </div>
+                                <input type="text" class="form-control mb-3 tracking-input" value="YGN00000001MDY" name="waybill-number"
+                                    id="exampleFormControlInput1" autocomplete="off" required>
+                            </div>
+                            <div class="col-lg-3">
+                                <label for=""></label>
+                                <button class="btn btn-danger tracking-search">Search</button>
+                            </div>
+                            <div class="col-lg-3"></div>
+                        </div>
+                                                </form>
+        </div>
+    </div>
+    <!-- tab section -->
+    <div class="container py-4">
+                       <div class="row">
+            <div class="col-lg-4">
+                <div class="">
+                    <h6>Tracking No.<span class="text-danger"> YGN00000001MDY</span></h6>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h6>Sender</h6>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="sub-headers">
+                                    <p><b>From :</b></p>
+                                </td>
+                                <td class="waybill-info">
+                                    <p>Yangon</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="sub-headers">
+                                    <p><b>Name :</b></p>
+                                </td>
+                                <td class="waybill-info">
+                                    <p>Synthetic Shop</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h6>Receiver</h6>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="sub-headers">
+                                    <p><b>To :</b></p>
+                                </td>
+                                <td class="waybill-info">
+                                    <p>Mandalay</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="sub-headers">
+                                    <p><b>Name : </b></p>
+                                </td>
+                                <td class="waybill-info">
+                                    <p> Ma Example ,</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                    <table>
+                                                        <thead>
+                                    <tr>
+                                        <th>
+                                            <h6>Recipient</h6>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="sub-headers">
+                                            <p><b>Name :</b></p>
+                                        </td>
+                                        <td class="waybill-info">
+                                            <p> MA EXAMPLE</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                                    </table>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                                    <div class="tracking-process">
+                       
+                        <ul class="timeline">
+                           
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">delivery</span>
+                                    -<span class="fw-semibold">completed</span></span>
+                                <p class="draft">2026-02-12 15:06:38 : MDY-C9 ရုံးမှ အောင်မြင်စွာ ပို့ဆောင်ပြီးပါပြီ။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">delivery</span>
+                                    -<span class="fw-semibold">ongoing</span></span>
+                                <p class="draft">2026-02-12 14:56:36 : MDY-C9 ရုံးမှ သွားရောက်ပို့ဆောင်နေပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">delivery</span>
+                                    -<span class="fw-semibold">accepted</span></span>
+                                <p class="draft">2026-02-12 09:09:45 : MDY-C9 ရုံးမှ ပို့ဆောင်ရန် ပြင်ဆင်နေပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">delivery</span>
+                                    -<span class="fw-semibold">reattempted</span></span>
+                                <p class="draft">2026-02-11 13:34:24 : MDY-C9 ရုံးမှ ထပ်မံပို့ဆောင်ရန် ဆောင်ရွက်ထားပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">delivery</span>
+                                    -<span class="fw-semibold">rejected</span></span>
+                                <p class="draft">2026-02-11 12:44:35 : MDY-C9 ရုံးမှ ပို့ဆောင်ခြင်း မအောင်မြင်ခဲ့သောကြောင့် ဆိုင်းငံ့ထားပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">delivery</span>
+                                    -<span class="fw-semibold">rejected</span></span>
+                                <p class="draft">2026-02-11 12:44:35 : MDY-C9 ရုံးမှ ပို့ဆောင်ခြင်း မအောင်မြင်ခဲ့သောကြောင့် ဆိုင်းငံ့ထားပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">delivery</span>
+                                    -<span class="fw-semibold">accepted</span></span>
+                                <p class="draft">2026-02-11 09:04:18 : MDY-C9 ရုံးမှ ပို့ဆောင်ရန် ပြင်ဆင်နေပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">Transit</span>
+                                    -<span class="fw-semibold">inbound received</span></span>
+                                <p class="draft">2026-02-10 12:36:45 : MDY-C9(MDY-C9) ရုံးမှ စာဝင်လက်ခံရရှိပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">Transit</span>
+                                    -<span class="fw-semibold">inbound received</span></span>
+                                <p class="draft">2026-02-10 09:33:29 : MDY-ST9 ရုံးမှ စာဝင်လက်ခံရရှိပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">Transit</span>
+                                    -<span class="fw-semibold">outbound received</span></span>
+                                <p class="draft">2026-02-09 19:59:48 : YGN-HB9(ရန်ကုန်) ရုံးမှ စာဝင်လက်ခံရရှိပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">Transit</span>
+                                    -<span class="fw-semibold">outbound collected</span></span>
+                                <p class="draft">2026-02-09 13:39:15 : YGN-C9(ရန်ကုန် (အရှေ့ပိုင်း)) ရုံးမှ စာဝင်လက်ခံရရှိပါသည်။</p>
+                            </li>
+                                                        <li class="event" data-date="">
+                                <span class="fs-18 text-capitalize"><span
+                                        class="text-danger">pickup</span>
+                                    -<span class="fw-semibold">completed</span></span>
+                                <p class="draft">2026-02-09 11:02:10 : YGN-C9 ရုံးမှ သွားရောက်ကောက်ယူထားပါသည်။</p>
+                            </li>
+                        </ul>
+                    </div>
+                                </div>
+      </div>
+                </div>
+
+    <input type="hidden" id="url" value="https://royalx.net">
+    <input type="hidden" id="token" value="SyntheticFormToken0000000000000000000000">
+    <input type="hidden" id="lang" value="en">
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+{
+  "carrier": "fragilepak",
+  "records": [
+    {
+      "number": "9024466707",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251116164551/http://tracking.agentgrid.net/progistics/?id=9024466707",
+        "date": "2025-11-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es",
+          "fragilepak"
+        ]
+      },
+      "note": "An archived link to FragilePAK's tracking page carries this number (ten digits); the page asks for the ZIP code before it shows the delivery."
+    },
+    {
+      "number": "902500897X",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251029111821/http://tracking.agentgrid.net/progistics/?id=902500897X",
+        "date": "2025-10-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fragilepak"
+        ]
+      },
+      "note": "An archived link to FragilePAK's tracking page carries this number (nine digits and X); the page asks for the ZIP code before it shows the delivery."
+    }
+  ]
+}

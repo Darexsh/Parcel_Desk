@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <title>Gönderi Takip | DHL eCommerce</title>
+</head>
+<body>
+<main>
+  <section class="shipmentQuery">
+    <div class="container">
+      <h1>Gönderim Nerede?</h1>
+      <p>Lütfen 12 haneli gönderi takip numaranızı giriniz.</p>
+      <div class="tabs">
+        <a href="javascript:;" class="active">Gönderi Takip Numarası ile Sorgulama</a>
+        <a href="javascript:;">Sipariş Numarası ile Sorgulama</a>
+      </div>
+      <form class="shipmentFormStandard" id="shipmentFormStandard" autocomplete="off" method="post" action="/gonderi-takip" data-name="Gönderi Takip">
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8SYNTHETICTOKENaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_bbbbbbbbbbbb-cccc" />
+        <div class="inputBox">
+          <input type="text" class="form_shipment input-text" name="form_shipment" id="form_shipment" placeholder="Gönderi Numarası" maxlength="12" minlength="6" required>
+        </div>
+        <div class="linkBox"><a><span>Sorgula</span></a></div>
+      </form>
+    </div>
+  </section>
+</main>
+</body>
+</html>

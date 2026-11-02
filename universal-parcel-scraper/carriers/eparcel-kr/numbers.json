@@ -1,0 +1,43 @@
+{
+  "carrier": "eparcel-kr",
+  "records": [
+    {
+      "number": "EPH220045674KR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220211024009/https://eparcel.kr/Track/Result?mode=0&ids=EPH220045674KR&lang=en-US",
+        "date": "2022-02-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "eparcel-kr",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on eParcel Korea's own tracker shows the parcel flown from Incheon to Manila, with Ninja Van named as the delivery company in the Philippines."
+    },
+    {
+      "number": "ETH220178652KR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220428050749/https://eparcel.kr/Track/Result?mode=0&ids=ETH220178652KR&lang=en-US",
+        "date": "2022-04-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "eparcel-kr",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on eParcel Korea's own tracker shows the parcel released from the warehouse for Thailand, with Janio named as the delivery company there."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "carrier": "tfm-express",
+  "entries": [
+    {"code": "Shipment Created", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The first row, with no activity: the sender booked the airwaybill and printed its label."},
+    {"code": "Picked up", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Collected from the sender; the row has no activity."},
+    {"code": "Received at HUB", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The row has no activity."},
+    {"code": "Out for Delivery", "wording": "Shipment Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"code": "Consignee not available", "wording": "Not at Home/Office", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "A delivery round that found nobody in; the parcel went out again the next day."},
+    {"code": "Delivered", "wording": "Shipment delivered to Consignee", "stage": "delivered", "language": "en", "confirmedBy": "live"}
+  ]
+}

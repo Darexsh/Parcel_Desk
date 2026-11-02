@@ -1,0 +1,54 @@
+{
+  "id": "znlogic",
+  "displayName": "Zinc",
+  "aliases": [
+    "ZNlogic",
+    "ZNLOGIC",
+    "ZN Logic",
+    "Zinc Tracking",
+    "Zinc Technologies Inc."
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#ac7138"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.link/tracking?tracking_id={trackingNumber}",
+    "searchUrl": "https://tracking.link/tracking",
+    "canaryUrl": "https://tracking.link/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.link"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "tracking_id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "znlogic-1",
+      "pattern": "^ZPY[A-Z]{2}\\d{10}YQ$",
+      "confidence": "low"
+    }
+  ]
+}

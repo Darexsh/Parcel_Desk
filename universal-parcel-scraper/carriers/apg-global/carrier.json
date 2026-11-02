@@ -1,0 +1,44 @@
+{
+  "id": "apg-global",
+  "displayName": "APG Global",
+  "aliases": [
+    "APG International",
+    "Aprisa Express",
+    "Pakya"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#294e9d"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.apg-global.com/Home/Track?trackings=%5B%22{trackingNumber}%22%5D",
+    "searchUrl": "https://tracking.apg-global.com/",
+    "canaryUrl": "https://tracking.apg-global.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.apg-global.com"
+      ],
+      "pathPattern": "^/Home/Track/?$",
+      "query": "(?:^|&)trackings=\\[\\s*\"([^\"]+)\""
+    }
+  ],
+  "detection": []
+}

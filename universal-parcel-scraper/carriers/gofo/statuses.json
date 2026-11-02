@@ -1,0 +1,158 @@
+{
+  "carrier": "gofo",
+  "entries": [
+    {
+      "code": "100",
+      "wording": "Shipping Label Created",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "101",
+      "wording": "Label Cancelled",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-23",
+      "note": "The label voided after code 100 created it, and no scan follows: no parcel is coming under the number."
+    },
+    {
+      "code": "802",
+      "wording": "Pickup Exception, GOFO has not Received the Package from the Warehouse yet.",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "GOFO has not received the parcel from the sender's warehouse yet."
+    },
+    {
+      "code": "216",
+      "wording": "Pick Up Start",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-24",
+      "note": "GOFO has started collecting the parcel from the sender; it does not hold it yet."
+    },
+    {
+      "code": "801",
+      "wording": "Pick Up Success",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-24",
+      "note": "GOFO collected the parcel from the sender."
+    },
+    {
+      "code": "206",
+      "wording": "Delivery Exception, Business Closed",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-24",
+      "note": "A delivery attempt that failed; the reason after the comma varies."
+    },
+    {
+      "code": "612",
+      "wording": "Arrived at Sorting Center",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-23",
+      "note": "Before the regional hub's arrival scan."
+    },
+    {
+      "code": "202",
+      "wording": "Arrived at GOFO Regional Hub",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "202",
+      "wording": "Arrived at GOFO Regional Origin Hub",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "GOFO's first physical scan after the label; the same code names later hubs on the way."
+    },
+    {
+      "code": "200",
+      "wording": "Loaded on Vehicle",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "201",
+      "wording": "Arrived at GOFO Delivery Station",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "203",
+      "wording": "Departed GOFO Delivery Station",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "411",
+      "wording": "Departed GOFO Regional Hub",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "code": "412",
+      "wording": "In Transit to Next Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08"
+    },
+    {
+      "code": "414",
+      "wording": "In Transit to Next Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-14"
+    },
+    {
+      "code": "810",
+      "wording": "In Transit to Next Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-14"
+    },
+    {
+      "code": "820",
+      "wording": "Processing at GOFO Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-30",
+      "note": "A sort at a GOFO facility after the parcel's arrival at its regional hub."
+    },
+    {
+      "code": "208",
+      "wording": "Out for Delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "205",
+      "wording": "Delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "carrier": "envia-colombia",
+  "entries": [
+    {"wording": "Tu guía fue generada", "stage": "registered", "language": "es", "confirmedBy": "live", "note": "Milestone of the tracking page: the guía is made and the parcel not yet collected. Dated without a time of day."},
+    {"wording": "Tu envío está en movimiento.", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Milestone of the tracking page, at the collection's clock."},
+    {"wording": "¡Prepárate para recibirlo!", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live", "note": "Milestone of the tracking page: the couriers are delivering in the recipient's area."},
+    {"wording": "Entregado", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Milestone of the tracking page."},
+    {"code": "13", "wording": "ENTREGADA DIGITALIZADA EN TURBACO", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Current state of the guía's record, delivered with its proof filed; the wording names the town."},
+    {"code": "13", "wording": "ENTREGADA DIGITALIZADA EN BUENAVENTURA", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Current state of the guía's record, delivered with its proof filed; the wording names the town."},
+    {"wording": "Recogida", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Milestone of the archived tracker: collected from the sender."},
+    {"wording": "En bodega origen", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Milestone of the archived tracker; the page appends the origin city."},
+    {"wording": "En despacho", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Milestone of the archived tracker: dispatched towards the destination."},
+    {"wording": "En reparto", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal", "note": "Milestone of the archived tracker."},
+    {"wording": "Entregado", "stage": "delivered", "language": "es", "confirmedBy": "portal", "note": "Milestone of the archived tracker."}
+  ]
+}

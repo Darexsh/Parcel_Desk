@@ -1,0 +1,18 @@
+{
+  "carrier": "slovak-parcel-service",
+  "entries": [
+    { "code": "8", "wording": "Definícia dát", "language": "sk", "stage": "registered", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The sender's data record: SPS has the label details, not yet the parcel. Its center is SPS's billing department, so it carries no location." },
+    { "code": "44", "wording": "Odnáška", "language": "sk", "stage": "accepted", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "A courier collected the parcel from the sender. The former Webtrace tracker words it as Pickup." },
+    { "code": "10", "wording": "Prvá registrácia", "language": "sk", "stage": "accepted", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The first scan in an SPS depot, usually right after the pickup. Webtrace words it as Initialization." },
+    { "code": "20", "wording": "Vstup", "language": "sk", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The parcel entered a depot. Webtrace words it as Entry." },
+    { "code": "30", "wording": "Doručovací hárok", "language": "sk", "stage": "out_for_delivery", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The parcel is on the courier's delivery sheet for the day. Webtrace words it as Loaded for Delivery." },
+    { "code": "72", "wording": "Uložený v balíkomate", "language": "sk", "stage": "ready_for_pickup", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The parcel was placed in a parcel locker for the recipient to collect." },
+    { "code": "40", "wording": "Doručenie", "language": "sk", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The website takes the delivery date from this code. Webtrace words it as Confirmation of Delivery." },
+    { "code": "100", "wording": "Balík odmietnutý", "language": "sk", "stage": "exception", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The recipient refused the parcel. Webtrace words it as Refused." },
+    { "code": "60", "wording": "Uskladnené", "language": "sk", "stage": "exception", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The depot holds the parcel in storage; seen after a refusal and before the return to the sender." },
+    { "code": "260", "wording": "Návrat odosielateľovi", "language": "sk", "stage": "returned", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The parcel goes back to its sender. Webtrace words it as Return to Shipper." },
+    { "code": "42", "wording": "Informácia o doručení", "language": "sk", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "Information recorded with a delivery, minutes before it: not a movement, so the parcel keeps the stage it had." },
+    { "code": "41", "wording": "Editor hotovosti", "language": "sk", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The depot books the cash collected on delivery: a payment step, not a movement, so the parcel keeps the stage it had." },
+    { "code": "68", "wording": "Dobierka odoslaná zákaznikoví", "language": "sk", "confirmedBy": "live", "firstSeen": "2026-10-12", "note": "The cash on delivery was sent on to the sender, days after the delivery: a payment step, not a movement. Webtrace words it as COD sent to customer." }
+  ]
+}

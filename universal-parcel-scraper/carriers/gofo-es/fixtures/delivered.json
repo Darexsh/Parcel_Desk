@@ -1,0 +1,131 @@
+{
+  "msg": "Operación exitosa",
+  "code": 200,
+  "data": [
+    {
+      "waybillNo": "GFES00000000000001",
+      "status": "Delivered",
+      "trackEventCount": 10,
+      "trackingNumber": "GFES00000000000001",
+      "frCountry": "ES",
+      "toCountry": "ES",
+      "thirdNo": null,
+      "serviceName": "GOFO Parcel",
+      "weight": 1.0,
+      "intervalDays": "4.00",
+      "intervalWorkdays": "4.00",
+      "expectedDeliveryTime": null,
+      "edtType": null,
+      "edtStartTime": null,
+      "edtEndTime": null,
+      "createTime": "2026-01-01T12:00:00.000+0100",
+      "number": "PRIVATE REFERENCE",
+      "sign": "PRIVATE SIGNATURE",
+      "podImgList": [
+        "PRIVATE PROOF"
+      ],
+      "lastTrackEvent": {
+        "processDate": "2026-01-05T12:00:00.000+0100",
+        "processContent": "Entregado por En persona, PIN: No, Número de puerta: PRIVATE PRIVATE SUPPORT DETAIL",
+        "processLocation": "Ciudad Ejemplo,Provincia Ejemplo",
+        "processCode": "205",
+        "mainContent": "Entregado por En persona, PIN: No, Número de puerta: PRIVATE",
+        "subContent": " PRIVATE SUPPORT DETAIL",
+        "trackStatus": "6"
+      },
+      "trackEventList": [
+        {
+          "processDate": "2026-01-05T12:00:00.000+0100",
+          "processContent": "Entregado por En persona, PIN: No, Número de puerta: PRIVATE PRIVATE SUPPORT DETAIL",
+          "processLocation": "Ciudad Ejemplo,Provincia Ejemplo",
+          "processCode": "205",
+          "mainContent": "Entregado por En persona, PIN: No, Número de puerta: PRIVATE",
+          "subContent": " PRIVATE SUPPORT DETAIL",
+          "trackStatus": "6"
+        },
+        {
+          "processDate": "2026-01-05T08:00:00.000+0100",
+          "processContent": "El paquete está en reparto",
+          "processLocation": "Ciudad Ejemplo",
+          "processCode": "208",
+          "mainContent": "El paquete está en reparto",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-05T06:00:00.000+0100",
+          "processContent": "En preparación para reparto",
+          "processLocation": "Ciudad Ejemplo",
+          "processCode": "203",
+          "mainContent": "En preparación para reparto",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-05T05:00:00.000+0100",
+          "processContent": "Llegada a las instalaciones de destino de GOFO",
+          "processLocation": "Ciudad Ejemplo",
+          "processCode": "201",
+          "mainContent": "Llegada a las instalaciones de destino de GOFO",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-05T04:00:00.000+0100",
+          "processContent": "Salida del centro de clasificación",
+          "processLocation": "Ciudad Ejemplo",
+          "processCode": "200",
+          "mainContent": "Salida del centro de clasificación",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-04T15:00:00.000+0100",
+          "processContent": "Devuelto al centro de clasificación PRIVATE SUPPORT DETAIL",
+          "processLocation": "Ciudad Ejemplo",
+          "processCode": "204",
+          "mainContent": "Devuelto al centro de clasificación",
+          "subContent": " PRIVATE SUPPORT DETAIL",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-04T12:00:00.000+0100",
+          "processContent": "Entrega fallida PRIVATE SUPPORT DETAIL",
+          "processLocation": "Ciudad Ejemplo",
+          "processCode": "206",
+          "mainContent": "Entrega fallida",
+          "subContent": " PRIVATE SUPPORT DETAIL",
+          "trackStatus": "7"
+        },
+        {
+          "processDate": "2026-01-04T08:00:00.000+0100",
+          "processContent": "El paquete está en reparto",
+          "processLocation": "Ciudad Ejemplo",
+          "processCode": "208",
+          "mainContent": "El paquete está en reparto",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-03T12:00:00.000+0100",
+          "processContent": "Llegada al centro de clasificación",
+          "processLocation": "Ciudad Ejemplo",
+          "processCode": "202",
+          "mainContent": "Llegada al centro de clasificación",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-01T11:00:00.000Z",
+          "processContent": "Pedido recibido PRIVATE SUPPORT DETAIL",
+          "processLocation": null,
+          "processCode": "100",
+          "mainContent": "Pedido recibido",
+          "subContent": " PRIVATE SUPPORT DETAIL",
+          "trackStatus": "2"
+        }
+      ],
+      "noticeContents": null
+    }
+  ]
+}

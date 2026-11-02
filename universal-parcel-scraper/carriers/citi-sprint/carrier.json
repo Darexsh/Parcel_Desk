@@ -1,0 +1,57 @@
+{
+  "id": "citi-sprint",
+  "displayName": "Citi-Sprint",
+  "aliases": [
+    "Citisprint",
+    "Citi-Sprint Couriers",
+    "Citi-Sprint (Pty) Ltd",
+    "Citi-Sprint Express Courier Services"
+  ],
+  "region": {
+    "countries": [
+      "ZA"
+    ]
+  },
+  "brand": {
+    "color": "#ed1a26"
+  },
+  "selectable": true,
+  "timezone": "Africa/Johannesburg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://portal.citisprint.co.za/track?ref={trackingNumber}",
+    "searchUrl": "https://www.citisprint.co.za/tracking/",
+    "canaryUrl": "https://www.citisprint.co.za/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "portal.citisprint.co.za"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "ref"
+      ]
+    },
+    {
+      "domains": [
+        "www.citisprint.co.za",
+        "citisprint.co.za"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "ref"
+      ]
+    }
+  ],
+  "detection": []
+}

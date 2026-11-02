@@ -1,0 +1,65 @@
+{
+  "id": "omgo",
+  "displayName": "OMGO",
+  "aliases": [
+    "OMGO Express"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#8e8e93"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "omgo",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 450
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "destination_country",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://omgoexpress.cn/track-package/",
+    "searchUrl": "https://omgoexpress.cn/track-package/",
+    "canaryUrl": "https://omgoexpress.cn/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "destination_country",
+      "service_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "destination_country",
+      "service_name"
+    ],
+    "discarded": [
+      "invoice_reference"
+    ],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "omgo-1",
+      "pattern": "^OMGO\\d{13}$",
+      "confidence": "high"
+    }
+  ]
+}

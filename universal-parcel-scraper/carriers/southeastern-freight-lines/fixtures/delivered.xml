@@ -1,0 +1,151 @@
+<root><pro>
+  <proNumber>9100007</proNumber>
+  <pickupDate>07/06/2026</pickupDate>
+  <pickupTime>03:10 PM</pickupTime>
+  <utcOffsetPU>-04:00</utcOffsetPU>
+  <shipper>
+    <city>SHIPPERVILLE</city>
+    <state>GA</state>
+    <zip>00091</zip>
+  </shipper>
+  <consignee>
+    <city>CONSIGNEETON</city>
+    <state>AL</state>
+    <zip>00092</zip>
+  </consignee>
+  <pieces>2</pieces>
+  <location>Delivered to Customer</location>
+  <weight>1250</weight>
+  <status>Delivered 07/08/2026 10:42 AM;Recvd by: SAMPLE SIGNER;</status>
+  <currentStatusDateOnly>07/08/2026</currentStatusDateOnly>
+  <currentStatusTime>04:15 PM</currentStatusTime>
+  <committedDate>07/08/2026</committedDate>
+  <delay></delay>
+  <appointmentStartTime></appointmentStartTime>
+  <appointmentEndTime></appointmentEndTime>
+  <interlineCode>    </interlineCode>
+  <interlinePro></interlinePro>
+  <origin>
+    <name>SAMPLE CITY</name>
+    <location>SMC</location>
+    <phone>1(000)000-0001</phone>
+  </origin>
+  <destination>
+    <name>DEST CITY</name>
+    <location>DSC</location>
+    <phone>1(000)000-0003</phone>
+  </destination>
+  <detailInformation>
+    <detail>
+      <date>07/06/2026</date>
+      <time>03:10 PM</time>
+      <utcOffset>-04:00</utcOffset>
+      <location>SAMPLE CITY</location>
+      <city>SAMPLE CITY</city>
+      <state>GA</state>
+      <zip>00001</zip>
+      <message>Shipment Pickup using Trailer 530001</message>
+      <statusCode>SPU</statusCode>
+    </detail>
+    <detail>
+      <date>07/06/2026</date>
+      <time>06:40 PM</time>
+      <utcOffset>-04:00</utcOffset>
+      <location>SAMPLE CITY</location>
+      <city>SAMPLE CITY</city>
+      <state>GA</state>
+      <zip>00001</zip>
+      <message>Closed Trailer 280001F to HUB TOWN service center</message>
+      <statusCode>CFD</statusCode>
+    </detail>
+    <detail>
+      <date>07/06/2026</date>
+      <time>09:05 PM</time>
+      <utcOffset>-04:00</utcOffset>
+      <location>SAMPLE CITY</location>
+      <city>SAMPLE CITY</city>
+      <state>GA</state>
+      <zip>00001</zip>
+      <message>Dispatched Trailer 280001F ETA: 07/07/2026 01:30 AM</message>
+      <statusCode>DIS</statusCode>
+    </detail>
+    <detail>
+      <date>07/07/2026</date>
+      <time>12:20 AM</time>
+      <utcOffset>-05:00</utcOffset>
+      <location>HUB TOWN</location>
+      <city>HUBVILLE</city>
+      <state>AL</state>
+      <zip>00002</zip>
+      <message>Arrive Trailer 280001F</message>
+      <statusCode>LOD</statusCode>
+    </detail>
+    <detail>
+      <date>07/07/2026</date>
+      <time>03:45 AM</time>
+      <utcOffset>-05:00</utcOffset>
+      <location>HUB TOWN</location>
+      <city>HUBVILLE</city>
+      <state>AL</state>
+      <zip>00002</zip>
+      <message>Closed Trailer 280002F to DEST CITY service center</message>
+      <statusCode>CFD</statusCode>
+    </detail>
+    <detail>
+      <date>07/07/2026</date>
+      <time>04:10 AM</time>
+      <utcOffset>-05:00</utcOffset>
+      <location>HUB TOWN</location>
+      <city>HUBVILLE</city>
+      <state>AL</state>
+      <zip>00002</zip>
+      <message>Dispatched Trailer 280002F</message>
+      <statusCode>DIS</statusCode>
+    </detail>
+    <detail>
+      <date>07/07/2026</date>
+      <time>07:55 AM</time>
+      <utcOffset>-05:00</utcOffset>
+      <location>DEST CITY</location>
+      <city>DEST CITY</city>
+      <state>AL</state>
+      <zip>00003</zip>
+      <message>Arrive Trailer 280002F</message>
+      <statusCode>LOD</statusCode>
+    </detail>
+    <detail>
+      <date>07/07/2026</date>
+      <time>07:55 AM</time>
+      <utcOffset>-05:00</utcOffset>
+      <location>DEST CITY</location>
+      <city>DEST CITY</city>
+      <state>AL</state>
+      <zip>00003</zip>
+      <message>Arrive Trailer 280002F</message>
+      <statusCode>LOD</statusCode>
+    </detail>
+    <detail>
+      <date>07/08/2026</date>
+      <time>06:30 AM</time>
+      <utcOffset>-05:00</utcOffset>
+      <location>DEST CITY</location>
+      <city>DEST CITY</city>
+      <state>AL</state>
+      <zip>00003</zip>
+      <message>Out for Delivery on Trailer 530002</message>
+      <statusCode>CDY</statusCode>
+    </detail>
+    <detail>
+      <date>07/08/2026</date>
+      <time>10:42 AM</time>
+      <utcOffset>-05:00</utcOffset>
+      <location>DEST CITY</location>
+      <city>DEST CITY</city>
+      <state>AL</state>
+      <zip>00003</zip>
+      <message>Delivered - Signed By: SAMPLE SIGNER</message>
+      <statusCode>DLV</statusCode>
+    </detail>
+  </detailInformation>
+</pro>
+</root>

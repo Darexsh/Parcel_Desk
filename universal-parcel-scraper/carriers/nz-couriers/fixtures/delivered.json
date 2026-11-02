@@ -1,0 +1,103 @@
+{
+  "status": "Delivered",
+  "consignmentState": "delivered",
+  "consignmentStatusTitle": "We've delivered your parcel",
+  "consignmentMilestone": "out-for-delivery",
+  "showCallUs": false,
+  "shortConsignmentId": "00000000000000000017",
+  "toolTip": "",
+  "consignmentId": "3P..000000000000000017.SSCC..",
+  "pickupDateTime": "2026-03-09T05:12:40Z",
+  "onboardDateTime": "2026-03-10T21:43:24.652Z",
+  "eptlAvailable": false,
+  "consignmentItems": [
+    {
+      "consignmentItemId": "3P..000000000000000017.SSCC...",
+      "partNumber": "01",
+      "trackingEvents": [
+        {
+          "barcode": "00000000000000000017",
+          "eventType": "P",
+          "status": "Picked Up",
+          "createdOn": "2026-03-09T05:12:40Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMP",
+          "runNumber": "100",
+          "location": { "suburb": "Sample Park", "town": "SAMPLETON", "region": "Sample City", "postCode": "0000", "country": "New Zealand" },
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "00000000000000000017",
+          "eventType": "STAT",
+          "eventSubType": "RZDEL",
+          "status": "Your consignment is destined for a rural/non-urban zone. Please allow an additional 2-3 days for delivery.",
+          "createdOn": "2026-03-10T16:41:24.777Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMH",
+          "runNumber": "200",
+          "location": { "suburb": "Sample Hills North", "region": "Sample District", "postCode": "0000", "country": "New Zealand" },
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "00000000000000000017",
+          "eventType": "STAT",
+          "eventSubType": "RZDEL",
+          "status": "Your consignment is destined for a rural/non-urban zone. Please allow an additional 2-3 days for delivery.",
+          "createdOn": "2026-03-10T16:41:24.777Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMH",
+          "runNumber": "200",
+          "location": { "suburb": "Sample Hills North", "region": "Sample District", "postCode": "0000", "country": "New Zealand" },
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "00000000000000000017",
+          "eventType": "ONBD",
+          "status": "Out for Delivery",
+          "createdOn": "2026-03-10T21:43:24.652Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMH",
+          "runNumber": "200",
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "00000000000000000017",
+          "eventType": "D",
+          "status": "Delivery Handed Over",
+          "createdOn": "2026-03-10T23:23:49.77Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMH",
+          "runNumber": "200",
+          "location": { "suburb": "Sample Hills", "town": "SAMPLE HILLS", "region": "Sample District", "postCode": "0000", "country": "New Zealand" },
+          "locationTag": "A0000000000",
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "00000000000000000017",
+          "eventType": "3P",
+          "eventSubType": "D",
+          "status": "Delivery (3rd Party)",
+          "createdOn": "2026-03-13T02:00:57.908Z",
+          "createdBy": "SAMPLE",
+          "carrierName": "SAMPLERURAL",
+          "location": { "suburb": "Sample Valley", "region": "Sample District", "postCode": "0000", "country": "New Zealand" },
+          "locationIdType": false,
+          "attachments": [
+            { "attachmentType": "SIGV", "description": "Sample Signer", "href": ["https://example.invalid/signature/0000"] },
+            { "attachmentType": "Photo", "description": "", "href": ["https://example.invalid/photo/0000"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

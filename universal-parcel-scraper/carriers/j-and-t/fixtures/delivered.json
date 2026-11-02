@@ -1,0 +1,141 @@
+{
+  "code": 200,
+  "data": {
+    "bills": [
+      {
+        "billCode": "JX0000000001",
+        "process": 100,
+        "details": [
+          {
+            "billCode": "JX0000000001",
+            "code": 100,
+            "status": "Delivered",
+            "scanTypeName": "签收",
+            "scanTime": { "date": { "year": 2026, "month": 1, "day": 4 }, "time": { "hour": 10, "minute": 15, "second": 0, "nano": 0 } },
+            "customerTracking": "Package has been delivered to PRIVATE RECIPIENT, ",
+            "scanNetworkName": "KOTA TUJUAN SYNTHETIC",
+            "scanNetworkCity": "KOTA TUJUAN",
+            "scanNetworkProvince": "PROVINSI TUJUAN",
+            "scanNetworkTypeName": "网点",
+            "scanByName": "PRIVATE COURIER",
+            "staffName": "PRIVATE COURIER",
+            "staffContact": "+620000000001",
+            "scanNetworkContact": "+620000000002",
+            "remark1": "PRIVATE RECIPIENT",
+            "signPicUrl": "https://example.invalid/PRIVATE-signature.jpg",
+            "scanSiteLatitude": "-1.000001",
+            "scanSiteLongitude": "101.000001"
+          },
+          {
+            "billCode": "JX0000000001",
+            "code": 94,
+            "status": "On Delivery",
+            "scanTypeName": "派件",
+            "scanTime": { "date": { "year": 2026, "month": 1, "day": 4 }, "time": { "hour": 8, "minute": 2, "second": 30, "nano": 0 } },
+            "customerTracking": "Package will be delivered to PRIVATE COURIER",
+            "scanNetworkName": "KOTA TUJUAN SYNTHETIC",
+            "scanNetworkCity": "KOTA TUJUAN",
+            "scanNetworkProvince": "PROVINSI TUJUAN",
+            "scanNetworkTypeName": "Drop Point",
+            "scanByName": "PRIVATE COURIER",
+            "staffContact": "+620000000001",
+            "scanNetworkContact": "+620000000002",
+            "scanSiteLatitude": "-1.000001",
+            "scanSiteLongitude": "101.000001"
+          },
+          {
+            "billCode": "JX0000000001",
+            "code": 110,
+            "status": "On Hold",
+            "scanTypeName": "问题件",
+            "scanTime": { "date": { "year": 2026, "month": 1, "day": 3 }, "time": { "hour": 17, "minute": 40, "second": 5, "nano": 0 } },
+            "customerTracking": "Shipment process is being delayed for the reason: Telepon tidak diangkat atau non-aktif",
+            "scanNetworkName": "KOTA TUJUAN SYNTHETIC",
+            "scanNetworkCity": "KOTA TUJUAN",
+            "scanNetworkProvince": "PROVINSI TUJUAN",
+            "scanNetworkTypeName": "Drop Point",
+            "scanByName": "PRIVATE COURIER",
+            "scanNetworkContact": "+620000000002",
+            "remark2": "PRIVATE NOTE",
+            "abnormalPicUrl": "https://example.invalid/PRIVATE-hold.jpg"
+          },
+          {
+            "billCode": "JX0000000001",
+            "code": 92,
+            "status": "On Shipping",
+            "scanTypeName": "到件",
+            "scanTime": { "date": { "year": 2026, "month": 1, "day": 3 }, "time": { "hour": 6, "minute": 0, "second": 12, "nano": 0 } },
+            "customerTracking": "Package has been arrived at KOTA TUJUAN Drop Point.",
+            "scanNetworkName": "KOTA TUJUAN SYNTHETIC",
+            "scanNetworkCity": "KOTA TUJUAN",
+            "scanNetworkProvince": "PROVINSI TUJUAN",
+            "scanNetworkTypeName": "Drop Point",
+            "scanByName": "PRIVATE SORTER",
+            "scanNetworkContact": "+620000000002"
+          },
+          {
+            "billCode": "JX0000000001",
+            "code": 50,
+            "status": "On Shipping",
+            "scanTypeName": "发件",
+            "scanTime": { "date": { "year": 2026, "month": 1, "day": 2 }, "time": { "hour": 21, "minute": 30, "second": 0, "nano": 0 } },
+            "customerTracking": "Package will be departed to KOTA TUJUAN Drop Point",
+            "scanNetworkName": "KOTA ASAL GATEWAY SYNTHETIC",
+            "scanNetworkCity": "KOTA TUJUAN",
+            "scanNetworkProvince": "PROVINSI TUJUAN",
+            "scanNetworkTypeName": "Transit Center",
+            "nextStopName": "KOTA TUJUAN SYNTHETIC",
+            "scanByName": "PRIVATE SORTER",
+            "scanSiteLatitude": "-2.000002",
+            "scanSiteLongitude": "102.000002"
+          },
+          {
+            "billCode": "JX0000000001",
+            "code": 92,
+            "status": "On Shipping",
+            "scanTypeName": "到件",
+            "scanTime": { "date": { "year": 2026, "month": 1, "day": 2 }, "time": { "hour": 19, "minute": 5, "second": 44, "nano": 0 } },
+            "customerTracking": "Package has been arrived at KOTA ASAL Transit Center.",
+            "scanNetworkName": "KOTA ASAL GATEWAY SYNTHETIC",
+            "scanNetworkCity": "KOTA ASAL",
+            "scanNetworkProvince": "PROVINSI ASAL",
+            "scanNetworkTypeName": "Transit Center",
+            "scanByName": "PRIVATE SORTER"
+          },
+          {
+            "billCode": "JX0000000001",
+            "code": 10,
+            "status": "Pick-Up",
+            "scanTypeName": "取件扫描",
+            "scanTime": { "date": { "year": 2026, "month": 1, "day": 2 }, "time": { "hour": 14, "minute": 12, "second": 9, "nano": 0 } },
+            "customerTracking": "Package has been processed at KOTA ASAL Drop Point by PRIVATE COURIER",
+            "scanNetworkName": "KOTA ASAL SYNTHETIC",
+            "scanNetworkCity": "KOTA ASAL",
+            "scanNetworkProvince": "PROVINSI ASAL",
+            "scanNetworkTypeName": "Drop Point",
+            "scanByName": "PRIVATE COURIER",
+            "staffContact": "+620000000001",
+            "remark4": "+620000000003"
+          },
+          {
+            "billCode": "JX0000000001",
+            "code": 210,
+            "status": "Pick-Up",
+            "scanTypeName": "寄件入库",
+            "scanTime": { "date": { "year": 2026, "month": 1, "day": 2 }, "time": { "hour": 13, "minute": 58, "second": 1, "nano": 0 } },
+            "scanNetworkName": "KOTA ASAL SYNTHETIC",
+            "scanNetworkCity": "KOTA ASAL",
+            "scanNetworkProvince": "PROVINSI ASAL",
+            "scanNetworkTypeName": "Drop Point",
+            "scanByName": "PRIVATE SENDER"
+          }
+        ]
+      }
+    ]
+  },
+  "desc": "成功",
+  "success": true,
+  "sessionid": null,
+  "sqlid": null,
+  "traceId": null
+}

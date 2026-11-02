@@ -1,0 +1,14 @@
+{
+  "carrier": "nord-wheel",
+  "entries": [
+    {"code": "processing", "wording": "В планировании", "stage": "registered", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in Nord Wheel's public API specification. The order is being planned."},
+    {"code": "processing", "wording": "Заказ принят в работу", "stage": "registered", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in Nord Wheel's public API specification. Short text the status call returns for the same key; its long form asks the sender to prepare the cargo and documents."},
+    {"code": "pickup", "wording": "К забору", "stage": "registered", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in Nord Wheel's public API specification. Awaiting collection from the sender."},
+    {"code": "received", "wording": "На исполнении", "stage": "accepted", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in Nord Wheel's public API specification. The cargo has been received and the order is being carried out."},
+    {"code": "inway", "wording": "В пути", "stage": "in_transit", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in Nord Wheel's public API specification."},
+    {"code": "arrived", "wording": "К выдаче", "stage": "ready_for_pickup", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in Nord Wheel's public API specification. Arrived and ready for collection at the terminal."},
+    {"code": "delivery", "wording": "К доставке", "stage": "out_for_delivery", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in Nord Wheel's public API specification. Arrived and due for delivery to the address."},
+    {"code": "delivered", "wording": "Завершен", "stage": "delivered", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in Nord Wheel's public API specification. The order is completed."},
+    {"code": "canceled", "wording": "Отменен", "stage": "exception", "language": "ru", "confirmedBy": "official-doc", "note": "Status list in Nord Wheel's public API specification. The order was cancelled."}
+  ]
+}

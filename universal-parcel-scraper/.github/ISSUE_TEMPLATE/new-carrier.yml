@@ -1,0 +1,21 @@
+name: Add a carrier
+description: Suggest an anonymous tracking source.
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Carrier name and home country
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Public tracking website
+      description: Do not include a real parcel number, postcode or access token.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Tracking formats and requirements
+      description: Synthetic number shapes, required inputs and public documentation.

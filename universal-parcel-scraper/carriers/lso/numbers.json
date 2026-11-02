@@ -1,0 +1,62 @@
+{
+  "carrier": "lso",
+  "records": [
+    {
+      "number": "ZY0FZ3UD",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/67b791ddefff1ea2512d2efb",
+        "date": "2025-02-20",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "lso",
+        "confidence": "high"
+      },
+      "note": "LSO's reply to a Trustpilot review names it as the airbill."
+    },
+    {
+      "number": "ZY0FTA2J",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/66f8fd44058ebf0bcf10b9b8",
+        "date": "2024-09-29",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "lso",
+        "confidence": "high"
+      },
+      "note": "A Trustpilot review of LSO gives it as the airbill number."
+    },
+    {
+      "number": "ZY0FZR66",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/lso/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "lso",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Lone Star Overnight page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    }
+  ]
+}

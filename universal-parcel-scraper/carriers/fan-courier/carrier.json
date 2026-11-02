@@ -1,0 +1,101 @@
+{
+  "id": "fan-courier",
+  "displayName": "FAN Courier",
+  "aliases": [
+    "FAN Courier Express",
+    "FANbox"
+  ],
+  "region": {
+    "countries": [
+      "RO"
+    ]
+  },
+  "brand": {
+    "color": "#0f2345"
+  },
+  "selectable": true,
+  "timezone": "Europe/Bucharest",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "fan-courier",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 330
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://www.fancourier.ro/awb-tracking/?tracking={trackingNumber}",
+    "searchUrl": "https://www.fancourier.ro/awb-tracking/",
+    "helpUrl": "https://www.fancourier.ro/contact/",
+    "canaryUrl": "https://www.fancourier.ro/awb-tracking/",
+    "shows": [
+      "status",
+      "milestones",
+      "awb_date",
+      "related_awb_numbers",
+      "recipient_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "milestones",
+      "awb_date",
+      "related_awb_numbers",
+      "recipient_name",
+      "order_contents",
+      "weight",
+      "dimensions",
+      "payment_details",
+      "service_options"
+    ],
+    "unavailable": [
+      "eta",
+      "pickup_point",
+      "sender_name",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "fancourier.ro"
+      ],
+      "pathPattern": "^/(?:awb-tracking|en/awb-track)/?$",
+      "params": [
+        "tracking",
+        "awb"
+      ]
+    },
+    {
+      "domains": [
+        "fancourier.ro"
+      ],
+      "path": "^/awb-tracking/(\\d{13})/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "fan-courier-2",
+      "pattern": "^7000\\d{9}$",
+      "confidence": "low",
+      "preferred": true
+    },
+    {
+      "id": "fan-courier-1",
+      "pattern": "^(?:[24]\\d{12}|7000\\d{9})$",
+      "confidence": "low"
+    }
+  ]
+}

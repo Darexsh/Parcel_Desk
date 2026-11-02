@@ -1,0 +1,102 @@
+{
+  "id": "pro-carrier",
+  "displayName": "Pro Carrier",
+  "aliases": [
+    "ProCarrier",
+    "PRO Carrier",
+    "Pro-Carrier",
+    "Pro Carrier Limited"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#2c1f72"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pro-carrier",
+    "steps": [
+      "direct",
+      "retry",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 843
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "service_name",
+    "weight",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://tracking.weareprocarrier.com/?tn={trackingNumber}",
+    "searchUrl": "https://tracking.weareprocarrier.com/",
+    "canaryUrl": "https://tracking.weareprocarrier.com/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "event_details",
+      "service_name",
+      "weight",
+      "destination",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "service_name",
+      "weight",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "event_details",
+      "destination"
+    ],
+    "unavailable": [
+      "location",
+      "provider_code",
+      "eta",
+      "delivered_at",
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.weareprocarrier.com"
+      ],
+      "pathPattern": "^//?$",
+      "params": [
+        "tn"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "pro-carrier-1",
+      "pattern": "^DG\\d{11}$",
+      "confidence": "low"
+    }
+  ]
+}

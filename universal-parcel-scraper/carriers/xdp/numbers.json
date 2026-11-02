@@ -1,0 +1,139 @@
+{
+  "carrier": "xdp",
+  "records": [
+    {
+      "number": "ZDBBXK034308",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.reviews.io/company-review/store/xdp-couriers/10792010",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "xdp",
+        "confidence": "high"
+      },
+      "note": "A reviews.io review of XDP gives it as the missing parcel."
+    },
+    {
+      "number": "ZDBDWX148403",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.complaintsboard.com/xdp-uk-urgent-complaint-non-delivery-of-order-tracking-id-zdbdwx148403-c1981351",
+        "date": "2024-11-25",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "xdp",
+        "confidence": "high"
+      },
+      "note": "A ComplaintsBoard complaint about XDP gives it as the tracking ID."
+    },
+    {
+      "number": "0zdbwhd007079",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.complaintsboard.com/xdp-uk-delivery-c2003757",
+        "date": "2025-12-08",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "xdp",
+        "confidence": "high"
+      },
+      "note": "A ComplaintsBoard complaint about XDP gives it as the tracking number, with a leading zero."
+    },
+    {
+      "number": "9d174d196643",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.complaintsboard.com/xdp-uk-none-delivery-c2006477",
+        "date": "2026-01-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive"
+        ]
+      },
+      "note": "A ComplaintsBoard complaint about XDP calls it the delivery tracking; it may be a merchant reference."
+    },
+    {
+      "number": "ZDBKNF339989",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20201209121922/https://xdp.co.uk/track/ZDBKNF339989",
+        "date": "2020-12-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "xdp",
+        "confidence": "high"
+      },
+      "note": "Looked up on XDP's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "ZDBXKR080098",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240213173452/https://xdp.co.uk/track/ZDBXKR080098",
+        "date": "2024-02-13",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "xdp",
+        "confidence": "high"
+      },
+      "note": "Looked up on XDP's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "ZDBXKR080865",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240301120215/https://xdp.co.uk/track/ZDBXKR080865",
+        "date": "2024-03-01",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "xdp",
+        "confidence": "high"
+      },
+      "note": "Looked up on XDP's own tracker, as an archived address shows; the capture was not opened."
+    }
+  ]
+}

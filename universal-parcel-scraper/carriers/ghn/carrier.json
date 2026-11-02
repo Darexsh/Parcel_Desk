@@ -1,0 +1,47 @@
+{
+  "id": "ghn",
+  "displayName": "GHN",
+  "aliases": [
+    "Giao Hàng Nhanh",
+    "Giao Hang Nhanh",
+    "GHN Express",
+    "Giaohangnhanh"
+  ],
+  "region": {
+    "countries": [
+      "VN"
+    ]
+  },
+  "brand": {
+    "color": "#ff5200"
+  },
+  "selectable": true,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://donhang.ghn.vn/?order_code={trackingNumber}",
+    "searchUrl": "https://donhang.ghn.vn/",
+    "canaryUrl": "https://donhang.ghn.vn/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "donhang.ghn.vn"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "order_code"
+      ]
+    }
+  ],
+  "detection": []
+}

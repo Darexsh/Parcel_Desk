@@ -1,0 +1,129 @@
+{
+  "id": "mondial-relay",
+  "displayName": "Mondial Relay",
+  "aliases": [
+    "InPost Spain",
+    "InPost España",
+    "InPost (ES)",
+    "Punto Pack",
+    "PuntoPack"
+  ],
+  "region": {
+    "countries": [
+      "FR",
+      "BE",
+      "ES",
+      "LU",
+      "PT",
+      "NL"
+    ]
+  },
+  "brand": {
+    "color": "#ef3026"
+  },
+  "selectable": true,
+  "timezone": "Europe/Paris",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "mondial-relay",
+    "requirements": [
+      {
+        "field": "postcode",
+        "whenTrackingNumber": "^[0-9]{8}$",
+        "validator": "internationalPostcode",
+        "readsCountry": true,
+        "label": "Delivery postcode",
+        "type": "text",
+        "help": "8-digit Mondial Relay shipment numbers require the recipient postcode; longer numbers and label barcodes do not.",
+        "pattern": "^(?=.{3,12}$)(?=.*[0-9])[A-Za-z0-9]+(?:[ \\-][A-Za-z0-9]+)*$",
+        "maxLength": 12,
+        "inputMode": "text",
+        "autoComplete": "postal-code"
+      }
+    ],
+    "steps": [
+      "app",
+      "trawl",
+      "inpost-es",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 894,
+      "pattern": "^FV\\d{8}$"
+    },
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "pickup_point",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.mondialrelay.fr/suivi-de-colis/?numeroExpedition={trackingNumber}",
+    "searchUrl": "https://www.mondialrelay.fr/suivi-de-colis/",
+    "helpUrl": "https://www.mondialrelay.fr/nous-contacter/",
+    "canaryUrl": "https://www.mondialrelay.fr/suivi-de-colis/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "pickup_point",
+      "delivered_at",
+      "destination_country",
+      "recipient_name",
+      "recipient_address"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "pickup_point",
+      "delivered_at",
+      "destination_country"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "mondialrelay.fr",
+        "mondialrelay.be",
+        "mondialrelay.nl",
+        "mondialrelay.com"
+      ],
+      "params": [
+        "shipment",
+        "numeroExpedition",
+        "numero",
+        "trackingNumber",
+        "exp"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "mondial-relay-1",
+      "pattern": "^[0-9]{26}$",
+      "confidence": "high",
+      "checksum": "mondial-relay"
+    },
+    {
+      "id": "mondial-relay-2",
+      "pattern": "^(?:\\d{8}|\\d{10}|\\d{12})$",
+      "confidence": "low"
+    },
+    {
+      "id": "mondial-relay-3",
+      "pattern": "^FV\\d{8}$",
+      "confidence": "low"
+    }
+  ]
+}

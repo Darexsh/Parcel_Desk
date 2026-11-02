@@ -1,0 +1,11 @@
+{
+  "carrier": "j-and-t-uk",
+  "entries": [
+    {"wording": "The parcel has been successfully picked up and is being prepared for transportation", "stage": "accepted", "language": "en", "confirmedBy": "live"},
+    {"wording": "The parcel arrives at the distribution center and is prepared for transport to the next destination", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "The parcel is dispatched from the transit center to the next destination", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "The parcel has been collected and is on its way", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "The courier's collection for the delivery round: the reply files it as a delivery scan (派件扫描) with the parcel out for delivery (派件中). The shared rules would read it as transit."},
+    {"wording": "The parcel has been successfully delivered to the recipient", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"wording": "The delivery address is incomplete or incorrect.", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "The reply's problem scan (问题件扫描), hours after the parcel went out for delivery on the same day: the round's outcome."}
+  ]
+}

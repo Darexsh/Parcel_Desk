@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "msg": "成功",
+  "data": {
+    "00000000002": {
+      "search_status": 1,
+      "info": {"systemNumber": "00000000002", "subSystemNumber": "00", "trackingNumber": "00000000002", "weight": "2", "size": "60", "numOfPackage": 1, "full_name": "樣本公司"},
+      "status": [
+        {"currentDate": "2026-06-01 09:00:00", "status_type": "檔案上傳成功", "external_status_type": "", "company": "", "code": 0, "estimated_date": null, "hctrt_status": null, "user": {"title": ""}},
+        {"company": "樣本站", "agents": 0, "company_belong": "樣本站", "cargo_id": 0, "status_type": "已取件", "hctrt_status": null, "code": 101, "Date1": "2026-06-02 15:20:00", "estimated_date": null, "Date2": "2026-06-02 15:20:00", "users_id": 0, "external_status_type": null, "user": {"id": 0, "title": "樣本站-司機-樣本人員"}},
+        {"company": "總公司", "agents": 0, "company_belong": "總公司", "cargo_id": 0, "status_type": "轉運中", "hctrt_status": null, "code": 502, "Date1": "2026-06-02 18:00:00", "estimated_date": "2026-06-04", "Date2": "2026-06-02 18:00:00", "users_id": 0, "external_status_type": null, "user": {"id": 0, "title": "總公司-倉儲-樣本人員"}},
+        {"company": "樣本二站", "agents": 0, "company_belong": "樣本二站", "cargo_id": 0, "status_type": "貨到站所", "hctrt_status": null, "code": 201, "Date1": "2026-06-03 07:30:00", "estimated_date": null, "Date2": "2026-06-03 07:30:00", "users_id": 0, "external_status_type": null, "user": {"id": 0, "title": "樣本二站-倉管-樣本人員"}}
+      ],
+      "status_type": "貨到站所",
+      "forth_or_back": {"hash": false, "msg": "不是來回件", "cargoNumber": ""}
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "western-bid",
+  "displayName": "Western Bid",
+  "aliases": [
+    "WestParcel",
+    "West Parcel",
+    "Western Bid, Inc.",
+    "Western Bid Europe",
+    "Вестерн Бід",
+    "Вест Парсел"
+  ],
+  "region": {
+    "countries": [
+      "UA",
+      "PL",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#284e51"
+  },
+  "selectable": true,
+  "timezone": "Europe/Kyiv",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.westparcel.com/?trackNumber={trackingNumber}",
+    "searchUrl": "https://track.westparcel.com/",
+    "canaryUrl": "https://track.westparcel.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.westparcel.com",
+        "track.westernbid.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "trackNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "western-bid-1",
+      "pattern": "^WBX\\d{12}$",
+      "confidence": "low"
+    }
+  ]
+}

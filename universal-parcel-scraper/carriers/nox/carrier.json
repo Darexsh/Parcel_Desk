@@ -1,0 +1,85 @@
+{
+  "id": "nox",
+  "displayName": "nox",
+  "aliases": [
+    "nox NachtExpress",
+    "NOX Nachtexpress",
+    "nox Germany",
+    "Innight Express",
+    "TNT Innight"
+  ],
+  "region": {
+    "countries": [
+      "DE"
+    ]
+  },
+  "brand": {
+    "color": "#fadb00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "nox",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 874
+    }
+  },
+  "capabilities": [
+    "history",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://trackandtrace.app.nox.express/scannungen/{trackingNumber}",
+    "searchUrl": "https://trackandtrace.app.nox.express/scannungen",
+    "canaryUrl": "https://trackandtrace.app.nox.express/scannungen",
+    "shows": [
+      "status",
+      "history"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "delivered_at"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name",
+      "pickup_point",
+      "offset_timestamps",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "trackandtrace.app.nox.express"
+      ],
+      "path": "^/scannungen/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "tcs.app.nox.express",
+        "tcs-ords.app.nox.express"
+      ],
+      "pathPattern": "^/(?:ords|pls)/stcs/STCS_TRACK_AND_TRACE\\.Info$",
+      "params": [
+        "pBarcode"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "nox-1",
+      "pattern": "^22000\\d{9}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])\\d{6}$",
+      "confidence": "low"
+    }
+  ]
+}

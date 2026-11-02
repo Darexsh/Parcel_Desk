@@ -1,0 +1,97 @@
+{
+  "id": "tiki",
+  "displayName": "TIKI",
+  "aliases": [
+    "Titipan Kilat",
+    "PT Citra Van Titipan Kilat",
+    "TiKi"
+  ],
+  "region": {
+    "countries": [
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#0033ab"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jakarta",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "tiki",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 918
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "eta",
+    "service_name",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://tiki.id/id/track/{trackingNumber}",
+    "searchUrl": "https://tiki.id/id/track",
+    "canaryUrl": "https://tiki.id/id/track",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "service_name",
+      "parcel_count",
+      "departure_date",
+      "progress_rail",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "signatory"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "service_name",
+      "weight"
+    ],
+    "discarded": [
+      "parcel_count",
+      "departure_date",
+      "progress_rail",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "signatory",
+      "payment_details",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "delivered_at",
+      "offset_timestamps",
+      "pickup_point",
+      "destination_country",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tiki.id",
+        "www.tiki.id"
+      ],
+      "path": "^/id/track/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

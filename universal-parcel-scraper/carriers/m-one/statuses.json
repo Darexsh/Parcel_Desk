@@ -1,0 +1,19 @@
+{
+  "carrier": "m-one",
+  "entries": [
+    {"code": "ST01", "wording": "Kreiran nalog za preuzimanje", "stage": "registered", "language": "sr", "confirmedBy": "live", "note": "A pickup order was created; archived replies send the wording with a trailing line break."},
+    {"code": "ST02", "wording": "Preuzeta od pošiljaoca", "stage": "accepted", "language": "sr", "confirmedBy": "live", "note": "Collected from the sender."},
+    {"code": "ST04", "wording": "U distributivnom centru dostave", "stage": "in_transit", "language": "sr", "confirmedBy": "live", "note": "At the distribution centre that delivers the parcel; it comes back after each round that did not deliver."},
+    {"code": "ST05", "wording": "Na dostavnom vozilu", "stage": "out_for_delivery", "language": "sr", "confirmedBy": "live", "note": "On the delivery vehicle."},
+    {"code": "ST06", "wording": "Na linijskom vozilu", "stage": "in_transit", "language": "sr", "confirmedBy": "portal", "note": "On the line-haul vehicle between depots, in archived replies of the tracking API."},
+    {"code": "ST06", "wording": "U lokalnom tranzitu", "stage": "in_transit", "language": "sr", "confirmedBy": "live", "note": "In local transit: the wording the tracking API now gives the same scans."},
+    {"code": "ST07", "wording": "Uručena pošiljka", "stage": "delivered", "language": "sr", "confirmedBy": "live", "note": "Delivered, including a parcel collected from a parcel locker."},
+    {"code": "ST07", "wording": "Packet delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Seen in the fallback reply of the tracker script on M-ONE's English home page; the tracking API answers in Serbian."},
+    {"code": "ST11", "wording": "Preusmerena", "stage": "in_transit", "language": "sr", "confirmedBy": "live", "note": "Redirected at the delivering distribution centre; local transit follows. Sent with a trailing line break."},
+    {"code": "ST15", "wording": "Čeka u paketomatu", "stage": "ready_for_pickup", "language": "sr", "confirmedBy": "live", "note": "Waiting in a parcel locker; sent with a trailing line break."},
+    {"code": "ST33", "wording": "Zaduzena za paketomat", "stage": "out_for_delivery", "language": "sr", "confirmedBy": "live", "note": "Taken out by a courier for a parcel locker, minutes before it waits there."},
+    {"code": "ST35", "wording": "Pokušaj uručenja (primaocu ostavljeno obaveštenje)", "stage": "failed_attempt", "language": "sr", "confirmedBy": "live", "note": "A delivery attempt; the recipient was left a notice."},
+    {"code": "ST48", "wording": "Primalac ce doci po paket", "stage": "ready_for_pickup", "language": "sr", "confirmedBy": "live", "note": "The recipient will come for the parcel, which waits at the depot; repeated on every round until they collect it."},
+    {"code": "ST52", "wording": "Preusmerena na zahtev primaoca", "stage": "in_transit", "language": "sr", "confirmedBy": "live", "note": "Redirected at the recipient's request, as ST11 is at the depot."}
+  ]
+}

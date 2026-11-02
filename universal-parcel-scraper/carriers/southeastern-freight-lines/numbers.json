@@ -1,0 +1,114 @@
+{
+  "carrier": "southeastern-freight-lines",
+  "records": [
+    {
+      "number": "791548589",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230206182100/https://www.sefl.com/webconnect/tracing?Type=PN&RefNum1=791548589",
+        "date": "2023-02-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt"
+        ]
+      },
+      "note": "An archived lookup on Southeastern Freight Lines' own tracker shows the shipment."
+    },
+    {
+      "number": "3347903",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250809233401/https://www.sefl.com/webconnect/tracing?Type=PN&RefNum1=3347903",
+        "date": "2025-08-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "An archived lookup on Southeastern Freight Lines' own tracker shows the shipment."
+    },
+    {
+      "number": "263915352",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://ship24.com/couriers/sefl-tracking/sefl-tracking-number",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt",
+          "tforce-freight",
+          "xpo-ltl"
+        ]
+      },
+      "note": "Ship24's Southeastern Freight Lines page gives it as an example tracking number."
+    },
+    {
+      "number": "853193452",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://ship24.com/couriers/sefl-tracking/sefl-tracking-number",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "cargus"
+        ]
+      },
+      "note": "Ship24's Southeastern Freight Lines page gives it as an example tracking number."
+    },
+    {
+      "number": "396824668",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://ship24.com/couriers/sefl-tracking/sefl-tracking-number",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Ship24's Southeastern Freight Lines page gives it as an example tracking number, and Southeastern Freight Lines' own tracer shows the shipment."
+    }
+  ]
+}

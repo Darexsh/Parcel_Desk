@@ -1,0 +1,54 @@
+{
+  "carrier": "packs",
+  "records": [
+    {
+      "number": "54170619",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://nl.trustpilot.com/reviews/6a60a8c1806d50a3d3455e55",
+        "date": "2026-07-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A customer's review on Packs' Trustpilot page, about two rugs delivered via Packs, names it as the first of two shipments."
+    },
+    {
+      "number": "54170620",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://nl.trustpilot.com/reviews/6a60a8c1806d50a3d3455e55",
+        "date": "2026-07-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "The second shipment number in the same review on Packs' Trustpilot page."
+    }
+  ]
+}

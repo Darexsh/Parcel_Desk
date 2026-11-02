@@ -1,0 +1,10 @@
+{
+  "carrier": "direct-freight-express",
+  "entries": [
+    {"wording": "Depot Scan", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Scan at a depot, with the depot's city as location."},
+    {"wording": "On Board", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Loaded on the delivery vehicle at the delivering depot."},
+    {"wording": "Not Delivered", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "A failed delivery, located at the delivering depot."},
+    {"wording": "Redelivery Booked.", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "Follows a failed delivery; the row has no location or item count."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal"}
+  ]
+}

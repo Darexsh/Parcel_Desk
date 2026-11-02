@@ -1,0 +1,258 @@
+{
+  "currentPage": 1,
+  "orderBy": null,
+  "pageSize": 20,
+  "startIndex": 0,
+  "totalPages": 1,
+  "totalRows": 1,
+  "payload": [
+    {
+      "order_id": "7000000002",
+      "customer_id": "999999",
+      "shipment_type": "HOME_DELIVERY",
+      "order_type_warehouse": null,
+      "eta_order_id": "8000000002",
+      "customer_reference": [
+        "ZZ00000000002"
+      ],
+      "request_order_id": "SMH7000000002",
+      "order_creation_date": "2030-03-04T06:09:20Z",
+      "estimated_time_of_arrival": "2030-04-02T07:00:00Z",
+      "estimated_time_of_arrival_type": "AXAPTAHDOrderId",
+      "qty_packages": 1,
+      "gross_weight": 58.2,
+      "gross_weight_unit": "KGM",
+      "detail_status_transport": [
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-04-10T16:00:27Z",
+          "eventDateTime": "2030-04-10T16:00:03Z",
+          "location": {
+            "countryCode": "HU",
+            "code": "SMH",
+            "description": "Sampleháza"
+          },
+          "eventCode": "180",
+          "reasonCode": "005",
+          "description": "unloaded",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": -1,
+          "rate": 2,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-04-10T08:28:08Z",
+          "eventDateTime": "2030-04-10T08:27:00Z",
+          "location": {
+            "countryCode": "HU",
+            "code": "SMH",
+            "description": "Sampleháza"
+          },
+          "eventCode": "860",
+          "reasonCode": "067",
+          "description": "return",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 100,
+          "rate": 3,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-04-10T08:40:14Z",
+          "eventDateTime": "2030-04-10T08:27:00Z",
+          "location": null,
+          "eventCode": "860",
+          "reasonCode": "067",
+          "description": "return",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 100,
+          "rate": 3,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-04-03T12:14:55Z",
+          "eventDateTime": "2030-04-03T12:14:23Z",
+          "location": {
+            "countryCode": "HU",
+            "code": "SMH",
+            "description": "Sampleháza"
+          },
+          "eventCode": "850",
+          "reasonCode": "009",
+          "description": "not delivered",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 75,
+          "rate": 4,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-04-03T12:30:40Z",
+          "eventDateTime": "2030-04-03T12:14:23Z",
+          "location": null,
+          "eventCode": "850",
+          "reasonCode": "009",
+          "description": "not delivered",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 75,
+          "rate": 4,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-04-03T12:13:40Z",
+          "eventDateTime": "2030-04-03T12:13:26Z",
+          "location": {
+            "countryCode": "HU",
+            "code": "SMH",
+            "description": "Sampleháza"
+          },
+          "eventCode": "166",
+          "reasonCode": "138",
+          "description": "arrival time at consignee / shipper",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": -1,
+          "rate": -1,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-04-03T07:36:13Z",
+          "eventDateTime": "2030-04-03T07:33:16Z",
+          "location": {
+            "countryCode": "HU",
+            "code": "SMH",
+            "description": "Sampleháza"
+          },
+          "eventCode": "300",
+          "reasonCode": "MOB",
+          "description": "in delivery",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 75,
+          "rate": 2,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-04-02T17:10:08Z",
+          "eventDateTime": "2030-04-02T17:01:19Z",
+          "location": null,
+          "eventCode": "165",
+          "reasonCode": "019",
+          "description": "Shipment is advised for delivery",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 50,
+          "rate": 2,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": true,
+          "creationDateTime": "2030-04-02T09:00:10Z",
+          "eventDateTime": "2030-04-02T09:00:00Z",
+          "location": {
+            "countryCode": "HU",
+            "code": "SMH",
+            "description": "Sampleháza"
+          },
+          "eventCode": "641",
+          "reasonCode": "723",
+          "description": "internal change",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": -1,
+          "rate": -1,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-04-01T18:58:56Z",
+          "eventDateTime": "2030-04-01T18:58:47Z",
+          "location": {
+            "countryCode": "HU",
+            "code": "SMH",
+            "description": "Sampleháza"
+          },
+          "eventCode": "180",
+          "reasonCode": "004",
+          "description": "unloaded",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 50,
+          "rate": 2,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-04-01T18:58:56Z",
+          "eventDateTime": "2030-04-01T18:58:42Z",
+          "location": {
+            "countryCode": "HU",
+            "code": "SMH",
+            "description": "Sampleháza"
+          },
+          "eventCode": "110",
+          "reasonCode": "170",
+          "description": "SMS/Email sended",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 50,
+          "rate": 2,
+          "event": "RDGW",
+          "remarks": null
+        },
+        {
+          "isInternal": null,
+          "creationDateTime": "2030-03-28T17:18:34Z",
+          "eventDateTime": "2030-03-28T18:18:11Z",
+          "location": {
+            "countryCode": "RO",
+            "code": "SMR",
+            "description": "Sampleni"
+          },
+          "eventCode": "180",
+          "reasonCode": "004",
+          "description": "unloaded",
+          "gwDescription": "Synthetischer interner Text",
+          "progress": 50,
+          "rate": 2,
+          "event": "RDGW",
+          "remarks": null
+        }
+      ],
+      "detail_status_warehouse": [],
+      "customer_reference_numbers": [
+        {
+          "type": "AL",
+          "value": "55555"
+        }
+      ],
+      "co2_emission": 12.3,
+      "co2_certificate_url": null,
+      "partner_references": [
+        "PARTNERREF77"
+      ],
+      "consignee": {
+        "countryCode": "HU",
+        "zip": "9997",
+        "city": "Példafalva",
+        "cashOnDelivery": null
+      },
+      "shipper": {
+        "countryCode": "AT",
+        "zip": "9998",
+        "city": "Senderburg",
+        "cashOnDelivery": null
+      },
+      "importer_exporter": null
+    }
+  ]
+}

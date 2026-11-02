@@ -1,0 +1,239 @@
+{
+  "modeOfTransport": "ROAD",
+  "routeLocations": [
+    {
+      "source": "REAL",
+      "reached": true,
+      "completed": true,
+      "labelIdentifier": "route-location.origin.road",
+      "location": {
+        "countryCode": "GB",
+        "countryName": "United Kingdom",
+        "freeTextLocation": "Sampleton"
+      },
+      "locationMilestones": [
+        {
+          "labelIdentifier": "location-milestone.origin.cargo-picked-up.road",
+          "reached": true,
+          "achievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-02-03",
+              "time": "16:36:00",
+              "localDateTime": "2026-02-03T16:36:00",
+              "offsetDateTime": "2026-02-03T16:36:00+00:00"
+            }
+          },
+          "actualAchievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-02-03",
+              "time": "16:36:00",
+              "localDateTime": "2026-02-03T16:36:00",
+              "offsetDateTime": "2026-02-03T16:36:00+00:00"
+            }
+          },
+          "plannedAchievementDateTime": {
+            "condition": "PLANNED",
+            "dateTime": {
+              "date": "2026-02-03",
+              "time": "16:58:00",
+              "localDateTime": "2026-02-03T16:58:00",
+              "offsetDateTime": "2026-02-03T16:58:00+00:00"
+            }
+          }
+        }
+      ],
+      "visible": true
+    },
+    {
+      "source": "REAL",
+      "reached": true,
+      "completed": true,
+      "labelIdentifier": "route-location.departure.road",
+      "location": {
+        "locationCode": "GBTBY",
+        "unLocationCode": "GBTBY",
+        "locationFunctionCode": "18",
+        "countryCode": "GB",
+        "countryName": "United Kingdom",
+        "internationalName": "Testbury",
+        "freeTextLocation": "Testbury"
+      },
+      "locationMilestones": [
+        {
+          "labelIdentifier": "location-milestone.departure.vehicle-arrived.road",
+          "reached": true,
+          "achievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-02-03",
+              "time": "21:44:00",
+              "localDateTime": "2026-02-03T21:44:00",
+              "offsetDateTime": "2026-02-03T21:44:00+00:00"
+            }
+          },
+          "actualAchievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-02-03",
+              "time": "21:44:00",
+              "localDateTime": "2026-02-03T21:44:00",
+              "offsetDateTime": "2026-02-03T21:44:00+00:00"
+            }
+          }
+        },
+        {
+          "labelIdentifier": "location-milestone.departure.vehicle-departed.road",
+          "reached": true,
+          "achievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-02-04",
+              "time": "20:56:00",
+              "offset": "+00:00",
+              "localDateTime": "2026-02-04T20:56:00",
+              "offsetDateTime": "2026-02-04T20:56:00+00:00"
+            }
+          },
+          "actualAchievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-02-04",
+              "time": "20:56:00",
+              "offset": "+00:00",
+              "localDateTime": "2026-02-04T20:56:00",
+              "offsetDateTime": "2026-02-04T20:56:00+00:00"
+            }
+          }
+        }
+      ],
+      "outgoingVehicle": {
+        "voyageNumber": "V0000002",
+        "truckNumber": "T000002"
+      },
+      "visible": true
+    },
+    {
+      "source": "REAL",
+      "reached": true,
+      "completed": true,
+      "labelIdentifier": "route-location.transit.road",
+      "location": {
+        "locationCode": "DEPRD",
+        "unLocationCode": "DEPRD",
+        "locationFunctionCode": "18",
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "internationalName": "Probedorf",
+        "freeTextLocation": "Probedorf"
+      },
+      "locationMilestones": [
+        {
+          "labelIdentifier": "location-milestone.transit.vehicle-arrived.road",
+          "reached": true,
+          "achievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-02-05",
+              "time": "23:38:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-02-05T23:38:00",
+              "offsetDateTime": "2026-02-05T23:38:00+01:00"
+            }
+          },
+          "actualAchievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-02-05",
+              "time": "23:38:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-02-05T23:38:00",
+              "offsetDateTime": "2026-02-05T23:38:00+01:00"
+            }
+          }
+        },
+        {
+          "labelIdentifier": "location-milestone.transit.vehicle-departed.road",
+          "reached": true,
+          "achievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-02-06",
+              "time": "18:00:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-02-06T18:00:00",
+              "offsetDateTime": "2026-02-06T18:00:00+01:00"
+            }
+          },
+          "actualAchievementDateTime": {
+            "condition": "ACTUAL",
+            "dateTime": {
+              "date": "2026-02-06",
+              "time": "18:00:00",
+              "offset": "+01:00",
+              "localDateTime": "2026-02-06T18:00:00",
+              "offsetDateTime": "2026-02-06T18:00:00+01:00"
+            }
+          }
+        }
+      ],
+      "outgoingVehicle": {
+        "voyageNumber": "V0000003",
+        "truckNumber": "T000003"
+      },
+      "visible": true
+    },
+    {
+      "source": "REAL",
+      "reached": false,
+      "completed": false,
+      "labelIdentifier": "route-location.arrival.road",
+      "location": {
+        "locationCode": "GRPRD",
+        "unLocationCode": "GRPRD",
+        "locationFunctionCode": "18",
+        "countryCode": "GR",
+        "countryName": "Greece",
+        "internationalName": "Paradeigma",
+        "freeTextLocation": "Paradeigma"
+      },
+      "locationMilestones": [
+        {
+          "labelIdentifier": "location-milestone.arrival.vehicle-arrived.road",
+          "reached": false,
+          "achievementDateTime": {
+            "condition": "PLANNED",
+            "dateTime": {
+              "date": "2026-02-09",
+              "localDateTime": "2026-02-09T00:00:00",
+              "offsetDateTime": "2026-02-09T00:00:00+00:00"
+            }
+          },
+          "plannedAchievementDateTime": {
+            "condition": "PLANNED",
+            "dateTime": {
+              "date": "2026-02-09",
+              "localDateTime": "2026-02-09T00:00:00",
+              "offsetDateTime": "2026-02-09T00:00:00+00:00"
+            }
+          }
+        }
+      ],
+      "visible": true
+    },
+    {
+      "source": "REAL",
+      "reached": false,
+      "completed": false,
+      "labelIdentifier": "route-location.destination.road",
+      "location": {
+        "countryCode": "GR",
+        "countryName": "Greece",
+        "freeTextLocation": "Mythopoli"
+      },
+      "locationMilestones": [],
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "exline-kz",
+  "displayName": "Exline",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "KZ"
+    ]
+  },
+  "brand": {
+    "color": "#0535ef"
+  },
+  "selectable": true,
+  "timezone": "Asia/Almaty",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "exline-kz",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 803
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "eta",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://exline.kz/ru/tracking?id={trackingNumber}",
+    "searchUrl": "https://exline.kz/ru/tracking",
+    "canaryUrl": "https://exline.kz/ru/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "weight",
+      "parcel_count",
+      "destination",
+      "recipient_name",
+      "delivered_at",
+      "delivery_method",
+      "delivery_instructions",
+      "postcodes",
+      "courier_name",
+      "contact_details",
+      "coordinates",
+      "payment_details",
+      "payment_link",
+      "order_reference",
+      "remarks"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "weight"
+    ],
+    "discarded": [
+      "parcel_count",
+      "destination",
+      "recipient_name",
+      "delivered_at",
+      "delivery_method",
+      "delivery_instructions",
+      "postcodes",
+      "courier_name",
+      "contact_details",
+      "coordinates",
+      "payment_details",
+      "payment_link",
+      "order_reference",
+      "remarks"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "service_name",
+      "sender_name",
+      "proof_of_delivery",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "exline.kz",
+        "www.exline.kz"
+      ],
+      "pathPattern": "^/(?:ru|kz|en|uz)/tracking/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

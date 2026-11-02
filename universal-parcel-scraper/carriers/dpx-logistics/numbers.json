@@ -1,0 +1,83 @@
+{
+  "carrier": "dpx-logistics",
+  "records": [
+    {
+      "number": "203020976653",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20240530222139/https://www.dpxlogistics.com/wp-content/uploads/Sample_DPX_AWB_English.pdf",
+        "date": "2024-05-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "sf-express",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "DPX Logistics's own blank sample form, a DPX-branded air waybill, prints this barcode; it is a form example, not a known shipment."
+    },
+    {
+      "number": "203018590191",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20180304133018/http://www.dpxlogistics.com/wp-content/uploads/connote.pdf",
+        "date": "2018-03-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "j-and-t-cargo",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "DPX Logistics's own blank sample form, a DPEX-branded consignment note it used as the Bangkok DPEX licensee, prints this barcode; it is a form example, not a known shipment."
+    }
+  ]
+}

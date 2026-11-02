@@ -1,0 +1,31 @@
+{
+  "carrier": "cycloon",
+  "entries": [
+    {"code": "1000", "wording": "Je pakket is aangemeld, maar nog niet in ons bezit", "stage": "registered", "language": "nl", "confirmedBy": "portal", "note": "Seen in an archived reply of Cycloon's tracker. The sender announced the parcel; Cycloon does not have it yet."},
+    {"code": "2230", "wording": "Je pakket wordt gesorteerd", "stage": "in_transit", "language": "nl", "confirmedBy": "portal", "note": "Seen in an archived reply of Cycloon's tracker."},
+    {"code": "2230", "wording": "Je pakket is aangekomen in ons sorteercentrum", "stage": "in_transit", "language": "nl", "confirmedBy": "portal", "note": "Seen in an archived reply of Cycloon's tracker."},
+    {"code": "2250", "wording": "Je pakket is verwerkt en onderweg naar jouw stad", "stage": "in_transit", "language": "nl", "confirmedBy": "portal", "note": "Seen in an archived reply of Cycloon's tracker."},
+    {"code": "2250", "wording": "Je pakket is aangekomen bij onze hub in jouw stad", "stage": "in_transit", "language": "nl", "confirmedBy": "portal", "note": "Seen in an archived reply of Cycloon's tracker."},
+    {"code": "4320", "wording": "De bezorging is nog niet gelukt", "stage": "exception", "language": "nl", "confirmedBy": "portal", "note": "Seen in an archived reply of Cycloon's tracker. Code 4320 is a delivery not attempted because of force majeure."},
+    {"code": "1000", "wording": "Aangemaakt", "stage": "registered", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker."},
+    {"code": "1300", "wording": "Bevestigd", "stage": "registered", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker."},
+    {"code": "1900", "wording": "Opgehaald", "stage": "accepted", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. Collected from the sender."},
+    {"code": "2210", "wording": "In sortering: op starthub", "stage": "in_transit", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker."},
+    {"code": "2230", "wording": "In sortering: in sorteercentrum", "stage": "in_transit", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker."},
+    {"code": "2250", "wording": "In sortering: op eindhub", "stage": "in_transit", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker."},
+    {"code": "2510", "wording": "Gesorteerd op route", "stage": "in_transit", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker."},
+    {"code": "2800", "wording": "Onderweg", "stage": "out_for_delivery", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. The courier is on the delivery round."},
+    {"code": "3100", "wording": "Bezorgd", "stage": "delivered", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker."},
+    {"code": "3400", "wording": "Bezorgd bij buren", "stage": "delivered", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. Delivered to a neighbour."},
+    {"code": "3500", "wording": "Bezorgd bij servicepunt", "stage": "ready_for_pickup", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. Left at a partner service point for the recipient to collect."},
+    {"code": "3700", "wording": "Aangeboden eerste poging", "stage": "failed_attempt", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. First delivery attempt failed."},
+    {"code": "4000", "wording": "Aangeboden tweede poging", "stage": "failed_attempt", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. Second delivery attempt failed."},
+    {"code": "4330", "wording": "Niet aangeboden: zending ontbreekt", "stage": "exception", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. The parcel was missing from the round."},
+    {"code": "5200", "wording": "Opgehaald door klant", "stage": "delivered", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. The recipient collected the parcel."},
+    {"code": "5500", "wording": "Geannuleerd", "stage": "exception", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. Cancelled."},
+    {"code": "6110", "wording": "Niet thuis", "stage": "failed_attempt", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker."},
+    {"code": "6120", "wording": "Geweigerd", "stage": "exception", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. Refused by the recipient."},
+    {"code": "6130", "wording": "Adres onvindbaar", "stage": "exception", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. The address could not be found."},
+    {"code": "6300", "wording": "Retour bij klant", "stage": "returned", "language": "nl", "confirmedBy": "official-doc", "note": "A status label in the script of Cycloon's current tracker. Back with the sender."}
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "output": {
+    "passedGuestAuthCheck": false,
+    "packages": [
+      {
+        "trackingNbr": "999999999996",
+        "trackingQualifier": "",
+        "trackingCarrierCd": "FDXG",
+        "displayTrackingNbr": "999999999996",
+        "keyStatus": "Ready for pickup",
+        "keyStatusCD": "HL",
+        "statusBarCD": "HL",
+        "statusWithDetails": "Ready for pickup: 10/6/2026 2:20 pm; MEMPHIS, TN",
+        "excepReasonCodeList": ["A13"],
+        "shipDt": "2026-10-03T16:00:00-05:00",
+        "estDeliveryDt": "",
+        "serviceCD": "FEDEX_GROUND",
+        "serviceDesc": "FedEx Ground",
+        "hal": true,
+        "haladdress": true,
+        "halEligible": false,
+        "halType": "",
+        "halresidential": false,
+        "halCmpnyName": "FEDEX OFFICE PRINT & SHIP CENTER",
+        "halAddressLocationId": "XMEMA",
+        "halUrbanizationCD": "",
+        "halAddress": {
+          "streetLines": ["100 EXAMPLE AVE", "", "SUITE 2"],
+          "city": "MEMPHIS",
+          "stateOrProvinceCode": "TN",
+          "postalCode": "38118",
+          "countryCode": "US",
+          "residential": false,
+          "classification": "BUSINESS",
+          "urbanizationCode": "",
+          "countryName": "United States"
+        },
+        "recipientName": "PRIVATE RECIPIENT",
+        "recipientCmpnyName": "PRIVATE RECIPIENT COMPANY",
+        "recipientPhoneNbr": "PRIVATE PHONE",
+        "recipientAddress": {
+          "streetLines": ["PRIVATE RECIPIENT STREET"],
+          "city": "PRIVATE RECIPIENT CITY",
+          "stateOrProvinceCode": "TN",
+          "postalCode": "PRIVATE POSTCODE",
+          "countryCode": "US",
+          "residential": true
+        },
+        "toDestinationAddress": {
+          "streetLines": ["PRIVATE DESTINATION STREET"],
+          "city": "PRIVATE DESTINATION CITY",
+          "stateOrProvinceCode": "TN",
+          "postalCode": "PRIVATE POSTCODE",
+          "countryCode": "US"
+        },
+        "shipperName": "PRIVATE SHIPPER NAME",
+        "shipperCmpnyName": "PRIVATE SHIPPER",
+        "shipperPhoneNbr": "PRIVATE PHONE",
+        "shipperAddress": {
+          "streetLines": ["PRIVATE SHIPPER STREET"],
+          "city": "PRIVATE SHIPPER CITY",
+          "stateOrProvinceCode": "TX",
+          "postalCode": "PRIVATE POSTCODE",
+          "countryCode": "US"
+        },
+        "scanEventList": [
+          {
+            "date": "2026-10-06",
+            "time": "14:20:00",
+            "gmtOffset": "-05:00",
+            "scanLocation": "MEMPHIS, TN",
+            "status": "Ready for pickup",
+            "statusCD": "HP",
+            "statusExceptionCode": "",
+            "scanDetails": ""
+          },
+          {
+            "date": "2026-10-05",
+            "time": "19:30:00",
+            "gmtOffset": "-05:00",
+            "scanLocation": "MEMPHIS, TN",
+            "status": "Hold at location request accepted",
+            "statusCD": "HA",
+            "statusExceptionCode": "A13",
+            "scanDetails": ""
+          },
+          {
+            "date": "2026-10-05",
+            "time": "09:00:00",
+            "gmtOffset": "-05:00",
+            "scanLocation": "",
+            "status": "Delivery option requested",
+            "statusCD": "RR",
+            "statusExceptionCode": "A12",
+            "scanDetails": ""
+          },
+          {
+            "date": "2026-10-04",
+            "time": "22:00:00",
+            "gmtOffset": "-05:00",
+            "scanLocation": "MEMPHIS, TN",
+            "status": "Arrived at FedEx location",
+            "statusCD": "AR",
+            "statusExceptionCode": "",
+            "scanDetails": ""
+          },
+          {
+            "date": "2026-10-03",
+            "time": "16:00:00",
+            "gmtOffset": "-05:00",
+            "scanLocation": "DALLAS, TX",
+            "status": "Picked up",
+            "statusCD": "PU",
+            "statusExceptionCode": "",
+            "scanDetails": ""
+          }
+        ]
+      }
+    ]
+  }
+}

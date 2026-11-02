@@ -1,0 +1,37 @@
+[
+  {
+    "code": "20000000",
+    "origen": "VILLA MUESTRA",
+    "destino": "PUEBLO EJEMPLO",
+    "fecha": "10/06/2026",
+    "hora": "09:05",
+    "cant": "2",
+    "remitente": "PERSONA EJEMPLO",
+    "destinatario": "OTRA PERSONA EJEMPLO",
+    "Rastreo": "20000000",
+    "folio": "2",
+    "envio": "OTRO",
+    "tipo": "PAGADO",
+    "importe": "0.00",
+    "historial": [
+      { "code": "20000000", "movimiento": "REGISTRO DE ENVIO", "ubicacion": "VILLA MUESTRA", "fechamov": "10/06/2026", "horamov": "09:05", "msgnum": 0, "msgtxt": "RESULTADO EXITOSO", "mov": "RG", "fchlegible": "10 De Junio Del 2026 09:05 Horas.", "UbicacionLegible": "Villa Muestra, Sinaloa", "MensageCliente": "Envío Documentado" },
+      { "code": "20000000", "movimiento": "REGISTRO DE EMBARQUE", "ubicacion": "VILLA MUESTRA", "fechamov": "10/06/2026", "horamov": "21:00", "msgnum": 0, "msgtxt": "RESULTADO EXITOSO", "mov": "EM", "fchlegible": "10 De Junio Del 2026 21:00 Horas.", "UbicacionLegible": "Villa Muestra, Sinaloa", "MensageCliente": "Envío En Tránsito" },
+      { "code": "20000000", "movimiento": "REGISTRO DE TRAYECTO", "ubicacion": "CIUDAD PRUEBA", "fechamov": "11/06/2026", "horamov": "02:35", "msgnum": 0, "msgtxt": "RESULTADO EXITOSO", "mov": "TK", "fchlegible": "11 De Junio Del 2026 02:35 Horas.", "UbicacionLegible": "Ciudad Prueba, Sinaloa", "MensageCliente": "Envío En Tránsito" }
+    ],
+    "entrega": { "recibe": "", "lat": "", "lng": "", "identificacion": "", "firmab64": " ", "fechamov": "", "horamov": "", "msgnum": -1, "msgtxt": "Sin datos de entrega", "obsent": "" },
+    "incidencias": [],
+    "msgnum": 0,
+    "msgtxt": "RESULTADO EXITOSO",
+    "dispEntDm": 1,
+    "rastreoExt": "",
+    "orgLegible": "Villa Muestra, Sinaloa",
+    "dstLegible": "Pueblo Ejemplo, Sonora",
+    "fchEstimada": "Por definir",
+    "direccionActual": "",
+    "idcd": 0,
+    "idedo": 0,
+    "Estado": "Sonora",
+    "Ciudad": "Pueblo Ejemplo",
+    "TipoServicio": "OCURRE"
+  }
+]

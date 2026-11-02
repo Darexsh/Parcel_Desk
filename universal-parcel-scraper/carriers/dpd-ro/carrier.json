@@ -1,0 +1,116 @@
+{
+  "id": "dpd-ro",
+  "displayName": "DPD Romania",
+  "aliases": [
+    "DPD Romania",
+    "DPD România",
+    "DPD (RO)",
+    "DPD RO"
+  ],
+  "region": {
+    "countries": [
+      "RO"
+    ]
+  },
+  "brand": {
+    "color": "#dc0032"
+  },
+  "selectable": true,
+  "timezone": "Europe/Bucharest",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dpd-ro",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 934,
+      "servedCountriesOnly": true
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "eta",
+    "delivered_at",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://tracking.dpd.ro/?shipmentNumber={trackingNumber}",
+    "searchUrl": "https://www.dpd.com/ro/ro/",
+    "canaryUrl": "https://www.dpd.com/ro/ro/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "recipient_name",
+      "proof_of_delivery",
+      "return_number",
+      "delivery_tracking_number",
+      "delivery_partner"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "delivered_at",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "recipient_name",
+      "proof_of_delivery",
+      "return_number"
+    ],
+    "unavailable": [
+      "weight",
+      "dimensions",
+      "service_name",
+      "sender_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.dpd.ro"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "shipmentNumber"
+      ]
+    },
+    {
+      "domains": [
+        "services.dpd.ro"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "shipmentNumber"
+      ]
+    },
+    {
+      "domains": [
+        "dpdgroup.com",
+        "dpd.com"
+      ],
+      "pathPattern": "^/ro(?:/|$)",
+      "params": [
+        "parcelNumber",
+        "parcelnumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "dpd-ro-1",
+      "pattern": "^8\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "tracking_no": "JNTH000000000001",
+    "version": "V2",
+    "early_est_date": null,
+    "est_date": null,
+    "pickup_country": "Singapore",
+    "consignee_country": "Thailand",
+    "masked_consignee_email": "sa****le@ex*****e.com",
+    "epod_exists": true,
+    "status_updates": [
+      {
+        "status": "DELIVERY_COMPLETED",
+        "description": "The parcel has been successfully delivered to the recipient.",
+        "country": null,
+        "address": "(Address shortened for privacy) Thailand Sample Province Sample District ",
+        "updated_on": "2026-05-14T06:12:40Z",
+        "partner_name": "scg",
+        "partner_status": "90",
+        "partner_data": null
+      },
+      {
+        "status": "DELIVERY_IN_PROGRESS",
+        "description": "The parcel is on its way to the recipient. This may take several days depending on the country/region.",
+        "country": null,
+        "address": null,
+        "updated_on": "2026-05-14T01:30:05Z",
+        "partner_name": "scg",
+        "partner_status": "11",
+        "partner_data": null
+      },
+      {
+        "status": "IN_TRANSIT_WITHIN_DESTINATION_COUNTRY",
+        "description": "The parcel has arrived at a warehouse and is awaiting processing.",
+        "country": null,
+        "address": null,
+        "updated_on": "2026-05-13T23:58:12Z",
+        "partner_name": "scg",
+        "partner_status": "35",
+        "partner_data": null
+      },
+      {
+        "status": "IN_TRANSIT_WITHIN_DESTINATION_COUNTRY",
+        "description": "The parcel is on its way to the next facility.",
+        "country": null,
+        "address": null,
+        "updated_on": "2026-05-13T11:20:00Z",
+        "partner_name": "scg",
+        "partner_status": "34",
+        "partner_data": null
+      },
+      {
+        "status": "IN_TRANSIT_WITHIN_DESTINATION_COUNTRY",
+        "description": "The parcel is on its way to the next facility.",
+        "country": null,
+        "address": null,
+        "updated_on": "2026-05-13T11:20:00Z",
+        "partner_name": "scg",
+        "partner_status": "34",
+        "partner_data": null
+      },
+      {
+        "status": "CROSS_BORDER_TRANSIT",
+        "description": "Your order is scheduled for a flight from Singapore to Bangkok",
+        "country": null,
+        "address": null,
+        "updated_on": "2026-05-12T03:45:00Z"
+      },
+      {
+        "status": "IN_TRANSIT_WITHIN_ORIGIN_COUNTRY",
+        "description": "The parcel is about to depart a warehouse for the next facility.",
+        "country": "Singapore",
+        "address": ", Singapore, Singapore",
+        "updated_on": "2026-05-11T14:02:33.512904Z"
+      },
+      {
+        "status": "PENDING_PICKUP",
+        "description": "We have arranged to pick up the parcel from the sender on 2026-05-11",
+        "country": "Singapore",
+        "address": "Sample District, Singapore, Singapore",
+        "updated_on": "2026-05-10T08:15:09.410000Z",
+        "partner_name": "jtms_sg_fm_janio",
+        "partner_status": "DRIVER_ASSIGNED",
+        "partner_data": null
+      },
+      {
+        "status": "ORDER_CREATED",
+        "description": "We have received the order details, but not the parcel.",
+        "country": null,
+        "address": null,
+        "updated_on": "2026-05-10T08:15:08.123456Z"
+      }
+    ],
+    "external_tracking_nos": {
+      "jtms_sg_fm_janio": "000000000000000",
+      "scg": "JNTH000000000001"
+    }
+  }
+]

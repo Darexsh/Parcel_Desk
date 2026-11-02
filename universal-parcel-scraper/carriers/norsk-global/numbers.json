@@ -1,0 +1,174 @@
+{
+  "carrier": "norsk-global",
+  "records": [
+    {
+      "number": "NOR0012GB00002606001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240923234156/https://norsk.trackmyparcel.info/tracking/NOR0012GB00002606001",
+        "date": "2024-09-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex-international-connect",
+          "starlinks-global"
+        ]
+      },
+      "note": "An archived lookup on Norsk's own tracker; the capture was opened but shows only the page shell, so the history is not visible. The number has FedEx International Connect's layout, and Norsk's tracker also finds a parcel by its partner's number."
+    },
+    {
+      "number": "PKG700534051001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170419160636/http://underground-england.trackmyparcel.info:80/tracking/PKG700534051001",
+        "date": "2017-04-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "norsk-global"
+        ]
+      },
+      "note": "An archived lookup on a merchant's site on Norsk's tracker; the capture shows the shipment's history."
+    },
+    {
+      "number": "PKG700635282001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170623013737/http://merlincycles.trackmyparcel.info:80/tracking/PKG700635282001",
+        "date": "2017-06-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "norsk-global"
+        ]
+      },
+      "note": "An archived lookup on a merchant's site on Norsk's tracker; the capture shows the shipment's history."
+    },
+    {
+      "number": "PKG701631939001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20181020090212/http://fashioneyewear.trackmyparcel.info:80/tracking/PKG701631939001",
+        "date": "2018-10-20",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "norsk-global"
+        ]
+      },
+      "note": "An archived lookup on a merchant's site on Norsk's tracker; the capture shows only the page shell."
+    },
+    {
+      "number": "PKG701912455001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190130233858/http://apothecary87.trackmyparcel.info:80/tracking/PKG701912455001",
+        "date": "2019-01-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "norsk-global"
+        ]
+      },
+      "note": "An archived lookup on a merchant's site on Norsk's tracker; the capture shows only the page shell."
+    },
+    {
+      "number": "PKG702786853001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://uk.trustpilot.com/reviews/5ec13dc325e5d20a8898066b",
+        "date": "2020-05-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "norsk-global"
+        ]
+      },
+      "note": "A customer's review on Norsk Global's Trustpilot page gives it for a jacket sent from the UK to the US, and Norsk's reply describes handing that shipment to a postal carrier."
+    },
+    {
+      "number": "51021420631075",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://uk.trustpilot.com/reviews/5f90f0d2798e6f04a41a4307",
+        "date": "2020-10-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "nova-poshta"
+        ]
+      },
+      "note": "A customer's review on Norsk Global's Trustpilot page calls it the tracking number of a parcel from the UK, and Norsk's reply refers to it; fourteen digits may be a delivering partner's number."
+    }
+  ]
+}

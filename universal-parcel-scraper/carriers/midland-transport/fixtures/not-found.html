@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="/bundles/jquery?v=0000000000000000000000000000000000000000001"></script>
+</head>
+<body style="height:100%">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container" style="width:96%">
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <form action="/Tracking/TrackClientTrackings" class="navbar-form text-center">
+                    <div class="input-group">
+                        <input class="form-control text-box single-line" id="TrackingNumber" name="TrackingNumber" placeholder="Track Another Shipment" type="text" value="0000000000000000" />
+                    </div>
+                    <div class="navbar-right">
+                        <div class="input-group">
+                            <span class="input-group-addon">Preferred Language</span>
+                            <select class="form-control" id="Lang" name="Lang" onchange="$(&#39;form&#39;).submit()"><option selected="selected" value="0">English</option>
+<option value="1">French</option>
+</select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content" style="width:97%; padding:70px; height:100%">
+        <div id="divTrackDetails">
+<div class="row">
+    <div class="alert alert-danger" style="text-align:center">
+        <span>The shipment number does not exist, please contact 1-888-643-5263 for more information.</span>
+    </div>
+</div>
+        </div>
+        <div id="divLoading" style="display: none;">
+            <hr />
+        </div>
+    </div>
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=00000000000000000000000000000000&ns=1&cb=000000000" async></script></body>
+</html>

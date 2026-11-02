@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APC - Choice</title>
+    <link rel="stylesheet" href="/css/apc-default.css" />
+    <link rel="stylesheet" href="/css/TrackParcel.css" type="text/css" />
+    <script src="/js/inflight.js"></script>
+</head>
+<body>
+    <div class="layout-body fill-height">
+        <header>
+            <div class="apc-banner">
+                <img class="logo" src="/img/apc-logo.svg" alt="APC Logo" />
+            </div>
+        </header>
+        <main>
+<div class="tracking-container page-content">
+    <h1>APC PINPOINT</h1>
+    <div class="intro">
+            <p class="text-blue__medium">
+                If you have any queries about your consignment, please contact your local APC Overnight
+                Delivery Depot:
+            </p>
+            <p class="text-blue__medium">EXAMPLE COURIERS LTD, UNIT 9 SAMPLE PARK, EXAMPLETOWN, ZZ99 9ZZ</p>
+            <p class="text-blue__medium">Email <a href="mailto:depot999@example.com">depot999@example.com</a></p>
+    </div>
+    <div class="con-summary">
+        <h2>CONSIGNMENT SUMMARY</h2>
+        <table>
+            <tr>
+                <th class="text-black__medium">Consignment number:</th>
+                <td class="text-black__light">0001234</td>
+            </tr>
+            <tr>
+                <th class="text-black__medium">Dispatch date:</th>
+                <td class="text-black__light">05-Mar-2026</td>
+            </tr>
+            <tr>
+                <th class="text-black__medium">Number of parcels/items:</th>
+                <td class="text-black__light">2</td>
+            </tr>
+            <tr>
+                <th class="text-black__medium">Total weight:</th>
+                <td class="text-black__light">12.5 kg</td>
+            </tr>
+            <tr>
+                <th class="text-black__medium">Consignment service:</th>
+                <td class="text-black__light">ND16 (Next Business Day Standard Parcel)</td>
+            </tr>
+            <tr>
+                <th class="text-black__medium">Sender&CloseCurlyQuote;s reference:</th>
+                <td class="text-black__light">REF-SAMPLE-0001</td>
+            </tr>
+        </table>
+    </div>
+        <div class="item-chooser">
+            <div class="item-buttons-container">
+                    <div class="item-button">
+                        <button type="button" data-item-number="1">Item 1</button>
+                    </div>
+                    <div class="item-button">
+                        <button type="button" data-item-number="2">Item 2</button>
+                    </div>
+            </div>
+            <div class="details-container">
+                <div id="item-placeholder">
+                    <p>Select an item number to view its journey.</p>
+                </div>
+                    <div id="item-1" class="item-details">
+                        <div class="detailed-journey-container">
+                            <h2>PARCEL JOURNEY</h2>
+                            <ul>
+                                    <li>At sending depot (05-Mar-2026 17:40)</li>
+                                    <li>At Hub (06-Mar-2026 00:12)</li>
+                                    <li>At delivery depot (06-Mar-2026 06:58)</li>
+                            </ul>
+                        </div>
+                        <div class="detailed-delivery-container">
+                            <h2>DELIVERY SUMMARY</h2>
+                                        <div class="pod-details">
+                                            <p>Delivery Rearranged By Customer (05-Mar-2026 18:05)</p>
+                                        </div>
+                                        <div class="pod-details">
+                                            <p>Delivery Rearranged By Customer (08-Mar-2026 09:30)</p>
+                                        </div>
+                        </div>
+                    </div>
+                    <div id="item-2" class="item-details">
+                        <div class="detailed-journey-container">
+                            <h2>PARCEL JOURNEY</h2>
+                            <ul>
+                                    <li>At sending depot (05-Mar-2026 17:40)</li>
+                                    <li>At Hub (06-Mar-2026 00:19)</li>
+                                    <li>At delivery depot (06-Mar-2026 06:58)</li>
+                            </ul>
+                        </div>
+                        <div class="detailed-delivery-container">
+                            <h2>DELIVERY SUMMARY</h2>
+                                        <div class="pod-details">
+                                            <p>Delivery Rearranged By Customer (05-Mar-2026 18:05)</p>
+                                        </div>
+                                        <div class="pod-details">
+                                            <p>Delivery Rearranged By Customer (08-Mar-2026 09:30)</p>
+                                        </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    <!-- Login Verification Form -->
+    <div id="verify-form" class="focal-point apc-p-2 apc-my-3">
+        <form method="post" action="/APCChoice">
+            <input type="hidden" name="ConsignmentNumber" value="0001234" />
+            <p class="fs-5 apc-mb-2">
+                To view proof of delivery, or to view your APC Choice options, please enter the
+                recipient postcode linked to this delivery.
+            </p>
+            <div class="apc-mb-4 fs-5">
+                <input id="Postcode" maxlength="8" minlength="3" name="Postcode" style="width: 220px" type="text" value="" />
+            </div>
+            <div class="button-container">
+                <button id="verify" type="submit" class="btn apc-btn-primary w-100" disabled>Verify</button>
+<div class="btn apc-btn-secondary w-100">
+    <a id="homeButton" href=/APCChoice>Start a New Search</a>
+</div>
+            </div>
+        <input name="__RequestVerificationToken" type="hidden" value="SYNTHETIC-TOKEN" /></form>
+    </div>
+</div>
+<script>
+    const pageModel = {};
+</script>
+<script src="/js/TrackParcel.js"></script>
+        </main>
+        <div class="flex-grow-1"></div>
+        <footer id="apcfooter">
+            <p>
+                The Alternative Parcels Company Limited, Example Sortation Centre, Sampletown <br />
+                Registered in England and Wales
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+{
+  "id": "fm-transportes",
+  "displayName": "FM Transportes",
+  "aliases": [
+    "FM Transport Brazil",
+    "FM Transportes Brasil",
+    "F.M Logística Nacional XD SP Ltda"
+  ],
+  "region": {
+    "countries": [
+      "BR"
+    ]
+  },
+  "brand": {
+    "color": "#e52327"
+  },
+  "selectable": true,
+  "timezone": "America/Sao_Paulo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "fm-transportes",
+    "steps": [
+      "trawl"
+    ],
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://rastreio.fmtransportes.com.br/#/{trackingNumber}",
+    "searchUrl": "https://rastreio.fmtransportes.com.br/",
+    "canaryUrl": "https://rastreio.fmtransportes.com.br/",
+    "shows": [
+      "status",
+      "history",
+      "eta",
+      "recipient_name",
+      "recipient_address",
+      "signatory"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address",
+      "signatory"
+    ],
+    "unavailable": [
+      "location",
+      "weight",
+      "service_name",
+      "provider_code"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "rastreio.fmtransportes.com.br"
+      ],
+      "pathPattern": "^/?$",
+      "fragment": "^/([^/?&]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "fm-transportes-1",
+      "pattern": "^(?:0[1-9]|[12]\\d|3[01])(?:0[1-9]|1[0-2])2\\d(?![0-9A-F]{2}\\d{9}[A-Z]$)(?=\\d*[A-Z])[A-Z0-9]{12}$",
+      "confidence": "high"
+    }
+  ]
+}

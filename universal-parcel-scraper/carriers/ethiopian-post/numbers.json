@@ -1,0 +1,24 @@
+{
+  "carrier": "ethiopian-post",
+  "records": [
+    {
+      "number": "RD167372704ET",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-ethiopia-post.html",
+        "date": "2017-05-22",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Quoted in a review on TrackingMore's Ethiopia Post page by a customer waiting 49 days for the item; its ET suffix names the Ethiopian Postal Service as the issuing post."
+    }
+  ]
+}

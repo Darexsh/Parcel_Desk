@@ -1,0 +1,204 @@
+{
+  "carrier": "dhl-express",
+  "entries": [
+    {
+      "wording": "Delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05"
+    },
+    {
+      "wording": "Shipment is out with courier for delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05"
+    },
+    {
+      "wording": "Shipment is on hold",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05"
+    },
+    {
+      "wording": "Delivery attempted but no response at Consignee address",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05"
+    },
+    {
+      "wording": "Shipment picked up",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05"
+    },
+    {
+      "wording": "Shipment is in transit to destination",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05"
+    },
+    {
+      "wording": "Shipment information received",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05"
+    },
+    {
+      "code": "EM",
+      "wording": "Supplementary information has been received and merged with applicable shipment data",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "The shipper's further data joined to the shipment's record, seen before the shipment information itself. Read by its wording; the unified feed codes it EM."
+    },
+    {
+      "wording": "Processed at",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05",
+      "note": "Followed by the facility, as in \"Processed at <city> - <country>\"; matched on its start."
+    },
+    {
+      "wording": "Arrived at DHL Sort Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05",
+      "note": "Followed by the facility; matched on its start."
+    },
+    {
+      "wording": "Arrived at DHL Delivery Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05",
+      "note": "Followed by the facility; matched on its start."
+    },
+    {
+      "code": "SM",
+      "wording": "Scheduled to depart on the next planned movement",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "Waiting at a facility for its next linehaul or flight. The unified feed codes it SM; the mobile API sends the wording alone."
+    },
+    {
+      "wording": "Shipment is scheduled for delivery",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "A delivery booked for a later round, as after a failed attempt; the courier's round comes as its own scan."
+    },
+    {
+      "wording": "Shipment has departed from a DHL facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-05",
+      "note": "Followed by the facility; matched on its start."
+    },
+    {
+      "wording": "Clearance processing complete at",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10",
+      "note": "Followed by the facility. A completed clearance puts the parcel back in transit."
+    },
+    {
+      "wording": "Customs clearance status updated. Note - The Customs clearance process",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-10",
+      "note": "Matched on its start; the clearance is still under way."
+    },
+    {
+      "code": "IC",
+      "wording": "Processed for clearance at",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "note": "Followed by the facility. Not the Processed at checkpoint: the parcel is in customs. The unified feed codes it IC, which stages it in any wording."
+    },
+    {
+      "code": "CD",
+      "wording": "Clearance event",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "note": "A clearance step without its outcome; the parcel is still in customs. The unified feed codes it CD, which stages it in any wording."
+    },
+    {
+      "wording": "On hold awaiting for payment of shipment related fees",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "The recipient owes duties or fees: the delivery facility holds the parcel until they are paid, and the payment row follows. A hold waiting on the recipient's payment is customs at work, not a problem."
+    },
+    {
+      "code": "PY",
+      "wording": "Payment is received and recorded for shipment related fees",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-19",
+      "note": "The recipient's duties or fees are paid between clearance updates; the parcel stays in customs until the clearance completes. The unified feed codes it PY, which stages it in any wording."
+    },
+    {
+      "code": "SA",
+      "wording": "Shipment accepted",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "The unified feed codes it SA, which stages it in any wording."
+    },
+    {
+      "code": "MS",
+      "wording": "Shipment arrived at incorrect facility. It will be sent to the correct destination",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "note": "A missort: the parcel goes on to the right facility, late. The unified feed codes it MS; the web feed sends the wording alone."
+    },
+    {
+      "code": "CC",
+      "wording": "Awaiting collection by the consignee",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "Held at a DHL facility for the consignee to collect; matched on its start. The unified feed codes it CC, which stages it in any wording."
+    },
+    {
+      "code": "ND",
+      "wording": "Delivery attempt could not be completed",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "Matched on its start. The unified feed codes it ND, which stages it in any wording."
+    },
+    {
+      "code": "RT",
+      "wording": "Returned to shipper",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "The unified feed codes it RT, which stages it in any wording."
+    }
+  ]
+}

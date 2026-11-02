@@ -1,0 +1,26 @@
+{
+  "carrier": "united-delivery-service",
+  "entries": [
+    {"wording": "Shipment Request Received", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Former tracker table: the shipper's data reached UDS."},
+    {"wording": "Package Received", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Former tracker table: scanned in at a UDS terminal; can repeat at the delivery terminal."},
+    {"wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Former tracker table."},
+    {"wording": "Shipment Notification", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Current tracker step, described as 'Shipment notification has been received.'"},
+    {"wording": "Shipment notification has been received.", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Description under the current tracker's first step."},
+    {"wording": "Received", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Current tracker step and status heading, described as 'Package has been received by UDS.'"},
+    {"wording": "Package has been received by UDS.", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Description under the current tracker's second step."},
+    {"wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Current tracker step, described as 'Package is loaded and out for delivery.'"},
+    {"wording": "Package is loaded and out for delivery.", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Description under the current tracker's third step."},
+    {"wording": "Package has been delivered.", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Description under the current tracker's last step, both before and after delivery."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Both tracker versions, as a step and as the status heading; the current one adds proof-of-delivery details such as front or back door."},
+    {"wording": "Delayed", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Tracking help: the package has experienced a delay in shipping."},
+    {"wording": "Will-Call", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "official-doc", "note": "Tracking help: the package was sent to will call, to be picked up at a UDS facility."},
+    {"wording": "Returned", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Tracking help: the order has been returned to the shipping merchant."},
+    {"wording": "The shipment information has been sent to UDS. The status will update when UDS receives the package.", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Summary line before the first scan."},
+    {"wording": "This shipment has not been received by UDS. Please check back at a later time.", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Shown under the steps before the first scan."},
+    {"wording": "The package has been received by UDS.", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Summary line after the inbound scan."},
+    {"wording": "The package is delivered.", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Summary line once delivered."},
+    {"wording": "Delivery", "language": "en", "confirmedBy": "portal", "note": "Title of the last step while it is still to come; it becomes 'Delivered'."},
+    {"wording": "Expected Delivery", "language": "en", "confirmedBy": "portal", "note": "Heading of the delivery estimate."},
+    {"wording": "Barcode Not Found", "language": "en", "confirmedBy": "live", "note": "Status heading for a barcode the tracker does not hold, including one older than its retention."}
+  ]
+}

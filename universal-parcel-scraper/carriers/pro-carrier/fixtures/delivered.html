@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/themes/user/procarrier/css/app.css?v=4.76b">
+
+        <title>Pro Carrier Tracking</title>
+        <meta name="description" content="Pro Carrier Tracking">
+    </head>
+
+    <body id="body" data-toggler=".lock">
+    <link rel="stylesheet" href="https://use.typekit.net/aoo2bol.css">
+
+      <main>
+
+        <header class="header">
+            <div class="grid-container">
+                <div class="grid-x align-middle" >
+                    <div class="cell small-6 large-8">
+                        <a href="https://weareprocarrier.com/"><img class="logo" src="https://tracker-content-silo.ams3.cdn.digitaloceanspaces.com/cms-files/pro-carrier-logo.svg" alt="Pro Carrier logo" border="0"></a>
+                        <h3 class="logo-title logo-title--desktop">Delivery Tracking</h3>
+                    </div>
+                      <div class="cell small-6 large-4 text-right">
+                            <div id="google_translate_element"></div>
+                            <button class="button button--translate notranslate" type="button" data-toggle="language-dropdown"><span id="selected-language"></span></button>
+                            <div class="dropdown-pane bottom right" id="language-dropdown" data-dropdown data-close-on-click	>
+                                <ul class="menu menu--translate vertical text-left notranslate">
+                                    <li><a href="#en" onclick="doGTranslate('en|en')" id="lang-en" title="English"><img src="/themes/user/procarrier/img/flags/svg/en.svg" alt="en" /> English</a></li>
+                                    <li><a href="#fr" onclick="doGTranslate('en|fr')" id="lang-fr" title="Français"><img src="/themes/user/procarrier/img/flags/svg/fr.svg" alt="fr" /> Français</a></li>
+                                </ul>
+                            </div>
+                          <h3 class="logo-title logo-title--mobile">Delivery Tracking</h3>
+                      </div>
+                </div>
+            </div>
+        </header>
+
+                  <section class="small-search-bar">
+   <div class="small-search-bar__container">
+       <div class="grid-x align-middle">
+           <div class="cell medium-6 small-search-bar__cell-text">
+             <a href="/" class="small-search-bar__text"> Track another parcel</a>
+           </div>
+           <div class="cell medium-6 small-search-bar__cell-form">
+               <form action="/" method="GET" class="track-shipment-form">
+                   <input type="text" class="track-shipment-form__tn" name="tn" value="DG00000000001" required >
+                   <button class="track-shipment-form__button"><span>Track</span></button>
+               </form>
+           </div>
+       </div>
+   </div>
+</section>
+
+                  <section class="shipment-status">
+
+                    <div class="shipment-status__container">
+                      <div class="grid-x grid-margin-x grid-margin-y align-middle overview">
+                        <div class="cell-icon">
+                            <img src="https://tracker-content-silo.ams3.cdn.digitaloceanspaces.com/cms-files/pc-shipping-icon.png" alt="Shipment" class="inline-icon"/>
+                        </div>
+                        <div class="cell-icon-text">
+                          <h2>
+                            <span class="destination-highlight">
+                              SAMPLEVILLE, FR                            </span>
+                            DG00000000001                          </h2>
+                        </div>
+                        <div class="cell medium-3">
+                          <h5 class="destination-subtitle">Current Status</h5>
+                          <h3 class="destination-status">parcel delivered in mailbox</h3>
+                        </div>
+                        <div class="cell medium-3">
+                          <h5 class="destination-subtitle">Last Update</h5>
+                          <h3 class="destination-date">2026-03-12 13:05 </h3>
+                        </div>
+                      </div>
+
+                      <div class="grid-x grid-margin-x grid-margin-y">
+                        <div class="cell medium-4">
+                          <h3>Follow my shipment</h3>
+
+                        <div class="shipment-status__button-container">    
+                          <a href="https://colisprive.com/moncolis/pages/detailColis.aspx?numColis=ZZ000000000199999" target="_blank" class="button">
+                            Track your delivery on partner site
+                          </a>
+                        </div>
+                        </div>
+                        <div class="cell medium-8">
+                          <div class="tracking-icons-container">
+
+                            <div class="tracking-icons">
+                              <div class="tracking-icons__roundal">
+                                <img src="/themes/user/procarrier/img/tracking-icons/order.png" class="tracking-icons__img">
+                              </div>
+                              <div class="tracking-icons__wording">Shipment information received</div>
+                            </div>
+
+                            <div class="tracking-icons true"><div class="tracking-icons__roundal"><img src="/themes/user/procarrier/img/tracking-icons/desp.png" class="tracking-icons__img"/></div><div class="tracking-icons__wording">Processed and dispatched to delivery partner</div></div><div class="tracking-icons true"><div class="tracking-icons__roundal"><img src="/themes/user/procarrier/img/tracking-icons/customs.png" class="tracking-icons__img"/></div><div class="tracking-icons__wording">In customs</div></div><div class="tracking-icons true"><div class="tracking-icons__roundal"><img src="/themes/user/procarrier/img/tracking-icons/delivery_partner.png" class="tracking-icons__img"/></div><div class="tracking-icons__wording">Received by delivery partner</div></div><div class="tracking-icons true"><div class="tracking-icons__roundal"><img src="/themes/user/procarrier/img/tracking-icons/out_delivery.png" class="tracking-icons__img"/></div><div class="tracking-icons__wording">Out for delivery</div></div><div class="tracking-icons true"><div class="tracking-icons__roundal"><img src="/themes/user/procarrier/img/tracking-icons/delivered.png" class="tracking-icons__img"/></div><div class="tracking-icons__wording">Delivered</div></div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+
+                  <div class="shipment-status__container">
+                      <div class="grid-x grid-margin-x grid-margin-y align-middle">
+                        <div class="cell-icon">
+                            <img src="https://tracker-content-silo.ams3.cdn.digitaloceanspaces.com/cms-files/pc-shipping-icon.png" alt="Shipment" class="inline-icon"/>
+                        </div>
+                        <div class="cell-icon-text">
+                            <h2>Need help with  your shipment?</h2> 
+                        </div>  
+                        </div>  
+
+                      <div class="grid-x grid-margin-x grid-margin-y">
+                      <div class="cell large-10">
+                          <p><strong>Please contact the retailer directly for any questions about your parcel’s tracking or location.</strong></p><p>Retailers have the most accurate, up-to-date information. Have your order details ready when you reach out. Thank you.</p>
+                      </div>
+                    </div>
+
+                        <div class="shipment-status__button-container">    
+                          <a href="https://colisprive.com/moncolis/pages/detailColis.aspx?numColis=ZZ000000000199999" target="_blank" class="button">
+                            Track your delivery on partner site
+                          </a>
+                        </div>
+
+                  </div>
+
+          </section>
+
+
+          <section class="shipment-details">
+            <div class="shipment-details__container">
+              <div class="grid-x grid-margin-x grid-margin-y">
+                <div class="cell medium-6 shipment-details__details-container">
+
+                <h2 class="shipping-title">
+                    <img src="https://tracker-content-silo.ams3.cdn.digitaloceanspaces.com/cms-files/pc-details-icon.png" alt="Shipment Details" class="inline-icon"/>
+                  Shipment Details
+                </h2>
+
+              	<dl class="detail-list">
+              		<dt>Tracking Number</dt>
+              		<dd>DG00000000001</dd>
+              	</dl>
+              	<dl class="detail-list">
+              		<dt>Carrier Tracking Number</dt>
+              		<dd>ZZ0000000001</dd>
+              	</dl>
+              	<dl class="detail-list">
+              		<dt>Service</dt>
+              		<dd>PCPL</dd>
+              	</dl>
+              	<dl class="detail-list">
+              		<dt>Weight</dt>
+              		<dd>0.420kg</dd>
+              	</dl>
+              	<dl class="detail-list">
+              		<dt>Destination</dt>
+              		<dd>SAMPLEVILLE, FR</dd>
+              	</dl>
+              	<dl class="detail-list">
+              		<dt>Current Status</dt>
+              		<dd class="sentence-case">parcel delivered in mailbox</dd>
+              	</dl>
+
+                </div>
+                <div class="cell medium-6 shipment-details__history-container">
+
+                <h2 class="shipping-title">
+                    <img src="https://tracker-content-silo.ams3.cdn.digitaloceanspaces.com/cms-files/pc-history-icon.png" alt="Shipment History" class="inline-icon"/>
+                  Shipment History
+                </h2>
+
+                <dl class="detail-list">
+                  <dt>Date/Time</dt>
+                  <dd>Event</dd>
+                </dl>
+
+                <ul
+                  class="accordion accordion--shipping" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-12 13:05:00</dt>
+                              <dd class="sentence-case">parcel delivered in mailbox</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">delivered to letterbox, signed by A Sample 07000 000000</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-12 08:31:00</dt>
+                              <dd class="sentence-case">parcel out for delivery</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">out for delivery</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-12 07:58:00</dt>
+                              <dd class="sentence-case">in transit (in country)</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">received by distributor</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-12 07:58:00</dt>
+                              <dd class="sentence-case">in transit (in country)</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">received by distributor</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-12 07:40:00</dt>
+                              <dd class="sentence-case">email notification sent to consignee</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">email notification sent</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-12 03:10:00</dt>
+                              <dd class="sentence-case">arrived at delivery depot</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">arrived at delivery depot</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-11 20:15:00</dt>
+                              <dd class="sentence-case">arrived in country</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">received destination hub</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-11 14:02:11</dt>
+                              <dd class="sentence-case">parcel is on route to destination country</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">flight departed</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-11 09:40:27</dt>
+                              <dd class="sentence-case">received in hub</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">parcel received in hub and/or presented for import clearance</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-11 08:55:40</dt>
+                              <dd class="sentence-case">customs cleared</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">import declaration released</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-10 23:20:05</dt>
+                              <dd class="sentence-case">parcel awaiting clearance by customs</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">import declaration has been created</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-10 22:47:00</dt>
+                              <dd class="sentence-case">departed from pro carrier hub</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">departed from hub</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-10 19:31:52</dt>
+                              <dd class="sentence-case">parcel added to pallet/group</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">scanned to pallet/load</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-10 13:12:09</dt>
+                              <dd class="sentence-case">parcel received</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">-</p>
+                          </div>
+                        </li>
+
+                        <li class="accordion-item" data-accordion-item>
+                          <a href="#" class="accordion-title">
+                            <dl class="detail-list">
+                              <dt>2026-03-09 17:44:30</dt>
+                              <dd class="sentence-case">pre-advice received</dd>
+                            </dl>
+                          </a>
+
+                          <div class="accordion-content" data-tab-content>
+                            <strong>Comments</strong>
+                            <p class="sentence-case">-</p>
+                          </div>
+                        </li>
+
+                                        </ul>
+
+                </div>
+              </div>
+            </div>
+          </section>
+
+  </main>
+
+        <script src="/themes/user/procarrier/js/jquery.min.js?v=4.76b"></script>
+        <script src="/themes/user/procarrier/js/foundation.min.js?v=4.76b"></script>
+        <script type="text/javascript">
+            $(document).foundation();
+        </script>
+
+    <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'0000000000000000',t:'MDAwMDAwMDAwMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

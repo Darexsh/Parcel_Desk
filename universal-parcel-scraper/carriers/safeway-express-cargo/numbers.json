@@ -1,0 +1,28 @@
+{
+  "carrier": "safeway-express-cargo",
+  "records": [
+    {
+      "number": "BH25010654",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.safewayxp.com/en/track/",
+        "date": "2026-10-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "safeway-express-cargo",
+          "tnt-it"
+        ]
+      },
+      "note": "The example Safe Way's tracking page prints under its search box; its tracker answers it with a hand-off to Aramex."
+    }
+  ]
+}

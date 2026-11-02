@@ -1,0 +1,60 @@
+{
+  "ok": [
+    {
+      "objeto": {
+        "codigo": 101,
+        "wsTracking": { "codigo": 102, "proceso": 100000103, "expedicion": "999000000000" },
+        "expeCodigo": 1000100,
+        "numeroEnvio": "999000000000",
+        "numeroReferencia": "999000000000",
+        "retornoEnvio": "N",
+        "kilos": 1.5,
+        "volumenDeclarado": 0,
+        "volumenReal": 0,
+        "portes": "D",
+        "valor": 1000,
+        "codigoServicio": "4000",
+        "descripcionServicio": "VIA CARGO PLUS ED",
+        "tipoTrackingServicio": "N",
+        "fechaHoraAdmision": "14/04/2026 04:05",
+        "fechaHoraEntrega": null,
+        "nombreDestinatario": "SAMPLE RECIPIENT",
+        "nitDestinatario": "00000000",
+        "direccionDestinatario": "CALLE EJEMPLO 0",
+        "codigoPostalDestinatario": "0000",
+        "poblacionDestinatario": "CIUDAD EJEMPLO",
+        "telefonoDestinatario": "0000000000",
+        "contactoDestinatario": "SAMPLE RECIPIENT",
+        "nombreProvinciaDestinatario": "PROVINCIA EJEMPLO",
+        "nombreRemitente": "SAMPLE SENDER",
+        "codigoRemitente": "00000000-00",
+        "nitRemitente": "00000000",
+        "direccionRemitente": "AVENIDA EJEMPLO 0",
+        "codigoPostalRemitente": "0000",
+        "poblacionRemitente": "TERMINAL EJEMPLO",
+        "esMultipieza": "N",
+        "numeroTotalPiezas": 1,
+        "oficinaRemitente": "SMP002",
+        "oficinaDestinatario": "SMP003",
+        "rutaPod": null,
+        "rutasCartasPorte": null,
+        "bultoCargaConVuelo": false,
+        "fechaHoraPrevistaEntrega": null,
+        "nombreQuienRecibe": null,
+        "nifQuienRecibe": null,
+        "listaEventos": [
+          { "codigo": 103, "evexCodigo": 11, "descripcion": "EN VIAJE", "tipoEvento": "CPCE", "deleCodigo": "SMP", "deleNombre": "CENTRO DE DISTRIBUCION EJEMPLO", "fechaEvento": "16/04/2026 06:38", "fechaAlta": "16/04/2026 06:39" },
+          { "codigo": 104, "evexCodigo": 12, "descripcion": "EN VIAJE", "tipoEvento": "CPCE", "deleCodigo": "TRM", "deleNombre": "TERMINAL EJEMPLO", "fechaEvento": "15/04/2026 09:17", "fechaAlta": "15/04/2026 09:17" },
+          { "codigo": 105, "evexCodigo": 13, "descripcion": "EN VIAJE A CD", "tipoEvento": "MANI", "deleCodigo": "TRM", "deleNombre": "TERMINAL EJEMPLO", "fechaEvento": "15/04/2026 07:24", "fechaAlta": "15/04/2026 07:24" },
+          { "codigo": 106, "evexCodigo": 14, "descripcion": "INGRESO A VIA CARGO", "tipoEvento": "ALTA", "deleCodigo": "TRM", "deleNombre": "TERMINAL EJEMPLO", "fechaEvento": "14/04/2026 16:05", "fechaAlta": "14/04/2026 16:05" }
+        ],
+        "listaIncidencias": [],
+        "listaBultos": [
+          { "codigo": 107, "bultCodigo": 10000120, "numero": 1, "referencia": null, "estado": "(VIA) EN VIAJE", "vuelo": "SMP01", "terrestre": "N" }
+        ]
+      }
+    }
+  ],
+  "errores": [],
+  "score": null
+}

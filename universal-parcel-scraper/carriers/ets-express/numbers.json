@@ -1,0 +1,27 @@
+{
+  "carrier": "ets-express",
+  "records": [
+    {
+      "number": "RETS000000498421UES",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.ets-express.com/upload/js/21fea6ed55bf4dffae261a3dc3887f17.js",
+        "date": "2026-10-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ets-express"
+        ]
+      },
+      "note": "The RETS code ETS Express's own inquiry page uses as its example; its tracker answers it."
+    }
+  ]
+}

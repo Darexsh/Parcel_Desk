@@ -1,0 +1,82 @@
+{
+  "id": "intel-valley",
+  "displayName": "Intel-Valley",
+  "aliases": [
+    "INTEL-VALLEY",
+    "Intel Valley",
+    "Intel-Valley Supply Chain",
+    "Intel-Valley Supply Chain Shenzhen",
+    "智谷供应链",
+    "智谷供应链（深圳）有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#00a3ff"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "intel-valley",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 66
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivery_tracking_number",
+    "destination_country"
+  ],
+  "portal": {
+    "canaryUrl": "https://t.17track.net/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "destination_country",
+      "customer_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "destination_country",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "customer_reference",
+      "signatory",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "provider_code",
+      "offset_timestamps",
+      "delivery_partner",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "pickup_point"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "intel-valley-1",
+      "pattern": "^IV\\d{12}$",
+      "confidence": "low"
+    }
+  ]
+}

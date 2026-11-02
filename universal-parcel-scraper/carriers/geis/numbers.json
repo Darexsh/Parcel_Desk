@@ -1,0 +1,230 @@
+{
+  "carrier": "geis",
+  "records": [
+    {
+      "number": "06028364905",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190717224841/https://www.geis-group.cz/cs/sledovani-zasilky?p=06028364905",
+        "date": "2019-07-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Geis's own tracker, as an archived address shows. The capture shows a parcel's history from when Geis still ran a parcel service; the tracker now takes thirteen-digit consignment numbers only."
+    },
+    {
+      "number": "05082566005",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240409141308/https://www.geis-group.cz/cs/sledovani-zasilky?p=05082566005",
+        "date": "2024-04-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Geis's own tracker, as an archived address shows; the capture shows the tracker not finding it."
+    },
+    {
+      "number": "12060138459",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251015014557/https://www.geis-group.cz/cs/sledovani-zasilky?p=12060138459",
+        "date": "2025-10-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Geis's own tracker, as an archived address shows; the capture shows the tracker not finding it."
+    },
+    {
+      "number": "2555000816708",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250930024553/https://www.geis-group.cz/en/detail-of-cargo?packNumber=2555000816708",
+        "date": "2025-09-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Looked up on Geis's own tracker, as an archived address shows; the capture could not be opened. Geis's tracker no longer knows it."
+    },
+    {
+      "number": "1502200028227",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260603042422/https://www.geis-group.sk/sk/detail-zasielky?packNumber=1502200028227",
+        "date": "2026-06-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "ukrposhta",
+          "correos-chile",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Geis's own Slovak tracker, as an archived address shows. The capture shows its history, which the Slovak tracker still returns."
+    },
+    {
+      "number": "1502200028318",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260627135420/https://www.geis-group.sk/sk/detail-zasielky?packNumber=1502200028318",
+        "date": "2026-06-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Looked up on Geis's own Slovak tracker, as an archived address shows. The capture shows its history, which the Slovak tracker still returns."
+    },
+    {
+      "number": "15078164077",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200407221237/https://www.geis-group.sk/sk/sledovanie-zasielok?p=15078164077",
+        "date": "2020-04-07",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Geis's own Slovak tracker, as an archived address shows. The capture shows a parcel's history from when Geis still ran a parcel service; the tracker now takes thirteen-digit consignment numbers only."
+    },
+    {
+      "number": "2584500021846",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/geis-cz/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "ParcelPanel's Geis CZ page offered it as a sample to try on 11 Oct 2026; Geis's tracker returns its history."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "carrier": "eushipments",
+  "records": [
+    {
+      "number": "29598760",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/eushipments.com",
+        "date": "2026-08-08",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "euShipments"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A customer review quotes it as the tracking number of an order for Bulgaria; euShipments' tracker shows the order's history under it, delivered by Express One Bulgaria under the same number."
+    }
+  ]
+}

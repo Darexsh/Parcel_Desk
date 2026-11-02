@@ -1,0 +1,55 @@
+{
+  "data": {
+    "einzelsendung": {
+      "sendungsnummer": "LP123456785AT",
+      "status": "RE",
+      "weight": 0.02,
+      "dimensions": null,
+      "estimatedDelivery": null,
+      "sendungsEvents": [
+        {
+          "timestamp": "2026-03-02T09:15:00.000+00:00",
+          "status": "BNT",
+          "reasontypecode": "2074",
+          "trackingDesc": "Postaufgabe",
+          "eventPlaceName": ""
+        },
+        {
+          "timestamp": "2026-03-02T17:40:12.340+00:00",
+          "status": "IV",
+          "reasontypecode": "VT",
+          "trackingDesc": "Sendung im Logistikzentrum in Bearbeitung",
+          "eventPlaceName": "Synthetic logistics centre"
+        },
+        {
+          "timestamp": "2026-03-03T03:10:45.000+00:00",
+          "status": "EXP",
+          "reasontypecode": "R24",
+          "trackingDesc": null,
+          "eventPlaceName": ""
+        },
+        {
+          "timestamp": "2026-03-03T11:30:00.000+00:00",
+          "status": "BNT",
+          "reasontypecode": "2046",
+          "trackingDesc": "Sendung von Postbetreiber Zielland übernommen",
+          "eventPlaceName": "PLZ DE"
+        },
+        {
+          "timestamp": "2026-03-04T06:20:00.000+00:00",
+          "status": "AZT",
+          "reasontypecode": "AT",
+          "trackingDesc": "Sendung in Zustellung",
+          "eventPlaceName": "PLZ DE 1"
+        },
+        {
+          "timestamp": "2026-03-04T08:45:00.000+00:00",
+          "status": "RU",
+          "reasontypecode": "FA",
+          "trackingDesc": "Empfängeradresse ungenügend",
+          "eventPlaceName": "PLZ DE X"
+        }
+      ]
+    }
+  }
+}

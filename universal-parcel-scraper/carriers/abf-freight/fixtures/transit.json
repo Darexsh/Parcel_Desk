@@ -1,0 +1,200 @@
+{
+  "000000202": [
+    {
+      "id": "000000202",
+      "href": "/shipments/000000202",
+      "type": "item",
+      "data": {
+        "identifiers": {
+          "pronumber": "000000202",
+          "quoteId": null,
+          "pickupNumber": null,
+          "orderId": null
+        },
+        "solution": "Standard LTL",
+        "details": {
+          "requester": null,
+          "billing": null,
+          "locationDetails": null,
+          "totalCube": null,
+          "totalDimensions": null,
+          "totalWeight": {
+            "unit": "lb",
+            "value": 500
+          },
+          "totalPieces": 1,
+          "longestSide": null,
+          "solution": "",
+          "sizeCategory": "",
+          "equipmentType": "",
+          "freightGroups": null,
+          "pickupSchedule": null,
+          "deliverySchedule": null,
+          "serviceOptions": null,
+          "specialInstructions": "CALL SYNTHETIC CONTACT AT GATE 0000"
+        },
+        "transitStatus": {
+          "status": "At Destination Service Center",
+          "statusDetails": "Your shipment has arrived at ABF service center in Lakeview, IL and is being scheduled for delivery.",
+          "currentLocation": null,
+          "serviceCenters": {
+            "shipper": {
+              "number": "903",
+              "airlineCode": "RVB",
+              "physicalAddress": {
+                "street1": "3 SAMPLE STREET",
+                "street2": "",
+                "city": "RIVERBEND",
+                "stateProvince": "KY",
+                "postalCode": "00000",
+                "country": "US",
+                "latLong": {
+                  "lat": 10.5,
+                  "long": -20.5
+                },
+                "isPoBox": false
+              },
+              "mailingAddress": {
+                "street1": "3 SAMPLE STREET",
+                "street2": "",
+                "city": "RIVERBEND",
+                "stateProvince": "KY",
+                "postalCode": "00000",
+                "country": "US",
+                "isPoBox": false
+              },
+              "utcOffset": 1,
+              "contacts": {
+                "serviceCenter": {
+                  "name": "ABF SERVICE CENTER 903",
+                  "contactMethods": [
+                    {
+                      "type": "Phone",
+                      "value": "0000000000",
+                      "note": "Synthetic office"
+                    },
+                    {
+                      "type": "Fax",
+                      "value": "0000000001",
+                      "note": "Synthetic"
+                    }
+                  ]
+                },
+                "sales": []
+              }
+            },
+            "consignee": {
+              "number": "904",
+              "airlineCode": "LKV",
+              "physicalAddress": {
+                "street1": "4 SAMPLE LANE",
+                "street2": "",
+                "city": "LAKEVIEW",
+                "stateProvince": "IL",
+                "postalCode": "00000",
+                "country": "US",
+                "latLong": {
+                  "lat": 10.5,
+                  "long": -20.5
+                },
+                "isPoBox": false
+              },
+              "mailingAddress": {
+                "street1": "4 SAMPLE LANE",
+                "street2": "",
+                "city": "LAKEVIEW",
+                "stateProvince": "IL",
+                "postalCode": "00000",
+                "country": "US",
+                "isPoBox": false
+              },
+              "utcOffset": 0,
+              "contacts": {
+                "serviceCenter": {
+                  "name": "ABF SERVICE CENTER 904",
+                  "contactMethods": [
+                    {
+                      "type": "Phone",
+                      "value": "0000000000",
+                      "note": "Synthetic office"
+                    },
+                    {
+                      "type": "Fax",
+                      "value": "0000000001",
+                      "note": "Synthetic"
+                    }
+                  ]
+                },
+                "sales": []
+              }
+            }
+          },
+          "orderedDate": null,
+          "originalDueDate": null,
+          "estimatedDelivery": null,
+          "estimatedDeliveryDate": null,
+          "estimatedDeliveryTime": null,
+          "pickedUp": "2026-04-03T08:29:00-05:00",
+          "inAtPickup": null,
+          "outOfPickup": null,
+          "rescheduledPickupDate": null,
+          "delivered": null,
+          "inAtDelivery": null,
+          "outOfDelivery": null,
+          "history": null,
+          "isDelayed": false,
+          "effectiveDateType": "projected",
+          "effectiveDate": "2026-04-09T00:00:00",
+          "pickupStopCompletedDate": null,
+          "effectivePickupType": "pickedUp",
+          "effectivePickupDate": "2026-04-03T08:29:00-05:00",
+          "temperatureInfo": null
+        },
+        "alerts": [],
+        "phase": "transit",
+        "quoteId": ""
+      },
+      "meta": {
+        "progress": [
+          {
+            "title": "Picked Up",
+            "completion": "complete",
+            "location": null,
+            "timestamp": null
+          },
+          {
+            "title": "Transit Complete",
+            "completion": "complete",
+            "location": null,
+            "timestamp": null
+          },
+          {
+            "title": "At Destination Service Center",
+            "completion": "inProgress",
+            "location": null,
+            "timestamp": null
+          },
+          {
+            "title": "Out For Delivery",
+            "completion": "incomplete",
+            "location": null,
+            "timestamp": null
+          },
+          {
+            "title": "Delivered",
+            "completion": "incomplete",
+            "location": null,
+            "timestamp": null
+          }
+        ],
+        "sub-progress": [],
+        "carrier-pros": [],
+        "is-pinned": false,
+        "security": "partial",
+        "has-open-amount": false,
+        "page-hint": "transit",
+        "affiliations": []
+      }
+    }
+  ]
+}

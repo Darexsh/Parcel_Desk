@@ -1,0 +1,59 @@
+{
+  "carrier": "polaris-transport",
+  "records": [
+    {
+      "number": "P2197999",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220602114517/https://polaristransport.com/en/trace-polaris.php?pro=P2197999",
+        "date": "2022-06-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "flecha-amarilla",
+          "loggi",
+          "polaris-transport"
+        ]
+      },
+      "note": "An archived lookup on Polaris's own trace page; the trace service reply the page fetched, archived in the same crawl, shows this PRO picked up and in transit from Illinois to Ontario."
+    },
+    {
+      "number": "P0952339",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170522223012/http://polaristransport.com:80/en/quick-trace-shipments.php?pro=P0952339",
+        "date": "2017-05-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "flecha-amarilla",
+          "loggi",
+          "polaris-transport"
+        ]
+      },
+      "note": "An archived lookup on Polaris's former quick trace page, which showed this PRO in a frame from Polaris's own bill viewer; the capture was opened, but the archive kept no copy of the frame, so no history is visible."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "yypost",
+  "displayName": "YYpost",
+  "aliases": [
+    "YY Post",
+    "Yuanyou",
+    "远邮",
+    "远邮国际",
+    "深圳市远邮国际物流有限公司",
+    "Shenzhen Yuanyou International Logistics",
+    "YY Postal"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#0000cc"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "yypost",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivery_tracking_number",
+    "destination_country"
+  ],
+  "portal": {
+    "canaryUrl": "https://t.17track.net/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "destination_country",
+      "customer_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "destination_country",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "customer_reference",
+      "signatory",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "provider_code",
+      "offset_timestamps",
+      "delivery_partner",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "pickup_point"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "yypost-1",
+      "pattern": "^YY\\d{9}CN$",
+      "confidence": "high",
+      "checksum": "s10"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "wahana",
+  "displayName": "Wahana Express",
+  "aliases": [
+    "Wahana",
+    "Wahana Prestasi Logistik",
+    "PT Wahana Prestasi Logistik"
+  ],
+  "region": {
+    "countries": [
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#1e4eb8"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jakarta",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.wahana.com/lacak-kiriman?noresi={trackingNumber}",
+    "searchUrl": "https://www.wahana.com/",
+    "canaryUrl": "https://www.wahana.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.wahana.com",
+        "wahana.com"
+      ],
+      "pathPattern": "^/lacak-kiriman/?$",
+      "params": [
+        "noresi"
+      ]
+    }
+  ],
+  "detection": []
+}

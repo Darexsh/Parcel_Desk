@@ -1,0 +1,27 @@
+{
+  "carrier": "ecom-logistics",
+  "records": [
+    {
+      "number": "E28D7629030",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261017000826/https://shipecom.com/track/E28D7629030",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ecom-logistics"
+        ]
+      },
+      "note": "An archived lookup on Ecom Logistics' own tracking page shows this parcel picked up and on its way."
+    }
+  ]
+}

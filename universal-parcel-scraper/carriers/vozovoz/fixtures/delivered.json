@@ -1,0 +1,42 @@
+{
+  "number": "000000001",
+  "isAssociatedWithUser": false,
+  "status": {
+    "message": "Груз выдан",
+    "cargoLocked": false,
+    "cargoTransferLocked": false,
+    "description": "",
+    "isTaken": true,
+    "isGiven": true,
+    "hasArrived": false,
+    "isCanceled": false,
+    "isPaid": true,
+    "canBePaid": true,
+    "canUserRequestDriverCallback": false,
+    "canBePaidCard": true,
+    "canBePaidQR": true
+  },
+  "dates": {
+    "created": "2026-03-02T10:15:20",
+    "arrivalFrom": "2026-03-06T10:00:00",
+    "arrivalTo": "2026-03-06T18:00:00",
+    "given": "2026-03-05T14:20:33"
+  },
+  "organizationId": "synthetic-organization",
+  "payer": "Синтетический Плательщик",
+  "payerId": "synthetic-payer",
+  "consignee": "Синтетический Получатель",
+  "price": 1234.5,
+  "debt": 0,
+  "currency": "RU",
+  "cod": null,
+  "forCheck": {
+    "email": "",
+    "phone": ""
+  },
+  "cost": {
+    "currency": {
+      "RU": true
+    }
+  }
+}

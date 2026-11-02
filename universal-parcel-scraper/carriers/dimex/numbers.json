@@ -1,0 +1,53 @@
+{
+  "carrier": "dimex",
+  "records": [
+    {
+      "number": "44925154",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220906001111/https://www.dimex.ws/otslezhivanie-nakladnyh/?nomer=44925154",
+        "date": "2022-09-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on DIMEX's own tracker, which shows the waybill's route between its offices."
+    },
+    {
+      "number": "35407484",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171028093715/http://www.dimex.ws/otslezhivanie-nakladnyh/?t=1&nomer=35407484",
+        "date": "2017-10-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on DIMEX's own tracker, which shows the waybill's route between its offices."
+    }
+  ]
+}

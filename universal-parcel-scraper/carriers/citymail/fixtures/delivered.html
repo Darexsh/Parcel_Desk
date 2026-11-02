@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sök paket</title>
+    <link href="/Content/bootstrap.css" rel="stylesheet"/>
+<link href="/Content/site.css" rel="stylesheet"/>
+
+    <script src="/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <div class="container body-content">
+        <br />
+        
+        <br />
+        
+
+
+<form action="/" class="form-inline" id="MainForm" method="get" role="form">    <div class="jumbotron text-center">
+            <img src="/Content/Images/CityMail_Logo_Color_RGB_large.png" width="160" />
+        <h2>Sök paket</h2>
+        <h4>Ange paketreferens nedan</h4>
+        <div class="input-group">
+            <input type="search" class="form-control" id="search" name="search" placeholder="Ange paketreferens här" value="BCMXY900000001" required />
+            <span class="input-group-btn">
+                <button class="btn btn-success bringGreen" type="submit">
+                    <span class="glyphicon glyphicon-search"></span> Sök
+                </button>
+            </span>
+        </div>
+    </div>
+            <br />
+<div class="row">
+        <div style="text-align:center;">
+            <img id="DeliveryPictureSource" src="https://photos.example.invalid/cobra-app-photos/BCMXY900000001" style="width:100%;max-width:300px">
+        </div>
+        <br />
+        <!-- Visa stor bild -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+    <div class="col-md-4">
+        <p>
+            
+	    <img src="/Content/Images/DELIVERED_DOOR.png" alt="Bild saknas" onerror="this.src='/content/images/STATUS_DEFAULT.png'" />
+        </p>
+        <p>
+            <h3><b>Aktuell status:</b></h3>
+            <h4 class="green"><b>Paketet &#228;r utdelat, vid d&#246;rr/finns i p&#229;se p&#229; brevl&#229;da</b></h4>
+        </p>
+    </div>
+    <div class="col-md-3">
+        <b>Tidpunkt</b><br />
+        2026-10-27 15:42
+        <br /><br />
+        <b>Avsändare</b><br />
+        Exempelbokhandeln AB
+
+            <br /><br />
+            <b>Produktkod</b><br />
+PRIO            <br /><br />
+
+
+    </div>
+    <div class="col-md-3">
+            <b>Ursprunglig paketreferens</b><br />
+BCMXY900000001            </div>
+</div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        <table class="table table-striped">
+                            <tr>
+                                <th>
+                                    Händelse
+                                </th>
+                                <th>
+                                    Tidpunkt
+                                </th>
+                                <th>
+                                    Plats
+                                </th>
+                            </tr>
+                                <tr>
+                                    <td>
+                                        Paketet &#228;r utdelat, vid d&#246;rr/finns i p&#229;se p&#229; brevl&#229;da
+                                    </td>
+                                    <td>
+                                        2026-10-27 15:42
+                                    </td>
+                                    <td>
+                                        999 01 Exempelby
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Paketet f&#246;rbereds f&#246;r leverans
+                                    </td>
+                                    <td>
+                                        2026-10-27 07:05
+                                    </td>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Paketet har ankommit till terminal
+                                    </td>
+                                    <td>
+                                        2026-10-26 16:31
+                                    </td>
+                                    <td>
+                                        Terminal Exempelstad
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Paketet har aviserats, men &#228;nnu inte l&#228;mnats in till CityMail
+                                    </td>
+                                    <td>
+                                        2026-10-25 02:34
+                                    </td>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                        </table>
+                    </p>
+                </div>
+            </div>
+        <footer class="text-center">
+            <p>
+                <a href="http://www.citymail.se" target="_self">
+                    TILLBAKA TILL CITYMAIL.SE
+                </a>
+            </p>
+        </footer>
+    <script>
+        var modal = document.getElementById('myModal');
+        var img = document.getElementById('DeliveryPictureSource');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var span = document.getElementsByClassName("modal")[0];
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
+</form>
+    </div>
+    
+
+    <script src="/Scripts/jquery-1.10.2.js"></script>
+
+    <script src="/Scripts/bootstrap.js"></script>
+<script src="/Scripts/respond.js"></script>
+
+    
+</body>
+</html>

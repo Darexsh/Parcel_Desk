@@ -1,0 +1,46 @@
+{
+  "id": "explus-logistics",
+  "displayName": "ExPlus Logistics",
+  "aliases": [
+    "ExPlus",
+    "ExPlus Logistics Pvt. Ltd."
+  ],
+  "region": {
+    "countries": [
+      "IN",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#2676ba"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.expluslogistics.com/tracking-result.html?trackings={trackingNumber}",
+    "searchUrl": "https://track.expluslogistics.com/",
+    "canaryUrl": "https://expluslogistics.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.expluslogistics.com"
+      ],
+      "pathPattern": "^/tracking-result\\.html$",
+      "params": [
+        "trackings"
+      ]
+    }
+  ],
+  "detection": []
+}

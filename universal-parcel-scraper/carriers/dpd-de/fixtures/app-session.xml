@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <getSessionFullStateResponse xmlns="https://cloud.dpd.com/">
+      <getSessionFullStateResult>
+        <Version>100</Version>
+        <Language>de_EN</Language>
+        <Ack>true</Ack>
+        <SessionFullState>
+          <SessionToken>U1lOVEhFVElDX1NFU1NJT05fMDAwMQ==</SessionToken>
+          <UserStatus>NO_ACCOUNT</UserStatus>
+        </SessionFullState>
+      </getSessionFullStateResult>
+    </getSessionFullStateResponse>
+  </soap:Body>
+</soap:Envelope>

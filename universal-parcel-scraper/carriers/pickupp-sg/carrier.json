@@ -1,0 +1,60 @@
+{
+  "id": "pickupp-sg",
+  "displayName": "Pickupp Singapore",
+  "aliases": [
+    "Pickupp SG",
+    "Pickupp (SG)"
+  ],
+  "region": {
+    "countries": [
+      "SG"
+    ]
+  },
+  "brand": {
+    "color": "#ef3b3b"
+  },
+  "selectable": true,
+  "timezone": "Asia/Singapore",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://sg.pickupp.io/tracking/?orderNumber={trackingNumber}",
+    "searchUrl": "https://sg.pickupp.io/en/tracking",
+    "canaryUrl": "https://sg.pickupp.io/en/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "sg.pickupp.io"
+      ],
+      "pathPattern": "^/(?:en/)?tracking/?$",
+      "params": [
+        "orderNumber"
+      ]
+    },
+    {
+      "domains": [
+        "portal.sg.pickupp.io"
+      ],
+      "pathPattern": "^/(?:en/)?tracking/?$",
+      "params": [
+        "orderNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "pickupp-sg-1",
+      "pattern": "^PU\\d{12}SG$",
+      "confidence": "high"
+    }
+  ]
+}

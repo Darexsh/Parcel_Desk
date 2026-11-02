@@ -1,0 +1,55 @@
+{
+  "id": "ross-express",
+  "displayName": "Ross Express",
+  "aliases": [
+    "Ross Express, LLC",
+    "Ross Express LLC",
+    "Ross Express, Inc."
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#bc010c"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.carrierlogistics.com/scripts/rxic.pol/boldetail.htm?wbtn=PRO&wpro1={trackingNumber}",
+    "searchUrl": "https://www.rossexpress.com/",
+    "canaryUrl": "https://www.rossexpress.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.carrierlogistics.com"
+      ],
+      "pathPattern": "^/scripts/rxic\\.pol/boldetail\\.htm$",
+      "params": [
+        "wpro1"
+      ]
+    },
+    {
+      "domains": [
+        "tracking.carrierlogistics.com"
+      ],
+      "pathPattern": "^/scripts/rxic\\.pol/facts\\.htm$",
+      "params": [
+        "pronum"
+      ]
+    }
+  ],
+  "detection": []
+}

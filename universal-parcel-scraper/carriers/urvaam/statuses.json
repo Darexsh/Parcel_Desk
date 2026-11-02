@@ -1,0 +1,21 @@
+{
+  "carrier": "urvaam",
+  "entries": [
+    {"code": "0", "wording": "Envio Grabado", "stage": "registered", "language": "es", "confirmedBy": "live", "note": "The sender filed the parcel's data; Urvaam does not have it yet."},
+    {"code": "1", "wording": "Recibido Plataforma", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Received at Urvaam's Madrid or Barcelona platform, which the page names in brackets after the wording; the adapter keeps it as the location."},
+    {"code": "1", "wording": "Devolver al remitente", "stage": "exception", "language": "es", "confirmedBy": "live", "note": "A return to the sender starting, with the parcel's number in brackets after the wording."},
+    {"code": "18", "wording": "Clasificado", "stage": "in_transit", "language": "es", "confirmedBy": "live"},
+    {"code": "19", "wording": "Recibido Plataforma", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Received at the depot or partner that delivers the parcel, named in brackets after the wording."},
+    {"code": "9", "wording": "Segundo recibido Plataforma", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Back at the delivering depot after a failed round."},
+    {"code": "2", "wording": "En Reparto", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live"},
+    {"code": "2", "wording": "Segunda reparto", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live", "note": "A second delivery round."},
+    {"code": "3", "wording": "Entregado", "stage": "delivered", "language": "es", "confirmedBy": "live"},
+    {"code": "3", "wording": "Entregado (Entregado al buzon)", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Delivered into the letterbox."},
+    {"code": "3", "wording": "Devuelto al remitente", "stage": "returned", "language": "es", "confirmedBy": "live", "note": "Handed back to the sender, under the delivery code, with the parcel's number in brackets after the wording."},
+    {"code": "8", "wording": "Incidencia (Falta parte de contenido)", "stage": "exception", "language": "es", "confirmedBy": "live", "note": "A failed delivery because part of the contents was missing. The tracker files failed deliveries under in transit."},
+    {"code": "8", "wording": "Incidencia (EXTRAVIO)", "stage": "exception", "language": "es", "confirmedBy": "live", "note": "A failed delivery because the parcel was lost."},
+    {"code": "15", "wording": "No Realizado", "stage": "exception", "language": "es", "confirmedBy": "live", "note": "Its Chinese caption is a compensation; it came after a failed delivery."},
+    {"code": "15", "wording": "indemnización", "stage": "exception", "language": "es", "confirmedBy": "live", "note": "A compensation for the parcel."},
+    {"code": "15", "wording": "Urvaam confirmado (EXTRAVIO)", "stage": "exception", "language": "es", "confirmedBy": "live", "note": "Urvaam confirmed the parcel lost."}
+  ]
+}

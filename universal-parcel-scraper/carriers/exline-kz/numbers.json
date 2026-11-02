@@ -1,0 +1,121 @@
+{
+  "carrier": "exline-kz",
+  "records": [
+    {
+      "number": "6389038113",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20241004151400/https://exline.kz/docs/tracking",
+        "date": "2024-10-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Waybill number in the sample reply of Exline's own tracking API documentation, with an Almaty to Kokshetau history; archived page. Exline's current tracker, which reads another system, does not know it."
+    },
+    {
+      "number": "9313226503",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20241205063650/https://exline.kz/docs/waybills",
+        "date": "2024-12-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Waybill number in the sample reply of the waybill details call in Exline's own API documentation; archived page. Exline's current tracker, which reads another system, does not know it."
+    },
+    {
+      "number": "9313214756",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20241205063650/https://exline.kz/docs/waybills",
+        "date": "2024-12-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Waybill number in the sample reply of the create-waybill call in Exline's own API documentation, for a test customer; archived page. Exline's current tracker, which reads another system, does not know it."
+    },
+    {
+      "number": "6585909118",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://2gis.kz/almaty/firm/70000001103930862/tab/reviews",
+        "date": "2026-06-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Customer review on Exline's 2GIS page giving it as the waybill (накладная) of a shipment from Aktobe to Almaty. Exline's tracker shows its history."
+    }
+  ]
+}

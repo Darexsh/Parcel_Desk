@@ -1,0 +1,47 @@
+{
+  "id": "akis-express",
+  "displayName": "AKIS Express",
+  "aliases": [
+    "G.A.P. Akis Express",
+    "GAP Akis Express",
+    "G.A.P Akis Express Limited"
+  ],
+  "region": {
+    "countries": [
+      "CY"
+    ]
+  },
+  "brand": {
+    "color": "#e53d51"
+  },
+  "selectable": true,
+  "timezone": "Asia/Nicosia",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://gapakisexpress.com/track-your-packages/?tracking_num={trackingNumber}",
+    "searchUrl": "https://gapakisexpress.com/track-your-packages/",
+    "canaryUrl": "https://gapakisexpress.com/track-your-packages/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "gapakisexpress.com",
+        "www.gapakisexpress.com"
+      ],
+      "pathPattern": "^/track-your-packages/?$",
+      "params": [
+        "tracking_num"
+      ]
+    }
+  ],
+  "detection": []
+}

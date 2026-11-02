@@ -1,0 +1,10 @@
+{
+  "carrier": "spx-tw",
+  "entries": [
+    {"code": "Created", "wording": "賣家將於確認訂單後出貨", "stage": "registered", "language": "zh-Hant", "confirmedBy": "portal", "note": "Legacy feed status."},
+    {"code": "DOP_Received", "wording": "賣家已寄件成功", "stage": "accepted", "language": "zh-Hant", "confirmedBy": "portal", "note": "Legacy feed status."},
+    {"code": "SP_LHTransporting", "wording": "準備送去理貨中心", "stage": "in_transit", "language": "zh-Hant", "confirmedBy": "portal", "note": "Legacy feed status."},
+    {"code": "SOC_Received", "wording": "包裹抵達理貨中心，處理中", "stage": "in_transit", "language": "zh-Hant", "confirmedBy": "portal", "note": "Legacy feed status."},
+    {"code": "SP_Ready_Collection", "wording": "包裹已配達買家取件門市", "stage": "ready_for_pickup", "language": "zh-Hant", "confirmedBy": "portal", "note": "Legacy feed status. Followed by the pickup store."}
+  ]
+}

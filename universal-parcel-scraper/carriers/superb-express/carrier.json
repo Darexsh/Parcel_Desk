@@ -1,0 +1,46 @@
+{
+  "id": "superb-express",
+  "displayName": "Superb Express",
+  "aliases": [
+    "SuperB Express International"
+  ],
+  "region": {
+    "countries": [
+      "DE",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#283a96"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://superb-express.com/site/searchview?tracking_code={trackingNumber}",
+    "searchUrl": "https://superb-express.com/site/searchview",
+    "canaryUrl": "https://superb-express.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "superb-express.com",
+        "www.superb-express.com"
+      ],
+      "pathPattern": "^/site/searchview/?$",
+      "params": [
+        "tracking_code"
+      ]
+    }
+  ],
+  "detection": []
+}

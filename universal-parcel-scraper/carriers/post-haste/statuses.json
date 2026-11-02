@@ -1,0 +1,13 @@
+{
+  "carrier": "post-haste",
+  "entries": [
+    {"wording": "Pickup", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Event heading on the tracker, followed by 'Picked up in area … by Courier …'."},
+    {"wording": "Status", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Event heading for a depot or branch scan, followed by 'Scanned in area …'."},
+    {"wording": "On Board", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Event heading for the scan onto the delivering courier's vehicle."},
+    {"wording": "Delivery", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Event heading followed by 'Delivered in area … by Courier …' and the signature."},
+    {"wording": "Item will be delivered next cycle", "language": "en", "confirmedBy": "portal", "note": "A status flag shown under a scan, not an event of its own."},
+    {"wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Event status the current tracker page's script looks for to draw its first milestone."},
+    {"wording": "Label Created", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Event status the current tracker page's script hides when it is not the first event."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Event status the current tracker page's script uses for the delivered milestone."}
+  ]
+}

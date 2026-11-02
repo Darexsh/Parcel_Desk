@@ -1,0 +1,93 @@
+{
+  "id": "stone3pl",
+  "displayName": "Stone3PL",
+  "aliases": [
+    "STONE3PL.COM",
+    "Stone 3PL"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#0066b3"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "stone3pl",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 806
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "destination_country",
+    "origin_country",
+    "service_name",
+    "delivery_tracking_number",
+    "delivery_partner"
+  ],
+  "portal": {
+    "url": "https://stone3pl.com/?route=services/track&nums={trackingNumber}",
+    "searchUrl": "https://stone3pl.com/?route=services/track",
+    "canaryUrl": "https://stone3pl.com/",
+    "shows": [
+      "status",
+      "history",
+      "destination_country",
+      "origin_country",
+      "service_name",
+      "delivery_tracking_number",
+      "delivery_partner"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "destination_country",
+      "origin_country",
+      "service_name",
+      "delivery_tracking_number",
+      "delivery_partner"
+    ],
+    "discarded": [
+      "contact_details"
+    ],
+    "unavailable": [
+      "eta",
+      "location",
+      "offset_timestamps",
+      "delivered_at",
+      "weight",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "stone3pl.com",
+        "www.stone3pl.com"
+      ],
+      "pathPattern": "^/(?:index\\.php)?$",
+      "params": [
+        "nums"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "stone3pl-s18",
+      "pattern": "^S\\d{18}$",
+      "confidence": "low"
+    }
+  ]
+}

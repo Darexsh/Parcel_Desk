@@ -1,0 +1,24 @@
+{
+  "carrier": "skroutz-last-mile",
+  "records": [
+    {
+      "number": "7OGLWYZ124KVQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260409051024/https://api.sendx.gr/user/hp/7OGLWYZ124KVQ?skroutztracking=1",
+        "date": "2026-04-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on Skroutz's shipment tracking page; the archived reply of Skroutz Last Mile's tracking service that the page asked shows the parcel's history through delivery."
+    }
+  ]
+}

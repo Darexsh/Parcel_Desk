@@ -1,0 +1,45 @@
+{
+  "id": "taqbin-sg",
+  "displayName": "Yamato Transport Singapore",
+  "aliases": [
+    "Yamato Singapore",
+    "Yamato Transport (S) Pte. Ltd."
+  ],
+  "region": {
+    "countries": [
+      "SG"
+    ]
+  },
+  "brand": {
+    "color": "#fccf00"
+  },
+  "selectable": true,
+  "timezone": "Asia/Singapore",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.yamatosingapore.com/trackitem_custom_y.html?a={trackingNumber}",
+    "searchUrl": "https://www.yamatosingapore.com/tracking/",
+    "canaryUrl": "https://www.yamatosingapore.com/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.yamatosingapore.com"
+      ],
+      "pathPattern": "^/trackitem_custom_y\\.html$",
+      "params": [
+        "a"
+      ]
+    }
+  ],
+  "detection": []
+}

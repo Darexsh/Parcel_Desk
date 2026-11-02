@@ -1,0 +1,73 @@
+{
+  "id": "dpd-nl",
+  "displayName": "DPD Netherlands",
+  "aliases": [
+    "DPD Nederland"
+  ],
+  "region": {
+    "countries": [
+      "NL"
+    ]
+  },
+  "brand": {
+    "color": "#dc0032"
+  },
+  "selectable": true,
+  "timezone": "Europe/Amsterdam",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dpd-nl",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 972
+    }
+  },
+  "capabilities": [
+    "history",
+    "eta",
+    "delivered_at",
+    "provider_code",
+    "delivery_partner"
+  ],
+  "portal": {
+    "url": "https://www.dpdgroup.com/nl/mydpd/my-parcels/search?lang=en&parcelNumber={trackingNumber}",
+    "searchUrl": "https://www.dpd.com/nl/en/receiving/",
+    "canaryUrl": "https://www.dpd.com/nl/en/receiving/",
+    "shows": [
+      "status",
+      "history"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "delivered_at",
+      "provider_code",
+      "delivery_partner"
+    ],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "dpdgroup.com",
+        "dpd.com"
+      ],
+      "pathPattern": "^/nl(?:/|$)",
+      "params": [
+        "parcelNumber",
+        "parcelnumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "dpd-nl-1",
+      "pattern": "^\\d{14}$",
+      "confidence": "low"
+    }
+  ]
+}

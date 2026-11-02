@@ -1,0 +1,43 @@
+{
+  "carrier": "ampm",
+  "records": [
+    {
+      "number": "CNA000002663047",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240202142036/http://www.grupoampm.com/rastreador/?tracking-id=CNA000002663047",
+        "date": "2024-02-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Opened capture of Grupo ampm's own tracker shows this Cainiao e-commerce parcel's moves through the Mexico hub up to a return."
+    },
+    {
+      "number": "IDTS00000000132134",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250718211344/https://grupoampm.com/rastreador/?tracking-id=IDTS00000000132134",
+        "date": "2025-07-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Opened capture of Grupo ampm's own tracker shows this standard guía collected at the Mexico hub."
+    }
+  ]
+}

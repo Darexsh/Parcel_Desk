@@ -1,0 +1,21 @@
+{
+  "tracking_events": [
+    { "id": 9000000011, "message": "Delivered", "timestamp": "2026-09-24T15:02:10.250Z", "metadata": {}, "banner_message": null, "group_header": null, "group": "delivered", "state": "delivery" },
+    { "id": 9000000010, "message": "Parcel was collected by the recipient", "timestamp": "2026-09-24T15:02:10.100Z", "metadata": {}, "banner_message": null, "group_header": null, "group": "delivered", "state": "delivery" },
+    { "id": 9000000009, "message": "Ready to collect at the locker", "timestamp": "2026-09-23T10:15:00.000Z", "metadata": { "address": "1 Example Street, Sampletown, FR", "point_id": 900001 }, "banner_message": null, "group_header": null, "group": "ready_for_pickup", "state": "delivery" },
+    { "id": 9000000008, "message": "The parcel is on its way to the locker (Example Market)", "timestamp": "2026-09-23T06:40:30.500Z", "metadata": {}, "banner_message": null, "group_header": "In transit", "group": "in_transit", "state": "delivery" },
+    { "id": 9000000007, "message": "At sorting center in Sampleville, FR", "timestamp": "2026-09-22T21:05:12.000Z", "metadata": {}, "banner_message": null, "group_header": "In transit", "group": "in_transit", "state": "delivery" },
+    { "id": 9000000007, "message": "At sorting center in Sampleville, FR", "timestamp": "2026-09-22T21:05:12.000Z", "metadata": {}, "banner_message": null, "group_header": "In transit", "group": "in_transit", "state": "delivery" },
+    { "id": 9000000006, "message": "In transit to Sampleville, FR", "timestamp": "2026-09-22T09:30:00.000Z", "metadata": {}, "banner_message": null, "group_header": "In transit", "group": "in_transit", "state": "delivery" },
+    { "id": 9000000005, "message": "At sorting center in Exampleton, FR", "timestamp": "2026-09-21T18:45:00.000Z", "metadata": {}, "banner_message": null, "group_header": "In transit", "group": "in_transit", "state": "delivery" },
+    { "id": 9000000004, "message": "Parcel was dropped off at the locker", "timestamp": "2026-09-21T08:20:00.000Z", "metadata": {}, "banner_message": null, "group_header": null, "group": "shipped", "state": "delivery" },
+    { "id": 9000000003, "message": "Shipment created", "timestamp": "2026-09-20T17:00:00.000Z", "metadata": {}, "banner_message": null, "group_header": null, "group": "created", "state": "delivery" }
+  ],
+  "meta": {
+    "banner": null,
+    "expiration_time": "2026-09-30T10:15:00.000Z",
+    "contextual_faq": [
+      { "question": "Example question about a collected parcel?", "answer": "Example answer about a collected parcel." }
+    ]
+  }
+}

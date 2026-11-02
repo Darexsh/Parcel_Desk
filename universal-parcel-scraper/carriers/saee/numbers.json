@@ -1,0 +1,119 @@
+{
+  "carrier": "saee",
+  "records": [
+    {
+      "number": "OS01516831KS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200524053056/http://saee.sa/trackingpage?trackingnum=OS01516831KS",
+        "date": "2020-05-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "saee",
+        "confidence": "high"
+      },
+      "note": "The opened capture of Saee's tracking page names this number with its history from creation to delivery."
+    },
+    {
+      "number": "OS00161538KS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240323222050/https://www.saee.sa/trackingpage?trackingnum=OS00161538KS",
+        "date": "2024-03-23",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "saee",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on Saee's own tracking page; the opened capture shows a placeholder page, so the history was not visible."
+    },
+    {
+      "number": "OS00158140KS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251027095548/https://www.saee.sa/trackingpage?trackingnum=OS00158140KS",
+        "date": "2025-10-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "saee",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on Saee's own tracking page; the opened capture shows the empty tracking form, so the history was not visible."
+    },
+    {
+      "number": "OS00155498KS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240409140205/https://www.saee.sa/trackingpage?trackingnum=OS00155498KS",
+        "date": "2024-04-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "saee",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on Saee's own tracking page; the capture was not opened, so the history was not visible."
+    },
+    {
+      "number": "OS00156592KS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251021131103/https://www.saee.sa/trackingpage?trackingnum=OS00156592KS",
+        "date": "2025-10-21",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "saee",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on Saee's own tracking page; the capture was not opened, so the history was not visible."
+    },
+    {
+      "number": "OS00160253KS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250513122107/https://www.saee.sa/trackingpage?trackingnum=OS00160253KS",
+        "date": "2025-05-13",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "saee",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on Saee's own tracking page; the capture was not opened, so the history was not visible."
+    }
+  ]
+}

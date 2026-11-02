@@ -1,0 +1,28 @@
+{
+  "carrier": "thelorry",
+  "records": [
+    {
+      "number": "TLZ0123456",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://bookings.thelorry.com/my/web/tracking",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post",
+          "thelorry"
+        ]
+      },
+      "note": "The parcel number TheLorry's own tracker shows as its input example."
+    }
+  ]
+}

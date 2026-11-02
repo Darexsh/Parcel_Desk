@@ -1,0 +1,99 @@
+{
+  "id": "early-bird",
+  "displayName": "Early Bird",
+  "aliases": [
+    "Earlybird",
+    "Early Bird AB",
+    "Morgontidig Distribution"
+  ],
+  "region": {
+    "countries": [
+      "SE"
+    ]
+  },
+  "brand": {
+    "color": "#dd7f4a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Stockholm",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "early-bird",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 350
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "delivery_partner"
+  ],
+  "portal": {
+    "url": "https://earlybird.se/spara-och-hjalp?id={trackingNumber}",
+    "searchUrl": "https://earlybird.se/spara-och-hjalp",
+    "canaryUrl": "https://earlybird.se/spara-och-hjalp",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "offset_timestamps",
+      "delivery_partner"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "offset_timestamps",
+      "delivery_partner"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "eta",
+      "weight",
+      "dimensions",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "pickup_point",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "earlybird.se"
+      ],
+      "pathPattern": "^/(?:tracking|spara-och-hjalp|en/track-and-help)/?$",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "domains": [
+        "track.earlybird.se"
+      ],
+      "pathPattern": "^/(?:oversikt)?/?$",
+      "params": [
+        "a"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "early-bird-1",
+      "pattern": "^00\\d73402216\\d{9}$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "sscc"
+    }
+  ]
+}

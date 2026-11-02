@@ -1,0 +1,84 @@
+{
+  "carrier": "anteraja",
+  "entries": [
+    {
+      "wording": "Paket akan diretur",
+      "stage": "returned",
+      "language": "id",
+      "confirmedBy": "source",
+      "note": "The parcel will be returned to the sender. A Media Konsumen letter quotes it from Anteraja's tracking."
+    },
+    {
+      "code": "100",
+      "wording": "Pickup sudah di-request oleh shipper",
+      "language": "id",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "Short form of the mobile guest tracking message; variable recipient, courier and facility text is omitted."
+    },
+    {
+      "code": "150",
+      "wording": "SATRIA sudah ditugaskan dan paket akan segera di-pickup",
+      "language": "id",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "Short form of the mobile guest tracking message; variable recipient, courier and facility text is omitted."
+    },
+    {
+      "code": "200",
+      "wording": "Paket sudah di-pickup oleh SATRIA",
+      "language": "id",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "Short form of the mobile guest tracking message; variable recipient, courier and facility text is omitted."
+    },
+    {
+      "code": "240",
+      "wording": "SATRIA sudah ditugaskan dan paket akan segera diantar ke penerima",
+      "language": "id",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "note": "Short form of the mobile guest tracking message; variable recipient, courier and facility text is omitted."
+    },
+    {
+      "code": "250",
+      "wording": "Delivery sukses",
+      "language": "id",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "note": "Short form of the mobile guest tracking message; variable recipient, courier and facility text is omitted."
+    },
+    {
+      "code": "300",
+      "wording": "Paket sedang diproses di Hub",
+      "language": "id",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Short form of the mobile guest tracking message; variable recipient, courier and facility text is omitted."
+    },
+    {
+      "code": "332",
+      "wording": "Paket menuju ke Hub (proses transit)",
+      "language": "id",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Short form of the mobile guest tracking message; variable recipient, courier and facility text is omitted."
+    },
+    {
+      "code": "334",
+      "wording": "Paket tiba di Hub (proses transit)",
+      "language": "id",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Short form of the mobile guest tracking message; variable recipient, courier and facility text is omitted."
+    },
+    {
+      "code": "500",
+      "wording": "Paket tidak dapat dikirimkan dan sedang tertahan di hub",
+      "language": "id",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "note": "Short form of the mobile guest tracking message; variable recipient, courier and facility text is omitted."
+    }
+  ]
+}

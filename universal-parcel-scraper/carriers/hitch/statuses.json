@@ -1,0 +1,12 @@
+{
+  "carrier": "hitch",
+  "entries": [
+    {"wording": "New", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "First step, at the minute the page gives as the booking's date, before the parcel reaches Hitch; its remark reads New Package Added."},
+    {"wording": "Received at Hub", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Hitch's hub has the parcel from the merchant."},
+    {"wording": "Processing to Delivery Destination", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived capture of its tracker, between the hub and the branch that delivers the parcel."},
+    {"wording": "Arrived in delivery branch", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived capture of its tracker: at the branch that delivers the parcel, before a rider takes it. The shared wording rules would read it as out for delivery."},
+    {"wording": "Assigned for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "The parcel is given to a rider for the round; In transit follows at the same minute."},
+    {"wording": "In transit", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Seen only right after Assigned for delivery, at the same minute, with the delivery later that day: the rider's way to the recipient, not a haul between branches."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Also the current status once the parcel is delivered."}
+  ]
+}

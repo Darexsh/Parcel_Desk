@@ -1,0 +1,46 @@
+{
+  "id": "ward-trucking",
+  "displayName": "Ward Transport & Logistics",
+  "aliases": [
+    "Ward Trucking",
+    "Ward",
+    "Ward Transport and Logistics"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#185640"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://wardtlctools.com/wardtrucking/traceshipment/create?pro={trackingNumber}",
+    "searchUrl": "https://wardtlctools.com/wardtrucking/traceshipment/create",
+    "canaryUrl": "https://www.wardtlc.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "wardtlctools.com"
+      ],
+      "pathPattern": "^/wardtrucking/traceshipment/create/?$",
+      "params": [
+        "pro"
+      ]
+    }
+  ],
+  "detection": []
+}

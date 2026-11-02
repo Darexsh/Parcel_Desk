@@ -1,0 +1,43 @@
+{
+  "carrier": "kec-ecommerce",
+  "records": [
+    {
+      "number": "KECID12594078",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210120041131/https://kerry-ecommerce.com/track_trace.php?tracking=KECID12594078",
+        "date": "2021-01-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on the tracker of Kerry eCommerce, KEC's former name, as an archived page shows; the page loads its result separately, so the capture holds no history."
+    },
+    {
+      "number": "YT2532300704454831",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251124011439/https://tt.kec-app.com/api/status?tracking_number=YT2532300704454831",
+        "date": "2025-11-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "yunexpress",
+        "confidence": "high"
+      },
+      "note": "A YunExpress number KEC eCommerce carried from Hong Kong; its tracking API answers it with its own scans, as an archived reply shows."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "status": "Delivered",
+  "consignmentState": "delivered",
+  "consignmentStatusTitle": "We've delivered your parcel",
+  "consignmentMilestone": "delivered",
+  "showCallUs": false,
+  "shortConsignmentId": "ZZZZZZ0 ZZZZ0471935",
+  "toolTip": "",
+  "consignmentId": "CU..ZZZZ0471935.Z.ZZZZZZ0",
+  "pickupDateTime": "2026-05-04T03:30:00Z",
+  "onboardDateTime": "2026-05-05T20:15:42.06Z",
+  "eptlAvailable": false,
+  "consignmentItems": [
+    {
+      "consignmentItemId": "CU..ZZZZ0471935.Z.ZZZZZZ0.1",
+      "partNumber": "01",
+      "trackingEvents": [
+        {
+          "barcode": "ZZZZ047193501",
+          "eventType": "LC",
+          "status": "Label Created",
+          "createdOn": "2026-05-03T23:45:00Z",
+          "carrierName": "NowCouriers",
+          "attachments": []
+        },
+        {
+          "barcode": "ZZZZ047193501",
+          "eventType": "P",
+          "status": "Picked Up",
+          "createdOn": "2026-05-04T03:30:00Z",
+          "createdBy": "00-000",
+          "carrierName": "NowCouriers",
+          "branchCode": "SMP",
+          "runNumber": "100",
+          "location": {
+            "suburb": "Sample Park",
+            "town": "SAMPLETON",
+            "region": "Sample City",
+            "postCode": "0000",
+            "country": "New Zealand"
+          },
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "ZZZZ047193501",
+          "eventType": "STAT",
+          "eventSubType": "RZDEL",
+          "status": "Your consignment is destined for a rural/non-urban zone. Please allow an additional 2-3 days for delivery.",
+          "createdOn": "2026-05-04T14:05:00Z",
+          "createdBy": "00-000",
+          "carrierName": "NowCouriers",
+          "branchCode": "SMP",
+          "runNumber": "100",
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "ZZZZ047193501",
+          "eventType": "ONBD",
+          "status": "Out for Delivery",
+          "createdOn": "2026-05-05T20:15:42.06Z",
+          "createdBy": "00-000",
+          "carrierName": "NowCouriers",
+          "branchCode": "SMH",
+          "runNumber": "200",
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "ZZZZ047193501",
+          "eventType": "D",
+          "status": "Delivered",
+          "createdOn": "2026-05-06T01:02:03Z",
+          "createdBy": "00-000",
+          "carrierName": "NowCouriers",
+          "branchCode": "SMH",
+          "runNumber": "200",
+          "location": {
+            "suburb": "Sample Hills",
+            "town": "SAMPLE HILLS",
+            "region": "Sample District",
+            "postCode": "0000",
+            "country": "New Zealand"
+          },
+          "locationTag": "A0000000000",
+          "locationIdType": true,
+          "attachments": [
+            {
+              "attachmentType": "Photo",
+              "description": "",
+              "href": [
+                "https://example.invalid/photo/0000"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

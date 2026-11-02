@@ -1,0 +1,65 @@
+{
+  "carrier": "olva-courier",
+  "records": [
+    {
+      "number": "01433489-26",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.olvacourier.com/como-hacer-seguimiento-pedido-encuentra-tu-numero-de-tracking-olva/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Olva's help article on finding the tracking number gives it as the example of the code printed on the purchase receipt."
+    },
+    {
+      "number": "26-1211221",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://tracking.olvacourier.com/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The example in the search field of Olva's own tracker."
+    },
+    {
+      "number": "ALI-OLVA00201252",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://tracking.olvacourier.com/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "olva-courier",
+        "confidence": "high"
+      },
+      "note": "The example in the search field of Olva's own tracker."
+    }
+  ]
+}

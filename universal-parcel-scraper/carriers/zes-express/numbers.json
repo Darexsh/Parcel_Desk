@@ -1,0 +1,49 @@
+{
+  "carrier": "zes-express",
+  "records": [
+    {
+      "number": "ZESZE2017704771YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://aliexsale.ru/tracking/otslezhivanie-zes-express-eshan-posyilok",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "zes-express"
+        ]
+      },
+      "note": "A ZES Express number a public guide to its tracking quotes; its own tracker answers it with the hand-off to CDEK."
+    },
+    {
+      "number": "ZESZE2018075101YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://chinatown2.ru/info.php?wiki=296",
+        "date": "2026-10-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "zes-express"
+        ]
+      },
+      "note": "A ZES Express number a public guide to its tracking quotes; its own tracker answers it with the hand-off to CDEK."
+    }
+  ]
+}

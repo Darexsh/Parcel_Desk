@@ -1,0 +1,62 @@
+{
+  "carrier": "jordan-post",
+  "records": [
+    {
+      "number": "RR549463016JO",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250222083501/http://212.35.69.84/JordanWebTrack/Result.aspx?itemid=RR549463016JO",
+        "date": "2025-02-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "The opened capture of Jordan Post's tracker result page names this item with its acceptance in Amman and its bagging at the office of exchange."
+    },
+    {
+      "number": "RR055762903NG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-jordan-post.html",
+        "date": "2019-11-01",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A customer review on Jordan Post's TrackingMore page says this item from Nigeria had reached Jordan and was still awaited."
+    },
+    {
+      "number": "RL851146956IE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-jordan-post.html",
+        "date": "2024-09-14",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "an-post",
+        "confidence": "high"
+      },
+      "note": "A customer review on Jordan Post's TrackingMore page says this item from Ireland was in Jordan on its way to Turkey and had not moved since."
+    }
+  ]
+}

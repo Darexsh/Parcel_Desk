@@ -1,0 +1,241 @@
+{
+  "carrier": "parcelforce",
+  "records": [
+    {
+      "number": "EC080250821GB",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.royalmail.com/royal-mail-you/intellectual-property-rights/linking-our-website"
+      },
+      "expect": {
+        "carrier": "parcelforce",
+        "confidence": "high"
+      },
+      "note": "Official documentation example, not a real shipment."
+    },
+    {
+      "number": "GI049170518GB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6ab10ab55824d015aa93bd4c",
+        "date": "2026-09-21"
+      },
+      "expect": {
+        "carrier": "parcelforce",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "ED005806575GB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260915140444/https://www.parcelforce.com/track-trace?trackNumber=ED005806575GB",
+        "date": "2026-09-15",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "parcelforce",
+        "confidence": "high"
+      },
+      "note": "An archived Parcelforce tracking page. Royal Mail's tracker, which also serves Parcelforce, returns its history as a Parcelforce Worldwide export."
+    },
+    {
+      "number": "HI004785627GB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260420204651/https://www.parcelforce.com/track-trace?trackNumber=HI004785627GB",
+        "date": "2026-04-20",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "royal-mail",
+        "confidence": "high"
+      },
+      "note": "An archived Parcelforce tracking page. Royal Mail's tracker returns its history as a Parcelforce express48 parcel; its S10 range otherwise reads as Royal Mail."
+    },
+    {
+      "number": "EK420927758GB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250610203910/https://www.parcelforce.com/track-trace?trackNumber=EK420927758GB",
+        "date": "2025-06-10",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "parcelforce",
+        "confidence": "high"
+      },
+      "note": "An archived Parcelforce tracking page. An EMS-series S10 number; Royal Mail's tracker no longer holds it."
+    },
+    {
+      "number": "EK136032657GB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250417145907/https://www.parcelforce.com/track-trace?trackNumber=EK136032657GB",
+        "date": "2025-04-17",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "parcelforce",
+        "confidence": "high"
+      },
+      "note": "An archived Parcelforce tracking page. An EMS-series S10 number; Royal Mail's tracker no longer holds it."
+    },
+    {
+      "number": "EH773941216GB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241010075653/https://www.parcelforce.com/track-trace?trackNumber=EH773941216GB",
+        "date": "2024-10-10",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "parcelforce",
+        "confidence": "high"
+      },
+      "note": "An archived Parcelforce tracking page. An EMS-series S10 number; Royal Mail's tracker no longer holds it."
+    },
+    {
+      "number": "EH167890111GB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241201162729/https://www.parcelforce.com/track-trace?trackNumber=EH167890111GB",
+        "date": "2024-12-01",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "parcelforce",
+        "confidence": "high"
+      },
+      "note": "An archived Parcelforce tracking page. An EMS-series S10 number; Royal Mail's tracker no longer holds it."
+    },
+    {
+      "number": "PBFC5968003001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251027102148/http://www.parcelforce.com/track-trace?trackNumber=PBFC5968003001",
+        "date": "2025-10-27",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "parcelforce",
+        "confidence": "high"
+      },
+      "note": "An archived Parcelforce tracking page. A parcel number: PB, a nine-character consignment number and the parcel's place in it. Royal Mail's tracker accepts the format but no longer holds this one."
+    },
+    {
+      "number": "PBML9040007001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240712223034/https://www.parcelforce.com/track-trace?trackNumber=PBML9040007001",
+        "date": "2024-07-12",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "parcelforce",
+        "confidence": "high"
+      },
+      "note": "An archived Parcelforce tracking page. A parcel number: PB, a nine-character consignment number and the parcel's place in it."
+    },
+    {
+      "number": "PBUE5321293001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240116141109/https://www.parcelforce.com/track-trace?trackNumber=PBUE5321293001",
+        "date": "2024-01-16",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "parcelforce",
+        "confidence": "high"
+      },
+      "note": "An archived Parcelforce tracking page. A parcel number: PB, a nine-character consignment number and the parcel's place in it."
+    },
+    {
+      "number": "UH7132876",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260326170916/https://www.parcelforce.com/track-trace?trackNumber=UH7132876",
+        "date": "2026-03-26",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived Parcelforce tracking page. A consignment number; Royal Mail's tracker now asks for the 14-character number of each parcel instead."
+    },
+    {
+      "number": "YR0931885",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251019115952/https://www.parcelforce.com/track-trace?trackNumber=YR0931885",
+        "date": "2025-10-19",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived Parcelforce tracking page. A consignment number; Royal Mail's tracker now asks for the 14-character number of each parcel instead."
+    }
+  ]
+}

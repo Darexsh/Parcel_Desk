@@ -1,0 +1,33 @@
+{
+  "status": 200,
+  "msg": "",
+  "response": [
+    {
+      "cnno": "990000000022",
+      "seq_no": 0,
+      "sender_reference": "REF-CONTOH-1",
+      "origin_tariff": "SUB01.00",
+      "destination_tariff_code": "UPG01.00",
+      "destination_city_name": "Sulawesi Selatan",
+      "product": "ECO",
+      "sys_created_on": "2026-06-20 16:50:54",
+      "consignor_name": "BUDI CONTOH",
+      "consignor_address": "Jawa Timur",
+      "consignee_name": "SITI CONTOH",
+      "consignee_address": "Sulawesi Selatan",
+      "weight": 1,
+      "insurance_fee": 0,
+      "shipment_fee": 41000,
+      "pieces_no": 1,
+      "est_day": "5",
+      "est_date": "2026-06-25",
+      "history": [
+        {"seq_no": 0, "entry_date": "2026-06-22 09:14:32", "status": "TRS", "entry_name": "TRANSIT CONTOH [MAKASSAR]", "entry_place": "", "noted": "Transit at MAKASSAR"},
+        {"seq_no": 0, "entry_date": "2026-06-21 23:38:01", "status": "CON 01", "entry_name": "PUSAT CONTOH [SURABAYA]", "entry_place": "SURABAYA", "noted": "Departed to MAKASSAR"},
+        {"seq_no": 0, "entry_date": "2026-06-21 18:10:35", "status": "MDE 12", "entry_name": "PUSAT CONTOH [SURABAYA]", "entry_place": "SURABAYA", "noted": "Arrive at TIKI at SURABAYA"},
+        {"seq_no": 0, "entry_date": "2026-06-20 16:50:54", "status": "MDE 02", "entry_name": "AGEN CONTOH []", "entry_place": "", "noted": "Shipment Data Entry at SURABAYA"}
+      ],
+      "image_pod": null
+    }
+  ]
+}

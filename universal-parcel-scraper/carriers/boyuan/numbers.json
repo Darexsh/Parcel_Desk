@@ -1,0 +1,21 @@
+{
+  "carrier": "boyuan",
+  "records": [
+    {
+      "number": "BY10000000000017CN",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-28",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "boyuan",
+          "dhlink"
+        ]
+      },
+      "note": "Made-up number in the shape of a parcel the app tracked on a US line, for which ParcelsApp named Boyuan and DHLink: BY, fourteen digits and CN."
+    }
+  ]
+}

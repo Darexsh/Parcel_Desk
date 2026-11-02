@@ -1,0 +1,436 @@
+{
+  "carrier": "ninja-van",
+  "records": [
+    {
+      "number": "DX149431",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api-docs.ninjavan.co/"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "loggi"
+        ]
+      },
+      "note": "Official documentation example, not a real shipment. The source attributes it to Ninja Van, which no rule claims."
+    },
+    {
+      "number": "NLIDAP8003114210",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2026/02/10/surat-pembaca/21-pesanan-lazada-berisi-ponsel-hilang-dalam-pengiriman-karena-permainan-jasa-kirim-mengganti-isi-paket-dan-sampai-pembeli-tidak-sesuai",
+        "date": "2026-02-10"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. Indonesian parcel (Ninja Xpress)."
+    },
+    {
+      "number": "NLMYA71943214",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/69db93b2876e4c3ccfc16628",
+        "date": "2026-04-12"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "The Malaysian public endpoint has supplied an identity-bound return history; it can retain the order while no longer exposing its details.",
+      "context": {
+        "assessment": "confirmed",
+        "service": "malaysia domestic",
+        "reportedRole": "reported_shipment"
+      }
+    },
+    {
+      "number": "NVSGBEDBP03784ADPL",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api-docs.ninjavan.co/"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ninja-van"
+        ]
+      },
+      "note": "Official documentation example, not a real shipment. The source attributes it to Ninja Van, which stays one candidate among several."
+    },
+    {
+      "number": "NJVTT80134490007",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/09/11/surat-pembaca/ekspedisi-ninja-xpress-bermasalah",
+        "date": "2025-09-11",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "indonesia domestic",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "Customer names two separate Ninja Xpress shipments. Later comment reports the first delivered."
+    },
+    {
+      "number": "NJVTT80422730008",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/09/11/surat-pembaca/ekspedisi-ninja-xpress-bermasalah",
+        "date": "2025-09-11",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "indonesia domestic",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "Customer names two separate Ninja Xpress shipments. Later comment reports the first delivered."
+    },
+    {
+      "number": "NJVTT80995860009",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/09/11/surat-pembaca/ekspedisi-ninja-xpress-bermasalah",
+        "date": "2025-10-13",
+        "dateKind": "comment publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "indonesia domestic",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "Customer posts their own shipment number in comments. The Indonesian endpoint has returned retained-order/no-detail; this is not usable scan history."
+    },
+    {
+      "number": "NLIDAP1370713802",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2022/06/10/surat-pembaca/paket-jualan-di-lazada-dinyatakan-rusak-oleh-ninja-xpress-tapi-barang-tidak-dikembalikan-atau-dibayarkan-oleh-lazada/comment-page-2",
+        "date": "2022-06-10",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "cash on delivery",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "Seller reports cash-on-delivery shipment."
+    },
+    {
+      "number": "NLIDAP1808708134",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/02/07/surat-pembaca/pemotongan-biaya-selisih-ongkir-yang-mengada-ada-oleh-ninja-xpress-dan-lazada",
+        "date": "2025-02-07",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "indonesia domestic",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "Seller explicitly publishes Ninja Xpress waybill."
+    },
+    {
+      "number": "NLIDAP8003322843",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/06/02/surat-pembaca/kerugian-selisih-ongkir-akibat-kecurangan-pengukuran-dimensi-paket",
+        "date": "2025-06-02",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "indonesia domestic",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "Seller explicitly lists five Ninja Xpress waybills separately from order IDs."
+    },
+    {
+      "number": "NLIDAP8003322844",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/06/02/surat-pembaca/kerugian-selisih-ongkir-akibat-kecurangan-pengukuran-dimensi-paket",
+        "date": "2025-06-02",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "indonesia domestic",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "Seller explicitly lists five Ninja Xpress waybills separately from order IDs."
+    },
+    {
+      "number": "NLIDAP8003323022",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/06/02/surat-pembaca/kerugian-selisih-ongkir-akibat-kecurangan-pengukuran-dimensi-paket",
+        "date": "2025-06-02",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "indonesia domestic",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "Seller explicitly lists five Ninja Xpress waybills separately from order IDs."
+    },
+    {
+      "number": "NLIDAP8003483550",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/06/02/surat-pembaca/kerugian-selisih-ongkir-akibat-kecurangan-pengukuran-dimensi-paket",
+        "date": "2025-06-02",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "indonesia domestic",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "Seller explicitly lists five Ninja Xpress waybills separately from order IDs."
+    },
+    {
+      "number": "NLIDAP8003788597",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/06/02/surat-pembaca/kerugian-selisih-ongkir-akibat-kecurangan-pengukuran-dimensi-paket",
+        "date": "2025-06-02",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "indonesia domestic",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "Seller explicitly lists five Ninja Xpress waybills separately from order IDs."
+    },
+    {
+      "number": "1224555672638984",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2023/09/07/tanggapan/tanggapan-perihal-selisih-ongkir-yang-gak-ngotak",
+        "date": "2023-09-07",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "quarantine",
+        "reportedRole": "order_number_mislabelled_as_waybill"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "The carrier response calls this a waybill, while the original complaint calls it a Lazada order number. Identifier role remains disputed. The original complaint is https://mediakonsumen.com/2023/09/02/surat-pembaca/selisih-ongkir-yang-gak-ngotak."
+    },
+    {
+      "number": "NVIDNXPID016833280",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2020/08/20/surat-pembaca/paket-dikirimkan-dengan-ninja-xpress-tapi-tidak-jelas",
+        "date": "2020-08-20",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "indonesia domestic",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ninja-van"
+        ]
+      },
+      "note": "Customer publishes the replacement waybill given by Ninja Xpress separately from the earlier Oriflame reference."
+    },
+    {
+      "number": "NVIDARKZO000000884",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2023/07/08/surat-pembaca/retur-paket-tanpa-konfirmasi-yang-dilakukan-oleh-ekspedisi-ninja",
+        "date": "2023-07-08",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "indonesia domestic",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ninja-van"
+        ]
+      },
+      "note": "Customer identifies the Ninja Xpress tracking ID separately from the purchase and describes delivery attempts and a return."
+    },
+    {
+      "number": "SEDMY1481550430953689088",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/69ca462e1a19229eb888be9c",
+        "date": "2026-03-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Malaysian marketplace parcel",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A customer's review of Ninja Van gives this as the parcel. Ninja Van's Malaysian tracker returns its history, returned to the sender. A shipper prefix and nineteen digits; the adapter does not take this form."
+    },
+    {
+      "number": "NLMYA69895779",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/693a35c35ab76398994f4a40",
+        "date": "2025-12-11",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "ninja-van",
+        "confidence": "high"
+      },
+      "note": "A customer's review of Ninja Van names this Malaysian parcel. Ninja Van's tracker knows the order but no longer details it."
+    },
+    {
+      "number": "NJVMY1481164193125306368",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260518131623/https://www.ninjavan.co/en-my/tracking?id=NJVMY1481164193125306368",
+        "date": "2026-05-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A Ninja Van Malaysia tracking link archived by the Wayback Machine, one of hundreds in this form. Ninja Van's tracker knows the order but no longer details it."
+    },
+    {
+      "number": "NVMYNINJA002255132",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260517182746/https://www.ninjavan.co/en-my/tracking?id=NVMYNINJA002255132",
+        "date": "2026-05-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "ninja-van"
+        ]
+      },
+      "note": "A Ninja Van Malaysia tracking link archived by the Wayback Machine, one of hundreds in this form. Ninja Van's tracker knows the order but no longer details it."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "carrier": "la-poste-burkina-faso",
+  "entries": [
+    {"wording": "Receive item at office of exchange (Otb)", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Received at the outward office of exchange. Seen in an opened archived capture of the IPS web tracker on webtracking.sonapost.bf, for a parcel sent from Ouagadougou to France; (Otb) marks the outbound leg in Burkina Faso."},
+    {"wording": "Insert item into bag (Otb)", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Bagged for dispatch abroad. Seen in an opened archived capture of the IPS web tracker on webtracking.sonapost.bf, for a parcel sent from Ouagadougou to France; (Otb) marks the outbound leg in Burkina Faso."},
+    {"wording": "Receive item at office of exchange (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Arrived at the destination country's office of exchange. The (Inb) scans of items posted in Burkina Faso are the destination post's, relayed to the tracker."},
+    {"wording": "Return item from customs (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Customs handed the item back, a release, which the shared rules would read as customs."},
+    {"wording": "Send item to domestic location (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Receive item at sorting centre (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Receive item at delivery office (Inb)", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Send item out for physical delivery (Inb)", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"wording": "Unsuccessful item delivery attempt (Inb)", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "The extra information gives the reason and the measure taken, such as a return to the sender of an unclaimed item."},
+    {"wording": "Send item abroad (EDI-received)", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "A post's despatch abroad, from the data it sent; seen for an item returned towards Burkina Faso."},
+    {"wording": "Deliver item (Inb)", "stage": "delivered", "language": "en", "confirmedBy": "live"}
+  ]
+}

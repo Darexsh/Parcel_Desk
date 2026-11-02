@@ -1,0 +1,56 @@
+{
+  "id": "tforce-logistics",
+  "displayName": "TForce Logistics",
+  "aliases": [
+    "TForce Final Mile",
+    "TForce Final Mile Canada",
+    "Dynamex",
+    "Dynamex Canada",
+    "Dynamex U.S.",
+    "Hazen Final Mile"
+  ],
+  "region": {
+    "countries": [
+      "CA",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#054b8b"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://direct.tfesg.com/finalmiletrack/Track?trackingNumber={trackingNumber}&brand=0",
+    "searchUrl": "https://www.tforcelogistics.com/",
+    "canaryUrl": "https://www.tforcelogistics.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "direct.tfesg.com"
+      ],
+      "pathPattern": "^/finalmiletrack/(?:Track|track/externalTracking\\.jsp)$",
+      "params": [
+        "trackingNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "tforce-logistics-1",
+      "pattern": "^TF(?:\\d{12,13}|1\\d{17})$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "code": 200,
+  "msg": "Success",
+  "data": [
+    {
+      "waybillNo": "GFIT00000000000001",
+      "trackingNumber": "GFIT00000000000001",
+      "frCountry": "IT",
+      "toCountry": "IT",
+      "status": "Delivered",
+      "trackEventCount": 10,
+      "trackEventList": [
+        {
+          "processDate": "2026-01-05T12:00:00.000+0100",
+          "processContent": "Consegnato da Consegnato al destinatario, PIN: No, Numero civico: PRIVATE. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Consegnato da Consegnato al destinatario, PIN: No, Numero civico: PRIVATE",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE TOWN",
+          "processCode": "205",
+          "trackStatus": "6"
+        },
+        {
+          "processDate": "2026-01-05T08:00:00.000+0100",
+          "processContent": "Il corriere è fuori per la consegna. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Il corriere è fuori per la consegna",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE TOWN",
+          "processCode": "208",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-05T06:00:00.000+0100",
+          "processContent": "Preparazione alla consegna. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Preparazione alla consegna",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE HUB",
+          "processCode": "203",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-04T18:00:00.000+0100",
+          "processContent": "Arrivato alla struttura di destinazione regionale GOFO. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Arrivato alla struttura di destinazione regionale GOFO",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE HUB",
+          "processCode": "201",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-04T15:00:00.000+0100",
+          "processContent": "Il pacco è stato restituito al centro di smistamento. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Il pacco è stato restituito al centro di smistamento",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE HUB",
+          "processCode": "204",
+          "trackStatus": "7"
+        },
+        {
+          "processDate": "2026-01-04T12:00:00.000+0100",
+          "processContent": "Consegna fallita, tipo:Destinatario assente. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Consegna fallita, tipo:Destinatario assente",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE TOWN",
+          "processCode": "206",
+          "trackStatus": "7"
+        },
+        {
+          "processDate": "2026-01-04T08:00:00.000+0100",
+          "processContent": "Il corriere è fuori per la consegna. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Il corriere è fuori per la consegna",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE TOWN",
+          "processCode": "208",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-03T12:00:00.000+0100",
+          "processContent": "Il pacco ha lasciato il centro di smistamento. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Il pacco ha lasciato il centro di smistamento",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE HUB",
+          "processCode": "200",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-02T12:00:00.000+0100",
+          "processContent": "Registrato presso il centro di trasferimento. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Registrato presso il centro di trasferimento",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": "EXAMPLE HUB",
+          "processCode": "202",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-01T12:00:00.000+0100",
+          "processContent": "Il pacco è in fase di preparazione da parte del mittente e ci sarà presto consegnato. PRIVATE SUPPORT DETAIL",
+          "mainContent": "Il pacco è in fase di preparazione da parte del mittente e ci sarà presto consegnato",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "processLocation": null,
+          "processCode": "100",
+          "trackStatus": "2"
+        }
+      ],
+      "lastTrackEvent": {
+        "processDate": "2026-01-05T12:00:00.000+0100",
+        "processContent": "Consegnato da Consegnato al destinatario, PIN: No, Numero civico: PRIVATE. PRIVATE SUPPORT DETAIL",
+        "mainContent": "Consegnato da Consegnato al destinatario, PIN: No, Numero civico: PRIVATE",
+        "subContent": "PRIVATE SUPPORT DETAIL",
+        "processLocation": "EXAMPLE TOWN",
+        "processCode": "205",
+        "trackStatus": "6"
+      },
+      "serviceName": "GOFO Parcel",
+      "weight": 1,
+      "number": "PRIVATE REFERENCE",
+      "sign": "PRIVATE SIGNATURE",
+      "podImgList": [
+        "PRIVATE PROOF"
+      ],
+      "thirdNo": "PRIVATE REFERENCE",
+      "noticeContents": [
+        "PRIVATE NOTICE"
+      ],
+      "expectedDeliveryTime": "2026-01-06"
+    }
+  ]
+}

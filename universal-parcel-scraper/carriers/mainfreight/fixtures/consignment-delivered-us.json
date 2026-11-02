@@ -1,0 +1,15 @@
+[{"shortCode":"MSUSS","reference":"000123","fullReference":"99900000028","url":"MSUSS/99900000028","mainchainUrl":"https://www.mainchain.net/","status":"Delivered","statusDateUtc":"2026-01-16T10:30:00","journey":"SAMPLEVILLE to EXAMPLE CITY","documentJourney":null,
+ "hero":{"status":"Delivered","statusDateUtc":"2026-01-16T10:30:00","colour":"green","icon":"icon-status delivered-circle","additionalDetails":[{"value":"16 January 2026, 10:30 AM PST","cssClass":"","link":""}]},
+ "contacts":[],
+ "details":[{"groupName":"Details","items":[{"label":"Consignor Post Code","value":"00000"},{"label":"Consignor Country Code","value":"US"},{"label":"Service Level","value":"LTL"},{"label":"Consignee Post Code","value":"00001"},{"label":"Consignee Country Code","value":"US"},{"label":"Requested Delivery Date","value":"16 January 2026"},{"label":"Items","value":"4"},{"label":"Chargeable Weight","value":"1500.00"},{"label":"Volume","value":"120.00"}]}],
+ "timelineDetails":[
+  {"status":"Goods delivered to EXAMPLE CITY, CALIFORNIA, 00001","colour":"green","additionalDetails":[{"value":"16 January 2026, 10:30 AM PST","cssClass":"","link":""}]},
+  {"status":"On drivers vehicle en-route to EXAMPLE CITY, CALIFORNIA, 00001","colour":"grey","additionalDetails":[{"value":"16 January 2026, 8:00 AM PST","cssClass":"","link":""}]},
+  {"status":"Arrived at Terminal SAMPLE JUNCTION, CALIFORNIA","colour":"grey","additionalDetails":[{"value":"15 January 2026, 9:15 PM PST","cssClass":"","link":""}]},
+  {"status":"Departed from Terminal SAMPLEVILLE, TEXAS","colour":"grey","additionalDetails":[{"value":"12 January 2026, 2:33 PM CST","cssClass":"","link":""}]},
+  {"status":"Goods picked up from SAMPLEVILLE, TEXAS, 00000","colour":"blue","additionalDetails":[{"value":"12 January 2026, 8:00 AM CST","cssClass":"","link":""}]},
+  {"status":"Pickup assigned to driver","colour":"blue","additionalDetails":[{"value":"11 January 2026, 4:10 PM CST","cssClass":"","link":""}]},
+  {"status":"Booked","colour":"blue","additionalDetails":[{"value":"11 January 2026, 2:28 PM CST","cssClass":"","link":""}]}
+ ],
+ "worm":[{"active":true,"status":"Picked Up","colour":"blue","icon":"icon-status picked-up"},{"active":true,"status":"In Transit","colour":"grey","icon":"icon-status in-transit"},{"active":true,"status":"Delivered","colour":"green","icon":"icon-status delivered"}],
+ "serviceAlertTitle":null,"serviceAlert":null,"subscriptionPayload":"SYNTHETIC-SUBSCRIPTION-KEY","watchlistPayload":"SYNTHETIC-WATCHLIST-KEY","serviceTypeCode":"TransportUs","eventTypeCode":"StatusUpdate","documentTypeName":"Shipment","attachments":null}]

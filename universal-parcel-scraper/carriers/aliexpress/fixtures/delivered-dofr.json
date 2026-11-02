@@ -1,0 +1,38 @@
+{
+  "module": [
+    {
+      "mailNo": "DOFR0000000000001HD",
+      "mailNoSource": "AE",
+      "originCountry": "China",
+      "destCountry": "France",
+      "status": "DELIVERED",
+      "latestTrace": {
+        "actionCode": "GTMS_SIGNED",
+        "standerdDesc": "Delivered",
+        "timeStr": "2026-03-04 10:15:00",
+        "timeZone": "GMT+1"
+      },
+      "detailList": [
+        {
+          "actionCode": "GTMS_SIGNED",
+          "standerdDesc": "Delivered",
+          "timeStr": "2026-03-04 10:15:00",
+          "timeZone": "GMT+1"
+        },
+        {
+          "actionCode": "GTMS_DO_DEPART",
+          "standerdDesc": "Out for delivery",
+          "timeStr": "2026-03-04 07:02:00",
+          "timeZone": "GMT+1"
+        },
+        {
+          "actionCode": "GWMS_ACCEPT",
+          "standerdDesc": "Shipment accepted by the warehouse",
+          "timeStr": "2026-02-25 09:00:00",
+          "timeZone": "GMT+8"
+        }
+      ]
+    }
+  ],
+  "success": true
+}

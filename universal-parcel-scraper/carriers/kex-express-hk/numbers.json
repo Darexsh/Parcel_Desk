@@ -1,0 +1,46 @@
+{
+  "carrier": "kex-express-hk",
+  "records": [
+    {
+      "number": "L511058521",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250831140215/https://www.kex.kln.com/zh/track?track=L511058521",
+        "date": "2025-08-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "australia-post"
+        ]
+      },
+      "note": "An archived lookup on KEX Express Hong Kong's own tracker; the opened capture shows this number with its scans from order registration to delivery."
+    },
+    {
+      "number": "KEHKAZ00593853",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230613161230/https://hk.kerryexpress.com/en/track?track=KEHKAZ00593853",
+        "date": "2023-06-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on the tracker of Kerry Express Hong Kong, the company's former name; the opened capture shows this number with its order-registration event."
+    }
+  ]
+}

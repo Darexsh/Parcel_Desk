@@ -1,0 +1,119 @@
+{
+  "carrier": "jumppoint",
+  "records": [
+    {
+      "number": "JP319037378197",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://support.shoplineapp.com/hc/zh-tw/articles/16477806789273",
+        "date": "2026-03-13",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "jumppoint",
+        "confidence": "high"
+      },
+      "note": "SHOPLINE's Jumppoint help article shows it as the 運單號 on its sample waybill printout, and Jumppoint's own tracker knows it as a created waybill without scans."
+    },
+    {
+      "number": "JP135264631722",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://hackmd.io/Y4GrqOs4R_aDFrIP0jW33A",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "jumppoint",
+        "confidence": "high"
+      },
+      "note": "Jumppoint's Open API documentation uses it in its API examples, and the tracker knows it as a delivered same-day parcel."
+    },
+    {
+      "number": "JP319037069928",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://hackmd.io/Y4GrqOs4R_aDFrIP0jW33A",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "jumppoint",
+        "confidence": "high"
+      },
+      "note": "Jumppoint's Open API documentation uses it in its API examples, and the tracker knows it as a delivered parcel."
+    },
+    {
+      "number": "JP319037076156",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://hackmd.io/Y4GrqOs4R_aDFrIP0jW33A",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "jumppoint",
+        "confidence": "high"
+      },
+      "note": "Jumppoint's Open API documentation uses it in its API examples, and the tracker knows it as a delivered parcel."
+    },
+    {
+      "number": "JP319037076955",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://hackmd.io/Y4GrqOs4R_aDFrIP0jW33A",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "jumppoint",
+        "confidence": "high"
+      },
+      "note": "Jumppoint's Open API documentation uses it in its API examples, and the tracker knows it as a delivered parcel."
+    },
+    {
+      "number": "JP319037077743",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://hackmd.io/Y4GrqOs4R_aDFrIP0jW33A",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "jumppoint",
+        "confidence": "high"
+      },
+      "note": "Jumppoint's Open API documentation uses it in its API examples, and the tracker knows it as a parcel out for delivery that never got a later row."
+    }
+  ]
+}

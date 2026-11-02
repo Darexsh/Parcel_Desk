@@ -1,0 +1,44 @@
+{
+  "id": "ace-ee",
+  "displayName": "ACE Logistics Estonia",
+  "aliases": [
+    "ACE Logistics Estonia AS",
+    "ACE EE"
+  ],
+  "region": {
+    "countries": [
+      "EE"
+    ]
+  },
+  "brand": {
+    "color": "#004f7c"
+  },
+  "selectable": true,
+  "timezone": "Europe/Tallinn",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.acelogistics.eu/tracker/tracker_en.php?office=EE&cc=EE&ref={trackingNumber}",
+    "searchUrl": "https://www.acelogistics.eu/ee/en/service/cargo-tracking/",
+    "canaryUrl": "https://www.acelogistics.eu/ee/en/service/cargo-tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.acelogistics.eu",
+        "acelogistics.eu"
+      ],
+      "pathPattern": "^/tracker/tracker(?:_[a-z]{2})?\\.php$",
+      "query": "^(?=(?:.*&)?office=EE(?:&|$))(?:.*&)?ref=([^&]+)(?=&|$)"
+    }
+  ],
+  "detection": []
+}

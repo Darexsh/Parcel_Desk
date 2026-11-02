@@ -1,0 +1,57 @@
+{
+  "id": "yimidida",
+  "displayName": "Yimidida",
+  "aliases": [
+    "壹米滴答",
+    "壹米滴答快运",
+    "上海壹米滴答供应链管理有限公司",
+    "YiMiDiDa",
+    "YMDD"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#f5a91a"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.yimidida.com/demoModel?id=19843C3F-581F-7EB4-181D-413E25D61FBF&params={trackingNumber}",
+    "canaryUrl": "https://www.yimidida.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.yimidida.com",
+        "yimidida.com"
+      ],
+      "pathPattern": "^/demoModel/?$",
+      "params": [
+        "params"
+      ]
+    },
+    {
+      "domains": [
+        "www.yimidida.com"
+      ],
+      "pathPattern": "^/usercenter/goods/?$",
+      "params": [
+        "params"
+      ]
+    }
+  ],
+  "detection": []
+}

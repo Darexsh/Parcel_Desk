@@ -1,0 +1,154 @@
+{
+  "carrier": "intereuropa",
+  "records": [
+    {
+      "number": "NRSI240418808",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240704090442/https://www.intereuropa.si/si/tracking?pg=tracking&code=NRSI240418808",
+        "date": "2024-07-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intereuropa",
+        "confidence": "high"
+      },
+      "note": "Looked up on Intereuropa's own tracker, as the opened capture shows: the shipment's history from Ljubljana through Samobor to Rijeka and its piece barcodes."
+    },
+    {
+      "number": "NRSI250492165",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250725071532/https://www.intereuropa.si/si/tracking?pg=tracking&code=00038300750000682101",
+        "date": "2025-07-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intereuropa",
+        "confidence": "high"
+      },
+      "note": "Intereuropa's own tracker names this as the shipment of the barcode looked up in the opened capture and shows its history at Intereuropa Celje."
+    },
+    {
+      "number": "00038300750000682101",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250725071532/https://www.intereuropa.si/si/tracking?pg=tracking&code=00038300750000682101",
+        "date": "2025-07-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "piece barcode (črtna koda)",
+        "assessment": "confirmed"
+      },
+      "relationships": [
+        {
+          "kind": "child_of",
+          "number": "NRSI250492165",
+          "source": {
+            "url": "https://web.archive.org/web/20250725071532/https://www.intereuropa.si/si/tracking?pg=tracking&code=00038300750000682101",
+            "date": "2025-07-25",
+            "dateKind": "capture",
+            "access": "full_page"
+          }
+        }
+      ],
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "swiss-post-cargo",
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "Looked up on Intereuropa's own tracker, as the opened capture shows: a pallet's SSCC barcode within a shipment, with its statuses."
+    },
+    {
+      "number": "00038385510202007451",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240704090442/https://www.intereuropa.si/si/tracking?pg=tracking&code=NRSI240418808",
+        "date": "2024-07-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "piece barcode (črtna koda)",
+        "assessment": "confirmed"
+      },
+      "relationships": [
+        {
+          "kind": "child_of",
+          "number": "NRSI240418808",
+          "source": {
+            "url": "https://web.archive.org/web/20240704090442/https://www.intereuropa.si/si/tracking?pg=tracking&code=NRSI240418808",
+            "date": "2024-07-04",
+            "dateKind": "capture",
+            "access": "full_page"
+          }
+        }
+      ],
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "swiss-post-cargo",
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "Intereuropa's own tracker lists this SSCC barcode as a piece of the shipment in the opened capture, with its own scans."
+    },
+    {
+      "number": "00038385510202007468",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240704090442/https://www.intereuropa.si/si/tracking?pg=tracking&code=NRSI240418808",
+        "date": "2024-07-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "piece barcode (črtna koda)",
+        "assessment": "confirmed"
+      },
+      "relationships": [
+        {
+          "kind": "child_of",
+          "number": "NRSI240418808",
+          "source": {
+            "url": "https://web.archive.org/web/20240704090442/https://www.intereuropa.si/si/tracking?pg=tracking&code=NRSI240418808",
+            "date": "2024-07-04",
+            "dateKind": "capture",
+            "access": "full_page"
+          }
+        }
+      ],
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "swiss-post-cargo",
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "Intereuropa's own tracker lists this SSCC barcode as another piece of the same shipment in the opened capture, with its own scans."
+    }
+  ]
+}

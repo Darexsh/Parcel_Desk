@@ -1,0 +1,55 @@
+{
+  "id": "courier-it",
+  "displayName": "Courier IT",
+  "aliases": [
+    "CourierIT",
+    "Courier IT SA"
+  ],
+  "region": {
+    "countries": [
+      "ZA"
+    ]
+  },
+  "brand": {
+    "color": "#eb2227"
+  },
+  "selectable": true,
+  "timezone": "Africa/Johannesburg",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://intellitrack.courierit.co.za/?SearchString={trackingNumber}",
+    "searchUrl": "https://intellitrack.courierit.co.za/",
+    "canaryUrl": "https://intellitrack.courierit.co.za/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "intellitrack.courierit.co.za"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "SearchString"
+      ]
+    },
+    {
+      "domains": [
+        "courierit.co.za",
+        "www.courierit.co.za"
+      ],
+      "pathPattern": "^/Trackit/Trackit\\.aspx$",
+      "params": [
+        "WaybillNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

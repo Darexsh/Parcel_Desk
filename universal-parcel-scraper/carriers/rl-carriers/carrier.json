@@ -1,0 +1,104 @@
+{
+  "id": "rl-carriers",
+  "displayName": "R+L Carriers",
+  "aliases": [
+    "R&L Carriers",
+    "R and L Carriers",
+    "RL Carriers"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#006647"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "rl-carriers",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 5
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "service_name",
+    "weight",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.rlcarriers.com/freight/shipping/shipment-tracing?pro={trackingNumber}&docType=PRO&source=web",
+    "searchUrl": "https://www.rlcarriers.com/freight/shipping/shipment-tracing",
+    "canaryUrl": "https://www.rlcarriers.com/freight/shipping/shipment-tracing",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "service_name",
+      "weight",
+      "parcel_count",
+      "customer_reference",
+      "sender_town",
+      "sender_details",
+      "recipient_details",
+      "canonical_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "service_name",
+      "weight",
+      "canonical_tracking_number"
+    ],
+    "discarded": [
+      "parcel_count",
+      "customer_reference",
+      "sender_town",
+      "sender_details",
+      "recipient_details"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "delivered_at",
+      "proof_of_delivery",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "rlcarriers.com"
+      ],
+      "pathPattern": "^/freight/shipping/shipment-tracing/?$",
+      "params": [
+        "pro"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "rl-carriers-1",
+      "pattern": "^(?:[A-Z]{2}\\d{7}|\\d{9})$",
+      "rawPattern": "^(?:[A-Z]{2}\\d{6}|\\d{8})-\\d$",
+      "confidence": "low"
+    },
+    {
+      "id": "rl-carriers-2",
+      "pattern": "^I\\d{9}$",
+      "confidence": "low"
+    }
+  ]
+}

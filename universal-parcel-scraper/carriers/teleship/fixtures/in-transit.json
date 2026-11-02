@@ -1,0 +1,22 @@
+{
+  "status": "in_transit",
+  "shipmentId": "00000000-0000-4000-8000-000000000002",
+  "shipDate": "2026-04-13T09:00:00.000Z",
+  "trackingNumber": "TSGBBESMPL02000000002",
+  "trackingURL": "https://teleship.com/tracking?trackingNumber=TSGBBESMPL02000000002",
+  "customerReference": "#0002",
+  "estimatedDelivery": "2026-04-20T21:59:59.999Z",
+  "lastMile": {
+    "carrier": "bpost",
+    "trackingNumber": "323200000000000000000002",
+    "trackingUrl": "https://track.bpost.cloud/btr/web/#/search?itemCode=323200000000000000000002&lang=en"
+  },
+  "events": [
+    { "alias": "SHIPPER_LABEL", "code": "S_102", "description": "Shipment info received by carrier", "timestamp": "2026-04-13T08:51:30.120Z", "type": "label_created" },
+    { "alias": "FIRST_MILE_COLLECTED", "code": "F_101", "description": "Accepted", "location": "Sample Town, UK", "timestamp": "2026-04-13T15:10:00.000Z", "type": "picked_up" },
+    { "alias": "HUB_ARRIVED", "code": "H_101", "description": "Arrived at Teleship hub", "location": "SEKO, Sample Hub, UK", "timestamp": "2026-04-14T06:45:00.000Z", "type": "in_transit" },
+    { "alias": "HUB_DEPARTED", "code": "H_201", "description": "Departed hub, driver +00 000 000 0000", "location": "Mark 3", "timestamp": "2026-04-14T20:00:00.000Z", "type": "in_transit" },
+    { "alias": "CUSTOMS_EXPORT", "code": "C_101", "description": "Export clearance", "location": "Sample Port, UK", "timestamp": "2026-04-15T02:30:00.000Z", "type": "in_transit" },
+    { "alias": "CUSTOMS_IMPORT", "code": "C_102", "description": "Import clearance", "location": "Sample Port, BE", "timestamp": "2026-04-16T09:15:00.000Z", "type": "in_transit" }
+  ]
+}

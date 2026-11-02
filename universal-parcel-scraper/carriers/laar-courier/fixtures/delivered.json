@@ -1,0 +1,126 @@
+{
+  "search": {
+    "isSuccess": true,
+    "message": "OK",
+    "objetoADeserializar": [
+      {
+        "asignadaPor": "ClientesMasivo",
+        "fechaAsignacion": "2026-05-25T10:12:40.917",
+        "nombreCliente": "SAMP*****-  00000 * MUES*",
+        "ciudadOrigen": "MUESTRA NORTE",
+        "ciudadDestino": "MUESTRA SUR",
+        "producto": "SAMPLE_PRODUCT - SAMPLE_PRODUCT",
+        "de": "SAMP*****",
+        "direccionO": "000 SAMPLE STREET",
+        "telefono1O": "000000",
+        "telefono2O": "0",
+        "para": "Samp*****",
+        "direccionD": "Calle ***** - ",
+        "telefono1D": "0              ",
+        "telefono2D": "0              ",
+        "numEnvios": 1,
+        "pesoKilos": 2.5,
+        "numPaquetes": null,
+        "valorDeclarado": 0.0,
+        "valorAdicional": null,
+        "valorFlete": null,
+        "valorOtros": null,
+        "valorTotal": null,
+        "entregadoPor": null,
+        "recibidoPor": null,
+        "remitente": null,
+        "remitenteFecha": "12 May 2026 16:05:10:19",
+        "destinatario": "SAMPLE RECEIVER",
+        "destinatarioFecha": "13 May 2026 11:31:07:00",
+        "documento": null,
+        "documentoConfirmado": null,
+        "observaciones": null,
+        "pgNombre": "Sample Courier",
+        "pgFecha": "2026-05-12T16:05:10.19",
+        "gbNombre": null,
+        "gbFecha": null,
+        "peNombre": "Courier de Campo",
+        "peFecha": "2026-05-13T11:31:07",
+        "anuladaCliente": null,
+        "anuladaAdmin": null,
+        "estado": "Entregado",
+        "entregadoSMS": null,
+        "fechaEnvioSMS": null,
+        "entregadoMail": null,
+        "fechaEnvioMail": null,
+        "acuseDeRecibo": null,
+        "confirmacindeLectura": null,
+        "cc": null,
+        "codigoAlterno": "00000",
+        "g03_Id": "ZZ-00-0000-20260513"
+      }
+    ],
+    "tipoMensaje": null
+  },
+  "label": {
+    "isSuccess": true,
+    "message": "OK",
+    "objetoADeserializar": [
+      {
+        "remitente": "SAMPLE SENDER   - 00000",
+        "rdireccion": "000 SAMPLE STREET",
+        "rtelefono1": "000000",
+        "ciudado": "MUESTRA NORTE",
+        "destinatario": "Sample Recipient Person",
+        "ddireccion": "Calle Ficticia - Avenida Ejemplo - 000 - Casa de muestra - ",
+        "dtelefono": "0990000000",
+        "ciudadd": "MUESTRA SUR",
+        "producto": "SAMPLE_PRODUCT",
+        "recibe": "SAMPLE RECEIVER",
+        "peso": "2.50",
+        "piezas": 1,
+        "valorasegurado": 0.0,
+        "estadoActual": 7,
+        "generado": "2026-05-25T10:12:40.917",
+        "recolectado": "2026-05-12T16:05:10.19",
+        "enbodega": "2026-05-12T16:05:10.203",
+        "enproceso": "2026-05-12T16:48:21.69",
+        "enreparto": "2026-05-13T00:00:00",
+        "fechaEntrega": "2026-05-13T11:31:07",
+        "norden": null,
+        "estado": null,
+        "contenido": "VARIOS",
+        "comentario": "",
+        "correo": "operaciones@example.com; muestra@example.com",
+        "pesoelect": null,
+        "g01ActualidoCliente": null,
+        "estadoActual1": "** Transito **",
+        "p33Id": 7,
+        "g01Detalle1": null,
+        "g01Id": "GYE0000000001",
+        "enBodegaZona": 0
+      }
+    ],
+    "tipoMensaje": null
+  },
+  "steps": {
+    "isSuccess": false,
+    "message": null,
+    "objetoADeserializar": "[{\"P33_Orden\":2.00,\"P33_Alias\":\"Por Recolectar\",\"Id\":2.00,\"G28_FechaEstado\":\"2026-05-25T10:12:40.917\",\"RegionalAcopio\":\"Muestra Norte\",\"Pais\":\"ECUADOR\",\"P33_Descripcion\":\"Envío creado por procesar\"},{\"P33_Orden\":3.00,\"P33_Alias\":\"Recolectado\",\"Id\":3.00,\"G28_FechaEstado\":\"2026-05-12T16:05:10.19\",\"RegionalAcopio\":\"Muestra Norte\",\"Pais\":\"ECUADOR\",\"P33_Descripcion\":\"Envío Recolectado\"},{\"P33_Orden\":4.00,\"P33_Alias\":\"En Bodega\",\"Id\":4.00,\"G28_FechaEstado\":\"2026-05-12T16:05:10.19\",\"RegionalAcopio\":\"Muestra Norte\",\"Pais\":\"ECUADOR\",\"P33_Descripcion\":\"Ingreso en Bodega\"},{\"P33_Orden\":5.00,\"P33_Alias\":\"En Tránsito\",\"Id\":5.00,\"G28_FechaEstado\":\"2026-05-12T16:48:21.69\",\"RegionalAcopio\":\"Muestra Norte\",\"Pais\":\"ECUADOR\",\"P33_Descripcion\":\"En proceso operativo\"},{\"P33_Orden\":6.00,\"P33_Alias\":\"Zona de Entrega\",\"Id\":6.00,\"G28_FechaEstado\":\"2026-05-13T10:27:29.827\",\"RegionalAcopio\":\"Muestra Sur\",\"Pais\":\"ECUADOR\",\"P33_Descripcion\":\"En zona para entrega al destino\"},{\"P33_Orden\":7.00,\"P33_Alias\":\"Entregado\",\"Id\":7.00,\"G28_FechaEstado\":\"2026-05-13T11:31:07\",\"RegionalAcopio\":\"Muestra Sur\",\"Pais\":\"ECUADOR\",\"P33_Descripcion\":\"Entrega al Destinatario\"}]",
+    "tipoMensaje": null
+  },
+  "transit": {
+    "isSuccess": true,
+    "message": "OK",
+    "objetoADeserializar": [
+      {
+        "guia": "GYE0000000001",
+        "nombre": "SALIDA DE BODEGA DE ORIGEN",
+        "fecha": "2026-05-12T16:48:21.69",
+        "p33Id": 11
+      }
+    ],
+    "tipoMensaje": null
+  },
+  "incidents": {
+    "isSuccess": true,
+    "message": null,
+    "objetoADeserializar": [],
+    "tipoMensaje": null
+  }
+}

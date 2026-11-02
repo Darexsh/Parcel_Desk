@@ -1,0 +1,153 @@
+{
+  "carrier": "redx",
+  "records": [
+    {
+      "number": "23A327MOTJ8VZ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230327160631/https://api.redx.com.bd/v1/logistics/global-tracking/23A327MOTJ8VZ",
+        "date": "2023-03-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "redx",
+        "confidence": "high"
+      },
+      "note": "An archived reply of RedX's own global tracking API for this parcel lists its history up to its first line-haul transfer."
+    },
+    {
+      "number": "24A322FR13WRG7",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240324073033/https://api.redx.com.bd/v1/logistics/global-tracking/24A322FR13WRG7",
+        "date": "2024-03-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "redx",
+        "confidence": "high"
+      },
+      "note": "An archived reply of RedX's own global tracking API for this parcel lists its history up to the parcel out for delivery."
+    },
+    {
+      "number": "251015WE1ANOP9",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251021005736/https://api.redx.com.bd/v1/logistics/global-tracking/251015WE1ANOP9",
+        "date": "2025-10-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "redx",
+        "confidence": "high"
+      },
+      "note": "An archived reply of RedX's own global tracking API for this parcel lists its history up to two holds and the delivery."
+    },
+    {
+      "number": "26A331TU1CCS2I",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260401161935/https://api.redx.com.bd/v1/logistics/global-tracking/26A331TU1CCS2I",
+        "date": "2026-04-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "redx",
+        "confidence": "high"
+      },
+      "note": "An archived reply of RedX's own global tracking API for this parcel lists its history up to its first line-haul transfer."
+    },
+    {
+      "number": "26A3A3TU1C3IR2",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260304070859/https://api.redx.com.bd/v1/logistics/global-tracking/26A3A3TU1C3IR2",
+        "date": "2026-03-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "redx",
+        "confidence": "high"
+      },
+      "note": "An archived reply of RedX's own global tracking API for this parcel lists its history up to the delivery."
+    },
+    {
+      "number": "21A716FR7K3MU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210728073629/https://redx.com.bd/track-global-parcel/?trackingId=21A716FR7K3MU",
+        "date": "2021-07-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "redx",
+        "confidence": "high"
+      },
+      "note": "Looked up on RedX's own tracking page, as an archived address shows; the capture holds only the script-rendered page shell and was not opened for history."
+    },
+    {
+      "number": "21A427TU4BN3R",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://redx.com.bd/developer-api/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "redx",
+        "confidence": "high"
+      },
+      "note": "A tracking_id in the sample responses of RedX's own developer API documentation."
+    },
+    {
+      "number": "20A312THJDJ8",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://redx.com.bd/developer-api/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "redx",
+        "confidence": "high"
+      },
+      "note": "A tracking_id in the sample responses of RedX's own developer API documentation."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "jifan",
+  "displayName": "Jifan",
+  "aliases": [
+    "Jifan International Logistics",
+    "吉凡国际物流",
+    "深圳市吉凡国际物流有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#c81011"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "jifan",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "destination_country",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://www.szjf56.cn/index/tracknumber/track?nos={trackingNumber}",
+    "searchUrl": "https://www.szjf56.cn/",
+    "canaryUrl": "https://www.szjf56.cn/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "destination_country",
+      "postcodes"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "destination_country"
+    ],
+    "discarded": [
+      "postcodes"
+    ],
+    "unavailable": [
+      "provider_code",
+      "eta",
+      "weight",
+      "delivered_at",
+      "service_name",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "szjf56.cn",
+        "www.szjf56.cn"
+      ],
+      "pathPattern": "^/index/tracknumber/track$",
+      "params": [
+        "nos"
+      ],
+      "ownNumbersOnly": true
+    }
+  ],
+  "detection": [
+    {
+      "id": "jifan-1",
+      "pattern": "^JFGJ\\d{9}CN$",
+      "confidence": "high"
+    }
+  ]
+}

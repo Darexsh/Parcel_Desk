@@ -1,0 +1,46 @@
+{
+  "id": "aics",
+  "displayName": "AICS",
+  "aliases": [
+    "AICS Logistics Pvt. Ltd.",
+    "Arihant International Courier Service"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#2c4299"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://aics.in/tracking/?tracking_number={trackingNumber}",
+    "searchUrl": "https://aics.in/tracking/",
+    "canaryUrl": "https://aics.in/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "aics.in",
+        "www.aics.in"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "tracking_number"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,22 @@
+{
+  "carrier": "thailand-post",
+  "entries": [
+    { "code": "3", "wording": "Posting/Collection", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "Also a foreign post's posting scan, relayed by EDI." },
+    { "code": "9", "wording": "Arrival at outward office of exchange", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "A foreign post's scan, relayed by EDI." },
+    { "code": "15", "wording": "Departure From Outward OE", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "A foreign post's scan, relayed by EDI." },
+    { "code": "18", "wording": "Arrival at inward office of exchange", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "code": "23", "wording": "In transit", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Leaving the inward office of exchange." },
+    { "code": "24", "wording": "Item into sorting center", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "code": "25", "wording": "In transit", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "code": "27", "wording": "In transit", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Leaving the posting office." },
+    { "code": "28", "wording": "Return to the origin post office", "language": "en", "stage": "exception", "confirmedBy": "documentation", "note": "The site's status table pairs code 28 with delivery result K, a return on its way to the origin post office. The wording is the delivery result's. Not seen in a reply." },
+    { "code": "31", "wording": "Item out for physical delivery", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live" },
+    { "code": "32", "wording": "Item arrival at collection point for pick-up (by recipient)", "language": "en", "stage": "ready_for_pickup", "confirmedBy": "documentation", "note": "The site's status table pairs code 32 with UPU EDH and delivery result H, delivery to the post's parcel locker. Not seen in a reply." },
+    { "code": "34", "wording": "Scheduled for further delivery attempt today due to Payment of charges", "language": "en", "stage": "failed_attempt", "confirmedBy": "live", "note": "The site's utility row, named by its delivery result. In status group 4, where it was seen, an unsuccessful delivery and its reason; other groups go to the wording." },
+    { "code": "34", "wording": "Item held,addressee notified due to Payment of charges", "language": "en", "stage": "failed_attempt", "confirmedBy": "live", "note": "The site's utility row in status group 4, as above." },
+    { "code": "35/S", "wording": "Final delivery", "language": "en", "stage": "delivered", "confirmedBy": "live", "note": "Code 35 with delivery result S, the addressee's delivery." },
+    { "code": "35/L", "wording": "The sender received the returned item", "language": "en", "stage": "returned", "confirmedBy": "documentation", "note": "Code 35 with delivery result L, as the site's status and delivery-result tables define it. The wording is the delivery result's. Not seen in a reply." },
+    { "code": "36", "wording": "Successfully transfer money to seller", "language": "en", "stage": "delivered", "confirmedBy": "bundle", "note": "The COD amount paid to the seller, in status group 5 after the final delivery; the site's status table names it and its bundle shows the amount for code 36. Activity, not a delivery: it keeps the stage before it, never sets the parcel's stage or delivery time, and its office is not read as a location. Not seen in a reply." },
+    { "code": "57", "wording": "Contact recipient", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live", "note": "The delivery officer's call to the recipient. It keeps the stage of the scan before it, out for delivery where it was seen, and never sets the parcel's stage. Its detail masks the recipient's phone number, so only the label is read." }
+  ]
+}

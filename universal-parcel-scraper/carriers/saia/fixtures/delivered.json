@@ -1,0 +1,52 @@
+{
+  "proNumber": "99900000020",
+  "shipper": { "name": "Example Shipper Co", "addressLine1": "1 Sample Road", "addressLine2": "", "city": "Shipper Town", "state": "CA", "zip": "00011" },
+  "consignee": { "name": "Example Consignee Inc", "addressLine1": "2 Sample Avenue", "addressLine2": "Suite 9", "city": "Consignee Town", "state": "TX", "zip": "00012" },
+  "lineItems": [
+    { "pieces": "1", "code": "PLT", "hazardous": "N", "description": "Synthetic goods", "weight": "455.5", "shipmentType": "LTL" }
+  ],
+  "referenceNumbers": { "customerBOLNumber": "SYNTHBOL2", "masterProNumber": "", "purchaseOrderNumber": "", "pickupNumber": "", "customerShipperNumber": "", "referenceNumber": "" },
+  "deliveryInformation": {
+    "expectedDeliveryDate": "2031-11-04",
+    "expectedDeliveryTime": { "from": "10:15", "to": "14:30" },
+    "deliveryAppointmentDate": "N/A",
+    "deliveryAppointmentTime": "",
+    "deliveryDate": "2031-11-04",
+    "deliveryDateSecondary": "0",
+    "deliveryTime": { "from": "13:22", "to": "13:40" },
+    "signature": "SYNTHETIC SIGNER",
+    "hasDeliveryAppointment": false,
+    "isDeliveryAppointmentDate": false,
+    "isContactCustomerService": false,
+    "isAppointmentRequiredCall": false
+  },
+  "shipmentInformation": {
+    "totalPieces": "1",
+    "totalWeight": "455.5",
+    "totalCube": "40",
+    "type": "PPD",
+    "driverNumber": "99002",
+    "trailerNumber": "990002",
+    "pickupDate": "2031-10-31",
+    "serviceDays": "N/A",
+    "guaranteed": "",
+    "status": "Delivered",
+    "exceptionWarning": false,
+    "canViewConfidentialInformation": false
+  },
+  "history": [
+    { "activity": "Dispatched for Delivery", "city": "Example City", "date": "2031-11-04", "state": "TX", "time": "07:48 am", "display": true },
+    { "activity": "Arrived at Destination Terminal", "city": "Example City", "date": "2031-11-04", "state": "TX", "time": "05:36 am", "display": false },
+    { "activity": "Departed from Terminal", "city": "Sample Hub", "date": "2031-11-02", "state": "AZ", "time": "08:03 pm", "display": true },
+    { "activity": "Arrived at Breakbulk Terminal", "city": "Sample Hub", "date": "2031-11-01", "state": "AZ", "time": "12:24 am", "display": true },
+    { "activity": "Departed from Terminal", "city": "Origin Town", "date": "2031-10-31", "state": "CA", "time": "10:17 pm", "display": true },
+    { "activity": "Arrived at Origin Terminal", "city": "Origin Town", "date": "2031-10-31", "state": "CA", "time": "07:55 pm", "display": false },
+    { "activity": "Depart from Customer Location", "city": "Shipper Town", "date": "2031-10-31", "state": "CA", "time": "05:12 pm", "display": false },
+    { "activity": "Pickup from Customer", "city": "Shipper Town", "date": "2031-10-31", "state": "CA", "time": "03:31 pm", "display": false }
+  ],
+  "terminalInformation": {
+    "destinationTerminal": { "addressLine1": "3 Example Way", "addressLine2": "", "city": "Example City", "fax": "5550000011", "manager": "Example Manager", "name": "Example City Terminal", "state": "TX", "telephone": "5550000012", "tid": "EXB", "tollFreeNumber": "8000000013", "zip": "00013" },
+    "originTerminal": { "addressLine1": "4 Sample Way", "addressLine2": "", "city": "Origin Town", "fax": "5550000014", "manager": "Sample Manager", "name": "Origin Town Terminal", "state": "CA", "telephone": "5550000015", "tid": "SMQ", "tollFreeNumber": "8000000016", "zip": "00014" }
+  },
+  "trustedUser": false
+}

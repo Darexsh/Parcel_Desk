@@ -1,0 +1,24 @@
+{
+  "carrier": "tusk-logistics",
+  "records": [
+    {
+      "number": "TUSK0COA8D56NUP0",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261016095017/https://shipmenttracking.tusklogistics.com/?trackingNumber=TUSK0COA8D56NUP0",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "tusk-logistics",
+        "confidence": "high"
+      },
+      "note": "Typed into Tusk's own tracking page, as the Wayback Machine archived it."
+    }
+  ]
+}

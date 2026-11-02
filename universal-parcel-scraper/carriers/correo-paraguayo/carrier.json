@@ -1,0 +1,36 @@
+{
+  "id": "correo-paraguayo",
+  "displayName": "Correo Paraguayo",
+  "aliases": [
+    "Dirección Nacional de Correos del Paraguay",
+    "DINACOPA",
+    "Correos del Paraguay",
+    "Paraguay Post"
+  ],
+  "region": {
+    "countries": [
+      "PY"
+    ]
+  },
+  "brand": {
+    "color": "#d42e12"
+  },
+  "selectable": true,
+  "timezone": "America/Asuncion",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://apps.correoparaguayo.gov.py:444/seguimiento.html",
+    "canaryUrl": "https://apps.correoparaguayo.gov.py:444/seguimiento.html",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

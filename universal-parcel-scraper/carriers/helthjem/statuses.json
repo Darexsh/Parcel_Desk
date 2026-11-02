@@ -1,0 +1,24 @@
+{
+  "carrier": "helthjem",
+  "entries": [
+    { "code": "REGISTERED/001", "wording": "Nettbutikken har meldt at en pakke er på vei!", "language": "nb", "stage": "registered", "confirmedBy": "live", "note": "The shop announced the parcel; Helthjem does not have it yet." },
+    { "code": "IN_TRANSIT/002", "wording": "Vi har mottatt pakken din, og gjør den klar for veien videre.", "language": "nb", "stage": "in_transit", "confirmedBy": "live", "note": "Received at a Helthjem terminal, which the scan names." },
+    { "code": "IN_TRANSIT/003", "wording": "Pakken er under transport.", "language": "nb", "stage": "in_transit", "confirmedBy": "live", "note": "A terminal or sorter scan. The page hides the rows of its sorter, which it names VestbySorter; the adapter keeps them." },
+    { "code": "DELIVERING/113", "wording": "Planlagt levering natt til 8. oktober!", "language": "nb", "stage": "in_transit", "confirmedBy": "live", "note": "Booked on the coming night's round, the day before it: no courier has the parcel yet. The wording names that night's date, which the adapter reads as the expected delivery day. Helthjem files the scan as delivering; its code overrides that state, for the parcel too while it is the newest scan in that state." },
+    { "code": "DELIVERING/057", "wording": "Budet fikk ikke med seg pakken din ut i natt.", "language": "nb", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-25", "note": "The night's courier did not take the parcel out, so it waits for a later round. Helthjem files the scan as delivering; its code overrides that state, for the parcel too while it is the newest scan." },
+    { "code": "DELIVERED/013", "wording": "Pakken er levert på dørmatten din!", "language": "nb", "stage": "delivered", "confirmedBy": "live", "note": "Left at the door." },
+    { "code": "DELIVERED/013", "wording": "Pakken er levert i postkassen din!", "language": "nb", "stage": "delivered", "confirmedBy": "live", "note": "Left in the letterbox." },
+    { "code": "REGISTERED", "wording": "Pakken er registrert", "language": "nb", "stage": "registered", "confirmedBy": "bundle", "note": "The page's label for the state, which live scans carry." },
+    { "code": "IN_TRANSIT", "wording": "På vei til mottaker", "language": "nb", "stage": "in_transit", "confirmedBy": "bundle", "note": "The page's label for the state." },
+    { "code": "DELIVERING", "wording": "Leveres", "language": "nb", "stage": "out_for_delivery", "confirmedBy": "bundle", "note": "The page's label for the state." },
+    { "code": "DELIVERED", "wording": "Levert", "language": "nb", "stage": "delivered", "confirmedBy": "bundle", "note": "The page's label for the state, which live parcels and scans carry." },
+    { "code": "CONVERTED_TO_STORE", "wording": "På vei til hentested", "language": "nb", "stage": "in_transit", "confirmedBy": "bundle", "note": "A home delivery sent on to a pickup point instead. The page's label for the state." },
+    { "code": "DELIVERING_TO_STORE", "wording": "Leveres til hentested", "language": "nb", "stage": "in_transit", "confirmedBy": "bundle", "note": "On its way to the pickup point. The page's label for the state." },
+    { "code": "READY_FOR_PICKUP", "wording": "Klar til henting", "language": "nb", "stage": "ready_for_pickup", "confirmedBy": "bundle", "note": "The page names the pickup point; the adapter reads its name alone. The page's label for the state." },
+    { "code": "PICKED_UP", "wording": "Pakken er hentet", "language": "nb", "stage": "delivered", "confirmedBy": "bundle", "note": "Collected by the recipient at the pickup point. The page's label for the state." },
+    { "code": "RETURN_TO_STORE", "wording": "Pakke ikke hentet", "language": "nb", "stage": "exception", "confirmedBy": "bundle", "note": "Not collected in time, so it goes back to the shop. The page's label for the state." },
+    { "code": "RETURNING", "wording": "Returneres", "language": "nb", "stage": "exception", "confirmedBy": "bundle", "note": "On its way back to the shop. The page's label for the state." },
+    { "code": "PARCEL_RETURNED", "wording": "Returneres", "language": "nb", "stage": "returned", "confirmedBy": "bundle", "note": "The page words it like RETURNING; the state names the parcel as back with the shop." },
+    { "code": "CANCELED", "wording": "Pakken er kansellert", "language": "nb", "stage": "exception", "confirmedBy": "bundle", "note": "The page's label for the state." }
+  ]
+}

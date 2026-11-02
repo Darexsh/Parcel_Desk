@@ -1,0 +1,75 @@
+{
+  "type": "CDEK",
+  "orderNumber": "99000000017",
+  "data": {
+    "widget": {
+      "status": { "imageUrl": "https://example.invalid/status.png", "title": "Заказ доставлен", "subtitle": null },
+      "noticeMessage": null,
+      "alertText": null,
+      "address": { "title": "Пункт выдачи", "text": "Образцово, ул. Вымышленная, 7" }
+    },
+    "primaryButtons": [],
+    "buttons": [],
+    "orderNumber": "99000000017",
+    "friendlyName": null,
+    "cityFrom": { "uuid": "00000000-0000-4000-8000-000000000001", "name": "Примерск" },
+    "cityTo": { "uuid": "00000000-0000-4000-8000-000000000002", "name": "Образцово" },
+    "receiverInitials": "Иван П.",
+    "orderDate": "2026-05-04T09:10:11.123Z",
+    "tariffDateEnd": "2026-05-09T00:00:00Z",
+    "storageDateEnd": "2026-05-14T00:00:00Z",
+    "availableTimeForDelivery": [],
+    "pickupMethod": "WAREHOUSE",
+    "deliveryMethod": "WAREHOUSE",
+    "receiverAddress": "Образцово, ул. Вымышленная, 7",
+    "receiverOffice": {
+      "code": "OBR99", "name": "Образцово, на Вымышленной", "city": "Образцово", "address": "ул. Вымышленная, 7",
+      "phone": "+70000000000", "geoLatitude": 50.123456, "geoLongitude": 40.654321, "worktime": ["Пн-Вс 09:00-21:00"]
+    },
+    "senderAddress": "Примерск, пр. Условный, 12",
+    "senderOffice": {
+      "code": "PRM99", "name": "Примерск, на Условном", "city": "Примерск", "address": "пр. Условный, 12",
+      "phone": "+70000000001", "geoLatitude": 51.1, "geoLongitude": 41.2, "worktime": []
+    },
+    "receiverStockSchedule": [],
+    "status": { "id": 3, "code": "DELIVERED", "name": "Вручён", "comment": null, "timestamp": "2026-05-07T15:20:30Z", "showStatuses": false, "future": false },
+    "canBeChanged": false,
+    "receiverStockPhone": ["+70000000000"],
+    "trackingDetails": [
+      { "code": "CREATED", "name": "Создан", "future": false, "comment": null, "timestamp": "2026-05-04T09:10:11.123Z", "showStatuses": false, "statuses": null },
+      { "code": "IN_PROGRESS", "name": "В пути", "future": false, "comment": null, "timestamp": "2026-05-04T12:00:00.500Z", "showStatuses": true, "statuses": [
+        { "city": { "name": "Примерск", "timezoneOffset": "+04:00", "timezone": "Europe/Samara" }, "cityChangelist": [
+          { "code": "ACCEPTED_FOR_DELIVERY", "name": "Принят на доставку", "timestamp": "2026-05-04T12:00:00.500Z" },
+          { "code": "SENT_TO_SORTING_CENTER", "name": "Отправлен в сортировочный центр", "timestamp": "2026-05-04T15:30:00.250Z" },
+          { "code": "ACCEPTED_AT_SORTING_CENTER", "name": "Прибыл в сортировочный центр", "timestamp": "2026-05-04T16:45:10.000Z" },
+          { "code": "SENT_TO_NEXT_CITY", "name": "Отправлено в г. Образцово", "timestamp": "2026-05-05T01:02:03.004Z" }
+        ] },
+        { "city": { "name": "Образцово", "timezoneOffset": "+03:00", "timezone": "Europe/Moscow" }, "cityChangelist": [
+          { "code": "ACCEPTED_AT_SORTING_CENTER", "name": "Прибыл в сортировочный центр", "timestamp": "2026-05-06T04:05:06.789Z" },
+          { "code": "SENT_TO_PICK_UP_POINT", "name": "Отправлен в пункт выдачи", "timestamp": "2026-05-06T08:00:00.000Z" }
+        ] }
+      ] },
+      { "code": "READY_FOR_PICK_UP", "name": "Готов к выдаче", "future": false, "comment": null, "timestamp": "2026-05-06T11:22:33.444Z", "showStatuses": true, "statuses": [
+        { "city": { "name": "Образцово", "timezoneOffset": "+03:00", "timezone": "Europe/Moscow" }, "cityChangelist": [
+          { "code": "READY_FOR_PICK_UP", "name": "Поступил. Заберите заказ", "timestamp": "2026-05-06T11:22:33.444Z" }
+        ] }
+      ] },
+      { "code": "DELIVERED", "name": "Вручён", "future": false, "comment": null, "timestamp": "2026-05-07T15:20:30Z", "showStatuses": false, "statuses": null }
+    ],
+    "roles": [],
+    "hasFullOrderDetails": false,
+    "notes": [],
+    "canBeReturned": false,
+    "canBePaid": false,
+    "trackType": "CDEK",
+    "passportNotice": "NONE",
+    "pickupCode": "4321",
+    "pickupCodeInfo": null,
+    "postamatCodeInfo": null,
+    "courierCodeInfo": null,
+    "noticeMessage": null,
+    "isUnboxingRestricted": true,
+    "partnerShop": null,
+    "contractUuid": "00000000-0000-4000-8000-000000000003"
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Express One</title>
+</head>
+<body>
+<main>
+    <div class="media-container">
+        <h3>Track a shipment</h3>
+    </div>
+    <div style="display: none">
+        <form name="form" method="post" data-tracking-form="data-tracking-form" action="/en/tracking"><div><label for="form_bols" class="required">Bols</label><input type="text" id="form_bols" name="form[bols]" required="required" value="" /></div><input type="hidden" id="form__token" name="form[_token]" data-controller="csrf-protection" value="0a1b2c3d.SyntheticTokenPart-One_000.SyntheticTokenPart-Two_000" /></form>
+    </div>
+    <div class="main-wrapper">
+        <div class="container-lg">
+            <div class="accordion-wrapper accordion-wrapper-colored" data-controller="accordion" data-accordion-expand-first-value="false">
+                <div class="card-wrapper card-full-wrapper">
+                    <div class="card-item-holder">
+                        <div class="card-container">
+                            <div class="text-wrapper">
+                                <p class="text-default">Enter a bill of lading number or multiple numbers, separated by a comma</p>
+                                <br>
+                                <div class="row gutter-xs">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+                                        <div class="input-field-grouped" data-controller="bol-tracking-page">
+                                            <input type="text" value="" data-bol-tracking-page-target="input">
+                                            <button data-bol-tracking-page-target="submitBtn" data-action="bol-tracking-page#submit">Track</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

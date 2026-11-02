@@ -1,0 +1,68 @@
+{
+  "carrier": "spx-sg",
+  "records": [
+    {
+      "number": "SPXSG067586642989",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260917072036/https://spx.sg/shipment/order/open/order/get_order_info?spx_tn=SPXSG067586642989&language_code=en",
+        "date": "2026-09-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "cross-border marketplace parcel"
+      },
+      "expect": {
+        "carrier": "spx-sg",
+        "confidence": "high"
+      },
+      "note": "An archived reply of SPX Express Singapore's own tracking API shows this parcel's scans, from a Hong Kong sorting centre through Changi to out for delivery from Pandan Sorting Center."
+    },
+    {
+      "number": "SG267869138712R",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260917072036/https://spx.sg/shipment/order/open/order/get_order_info?spx_tn=SPXSG067586642989&language_code=en",
+        "date": "2026-09-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "cross-border marketplace parcel"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "spx-sg"
+        ]
+      },
+      "note": "SPX Express Singapore's archived reply to a lookup of the parcel's SPXSG number names this as its Shopee SLS number, with the same history."
+    },
+    {
+      "number": "SPXSG030329470627",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230713075856/https://spx.sg/detail/SPXSG030329470627",
+        "date": "2023-07-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "domestic marketplace parcel"
+      },
+      "expect": {
+        "carrier": "spx-sg",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SPX Express Singapore's own tracker; the tracker's reply, archived nine seconds later, shows the parcel received at a drop-off point, picked up and at the east delivery hub."
+    }
+  ]
+}

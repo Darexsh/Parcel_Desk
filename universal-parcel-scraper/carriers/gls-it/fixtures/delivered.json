@@ -1,0 +1,55 @@
+{
+  "tuStatus": [
+    {
+      "referenceNo": "ZZ 900000001",
+      "postalCode": "",
+      "emailNotificationCard": false,
+      "infos": [
+        { "type": "TOTALAMOUNT", "name": "Parcel", "value": "  1" },
+        { "type": "WEIGHT", "name": "Weight", "value": "   1,4 Kg" },
+        { "type": "VOLUME", "name": "Volume", "value": "   2,0" }
+      ],
+      "arrivalTime": { "name": "Departure Date", "value": "02/03/2026" },
+      "owners": [],
+      "references": [
+        { "type": "DDT", "name": "DDT", "value": "PRIVATE-REF-0001" },
+        { "type": "UNITNO", "name": "Parcel number:", "value": "ZZ 900000001" }
+      ],
+      "tuNo": "ZZ 900000001",
+      "addresses": [
+        { "type": "SHIPPER_DEPOT", "name": "Sending Depot", "value": { "name1": "ZZ - SAMPLE DEPOT" } },
+        { "type": "SHIPPER", "name": "Sender", "value": { "name1": "Privatetown - XX" } },
+        { "type": "DELIVERY_DEPOT", "name": "Receiving Depot", "value": { "name1": "YY - EXAMPLE DEPOT" } },
+        { "type": "DELIVERY", "name": "Consignee", "value": { "name1": "Secretville - YY" } }
+      ],
+      "signature": { "validate": false, "name": "Signature:", "value": "PR**** RE********" },
+      "history": [
+        { "note": "Pr**** Re********", "forward": false, "time": "11:42:00", "date": "2026-03-05", "evtDscr": "Delivered.", "address": { "city": "Sample Village" } },
+        { "forward": false, "time": "07:51:00", "date": "2026-03-05", "evtDscr": "Delivery scheduled during the day.", "address": { "city": "Example Depot Town" } },
+        { "forward": false, "time": "06:20:00", "date": "2026-03-05", "evtDscr": "Not in delivery. Awaiting instructions by link included in received email or sms", "address": { "city": "Example Depot Town" } },
+        { "forward": false, "time": "12:03:00", "date": "2026-03-04", "evtDscr": "Parcel not delivered as the consignee was absent, please \nbook redelivery within 3 working days as per instructions \nprovided by email or sms.", "address": { "city": "Example Depot Town" } },
+        { "forward": false, "time": "07:44:00", "date": "2026-03-04", "evtDscr": "Delivery scheduled during the day.", "address": { "city": "Example Depot Town" } },
+        { "forward": false, "time": "07:44:00", "date": "2026-03-04", "evtDscr": "Delivery scheduled during the day.", "address": { "city": "Example Depot Town" } },
+        { "forward": false, "time": "06:05:00", "date": "2026-03-04", "evtDscr": "Arrived at final Depot.", "address": { "city": "Example Depot Town" } },
+        { "forward": false, "time": "02:10:00", "date": "2026-03-03", "evtDscr": "Shipment in transit.", "address": { "city": "Centro Di Smistamento - HUB" } },
+        { "forward": false, "time": "18:31:00", "date": "2026-03-02", "evtDscr": "Shipped from sending Depot. In transit.", "address": { "city": "Sample Depot Town" } },
+        { "forward": false, "time": "", "date": "2026-03-01", "evtDscr": "The shipment has been created by the sender, we are waiting for it to be entrusted to us for dispatch to its destination.", "address": { "city": "Sample Depot Town" } }
+      ],
+      "progressBar": {
+        "level": 0,
+        "statusInfo": "DELIVERED",
+        "statusText": "Delivered",
+        "statusBar": [
+          { "status": "PREADVICE", "imageStatus": "COMPLETE", "imageText": "Preadvice", "statusText": "" },
+          { "status": "INTRANSIT", "imageStatus": "COMPLETE", "imageText": "In transit", "statusText": "" },
+          { "status": "INWAREHOUSE", "imageStatus": "COMPLETE", "imageText": "Final parcel center", "statusText": "" },
+          { "status": "INDELIVERY", "imageStatus": "COMPLETE", "imageText": "In delivery", "statusText": "" },
+          { "status": "DELIVERED", "imageStatus": "CURRENT", "imageText": "Delivered", "statusText": "Delivered" }
+        ],
+        "retourFlag": false,
+        "evtNos": [],
+        "colourIndex": 0
+      }
+    }
+  ]
+}

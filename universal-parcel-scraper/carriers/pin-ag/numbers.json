@@ -1,0 +1,124 @@
+{
+  "carrier": "pin-ag",
+  "records": [
+    {
+      "number": "0100823022421737",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250901092037/https://sendungsverfolgung.pin-ag.de/?sendung=0100823022421737",
+        "date": "2025-09-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "pin-ag",
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "Typed into PIN AG's own tracking page, as the Wayback Machine archived it."
+    },
+    {
+      "number": "0100825007324406",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250717221642/https://sendungsverfolgung.pin-ag.de/?sendung=0100825007324406",
+        "date": "2025-07-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "pin-ag",
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      }
+    },
+    {
+      "number": "0100825013458399",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251031090005/https://sendungsverfolgung.pin-ag.de/?sendung=0100825013458399",
+        "date": "2025-10-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "pin-ag",
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      }
+    },
+    {
+      "number": "0100825019891198",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260227013309/https://sendungsverfolgung.pin-ag.de/?sendung=0100825019891198",
+        "date": "2026-02-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "pin-ag",
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      }
+    },
+    {
+      "number": "0100825028333010",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260731120239/https://sendungsverfolgung.pin-ag.de/?sendung=0100825028333010",
+        "date": "2026-07-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "pin-ag",
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      }
+    }
+  ]
+}

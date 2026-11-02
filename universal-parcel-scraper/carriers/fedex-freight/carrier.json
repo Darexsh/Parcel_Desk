@@ -1,0 +1,96 @@
+{
+  "id": "fedex-freight",
+  "displayName": "FedEx Freight",
+  "aliases": [
+    "FedEx Freight LTL"
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "CA",
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#de002e"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "fedex-freight",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "delivered_at",
+    "provider_code",
+    "weight",
+    "service_name",
+    "destination_country",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://www.fedexfreight.com/fedextrack/?trknbr={trackingNumber}",
+    "searchUrl": "https://www.fedexfreight.com/en-us/tracking",
+    "canaryUrl": "https://www.fedexfreight.com/en-us/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "weight",
+      "service_name",
+      "destination_country",
+      "parcel_count",
+      "sender_details",
+      "recipient_name",
+      "recipient_address",
+      "signatory",
+      "customer_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "weight",
+      "service_name",
+      "destination_country",
+      "provider_code",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "parcel_count",
+      "sender_details",
+      "recipient_name",
+      "recipient_address",
+      "signatory",
+      "customer_reference"
+    ],
+    "unavailable": [
+      "dimensions",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.fedexfreight.com"
+      ],
+      "pathPattern": "^/fedextrack/?$",
+      "params": [
+        "trknbr"
+      ]
+    }
+  ],
+  "detection": []
+}

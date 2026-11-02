@@ -1,0 +1,84 @@
+{
+  "id": "chunghwa-post",
+  "displayName": "Chunghwa Post",
+  "aliases": [
+    "中華郵政",
+    "Taiwan Post",
+    "郵局",
+    "Chunghwa Post Co."
+  ],
+  "region": {
+    "countries": [
+      "TW"
+    ]
+  },
+  "brand": {
+    "color": "#e8171f"
+  },
+  "selectable": true,
+  "timezone": "Asia/Taipei",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "chunghwa-post",
+    "steps": [
+      "direct"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "canaryUrl": "https://postserv.post.gov.tw/pstmail/main_mail.html",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "remarks"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [
+      "remarks"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "eta",
+      "weight"
+    ],
+    "searchUrl": "https://postserv.post.gov.tw/pstmail/main_mail.html",
+    "helpUrl": "https://www.post.gov.tw/post/internet/Customer_service/default.jsp"
+  },
+  "links": [
+    {
+      "domains": [
+        "postserv.post.gov.tw"
+      ],
+      "pathPattern": "^/webpost/CSController$",
+      "params": [
+        "MAILNO"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "chunghwa-post-1",
+      "pattern": "^(?:[CELR][A-Z]|F[TZ])\\d{9}TW$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "chunghwa-post-2",
+      "pattern": "^UH\\d{9}TW$",
+      "confidence": "low",
+      "checksum": "s10",
+      "preferred": true
+    }
+  ]
+}

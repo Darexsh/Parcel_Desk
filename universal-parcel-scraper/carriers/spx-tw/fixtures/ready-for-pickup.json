@@ -1,0 +1,60 @@
+{
+  "retcode": 0,
+  "message": "",
+  "data": {
+    "sls_tracking_number": "TW260000000001A",
+    "need_translate": 1,
+    "delivery_type": "COD",
+    "recipient_name": "王小明",
+    "phone": "0900000000",
+    "current_status": "SP_Ready_Collection",
+    "tracking_list": [
+      {
+        "timestamp": 1779108000,
+        "status": "SP_Ready_Collection",
+        "message": "包裹已配達買家取件門市 - [範例門市]"
+      },
+      {
+        "timestamp": 1779072000,
+        "status": "SOC_Received",
+        "message": "包裹抵達理貨中心，處理中"
+      },
+      {
+        "timestamp": 1779072000,
+        "status": "SOC_Received",
+        "message": "包裹抵達理貨中心，處理中"
+      },
+      {
+        "timestamp": 1779043200,
+        "status": "SP_LHTransporting",
+        "message": "準備送去理貨中心"
+      },
+      {
+        "timestamp": 1779014400,
+        "status": "DOP_Received",
+        "message": "賣家已寄件成功"
+      },
+      {
+        "timestamp": 1779000000,
+        "status": "Created",
+        "message": "賣家將於確認訂單後出貨"
+      }
+    ],
+    "status_list": [
+      {
+        "timestamp": 1779000000,
+        "code": 1,
+        "text": "Order Created",
+        "state_ls": "Created",
+        "icon": "Order Created"
+      },
+      {
+        "timestamp": 0,
+        "code": 2,
+        "text": "Delivered",
+        "state_ls": "Delivered",
+        "icon": "Delivered"
+      }
+    ]
+  }
+}

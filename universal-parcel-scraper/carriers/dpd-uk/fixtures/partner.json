@@ -1,0 +1,26 @@
+{
+  "reference": {
+    "data": [{ "parcelNumber": "1550 0000 000 001 A", "parcelCode": "15500000000001*10000" }]
+  },
+  "detail": {
+    "data": {
+      "parcelNumber": "1550 0000 000 001 A",
+      "parcelCode": "15500000000001*10000",
+      "trackingStatusCurrent": "The parcel has been delivered at 11:20 on Tue 04 Aug 2026",
+      "consumer": { "name": "PRIVATE-SYNTHETIC", "address": "PRIVATE-SYNTHETIC", "postcode": "PRIVATE-SYNTHETIC" },
+      "partnerRef": [{ "carrierRef": "PRIVATE-SYNTHETIC", "carrierURL": "https://example.invalid/PRIVATE-SYNTHETIC" }],
+      "shipperDetails": { "accountNumber": "PRIVATE-SYNTHETIC", "customerDisplayName": null, "customerDisplayShortName": null, "organisation": "Example Merchant Ltd" },
+      "shipmentDate": "2026-07-29"
+    }
+  },
+  "history": {
+    "data": [
+      { "eventDate": "2026-08-04 11:20:00", "eventLocation": "Example Partner S.l.u", "eventText": "The parcel has been delivered" },
+      { "eventDate": "2026-08-04 07:40:00", "eventLocation": "Example Partner S.l.u", "eventText": "The parcel is on the vehicle for delivery" },
+      { "eventDate": "2026-07-31 03:10:00", "eventLocation": "Example Hub B.v.", "eventText": "The parcel is in transit to its final destination" },
+      { "eventDate": "2026-07-30 04:05:00", "eventLocation": "DPD", "eventText": "Your parcel has left our sortation facility and is on it's onwards journey" },
+      { "eventDate": "2026-07-29 18:30:00", "eventLocation": "DPD Pickup Shop", "eventText": "Your parcel has been dropped off at a DPD Pickup Shop" },
+      { "eventDate": "2026-07-29 12:15:00", "eventLocation": "Sender", "eventText": "We've received your order details, but have not yet received your parcel" }
+    ]
+  }
+}

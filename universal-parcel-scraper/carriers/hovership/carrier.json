@@ -1,0 +1,93 @@
+{
+  "id": "hovership",
+  "displayName": "Hovership",
+  "aliases": [
+    "Hovership Delivery",
+    "Hovership Logistics"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#6768fe"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "hovership",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 687
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "delivered_at",
+    "eta",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://www.hovership.com/track/{trackingNumber}/",
+    "searchUrl": "https://www.hovership.com/track/",
+    "canaryUrl": "https://www.hovership.com/track/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "eta",
+      "delivered_at",
+      "offset_timestamps",
+      "origin",
+      "destination",
+      "recipient_address",
+      "proof_of_delivery",
+      "driver_name",
+      "coordinates"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "eta",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "progress_rail",
+      "origin",
+      "destination",
+      "recipient_address",
+      "proof_of_delivery",
+      "driver_name",
+      "coordinates"
+    ],
+    "unavailable": [
+      "location",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "pickup_point",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.hovership.com",
+        "hovership.com"
+      ],
+      "path": "^/track/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": "maruti-air",
+  "displayName": "Maruti Air Couriers & Cargo",
+  "aliases": [
+    "Maruti Air",
+    "Maruti Air Couriers",
+    "Maruti Air Couriers & Cargo Pvt. Ltd."
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#ed3237"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "maruti-air",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 575
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://erp.marutiair.com/TrackpageWeb/WebAWBTracking.aspx?AWB={trackingNumber}",
+    "searchUrl": "https://www.marutiair.com/tracking.html",
+    "canaryUrl": "https://marutiair.com/tracking.html",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "origin",
+      "destination",
+      "signatory",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "signatory",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "erp.marutiair.com"
+      ],
+      "pathPattern": "^/TrackpageWeb/WebAWBTracking\\.aspx$",
+      "params": [
+        "AWB"
+      ]
+    },
+    {
+      "domains": [
+        "www.marutiair.com",
+        "marutiair.com"
+      ],
+      "pathPattern": "^/Doc_Tracking\\.aspx$",
+      "params": [
+        "No"
+      ]
+    }
+  ],
+  "detection": []
+}

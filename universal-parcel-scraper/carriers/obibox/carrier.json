@@ -1,0 +1,50 @@
+{
+  "id": "obibox",
+  "displayName": "Obibox",
+  "aliases": [
+    "Obibox / Xpedigo",
+    "Xpedigo",
+    "Xpedigo Inc."
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#ec6615"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.obibox.io/{trackingNumber}",
+    "searchUrl": "https://tracking.obibox.io/",
+    "canaryUrl": "https://obibox.co/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.obibox.io",
+        "tracking.xpedigo.com"
+      ],
+      "path": "^/([A-Za-z0-9_]{8,40})/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "obibox-1",
+      "pattern": "^XP[A-Z]{3,4}\\d[0-9A-Z]{9,21}(?:_|Q)\\d{1,2}$",
+      "confidence": "high"
+    }
+  ]
+}

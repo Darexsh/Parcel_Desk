@@ -1,0 +1,35 @@
+{
+  "Order": {
+    "@attributes": {"trackingNo": "000000001"},
+    "PickUpDate": "12 Mar 2026",
+    "book_mfdate": "2026-03-06",
+    "book_pod_scan": "000000001.jpg",
+    "awb_image_url": "https://example.invalid/pod/Mar_2026/000000001.jpg",
+    "Refno": "SAMPLE-REF-1",
+    "Origin": "SAMPLEPUR",
+    "Destination": "DEMOBAD",
+    "ProductType": "XX",
+    "DocmentType": "XX",
+    "No.of.Items": "1",
+    "Service-Type": "STD",
+    "ConsigneeAddress": "1 Sample Road, Demobad",
+    "ConsigneePincode": "000000",
+    "ConsigneeTelNo": "0000000000",
+    "Cnstatus": "Delivered (POD)",
+    "POD": "https://example.invalid/pod/Mar_2026/000000001.jpg",
+    "Status": "SAMPLE PERSON,0000000000\n",
+    "Scans": {
+      "ScanDetail": [
+        {"Scan": "DEMOBAD RO APEX, DEMOBAD", "ScanDate": "12 Mar 2026", "ScanTime": "11:15:42 am", "Cnstatus": "Consignment Out for delivery"},
+        {"Scan": "DEMOBAD RO APEX, DEMOBAD", "ScanDate": "12 Mar 2026", "ScanTime": "11:15:42 am", "Cnstatus": "Delivered (POD)"},
+        {"Scan": "DEMOBAD RO APEX, DEMOBAD", "ScanDate": "10 Mar 2026", "ScanTime": "06:30:00 pm", "Cnstatus": "NOT delivered - ADDRESS NOT FOUND"},
+        {"Scan": "DEMOBAD RO APEX, DEMOBAD", "ScanDate": "10 Mar 2026", "ScanTime": "09:52:07 am", "Cnstatus": "Consignment Out for delivery"},
+        {"Scan": "DEMOBAD RO APEX, DEMOBAD", "ScanDate": "09 Mar 2026", "ScanTime": "08:41:19 am", "Cnstatus": "RECEIVED BY DEMOBAD RO APEX, DEMOBAD"},
+        {"Scan": "HUBNAGAR RO APEX, HUBNAGAR", "ScanDate": "08 Mar 2026", "ScanTime": "10:05:33 pm", "Cnstatus": "Forwarded TO DEMOBAD RO APEX, DEMOBAD"},
+        {"Scan": "HUBNAGAR RO APEX, HUBNAGAR", "ScanDate": "08 Mar 2026", "ScanTime": "07:12:50 am", "Cnstatus": "RECEIVED BY HUBNAGAR RO APEX, HUBNAGAR"},
+        {"Scan": "SAMPLEPUR BO, SAMPLEPUR", "ScanDate": "07 Mar 2026", "ScanTime": "12:20:11 am", "Cnstatus": "Forwarded TO HUBNAGAR RO APEX, HUBNAGAR"},
+        {"Scan": "SAMPLEPUR BO, SAMPLEPUR", "ScanDate": "06 Mar 2026", "ScanTime": "12:48:05 pm", "Cnstatus": "BOOKED AT SAMPLEPUR"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1" /><meta charset="utf-8" /><title>
+	黑貓宅急便 - 一般貨物追蹤查詢
+</title>
+		<script src="/js/jquery-3.5.1.min.js"></script>
+	</head>
+	<body id="pagebody" class="inpage">
+		<!-- header -->
+		<header>
+			<div class="header-wrap">
+				<h3><a href="/default.aspx" ><img src="/images/logo.svg" alt=""></a></h3>
+			</div>
+		</header>
+    <div>
+		<!-- inpage-wrap -->
+		<section class="inpage-wrap">
+			<!-- 麵包削 -->
+			<div class="breadcrumb-box">
+				<ul class="breadcrumb-list">
+					<li><a href="/default.aspx">首頁</a></li>
+					<li><a href="">查詢</a></li>
+					<li><a href="">包裹查詢</a></li>
+					<li>一般包裹查詢</li>
+				</ul>
+			</div>
+
+			<!-- 一般包裹查詢 -->
+			<div class="full-wrap">
+				<div class="full-inner inquire">
+
+					<!-- 查詢結果2 -->
+					<div id="ContentPlaceHolder1_divNotFound" class="inquire-box">
+						<div class="tit textaligncenter">一般包裹查詢</div>
+						<p class='textaligncenter'>您輸入的貨物追蹤查詢號碼如下：</p>
+						<div class="inquire-number">900000000099</div>
+						<div class="info-box sizem">
+							<p>很抱歉，目前資料庫尚未能查詢到該筆貨物追蹤查詢號碼狀態，可能原因如下：</p>
+							<ul class="list-number">
+								<li>資料尚在處理中。</li>
+								<li>該筆貨物追蹤查詢號碼查無狀態。</li>
+							</ul>
+							<p>&nbsp;</p>
+							<p>如對查詢結果有任何問題歡迎您來信<a href="">網路客服中心</a>洽詢，或來電至顧客服務專線：</p>
+							<p>412-8888(手機請加02)查詢。</p>
+						</div>
+						
+						<div class="btn-box">
+							<a href="trace.aspx" class="btn">重新查詢</a>
+						</div>	
+					</div>
+
+
+
+
+                            <table cellpadding="2" border="1" id="resultTable" cellspacing="0" class="tablelist" style="display:none;"  >
+                              <tr class="top">
+                                <td>國際宅急便包裹查詢號碼</td>
+                                <td height="38">貨態</td>
+                                <td>資料登入時間</td>
+                                <td>負責營業所 </td>
+                              </tr>
+                              
+                            </table>
+
+
+					<!-- 查詢結果3 -->
+					
+				</div>
+			</div>
+		</section>
+    </div>
+		<!-- footer -->
+		<footer>
+			<div class="footer-bg"></div>
+		</footer>
+</body>
+</html>

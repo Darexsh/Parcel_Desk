@@ -1,0 +1,29 @@
+{
+  "carrier": "pronto-lanka",
+  "records": [
+    {
+      "number": "00042041",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20090326135643/http://www.prontolanka.lk:80/T2.asp?ID=00042041",
+        "date": "2009-03-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Pronto Lanka's own early tracker answers this ID with 'Pending Delivery', and the home page's tracking script of the time names the same ID; the capture shows only that status, not a history."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>Delnext: Faça o acompanhamento da sua encomenda</title>
+    <link rel="stylesheet" href="includes/templates/delnext/css/captcha-styles.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body id="trackyourparcelBody">
+    <div class="modal fade" id="login_modal" tabindex="-1" role="dialog">
+      <form name="login" action="https://www.delnext.com/PT/login" method="post">
+        <input type="email" name="email_address" placeholder="Email">
+        <div class="g-recaptcha" data-sitekey="example-site-key"></div>
+      </form>
+    </div>
+    <div class="modal fade" id="incident_modal" tabindex="-1" role="dialog">
+      <div class="modal-body">
+            <div class="back_office_message_modal_body" style="display: none;">
+              <p>
+              </p>
+              <p>
+                O parceiro da Delnext que vai entregar o seu volume é
+                <strong>
+                  
+                </strong>
+                e o número de tracking é
+                
+              </p>
+              <a target="_blank" href="" class="btn btn-primary btn-md btn-block">
+                Consultar local do Ponto de Recolha
+              </a>
+            </div>
+            <div class="new_delivery_date" style="display: none;">
+              <p style="margin-bottom: 0px;">
+                Selecione dia da entrega
+              </p>
+            </div>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="tracking-code-empty">
+          <h2>Acompanhe a entrega da sua encomenda</h2>
+          <p>Com a Delnext é muito fácil acompanhar e saber onde está a sua encomenda.</p>
+        </div>
+      </div>
+    </div>
+    <form method="GET" action="https://www.delnext.com/PT/track_your_parcel">
+      <input type="text" name="tracking_code" class="form-control" placeholder="Nova Pesquisa">
+      <button class="btn btn-primary" type="submit">Procurar</button>
+    </form>
+    </div>
+
+    <script>
+    console.log("in ready");
+    tracking_code = "NF5K8R";
+    </script>
+  </body>
+</html>

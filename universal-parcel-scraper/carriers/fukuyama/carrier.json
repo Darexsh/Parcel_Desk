@@ -1,0 +1,92 @@
+{
+  "id": "fukuyama",
+  "displayName": "Fukuyama Transporting",
+  "aliases": [
+    "福山通運",
+    "Fukuyama Tsuun",
+    "Fukutsu",
+    "フクツー"
+  ],
+  "region": {
+    "countries": [
+      "JP"
+    ]
+  },
+  "brand": {
+    "color": "#e70128"
+  },
+  "selectable": true,
+  "timezone": "Asia/Tokyo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "fukuyama",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 939
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "weight",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://seikyu.fukuyama-tsuun.com/corp/tracking_no_hunt/{trackingNumber}",
+    "searchUrl": "https://seikyu.fukuyama-tsuun.com/corp/tracking_no_hunt",
+    "canaryUrl": "https://seikyu.fukuyama-tsuun.com/corp/tracking_no_hunt",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "parcel_count",
+      "eta",
+      "delivered_at",
+      "office_contact_details",
+      "office_addresses",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "delivered_at"
+    ],
+    "discarded": [
+      "parcel_count",
+      "eta",
+      "office_contact_details",
+      "office_addresses",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "provider_code",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "seikyu.fukuyama-tsuun.com"
+      ],
+      "path": "^/corp/tracking_no_hunt/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "corp.fukutsu.co.jp"
+      ],
+      "path": "^/(?:corp/recieve|situation)/tracking_no_hunt/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

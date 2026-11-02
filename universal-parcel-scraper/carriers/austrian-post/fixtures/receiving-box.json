@@ -1,0 +1,67 @@
+{
+  "data": {
+    "einzelsendung": {
+      "sendungsnummer": "10000000000005",
+      "status": "ZU",
+      "weight": 2.5,
+      "sendungsEvents": [
+        {
+          "timestamp": "2026-07-01T08:00:00.000+00:00",
+          "status": "AV",
+          "reasontypecode": "SE",
+          "trackingDesc": "Versender∗in bereitet die Sendung für den Versand vor",
+          "eventPlaceName": ""
+        },
+        {
+          "timestamp": "2026-07-01T14:00:00.000+00:00",
+          "status": "AN",
+          "reasontypecode": "PT",
+          "trackingDesc": "Sendungsannahme durchgeführt",
+          "eventPlaceName": "PLZ 9990"
+        },
+        {
+          "timestamp": "2026-07-02T12:00:00.000+00:00",
+          "status": "PUP",
+          "reasontypecode": "AE",
+          "trackingDesc": "Sendung zum Transport abgeholt",
+          "eventPlaceName": "PLZ 9990"
+        },
+        {
+          "timestamp": "2026-07-02T12:00:05.000+00:00",
+          "status": "BAU",
+          "reasontypecode": "HSU",
+          "trackingDesc": "Annahme im Hermes Shop",
+          "eventPlaceName": "PLZ 9990"
+        },
+        {
+          "timestamp": "2026-07-02T16:00:00.000+00:00",
+          "status": "BEI",
+          "reasontypecode": "EZ",
+          "trackingDesc": "Sendung im Logistikzentrum in Bearbeitung",
+          "eventPlaceName": "Synthetic logistics centre"
+        },
+        {
+          "timestamp": "2026-07-03T05:00:00.000+00:00",
+          "status": "ONT",
+          "reasontypecode": "ON",
+          "trackingDesc": "Sendung in Zustellung",
+          "eventPlaceName": "Zustellbasis Beispielort, PLZ 9991"
+        },
+        {
+          "timestamp": "2026-07-03T05:30:00.000+00:00",
+          "status": "PUG",
+          "reasontypecode": "UPB",
+          "trackingDesc": "Sendung in Postempfangsbox abholbereit",
+          "eventPlaceName": "PLZ 9991"
+        },
+        {
+          "timestamp": "2026-07-03T16:00:00.000+00:00",
+          "status": "IZ",
+          "reasontypecode": "ZPB",
+          "trackingDesc": "Sendung aus Postempfangsbox abgeholt",
+          "eventPlaceName": "PLZ 9991"
+        }
+      ]
+    }
+  }
+}

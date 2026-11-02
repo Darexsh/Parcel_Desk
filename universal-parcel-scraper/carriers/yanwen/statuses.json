@@ -1,0 +1,662 @@
+{
+  "carrier": "yanwen",
+  "entries": [
+    {
+      "wording": "Delivered.",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Shipment out for delivery.",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "<User not at home>",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "<wrong address>",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Arrived.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Received.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Batch delivery to carrier",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Pick up by local carrier at destination port",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Custom Clearance in process - Import",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Import clearance at the destination port, before its release."
+    },
+    {
+      "wording": "International shipment release - Import",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "International shipment release - Export",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Port of destination - Arrival",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Port of departure - Departure",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Port of departure - Received by carrier",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Arrived at domestic terminal station",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Yanwen facility - Outbound",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Yanwen Pickup Scan",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Processing information input",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-17"
+    },
+    {
+      "wording": "Shipment data received",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-25",
+      "note": "Written at the minute of Processing information input, after Yanwen's pickup scan."
+    },
+    {
+      "wording": "shipping label created",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-17"
+    },
+    {
+      "wording": "Shipment order created",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "Written in the same second as Processing information input, after the pickup scan."
+    },
+    {
+      "wording": "Order processed by shipper",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Order Submited.",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Waybill Generated",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Logged before Yanwen's pickup scan, when the label is made."
+    },
+    {
+      "wording": "Shipping Order Created.",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "A last-mile order created before the parcel leaves China."
+    },
+    {
+      "wording": "Pre-Shipment, USPS Awaiting Item",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from USPS: a label it has not scanned yet."
+    },
+    {
+      "wording": "Shipment information received",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-15",
+      "note": "Written before Yanwen's pickup scan."
+    },
+    {
+      "wording": "Registered parcel data, parcel not dispatched yet",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DPD Poland before the parcel leaves China."
+    },
+    {
+      "wording": "Shipping information received. Your parcel is on its way to UniUni for delivery to you",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from UniUni before the parcel leaves China, despite its wording."
+    },
+    {
+      "wording": "Votre Colissimo va bientôt nous être confié ! Il est en cours de préparation chez votre expéditeur.",
+      "language": "fr",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-15",
+      "note": "Colissimo's announcement, relayed before Yanwen's pickup scan."
+    },
+    {
+      "wording": "Accepted at USPS Origin Facility",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from USPS after Yanwen hands the parcel over; Yanwen's pickup scan is the acceptance."
+    },
+    {
+      "wording": "Your shipment has been accepted by delivery carrier",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "The last-mile carrier's handover scan; Yanwen's pickup scan is the acceptance."
+    },
+    {
+      "wording": "Your shipment has arrived at sorting center",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-20",
+      "note": "The last-mile carrier's sorting scan, after Yanwen's batch handover."
+    },
+    {
+      "wording": "Your shipment has been processed at sorting center and ready for shipping",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "The last-mile carrier's sorting scan after its arrival one, before it accepts the parcel for delivery; Yanwen gives it the code of its batch handover."
+    },
+    {
+      "wording": "Your shipment has departed from the transit origin",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "The last-mile carrier's departure from its transit hub, Cainiao's TRANSFER_DEPART, relayed after Yanwen's batch handover."
+    },
+    {
+      "wording": "Your shipment has arrived at the transit destination",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "The last-mile carrier's arrival after its transit hub, relayed after its departure from the transit origin."
+    },
+    {
+      "wording": "Manifest created",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "Placed at Asendia Hong Kong as the parcel left Yanwen's facility, after Yanwen's pickup scan: the partner's record of the hand-over, not a pre-advice."
+    },
+    {
+      "wording": "The shipment is in transit to DHL",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "DHL's line after Yanwen's facility outbound, as the parcel goes on to DHL."
+    },
+    {
+      "wording": "Shipment created",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "A destination partner's order, written after Yanwen's facility scans and before the parcel leaves China, like Shipping Order Created."
+    },
+    {
+      "wording": "Shipment under processing at origin hub",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "The destination partner's intake hub, after Yanwen's batch handover at the destination port."
+    },
+    {
+      "wording": "Shipment received",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "The destination partner's receipt at the same minute as its intake hub scan, after Yanwen's batch handover: a handover, not the acceptance."
+    },
+    {
+      "wording": "Shipment despatched to transshipment hub",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "The destination partner sends the parcel on to its transshipment hub."
+    },
+    {
+      "wording": "Out customs authorities",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "The destination's customs release, beside Swiss Post's completed clearance at the same minute."
+    },
+    {
+      "wording": "Arrived at destination",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "The destination post's arrival in its country, relayed in Yanwen's English after the batch handover."
+    },
+    {
+      "wording": "Handled by local carrier",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "The destination post's intake after the release from customs."
+    },
+    {
+      "wording": "Departure Scan",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-30",
+      "note": "The destination partner's departure from its hub, minutes after Yanwen's batch handover, as DPD Romania words it."
+    },
+    {
+      "wording": "Arrival Scan",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-30",
+      "note": "The destination partner's arrival at its next depot, after its departure scan, as DPD Romania words it."
+    },
+    {
+      "wording": "Prepared for Self-collecting by Consignee",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-30",
+      "note": "The destination partner's post office holding the parcel for collection, minutes after its arrival scan there, as seen on a parcel to Cyprus."
+    },
+    {
+      "wording": "Transport to delivery centre",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "The destination post's transfer between its platforms toward the delivery office, relayed in Yanwen's English."
+    },
+    {
+      "wording": "Arrived at delivery centre",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "At the same instant as Swiss Post's arrival at the delivery point, before its delivery scan."
+    },
+    {
+      "wording": "Parcel dispatched to be delivered",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from DPD Poland when the courier takes the parcel, shortly before the delivery scan."
+    },
+    {
+      "wording": "Your shipment is out for delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "The partner's delivery round, at the town it delivers in, after its acceptance by the delivery carrier; Yanwen's coded copy of the same scan is its out-for-delivery code."
+    },
+    {
+      "wording": "UA.In the New Post Office",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Relayed from Nova Poshta: the parcel reached the branch where the recipient collects it."
+    },
+    {
+      "wording": "HK.He left the airport",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "The flight out of Hong Kong, before the leg to the destination."
+    },
+    {
+      "wording": "An order for delivery to the destination country has been issued",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "The onward order to the destination country, beside the departure from the port."
+    },
+    {
+      "wording": "HU.The consignment arrived in the destination country",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "The arrival at the hub the destination leg starts from."
+    },
+    {
+      "wording": "Shipment is in transit",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Between the arrival at the destination port and the batch handover to the carrier."
+    },
+    {
+      "wording": "UA.Delivered to customs terminal",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from Nova Poshta: the parcel reached customs at the border, which holds it until the clearance. No delivery."
+    },
+    {
+      "wording": "UA.Customs clearance is complete",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from Nova Poshta: customs released the parcel."
+    },
+    {
+      "wording": "Left the customs terminal",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from Nova Poshta, a minute after the clearance."
+    },
+    {
+      "wording": "UA.The shipment goes to the recipient",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from Nova Poshta: on its way to the recipient's town."
+    },
+    {
+      "wording": "At the terminal of the destination city",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from Nova Poshta: at the destination town's terminal, before the branch."
+    },
+    {
+      "wording": "UA.Sent to storage",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from Nova Poshta when the branch's hold ends uncollected, beside the unclaimed notice."
+    },
+    {
+      "wording": "Unsolicited shipment",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from Nova Poshta: the parcel was not collected, Yanwen's rendering of an unclaimed item."
+    },
+    {
+      "wording": "Delivery is not possible",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from Nova Poshta a second after the unclaimed notice; Yanwen then files the parcel as Undelivered."
+    },
+    {
+      "wording": "Parcel accepted in the unclaimed cargo area",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "Relayed from Nova Poshta: the unclaimed parcel taken into its unclaimed cargo area, not an acceptance."
+    },
+    {
+      "wording": "Tendered for Delivery",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-31",
+      "note": "Written at Yanwen's terminal minutes after its outbound scan, before the export release: the hand-over to the line-haul, not a delivery round."
+    },
+    {
+      "wording": "Cleared Customs",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-31",
+      "note": "Customs released the parcel."
+    },
+    {
+      "wording": "Scanned arrived at FB Canada",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-31",
+      "note": "The destination partner's arrival scan in Canada, before the batch hand-over to the delivering carrier."
+    },
+    {
+      "wording": "Received from Prior Carrier",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-31",
+      "note": "The delivering carrier's intake after the batch hand-over."
+    },
+    {
+      "wording": "Arrived at Terminal Location",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-31",
+      "note": "The delivering carrier's terminal scans."
+    },
+    {
+      "wording": "Loaded on Truck",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-31",
+      "note": "The delivering carrier's driver has the parcel, hours after its terminal scan, and Yanwen files the parcel as Out_For_Delivery. Intelcom words its loading this way, as Stallion Express relays it."
+    },
+    {
+      "wording": "UA.",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-26",
+      "note": "A partner's scan in Ukraine relayed as its country's code alone. It names no stage."
+    },
+    {
+      "code": "LM40",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "The milestone icon on the delivery scan, whatever wording the last-mile carrier used."
+    },
+    {
+      "code": "查询不到",
+      "wording": "Not_Found",
+      "language": "en",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Category on the identity field, labelled by the page's status filter. The lookup found nothing, so the parcel is reported as not found."
+    },
+    {
+      "code": "制单完成",
+      "wording": "Info_Received",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "portal",
+      "firstSeen": "2026-10-08",
+      "note": "Category on the identity field, labelled by the page's status filter."
+    },
+    {
+      "code": "运输途中",
+      "wording": "In_Transportation",
+      "language": "en",
+      "confirmedBy": "portal",
+      "firstSeen": "2026-10-08",
+      "note": "Gives the status in transit. The category spans customs and the partners' legs, so the newest scan names the stage."
+    },
+    {
+      "code": "正在派送",
+      "wording": "Out_For_Delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "portal",
+      "firstSeen": "2026-10-08",
+      "note": "Category on the identity field, labelled by the page's status filter."
+    },
+    {
+      "code": "到达待取",
+      "wording": "Available_For_Pick_Up",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "portal",
+      "firstSeen": "2026-10-08",
+      "note": "Category on the identity field, labelled by the page's status filter."
+    },
+    {
+      "code": "投递成功",
+      "wording": "Delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-08",
+      "note": "Category on the identity field, labelled by the page's status filter. A delivered result still needs a delivered scan."
+    },
+    {
+      "code": "追踪结束",
+      "wording": "End_of_Tracking",
+      "language": "en",
+      "confirmedBy": "portal",
+      "firstSeen": "2026-10-08",
+      "note": "Yanwen stopped following the parcel; it says nothing about where the parcel is, so the scans decide."
+    },
+    {
+      "code": "投递失败",
+      "wording": "Undelivered",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "portal",
+      "firstSeen": "2026-10-08",
+      "note": "Category on the identity field, labelled by the page's status filter."
+    },
+    {
+      "code": "包裹异常",
+      "wording": "Exception",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "portal",
+      "firstSeen": "2026-10-08",
+      "note": "Category on the identity field, labelled by the page's status filter."
+    },
+    {
+      "code": "包裹退回",
+      "wording": "Returned",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "portal",
+      "firstSeen": "2026-10-08",
+      "note": "Category on the identity field, labelled by the page's status filter."
+    }
+  ]
+}

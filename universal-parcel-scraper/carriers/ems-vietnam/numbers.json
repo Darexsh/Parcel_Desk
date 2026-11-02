@@ -1,0 +1,101 @@
+{
+  "carrier": "ems-vietnam",
+  "records": [
+    {
+      "number": "ER107045826VN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210919032704/https://api.myems.vn/TrackAndTraceItemCode?itemcode=ER107045826VN&language=0",
+        "date": "2021-09-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "domestic EMS item"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived reply of EMS Vietnam's tracking API, which its tracking page calls, shows the item's domestic history up to delivery."
+    },
+    {
+      "number": "EN059122171VN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251231113429/https://ems.com.vn/tra-cuu/tra-cuu-buu-gui?code=EN059122171VN",
+        "date": "2025-12-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on EMS Vietnam's own tracking page; the capture holds only the page shell, which loads the history by script, so the history was not visible."
+    },
+    {
+      "number": "ET051174907VN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210612114857/https://ems.com.vn/tra-cuu/tra-cuu-buu-gui?code=ET051174907VN",
+        "date": "2021-06-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on EMS Vietnam's own tracking page; the capture holds only the page shell, which loads the history by script, so the history was not visible."
+    },
+    {
+      "number": "EB125966888VN",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.ems.com.vn/tra-cuu/tra-cuu-buu-gui",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "One of the two numbers EMS Vietnam's tracking page shows as its example for looking up several items at once."
+    },
+    {
+      "number": "EI125556888VN",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.ems.com.vn/tra-cuu/tra-cuu-buu-gui",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "One of the two numbers EMS Vietnam's tracking page shows as its example for looking up several items at once."
+    }
+  ]
+}

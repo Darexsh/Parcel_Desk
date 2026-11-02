@@ -1,0 +1,8 @@
+{
+  "carrier": "xgs",
+  "entries": [
+    {"code": "DELIVERED", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The reply then gives the delivery's day and time."},
+    {"code": "WAREHOUSED AT DEST.", "wording": "WAREHOUSED AT DEST.", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "The tracking widget shows it as warehoused and drops the delivery estimate: held at the destination, typically until a delivery appointment."},
+    {"code": "WAREHOUSED AT DEST. SRV CNTR", "wording": "WAREHOUSED AT DEST. SRV CNTR", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "The tracking widget shows it as warehoused and drops the delivery estimate: held at the destination hub."}
+  ]
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "statusHistory": [
+      {"date": "5 Mar 2026, 6:15 AM", "dateISO": "2026-03-05T08:15:00.000+02:00", "statusText": "Package waiting for pickup by buyer", "statusCode": "53", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "Exampleton IL"},
+      {"date": "4 Mar 2026, 5:00 PM", "dateISO": "2026-03-04T17:00:00.000Z", "statusText": "Synthetic status", "statusCode": "998", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "Exampleton IL"},
+      {"date": "4 Mar 2026, 5:00 PM", "dateISO": "2026-03-04T17:00:00.000Z", "statusText": "Package in sorting center", "statusCode": "21", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "Exampleton IL"},
+      {"date": "3 Mar 2026, 9:05 AM", "statusText": "Package held by customs/security: ID required", "statusCode": "42", "statusSubCode": "14", "statusSubText": "Synthetic sub text", "statusAdditionalInfo": "", "statusLocations": "Testburg IL"},
+      {"date": "2 Mar 2026, 10:40 PM", "dateISO": "2026-03-02T22:40:00.000Z", "statusText": "Package landed in TLV Airport, IL", "statusCode": "45", "statusSubCode": "01", "statusSubText": "", "statusAdditionalInfo": "TLV Airport, IL", "statusLocations": "Testburg IL"},
+      {"date": "27 Feb 2026, 10:00 AM", "dateISO": "2026-02-27T10:00:00.000Z", "statusText": "Package details received", "statusCode": "00", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "12 Example Road, Sampleford GB"}
+    ],
+    "isReturn": false,
+    "id": "XLT000000002",
+    "deliveryMethod": "pickupPoint",
+    "hawb": "XLT000000002",
+    "parcelStatus": "inTransit",
+    "parcelStatusIconColor": "#FFFFFF",
+    "parcelStatusBkgColor": "#FF8B22",
+    "country": "US",
+    "destinationCountry": "IL",
+    "district": "Samplecounty",
+    "xltID": "XLT000000002",
+    "dateReceived": "2026-02-27T10:00:00.000Z",
+    "eddStatus": "unavailable",
+    "pudoPoint": {
+      "name": "Sample Kiosk",
+      "address": {"stAddress": "Example Street", "houseNumber": "12", "city": "Exampleton", "coordinates": {"latitude": "31.0000", "longitude": "34.0000"}},
+      "openingHours": [{"dayCode": 1, "periods": [{"openAt": "09:00", "closeAt": "18:00"}]}],
+      "additionalInformation": "Next to the synthetic bakery"
+    }
+  }
+]

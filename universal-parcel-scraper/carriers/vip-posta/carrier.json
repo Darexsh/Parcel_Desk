@@ -1,0 +1,47 @@
+{
+  "id": "vip-posta",
+  "displayName": "VIP Posta",
+  "aliases": [
+    "Вип Пошта",
+    "VIP Pošta",
+    "VIP Poshta"
+  ],
+  "region": {
+    "countries": [
+      "MK"
+    ]
+  },
+  "brand": {
+    "color": "#02422a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Skopje",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://vipposta.mk/home/tracking?id={trackingNumber}",
+    "searchUrl": "https://vipposta.mk/",
+    "canaryUrl": "https://vipposta.mk/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "vipposta.mk",
+        "www.vipposta.mk"
+      ],
+      "pathPattern": "^/home/tracking/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

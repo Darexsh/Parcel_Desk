@@ -1,0 +1,115 @@
+{
+  "carrier": "dai-post",
+  "records": [
+    {
+      "number": "00393580940186672087",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/daipost/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "SSCC",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dai-post",
+          "swiss-post-cargo",
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "ParcelPanel's DAI Post page offered it as a sample to try. DAI Post's tracker returned its history, from Shenzhen to Sydney."
+    },
+    {
+      "number": "00393580940186597045",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/daipost/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "SSCC",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dai-post",
+          "swiss-post-cargo",
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "ParcelPanel's DAI Post page offered it as a sample to try. DAI Post's tracker returned its history, from Shenzhen to Brisbane."
+    },
+    {
+      "number": "00393580940185715150",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261009040126/https://daipost.com/track?tracknbr=00393580940185715150",
+        "date": "2026-10-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "SSCC",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dai-post",
+          "swiss-post-cargo",
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "An archived copy of DAI Post's own tracking page for the number. Its history runs from the United States through Japan to delivery in Australia."
+    },
+    {
+      "number": "WMG00000872725",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a4d02af7717a619e5c66dec",
+        "date": "2026-07-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment number",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A review of DAI Post names it as the shipment DAI Post held in Singapore for GST. DAI Post's tracker returned its history, from the United States to Singapore customs. A shipper's own prefix, not a DAI Post format."
+    },
+    {
+      "number": "NZC999999999",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "observed_request",
+      "shapeConfirmed": "2026-10-13",
+      "expect": {
+        "carrier": "dai-post",
+        "confidence": "high"
+      },
+      "note": "Synthetic shape of DAI Post's New Zealand numbers, NZC and nine digits, which ePost Global names with a DAI Post tracking link and DAI Post's tracker knows."
+    }
+  ]
+}

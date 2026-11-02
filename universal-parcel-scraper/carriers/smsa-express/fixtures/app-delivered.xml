@@ -1,0 +1,209 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Body>
+<AllTrackDetailsResponse xmlns="http://smsaexpress.com/track/">
+<AllTrackDetailsResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <RequestStatus>Successfully Done</RequestStatus>
+  <ShipmentDetails>
+    <AirWaybill>200000000017</AirWaybill>
+    <CODAmount>0</CODAmount>
+    <EDD>10/3/2026</EDD>
+    <Otp>0000</Otp>
+    <Payment_code>SYNTHETIC</Payment_code>
+    <RecepientName>Sample Person</RecepientName>
+    <ShipDate>2026-09-17T10:29:00</ShipDate>
+    <ShipmentCommitment i:nil="true"/>
+    <ShipmentDestCity>Example Town</ShipmentDestCity>
+    <ShipmentDestCountry>SA</ShipmentDestCountry>
+    <ShipmentOriginCity>Sample City</ShipmentOriginCity>
+    <ShipmentOriginCountry>AE</ShipmentOriginCountry>
+    <ShipmentPieces>1</ShipmentPieces>
+    <ShipmentReference>SAMPLE-REF</ShipmentReference>
+    <ShipmentShipper>Sample Shop</ShipmentShipper>
+    <ShipmentWeight>12.5</ShipmentWeight>
+  </ShipmentDetails>
+  <TrackingDetailsList xmlns:a="http://schemas.datacontract.org/2004/07/TrackRole">
+    <a:TrackingDetails>
+      <a:Comment>PIN Verified - </a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Delivered, Signed by: Sample Person </a:EventDesc>
+      <a:EventTime>2026-10-05T08:32:45+00:00</a:EventTime>
+      <a:Office>Example Town</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>DL</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment>0500000000.000.R - </a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Out for Delivery</a:EventDesc>
+      <a:EventTime>2026-10-05T06:06:00+00:00</a:EventTime>
+      <a:Office>Example Town</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>OD</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment></a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Delivery on Hold - Waiting Customs Info/Invoice Completion</a:EventDesc>
+      <a:EventTime>2026-10-04T11:00:00+00:00</a:EventTime>
+      <a:Office>Example Town</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>DEX93-5</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment>SHPT H/O SAMPLE STN</a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Departed SMSA Sorting Facility </a:EventDesc>
+      <a:EventTime>2026-10-02T04:45:00+00:00</a:EventTime>
+      <a:Office>Example Town</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>HOP</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment>SHPT RCVD SAMPLE HUB</a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Received at SMSA Sorting Facility</a:EventDesc>
+      <a:EventTime>2026-10-02T04:40:00+00:00</a:EventTime>
+      <a:Office>Example Town</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>HIP</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment></a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Arrived at Destination Country - Under clearance process</a:EventDesc>
+      <a:EventTime>2026-10-01T00:36:00+00:00</a:EventTime>
+      <a:Office>Example Town</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>IC</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment></a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Customs Released</a:EventDesc>
+      <a:EventTime>2026-10-01T00:36:00+00:00</a:EventTime>
+      <a:Office>Example Town</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>CR</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment></a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment On Hold At Customs - Waiting To Complete Payment To Customs</a:EventDesc>
+      <a:EventTime>2026-09-29T17:20:00+00:00</a:EventTime>
+      <a:Office>Example Town</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>ST60-6</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment>Departed</a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment departed at the border - In Transit to destination</a:EventDesc>
+      <a:EventTime>2026-09-20T11:45:00+00:00</a:EventTime>
+      <a:Office>Sample Border GW</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>BTRO</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment>Departed</a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment departed at the border - In Transit to destination</a:EventDesc>
+      <a:EventTime>2026-09-20T11:45:00+00:00</a:EventTime>
+      <a:Office>Sample Border GW</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>BTRO</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment>Departed</a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Departed Origin Country </a:EventDesc>
+      <a:EventTime>2026-09-19T15:14:00+00:00</a:EventTime>
+      <a:Office>Sample City</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>ST77</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment></a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Departed SMSA Sorting Facility </a:EventDesc>
+      <a:EventTime>2026-09-19T09:45:00+00:00</a:EventTime>
+      <a:Office>Sample City</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>HOP</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment></a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Received at SMSA Sorting Facility</a:EventDesc>
+      <a:EventTime>2026-09-19T09:30:00+00:00</a:EventTime>
+      <a:Office>Sample City</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>HIP</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment>Forward To Export Department</a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Departed SMSA Origin Facility </a:EventDesc>
+      <a:EventTime>2026-09-18T11:05:00+00:00</a:EventTime>
+      <a:Office>Sample City</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>SOP</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment>Sample Courier</a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Picked up from the shipper.</a:EventDesc>
+      <a:EventTime>2026-09-17T21:10:00+00:00</a:EventTime>
+      <a:Office>Sample City</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>PU</a:StatusCode>
+    </a:TrackingDetails>
+  </TrackingDetailsList>
+</AllTrackDetailsResult>
+</AllTrackDetailsResponse>
+</s:Body>
+</s:Envelope>

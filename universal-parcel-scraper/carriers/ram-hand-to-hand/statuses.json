@@ -1,0 +1,22 @@
+{
+  "carrier": "ram-hand-to-hand",
+  "entries": [
+    {"wording": "CONSIGNED", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "The tracker writes CONSIGNED IN and the place, Client Site for the sender's premises; the place is the scan's location."},
+    {"wording": "INTO CONTAINER", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Written INTO CONTAINER IN and the place."},
+    {"wording": "DEPARTED BY ROAD TO Isando, Johannesburg", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "FROM and the origin follow on the tracker; the origin is the scan's location. The map reads any wording that starts with DEPARTED BY ROAD TO."},
+    {"wording": "ARRIVED BY ROAD FROM Client Site", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "TO and the hub reached follow on the tracker; the hub is the scan's location. The map reads any wording that starts with ARRIVED BY ROAD FROM."},
+    {"wording": "OUT OF CONTAINER", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Written OUT OF CONTAINER IN and the place."},
+    {"wording": "OUT FOR DELIVERY", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Written OUT FOR DELIVERY IN and the branch."},
+    {"wording": "UNSUCCESSFULL DELIVERY - Incorrect Address", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "Spelled so. The tracker writes the branch after IN, then the reason and its text; the parcel went out again and was delivered. The map reads the wording alone or followed by any reason."},
+    {"wording": "RAMMobile NonDelivery - Incorrect Address", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "The driver's app recording the failed attempt, before the branch's own line. The map reads the wording alone or followed by any reason."},
+    {"wording": "RAMMobile Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The driver's app recording the delivery; RECEIVED BY and the receiver's name follow on the tracker."},
+    {"wording": "DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "RECEIVED BY and the receiver's name follow on the tracker."},
+    {"wording": "POD RETURNED", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "The signed proof of delivery back at the branch hours after the delivery; written POD RETURNED IN and the branch."},
+    {"wording": "POD CAPTURED", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "The proof of delivery filed after it came back; written POD CAPTURED IN and the branch."},
+    {"wording": "Outgoing SMS - Consignment has been dispatched for delivery attempt", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A record of the text telling the recipient the parcel is out, minutes after the round's own scan."},
+    {"wording": "Outgoing Email - Consignment has been dispatched for delivery attempt", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A record of the e-mail telling the recipient the parcel is out."},
+    {"wording": "Outgoing Call - Follow up Account Query", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A call RAM made, with a staff note after it on the tracker."},
+    {"wording": "Incoming Call - Account Query", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A call RAM took, with a staff note after it on the tracker."},
+    {"wording": "Incoming Call - Arrangements Made", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A call RAM took to arrange the delivery, with a staff note after it on the tracker."}
+  ]
+}

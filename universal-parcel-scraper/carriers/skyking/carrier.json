@@ -1,0 +1,82 @@
+{
+  "id": "skyking",
+  "displayName": "SkyKing",
+  "aliases": [
+    "Skyking",
+    "SkyKing Courier Services"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#ed1c24"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "skyking",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 792
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://skyking.co/track?cno={trackingNumber}",
+    "searchUrl": "https://skyking.co/track",
+    "canaryUrl": "https://skyking.co/track",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "proof_of_delivery",
+      "driver_name",
+      "remarks"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at"
+    ],
+    "discarded": [
+      "proof_of_delivery",
+      "driver_name",
+      "remarks"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps",
+      "provider_code",
+      "weight",
+      "service_name",
+      "origin",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "delivery_partner"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "skyking.co"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "cno"
+      ]
+    }
+  ],
+  "detection": []
+}

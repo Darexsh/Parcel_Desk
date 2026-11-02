@@ -1,0 +1,834 @@
+{
+  "carrier": "paquetexpress",
+  "records": [
+    {
+      "number": "MEX01WW4512652",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210427031906/https://cc.paquetexpress.com.mx/ptxws/rest/api/v1/guia/historico/ultimoevento/MEX01WW4512652/@1@2@3@4@5?source=WEBPAGE",
+        "date": "2021-04-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "guía"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "paquetexpress"
+        ]
+      },
+      "note": "Looked up through Paquetexpress's own history service, as an archived reply shows: a delivered parcel on that guía."
+    },
+    {
+      "number": "GDL02WW4861663",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210427031937/https://cc.paquetexpress.com.mx/ptxws/rest/api/v1/guia/historico/ultimoevento/GDL02WW4861663/@1@2@3@4@5?source=WEBPAGE",
+        "date": "2021-04-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "guía"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "paquetexpress"
+        ]
+      },
+      "note": "Looked up through Paquetexpress's own history service, as an archived reply shows: a delivered parcel on that guía."
+    },
+    {
+      "number": "MTY01WW3809008",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210427031905/https://cc.paquetexpress.com.mx/ptxws/rest/api/v1/guia/historico/ultimoevento/MTY01WW3809008/@1@2@3@4@5?source=WEBPAGE",
+        "date": "2021-04-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "guía"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "paquetexpress"
+        ]
+      },
+      "note": "Looked up through Paquetexpress's own history service, as an archived reply shows: a delivered parcel on that guía."
+    },
+    {
+      "number": "102161766907",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230129060840/https://www.paquetexpress.com.mx/rastreo-de-envios/102161766907?utm_source=rastreo&utm_medium=sms",
+        "date": "2023-01-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Opened from a Paquetexpress SMS link to its own tracker, as the archived address shows; the capture was not opened."
+    },
+    {
+      "number": "103163443850",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230209131424/https://www.paquetexpress.com.mx/rastreo-de-envios/103163443850?utm_source=rastreo&utm_medium=sms",
+        "date": "2023-02-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Opened from a Paquetexpress SMS link to its own tracker, as the archived address shows; the capture was not opened."
+    },
+    {
+      "number": "01160567878",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230324062100/https://www.paquetexpress.com.mx/rastreo/01160567878",
+        "date": "2023-03-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Paquetexpress's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "01143307588",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230515141818/https://www.paquetexpress.com.mx/rastreo/01143307588?",
+        "date": "2023-05-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Paquetexpress's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "01161134911",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230721141843/https://www.paquetexpress.com.mx/rastreo/01161134911?utm_source=rastreo&utm_medium=sms",
+        "date": "2023-07-21",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Opened from a Paquetexpress SMS link to its own tracker, as the archived address shows; the capture was not opened."
+    },
+    {
+      "number": "01154779413",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230724113704/https://www.paquetexpress.com.mx/rastreo/01154779413",
+        "date": "2023-07-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Paquetexpress's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "CEN01WE90539",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230731161117/https://cc.paquetexpress.com.mx/ptxws/rest/api/v1/guia/historico/031168321009/@1@2@3@4@5?source=WEBPAGE",
+        "date": "2023-07-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "guía"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "paquetexpress"
+        ]
+      },
+      "note": "Paquetexpress's own history service names it as a parcel's guía in every row, as an archived reply shows."
+    },
+    {
+      "number": "031168321009",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230731161117/https://cc.paquetexpress.com.mx/ptxws/rest/api/v1/guia/historico/031168321009/@1@2@3@4@5?source=WEBPAGE",
+        "date": "2023-07-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up through Paquetexpress's own history service, as an archived reply shows: a parcel collected and on its way."
+    },
+    {
+      "number": "01159254120",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230813100203/https://www.paquetexpress.com.mx/rastreo/01159254120?",
+        "date": "2023-08-13",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "dhl-ecommerce-pl",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Paquetexpress's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "01149509150",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240101111343/https://www.paquetexpress.com.mx/rastreo/01149509150?utm_source=rastreo&utm_medium=sms",
+        "date": "2024-01-01",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "dhl-ecommerce-pl",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Opened from a Paquetexpress SMS link to its own tracker, as the archived address shows; the capture was not opened."
+    },
+    {
+      "number": "01157663546",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240324023637/https://www.paquetexpress.com.mx/rastreo/01157663546",
+        "date": "2024-03-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Paquetexpress's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "01160304301",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240409121032/https://www.paquetexpress.com.mx/rastreo/01160304301?",
+        "date": "2024-04-09",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Paquetexpress's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "01161397357",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240807012118/https://www.paquetexpress.com.mx/rastreo/01161397357",
+        "date": "2024-08-07",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Paquetexpress's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "211205090473",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250115223836/https://cc.paquetexpress.com.mx/ptxws/rest/api/v1/guia/historico/211205090473/@1@2@3@4@5?source=WEBPAGE",
+        "date": "2025-01-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up through Paquetexpress's own history service, as an archived reply shows: a parcel collected and on its way."
+    },
+    {
+      "number": "01160219965",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250610183539/https://www.paquetexpress.com.mx/rastreo/01160219965?utm_source=rastreo&utm_medium=sms",
+        "date": "2025-06-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Opened from a Paquetexpress SMS link to its own tracker, as the archived address shows; the capture was not opened. Paquetexpress's history service knows it."
+    },
+    {
+      "number": "01161858191",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251021133143/https://www.paquetexpress.com.mx/rastreo/01161858191",
+        "date": "2025-10-21",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "blue-dart",
+          "japan-post",
+          "aramex",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Paquetexpress's own tracker, as an archived address shows; the capture was not opened. Paquetexpress's history service knows it."
+    },
+    {
+      "number": "01149934532",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251027122222/https://www.paquetexpress.com.mx/rastreo/01149934532?",
+        "date": "2025-10-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Looked up on Paquetexpress's own tracker, as an archived address shows; the capture was not opened. Paquetexpress's history service knows it."
+    },
+    {
+      "number": "AGU01WE524776",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260318180909/https://cc.paquetexpress.com.mx/ptxws/rest/api/v1/guia/historico/321237219326/@1@2@3@4@5?source=WEBPAGE",
+        "date": "2026-03-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "guía"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fermopoint",
+          "paquetexpress"
+        ]
+      },
+      "note": "Paquetexpress's own history service names it as a parcel's guía in every row, as an archived reply shows."
+    },
+    {
+      "number": "321237219326",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260318180909/https://cc.paquetexpress.com.mx/ptxws/rest/api/v1/guia/historico/321237219326/@1@2@3@4@5?source=WEBPAGE",
+        "date": "2026-03-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up through Paquetexpress's own history service, as an archived reply shows: a parcel collected and on its way."
+    },
+    {
+      "number": "031254206073",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/paquet/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "ParcelPanel's Paquet Express page offered it as a sample to try on 13 Oct 2026. Paquetexpress's history service knows it."
+    },
+    {
+      "number": "031254206027",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/paquet/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "purolator",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "ParcelPanel's Paquet Express page offered it as a sample to try on 13 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "031254268564",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/paquet/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "ParcelPanel's Paquet Express page offered it as a sample to try on 13 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "9014254368769",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/paquet/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "ParcelPanel's Paquet Express page offered it as a sample to try on 13 Oct 2026. Paquetexpress's history service knows it."
+    },
+    {
+      "number": "031254351998",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/paquet/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "sf-express",
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "ParcelPanel's Paquet Express page offered it as a sample to try on 13 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "031254036273",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/paquet/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "ParcelPanel's Paquet Express page offered it as a sample to try on 13 Oct 2026. Paquetexpress's history service knows it."
+    }
+  ]
+}

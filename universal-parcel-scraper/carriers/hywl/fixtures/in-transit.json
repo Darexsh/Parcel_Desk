@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "tracking_number": "TRK00000000A1B2",
+  "carrier": "SZHYWL",
+  "origin_country": "CN",
+  "destination_country": "ES",
+  "current_status": "In Transit",
+  "updated_at": "2026-03-11T08:21:00+00:00",
+  "events": [
+    {"time": "2026-02-24T10:12:00+00:00", "timezone": "UTC", "location": "Dongguan 00000017", "status_code": "Picked Up", "description": "Shipment accepted [Dongguan 00000017], received by SZHYWL"},
+    {"time": "2026-02-26T15:40:00+00:00", "timezone": "UTC", "location": "Dongguan", "status_code": "In Transit", "description": "Departed Pickup Point [Dongguan]"},
+    {"time": "2026-02-28T09:05:00+00:00", "timezone": "UTC", "location": "Dongguan", "status_code": "In Transit", "description": "Arrival at Origin Processing Center [Dongguan]"},
+    {"time": "2026-03-02T20:33:00+00:00", "timezone": "UTC", "location": "Dongguan", "status_code": "In Transit", "description": "Departure from Origin Processing Center [Dongguan]"},
+    {"time": "2026-03-04T11:58:00+00:00", "timezone": "UTC", "location": "Dongguan", "status_code": "In Transit", "description": "Received by Carrier [Dongguan]"},
+    {"time": "2026-03-05T18:27:00+00:00", "timezone": "UTC", "location": "Dongguan", "status_code": "In Transit", "description": "Departure from [Dongguan]"},
+    {"time": "2026-03-06T13:14:00+00:00", "timezone": "UTC", "location": "Dongguan", "status_code": "In Transit", "description": "In Transit [Dongguan]"},
+    {"time": "2026-03-07T16:46:00+00:00", "timezone": "UTC", "location": "Dongguan", "status_code": "Customs", "description": "Customs Clearance Completed [Dongguan]"},
+    {"time": "2026-03-09T22:09:00+00:00", "timezone": "UTC", "location": "Example International Hub", "status_code": "In Transit", "description": "Departure from International Hub [Example International Hub]"},
+    {"time": "2026-03-11T08:21:00+00:00", "timezone": "UTC", "location": "Sample Transit Hub", "status_code": "In Transit", "description": "Arrival at Transit Hub [Sample Transit Hub]"}
+  ]
+}

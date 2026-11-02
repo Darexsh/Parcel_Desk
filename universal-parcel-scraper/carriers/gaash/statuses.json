@@ -1,0 +1,29 @@
+{
+  "carrier": "gaash",
+  "entries": [
+    {"code": "1001", "wording": "Parcel is on the way to destination country", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived reply of GAASH's tracker; the parcel has left for Israel."},
+    {"code": "595", "wording": "Arrived at destination country", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived reply of GAASH's tracker; the parcel has landed in Israel."},
+    {"code": "813", "wording": "Ministry of Transportation", "stage": "customs", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived reply of GAASH's tracker; the parcel waits for a Ministry of Transport import approval before release."},
+    {"code": "3", "wording": "The declaration data has been sent", "stage": "customs", "language": "en", "confirmedBy": "live", "note": "The import declaration was sent to customs."},
+    {"code": "912", "wording": "Paymant is required for a transportion check", "stage": "customs", "language": "en", "confirmedBy": "live", "note": "The parcel is held until the transport ministry check is paid for; the misspellings are the reply's."},
+    {"code": "849", "wording": "Storage occured - payment is required", "stage": "customs", "language": "en", "confirmedBy": "live", "note": "The parcel is held at the customs warehouse until its storage fee is paid."},
+    {"code": "7", "wording": "Cleared customs", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "25", "wording": "Entered w/h - assigned to pickup point", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At GAASH's warehouse in Israel, given the pickup point it will go to."},
+    {"code": "28", "wording": "On the way to pickup location", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "15", "wording": "Arrived at pickup location", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "live", "note": "The page then says the parcel is ready for collection at the pickup point."},
+    {"code": "16", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"wording": "Your parcel has not yet arrived in Israel", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history."},
+    {"wording": "Your parcel has arrived in Israel", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history."},
+    {"wording": "Your parcel has not yet cleared customs", "stage": "customs", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history."},
+    {"wording": "Your parcel is under customs inspection.", "stage": "customs", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history."},
+    {"wording": "Your parcel is awaiting a transportation inspection.", "stage": "customs", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history. The parcel waits for a transport ministry check."},
+    {"wording": "Your parcel is held in customs", "stage": "customs", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history."},
+    {"wording": "Custom clearance process is stopped", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history."},
+    {"wording": "Your parcel has cleared customs", "stage": "customs", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history."},
+    {"wording": "Your parcel will be delivered in the upcoming days.", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history. An estimate, not an event."},
+    {"wording": "Your parcel will be delivered to pick up point in the upcoming days.", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history. An estimate, not an event."},
+    {"wording": "Your parcel is ready for collection at the pickup point", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history. The message goes on with the pickup point and says the delivery company sent the collection details by SMS."},
+    {"wording": "Great news! Our records indicate that your parcel was delivered to you.", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history."},
+    {"wording": "Your parcel is in the process of being returned to the sender.", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Message GAASH's own tracker page shows for the parcel's state; read from the page's message table, not an archived history."}
+  ]
+}

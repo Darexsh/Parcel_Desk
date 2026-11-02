@@ -1,0 +1,88 @@
+{
+  "success": true,
+  "awb": "BOK9000002",
+  "courier": "Bookurier",
+  "courier_id": 1,
+  "status": "Intrare in depozit",
+  "status_unified": "În tranzit",
+  "status_code": "in_transit",
+  "status_color": "#f59e0b",
+  "status_icon": "🚚",
+  "is_delivered": false,
+  "is_returned": false,
+  "events": [
+    {
+      "date": "2026-10-25 03:30:00",
+      "date_formatted": "25.10.2026 03:30",
+      "status": "Intrare in depozit",
+      "status_unified": "În tranzit",
+      "status_code": "in_transit",
+      "details": "SIBIU",
+      "location": "SIBIU",
+      "color": "#f59e0b",
+      "icon": "🚚",
+      "is_final": "0",
+      "is_return": "0",
+      "requires_action": "0",
+      "is_api": true
+    },
+    {
+      "date": "2026-10-24 23:05:12",
+      "date_formatted": "24.10.2026 23:05",
+      "status": "Inregistrare in system GLS",
+      "status_unified": "Comandă plasată",
+      "status_code": "order_placed",
+      "details": "Romania",
+      "location": "Romania",
+      "color": "#3b82f6",
+      "icon": "📝",
+      "is_final": "0",
+      "is_return": "0",
+      "requires_action": "0",
+      "is_api": true
+    },
+    {
+      "date": "2026-10-24 16:40:51",
+      "date_formatted": "24.10.2026 16:40",
+      "status": "Repartizata",
+      "status_unified": "În curs de livrare",
+      "status_code": "out_for_delivery",
+      "details": "",
+      "location": "",
+      "color": "#f97316",
+      "icon": "🚛",
+      "is_final": "0",
+      "is_return": "0",
+      "requires_action": "0",
+      "is_api": false
+    },
+    {
+      "date": "2026-10-24 11:02:37",
+      "date_formatted": "24.10.2026 11:02",
+      "status": "Comanda noua",
+      "status_unified": "Comandă plasată",
+      "status_code": "order_placed",
+      "details": "",
+      "location": "",
+      "color": "#3b82f6",
+      "icon": "📝",
+      "is_final": "0",
+      "is_return": "0",
+      "requires_action": "0",
+      "is_api": false
+    }
+  ],
+  "recipient": {
+    "name": "M***** I*****",
+    "address": "Sibiu, Sibiu",
+    "city": "Sibiu",
+    "county": "Sibiu"
+  },
+  "sender": {
+    "name": "EXEMPLU LIBRARIE SRL",
+    "city": "",
+    "county": ""
+  },
+  "new_token": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "weight": "1 kg"
+}

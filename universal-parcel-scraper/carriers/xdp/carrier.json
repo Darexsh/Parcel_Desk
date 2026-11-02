@@ -1,0 +1,119 @@
+{
+  "id": "xdp",
+  "displayName": "XDP",
+  "aliases": [
+    "XDP Express",
+    "XDP Couriers"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#53b6ed"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "xdp",
+    "requirements": [
+      {
+        "field": "postcode",
+        "validator": "internationalPostcode",
+        "optional": true,
+        "showsMore": true,
+        "label": "Delivery or collection postcode",
+        "type": "text",
+        "help": "XDP shows a consignment only with its delivery or collection postcode. Without it, other sources are asked.",
+        "pattern": "^(?=.{3,12}$)(?=.*[0-9])[A-Za-z0-9]+(?:[ \\-][A-Za-z0-9]+)*$",
+        "maxLength": 12,
+        "inputMode": "text",
+        "autoComplete": "postal-code"
+      }
+    ],
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "weight",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://xdp.co.uk/track/{trackingNumber}",
+    "searchUrl": "https://xdp.co.uk/track/",
+    "canaryUrl": "https://xdp.co.uk/track/",
+    "shows": [
+      "status",
+      "history",
+      "provider_code",
+      "depot_code",
+      "parcel_scans",
+      "parcel_count",
+      "weight",
+      "service_name",
+      "eta_window",
+      "staff_details",
+      "customer_messages",
+      "progress_rail",
+      "sender_name",
+      "recipient_name",
+      "postcodes",
+      "customer_reference"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "weight",
+      "service_name"
+    ],
+    "discarded": [
+      "depot_code",
+      "parcel_scans",
+      "parcel_count",
+      "eta_window",
+      "staff_details",
+      "customer_messages",
+      "progress_rail",
+      "sender_name",
+      "recipient_name",
+      "postcodes",
+      "customer_reference"
+    ],
+    "unavailable": [
+      "location",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "xdp.co.uk"
+      ],
+      "path": "^/track/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "xdp.co.uk"
+      ],
+      "pathPattern": "^/track\\.php$",
+      "params": [
+        "c"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "xdp-1",
+      "pattern": "^0?ZDB[A-Z]{3}\\d{6}$",
+      "confidence": "high"
+    }
+  ]
+}

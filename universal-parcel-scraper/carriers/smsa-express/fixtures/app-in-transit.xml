@@ -1,0 +1,113 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Body>
+<AllTrackDetailsResponse xmlns="http://smsaexpress.com/track/">
+<AllTrackDetailsResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <RequestStatus>Successfully Done</RequestStatus>
+  <ShipmentDetails>
+    <AirWaybill>200000000028</AirWaybill>
+    <CODAmount>0</CODAmount>
+    <EDD>10/14/2026</EDD>
+    <Otp i:nil="true"/>
+    <Payment_code i:nil="true"/>
+    <RecepientName i:nil="true"/>
+    <ShipDate i:nil="true"/>
+    <ShipmentCommitment i:nil="true"/>
+    <ShipmentDestCity i:nil="true"/>
+    <ShipmentDestCountry i:nil="true"/>
+    <ShipmentOriginCity i:nil="true"/>
+    <ShipmentOriginCountry i:nil="true"/>
+    <ShipmentPieces i:nil="true"/>
+    <ShipmentReference i:nil="true"/>
+    <ShipmentShipper i:nil="true"/>
+    <ShipmentWeight i:nil="true"/>
+  </ShipmentDetails>
+  <TrackingDetailsList xmlns:a="http://schemas.datacontract.org/2004/07/TrackRole">
+    <a:TrackingDetails>
+      <a:Comment>Attempted Delivery - Consignee No Response</a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Attempted Delivery - Consignee No Response</a:EventDesc>
+      <a:EventTime>2026-10-12T13:15:22+00:00</a:EventTime>
+      <a:Office>Example Town</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>DEX03-1</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment></a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Out for Delivery</a:EventDesc>
+      <a:EventTime>2026-10-12T05:50:00+00:00</a:EventTime>
+      <a:Office>Example Town</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>OD</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment> - </a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Arrived Delivery Facility</a:EventDesc>
+      <a:EventTime>2026-10-11T21:10:00+00:00</a:EventTime>
+      <a:Office>Example Town</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>AF</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment></a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Departed SMSA Sorting Facility </a:EventDesc>
+      <a:EventTime>2026-10-11T18:30:00+00:00</a:EventTime>
+      <a:Office>Sample Hub</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>HOP</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment></a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Received at SMSA Sorting Facility</a:EventDesc>
+      <a:EventTime>2026-10-11T15:05:00+00:00</a:EventTime>
+      <a:Office>Sample Hub</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>HIP</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment></a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Departed SMSA Origin Facility </a:EventDesc>
+      <a:EventTime>2026-10-10T12:20:00+00:00</a:EventTime>
+      <a:Office>Sample Origin</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>SOP</a:StatusCode>
+    </a:TrackingDetails>
+    <a:TrackingDetails>
+      <a:Comment></a:Comment>
+      <a:CountryCode>SA</a:CountryCode>
+      <a:Destination/>
+      <a:EventDate i:nil="true"/>
+      <a:EventDesc>Shipment Picked up from the shipper.</a:EventDesc>
+      <a:EventTime>2026-10-10T09:55:00+00:00</a:EventTime>
+      <a:Office>Sample Origin</a:Office>
+      <a:POD i:nil="true"/>
+      <a:Pieces>0</a:Pieces>
+      <a:StatusCode>PU</a:StatusCode>
+    </a:TrackingDetails>
+  </TrackingDetailsList>
+</AllTrackDetailsResult>
+</AllTrackDetailsResponse>
+</s:Body>
+</s:Envelope>

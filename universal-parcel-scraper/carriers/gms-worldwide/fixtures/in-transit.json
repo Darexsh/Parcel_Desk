@@ -1,0 +1,30 @@
+{
+  "Order": {
+    "@attributes": {"trackingNo": "000000002"},
+    "PickUpDate": "05 Apr 2026",
+    "book_mfdate": "2026-04-01",
+    "book_pod_scan": {},
+    "awb_image_url": {},
+    "Refno": {},
+    "Origin": "SAMPLEPUR",
+    "Destination": "OTHERVILLE",
+    "ProductType": "XX",
+    "DocmentType": "XX",
+    "No.of.Items": "1",
+    "Service-Type": "STD,ODA",
+    "ConsigneeAddress": {},
+    "ConsigneePincode": "000000",
+    "ConsigneeTelNo": {},
+    "Cnstatus": "In Transit",
+    "POD": {},
+    "Scans": {
+      "ScanDetail": [
+        {"Scan": "OTHERPUR APEX, OTHERPUR", "ScanDate": "05 Apr 2026", "ScanTime": "04:43:47 pm", "Cnstatus": "RECEIVED BY OTHERPUR APEX, OTHERPUR"},
+        {"Scan": "HUBNAGAR RO APEX, HUBNAGAR", "ScanDate": "03 Apr 2026", "ScanTime": "10:18:23 pm", "Cnstatus": "Forwarded TO OTHERPUR APEX, OTHERPUR"},
+        {"Scan": "HUBNAGAR RO APEX, HUBNAGAR", "ScanDate": "03 Apr 2026", "ScanTime": "12:48:28 pm", "Cnstatus": "RECEIVED BY HUBNAGAR RO APEX, HUBNAGAR"},
+        {"Scan": "SAMPLEPUR RO APEX, SAMPLEPUR", "ScanDate": "02 Apr 2026", "ScanTime": "07:57:00 pm", "Cnstatus": "Forwarded TO HUBNAGAR RO APEX, HUBNAGAR"},
+        {"Scan": "SAMPLEPUR RO APEX, SAMPLEPUR", "ScanDate": "01 Apr 2026", "ScanTime": "09:10:47 pm", "Cnstatus": "BOOKED AT SAMPLEPUR"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,161 @@
+[
+  {
+    "tracking_no": "SYNT000000025",
+    "ref": {
+      "icon": {
+        "current_idx": 1,
+        "display": [
+          {
+            "code": "101",
+            "desc": "Picked up"
+          },
+          {
+            "code": "200",
+            "desc": "In transit"
+          },
+          {
+            "code": "300",
+            "desc": "Delivering"
+          },
+          {
+            "code": "400",
+            "desc": "Successful Delivered"
+          }
+        ]
+      },
+      "shipment": {
+        "cool_con_type": "",
+        "deleted_date": null,
+        "pickup_date": "2026-03-05T17:14:55",
+        "special_instruction": null,
+        "booking_no": "BK0000000000",
+        "cnee": "Sample R*****",
+        "con": "SYNT000000025",
+        "con_type": "Normal",
+        "desc_location": "",
+        "dest_postcode": "10000",
+        "dest_province": "SAMPLE PROVINCE",
+        "edt": "09 Mar 2026",
+        "org_province": "ORIGIN PROVINCE",
+        "r_mobile": "099-xxx-9999",
+        "r_name": "Sample R*****",
+        "ref_no": "SAMPLE-REF-1",
+        "s_mobile": "099-xxx-9998",
+        "sender": "Sample S*****",
+        "sig": "c3ludGhldGljIHNpZ25hdHVyZQ==",
+        "img": null,
+        "dly_banner": "inactive",
+        "epod_photo": [
+          "https://example.invalid/sample-pod.jpg"
+        ],
+        "paid_by": "SENDER",
+        "cop_collected_amount": 0,
+        "is_bulky": false,
+        "r_name_unmask": "Sample Recipient",
+        "sender_unmask": "Sample Sender",
+        "is_refund": "NO",
+        "cod_amount": 0
+      },
+      "shipment_status": [
+        {
+          "indx": 3,
+          "loc": "Hub District, Hub Province",
+          "s_action": "",
+          "s_code": "110",
+          "s_date": "05 Mar 2026",
+          "s_datetime": "2026-03-05T20:51:41",
+          "s_desc": "Departed from Distribution center",
+          "s_group": "2",
+          "s_time": "20:51",
+          "call_number": "",
+          "call_number_unmark": "",
+          "talk_time": "0",
+          "wating_time": "0",
+          "partner_name": "",
+          "s_temperature": "",
+          "kf_driver_id": "",
+          "kf_driver_name": "",
+          "kf_driver_mobile": "",
+          "courier_id": "",
+          "courier_mobile": "",
+          "courier_name": "",
+          "return_consignment_no": "",
+          "return_pod_consignment_no": "",
+          "return_pod_detail": "",
+          "return_pod_remark": "",
+          "cod_voucher": "",
+          "e_code": "",
+          "GEO_Location": "13.600000,100.700000"
+        },
+        {
+          "indx": 2,
+          "loc": "Hub District, Hub Province",
+          "s_action": "",
+          "s_code": "109",
+          "s_date": "05 Mar 2026",
+          "s_datetime": "2026-03-05T20:39:31",
+          "s_desc": "Arrived at Distribution center",
+          "s_group": "2",
+          "s_time": "20:39",
+          "call_number": "",
+          "call_number_unmark": "",
+          "talk_time": "0",
+          "wating_time": "0",
+          "partner_name": "",
+          "s_temperature": "",
+          "kf_driver_id": "",
+          "kf_driver_name": "",
+          "kf_driver_mobile": "",
+          "courier_id": "",
+          "courier_mobile": "",
+          "courier_name": "",
+          "return_consignment_no": "",
+          "return_pod_consignment_no": "",
+          "return_pod_detail": "",
+          "return_pod_remark": "",
+          "cod_voucher": "",
+          "e_code": "",
+          "GEO_Location": "13.600000,100.700000"
+        },
+        {
+          "indx": 1,
+          "loc": "Origin District, Origin Province",
+          "s_action": "",
+          "s_code": "010",
+          "s_date": "05 Mar 2026",
+          "s_datetime": "2026-03-05T17:14:55",
+          "s_desc": "Picked up by courier",
+          "s_group": "1",
+          "s_time": "17:14",
+          "call_number": "",
+          "call_number_unmark": "",
+          "talk_time": "0",
+          "wating_time": "0",
+          "partner_name": "",
+          "s_temperature": "",
+          "kf_driver_id": "",
+          "kf_driver_name": "",
+          "kf_driver_mobile": "",
+          "courier_id": "",
+          "courier_mobile": "",
+          "courier_name": "",
+          "return_consignment_no": "",
+          "return_pod_consignment_no": "",
+          "return_pod_detail": "",
+          "return_pod_remark": "",
+          "cod_voucher": "",
+          "e_code": "",
+          "GEO_Location": "13.650000,100.650000"
+        }
+      ],
+      "sta": {
+        "code": "01",
+        "desc": "Successful"
+      },
+      "internationShipment": null
+    },
+    "refoundtype": -1,
+    "refound_code": "E10005",
+    "refound_reason": "Consignment has no COD amount"
+  }
+]

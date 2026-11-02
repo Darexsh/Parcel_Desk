@@ -1,0 +1,82 @@
+{
+  "id": "postex",
+  "displayName": "PostEx",
+  "aliases": [
+    "PostEx Pakistan",
+    "Post Ex",
+    "Call Courier"
+  ],
+  "region": {
+    "countries": [
+      "PK"
+    ]
+  },
+  "brand": {
+    "color": "#92cf50"
+  },
+  "selectable": true,
+  "timezone": "Asia/Karachi",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "postex",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 745
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://postex.pk/tracking?cn={trackingNumber}",
+    "searchUrl": "https://postex.pk/tracking",
+    "canaryUrl": "https://postex.pk/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "recipient_name",
+      "sender_name",
+      "booking_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "recipient_name",
+      "sender_name",
+      "booking_details"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "postex.pk",
+        "www.postex.pk"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "cn"
+      ]
+    }
+  ],
+  "detection": []
+}

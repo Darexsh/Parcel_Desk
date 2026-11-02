@@ -1,0 +1,225 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>배송조회</title>
+<link href="default.css" rel="stylesheet" type="text/css" />
+<script>
+function BrnshpInfo(x,y){
+    var brnNm  = x;
+    var brnTel = y;
+    var pointX = event.clientX+100;
+    var pointY = event.clientY;
+    var url    = 'http://www.hydex.net/ehydex/jsp/home/distribution/tracking/tracingPopup.jsp?BrnshpNm='+brnNm+'&BrnshpTel='+brnTel;
+    var name   = 'popup';
+    var option = 'left='+pointX+',top='+pointY+',width=380,height=200';
+    window.open(url,name,option);
+}
+</script>
+</head>
+
+<body leftmargin="10" topmargin="10" marginwidth="0" marginheight="0">
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="780"></td>
+  </tr>
+<style>
+.popbox {
+	display: none;
+	position: absolute;
+	z-index: 99999;
+	width: 300px;
+	padding: 10px;
+	background: #EEEFEB;
+	color: #000000;
+	border: 1px solid #4D4F53;
+	margin: 0px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+	box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+}
+
+.popbox h2 {
+	background-color: #4D4F53;
+	color: #E3E5DD;
+	font-size: 1em;
+	font-weight: normal;
+	display: block;
+	width: 100%;
+	margin: -10px 0px 8px -10px;
+	padding: 5px 10px;
+}
+</style>
+
+
+
+<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+<script>
+function multi_ship_num(iframe_name, ship_company_cd, tracking_num)
+{
+	document.getElementById(iframe_name).src="/tracking_kor.php?view_mode=show&multi_flag=Y&&ship_company_cd="+ ship_company_cd +"&tracking_num=" + tracking_num +"&iframe_name=" + iframe_name; 
+}
+function screenPop(url,name,scrollbars,width,height)
+{
+	var window_left = (screen.width-width)/2;
+	var window_top = (screen.height-height)/2;
+	window.open(url,name,'width='+ width +',height='+ height +',scrollbars='+ scrollbars +',resizable=yes,status=no,top=' + window_top + ',left=' + window_left + '');
+}
+</script>
+
+<br />
+<b>Warning</b>:  extract() expects parameter 1 to be array, null given in <b>/home/sample/public_html/track.inc</b> on line <b>562</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/home/sample/public_html/track.inc</b> on line <b>570</b><br />
+		<table width='780'>
+          <tr>
+            <td  style='padding-left:5px;' >
+              <table width=100% border=0>
+				<tr>
+				<td colspan=5 style='margin:0 auto; padding:2px 2px; border:1px solid #d4d4d4; background:#fefce7'>
+					※ 아이템별 진행상황을 클릭하시면 보다 자세한 출고제품을 확인하실 수 있습니다.<br>
+					※ 화물기 출입항 예상 스케쥴은 항공사 사정에 따라 변경될 수 있습니다.<br>
+					※ 한국내배송은 기상등의 사정으로 예상시간보다 1-2일 시간이 더 소요될 수 있습니다.<br>
+					※ 국내에서 직접 배송회사 영업소나 직원과 통화하실 경우는 운송장번호를 알려주셔야 합니다.
+				</td>
+				</tr>
+
+                <tr>
+					<td style='padding:2 0 2 0;' width=15%>
+						<table border='0' cellpadding='0' cellspacing='0' width=100%>
+						<tr>
+						<td bgcolor='#AFCBE1' width='100%' style='padding-top:2px;' align=right><b style='color:#ffffff;'>&nbsp;GSI 접수번호&nbsp;</b></td>
+						</tr>
+						</table>
+					</td>
+					<td colspan=2 width=35% align=left>&nbsp; 0000002</td>
+					<td colspan=2 width=50% align=left>
+					<!--	<input type=button name=item_query_btn value='아이템별 진행상황조회-클릭' onClick="javascript:screenPop('/track_item_status.php?invoice_no=0000002','track_item_status','yes',900,400)" style='font-size: 9pt; color: #FFFFFF; background-color:green; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px'> -->
+					</td>
+                </tr>
+                  <tr>
+					<td style='padding:2 0 2 0;'  valign=top>
+						<table border='0' cellpadding='0' cellspacing='0'>
+						<tr>
+						<td bgcolor='#AFCBE1' width='120' style='padding-top:2px;' align=right><b style='color:#ffffff;'>&nbsp;MAWB 번호&nbsp;</b></td>
+						</tr>
+						</table>
+					</td>
+					<td colspan=4 align=left>&nbsp; 000-00000002 </td>
+                </tr>
+                <tr>
+					<td style='padding:2 0 2 0;'  valign=top>
+						<table border='0' cellpadding='0' cellspacing='0'>
+						<tr>
+						<td bgcolor='#AFCBE1' width='120' style='padding-top:2px;' align=right><b style='color:#ffffff;'>&nbsp;운송장번호&nbsp;</b></td>
+						</tr>
+						</table>
+					</td>
+					<td colspan=4 align=left>&nbsp; 6000000000002 </td>
+                </tr>
+                <tr>
+                  <td style='padding:2 0 2 0;' >
+                  	<table border='0' cellpadding='0' cellspacing='0'>
+                  		<tr>
+                  			<td bgcolor='#AFCBE1' width='120' style='padding-top:2px;' align=right><b style='color:#ffffff;'>주문번호&nbsp;</b></td>
+                  		</tr>
+                  	</table>
+                  </td>
+                  <td colspan=4 align=left>&nbsp; </td>
+                </tr>
+                <tr>
+                  <td style='padding:2 0 2 0;' width=15%>
+                  	<table border='0' cellpadding='0' cellspacing='0'>
+                  		<tr>
+                  			<td bgcolor='#AFCBE1' width='120' style='padding-top:2px;' align=right><b style='color:#ffffff;'>&nbsp;받으시는 분&nbsp;</b></td>
+                  		</tr>
+                  	</table>
+                  </td>
+                  <td style='padding:2 0 2 0;' colspan='2' width=35% align=left><b>&nbsp;이름 :</b> 김*수</td>
+                  <td style='padding:2 0 2 0;' colspan='2' width=50% align=left><b>주소 :</b>   예시도   가상시   샘플길 </td>
+                </tr>
+
+                <tr>
+                  <td style='padding:2 0 2 0;'>
+                  	<table border='0' cellpadding='0' cellspacing='0'>
+                  		<tr>
+                  			<td bgcolor='#AFCBE1' width='120' style='padding-top:2px;' align=right><b style='color:#ffffff;'>&nbsp;출고시간&nbsp;</b></td>
+                  		</tr>
+                  	</table>
+                  </td>
+                  <td colspan=4 align=left>&nbsp; <b><font color='blue'> 2026-03-10 06:45:02(한국시간) 2026-03-09 17:45:02(미국동부시간)   </b></font></td>
+                </tr>
+
+				
+                <tr>
+                  <td style='padding:2 0 2 0;' colspan=5>
+                  	<table border='0' cellpadding='0' cellspacing='0'>
+                  		<tr>
+                  			<td bgcolor='#AFCBE1' width='170' style='padding-top:2px;' align=right><b style='color:#ffffff;'>&nbsp;Flight Plan Information &nbsp;</b></td>
+                  		</tr>
+                  	</table>
+                  </td>
+                </tr><tr><td colspan=5 align=left><table width=780 align=left cellPadding='0' cellSpacing='0' class='sub_table1_line_01'>
+				<tr><td width=30% class='sub_table1_line_02'>Date/Time</td>
+				<td width=15% class='sub_table1_line_02'>Flight</td>
+				<td width=15% class='sub_table1_line_02'>Orgin</td>
+				<td width=15% class='sub_table1_line_02'>Destination</td>
+				<td width='*' class='sub_table1_line_02'>Flight Status</td></tr>
+				
+				</table><br></td></tr>
+                
+               <tr>
+                  <td style='padding:2 0 2 0;'>
+                  	<table border='0' cellpadding='0' cellspacing='0'>
+                  		<tr>
+                  			<td bgcolor='#AFCBE1' width='170' style='padding-top:2px;' align=right><b style='color:#ffffff;'>&nbsp;통관완료일&nbsp;</b></td>
+                  		</tr>
+                  	</table>
+					</td>
+		  <td colspan=4 align=left>&nbsp; <b><font color='blue'>  </b></font>
+					<input type=button name=item_query_btn value='관세청 통관진행조회-클릭' onClick="javascript:screenPop('/customs_query.php?method=selectImpCargoProgInfoEach&list_count=10&srch_ditc=2&srchchk=2&mrn=&m_bl_srl_no=&h_bl_srl_no=&m_bl_no=&h_bl_no=6000000000002&year=2026&cntr_no=&mrn_no=','PCGA012','yes',800,900)" style='font-size: 9pt; color: #FFFFFF; background-color:green; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px'>
+                  </td>
+                </tr>
+				<tr>
+                  <td style='padding:2 0 2 0;'  colspan=5>
+                  	<table border='0' cellpadding='0' cellspacing='0'>
+                  		<tr>
+                  			<td bgcolor='#AFCBE1' width='170' style='padding-top:2px;' align=center><b style='color:#ffffff;'>&nbsp;현지 국내배송상황&nbsp;&nbsp;</b></td>
+                  		</tr>
+                  	</table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td  align=center >
+              <table width=100% border=0 align=center>
+				<tr>
+				  <td colspan=5 width=100% align=left>
+					<font color=blue><b>1.주송장번호 : 6000000000002</b></font>
+				  </td>
+				</tr>
+			
+                <tr>
+                  <td colspan=5 align=center>
+                    <table width=780 align=left cellPadding='0' cellSpacing='0' class='sub_table1_line_01'><tr>
+	<td width='30%' class='sub_table1_line_02'>처리일시</td>
+	<td width='*' class='sub_table1_line_02'>배송상태</td>
+	<td width='30%' class='sub_table1_line_02'>처리지점</td></tr></table>
+
+                  </td>
+                </tr>
+					<tr>
+					  <td colspan=5 align=left>
+						
+					  </td>
+					</tr>
+				
+              </table>
+            </td>
+          </tr>
+            <tr>
+    <td ></td>
+  </tr>
+
+</table>
+</body>
+</html>

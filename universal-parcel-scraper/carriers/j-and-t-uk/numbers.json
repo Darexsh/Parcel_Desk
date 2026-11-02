@@ -1,0 +1,41 @@
+{
+  "carrier": "j-and-t-uk",
+  "records": [
+    {
+      "number": "JTUK100012934232",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6ae080b9c9cc20363cf5ade2",
+        "date": "2026-10-27",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "j-and-t-uk",
+        "confidence": "high"
+      },
+      "note": "A Trustpilot review of J&T Express UK gives it as a late parcel's tracking number; J&T's UK tracker answers it with a pickup and sorting scans."
+    },
+    {
+      "number": "JTUK100004930604",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6adc814b2ed1073c24a349bf",
+        "date": "2026-10-24",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "j-and-t-uk",
+        "confidence": "high"
+      },
+      "note": "A Trustpilot review of J&T Express UK gives it as a Temu order's parcel; J&T's UK tracker answers it with a delivery round that ends on an incomplete address."
+    }
+  ]
+}

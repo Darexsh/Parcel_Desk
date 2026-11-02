@@ -1,0 +1,17 @@
+{
+  "carrier": "fargo-courier",
+  "records": [
+    {
+      "number": "FCLIN00000000",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-10-19",
+      "expect": {
+        "carrier": "fargo-courier",
+        "confidence": "high"
+      },
+      "note": "Zeroed waybill in the shape of Fargo's FCLIN waybills, which the tracker does not know."
+    }
+  ]
+}

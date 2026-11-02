@@ -1,0 +1,58 @@
+{
+  "id": "orian",
+  "displayName": "Orian",
+  "aliases": [
+    "Orian Express",
+    "OEX Orian",
+    "אוריין",
+    "אוריין אקספרס"
+  ],
+  "region": {
+    "countries": [
+      "IL"
+    ]
+  },
+  "brand": {
+    "color": "#d01b21"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jerusalem",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking-ecom.orian.com/CargoTracking/public-tracking/search?searchKey={trackingNumber}",
+    "searchUrl": "https://tracking-ecom.orian.com/CargoTracking/public-tracking/search",
+    "canaryUrl": "https://tracking-ecom.orian.com/CargoTracking/public-tracking/search",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking-ecom.orian.com"
+      ],
+      "pathPattern": "^/CargoTracking/public-tracking/search/?$",
+      "params": [
+        "searchKey"
+      ]
+    },
+    {
+      "domains": [
+        "www.orian.com",
+        "orian.com"
+      ],
+      "pathPattern": "^/OrianBarcodeTracking/?$",
+      "params": [
+        "barcode",
+        "b"
+      ]
+    }
+  ],
+  "detection": []
+}

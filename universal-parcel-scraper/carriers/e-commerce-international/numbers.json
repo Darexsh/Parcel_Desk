@@ -1,0 +1,25 @@
+{
+  "carrier": "e-commerce-international",
+  "records": [
+    {
+      "number": "PL15132382072UA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250311140231/https://ecommerce-system.com/track/PL15132382072UA",
+        "date": "2025-03-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "E-Commerce International"
+      },
+      "expect": {
+        "carrier": "e-commerce-international",
+        "confidence": "high"
+      },
+      "note": "An archived copy of E-Commerce International's own tracking page for this number shows the parcel's history."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "deliverdirect",
+  "displayName": "DeliverDirect",
+  "aliases": [
+    "Deliver Direct",
+    "Delta DeliverDirect",
+    "Delta Cargo DeliverDirect"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#041c2c"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.deliverdirect.com/EcomTracking?axb={trackingNumber}",
+    "searchUrl": "https://www.deliverdirect.com/EcomTracking",
+    "canaryUrl": "https://www.deliverdirect.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.deliverdirect.com",
+        "deliverdirect.com"
+      ],
+      "pathPattern": "^/EcomTracking/?$",
+      "params": [
+        "axb"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,54 @@
+{
+  "code": 200,
+  "message": "Successfully obtained the order routing trajectory",
+  "data": {
+    "orderRoutes": [
+      {
+        "action": "collect_order",
+        "channel": "EWEBAM",
+        "receiverMail": null,
+        "eventCity": "Sampleville",
+        "eventCountry": "AU",
+        "eventState": "VIC",
+        "eventZipCode": "0000",
+        "imageUrl": null,
+        "shippingAddressImageUrl": null,
+        "otherImageUrl": null,
+        "signatureUrl": null,
+        "occurLocation": "Sampleville",
+        "utcOperatorTime": "2026-10-12 15:20:05",
+        "orderNo": "AMZ0000000002",
+        "routingDescription": "Parcel arrived at warehouse MELDC-1. We will deliver within 3 working days",
+        "timeZone": "UTC+11:00",
+        "operatorTime": "2026-10-13 02:20:05",
+        "longitude": null,
+        "latitude": null,
+        "longitudeDirection": null,
+        "latitudeDirection": null
+      },
+      {
+        "action": "create_order",
+        "channel": "EWEBAM",
+        "receiverMail": null,
+        "eventCity": "Sampleville",
+        "eventCountry": "AU",
+        "eventState": "VIC",
+        "eventZipCode": "0000",
+        "imageUrl": null,
+        "shippingAddressImageUrl": null,
+        "otherImageUrl": null,
+        "signatureUrl": null,
+        "occurLocation": "Sampleville",
+        "utcOperatorTime": "2026-10-12 09:02:17",
+        "orderNo": "AMZ0000000002",
+        "routingDescription": "Order created by MEL1 to be collected",
+        "timeZone": "UTC+11:00",
+        "operatorTime": "2026-10-12 20:02:17",
+        "longitude": null,
+        "latitude": null,
+        "longitudeDirection": null,
+        "latitudeDirection": null
+      }
+    ]
+  }
+}

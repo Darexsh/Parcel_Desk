@@ -1,0 +1,126 @@
+{
+  "id": "speedaf",
+  "displayName": "Speedaf",
+  "aliases": [
+    "Speedaf Express",
+    "Speedaf Logistics",
+    "速达非"
+  ],
+  "region": {
+    "countries": [
+      "NG",
+      "GH",
+      "KE",
+      "UG",
+      "RW",
+      "ZM",
+      "ZA",
+      "EG",
+      "MA",
+      "SA",
+      "AE",
+      "PK",
+      "KZ",
+      "MU",
+      "RE",
+      "MV",
+      "TR",
+      "CH",
+      "IE",
+      "AL",
+      "ME",
+      "RS"
+    ]
+  },
+  "brand": {
+    "color": "#ff8300"
+  },
+  "selectable": true,
+  "timezone": "Africa/Lagos",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "speedaf",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 989
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "delivered_at",
+    "destination_country",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://www.speedaf.com/cn-en/send-parcel?tradeNo={trackingNumber}",
+    "searchUrl": "https://www.speedaf.com/cn-en/send-parcel",
+    "helpUrl": "https://www.speedaf.com/ng-en/service/support",
+    "canaryUrl": "https://www.speedaf.com/cn-en/send-parcel",
+    "shows": [
+      "status",
+      "history",
+      "signatory",
+      "driver_name",
+      "contact_details",
+      "proof_of_delivery",
+      "payment_details",
+      "parcel_count"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "delivered_at",
+      "destination_country",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "signatory",
+      "driver_name",
+      "contact_details",
+      "proof_of_delivery",
+      "payment_details",
+      "parcel_count"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "location",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "sender_name",
+      "recipient_name",
+      "recipient_address"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "speedaf.com",
+        "www.speedaf.com"
+      ],
+      "pathPattern": "^/[a-z]{2}-[a-z]{2}/send-parcel/?$",
+      "params": [
+        "tradeNo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "speedaf-12",
+      "pattern": "^(?:AE|EG|GH|IE|KE|KZ|MA|MU|MV|NG|PK|RE|RW|SA|TR|UG|ZA|ZM)\\d{12}T?$",
+      "confidence": "low"
+    },
+    {
+      "id": "speedaf-r",
+      "pattern": "^(?:AE|EG|GH|KE|KZ|MA|MU|MV|NG|PK|RE|RW|SA|TR|UG|ZA|ZM)\\d{9}[ER]$",
+      "confidence": "high"
+    }
+  ]
+}

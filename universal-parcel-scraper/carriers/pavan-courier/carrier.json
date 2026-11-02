@@ -1,0 +1,55 @@
+{
+  "id": "pavan-courier",
+  "displayName": "Pavan Courier Service",
+  "aliases": [
+    "Pavan Courier",
+    "Pavan Courier Service Pvt. Ltd."
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#eb1c22"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://pavancourierservice.com/Home/Tracking?TrackingNo={trackingNumber}",
+    "searchUrl": "https://pavancourierservice.com/Home/Tracking",
+    "canaryUrl": "https://pavancourierservice.com/Home/Tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "pavancourierservice.com"
+      ],
+      "pathPattern": "^/Home/Tracking$",
+      "params": [
+        "TrackingNo"
+      ]
+    },
+    {
+      "domains": [
+        "pavancourier.com",
+        "www.pavancourier.com"
+      ],
+      "pathPattern": "^/Tracking\\.aspx$",
+      "params": [
+        "txtawbno"
+      ]
+    }
+  ],
+  "detection": []
+}

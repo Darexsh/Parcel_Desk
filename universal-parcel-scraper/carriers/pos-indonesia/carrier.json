@@ -1,0 +1,113 @@
+{
+  "id": "pos-indonesia",
+  "displayName": "Pos Indonesia",
+  "aliases": [
+    "PT Pos Indonesia",
+    "POS Indonesia",
+    "Posindo",
+    "Indonesia Post",
+    "PosAja"
+  ],
+  "region": {
+    "countries": [
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#1b2c5a"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jakarta",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pos-indonesia",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 964
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "weight",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://www.posindonesia.co.id/id/tracking/{trackingNumber}",
+    "searchUrl": "https://www.posindonesia.co.id/id/tracking",
+    "canaryUrl": "https://www.posindonesia.co.id/id/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "staff_details",
+      "signatory",
+      "postcodes",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "weight",
+      "destination_country"
+    ],
+    "discarded": [
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "staff_details",
+      "signatory",
+      "postcodes",
+      "payment_details"
+    ],
+    "unavailable": [
+      "eta",
+      "offset_timestamps",
+      "pickup_point",
+      "dimensions"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "posindonesia.co.id"
+      ],
+      "path": "^/(?:id|en)/tracking/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "posindonesia.co.id"
+      ],
+      "pathPattern": "^/(?:id|en)/tracking/?$",
+      "params": [
+        "resi"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "pos-indonesia-1",
+      "pattern": "^P\\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])\\d{7}$",
+      "confidence": "low"
+    },
+    {
+      "id": "pos-indonesia-s10",
+      "pattern": "^[A-Z]{2}\\d{9}ID$",
+      "confidence": "low",
+      "checksum": "s10",
+      "preferred": true
+    }
+  ]
+}

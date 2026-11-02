@@ -1,0 +1,94 @@
+{
+  "carrier": "postlogistics",
+  "records": [
+    {
+      "number": "12345678-001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "observed_request",
+      "shapeConfirmed": "2026-09-30",
+      "expect": {
+        "carrier": "postlogistics",
+        "confidence": "high"
+      },
+      "note": "Invented reference showing the portal's eight-digit and three-digit segments."
+    },
+    {
+      "number": "12345678002",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "observed_request",
+      "shapeConfirmed": "2026-09-30",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "old-dominion",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "Invented compact shape for the recognition route; not a known shipment."
+    },
+    {
+      "number": "000000000000000000",
+      "role": "negative",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-09-10",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ecoscooting"
+        ]
+      },
+      "note": "Invented placeholder used as a shape check. Filed under PostLogistics, which no rule claims."
+    },
+    {
+      "number": "47803744-001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260619073732/https://tt.swisspost-cargo.com/public/trackandtrace/47803744-001",
+        "date": "2026-06-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "postlogistics",
+        "confidence": "high"
+      },
+      "note": "A tracking link archived by the Wayback Machine on Swiss Post Cargo's tracker. The PostLogistics lookup returns its history. One of two barcodes that share a customer reference."
+    },
+    {
+      "number": "47803744-002",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260619073719/https://tt.swisspost-cargo.com/public/trackandtrace/47803744-002",
+        "date": "2026-06-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "postlogistics",
+        "confidence": "high"
+      },
+      "note": "A tracking link archived by the Wayback Machine on Swiss Post Cargo's tracker. The PostLogistics lookup returns its history. One of two barcodes that share a customer reference."
+    }
+  ]
+}

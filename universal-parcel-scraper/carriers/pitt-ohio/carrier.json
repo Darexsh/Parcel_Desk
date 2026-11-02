@@ -1,0 +1,77 @@
+{
+  "id": "pitt-ohio",
+  "displayName": "Pitt Ohio",
+  "aliases": [
+    "PITT OHIO",
+    "Pitt Ohio Express"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#ed1c24"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pitt-ohio",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 737
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://pittohio.com/myPittOhio/Shipping/LTL/TraceRequest?pro={trackingNumber}",
+    "searchUrl": "https://pittohio.com/myPittOhio/",
+    "canaryUrl": "https://pittohio.com/myPittOhio/Shipping/LTL/TraceRequest",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "scheduled_delivery",
+      "office_contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "scheduled_delivery",
+      "office_contact_details"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "delivered_at",
+      "weight",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "signatory",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "pittohio.com"
+      ],
+      "pathPattern": "^/[Mm]y[Pp]itt[Oo]hio/Shipping/LTL/TraceRequest/?$",
+      "params": [
+        "pro"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,27 @@
+{
+  "carrier": "timely-titan",
+  "entries": [
+    {"wording": "面单已创建", "stage": "registered", "language": "zh", "confirmedBy": "portal", "note": "Label created; the row comes from the shop that sent the parcel."},
+    {"wording": "接单成功", "stage": "registered", "language": "zh", "confirmedBy": "portal", "note": "The overseas warehouse took the order."},
+    {"wording": "【出库】您的包裹已从…出库完成", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "The parcel left the overseas warehouse the wording names."},
+    {"wording": "打托转运中", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "Palletised for the line haul."},
+    {"wording": "转寄单号:…", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "Forwarded under the number after the colon, the forwarding line's or the post's own."},
+    {"wording": "攬收入庫", "stage": "in_transit", "language": "zh-Hant", "confirmedBy": "portal", "note": "The forwarding line took the parcel in; the parcel had already left the overseas warehouse."},
+    {"wording": "仓库出库", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "Out of the forwarding line's warehouse."},
+    {"wording": "车辆发车", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "The vehicle left."},
+    {"wording": "入库收件 …", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "Taken in at the place the wording names, in Chinese and English."},
+    {"wording": "快件到达处理中心", "stage": "in_transit", "language": "zh", "confirmedBy": "portal"},
+    {"wording": "车辆到达", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "The vehicle arrived."},
+    {"wording": "快件离开处理中心", "stage": "in_transit", "language": "zh", "confirmedBy": "portal"},
+    {"wording": "进口处理中心留存", "stage": "customs", "language": "zh", "confirmedBy": "portal", "note": "Held at the import processing centre for customs."},
+    {"wording": "等待用户缴税", "stage": "customs", "language": "zh", "confirmedBy": "portal", "note": "Customs holds the parcel until the recipient pays the duty."},
+    {"wording": "已放行", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "Customs released the parcel, so it is back in transit."},
+    {"wording": "运输中，已出库", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "Out of the customs warehouse and on its way."},
+    {"wording": "快件离开【…】，正在发往下一站", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "The delivering post's scan: left the office in brackets."},
+    {"wording": "快件已在【…】完成分拣，准备发出", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "The delivering post's scan: sorted at the office in brackets."},
+    {"wording": "预计【…】到达【…】，两地距离…km，将在【…】更新快件状态，请您放心", "language": "zh", "confirmedBy": "portal", "unmapped": true, "note": "The delivering post's estimate of the day the parcel reaches the next city, with the distance: no scan, so it sets no stage."},
+    {"wording": "快件到达【…】", "stage": "in_transit", "language": "zh", "confirmedBy": "portal", "note": "The delivering post's scan: arrived at the office in brackets, such as the delivery office."},
+    {"wording": "快件正在派送中，请耐心等待", "stage": "out_for_delivery", "language": "zh", "confirmedBy": "portal", "note": "Out for delivery; the courier's name and phone that follow are left out."},
+    {"wording": "您的快件已妥收", "stage": "delivered", "language": "zh", "confirmedBy": "portal", "note": "Delivered; who signed and the courier's contacts that follow are left out."}
+  ]
+}

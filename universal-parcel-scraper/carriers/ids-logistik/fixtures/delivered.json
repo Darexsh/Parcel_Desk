@@ -1,0 +1,30 @@
+{
+  "trackingNumber": "9000000000000001",
+  "zipCode": "00000",
+  "result": {
+    "shipmentId": "9000000000000001",
+    "history": [
+      { "depotId": "0001", "time": "2026-03-23 15:42:10.000000", "code": "", "text": "Synthetic pickup note", "mp": "02", "status": 2 },
+      { "depotId": "0001", "time": "2026-03-23 15:44:00.000000", "code": "", "text": "Synthetic pickup note", "mp": "02", "status": 2 },
+      { "depotId": "0001", "time": "2026-03-23 18:00:00.000000", "code": "XX", "text": "Synthetic internal scan", "mp": "", "status": 2 },
+      { "depotId": "0002", "time": "2026-03-24 06:10:00.000000", "code": "", "text": "Synthetic arrival", "mp": "09", "status": 4 },
+      { "depotId": "0001", "time": "2026-03-24 07:00:00.000000", "code": "25", "text": "Synthetic appointment for Erika Beispiel", "mp": "", "status": 4 },
+      { "depotId": "0002", "time": "2026-03-25 07:30:00.000000", "code": "40", "text": "Synthetic tour", "mp": "", "status": 5 },
+      { "depotId": "0002", "time": "2026-03-25 11:20:00.000000", "code": "22", "text": "Synthetic driver remark", "mp": "", "status": 5 },
+      { "depotId": "0002", "time": "2026-03-26 08:00:00.000000", "code": "40", "text": "Synthetic tour", "mp": "", "status": 5 },
+      { "depotId": "0002", "time": "2026-03-26 10:15:00.000000", "code": "27", "text": "Received by Erika Beispiel", "mp": "08", "status": 6 }
+    ],
+    "errors": [],
+    "debug": null,
+    "header": {
+      "year": "2026",
+      "date": "2026-03-23",
+      "weight": "38.5",
+      "id": "SYNTHETIC-0001",
+      "bordered": "2026-03-23 21:30:00.000000",
+      "start": { "depotId": "0001", "country": "DE", "city": "Synthetic Sender Town", "zipCode": "00001" },
+      "end": { "depotId": "0002", "country": "DE", "city": "Synthetic Recipient Town", "zipCode": "00000" }
+    },
+    "status": 6
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "carrier": "global-delivery-network",
+  "entries": [
+    {"wording": "Electronic Information Submitted by Shipper", "stage": "registered", "language": "en", "confirmedBy": "live"},
+    {"wording": "Package Prepared for Departure", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Shipment In-Transit to Export Facility", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Parcel Data Received", "stage": "registered", "language": "en", "confirmedBy": "live"},
+    {"wording": "Exported to International Processing Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Parcel received in outbound hub for processing", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "GDN's outbound hub receives the parcel."},
+    {"wording": "Parcel Departed US Gateway", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Tracking number allocated to parcel", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The partner that carries it abroad gives it a label number; not a movement."},
+    {"wording": "Enroute to International Processing Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Shipment picked up", "stage": "accepted", "language": "en", "confirmedBy": "live"},
+    {"wording": "Arrived Destination Country", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Enroute Delay - Customs Hold", "stage": "customs", "language": "en", "confirmedBy": "live"},
+    {"wording": "Cleared Customs", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Arrived International Transport Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Processed at International Processing Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Handed over to NZ Post", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "A partner takes the parcel on the way, after GDN accepted it."},
+    {"wording": "International arrival", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "In transit to local depot", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Processed at depot", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"wording": "Ready for courier", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At the delivery depot, waiting for the courier."},
+    {"wording": "With courier for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live"}
+  ]
+}

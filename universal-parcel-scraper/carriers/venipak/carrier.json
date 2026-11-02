@@ -1,0 +1,88 @@
+{
+  "id": "venipak",
+  "displayName": "Venipak",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "LT",
+      "LV",
+      "EE"
+    ]
+  },
+  "brand": {
+    "color": "#9339f2"
+  },
+  "selectable": true,
+  "timezone": "Europe/Vilnius",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "venipak",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 240
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "pickup_point",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://venipak.com/lt/en/tracking/track/{trackingNumber}",
+    "searchUrl": "https://venipak.com/lt/en/parcel-tracking/",
+    "canaryUrl": "https://venipak.com/lt/en/parcel-tracking/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "pickup_point",
+      "coordinates",
+      "parcel_count",
+      "recipient_verification"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "pickup_point"
+    ],
+    "discarded": [
+      "coordinates",
+      "parcel_count",
+      "recipient_verification"
+    ],
+    "unavailable": [
+      "eta",
+      "sender_name",
+      "weight",
+      "service_name",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "venipak.com"
+      ],
+      "path": "^/(?:[a-z]{2}/)?(?:en/)?tracking/track/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "venipak.lt"
+      ],
+      "path": "^/(?:siuntos-kelias|en/tracking-information)/track/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "venipak-1",
+      "pattern": "^V\\d{5}E\\d{7}$",
+      "confidence": "high"
+    }
+  ]
+}

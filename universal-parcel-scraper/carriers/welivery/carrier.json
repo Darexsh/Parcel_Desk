@@ -1,0 +1,48 @@
+{
+  "id": "welivery",
+  "displayName": "Welivery",
+  "aliases": [
+    "Welivery SAS",
+    "Welivery SpA"
+  ],
+  "region": {
+    "countries": [
+      "AR",
+      "CL",
+      "CO"
+    ]
+  },
+  "brand": {
+    "color": "#152a4f"
+  },
+  "selectable": true,
+  "timezone": "America/Argentina/Buenos_Aires",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://welivery.com.ar/seguimiento/?code={trackingNumber}",
+    "searchUrl": "https://welivery.com.ar/seguimiento/",
+    "canaryUrl": "https://welivery.com.ar/seguimiento/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "welivery.com.ar"
+      ],
+      "pathPattern": "^/seguimiento/?$",
+      "params": [
+        "code",
+        "wid"
+      ]
+    }
+  ],
+  "detection": []
+}

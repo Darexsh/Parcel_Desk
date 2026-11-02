@@ -1,0 +1,46 @@
+{
+  "id": "sentral-cargo",
+  "displayName": "Sentral Cargo",
+  "aliases": [
+    "SentralCargo",
+    "PT Aeronusa Inti Raya"
+  ],
+  "region": {
+    "countries": [
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#e6212a"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jakarta",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://sentralcargo.co.id/cekresi?resi={trackingNumber}",
+    "searchUrl": "https://sentralcargo.co.id/",
+    "canaryUrl": "https://sentralcargo.co.id/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "sentralcargo.co.id",
+        "www.sentralcargo.co.id"
+      ],
+      "pathPattern": "^/(?:en/tracking|cekresi)/?$",
+      "params": [
+        "resi"
+      ]
+    }
+  ],
+  "detection": []
+}

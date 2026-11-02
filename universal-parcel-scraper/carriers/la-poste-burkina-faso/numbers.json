@@ -1,0 +1,58 @@
+{
+  "carrier": "la-poste-burkina-faso",
+  "records": [
+    {
+      "number": "ca000591121bf",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180414111336/http://webtracking.sonapost.bf:80/webtracking/IPSWeb_item_events.aspx?itemid=ca000591121bf&Submit=Submit",
+        "date": "2018-04-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on SONAPOST's IPS web tracker, typed in lower case, that shows a parcel posted at Ouagadougou's parcel office and delivered in France."
+    },
+    {
+      "number": "CA000558528BF",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://laposte.bf/suivi-de-colis/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "La Poste Burkina Faso's tracking help page gives it as an example of the 13-character number of an item posted in Burkina Faso. La Poste Burkina Faso's own tracker returns its history, up to a delivery in France."
+    },
+    {
+      "number": "RR001284737BF",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://laposte.bf/suivi-de-colis/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "La Poste Burkina Faso's tracking help page gives it as an example of the 13-character number of an item posted in Burkina Faso. La Poste Burkina Faso's own tracker returns its history, up to a delivery in the United States."
+    }
+  ]
+}

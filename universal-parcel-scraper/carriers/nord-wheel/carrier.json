@@ -1,0 +1,47 @@
+{
+  "id": "nord-wheel",
+  "displayName": "Nord Wheel",
+  "aliases": [
+    "Норд Вил",
+    "ТК Норд Вил",
+    "Nord Vil"
+  ],
+  "region": {
+    "countries": [
+      "RU"
+    ]
+  },
+  "brand": {
+    "color": "#0c55ff"
+  },
+  "selectable": true,
+  "timezone": "Europe/Moscow",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://nordw.ru/tracking/?n={trackingNumber}",
+    "searchUrl": "https://nordw.ru/tracking/",
+    "canaryUrl": "https://nordw.ru/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "nordw.ru",
+        "www.nordw.ru"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "n"
+      ]
+    }
+  ],
+  "detection": []
+}

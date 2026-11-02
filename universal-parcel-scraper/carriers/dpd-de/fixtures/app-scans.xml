@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <getTrackingScanListResponse xmlns="https://cloud.dpd.com/">
+      <getTrackingScanListResult>
+        <Version>100</Version>
+        <Language>de_EN</Language>
+        <Ack>true</Ack>
+        <TrackingScanList>
+          <TrackingScan>
+            <ScanDate>01.01.2026</ScanDate>
+            <ScanTime>13:29</ScanTime>
+            <StatusText>Order information has been transmitted to DPD.</StatusText>
+            <Location>DPD data centre</Location>
+            <ServiceCode>101</ServiceCode>
+            <TrackingScanAdditionalList></TrackingScanAdditionalList>
+          </TrackingScan>
+          <TrackingScan>
+            <ScanDate>02.01.2026</ScanDate>
+            <ScanTime>17:39</ScanTime>
+            <StatusText>In transit.</StatusText>
+            <Location>Musterville (FR)</Location>
+            <ServiceCode>101</ServiceCode>
+            <TrackingScanAdditionalList></TrackingScanAdditionalList>
+          </TrackingScan>
+          <TrackingScan>
+            <ScanDate>03.01.2026</ScanDate>
+            <ScanTime>03:55</ScanTime>
+            <StatusText>At parcel delivery centre.</StatusText>
+            <Location>Musterstadt (DE)</Location>
+            <ServiceCode>101</ServiceCode>
+            <TrackingScanAdditionalList></TrackingScanAdditionalList>
+          </TrackingScan>
+          <TrackingScan>
+            <ScanDate>03.01.2026</ScanDate>
+            <ScanTime>06:00</ScanTime>
+            <StatusText>Your parcel is estimated to be delivered on: Saturday, 03.01.2026</StatusText>
+            <Location>Musterstadt (DE)</Location>
+            <ServiceCode>101</ServiceCode>
+            <TrackingScanAdditionalList></TrackingScanAdditionalList>
+          </TrackingScan>
+          <TrackingScan>
+            <ScanDate>03.01.2026</ScanDate>
+            <ScanTime>06:10</ScanTime>
+            <StatusText>Out for delivery.</StatusText>
+            <Location>Musterstadt (DE)</Location>
+            <ServiceCode>101</ServiceCode>
+            <TrackingScanAdditionalList></TrackingScanAdditionalList>
+          </TrackingScan>
+          <TrackingScan>
+            <ScanDate>03.01.2026</ScanDate>
+            <ScanTime>09:40</ScanTime>
+            <StatusText>Unfortunately we have not been able to deliver your parcel.</StatusText>
+            <Location>Musterstadt (DE)</Location>
+            <ServiceCode>101</ServiceCode>
+            <TrackingScanAdditionalList><TrackingScanAdditionalType><AdditionalCode>019</AdditionalCode><Description>Consignee not located, notification has been left.</Description></TrackingScanAdditionalType></TrackingScanAdditionalList>
+          </TrackingScan>
+          <TrackingScan>
+            <ScanDate>03.01.2026</ScanDate>
+            <ScanTime>09:40</ScanTime>
+            <StatusText>Unfortunately we have not been able to deliver your parcel.</StatusText>
+            <Location>Musterstadt (DE)</Location>
+            <ServiceCode>101</ServiceCode>
+            <TrackingScanAdditionalList><TrackingScanAdditionalType><AdditionalCode>999</AdditionalCode><Description>DE00000|PRIVATE SHOP</Description></TrackingScanAdditionalType></TrackingScanAdditionalList>
+          </TrackingScan>
+        </TrackingScanList>
+      </getTrackingScanListResult>
+    </getTrackingScanListResponse>
+  </soap:Body>
+</soap:Envelope>

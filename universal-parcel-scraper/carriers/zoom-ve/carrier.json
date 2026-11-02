@@ -1,0 +1,81 @@
+{
+  "id": "zoom-ve",
+  "displayName": "Zoom",
+  "aliases": [
+    "Grupo Zoom",
+    "Zoom Venezuela",
+    "ZOOM, C.A."
+  ],
+  "region": {
+    "countries": [
+      "VE"
+    ]
+  },
+  "brand": {
+    "color": "#006ab0"
+  },
+  "selectable": true,
+  "timezone": "America/Caracas",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "zoom-ve",
+    "steps": [
+      "trawl"
+    ],
+    "browser": true,
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://zoom.red/tracking-de-envios-personas/?nro-guia={trackingNumber}&tipo-consulta=1",
+    "searchUrl": "https://zoom.red/tracking-de-envios-personas/",
+    "canaryUrl": "https://zoom.red/tracking-de-envios-personas/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "recipient_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "recipient_name"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "offset_timestamps",
+      "provider_code"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "zoom.red",
+        "www.zoom.red"
+      ],
+      "pathPattern": "^/tracking-de-envios-personas/?$",
+      "params": [
+        "nro-guia"
+      ]
+    },
+    {
+      "domains": [
+        "grupozoom.com",
+        "www.grupozoom.com"
+      ],
+      "pathPattern": "^/mia/consultar\\.php$",
+      "params": [
+        "txtcodguias"
+      ]
+    }
+  ],
+  "detection": []
+}

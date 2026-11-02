@@ -1,0 +1,22 @@
+{
+  "carrier": "xlcourier",
+  "entries": [
+    {"code": "100", "wording": "Created", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Event type 100 in XLCourier's tracking status list, described as \"Parcel information submitted,we haven't received the parcel yet\"."},
+    {"code": "200", "wording": "Scheduled", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Event type 200 in XLCourier's tracking status list, described as \"Your parcel has been scheduled for pickup\". The same title as status 900; 200 is the pickup booking."},
+    {"code": "300", "wording": "Out for Pickup", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Event type 300 in XLCourier's tracking status list, described as \"Your parcel is out for pickup today\"."},
+    {"code": "400", "wording": "Pickup Failed", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Event type 400 in XLCourier's tracking status list, described as \"Pickup attempt wasn't successful\". The courier has not collected the parcel yet."},
+    {"code": "500", "wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Event type 500 in XLCourier's tracking status list, described as \"Parcel Picked up successfully\"."},
+    {"code": "600", "wording": "Received", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Event type 600 in XLCourier's tracking status list, described as \"Your parcel has arrived at our National hub\"."},
+    {"code": "700", "wording": "Pending Transit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Event type 700 in XLCourier's tracking status list, described as \"Your Parcel is pending transfer from the national hub.\"."},
+    {"code": "800", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Event type 800 in XLCourier's tracking status list, described as \"Parcel has left the National hub\"."},
+    {"code": "900", "wording": "Scheduled", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Event type 900 in XLCourier's tracking status list, described as \"Your parcel has been scheduled for delivery\". The same title as status 200; 900 is the delivery booking."},
+    {"code": "1000", "wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "Event type 1000 in XLCourier's tracking status list, described as \"Your parcel is out for delivery today\"."},
+    {"code": "1100", "wording": "Delivery Failed", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "Event type 1100 in XLCourier's tracking status list, described as \"Delivery attempt wasn’t successful\"."},
+    {"code": "1200", "wording": "Return Scheduled", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Event type 1200 in XLCourier's tracking status list, described as \"Your parcel has been scheduled for return\"."},
+    {"code": "1300", "wording": "Returning", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Event type 1300 in XLCourier's tracking status list, described as \"Your parcel is in transit back to the sender.\"."},
+    {"code": "1400", "wording": "Return Failed", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Event type 1400 in XLCourier's tracking status list, described as \"Return attempt wasn't successful\"."},
+    {"code": "1500", "wording": "Returned", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Event type 1500 in XLCourier's tracking status list, described as \"Your parcel has been successfully returned as requested.\"."},
+    {"code": "1570", "wording": "Destroyed", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Event type 1570 in XLCourier's tracking status list, described as \"Your parcel has been destroyed\"."},
+    {"code": "1600", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Event type 1600 in XLCourier's tracking status list, described as \"Delivered-thank you for choosing XLC!\"."}
+  ]
+}

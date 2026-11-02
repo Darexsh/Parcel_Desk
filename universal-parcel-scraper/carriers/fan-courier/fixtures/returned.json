@@ -1,0 +1,78 @@
+{
+  "content": "PRIVATE contents",
+  "awbNumber": "4000000000010",
+  "date": "2026-01-05 00:00:00",
+  "weight": 2,
+  "paymentDate": null,
+  "returnAwbNumber": "4000000000058",
+  "redirectionAwbNumber": null,
+  "reimbursementAwbNumber": null,
+  "oPODAwbNumber": null,
+  "confirmation": {
+    "name": null,
+    "date": "2026-01-12 "
+  },
+  "service": null,
+  "options": null,
+  "barcodes": null,
+  "serviceId": 1,
+  "optionCodes": [
+    "X",
+    "W"
+  ],
+  "dimensions": {
+    "height": 10,
+    "width": 20,
+    "length": 30
+  },
+  "events": [
+    {
+      "id": "C0",
+      "name": "Shipment picked up",
+      "location": "Exampleville",
+      "date": "2026-01-05 15:10:00"
+    },
+    {
+      "id": "H0",
+      "name": "Shipment in transit to the destination warehouse",
+      "location": "Exampleville",
+      "date": "2026-01-05 18:20:05"
+    },
+    {
+      "id": "H1",
+      "name": "Shipment unloaded in the destination warehouse",
+      "location": "Sample Town",
+      "date": "2026-01-06 08:12:30"
+    },
+    {
+      "id": "C1",
+      "name": "Shipment taken over for delivery",
+      "location": "Sample Town",
+      "date": "2026-01-06 09:30:00"
+    },
+    {
+      "id": "S1",
+      "name": "Delivery in process",
+      "location": "Sample Town",
+      "date": "2026-01-06 09:30:41"
+    },
+    {
+      "id": "S6",
+      "name": "Rejected delivery",
+      "location": "Sample Town",
+      "date": "2026-01-06 11:15:02"
+    },
+    {
+      "id": "H17",
+      "name": "Shipment in the destination warehouse",
+      "location": "Sample Town",
+      "date": "2026-01-07 07:50:10"
+    },
+    {
+      "id": "S43",
+      "name": "Return",
+      "location": "Sample Town",
+      "date": "2026-01-08 07:34:31"
+    }
+  ]
+}

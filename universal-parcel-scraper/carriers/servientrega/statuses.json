@@ -1,0 +1,32 @@
+{
+  "carrier": "servientrega",
+  "entries": [
+    {"wording": "Recibido en centro operativo", "stage": "accepted", "language": "es", "confirmedBy": "source", "note": "Named as a Servientrega tracking state in a merchant guide."},
+    {"wording": "En ruta para entrega", "stage": "out_for_delivery", "language": "es", "confirmedBy": "source", "note": "Named as a Servientrega tracking state in a merchant guide."},
+    {"wording": "Entregado", "stage": "delivered", "language": "es", "confirmedBy": "source", "note": "Named as a Servientrega tracking state in a merchant guide."},
+    {"wording": "Novedad", "stage": "exception", "language": "es", "confirmedBy": "source", "note": "An incident that holds the delivery. Named as a Servientrega tracking state in a merchant guide."},
+    {"code": "1", "wording": "Guia generada", "stage": "registered", "language": "es", "confirmedBy": "live"},
+    {"code": "2", "wording": "Admision del envio en cds", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Admitted at a Servientrega service point (centro de soluciones)."},
+    {"code": "3", "wording": "Alistamiento cliente para entrega a recolecciones", "stage": "registered", "language": "es", "confirmedBy": "live", "note": "Made ready at the sender's for the pickup round."},
+    {"code": "4", "wording": "Alistamiento cds para entregar a recolecciones", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Made ready at the service point for the pickup round."},
+    {"code": "6", "wording": "Ingreso al centro logistico", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "The first entry at the origin logistics centre; later entries carry code 14."},
+    {"code": "9", "wording": "En zona de distribucion", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live"},
+    {"code": "10", "wording": "Ingreso al centro logistico por devolucion", "stage": "failed_attempt", "language": "es", "confirmedBy": "live", "note": "Back at the logistics centre from a delivery round, often with the reason, such as nobody to receive the parcel."},
+    {"code": "11", "wording": "Entrega verificada", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "On a guide delivered back to its sender, the adapter stages it as returned."},
+    {"code": "12", "wording": "Salio a ciudad destino", "stage": "in_transit", "language": "es", "confirmedBy": "live"},
+    {"code": "14", "wording": "Ingreso al centro logistico", "stage": "in_transit", "language": "es", "confirmedBy": "live"},
+    {"code": "15", "wording": "Envio reversado a bodega local", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Taken off the delivery round back to the local warehouse, for a wrong address or a new round."},
+    {"code": "17", "wording": "En transito en ciudad intermedia", "stage": "in_transit", "language": "es", "confirmedBy": "live"},
+    {"code": "18", "wording": "En salida de ciudad intermedia", "stage": "in_transit", "language": "es", "confirmedBy": "live"},
+    {"code": "24", "wording": "Reportado entregado", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "The courier's report; a verified delivery follows."},
+    {"code": "25", "wording": "Notificacion de devolucion", "stage": "exception", "language": "es", "confirmedBy": "live", "note": "Notice that the parcel goes back to its sender, with the reason."},
+    {"code": "32", "wording": "Envio para entrega a domicilio", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live"},
+    {"wording": "ENTREGADO", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "The guide's overall state."},
+    {"wording": "ENTREGADO A REMITENTE", "stage": "returned", "language": "es", "confirmedBy": "live", "note": "The guide's overall state once delivered back to its sender."},
+    {"wording": "EN PROCESAMIENTO", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "The guide's overall state until delivery, including on its way back."},
+    {"wording": "RECIBIDO DEL CLIENTE", "stage": "accepted", "language": "es", "confirmedBy": "bundle", "note": "An overall state the tracker's script names."},
+    {"wording": "RECIBIDO", "stage": "accepted", "language": "es", "confirmedBy": "bundle", "note": "An overall state the tracker's script names."},
+    {"wording": "PROCESADO", "stage": "in_transit", "language": "es", "confirmedBy": "bundle", "note": "An overall state the tracker's script names."},
+    {"wording": "SINIESTRADO", "stage": "exception", "language": "es", "confirmedBy": "bundle", "note": "An overall state the tracker's script names: lost or damaged in Servientrega's care."}
+  ]
+}

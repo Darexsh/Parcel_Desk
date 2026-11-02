@@ -1,0 +1,77 @@
+{
+  "id": 1000002,
+  "createdAt": "10/03/2026 22:10:00",
+  "lastRouteShipment": {
+    "id": 2000002,
+    "createdAt": "12/03/2026 02:05:00",
+    "route": {
+      "id": 30002,
+      "createdAt": "12/03/2026 01:30:00",
+      "user": {
+        "id": 402,
+        "createdAt": "01/02/2025 08:00:00",
+        "geoposition": {
+          "latitude": "40.10000000",
+          "longitude": "-3.10000000"
+        }
+      }
+    },
+    "position": 7
+  },
+  "lastIncidence": null,
+  "type": "delivery",
+  "trackingNumber": "900000000022",
+  "distributor": {
+    "id": 211,
+    "createdAt": "24/08/2020 09:51:15",
+    "name": "Sample Shop"
+  },
+  "customer": {
+    "name": "Sample Recipient",
+    "phoneNumber": "+34 600 00 00 01",
+    "address": {
+      "formattedAddress": "Calle Ejemplo 2, 28000, Sample Town, España",
+      "geolocation": {
+        "latitude": "40.20000000",
+        "longitude": "-3.20000000"
+      }
+    }
+  },
+  "status": "out_for_delivery",
+  "packages": [
+    {
+      "id": 6000002,
+      "createdAt": "10/03/2026 22:10:00",
+      "status": "out_for_delivery",
+      "trackings": [
+        {
+          "id": 7000014,
+          "createdAt": "12/03/2026 08:45:10",
+          "status": "out_for_delivery"
+        },
+        {
+          "id": 7000011,
+          "createdAt": "12/03/2026 04:12:00",
+          "status": "hub"
+        }
+      ]
+    },
+    {
+      "id": 6000003,
+      "createdAt": "10/03/2026 22:10:00",
+      "status": "out_for_delivery",
+      "trackings": [
+        {
+          "id": 7000013,
+          "createdAt": "12/03/2026 08:45:10",
+          "status": "out_for_delivery"
+        },
+        {
+          "id": 7000012,
+          "createdAt": "12/03/2026 04:13:27",
+          "status": "hub"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "carrier": "lightning-express",
+  "entries": [
+    {"code": "0", "wording": "Label created", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Label of status code 0 in the tracking page's own script, which draws the timeline from the API reply."},
+    {"code": "0", "wording": "运单已创建", "stage": "registered", "language": "zh", "confirmedBy": "official-doc", "note": "Label of status code 0 in the tracking page's own script, which draws the timeline from the API reply."},
+    {"code": "5", "wording": "Package collected", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Label of status code 5 in the tracking page's own script, which draws the timeline from the API reply."},
+    {"code": "5", "wording": "包裹已收取", "stage": "accepted", "language": "zh", "confirmedBy": "official-doc", "note": "Label of status code 5 in the tracking page's own script, which draws the timeline from the API reply."},
+    {"code": "4", "wording": "Out for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Label of status code 4 in the tracking page's own script, which draws the timeline from the API reply."},
+    {"code": "4", "wording": "派送中", "stage": "out_for_delivery", "language": "zh", "confirmedBy": "official-doc", "note": "Label of status code 4 in the tracking page's own script, which draws the timeline from the API reply."},
+    {"code": "2", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Label of status code 2 in the tracking page's own script, which draws the timeline from the API reply."},
+    {"code": "2", "wording": "已送达", "stage": "delivered", "language": "zh", "confirmedBy": "official-doc", "note": "Label of status code 2 in the tracking page's own script, which draws the timeline from the API reply."},
+    {"code": "3", "wording": "Returned to warehouse", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "Label of status code 3 in the tracking page's own script. Back at the depot after a delivery run that did not deliver; a live reply showed a parcel going out again and delivered after this stamp, so it is no return to the sender."},
+    {"code": "3", "wording": "已退回仓库", "stage": "failed_attempt", "language": "zh", "confirmedBy": "official-doc", "note": "Label of status code 3 in the tracking page's own script. Back at the depot after a delivery run that did not deliver; a live reply showed a parcel going out again and delivered after this stamp, so it is no return to the sender."},
+    {"code": "-1", "wording": "This order has been cancelled", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Shown by the tracking page's script instead of the timeline for a cancelled order, status code -1."},
+    {"code": "-1", "wording": "此订单已取消", "stage": "exception", "language": "zh", "confirmedBy": "official-doc", "note": "Chinese text for a cancelled order, status code -1 in the tracking page's script."},
+    {"code": "2", "wording": "已完成", "stage": "delivered", "language": "zh", "confirmedBy": "live", "note": "The reply's own name for status code 2, which the tracking page shows as Delivered."},
+    {"code": "3", "wording": "已返仓", "stage": "failed_attempt", "language": "zh", "confirmedBy": "live", "note": "The reply's own name for status code 3, which the tracking page shows as Returned to warehouse. Back at the depot after a delivery run that did not deliver; a live reply showed a parcel going out again and delivered after this stamp, so it is no return to the sender."}
+  ]
+}

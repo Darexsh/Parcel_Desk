@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+	<title>
+		BAM B2C Site</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta charset="utf-8">
+</head>
+
+<body class="page-trackingDetailsPage pageType-ContentPage template-pages-tracking-tracking1Layout pageLabel--trackingDetailsPage language-fr">
+<div class="page-container">
+	<div class="container-fluid">
+<section class="suivre-un-colis">
+	<div class="row">
+		<div class="container-fluid tracking-search-section">
+			<div class="col-sm-12 col-md-12 code_envoi_tracking">
+				<form class="form-inline tracking-form">
+					<label class="labelSaisirCode">
+						Veuillez saisir le numéro de suivi que vous souhaitez suivre, séparés par ' ; ' si plus d'un
+					</label>
+					<div class="container-input-search-tracking">
+						<input id="textinpu" type="text" class="" name="trackingCode" placeholder="Saisir un code d'envoi ">
+						<input id="maxTrackingInputs" type="hidden" class="" name="maxTrackingInputs" value="30">
+						<button type="button" name="rechercher" class="btn-tracking-search" onclick="getTrackingInfo('textinpu')">
+							Rechercher
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section><div class="container-fluid tracking-container">
+<div class="row tracking-result">
+    <div class="tracking-loader-container"><span class="loader"></span></div>
+    <div class="tracking-table" id="tracking-table" style="float: left">
+        <table class="table table-bordered" id="tracking-table-info">
+            <thead>
+                <tr>
+                    <th>Num. de suivi</th><th>Date d'expédition</th><th>Poid du colis</th><th>Montant CRBT</th>
+                    <th>Destination</th><th>Statut</th><th>Date de statut d'envoi</th><th>Détails</th>
+                </tr>
+            </thead>
+            <tbody id="tracking-table-body">
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="myModal_Tracking_error" class="modal_Tracking_error">
+    <div class="modal-content_Tracking_error">
+        <div id="sumErrors" class="sum_errors_tracking">Totale des erreurs:<span></span></div>
+        <span class="close_Tracking_error">&times;</span>
+        <div class="modal_div_error">
+        <ul id="tracking-errors-list">
+            <li><span></span> : Code de tracking est introuvable</li>
+        </ul>
+        </div>
+    </div>
+</div>
+<div class="detail-tracking-body">
+	<div class="title-tracking">
+		<h3>CP100000003MA</h3>
+	</div>
+
+	<div class="crbt-tracking" data-delivery-phone="0600000000">
+		<div class="crbt-item ">
+			<img src="/bamb2cstorefront/_ui/shared/images/labeling.png" style="">
+			<span>
+				<p class="crbt-title">
+					Poid du colis
+				</p>
+				<p class="crbt-data">0.800 Kg</p>
+			</span>
+		</div>
+		<div class="crbt-item ">
+			<img src="/bamb2cstorefront/_ui/shared/images/labeling.png" style="">
+			<span>
+				<p class="crbt-title">
+					Produit
+				</p>
+				<p class="crbt-data product-name">COLIS</p>
+			</span>
+		</div>
+		<div class="crbt-item ">
+			<img src="/bamb2cstorefront/_ui/shared/images/labeling.png" style="">
+			<span>
+				<p class="crbt-title">
+					Montant CRBT
+				</p>
+				<p class="crbt-data">150.00 DH</p>
+			</span>
+		</div>
+		<div class="hidden__web__crbt__item   crbt-item ">
+			<img src="/bamb2cstorefront/_ui/shared/images/labeling.png" style="">
+			<span>
+				<p class="crbt-title">
+					POSITION DE DÉPART
+				</p>
+				<p class="crbt-data">Maroc</p>
+			</span>
+		</div>
+		<div class="hidden__web__crbt__item   crbt-item ">
+			<img src="/bamb2cstorefront/_ui/shared/images/labeling.png" style="">
+			<span>
+				<p class="crbt-title">
+					POSITION D'ARRIVÉ
+				</p>
+				<p class="crbt-data">Maroc</p>
+			</span>
+		</div>
+		<div class="crbt-item hidden__mobile__crbt__item ">
+			<div class="crbt-item-last-child-new-element">
+				<span>
+				<p class="crbt-title">
+					POSITION DE DÉPART
+				</p>
+				<p class="crbt-data location-name" style="width: 200px">Maroc</p>
+			</span>
+			</div>
+			<div class="crbt-item-last-child-new-element crbt-item-last-child-element-MarginTop">
+				<span >
+				<p class="crbt-title">
+					POSITION D'ARRIVÉ
+				</p>
+				<p class="crbt-data location-name" style="width: 200px">Maroc</p>
+			</span>
+			</div>
+		</div>
+	</div>
+	<div class="figure-tracking">
+		<div class="stepper-item completed ">
+			<div class="step-counter">
+				<div class="track-status-image-box">
+					<img class="completed-img" src="/bamb2cstorefront/_ui/shared/images/track-delivery-1.png">
+				</div>
+			</div>
+			<div class="step-name">
+				Dépot
+			</div>
+		</div>
+		<div class="stepper-item completed active">
+			<div class="step-counter">
+				<div class="track-status-image-box">
+					<img class="completed-img" src="/bamb2cstorefront/_ui/shared/images/track-delivery-1.png">
+				</div>
+			</div>
+			<div class="step-name">
+				En cours d'acheminement
+			</div>
+		</div>
+		<div class="stepper-item ">
+			<div class="step-counter">
+				<div class="track-status-image-box">
+					<img class="completed-img" src="/bamb2cstorefront/_ui/shared/images/track-delivery-1.png">
+				</div>
+			</div>
+			<div class="step-name">
+				En cours de livraison
+			</div>
+		</div>
+		<div class="stepper-item ">
+			<div class="step-counter">
+				<div class="track-status-image-box">
+					<img class="completed-img" src="/bamb2cstorefront/_ui/shared/images/track-delivery-1.png">
+				</div>
+			</div>
+			<div class="step-name">
+				Livré
+			</div>
+		</div>
+	</div>
+
+	<h4 class="tracking-table-title">
+		Suivi mon envoi
+	</h4>
+
+	<div class="table-detail-tracking">
+		<table class="table table-striped track-table">
+			<thead>
+				<tr>
+					<th>Date</th>
+					<th>Heure</th>
+					<th>Localisation</th>
+					<th>Détails</th>
+				</tr>
+			</thead>
+			<tbody id="tracking-table-detail-body">
+				<tr>
+					<td>03/07/2026</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+					<tr>
+						<td></td>
+						<td>06:12:30</td>
+						<td>
+								
+									CTT EXEMPLEVILLE
+								
+						</td>
+						<td>ENVOI ÉXPÉDIÉ</td>
+					</tr>
+				<tr>
+					<td>02/07/2026</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+					<tr>
+						<td></td>
+						<td>05:48:02</td>
+						<td>
+								
+									AGENCE EXEMPLE CENTRE
+								
+						</td>
+						<td>ENVOI ÉXPÉDIÉ</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>11:03:27</td>
+						<td>
+								
+									AGENCE EXEMPLE CENTRE
+								
+						</td>
+						<td>ENVOI PRIS EN CHARGE</td>
+					</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+</div>
+	</div>
+</div>
+</body>
+</html>

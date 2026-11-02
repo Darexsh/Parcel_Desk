@@ -1,0 +1,12 @@
+{
+  "carrier": "rl-carriers",
+  "entries": [
+    { "wording": "Picked Up in …", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "Names the shipper's town, so the result keeps the status alone, without a location." },
+    { "wording": "Arrived at origin terminal", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "wording": "Departed … in route to …", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "From a terminal's town to the next terminal's, or to the destination terminal." },
+    { "wording": "Arrived at …", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "A terminal's town." },
+    { "wording": "Arrived at destination terminal", "language": "en", "stage": "in_transit", "confirmedBy": "live" },
+    { "wording": "Shipment Delayed", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The summary then calls the shipment Delayed and keeps its estimated delivery day." },
+    { "wording": "Delivered", "language": "en", "stage": "delivered", "confirmedBy": "live" }
+  ]
+}

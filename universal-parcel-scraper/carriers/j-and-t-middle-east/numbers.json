@@ -1,0 +1,50 @@
+{
+  "carrier": "j-and-t-middle-east",
+  "records": [
+    {
+      "number": "JTE300295786072",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://trackship.com/shipping-provider/jt-uae/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "j-and-t-middle-east",
+        "confidence": "high"
+      },
+      "note": "Example on TrackShip's J&T UAE page; J&T's tracker no longer lists it."
+    },
+    {
+      "number": "JTE000013652109",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://trackship.com/shipping-provider/jt-saudi-arabia/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "j-and-t-middle-east",
+        "confidence": "high"
+      },
+      "note": "Example on TrackShip's J&T Saudi Arabia page; J&T's tracker no longer lists it."
+    },
+    {
+      "number": "JTE300000000001",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "expect": {
+        "carrier": "j-and-t-middle-east",
+        "confidence": "high"
+      },
+      "note": "Synthetic identifier following the waybill check in J&T Express Middle East's own tracking form at https://www.jtexpress.me/KSA/trackOrder."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "found": {
+    "allowedActions": {
+      "changeSchedule": false,
+      "deriveToParcel": false,
+      "pickOnAgency": false,
+      "addNotes": false,
+      "assignToDashboard": false,
+      "resendSale": false,
+      "retryPickup": false,
+      "rateExperience": false,
+      "showRealTimeTracking": false,
+      "canReturn": false,
+      "canRefuse": false,
+      "deliverToNeighbour": false
+    },
+    "attributes": { "packageCount": 1, "weight": 1.2, "reimbursement": 0, "postageDue": 0 },
+    "clientReference": "PRIVATEREF001",
+    "destination": { "address": { "locality": "PRIVATETOWN" } },
+    "expeditionCode": 1000000001,
+    "expeditionUuid": "00000000-0000-4000-8000-000000000000",
+    "origin": { "address": { "locality": "SAMPLE ORIGIN" } },
+    "originAgency": 999,
+    "references": [],
+    "sender": { "name": "PRIVATE SENDER" },
+    "agency": {
+      "code": 999,
+      "name": "SAMPLE AGENCY",
+      "address": { "street": "PRIVATE AGENCY STREET 1", "locality": "Sample Town", "postalCode": "99998", "country": "ES" },
+      "phones": [{ "label": "Phone", "number": "000000000" }],
+      "schedule": "PRIVATE SCHEDULE"
+    },
+    "expeditionAliasOption": "none",
+    "state": {
+      "code": "delivered",
+      "steps": { "current": 5, "last": 5 },
+      "description": "Delivered",
+      "deliveryDate": "2026-03-06",
+      "receiverName": "PRIVATE RECEIVER",
+      "receiverDocumentId": "PRIVATEDOC"
+    },
+    "tracking": [
+      { "description": "Delivered", "code": "delivered", "at": "2026-03-06T10:21:00Z" },
+      { "description": "Received in Example Point Shop", "code": "receivedOnParcel", "at": "2026-03-03T15:15:00Z" },
+      { "description": "Shipment redirected to GLS Point Example Point Shop", "code": "incidence", "at": "2026-03-03T15:05:00Z", "reaseon": "PRIVATE REASON" },
+      { "description": "Absent", "code": "incidence", "at": "2026-03-03T13:42:00Z" },
+      { "description": "Out for delivery", "code": "onDelivery", "at": "2026-03-03T08:10:00Z" },
+      { "description": "At delivery agency", "code": "onTransit", "at": "2026-03-03T07:05:00Z" },
+      { "description": "At delivery agency", "code": "onTransit", "at": "2026-03-03T07:05:00Z" },
+      { "description": "Parcel picked up by GLS. Pending to arrive to final destination", "code": "picked", "at": "2026-03-02T18:14:00Z" },
+      { "description": "Label created. The shipment has not yet been delivered to GLS by the sender", "code": "dataReceived", "at": "2026-03-01T08:30:00Z" }
+    ],
+    "whatsapp": { "suggest": true },
+    "parcelShop": {
+      "id": 1,
+      "active": true,
+      "type": "agency",
+      "name": "Example Point Shop",
+      "address": { "street": "PRIVATE POINT STREET 2", "locality": "Sample Town", "postalCode": "99997", "country": "ES" },
+      "notes": "",
+      "schedules": ["Mon to Fri, 10:00 to 20:00"],
+      "phones": []
+    }
+  }
+}

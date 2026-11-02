@@ -1,0 +1,102 @@
+{
+  "id": "paperfly",
+  "displayName": "Paperfly",
+  "aliases": [
+    "Paperfly Courier",
+    "Paperfly Private Limited"
+  ],
+  "region": {
+    "countries": [
+      "BD"
+    ]
+  },
+  "brand": {
+    "color": "#00adee"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dhaka",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "paperfly",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 742
+    }
+  },
+  "capabilities": [
+    "history",
+    "offset_timestamps",
+    "delivered_at",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://go.paperfly.com.bd/track/order/{trackingNumber}",
+    "searchUrl": "https://paperfly.com.bd/",
+    "canaryUrl": "https://paperfly.com.bd/",
+    "shows": [
+      "status",
+      "history",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "customer_reference",
+      "weight",
+      "payment_details",
+      "order_contents",
+      "driver_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "offset_timestamps",
+      "delivered_at",
+      "canonical_tracking_number"
+    ],
+    "discarded": [
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "customer_reference",
+      "weight",
+      "payment_details",
+      "order_contents",
+      "driver_name"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "proof_of_delivery",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "go.paperfly.com.bd"
+      ],
+      "path": "^/track/order/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "paperfly-1",
+      "pattern": "^PFLBD[A-Z]{2}\\d{10}$",
+      "confidence": "high"
+    },
+    {
+      "id": "paperfly-2",
+      "pattern": "^(?:0[1-9]|[12]\\d|3[01])(?:0[1-9]|1[0-2])\\d{2}\\d{4,6}[A-Z]\\d[A-Z]\\d$",
+      "confidence": "high"
+    },
+    {
+      "id": "paperfly-3",
+      "pattern": "^Z(?:0[1-9]|[12]\\d|3[01])(?:0[1-9]|1[0-2])\\d{2}\\d{4,6}[A-Z]\\d[A-Z]\\d$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "carrier": "amerijet",
+  "records": [
+    {
+      "number": "810-40037734",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://mycargo.amerijet.com/documents/MyCargo%20Platform%20and%20EZ%20Booking%20Instructions.pdf",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "amerijet",
+        "confidence": "high"
+      },
+      "note": "Air waybill shown, with its barcode, on the booking confirmation screenshot in Amerijet's own MyCargo and EZ Booking instructions."
+    },
+    {
+      "number": "810-42330212",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://amerijet.com/testimonials/",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "master air waybill"
+      },
+      "expect": {
+        "carrier": "amerijet",
+        "confidence": "high"
+      },
+      "note": "A forwarder's testimonial on Amerijet's own site names this master air waybill; Amerijet's tracker knows it."
+    }
+  ]
+}

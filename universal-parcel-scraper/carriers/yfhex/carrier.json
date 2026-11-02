@@ -1,0 +1,48 @@
+{
+  "id": "yfhex",
+  "displayName": "YFHEX",
+  "aliases": [
+    "YFH",
+    "YFHEX Logistics",
+    "原飞航",
+    "原飛航物流",
+    "深圳市原飞航物流有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#00a2e9"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://toms.yfhex.com:6055/track_query_c.aspx?track_number={trackingNumber}",
+    "searchUrl": "https://www.yfhex.com/",
+    "canaryUrl": "https://www.yfhex.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "toms.yfhex.com"
+      ],
+      "pathPattern": "^/track_query_c\\.aspx$",
+      "params": [
+        "track_number"
+      ]
+    }
+  ],
+  "detection": []
+}

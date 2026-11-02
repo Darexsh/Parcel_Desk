@@ -1,0 +1,32 @@
+{
+  "carrier": "skyex-ae",
+  "records": [
+    {
+      "number": "5101637912",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.skyexpressinternational.com/Home/Tracking?trackingType=AWB&tid=5101637912",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "A search engine indexed this airwaybill lookup on Sky Express's own tracker; it was not opened, so the history was not visible."
+    }
+  ]
+}

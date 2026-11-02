@@ -1,0 +1,48 @@
+{
+  "id": "plycon",
+  "displayName": "Plycon Transportation Group",
+  "aliases": [
+    "Plycon",
+    "Plycon Van Lines",
+    "Plycon Vanlines",
+    "Plycon Van Lines, Inc.",
+    "Plycon Group"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#193974"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.plyconvanlines.com/singletrack.php?trackingnum={trackingNumber}",
+    "searchUrl": "https://track.plyconvanlines.com/",
+    "canaryUrl": "https://track.plyconvanlines.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.plyconvanlines.com"
+      ],
+      "pathPattern": "^/singletrack\\.php$",
+      "params": [
+        "trackingnum"
+      ]
+    }
+  ],
+  "detection": []
+}

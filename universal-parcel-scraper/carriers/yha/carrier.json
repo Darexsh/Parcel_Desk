@@ -1,0 +1,49 @@
+{
+  "id": "yha",
+  "displayName": "YHA Logistics",
+  "aliases": [
+    "YHA",
+    "YHA LOGISTICS",
+    "越航物流",
+    "越航国际物流"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "HK"
+    ]
+  },
+  "brand": {
+    "color": "#e83e17"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.yha56.com/page/indexDetail/indexDetail2.html?manifestId={trackingNumber}",
+    "searchUrl": "https://www.yha56.com/",
+    "canaryUrl": "https://www.yha56.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.yha56.com",
+        "yha56.com"
+      ],
+      "pathPattern": "^/page/indexDetail/indexDetail2\\.html$",
+      "params": [
+        "manifestId"
+      ]
+    }
+  ],
+  "detection": []
+}

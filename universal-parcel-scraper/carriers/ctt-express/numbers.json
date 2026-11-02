@@ -1,0 +1,548 @@
+{
+  "carrier": "ctt-express",
+  "records": [
+    {
+      "number": "0082800011298638008391",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reclamaci-C3-B3n-por-p-C3-A9rdida-de-mer/da714ccf4d8f261583",
+        "date": "2024-08-12"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0082800082809771393048",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/empresas/ctt-express/3C8C0C39-1EAE90226"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0082800082809771598159",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/empresas/ctt-express/3C8C0C39-1EAE90226"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0082900082909841703487",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6ab578d8357bf7e8557625dc",
+        "date": "2026-09-24"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0079350082809726059741",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-no-entregado/2db94a5e18722644d4",
+        "date": "2025-05-26",
+        "dateKind": "publication",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Customer shipment reference in complaint against CTT Express; its tracker returns the history."
+    },
+    {
+      "number": "0082800082909715943073001",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/incidencia-env-C3-ADo/cd1afa1286925151a9",
+        "date": "2025-01-03",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Official tracking binds both returned identities to this complete package code and supplies dated history. The sole-package counter is retained in the request."
+    },
+    {
+      "number": "0082800082909720036383",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/dhlparcel.es"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Posted in a review of DHL Parcel Spain, whose domestic parcels CTT Express carries; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0082800082808877471638001",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/no-entrega-paquete-perdido-/62d22c49cc409fd333",
+        "date": "2026-10-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Package code with its counter; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0008180008189706230861",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/pedido-rechazado-/50f816f3d235552efe",
+        "date": "2026-09-29",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Order shipped from Germany; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0008180082808932846108",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/no-recibo-mi-paquete-no-se-/681ce292812a43a081",
+        "date": "2026-09-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "CTT Express's tracker returns its history, including a customer service case between the scans."
+    },
+    {
+      "number": "0082800082808877409634",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/robo-de-paquete-por-parte-de-c/ba6d95f842b6c6cc2e",
+        "date": "2026-08-19",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0030180030183005437999",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/no-llega-mi-pedido/5303a0e92434c87f58",
+        "date": "2026-08-04",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Called an order number by the poster; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0079330079330002062837",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/envio-0079330079330002062837/27daec8d38cfe3ed58",
+        "date": "2026-08-01",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Complaint about this CTT Express shipment."
+    },
+    {
+      "number": "0029030029039700965786",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/incidencia-reiterada-en-envio-/2b75fe8e64fa68385a",
+        "date": "2026-07-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0048150048159700257317",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/incidencia-imposible-de-gestio/466f597bb14e814032",
+        "date": "2026-07-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "expedition_code"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0082800082909723542468",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/art-C3-ADculo-extraviado/b3f1a95f0163371e53",
+        "date": "2026-07-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment",
+        "service": "DHL Parcel Spain"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Shipped by DHL Parcel Spain through CTT Express; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0082800045229701221437",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/no-se-entrega-el-producto/e7380f64f589a8e6a6",
+        "date": "2026-07-21",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0079350082809762750023",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-no-entregado/5b99385d89a2e412f6",
+        "date": "2026-07-13",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0082900082909751578129",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/problemas-con-la-llegada-de-pe/60dd5d372e58d345b4",
+        "date": "2026-07-09",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "One of several numbers in one complaint; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0030100030109700521285",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/no-entregan-el-producto/d2b2a5c6d1031b8986",
+        "date": "2026-06-19",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "CTT Express's tracker returns its history, including depot holds and a new delivery round."
+    },
+    {
+      "number": "0010000040003150955203",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reclamaci-C3-B3n-por-demora-en-la-e/1eba02cf063e9e84d7",
+        "date": "2026-06-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Parcel handed over by Portugal's CTT; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0079330079330101648566",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/no-me-entregan-el-paquete/af909a6ae03a2cc26c",
+        "date": "2026-05-18",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Called an order number by the poster; CTT Express's tracker returns its history, ending on the way back to the sender."
+    },
+    {
+      "number": "0039110039119700246058",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/perdida-de-mi-pedido/6777e90b56befb4725",
+        "date": "2026-04-27",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0078710082809700603248",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-que-indican-haber-entr/4590666e2d3269de7b",
+        "date": "2026-04-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0082800011298899916408",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reclamaci-C3-B3n-formal-por-entrega/4ab6427c76fdc4e037",
+        "date": "2026-04-15",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0079320030290007376609",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/problema-con-entregas/5014a7ffcb9832c532",
+        "date": "2026-01-26",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0046380046389701025700",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/no-llega-mi-paquete-y-pone-ent/8f42f3c6884602b2ba",
+        "date": "2026-01-20",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Called an order number by the poster; CTT Express's tracker returns its history."
+    },
+    {
+      "number": "0082800082809765184432001",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/paquete-entregado/c726656f893a22802d",
+        "date": "2026-01-19",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "ctt-express",
+        "confidence": "high"
+      },
+      "note": "Reported as the last-mile number of an imported parcel; CTT Express's tracker returns its history."
+    }
+  ]
+}

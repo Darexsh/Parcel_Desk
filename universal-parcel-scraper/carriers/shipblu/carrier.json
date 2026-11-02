@@ -1,0 +1,93 @@
+{
+  "id": "shipblu",
+  "displayName": "ShipBlu",
+  "aliases": [
+    "شيب بلو",
+    "ShipBlu Technology"
+  ],
+  "region": {
+    "countries": [
+      "EG"
+    ]
+  },
+  "brand": {
+    "color": "#1c5bfe"
+  },
+  "selectable": true,
+  "timezone": "Africa/Cairo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "shipblu",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 789
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "offset_timestamps",
+    "eta",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://go.shipblu.com/en/{trackingNumber}",
+    "searchUrl": "https://go.shipblu.com/en/",
+    "canaryUrl": "https://go.shipblu.com/en/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "eta",
+      "delivered_at",
+      "failed_delivery_reason",
+      "sender_name",
+      "recipient_address",
+      "parcel_count",
+      "qr",
+      "payment_details",
+      "delivery_options"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "offset_timestamps",
+      "eta",
+      "delivered_at",
+      "failed_delivery_reason"
+    ],
+    "discarded": [
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "coordinates",
+      "parcel_count",
+      "qr",
+      "payment_details",
+      "delivery_options",
+      "remarks"
+    ],
+    "unavailable": [
+      "location",
+      "weight",
+      "service_name",
+      "proof_of_delivery",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "go.shipblu.com"
+      ],
+      "path": "^/(?:en|ar)/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

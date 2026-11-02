@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "hasBusinessException": false,
+  "result": {
+    "notExistsTrackingNumbers": [],
+    "waybills": [
+      {
+        "trackingNumber": "EE0000000000000UN00000000G0N",
+        "isEventCode": "DELIVERED",
+        "lastStatus": "DELIVERED",
+        "lastStatusCn": "派送完成",
+        "consigneeCountryCode": "US",
+        "consigneeZipCode": "00000",
+        "traces": [
+          { "eventDesc": "DELIVERED", "eventDescCn": "派送完成", "oprTimestamp": 1791038545000, "oprCity": "Example City", "oprCountry": "US" },
+          { "eventDesc": "OUT FOR DELIVERY", "eventDescCn": "开始派送", "oprTimestamp": 1791023905000, "oprCity": "Example City", "oprCountry": "US" },
+          { "eventDesc": "PROCESSED THROUGH USPS SORT FACILITY", "eventDescCn": "尾程转运中", "oprTimestamp": 1790948665000, "oprCity": "Example Hub", "oprCountry": "US" },
+          { "eventDesc": "Destination DC arrival", "eventDescCn": "到达站点", "oprTimestamp": 1790800003000, "oprCity": "Example Hub", "oprCountry": "US" },
+          { "eventDesc": "尾程供应商:[USPS] , 尾程跟踪号：[9214490000000000000003]", "eventDescCn": "同步尾程供应商", "oprTimestamp": 1790020481000 },
+          { "eventDesc": "Shipment Picked Up (A-SCAN)", "eventDescCn": "大包收货确认(A-SCAN)", "oprTimestamp": 1789805239000, "oprCountry": "JP" },
+          { "eventDesc": "订单已创建", "eventDescCn": "订单已创建", "oprTimestamp": 1789787563359, "oprCountry": "JP" }
+        ]
+      }
+    ]
+  }
+}

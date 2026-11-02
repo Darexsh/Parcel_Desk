@@ -1,0 +1,267 @@
+{
+  "status": {
+    "code": 200,
+    "message": "Success"
+  },
+  "errors": null,
+  "warnings": null,
+  "tracking": {
+    "rsm": "SAMPLE SENDER",
+    "numColli": 1,
+    "pesoDichiarato": null,
+    "pesoRiscontrato": null,
+    "ldv": 90000002,
+    "courierLdv": "6609000000200",
+    "externalCourierLdv": null,
+    "externalCourierCode": null,
+    "codServizio": "E",
+    "serviceCodeBookable": false,
+    "contrassegno": 0.0,
+    "rifMittente": "SAMPLE-REF-0001",
+    "dataSp": "2026-05-18",
+    "dateTimeEv": "2026-05-23T06:37:47Z",
+    "codEvento": 52,
+    "descEvento": "IN CONSEGNA",
+    "filiale": "SC1",
+    "descFiliale": "SAMPLE CITY",
+    "rsd": null,
+    "indirizzoDest": null,
+    "localitaDest": "Sample Town",
+    "provinciaDest": "SC",
+    "capDest": "00000",
+    "giacenzaId": null,
+    "causaleGiacenza": null,
+    "causaleId": null,
+    "modalitaSvincoloGiacenza": null,
+    "modalitaSvincoloId": null,
+    "warehouseStorageReleases": null,
+    "podId": null,
+    "linkInvioDisposizioniGiacenza": null,
+    "avanzamenti": [
+      {
+        "codiceAvanzamentoId": 1,
+        "codiceAvanzamento": "00",
+        "descrizioneAvanzamento": "SPEDIZIONE REGISTRATA A SISTEMA",
+        "dataOra": "2026-05-18T07:39:51Z",
+        "deliveryListId": null
+      },
+      {
+        "codiceAvanzamentoId": 5,
+        "codiceAvanzamento": "10",
+        "descrizioneAvanzamento": "IN CONSEGNA",
+        "dataOra": "2026-05-23T06:37:47Z",
+        "deliveryListId": null
+      }
+    ],
+    "colli": [
+      {
+        "packageIdentifier": 201,
+        "clientReferenceNumber": "SAMPLEPARCEL0003",
+        "esiti": [
+          {
+            "ID": 41,
+            "eventDateTime": "2026-05-18T07:39:51Z",
+            "codEsito": 50,
+            "descEsito": "DATI SPEDIZIONE TRASMESSI A LICCARDI",
+            "filiale": "OR1",
+            "descFiliale": "SAMPLE ORIGIN",
+            "autistaId": null,
+            "autista": "",
+            "note": ""
+          },
+          {
+            "ID": 42,
+            "eventDateTime": "2026-05-18T16:20:44Z",
+            "codEsito": 4,
+            "descEsito": "SPEDIZIONE PRESA IN CARICO",
+            "filiale": "HB1",
+            "descFiliale": "SAMPLE HUB",
+            "autistaId": null,
+            "autista": "",
+            "note": ""
+          },
+          {
+            "ID": 43,
+            "eventDateTime": "2026-05-18T16:20:45Z",
+            "codEsito": 47,
+            "descEsito": "ARRIVATO IN FILIALE",
+            "filiale": "HB1",
+            "descFiliale": "SAMPLE HUB",
+            "autistaId": null,
+            "autista": "",
+            "note": ""
+          },
+          {
+            "ID": 44,
+            "eventDateTime": "2026-05-18T16:21:05Z",
+            "codEsito": 47,
+            "descEsito": "ARRIVATO IN FILIALE",
+            "filiale": "HB1",
+            "descFiliale": "SAMPLE HUB",
+            "autistaId": null,
+            "autista": "",
+            "note": ""
+          },
+          {
+            "ID": 45,
+            "eventDateTime": "2026-05-19T05:42:55Z",
+            "codEsito": 18,
+            "descEsito": "RITARDO TRAZIONE",
+            "filiale": "HB1",
+            "descFiliale": "SAMPLE HUB",
+            "autistaId": null,
+            "autista": "",
+            "note": ""
+          },
+          {
+            "ID": 46,
+            "eventDateTime": "2026-05-19T19:49:51Z",
+            "codEsito": 48,
+            "descEsito": "IN TRANSITO",
+            "filiale": "HB1",
+            "descFiliale": "SAMPLE HUB",
+            "autistaId": null,
+            "autista": "",
+            "note": ""
+          },
+          {
+            "ID": 47,
+            "eventDateTime": "2026-05-19T19:49:58Z",
+            "codEsito": 91,
+            "descEsito": "SPEDIZIONE PARTITA",
+            "filiale": "HB1",
+            "descFiliale": "SAMPLE HUB",
+            "autistaId": null,
+            "autista": "",
+            "note": ""
+          },
+          {
+            "ID": 48,
+            "eventDateTime": "2026-05-20T03:14:00Z",
+            "codEsito": 72,
+            "descEsito": "ARRIVO SU FILIALE DI DESTINO",
+            "filiale": "SC1",
+            "descFiliale": "Sample City",
+            "autistaId": null,
+            "autista": "",
+            "note": ""
+          },
+          {
+            "ID": 49,
+            "eventDateTime": "2026-05-20T03:20:00Z",
+            "codEsito": 47,
+            "descEsito": "ARRIVATO IN FILIALE",
+            "filiale": "SC1",
+            "descFiliale": "Sample City",
+            "autistaId": null,
+            "autista": "",
+            "note": ""
+          },
+          {
+            "ID": 50,
+            "eventDateTime": "2026-05-21T08:21:41Z",
+            "codEsito": 52,
+            "descEsito": "IN CONSEGNA",
+            "filiale": "SC1",
+            "descFiliale": "Sample City",
+            "autistaId": 3,
+            "autista": "SAMPLE DRIVER THREE",
+            "note": ""
+          },
+          {
+            "ID": 51,
+            "eventDateTime": "2026-05-21T12:06:49Z",
+            "codEsito": 101,
+            "descEsito": "GUASTO AUTOMEZZO",
+            "filiale": "SC1",
+            "descFiliale": "Sample City",
+            "autistaId": 3,
+            "autista": "SAMPLE DRIVER THREE",
+            "note": ""
+          },
+          {
+            "ID": 52,
+            "eventDateTime": "2026-05-22T06:20:47Z",
+            "codEsito": 49,
+            "descEsito": "IN GESTIONE",
+            "filiale": "SC1",
+            "descFiliale": "Sample City",
+            "autistaId": null,
+            "autista": "",
+            "note": ""
+          },
+          {
+            "ID": 53,
+            "eventDateTime": "2026-05-22T07:05:12Z",
+            "codEsito": 71,
+            "descEsito": "CONSEGNA PREVISTA PER IL GIORNO SUCCESSIVO",
+            "filiale": "SC1",
+            "descFiliale": "Sample City",
+            "autistaId": null,
+            "autista": "",
+            "note": ""
+          },
+          {
+            "ID": 54,
+            "eventDateTime": "2026-05-23T06:37:47Z",
+            "codEsito": 52,
+            "descEsito": "IN CONSEGNA",
+            "filiale": "SC1",
+            "descFiliale": "Sample City",
+            "autistaId": 4,
+            "autista": "SAMPLE DRIVER FOUR",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "pickups": [
+      {
+        "pickupId": 1,
+        "events": [
+          {
+            "eventCodeId": 2,
+            "eventDescription": "Ritiro assegnato ad autista",
+            "dateTime": "2026-03-24T08:25:30+01:00",
+            "parcelIds": [
+              101,
+              102,
+              103,
+              104
+            ]
+          },
+          {
+            "eventCodeId": 1,
+            "eventDescription": "Ritiro registrato",
+            "dateTime": "2026-03-24T08:25:30+01:00",
+            "parcelIds": [
+              101,
+              102,
+              103,
+              104
+            ]
+          }
+        ]
+      }
+    ],
+    "driver": {
+      "name": "SAMPLE DRIVER FOUR",
+      "currentPosition": {
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "timestamp": "2026-05-23T07:00:00Z"
+      }
+    },
+    "estimatedArrivalDate": null,
+    "estimatedArrivalTimeStart": null,
+    "estimatedArrivalTimeFinish": null,
+    "geocodingData": null,
+    "returnEnabled": false,
+    "returnShipmentId": null,
+    "dataPrevistaConsegnaTeorica": "2026-05-21",
+    "dataPrevistaConsegnaAggiornata": "2026-05-23",
+    "prenotazione": null,
+    "bookingCanBeCanceled": false,
+    "bookingCanBeCanceledInfoMsg": null
+  }
+}

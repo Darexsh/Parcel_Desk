@@ -1,0 +1,121 @@
+{
+  "id": "imile",
+  "displayName": "iMile",
+  "aliases": [
+    "iMile Delivery",
+    "iMile Express"
+  ],
+  "region": {
+    "countries": [
+      "AE",
+      "SA",
+      "AU",
+      "BR",
+      "MX",
+      "CO",
+      "IT",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#0032a0"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dubai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "imile",
+    "steps": [
+      "direct",
+      "retry",
+      "cainiao"
+    ],
+    "recognition": {
+      "rank": 997
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://www.imile.com/en/track?waybillNo={trackingNumber}",
+    "searchUrl": "https://www.imile.com/en/track",
+    "helpUrl": "https://help.imile.com/",
+    "canaryUrl": "https://www.imile.com/en/track",
+    "shows": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "eta",
+      "delivery_tracking_number",
+      "proof_of_delivery",
+      "signatory",
+      "contact_details",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "destination_country"
+    ],
+    "discarded": [
+      "eta",
+      "delivery_tracking_number",
+      "proof_of_delivery",
+      "signatory",
+      "contact_details",
+      "payment_details"
+    ],
+    "unavailable": [
+      "weight",
+      "delivered_at",
+      "offset_timestamps",
+      "service_name",
+      "recipient_name",
+      "recipient_address"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "imile.com",
+        "www.imile.com"
+      ],
+      "pathPattern": "^/[^/]+/track/?$",
+      "params": [
+        "waybillNo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "imile-3",
+      "pattern": "^IM0601\\d{10}$",
+      "confidence": "high"
+    },
+    {
+      "id": "imile-1",
+      "pattern": "^IM\\d{14}$",
+      "confidence": "low"
+    },
+    {
+      "id": "imile-4",
+      "pattern": "^49\\d{12}$",
+      "confidence": "low",
+      "preferred": true
+    },
+    {
+      "id": "imile-2",
+      "pattern": "^6(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])2[4-9]\\d{6}$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

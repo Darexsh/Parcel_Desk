@@ -1,0 +1,62 @@
+{
+  "carrier": "4sides",
+  "records": [
+    {
+      "number": "FS026362381RU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://zoon.ru/msk/utility_service/kurerskaya_sluzhba_4sides/reviews/",
+        "date": "2021-04-09",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A customer's review on 4Sides' Zoon page gives this as the waybill (накладная) of a parcel handed to a 4Sides courier in Saint Petersburg that did not show in tracking."
+    },
+    {
+      "number": "FS027259187RU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://kureroff.ru/kompanii/4sides/otzyvy/",
+        "date": "2023-02-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A customer's review on Kureroff's 4Sides page gives this as the waybill (номер накладной) of a slow document delivery, and 4Sides' tracker shows it delivered."
+    },
+    {
+      "number": "FS025390386RU",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://kureroff.ru/kompanii/4sides/otzyvy/",
+        "date": "2018-12-01",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "A customer's review on Kureroff's 4Sides page gives this as the waybill (номер накладной) of a delivery from Saint Petersburg to the Murmansk region, and 4Sides' reply to the complaint names the same shipment."
+    }
+  ]
+}

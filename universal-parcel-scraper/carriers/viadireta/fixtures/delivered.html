@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Seguir Envio | Transporte e Estafetagem em Portugal</title>
+    <link rel="canonical" href="https://www.viadireta.pt/tracking">
+    <script>window.vdRecaptchaKey = 'synthetic-site-key';</script>
+    <script src="https://www.google.com/recaptcha/api.js?render=synthetic-site-key" async defer></script>
+</head>
+<body>
+    <main>
+        <section class="page-header">
+    <h1>Seguir Envio</h1>
+    <p>Acompanhe o estado da sua encomenda em tempo real.</p>
+</section>
+
+<section class="content">
+    <div class="container" style="max-width:680px;">
+        <div class="card form-light">
+            <form method="GET" action="https://www.viadireta.pt/tracking">
+                <div class="form-field">
+                    <label for="codigo">Número de envio</label>
+                    <input type="text" id="codigo" name="codigo"
+                           placeholder="Ex: VD0000000000"
+                           value="VD900000000017"
+                           autocomplete="off">
+                </div>
+                <button type="submit" class="btn btn-block">SEGUIR ENVIO</button>
+            </form>
+
+                <div class="tracking-status-card" style="margin-top:24px;">
+                    <div class="ts-icon ts-success"></div>
+                    <div class="ts-meta">
+                        <div class="ts-cod">Envio Nº VD900000000017</div>
+                        <div class="ts-label">Entregue com Sucesso</div>
+                                                                            <div class="ts-date">Última atualização: 04-03-2026 16:12:40</div>
+                                            </div>
+                </div>
+
+                <div class="trk-actions">
+                    <button type="button" class="trk-action-btn trk-action-btn-info" onclick="trkOpenModal('trkInfoModal')">
+                        OBTER MAIS INFORMAÇÕES
+                    </button>
+                </div>
+
+                <div class="card" style="padding:28px 28px 24px;">
+                    <h3>Histórico de Movimentos</h3>
+                    <div class="tracking-timeline" data-tl-state="tl-success">
+                            <div class="tl-item">
+                                <div class="tl-dot tl-success"></div>
+                                <div class="tl-body">
+                                    <div class="tl-time">04-03-2026 16:12:40</div>
+                                    <div class="tl-desc">Realizado com Sucesso</div>
+                                </div>
+                            </div>
+                            <div class="tl-item">
+                                <div class="tl-dot tl-transit"></div>
+                                <div class="tl-body">
+                                    <div class="tl-time">04-03-2026 08:05:13</div>
+                                    <div class="tl-desc">O Serviço encontra-se em Distribuição</div>
+                                </div>
+                            </div>
+                            <div class="tl-item">
+                                <div class="tl-dot tl-transit"></div>
+                                <div class="tl-body">
+                                    <div class="tl-time">03-03-2026 11:20:00</div>
+                                    <div class="tl-desc">Agendado com Destinatário para. Nova data: 04-03-2026</div>
+                                </div>
+                            </div>
+                            <div class="tl-item">
+                                <div class="tl-dot tl-warehouse"></div>
+                                <div class="tl-body">
+                                    <div class="tl-time">02-03-2026 22:47:09</div>
+                                    <div class="tl-desc">Entrada no Armazém da Viadirecta</div>
+                                </div>
+                            </div>
+                            <div class="tl-item">
+                                <div class="tl-dot tl-purple"></div>
+                                <div class="tl-body">
+                                    <div class="tl-time">02-03-2026 17:31:26</div>
+                                    <div class="tl-desc">Atribuição da Zona de Distribuição</div>
+                                </div>
+                            </div>
+                            <div class="tl-item">
+                                <div class="tl-dot tl-other"></div>
+                                <div class="tl-body">
+                                    <div class="tl-time">02-03-2026 17:31:26</div>
+                                    <div class="tl-desc">Registo na Plataforma da Viadirecta</div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+            <div id="trkInfoModal" class="cand-overlay" role="dialog" aria-modal="true">
+                <div class="cand-dialog">
+                    <form id="trkInfoForm" action="https://www.viadireta.pt/tracking/info" novalidate>
+                        <input type="hidden" name="_token" value="synthetic-token" autocomplete="off">
+                        <input type="hidden" name="codigo" value="VD900000000017">
+                        <label>Nº de Envio</label>
+                        <label>E-mail <span class="req">*</span></label>
+                        <input type="email" name="email" required maxlength="200">
+                        <textarea name="mensagem" required maxlength="3000" rows="5"></textarea>
+                    </form>
+                </div>
+            </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="site-footer">
+        <form method="GET" action="https://www.viadireta.pt/tracking" class="footer-track-form">
+            <label for="footerTrackCode">Seguir Envio</label>
+            <input id="footerTrackCode" type="text" name="codigo" placeholder="Número de envio: VD0000000000" autocomplete="off">
+            <button type="submit">SEGUIR</button>
+        </form>
+        <p>© 2026 ViaDireta - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

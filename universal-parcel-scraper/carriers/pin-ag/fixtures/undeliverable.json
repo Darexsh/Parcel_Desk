@@ -1,0 +1,59 @@
+{
+  "carrier": "PIN",
+  "statuses": [
+    {
+      "statusCode": "990100",
+      "returnCode": null,
+      "stage": "Sortierzentrum",
+      "statusDescription": "Sortierzentrum",
+      "label": "Die Sendung wurde im Sortierzentrum bearbeitet.",
+      "timeStamp": "2026-08-03T19:00:00.000+00:00",
+      "status": "Sortierzentrum",
+      "deliveredTo": null,
+      "shipmentUserCarrier": "0000000",
+      "deliveryAddress": {
+        "name": "PRIVATE NAME",
+        "street": "PRIVATE STREET",
+        "houseNumber": "0",
+        "postCode": "00000",
+        "city": "PRIVATE CITY"
+      },
+      "carrierDestinationCode": "0000-00-00-00-00-0",
+      "productTypeCode": "PO",
+      "customerNumber": "PRIVATE CUSTOMER",
+      "depotAddress": {
+        "name": "PRIVATE DEPOT",
+        "street": "PRIVATE STREET",
+        "postCode": "00000",
+        "city": "PRIVATE CITY"
+      }
+    },
+    {
+      "statusCode": "990400",
+      "returnCode": null,
+      "stage": "Unzustellbar",
+      "statusDescription": "Die Sendung konnte nicht zugestellt werden.",
+      "label": "",
+      "timeStamp": "2026-08-04T11:30:00.000+00:00",
+      "status": "Unzustellbar",
+      "deliveredTo": null,
+      "shipmentUserCarrier": "0000000",
+      "deliveryAddress": {
+        "name": "PRIVATE NAME",
+        "street": "PRIVATE STREET",
+        "houseNumber": "0",
+        "postCode": "00000",
+        "city": "PRIVATE CITY"
+      },
+      "carrierDestinationCode": "0000-00-00-00-00-0",
+      "productTypeCode": "PO",
+      "customerNumber": "PRIVATE CUSTOMER",
+      "depotAddress": {
+        "name": "PRIVATE DEPOT",
+        "street": "PRIVATE STREET",
+        "postCode": "00000",
+        "city": "PRIVATE CITY"
+      }
+    }
+  ]
+}

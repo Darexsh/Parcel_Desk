@@ -1,0 +1,78 @@
+{
+  "id": "dragon-star-curier",
+  "displayName": "Dragon Star Curier",
+  "aliases": [
+    "DSC",
+    "DSC Dragon Star Curier",
+    "DSC-DragonStarCurier",
+    "Dragon Star"
+  ],
+  "region": {
+    "countries": [
+      "RO"
+    ]
+  },
+  "brand": {
+    "color": "#000b8c"
+  },
+  "selectable": true,
+  "timezone": "Europe/Bucharest",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dragon-star-curier",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 828
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://dragonstarcurier.ro/tracking-awb?awb={trackingNumber}",
+    "searchUrl": "https://dragonstarcurier.ro/tracking-awb",
+    "canaryUrl": "https://dragonstarcurier.ro/tracking-awb",
+    "shows": [
+      "status",
+      "history",
+      "location"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "offset_timestamps",
+      "delivery_partner",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "destination_country"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "dragonstarcurier.ro",
+        "www.dragonstarcurier.ro"
+      ],
+      "pathPattern": "^/tracking-awb/?$",
+      "params": [
+        "awb"
+      ]
+    }
+  ],
+  "detection": []
+}

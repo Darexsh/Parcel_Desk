@@ -1,0 +1,48 @@
+{
+  "id": "holisol",
+  "displayName": "Holisol",
+  "aliases": [
+    "Holisol Logistics",
+    "Holisol Logistics Pvt Ltd",
+    "Holisol Logistics Private Limited",
+    "Holisol Delivery"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#13467b"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.holisoldelivery.com/api/tracking/TrackAwb?awb={trackingNumber}",
+    "searchUrl": "https://holisollogistics.com/track-shipment/",
+    "canaryUrl": "https://holisollogistics.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.holisoldelivery.com",
+        "holisoldelivery.com"
+      ],
+      "pathPattern": "^/api/tracking/TrackAwb/?$",
+      "params": [
+        "awb"
+      ]
+    }
+  ],
+  "detection": []
+}

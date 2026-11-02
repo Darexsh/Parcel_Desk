@@ -1,0 +1,85 @@
+{
+  "id": "st-courier",
+  "displayName": "ST Courier",
+  "aliases": [
+    "ST Courier PVT LTD",
+    "ST Courier Private Limited"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#c7262f"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "st-courier",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 753
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at"
+  ],
+  "portal": {
+    "searchUrl": "https://www.stcourier.com/",
+    "canaryUrl": "https://www.stcourier.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "origin",
+      "destination",
+      "service_name",
+      "parcel_count",
+      "awb_date",
+      "recipient_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "service_name",
+      "parcel_count",
+      "awb_date",
+      "recipient_name"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "offset_timestamps",
+      "provider_code",
+      "sender_name",
+      "recipient_address"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "stcourier.com"
+      ],
+      "pathPattern": "^/cgi_bin/show_status1\\.php$",
+      "params": [
+        "awb_no",
+        "awb"
+      ]
+    }
+  ],
+  "detection": []
+}

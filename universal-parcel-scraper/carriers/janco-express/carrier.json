@@ -1,0 +1,61 @@
+{
+  "id": "janco-express",
+  "displayName": "JANCO Express",
+  "aliases": [
+    "Janco Express Limited",
+    "駿高速運",
+    "駿高速運有限公司",
+    "骏高速运"
+  ],
+  "region": {
+    "countries": [
+      "HK",
+      "CN",
+      "BD",
+      "LK",
+      "KH",
+      "IN",
+      "PK",
+      "VN",
+      "MM"
+    ]
+  },
+  "brand": {
+    "color": "#00967e"
+  },
+  "selectable": true,
+  "timezone": "Asia/Hong_Kong",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.jancoexpress.com/cargotracking_xp/itxp/xpop/xpordertrack?as_order_no={trackingNumber}",
+    "searchUrl": "https://www.jancoexpress.com/track-trace-2/",
+    "canaryUrl": "https://track.jancoexpress.com/cargotracking_xp/itxp/xpop/xpordertrack",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.jancoexpress.com"
+      ],
+      "pathPattern": "^/cargotracking_xp/itxp/xpop/xpordertrack/?$",
+      "params": [
+        "as_order_no"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "janco-express-1",
+      "pattern": "^JE[A-Z][A-Y]\\d{8}$",
+      "confidence": "low"
+    }
+  ]
+}

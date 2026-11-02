@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Hrvatska Pošta - Tracking</title>
+    <link rel="stylesheet" type="text/css" href="/styles/tnt.css" />
+</head>
+<body>
+    <div class="default-layout">
+<div class="default-layout__navigation">
+    <header class="navigation__unauthorized">
+        <div class="navigation-searchbar d-none d-md-flex flex-row justify-content-center align-items-center">
+            <form class="needs-validation" enctype="multipart/form-data" method="get" action="/en/tracking/trackingdata">
+                <input class="form-control searchbar-input" type="text" id="barcode" name="barcode" placeholder="example RB267096010HR" data-required-message="Field is required" data-invalid-barcode-message="Invalid shipment number format" />
+            </form>
+        </div>
+    </header>
+</div>
+        <div class="default-layout__content">
+<style>
+    .progress-bar-width-0::after { width: 0; }
+    .progress-bar-width-100::after { width: 100%; }
+</style>
+    <div class="track__n__trace">
+        <div class="track__n__trace-header d-flex flex-column flex-row align-content-center justify-content-start">
+            <div class="d-flex flex-column flex-sm-row flex-wrap ml-2 mt-3 align-items-sm-center justify-content-sm-start">
+                <div class="d-flex flex-column align-content-center justify-content-start mr-sm-5 mt-3 mt-0">
+                    <span class="mb-2 mb-md-3 Text-Style-4">
+                        Item number
+                    </span>
+                    <h5 class="Text-Style-6-md-134">RR900000022HR</h5>
+                </div>
+                <div class="d-flex d-flex-none mt-3 mt-0">
+                        <div class="d-flex flex-column align-content-center justify-content-start mr-5 ml-sm-5">
+                            <span class="mb-2 mb-md-3 Text-Style-4">
+                                Weight
+                            </span>
+                            <span class="Text-Style-6">9 g</span>
+                        </div>
+                    <div class="d-flex flex-column align-content-center justify-content-start">
+                        <span class="mb-2 mb-md-3 Text-Style-4">
+                            Delivered by
+                        </span>
+                        <img class="mx-auto" height="28" src="/assets/icons/postoffice-logo-mini.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="track__n__trace-progressbar d-flex flex-column flex-md-row align-items-center justify-content-start doter-matrix-top">
+            <h5 class="d-block d-md-none Text-Style-49 text-center my-auto">
+                Delivered
+                <span class="Text-Style-50"><br /></span>
+                (Wednesday 18.03.2026) u
+                <span class="Text-Style-50"> 99000 PRIMJERGRAD</span>
+            </h5>
+            <div class="track__n__trace-progressbar-wrapper progress-bar-width-0 d-flex justify-content-start align-items-center">
+                <h5 class="Text-Style ml-5 d-none d-md-block">
+                    Delivered
+                        <span class="Text-Style-2">
+                            Wednesday 18.03.2026 06:49
+                        </span>
+                </h5>
+            </div>
+        </div>
+        <div class="track__n__trace-events mb-5">
+            <div class="track__n__trace-events-content">
+                        <div class="event__status__item d-flex flex-column justify-content-start align-content-start">
+                            <div class="event__status__item-header d-flex align-items-center justify-content-md-between text-uppercase text-nowrap text-success">
+                                <img class="event__status__item-header__icon" src="/assets/icons/events-circle-yellow.svg" />
+                                <span class="mr-md-auto Text-Style-13">Delivered
+</span>
+                                <hr class="d-none d-md-block ml-md-4" />
+                            </div>
+                            <div class="event__status__item-content d-flex flex-column justify-content-center align-content-start">
+                                    <div class="d-none d-md-flex row justify-content-start align-items-center">
+                                        <div class="col-6 col-lg-4 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 Text-Style-20-md-6">
+                                                18.03.2026
+                                                <span class="ml-3">06:49:48</span>
+                                            </span>
+                                            <span class="Text-Style-52-md-4">Wednesday</span>
+                                        </div>
+                                        <div class="col-6 col-lg-8 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 text-style-19-md-12">Item delivered to sender</span>
+                                                <span class="text-style-52-md-4">99000 PRIMJERGRAD</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex d-md-none flex-column justify-content-start align-items-start">
+                                        <span class="mb-2 Text-Style-20-md-6">18.03.2026 Wednesday 06:49:48</span>
+                                        <span class="mb-2 Text-Style-51">
+                                            Item delivered to sender, 99000, PRIMJERGRAD
+                                        </span>
+                                    </div>
+                                <div class="event__status__item-content__line event__status__item-content__line-yellow"></div>
+                            </div>
+                        </div>
+                        <div class="event__status__item d-flex flex-column justify-content-start align-content-start">
+                            <div class="event__status__item-header d-flex align-items-center justify-content-md-between text-uppercase text-nowrap">
+                                <img class="event__status__item-header__icon" src="/assets/icons/events-circle-checked.svg" />
+                                <span class="mr-md-auto Text-Style-13">Delivery at the Post Office
+</span>
+                                <hr class="d-none d-md-block ml-md-4" />
+                            </div>
+                            <div class="event__status__item-content d-flex flex-column justify-content-center align-content-start">
+                                    <div class="d-none d-md-flex row justify-content-start align-items-center mt-4">
+                                        <div class="col-6 col-lg-4 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 Text-Style-20-md-6">
+                                                18.03.2026
+                                                <span class="ml-3">06:49:13</span>
+                                            </span>
+                                            <span class="Text-Style-52-md-4">Wednesday</span>
+                                        </div>
+                                        <div class="col-6 col-lg-8 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2">Item can be picked up at the Post Office</span>
+                                                <span class="text-style-52-md-4">99000 PRIMJERGRAD</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-md-flex row justify-content-start align-items-center mt-4">
+                                        <div class="col-6 col-lg-4 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 Text-Style-20-md-6">
+                                                10.03.2026
+                                                <span class="ml-3">07:34:28</span>
+                                            </span>
+                                            <span class="Text-Style-52-md-4">Tuesday</span>
+                                        </div>
+                                        <div class="col-6 col-lg-8 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2">Item can be picked up at the Post Office</span>
+                                                <span class="text-style-52-md-4">99119 PRIMJERGRAD-ISTOK</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-md-flex row justify-content-start align-items-center mt-4">
+                                        <div class="col-6 col-lg-4 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 Text-Style-20-md-6">
+                                                10.03.2026
+                                                <span class="ml-3">07:34:28</span>
+                                            </span>
+                                            <span class="Text-Style-52-md-4">Tuesday</span>
+                                        </div>
+                                        <div class="col-6 col-lg-8 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2">Item can be picked up at the Post Office</span>
+                                                <span class="text-style-52-md-4">99119 PRIMJERGRAD-ISTOK</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex d-md-none flex-column justify-content-start align-items-start">
+                                        <span class="mb-2 Text-Style-20-md-6">18.03.2026 Wednesday 06:49:13</span>
+                                        <span class="mb-2 Text-Style-51">
+                                            Item can be picked up at the Post Office, 99000, PRIMJERGRAD
+                                        </span>
+                                    </div>
+                                    <div class="d-flex d-md-none flex-column justify-content-start align-items-start">
+                                        <span class="mb-2 Text-Style-20-md-6">10.03.2026 Tuesday 07:34:28</span>
+                                        <span class="mb-2 Text-Style-51">
+                                            Item can be picked up at the Post Office, 99119, PRIMJERGRAD-ISTOK
+                                        </span>
+                                    </div>
+                                    <div class="d-flex d-md-none flex-column justify-content-start align-items-start">
+                                        <span class="mb-2 Text-Style-20-md-6">10.03.2026 Tuesday 07:34:28</span>
+                                        <span class="mb-2 Text-Style-51">
+                                            Item can be picked up at the Post Office, 99119, PRIMJERGRAD-ISTOK
+                                        </span>
+                                    </div>
+                                <div class="event__status__item-content__line"></div>
+                            </div>
+                        </div>
+                        <div class="event__status__item d-flex flex-column justify-content-start align-content-start">
+                            <div class="event__status__item-header d-flex align-items-center justify-content-md-between text-uppercase text-nowrap">
+                                <img class="event__status__item-header__icon" src="/assets/icons/events-circle-checked.svg" />
+                                <span class="mr-md-auto Text-Style-13">Return to sender
+</span>
+                                <hr class="d-none d-md-block ml-md-4" />
+                            </div>
+                            <div class="event__status__item-content d-flex flex-column justify-content-center align-content-start">
+                                    <div class="d-none d-md-flex row justify-content-start align-items-center mt-4">
+                                        <div class="col-6 col-lg-4 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 Text-Style-20-md-6">
+                                                17.03.2026
+                                                <span class="ml-3">07:31:20</span>
+                                            </span>
+                                            <span class="Text-Style-52-md-4">Tuesday</span>
+                                        </div>
+                                        <div class="col-6 col-lg-8 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2">Item returned to sender</span>
+                                                <span class="text-style-52-md-4">99119 PRIMJERGRAD-ISTOK</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-md-flex row justify-content-start align-items-center mt-4">
+                                        <div class="col-6 col-lg-4 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 Text-Style-20-md-6">
+                                                17.03.2026
+                                                <span class="ml-3">07:31:19</span>
+                                            </span>
+                                            <span class="Text-Style-52-md-4">Tuesday</span>
+                                        </div>
+                                        <div class="col-6 col-lg-8 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2">Item not delivered</span>
+                                                <span class="text-style-52-md-4">99119 PRIMJERGRAD-ISTOK</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex d-md-none flex-column justify-content-start align-items-start">
+                                        <span class="mb-2 Text-Style-20-md-6">17.03.2026 Tuesday 07:31:20</span>
+                                        <span class="mb-2 Text-Style-51">
+                                            Item returned to sender, 99119, PRIMJERGRAD-ISTOK
+                                        </span>
+                                    </div>
+                                    <div class="d-flex d-md-none flex-column justify-content-start align-items-start">
+                                        <span class="mb-2 Text-Style-20-md-6">17.03.2026 Tuesday 07:31:19</span>
+                                        <span class="mb-2 Text-Style-51">
+                                            Item not delivered, 99119, PRIMJERGRAD-ISTOK
+                                        </span>
+                                    </div>
+                                <div class="event__status__item-content__line"></div>
+                            </div>
+                        </div>
+                        <div class="event__status__item d-flex flex-column justify-content-start align-content-start">
+                            <div class="event__status__item-header d-flex align-items-center justify-content-md-between text-uppercase text-nowrap">
+                                <img class="event__status__item-header__icon" src="/assets/icons/events-circle-checked.svg" />
+                                <span class="mr-md-auto Text-Style-13">Delivery in progress
+</span>
+                                <hr class="d-none d-md-block ml-md-4" />
+                            </div>
+                            <div class="event__status__item-content d-flex flex-column justify-content-center align-content-start">
+                                    <div class="d-none d-md-flex row justify-content-start align-items-center mt-4">
+                                        <div class="col-6 col-lg-4 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 Text-Style-20-md-6">
+                                                09.03.2026
+                                                <span class="ml-3">09:40:22</span>
+                                            </span>
+                                            <span class="Text-Style-52-md-4">Monday</span>
+                                        </div>
+                                        <div class="col-6 col-lg-8 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2">Delivery attempt</span>
+                                                <span class="text-style-52-md-4">99104 PRIMJERGRAD</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-md-flex row justify-content-start align-items-center mt-4">
+                                        <div class="col-6 col-lg-4 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 Text-Style-20-md-6">
+                                                09.03.2026
+                                                <span class="ml-3">07:53:52</span>
+                                            </span>
+                                            <span class="Text-Style-52-md-4">Monday</span>
+                                        </div>
+                                        <div class="col-6 col-lg-8 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2">Item is out for delivery</span>
+                                                <span class="text-style-52-md-4">99104 PRIMJERGRAD</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex d-md-none flex-column justify-content-start align-items-start">
+                                        <span class="mb-2 Text-Style-20-md-6">09.03.2026 Monday 09:40:22</span>
+                                        <span class="mb-2 Text-Style-51">
+                                            Delivery attempt, 99104, PRIMJERGRAD
+                                        </span>
+                                    </div>
+                                    <div class="d-flex d-md-none flex-column justify-content-start align-items-start">
+                                        <span class="mb-2 Text-Style-20-md-6">09.03.2026 Monday 07:53:52</span>
+                                        <span class="mb-2 Text-Style-51">
+                                            Item is out for delivery, 99104, PRIMJERGRAD
+                                        </span>
+                                    </div>
+                                <div class="event__status__item-content__line"></div>
+                            </div>
+                        </div>
+                        <div class="event__status__item d-flex flex-column justify-content-start align-content-start">
+                            <div class="event__status__item-header d-flex align-items-center justify-content-md-between text-uppercase text-nowrap">
+                                <img class="event__status__item-header__icon" src="/assets/icons/events-circle-checked.svg" />
+                                <span class="mr-md-auto Text-Style-13">Received
+</span>
+                                <hr class="d-none d-md-block ml-md-4" />
+                            </div>
+                            <div class="event__status__item-content d-flex flex-column justify-content-center align-content-start">
+                                    <div class="d-none d-md-flex row justify-content-start align-items-center mt-4">
+                                        <div class="col-6 col-lg-4 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 Text-Style-20-md-6">
+                                                06.03.2026
+                                                <span class="ml-3">13:12:49</span>
+                                            </span>
+                                            <span class="Text-Style-52-md-4">Friday</span>
+                                        </div>
+                                        <div class="col-6 col-lg-8 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2">Item received</span>
+                                                <span class="text-style-52-md-4">99000 PRIMJERGRAD</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex d-md-none flex-column justify-content-start align-items-start">
+                                        <span class="mb-2 Text-Style-20-md-6">06.03.2026 Friday 13:12:49</span>
+                                        <span class="mb-2 Text-Style-51">
+                                            Item received, 99000, PRIMJERGRAD
+                                        </span>
+                                    </div>
+                                <div class="event__status__item-content__line"></div>
+                            </div>
+                        </div>
+                        <div class="event__status__item d-flex flex-column justify-content-start align-content-start">
+                            <div class="event__status__item-header d-flex align-items-center justify-content-md-between text-uppercase text-nowrap">
+                                <img class="event__status__item-header__icon" src="/assets/icons/events-circle-checked.svg" />
+                                <span class="mr-md-auto Text-Style-13">Announced
+</span>
+                                <hr class="d-none d-md-block ml-md-4" />
+                            </div>
+                            <div class="event__status__item-content d-flex flex-column justify-content-center align-content-start">
+                                    <div class="d-none d-md-flex row justify-content-start align-items-center mt-4">
+                                        <div class="col-6 col-lg-4 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 Text-Style-20-md-6">
+                                                06.03.2026
+                                                <span class="ml-3">12:20:28</span>
+                                            </span>
+                                            <span class="Text-Style-52-md-4">Friday</span>
+                                        </div>
+                                        <div class="col-6 col-lg-8 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2">Item announced</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-md-flex row justify-content-start align-items-center mt-4">
+                                        <div class="col-6 col-lg-4 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2 Text-Style-20-md-6">
+                                                06.03.2026
+                                                <span class="ml-3">12:16:03</span>
+                                            </span>
+                                            <span class="Text-Style-52-md-4">Friday</span>
+                                        </div>
+                                        <div class="col-6 col-lg-8 d-flex flex-column justify-content-start">
+                                            <span class="mr-5 mb-2">Item announced</span>
+                                                <span class="text-style-52-md-4">99000 PRIMJERGRAD</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex d-md-none flex-column justify-content-start align-items-start">
+                                        <span class="mb-2 Text-Style-20-md-6">06.03.2026 Friday 12:20:28</span>
+                                        <span class="mb-2 Text-Style-51">
+                                            Item announced, , 
+                                        </span>
+                                    </div>
+                                    <div class="d-flex d-md-none flex-column justify-content-start align-items-start">
+                                        <span class="mb-2 Text-Style-20-md-6">06.03.2026 Friday 12:16:03</span>
+                                        <span class="mb-2 Text-Style-51">
+                                            Item announced, 99000, PRIMJERGRAD
+                                        </span>
+                                    </div>
+                                <div class="event__status__item-content__line"></div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+        </div>
+<footer class="default-layout__footer footer">
+    <a href="https://www.posta.hr/cesta-pitanja/120" target="_blank" class="cursor">FAQ</a>
+</footer>
+    </div>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/js/site.js?v=synthetic"></script>
+</body>
+</html>

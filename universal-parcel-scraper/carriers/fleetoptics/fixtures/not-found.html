@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FleetOptics - Tracking</title>
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <div class="main_wrap">
+
+            <header>
+                <div class="fo-top-row-header">
+                    <div class="container">
+                        <div class="fo-inner-wrap">
+                            <div class="fo-header-left">
+                                <p class="fo-logo-text">Tracking</p>
+                            </div>
+                            <div class="fo-header-right">
+                                <div class="fo-language-picker">
+                                    <a href="fr/?tracking_number=FOAESH0000000" class="fo-btn">
+                                        <span>FR</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fo-bottom-header-row">
+                    <div class="container">
+                        <div class="fo-search-wrap">
+                            <form class="fo-search" action="">
+                                <div class="fo-search-field fo-input-field">
+                                    <input type="text" name="tracking_number" value="FOAESH0000000" placeholder="Enter Your Tracking Number" autofocus autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                                    <button class="fobtn-search" type="submit"><img src="assets/images/icons/rightBrandArrowFull.svg" alt="Search"></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="fo-tracking-sec negative-space">
+                <div class="container">
+
+                    <div class="comm-first-info-box fo-tracking-info fo-borderBox fo-no-search">
+                        <div class="fo-trak-info-desc">
+                            <span class="fo-icon"><img src="assets/images/icons/warning.svg" alt="warning"></span>
+                            <p>Tracking number not found.</p>
+                            <div class="fo-trak-secondary-text">If the order was placed recently, shipment details may not be available yet.<br> Please try again later, or check that the tracking number has been entered correctly.</div>
+                        </div>
+                    </div>
+                    <div class="inner-wrap">
+                        <div class="fo-col fo-right-col">
+                            <div class="fo-col-head">
+                                <h2 class="title">Support</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+        // Make the PHP variable available globally to JS
+        window.steps_counter = 0;
+        window.postal_code_tomatch = "";
+        window.postal_code2_tomatch = "";
+        let apiv2Host = "https://foxapi-v2.example.invalid";
+        let apiV1Host = "https://foxapi.example.invalid";
+    </script>
+</body>
+
+</html>

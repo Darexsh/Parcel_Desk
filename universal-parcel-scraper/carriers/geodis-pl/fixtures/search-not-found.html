@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>For Client - PEKAES</title>
+<base href="https://strefaklienta.pekaes.geodis.pl/">
+</head>
+<body>
+<div id="main">
+<div class="inside">
+<div class="mod_login two_column tableform login block">
+<h1>Strefa klienta</h1>
+<form action="en/" id="tl_login" method="post">
+<input type="hidden" name="FORM_SUBMIT" value="tl_login">
+<input type="hidden" name="REQUEST_TOKEN" value="00000000000000000000000000000000">
+<input type="text" name="username" id="username" class="text" maxlength="64" value="">
+</form>
+</div>
+<div class="mod_article block" id="formularz-wyszukiwania-przesylki">
+<form action="" method="post">
+    <div class="title">Śledzenie przesyłek</div>
+    <input type="hidden" name="REQUEST_TOKEN" value="00000000000000000000000000000000" />
+    <input type="text" name="ShNumber" value="PL9999999999999999" placeholder="Enter Shipment No.">
+    <input type="submit" value="Search">
+</form>
+            <p>Shipment with such number does not exist</p>
+</div>
+<div class="mod_article downloads block" id="dokumenty-do-pobrania"></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><title>Fast Tracker</title></head>
+<body>
+<form method="post" action="./fast-tracker.aspx?fasttracker_action=search&amp;ConsignmentNumber=ZZZZ0000123" id="form1">
+	<input name="ConsignmentNumber" type="text" id="ConsignmentNumber" title="Enter a minimum of 4 characters" class="large-input" />
+	<input type="hidden" name="fasttracker_action" value="search" />
+</form>
+<div id="consTable_divConsignments" class="toll-table">
+	<table>
+	<thead>
+	<tr>
+		<th style="width:17.5%">Consignment Number</th>
+		<th style="width:12.5%">Created</th>
+		<th style="width:20%">From</th>
+		<th style="width:20%">To</th>
+		<th style="width:10%">Items</th>
+		<th style="width:10%">Weight</th>
+		<th style="width:10%">Volume</th>
+	</tr>
+	</thead>
+	<tr>
+		<td style="width:17.5%" ><a href='fast-tracker.aspx?ConsignmentDetailId=0a1b2c3d-0000-4000-8000-000000000001'>ZZZZ0000123-01</a>
+		</td>
+		<td style="width:12.5%">01/07/26 15:03</td>
+		<td style="width:20%">Sampletown<br>AUCKLAND</td>
+		<td style="width:20%">Exampleville<br>WELLINGTON</td>
+		<td style="width:10%">1</td>
+		<td style="width:10%">12.5</td>
+		<td style="width:10%">0.0500</td>
+	</tr>
+	<tr>
+		<td style="width:17.5%" ><a href='fast-tracker.aspx?ConsignmentDetailId=0a1b2c3d-0000-4000-8000-000000000002'>ZZZZ0000123-02</a>
+		</td>
+		<td style="width:12.5%">01/07/26 15:03</td>
+		<td style="width:20%">Sampletown<br>AUCKLAND</td>
+		<td style="width:20%">Exampleville<br>WELLINGTON</td>
+		<td style="width:10%">1</td>
+		<td style="width:10%">3</td>
+		<td style="width:10%">0.0100</td>
+	</tr>
+	</table>
+</div>
+</body>
+</html>

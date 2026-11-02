@@ -1,0 +1,122 @@
+{
+  "carrier": "chunghwa-post",
+  "entries": [
+    {
+      "wording": "交寄郵件",
+      "stage": "accepted",
+      "language": "zh-Hant",
+      "confirmedBy": "portal",
+      "note": "Posted at a counter; the tracker pads it with full-width spaces."
+    },
+    {
+      "wording": "運輸途中",
+      "stage": "in_transit",
+      "language": "zh-Hant",
+      "confirmedBy": "portal",
+      "note": "Sent on from a sorting unit; the remark names the receiving office."
+    },
+    {
+      "wording": "安排投遞中",
+      "stage": "in_transit",
+      "language": "zh-Hant",
+      "confirmedBy": "portal",
+      "note": "At the delivery office, being scheduled for a round."
+    },
+    {
+      "wording": "郵件投遞中",
+      "stage": "out_for_delivery",
+      "language": "zh-Hant",
+      "confirmedBy": "portal",
+      "note": "Out with the carrier."
+    },
+    {
+      "wording": "查無此號碼資料！！",
+      "language": "zh-Hant",
+      "confirmedBy": "official-doc",
+      "note": "The tracker's no-result message for an unknown number."
+    },
+    {
+      "wording": "寄往科威特國際快捷郵件，該國不提供查詢服務。",
+      "language": "zh-Hant",
+      "confirmedBy": "official-doc",
+      "note": "A help line on the tracker page; one example of destinations that give no tracking."
+    },
+    {
+      "code": "L",
+      "wording": "到達出口互換局",
+      "stage": "in_transit",
+      "language": "zh-Hant",
+      "confirmedBy": "live",
+      "note": "International tracking scan from the public EB500200 query."
+    },
+    {
+      "code": "6",
+      "wording": "離開進口局",
+      "stage": "in_transit",
+      "language": "zh-Hant",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-27",
+      "note": "A departure from an office on the item's way, seen before its arrival at the outward office of exchange."
+    },
+    {
+      "code": "C",
+      "wording": "已出口－資料詳如右方",
+      "stage": "in_transit",
+      "language": "zh-Hant",
+      "confirmedBy": "live",
+      "note": "International tracking scan from the public EB500200 query."
+    },
+    {
+      "code": "Y",
+      "wording": "郵袋接收",
+      "stage": "in_transit",
+      "language": "zh-Hant",
+      "confirmedBy": "live",
+      "note": "International tracking scan from the public EB500200 query."
+    },
+    {
+      "code": "D",
+      "wording": "到達寄達國互換局",
+      "stage": "in_transit",
+      "language": "zh-Hant",
+      "confirmedBy": "live",
+      "note": "International tracking scan from the public EB500200 query."
+    },
+    {
+      "code": "E",
+      "wording": "海關查驗",
+      "stage": "customs",
+      "language": "zh-Hant",
+      "confirmedBy": "live",
+      "note": "International tracking scan from the public EB500200 query."
+    },
+    {
+      "wording": "離開寄達國互換局",
+      "stage": "in_transit",
+      "language": "zh-Hant",
+      "confirmedBy": "source",
+      "note": "Left the inward office of exchange. Quoted from the international tracker by customers."
+    },
+    {
+      "wording": "到達寄達國投遞局",
+      "stage": "in_transit",
+      "language": "zh-Hant",
+      "confirmedBy": "source",
+      "note": "Reached the delivery office. Quoted from the international tracker by customers."
+    },
+    {
+      "wording": "投遞不成功",
+      "stage": "failed_attempt",
+      "language": "zh-Hant",
+      "confirmedBy": "bundle",
+      "note": "The former tracker's script names its H scan so, and customers quote it from the international tracker. The reason and the next step, such as a return to the sender, come as remarks the adapter discards."
+    },
+    {
+      "wording": "投遞成功",
+      "stage": "delivered",
+      "language": "zh-Hant",
+      "confirmedBy": "portal",
+      "note": "Seen in archived replies of the former tracker; customers quote it from the international tracker, whose script gives this scan a signatory."
+    }
+  ]
+}

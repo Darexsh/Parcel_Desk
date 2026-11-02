@@ -1,0 +1,27 @@
+{
+  "shipment": {
+    "id": null,
+    "state": null,
+    "delivered": false,
+    "progress": 0,
+    "sender": {
+      "town": null,
+      "province": ""
+    },
+    "recipient": {
+      "town": null,
+      "province": null
+    },
+    "total_packages": 0,
+    "warning": ""
+  },
+  "steps": [],
+  "response": {
+    "Delivered": false,
+    "Avnz": 0
+  },
+  "payload": {
+    "endpoint": "https://wcfservices.myhrparcel.com/TrackPubblico/getTrackPubblicoInfo/History",
+    "data": []
+  }
+}

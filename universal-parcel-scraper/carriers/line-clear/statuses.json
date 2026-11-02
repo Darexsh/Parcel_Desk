@@ -1,0 +1,20 @@
+{
+  "carrier": "line-clear",
+  "entries": [
+    {"code": "WB024", "wording": "Awaiting Shipment Handover", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The waybill exists but the sender has not handed the parcel over; the script of Line Clear's own tracker maps it to the first progress step."},
+    {"code": "WB027", "wording": "Order Picked Up from Station/Platform/Hotspot", "stage": "accepted", "language": "en", "confirmedBy": "live"},
+    {"code": "WB002", "wording": "Checked In at Pickup Branch", "stage": "accepted", "language": "en", "confirmedBy": "live"},
+    {"code": "WB004", "wording": "Checked Out and Departed to Branch", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "The tracker's script rewords this code's manifest out scan at the pickup branch."},
+    {"code": "WB009", "wording": "Checked Out and Departed to Hub", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "The tracker's script rewords this code's manifest out scan at the pickup hub."},
+    {"code": "WB013", "wording": "Transit Cage Out", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "The tracker's script rewords this code's manifest out scan."},
+    {"code": "WB030", "wording": "Checked Out and Departed to Station", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "The tracker's script rewords this code's manifest out from a station."},
+    {"code": "WB031", "wording": "Checked Out and Departed to Platform/Hotspot", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "The tracker's script rewords this code's manifest out from a platform or hotspot."},
+    {"code": "WB051", "wording": "Manifest Out Scan Completed", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "WB033", "wording": "Check In at Exchange Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "WB044", "wording": "Manifest Out Scan at Exchange Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Left the exchange hub for the delivering branch."},
+    {"code": "WB017", "wording": "Ready for Delivery", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At the delivering branch before a rider takes it out; the tracking page shows it as Parcel has Arrived."},
+    {"code": "WB018", "wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"code": "WB020", "wording": "Undelivered", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "The tracker's script marks this code undelivered and adds the reason to it."},
+    {"code": "WB021", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live"}
+  ]
+}

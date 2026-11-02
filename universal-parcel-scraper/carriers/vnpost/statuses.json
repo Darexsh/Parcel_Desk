@@ -1,0 +1,17 @@
+{
+  "carrier": "vnpost",
+  "entries": [
+    {"wording": "Chấp nhận gửi (Posting/collection)", "stage": "accepted", "language": "vi", "confirmedBy": "portal"},
+    {"wording": "Đi khỏi bưu cục (Departure from PO)", "stage": "in_transit", "language": "vi", "confirmedBy": "portal", "note": "Left a post office; the office follows in brackets."},
+    {"wording": "Đã đến bưu cục (Arrival at PO)", "stage": "in_transit", "language": "vi", "confirmedBy": "portal", "note": "Arrived at a post office; the office follows in brackets."},
+    {"wording": "Chuyển tiếp (Forward)", "stage": "in_transit", "language": "vi", "confirmedBy": "portal", "note": "Forwarded, here to a new address after a failed attempt."},
+    {"wording": "Đã giao cho bưu tá", "stage": "out_for_delivery", "language": "vi", "confirmedBy": "portal", "note": "Handed to the postman."},
+    {"wording": "Phát không thành công (Not Delivered)", "stage": "failed_attempt", "language": "vi", "confirmedBy": "portal"},
+    {"wording": "Chưa phát được.", "stage": "failed_attempt", "language": "vi", "confirmedBy": "portal", "note": "Delivery-detail line for a failed attempt; a numbered reason follows."},
+    {"wording": "Phát thành công (Delivered)", "stage": "delivered", "language": "vi", "confirmedBy": "portal"},
+    {"wording": "Đã phát thành công", "stage": "delivered", "language": "vi", "confirmedBy": "portal", "note": "The item's summary status and delivery-detail line."},
+    {"wording": "Chuyển hoàn (Return)", "stage": "returned", "language": "vi", "confirmedBy": "portal", "note": "Returned to the sender."},
+    {"wording": "[COD]Đã thu tiền", "language": "vi", "confirmedBy": "portal", "note": "Cash on delivery collected from the recipient."},
+    {"wording": "[COD]Trả tiền cho người gửi", "language": "vi", "confirmedBy": "portal", "note": "Cash on delivery paid to the sender."}
+  ]
+}

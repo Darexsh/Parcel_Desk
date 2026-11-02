@@ -1,0 +1,10 @@
+{
+  "carrier": "jadlog",
+  "entries": [
+    {"wording": "COLETA SOLICITADA", "stage": "registered", "language": "pt", "confirmedBy": "official-doc", "note": "The sender asked for a pickup. Listed in the event and status examples of Jadlog's API integration document."},
+    {"wording": "EMISSAO", "stage": "accepted", "language": "pt", "confirmedBy": "official-doc", "note": "The consignment note was issued. Listed in the event and status examples of Jadlog's API integration document."},
+    {"wording": "ENTREGUE", "stage": "delivered", "language": "pt", "confirmedBy": "official-doc", "note": "Listed in the event and status examples of Jadlog's API integration document. The example prints it with a trailing space."},
+    {"wording": "Em transferência", "stage": "in_transit", "language": "pt", "confirmedBy": "source", "note": "Moving between Jadlog units. SuperFrete's guide to Jadlog tracking lists it among the steps."},
+    {"wording": "Em rota de entrega", "stage": "out_for_delivery", "language": "pt", "confirmedBy": "source", "note": "SuperFrete's guide to Jadlog tracking lists it among the steps."}
+  ]
+}

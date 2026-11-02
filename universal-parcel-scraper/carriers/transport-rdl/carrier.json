@@ -1,0 +1,46 @@
+{
+  "id": "transport-rdl",
+  "displayName": "Transport RDL",
+  "aliases": [
+    "RDL",
+    "Transport Rivière-du-Loup"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#0a2240"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://transportrdl.com/suivre-un-colis/?tracking-number={trackingNumber}",
+    "searchUrl": "https://transportrdl.com/suivre-un-colis/",
+    "canaryUrl": "https://transportrdl.com/suivre-un-colis/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "transportrdl.com",
+        "www.transportrdl.com"
+      ],
+      "pathPattern": "^/suivre-un-colis/?$",
+      "params": [
+        "tracking-number"
+      ]
+    }
+  ],
+  "detection": []
+}

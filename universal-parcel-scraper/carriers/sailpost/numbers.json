@@ -1,0 +1,29 @@
+{
+  "carrier": "sailpost",
+  "records": [
+    {
+      "number": "2119110250035103",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://it.trustpilot.com/reviews/688a37ae15a39b5f1a74501c",
+        "date": "2025-07-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "number of an act Sailpost tried to deliver",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "A review on Sailpost's Trustpilot page gives it as the number of an act Sailpost tried to deliver; Sailpost's tracking service returns its history."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "efs-asia",
+  "displayName": "EFS Asia",
+  "aliases": [
+    "EFS Co., Ltd.",
+    "이에프에스",
+    "주식회사 이에프에스",
+    "EFS Korea"
+  ],
+  "region": {
+    "countries": [
+      "KR"
+    ]
+  },
+  "brand": {
+    "color": "#224f8c"
+  },
+  "selectable": true,
+  "timezone": "Asia/Seoul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://web.efs.asia/script/users/tracking.php?search_no={trackingNumber}&mode=search&lang=",
+    "searchUrl": "https://web.efs.asia/script/users/tracking.php",
+    "canaryUrl": "https://efs.asia/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "web.efs.asia"
+      ],
+      "pathPattern": "^/script/users/tracking\\.php$",
+      "params": [
+        "search_no"
+      ]
+    }
+  ],
+  "detection": []
+}

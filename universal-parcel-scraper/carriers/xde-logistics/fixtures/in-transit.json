@@ -1,0 +1,26 @@
+{
+  "tracking_number": "XSO000000000002",
+  "package_id": "00000000-0000-0000-0000-000000000000",
+  "consignee_name": null,
+  "city": "Sample Town",
+  "province": "Sample Province~Sample Town",
+  "current_status": "Received at hub",
+  "history": [
+    {
+      "status": "Received at hub",
+      "description": "The package was received at sorting hub.",
+      "created_at": "2026-05-04 07:41:09",
+      "updated_by": false,
+      "reference": "Sample South Hub",
+      "remarks": false
+    },
+    {
+      "status": "Picked at warehouse",
+      "description": "The package was picked by courier and will be delivered to warehouse for sorting.",
+      "created_at": "2026-05-03 16:02:55",
+      "updated_by": false,
+      "reference": "Sample Seller",
+      "remarks": false
+    }
+  ]
+}

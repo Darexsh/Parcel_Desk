@@ -1,0 +1,74 @@
+{
+  "json": {
+    "detail": [
+      {
+        "awb": "30000000001",
+        "awb_date": "September     2, 2026",
+        "reference_no": "",
+        "sender_name": "SAMPLE SENDER",
+        "from_city": "SURABAYA",
+        "consignee_name": "SAMPLE CONSIGNEE",
+        "consignee_postalcode": "00000",
+        "to_city": "DENPASAR",
+        "weight": "2",
+        "pieces": 1,
+        "goods_description": "DOKUMEN",
+        "special_instruction": "",
+        "status_delivery": "DELIVERED",
+        "status_date": "03-09-2026 14:12",
+        "status_description": "sample receiver"
+      }
+    ],
+    "track": [
+      {
+        "date": "02 Sep 2026 10:15",
+        "details": "RECEIVED AT ORIGIN STATION "
+      },
+      {
+        "date": "02 Sep 2026 10:20",
+        "details": "ARRIVED AT PSS SURABAYA"
+      },
+      {
+        "date": "02 Sep 2026 21:40",
+        "details": "DEPARTED FROM ORIGIN "
+      },
+      {
+        "date": "03 Sep 2026 06:05",
+        "details": "ARRIVED AT PSS DENPASAR"
+      },
+      {
+        "date": "03 Sep 2026 06:05",
+        "details": "ARRIVED AT PSS DENPASAR"
+      },
+      {
+        "date": "03 Sep 2026 08:30",
+        "details": "DELIVERY PROCESS BY COURIER "
+      },
+      {
+        "date": "03 Sep 2026 14:12",
+        "details": "RECEIVED BY SAMPLE RECEIVER, DATE 03 SEP 2026 14:12"
+      }
+    ]
+  },
+  "request": {
+    "headers": {},
+    "body": "{\"detail\":[{\"awb\":\"30000000001\",\"awb_date\":\"September     2, 2026\",\"reference_no\":\"\",\"sender_name\":\"SAMPLE SENDER\",\"from_city\":\"SURABAYA\",\"consignee_name\":\"SAMPLE CONSIGNEE\",\"consignee_postalcode\":\"00000\",\"to_city\":\"DENPASAR\",\"weight\":\"2\",\"pieces\":1,\"goods_description\":\"DOKUMEN\",\"special_instruction\":\"\",\"status_delivery\":\"DELIVERED\",\"status_date\":\"03-09-2026 14:12\",\"status_description\":\"sample receiver\"}],\"track\":[{\"date\":\"02 Sep 2026 10:15\",\"details\":\"RECEIVED AT ORIGIN STATION \"},{\"date\":\"02 Sep 2026 10:20\",\"details\":\"ARRIVED AT PSS SURABAYA\"},{\"date\":\"02 Sep 2026 21:40\",\"details\":\"DEPARTED FROM ORIGIN \"},{\"date\":\"03 Sep 2026 06:05\",\"details\":\"ARRIVED AT PSS DENPASAR\"},{\"date\":\"03 Sep 2026 06:05\",\"details\":\"ARRIVED AT PSS DENPASAR\"},{\"date\":\"03 Sep 2026 08:30\",\"details\":\"DELIVERY PROCESS BY COURIER \"},{\"date\":\"03 Sep 2026 14:12\",\"details\":\"RECEIVED BY SAMPLE RECEIVER, DATE 03 SEP 2026 14:12\"}]}",
+    "response": {
+      "code": 200,
+      "message": "OK"
+    },
+    "cookies": [],
+    "filename": null,
+    "http_response": {
+      "data": null,
+      "headers": null,
+      "status": null
+    }
+  },
+  "html": "<div class=\"row pandu-row\">\t<div class=\"col-md-6 col-xs-12\">  <h4 class=\"pull-left\">Customer Details</h4><table class=\"awbinfo\">\t<tbody>\t\t<tr><td class=\"prop\">AWB No</td><td class=\"val\">30000000001</td></tr>\t\t<tr><td class=\"prop\">Date</td><td class=\"val\">SEPTEMBER     2, 2026</td></tr>\t\t<tr><td class=\"prop\">Consignee Name</td><td class=\"val\">SAMPLE CONSIGNEE</td></tr>\t\t<tr><td class=\"prop\">Sender</td><td class=\"val\">SAMPLE SENDER</td></tr>\t\t<tr><td class=\"prop\">From</td><td class=\"val\">SURABAYA</td></tr>\t\t<tr><td class=\"prop\">To</td><td class=\"val\">DENPASAR</td></tr>\t\t<tr><td class=\"prop\">Weight</td><td class=\"val\">2 KG</td></tr>\t\t<tr><td class=\"prop\">Pieces</td><td class=\"val\">1 ITEM</td></tr>\t\t<tr><td class=\"prop\">Special Instruction</td><td class=\"val\"> </td></tr>\t\t<tr><td class=\"prop\">Note</td><td class=\"val\">DOKUMEN </td></tr>\t\t<tr><td class=\"prop\">Status</td><td class=\"val\">DELIVERED</td></tr>\t\t<tr><td class=\"prop\">Received by</td><td class=\"val\">SAMPLE RECEIVER</td></tr>\t\t<tr><td class=\"prop\">Signature</td><td class=\"val\">\t\t\tNot available\t\t</td></tr>\t\t<tr><td class=\"prop\">Accepted Prove</td><td class=\"val\">\t\t\tNot available\t\t</td></tr>\t</tbody></table>\t</div>\t<div class=\"col-md-6 col-xs-12\">  <h4>Parcel Tracking</h4>\t\t<ul class=\"tracks\"><li class=\"track-item\">\n\t\t\t\t\t\t\t\t\t<div class=\"inner-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"date-time\">\n\t\t\t\t\t\t\t\t\t\t\t02 Sep 2026 10:15<br>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"bullet\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t\t\tRECEIVED AT ORIGIN STATION \n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</li><li class=\"track-item\">\n\t\t\t\t\t\t\t\t\t<div class=\"inner-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"date-time\">\n\t\t\t\t\t\t\t\t\t\t\t02 Sep 2026 10:20<br>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"bullet\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t\t\tARRIVED AT PSS SURABAYA\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</li><li class=\"track-item\">\n\t\t\t\t\t\t\t\t\t<div class=\"inner-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"date-time\">\n\t\t\t\t\t\t\t\t\t\t\t02 Sep 2026 21:40<br>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"bullet\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t\t\tDEPARTED FROM ORIGIN \n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</li><li class=\"track-item\">\n\t\t\t\t\t\t\t\t\t<div class=\"inner-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"date-time\">\n\t\t\t\t\t\t\t\t\t\t\t03 Sep 2026 06:05<br>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"bullet\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t\t\tARRIVED AT PSS DENPASAR\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</li><li class=\"track-item\">\n\t\t\t\t\t\t\t\t\t<div class=\"inner-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"date-time\">\n\t\t\t\t\t\t\t\t\t\t\t03 Sep 2026 06:05<br>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"bullet\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t\t\tARRIVED AT PSS DENPASAR\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</li><li class=\"track-item\">\n\t\t\t\t\t\t\t\t\t<div class=\"inner-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"date-time\">\n\t\t\t\t\t\t\t\t\t\t\t03 Sep 2026 08:30<br>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"bullet\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t\t\tDELIVERY PROCESS BY COURIER \n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</li><li class=\"track-item\">\n\t\t\t\t\t\t\t\t\t<div class=\"inner-wrapper\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"date-time\">\n\t\t\t\t\t\t\t\t\t\t\t03 Sep 2026 14:12<br>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"bullet\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t\t\t\tRECEIVED BY SAMPLE RECEIVER, DATE 03 SEP 2026 14:12\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"lightbox-overlay\"></div><div class=\"popup-viewer-container\"><img src=\"\" id=\"image-view\" class=\"img-fluid\"></div></div>",
+  "raw": {
+    "action": "awb_tracking",
+    "awb": "30000000001",
+    "nonce_v": false
+  }
+}

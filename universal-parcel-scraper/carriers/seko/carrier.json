@@ -1,0 +1,121 @@
+{
+  "id": "seko",
+  "displayName": "SEKO Logistics",
+  "aliases": [
+    "SEKO",
+    "SEKO Omni",
+    "OmniParcel",
+    "SEKO OmniParcel"
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "GB",
+      "AU",
+      "NZ"
+    ]
+  },
+  "brand": {
+    "color": "#ef3e42"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "seko",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 854
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "eta",
+    "service_name",
+    "destination_country",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://www.sekologistics.com/en/track/?trackingNumbers={trackingNumber}",
+    "searchUrl": "https://www.sekologistics.com/en/track/",
+    "canaryUrl": "https://www.sekologistics.com/en/track/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "eta",
+      "service_name",
+      "origin",
+      "destination",
+      "destination_country",
+      "postcodes",
+      "customer_reference",
+      "parcel_count",
+      "weight",
+      "delivered_at",
+      "signatory"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "service_name",
+      "destination_country",
+      "weight"
+    ],
+    "discarded": [
+      "progress_rail",
+      "origin",
+      "destination",
+      "postcodes",
+      "customer_reference",
+      "parcel_count",
+      "delivered_at",
+      "signatory"
+    ],
+    "unavailable": [
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "sekologistics.com"
+      ],
+      "pathPattern": "^/en/track/?$",
+      "params": [
+        "trackingNumbers"
+      ]
+    },
+    {
+      "domains": [
+        "track.omniparcel.com"
+      ],
+      "pathPattern": "^/$",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "domains": [
+        "track.omniparcel.com"
+      ],
+      "path": "^/([A-Z0-9]+)/?$"
+    },
+    {
+      "domains": [
+        "track.omniparcel.com"
+      ],
+      "path": "^/\\d+-([A-Z0-9]+)/?$"
+    }
+  ],
+  "detection": []
+}

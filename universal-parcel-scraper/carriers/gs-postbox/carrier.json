@@ -1,0 +1,106 @@
+{
+  "id": "gs-postbox",
+  "displayName": "GS Postbox",
+  "aliases": [
+    "GS포스트박스",
+    "포스트박스",
+    "GS25 편의점택배",
+    "GS25편의점택배",
+    "CVSnet",
+    "CVSnet 편의점택배",
+    "GS Networks",
+    "GS네트웍스"
+  ],
+  "region": {
+    "countries": [
+      "KR"
+    ]
+  },
+  "brand": {
+    "color": "#e36808"
+  },
+  "selectable": true,
+  "timezone": "Asia/Seoul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gs-postbox",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 634
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "pickup_point",
+    "service_name",
+    "delivery_partner"
+  ],
+  "portal": {
+    "url": "https://www.cvsnet.co.kr/invoice/tracking.do?invoice_no={trackingNumber}",
+    "searchUrl": "https://www.cvsnet.co.kr/reservation-inquiry/delivery/index.do",
+    "canaryUrl": "https://www.cvsnet.co.kr/reservation-inquiry/delivery/index.do",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "pickup_point",
+      "service_name",
+      "delivery_partner",
+      "sender_name",
+      "recipient_name",
+      "order_contents"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "pickup_point",
+      "service_name",
+      "delivery_partner"
+    ],
+    "discarded": [
+      "sender_name",
+      "recipient_name",
+      "order_contents"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "offset_timestamps",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.cvsnet.co.kr",
+        "cvsnet.co.kr"
+      ],
+      "pathPattern": "^/invoice/tracking\\.do$",
+      "params": [
+        "invoice_no"
+      ]
+    },
+    {
+      "domains": [
+        "www.cvsnet.co.kr",
+        "cvsnet.co.kr"
+      ],
+      "pathPattern": "^/reservation-inquiry/delivery/index\\.do$",
+      "params": [
+        "invoice_no"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,109 @@
+{
+  "id": "evri-uk",
+  "displayName": "Evri UK",
+  "aliases": [
+    "Hermes UK",
+    "Evri Domestic",
+    "Hermes Domestic UK"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#00014d"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "evri-uk",
+    "steps": [
+      "direct",
+      "browser"
+    ],
+    "recognition": {
+      "rank": 615,
+      "pattern": "^(?:(?:[HT][0-9A-Z]{5}|C00HHA)\\d{10}|\\d{16})$"
+    },
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "eta",
+    "sender_name",
+    "delivered_at",
+    "provider_code",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://www.evri.com/track/parcel/{trackingNumber}/details",
+    "searchUrl": "https://www.evri.com/track-a-parcel",
+    "helpUrl": "https://www.evri.com/help-and-support/help-centre/receiving/awaiting-delivery/tracking-status",
+    "canaryUrl": "https://www.evri.com/track-a-parcel",
+    "shows": [
+      "status",
+      "history",
+      "eta",
+      "eta_window",
+      "sender_name",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "eta_window",
+      "sender_name",
+      "delivered_at",
+      "provider_code",
+      "service_name"
+    ],
+    "discarded": [
+      "recipient_details",
+      "address",
+      "proof_of_delivery",
+      "gps",
+      "issued_credentials"
+    ],
+    "unavailable": [
+      "location"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "evri.com",
+        "www.evri.com"
+      ],
+      "path": "^/track/parcel/([A-Za-z0-9]{16})/details/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "evri-uk-domestic",
+      "pattern": "^[HT][0-9A-Z]{4}[AD]\\d{10}$",
+      "confidence": "low",
+      "checksum": "evri",
+      "preferred": true
+    },
+    {
+      "id": "evri-uk-1",
+      "pattern": "^[HT][0-9A-Z]{5}\\d{10}$",
+      "confidence": "low",
+      "checksum": "evri"
+    },
+    {
+      "id": "evri-uk-2",
+      "pattern": "^\\d{16}$",
+      "confidence": "low",
+      "checksum": "gs1"
+    },
+    {
+      "id": "evri-uk-3",
+      "pattern": "^C00HHA\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

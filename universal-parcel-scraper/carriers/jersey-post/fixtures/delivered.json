@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "errors": null,
+  "data": [
+    {
+      "result": 1,
+      "trackingNumber": "LX000000014JE",
+      "currentStatusText": "Item delivered to customer",
+      "currentStatusCode": 1,
+      "carrier": {
+        "carrierID": 10,
+        "carrierName": "Jersey Post",
+        "carrierEmail": null,
+        "carrierPhone": "",
+        "carrierLogo": "data:image/png;base64,AAAA",
+        "transitTime": null,
+        "redirectURL": "",
+        "carrierNotes": ""
+      },
+      "events": [
+        {"eventDate": "2026-03-12", "eventTime": "10:41:00", "eventLocation": "Sampleland", "eventDesc": "Item delivered to customer", "eventStatusCode": 1},
+        {"eventDate": "2026-03-11", "eventTime": "09:05:00", "eventLocation": "Sampleland", "eventDesc": "Item Available for Collection by Customer", "eventStatusCode": 1},
+        {"eventDate": "2026-03-11", "eventTime": "07:30:00", "eventLocation": "Sampleland", "eventDesc": "Unsuccessful Delivery Attempt - Incorrect/illegible/incomplete address", "eventStatusCode": 1},
+        {"eventDate": "2026-03-10", "eventTime": "16:12:00", "eventLocation": "Sampleland", "eventDesc": "Departed international distribution centre", "eventStatusCode": 1},
+        {"eventDate": "2026-03-10", "eventTime": "08:47:00", "eventLocation": "Sampleland", "eventDesc": "Item received at inbound office of exchange", "eventStatusCode": 1},
+        {"eventDate": "2026-03-10", "eventTime": "08:47:00", "eventLocation": "Sampleland", "eventDesc": "Item received at inbound office of exchange", "eventStatusCode": 1},
+        {"eventDate": "2026-03-08", "eventTime": "21:03:00", "eventLocation": "Sampleland", "eventDesc": "Bag received in destination country", "eventStatusCode": 1},
+        {"eventDate": "2026-03-05", "eventTime": "15:20:00", "eventLocation": "Jersey", "eventDesc": "Item assigned to Flight", "eventStatusCode": 1},
+        {"eventDate": "2026-03-05", "eventTime": "11:58:00", "eventLocation": "United Kingdom of Great Britain and Northern Ireland", "eventDesc": "Arrived at international distribution centre", "eventStatusCode": 1},
+        {"eventDate": "2026-03-04", "eventTime": "17:26:33", "eventLocation": "", "eventDesc": "Outbound Item Despatched", "eventStatusCode": 1},
+        {"eventDate": "2026-03-04", "eventTime": "12:09:51", "eventLocation": "", "eventDesc": "Awaiting Item from sender", "eventStatusCode": 1},
+        {"eventDate": "2026-03-02", "eventTime": "19:44:07", "eventLocation": "", "eventDesc": "Awaiting Item from sender", "eventStatusCode": 1}
+      ],
+      "pod": {"podName": "SAMPLE SIGNER", "podDate": "2026-03-12", "podTime": "10:41"},
+      "active": true
+    }
+  ]
+}

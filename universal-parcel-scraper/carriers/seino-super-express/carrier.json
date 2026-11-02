@@ -1,0 +1,49 @@
+{
+  "id": "seino-super-express",
+  "displayName": "Seino Super Express",
+  "aliases": [
+    "SSX",
+    "セイノースーパーエクスプレス",
+    "セイノースーパーエクスプレス株式会社",
+    "Seino Super Express Co., Ltd.",
+    "西武運輸",
+    "Seibu Unyu"
+  ],
+  "region": {
+    "countries": [
+      "JP"
+    ]
+  },
+  "brand": {
+    "color": "#115aa2"
+  },
+  "selectable": true,
+  "timezone": "Asia/Tokyo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://inquire.trc.ssx.seino.co.jp/inquire/Main.jsp?uji.verbs=NAHS0010_find&uji.bean=com.seibu.bean.na.NAHS0010Bean&strDenpyoNo1={trackingNumber}",
+    "searchUrl": "https://inquire.trc.ssx.seino.co.jp/inquire/main.jsp",
+    "canaryUrl": "https://inquire.trc.ssx.seino.co.jp/inquire/main.jsp",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "inquire.trc.ssx.seino.co.jp"
+      ],
+      "pathPattern": "^/inquire/Main\\.jsp$",
+      "params": [
+        "strDenpyoNo1"
+      ]
+    }
+  ],
+  "detection": []
+}

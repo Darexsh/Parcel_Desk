@@ -1,0 +1,61 @@
+{
+  "error": false,
+  "message": null,
+  "data": {
+    "result": [
+      {
+        "local_Date": "10/1/2026 16:38:00",
+        "country": "China",
+        "location": "SAMPLE ISC",
+        "event": "Receive item at office of exchange (Otb)",
+        "category": "",
+        "nextOffice": "",
+        "extraInformation": "",
+        "eventDate": "2026-10-01T16:38:00"
+      },
+      {
+        "local_Date": "10/2/2026 03:12:00",
+        "country": "China",
+        "location": "SAMPLE ISC",
+        "event": "Insert item into bag (Otb)",
+        "category": "",
+        "nextOffice": "",
+        "extraInformation": "",
+        "eventDate": "2026-10-02T03:12:00"
+      },
+      {
+        "local_Date": "10/3/2026 09:40:00",
+        "country": "China",
+        "location": "SAMPLE ISC",
+        "event": "Send item abroad (EDI-received)",
+        "category": "A",
+        "nextOffice": "YEREVAN A",
+        "extraInformation": "",
+        "eventDate": "2026-10-03T09:40:00"
+      },
+      {
+        "local_Date": "10/9/2026 09:47:26",
+        "country": "Armenia",
+        "location": "YEREVAN",
+        "event": "Receive item at office of exchange (Inb)",
+        "category": "A",
+        "nextOffice": "YEREVAN A",
+        "extraInformation": "",
+        "eventDate": "2026-10-09T09:47:26"
+      },
+      {
+        "local_Date": "10/9/2026 10:02:11",
+        "country": "Armenia",
+        "location": "YEREVAN",
+        "event": "Send item to customs (Inb)",
+        "category": "A",
+        "nextOffice": "-",
+        "extraInformation": "",
+        "eventDate": "2026-10-09T10:02:11"
+      }
+    ],
+    "estimatedDelivery": null,
+    "isEMS": false,
+    "delivered": false
+  }
+}

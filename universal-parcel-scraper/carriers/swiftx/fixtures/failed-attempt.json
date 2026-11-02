@@ -1,0 +1,55 @@
+{
+  "data": {
+    "getOfficialWebsiteTrackingInfoBatch": {
+      "success": true,
+      "message": "",
+      "errorCode": null,
+      "results": [
+        {
+          "success": true,
+          "message": "",
+          "errorCode": null,
+          "trackingNo": "SWX000000000000000003",
+          "trackingEventList": [
+            {
+              "event": "DELIVERY_FAILED",
+              "description": "\"Delivery failed Note: Delivery address could not be located. Please verify the address. For assistance Contact SwiftX at +1 555-010-0000 or help@example.com\"",
+              "localTime": "2026-01-20 19:44:02",
+              "localGmtOffset": "GMT-08:00",
+              "location": "Delivery Location",
+              "iso3166Cc": "US",
+              "iso3166Sc": "CA",
+              "cityUppercase": "SAMPLETOWN",
+              "postalCode": "00007",
+              "podImageCount": 0
+            },
+            {
+              "event": "OUT_FOR_DELIVERY",
+              "description": "Out for Delivery",
+              "localTime": "2026-01-20 09:15:37",
+              "localGmtOffset": "GMT-08:00",
+              "location": "ABC STATION",
+              "iso3166Cc": "US",
+              "iso3166Sc": "CA",
+              "cityUppercase": "LAKEMONT",
+              "postalCode": "00008",
+              "podImageCount": 0
+            },
+            {
+              "event": "CREATED",
+              "description": "Shipping Label Created",
+              "localTime": "2026-01-19 03:42:21",
+              "localGmtOffset": "GMT-07:00",
+              "location": "ABC STATION",
+              "iso3166Cc": "US",
+              "iso3166Sc": "CA",
+              "cityUppercase": "LAKEMONT",
+              "postalCode": "00008",
+              "podImageCount": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

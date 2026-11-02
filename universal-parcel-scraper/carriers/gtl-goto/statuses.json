@@ -1,0 +1,25 @@
+{
+  "carrier": "gtl-goto",
+  "entries": [
+    {"wording": "Proceeding to carrier facility", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "First scan of the archived history: the parcel is on its way to the carrier's facility after pickup."},
+    {"wording": "Arrived at sorting center", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Shipment en route", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Assigned to Transport", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "Relayed from GTL's tracker for a parcel in a public TanyaPaket answer, before and after Shipment en route."},
+    {"wording": "Parcel ready for pick-up", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "Relayed from GTL's tracker in Cekresi's GTL guide, between two sorting centres: ready for the next leg's driver, not for the recipient, so the map overrides the shared rules' ready-for-pickup."},
+    {"wording": "Processed at delivery center", "stage": "in_transit", "language": "en", "confirmedBy": "source", "note": "Relayed in Cekresi's GTL guide, just before the delivery."},
+    {"wording": "Successfully delivered", "stage": "delivered", "language": "en", "confirmedBy": "source", "note": "Relayed in Cekresi's GTL guide."},
+    {"wording": "Paket sudah berangkat dari GTL Genteng Hub.", "stage": "in_transit", "language": "id", "confirmedBy": "source", "note": "Relayed for a GTL number in a public TanyaPaket answer; the sentence names the hub the parcel left."},
+    {"wording": "Kurir sedang menuju lokasi pengantaran.", "stage": "out_for_delivery", "language": "id", "confirmedBy": "source", "note": "Relayed for a GTL number in a public TanyaPaket answer: the courier is on the way to the delivery address."},
+    {"wording": "Paket sudah sampai dan diterima oleh Penerima sendiri.", "stage": "delivered", "language": "id", "confirmedBy": "source", "note": "Relayed for a GTL number in a public TanyaPaket answer. The clause after diterima names who took the parcel, so the adapter keeps the sentence up to diterima."},
+    {"wording": "Pesanan akan segera dipickup oleh kurir.", "stage": "registered", "language": "id", "confirmedBy": "live", "note": "In a live reply of the tracking page's lookup for a public number. The first scan, without a code: the order waits for a courier to collect it from the seller."},
+    {"code": "pickup_start", "wording": "Kurir sedang menuju lokasi pickup.", "stage": "registered", "language": "id", "confirmedBy": "live", "note": "In a live reply of the tracking page's lookup for a public number. The courier is on the way to collect the parcel from the seller."},
+    {"code": "pickup_success", "wording": "Pesanan sudah berhasil dipickup oleh kurir.", "stage": "accepted", "language": "id", "confirmedBy": "live", "note": "In a live reply of the tracking page's lookup for a public number. The courier collected the parcel from the seller."},
+    {"code": "pickup_station_out", "wording": "Paket sudah berangkat dari GTL Cikupa Hub.", "stage": "in_transit", "language": "id", "confirmedBy": "live", "note": "In a live reply of the tracking page's lookup for a public number. The parcel left the hub that took it in from the courier."},
+    {"code": "sc_inbound", "wording": "Paket telah tiba di Kosambi Sorting Center.", "stage": "in_transit", "language": "id", "confirmedBy": "live", "note": "In a live reply of the tracking page's lookup for a public number."},
+    {"code": "sc_outbound", "wording": "Paket sudah berangkat dari Kosambi Sorting Center.", "stage": "in_transit", "language": "id", "confirmedBy": "live", "note": "In a live reply of the tracking page's lookup for a public number."},
+    {"code": "station_inbound", "wording": "Paket telah tiba di GTL Blimbing Hub.", "stage": "in_transit", "language": "id", "confirmedBy": "live", "note": "In a live reply of the tracking page's lookup for a public number. The parcel reached the hub that delivers it."},
+    {"code": "delivery_start", "wording": "Paket sudah berangkat dari GTL Blimbing Hub.", "stage": "out_for_delivery", "language": "id", "confirmedBy": "live", "note": "In a live reply of the tracking page's lookup for a public number. The courier left the delivering hub with the parcel: the code says out for delivery where the sentence alone reads as in transit."},
+    {"code": "delivery_start", "wording": "Kurir sedang menuju lokasi pengantaran.", "stage": "out_for_delivery", "language": "id", "confirmedBy": "live", "note": "In a live reply of the tracking page's lookup for a public number."},
+    {"code": "signed_personally", "wording": "Paket sudah sampai dan diterima oleh Penerima.", "stage": "delivered", "language": "id", "confirmedBy": "live", "note": "In a live reply of the tracking page's lookup for a public number. The sentence goes on to name who took the parcel, replaced here; the adapter keeps it up to diterima."}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "carrier": "tirupati-courier",
+  "entries": [
+    {"code": "OUT", "wording": "From: … To: …", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "A job row in archived captures of the tracker: the consignment left the office named first for the next one. The adapter words it \"Out To …\", as the status line does."},
+    {"code": "IN", "wording": "At: … From: …", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "A job row in archived captures of the tracker: the office named first received the consignment from the other. The adapter words it \"Received At …\", as the status line does."},
+    {"wording": "Out To … On Dated …", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The status line after an OUT job, with the next office and the day."},
+    {"wording": "Received At … On Dated …", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The status line after an IN job, with the office and the day."},
+    {"wording": "Delivered On Dated … By …", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The status line of a delivered consignment, with the day and the delivering office. The page then hides its jobs."},
+    {"wording": "IN TRANSIT", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen as the status of an archived lookup on the older tracker."},
+    {"wording": "IN TRANSIST", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The older tracker's misspelt status, seen in archived lookups."}
+  ]
+}

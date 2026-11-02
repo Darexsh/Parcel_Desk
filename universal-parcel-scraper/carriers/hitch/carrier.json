@@ -1,0 +1,94 @@
+{
+  "id": "hitch",
+  "displayName": "Hitch",
+  "aliases": [
+    "Zip PH",
+    "ZIP Philippines",
+    "Hitch PH",
+    "Z International Parcels",
+    "Z International Parcel Services Inc.",
+    "Z International Parcel Services Incorporated"
+  ],
+  "region": {
+    "countries": [
+      "PH"
+    ]
+  },
+  "brand": {
+    "color": "#1d6efd"
+  },
+  "selectable": true,
+  "timezone": "Asia/Manila",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "hitch",
+    "steps": [
+      "direct",
+      "retry",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 117
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://hitch.com.ph/tracking?no={trackingNumber}",
+    "searchUrl": "https://hitch.com.ph/tracking",
+    "canaryUrl": "https://hitch.com.ph/",
+    "shows": [
+      "status",
+      "history",
+      "canonical_tracking_number",
+      "order_reference",
+      "order_date",
+      "remarks"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "canonical_tracking_number"
+    ],
+    "discarded": [
+      "order_reference",
+      "order_date",
+      "remarks"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name",
+      "provider_code",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "delivered_at",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "hitch.com.ph",
+        "www.hitch.com.ph"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "no"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "hitch-1",
+      "pattern": "^ZIP[0-9A-Z]{12}$",
+      "confidence": "low"
+    }
+  ]
+}

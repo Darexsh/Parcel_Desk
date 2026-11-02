@@ -1,0 +1,63 @@
+{
+  "status": "success",
+  "data": {
+    "total": 8,
+    "list": [
+      {
+        "id": 8,
+        "status": "completed",
+        "status_desc": "Order completed",
+        "date": "2026-05-06T10:20:30.000Z",
+        "driver": { "id": 123456789, "name": "000 SAMPLE COURIER", "login": null, "email": null, "status": "active", "otp_enabled": false }
+      },
+      {
+        "id": 7,
+        "status": "second_delivery_attempt",
+        "status_desc": "Second delivery attempt",
+        "date": "2026-05-06T10:20:30.000Z",
+        "driver": { "id": 123456789, "name": "000 SAMPLE COURIER", "login": null, "email": null, "status": "active", "otp_enabled": false }
+      },
+      {
+        "id": 6,
+        "status": "recipient_mobile_no_response",
+        "status_desc": "Recipient does not respond",
+        "date": "2026-05-06T09:15:00.000Z",
+        "driver": { "id": 123456789, "name": "000 SAMPLE COURIER", "login": null, "email": null, "status": "active", "otp_enabled": false }
+      },
+      {
+        "id": 5,
+        "status": "first_delivery_attempt",
+        "status_desc": "First delivery attempt",
+        "date": "2026-05-06T09:15:00.000Z",
+        "driver": { "id": 123456789, "name": "000 SAMPLE COURIER", "login": null, "email": null, "status": "active", "otp_enabled": false }
+      },
+      {
+        "id": 4,
+        "status": "dispatched",
+        "status_desc": "Dispatched",
+        "date": "2026-05-06T04:30:00.000Z",
+        "driver": { "id": 123456789, "name": "000 SAMPLE COURIER", "login": null, "email": null, "status": "active", "otp_enabled": false }
+      },
+      {
+        "id": 3,
+        "status": "in_sorting_facility",
+        "status_desc": "In sorting facility",
+        "date": "2026-05-06T04:10:00.000Z",
+        "warehouse": { "id": 123456789, "name": "000 · Namuna (Sinov bozori) bo'limi" },
+        "current_city_name": "Namuna",
+        "current_city_id": 123456789
+      },
+      {
+        "id": 2,
+        "status": "unassigned",
+        "status_desc": "Order is waiting to be assigned to a courier",
+        "date": "2026-05-05T17:00:00.000Z"
+      },
+      {
+        "id": 1,
+        "status": "created",
+        "date": "2026-05-05T17:00:00.000Z"
+      }
+    ]
+  }
+}

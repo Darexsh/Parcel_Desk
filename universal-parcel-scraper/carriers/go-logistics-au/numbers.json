@@ -1,0 +1,34 @@
+{
+  "carrier": "go-logistics-au",
+  "records": [
+    {
+      "number": "4011663590",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210601035815/https://services.gologistics.com.au/track/iframe2.php?item=4011663590",
+        "date": "2021-06-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "An archived copy of its own tracker lists four scans from collection to delivery for this consignment."
+    }
+  ]
+}

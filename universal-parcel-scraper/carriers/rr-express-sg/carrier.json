@@ -1,0 +1,36 @@
+{
+  "id": "rr-express-sg",
+  "displayName": "RR Express",
+  "aliases": [
+    "RR Express (S) Pte. Ltd.",
+    "TCK Express",
+    "TCK Express (S) Pte. Ltd."
+  ],
+  "region": {
+    "countries": [
+      "SG"
+    ]
+  },
+  "brand": {
+    "color": "#002f75"
+  },
+  "selectable": true,
+  "timezone": "Asia/Singapore",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.frontierforce.com/tracking.aspx?cn={trackingNumber}&stid=rr",
+    "searchUrl": "https://www.rrexpress.com.sg/tracking.aspx",
+    "canaryUrl": "https://www.rrexpress.com.sg/tracking.aspx",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "shipx-asia",
+  "displayName": "ShipX",
+  "aliases": [
+    "SG LINK",
+    "SGLINK",
+    "ShipX Asia",
+    "SGLINK Import Export Joint Stock Company",
+    "Công ty Cổ phần Xuất Nhập Khẩu SGLINK"
+  ],
+  "region": {
+    "countries": [
+      "VN",
+      "SG",
+      "MY"
+    ]
+  },
+  "brand": {
+    "color": "#ff00e5"
+  },
+  "selectable": true,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://shipx.asia/toolkit/shipment-tracker?trackingNumber={trackingNumber}",
+    "searchUrl": "https://shipx.asia/toolkit/shipment-tracker",
+    "canaryUrl": "https://shipx.asia/toolkit/shipment-tracker",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "shipx.asia",
+        "www.shipx.asia"
+      ],
+      "pathPattern": "^/(?:(?:vi|th|id|ms)/)?toolkit/shipment-tracker/?$",
+      "params": [
+        "trackingNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

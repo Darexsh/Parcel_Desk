@@ -1,0 +1,98 @@
+{
+  "id": "ampm",
+  "displayName": "Grupo ampm",
+  "aliases": [
+    "ampm",
+    "AMPM",
+    "Grupo AMPM",
+    "Am Pm"
+  ],
+  "region": {
+    "countries": [
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#0d298e"
+  },
+  "selectable": true,
+  "timezone": "America/Mexico_City",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ampm",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://grupoampm.com/rastreador/?tracking-id={trackingNumber}",
+    "searchUrl": "https://grupoampm.com/rastreador/",
+    "canaryUrl": "https://grupoampm.com/rastreador/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "sender_name",
+      "origin",
+      "recipient_name",
+      "destination",
+      "service_name",
+      "tracking_alias",
+      "signatory",
+      "delivered_at",
+      "recipient_id",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta"
+    ],
+    "discarded": [
+      "progress_rail",
+      "sender_name",
+      "origin",
+      "recipient_name",
+      "destination",
+      "service_name",
+      "tracking_alias",
+      "signatory",
+      "delivered_at",
+      "recipient_id",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "weight",
+      "pickup_point",
+      "delivery_partner",
+      "recipient_address"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "grupoampm.com",
+        "www.grupoampm.com"
+      ],
+      "pathPattern": "^/(?:en/)?rastreador/?$",
+      "params": [
+        "tracking-id"
+      ]
+    }
+  ],
+  "detection": []
+}

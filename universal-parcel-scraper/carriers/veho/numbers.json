@@ -1,0 +1,42 @@
+{
+  "carrier": "veho",
+  "records": [
+    {
+      "number": "VH100000000017",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-28",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "veho"
+        ]
+      },
+      "note": "Made-up tracking id in the layout Veho's API documentation and tracker give: fourteen characters starting VH."
+    },
+    {
+      "number": "VEHOATL000021976",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.reddit.com/r/yeezy/comments/1k0mukm/lost_order/mnfwa35/",
+        "date": "2025-04-16",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "veho"
+        ]
+      },
+      "note": "A shopper quoted this label barcode for a lost order. Veho's tracker shows the package's delivery in March 2025 under its own VH tracking id."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "encontrado": true,
+  "expedicion": {
+    "numero": "700000000017",
+    "referencia": "SAMPLE-0001",
+    "referencia2": "SAMPLEREF2",
+    "localizador": "7000000000170AAA",
+    "estado": "ENTREGADA",
+    "bultos": 2,
+    "fechaObjetivo": "2026-03-12",
+    "intentos": 2,
+    "distanciaKm": 1000,
+    "remitente": {
+      "poblacion": "Sample Origin",
+      "codigoPostal": "9990000",
+      "delegacion": { "codigo": 900, "nombre": "Cd Sample" }
+    },
+    "destino": {
+      "poblacion": "Sample Town",
+      "delegacion": { "codigo": 901, "nombre": "Sample Town" }
+    },
+    "eventos": [
+      { "fecha": "2026-03-13", "hora": "16:42", "descripcion": "Entregado", "delegacion": { "codigo": 901, "nombre": "Sample Town" }, "codigo": "ENTR", "detalle": "Recibio Sample Person · Conductor 123456", "card": true },
+      { "fecha": "2026-03-13", "hora": "09:15", "descripcion": "En reparto", "delegacion": { "codigo": 901, "nombre": "Sample Town" }, "codigo": "REPA" },
+      { "fecha": "2026-03-12", "hora": "18:05", "descripcion": "No entregado", "delegacion": { "codigo": 901, "nombre": "Sample Town" }, "codigo": "DIAN", "detalle": "Sample Person no estaba · Fono 900000000" },
+      { "fecha": "2026-03-12", "hora": "10:20", "descripcion": "En reparto", "delegacion": { "codigo": 901, "nombre": "Sample Town" }, "codigo": "REPA" },
+      { "fecha": "2026-03-12", "hora": "10:20", "descripcion": "En reparto", "delegacion": { "codigo": 901, "nombre": "Sample Town" }, "codigo": "REPA" },
+      { "fecha": "2026-03-12", "hora": "07:48", "descripcion": "Llego a tu ciudad", "delegacion": { "codigo": 901, "nombre": "Sample Town" }, "codigo": "LLEG" },
+      { "fecha": "2026-03-11", "hora": "21:30", "descripcion": "En viaje a destino", "delegacion": { "codigo": 900, "nombre": "Cd Sample" }, "codigo": "CPCE" }
+    ],
+    "recibidoPor": { "nombre": "Sample Person", "conductor": "123456", "fecha": "13/03/26", "hora": "16:42" }
+  }
+}

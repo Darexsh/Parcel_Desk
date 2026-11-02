@@ -1,0 +1,62 @@
+{
+  "id": "saee",
+  "displayName": "Saee",
+  "aliases": [
+    "SAEE",
+    "ساعي"
+  ],
+  "region": {
+    "countries": [
+      "SA"
+    ]
+  },
+  "brand": {
+    "color": "#ff6b00"
+  },
+  "selectable": true,
+  "timezone": "Asia/Riyadh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.saee.sa/en/track-your-shipment?waybill={trackingNumber}",
+    "searchUrl": "https://www.saee.sa/en/track-your-shipment",
+    "canaryUrl": "https://www.saee.sa/en/track-your-shipment",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.saee.sa",
+        "saee.sa"
+      ],
+      "pathPattern": "^/en/track-your-shipment/?$",
+      "params": [
+        "waybill"
+      ]
+    },
+    {
+      "domains": [
+        "www.saee.sa",
+        "saee.sa"
+      ],
+      "pathPattern": "^/trackingpage/?$",
+      "params": [
+        "trackingnum"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "saee-1",
+      "pattern": "^OS\\d{8}KS$",
+      "confidence": "high"
+    }
+  ]
+}

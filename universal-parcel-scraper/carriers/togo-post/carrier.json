@@ -1,0 +1,47 @@
+{
+  "id": "togo-post",
+  "displayName": "La Poste du Togo",
+  "aliases": [
+    "Société des Postes du Togo",
+    "La Poste Togo",
+    "Togo Post",
+    "Poste du Togo"
+  ],
+  "region": {
+    "countries": [
+      "TG"
+    ]
+  },
+  "brand": {
+    "color": "#004ba8"
+  },
+  "selectable": true,
+  "timezone": "Africa/Lome",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://webtrackingprod.laposte.tg/WebTracking/IPSWeb_item_events.aspx?itemid={trackingNumber}",
+    "searchUrl": "https://www.laposte.tg/suivi-envois",
+    "canaryUrl": "https://www.laposte.tg/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "webtrackingprod.laposte.tg"
+      ],
+      "pathPattern": "^/WebTracking/IPSWeb_item_events\\.aspx$",
+      "params": [
+        "itemid"
+      ]
+    }
+  ],
+  "detection": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "inter-express-logistics",
+  "displayName": "Inter Express Logistics",
+  "aliases": [
+    "IEL",
+    "IEL - Inter Express Logistics",
+    "Inter Express Logistic",
+    "อินเตอร์ เอ็กซ์เพรส",
+    "อินเตอร์ เอ็กซ์เพรส โลจิสติกส์"
+  ],
+  "region": {
+    "countries": [
+      "TH"
+    ]
+  },
+  "brand": {
+    "color": "#0271ba"
+  },
+  "selectable": true,
+  "timezone": "Asia/Bangkok",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://iel.co.th/tracking/?trackingNo={trackingNumber}",
+    "searchUrl": "https://iel.co.th/tracking/",
+    "canaryUrl": "https://iel.co.th/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "iel.co.th",
+        "www.iel.co.th"
+      ],
+      "pathPattern": "^/(?:en/)?tracking/?$",
+      "params": [
+        "trackingNo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "inter-express-logistics-1",
+      "pattern": "^IEL\\d(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])\\d{5}$",
+      "confidence": "low"
+    }
+  ]
+}

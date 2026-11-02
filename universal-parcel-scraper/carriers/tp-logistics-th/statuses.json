@@ -1,0 +1,13 @@
+{
+  "carrier": "tp-logistics-th",
+  "entries": [
+    {"code": "1", "wording": "ตรวจสอบสินค้าและคีย์เอกสาร", "stage": "accepted", "language": "th", "confirmedBy": "portal", "note": "Goods checked and the consignment note keyed in at the origin branch. Seen in an archived capture of the tracker's history page, which prints the code in brackets before the wording."},
+    {"code": "2-2", "wording": "บันทึกเอกสารและชำระเงิน", "stage": "accepted", "language": "th", "confirmedBy": "portal", "note": "Consignment note recorded and paid for at the origin branch. Seen in an archived capture of the tracker's history page, which prints the code in brackets before the wording."},
+    {"code": "3", "wording": "รับสินค้าเข้าคลังรอจัดส่ง", "stage": "in_transit", "language": "th", "confirmedBy": "portal", "note": "Taken into a branch's warehouse to wait for dispatch; it recurs at each branch. Seen in an archived capture of the tracker's history page, which prints the code in brackets before the wording."},
+    {"code": "4", "wording": "ดำเนินการส่งสินค้าไปที่ศูนย์กระจายสินค้า", "stage": "in_transit", "language": "th", "confirmedBy": "portal", "note": "Sent on to a distribution centre. Seen in an archived capture of the tracker's history page, which prints the code in brackets before the wording."},
+    {"code": "5", "wording": "รับสินค้าเข้าคลังศูนย์กระจายสินค้า", "stage": "in_transit", "language": "th", "confirmedBy": "portal", "note": "Received at a distribution centre's warehouse. Seen in an archived capture of the tracker's history page, which prints the code in brackets before the wording."},
+    {"code": "6", "wording": "ดำเนินการส่งสินค้าไปให้ลูกค้าปลายทาง", "stage": "out_for_delivery", "language": "th", "confirmedBy": "portal", "note": "On its way to the recipient from the destination branch. Seen in an archived capture of the tracker's history page, which prints the code in brackets before the wording."},
+    {"code": "7", "wording": "ส่งสินค้าถึงปลายทางเรียบร้อย", "stage": "delivered", "language": "th", "confirmedBy": "portal", "note": "Delivered to the recipient. Seen in an archived capture of the tracker's history page, which prints the code in brackets before the wording."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "The STATUS column of the tracker's result list, which shows one summary status per parcel. Seen in an archived capture of the tracker."}
+  ]
+}

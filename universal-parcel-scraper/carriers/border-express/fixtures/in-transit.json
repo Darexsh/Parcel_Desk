@@ -1,0 +1,69 @@
+{
+  "consignments": [
+    {
+      "consignmentNumber": "ZZZZ000001",
+      "despatchedDate": "19/01/2026",
+      "etaDate": "21/01/2026",
+      "deliveredDate": null,
+      "currentStatus": { "displayName": "In Transit", "integrationCode": "TRN", "lastModified": "2026-01-20T05:36:12.8+11:00" },
+      "deliveryBookingStatus": null,
+      "senderLocation": { "suburb": "Sample Point", "state": "QLD", "postcode": "0000" },
+      "receiverLocation": { "suburb": "Sampleton", "state": "NSW", "postcode": "0000" },
+      "statusHistory": [
+        {
+          "order": 1,
+          "status": "In Transit",
+          "currentItemCount": 2,
+          "totalItemCount": 2,
+          "dateOccurred": "2026-01-20T05:31:07+11:00",
+          "suburb": "Sample Hub",
+          "state": "NSW",
+          "postcode": "0000",
+          "integrationCode": "TRN",
+          "statusEvents": [
+            { "dateOccurred": "2026-01-20T05:31:07+11:00", "itemBarcode": "ZZZZBX00000000001001", "suburb": "Sample Hub", "state": "NSW", "postcode": "0000", "isInferred": false },
+            { "dateOccurred": "2026-01-20T05:36:12+11:00", "itemBarcode": "ZZZZBX00000000001002", "suburb": "Sample Hub", "state": "NSW", "postcode": "0000", "isInferred": false }
+          ]
+        },
+        {
+          "order": 2,
+          "status": "Shipment Data Received",
+          "currentItemCount": 0,
+          "totalItemCount": 0,
+          "dateOccurred": "2026-01-19T12:56:48+10:00",
+          "suburb": "Sample Point",
+          "state": "QLD",
+          "postcode": "0000",
+          "integrationCode": "SDR",
+          "statusEvents": []
+        },
+        {
+          "order": 3,
+          "status": "Unsaved",
+          "currentItemCount": 0,
+          "totalItemCount": 0,
+          "dateOccurred": "2026-01-19T12:56:29+10:00",
+          "suburb": "Sample Point",
+          "state": "QLD",
+          "postcode": "0000",
+          "integrationCode": "PEN",
+          "statusEvents": []
+        },
+        {
+          "order": 0,
+          "status": "Picked Up",
+          "currentItemCount": 2,
+          "totalItemCount": 2,
+          "dateOccurred": null,
+          "suburb": null,
+          "state": null,
+          "postcode": null,
+          "integrationCode": "PUP",
+          "statusEvents": []
+        }
+      ],
+      "totalItems": 2,
+      "signedBy": " "
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "tst-cf-express",
+  "displayName": "TST-CF Express",
+  "aliases": [
+    "TST-CF",
+    "TST Overland Express",
+    "Canadian Freightways",
+    "TST Solutions"
+  ],
+  "region": {
+    "countries": [
+      "CA",
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#0052a2"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "tst-cf-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "eta",
+    "weight",
+    "service_name",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.tst-cfexpress.com/tracing/by-url?lang=e&PRO={trackingNumber}",
+    "searchUrl": "https://m.tst-cfexpress.com/tracing",
+    "canaryUrl": "https://m.tst-cfexpress.com/tracing",
+    "shows": [
+      "status",
+      "eta",
+      "delivered_at",
+      "weight",
+      "parcel_count",
+      "service_name",
+      "customer_reference",
+      "payment_details",
+      "departure_date",
+      "customs_status",
+      "origin",
+      "destination",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "eta",
+      "weight",
+      "service_name",
+      "departure_date",
+      "customs_status",
+      "destination",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "delivered_at",
+      "parcel_count",
+      "customer_reference",
+      "payment_details",
+      "origin"
+    ],
+    "unavailable": [
+      "history",
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery",
+      "signatory"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tst-cfexpress.com"
+      ],
+      "pathPattern": "^/tracing/by-url/?$",
+      "params": [
+        "PRO"
+      ]
+    }
+  ],
+  "detection": []
+}

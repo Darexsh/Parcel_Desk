@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <title>NAQEL Express</title> -->
+	<link rel="stylesheet" href="/static/css/main.css"/>
+</head>
+<body>
+	<header id="masthead" class="header">
+		<nav>
+			<ul>
+				<li><a href="/en/sa/">Home</a></li>
+				<li>
+					<form id="cmt-contactform-nav"  autocomplete="off" class="pt-10" method="post" action="/en/sa/tracking/">
+					 <input type="hidden" name="csrfmiddlewaretoken" value="SyntheticToken0000000000000000000000000000000000000000000000000">
+					<div class="pl-10 pr-10 pb-10">
+						<b class="boldfont">Track Your Shipment</b>
+					</div>
+					<li class="pl-10 pr-10">
+						<input  type="text" id="tracktext" name="waybills" placeholder="Shipment Number" required="">
+					</li>
+					<li>
+						<div class="pl-10 pr-10 pb-10">
+						<button class="submit  cmt-btn-size-md cmt-btn-shape-square cmt-btn-style-fill cmt-btn-color-skincolor but-radius w-100"
+											type="submit">Track
+						</button></div>
+					</li>
+					</form>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+ <head>
+ <title>Shipment Tracking | Expected Delivery | NAQEL Express</title>
+ <meta name="description" content="Track your shipment with NAQEL Express."/>
+<script type="text/javascript">
+        window.activeNotifications = [
+            
+        ];
+        window.userLanguage = 'en';
+    </script>
+</head>
+ <div class="main-site">
+
+    <section class="cmt-row cmt-bgcolor-grey clearfix mt-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12 res-767-mb-25">
+                        <div class="card rounded naqelcolorA p-3">
+                            <form method="post">
+                                <input type="hidden" name="csrfmiddlewaretoken" value="SyntheticToken0000000000000000000000000000000000000000000000000"> 
+                                <label class="control-label text-white mb-2">Waybills / Reference Numbers</label>
+                                <textarea name="waybills" cols="40" rows="5" class="form-control form-control-sm" width="100%" placeholder="Please enter multiple waybills separated by comma." maxlength="300" required id="id_waybills">
+</textarea> 
+                                <small style="display: none;">Required</small>
+                                 
+                                <p class="text-danger">This field is required.</p>
+                                 
+                                <div class="clearfix">
+                                  
+                                    <button class="btn bg-danger text-white float-left cmt-btn cmt-btn-size-sm cmt-btn-shape-square  but-radius" type="submit">
+                                        <span>Track</span>
+                                    </button>
+                                    <button class="btn bg-danger text-white float-right cmt-btn cmt-btn-size-sm cmt-btn-shape-square but-radius"  onclick="clearvalue()">
+                                        <span>Reset</span>
+                                    </button>
+                                    <br>
+                                    <br>
+                                 
+                                  
+                                </div>
+                            </form>
+                        </div>
+                    <br />
+
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 res-767-mb-25">
+                     
+
+                    <div class="card rounded naqelcolor1 p-3">
+                        <div class="card-body bg-white">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-12">
+                                    <table class="table table-striped">
+                                        <tr class="trborder">
+                                            <th>SHIPMENT NO:</th>
+                                            <td>200000002</td>
+                                        </tr>
+
+                                        <tr class="trborder">
+                                            <th>DESTINATION:</th>
+                                            <td>NORTHFIELD</td>
+                                        </tr>
+                                        <tr class="trborder">
+                                            <th>EXPECTED DELIVERY:</th>
+                                            <td>18-10-2026</td>
+
+                                        </tr>
+                                       <!--   <tr class="trborder">
+                                            <th>CURRENT STATUS:</th>
+                                            <th>In Transit</th>
+                                        </tr> -->
+                                    </table>
+                                </div>
+                                <div class="col-md-5 col-sm-12">
+                                    <table class="table table-striped">
+                                        <tr class="trborder">
+                                            
+                                            <th>PICKUP DATE:</th>
+                                            <td>13-10-2026</td>
+                                            
+                                        </tr>
+                                        <tr class="trborder">
+                                            
+                                            <th>PAYMENT METHOD:</th>
+                                            <td>Prepaid</td>
+                                            
+                                        </tr>
+                                        <tr class="trborder">
+                                            <th>PIECE COUNT:</th>
+                                            <td>2</td>
+                                        </tr>
+                                     <!--    <tr class="trborder">
+                                            <td></td>
+                                            <td> <button id="toggle" class=" button btn bg-danger text-white float-right" onclick="myFunction(1)">
+                                                <div id="1span"><span>More Details</span></div>
+                                                <div id="1spanless" style="display:none"><span>Fewer Details</span></div>
+                                                </button>
+                                            </td>
+                                        </tr> -->
+                                    </table>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <table class="table table-striped">
+                                        <tr class="trborder">
+                                            <th>CURRENT STATUS:</th>
+                                            <th>In Transit</th>
+                                        </tr>
+                                        <tr class="trborder">
+                                            <td>   
+                                                <button type="button" class="btn bg-danger text-white cmt-btn cmt-btn-size-sm cmt-btn-shape-square but-radius" 
+                                                hx-get="/en/tracking/200000002/" 
+                                                hx-target="#dialog" 
+                                                hx-swap="innerHTML"  
+                                                data-toggle="testmodal" 
+                                                data-target="testmodal">
+                                                Get Email Notifications<i class="fa fa-bell" style="font-size:17px"></i>
+                                                </button>
+                                            </td>
+                                            <td> <button id="toggle" class=" button btn bg-danger text-white float-right" onclick="myFunction(1)">
+                                                <div id="1span"><span>More Details</span></div>
+                                                <div id="1spanless" style="display:none"><span>Fewer Details</span></div>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-muted text-center p-0 m-0">
+                            <div  class="stepwizard vertical-middle">
+                                <div class="stepwizard-row">
+                                    <div class="stepwizard-step">
+                                        
+                                        <button type="button" class="btn btn-danger btn-circle-track" style="background-color: #e31837 !important; color: white !important;">
+                                        1
+                                        </button>
+                                        
+                                        <h6 class="text-white">Picked up</h6>
+                                    </div>
+
+                                    <div class="stepwizard-step">
+                                        
+                                        <button type="button" class="btn btn-danger btn-circle-track" style="background-color: #e31837 !important; color: white !important;">
+                                        2
+                                        </button>
+                                        
+                                        <h6 class="text-white">In Transit</h6>
+                                    </div>
+
+                                    <div class="stepwizard-step">
+                                        
+                                        <button type="button" class="btn btn-danger btn-circle-track" style="background-color: white !important;">
+                                        3
+                                        </button>
+                                        
+                                        <h6 class="text-white">Delivered</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id=1 class="card rounded naqelcolor1 p-3 mt-1" style="display:none;">
+                        <h3 class="text-white Redline ">Shipment Details</h3>
+
+                        <div class="card-body">
+                            
+                            <div class="row">
+                                <div class="col-md-12 rounded-pill border-dangerTrack mb-2">
+                                    <div class="row ">
+                                        <div class="col-md-8 col-sm-8">
+                                            <p class="text-light font-weight-bold">October 14, 2026</p>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2">
+                                            <p class="text-light font-weight-bold hide_in_phone">LOCATION</p>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2">
+                                            <p class="text-light font-weight-bold hide_in_phone">TIME</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <p class="text-white trackMobile font-weight-bold">Departed to NORTHFIELD</p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <p class="text-white"><i class="fa fa-map-marker" style="color: red; padding-right: 7px;"></i>CENTRAL HUB</p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <p class="text-white"><i class="fa fa-clock-o" style="color: red; padding-right: 5px;" aria-hidden="true"></i>10:00 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <p class="text-white trackMobile font-weight-bold">Arrived at Naqel Facility</p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <p class="text-white"><i class="fa fa-map-marker" style="color: red; padding-right: 7px;"></i>CENTRAL HUB</p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <p class="text-white"><i class="fa fa-clock-o" style="color: red; padding-right: 5px;" aria-hidden="true"></i>7:38 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <p class="text-white trackMobile font-weight-bold">Arrived at Naqel Facility</p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <p class="text-white"><i class="fa fa-map-marker" style="color: red; padding-right: 7px;"></i>CENTRAL HUB</p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <p class="text-white"><i class="fa fa-clock-o" style="color: red; padding-right: 5px;" aria-hidden="true"></i>7:38 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <p class="text-white trackMobile font-weight-bold">Picked up by Naqel</p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <p class="text-white"><i class="fa fa-map-marker" style="color: red; padding-right: 7px;"></i>CENTRAL HUB</p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <p class="text-white"><i class="fa fa-clock-o" style="color: red; padding-right: 5px;" aria-hidden="true"></i>6:58 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-12 rounded-pill border-dangerTrack mb-2">
+                                    <div class="row ">
+                                        <div class="col-md-8 col-sm-8">
+                                            <p class="text-light font-weight-bold">October 13, 2026</p>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2">
+                                            <p class="text-light font-weight-bold hide_in_phone">LOCATION</p>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2">
+                                            <p class="text-light font-weight-bold hide_in_phone">TIME</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <p class="text-white trackMobile font-weight-bold">Waybill created. Shipment has not been received from the retailer</p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <p class="text-white"><i class="fa fa-map-marker" style="color: red; padding-right: 7px;"></i>SYSTEM</p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12">
+                                            <p class="text-white"><i class="fa fa-clock-o" style="color: red; padding-right: 5px;" aria-hidden="true"></i>11:21 AM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <br />
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="testmodal" class="modal fade" tabindex="-1" role="dialog">
+    <div id="dialog" class="modal-dialog" hx-target="this"></div>
+</div>
+
+<footer class="footer widget-footer clearfix">
+	<div class="container">
+		<p>Head Office - Sample Street, Sample City 00000</p>
+		<p>care@example.com</p>
+		<p>Toll Free Number KSA - 8000000000</p>
+		<p>Copyright NAQEL Company, All Rights Reserved.</p>
+	</div>
+</footer>
+</body>
+</html>

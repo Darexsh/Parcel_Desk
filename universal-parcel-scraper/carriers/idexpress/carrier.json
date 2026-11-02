@@ -1,0 +1,53 @@
+{
+  "id": "idexpress",
+  "displayName": "ID Express",
+  "aliases": [
+    "IDExpress",
+    "iDexpress",
+    "IDexpress Logistik Indonesia"
+  ],
+  "region": {
+    "countries": [
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#ff0000"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jakarta",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.idexpress.com/lacak-paket?waybillNo={trackingNumber}",
+    "searchUrl": "https://www.idexpress.com/lacak-paket",
+    "canaryUrl": "https://www.idexpress.com/lacak-paket",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "idexpress.com",
+        "www.idexpress.com"
+      ],
+      "pathPattern": "^/lacak-paket/?$",
+      "params": [
+        "waybillNo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "idexpress-1",
+      "pattern": "^ID(?!A\\d{12}$)[A-Z]\\d{12,13}$",
+      "confidence": "high"
+    }
+  ]
+}

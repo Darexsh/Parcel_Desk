@@ -1,0 +1,15 @@
+{
+  "carrier": "ab-courier",
+  "entries": [
+    {"wording": "Dispatched", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Order status in archived captures of the tracking page while the pickup is still scheduled; a driver has been assigned but has not collected the package."},
+    {"wording": "Open", "stage": "registered", "language": "en", "confirmedBy": "bundle", "note": "Order status the tracker script groups with Assigned and Dispatched as the step before pickup."},
+    {"wording": "Assigned", "stage": "registered", "language": "en", "confirmedBy": "bundle", "note": "Order status the tracker script groups with Open and Dispatched as the step before pickup."},
+    {"wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "bundle", "note": "Status the tracker script compares against to show the pickup step."},
+    {"wording": "Picked Up  In Transit On Time", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "Composite status the tracker script compares against, with two spaces after Picked Up."},
+    {"wording": "Picked Up  Destination Dock", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "Composite status the tracker script compares against, with two spaces after Picked Up; the package is at the destination dock."},
+    {"wording": "Picked Up  Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "bundle", "note": "Composite status the tracker script compares against, with two spaces after Picked Up."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "bundle", "note": "Status the tracker script compares against to show the delivery step."},
+    {"wording": "Finalized", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Status of delivered orders in the tracking lookup's reply, worded the same in the status picture; the order is closed after delivery and the page shows its delivery."},
+    {"wording": "Cancelled", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "Status the tracker script shows with its own picture and without a partner's tracking link."}
+  ]
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="utf-8">
+	<title>Трекінг Meest Group</title>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/script_lc.js"></script>
+</head>
+<body>
+	<script>
+		var salt = '0123456789abcdef0123456789abcdef';
+	</script>
+	<div class="page lng_ua">
+		<div class="bl_wrap">
+			<div class="bl_search">
+				<div class="search_title">Відстежити посилку</div>
+				<div class="search_info">Введіть номер посилки, щоб дізнатись статус</div>
+				<input type="text" id="declar" name="declar" class="inp_declar" placeholder="Введіть номер посилки" value="">
+				<input type="button" class="btn_track" id="button_track" value="Відстежити" onclick="tracking()">
+			</div>
+			<div id="bl_auto" class="bl_auto"></div>
+		</div>
+	</div>
+</body>
+</html>

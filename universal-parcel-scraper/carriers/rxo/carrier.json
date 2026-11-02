@@ -1,0 +1,50 @@
+{
+  "id": "rxo",
+  "displayName": "RXO",
+  "aliases": [
+    "RXO Order Number and Retailer Number tracking",
+    "RXO Inc.",
+    "RXO Last Mile",
+    "XPO Last Mile",
+    "XPO Logistics Last Mile"
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#000000"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.rxo.com/?trackingnumber={trackingNumber}",
+    "searchUrl": "https://track.rxo.com/",
+    "canaryUrl": "https://rxo.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.rxo.com",
+        "track.xpo.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "trackingnumber"
+      ]
+    }
+  ],
+  "detection": []
+}

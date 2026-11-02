@@ -1,0 +1,58 @@
+{
+  "tracking_number": "X0000000001",
+  "package_id": "00000000-0000-0000-0000-000000000000",
+  "consignee_name": "Sample Consignee",
+  "city": "Sample City",
+  "province": "Sample Province~Sample City",
+  "current_status": "Delivery successful",
+  "history": [
+    {
+      "status": "Delivery successful",
+      "description": "The package was delivered successfully to the consignee.",
+      "created_at": "2026-03-12 14:05:41",
+      "updated_by": false,
+      "reference": "Sample Receiver",
+      "remarks": false
+    },
+    {
+      "status": "First delivery attempt",
+      "description": "The package is currently being delivered by our courier.",
+      "created_at": "2026-03-12 09:30:02",
+      "updated_by": false,
+      "reference": null,
+      "remarks": false
+    },
+    {
+      "status": null,
+      "description": null,
+      "created_at": "2026-03-12 09:29:50",
+      "updated_by": false,
+      "reference": "000000",
+      "remarks": false
+    },
+    {
+      "status": "Received at hub",
+      "description": "The package was received at sorting hub.",
+      "created_at": "2026-03-11 20:12:17",
+      "updated_by": false,
+      "reference": "Sample Main Warehouse",
+      "remarks": false
+    },
+    {
+      "status": "Received at hub",
+      "description": "The package was received at sorting hub.",
+      "created_at": "2026-03-11 20:12:17",
+      "updated_by": false,
+      "reference": "Sample Main Warehouse",
+      "remarks": false
+    },
+    {
+      "status": "Picked at warehouse",
+      "description": "The package was picked by courier and will be delivered to warehouse for sorting.",
+      "created_at": "2026-03-11 17:48:33",
+      "updated_by": false,
+      "reference": null,
+      "remarks": false
+    }
+  ]
+}

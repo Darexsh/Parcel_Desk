@@ -1,0 +1,59 @@
+{
+  "response": {
+    "status": "DESTINATION_COUNTRY_WAREHOUSE",
+    "originCountryCode": "TR",
+    "destinationCountryCode": "DE",
+    "postCode": "00000",
+    "maskedReceiverAddress": "S*****E S****T 0 S*********E 0****0",
+    "lastMileAgentName": null,
+    "lastMileAgentLogoImageUrl": null,
+    "lastMileAgentTrackingUrl": null,
+    "lastMileAgentTrackingNumber": null,
+    "ptsNo": "1000000003",
+    "estimatedDeliveryDate": "2026-05-15T21:00:00.000+00:00",
+    "trackingHistory": [
+      {
+        "statusDate": "2026-05-11T07:12:00.000+00:00",
+        "statusText": "Shipment Data Received",
+        "statusCode": "004",
+        "location": "SAMPLEKENT-TURKEY"
+      },
+      {
+        "statusDate": "2026-05-11T14:40:00.000+00:00",
+        "statusText": "Shipment Picked Up",
+        "statusCode": "001",
+        "location": "SAMPLEKENT-TURKEY"
+      },
+      {
+        "statusDate": "2026-05-12T05:02:00.000+00:00",
+        "statusText": "Export from Turkey",
+        "statusCode": "205",
+        "location": "SAMPLEKENT-TURKEY"
+      },
+      {
+        "statusDate": "2026-05-12T09:45:00.000+00:00",
+        "statusText": "Arrival Destination",
+        "statusCode": "256",
+        "location": "-"
+      },
+      {
+        "statusDate": "2026-05-13T08:30:00.000+00:00",
+        "statusText": "Parcel weighed",
+        "statusCode": "777",
+        "location": "-"
+      },
+      {
+        "statusDate": "2026-05-13T11:15:00.000+00:00",
+        "statusText": "UNDER CUSTOMS CLEARANCE",
+        "statusCode": "255",
+        "location": "-"
+      },
+      {
+        "statusDate": "2026-05-14T06:00:00.000+00:00",
+        "statusText": "Transfer Delay",
+        "statusCode": "280",
+        "location": "-"
+      }
+    ]
+  }
+}

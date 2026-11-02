@@ -1,0 +1,59 @@
+{
+  "carrier": "mgl-express",
+  "records": [
+    {
+      "number": "ISCO00025",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.mglexpress.com.mm/documents/mgl_user_guide.pdf",
+        "date": "2026-11-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An example in MGL Express's user guide, shown in screenshots of its app with a parcel's scans; its tracker no longer finds it."
+    },
+    {
+      "number": "ISCO00028",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.mglexpress.com.mm/documents/mgl_user_guide.pdf",
+        "date": "2026-11-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An example in MGL Express's user guide, shown in the same screenshots of its app."
+    },
+    {
+      "number": "0212202000023",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.mglexpress.com.mm/documents/mgl_user_guide.pdf",
+        "date": "2026-11-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "yunda"
+        ]
+      },
+      "note": "An example in MGL Express's user guide, shown in screenshots of its app with a parcel's scans in Mandalay; its tracker no longer finds it."
+    }
+  ]
+}

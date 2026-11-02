@@ -1,0 +1,90 @@
+{
+  "id": "apc-overnight",
+  "displayName": "APC Overnight",
+  "aliases": [
+    "APC",
+    "APC Overnight Ltd"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#243269"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "apc-overnight",
+    "steps": [
+      "direct",
+      "retry",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 220
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "weight",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://apcchoice.apc-overnight.com/track-parcel?id={trackingNumber}",
+    "searchUrl": "https://apc.co.uk/",
+    "canaryUrl": "https://apc.co.uk/",
+    "shows": [
+      "status",
+      "history",
+      "weight",
+      "service_name",
+      "parcel_count",
+      "customer_reference",
+      "office_contact_details",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "weight",
+      "service_name"
+    ],
+    "discarded": [
+      "parcel_count",
+      "customer_reference",
+      "office_contact_details",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "sender_name",
+      "recipient_name",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "apcchoice.apc-overnight.com"
+      ],
+      "pathPattern": "^/track-parcel/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "apc-overnight-1",
+      "pattern": "^20[12]\\d(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])\\d{14}$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

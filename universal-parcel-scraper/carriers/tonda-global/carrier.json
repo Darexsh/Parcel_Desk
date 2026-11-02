@@ -1,0 +1,51 @@
+{
+  "id": "tonda-global",
+  "displayName": "Tonda Global",
+  "aliases": [
+    "TONDA GLOBAL",
+    "通达全球",
+    "Tarrive",
+    "青岛通达全球供应链管理有限公司",
+    "Qingdao Tonda Global Supply Chain Management Co., Ltd."
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "KR",
+      "MN"
+    ]
+  },
+  "brand": {
+    "color": "#144f93"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.tarrive.com/track?q={trackingNumber}",
+    "searchUrl": "https://www.tarrive.com/track",
+    "canaryUrl": "https://www.tarrive.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.tarrive.com",
+        "tarrive.com"
+      ],
+      "pathPattern": "^/(?:en/)?track/?$",
+      "params": [
+        "q"
+      ]
+    }
+  ],
+  "detection": []
+}

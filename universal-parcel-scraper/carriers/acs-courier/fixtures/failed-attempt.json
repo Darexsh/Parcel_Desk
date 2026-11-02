@@ -1,0 +1,118 @@
+{
+ "count": 1,
+ "items": [
+  {
+   "trackingNumber": "9000000026",
+   "relatedTrackingNumber": "9000000026",
+   "pickupStation": "EX-1",
+   "pickupDescription": "ACS EXAMPLE NORTH",
+   "destinationStationID": "EX-2",
+   "pickupPrefecture": 9,
+   "destinationPrefecture": 8,
+   "pickupRegion": 2,
+   "destinationRegion": 3,
+   "destinationDescription": "ACS SAMPLEVILLE",
+   "recipient": "J*** D**",
+   "nonDeliveryReason": "",
+   "notes": "Recipient: J*** D**",
+   "sender": "EXAMPLE SHOP LTD",
+   "recipientName": "J*** D**",
+   "recipientAddress": "S*******",
+   "pickupStationTelephoneNumber": "2100000000",
+   "destinationStationTelephoneNumber": "2600000000",
+   "pickupDate": "2030-03-04T00:00:00",
+   "expectedDeliveryDate": "2030-03-06T00:00:00",
+   "shipmentStatusId": 8,
+   "isDelivered": false,
+   "isReturned": false,
+   "specialFeatures": "branch-details-pickup branch-details-dest",
+   "statusHistory": [
+    {
+     "trackingNumber": "9000000026",
+     "controlPointDate": "2030-03-04T14:37:51",
+     "description": "Pick-up from sender",
+     "controlPoint": "EXAMPLE NORTH",
+     "info": "EXAMPLE SHOP LTD",
+     "controlPointCode": "EX-1",
+     "controlPointFeature": "branch-details"
+    },
+    {
+     "trackingNumber": "9000000026",
+     "controlPointDate": "2030-03-04T17:37:37",
+     "description": "Departure to destination SAMPLEVILLE",
+     "controlPoint": "EXAMPLE NORTH",
+     "info": "-",
+     "controlPointCode": "EX-1",
+     "controlPointFeature": "branch-details"
+    },
+    {
+     "trackingNumber": "9000000026",
+     "controlPointDate": "2030-03-04T21:55:46.277",
+     "description": "Transit from HUB",
+     "controlPoint": "HUB EXAMPLE",
+     "info": "-",
+     "controlPointCode": "HB-2",
+     "controlPointFeature": ""
+    },
+    {
+     "trackingNumber": "9000000026",
+     "controlPointDate": "2030-03-05T07:35:42.973",
+     "description": "Arrival to",
+     "controlPoint": "SAMPLEVILLE",
+     "info": "-",
+     "controlPointCode": "EX-2",
+     "controlPointFeature": "branch-details"
+    },
+    {
+     "trackingNumber": "9000000026",
+     "controlPointDate": "2030-03-05T09:12:00",
+     "description": "On delivery",
+     "controlPoint": "SAMPLEVILLE",
+     "info": "-",
+     "controlPointCode": "EX-2",
+     "controlPointFeature": "branch-details"
+    },
+    {
+     "trackingNumber": "9000000026",
+     "controlPointDate": "2030-03-05T15:20:10.5",
+     "description": "Not delivered",
+     "controlPoint": "SAMPLEVILLE",
+     "info": "DIFFICULT TO ACCESS AREA",
+     "controlPointCode": "EX-2",
+     "controlPointFeature": "branch-details"
+    },
+    {
+     "trackingNumber": "9000000026",
+     "controlPointDate": "2030-03-05T15:21:00",
+     "description": "SENT NOTIFICATION",
+     "controlPoint": "SAMPLEVILLE",
+     "info": "-",
+     "controlPointCode": "EX-2",
+     "controlPointFeature": "branch-details"
+    }
+   ],
+   "progressStatus": [
+    {
+     "trackingNumber": "9000000026",
+     "step": 1,
+     "description": "PICK UP",
+     "date": "2030-03-04T00:00:00",
+     "isCurrent": false
+    },
+    {
+     "trackingNumber": "9000000026",
+     "step": 2,
+     "description": "",
+     "isCurrent": false
+    },
+    {
+     "trackingNumber": "9000000026",
+     "step": 3,
+     "description": "HUB",
+     "date": "2030-03-04T00:00:00",
+     "isCurrent": true
+    }
+   ]
+  }
+ ]
+}

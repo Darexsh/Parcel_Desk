@@ -1,0 +1,74 @@
+{
+  "id": "chinz-logistics",
+  "displayName": "Chinz Logistics",
+  "aliases": [
+    "Chinz Logistics Limited",
+    "Chinz Logistics Ltd",
+    "Chinz",
+    "Chinz56",
+    "秦远国际物流",
+    "秦远物流",
+    "秦远集运",
+    "秦远",
+    "Chinz Industry Limited",
+    "Parcelmate",
+    "Parcelmate NZ"
+  ],
+  "region": {
+    "countries": [
+      "NZ",
+      "CN",
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#c9122e"
+  },
+  "selectable": true,
+  "timezone": "Pacific/Auckland",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://chinzlogistics.com/en/consult?keywords={trackingNumber}",
+    "searchUrl": "https://chinzlogistics.com/en/consult",
+    "canaryUrl": "https://chinzlogistics.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "chinzlogistics.com"
+      ],
+      "pathPattern": "^/(?:en/)?consult/?$",
+      "params": [
+        "keywords"
+      ]
+    },
+    {
+      "domains": [
+        "www.chinzlogistics.co.nz"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "keywords"
+      ]
+    },
+    {
+      "domains": [
+        "www.parcelmate.co.nz"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "keywords"
+      ]
+    }
+  ],
+  "detection": []
+}

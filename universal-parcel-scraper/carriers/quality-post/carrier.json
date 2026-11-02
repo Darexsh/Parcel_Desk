@@ -1,0 +1,55 @@
+{
+  "id": "quality-post",
+  "displayName": "Quality Post",
+  "aliases": [
+    "QualityPost",
+    "Grupo Qualitypost",
+    "QPN"
+  ],
+  "region": {
+    "countries": [
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#a4e000"
+  },
+  "selectable": true,
+  "timezone": "America/Monterrey",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://wstracking.qualitypost.com.mx/portal_seguimiento?info={trackingNumber}",
+    "searchUrl": "https://www.qualitypost.com.mx/",
+    "canaryUrl": "https://www.qualitypost.com.mx/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "wstracking.qualitypost.com.mx"
+      ],
+      "pathPattern": "^/portal_seguimiento/?$",
+      "params": [
+        "info"
+      ]
+    },
+    {
+      "domains": [
+        "tracking.qualitypost.com.mx"
+      ],
+      "pathPattern": "^/newtracking/seguimiento_envio/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

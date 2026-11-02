@@ -1,0 +1,119 @@
+{
+  "id": "fedex",
+  "displayName": "FedEx",
+  "aliases": [],
+  "region": {
+    "countries": []
+  },
+  "brand": {
+    "color": "#4d148c"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "fedex",
+    "steps": [
+      "api",
+      "trawl"
+    ],
+    "browserRecognition": {
+      "rank": 1000
+    },
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "delivered_at",
+    "pickup_point",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.fedex.com/fedextrack/?trknbr={trackingNumber}",
+    "searchUrl": "https://www.fedex.com/en-ch/tracking.html",
+    "helpUrl": "https://www.fedex.com/customer-support/en-ch",
+    "canaryUrl": "https://www.fedex.com/fedextrack/",
+    "shows": [
+      "status",
+      "history",
+      "eta",
+      "location",
+      "pickup_point",
+      "delivery_partner"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "location",
+      "pickup_point",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "recipient name and address",
+      "shipper details",
+      "signature",
+      "weight",
+      "dimensions",
+      "service options"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "fedex.com"
+      ],
+      "params": [
+        "trknbr",
+        "tracknumbers"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "fedex-1",
+      "pattern": "^\\d{12}$",
+      "confidence": "low",
+      "checksum": "fedex",
+      "preferred": true
+    },
+    {
+      "id": "fedex-2",
+      "pattern": "^\\d{15}$",
+      "confidence": "low",
+      "checksum": "gs1",
+      "preferred": true
+    },
+    {
+      "id": "fedex-3",
+      "pattern": "^96\\d{20}$",
+      "confidence": "low",
+      "checksum": "fedex-ground-96",
+      "preferred": true
+    },
+    {
+      "id": "fedex-label-barcode",
+      "pattern": "^(?!420)\\d{20}00\\d{12}$",
+      "confidence": "high",
+      "checksum": "fedex-1d"
+    },
+    {
+      "id": "fedex-4",
+      "pattern": "^420\\d{17}00\\d{12}$",
+      "confidence": "low",
+      "checksum": "fedex-1d",
+      "preferred": true
+    },
+    {
+      "id": "fedex-ground-economy",
+      "pattern": "^(?:612|748)9\\d{16}$",
+      "confidence": "high",
+      "checksum": "fedex-ground-economy"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "carrier": "veloces",
+  "records": [
+    {
+      "number": "V4000919466",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250311184240/https://tracking.veloces.app/tracking-client/V4000919466-",
+        "date": "2025-03-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dtdc",
+          "gls-it"
+        ]
+      },
+      "note": "An archived lookup on Veloces's own tracker carries this guide; the capture holds only the page shell, so the history was not visible. Veloces's own tracking lookup answers it with its history."
+    },
+    {
+      "number": "V4002519864",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://veloces.app/",
+        "date": "2026-10-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dtdc",
+          "gls-it"
+        ]
+      },
+      "note": "Placeholder of the tracking field on Veloces's home page. Veloces's own tracking lookup answers it with its history."
+    },
+    {
+      "number": "V4002556538",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://velocesprueba.netlify.app/assets/js/main.js",
+        "date": "2026-10-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dtdc",
+          "gls-it"
+        ]
+      },
+      "note": "A comment in the tracking script that veloces.app loads cites it as a real guide checked against the tracking API for the supplier-return status. Veloces's own tracking lookup answers it with its history."
+    }
+  ]
+}

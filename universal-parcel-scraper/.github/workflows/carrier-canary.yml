@@ -1,0 +1,268 @@
+name: Carrier canaries
+
+on:
+  schedule:
+    # One run a day; Monday's also probes the carriers' front doors. GitHub
+    # starts scheduled runs hours late or drops them, so later slots stand in
+    # and the gate lets only the day's first scheduled run work.
+    - cron: '41 2 * * *'
+    - cron: '13 4 * * *'
+    - cron: '47 5 * * *'
+    - cron: '19 7 * * *'
+  # Those slots can all start hours late. A CI run that ends on main from 02:41
+  # UTC also starts one, so the day's canary runs with the next push.
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# A later start waits for the running canary instead of cancelling it, then
+# finds it in the gate.
+concurrency:
+  group: carrier-canaries
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    name: First automatic run of the day
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: read
+    outputs:
+      run: ${{ steps.gate.outputs.run }}
+      weekly: ${{ steps.gate.outputs.weekly }}
+    steps:
+      - name: Skip any start after the day's first automatic run
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EVENT: ${{ github.event_name }}
+          RUN_NUMBER: ${{ github.run_number }}
+        run: |
+          set -euo pipefail
+          run=true
+          weekly=true
+          echo "Run $RUN_NUMBER, started by $EVENT at $(date -u +%FT%TZ)."
+          if [ "$EVENT" = schedule ] || [ "$EVENT" = workflow_run ]; then
+            # The day's canary starts at 02:41 UTC, the first slot.
+            start="$(date -u +%F)T02:41:00Z"
+            if [ "$(date -u +%FT%TZ)" \< "$start" ]; then
+              run=false
+              echo "The day's canary starts at $start."
+            fi
+            # The newest runs, unfiltered: a filtered list comes from a search
+            # index that sometimes returned no runs, and let several starts
+            # through in one day. The list is current once it shows this run.
+            runs=
+            for attempt in 1 2 3; do
+              runs=$(gh api -X GET "repos/$GH_REPO/actions/workflows/carrier-canary.yml/runs" -F per_page=100)
+              if jq -e --argjson number "$RUN_NUMBER" 'any(.workflow_runs[]; .run_number == $number)' <<<"$runs" >/dev/null; then break; fi
+              echo "Attempt $attempt: the run list does not show this run yet."
+              runs=
+              sleep 10
+            done
+            if [ -z "$runs" ]; then
+              echo "::error::The run list never showed this run, so the gate cannot tell whether the day's canary ran."
+              exit 1
+            fi
+            # A start cancelled while it waited for a running canary never
+            # reached its gate.
+            earlier=$(jq -r --arg start "$start" --argjson number "$RUN_NUMBER" '.workflow_runs[]
+              | select(.event == "schedule" or .event == "workflow_run")
+              | select(.created_at >= $start and .run_number < $number and .conclusion != "cancelled")
+              | "#\(.run_number), started by \(.event) at \(.created_at): \(.conclusion // .status)"' <<<"$runs")
+            if [ -n "$earlier" ]; then
+              run=false
+              echo "Automatic runs already started today:"
+              echo "$earlier"
+            fi
+            if [ "$(date -u +%u)" != 1 ]; then weekly=false; fi
+          fi
+          echo "run=$run weekly=$weekly"
+          echo "run=$run" >>"$GITHUB_OUTPUT"
+          echo "weekly=$weekly" >>"$GITHUB_OUTPUT"
+
+  probe:
+    name: Public carrier reachability
+    needs: gate
+    # No lookup depends on a front door, so a weekly look is enough. The daily
+    # jobs below exercise what tracking uses.
+    if: ${{ needs.gate.outputs.run == 'true' && needs.gate.outputs.weekly == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      failures: ${{ steps.probe.outputs.failures }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run build
+      - name: Probe automatic carrier front doors
+        id: probe
+        run: npm run canary
+
+  adapters:
+    name: Carrier adapters with synthetic numbers
+    needs: gate
+    if: ${{ needs.gate.outputs.run == 'true' }}
+    runs-on: ubuntu-latest
+    # The serial suite must finish before its reporter can list failed checks.
+    timeout-minutes: 40
+    outputs:
+      failures: ${{ steps.adapters.outputs.failures }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run build
+      - run: npx playwright-core install --with-deps chromium
+      - name: Look up wrong numbers through each public adapter and provider
+        id: adapters
+        env:
+          CANARY_SUMMARY_TITLE: Carrier adapters with synthetic numbers
+        run: |
+          TRACKING_CHROMIUM_PATH="$(node -e "import('playwright-core').then(({ chromium }) => console.log(chromium.executablePath()))")"
+          export TRACKING_CHROMIUM_PATH
+          npm run test:carriers:canary -- --retry 1
+
+  tracking-links:
+    name: Rendered UI tracking links
+    needs: gate
+    if: ${{ needs.gate.outputs.run == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      failures: ${{ steps.links.outputs.failures }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run build
+      - run: npx playwright-core install --with-deps chromium
+      - name: Check tracking routes, rendered content and number forwarding
+        id: links
+        env:
+          CANARY_SUMMARY_TITLE: Rendered UI tracking links
+        # The retry waits out a rotating DNS answer: some carrier CDNs hand out
+        # an edge the runner cannot reach, for about a minute at a time. Four
+        # pages open at once so the run fits its timeout as the catalog grows:
+        # a timed-out job reports none of its checks.
+        run: npm run test:tracking-links -- --retry.count 1 --retry.delay 70000 --maxConcurrency 4
+
+  search-pages:
+    name: Carrier search pages at phone size
+    # The pages a shared parcel links to when it hides its number. They change
+    # rarely, so a weekly look is enough.
+    needs: gate
+    if: ${{ needs.gate.outputs.run == 'true' && needs.gate.outputs.weekly == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    outputs:
+      failures: ${{ steps.search.outputs.failures }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run build
+      - run: npx playwright-core install --with-deps chromium
+      - name: Find the number field on each search page
+        id: search
+        env:
+          CANARY_SUMMARY_TITLE: Carrier search pages at phone size
+        # Four pages at once, like the tracking links.
+        run: npm run test:search-pages -- --retry.count 1 --retry.delay 70000 --maxConcurrency 4
+
+  report:
+    name: Track failures in an issue
+    needs: [gate, probe, adapters, tracking-links, search-pages]
+    # A skipped slot says nothing about carrier health.
+    if: ${{ always() && github.ref == 'refs/heads/main' && needs.gate.outputs.run == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: read
+      checks: read
+      issues: write
+    steps:
+      - name: Open, update or close the canary issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          NEEDS: ${{ toJSON(needs) }}
+          RUN_ID: ${{ github.run_id }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          # A job that runs out of time ends cancelled, like the jobs of a
+          # superseded run; only its annotation tells them apart.
+          cancelled=$(gh api "repos/$GH_REPO/actions/runs/$RUN_ID/jobs" --paginate \
+            --jq '.jobs[] | select(.conclusion == "cancelled") | .id')
+          timed_out=0
+          for job in $cancelled; do
+            if gh api "repos/$GH_REPO/check-runs/$job/annotations" --jq '.[].message' \
+              | grep -q 'exceeded the maximum execution time'; then timed_out=$((timed_out + 1)); fi
+          done
+          # A superseded run says nothing about carrier health.
+          if [ "$(jq '[.[] | select(.result == "cancelled")] | length' <<<"$NEEDS")" != "$timed_out" ]; then exit 0; fi
+          failures=$(jq -r '
+            {"probe": "Public carrier reachability", "adapters": "Carrier adapters with synthetic numbers",
+             "tracking-links": "Rendered UI tracking links", "search-pages": "Carrier search pages at phone size"} as $names
+            | to_entries[] | .value.result as $result | select($result != "success" and $result != "skipped")
+            | "#### \($names[.key] // .key)\n\n\(.value.outputs.failures | select(. != null and . != "")
+                // if $result == "cancelled" then "The job ran out of time before reporting checks; see the run log."
+                   else "The job failed before reporting checks; see the run log." end)\n"
+          ' <<<"$NEEDS")
+          title='Daily carrier canary failures'
+          # The issues this workflow opened, newest first and an open one
+          # before any closed one. Not a search: the search index once missed
+          # the open issue, and a second one was opened beside it. A failed
+          # listing ends the step instead of opening another.
+          issue=$(gh api -X GET "repos/$GH_REPO/issues" -f state=all -f 'creator=github-actions[bot]' -F per_page=100 \
+            --jq "map(select(.title == \"$title\" and .pull_request == null)) | (map(select(.state == \"open\")) + .)
+              | first // empty | \"\(.number) \(.state | ascii_upcase)\"")
+          read -r number state <<<"$issue"
+          if [ -z "$failures" ]; then
+            if [ "${state:-}" = OPEN ]; then
+              gh issue edit "$number" --body "All carrier canaries passed: $RUN_URL"
+              gh issue close "$number" --comment "All carrier canaries passed: $RUN_URL"
+            fi
+            exit 0
+          fi
+          body="$failures"$'\n'"Run: $RUN_URL"
+          if [ -z "${number:-}" ]; then
+            gh issue create --title "$title" --body "$body"
+          elif [ "$state" = CLOSED ]; then
+            gh issue edit "$number" --body "$body"
+            gh issue reopen "$number" --comment "$body"
+          else
+            # Comment only when the set of failing checks changes, so a
+            # persistent failure does not notify every day. The backticks are
+            # Markdown, not command substitutions.
+            # shellcheck disable=SC2016
+            checks() { grep -E '^(####|- )' | sed 's/`: .*/`/'; }
+            previous=$(gh issue view "$number" --json body,comments --jq '(.comments | last | .body) // .body')
+            # The body always shows the current result, even when the same
+            # failing checks need no new notification.
+            gh issue edit "$number" --body "$body"
+            if [ "$(checks <<<"$previous")" != "$(checks <<<"$failures")" ]; then
+              gh issue comment "$number" --body "$body"
+            fi
+          fi

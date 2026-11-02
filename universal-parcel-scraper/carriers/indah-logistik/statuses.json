@@ -1,0 +1,15 @@
+{
+  "carrier": "indah-logistik",
+  "entries": [
+    {"wording": "Transaksi", "stage": "accepted", "language": "id", "confirmedBy": "live", "note": "The first row of every resi, recorded by the counter account of the branch or drop point that books, weighs and prices the parcel; the town follows after a dash."},
+    {"wording": "Paket sudah berada di gudang asal", "stage": "accepted", "language": "id", "confirmedBy": "live", "note": "The origin city follows after a dash."},
+    {"wording": "Paket dalam perjalanan dari gudang asal", "stage": "in_transit", "language": "id", "confirmedBy": "live", "note": "The origin city follows after a dash."},
+    {"wording": "Paket telah sampai di gudang transit", "stage": "in_transit", "language": "id", "confirmedBy": "live", "note": "The transit city follows after a dash."},
+    {"wording": "Paket telah berangkat dari gudang transit", "stage": "in_transit", "language": "id", "confirmedBy": "live", "note": "The transit city follows after a dash."},
+    {"wording": "Paket telah sampai di gudang tujuan", "stage": "in_transit", "language": "id", "confirmedBy": "live", "note": "The destination branch follows after a dash; the parcel reached the destination warehouse, not the recipient."},
+    {"wording": "Paket sedang diantar oleh kurir", "stage": "out_for_delivery", "language": "id", "confirmedBy": "live", "note": "The courier's name follows after a dash."},
+    {"wording": "PENGANTARAN TERJADWAL", "stage": "in_transit", "language": "id", "confirmedBy": "live", "note": "Scheduled delivery: a note after the dash books the delivery on a later run, such as one between islands, with a reason in brackets. Seen a minute after the courier took the parcel, with no attempt; the delivery followed."},
+    {"wording": "Alamat Tidak Ditemukan / Penerima Tidak Dapat Di Hubungi", "stage": "failed_attempt", "language": "id", "confirmedBy": "live", "note": "Address not found or recipient unreachable; a name and relation follow after a dash. Seen repeated a second apart, then followed by the delivery."},
+    {"wording": "Paket telah diterima", "stage": "delivered", "language": "id", "confirmedBy": "live", "note": "The receiver's name and relation follow after a dash."}
+  ]
+}

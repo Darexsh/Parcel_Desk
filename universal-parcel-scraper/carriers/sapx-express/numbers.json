@@ -1,0 +1,211 @@
+{
+  "carrier": "sapx-express",
+  "records": [
+    {
+      "number": "CGK8021642600146",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220807220822/https://www.sap-express.id/id/cek-awb/CGK8021642600146",
+        "date": "2022-08-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on SAP Express's own tracker; the opened capture shows the AWB from the Jakarta head office to Tabanan, failed attempts and its return to the sender."
+    },
+    {
+      "number": "TKP01-E6HM288W",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240315174817/https://www.sap-express.id/id/cek-awb/TKP01-E6HM288W",
+        "date": "2024-03-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on SAP Express's own tracker; the opened capture shows this Tokopedia booking code as the resi of a SATRIA REG parcel from pickup to a branch office."
+    },
+    {
+      "number": "VFU00184405015",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241106071329/https://www.sapx.id/id/cek-awb/VFU00184405015",
+        "date": "2024-11-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on SAPX's own tracker; the opened capture shows a SATRIA REG parcel from Surabaya to Medan, verified at the head office and on its way to the next hub."
+    },
+    {
+      "number": "JKB8021031800011",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220807223553/https://www.sap-express.id/id/cek-awb/JKB8021031800011",
+        "date": "2022-08-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up on SAP Express's own tracker; the opened capture shows a REG parcel from verification at the West Jakarta branch through the head office and Palembang to delivery; courier and receiver names were not copied."
+    },
+    {
+      "number": "CGK8021204400011",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220807223247/https://www.sap-express.id/id/cek-awb/CGK8021204400011",
+        "date": "2022-08-07",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on SAP Express's own tracker; the capture was not opened."
+    },
+    {
+      "number": "JKB8021811400011",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220814034734/https://www.sap-express.id/id/cek-awb/JKB8021811400011",
+        "date": "2022-08-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on SAP Express's own tracker; the capture was not opened."
+    },
+    {
+      "number": "CGK8020969100046",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210303152155/https://www.sap-express.id/layanan/tracking/details/CGK8020969100046",
+        "date": "2021-03-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on SAP Express's earlier tracker address; the capture was not opened."
+    },
+    {
+      "number": "MGT00125027683",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2023/06/22/surat-pembaca/status-pengiriman-sap-express-delivered-tapi-barang-belum-diterima",
+        "date": "2023-06-22",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A Media Konsumen letter gives it as the resi of a parcel picked up by an SAP Express courier."
+    },
+    {
+      "number": "TKP01-KX7E8VNL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2024/11/26/tanggapan/tanggapan-perihal-barang-hilang-transaksi-penjualan-tokopedia-dengan-ekspedisi-kurir-rekomendasi-jne-sapx",
+        "date": "2024-11-26",
+        "dateKind": "reply",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "SAPX Express's reply on Media Konsumen gives this Tokopedia booking code as the resi it investigated."
+    },
+    {
+      "number": "265370347094",
+      "role": "order_reference",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2026/04/02/surat-pembaca/kartu-kredit-nex-bri-tidak-pernah-diantar-sap-express-malah-ubah-status-jadi-alamat-pindah-dan-diretur-ke-bank",
+        "date": "2026-04-02",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "reportedRole": "resi",
+        "assessment": "auxiliary"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A Media Konsumen letter gives it as the SAP Express resi of a bank card delivery. SAPX's reference lookup finds the delivery's resi under it and the resi tracker does not take it, so it is the sender's reference."
+    }
+  ]
+}

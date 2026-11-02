@@ -1,0 +1,219 @@
+{
+  "carrier": "2go",
+  "records": [
+    {
+      "number": "AA9700597",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250327010027/https://expresscap.2go.com.ph/api/ttrace?tracking_no=AA9700597",
+        "date": "2025-03-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on 2GO Express's tracking API; that API still knows it as a delivered air waybill."
+    },
+    {
+      "number": "T2331954D",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180914113841/https://supplychain.2go.com.ph/CustomerSupport/etrace/indiv1.asp?code=T2331954D",
+        "date": "2018-09-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "2go"
+        ]
+      },
+      "note": "An opened capture of 2GO's eTrace tracker shows this CN as a Cebu document shipment, picked up in February 2017 and delivered in March 2017; consignee details were not copied."
+    },
+    {
+      "number": "W0646715B",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170611234837/http://supplychain.2go.com.ph:80/CustomerSupport/etrace/indiv_details.asp?code=W0646715B",
+        "date": "2017-06-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "2go"
+        ]
+      },
+      "note": "An opened capture of 2GO's eTrace details page shows this document number as a Manila to General Santos parcel shipment, picked up and then delivered in June 2017; shipper and consignee details were not copied."
+    },
+    {
+      "number": "X0640435B",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170302093848/http://supplychain.2go.com.ph:80/CustomerSupport/etrace/indiv_details.asp?code=X0640435B",
+        "date": "2017-03-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "2go"
+        ]
+      },
+      "note": "An archived lookup on 2GO's eTrace tracker; the capture was not opened."
+    },
+    {
+      "number": "L0288876J",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250610093915/http://supplychain.2go.com.ph/CustomerSupport/etrace/indiv1.asp?code=L0288876J",
+        "date": "2025-06-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "2go"
+        ]
+      },
+      "note": "An archived lookup on 2GO's eTrace tracker address, which now redirects; the capture was not opened."
+    },
+    {
+      "number": "L2680760J",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251016115231/http://supplychain.2go.com.ph/CustomerSupport/etrace/indiv1.asp?code=L2680760J",
+        "date": "2025-10-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "2go"
+        ]
+      },
+      "note": "An archived lookup on 2GO's eTrace tracker address, which now redirects; the capture was not opened."
+    },
+    {
+      "number": "V0794500B",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250608054355/http://supplychain.2go.com.ph/CustomerSupport/etrace/indiv1.asp?code=V0794500B",
+        "date": "2025-06-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "2go"
+        ]
+      },
+      "note": "An archived lookup on 2GO's eTrace tracker address, which now redirects; the capture was not opened."
+    },
+    {
+      "number": "K4889694M",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.complaintsboard.com/2go-group-b132357",
+        "date": "2024-01-27",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "2go"
+        ]
+      },
+      "note": "A ComplaintsBoard complaint about 2GO Group quotes 2GO Express's text saying 2GO will attempt to deliver this package that day; the API behind 2GO's earlier tracking page knows it as a delivered parcel."
+    },
+    {
+      "number": "C1867094M",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.complaintsboard.com/2go-group-b132357",
+        "date": "2026-09-28",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "2go"
+        ]
+      },
+      "note": "A ComplaintsBoard comment on 2GO Group gives it as the tracking number of a parcel whose tracking had stopped updating; 2GO Express's current tracker knows it as a delivered parcel."
+    },
+    {
+      "number": "AA7381080",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.complaintsboard.com/2go-group-b132357",
+        "date": "2022-06-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A ComplaintsBoard complaint about 2GO Group gives it as the reference number of a document 2GO had not encoded yet."
+    }
+  ]
+}

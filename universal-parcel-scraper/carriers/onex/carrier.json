@@ -1,0 +1,37 @@
+{
+  "id": "onex",
+  "displayName": "Onex",
+  "aliases": [
+    "ONEX LTD",
+    "Onex Armenia",
+    "Onex.am"
+  ],
+  "region": {
+    "countries": [
+      "AM",
+      "GE"
+    ]
+  },
+  "brand": {
+    "color": "#5dba2f"
+  },
+  "selectable": true,
+  "timezone": "Asia/Yerevan",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://onex.am/en/onextrack?track={trackingNumber}",
+    "searchUrl": "https://onex.am/en/onextrack",
+    "canaryUrl": "https://onex.am/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

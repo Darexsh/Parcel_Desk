@@ -1,0 +1,82 @@
+{
+  "id": "direx",
+  "displayName": "Direx",
+  "aliases": [
+    "Direx S.A.",
+    "Дайрекс"
+  ],
+  "region": {
+    "countries": [
+      "BG"
+    ]
+  },
+  "brand": {
+    "color": "#6b4597"
+  },
+  "selectable": true,
+  "timezone": "Europe/Sofia",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "direx",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "service_name",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://direx.bg/track/?code={trackingNumber}",
+    "searchUrl": "https://direx.bg/track/",
+    "canaryUrl": "https://direx.bg/track/",
+    "shows": [
+      "status",
+      "history",
+      "service_name",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "service_name",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "location",
+      "eta",
+      "delivered_at",
+      "weight",
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "direx.bg",
+        "www.direx.bg"
+      ],
+      "pathPattern": "^/(?:(?:en/)?track|prosledete-vashata-pratka|tr/gonderinizi-takip-ediniz)/?$",
+      "params": [
+        "code"
+      ]
+    }
+  ],
+  "detection": []
+}

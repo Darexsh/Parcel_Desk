@@ -1,0 +1,85 @@
+{
+  "tuNo": "10000000003",
+  "postalCode": "9999",
+  "emailNotificationCard": false,
+  "changeDeliveryPossible": false,
+  "deliveryOwnerCode": "ATNU",
+  "owners": [
+    { "code": "DE01", "type": "REQUEST" },
+    { "code": "ATNU", "type": "DELIVERY" }
+  ],
+  "arrivalTime": { "name": "Delivered on:", "value": "16-Sep-2026 at 11:05 o`clock" },
+  "progressBar": {
+    "level": 100,
+    "retourFlag": false,
+    "evtNos": ["3.0", "11.0", "2.0", "2.0", "0.0", "0.100"],
+    "colourIndex": 4,
+    "statusInfo": "DELIVERED",
+    "statusText": "Delivered",
+    "statusBar": [
+      { "status": "PREADVICE", "imageStatus": "COMPLETE", "imageText": "Preadvice", "statusText": "" },
+      { "status": "INTRANSIT", "imageStatus": "COMPLETE", "imageText": "In transit", "statusText": "" },
+      { "status": "INWAREHOUSE", "imageStatus": "COMPLETE", "imageText": "Final parcel center", "statusText": "" },
+      { "status": "INDELIVERY", "imageStatus": "COMPLETE", "imageText": "In delivery", "statusText": "" },
+      { "status": "DELIVERED", "imageStatus": "CURRENT", "imageText": "Delivered", "statusText": "The parcel has been delivered." }
+    ]
+  },
+  "signature": { "name": "Signature:", "value": "Private Recipient" },
+  "references": [
+    { "type": "UNITNO", "name": "Parcel number:", "value": "10000000003" },
+    { "type": "CUSTREF", "name": "Customer reference", "value": "private-order-reference" }
+  ],
+  "infos": [
+    { "type": "WEIGHT", "name": "Weight:", "value": "1.2 kg" },
+    { "type": "PRODUCT", "name": "Product:", "value": "EuroBusinessParcel" },
+    { "type": "SERVICES", "name": "Services:", "value": "" }
+  ],
+  "addresses": [
+    {
+      "type": "DELIVERY",
+      "value": {
+        "name1": "Private Recipient",
+        "street1": "Private Street",
+        "postalArea": { "postalCodeDisplay": "9999", "city": "Private Town" }
+      }
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-16",
+      "time": "11:05:12",
+      "evtDscr": "The parcel has been delivered.",
+      "address": { "countryCode": "AT", "countryName": "Austria", "city": "Hagenbrunn", "street1": "Private Street" }
+    },
+    {
+      "date": "2026-09-16",
+      "time": "06:48:30",
+      "evtDscr": "The parcel is expected to be delivered during the day.",
+      "address": { "countryCode": "AT", "countryName": "Austria", "city": "Hagenbrunn" }
+    },
+    {
+      "date": "2026-09-16",
+      "time": "04:12:09",
+      "evtDscr": "The parcel has reached the parcel center.",
+      "address": { "countryCode": "AT", "countryName": "Austria", "city": "Hagenbrunn" }
+    },
+    {
+      "date": "2026-09-15",
+      "time": "19:40:55",
+      "evtDscr": "The parcel has left the parcel center.",
+      "address": { "countryCode": "DE", "countryName": "Germany", "city": "Neuenstein" }
+    },
+    {
+      "date": "2026-09-15",
+      "time": "15:22:01",
+      "evtDscr": "The parcel was handed over to GLS.",
+      "address": { "countryCode": "DE", "countryName": "Germany", "city": "Neuenstein" }
+    },
+    {
+      "date": "2026-09-14",
+      "time": "18:03:47",
+      "evtDscr": "The parcel data was entered into the GLS IT system; the parcel was not yet handed over to GLS.",
+      "address": { "countryCode": "DE", "countryName": "Germany", "city": "Neuenstein" }
+    }
+  ]
+}

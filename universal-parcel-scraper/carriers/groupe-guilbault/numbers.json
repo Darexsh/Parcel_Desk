@@ -1,0 +1,24 @@
+{
+  "carrier": "groupe-guilbault",
+  "records": [
+    {
+      "number": "319046",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.groupeguilbault.com/Documents/GUIDE_WEBQUOTE_FR.pdf",
+        "date": "2025-09-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Guilbault's own web-order guide shows this invoice number on a screenshot of a draft order and says to search with the invoice number; the tracker's history was not seen."
+    }
+  ]
+}

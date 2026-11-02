@@ -1,0 +1,122 @@
+{
+  "code": 200,
+  "msg": "Handeling geslaagd",
+  "data": [
+    {
+      "waybillNo": "GFNL00000000000001",
+      "status": "Delivered",
+      "trackEventCount": 9,
+      "trackingNumber": "GFNL00000000000001",
+      "frCountry": "NL",
+      "toCountry": "NL",
+      "thirdNo": null,
+      "serviceName": "GOFO Parcel",
+      "weight": 1.0,
+      "intervalDays": 4,
+      "intervalWorkdays": 4,
+      "expectedDeliveryTime": null,
+      "edtType": null,
+      "edtStartTime": null,
+      "edtEndTime": null,
+      "createTime": "2026-01-01T12:00:00.000+0100",
+      "number": "PRIVATE REFERENCE",
+      "sign": "PRIVATE SIGNATURE",
+      "podImgList": [
+        "PRIVATE PROOF"
+      ],
+      "lastTrackEvent": {
+        "processDate": "2026-01-05T12:00:00.000+0100",
+        "processContent": "Bezorgd op het bezorgadres, PIN: Nee, Deurnummer: PRIVATE . PRIVATE SUPPORT DETAIL",
+        "processLocation": "",
+        "processCode": "205",
+        "mainContent": "Bezorgd op het bezorgadres, PIN: Nee, Deurnummer: PRIVATE",
+        "subContent": "PRIVATE SUPPORT DETAIL",
+        "trackStatus": "6"
+      },
+      "trackEventList": [
+        {
+          "processDate": "2026-01-05T12:00:00.000+0100",
+          "processContent": "Bezorgd op het bezorgadres, PIN: Nee, Deurnummer: PRIVATE . PRIVATE SUPPORT DETAIL",
+          "processLocation": "",
+          "processCode": "205",
+          "mainContent": "Bezorgd op het bezorgadres, PIN: Nee, Deurnummer: PRIVATE",
+          "subContent": "PRIVATE SUPPORT DETAIL",
+          "trackStatus": "6"
+        },
+        {
+          "processDate": "2026-01-05T08:00:00.000+0100",
+          "processContent": "Bezorger is onderweg",
+          "processLocation": "",
+          "processCode": "208",
+          "mainContent": "Bezorger is onderweg",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-05T06:00:00.000+0100",
+          "processContent": "In voorbereiding voor bezorging",
+          "processLocation": "",
+          "processCode": "203",
+          "mainContent": "In voorbereiding voor bezorging",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-04T18:00:00.000+0100",
+          "processContent": "Aangekomen in uw regio",
+          "processLocation": "",
+          "processCode": "201",
+          "mainContent": "Aangekomen in uw regio",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-04T12:00:00.000+0100",
+          "processContent": "Vertrokken uit de regionale hub",
+          "processLocation": "",
+          "processCode": "200",
+          "mainContent": "Vertrokken uit de regionale hub",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-04T06:00:00.000+0100",
+          "processContent": "Aangekomen in de regionale hub",
+          "processLocation": "",
+          "processCode": "202",
+          "mainContent": "Aangekomen in de regionale hub",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-03T12:00:00.000+0100",
+          "processContent": "Vertrokken uit het sorteercentrum",
+          "processLocation": "",
+          "processCode": "200",
+          "mainContent": "Vertrokken uit het sorteercentrum",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-02T12:00:00.000+0100",
+          "processContent": "Aangekomen in het sorteercentrum",
+          "processLocation": "",
+          "processCode": "202",
+          "mainContent": "Aangekomen in het sorteercentrum",
+          "subContent": "",
+          "trackStatus": "2"
+        },
+        {
+          "processDate": "2026-01-01T12:00:00.000+0100",
+          "processContent": "Zending nog niet ontvangen of verwerkt",
+          "processLocation": "",
+          "processCode": "100",
+          "mainContent": "Zending nog niet ontvangen of verwerkt",
+          "subContent": "",
+          "trackStatus": "2"
+        }
+      ],
+      "noticeContents": null
+    }
+  ]
+}

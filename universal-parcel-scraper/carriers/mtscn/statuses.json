@@ -1,0 +1,18 @@
+{
+  "carrier": "mtscn",
+  "entries": [
+    {"wording": "The package has been collected and is ready to be sent to the distribution center", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "The script's first row, the forwarder's collection in Shenzhen."},
+    {"wording": "item inbound in sorting center", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "item outbound in sorting center", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Arriving at the terminal", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Leaving the terminal, the airline will take off", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Arriving at the destination country", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Customs clearanceisin progress", "language": "en", "stage": "customs", "confirmedBy": "live", "note": "Written without the spaces around \"is in\"."},
+    {"wording": "Customs clearance completed", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "A cleared parcel is back in transit."},
+    {"wording": "Arriving at the mail processing center", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Arrive at the sorting and distribution center", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "package is on the way", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The row before the delivery, on the recipient's town; it does not say the parcel is out for delivery."},
+    {"wording": "Delivered", "language": "en", "stage": "delivered", "confirmedBy": "live"},
+    {"wording": "货物电子信息已经收到", "language": "zh", "stage": "registered", "confirmedBy": "prior-art", "note": "The platform writes this row itself for an order without scans, on its creation time."}
+  ]
+}

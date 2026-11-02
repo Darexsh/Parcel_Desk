@@ -1,0 +1,54 @@
+{
+  "proNumber": "99900000030",
+  "shipper": { "name": "Example Shipper Ltd", "addressLine1": "1 Sample Street", "addressLine2": "", "city": "Shipper Town", "state": "PQ", "zip": "Z0Z 0Z0" },
+  "consignee": { "name": "Example Consignee LLC", "addressLine1": "2 Sample Street", "addressLine2": "", "city": "Consignee Town", "state": "NC", "zip": "00022" },
+  "lineItems": [
+    { "pieces": "2", "code": "SKD", "hazardous": "N", "description": "Synthetic goods", "weight": "780", "shipmentType": "LTL" }
+  ],
+  "referenceNumbers": { "customerBOLNumber": "SYNTHBOL3", "masterProNumber": "", "purchaseOrderNumber": "", "pickupNumber": "", "customerShipperNumber": "", "referenceNumber": "" },
+  "deliveryInformation": {
+    "expectedDeliveryDate": "Contact Customer Service 800-765-7242",
+    "expectedDeliveryTime": "",
+    "deliveryAppointmentDate": "",
+    "deliveryAppointmentTime": "",
+    "deliveryDate": "",
+    "deliveryDateSecondary": "0",
+    "deliveryTime": { "from": "", "to": "" },
+    "signature": "",
+    "hasDeliveryAppointment": false,
+    "isDeliveryAppointmentDate": false,
+    "isContactCustomerService": true,
+    "isAppointmentRequiredCall": false
+  },
+  "shipmentInformation": {
+    "totalPieces": "2",
+    "totalWeight": "780",
+    "totalCube": "65",
+    "type": "PPD",
+    "driverNumber": "9",
+    "trailerNumber": "",
+    "pickupDate": "2031-02-17",
+    "serviceDays": "N/A",
+    "guaranteed": "",
+    "status": "In Transit",
+    "exceptionWarning": false,
+    "canViewConfidentialInformation": false
+  },
+  "history": [
+    { "activity": "Departed from Terminal", "city": "Border Town", "date": "2031-02-20", "state": "NY", "time": "02:14 pm", "display": true },
+    { "activity": "", "city": "", "date": "2031-02-20", "state": "", "time": "", "display": false },
+    { "activity": "Arrived at Breakbulk Terminal", "city": "Example Ville", "date": "2031-02-19", "state": "ON", "time": "05:02 am", "display": true },
+    { "activity": "Arrived at Breakbulk Terminal", "city": "Example Ville", "date": "2031-02-19", "state": "ON", "time": "05:02 am", "display": false },
+    { "activity": "Departed from Terminal", "city": "Example Ville", "date": "2031-02-18", "state": "ON", "time": "11:39 pm", "display": true },
+    { "activity": "Arrived at Breakbulk Terminal", "city": "Sample Ville", "date": "2031-02-18", "state": "PQ", "time": "09:57 pm", "display": false },
+    { "activity": "Departed from Terminal", "city": "Sample Ville", "date": "2031-02-17", "state": "PQ", "time": "06:21 pm", "display": true },
+    { "activity": "Pickup Complete", "city": "Shipper Town", "date": "2031-02-17", "state": "PQ", "time": "12:00 pm", "display": false }
+  ],
+  "terminalInformation": {
+    "destinationTerminal": { "addressLine1": "3 Example Way", "addressLine2": "", "city": "Example City", "fax": "5550000021", "manager": "Example Manager", "name": "Example City Terminal", "state": "NC", "telephone": "5550000022", "tid": "EXC", "tollFreeNumber": "8000000023", "zip": "00023" },
+    "originTerminal": { "addressLine1": "4 Sample Way", "addressLine2": "", "city": "Origin Town", "fax": "5550000024", "manager": "Sample Manager", "name": "Origin Town Terminal", "state": "NY", "telephone": "5550000025", "tid": "SMR", "tollFreeNumber": "8000000026", "zip": "00024" }
+  },
+  "interlineInformation": {
+    "from": { "partnerName": "Example Partner Freight", "pointOfInterchange": "Sample Ville", "freightBill": "SYNTHFB1" }
+  }
+}

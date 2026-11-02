@@ -1,0 +1,75 @@
+{
+  "id": "correos-express",
+  "displayName": "Correos Express",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "ES",
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#ffcd00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "correos-express",
+    "steps": [
+      "direct",
+      "correos"
+    ],
+    "recognition": {
+      "rank": 800
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://s.correosexpress.com/",
+    "searchUrl": "https://s.correosexpress.com/",
+    "helpUrl": "https://www.correosexpress.es/es/atencion-al-cliente/contacto/atencion-al-cliente",
+    "canaryUrl": "https://s.correosexpress.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "estimated_delivery",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "estimated_delivery"
+    ],
+    "discarded": [
+      "proof_of_delivery",
+      "contact_details",
+      "delivery_comments"
+    ],
+    "unavailable": [
+      "offset_timestamps"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "correos-express-1",
+      "pattern": "^\\d{16}$",
+      "confidence": "low",
+      "checksum": "gs1"
+    },
+    {
+      "id": "correos-express-2",
+      "pattern": "^\\d{23}$",
+      "confidence": "low",
+      "checksum": "gs1"
+    }
+  ]
+}

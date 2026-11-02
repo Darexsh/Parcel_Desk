@@ -1,0 +1,71 @@
+{
+  "carrier": "etomars",
+  "records": [
+    {
+      "number": "SN221198170JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230904015826/https://cbt.shipnergy.com/Track/Result?mode=0&ids=SN221198170JP",
+        "date": "2023-09-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "etomars"
+        ]
+      },
+      "note": "An archived lookup on Etomars's SHIPNERGY tracker shows this registration number on a parcel from Korea to Japan, with its order placed and Sagawa named for delivery."
+    },
+    {
+      "number": "SN227061302JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240309045249/https://cbt.shipnergy.com/Track/Result?mode=0&ids=SN227061302JP",
+        "date": "2024-03-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "etomars"
+        ]
+      },
+      "note": "An archived lookup on Etomars's SHIPNERGY tracker shows this registration number on a parcel flown from Korea to Tokyo, with Yamato named for delivery."
+    },
+    {
+      "number": "SN274273718JP",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260903055819/https://track.shipnergy.com/Track/Result?mode=0&ids=SN274273718JP",
+        "date": "2026-09-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "etomars"
+        ]
+      },
+      "note": "An archived lookup on Etomars's SHIPNERGY tracker shows this registration number on a parcel leaving its Korean warehouse for Japan, where Sagawa delivered it."
+    }
+  ]
+}

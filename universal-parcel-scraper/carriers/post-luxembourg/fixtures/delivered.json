@@ -1,0 +1,23 @@
+{
+  "status": "DONE",
+  "processedItems": 1,
+  "wrongItems": 0,
+  "items": [
+    {
+      "trackingNumber": "ZZ000000014LU",
+      "error": null,
+      "lastEvent": { "eventDate": "2026-03-12", "place": null, "label": "Final delivery", "eventTypeCode": "EMI", "displayOrder": null, "category": 5 },
+      "activeStep": 5,
+      "trackedEvents": [
+        { "eventDate": "2026-03-12", "place": null, "label": "Final delivery", "eventTypeCode": "EMI", "displayOrder": 1, "category": 5 },
+        { "eventDate": "2026-03-12", "place": null, "label": "Item out for delivery", "eventTypeCode": "EDG", "displayOrder": 2, "category": 4 },
+        { "eventDate": "2026-03-11", "place": null, "label": "Arrival at delivery facility", "eventTypeCode": "EMG", "displayOrder": 3, "category": 4 },
+        { "eventDate": "2026-03-10", "place": null, "label": "Arrival at sorting centre", "eventTypeCode": "EDD", "displayOrder": 4, "category": 0 },
+        { "eventDate": "2026-03-10", "place": "SAMPLE EXCHANGE", "label": "Departure from inward office of exchange", "eventTypeCode": "EMF", "displayOrder": 5, "category": 2 },
+        { "eventDate": "2026-03-10", "place": "SAMPLE EXCHANGE", "label": "Arrival at inward office of exchange", "eventTypeCode": "EMD", "displayOrder": 6, "category": 2 },
+        { "eventDate": "2026-03-09", "place": null, "label": "Departure from outward office of exchange", "eventTypeCode": "EMC", "displayOrder": 7, "category": 2 },
+        { "eventDate": "2026-03-08", "place": "Bureau de poste Exemple", "label": "Entry into the postal network", "eventTypeCode": "EMA", "displayOrder": 8, "category": 1 }
+      ]
+    }
+  ]
+}

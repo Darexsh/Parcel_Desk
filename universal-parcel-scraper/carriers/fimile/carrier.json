@@ -1,0 +1,44 @@
+{
+  "id": "fimile",
+  "displayName": "Fmile",
+  "aliases": [
+    "FIMILE"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#f57e1d"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.fimile.com/website/tracking?trackingNumber={trackingNumber}",
+    "searchUrl": "https://www.fimile.com/website/tracking",
+    "canaryUrl": "https://www.fimile.com/website/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.fimile.com"
+      ],
+      "pathPattern": "^/website/tracking/?$",
+      "params": [
+        "trackingNumber"
+      ]
+    }
+  ],
+  "detection": []
+}

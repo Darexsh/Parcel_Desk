@@ -1,0 +1,261 @@
+{
+  "carrier": "skyking",
+  "records": [
+    {
+      "number": "445662077",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.instagram.com/p/DbszEm1vE5s/",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An Instagram comment blaming SkyKing's hub team for a late parcel gives it as the consignment number. SkyKing's tracking knew it."
+    },
+    {
+      "number": "700038149",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.instagram.com/p/DcNcK-KvPKC/",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A comment under one of SkyKing's own Instagram posts gives it as a consignment number. SkyKing's tracking knew it."
+    },
+    {
+      "number": "141611567",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240410044444/https://skyking.co/track?cno=141611567",
+        "date": "2024-04-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on SkyKing's own tracker pre-fills this consignment number; the history loads from a separate API that the capture lacks, so it was not visible."
+    },
+    {
+      "number": "141305101",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230210011658/https://skyking.co/track?cno=141305101",
+        "date": "2023-02-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt"
+        ]
+      },
+      "note": "An archived lookup on SkyKing's own tracker pre-fills this consignment number; the history loads from a separate API that the capture lacks, so it was not visible."
+    },
+    {
+      "number": "380001924",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230813091333/https://skyking.co/track?cno=380001924",
+        "date": "2023-08-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt"
+        ]
+      },
+      "note": "An archived lookup on SkyKing's own tracker pre-fills this consignment number; the history loads from a separate API that the capture lacks, so it was not visible."
+    },
+    {
+      "number": "59590129",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240616034553/https://skyking.co/track?cno=59590129",
+        "date": "2024-06-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on SkyKing's own tracker pre-fills this consignment number; the history loads from a separate API that the capture lacks, so it was not visible."
+    },
+    {
+      "number": "262237975",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230130010643/https://skyking.co/track?cno=262237975",
+        "date": "2023-01-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt",
+          "tforce-freight",
+          "xpo-ltl"
+        ]
+      },
+      "note": "An archived lookup on SkyKing's own tracker carries this consignment number; the capture was not opened."
+    },
+    {
+      "number": "360522583",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240103063858/https://skyking.co/track?cno=360522583",
+        "date": "2024-01-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on SkyKing's own tracker carries this consignment number; the capture was not opened."
+    },
+    {
+      "number": "374058474",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230725224304/https://skyking.co/track?cno=374058474",
+        "date": "2023-07-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on SkyKing's own tracker carries this consignment number; the capture was not opened."
+    },
+    {
+      "number": "50026741",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230722041920/https://skyking.co/track?cno=50026741",
+        "date": "2023-07-22",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on SkyKing's own tracker carries this consignment number; the capture was not opened."
+    },
+    {
+      "number": "58126121",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240629010819/https://skyking.co/track?cno=58126121",
+        "date": "2024-06-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "An archived lookup on SkyKing's own tracker carries this consignment number; the capture was not opened."
+    },
+    {
+      "number": "59006303",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250610094024/https://skyking.co/track?cno=59006303",
+        "date": "2025-06-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on SkyKing's own tracker carries this consignment number; the capture was not opened."
+    }
+  ]
+}

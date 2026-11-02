@@ -1,0 +1,42 @@
+{
+  "id": "express-ru",
+  "displayName": "Express.Ru",
+  "aliases": [
+    "ExpressRu",
+    "Экспресс Точка Ру",
+    "Express Tochka Ru",
+    "Экспресс.Ру"
+  ],
+  "region": {
+    "countries": [
+      "RU"
+    ]
+  },
+  "brand": {
+    "color": "#e31e24"
+  },
+  "selectable": true,
+  "timezone": "Europe/Moscow",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.express.ru/office/tracking",
+    "canaryUrl": "https://www.express.ru/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "express-ru-1",
+      "pattern": "^WEB(?:N\\d{7,10}|\\d{10})$",
+      "confidence": "low"
+    }
+  ]
+}

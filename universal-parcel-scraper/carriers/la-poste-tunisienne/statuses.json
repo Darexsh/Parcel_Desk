@@ -1,0 +1,17 @@
+{
+  "carrier": "la-poste-tunisienne",
+  "entries": [
+    {"wording": "Recevoir les envois du client (Otb)", "stage": "accepted", "language": "fr", "confirmedBy": "portal", "note": "Otb marks the outbound leg."},
+    {"wording": "Reception de l'envoi au guichet", "stage": "accepted", "language": "fr", "confirmedBy": "portal", "note": "Seen on the e-suivi tracker."},
+    {"wording": "Envoyer vers le prochain point de traitement (Otb)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal"},
+    {"wording": "Envoyer vers le prochain point de traitement (Inb)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Inb marks the inbound or domestic delivery leg."},
+    {"wording": "Reception des envois au Centre de traitement (Otb et National)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal"},
+    {"wording": "Reception de l'envoi au Centre de Traitement", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Seen on the e-suivi tracker."},
+    {"wording": "Inserer envoi dans le sac (Otb)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Bagged for dispatch abroad."},
+    {"wording": "Recevoir les envois aux bureaux echanges (Otb)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Received at the exchange office for export."},
+    {"wording": "recevoir envoi au bureau echange (Inb)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Received at the destination country's exchange office."},
+    {"wording": "Remettre envoi a la douane (Inb)", "stage": "customs", "language": "fr", "confirmedBy": "portal", "note": "Shown with a retention reason in the other-information column."},
+    {"wording": "Recevoir envoi au bureau de livraison (Inb)", "stage": "in_transit", "language": "fr", "confirmedBy": "portal", "note": "Received at the delivery office."},
+    {"wording": "Envoyer Les colis aux centres douaniers", "stage": "customs", "language": "fr", "confirmedBy": "portal", "note": "Seen on an inbound item: parcels sent on to the customs centres."}
+  ]
+}

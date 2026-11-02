@@ -1,0 +1,118 @@
+{
+  "id": "4-72",
+  "displayName": "4-72",
+  "aliases": [
+    "472",
+    "Servicios Postales Nacionales",
+    "SPN"
+  ],
+  "region": {
+    "countries": [
+      "CO"
+    ]
+  },
+  "brand": {
+    "color": "#0033a0"
+  },
+  "selectable": true,
+  "timezone": "America/Bogota",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "4-72",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 896
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://svc2.sipost.co/TrazabilidadWeb?guia={trackingNumber}",
+    "searchUrl": "https://svc2.sipost.co/TrazabilidadWeb",
+    "canaryUrl": "https://svc2.sipost.co/TrazabilidadWeb",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "departure_date",
+      "weight",
+      "parcel_count",
+      "payment_details",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "signatory",
+      "related_tracking_numbers",
+      "event_details",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "event_details"
+    ],
+    "discarded": [
+      "departure_date",
+      "weight",
+      "parcel_count",
+      "payment_details",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "signatory",
+      "related_tracking_numbers",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at",
+      "destination_country",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "svc2.sipost.co"
+      ],
+      "pathPattern": "^/TrazabilidadWeb(/ReportTrace|/Traceability/(Search|Events))?/?$",
+      "params": [
+        "guia"
+      ]
+    },
+    {
+      "domains": [
+        "enviosonline.4-72.com.co"
+      ],
+      "pathPattern": "^/envios472/portal/rastrear\\.php$",
+      "params": [
+        "guia"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "4-72-s10",
+      "pattern": "^[A-Z]{2}\\d{9}CO$",
+      "confidence": "low",
+      "checksum": "s10",
+      "preferred": true
+    }
+  ]
+}

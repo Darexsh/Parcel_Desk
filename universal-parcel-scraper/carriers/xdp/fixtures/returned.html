@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>XDP Tracking</title>
+<link href="./css/screen.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="icon" href="./images/xdp_favicon.svg">
+</head>
+<body>
+   <div id="wrapper">
+   <div id="branding">
+	   <a href="" target="_self">
+		   <img src="./images/xdp_logo.svg" alt="XDP Logistics"  />
+	   </a>
+    <p>&nbsp;</p>
+  </div>
+   <div id="menuwrapper" style="background-image:none;background-color:#1d1d20;padding:0;margin:0;height:0">
+    <br class="clearit"><!-- Formatting Element Do Not Remove -->
+  </div>
+  <div id="leftCol" style="width:100%">
+
+
+  <!-- Box -->
+  <div class="xdp_content" style="background:#242427;border:0">
+  <form action="./track.php" method="get" id="trackform">
+  <p style="padding:0;margin:0;text-align:center;padding:10px 0 10px 0">
+    Consignment Number: <input name="c" value="ZDBQQQ000002" type="text" id="c" style="border:1px solid #333;margin:0 20px 0 0">
+    Delivery/Collect Post Code: <input name="code" value="ZZ99 9ZY" type="text" id="code" style="border:1px solid #333">
+    <input style="width:50px;padding:3px;background:#000;color:#fff;border:1px solid #333" value="Track" type="submit">
+  </p>
+  </form>
+  </div>
+    <!-- Con Info -->
+  <div class="xdp_content">
+
+  <div style="height:100%">
+
+    <div style="float:left;width:48%">
+      <p>
+        <label style="display:block;font-size:12px;color:#e1b44e;padding:0;margin:0 0 2px 0">Consignee Name</label>
+        Robin Sample        <label style="display:block;font-size:12px;color:#e1b44e;padding:0;margin:5px 0 2px 0">Company</label>
+        Sample Works Ltd        <label style="display:block;font-size:12px;color:#e1b44e;padding:0;margin:5px 0 2px 0">Delivery Postcode</label>
+        ZZ99 9ZY        <label style="display:block;font-size:12px;color:#e1b44e;padding:0;margin:5px 0 2px 0">References</label>
+        SAMPLE1, SAMPLE2      </p>
+
+    </div>
+
+    <div style="float:right;width:48%">
+
+      <p>
+        <label style="display:block;font-size:12px;color:#e1b44e;padding:0;margin:0 0 2px 0">Pieces</label>
+        3        <label style="display:block;font-size:12px;color:#e1b44e;padding:0;margin:5px 0 2px 0">Weight</label>
+        60.00KG
+        <label style="display:block;font-size:12px;color:#e1b44e;padding:0;margin:5px 0 2px 0">Service</label>
+        O/N      </p>
+
+    </div>
+
+    <br style="clear:both">
+
+  </div>
+
+  </div>
+    <!-- Nav -->
+  <div class="xdp_content" style="background:#242427;padding:0;border-bottom:0;border-top:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;background:#000">Date/Time</td>
+   <td style="width:15%;text-align:left;background:#000">Bar Code</td>
+   <td style="width:12%;text-align:left;background:#000">Location</td>
+   <td style="width:12%;text-align:left;background:#000">Status Type</td>
+   <td style="width:41%;border-right:0;text-align:left;background:#000">Status Data</td>
+  </tr>
+  </table>
+  </div>
+  <!-- End Nav -->
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">11 Feb 2026<br />09:02AM</td>
+   <td style="width:15%;text-align:left">All Barcodes</td>
+   <td style="width:12%;text-align:left">AUTO</td>
+   <td style="width:12%;text-align:left">EMAIL</td>
+   <td style="width:41%;text-align:left;border-right:0">Collect Email alert sent</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">11 Feb 2026<br />08:40AM</td>
+   <td style="width:15%;text-align:left">ZDBQQQ000002001</td>
+   <td style="width:12%;text-align:left">910</td>
+   <td style="width:12%;text-align:left">COLLECT</td>
+   <td style="width:41%;text-align:left;border-right:0">Spirit Status: "At Collection Depot"</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">11 Feb 2026<br />08:40AM</td>
+   <td style="width:15%;text-align:left">ZDBQQQ000002002</td>
+   <td style="width:12%;text-align:left">910</td>
+   <td style="width:12%;text-align:left">COLLECT</td>
+   <td style="width:41%;text-align:left;border-right:0">Spirit Status: "At Collection Depot"</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">11 Feb 2026<br />08:40AM</td>
+   <td style="width:15%;text-align:left">ZDBQQQ000002003</td>
+   <td style="width:12%;text-align:left">910</td>
+   <td style="width:12%;text-align:left">COLLECT</td>
+   <td style="width:41%;text-align:left;border-right:0">Spirit Status: "At Collection Depot"</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">11 Feb 2026<br />08:01AM</td>
+   <td style="width:15%;text-align:left">All Barcodes</td>
+   <td style="width:12%;text-align:left">910</td>
+   <td style="width:12%;text-align:left">PRINT</td>
+   <td style="width:41%;text-align:left;border-right:0">--</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">11 Feb 2026<br />08:01AM</td>
+   <td style="width:15%;text-align:left">All Barcodes</td>
+   <td style="width:12%;text-align:left">910</td>
+   <td style="width:12%;text-align:left">EXCEPTION</td>
+   <td style="width:41%;text-align:left;border-right:0">RETURN LABEL CREATED</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">10 Feb 2026<br />14:31PM</td>
+   <td style="width:15%;text-align:left">All Barcodes</td>
+   <td style="width:12%;text-align:left">911</td>
+   <td style="width:12%;text-align:left">EXCEPTION</td>
+   <td style="width:41%;text-align:left;border-right:0">DriverX Status: "Return"</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">10 Feb 2026<br />14:20PM</td>
+   <td style="width:15%;text-align:left">All barcodes</td>
+   <td style="width:12%;text-align:left">DriverX - 901</td>
+   <td style="width:12%;text-align:left">NEXT STOP</td>
+   <td style="width:41%;text-align:left;border-right:0">Early by an hour</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">10 Feb 2026<br />09:40AM</td>
+   <td style="width:15%;text-align:left"></td>
+   <td style="width:12%;text-align:left">911</td>
+   <td style="width:12%;text-align:left">DELIVERY</td>
+   <td style="width:41%;text-align:left;border-right:0">Scheduled for Delivery - Route 12 - ETA: 2:10pm to 4:10pm</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">10 Feb 2026<br />06:55AM</td>
+   <td style="width:15%;text-align:left">ZDBQQQ000002001</td>
+   <td style="width:12%;text-align:left">910</td>
+   <td style="width:12%;text-align:left">DELIVERY</td>
+   <td style="width:41%;text-align:left;border-right:0">Spirit Status: "At Delivery Depot"</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">10 Feb 2026<br />06:55AM</td>
+   <td style="width:15%;text-align:left">ZDBQQQ000002002</td>
+   <td style="width:12%;text-align:left">910</td>
+   <td style="width:12%;text-align:left">DELIVERY</td>
+   <td style="width:41%;text-align:left;border-right:0">Spirit Status: "At Delivery Depot"</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">10 Feb 2026<br />06:55AM</td>
+   <td style="width:15%;text-align:left">ZDBQQQ000002003</td>
+   <td style="width:12%;text-align:left">910</td>
+   <td style="width:12%;text-align:left">DELIVERY</td>
+   <td style="width:41%;text-align:left;border-right:0">Spirit Status: "At Delivery Depot"</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">9 Feb 2026<br />17:20PM</td>
+   <td style="width:15%;text-align:left">ZDBQQQ000002001</td>
+   <td style="width:12%;text-align:left">910</td>
+   <td style="width:12%;text-align:left">COLLECT</td>
+   <td style="width:41%;text-align:left;border-right:0">Spirit Status: "At Collection Depot"</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">9 Feb 2026<br />17:20PM</td>
+   <td style="width:15%;text-align:left">ZDBQQQ000002002</td>
+   <td style="width:12%;text-align:left">910</td>
+   <td style="width:12%;text-align:left">COLLECT</td>
+   <td style="width:41%;text-align:left;border-right:0">Spirit Status: "At Collection Depot"</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">9 Feb 2026<br />17:20PM</td>
+   <td style="width:15%;text-align:left">ZDBQQQ000002003</td>
+   <td style="width:12%;text-align:left">910</td>
+   <td style="width:12%;text-align:left">COLLECT</td>
+   <td style="width:41%;text-align:left;border-right:0">Spirit Status: "At Collection Depot"</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">9 Feb 2026<br />11:05AM</td>
+   <td style="width:15%;text-align:left">ZDBQQQ000002001<br /> ZDBQQQ000002002<br /> ZDBQQQ000002003</td>
+   <td style="width:12%;text-align:left">9Y999Y</td>
+   <td style="width:12%;text-align:left">CREATE</td>
+   <td style="width:41%;text-align:left;border-right:0">--</td>
+  </tr>
+  </table>
+  </div>
+    <div class="xdp_content" style="background:#242427;padding:0;border:0">
+  <table width="100%" cellspacing="0" cellpadding="0" style="padding:0;margin:0">
+  <tr>
+   <td style="width:20%;text-align:left;color:#ebb84e">9 Feb 2026<br />11:05AM</td>
+   <td style="width:15%;text-align:left">All Barcodes</td>
+   <td style="width:12%;text-align:left">9Y999Y</td>
+   <td style="width:12%;text-align:left">PRINT</td>
+   <td style="width:41%;text-align:left;border-right:0">--</td>
+  </tr>
+  </table>
+  </div>
+    
+  </div>
+  <div id="other_links">
+  </div>
+  <div id="footer">
+    <ul>
+      <li><a href="#">Valid CSS & xHTML</a></li>
+      <li><a href="#">Copyright XDP 2017</a></li>
+            <br><br><li><a href="#">XDP Registered Office: 1 Example Way, Exampletown, ZZ99 9ZZ.</li>
+      <br><li><a href="#">Registered in England No. 00000000</li>
+   </ul>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "id": "zippd",
+  "displayName": "Zippd",
+  "aliases": [
+    "DeliveryApp"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#173ded"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.zippd.com/tracking/?code={trackingNumber}",
+    "searchUrl": "https://www.zippd.com/tracking/",
+    "canaryUrl": "https://www.zippd.com/tracking/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "zippd.com",
+        "www.zippd.com"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "code"
+      ]
+    }
+  ],
+  "detection": []
+}

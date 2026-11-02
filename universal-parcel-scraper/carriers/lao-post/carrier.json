@@ -1,0 +1,47 @@
+{
+  "id": "lao-post",
+  "displayName": "Lao Post",
+  "aliases": [
+    "ໄປສະນີລາວ",
+    "Laos Postal Service",
+    "Entreprise des Postes Lao"
+  ],
+  "region": {
+    "countries": [
+      "LA"
+    ]
+  },
+  "brand": {
+    "color": "#f6871f"
+  },
+  "selectable": true,
+  "timezone": "Asia/Vientiane",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://laopost.com.la/online-service/tracking?tracking-number={trackingNumber}",
+    "searchUrl": "https://laopost.com.la/online-service/tracking",
+    "canaryUrl": "https://laopost.com.la/online-service/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "laopost.com.la",
+        "www.laopost.com.la"
+      ],
+      "pathPattern": "^/online-service/tracking/?$",
+      "params": [
+        "tracking-number"
+      ]
+    }
+  ],
+  "detection": []
+}

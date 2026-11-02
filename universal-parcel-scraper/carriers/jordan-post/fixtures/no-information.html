@@ -1,0 +1,58 @@
+
+
+<html>
+<head>
+<title>IPS Web Tracking/Item Events</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="css/ipswt" rel="stylesheet" type="text/css">
+<link href="css/ipswt.css" rel="stylesheet" type="text/css">
+<script language=javascript type="text/Javascript">
+
+	var popUpwindow = null;
+
+	function showImagePopup(imageUrl) {
+
+		var width = 400; // popup width
+		var height = 300;  // popup height
+		var left = (screen.width - width) / 2;
+		var top = (screen.height - height) / 2;
+
+		if (popUpwindow != null) popUpwindow.close();
+
+		var params = 'top=' + top.toString() + ',left=' + left.toString() + ',width=' + width.toString() + ',height=' + height.toString();
+		popUpwindow = window.open(imageUrl,'', params);
+		popUpwindow.location.href = imageUrl;
+		popUpwindow.focus();
+	}
+</script>
+
+
+<style type="text/css">
+      .style1
+      {
+         width: 1297px;
+      }
+   .style2
+		{
+			width: 104px;
+		}
+</style>
+</head>
+
+
+
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+
+
+<p>&nbsp;</p>
+
+<p align="center"><strong> No information, please check your item identifier</strong> </p>
+
+<p>
+
+<br>
+<br>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "statusCode": "200",
+  "statusMessage": "Successfully Operated",
+  "dist": {
+    "customerName": "Sample Recipient",
+    "trackingNumber": "00000000000002",
+    "orderPickupDate": "2026-04-10T09:12:44.000+0500",
+    "transactionStatusHistory": [
+      {"transactionStatusMessage": "Waiting for Delivery", "transactionStatusMessageCode": "0038", "modifiedDatetime": "2026-04-12T08:21:30.000+0500"},
+      {"transactionStatusMessage": "Arrived at Transit Hub DST", "transactionStatusMessageCode": "0035", "modifiedDatetime": "2026-04-12T08:19:05.000+0500"},
+      {"transactionStatusMessage": "Departed to SAMPLE TOWN", "transactionStatusMessageCode": "0033", "modifiedDatetime": "2026-04-11T22:40:10.000+0500"},
+      {"transactionStatusMessage": "Received at ORG Warehouse", "transactionStatusMessageCode": "0003", "modifiedDatetime": "2026-04-10T21:02:57.000+0500"},
+      {"transactionStatusMessage": "Departed to PostEx. Warehouse", "transactionStatusMessageCode": "0031", "modifiedDatetime": "2026-04-10T17:48:03.000+0500"},
+      {"transactionStatusMessage": "At SAMPLE-MERCHANT-ORG Warehouse", "transactionStatusMessageCode": "0001", "modifiedDatetime": "2026-04-10T09:12:44.000+0500"}
+    ]
+  }
+}

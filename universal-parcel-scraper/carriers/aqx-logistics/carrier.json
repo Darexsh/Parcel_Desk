@@ -1,0 +1,46 @@
+{
+  "id": "aqx-logistics",
+  "displayName": "AQX Logistics",
+  "aliases": [
+    "AQX Logistics LLC",
+    "إيه كيو إكس للشحن"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#1d253d"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://aqxlogistics.com/track?id={trackingNumber}",
+    "searchUrl": "https://aqxlogistics.com/track",
+    "canaryUrl": "https://aqxlogistics.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "aqxlogistics.com",
+        "www.aqxlogistics.com"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

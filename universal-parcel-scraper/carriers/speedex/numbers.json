@@ -1,0 +1,431 @@
+{
+  "carrier": "speedex",
+  "records": [
+    {
+      "number": "010725194183",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180315065435/http://www.speedex.gr:80/isapohi.asp?voucher_code=010725194183&pointgo=go",
+        "date": "2018-03-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Speedex's own tracker; the archived capture shows its history through delivery."
+    },
+    {
+      "number": "011006422670",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170406212933/http://www.speedex.gr:80/isapohi.asp?voucher_code=011006422670",
+        "date": "2017-04-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Speedex's own tracker; the archived capture shows its history, ending with a refused delivery."
+    },
+    {
+      "number": "700041432016",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250624141519/https://www.speedex.gr/speedex/NewTrackAndTrace.aspx?number=700041432016",
+        "date": "2025-06-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Speedex's own tracker; the archived capture shows its first scans."
+    },
+    {
+      "number": "050066554846",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250929102115/https://www.speedex.gr/speedex/NewTrackAndTrace.aspx?number=050066554846",
+        "date": "2025-09-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "purolator",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Speedex's own tracker; the archived capture shows its history up to the destination shop."
+    },
+    {
+      "number": "700040965699",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250605094314/https://www.speedex.gr/speedex/NewTrackAndTrace.aspx?number=700040965699",
+        "date": "2025-06-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Speedex's own tracker; the archived capture shows it registered and waiting for the sender's handover."
+    },
+    {
+      "number": "010913216578",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210414081857/http://www.speedex.gr/isapohi.asp?voucher_code=010913216578&searcggo=Submit",
+        "date": "2021-04-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Speedex's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "041263788841",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20191101073227/http://www.speedex.gr/isapohi.asp?voucher_code=041263788841&pointgo=go",
+        "date": "2019-11-01",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Speedex's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "050073459205",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20241206133203/https://www.speedex.gr/isapohi.asp?voucher_code=050073459205&searcggo=Submit",
+        "date": "2024-12-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "dpd-fr",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Speedex's own tracker, as an archived address shows; the opened capture holds only the frame of the result, not the history."
+    },
+    {
+      "number": "700021531792",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221229091113/http://speedex.gr/speedex/NewTrackAndTrace.aspx?number=700021531792",
+        "date": "2022-12-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Speedex's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "700029284974",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231117115825/https://www.speedex.gr/speedex/NewTrackAndTrace.aspx?number=700029284974",
+        "date": "2023-11-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Speedex's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "700032762270",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240415130818/http://www.speedex.gr/speedex/NewTrackAndTrace.aspx?number=700032762270",
+        "date": "2024-04-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "Looked up on Speedex's own tracker, as an archived address shows; the capture was not opened."
+    },
+    {
+      "number": "JJD014600012426038543",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251210202031/https://www.speedex.gr/speedex/NewTrackAndTrace.aspx?number=JJD014600012426038543",
+        "date": "2025-12-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "dhl-express",
+        "confidence": "high"
+      },
+      "note": "A DHL parcel number looked up on Speedex's own tracker; the archived capture shows only a registration scan, so Speedex knows it as a handover from DHL's network."
+    },
+    {
+      "number": "JJD014600012743269756",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260726221418/https://www.speedex.gr/speedex/NewTrackAndTrace.aspx?number=JJD014600012743269756",
+        "date": "2026-07-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "dhl-express",
+        "confidence": "high"
+      },
+      "note": "A DHL parcel number looked up on Speedex's own tracker; the archived capture shows Speedex's scans from its registration through a missed message to the recipient and a shop."
+    },
+    {
+      "number": "JJD014600012845358823",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261002214242/https://www.speedex.gr/speedex/NewTrackAndTrace.aspx?number=JJD014600012845358823",
+        "date": "2026-10-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "dhl-express",
+        "confidence": "high"
+      },
+      "note": "A DHL parcel number looked up on Speedex's own tracker; the archived capture shows only a registration scan, so Speedex knows it as a handover from DHL's network."
+    }
+  ]
+}

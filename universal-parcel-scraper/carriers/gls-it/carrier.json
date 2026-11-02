@@ -1,0 +1,108 @@
+{
+  "id": "gls-it",
+  "displayName": "GLS Italy",
+  "aliases": [
+    "GLS Italia",
+    "General Logistics Systems Italy"
+  ],
+  "region": {
+    "countries": [
+      "IT",
+      "SM"
+    ]
+  },
+  "brand": {
+    "color": "#ffdd00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Rome",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gls-it",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 930
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://gls-group.com/IT/it/servizi-online/ricerca-spedizioni/?match={trackingNumber}&type=NAT",
+    "searchUrl": "https://gls-group.com/IT/it/servizi-online/ricerca-spedizioni/",
+    "helpUrl": "https://gls-group.com/IT/it/servizi-online/contatti/",
+    "canaryUrl": "https://gls-group.com/IT/it/servizi-online/ricerca-spedizioni/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "progress_rail",
+      "parcel_count",
+      "volume",
+      "departure_date",
+      "depots",
+      "sender_town",
+      "recipient_address",
+      "customer_reference",
+      "recipient_name",
+      "signature"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "progress_rail"
+    ],
+    "discarded": [
+      "parcel_count",
+      "volume",
+      "departure_date",
+      "depots",
+      "sender_town",
+      "recipient_address",
+      "customer_reference",
+      "recipient_name",
+      "signature"
+    ],
+    "unavailable": [
+      "eta",
+      "pickup_point",
+      "sender_name",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "gls-group.com",
+        "gls-group.eu"
+      ],
+      "pathPattern": "^/IT/",
+      "params": [
+        "match",
+        "parcelNumber",
+        "matchParcelNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "gls-it-1",
+      "pattern": "^[A-Z]{2}\\d{9}$",
+      "confidence": "low"
+    },
+    {
+      "id": "gls-it-digit-depot",
+      "pattern": "^[A-Z]\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

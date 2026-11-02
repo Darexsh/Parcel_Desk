@@ -1,0 +1,105 @@
+{
+  "id": "estes",
+  "displayName": "Estes",
+  "aliases": [
+    "Estes Express Lines",
+    "Estes Express"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#ffd200"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "estes",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 20
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "delivered_at",
+    "provider_code",
+    "weight"
+  ],
+  "portal": {
+    "url": "https://www.estes-express.com/myestes/shipment-tracking/?type=PRO&query={trackingNumber}",
+    "searchUrl": "https://www.estes-express.com/",
+    "canaryUrl": "https://www.estes-express.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "weight",
+      "parcel_count",
+      "sender_name",
+      "sender_details",
+      "recipient_name",
+      "recipient_address",
+      "signatory",
+      "driver_name",
+      "scheduled_delivery",
+      "customer_reference",
+      "proof_of_delivery",
+      "office_contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "weight",
+      "provider_code",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "parcel_count",
+      "sender_name",
+      "sender_details",
+      "recipient_name",
+      "recipient_address",
+      "signatory",
+      "driver_name",
+      "scheduled_delivery",
+      "customer_reference",
+      "proof_of_delivery",
+      "office_contact_details",
+      "coordinates"
+    ],
+    "unavailable": [
+      "service_name",
+      "dimensions",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "estes-express.com"
+      ],
+      "pathPattern": "^/myestes/shipment-tracking/?$",
+      "params": [
+        "query"
+      ]
+    }
+  ],
+  "detection": []
+}

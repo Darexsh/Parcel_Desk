@@ -1,0 +1,50 @@
+{
+  "id": "citysprint",
+  "displayName": "CitySprint",
+  "aliases": [
+    "City Sprint",
+    "CitySprint UK"
+  ],
+  "region": {
+    "countries": [
+      "GB"
+    ]
+  },
+  "brand": {
+    "color": "#002f64"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://tracking.citysprint.co.uk/",
+    "canaryUrl": "https://tracking.citysprint.co.uk/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.citysprint.co.uk"
+      ],
+      "path": "^/tracking/([^/?#]+)/[^/?#]+/?$"
+    },
+    {
+      "domains": [
+        "citysprint.co.uk"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "job"
+      ]
+    }
+  ],
+  "detection": []
+}

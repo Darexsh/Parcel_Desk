@@ -1,0 +1,29 @@
+{
+  "carrier": "frontier-ca",
+  "records": [
+    {
+      "number": "10161803",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20250804031044/https://www.frontierscs.com/wp-content/uploads/2023/06/Instruction-of-Local-Shipping-Tracking-Tool-June-2023.pdf",
+        "date": "2025-08-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A delivered shipment in Frontier's guide to its tracking tool; Frontier's tracker answers it."
+    }
+  ]
+}

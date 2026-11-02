@@ -1,0 +1,57 @@
+[
+  {
+    "result": "found",
+    "id": "A0000000001ZZZ00000001",
+    "packageId": "A0000000001ZZZ00000001",
+    "currentStatus": "OSM99",
+    "currentDescription": "Delivery attempted - no access to delivery location",
+    "currentDatetime": "2026-05-20T18:31:09",
+    "currentLocation": "RIVERTON, WA, US",
+    "isInternational": false,
+    "estDelivery": "2026-05-21",
+    "history": [
+      {
+        "eventId": "00000000-0000-4000-8000-000000000023",
+        "description": "Delivery attempted - no access to delivery location",
+        "datetime": "2026-05-20T18:31:09",
+        "location": "RIVERTON, WA, US",
+        "city": "RIVERTON",
+        "country": "US",
+        "postal": "00009",
+        "state": "WA",
+        "eventCode": "OSM99",
+        "instructionsNeeded": true,
+        "group": 0,
+        "isException": false
+      },
+      {
+        "eventId": "00000000-0000-4000-8000-000000000022",
+        "description": "Out for delivery with courier partner",
+        "datetime": "2026-05-20T08:02:51",
+        "location": "RIVERTON, WA, US",
+        "city": "RIVERTON",
+        "country": "US",
+        "postal": "00009",
+        "state": "WA",
+        "eventCode": "OSM98",
+        "instructionsNeeded": false,
+        "group": 3,
+        "isException": false
+      },
+      {
+        "eventId": "00000000-0000-4000-8000-000000000021",
+        "description": "Picked Up by Shipping Partner",
+        "datetime": "2026-05-17T11:00:00",
+        "location": "",
+        "city": "",
+        "country": "",
+        "postal": "",
+        "state": "",
+        "eventCode": "",
+        "instructionsNeeded": false,
+        "group": 0,
+        "isException": false
+      }
+    ]
+  }
+]

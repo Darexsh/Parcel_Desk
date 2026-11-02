@@ -1,0 +1,198 @@
+{
+  "tracking_no": "0000000002",
+  "forwarding_no": "100000000001",
+  "forwarding_url": "https://www.fedex.com/fedextrack/?trknbr=100000000001",
+  "shipper_country": "INDIA",
+  "consignee_country": "UNITED STATES",
+  "expected_datetime": "2026-05-08",
+  "chargeable_weight": "12.000",
+  "pcs": "2",
+  "reference_no": "SAMPLE-REF-2",
+  "pod_image": "",
+  "pod_signature": "",
+  "job_no": "",
+  "errors": false,
+  "docket_info": [
+    [
+      "AWB No.",
+      "0000000002"
+    ],
+    [
+      "Booking Date",
+      "2026-04-28"
+    ],
+    [
+      "Consignee Name",
+      "SAMPLE TRADING LLC"
+    ],
+    [
+      "Receiver Name",
+      ""
+    ],
+    [
+      "Shipper City",
+      "KARNATAKA"
+    ],
+    [
+      "Origin",
+      "INDIA"
+    ],
+    [
+      "Consignee City",
+      "SAMPLEVILLE"
+    ],
+    [
+      "Destination",
+      "United States"
+    ],
+    [
+      "Forwarding No.",
+      "100000000001"
+    ],
+    [
+      "Status",
+      "IN TRANSIT"
+    ]
+  ],
+  "docket_events": [
+    {
+      "event_description": "SHIPMENT FORWARDED TO FEDEX",
+      "event_location": "NEW YORK",
+      "event_at": "2026-05-04 10:12:00",
+      "event_state": "in_transit",
+      "event_remark": ""
+    },
+    {
+      "event_description": "SHIPMENT ARRIVED",
+      "event_location": "NEW YORK",
+      "event_at": "2026-05-03 21:40:05",
+      "event_state": "incoming_manifest",
+      "event_remark": ""
+    },
+    {
+      "event_description": "FLIGHT DEPARTED",
+      "event_location": "DELHI",
+      "event_at": "2026-05-02 02:15:00",
+      "event_state": "manifest",
+      "event_remark": ""
+    },
+    {
+      "event_description": "SHIPMENT UNHOLD -",
+      "event_location": "MUMBAI",
+      "event_at": "2026-05-01 12:00:41",
+      "event_state": "shipment_unhold",
+      "event_remark": ""
+    },
+    {
+      "event_description": "Shipment Hold Due to Inscan Credit Limit exceeded",
+      "event_location": "DELHI",
+      "event_at": "2026-04-30 16:05:12",
+      "event_state": "shipment_hold",
+      "event_remark": ""
+    },
+    {
+      "event_description": "SHIPMENT ARRIVED",
+      "event_location": "DELHI",
+      "event_at": "2026-04-30 16:05:10",
+      "event_state": "in_scan",
+      "event_remark": ""
+    },
+    {
+      "event_description": "SHIPMENT INFORMATION RECEIVED",
+      "event_location": "BANGALORE",
+      "event_at": "2026-04-28 17:29:51",
+      "event_state": "entry",
+      "event_remark": ""
+    }
+  ],
+  "parcels": [
+    {
+      "parcel_no": "000000000201",
+      "events": [
+        {
+          "event_description": "SHIPMENT FORWARDED TO FEDEX",
+          "event_location": "NEW YORK",
+          "event_at": "2026-05-04 10:12:00",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT ARRIVED",
+          "event_location": "NEW YORK",
+          "event_at": "2026-05-03 21:40:05",
+          "event_remark": ""
+        },
+        {
+          "event_description": "FLIGHT DEPARTED",
+          "event_location": "DELHI",
+          "event_at": "2026-05-02 02:15:00",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT UNHOLD -",
+          "event_location": "MUMBAI",
+          "event_at": "2026-05-01 12:00:41",
+          "event_remark": ""
+        },
+        {
+          "event_description": "Shipment Hold Due to Inscan Credit Limit exceeded",
+          "event_location": "DELHI",
+          "event_at": "2026-04-30 16:05:12",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT ARRIVED",
+          "event_location": "DELHI",
+          "event_at": "2026-04-30 16:05:10",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT INFORMATION RECEIVED",
+          "event_location": "BANGALORE",
+          "event_at": "2026-04-28 17:29:51",
+          "event_remark": ""
+        }
+      ]
+    },
+    {
+      "parcel_no": "000000000202",
+      "events": [
+        {
+          "event_description": "SHIPMENT ARRIVED",
+          "event_location": "NEW YORK",
+          "event_at": "2026-05-03 21:40:05",
+          "event_remark": ""
+        },
+        {
+          "event_description": "FLIGHT DEPARTED",
+          "event_location": "DELHI",
+          "event_at": "2026-05-02 02:15:00",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT UNHOLD -",
+          "event_location": "MUMBAI",
+          "event_at": "2026-05-01 12:00:41",
+          "event_remark": ""
+        },
+        {
+          "event_description": "Shipment Hold Due to Inscan Credit Limit exceeded",
+          "event_location": "DELHI",
+          "event_at": "2026-04-30 16:05:12",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT ARRIVED",
+          "event_location": "DELHI",
+          "event_at": "2026-04-30 16:05:10",
+          "event_remark": ""
+        },
+        {
+          "event_description": "SHIPMENT INFORMATION RECEIVED",
+          "event_location": "BANGALORE",
+          "event_at": "2026-04-28 17:29:51",
+          "event_remark": ""
+        }
+      ]
+    }
+  ]
+}

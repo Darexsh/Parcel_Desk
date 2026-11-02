@@ -1,0 +1,74 @@
+{
+  "ack": {
+    "data": {
+      "Success": true
+    }
+  },
+  "timeout": {
+    "error": "Request Timeout"
+  },
+  "language": {
+    "Success": true,
+    "live_chat": false,
+    "message": {
+      "text": "你好！歡迎使用香港郵政線上查詢服務。請輸入相應的數字選擇语言： <br>Hello! Welcome to Hongkong Post online enquiry. Please enter the corresponding number for the language you select:<br>你好！欢迎使用香港邮政在线查询服务。请输入相应的数字选择语言：<br><br>1. 繁體中文 / Traditional Chinese <br>2. 英文 / English <br>3. 简体中文 / Simplified Chinese"
+    },
+    "lang": ""
+  },
+  "main": {
+    "Success": true,
+    "live_chat": false,
+    "message": {
+      "text": "Please enter the corresponding number for the information you are looking for (number 1-6):<br><br>1. Postage and Preparations before Posting (i.e.: Details of Prohibited Item)<br>2. Sending Mail<br>3. Mail Tracing and Compensation<br>4. Receiving Mail<br>5. Advance Order Service<br>6. ShopThruPost<br><br>⭐輸入 #  選擇語言 / Type in # to select language"
+    },
+    "lang": "EN"
+  },
+  "tracing": {
+    "Success": true,
+    "live_chat": false,
+    "message": {
+      "text": "Please enter the corresponding number to select the information required:<br> <br>1. Mail Tracing<br>2. Compensation<br> <br><br>⭐Type in 9 to go back to Previous Menu<br>⭐Type in 0 to go back to Main Menu<br>⭐輸入 #  選擇語言 / Type in # to select language"
+    },
+    "lang": "EN"
+  },
+  "prompt": {
+    "Success": true,
+    "live_chat": false,
+    "message": {
+      "text": "Mail Tracing<br><br>Please enter the tracking number <br>‣   The tracking number generally consists of 13 alpha-numeric characters, e.g. EE123456789HK.<br><br> <br>⭐Type in 9 to go back to Previous Menu<br>⭐Type in 0 to go back to Main Menu<br>⭐輸入 #  選擇語言 / Type in # to select language"
+    },
+    "lang": "EN"
+  },
+  "found": {
+    "Success": true,
+    "live_chat": false,
+    "message": {
+      "text": "According to the system record, status of the mail item at as  03-01-2026 14:05 is as follows: Delivered.<br><br>If you wish to further enquire about the mail status, please visit the link below to contact us:<br><a href=\"https://service.hongkongpost.hk/eform/app/POS28B/en\" target=\"blank\"'>https://service.hongkongpost.hk/eform/app/POS28B/en</a><br><br>For mail tracking of other mail item(s), please enter another tracking number.<br><br>⭐Type in 9 to go back to Previous Menu<br>⭐Type in 0 to go back to Main Menu<br>⭐輸入 #  選擇語言 / Type in # to select language"
+    },
+    "lang": "EN"
+  },
+  "noRecord": {
+    "Success": true,
+    "live_chat": false,
+    "message": {
+      "text": "The system has no record of the mail item enquired, please make sure the tracking number entered is correct. Please visit the link below for further information:<br><br><a href=\"https://www.hongkongpost.hk/en/faq_support/mail_tracing/index.html\" target=\"blank\"'>https://www.hongkongpost.hk/en/faq_support/mail_tracing/index.html</a>.<br> <br>⭐Type in 9 to go back to Previous Menu<br>⭐Type in 0 to go back to Main Menu<br>⭐輸入 #  選擇語言 / Type in # to select language"
+    },
+    "lang": "EN"
+  },
+  "invalid": {
+    "Success": true,
+    "live_chat": false,
+    "message": {
+      "text": "Invalid Mail Number! Please try again"
+    },
+    "lang": "EN"
+  },
+  "incorrect": {
+    "Success": true,
+    "live_chat": false,
+    "message": {
+      "text": "Sorry, the information entered is incorrect. Please enter the corresponding number for the information you are looking for."
+    },
+    "lang": "EN"
+  }
+}

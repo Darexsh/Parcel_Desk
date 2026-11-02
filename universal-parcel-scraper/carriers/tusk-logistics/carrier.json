@@ -1,0 +1,47 @@
+{
+  "id": "tusk-logistics",
+  "displayName": "Tusk Logistics",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#0f7a47"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://shipmenttracking.tusklogistics.com/?trackingNumber={trackingNumber}",
+    "searchUrl": "https://www.tusklogistics.com/track-your-shipment",
+    "canaryUrl": "https://t.17track.net/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "shipmenttracking.tusklogistics.com"
+      ],
+      "params": [
+        "trackingNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "tusk-logistics-1",
+      "pattern": "^TUSK[0-9A-Z]{12}$",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "carrier": "evropat",
+  "records": [
+    {
+      "number": "9103059081",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/drkskwlkr/unbranded-tracker/blob/main/README.md",
+        "date": "2023-04-09",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "Sample result link for Evropat in the README of an open-source tracker that queries Evropat's own tracking service. Evropat's tracking lookup answers it as a delivered waybill."
+    },
+    {
+      "number": "9107345678",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://evropat.bg/track/",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "dhl-ecommerce-es"
+        ]
+      },
+      "note": "Example in the number field of Evropat's own tracking page. Evropat's tracking lookup answers it as a delivered waybill."
+    }
+  ]
+}

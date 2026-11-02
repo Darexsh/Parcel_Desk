@@ -1,0 +1,136 @@
+{
+  "carrier": "fargo-uz",
+  "records": [
+    {
+      "number": "14034878753880",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230403173042/https://my.fargo.uz/track/?id=14034878753880&ids=14034878753880",
+        "date": "2023-04-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "Archived lookup on Fargo's own tracker at my.fargo.uz with this id; the opened capture shows only the page shell, so the history was not visible."
+    },
+    {
+      "number": "301933378",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240330011231/https://my.fargo.uz/track/?id=301933378&ids=300911727%2C301095224%2C301099407%2C300885019%2C301134599%2C301145141%2C301167477%2C301154167%2C301170791%2C301189158%2C301216888%2C301219060%2C301226297%2C301241137%2C301208758%2C10052574786430%2C460944%2C301365634%2C301370018%2C301365302%2C301365560%2C301385232%2C301407556%2C301407608%2C301418031%2C301410735%2C301412339%2C301420110%2C301417877%2C301434652%2C301431072%2C301426582%2C301452361%2C301446026%2C301455067%2C301452955%2C301456055%2C301453946%2C301452956%2C301454603%2C301461100%2C301456612%2C301460404%2C301459207%2C301458907%2C301448213%2C301466675%2C301476341%2C301435622%2C301477800%2C301476497%2C301470409%2C301468776%2C301458652%2C301458546%2C301494362%2C301486221%2C301516777%2C301528015%2C301506204%2C301518979%2C301514767%2C301499493%2C301511776%2C301528596%2C301513971%2C301502120%2C301520121%2C301520542%2C301538470%2C301536643%2C301542233%2C301554564%2C301115262%2C301558107%2C301555094%2C301873026%2C301442267%2C301885924%2C301883456%2C301893712%2C301905714%2C301900910%2C301893667%2C301904167%2C301926021%2C301928903%2C301910000%2C301936103%2C301933378",
+        "date": "2024-03-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt"
+        ]
+      },
+      "note": "Archived lookup on Fargo's own tracker at my.fargo.uz with this id; the opened capture shows only the page shell, so the history was not visible."
+    },
+    {
+      "number": "300911727",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240330011231/https://my.fargo.uz/track/?id=301933378&ids=300911727%2C301095224%2C301099407%2C300885019%2C301134599%2C301145141%2C301167477%2C301154167%2C301170791%2C301189158%2C301216888%2C301219060%2C301226297%2C301241137%2C301208758%2C10052574786430%2C460944%2C301365634%2C301370018%2C301365302%2C301365560%2C301385232%2C301407556%2C301407608%2C301418031%2C301410735%2C301412339%2C301420110%2C301417877%2C301434652%2C301431072%2C301426582%2C301452361%2C301446026%2C301455067%2C301452955%2C301456055%2C301453946%2C301452956%2C301454603%2C301461100%2C301456612%2C301460404%2C301459207%2C301458907%2C301448213%2C301466675%2C301476341%2C301435622%2C301477800%2C301476497%2C301470409%2C301468776%2C301458652%2C301458546%2C301494362%2C301486221%2C301516777%2C301528015%2C301506204%2C301518979%2C301514767%2C301499493%2C301511776%2C301528596%2C301513971%2C301502120%2C301520121%2C301520542%2C301538470%2C301536643%2C301542233%2C301554564%2C301115262%2C301558107%2C301555094%2C301873026%2C301442267%2C301885924%2C301883456%2C301893712%2C301905714%2C301900910%2C301893667%2C301904167%2C301926021%2C301928903%2C301910000%2C301936103%2C301933378",
+        "date": "2024-03-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Archived lookup on Fargo's own tracker at my.fargo.uz, listed among the ids the tracker keeps with the lookup; the opened capture shows only the page shell, so the history was not visible."
+    },
+    {
+      "number": "10052574786430",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240330011231/https://my.fargo.uz/track/?id=301933378&ids=300911727%2C301095224%2C301099407%2C300885019%2C301134599%2C301145141%2C301167477%2C301154167%2C301170791%2C301189158%2C301216888%2C301219060%2C301226297%2C301241137%2C301208758%2C10052574786430%2C460944%2C301365634%2C301370018%2C301365302%2C301365560%2C301385232%2C301407556%2C301407608%2C301418031%2C301410735%2C301412339%2C301420110%2C301417877%2C301434652%2C301431072%2C301426582%2C301452361%2C301446026%2C301455067%2C301452955%2C301456055%2C301453946%2C301452956%2C301454603%2C301461100%2C301456612%2C301460404%2C301459207%2C301458907%2C301448213%2C301466675%2C301476341%2C301435622%2C301477800%2C301476497%2C301470409%2C301468776%2C301458652%2C301458546%2C301494362%2C301486221%2C301516777%2C301528015%2C301506204%2C301518979%2C301514767%2C301499493%2C301511776%2C301528596%2C301513971%2C301502120%2C301520121%2C301520542%2C301538470%2C301536643%2C301542233%2C301554564%2C301115262%2C301558107%2C301555094%2C301873026%2C301442267%2C301885924%2C301883456%2C301893712%2C301905714%2C301900910%2C301893667%2C301904167%2C301926021%2C301928903%2C301910000%2C301936103%2C301933378",
+        "date": "2024-03-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "dpd",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "Archived lookup on Fargo's own tracker at my.fargo.uz, listed among the ids the tracker keeps with the lookup; the opened capture shows only the page shell, so the history was not visible."
+    },
+    {
+      "number": "TEZ886137",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://fargo.uz/track",
+        "date": "2026-10-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Example in the placeholder of Fargo's own tracking field, which asks for a track ID or order number."
+    }
+  ]
+}

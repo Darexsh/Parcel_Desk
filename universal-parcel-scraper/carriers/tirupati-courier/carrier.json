@@ -1,0 +1,90 @@
+{
+  "id": "tirupati-courier",
+  "displayName": "Shree Tirupati Courier",
+  "aliases": [
+    "Shree Tirupati Courier Services Pvt. Ltd.",
+    "Shree Tirupati Courier Service Pvt. Ltd.",
+    "Shree Tirupati Courier Services"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#f4791f"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "tirupati-courier",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 711
+    },
+    "localClocks": true,
+    "dateOnlyScans": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code"
+  ],
+  "portal": {
+    "searchUrl": "https://www.shreetirupaticourier.net/",
+    "canaryUrl": "https://www.shreetirupaticourier.net/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "origin",
+      "destination",
+      "awb_date",
+      "recipient_name",
+      "office_contact_details",
+      "office_addresses"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "origin",
+      "awb_date"
+    ],
+    "discarded": [
+      "destination",
+      "recipient_name",
+      "office_contact_details",
+      "office_addresses"
+    ],
+    "unavailable": [
+      "scan_times",
+      "offset_timestamps",
+      "delivered_at",
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "shreetirupaticourier.net"
+      ],
+      "pathPattern": "^/(?:frm_doctrack|frmtracking)\\.aspx$",
+      "params": [
+        "docno"
+      ]
+    }
+  ],
+  "detection": []
+}

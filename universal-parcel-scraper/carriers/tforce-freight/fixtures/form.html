@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Tracking</title>
+</head>
+<body>
+<div class="container-fluid ups-brown" id="main_nav">
+    <div class="row" id="divlogsec">
+        <input name="&#x5F;&#x5F;RequestVerificationToken" type="hidden" value="SyntheticAntiForgeryToken&#x2D;0000000000&#x5F;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&#x2D;0123456789" />
+        <nav id="ups-navItems">
+<form action="&#x2F;ltl&#x2F;apps&#x2F;Tracking" data-parsley-validate="" id="CommontrackingByProForm" method="post" target="&#x5F;blank">
+            <input type="hidden" id="CommonProNumbers" name="ProNumbers" />
+</form>
+        </nav>
+    </div>
+</div>
+<div class="trackByPro">
+            <form id="trackingByProForm1" data_parsley_validate="">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <label for="pros_textbox" class="font-weight-bold">PRO Numbers *</label>
+                        <textarea class="form-control" id="pros_textbox" rows="5" data-parsley-required data-parsley-isvalidpronumber="2" data-parsley-ismaxrows="25"></textarea>
+                        <label for="pros_textbox" style="font-size: 12px; margin-top: 5px">Enter up to 25 PRO Numbers. One per line.</label>
+                    </div>
+                </div>
+                <input type="hidden" id="ProNumbers1" name="ProNumbers1" />
+                <div class="row">
+                    <div class="col-lg-12">
+                        <input type="hidden" id="requiredreCaptchaPROhidden" class="requiredreCaptcha" value="False" />
+                    </div>
+                </div>
+                <button class="btn btn-primary upsBtnSm pull-left" id="submitProButton" onclick="javascript: trackByPros();">Track</button>
+            </form>
+<form action="&#x2F;ltl&#x2F;apps&#x2F;Tracking" id="trackingByProForm" method="post" target="&#x5F;self">                <input name="__RequestVerificationToken" type="hidden" id="RequestVerificationTracksubmit">
+                <input type="hidden" id="ProNumbers" name="ProNumbers" />
+                <input type="hidden" id="TrackingByPROresponseToken" name="TrackingByPROresponseToken"  />
+</form>
+</div>
+<div class="trackByRef" style="display: none">
+                        <input type="hidden" id="requiredreCaptchaRefhidden" class="requiredreCaptcha2" value="False" />
+<form action="&#x2F;ltl&#x2F;apps&#x2F;TrackingByReference" id="trackingByRefForm" method="post" target="&#x5F;self">                <input name="__RequestVerificationToken" type="hidden" id="RequestVerificationTrackbyrefsubmit">
+</form>
+</div>
+<div class="row">
+                    <div class="accordion" id="accordionExample">
+                        <label style="display:none" id="lblpronums"></label>
+                    </div>
+</div>
+</body>
+</html>

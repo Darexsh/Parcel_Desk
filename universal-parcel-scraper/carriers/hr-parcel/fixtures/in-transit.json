@@ -1,0 +1,108 @@
+{
+  "shipment": {
+    "id": 10000456,
+    "state": 1010,
+    "delivered": false,
+    "progress": 50,
+    "sender": {
+      "town": "Hub Sintetico (MI)",
+      "province": ""
+    },
+    "recipient": {
+      "town": null,
+      "province": null
+    },
+    "total_packages": 2,
+    "warning": ""
+  },
+  "steps": [
+    {
+      "icon": "icon-tracking icon-ARRIVATA",
+      "code": 1010,
+      "status": "Arrivata in Filiale",
+      "date": "02/04/2026 07:12",
+      "originalDate": "2026-04-02T07:12:49",
+      "town": "Firenze (FI) (FI)"
+    },
+    {
+      "icon": "icon-tracking icon-INTRANSITO",
+      "code": 1001,
+      "status": "Presa in carico all'HUB",
+      "date": "01/04/2026 17:09",
+      "originalDate": "2026-04-01T17:09:50",
+      "town": ""
+    },
+    {
+      "icon": "icon-tracking icon-ERRORE",
+      "code": 1000,
+      "status": "Spedizione non ancora ricevuta presso i nostri magazzini",
+      "date": "30/03/2026 14:51",
+      "originalDate": "2026-03-30T14:51:36",
+      "town": ""
+    }
+  ],
+  "response": {
+    "ShipmentData": {
+      "Date": "2026-03-30T00:00:00",
+      "idSpedizione": 10000456,
+      "ShipmentYear": 2026,
+      "ShipmentNumber": 900456,
+      "CustomerCode": 30001,
+      "PrimaryReference": "SYNTHETIC-ORDER-0002",
+      "SecondaryReference": "",
+      "ParcelsNr": 2,
+      "WeightKg": 2.4,
+      "DimXcm": 0,
+      "DimYcm": 0,
+      "DimZcm": 0,
+      "CodAmount": 0,
+      "InsuranceAmount": 0,
+      "ShipmentValue": 0,
+      "ShipmentType": 1,
+      "ContractId": 1,
+      "lastState": 1010,
+      "ShipmentStatus": 2
+    },
+    "Delivered": false,
+    "Avnz": 50,
+    "DepartureTown": "Hub Sintetico (MI)",
+    "ShipmentStatusDetail": [
+      {
+        "dateTime": "2026-04-02T07:12:49",
+        "StatusCode": 1010,
+        "StatusDecode": "Arrivata in Filiale",
+        "signatory": "",
+        "Town": "Firenze (FI) (FI)",
+        "StatusClass": 9
+      },
+      {
+        "dateTime": "2026-04-01T17:09:50",
+        "StatusCode": 1001,
+        "StatusDecode": "Presa in carico all'HUB",
+        "signatory": "",
+        "Town": "Hub Sintetico (MI)",
+        "StatusClass": 2
+      },
+      {
+        "dateTime": "2026-03-30T14:51:36",
+        "StatusCode": 1000,
+        "StatusDecode": "Spedizione non ancora ricevuta presso i nostri magazzini",
+        "signatory": "",
+        "Town": "",
+        "StatusClass": 99
+      }
+    ],
+    "BarcodeList": [
+      {
+        "Barcode": "19000000000449"
+      },
+      {
+        "Barcode": "19000000000456"
+      }
+    ]
+  },
+  "payload": {
+    "endpoint": "https://wcfservices.myhrparcel.com/TrackPubblico/getTrackPubblicoInfo/History",
+    "data": []
+  }
+}

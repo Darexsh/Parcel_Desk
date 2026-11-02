@@ -1,0 +1,24 @@
+{
+  "data": {
+    "consumerSearchShipments": {
+      "totalHits": 1,
+      "hits": [{
+        "displayId": "CW123456785FR",
+        "status": {"main": "READY_FOR_PICKUP", "subStatus": []},
+        "measurements": null,
+        "pickupPoint": {
+          "type": "LOCKER",
+          "status": "SHELVED",
+          "address": {"publicName": "Example parcel locker", "streetAddress": "Example street 1", "postcode": "00000", "city": "EXAMPLE CITY"},
+          "pickupDetails": {"pinCode": "PRIVATE_CODE"}
+        },
+        "delivery": {"destination": {"name": "PRIVATE_NAME", "street": ["PRIVATE_ADDRESS"], "postcode": "PRIVATE_POSTCODE", "city": "PRIVATE_CITY"}},
+        "packages": [],
+        "events": [
+          {"eventDescription": "Item is ready for a pick up ", "reasonDescription": "Pickup details are available in the arrival notice.", "city": "EXAMPLE CITY", "timestamp": "2026-01-12T09:00:00.000Z"},
+          {"eventDescription": "Item accepted from transport", "reasonDescription": null, "city": "EXAMPLE HUB", "timestamp": "2026-01-11T15:00:00.000Z"}
+        ]
+      }]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "carrier": "first-delivery-tn",
+  "entries": [
+    {"code": "0", "wording": "En attente", "stage": "registered", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: order awaiting processing."},
+    {"code": "1", "wording": "En cours", "stage": "in_transit", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: order being processed."},
+    {"code": "2", "wording": "Livré", "stage": "delivered", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: order delivered."},
+    {"code": "3", "wording": "Echange", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: the order is an exchange; not a movement."},
+    {"code": "5", "wording": "Retour Expéditeur", "stage": "returned", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: order returned to the sender."},
+    {"code": "6", "wording": "Supprimé", "stage": "exception", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: order cancelled by the sender."},
+    {"code": "7", "wording": "Rtn client/agence", "stage": "returned", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: return from the recipient or agency."},
+    {"code": "8", "wording": "Au magasin", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: order at the store; the documentation does not say whether it awaits collection."},
+    {"code": "11", "wording": "Rtn dépôt", "stage": "returned", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: order returned to the warehouse."},
+    {"code": "20", "wording": "A vérifier", "stage": "exception", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: order to verify."},
+    {"code": "30", "wording": "Retour reçu", "stage": "returned", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: return received."},
+    {"code": "31", "wording": "Rtn définitif", "stage": "returned", "language": "fr", "confirmedBy": "official-doc", "note": "Order state in the carrier's API documentation: final return."}
+  ]
+}

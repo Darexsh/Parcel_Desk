@@ -1,0 +1,41 @@
+{
+  "id": "x-trac",
+  "displayName": "X-TRAC",
+  "aliases": [
+    "XTRAC",
+    "X-TRAC Express",
+    "XTRAC Express"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#082799"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.xtrac-express.com/tracking",
+    "canaryUrl": "https://www.xtrac-express.com/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "x-trac-1",
+      "pattern": "^EXTRA\\d{11}$",
+      "confidence": "high"
+    }
+  ]
+}

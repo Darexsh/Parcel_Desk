@@ -1,0 +1,18 @@
+{
+  "package": {
+    "shortcode": "SMPL9WK",
+    "tracking_code": "0000000025",
+    "status": "out_for_delivery",
+    "pickup_location": { "lat": 35.91, "lng": 14.49 },
+    "destination_location": { "lat": 36.04, "lng": 14.24 },
+    "journey": [
+      { "resolved_at": "2026-05-05T15:40:12.000+02:00", "type": "pickup", "failure_reason": null, "location_type": "pickup", "outcome": "success" },
+      { "resolved_at": "2026-05-05T18:02:44.000+02:00", "type": "dropoff", "failure_reason": null, "location_type": "hub", "outcome": "success" },
+      { "resolved_at": "2026-05-06T08:55:03.000+02:00", "type": "pickup", "failure_reason": null, "location_type": "hub", "outcome": "success" },
+      { "resolved_at": null, "type": "dropoff", "failure_reason": null, "location_type": "destination", "outcome": "none" }
+    ],
+    "eta": { "duration_from_previous_seconds": 540, "duration_from_ongoing_seconds": 3720, "expected_arrival_at": "2026-05-06T11:30:00.000+02:00" },
+    "driver": { "lat": 35.95, "lng": 14.37 },
+    "stops_before_start_count": 4
+  }
+}

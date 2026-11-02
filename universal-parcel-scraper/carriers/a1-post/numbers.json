@@ -1,0 +1,24 @@
+{
+  "carrier": "a1-post",
+  "records": [
+    {
+      "number": "9214490221582714146891",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220707071052/https://a1post.bg/track.php?t=9214490221582714146891",
+        "date": "2022-07-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "usps",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on A1 POST's own tracker shows this USPS label number with A1 POST's handling in Bulgaria and the USPS hand-off in July 2022."
+    }
+  ]
+}

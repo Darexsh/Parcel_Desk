@@ -1,0 +1,58 @@
+{
+  "id": "piggy-express",
+  "displayName": "Piggy Express",
+  "aliases": [
+    "PiggyExp",
+    "PiggyExp Inc.",
+    "PiggyShip",
+    "Piggy Ship",
+    "小猪物流"
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#fe4646"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://piggyexp.com/track",
+    "canaryUrl": "https://piggyexp.com/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "piggyexp.com",
+        "www.piggyexp.com"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "tracking"
+      ]
+    },
+    {
+      "domains": [
+        "dsp-tracking.piggyship.com"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": []
+}

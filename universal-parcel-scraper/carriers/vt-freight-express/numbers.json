@@ -1,0 +1,62 @@
+{
+  "carrier": "vt-freight-express",
+  "records": [
+    {
+      "number": "EBOS4699484",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190228213959/http://portal.vtfe.com.au:80/Track/VTFE/EBOS4699484",
+        "date": "2019-02-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on VT Freight Express's own tracker shows it delivered; the number opens with its sender's prefix."
+    },
+    {
+      "number": "WIN40910152985",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180706133236/http://portal.vtfe.com.au:80/Track/VTFE/WIN40910152985",
+        "date": "2018-07-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on VT Freight Express's own tracker shows it delivered; the number opens with its sender's prefix."
+    },
+    {
+      "number": "WIN40910156472",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180903140459/http://portal.vtfe.com.au:80/Track/VTFE/WIN40910156472",
+        "date": "2018-09-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on VT Freight Express's own tracker shows it delivered; the number opens with its sender's prefix."
+    }
+  ]
+}

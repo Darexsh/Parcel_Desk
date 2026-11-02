@@ -1,0 +1,56 @@
+{
+  "id": "aaa-cooper",
+  "displayName": "AAA Cooper",
+  "aliases": [
+    "AAA Cooper Transportation",
+    "ACT"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#113c77"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.aaacooper.com/workspace/action-trac?id={trackingNumber}&PG=ProNumber",
+    "searchUrl": "https://www.aaacooper.com/",
+    "canaryUrl": "https://www.aaacooper.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.aaacooper.com",
+        "aaacooper.com"
+      ],
+      "pathPattern": "^/workspace/action-trac/?$",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "domains": [
+        "www.aaacooper.com",
+        "aaacooper.com"
+      ],
+      "pathPattern": "^/(?:pwb/)?Transit/ProTrackResults\\.aspx$",
+      "params": [
+        "ProNum"
+      ]
+    }
+  ],
+  "detection": []
+}

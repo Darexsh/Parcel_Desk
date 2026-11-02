@@ -1,0 +1,19 @@
+{
+  "carrier": "tcs-pakistan",
+  "entries": [
+    {"wording": "Shipment Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. A checkpoint."},
+    {"wording": "Arrived at TCS Facility", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. A checkpoint."},
+    {"wording": "Departed From TCS Facility", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. A checkpoint."},
+    {"wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. A checkpoint."},
+    {"wording": "Recipient Premises Closed (For Additional Info Contact Local TCS Office)", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. A checkpoint."},
+    {"wording": "Address Information Needed (For Additional Info Contact Local TCS Office)", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. A checkpoint."},
+    {"code": "UL", "wording": "Unable To Locate Delivery Address", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. A delivery record."},
+    {"code": "HC", "wording": "Fri/Sat Closed", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. A delivery record: the recipient's premises were closed for the weekend."},
+    {"wording": "Scheduled For Next Delivery Cycle", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. A checkpoint: the consignment waits for the next delivery round."},
+    {"code": "SD", "wording": "Scheduled for the next delivery cycle", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. A delivery record: the consignment waits for the next delivery round."},
+    {"wording": "Shipment Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "In a reply of the lookup bridge TCS's tracker calls. A checkpoint; the field the station is in on other checkpoints names who took the parcel."},
+    {"code": "OK", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "In a reply of the lookup bridge TCS's tracker calls. A delivery record, which the page shows as the current status."},
+    {"wording": "Your shipment is in Transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. The summary's status line for a consignment listed without checkpoints."},
+    {"wording": "Your Shipment is out for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "In an archived reply of the lookup bridge TCS's tracker calls. The summary's status line while the consignment is out for delivery."}
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "data": [
+    {
+      "pro": "9900000303",
+      "pickupDate": "2026-05-08",
+      "pickupTime": "13:00:00-05:00",
+      "status": {
+        "conciseStatus": "Delivered",
+        "expandedStatus": "Delivery Attempted - Freight Refused",
+        "referenceDate": "2026-05-11",
+        "referenceTime": "11:05:30-06:00",
+        "isException": true,
+        "reasonCode": "RF",
+        "reason": "Delivery Attempted - Freight Refused"
+      },
+      "estimatedDelivery": {
+        "startDate": "2026-05-11",
+        "startTime": "10:30:00-06:00"
+      },
+      "totalWeight": "",
+      "movementHistory": [
+        {
+          "id": "994",
+          "description": "Destination Terminal",
+          "location": {
+            "id": "994",
+            "name": "Pine Bluff",
+            "code": "PIN",
+            "address": {
+              "line": [
+                "100 Synthetic Way"
+              ],
+              "city": "Pine Ridge",
+              "state": "CO",
+              "postalCode": "00000"
+            },
+            "geoCoordinates": [
+              "-90.0001",
+              "40.0001"
+            ]
+          },
+          "contact": {
+            "telephone": "(000) 000-0000",
+            "fax": "0000000000"
+          },
+          "transportEventTypeCode": "Destination Terminal",
+          "statusHistory": [
+            {
+              "conciseStatus": "In Transit",
+              "expandedStatus": "Arrived at Pine Bluff, CO (994) delivery facility",
+              "referenceDate": "2026-05-11",
+              "referenceTime": "06:15:00-06:00",
+              "isException": false
+            }
+          ]
+        },
+        {
+          "id": "Delivery",
+          "description": "Actual Delivery",
+          "transportEventTypeCode": "Delivery",
+          "location": {
+            "id": "",
+            "name": "Sample Consignee",
+            "address": {
+              "line": [
+                "1 Sample Street"
+              ],
+              "city": "Sampleton",
+              "state": "ZZ",
+              "postalCode": "00001"
+            },
+            "geoCoordinates": [
+              "-91.2345",
+              "41.2345"
+            ]
+          },
+          "statusHistory": [
+            {
+              "conciseStatus": "Out for Delivery",
+              "expandedStatus": "Out for Delivery",
+              "referenceDate": "2026-05-11",
+              "referenceTime": "08:40:00-06:00",
+              "isException": false
+            },
+            {
+              "conciseStatus": "Delivered",
+              "expandedStatus": "Delivery Attempted - Freight Refused",
+              "referenceDate": "2026-05-11",
+              "referenceTime": "11:05:30-06:00",
+              "isException": true,
+              "reasonCode": "RF",
+              "reason": "Delivery Attempted - Freight Refused"
+            }
+          ]
+        }
+      ],
+      "trackingInfo": null
+    }
+  ],
+  "error": {
+    "code": 0,
+    "message": "",
+    "details": ""
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "code": 200,
+  "message": "Your request processed successfully",
+  "retryable": false,
+  "data": {
+    "detail": {
+      "sender": "Sample Shop, Sample Street 2",
+      "receiver": "Sample Person, Sample Street 3",
+      "final_status": "signed_personally",
+      "actual_amount": 0,
+      "weight": 1,
+      "service_code": "REG",
+      "delivered_date": "2026-04-03 11:00:00",
+      "shipped_date": "2026-04-01 15:00:00",
+      "is_cod": false,
+      "cod_price": 0
+    },
+    "awb": "GTL0000000002",
+    "history": [
+      {
+        "hub_name": "GTL Sample Hub",
+        "status_code": "",
+        "date_time": "2026-04-01 09:00:00",
+        "status": "Pesanan akan segera dipickup oleh kurir.",
+        "problem_reason_code": "",
+        "driver": {},
+        "proof": "",
+        "metadata": {
+          "hub": {
+            "hub_id": "00000000-0000-0000-0000-000000000000",
+            "hub_code": "SMP",
+            "hub_name": "GTL Sample Hub"
+          },
+          "status_message": "Pesanan akan segera dipickup oleh kurir.",
+          "status_platform": "ready_for_pickup",
+          "location": {
+            "name": "Sample Street 1",
+            "code": "SMP"
+          },
+          "driver": {},
+          "actor": {
+            "id": "0",
+            "name": "system",
+            "type": "oms_system"
+          },
+          "origin_event_time_actual": "0001-01-01T00:00:00Z"
+        }
+      },
+      {
+        "hub_name": "GTL Sample Hub",
+        "status_code": "pickup_start",
+        "date_time": "2026-04-01 09:20:00",
+        "status": "Kurir sedang menuju lokasi pickup.",
+        "problem_reason_code": "",
+        "driver": {},
+        "proof": "",
+        "metadata": {
+          "hub": {
+            "hub_id": "00000000-0000-0000-0000-000000000000",
+            "hub_code": "SMP",
+            "hub_name": "GTL Sample Hub"
+          },
+          "status_message": "Kurir sedang menuju lokasi pickup.",
+          "status_platform": "allocated",
+          "location": {
+            "name": "Sample Street 1",
+            "code": "SMP"
+          },
+          "driver": {},
+          "actor": {
+            "id": "0",
+            "name": "system",
+            "type": "system"
+          },
+          "origin_event_time_actual": "0001-01-01T00:00:00Z"
+        }
+      },
+      {
+        "hub_name": "GTL Sample Hub",
+        "status_code": "pickup_success",
+        "date_time": "2026-04-01 15:00:00",
+        "status": "Pesanan sudah berhasil dipickup oleh kurir.",
+        "problem_reason_code": "",
+        "driver": {
+          "name": "Sample Driver",
+          "phone": "0812-0000-0001"
+        },
+        "proof": "",
+        "metadata": {
+          "hub": {
+            "hub_id": "00000000-0000-0000-0000-000000000000",
+            "hub_code": "SMP",
+            "hub_name": "GTL Sample Hub"
+          },
+          "status_message": "Pesanan sudah berhasil dipickup oleh kurir.",
+          "status_platform": "picked",
+          "location": {
+            "name": "Sample Street 1",
+            "code": "SMP"
+          },
+          "driver": {
+            "name": "Sample Driver",
+            "phone": "0812-0000-0001"
+          },
+          "actor": {
+            "id": "0",
+            "name": "Sample Driver",
+            "type": "driver"
+          },
+          "origin_event_time_actual": "0001-01-01T00:00:00Z"
+        }
+      },
+      {
+        "hub_name": "GTL Sample Hub",
+        "status_code": "pickup_station_out",
+        "date_time": "2026-04-01 22:00:00",
+        "status": "Paket sudah berangkat dari GTL Sample Hub.",
+        "problem_reason_code": "",
+        "driver": {},
+        "proof": "",
+        "metadata": {
+          "hub": {
+            "hub_id": "00000000-0000-0000-0000-000000000000",
+            "hub_code": "SMP",
+            "hub_name": "GTL Sample Hub"
+          },
+          "status_message": "Paket sudah berangkat dari GTL Sample Hub.",
+          "status_platform": "OUTBOUNDED",
+          "location": {
+            "name": "Sample Street 1",
+            "code": "SMP"
+          },
+          "driver": {},
+          "actor": {
+            "id": "0",
+            "name": "system",
+            "type": ""
+          },
+          "origin_event_time_actual": "0001-01-01T00:00:00Z"
+        }
+      },
+      {
+        "hub_name": "Sample Sorting Center",
+        "status_code": "sc_inbound",
+        "date_time": "2026-04-02 04:00:00",
+        "status": "Paket telah tiba di Sample Sorting Center.",
+        "problem_reason_code": "",
+        "driver": {},
+        "proof": "",
+        "metadata": {
+          "hub": {
+            "hub_id": "00000000-0000-0000-0000-000000000000",
+            "hub_code": "SMP",
+            "hub_name": "Sample Sorting Center"
+          },
+          "status_message": "Paket telah tiba di Sample Sorting Center.",
+          "status_platform": "RECEIVED",
+          "location": {
+            "name": "Sample Street 1",
+            "code": "SMP"
+          },
+          "driver": {},
+          "actor": {
+            "id": "0",
+            "name": "system",
+            "type": ""
+          },
+          "origin_event_time_actual": "0001-01-01T00:00:00Z"
+        }
+      },
+      {
+        "hub_name": "Sample Sorting Center",
+        "status_code": "sc_outbound",
+        "date_time": "2026-04-02 16:00:00",
+        "status": "Paket sudah berangkat dari Sample Sorting Center.",
+        "problem_reason_code": "",
+        "driver": {},
+        "proof": "",
+        "metadata": {
+          "hub": {
+            "hub_id": "00000000-0000-0000-0000-000000000000",
+            "hub_code": "SMP",
+            "hub_name": "Sample Sorting Center"
+          },
+          "status_message": "Paket sudah berangkat dari Sample Sorting Center.",
+          "status_platform": "OUTBOUNDED",
+          "location": {
+            "name": "Sample Street 1",
+            "code": "SMP"
+          },
+          "driver": {},
+          "actor": {
+            "id": "0",
+            "name": "system",
+            "type": ""
+          },
+          "origin_event_time_actual": "0001-01-01T00:00:00Z"
+        }
+      },
+      {
+        "hub_name": "GTL Other Hub",
+        "status_code": "station_inbound",
+        "date_time": "2026-04-02 23:00:00",
+        "status": "Paket telah tiba di GTL Other Hub.",
+        "problem_reason_code": "",
+        "driver": {},
+        "proof": "",
+        "metadata": {
+          "hub": {
+            "hub_id": "00000000-0000-0000-0000-000000000000",
+            "hub_code": "SMP",
+            "hub_name": "GTL Other Hub"
+          },
+          "status_message": "Paket telah tiba di GTL Other Hub.",
+          "status_platform": "RECEIVED",
+          "location": {
+            "name": "Sample Street 1",
+            "code": "SMP"
+          },
+          "driver": {},
+          "actor": {
+            "id": "0",
+            "name": "system",
+            "type": ""
+          },
+          "origin_event_time_actual": "0001-01-01T00:00:00Z"
+        }
+      },
+      {
+        "hub_name": "GTL Other Hub",
+        "status_code": "delivery_start",
+        "date_time": "2026-04-03 06:00:00",
+        "status": "Paket sudah berangkat dari GTL Other Hub.",
+        "problem_reason_code": "",
+        "driver": {
+          "name": "Sample Driver",
+          "phone": "0812-0000-0001"
+        },
+        "proof": "",
+        "metadata": {
+          "hub": {
+            "hub_id": "00000000-0000-0000-0000-000000000000",
+            "hub_code": "SMP",
+            "hub_name": "GTL Other Hub"
+          },
+          "status_message": "Paket sudah berangkat dari GTL Other Hub.",
+          "status_platform": "picked",
+          "location": {
+            "name": "Sample Street 1",
+            "code": "SMP"
+          },
+          "driver": {
+            "name": "Sample Driver",
+            "phone": "0812-0000-0001"
+          },
+          "actor": {
+            "id": "0",
+            "name": "Sample Driver",
+            "type": "driver"
+          },
+          "origin_event_time_actual": "0001-01-01T00:00:00Z"
+        }
+      },
+      {
+        "hub_name": "GTL Other Hub",
+        "status_code": "delivery_start",
+        "date_time": "2026-04-03 06:05:00",
+        "status": "Kurir sedang menuju lokasi pengantaran.",
+        "problem_reason_code": "",
+        "driver": {
+          "name": "Sample Driver",
+          "phone": "0812-0000-0001"
+        },
+        "proof": "",
+        "metadata": {
+          "hub": {
+            "hub_id": "00000000-0000-0000-0000-000000000000",
+            "hub_code": "SMP",
+            "hub_name": "GTL Other Hub"
+          },
+          "status_message": "Kurir sedang menuju lokasi pengantaran.",
+          "status_platform": "out_for_delivery",
+          "location": {
+            "name": "Sample Street 1",
+            "code": "SMP"
+          },
+          "driver": {
+            "name": "Sample Driver",
+            "phone": "0812-0000-0001"
+          },
+          "actor": {
+            "id": "0",
+            "name": "Sample Driver",
+            "type": "driver"
+          },
+          "origin_event_time_actual": "0001-01-01T00:00:00Z"
+        }
+      },
+      {
+        "hub_name": "GTL Other Hub",
+        "status_code": "signed_personally",
+        "date_time": "2026-04-03 11:00:00",
+        "status": "Paket sudah sampai dan diterima oleh Sample Person",
+        "problem_reason_code": "",
+        "driver": {
+          "name": "Sample Driver",
+          "phone": "0812-0000-0001"
+        },
+        "proof": "https://example.invalid/proof/sample.jpg",
+        "metadata": {
+          "hub": {
+            "hub_id": "00000000-0000-0000-0000-000000000000",
+            "hub_code": "SMP",
+            "hub_name": "GTL Other Hub"
+          },
+          "status_message": "Paket sudah sampai dan diterima oleh Sample Person",
+          "status_platform": "delivered",
+          "location": {
+            "name": "Sample Street 1",
+            "code": "SMP"
+          },
+          "driver": {
+            "name": "Sample Driver",
+            "phone": "0812-0000-0001"
+          },
+          "actor": {
+            "id": "0",
+            "name": "Sample Driver",
+            "type": "driver"
+          },
+          "origin_event_time_actual": "0001-01-01T00:00:00Z"
+        }
+      }
+    ]
+  }
+}

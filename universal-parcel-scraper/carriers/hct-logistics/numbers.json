@@ -1,0 +1,199 @@
+{
+  "carrier": "hct-logistics",
+  "records": [
+    {
+      "number": "4380277101",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170214175546/https://www.hct.com.tw/searchgoods.aspx?no=NDM4MDI3NzEwMQ==&no2=",
+        "date": "2017-02-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "An archived lookup on HCT's own tracker; the opened capture shows this ten-digit number with its scans from arrival at the first branch to delivery."
+    },
+    {
+      "number": "8052001952",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230528123513/https://www.hct.com.tw/SearchGoods.aspx?no=ODA1MjAwMTk1Mg%3D%3D&no2",
+        "date": "2023-05-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "An archived lookup address on HCT's own site whose no parameter is the Base64 form of this ten-digit number; the capture is a redirect to the home page, so no history is visible and the capture was not opened."
+    },
+    {
+      "number": "1609078166",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230524094114/https://www.hct.com.tw/searchgoods.aspx?no=MTYwOTA3ODE2Ng%3D%3D&no2",
+        "date": "2023-05-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki",
+          "gls-es"
+        ]
+      },
+      "note": "An archived lookup address on HCT's own site whose no parameter is the Base64 form of this ten-digit number; the capture is a redirect to the home page, so no history is visible and the capture was not opened."
+    },
+    {
+      "number": "6679804342",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/postoor/HCT-Logistics-PHP-library/blob/master/README.md",
+        "date": "2020-07-21",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "The tracking example in the README of an open-source PHP library for HCT's mobile tracking endpoint; not checked against HCT's tracker."
+    },
+    {
+      "number": "4792713601",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://track.tw/carrier/9a9840bc-a5d9-4c4a-8cd2-a79031b4ad53",
+        "date": "2026-08-19",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "A comment on track.tw's HCT page gives it as the number of a parcel sent a week earlier and not yet delivered. HCT's tracker lists its scans from the first branch to delivery."
+    },
+    {
+      "number": "2510862336",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://track.tw/carrier/9a9840bc-a5d9-4c4a-8cd2-a79031b4ad53",
+        "date": "2025-03-28",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "A comment on track.tw's HCT page gives it as a number the tracker would not show. HCT's tracker lists the pickup it was issued for, and a later pickup under the same number."
+    }
+  ]
+}

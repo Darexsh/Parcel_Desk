@@ -1,0 +1,61 @@
+{
+  "carrier": "j-and-t",
+  "entries": [
+    {
+      "code": "10",
+      "wording": "Pick-Up",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "Indonesian app router. Courier pick-up scan (取件扫描); its sentence names the courier, which is dropped."
+    },
+    {
+      "code": "210",
+      "wording": "Pick-Up",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "Indonesian app router. Drop-off at a drop point (寄件入库), with no customer sentence."
+    },
+    {
+      "code": "50",
+      "wording": "On Shipping",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Indonesian app router. Departure (发件); its town fields name the next stop, so no location is kept."
+    },
+    {
+      "code": "92",
+      "wording": "On Shipping",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Indonesian app router. Arrival at a transit center or drop point (到件)."
+    },
+    {
+      "code": "94",
+      "wording": "On Delivery",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "note": "Indonesian app router. Out for delivery (派件); its sentence names the courier, which is dropped."
+    },
+    {
+      "code": "100",
+      "wording": "Delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "note": "Indonesian app router. Signed for (签收); its sentence names the recipient, which is dropped."
+    },
+    {
+      "code": "110",
+      "wording": "On Hold",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "note": "Indonesian app router. Problem shipment (问题件); the sentence gives the reason in Indonesian."
+    }
+  ]
+}

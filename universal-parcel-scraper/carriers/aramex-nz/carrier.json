@@ -1,0 +1,121 @@
+{
+  "id": "aramex-nz",
+  "displayName": "Aramex New Zealand",
+  "aliases": [
+    "Aramex NZ",
+    "Fastway New Zealand",
+    "Fastway NZ",
+    "Fastway Couriers New Zealand"
+  ],
+  "region": {
+    "countries": [
+      "NZ"
+    ]
+  },
+  "brand": {
+    "color": "#dc291e"
+  },
+  "selectable": true,
+  "timezone": "Pacific/Auckland",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "aramex-nz",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 444
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "provider_code",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.aramex.co.nz/tools/track?l={trackingNumber}",
+    "searchUrl": "https://www.aramex.co.nz/tools/track/",
+    "canaryUrl": "https://www.aramex.co.nz/tools/track/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "progress_rail",
+      "delivery_instructions",
+      "customer_reference",
+      "signatory",
+      "signature",
+      "proof_of_delivery",
+      "pickup_point",
+      "pickup_point_address",
+      "office_opening_hours",
+      "coordinates",
+      "pickup_code",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "provider_code",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "delivery_instructions",
+      "customer_reference",
+      "signatory",
+      "signature",
+      "proof_of_delivery",
+      "pickup_point",
+      "pickup_point_address",
+      "office_opening_hours",
+      "coordinates",
+      "pickup_code"
+    ],
+    "unavailable": [
+      "sender_name",
+      "recipient_name",
+      "weight",
+      "service_name",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "aramex.co.nz",
+        "fastway.co.nz"
+      ],
+      "params": [
+        "l"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "aramex-nz-mx",
+      "pattern": "^MX\\d{10}$",
+      "confidence": "high"
+    },
+    {
+      "id": "aramex-nz-1",
+      "pattern": "^[A-Z]{2}\\d{10}$",
+      "confidence": "low"
+    },
+    {
+      "id": "aramex-nz-2",
+      "pattern": "^\\d[A-Z]\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

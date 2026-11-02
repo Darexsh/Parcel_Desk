@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr">
+<head><meta charset="utf-8" /><meta name="robots" content="noindex" /><title>
+	Aras Kargo - Gönderi Takip
+</title></head>
+<body>
+    <form method="post" action="./kargotakip.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="SYNTHETIC-VIEWSTATE" />
+</div>
+        <div id="Panel">
+            <div class="page-wrap">
+                <div style="position: relative;">
+                    <div class="tab-nav" id="tabNav">
+                    <a class="tab-btn active" data-tab="0" href="javascript:void(0)">Gönderi Bilgileri</a>
+                    <a class="tab-btn"        data-tab="1" href="javascript:void(0)">Kargo Hareketleri</a>
+                    <a class="tab-btn"        data-tab="2" href="javascript:void(0)">Hizmet ve Sms</a>
+                    </div>
+                </div>
+                <div id="tabPanels" style="margin-top: 12px;">
+                    <iframe id="panel0" src="CargoInfoWaybillAndDelivered.aspx?shipmentid=0123456789ABCDEF0123456789ABCDEF&subekod="
+                        frameborder="0" scrolling="no"
+                        style="width: 100%; border: none; display: block; height: 600px;"></iframe>
+                    <iframe id="panel1" src=""
+                        data-src="CargoInfoTransactionAndRedirection.aspx"
+                        frameborder="0" scrolling="no"
+                        style="width: 100%; border: none; display: none; height: 400px;"></iframe>
+                    <iframe id="panel2if" src=""
+                        data-src="CargoInfoSmsAndServices.aspx?shipmentid=0123456789ABCDEF0123456789ABCDEF&waybillid=FEDCBA9876543210FEDCBA9876543210"
+                        frameborder="0" scrolling="no"
+                        style="width: 100%; border: none; display: none; height: 400px;"></iframe>
+                </div>
+            </div>
+</div>
+    </form>
+</body>
+</html>

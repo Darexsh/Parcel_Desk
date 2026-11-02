@@ -1,0 +1,45 @@
+{
+  "id": "iran-post",
+  "displayName": "Iran Post",
+  "aliases": [
+    "Islamic Republic of Iran Post Company",
+    "Iran Post Company",
+    "شرکت ملی پست جمهوری اسلامی ایران"
+  ],
+  "region": {
+    "countries": [
+      "IR"
+    ]
+  },
+  "brand": {
+    "color": "#08317d"
+  },
+  "selectable": true,
+  "timezone": "Asia/Tehran",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.post.ir/?id={trackingNumber}",
+    "canaryUrl": "https://tracking.post.ir/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.post.ir"
+      ],
+      "pathPattern": "^/(?:search\\.aspx)?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

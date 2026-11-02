@@ -1,0 +1,88 @@
+{
+  "id": "fargo-uz",
+  "displayName": "Fargo",
+  "aliases": [
+    "Fargo Parcel Service"
+  ],
+  "region": {
+    "countries": [
+      "UZ"
+    ]
+  },
+  "brand": {
+    "color": "#ed1f2b"
+  },
+  "selectable": true,
+  "timezone": "Asia/Tashkent",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "fargo-uz",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 802
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "offset_timestamps",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://fargo.uz/track?id={trackingNumber}",
+    "searchUrl": "https://fargo.uz/track",
+    "canaryUrl": "https://fargo.uz/track",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "driver_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "offset_timestamps",
+      "delivered_at"
+    ],
+    "discarded": [
+      "driver_name"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "pickup_point",
+      "proof_of_delivery",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "fargo.uz",
+        "www.fargo.uz"
+      ],
+      "pathPattern": "^(?:/ru|/uz)?/track/?$",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "domains": [
+        "my.fargo.uz"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

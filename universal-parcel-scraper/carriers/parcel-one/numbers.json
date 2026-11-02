@@ -1,0 +1,33 @@
+{
+  "carrier": "parcel-one",
+  "gap": "No public number has been found on PARCEL.ONE's tracker.",
+  "records": [
+    {
+      "number": "3981228230182",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/parcel.one",
+        "date": "2024-01-18",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "A customer quoted this number in a review of PARCEL.ONE. Its tracker did not find it without the recipient's postcode."
+    }
+  ]
+}

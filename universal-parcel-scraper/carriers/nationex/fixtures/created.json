@@ -1,0 +1,164 @@
+{
+  "CustomerId": null,
+  "ShipmentId": 900000789,
+  "ExpeditionDate": "2026-03-02",
+  "InsertedDate": null,
+  "TotalParcels": 1,
+  "TotalWeight": 3,
+  "ShipmentStatus": "Creation",
+  "ShipmentStatusFr": "Créée",
+  "ShipmentStatusEn": "Creation",
+  "ShipmentStatusTooltipFr": "Texte d'aide synthétique",
+  "ShipmentStatusTooltipEn": "Synthetic help text",
+  "ShipmentStatusTooltips": [
+    {
+      "TextFr": "Texte d'aide synthétique",
+      "TextEn": "Synthetic help text",
+      "ShipmentStatus": "Creation"
+    }
+  ],
+  "StatusHistories": [
+    {
+      "ShipmentStatus": "Creation",
+      "ShipmentStatusFr": "Créée",
+      "ShipmentStatusEn": "Creation",
+      "StatusDate": "2026-03-16T10:02:44",
+      "LastLocation": null
+    }
+  ],
+  "ShipmentType": "PickupDelivery",
+  "ReferenceNumber": "SYNTHETIC-REF-77",
+  "Note": "Synthetic note at the side door",
+  "BillingAccount": null,
+  "Sender": {
+    "Contact": null,
+    "AccountNumber": null,
+    "AccountName": null,
+    "Address1": null,
+    "Address2": null,
+    "PostalCode": null,
+    "City": null,
+    "ProvinceState": null,
+    "Territory": null,
+    "CountryID": null,
+    "Phone": null,
+    "SmsNotification": null,
+    "EmailNotification": null,
+    "NoCivic": null,
+    "Suite": null,
+    "StreetName": null,
+    "Email": null,
+    "DeliveryDays": null,
+    "DepotShort": null,
+    "SectorId": null,
+    "RouteId": null,
+    "Geocoding": {
+      "Longitude": -71.5,
+      "Latitude": 46.5
+    }
+  },
+  "Destination": {
+    "Contact": null,
+    "AccountNumber": null,
+    "AccountName": null,
+    "Address1": null,
+    "Address2": null,
+    "PostalCode": "A1A 1A1",
+    "City": "SYNTHETICTOWN",
+    "ProvinceState": null,
+    "Territory": null,
+    "CountryID": null,
+    "Phone": null,
+    "SmsNotification": null,
+    "EmailNotification": null,
+    "NoCivic": null,
+    "Suite": null,
+    "StreetName": null,
+    "Email": null,
+    "DeliveryDays": null,
+    "DepotShort": null,
+    "SectorId": null,
+    "RouteId": null,
+    "Geocoding": {
+      "Longitude": -71.5,
+      "Latitude": 46.5
+    }
+  },
+  "Accessory": null,
+  "Parcels": [
+    {
+      "ParcelId": 90000078901,
+      "ParcelNumber": 1,
+      "ReferenceNumber": "SYNTHETIC-REF-77",
+      "NCV": false,
+      "Weight": 3,
+      "Status": "Creation",
+      "StatusDescriptionEn": "Creation",
+      "StatusDescriptionFr": "Créée",
+      "EstimatedDeliveryDate": "2026-03-18",
+      "EstimatedDeliveryTime": "",
+      "EstimatedDeliveryDateRangeFr": "",
+      "EstimatedDeliveryDateRangeEn": "",
+      "EstimatedDeliveryDateRangeStart": "",
+      "EstimatedDeliveryDateRangeEnd": "",
+      "EstimatedDeliveryTimeFr": "",
+      "EstimatedDeliveryTimeEn": "",
+      "EstimatedDeliveryDateTimeStart": null,
+      "EstimatedDeliveryDateTimeEnd": null,
+      "EstimatedDeliveryDateTimeExact": null,
+      "EstimatedPercentageBeforeDelivery": null,
+      "EstimatedDeliveryWithinFewHours": false,
+      "Dimensions": {
+        "Height": 10,
+        "Length": 20,
+        "Width": 30,
+        "Cubing": 0.2
+      },
+      "History": [
+        {
+          "ParcelHistoryId": 7016,
+          "ProcessedDate": "2026-03-16T10:02:44",
+          "ExceptionId": 538,
+          "CityDepot": "",
+          "DescriptionFr": "Création de l'envoi",
+          "DescriptionEn": "Shipment created",
+          "DescriptionShortFr": null,
+          "DescriptionShortEn": null,
+          "PhotoId": 0,
+          "SignatureId": 0,
+          "Geocoding": {
+            "Longitude": 0,
+            "Latitude": 0
+          },
+          "Contact": ""
+        }
+      ],
+      "StatusTooltips": [
+        {
+          "TextFr": "Texte d'aide synthétique",
+          "TextEn": "Synthetic help text",
+          "ShipmentStatus": "Creation"
+        }
+      ],
+      "ParcelStatusHistories": [
+        {
+          "ParcelStatus": "Creation",
+          "ShipmentStatusFr": "Créée",
+          "ShipmentStatusEn": "Creation",
+          "StatusDate": "2026-03-16T10:02:44",
+          "LastLocation": null
+        }
+      ]
+    }
+  ],
+  "ConsolId": 0,
+  "Photos": null,
+  "LastStop": null,
+  "IsInvoiced": true,
+  "IsScanned": true,
+  "IsConsolidated": false,
+  "IsPickup": false,
+  "IsDelivered": false,
+  "HasCode390": false,
+  "IsGreen": false
+}

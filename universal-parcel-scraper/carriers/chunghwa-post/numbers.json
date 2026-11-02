@@ -1,0 +1,235 @@
+{
+  "carrier": "chunghwa-post",
+  "records": [
+    {
+      "number": "LH038196094TW",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/poterpan/chunghwa-post-tracker",
+        "date": "2026-03-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "chunghwa-post",
+        "confidence": "high"
+      },
+      "note": "The README of an open-source Chunghwa Post tracker uses it as the example number for the international query."
+    },
+    {
+      "number": "94936910008210105002",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/poterpan/chunghwa-post-tracker",
+        "date": "2026-03-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "usps",
+          "nz-post"
+        ]
+      },
+      "note": "The same README pairs it with the post's domestic query (EB500100) as its second example."
+    },
+    {
+      "number": "11846910000070",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/hugojay/PackageTrackerTW.crx/blob/master/supportList.json",
+        "date": "2013-03-27",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "A Taiwanese parcel-tracker browser extension gives it as the example for the post's domestic lookup, which it lists for 14- or 20-digit numbers."
+    },
+    {
+      "number": "EE787485919TW",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-taiwan-post.html",
+        "date": "2019-07-23",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "chunghwa-post",
+        "confidence": "high"
+      },
+      "note": "A customer quotes it as their tracking number in a review on TrackingMore's Taiwan Post page."
+    },
+    {
+      "number": "EG026268050TW",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/taiwan-post/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "chunghwa-post",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Taiwan Post page offered it as a sample to try on 13 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "20044609182161",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20090501020011/http://postserv.post.gov.tw:80/webpost/CSController?cmd=POS4008_2&MAILNO=20044609182161",
+        "date": "2009-05-01",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Looked up on Chunghwa Post's own tracker, as an archived address shows; the capture was not opened. The former domestic lookup on postserv.post.gov.tw."
+    },
+    {
+      "number": "29717210120556",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20160801062140/http://postserv.post.gov.tw:80/webpost/CSController?cmd=POS4001_3&_SYS_ID=D&_MENU_ID=189&_ACTIVE_ID=190&MAILNO=29717210120556",
+        "date": "2016-08-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "An archived lookup on Chunghwa Post's own tracker; the capture shows this number with its history. The former domestic lookup on postserv.post.gov.tw."
+    },
+    {
+      "number": "52740210021550",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20161224050226/http://postserv.post.gov.tw:80/webpost/CSController?cmd=POS4001_3&_SYS_ID=D&_MENU_ID=189&_ACTIVE_ID=190&MAILNO=52740210021550",
+        "date": "2016-12-24",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Looked up on Chunghwa Post's own tracker, as an archived address shows; the capture was not opened. The former domestic lookup on postserv.post.gov.tw."
+    },
+    {
+      "number": "UH000000005TW",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-21",
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of Taiwan-issued UH letter post. The tracker's notes say U letter post cannot be followed online, though the tracker answered one such item with the scan a universal provider had."
+    }
+  ]
+}

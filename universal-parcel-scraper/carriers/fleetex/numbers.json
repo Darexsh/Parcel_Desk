@@ -1,0 +1,138 @@
+{
+  "carrier": "fleetex",
+  "records": [
+    {
+      "number": "SR904766214130",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20241006111213/https://api.fleetexpress.ca/docs/api-docs.json",
+        "date": "2024-10-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "FleetExpress's own API documentation gives this as an order's tracking number in its route orders examples."
+    },
+    {
+      "number": "SR270017412103",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20241006111213/https://api.fleetexpress.ca/docs/api-docs.json",
+        "date": "2024-10-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "FleetExpress's own API documentation gives this as an order's tracking number in its route orders examples."
+    },
+    {
+      "number": "SR662910478770",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20241006111213/https://api.fleetexpress.ca/docs/api-docs.json",
+        "date": "2024-10-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "FleetExpress's own API documentation gives this as an order's tracking number in its route orders examples."
+    },
+    {
+      "number": "SR319377023615",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20241006111213/https://api.fleetexpress.ca/docs/api-docs.json",
+        "date": "2024-10-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "FleetExpress's own API documentation gives this as an order's tracking number in its batch order creation and order packages examples."
+    },
+    {
+      "number": "DS865771519563",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20241006111213/https://api.fleetexpress.ca/docs/api-docs.json",
+        "date": "2024-10-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "FleetExpress's own API documentation gives this as a package's tracking number in its order lookup example."
+    },
+    {
+      "number": "SR621079457793",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.fleetexpress.ca/docs/api-docs.json",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "FleetExpress's own API documentation gives this as a package's tracking number in its order list example, and FleetExpress's tracker knows it."
+    },
+    {
+      "number": "SR904227449186",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://api.fleetexpress.ca/docs/api-docs.json",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "FleetExpress's own API documentation gives this as the tracking number of an existing order in its batch order creation example, and FleetExpress's tracker knows it."
+    }
+  ]
+}

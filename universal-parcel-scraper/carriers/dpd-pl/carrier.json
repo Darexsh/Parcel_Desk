@@ -1,0 +1,108 @@
+{
+  "id": "dpd-pl",
+  "displayName": "DPD Poland",
+  "aliases": [
+    "DPD Polska"
+  ],
+  "region": {
+    "countries": [
+      "PL"
+    ]
+  },
+  "brand": {
+    "color": "#dc0032"
+  },
+  "selectable": true,
+  "timezone": "Europe/Warsaw",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dpd-pl",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 520
+    }
+  },
+  "capabilities": [
+    "history",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://tracktrace.dpd.com.pl/EN/parcelDetails?typ=1&p1={trackingNumber}",
+    "searchUrl": "https://tracktrace.dpd.com.pl/EN/findParcel",
+    "helpUrl": "https://www.dpd.com/pl/pl/obsluga-klienta/",
+    "canaryUrl": "https://tracktrace.dpd.com.pl/EN/findParcel",
+    "shows": [
+      "status",
+      "history",
+      "delivered_at",
+      "depot_code",
+      "recipient_name",
+      "pickup_point",
+      "pickup_point_address",
+      "parcel_count"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "delivered_at"
+    ],
+    "discarded": [
+      "depot_code",
+      "recipient_name",
+      "pickup_point",
+      "pickup_point_address",
+      "parcel_count"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "sender_name",
+      "weight"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracktrace.dpd.com.pl",
+        "tt.dpd.com.pl"
+      ],
+      "pathPattern": "^/(?:EN/)?parcelDetails$",
+      "params": [
+        "p1"
+      ]
+    },
+    {
+      "domains": [
+        "dpdgroup.com",
+        "dpd.com"
+      ],
+      "pathPattern": "^/pl(?:/|$)",
+      "params": [
+        "parcelNumber",
+        "parcelnumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "dpd-pl-1",
+      "pattern": "^\\d{13}[A-Z]$",
+      "confidence": "high"
+    },
+    {
+      "id": "dpd-pl-2",
+      "pattern": "^13\\d{12}$",
+      "confidence": "low",
+      "preferred": true
+    },
+    {
+      "id": "dpd-pl-3",
+      "pattern": "^13\\d{12}[0-9A-Z]$",
+      "confidence": "low",
+      "checksum": "dpd",
+      "preferred": true
+    }
+  ]
+}

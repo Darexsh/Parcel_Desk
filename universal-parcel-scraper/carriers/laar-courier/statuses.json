@@ -1,0 +1,21 @@
+{
+  "carrier": "laar-courier",
+  "entries": [
+    {"code": "2", "wording": "POR RECOLECTAR", "stage": "registered", "language": "es", "confirmedBy": "portal", "note": "Timeline step of the archived tracker; the tracker script describes it as a created shipment awaiting processing."},
+    {"code": "3", "wording": "RECOLECTADO", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Timeline step of the archived tracker: collected from the sender."},
+    {"code": "4", "wording": "EN BODEGA", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Timeline step of the archived tracker: entered a warehouse."},
+    {"code": "5", "wording": "EN TRÁNSITO", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Timeline step of the archived tracker; the script describes it as in operational processing."},
+    {"code": "6", "wording": "ZONA DE ENTREGA", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal", "note": "Timeline step of the archived tracker; the script describes it as in the destination delivery zone, and delivery followed the same morning."},
+    {"code": "7", "wording": "ENTREGADO", "stage": "delivered", "language": "es", "confirmedBy": "portal", "note": "Timeline step and summary status of the archived tracker."},
+    {"code": "11", "wording": "SALIDA DE BODEGA DE ORIGEN", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Transit detail under the in-transit step: left the origin warehouse."},
+    {"code": "2", "wording": "Por Recolectar", "stage": "registered", "language": "es", "confirmedBy": "live", "note": "Timeline step of the current tracker's API, described as \"Envío creado por procesar\". Its date is the guía's latest assignment to a client, which can come after the collection."},
+    {"code": "3", "wording": "Recolectado", "stage": "accepted", "language": "es", "confirmedBy": "live", "note": "Timeline step, described as \"Envío Recolectado\"."},
+    {"code": "4", "wording": "En Bodega", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Timeline step, described as \"Ingreso en Bodega\"."},
+    {"code": "5", "wording": "En Tránsito", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "Timeline step, described as \"En proceso operativo\"."},
+    {"code": "6", "wording": "Zona de Entrega", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live", "note": "Timeline step, described as \"En zona para entrega al destino\", recorded at the destination's regional office an hour before the delivery."},
+    {"code": "7", "wording": "Entregado", "stage": "delivered", "language": "es", "confirmedBy": "live", "note": "Timeline step, described as \"Entrega al Destinatario\", and the summary's state."},
+    {"code": "6.01", "wording": "Zona de Entrega", "stage": "out_for_delivery", "language": "es", "confirmedBy": "bundle", "note": "The page's script shows step 6.01 in the place of step 6 when the guía has no step 6."},
+    {"wording": "Con Novedad", "stage": "exception", "language": "es", "confirmedBy": "bundle", "note": "Timeline step the page's script shows in red with a warning sign, opening the problems reported for the guía."},
+    {"wording": "Tránsito a Ecuador", "stage": "in_transit", "language": "es", "confirmedBy": "bundle", "note": "Timeline step the page's script names for an import, opening its customs notes."}
+  ]
+}

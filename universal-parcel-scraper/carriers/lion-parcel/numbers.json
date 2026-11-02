@@ -1,0 +1,248 @@
+{
+  "carrier": "lion-parcel",
+  "records": [
+    {
+      "number": "11LP1666839553791",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221027031125/https://api-internal-web.thelionparcel.com/v2/track/data?q=11LP1666839553791",
+        "date": "2022-10-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "Looked up on Lion Parcel's tracking API behind its tracker; the opened capture shows the STT with its booking event at a Lion Parcel agent."
+    },
+    {
+      "number": "11LP1691115899622",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230808084450/https://api-internal-web.thelionparcel.com/v2/track/data?q=11LP1691115899622",
+        "date": "2023-08-08",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "Looked up on Lion Parcel's tracking API behind its tracker; the opened capture shows the STT moving from agent to Lion Parcel warehouses and transit."
+    },
+    {
+      "number": "11LP1682678638213",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230505161526/https://lionparcel.com/track/stt?q=11LP1682678638213",
+        "date": "2023-05-05",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Lion Parcel's own tracker; the capture was not opened."
+    },
+    {
+      "number": "11LP1723893697324",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240905021854/https://lionparcel.com/track/stt?q=11LP1723893697324",
+        "date": "2024-09-05",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Lion Parcel's own tracker; Lion Parcel's tracker knows it."
+    },
+    {
+      "number": "11LP1751526746292",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250703072759/https://lionparcel.com/track/stt?q=11LP1751526746292",
+        "date": "2025-07-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Lion Parcel's own tracker; Lion Parcel's tracker knows it."
+    },
+    {
+      "number": "11LP1751688477058",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250705074810/https://lionparcel.com/track/stt?q=11LP1751688477058",
+        "date": "2025-07-05",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Lion Parcel's own tracker; Lion Parcel's tracker knows it."
+    },
+    {
+      "number": "11LP1751961117502",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250708130718/https://lionparcel.com/track/stt?q=11LP1751961117502",
+        "date": "2025-07-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Lion Parcel's own tracker; Lion Parcel's tracker knows it."
+    },
+    {
+      "number": "11LP1769140544676",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2026/01/27/surat-pembaca/penanganan-masalah-lion-parcel-lelet",
+        "date": "2026-01-27",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "A Media Konsumen letter about a delayed Lion Parcel shipment gives it as the Lion Parcel resi. Lion Parcel's tracker knows it."
+    },
+    {
+      "number": "11LP1780468909200",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2026/06/16/surat-pembaca/dokumen-penting-tak-kunjung-sampai-lion-parcel-minta-saya-menunggu-14-hari-kerja",
+        "date": "2026-06-16",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "A Media Konsumen letter about a document Lion Parcel had not delivered gives it as the Lion Parcel resi. Lion Parcel's tracker knows it."
+    },
+    {
+      "number": "88LP1756215441747",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://trackingpaket.com/cek-resi-lion-parcel-2/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "Listed as a Lion Parcel resi example on a third-party Indonesian tracking guide; it shows the 88 prefix. Lion Parcel's tracker knows it."
+    },
+    {
+      "number": "99LP1665770287213",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://trackingpaket.com/cek-resi-lion-parcel-2/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "Listed as a Lion Parcel resi example on a third-party Indonesian tracking guide; it shows the 99 prefix."
+    },
+    {
+      "number": "11LP1754978483422",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/09/06/surat-pembaca/pengiriman-lion-parcel-interpack-lambat-dan-lalai-tidak-diproses",
+        "date": "2025-09-06",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "A Media Konsumen letter about a slow Lion Parcel INTERPACK shipment gives it as the Lion Parcel resi. Lion Parcel's tracker knows it."
+    },
+    {
+      "number": "11LP1765256631774",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/12/23/surat-pembaca/pengiriman-internasional-lion-parcel-interpack-tidak-jelas-dan-merugikan-konsumen",
+        "date": "2025-12-23",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lion-parcel",
+        "confidence": "high"
+      },
+      "note": "A Media Konsumen letter about an international Lion Parcel INTERPACK shipment gives it as the Lion Parcel resi. Lion Parcel's tracker knows it."
+    }
+  ]
+}

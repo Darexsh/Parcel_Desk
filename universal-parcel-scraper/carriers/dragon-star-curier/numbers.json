@@ -1,0 +1,51 @@
+{
+  "carrier": "dragon-star-curier",
+  "records": [
+    {
+      "number": "7339098",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20180512101206/http://curierdragonstar.ro/wp-content/themes/cds/getawb.php?awb=7339098",
+        "date": "2018-05-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "An archived lookup on the AWB script of DSC's former site shows this AWB leaving its Bucharest hub. The current tracker no longer knows it."
+    },
+    {
+      "number": "79828449",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6384d314b84cc27618f983e6",
+        "date": "2022-11-28",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A sender's review on DSC's Trustpilot page gives this AWB for a parcel from Sibiu to Bucharest that DSC failed to deliver. DSC's tracker shows it picked up in Sibiu and returned."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "carrier": "botswana-post",
+  "records": [
+    {
+      "number": "RO140000015BW",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220706110655/http://posttracking.botswanapost.co.bw/PostGlobal/VPO/Track.aspx?itemid=RO140000015BW",
+        "date": "2022-07-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Botswana Post's Post Global tracker asked for this registered item; the capture shows only the search form, so the history was not visible."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "redx",
+  "displayName": "RedX",
+  "aliases": [
+    "REDX",
+    "Redx"
+  ],
+  "region": {
+    "countries": [
+      "BD"
+    ]
+  },
+  "brand": {
+    "color": "#eb2127"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dhaka",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "redx",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 917
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "offset_timestamps",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://redx.com.bd/track-global-parcel/?trackingId={trackingNumber}",
+    "searchUrl": "https://redx.com.bd/",
+    "canaryUrl": "https://redx.com.bd/",
+    "shows": [
+      "status",
+      "history",
+      "driver_name",
+      "contact_details",
+      "recipient_name",
+      "recipient_address",
+      "weight",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at"
+    ],
+    "discarded": [
+      "driver_name",
+      "contact_details",
+      "recipient_name",
+      "recipient_address",
+      "weight",
+      "payment_details"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "redx.com.bd",
+        "www.redx.com.bd"
+      ],
+      "pathPattern": "^/track-(?:global-)?parcel/?$",
+      "params": [
+        "trackingId"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "redx-1",
+      "pattern": "^2\\d(?:A[1-9]|1[0-2])(?:A[1-9]|[12]\\d|3[01])(?:MO|TU|WE|TH|FR|SA|SU)[0-9A-Z]{4,6}$",
+      "confidence": "high"
+    }
+  ]
+}

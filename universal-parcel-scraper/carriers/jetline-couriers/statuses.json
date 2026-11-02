@@ -1,0 +1,10 @@
+{
+  "carrier": "jetline-couriers",
+  "entries": [
+    {"wording": "BOOKED AT <branch>", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "The booking row. The branch's name can be cut short; its badge names it whole."},
+    {"wording": "SHIPMENT DISPATCH FOR DESTIANTION <destination> FROM <branch>", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The tracker's spelling. The row's badge names the branch the parcel leaves for, not the one it leaves."},
+    {"wording": "SHIPMENT RECEIVED AT <branch> IN <hub>", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Received at a branch on the way or at the destination; the hub code can be empty. The shared rules alone would read 'received' as an acceptance."},
+    {"wording": "SHIPMENT CURRENT STATUS IS DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The delivery run's outcome as the history's newest row."},
+    {"wording": "DELIVERED SIGN", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The summary's status for a delivered parcel, with a trailing space. The adapter reads the history instead, since the summary's status may name a signatory."}
+  ]
+}

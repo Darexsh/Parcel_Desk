@@ -1,0 +1,62 @@
+{
+  "carrier": "kun-express",
+  "records": [
+    {
+      "number": "KUN8000015561",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://packyapp.com/en/carriers/kunexpress",
+        "date": "2026-10-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "kun-express",
+        "confidence": "high"
+      },
+      "note": "Packy's Kun Express page gives it as the number format. Kun Express's tracker answers it as a parcel of its US line that USPS delivered."
+    },
+    {
+      "number": "KUN9991027071",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/kun-express/",
+        "date": "2026-10-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "kun-express",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Kun Express page offered it as a sample. Kun Express's tracker answers it as a parcel of its US line that USPS delivered."
+    },
+    {
+      "number": "KUN6666669444",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/kunyi/",
+        "date": "2026-10-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "kun-express",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel offered it as a sample on a page it labels KunYi. Kun Express's own tracker answers it as a parcel of its US line that USPS delivered."
+    }
+  ]
+}

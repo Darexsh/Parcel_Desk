@@ -1,0 +1,27 @@
+{
+  "carrier": "bestfulfill",
+  "records": [
+    {
+      "number": "BEST63829471503826",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.bestfulfillpacket.com/",
+        "date": "2026-11-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bestfulfill"
+        ]
+      },
+      "note": "The example on BestFulfill Packet's home page, which its tracker answers with the parcel's scans from China to delivery in the United States."
+    }
+  ]
+}

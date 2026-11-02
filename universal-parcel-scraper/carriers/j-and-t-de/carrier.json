@@ -1,0 +1,79 @@
+{
+  "id": "j-and-t-de",
+  "displayName": "J&T Express Germany",
+  "aliases": [
+    "J&T Express (DE)",
+    "J&T Express DE",
+    "J&T Express Deutschland",
+    "J&T Germany",
+    "J&T Express Germany GmbH",
+    "极兔速递 · 德国区"
+  ],
+  "region": {
+    "countries": [
+      "DE"
+    ]
+  },
+  "brand": {
+    "color": "#e60000"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "j-and-t-de",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history"
+  ],
+  "portal": {
+    "url": "https://www.jtexpress.de/tracking?q={trackingNumber}",
+    "searchUrl": "https://www.jtexpress.de/tracking",
+    "helpUrl": "https://www.jtexpress.de/contact",
+    "canaryUrl": "https://www.jtexpress.de/tracking",
+    "shows": [
+      "status",
+      "history",
+      "office_contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "offset_timestamps",
+      "delivered_at"
+    ],
+    "discarded": [
+      "office_contact_details"
+    ],
+    "unavailable": [
+      "location",
+      "provider_code",
+      "eta",
+      "weight"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.jtexpress.de",
+        "jtexpress.de"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "q"
+      ],
+      "ownNumbersOnly": true
+    }
+  ],
+  "detection": [
+    {
+      "id": "j-and-t-de-1",
+      "pattern": "^JTDE\\d{12}$",
+      "confidence": "high"
+    }
+  ]
+}

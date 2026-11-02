@@ -1,0 +1,17 @@
+{
+  "carrier": "mrl-global",
+  "entries": [
+    {"code": "EMR", "wording": "Manifest Scan", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Listed first among the consignment tracking stages in MRL Global's track-and-trace API documentation."},
+    {"code": "PKU", "wording": "Pickup Scan", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "The API documentation gives the code PKU."},
+    {"code": "OSA003", "wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The API documentation's sample response gives this label the code OSA003."},
+    {"code": "LSD", "wording": "Linehaul Scan", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Linehaul to the destination depot, as the API documentation's stage list describes it."},
+    {"code": "RDS", "wording": "Receiver Scan at destination depo", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Stage list wording in the API documentation, spelled as published."},
+    {"code": "OSA", "wording": "Onforward Scan to an agent", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Handed to an agent for onward delivery, per the API documentation's stage list."},
+    {"wording": "Scanned in Depot", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The tracker prints it with the depot in brackets, empty in the archived capture."},
+    {"code": "OSC", "wording": "Other Scan", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "A generic scan without further detail; the API documentation gives the code OSC."},
+    {"code": "ODS", "wording": "Onboard Delivery Scan", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Seen in the API documentation's sample response."},
+    {"wording": "Attempted Delivery", "stage": "failed_attempt", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Ready for Collection Scan", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "portal", "note": "Seen after an attempted delivery in the archived capture, before the receiver collected the consignment."},
+    {"code": "COD", "wording": "Confirmation of Delivery", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "The API documentation gives the code COD."}
+  ]
+}

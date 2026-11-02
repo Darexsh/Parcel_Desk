@@ -1,0 +1,42 @@
+[
+  {
+    "statusHistory": [
+      {"date": "3 Mar 2026, 10:47 AM", "dateISO": "2026-03-03T10:47:21.000Z", "statusText": "Delivered", "statusCode": "52", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "\"7\" Sampleville IL", "message": "Left with Dana Example, 050-0000000"},
+      {"date": "3 Mar 2026, 5:02 AM", "dateISO": "2026-03-03T05:02:33.000Z", "statusText": "Messenger with package out for delivery", "statusCode": "50", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "Exampleton IL"},
+      {"date": "2 Mar 2026, 2:15 PM", "dateISO": "2026-03-02T14:15:00.000Z", "statusText": "Package in sorting center", "statusCode": "21", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "Exampleton IL"},
+      {"date": "2 Mar 2026, 9:30 AM", "dateISO": "2026-03-02T09:30:00.000Z", "statusText": "Package released from customs", "statusCode": "48", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "Testburg IL"},
+      {"date": "1 Mar 2026, 6:10 AM", "dateISO": "2026-03-01T06:10:00.000Z", "statusText": "Clearance Process Started", "statusCode": "32", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "Testburg IL"},
+      {"date": "28 Feb 2026, 8:00 PM", "dateISO": "2026-02-28T20:00:00.000Z", "statusText": "Package landed in TLV Airport, IL", "statusCode": "45", "statusSubCode": "01", "statusSubText": "", "statusAdditionalInfo": "Flight XX 0000", "statusLocations": "Testburg IL"},
+      {"date": "26 Feb 2026, 1:23 PM", "dateISO": "2026-02-26T13:23:43.570Z", "statusText": "Package flight details received", "statusCode": "15", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "GB"},
+      {"date": "25 Feb 2026, 2:44 AM", "dateISO": "2026-02-25T02:44:00.000Z", "statusText": "Package left first processing warehouse", "statusCode": "13", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "Sampleford GB"},
+      {"date": "24 Feb 2026, 11:16 AM", "dateISO": "2026-02-24T11:16:44.774Z", "statusText": "Package arrived to preflight warehouse: XYZ", "statusCode": "14", "statusSubCode": "02", "statusSubText": "", "statusAdditionalInfo": "XYZ", "statusLocations": "Sampleford GB"},
+      {"date": "22 Feb 2026, 10:18 AM", "dateISO": "2026-02-22T10:18:12.603Z", "statusText": "Package details received", "statusCode": "00", "statusSubCode": "", "statusSubText": "", "statusAdditionalInfo": "", "statusLocations": "GB"}
+    ],
+    "isReturn": false,
+    "id": "XLT000000001",
+    "deliveryMethod": "homeDelivery",
+    "hawb": "XLT000000001",
+    "parcelStatus": "delivered",
+    "parcelStatusIconColor": "#FFFFFF",
+    "parcelStatusBkgColor": "#28A745",
+    "progressSteps": [
+      {"bkgColor": "#FFFFFF", "iconColor": "#ff8b22", "stepName": "dataReceived", "active": false},
+      {"bkgColor": "#FFFFFF", "iconColor": "#ff8b22", "stepName": "shipped", "active": false},
+      {"bkgColor": "#FFFFFF", "iconColor": "#ff8b22", "stepName": "customs", "active": false},
+      {"bkgColor": "#FFFFFF", "iconColor": "#ff8b22", "stepName": "lastMileProvider", "active": false},
+      {"bkgColor": "#FFFFFF", "iconColor": "#ff8b22", "stepName": "delivery", "active": false},
+      {"bkgColor": "#28A745", "iconColor": "#FFFFFF", "stepName": "delivered", "active": true}
+    ],
+    "country": "GB",
+    "destinationCountry": "IL",
+    "district": "Samplecounty",
+    "xltID": "XLT000000001",
+    "dateReceived": "2026-02-24T11:16:44.774Z",
+    "eddStatus": "unavailable",
+    "publicRemark": "Please call Dana Example before noon",
+    "buyerObscuredEmail": "d***@example.com",
+    "buyerObscuredPhone": "050****000",
+    "lastMileProvider": "Sample Couriers",
+    "lastMileProviderTrackingURL": "https://couriers.example/track/opaque-capability"
+  }
+]

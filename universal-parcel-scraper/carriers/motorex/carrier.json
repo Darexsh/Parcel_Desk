@@ -1,0 +1,44 @@
+{
+  "id": "motorex",
+  "displayName": "Motorex",
+  "aliases": [
+    "MOTOREX",
+    "Motor Express Delivery Sdn Bhd",
+    "Motorex Same Day Delivery"
+  ],
+  "region": {
+    "countries": [
+      "MY"
+    ]
+  },
+  "brand": {
+    "color": "#fc0203"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kuala_Lumpur",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.motorex.com.my/en/getTrackingList/{trackingNumber}",
+    "searchUrl": "https://www.motorex.com.my/en/tracking-motorex",
+    "canaryUrl": "https://www.motorex.com.my/en/tracking-motorex",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.motorex.com.my",
+        "motorex.com.my"
+      ],
+      "path": "^/en/getTrackingList/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

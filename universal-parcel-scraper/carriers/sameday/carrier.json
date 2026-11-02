@@ -1,0 +1,91 @@
+{
+  "id": "sameday",
+  "displayName": "Sameday",
+  "aliases": [
+    "Sameday Courier",
+    "Sameday Bulgaria",
+    "easybox"
+  ],
+  "region": {
+    "countries": [
+      "RO",
+      "BG"
+    ]
+  },
+  "brand": {
+    "color": "#e92427"
+  },
+  "selectable": true,
+  "timezone": "Europe/Bucharest",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "sameday",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 370
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "provider_code"
+  ],
+  "portal": {
+    "searchUrl": "https://sameday.ro/status-colet/",
+    "helpUrl": "https://sameday.ro/contact/",
+    "canaryUrl": "https://sameday.ro/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "provider_code"
+    ],
+    "discarded": [
+      "event_details"
+    ],
+    "unavailable": [
+      "eta",
+      "pickup_point",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "sameday.ro",
+        "sameday.bg"
+      ],
+      "params": [
+        "awb"
+      ],
+      "fragment": "^awb=([A-Za-z0-9]+)"
+    }
+  ],
+  "detection": [
+    {
+      "id": "sameday-1",
+      "pattern": "^1[A-Z]{3,5}\\d{9,12}$",
+      "confidence": "low"
+    },
+    {
+      "id": "sameday-2",
+      "pattern": "^1[A-Z][A-Z0-9]{2}L[LN]\\d{9,12}$",
+      "confidence": "low"
+    },
+    {
+      "id": "sameday-3",
+      "pattern": "^1XL\\d{11}$",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "maersk-ecommerce",
+  "displayName": "Maersk eCommerce",
+  "aliases": [
+    "Maersk Logistics And Services USA Inc",
+    "Maersk Parcel",
+    "B2C Europe"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#42b0d5"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "maersk-ecommerce",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 501
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "eta",
+    "service_name",
+    "delivery_partner",
+    "delivery_tracking_number",
+    "destination_country",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://www.maersk.com/tracking/parcel/{trackingNumber}",
+    "searchUrl": "https://www.maersk.com/tracking/parcel",
+    "canaryUrl": "https://www.maersk.com/tracking/parcel",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "eta",
+      "destination",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "eta",
+      "service_name",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "destination_country",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "progress_rail",
+      "destination",
+      "customer_reference"
+    ],
+    "unavailable": [
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "signature",
+      "weight"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "maersk.com"
+      ],
+      "path": "^/tracking/parcel/([A-Za-z0-9]{19})/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "maersk-ecommerce-1",
+      "pattern": "^1M(?=[A-Z0-9]{0,6}[A-Z])[A-Z0-9]{7}\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

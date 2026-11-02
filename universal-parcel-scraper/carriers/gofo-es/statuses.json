@@ -1,0 +1,118 @@
+{
+  "carrier": "gofo-es",
+  "entries": [
+    {
+      "code": "205",
+      "wording": "Entregado por En persona",
+      "language": "es",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "205",
+      "wording": "Entregado por En el buzón",
+      "language": "es",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "208",
+      "wording": "El paquete está en reparto",
+      "language": "es",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "203",
+      "wording": "En preparación para reparto",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "201",
+      "wording": "Llegada a las instalaciones de destino de GOFO",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "200",
+      "wording": "Salida del centro de clasificación",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "202",
+      "wording": "Llegada al centro de clasificación",
+      "language": "es",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "206",
+      "wording": "Entrega fallida",
+      "language": "es",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "note": "The reason, such as an absent recipient or a wrong address, follows in detail the adapter does not project."
+    },
+    {
+      "code": "204",
+      "wording": "Devuelto al centro de clasificación",
+      "language": "es",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "note": "Returned to the sorting centre after an unsuccessful delivery, not returned to the sender."
+    },
+    {
+      "code": "100",
+      "wording": "Pedido recibido",
+      "language": "es",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "note": "Announced by the sender; GOFO is waiting to receive the parcel."
+    },
+    {
+      "code": "257",
+      "wording": "Devuelto",
+      "language": "es",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "264",
+      "wording": "Devuelto",
+      "language": "es",
+      "stage": "returned",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "300",
+      "wording": "Alerta",
+      "language": "es",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "301",
+      "wording": "Alerta",
+      "language": "es",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The official tracking client maps this operation code to its national status category."
+    },
+    {
+      "code": "206",
+      "wording": "Alerta",
+      "language": "es",
+      "stage": "exception",
+      "confirmedBy": "bundle",
+      "note": "The generic alert category does not establish a failed delivery attempt; explicit failed-delivery wording refines it."
+    }
+  ]
+}

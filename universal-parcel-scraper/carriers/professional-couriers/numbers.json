@@ -1,0 +1,153 @@
+{
+  "carrier": "professional-couriers",
+  "records": [
+    {
+      "number": "KNP507956665",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/packaged-wrongly-marked-delivered/270299",
+        "date": "2026-07-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "A Voxya complaint against The Professional Couriers gives it as a shipment marked delivered but not received."
+    },
+    {
+      "number": "PRO18216642",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/package-not-delivered/247894",
+        "date": "2025-07-31",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A Voxya complaint against The Professional Couriers gives it as the package number of a parcel shown delivered at Madurai."
+    },
+    {
+      "number": "MAA574899288",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/parcel-delivery-delayed-cause-the-item-fruit-got-damaged-still-item-not-delivered-yet-the-courier-wa/232334",
+        "date": "2024-07-29",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "A Voxya complaint against The Professional Couriers gives it as the courier tracking number of a delayed parcel."
+    },
+    {
+      "number": "HRD74785090",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/packages-not-delivering-regularly/140886",
+        "date": "2021-11-08",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A Voxya complaint against The Professional Couriers gives it as a consignment received at the destination branch but not delivered."
+    },
+    {
+      "number": "VPL517210037",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/package-not-recieved-since-4-days/61723",
+        "date": "2020-01-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "A Voxya complaint against The Professional Couriers gives it as the tracking number of a parcel booked for Goa."
+    },
+    {
+      "number": "AMD20287854",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/package-not-delivered/56950",
+        "date": "2019-11-27",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A Voxya complaint against The Professional Couriers lists it as one of two consignments booked at an Ahmedabad branch."
+    },
+    {
+      "number": "AMD20287850",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://voxya.com/consumer-complaints/package-not-delivered/56950",
+        "date": "2019-11-27",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A Voxya complaint against The Professional Couriers lists it as the second consignment of the same booking."
+    }
+  ]
+}

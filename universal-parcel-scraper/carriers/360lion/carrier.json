@@ -1,0 +1,73 @@
+{
+  "id": "360lion",
+  "displayName": "360Lion",
+  "aliases": [
+    "360 Lion",
+    "360Lion Express",
+    "360 Lion Express",
+    "WSH",
+    "纬狮物流",
+    "纬狮物联网",
+    "纬狮物流网络科技有限公司",
+    "Wish Global Logistics"
+  ],
+  "region": {
+    "countries": [
+      "CN",
+      "MX",
+      "CL",
+      "PE",
+      "BR",
+      "CO",
+      "EC",
+      "US",
+      "AR",
+      "UY",
+      "BO",
+      "PY",
+      "SV",
+      "CR",
+      "GT",
+      "VE",
+      "PA"
+    ]
+  },
+  "brand": {
+    "color": "#cf5d15"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://toms.360lion.com/track?trackNumber={trackingNumber}",
+    "searchUrl": "https://www.360lion.com/",
+    "canaryUrl": "https://www.360lion.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "toms.360lion.com"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "trackNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "360lion-1",
+      "pattern": "^WSH[A-Z]{2}\\d{10}YQ$",
+      "confidence": "low"
+    }
+  ]
+}

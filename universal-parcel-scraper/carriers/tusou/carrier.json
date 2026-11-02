@@ -1,0 +1,46 @@
+{
+  "id": "tusou",
+  "displayName": "Tusou",
+  "aliases": [
+    "图搜网络科技",
+    "合肥图搜网络科技有限公司",
+    "Tusou Keji"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#003e8d"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tusou.kingtrans.net/WebTrack?action=list&language=en&istrack=false&bills={trackingNumber}",
+    "searchUrl": "https://tusou.kingtrans.net/tracken.jsp",
+    "canaryUrl": "https://tusoukeji.cn/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tusou.kingtrans.net"
+      ],
+      "pathPattern": "^/WebTrack$",
+      "params": [
+        "bills"
+      ]
+    }
+  ],
+  "detection": []
+}

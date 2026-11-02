@@ -1,0 +1,76 @@
+{
+  "id": "tfm-express",
+  "displayName": "TFM Express",
+  "aliases": [
+    "TFM Express Shipping L.L.C",
+    "TFM EXPRESS LLC"
+  ],
+  "region": {
+    "countries": [
+      "AE"
+    ]
+  },
+  "brand": {
+    "color": "#0001ef"
+  },
+  "selectable": true,
+  "timezone": "Asia/Dubai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "tfm-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 756
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "offset_timestamps",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://customer.tfmex.com/Skybill/TrackSkybill?awb={trackingNumber}",
+    "searchUrl": "https://customer.tfmex.com/Skybill/TrackSkybill",
+    "canaryUrl": "https://customer.tfmex.com/Skybill/TrackSkybill",
+    "shows": [
+      "status",
+      "history"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "location",
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "customer.tfmex.com"
+      ],
+      "pathPattern": "^/Skybill/TrackSkybill/?$",
+      "params": [
+        "awb"
+      ]
+    }
+  ],
+  "detection": []
+}

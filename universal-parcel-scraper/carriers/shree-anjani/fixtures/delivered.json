@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "booking": {
+      "barcode_number": "9900000011",
+      "booking_date": "2026-03-02T00:00:00.000Z",
+      "from_center_name": "SAMPLE TOWN",
+      "to_center_name": "SAMPLE CITY",
+      "status_name": "DELIVERED ON 4/3/2026",
+      "reason_name": "DELIVERED",
+      "status_date": "2026-03-04T05:10:20.000Z"
+    },
+    "booking_tracking": [
+      {
+        "status_name": "OUT",
+        "scanned_center_name": "SAMPLE CITY R.O.",
+        "from_center_name": "Out To SAMPLE NAGAR From SAMPLE CITY R.O.",
+        "to_center_name": "",
+        "created_at": "2026-03-03T06:15:00.000Z"
+      },
+      {
+        "status_name": "IN",
+        "scanned_center_name": "SAMPLE CITY R.O.",
+        "from_center_name": "Inward AT SAMPLE CITY R.O.",
+        "to_center_name": "",
+        "created_at": "2026-03-03T02:40:30.000Z"
+      },
+      {
+        "status_name": "IN",
+        "scanned_center_name": "SAMPLE CITY R.O.",
+        "from_center_name": "Inward AT SAMPLE CITY R.O.",
+        "to_center_name": "",
+        "created_at": "2026-03-03T02:40:30.000Z"
+      },
+      {
+        "status_name": "OUT",
+        "scanned_center_name": "SAMPLE TOWN",
+        "from_center_name": "Out To SAMPLE CITY R.O. From SAMPLE TOWN",
+        "to_center_name": "",
+        "created_at": "2026-03-01T20:30:00.000Z"
+      }
+    ],
+    "last_center_details": {
+      "center_name": "SAMPLE NAGAR",
+      "mobile": "",
+      "phone_number": "9000000001-calling and ,9000000002 ",
+      "owner_name": "",
+      "owner_mobile": "",
+      "manager_name": "Sample Manager ",
+      "manager_mobile": "9000000002"
+    },
+    "drs_list": [
+      {
+        "from_center_name": "SAMPLE NAGAR",
+        "reason_name": "Delivered",
+        "drs_date": "2026-03-05T13:46:34.000Z"
+      },
+      {
+        "from_center_name": "SAMPLE NAGAR",
+        "reason_name": "Delivered",
+        "drs_date": "2026-03-04T05:10:20.000Z"
+      }
+    ]
+  }
+}

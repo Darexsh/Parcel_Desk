@@ -1,0 +1,103 @@
+{
+  "id": "bosta",
+  "displayName": "Bosta",
+  "aliases": [
+    "Bosta Egypt",
+    "بوسطة"
+  ],
+  "region": {
+    "countries": [
+      "EG",
+      "SA"
+    ]
+  },
+  "brand": {
+    "color": "#e30613"
+  },
+  "selectable": true,
+  "timezone": "Africa/Cairo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "bosta",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 951
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "offset_timestamps",
+    "eta",
+    "eta_window",
+    "delivered_at",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://bosta.co/en-eg/tracking-shipments?shipment-number={trackingNumber}",
+    "searchUrl": "https://bosta.co/en-eg/tracking-shipments",
+    "canaryUrl": "https://bosta.co/en-eg/tracking-shipments",
+    "shows": [
+      "status",
+      "history",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "recipient_address",
+      "payment_details",
+      "courier_name",
+      "contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "offset_timestamps",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "destination_country"
+    ],
+    "discarded": [
+      "recipient_address",
+      "payment_details",
+      "courier_name",
+      "contact_details",
+      "merchant_reference"
+    ],
+    "unavailable": [
+      "location",
+      "weight",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "bosta.co",
+        "www.bosta.co"
+      ],
+      "pathPattern": "^/(?:[a-z]{2}-[a-z]{2}/)?tracking-shipments/?$",
+      "params": [
+        "shipment-number"
+      ]
+    },
+    {
+      "domains": [
+        "bosta.co",
+        "www.bosta.co"
+      ],
+      "pathPattern": "^/tracking-shipment/?$",
+      "params": [
+        "track_num"
+      ]
+    }
+  ],
+  "detection": []
+}

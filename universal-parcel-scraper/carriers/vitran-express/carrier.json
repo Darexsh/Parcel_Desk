@@ -1,0 +1,45 @@
+{
+  "id": "vitran-express",
+  "displayName": "Vitran Express",
+  "aliases": [
+    "Vitran"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#004bac"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.vitran.com/quicktrack.aspx?p={trackingNumber}",
+    "searchUrl": "https://www.vitran.com/quicktrack.aspx",
+    "canaryUrl": "https://www.vitran.com/quicktrack.aspx",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.vitran.com",
+        "vitran.com"
+      ],
+      "pathPattern": "^/quicktrack\\.aspx$",
+      "params": [
+        "p"
+      ]
+    }
+  ],
+  "detection": []
+}

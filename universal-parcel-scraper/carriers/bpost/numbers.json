@@ -1,0 +1,448 @@
+{
+  "carrier": "bpost",
+  "records": [
+    {
+      "number": "323211216300000593107030",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.test-achats.be/plainte/plaintes-publiques/facteur-qui-a-renvoyer-un-coli/d5dc57a15ab2b157c6",
+        "date": "2025-03-17"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ciblex",
+          "inpost",
+          "austrian-post"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to bpost, which stays one candidate among several."
+    },
+    {
+      "number": "323245067847491492",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.test-achats.be/plainte/plaintes-publiques/absence-de-possibilit-C3-A9-de-gara/b9311a48ffb765e0aa",
+        "date": "2024-10-02"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ecoscooting"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to bpost, which stays one candidate among several."
+    },
+    {
+      "number": "323299903171288510995037",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aad4fb49a4ec9a1f36c3a6c",
+        "date": "2026-09-18"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ciblex",
+          "inpost",
+          "austrian-post"
+        ]
+      },
+      "note": "Publicly reported shipment number. bpost's tracking returned its history, a parcel from abroad collected at a pickup point. Twenty-four digits stay one candidate among several."
+    },
+    {
+      "number": "CE500137339BE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.test-achats.be/plainte/plaintes-publiques/site-de-plainte-et-suivi-colis/CPTBE01224677-52",
+        "date": "2021-03-15"
+      },
+      "expect": {
+        "carrier": "bpost",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified."
+    },
+    {
+      "number": "LD737351137BE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6aad494aa36ef0697f60cd4d",
+        "date": "2026-09-18"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "bpost",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number. bpost's tracking returned its history, a cross-border item handled by Landmark Global."
+    },
+    {
+      "number": "UI539489067BE",
+      "role": "negative",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.test-achats.be/plainte/plaintes-publiques/colis-perdu-%28voire-vol-C3-A9-en-int/925248238424196550",
+        "date": "2026-03-23"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "chronopost"
+        ],
+        "not": [
+          "bpost"
+        ]
+      },
+      "note": "Publicly reported number. bpost gives U barcodes only to clear customs and does not track them, so bpost is not named."
+    },
+    {
+      "number": "RF038017031BE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/delivery-of-registered-mail-7639/",
+        "date": "2017-03-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "international registered letter",
+        "reportedRole": "reported_shipment"
+      },
+      "expect": {
+        "carrier": "bpost",
+        "confidence": "high"
+      },
+      "note": "Sender describes a registered letter from Belgium to China. The suffix names bpost as the issuing postal operator."
+    },
+    {
+      "number": "323200341159927516101030",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.test-aankoop.be/klagen/publieke-klachten/zeb-pakket-verloren/CPTBE01830025-23",
+        "access": "full_page",
+        "date": "2023-07-10",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "bpost",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ciblex",
+          "inpost",
+          "austrian-post"
+        ]
+      },
+      "note": "Public report names this carrier; shipment identity remains unconfirmed."
+    },
+    {
+      "number": "323207992302121426",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.test-aankoop.be/klagen/publieke-klachten/bpost-bpack-24h-mini-3-verdwen/CPTBE00310753-62",
+        "access": "full_page",
+        "date": "2017-12-26",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "bpost",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ecoscooting"
+        ]
+      },
+      "note": "Public report names this carrier; shipment identity remains unconfirmed."
+    },
+    {
+      "number": "323200974300000090666247",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.test-aankoop.be/klagen/publieke-klachten/pakje-niet-geleverd/CPTBE01409924-29",
+        "access": "full_page",
+        "date": "2021-12-02",
+        "dateKind": "publication"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "bpost",
+        "reportedRole": "shipment_tracking"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ciblex",
+          "inpost",
+          "austrian-post"
+        ]
+      },
+      "note": "Public report names this carrier; shipment identity remains unconfirmed."
+    },
+    {
+      "number": "LVS192952114549136",
+      "role": "quarantined",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://leafeel.tistory.com/2",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "scope_review",
+        "service": "bpost international",
+        "reportedRole": "shipment_tracking"
+      },
+      "quarantine": true,
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Published format list attributes this identifier to bpost; its shipment identity and service are unconfirmed."
+    },
+    {
+      "number": "329998745632147852365873",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.bpost.be/en/faq/what-does-barcode-look-and-where-can-i-find-it",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ciblex",
+          "inpost",
+          "austrian-post"
+        ]
+      },
+      "note": "Official parcel-barcode example; the documented prefix prioritizes recognition without asserting shipment existence."
+    },
+    {
+      "number": "323256984521032569",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.bpost.be/en/faq/what-does-barcode-look-and-where-can-i-find-it",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ecoscooting"
+        ]
+      },
+      "note": "Official parcel-barcode example; the documented prefix prioritizes recognition without asserting shipment existence."
+    },
+    {
+      "number": "EE123456789BE",
+      "role": "negative",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.bpost.be/en/faq/what-does-barcode-look-and-where-can-i-find-it",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Official documentation example, not a real shipment. The S10 check digit does not validate, so bpost is not named."
+    },
+    {
+      "number": "JJBEA2356412012365478896541",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.bpost.be/en/faq/what-does-barcode-look-and-where-can-i-find-it",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "bpost",
+        "confidence": "high"
+      },
+      "note": "Official parcel-barcode example of bpost's 27-character licence plate; the documented prefix and length select bpost without asserting shipment existence."
+    },
+    {
+      "number": "CE642607416BE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260902084038/https://track.bpost.cloud/track/items?itemIdentifier=CE642607416BE",
+        "date": "2026-09-02",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "service": "international parcel",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "bpost",
+        "confidence": "high"
+      },
+      "note": "A bpost tracking lookup for this number listed in the Wayback Machine's capture index. bpost's tracking returned a parcel posted in Belgium, carried by Landmark Global and waiting at a pickup point in France."
+    },
+    {
+      "number": "323212505100075400402247",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://track.bpost.cloud/track/items?itemIdentifier=323212505100075400402247",
+        "date": "2026-09-11",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bpost",
+          "ciblex",
+          "inpost",
+          "austrian-post"
+        ]
+      },
+      "note": "A bpost tracking lookup for this number listed in the Wayback Machine's capture index. bpost's tracking returned a parcel redirected between pickup points and collected there."
+    },
+    {
+      "number": "JJBEA660000000000160259",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://track.bpost.cloud/track/items?itemIdentifier=JJBEA660000000000160259",
+        "date": "2026-07-31",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "service": "registered letter",
+        "reportedRole": "licence plate",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "bpost",
+        "confidence": "high"
+      },
+      "note": "A bpost tracking lookup for this number listed in the Wayback Machine's capture index. bpost's tracking returned a domestic registered letter delivered at home."
+    },
+    {
+      "number": "JJBEA650014000002759639",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260416074000/https://track.bpost.cloud/track/items?itemIdentifier=JJBEA650014000002759639",
+        "date": "2026-04-16",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "licence plate"
+      },
+      "expect": {
+        "carrier": "bpost",
+        "confidence": "high"
+      },
+      "note": "A bpost tracking lookup archived by the Wayback Machine; the capture is bpost's reply for this domestic plate, with its sorting scans. bpost's tracker no longer returns it."
+    },
+    {
+      "number": "JJBEA660000000000089631",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://track.bpost.cloud/track/items?itemIdentifier=JJBEA660000000000089631",
+        "date": "2026-01-26",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "licence plate"
+      },
+      "expect": {
+        "carrier": "bpost",
+        "confidence": "high"
+      },
+      "note": "A bpost tracking lookup listed in the Wayback Machine's capture index; the capture is bpost's reply for this domestic plate, with its pre-advice. bpost's tracker no longer returns it."
+    },
+    {
+      "number": "JJBEA650709100000945765",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://track.bpost.cloud/track/items?itemIdentifier=JJBEA650709100000945765",
+        "date": "2025-04-11",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "candidate",
+        "reportedRole": "licence plate"
+      },
+      "expect": {
+        "carrier": "bpost",
+        "confidence": "high"
+      },
+      "note": "A bpost tracking lookup listed in the Wayback Machine's capture index; the capture is bpost's reply naming this domestic plate, without scans. bpost's tracker no longer returns it."
+    },
+    {
+      "number": "LO433506042GB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a9d63f764cad829acc9ab9b",
+        "date": "2026-09-06",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "royal-mail",
+        "confidence": "high"
+      },
+      "note": "A parcel from the United Kingdom quoted in a review of bpost while it waited for customs clearance. bpost's tracker answers for it under the same number, from Landmark Global's pre-advice through customs to the letterbox."
+    }
+  ]
+}

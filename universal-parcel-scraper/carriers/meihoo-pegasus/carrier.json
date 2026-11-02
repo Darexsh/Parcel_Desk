@@ -1,0 +1,74 @@
+{
+  "id": "meihoo-pegasus",
+  "displayName": "MeiHoo Pegasus",
+  "aliases": [
+    "MeiHoo"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#e0c060"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "meihoo-pegasus",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "service_name",
+    "destination_country",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "canaryUrl": "https://t.17track.net/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "destination_country",
+      "canonical_tracking_number",
+      "parcel_count",
+      "customer_reference",
+      "recipient_name",
+      "postcodes"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "service_name",
+      "destination_country",
+      "canonical_tracking_number"
+    ],
+    "discarded": [
+      "parcel_count",
+      "customer_reference",
+      "recipient_name",
+      "postcodes"
+    ],
+    "unavailable": [
+      "eta",
+      "delivered_at",
+      "offset_timestamps"
+    ]
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "meihoo-pegasus-1",
+      "pattern": "^MYH\\d{9}CN$",
+      "confidence": "high"
+    }
+  ]
+}

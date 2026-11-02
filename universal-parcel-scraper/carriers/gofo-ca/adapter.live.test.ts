@@ -1,0 +1,15 @@
+import { describe, expect, it } from 'vitest';
+import { NOOP_RECORDER } from '../../core/telemetry/index.js';
+import { adapter } from './adapter.js';
+
+const instance = () => adapter({ fetcher: fetch, trawl: null, browserExecutablePath: null, recorder: NOOP_RECORDER, env: {} });
+
+describe('GOFO Canada live tracking', () => {
+  it.skipIf(!process.env.GOFO_CA_TRACKING_NUMBER)('returns identity-bound history', async () => {
+    const result = await instance().track({ number: process.env.GOFO_CA_TRACKING_NUMBER! });
+    expect(result.events?.length).toBeGreaterThan(0);
+  });
+  it.skipIf(!process.env.GOFO_CA_UNKNOWN_NUMBER)('preserves the observed unknown-number semantics', async () => {
+    await expect(instance().track({ number: process.env.GOFO_CA_UNKNOWN_NUMBER! })).rejects.toMatchObject({ kind: 'not_found' });
+  });
+});

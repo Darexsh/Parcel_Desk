@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+  <title>Sendungsverfolgung</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="style/intex.css?_=1700000000" />
+  <script type="text/javascript">
+  //<![CDATA[
+    function activate_mail(sdnr, mid)
+    {
+      location.href = 'index.php?sdnr='+sdnr+'&mid='+mid+'&activate_mail=1';
+    }
+
+    window.onload = function(){
+      document.getElementById('sendungsnummer').focus();
+    };
+  //]]>
+  </script>
+</head>
+<body>
+<div id="website">
+  <div id="content">
+    <table class="shipment_data"><tr><th style="width:230px;">Ihre Sendung Nr.</th><th>4000001-3</th></tr><tr><th>nach PLZ/Ort</th><th>D-12345 Musterstadt</th></tr><tr><td colspan="2"><hr></td></tr><tr><td>Dateneingang INTEX</td><td>12.01.2026 um 16:20 Uhr</td></tr><tr class="highlight"><td>Eingang Hauptumschlagsplatz</td><td>13.01.2026 um 00:10 Uhr</td></tr><tr><td>Eingang Hauptumschlagsplatz</td><td>13.01.2026 um 00:11 Uhr</td></tr><tr class="highlight"><td>Ausgang Hauptumschlagsplatz</td><td>13.01.2026 um 00:42 Uhr</td></tr><tr><td>Eingang Auslieferstation</td><td>13.01.2026 um 05:31 Uhr</td></tr><tr class="highlight"><td>Zugestellt</td><td>13.01.2026 um 11:05 Uhr</td></tr><tr><td colspan="2"><hr></td></tr><tr><td colspan="2"><button onclick="location.href = 'index.php?mid=1'">Neue Abfrage</button>&nbsp;&nbsp;&nbsp;<button onclick="activate_mail('4000001-3', 1);" style="width:auto; padding-left:10px; padding-right:10px;">Per E-Mail senden</button></td></tr></table><div style="position:absolute; width:30px; height:30px; bottom:0; right:0;" onclick="window.open('http://leo2.derkurier.de/paketstatus.aspx?Lang=DE&parcel=09900000001', 'deku',',scrollbars,height=600,width=700,left=100,top=100');"></div>  </div>
+</div>
+<a name="bottom"></a>
+<script type="text/javascript">
+//<![CDATA[
+  //]]>
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "11",
+    "trackingCode": "BPS000000000001",
+    "status": "delivered",
+    "createdAt": "2026-05-02T13:00:00.000Z",
+    "externalTrackingNumber": "0000000000000000000003",
+    "events": [
+      {"id": "9", "status": "delivered", "location": "Sample City", "bpxEventCode": null, "bpxEventDescription": null, "createdAt": "2026-05-20T17:42:10.000Z"},
+      {"id": "8", "status": "in_transit", "location": "Sample City", "bpxEventCode": "BPS-0800", "bpxEventDescription": "Handed to the delivery partner", "createdAt": "2026-05-18T11:05:00.000Z"},
+      {"id": "7", "status": "customs", "location": "", "bpxEventCode": "BPS-0700", "bpxEventDescription": "Arrived at destination customs", "createdAt": "2026-05-12T09:30:00.000Z"},
+      {"id": "6", "status": "in_transit", "location": "Sample Airport", "bpxEventCode": "BPS-1820", "bpxEventDescription": "Departed on flight", "createdAt": "2026-05-08T03:20:00.000Z"},
+      {"id": "10", "status": "in_transit", "location": "Sample Airport", "bpxEventCode": "BPS-1820", "bpxEventDescription": "Departed on flight", "createdAt": "2026-05-08T03:20:00.000Z"},
+      {"id": "5", "status": "dispatch_closed", "location": "Sample Town", "bpxEventCode": null, "bpxEventDescription": null, "createdAt": "2026-05-07T22:00:00.000Z"},
+      {"id": "4", "status": "inspection_of_package_dimensions_and_weight", "location": "Sample Town", "bpxEventCode": null, "bpxEventDescription": null, "createdAt": "2026-05-05T15:12:00.000Z"},
+      {"id": "3", "status": "received_for_shipping", "location": "Sample Town, ST 00000", "bpxEventCode": "BPS-0002", "bpxEventDescription": "Received at the BPX warehouse", "createdAt": "2026-05-05T15:10:00.000Z"},
+      {"id": "2", "status": "label_generated", "location": "", "bpxEventCode": "BPS-0001", "bpxEventDescription": "Label Created", "createdAt": "2026-05-02T13:00:04.000Z"},
+      {"id": "1", "status": "label_generated", "location": "", "bpxEventCode": null, "bpxEventDescription": null, "createdAt": "2026-05-02T13:00:00.000Z"}
+    ]
+  }
+]

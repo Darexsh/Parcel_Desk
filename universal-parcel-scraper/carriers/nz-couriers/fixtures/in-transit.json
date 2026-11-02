@@ -1,0 +1,144 @@
+{
+  "status": "Delayed, re-scheduled",
+  "consignmentState": "paused",
+  "consignmentStatusTitle": "We're delivering your parcel",
+  "consignmentMilestone": "out-for-delivery",
+  "showCallUs": false,
+  "shortConsignmentId": "ZZ 01234567",
+  "toolTip": "Rescheduled for next available delivery window",
+  "consignmentId": "FW.TK..ZZ.01234567",
+  "pickupDateTime": "2026-02-16T03:43:41Z",
+  "onboardDateTime": "2026-02-17T17:14:38.057Z",
+  "ETA": "Friday, 20 February",
+  "eptlAvailable": false,
+  "consignmentItems": [
+    {
+      "consignmentItemId": "FW.TK..ZZ.01234567.1",
+      "partNumber": "01",
+      "trackingEvents": [
+        {
+          "barcode": "ZZ01234567",
+          "eventType": "P",
+          "status": "Picked Up",
+          "createdOn": "2026-02-16T03:43:41Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMP",
+          "runNumber": "100",
+          "location": { "suburb": "Sample Park", "town": "SAMPLETON", "region": "Sample City", "postCode": "0000", "country": "New Zealand" },
+          "attachments": []
+        },
+        {
+          "barcode": "ZZ01234567",
+          "eventType": "ONBD",
+          "status": "Out for Delivery",
+          "createdOn": "2026-02-16T17:21:46.526Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMS",
+          "runNumber": "300",
+          "attachments": []
+        },
+        {
+          "barcode": "ZZ01234567",
+          "eventType": "NOND",
+          "eventSubType": "RCLOS",
+          "status": "Non-Delivery",
+          "createdOn": "2026-02-17T01:37:57.122Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMS",
+          "runNumber": "300",
+          "location": { "suburb": "Sample Bay", "town": "SAMPLETON", "region": "Sample City", "postCode": "0000", "country": "New Zealand" },
+          "attachments": []
+        },
+        {
+          "barcode": "ZZ01234567",
+          "eventType": "ONBD",
+          "status": "Out for Delivery",
+          "createdOn": "2026-02-17T17:14:38.057Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMS",
+          "runNumber": "300",
+          "attachments": []
+        },
+        {
+          "barcode": "ZZ01234567",
+          "eventType": "NOND",
+          "eventSubType": "CARD",
+          "status": "Unable to deliver, please visit our card left page",
+          "createdOn": "2026-02-18T00:20:27.922Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMS",
+          "runNumber": "300",
+          "location": { "suburb": "Sample Bay", "town": "SAMPLETON", "region": "Sample City", "postCode": "0000", "country": "New Zealand" },
+          "attachments": [{ "attachmentType": "Photo", "description": "", "href": ["https://example.invalid/photo/0001"] }]
+        },
+        {
+          "barcode": "ZZ01234567",
+          "eventType": "STAT",
+          "eventSubType": "HLDFR8",
+          "status": "Held Freight Office",
+          "createdOn": "2026-02-18T01:29:04.037Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMS",
+          "runNumber": "300",
+          "location": { "suburb": "Sample Depot", "town": "SAMPLETON", "region": "Sample City", "postCode": "0000", "country": "New Zealand" },
+          "locationTag": "A0000000000",
+          "locationIdType": false,
+          "attachments": []
+        },
+        {
+          "barcode": "ZZ01234567",
+          "eventType": "STAT",
+          "eventSubType": "REDEL",
+          "status": "Item Sent for Redelivery",
+          "createdOn": "2026-02-19T23:49:21.46Z",
+          "createdBy": "SAMPLE",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMS",
+          "runNumber": "400",
+          "location": { "suburb": "Sample Depot", "town": "SAMPLETON", "region": "Sample City", "postCode": "0000", "country": "New Zealand" },
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "consignmentItemId": "FW.TK..ZZ.01234567.2",
+      "partNumber": "02",
+      "trackingEvents": [
+        {
+          "barcode": "ZZ01234567",
+          "eventType": "LC",
+          "status": "Label Created",
+          "createdOn": "2026-02-15T22:05:00Z",
+          "carrierName": "NZCouriers",
+          "attachments": []
+        },
+        {
+          "barcode": "ZZ01234567",
+          "eventType": "P",
+          "status": "Picked Up",
+          "createdOn": "2026-02-16T03:44:02Z",
+          "createdBy": "00-000",
+          "carrierName": "NZCouriers",
+          "branchCode": "SMP",
+          "runNumber": "100",
+          "location": { "suburb": "Sample Park", "town": "SAMPLETON", "region": "Sample City", "postCode": "0000", "country": "New Zealand" },
+          "attachments": []
+        },
+        {
+          "barcode": "ZZ01234567",
+          "eventType": "LC",
+          "status": "Label Created",
+          "createdOn": "2026-02-16T04:10:00Z",
+          "carrierName": "NZCouriers",
+          "attachments": []
+        }
+      ]
+    }
+  ]
+}

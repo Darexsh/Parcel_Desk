@@ -1,0 +1,28 @@
+{
+  "carrier": "janco-express",
+  "records": [
+    {
+      "number": "JEAU17030132",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.jancoexpress.com/wp-content/uploads/2017/03/JANCOEXP_EXPRESS_API_REFERENCE_MANUAL.pdf",
+        "date": "2017-03-27",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "janco-express"
+        ]
+      },
+      "note": "JANCO Express's API reference manual gives this order number in its tracking examples; its tracker finds the booking."
+    }
+  ]
+}

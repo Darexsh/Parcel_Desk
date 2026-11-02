@@ -1,0 +1,55 @@
+{
+  "carrier": "ap-cargo",
+  "records": [
+    {
+      "number": "01807805",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210127065104/http://tntapi.apcargo.com.ph/cms1api/api/trackingcargo/get?airwaybillno=01807805",
+        "date": "2021-01-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "An archived reply of AP Cargo's own tracking API shows this waybill from acceptance in Manila to its claim at the destination branch."
+    },
+    {
+      "number": "64301904",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210125104132/http://tntapi.apcargo.com.ph/cms1api/api/trackingcargo/get?airwaybillno=64301904",
+        "date": "2021-01-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner",
+          "tforce-freight"
+        ]
+      },
+      "note": "An archived reply of AP Cargo's own tracking API shows this waybill from acceptance in Manila to its claim at the destination branch."
+    }
+  ]
+}

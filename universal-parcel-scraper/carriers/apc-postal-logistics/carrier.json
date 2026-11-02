@@ -1,0 +1,106 @@
+{
+  "id": "apc-postal-logistics",
+  "displayName": "APC Postal Logistics",
+  "aliases": [
+    "APC",
+    "APC PLI",
+    "APC Postal Logistics LLC"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#2e2d77"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "apc-postal-logistics",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "eta_window",
+    "service_name",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://tracking.apc-pli.com/{trackingNumber}",
+    "searchUrl": "https://tracking.apc-pli.com/",
+    "canaryUrl": "https://tracking.apc-pli.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "progress_rail",
+      "eta_window",
+      "delivered_at",
+      "event_details",
+      "service_name",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "customer_reference",
+      "recipient_address",
+      "offset_timestamps"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "eta_window",
+      "service_name",
+      "destination_country",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "delivered_at",
+      "event_details",
+      "customer_reference",
+      "recipient_address"
+    ],
+    "unavailable": [
+      "weight",
+      "sender_name",
+      "recipient_name",
+      "proof_of_delivery",
+      "signatory"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.apc-pli.com"
+      ],
+      "path": "^/([0-9A-Z]{10,})/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "apc-postal-logistics-1",
+      "pattern": "^\\d{5}P\\d{16}$",
+      "confidence": "high"
+    },
+    {
+      "id": "apc-postal-logistics-2",
+      "pattern": "^\\d{5}A\\d{9,10}$",
+      "confidence": "high"
+    }
+  ]
+}

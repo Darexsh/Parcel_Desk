@@ -1,0 +1,19 @@
+{
+  "carrier": "custom-companies",
+  "entries": [
+    {"wording": "Pickup Request Received", "stage": "registered", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page."},
+    {"wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page."},
+    {"wording": "Scanned On Dock", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page."},
+    {"wording": "Freight Unloaded", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page."},
+    {"wording": "Loaded On Trailer", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page."},
+    {"wording": "Trailer Departed", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page."},
+    {"wording": "Trailer Arrived", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page. The location column can name an interline partner."},
+    {"wording": "Trailer Arrived At Delivering Terminal", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page."},
+    {"wording": "Out For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page."},
+    {"wording": "DELIVERED; THANK YOU FOR USING THE CUSTOM COMPANIES", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page. The delivering city follows the text."},
+    {"wording": "DELIVERED-NO EXCEPTIONS", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Seen as the status in the delivery details block of archived lookups; not a history line."},
+    {"wording": "On Hand - Waiting For Approval On Additional Services", "stage": "exception", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page. The freight is held at the delivering terminal until extra services are approved."},
+    {"wording": "Reclass", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page. A freight class correction; not a movement."},
+    {"wording": "Linehaul Estimated Departure", "language": "en", "confirmedBy": "portal", "note": "Seen in the history of archived lookups on the carrier's shipment details page. An estimate, not an event."}
+  ]
+}

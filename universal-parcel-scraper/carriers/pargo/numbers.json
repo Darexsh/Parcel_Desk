@@ -1,0 +1,194 @@
+{
+  "carrier": "pargo",
+  "records": [
+    {
+      "number": "ODOCP6042597S1",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20231220070014/https://pargo.co.za/scripts/track_and_trace.php?trackingCode=ODOCP6042597S1",
+        "date": "2023-12-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Pargo's own tracker shows this tracking number with its history, from preparation by the online shop OneDayOnly to the courier hub, bound for a Pargo point."
+    },
+    {
+      "number": "OFT1T52003763",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20211228072642/https://pargo.co.za/scripts/track_and_trace.php?trackingCode=OFT1T52003763",
+        "date": "2021-12-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Pargo's own tracker shows this tracking number with its history, from preparation by the retailer TFG to collection by the courier, bound for a store collection point."
+    },
+    {
+      "number": "11065350790",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200403120827/https://api.pargo.co.za/track-trace.php?waybill=11065350790",
+        "date": "2020-04-03",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "An archived lookup on Pargo's earlier tracker, which took the number as waybill, shows a history from order received to ready for collection at the Pargo point; the page does not repeat the number."
+    },
+    {
+      "number": "11049367794",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20200429143612/https://api.pargo.co.za/track-trace.php?waybill=11049367794",
+        "date": "2020-04-29",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "postlogistics",
+          "gls-ch",
+          "gls-fr",
+          "gls-de",
+          "coordinadora",
+          "gls-at",
+          "gls-pl",
+          "mainfreight"
+        ]
+      },
+      "note": "An archived lookup on Pargo's earlier tracker, which took the number as waybill, shows a history of dispatch and several en-route events; the page does not repeat the number."
+    },
+    {
+      "number": "PAR2096573565",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://docs.pargo.co.za/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pargo",
+        "confidence": "high"
+      },
+      "note": "Pargo's API documentation uses it as the order waybill number in its example label request."
+    },
+    {
+      "number": "PAR2069200904",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://docs.pargo.co.za/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pargo",
+        "confidence": "high"
+      },
+      "note": "Pargo's API documentation uses it in its example request for an order's events."
+    },
+    {
+      "number": "PAR4027027396",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://docs.pargo.co.za/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pargo",
+        "confidence": "high"
+      },
+      "note": "Pargo's API documentation gives it as the order reference in an example courier tracking update."
+    },
+    {
+      "number": "PAR3084896299",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://docs.pargo.co.za/",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "pargo",
+        "confidence": "high"
+      },
+      "note": "Pargo's API documentation looks it up as a tracking code in an example pickup-point request."
+    },
+    {
+      "number": "ODO000466768",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20201007201232/https://pargo.co.za/track-trace/?track-trace=ODO000466768",
+        "date": "2020-10-07",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "An archived lookup on Pargo's tracking page asked for it, but the capture shows only the search page; the ODO prefix belongs to the shop OneDayOnly, whose waybills also pass through Courier IT, so its issuer is unsettled."
+    }
+  ]
+}

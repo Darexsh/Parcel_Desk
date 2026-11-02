@@ -1,0 +1,138 @@
+{
+  "id": "dpd-de",
+  "displayName": "DPD Germany",
+  "aliases": [
+    "DPD Deutschland"
+  ],
+  "region": {
+    "countries": [
+      "DE"
+    ]
+  },
+  "brand": {
+    "color": "#dc0032"
+  },
+  "selectable": true,
+  "timezone": "Europe/Berlin",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "dpd-de",
+    "steps": [
+      "app",
+      "direct",
+      "abroad"
+    ],
+    "recognition": {
+      "rank": 970
+    },
+    "requirements": [
+      {
+        "field": "postcode",
+        "optional": true,
+        "showsMore": true,
+        "label": "Delivery postcode",
+        "type": "text",
+        "placeholder": "10115",
+        "pattern": "^[0-9]{5}$",
+        "maxLength": 5,
+        "inputMode": "numeric",
+        "autoComplete": "postal-code",
+        "help": "Optional. DPD uses it to unlock verified scans and the delivery window.",
+        "validator": "germanyPostcode"
+      }
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "sender_name",
+    "pickup_point",
+    "weight",
+    "dimensions",
+    "delivered_at",
+    "provider_code"
+  ],
+  "portal": {
+    "url": "https://tracking.dpd.de/status/en_US/parcel/{trackingNumber}",
+    "searchUrl": "https://www.dpd.com/de/en/empfangen/sendungsverfolgung-und-live-tracking/",
+    "helpUrl": "https://www.dpd.com/de/de/support/empfaenger/",
+    "canaryUrl": "https://tracking.dpd.de/status/en_US/parcel/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "pickup_point",
+      "weight",
+      "dimensions",
+      "delivered_at",
+      "provider_code"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address",
+      "proof_of_delivery"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.dpd.de"
+      ],
+      "path": "^/status/[a-z]{2}_[A-Z]{2}/parcel/(\\d{14}[0-9A-Z]?)/?$"
+    },
+    {
+      "domains": [
+        "my.dpd.de"
+      ],
+      "params": [
+        "parcelno"
+      ]
+    },
+    {
+      "domains": [
+        "dpdgroup.com",
+        "dpd.com"
+      ],
+      "pathPattern": "^/de(?:/|$)",
+      "params": [
+        "parcelNumber",
+        "parcelnumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "dpd-de-3",
+      "pattern": "^01(?:0[1-9]|[1-9]\\d)\\d{10}$",
+      "confidence": "low",
+      "preferred": true
+    },
+    {
+      "id": "dpd-de-4",
+      "pattern": "^01(?:0[1-9]|[1-9]\\d)\\d{10}[0-9A-Z]$",
+      "confidence": "low",
+      "checksum": "dpd",
+      "preferred": true
+    },
+    {
+      "id": "dpd-de-1",
+      "pattern": "^\\d{14}$",
+      "confidence": "low"
+    },
+    {
+      "id": "dpd-de-2",
+      "pattern": "^\\d{14}[0-9A-Z]$",
+      "confidence": "low",
+      "checksum": "dpd"
+    }
+  ]
+}

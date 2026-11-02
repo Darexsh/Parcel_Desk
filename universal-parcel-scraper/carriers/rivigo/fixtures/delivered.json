@@ -1,0 +1,41 @@
+{
+  "requestId": "0000000000000101",
+  "status": "SUCCESS",
+  "payload": {
+    "cnote": "3000000101",
+    "consignmentDto": {
+      "id": 101,
+      "cnote": "3000000101",
+      "status": "DELIVERED",
+      "clientCode": "SYNTH01",
+      "clientName": "Synthetic Traders",
+      "totalBoxes": 3,
+      "bookingDateTime": 1789361100000,
+      "podURL": "https://example.invalid/pod/synthetic.jpg"
+    },
+    "status": "DELIVERED",
+    "delivered": true,
+    "displayStatusDto": { "primaryText": "DELIVERED", "subText": null },
+    "trackingStatus": "ON_TIME",
+    "fromCityName": "Exampur",
+    "toCityName": "Testnagar",
+    "edd": 1789583400000,
+    "add": 1789550100000,
+    "cpd": 1789583400000,
+    "tat": 3,
+    "additionalTat": 0,
+    "consignorDto": { "name": "Synthetic Traders", "address": "1 Example Road, Exampur", "phone": "0000000000" },
+    "consigneeDto": { "name": "Sample Retail", "address": "2 Test Street, Testnagar", "phone": "0000000000" },
+    "undeliveredConsignments": [],
+    "transitHistory": [
+      { "activity": "Pickup", "status": "CREATED", "activityType": null, "city": "Exampur", "location": "Exampur Branch", "dateAndTime": 1789361100000, "scanDateAndTime": 1789361400000, "userName": "Synthetic Picker", "userPhone": "0000000000" },
+      { "activity": "Origin PC - IN", "status": "RECEIVED_AT_OU", "activityType": "IN", "city": "Exampur", "location": "Exampur Processing Centre", "locationCode": "EXPC1", "dateAndTime": 1789391400000, "scanDateAndTime": 1789391400000 },
+      { "activity": "Origin PC - OUT", "status": "LOADED", "activityType": "OUT", "city": "Exampur", "location": "Exampur Processing Centre", "locationCode": "EXPC1", "vehicleNumber": "XX00XX0000", "dateAndTime": 1789410300000, "loadedByName": "Synthetic Loader", "loadedByPhone": "0000000000" },
+      { "activity": "Intransit To:", "status": "INTRANSIT_TO_OU", "activityType": "INTRANSIT", "city": "Testnagar", "location": "Testnagar Processing Centre", "dateAndTime": 1789482600000, "pilotName": "Synthetic Pilot", "pilotContactNumber": "0000000000" },
+      { "activity": "Destination PC - IN", "status": "RECEIVED_AT_OU", "activityType": "IN", "city": "Testnagar", "location": "Testnagar Processing Centre", "locationCode": "TNPC1", "dateAndTime": 1789519800000 },
+      { "activity": "Destination PC - Unloaded", "status": "UNLOADED", "activityType": "IN", "city": "Testnagar", "location": "Testnagar Processing Centre", "dateAndTime": 1789522500000 },
+      { "activity": "Out For Delivery", "status": "OUT_FOR_DELIVERY", "activityType": "OUT", "city": "Testnagar", "location": "Testnagar Branch", "dateAndTime": 1789531200000, "userName": "Synthetic Captain", "userPhone": "0000000000" },
+      { "activity": "Delivered", "status": "DELIVERED", "activityType": null, "city": "Testnagar", "location": "Testnagar Branch", "dateAndTime": 1789550100000, "remarks": "Received by Sample Receiver", "userName": "Synthetic Captain", "userPhone": "0000000000" }
+    ]
+  }
+}

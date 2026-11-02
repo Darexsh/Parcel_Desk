@@ -1,0 +1,14 @@
+{
+  "carrier": "logoix",
+  "entries": [
+    {"wording": "Sendungsdaten wurden elektronisch erfasst.", "stage": "registered", "language": "de", "confirmedBy": "portal", "note": "Seen in archived captures of LogoiX's tracker; the shipment data was recorded."},
+    {"wording": "Sendungsdaten wurden elektronisch erfasst. Der Versender hat die Sendung noch nicht bei LogoiX zum Versand eingeliefert.", "stage": "registered", "language": "de", "confirmedBy": "live", "note": "One scan, its two sentences on separate lines: the sender booked the parcel and has not handed it to LogoiX yet. The adapter joins the lines."},
+    {"wording": "Eingang Verteilzentrum LogoiX, in Bearbeitung", "stage": "accepted", "language": "de", "confirmedBy": "portal", "note": "Seen in archived captures of LogoiX's tracker; the parcel arrived at LogoiX's distribution centre."},
+    {"wording": "Abfertigung LogoiX Zentrale Freilassing", "stage": "accepted", "language": "de", "confirmedBy": "live", "note": "The parcel was processed at LogoiX's head office in Freilassing."},
+    {"wording": "Ausgang Verteilzentrum LogoiX", "stage": "in_transit", "language": "de", "confirmedBy": "live", "note": "The parcel left LogoiX for the transport partner the tracker names next."},
+    {"wording": "Lieferant kann aus Sendungsnummer nicht ermittelt werden.", "language": "de", "confirmedBy": "portal", "note": "The tracker's answer for a number it cannot match to a transport partner, seen in an archived lookup of a DHL number."},
+    {"wording": "Die Sendung wurde im Start-Paketzentrum bearbeitet.", "stage": "in_transit", "language": "de", "confirmedBy": "portal", "note": "DHL's wording for the partner leg, which LogoiX's tracker shows under the DHL number."},
+    {"wording": "Die Sendung wurde im Ziel-Paketzentrum bearbeitet.", "stage": "in_transit", "language": "de", "confirmedBy": "portal", "note": "DHL's wording for the partner leg, which LogoiX's tracker shows under the DHL number."},
+    {"wording": "Die Sendung wurde in das Zustellfahrzeug geladen.", "stage": "out_for_delivery", "language": "de", "confirmedBy": "portal", "note": "DHL's wording for the partner leg, which LogoiX's tracker shows under the DHL number."}
+  ]
+}

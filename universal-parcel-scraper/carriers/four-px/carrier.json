@@ -1,0 +1,86 @@
+{
+  "id": "four-px",
+  "displayName": "4PX",
+  "aliases": [
+    "4PX Express"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#005add"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "four-px",
+    "steps": [
+      "direct"
+    ],
+    "localClocks": true,
+    "recognition": {
+      "rank": 570
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "provider_code",
+    "delivery_partner",
+    "delivery_tracking_number",
+    "pickup_point"
+  ],
+  "portal": {
+    "url": "https://track.4px.com/#/result/0/{trackingNumber}",
+    "searchUrl": "https://track.4px.com/",
+    "helpUrl": "https://track.4px.com/#/help/contact",
+    "canaryUrl": "https://track.4px.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner",
+      "pickup_point"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner",
+      "pickup_point"
+    ],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.4px.com"
+      ],
+      "pathPattern": "^/$",
+      "fragment": "^/result/0/([A-Z0-9]+)$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "four-px-1",
+      "pattern": "^4PX\\d{13}CN$",
+      "confidence": "high"
+    },
+    {
+      "id": "four-px-cainiao-reference",
+      "pattern": "^LP\\d{13}CN$",
+      "confidence": "low"
+    },
+    {
+      "id": "four-px-emile-reference",
+      "pattern": "^EM\\d{16}CA$",
+      "confidence": "low",
+      "preferred": true
+    }
+  ]
+}

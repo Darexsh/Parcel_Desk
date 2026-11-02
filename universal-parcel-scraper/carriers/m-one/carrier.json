@@ -1,0 +1,92 @@
+{
+  "id": "m-one",
+  "displayName": "M-ONE",
+  "aliases": [
+    "Milšped ONE",
+    "Milsped ONE",
+    "M ONE",
+    "MILŠPED ONE DOO"
+  ],
+  "region": {
+    "countries": [
+      "RS"
+    ]
+  },
+  "brand": {
+    "color": "#024da0"
+  },
+  "selectable": true,
+  "timezone": "Europe/Belgrade",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "m-one",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 825
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "weight",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://m-one.rs/en?{trackingNumber}",
+    "searchUrl": "https://m-one.rs/en",
+    "canaryUrl": "https://m-one.rs/en",
+    "shows": [
+      "status",
+      "weight",
+      "parcel_count",
+      "sender_name",
+      "recipient_name",
+      "origin_country",
+      "destination_country"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "weight",
+      "destination_country"
+    ],
+    "discarded": [
+      "parcel_count",
+      "sender_name",
+      "recipient_name",
+      "origin_country"
+    ],
+    "unavailable": [
+      "eta",
+      "delivered_at",
+      "offset_timestamps",
+      "pickup_point",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "m-one.rs",
+        "www.m-one.rs"
+      ],
+      "pathPattern": "^/(?:en)?/?$",
+      "query": "^([A-Z]{2}\\d{9}RS|RS\\d{12})$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "m-one-s10",
+      "pattern": "^[A-Z]{2}\\d{9}RS$",
+      "confidence": "low",
+      "checksum": "s10"
+    }
+  ]
+}

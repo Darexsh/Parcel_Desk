@@ -1,0 +1,99 @@
+{
+  "id": "sapx-express",
+  "displayName": "SAPX Express",
+  "aliases": [
+    "SAP Express",
+    "SAPX",
+    "Satria Antaran Prima",
+    "PT Satria Antaran Prima Tbk"
+  ],
+  "region": {
+    "countries": [
+      "ID"
+    ]
+  },
+  "brand": {
+    "color": "#ee6825"
+  },
+  "selectable": true,
+  "timezone": "Asia/Jakarta",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "sapx-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 795
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "location",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://www.sapx.id/id/cek-awb/{trackingNumber}",
+    "searchUrl": "https://www.sapx.id/id/cek-awb",
+    "canaryUrl": "https://www.sapx.id/id/cek-awb",
+    "shows": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "service_name",
+      "failed_delivery_reason",
+      "origin",
+      "destination",
+      "signatory",
+      "driver_name",
+      "remarks"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "service_name",
+      "failed_delivery_reason"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "signatory",
+      "driver_name",
+      "remarks"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "delivered_at",
+      "offset_timestamps",
+      "proof_of_delivery",
+      "sender_name",
+      "recipient_address"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "sapx.id",
+        "www.sapx.id",
+        "sap-express.id",
+        "www.sap-express.id"
+      ],
+      "path": "^/id/cek-awb/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "sap-express.id",
+        "www.sap-express.id"
+      ],
+      "path": "^/layanan/tracking/details/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

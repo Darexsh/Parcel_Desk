@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Track Shipment - VRL Logistics Ltd</title>
+</head>
+<body>
+    <main class="mb-0">
+            <div class="toast position-fixed toast-error" id="errorToast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header"> 
+            <strong class="me-auto">Error</strong> 
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button> 
+        </div>
+        <div class="toast-body">
+            No data found
+        </div>
+    </div>
+
+<div class="container d-flex justify-content-center">
+	<div class="branch-locator-container2">
+		<div class="site-finder-card">
+			<h4 class="site-finder-card__header">Track your order</h4>
+			<div class="site-finder-card__body">
+				<form id="trackingForm" method="post" action="/Tracking/TrackShipment">
+					<div class="site-button-tabs mb-2">
+						<input type="button" value="LR No." class="lrno active" />
+						<input type="button" value="Courier No." class="courrno" />
+					</div>
+					<div class="my-4 text-center">
+						<input type="text" name="lrno" id="lrnoo" class="track-textbox" placeholder="Enter your LR No." inputmode="numeric" pattern="[0-9]+" minlength="1" maxlength="20" />
+						<input type="submit" class="track-submit-button width-fit-content" value="Track Consignment" />
+					</div>
+				<input name="__RequestVerificationToken" type="hidden" value="SYNTHETIC-TOKEN" /></form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="track-page">
+	<div class="container">
+		<div class="track-stack">
+				<p class="errorr">Please enter a tracking number.</p>
+
+			<section class="track-card track-card--timeline d-none">
+				<header class="d-flex align-items-start gap-3">
+					<img src="/Images/box-icon.svg" alt="Box icon" class="track-icon" />
+					<div>
+						<h2 class="track-id">#SAMPLE00</h2>
+						<p class="track-meta">On the way <span class="dot">&bull;</span> ETA - 18th July</p>
+					</div>
+				</header>
+				<div class="track-progress" style="--progress: 0.6">
+					<span class="track-step is-done"><span class="step-dot"></span></span>
+					<span class="track-step is-pending"><span class="step-dot"></span></span>
+				</div>
+				<div class="track-route d-flex justify-content-between">
+					<div>
+						<p class="track-label">From</p>
+						<p class="track-value">Sample Origin</p>
+					</div>
+					<div class="text-end">
+						<p class="track-label">To</p>
+						<p class="track-value">Sample Destination</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="track-card track-card--accordion d-none">
+				<div class="track-accordion-header">Details</div>
+				<div class="track-accordion-item">
+					<p class="track-label">Actual ETA</p>
+					<p class="track-value">18 July</p>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+    </main>
+</body>
+</html>

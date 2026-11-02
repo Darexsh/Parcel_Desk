@@ -1,0 +1,44 @@
+{
+  "id": "xpressen",
+  "displayName": "Xpressen",
+  "aliases": [
+    "Xpressen ApS"
+  ],
+  "region": {
+    "countries": [
+      "DK"
+    ]
+  },
+  "brand": {
+    "color": "#e3212b"
+  },
+  "selectable": true,
+  "timezone": "Europe/Copenhagen",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.xpressen.dk/Tracking?t={trackingNumber}",
+    "searchUrl": "https://track.xpressen.dk/Tracking",
+    "canaryUrl": "https://www.xpressen.dk/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.xpressen.dk"
+      ],
+      "pathPattern": "^/Tracking/?$",
+      "params": [
+        "t"
+      ]
+    }
+  ],
+  "detection": []
+}

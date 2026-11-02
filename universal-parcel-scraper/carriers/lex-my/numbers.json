@@ -1,0 +1,27 @@
+{
+  "carrier": "lex-my",
+  "records": [
+    {
+      "number": "TMYLE003782555",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251222141001/https://lex.com.my/tracking?references=TMYLE003782555",
+        "date": "2025-12-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "lex-my"
+        ]
+      },
+      "note": "Looked up on LEX Malaysia's own tracker, as an archived page shows; the tracker still finds it, delivered by LEX MY."
+    }
+  ]
+}

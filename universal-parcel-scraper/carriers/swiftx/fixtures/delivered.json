@@ -1,0 +1,139 @@
+{
+  "data": {
+    "getOfficialWebsiteTrackingInfoBatch": {
+      "success": true,
+      "message": "",
+      "errorCode": null,
+      "results": [
+        {
+          "success": true,
+          "message": "",
+          "errorCode": null,
+          "trackingNo": "SWX000000000000000001",
+          "trackingEventList": [
+            {
+              "event": "DELIVERED",
+              "description": "Delivered",
+              "localTime": "2026-03-12 15:41:07",
+              "localGmtOffset": "GMT-04:00",
+              "location": "Delivery Location",
+              "iso3166Cc": "US",
+              "iso3166Sc": "NY",
+              "cityUppercase": "SAMPLETOWN",
+              "postalCode": "00001",
+              "podImageCount": 2
+            },
+            {
+              "event": "OUT_FOR_DELIVERY",
+              "description": "Out for Delivery",
+              "localTime": "2026-03-12 08:02:19",
+              "localGmtOffset": "GMT-04:00",
+              "location": "XYZ_EAST Warehouse",
+              "iso3166Cc": "US",
+              "iso3166Sc": "NY",
+              "cityUppercase": "EASTFIELD",
+              "postalCode": "00002",
+              "podImageCount": 0
+            },
+            {
+              "event": "DELIVERY_FAILED",
+              "description": "Delivery failed \n Note: Business was closed during delivery attempt. Please provide alternative delivery instructions. For assistance, Contact SwiftX at +1 555-010-0000 or help@example.com",
+              "localTime": "2026-03-11 17:13:52",
+              "localGmtOffset": "GMT-04:00",
+              "location": "Delivery Location",
+              "iso3166Cc": "US",
+              "iso3166Sc": "NY",
+              "cityUppercase": "SAMPLETOWN",
+              "postalCode": "00001",
+              "podImageCount": 0
+            },
+            {
+              "event": "OUT_FOR_DELIVERY",
+              "description": "Out for Delivery",
+              "localTime": "2026-03-11 07:58:40",
+              "localGmtOffset": "GMT-04:00",
+              "location": "XYZ_EAST Warehouse",
+              "iso3166Cc": "US",
+              "iso3166Sc": "NY",
+              "cityUppercase": "EASTFIELD",
+              "postalCode": "00002",
+              "podImageCount": 0
+            },
+            {
+              "event": "WHS_ARRIVAL_SCAN",
+              "description": "Arrived At Warehouse",
+              "localTime": "2026-03-10 23:36:05",
+              "localGmtOffset": "GMT-04:00",
+              "location": "XYZ_EAST Warehouse",
+              "iso3166Cc": "US",
+              "iso3166Sc": "NY",
+              "cityUppercase": "EASTFIELD",
+              "postalCode": "00002",
+              "podImageCount": 0
+            },
+            {
+              "event": "DESTINATION_HUB_DEPARTURE",
+              "description": "Departed Destination Hub",
+              "localTime": "2026-03-10 21:04:33",
+              "localGmtOffset": "GMT-04:00",
+              "location": "XYZ HUB",
+              "iso3166Cc": "US",
+              "iso3166Sc": "NJ",
+              "cityUppercase": "HARBOR CITY",
+              "postalCode": "00003",
+              "podImageCount": 0
+            },
+            {
+              "event": "TRANSFER_ARRIVAL_SCAN",
+              "description": "Arrived at Destination Hub",
+              "localTime": "2026-03-10 09:27:48",
+              "localGmtOffset": "GMT-04:00",
+              "location": "XYZ HUB",
+              "iso3166Cc": "US",
+              "iso3166Sc": "NJ",
+              "cityUppercase": "HARBOR CITY",
+              "postalCode": "00003",
+              "podImageCount": 0
+            },
+            {
+              "event": "ORIGIN_HUB_DEPARTURE",
+              "description": "Departed Origin Hub",
+              "localTime": "2026-03-07 02:19:11",
+              "localGmtOffset": "GMT-08:00",
+              "location": "ABC HUB",
+              "iso3166Cc": "US",
+              "iso3166Sc": "CA",
+              "cityUppercase": "WESTVALE",
+              "postalCode": "00004",
+              "podImageCount": 0
+            },
+            {
+              "event": "PICKUP_ARRIVAL_SCAN",
+              "description": "Arrived at Origin Hub",
+              "localTime": "2026-03-06 22:45:30",
+              "localGmtOffset": "GMT-08:00",
+              "location": "ABC HUB",
+              "iso3166Cc": "US",
+              "iso3166Sc": "CA",
+              "cityUppercase": "WESTVALE",
+              "postalCode": "00004",
+              "podImageCount": 0
+            },
+            {
+              "event": "CREATED",
+              "description": "Shipping Label Created",
+              "localTime": "2026-03-05 06:31:58",
+              "localGmtOffset": "GMT-07:00",
+              "location": "SYSTEM",
+              "iso3166Cc": "US",
+              "iso3166Sc": "",
+              "cityUppercase": "SYSTEM",
+              "postalCode": "",
+              "podImageCount": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

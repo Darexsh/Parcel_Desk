@@ -1,0 +1,45 @@
+
+	<h4>Consignment Status</h4>
+		<table class='table table-condensed table-bordered'>
+	                <thead>
+                                <tr>
+                                        <th><i class='clip-tag-2'></i> Palletways Tracking ID</th>
+                                        <th><i class='clip-calendar'></i> Currently Due</th>
+                                        <th><i class='clip-pencil'></i> Consignment Number</th>
+                                        <th><i class='clip-stack'></i> Units</th>
+                                        <th><i class='clip-question'></i> Status</th>
+                                </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                        <td>90000000001 <span class='text-muted text12'>(Delivery)</span></td>
+                                        <td>14/03/2026</td>
+                                        <td>SYN-REF-0001</td>
+                                        <td>2 @ 1500.00kg</td>
+                                        <td><span class='badge badge-success'>JOB COMPLETE</span></td>
+                                </tr>
+                        </tbody>
+		</table>
+					<form class="form-login" action="#" method="post" id="frm_track_full">
+                                                        <div class="form-group">
+                                                                <span class="input-icon">
+                                                                        <input type="text" class="form-control" id="postcode" name="postcode" placeholder="Enter delivery postcode for full tracking details" autocomplete="off" >
+                                                                        <i class="fa fa-location-arrow"></i> </span>
+                                                        </div>
+                                                        <div class="form-actions">
+                                                                <button type="submit" class="btn btn-green btn-sm pull-right" id="btn_tt_full_search">
+                                                                        View full details <i class="fa fa-arrow-circle-right"></i>
+                                                                </button>
+                                                        </div>
+					</form>
+
+	<script>
+                                $("#btn_tt_full_search").click(function(){
+                                        tt();
+                                        return false;
+                                });
+
+                                $("#frm_track_full").submit(function(e){
+                                        e.preventDefault();
+                                });
+	</script>

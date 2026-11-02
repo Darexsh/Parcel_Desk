@@ -1,0 +1,11 @@
+{
+  "carriers": ["Omgo"],
+  "services": [{"name": "Omgo", "slug": "omgo-cn"}],
+  "status": "transit",
+  "sender": "Example Sender",
+  "states": [
+    {"date": "2026-01-04T12:00:00Z", "status": "In transit", "carrier": 0},
+    {"date": "2026-01-03T09:00:00Z", "status": "Accepted by carrier", "carrier": 0},
+    {"date": "2026-01-02T08:00:00Z", "status": "Shipping information received", "carrier": 0}
+  ]
+}

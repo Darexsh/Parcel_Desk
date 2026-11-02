@@ -1,0 +1,88 @@
+{
+ "count": 1,
+ "items": [
+  {
+   "trackingNumber": "9000000030",
+   "relatedTrackingNumber": "9000000030",
+   "pickupStation": "EX-1",
+   "pickupDescription": "ACS EXAMPLE NORTH",
+   "destinationStationID": "EX-2",
+   "pickupPrefecture": 9,
+   "destinationPrefecture": 8,
+   "pickupRegion": 2,
+   "destinationRegion": 3,
+   "destinationDescription": "ACS SAMPLEVILLE",
+   "recipient": "",
+   "nonDeliveryReason": "",
+   "notes": "Recipient: J*** D**",
+   "sender": "EXAMPLE SHOP LTD",
+   "recipientName": "J*** D**",
+   "recipientAddress": "S*******",
+   "pickupStationTelephoneNumber": "2100000000",
+   "destinationStationTelephoneNumber": "2600000000",
+   "pickupDate": "2030-03-04T00:00:00",
+   "expectedDeliveryDate": "2030-03-06T00:00:00",
+   "shipmentStatusId": 8,
+   "isDelivered": false,
+   "isReturned": false,
+   "specialFeatures": "compact branch-details-pickup branch-details-dest",
+   "statusHistory": [
+    {
+     "trackingNumber": "9000000030",
+     "controlPointDate": "2030-03-04T00:00:00",
+     "description": "",
+     "controlPoint": "Pick up",
+     "controlPid": 100
+    },
+    {
+     "trackingNumber": "9000000030",
+     "controlPointDate": "2030-03-04T19:23:00",
+     "description": "",
+     "controlPoint": "At the ACS hub",
+     "controlPid": 200
+    },
+    {
+     "trackingNumber": "9000000030",
+     "controlPointDate": "2030-03-06T09:09:32.173",
+     "description": "",
+     "controlPoint": "At the ACS point",
+     "controlPid": 300
+    },
+    {
+     "trackingNumber": "9000000030",
+     "description": "",
+     "controlPoint": "Out for delivery",
+     "controlPid": 400
+    },
+    {
+     "trackingNumber": "9000000030",
+     "description": "",
+     "controlPoint": "Delivered",
+     "controlPid": 600
+    }
+   ],
+   "progressStatus": [
+    {
+     "trackingNumber": "9000000030",
+     "step": 1,
+     "description": "PICK UP",
+     "date": "2030-03-04T00:00:00",
+     "isCurrent": false
+    },
+    {
+     "trackingNumber": "9000000030",
+     "step": 2,
+     "description": "",
+     "isCurrent": false
+    },
+    {
+     "trackingNumber": "9000000030",
+     "step": 3,
+     "description": "HUB",
+     "date": "2030-03-04T00:00:00",
+     "isCurrent": true
+    }
+   ]
+  }
+ ]
+}

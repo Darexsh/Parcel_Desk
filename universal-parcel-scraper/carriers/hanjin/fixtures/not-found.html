@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+			<title>Information </title>
+	</head>
+	<body>
+<script charset="utf-8" src="/resources/_Js/core/jquery-1.11.3.min.js"> </script>
+<script charset="utf-8" src="/resources/_Js/core/jquery-ui-1.9.2.custom.min.js"></script>
+	<script type="text/javascript">
+		
+		function submitEvent(){
+			alert("운송장이 등록되지 않았거나 보내는 분(업체)이 상품을 준비 중 입니다.");
+			document.frm.submit();
+			
+		}
+	</script>
+
+
+<form id='frm' name="frm" method="post" action="/kor/CMS/DeliveryMgr/WaybillSch.do?mCode=MN038">
+</form>
+
+<form id='frm2' name="frm2" method="post" target="_blank" action="/kor/CMS/DeliveryMgr/WaybillSch.do?mCode=MN038">
+</form>
+<script type="text/javascript">
+	submitEvent();
+</script>
+
+	</body>
+</html>

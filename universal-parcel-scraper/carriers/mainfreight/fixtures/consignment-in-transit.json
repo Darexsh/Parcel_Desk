@@ -1,0 +1,14 @@
+[{"shortCode":"MSAUS","reference":"ZZT0000001","fullReference":"99900000014","url":"MSAUS/99900000014","mainchainUrl":"https://www.mainchain.net/","status":"In Transit","statusDateUtc":"2026-05-12T06:41:09.12","journey":"SAMPLETOWN to EXAMPLE HILL","documentJourney":null,
+ "hero":{"status":"In Transit","statusDateUtc":"2026-05-12T06:41:09.12","colour":"grey","icon":"icon-status in-transit-circle","additionalDetails":[{"value":"12 May 2026, 6:41 AM AEST","cssClass":"","link":""}]},
+ "contacts":[{"type":"Pickup Branch","name":"Sampletown Sample Transport","email":"branch@example.com","businessPhone":"+61 0 0000 0000","faxPhone":null,"streetAddress":"1 Sample Street, SAMPLETOWN, 0000, Australia","postalAddress":null,"openingHours":null,"url":null},{"type":"Delivery Branch","name":"Example Hill Sample Transport","email":"depot@example.com","businessPhone":"+61 0 0000 0001","faxPhone":null,"streetAddress":"2 Example Road, EXAMPLE HILL, 0000, Australia","postalAddress":null,"openingHours":"7:00 AM - 5:00 PM","url":null}],
+ "details":[{"groupName":"Details","items":[{"label":"Items","value":"2"},{"label":"Cubic","value":"0.31 M<sup>3</sup>"},{"label":"Weight","value":"42 KG"}]}],
+ "timelineDetails":[
+  {"status":"At Delivery Depot","colour":"grey","additionalDetails":[{"value":"12 May 2026, 6:41 AM AEST","cssClass":"","link":""},{"value":"EXAMPLE HILL","cssClass":"","link":""}]},
+  {"status":"In Transit","colour":"grey","additionalDetails":[{"value":"11 May 2026, 7:00 PM AEST","cssClass":"","link":""},{"value":"SAMPLETOWN to EXAMPLE HILL","cssClass":"","link":""}]},
+  {"status":"In Transit","colour":"grey","additionalDetails":[{"value":"11 May 2026, 5:30 PM AEST","cssClass":"","link":""},{"value":" to ","cssClass":"","link":""}]},
+  {"status":"Picked Up","colour":"blue","additionalDetails":[{"value":"11 May 2026, 2:34 PM AEST","cssClass":"","link":""},{"value":"SAMPLETOWN","cssClass":"","link":""}]},
+  {"status":"Pickup Allocated to Driver","colour":"blue","additionalDetails":[{"value":"11 May 2026, 11:50 AM AEST","cssClass":"","link":""}]},
+  {"status":"Information Received","colour":"blue","additionalDetails":[{"value":"11 May 2026, 11:13 AM AEST","cssClass":"","link":""}]}
+ ],
+ "worm":[{"active":true,"status":"Picked Up","colour":"blue","icon":"icon-status picked-up"},{"active":true,"status":"In Transit","colour":"grey","icon":"icon-status in-transit"},{"active":false,"status":"Delivered","colour":"green","icon":"icon-status delivered"}],
+ "serviceAlertTitle":null,"serviceAlert":null,"subscriptionPayload":"SYNTHETIC-SUBSCRIPTION-KEY","watchlistPayload":"SYNTHETIC-WATCHLIST-KEY","serviceTypeCode":"TransportAu","eventTypeCode":"StatusUpdate","documentTypeName":"Shipment","attachments":null}]

@@ -1,0 +1,45 @@
+{
+  "id": "paket-cl",
+  "displayName": "Paket",
+  "aliases": [
+    "Paket SpA",
+    "Paket Chile",
+    "Paket Envios",
+    "Paketex"
+  ],
+  "region": {
+    "countries": [
+      "CL"
+    ]
+  },
+  "brand": {
+    "color": "#614de2"
+  },
+  "selectable": true,
+  "timezone": "America/Santiago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.paket.cl/?id={trackingNumber}",
+    "searchUrl": "https://track.paket.cl/",
+    "canaryUrl": "https://track.paket.cl/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.paket.cl"
+      ],
+      "pathPattern": "^/?$",
+      "query": "(?:^|&)id=(?:[^&]*\\.)?(\\d{4,12})(?=&|$)"
+    }
+  ],
+  "detection": []
+}

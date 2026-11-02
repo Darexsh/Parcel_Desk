@@ -1,0 +1,108 @@
+{
+  "id": "gta-airskip",
+  "displayName": "GTA AirSkip",
+  "aliases": [
+    "GTA GSM",
+    "GTAGSM"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#1081c4"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gta-airskip",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 762
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "service_name",
+    "weight",
+    "eta"
+  ],
+  "portal": {
+    "url": "https://gtaairskip.com/tracking/?trackingid={trackingNumber}",
+    "searchUrl": "https://gtaairskip.com/tracking/",
+    "canaryUrl": "https://gtaairskip.com/tracking/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "service_name",
+      "weight",
+      "eta",
+      "delivered_at",
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "parcel_count",
+      "customer_reference",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "service_name",
+      "weight",
+      "eta",
+      "failed_delivery_reason"
+    ],
+    "discarded": [
+      "progress_rail",
+      "delivered_at",
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "parcel_count",
+      "customer_reference",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "gtaairskip.com",
+        "www.gtaairskip.com",
+        "gtagsm.com",
+        "www.gtagsm.com"
+      ],
+      "pathPattern": "^/(?:[a-z]{2}(?:-[a-zA-Z]{2})?/)?tracking/?$",
+      "params": [
+        "trackingid",
+        "tracking"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "gta-airskip-1",
+      "pattern": "^GR[GS]\\d{5}[0-9A-Z]{11}$",
+      "confidence": "low"
+    }
+  ]
+}

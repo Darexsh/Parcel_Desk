@@ -1,0 +1,24 @@
+{
+  "carrier": "hrvatska-posta",
+  "entries": [
+    {"wording": "Item announced", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The sender entered the item's data; the Croatian page reads \"Pošiljatelj je unio podatke, pošiljka još nije predana Hrvatskoj pošti\", not yet handed to Hrvatska pošta."},
+    {"wording": "Item received", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Accepted at the office the scan names. A facility abroad receiving an item that already moved on uses the same wording; the adapter reads that one as in transit."},
+    {"wording": "Item received at exchange office", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "An outbound item at the office of exchange; the Croatian page words it as being prepared for dispatch."},
+    {"wording": "Item sent", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Dispatched from the office of exchange."},
+    {"wording": "Item sent abroad", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-30", "note": "Dispatched from the office of exchange, at the office the scan names."},
+    {"wording": "Item sent from exchange office", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-30", "note": "Relayed from the post abroad, without an office: its office of exchange sending the item on, minutes after receiving it."},
+    {"wording": "Item held at Post Office", "stage": "in_transit", "language": "en", "confirmedBy": "live", "firstSeen": "2026-10-30", "note": "Relayed from the post abroad, without an office: seen the day before the item went out for delivery, so the delivering office holding it, not a pickup point; a pickup is the wording that names one."},
+    {"wording": "Item received in destination country", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Relayed from the post abroad; seen in an archived capture of the tracker."},
+    {"wording": "Item sent to Customs", "stage": "customs", "language": "en", "confirmedBy": "live", "note": "Relayed from the post abroad: the item presented to the destination's customs."},
+    {"wording": "Item returned from Customs", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Relayed from the post abroad: customs handed the item back to the post, which goes on with it."},
+    {"wording": "Delivery was redirected to the parcelstation", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Sent on to a parcel locker instead of the address."},
+    {"wording": "Item is out for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"wording": "Delivery attempt", "stage": "failed_attempt", "language": "en", "confirmedBy": "live"},
+    {"wording": "Item not delivered", "stage": "failed_attempt", "language": "en", "confirmedBy": "live", "note": "Seen when an item nobody collected leaves the post office, just before it goes back to its sender."},
+    {"wording": "Item can be picked up at the Post Office", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "live", "note": "The office becomes the pickup point. Repeated while the item waits there."},
+    {"wording": "The shipment has been handed over to the parcelstation", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "live", "note": "Left in a parcel locker, which becomes the pickup point."},
+    {"wording": "Item delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The Croatian page has two wordings for it, delivered and delivered to the recipient. Once the item is on its way back, the adapter reads a delivery as returned."},
+    {"wording": "Item delivered to sender", "stage": "returned", "language": "en", "confirmedBy": "live"},
+    {"wording": "Item returned to sender", "stage": "returned", "language": "en", "confirmedBy": "live", "note": "On its way back to the sender; the Croatian page reads \"Pošiljka se vraća pošiljatelju\"."}
+  ]
+}

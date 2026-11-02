@@ -1,0 +1,49 @@
+{
+  "carrier": "bringer-parcel",
+  "records": [
+    {
+      "number": "BPSLVW9WN9LCFCR",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://web.archive.org/web/20230604174812/https://bringerparcel.com/docs/",
+        "date": "2023-06-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bringer-parcel"
+        ]
+      },
+      "note": "Bringer Parcel Service's own API documentation gives it as the example parcel tracking number of its tracking request."
+    },
+    {
+      "number": "BPSY6DDXTUESVPMX",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://bps.bringer.io/client-docs-json",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "bringer-parcel"
+        ]
+      },
+      "note": "The BPX client API documentation, linked from bringerparcel.com, shows it as the tracking number of a parcel label in its response example. BPX's tracker knows it as a parcel with only its label scans."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "carrier": "bring-posten",
+  "entries": [
+    {
+      "code": "PRE_NOTIFIED",
+      "wording": "PRE_NOTIFIED",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "HANDED_IN",
+      "wording": "HANDED_IN",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "IN_TRANSIT",
+      "wording": "IN_TRANSIT",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "DELIVERED",
+      "wording": "DELIVERED",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "COLLECTED",
+      "wording": "COLLECTED",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "TERMINAL",
+      "wording": "TERMINAL",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "INTERNATIONAL",
+      "wording": "INTERNATIONAL",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "CUSTOMS",
+      "wording": "CUSTOMS",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "TRANSPORT_TO_RECIPIENT",
+      "wording": "TRANSPORT_TO_RECIPIENT",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "READY_FOR_PICKUP",
+      "wording": "READY_FOR_PICKUP",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "RETURN",
+      "wording": "RETURN",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "note": "Return transport; the return leg starts here."
+    },
+    {
+      "code": "DELIVERED_SENDER",
+      "wording": "DELIVERED_SENDER",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "live"
+    },
+    {
+      "code": "DEVIATION",
+      "wording": "DEVIATION",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "note": "Cause code 28: handed in after the deadline and sent the next working day."
+    },
+    {
+      "code": "DEVIATION",
+      "wording": "DEVIATION",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "note": "Cause code 41: delayed and forwarded with the first possible dispatch."
+    },
+    {
+      "code": "DELIVERY_CHANGED",
+      "wording": "DELIVERY_CHANGED",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "A delivery change or added delivery details, which moves nothing."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "polonez",
+  "displayName": "Polonez",
+  "aliases": [
+    "Polonez Express",
+    "Polonez Parcel Service",
+    "Polonez America",
+    "Polonez America LLC"
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "PL"
+    ]
+  },
+  "brand": {
+    "color": "#e41d36"
+  },
+  "selectable": true,
+  "timezone": "America/New_York",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking-iframe.meest.com/t/en/{trackingNumber}",
+    "searchUrl": "https://polonez.express/us-en/parcel-track",
+    "canaryUrl": "https://polonez.express/us-en/parcel-track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "polonez-1",
+      "pattern": "^[A-Z]{3}\\d{3}[A-Z]{2}\\d{6}$",
+      "confidence": "high"
+    }
+  ]
+}

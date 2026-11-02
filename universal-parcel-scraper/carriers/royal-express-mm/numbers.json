@@ -1,0 +1,62 @@
+{
+  "carrier": "royal-express-mm",
+  "records": [
+    {
+      "number": "YGN17538570431MDY",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://royalx.net/tracking",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The placeholder of the waybill field on Royal Express's own tracking page. The tracker does not know it."
+    },
+    {
+      "number": "YGN9125345TKI/AAF362660",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://royalx.net/",
+        "date": "2026-10-18",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The placeholder of the waybill field on Royal Express's home page, a branch waybill and a member waybill joined by a slash. The tracker does not know it."
+    },
+    {
+      "number": "YGN28058401101MDY",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://royalx.net/user-guide/member-app",
+        "date": "2026-10-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The waybill on the tracking result in the screenshots of Royal Express's member app guide. The tracker no longer knows it."
+    }
+  ]
+}

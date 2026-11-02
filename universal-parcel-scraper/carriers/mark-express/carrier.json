@@ -1,0 +1,47 @@
+{
+  "id": "mark-express",
+  "displayName": "Mark Express",
+  "aliases": [
+    "Mark Express Pvt. Ltd.",
+    "Mark Express Private Limited",
+    "markexpress",
+    "Mark Express Courier and Cargo"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#2f2e65"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://crm.markerp.in/Frm_DocTrackWeb.aspx?docno={trackingNumber}",
+    "searchUrl": "https://markexpress.co.in/",
+    "canaryUrl": "https://markexpress.co.in/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "crm.markerp.in"
+      ],
+      "pathPattern": "^/Frm_DocTrackWeb\\.aspx$",
+      "params": [
+        "docno"
+      ]
+    }
+  ],
+  "detection": []
+}

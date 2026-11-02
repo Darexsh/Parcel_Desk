@@ -1,0 +1,18 @@
+{
+  "carrier": "kargoist",
+  "entries": [
+    {"wording": "Paket Kabulü Yapıldı", "stage": "accepted", "language": "tr", "confirmedBy": "portal", "note": "Parcel accepted at the branch."},
+    {"wording": "Transfer Aracına Yüklendi", "stage": "in_transit", "language": "tr", "confirmedBy": "portal", "note": "Loaded on the transfer vehicle."},
+    {"wording": "Varış Şubesi Karşıladı", "stage": "in_transit", "language": "tr", "confirmedBy": "portal", "note": "Received by the destination branch."},
+    {"wording": "Dağıtıma Çıkarıldı", "stage": "out_for_delivery", "language": "tr", "confirmedBy": "portal"},
+    {"wording": "Alıcıya Sms Gönderildi", "language": "tr", "confirmedBy": "portal", "note": "SMS sent to the recipient; a notification, not a movement."},
+    {"wording": "Teslim Edildi", "stage": "delivered", "language": "tr", "confirmedBy": "portal"},
+    {"wording": "Kabul Edildi", "stage": "accepted", "language": "tr", "confirmedBy": "portal", "note": "Step of the tracker's progress rail."},
+    {"wording": "Yolda", "stage": "in_transit", "language": "tr", "confirmedBy": "portal", "note": "Step of the tracker's progress rail."},
+    {"wording": "Dağıtım Şubesinde", "stage": "in_transit", "language": "tr", "confirmedBy": "portal", "note": "Step of the tracker's progress rail; at the delivery branch."},
+    {"wording": "Dağıtıma Çıktı", "stage": "out_for_delivery", "language": "tr", "confirmedBy": "portal", "note": "Step of the tracker's progress rail."},
+    {"wording": "kargo alındı", "stage": "accepted", "language": "tr", "confirmedBy": "source", "note": "Quoted in a Şikayetvar complaint as the tracking state."},
+    {"wording": "alıcı kargoyu kabul etmedi", "stage": "failed_attempt", "language": "tr", "confirmedBy": "source", "note": "Quoted in a Şikayetvar complaint as a tracking note; the recipient refused the parcel."},
+    {"wording": "alıcı kabul etmedi – iade", "stage": "returned", "language": "tr", "confirmedBy": "source", "note": "Quoted in a Şikayetvar complaint as a tracking note; refused by the recipient and sent back."}
+  ]
+}

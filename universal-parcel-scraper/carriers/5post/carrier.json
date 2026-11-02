@@ -1,0 +1,84 @@
+{
+  "id": "5post",
+  "displayName": "5Post",
+  "aliases": [
+    "5Пост",
+    "5 Post",
+    "FivePost"
+  ],
+  "region": {
+    "countries": [
+      "RU"
+    ]
+  },
+  "brand": {
+    "color": "#64b441"
+  },
+  "selectable": true,
+  "timezone": "Europe/Moscow",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "5post",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "pickup_point"
+  ],
+  "portal": {
+    "url": "https://fivepost.ru/tracking?id={trackingNumber}",
+    "searchUrl": "https://fivepost.ru/",
+    "canaryUrl": "https://fivepost.ru/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "pickup_point",
+      "pickup_deadline",
+      "eta",
+      "sender_name",
+      "payment_details",
+      "office_opening_hours",
+      "parcel_count"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "pickup_point",
+      "delivered_at"
+    ],
+    "discarded": [
+      "pickup_deadline",
+      "sender_name",
+      "payment_details",
+      "office_opening_hours",
+      "parcel_count"
+    ],
+    "unavailable": [
+      "recipient_name",
+      "weight",
+      "dimensions",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "fivepost.ru",
+        "www.fivepost.ru"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": []
+}

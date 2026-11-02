@@ -1,0 +1,71 @@
+{
+  "id": "singapore-post",
+  "displayName": "Singapore Post",
+  "aliases": [],
+  "region": {
+    "countries": [
+      "SG"
+    ]
+  },
+  "brand": {
+    "color": "#2e5da8"
+  },
+  "selectable": true,
+  "timezone": "UTC",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "singapore-post",
+    "steps": [
+      "direct"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.singpost.com/track-items?tracknumber={trackingNumber}",
+    "searchUrl": "https://www.singpost.com/track-items",
+    "canaryUrl": "https://www.singpost.com/track-items",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at"
+    ],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.singpost.com"
+      ],
+      "params": [
+        "tracknumber",
+        "trackingid"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "singapore-post-1",
+      "pattern": "^[A-Z]{2}\\d{9}SG$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "singapore-post-2",
+      "pattern": "^CNSGS\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

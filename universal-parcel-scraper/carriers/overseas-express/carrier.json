@@ -1,0 +1,66 @@
+{
+  "id": "overseas-express",
+  "displayName": "Overseas Express",
+  "aliases": [
+    "Overseas",
+    "OEX",
+    "Overseas Express d.o.o."
+  ],
+  "region": {
+    "countries": [
+      "HR"
+    ]
+  },
+  "brand": {
+    "color": "#f58220"
+  },
+  "selectable": true,
+  "timezone": "Europe/Zagreb",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.overseas.hr/hr",
+    "canaryUrl": "https://www.overseas.hr/hr",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "inet.overseas.hr"
+      ],
+      "pathPattern": "^/auth/?$",
+      "params": [
+        "trackingid"
+      ]
+    },
+    {
+      "domains": [
+        "is.overseas.hr"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "trackingid"
+      ]
+    },
+    {
+      "domains": [
+        "is.overseas.hr"
+      ],
+      "path": "^/track-and-trace/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "overseas.hr"
+      ],
+      "path": "^/Tracking/Package/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

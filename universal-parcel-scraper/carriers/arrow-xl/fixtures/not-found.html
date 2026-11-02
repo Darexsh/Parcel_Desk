@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AskAxl </title>
+    <link href="/styles/images/axl-favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="/styles/tracking/tracking-tracking.css" rel="stylesheet"/>
+    <script src="/scripts/jquery.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <a href="https://www.arrowxl.co.uk" class="arrow-logo">
+                <img src="/Styles/Images/logo.png" class="arrow-logo-image" />
+            </a>
+        </div>
+    </div>
+    <div class="secondary-navigation">
+        <div class="secondary-navigation-inner">
+            <ul class="tracking-secondary-navigation">
+                <li class="tracking-secondary-list tracking-secondary-first">
+                    <p><a class="tracking-secondary-item-selected" href="">Delivery & Collection</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-inner">
+<link href="/Styles/Tracking/tracking-error-pages.css" rel="stylesheet" />
+<div class="row" style="margin-top:15px;">
+    <div class="col-md-5">
+        <div class="widget-aside widget-tracking-box-widget widget">
+            <div class="purple-aside">
+                <div class="purple-aside-main">
+                    <div class="tracking">
+                        <p>Expecting a delivery? Find out where your parcel is:</p>
+<form action="/tracking" method="get"><label for="upi">Tracking Number</label><input class="tracking-input" id="upi" name="upi" type="text" value="8ZZZ00000000A" /><label for="postcode">Delivery Postcode</label><input class="tracking-input" id="postcode" name="postcode" type="text" value="ZZ1 1ZZ" />                            <button class="tracking-submit black" type="submit">SUBMIT</button>
+<div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div></form>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <div class="row error-container">
+            <div class="col-md-12">
+                    <h1 class="error-title"><span class="font-heavy orange">Invalid </span><span class="font-heavy black">UPI number</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="error-info-box">
+                        <div class="alert alert-info" role="alert">
+                            <p>
+                                You have specified an <strong>invalid Tracking Number</strong> or <strong>Postcode</strong>. Please check the Tracking Number and Postcode, and try again. Your Tracking Number should be 13 characters long and have a format similar to: <strong>8ABC00001234A</strong>
+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-inner">
+            <h4>Arrow XL</h4>
+        </div>
+    </div>
+<script>
+window.dataLayer = window.dataLayer || [];
+</script>
+</body>
+</html>

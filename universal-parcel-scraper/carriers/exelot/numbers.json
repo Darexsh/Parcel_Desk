@@ -1,0 +1,43 @@
+{
+  "carrier": "exelot",
+  "records": [
+    {
+      "number": "XLT995382680",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260828155935/https://apiv2p.exelot.com/api/v2/parcels/tracking/XLT995382680?lang=en&showOrder=true",
+        "date": "2026-08-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "exelot",
+        "confidence": "high"
+      },
+      "note": "An opened capture of Exelot's own tracking API, fetched by its public tracker page, shows this parcel's history from data received to arrival at the London preflight warehouse."
+    },
+    {
+      "number": "XLT989537458",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.exelot.com/",
+        "date": "2026-10-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "exelot",
+        "confidence": "high"
+      },
+      "note": "A script comment on Exelot's home page uses it as the example in its myparcel and public tracker addresses; archived lookups of those addresses answered 404, so no history is visible."
+    }
+  ]
+}

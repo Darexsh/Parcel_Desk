@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://example.netsuite.test/core/media/media.nl?id=1&c=1&h=SYNTHETIC&_xt=.css"> <!--Token-->
+    <title>Tracking Page</title>
+  </head>
+  <body>
+    <!--Header-->
+    <div id="header" name="header">
+      <div class="wrapper">
+        <img src="https://example.netsuite.test/core/media/media.nl?id=2&c=1&h=SYNTHETIC" width="100" height="50"/> <!--Token-->
+      </div>
+    </div>
+
+    <!--Content-->
+    <div class="wrapper">
+      <!--Title-->
+      <h1 class="title">Delivery Status</h1>
+
+      <!--Delivery information-->
+      <div id="top-container">
+        <div id="info-table" name="info-table">
+          <div>
+            <span class="info-label"> Track Number: </span>
+            <span class="info-data"> 30000025 <!--Token--></span>
+            <br />
+            <span class="info-label"> BOL Number: </span>
+            <span class="info-data"> 30000999 <!--Token--></span>
+            <br />
+            <span class="info-label"> Date Received: </span>
+            <span class="info-data"> 2-Mar-2026 <!--Token--> </span>
+            <br />
+            <span class="info-label"> Current Status: </span>
+            <span class="info-data"> Order Received Pending Pickup <!--Token--> </span>
+            <br />
+            <span class="info-label"> Last Mile Status: </span>
+            <span class="info-data">  <!--Token--> </span>
+            <br />
+            <span class="info-label"> Delivery Order Address: </span>
+            <span class="info-data"> Sample Hills, Georgia 30999 <!--Token--> </span>
+          </div>
+        </div>
+
+        <div frame="box" id="info-delivery" name="info-delivery">
+          <span class="info-label"> Delivery estimate: </span>
+          <span class="info-data">  <!--Token--></span>
+          <p id="delivery-msg">
+            *The estimated delivery date is not a guarantee. We will always call you at least one day before the actual delivery
+            date to schedule your delivery. If you do not receive a call by the Estimated Due Date, please email us at
+            help@example.com or call our customer service at (555) 010-0000.
+          </p>
+          <p id="delivery-msg" style="padding: 6px; border: 1px solid #c0212d;">
+            *After your order is "In-transit," no progress will be displayed in the tracking details, until it has arrived at the local delivery terminal.
+          </p>
+        </div>
+      </div>
+
+      <!--Products List-->
+      <h2 class="subtitle">Products List</h2>
+      <div class="tableFixHead products-table-wrapper">
+        <table id="Products" class="tracking-page-table products-table">
+          <colgroup>
+            <col style="width: 7%" />
+            <col style="width: 30%" />
+            <col style="width: 63%" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>Qty</th>
+              <th>Model</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+
+        <tr>
+            <td>1</td>
+            <td>SAMPLE-WASHER-03</td>
+            <td>Sample Washing Machine White</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>LIFT</td>
+            <td>LIFTGATE</td>
+        </tr> <!--Token-->
+          </tbody>
+        </table>
+      </div>
+
+      <!--Timeline-->
+      <section class="timeline-container" id="timeline-container">
+        <ul class="timeline" id="timeline">
+          <li class="actual">
+                <div class="step"></div>
+                <div class="stamp">
+                    <span class="event">Electronic Order Received </span>
+                    <span class="date"></span>
+                </div>
+            </li><li>
+                <div class="step"></div>
+                <div class="stamp">
+                    <span class="event">Picked Up </span>
+                    <span class="date"></span>
+                </div>
+            </li><li>
+                <div class="step"></div>
+                <div class="stamp">
+                    <span class="event">In Transit </span>
+                    <span class="date"></span>
+                </div>
+            </li><li>
+                <div class="step"></div>
+                <div class="stamp">
+                    <span class="event">Received In Delivery Terminal </span>
+                    <span class="date"></span>
+                </div>
+            </li><li>
+                <div class="step"></div>
+                <div class="stamp">
+                    <span class="event">Scheduled </span>
+                    <span class="date"></span>
+                </div>
+            </li><li>
+                <div class="step"></div>
+                <div class="stamp">
+                    <span class="event">Out For Delivery </span>
+                    <span class="date"></span>
+                </div>
+            </li><li>
+                <div class="step"></div>
+                <div class="stamp">
+                    <span class="event">Completed </span>
+                    <span class="date"></span>
+                </div>
+            </li> <!--Token-->
+        </ul>
+      </section>
+
+      <!--Tracking Details-->
+      <h2 class="subtitle">Tracking Details</h2>
+      <div class="tableFixHead tracking-details-table-wrapper">
+        <table id="TrackingDetails" class="tracking-page-table tracking-details-table">
+          <colgroup>
+            <col style="width: 12%" />
+            <col style="width: 10%" />
+            <col style="width: 28%" />
+            <col style="width: 50%" />
+          </colgroup>
+
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Location</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+             <!--Token-->
+          </tbody>
+        </table>
+      </div>
+
+      <!--Questions Section-->
+      <section class="question-container">
+        <h2 class="subtitle">Do you have any questions or issues?</h2>
+        <form action="" method="post">
+          <label for="issue-type" class="question-form-label">Select Type Of Issue</label>
+          <select name="issue-type" id="issue-type">
+            <option value="13">Choose Option</option><option value="1">Delivery Exception (Missing Items)</option><option value="4">Missed Delivery</option><option value="5">Change of Address</option><option value="11">Estimated Time of Arrival (ETA)</option> <!--Token-->
+          </select>
+          <label for="issue-comments" class="question-form-label">Describe your issue in detail</label>
+          <textarea name="issue-comments" id="issue-comments" class="issue-comments" cols="50" rows="5" placeholder="Describe your issue in detail"></textarea>
+          <label for="email" class="question-form-label">Enter your email:</label>
+          <input type="email" id="issue-email" name="email" class="issue-comments" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        </form>
+
+        <input type="submit" value="Submit" id="btn-submit-issue" />
+      </section>
+    </div>
+
+    <!--Footer-->
+    <div id="footer"></div>
+
+    <script type='text/javascript' src="https://example.netsuite.test/core/media/media.nl?id=3&c=1&h=SYNTHETIC&_xt=.js"></script> <!--Token-->
+  </body>
+</html>

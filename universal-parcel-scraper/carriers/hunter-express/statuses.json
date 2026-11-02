@@ -1,0 +1,11 @@
+{
+  "carrier": "hunter-express",
+  "entries": [
+    {"wording": "Pickup Completed", "stage": "accepted", "language": "en", "confirmedBy": "portal"},
+    {"wording": "Depot In", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Arrival scan at a Hunter Express depot."},
+    {"wording": "Held For Processing", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Kept at the depot after its arrival scan; the parcel went out for delivery on the next day."},
+    {"wording": "On Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal"},
+    {"wording": "OnDelivery, Left Depot", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Current-status summary above the history, followed by the scan time."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal"}
+  ]
+}

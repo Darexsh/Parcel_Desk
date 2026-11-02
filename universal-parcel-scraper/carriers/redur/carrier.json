@@ -1,0 +1,78 @@
+{
+  "id": "redur",
+  "displayName": "Redur",
+  "aliases": [
+    "Redur Spain",
+    "Redur Portugal",
+    "Redur S.A."
+  ],
+  "region": {
+    "countries": [
+      "ES",
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#0c4c49"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "redur",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 886
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://redur.es/track-trace/?idioma=es&buscarpor=NTRACKING&valor={trackingNumber}",
+    "searchUrl": "https://redur.es/track-trace/",
+    "canaryUrl": "https://redur.es/track-trace/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "progress_rail",
+      "parcel_count"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "progress_rail"
+    ],
+    "discarded": [
+      "parcel_count"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "redur.es",
+        "www.redur.es"
+      ],
+      "pathPattern": "^/(?:(?:en|pt-pt)/)?track-trace/?$",
+      "params": [
+        "valor"
+      ]
+    }
+  ],
+  "detection": []
+}

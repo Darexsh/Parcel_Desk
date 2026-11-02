@@ -1,0 +1,108 @@
+{
+  "id": "uzbekistan-post",
+  "displayName": "Uzbekistan Post",
+  "aliases": [
+    "O‘zbekiston pochtasi",
+    "O'zbekiston pochtasi",
+    "UzPost",
+    "Uzbekiston Pochtasi"
+  ],
+  "region": {
+    "countries": [
+      "UZ"
+    ]
+  },
+  "brand": {
+    "color": "#183e98"
+  },
+  "selectable": true,
+  "timezone": "Asia/Tashkent",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "uzbekistan-post",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 906
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "offset_timestamps",
+    "delivered_at",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://uz.post/ru/tracking/{trackingNumber}",
+    "searchUrl": "https://uz.post/ru/tracking",
+    "canaryUrl": "https://uz.post/ru/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin_country",
+      "destination_country",
+      "sender_address",
+      "recipient_address",
+      "postcodes",
+      "event_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "offset_timestamps",
+      "delivered_at",
+      "destination_country",
+      "event_details"
+    ],
+    "discarded": [
+      "origin_country",
+      "sender_address",
+      "recipient_address",
+      "postcodes"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "recipient_name",
+      "sender_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "uz.post",
+        "www.uz.post"
+      ],
+      "path": "^/(?:(?:ru|uz)/)?tracking/([A-Za-z]{2}\\d{9}[A-Za-z]{2})/?$"
+    },
+    {
+      "domains": [
+        "uz.post",
+        "www.uz.post"
+      ],
+      "pathPattern": "^/(?:(?:ru|uz)/)?tracking/?$",
+      "params": [
+        "search"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "uzbekistan-post-s10",
+      "pattern": "^[A-Z]{2}\\d{9}UZ$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

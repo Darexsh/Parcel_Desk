@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+<meta charset="UTF-8"/>
+<title>Отслеживание груза | ТК КИТ</title>
+<meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==">
+</head>
+<body>
+<h1 class='title-h1'>Отслеживание груза</h1>
+<form id="trackload-form" action="/site/trackload_validate" method="post"><input type="hidden" name="_csrf" value="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="><label class="label" for="trackloadform-track_code">Номер заказа</label><input type="text" id="trackloadform-track_code" name="TrackLoadForm[track_code]" value=""></form>
+<form id="post-feedback-form"><script src='https://smartcaptcha.yandexcloud.net/captcha.js?render=onload&onload=onloadFunction'></script><div id=yaCaptchaPostFeedbackForm></div></form>
+<script src="/js/tracking/tracking.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "id": "rhenus-it",
+  "displayName": "Rhenus Italia",
+  "aliases": [
+    "Rhenus Italy",
+    "Rhenus Logistics S.p.A."
+  ],
+  "region": {
+    "countries": [
+      "IT"
+    ]
+  },
+  "brand": {
+    "color": "#00499a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Rome",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://tracking.rhenusitalia.it/rhenus/tracking.jsf?s={trackingNumber}",
+    "searchUrl": "https://tracking.rhenusitalia.it/rhenus/track.jsf",
+    "canaryUrl": "https://www.rhenus.group/it/it/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.rhenusitalia.it"
+      ],
+      "pathPattern": "^/rhenus/tracking\\.jsf$",
+      "params": [
+        "s"
+      ]
+    }
+  ],
+  "detection": []
+}

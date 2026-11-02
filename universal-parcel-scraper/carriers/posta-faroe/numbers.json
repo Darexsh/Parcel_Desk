@@ -1,0 +1,145 @@
+{
+  "carrier": "posta-faroe",
+  "records": [
+    {
+      "number": "CY866668327NL",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20221213213429/https://odin.posta.fo/api/TrackTrace?trackTraceCode=CY866668327NL&languageCode=fo",
+        "date": "2022-12-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "spring-gds",
+        "confidence": "high"
+      },
+      "note": "An archived reply of Posta's own tracking API shows this parcel from the Netherlands passing customs in Tórshavn and reaching its delivery office."
+    },
+    {
+      "number": "RB183264601HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20110531011955/http://leita.posta.fo:80/RB183264601HK",
+        "date": "2011-05-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Posta's former tracker shows this Hong Kong item arriving in the Faroe Islands, clearing customs and being delivered in Sandur."
+    },
+    {
+      "number": "RT097041473HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20110530235752/http://leita.posta.fo:80/RT097041473HK",
+        "date": "2011-05-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Posta's former tracker shows this Hong Kong item clearing customs in Tórshavn and being delivered in Tvøroyri."
+    },
+    {
+      "number": "RB259090046HK",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20110531012000/http://leita.posta.fo:80/RB259090046HK",
+        "date": "2011-05-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "hongkong-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Posta's former tracker shows this Hong Kong item arriving in the Faroe Islands, going through customs and being delivered in Tórshavn."
+    },
+    {
+      "number": "RA143195240CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20110531011950/http://leita.posta.fo:80/RA143195240CN",
+        "date": "2011-05-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Posta's former tracker shows this item from China arriving in the Faroe Islands and going to customs in Tórshavn."
+    },
+    {
+      "number": "RR497217896SE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20140330063735/http://leita.posta.fo:80/RR497217896SE.xml",
+        "date": "2014-03-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "postnord",
+        "confidence": "high"
+      },
+      "note": "The XML view of Posta's former tracker, archived, shows this Swedish registered item clearing customs in Tórshavn and a failed delivery attempt in Saltangará."
+    },
+    {
+      "number": "CF421540510CH",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170508014637/http://www.posta.fo:80/search?cc=CF421540510CH",
+        "date": "2017-05-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "inbound international"
+      },
+      "expect": {
+        "carrier": "swiss-post",
+        "confidence": "high"
+      },
+      "note": "Looked up through the search address of Posta's former site, as an archived capture shows; the capture holds only the page, not the history."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "carrier": "shree-mahabali-express",
+  "records": [
+    {
+      "number": "1073563026",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220521123709/http://www.shreemahabaliexpress.com/Frm_DocTrack.aspx?No=1073563026&Tmp=1653135671938",
+        "date": "2022-05-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "box-now",
+          "cargus",
+          "dhl-ecommerce-es",
+          "gls-es"
+        ]
+      },
+      "note": "An archived lookup on Mahabali's own tracker shows this AWB number with the status booked on 21 May 2022."
+    }
+  ]
+}

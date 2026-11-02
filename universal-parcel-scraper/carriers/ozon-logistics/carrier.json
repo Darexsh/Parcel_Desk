@@ -1,0 +1,99 @@
+{
+  "id": "ozon-logistics",
+  "displayName": "Ozon",
+  "aliases": [
+    "Ozon Rocket",
+    "OZON Rocket Доставка",
+    "Ozon Доставка",
+    "Ozon Dostavka"
+  ],
+  "region": {
+    "countries": [
+      "RU",
+      "BY",
+      "KZ"
+    ]
+  },
+  "brand": {
+    "color": "#005bff"
+  },
+  "selectable": true,
+  "timezone": "Europe/Moscow",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ozon-logistics",
+    "steps": [
+      "direct",
+      "trawl"
+    ],
+    "browser": true,
+    "recognition": {
+      "rank": 37,
+      "pattern": "^(?:\\d{13}|\\d{15})$"
+    },
+    "browserRecognition": {
+      "rank": 37
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "expected_delivery"
+  ],
+  "portal": {
+    "url": "https://tracking.ozon.ru/?track={trackingNumber}",
+    "searchUrl": "https://tracking.ozon.ru/",
+    "canaryUrl": "https://tracking.ozon.ru/",
+    "shows": [
+      "status",
+      "history",
+      "eta"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta"
+    ],
+    "discarded": [],
+    "unavailable": [
+      "location",
+      "weight",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.ozon.ru"
+      ],
+      "pathPattern": "^/?$",
+      "params": [
+        "track"
+      ]
+    },
+    {
+      "domains": [
+        "rocket.ozon.ru"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "SearchId"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "ozon-logistics-1",
+      "pattern": "^(?:\\d{13}|\\d{15})$",
+      "rawPattern": "^(?:\\d{8}|\\d{10})-\\d{4}-\\d$",
+      "confidence": "high"
+    },
+    {
+      "id": "ozon-logistics-2",
+      "pattern": "^PL\\d{6}[0-9A-Z]+$",
+      "rawPattern": "^PL-\\d{6}-[0-9A-Z]+(?:-[0-9A-Z]+)*$",
+      "confidence": "high"
+    }
+  ]
+}

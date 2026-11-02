@@ -1,0 +1,53 @@
+{
+  "id": "peddler",
+  "displayName": "Peddler",
+  "aliases": [
+    "Peddler Express",
+    "Peddler B.V."
+  ],
+  "region": {
+    "countries": [
+      "NL"
+    ]
+  },
+  "brand": {
+    "color": "#34205A"
+  },
+  "selectable": true,
+  "timezone": "Europe/Amsterdam",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://track.pdlr.nl/trackntrace/{trackingNumber}",
+    "searchUrl": "https://track.pdlr.nl/",
+    "canaryUrl": "https://track.pdlr.nl/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "track.pdlr.nl"
+      ],
+      "path": "^/trackntrace/([^/?#]+)/?$"
+    }
+  ],
+  "detection": [
+    {
+      "id": "peddler-1",
+      "pattern": "^P\\d{18}$",
+      "confidence": "high"
+    },
+    {
+      "id": "peddler-2",
+      "pattern": "^NLEXP\\d{10}INTPED$",
+      "confidence": "high"
+    }
+  ]
+}

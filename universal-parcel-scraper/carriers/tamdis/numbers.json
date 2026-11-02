@@ -1,0 +1,22 @@
+{
+  "carrier": "tamdis",
+  "records": [
+    {
+      "number": "D30054795100049714T4",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/reembolso-compensaci-C3-B3n/42e60ac1f35b78d729",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A public OCU complaint gives it as the Tamdis tracking reference. ParcelsApp names Tamdis for it."
+    }
+  ]
+}

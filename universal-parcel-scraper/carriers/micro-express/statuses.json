@@ -1,0 +1,13 @@
+{
+  "carrier": "micro-express",
+  "entries": [
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Headline of Micro Express's Track Item page when the newest event has the code DOWN."},
+    {"wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Headline of Micro Express's Track Item page for any other newest event."},
+    {"code": "INIT", "wording": "Order Creation, order submitted, pending to receive.", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The shipper submitted the order, a fraction of a second after the time the number carries; Micro Express does not have the parcel yet."},
+    {"code": "IN", "wording": "Item processed by local courier at sorting facility", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The first scan of the parcel itself, at the Melbourne sorting facility, also for parcels delivered in South Australia."},
+    {"code": "COLLECT", "wording": "Item has been received by local delivery depot", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At the depot that delivers the parcel, in Victoria or South Australia."},
+    {"code": "OUT", "wording": "Item onboard ready for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live", "note": "On board the courier's vehicle."},
+    {"code": "DOWN", "wording": "Delivered-Left at safe place", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Left at the address without a signature; the page shows Delivered."},
+    {"wording": "Delivered by STORE", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "bundle", "note": "The courier app's wording for a parcel left at a collection shop, followed in brackets by the shop's name, address and phone, which the adapter drops. The app records the shop's handover to the recipient under the code SELF-PICK."}
+  ]
+}

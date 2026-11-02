@@ -1,0 +1,566 @@
+{
+  "carrier": "sagawa",
+  "records": [
+    {
+      "number": "600078420325",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/nayutaya/packtrack/blob/468fc6077509770244cad27bd06aa893949f3231/tracker/sagawa/package/fixtures/list_count01.html",
+        "date": "2009-09-10"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Saved Sagawa tracking page in an open-source tracker's fixtures, showing the parcel delivered. The project found it by querying numbers built with the mod 7 check digit."
+    },
+    {
+      "number": "5017-7550-9605",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10324550450",
+        "date": "2026-01-22",
+        "dateKind": "forum_post",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Recipient quotes a Sagawa notice that gives this waybill number; not independently verified."
+    },
+    {
+      "number": "462827533895",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13301283073",
+        "date": "2024-07-18",
+        "dateKind": "forum_post",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Recipient gives the number of a Sagawa parcel and says the lookup shows it shipped; not independently verified."
+    },
+    {
+      "number": "517982200083",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10180360445",
+        "date": "2017-10-05",
+        "dateKind": "forum_post",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Hikyaku Takkyubin",
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Buyer quotes a seller's message naming Sagawa's Hikyaku Takkyubin; not independently verified."
+    },
+    {
+      "number": "514220409452",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1460303519",
+        "date": "2011-04-17",
+        "dateKind": "forum_post",
+        "access": "full_page"
+      },
+      "context": {
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "purolator",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "An answer pastes an Amazon shipping notice that names Sagawa; not independently verified."
+    },
+    {
+      "number": "470551104391",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/hina0118/paa/blob/420a3ead79c01f9a929c58a5defe7e2ef124fd8c/src-tauri/src/plugins/sagawa/parsers/delivery_complete.rs",
+        "date": "2026-03-06"
+      },
+      "context": {
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Mail-parser fixture of Sagawa's delivery-complete notice."
+    },
+    {
+      "number": "515596488142",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://github.com/hina0118/paa/blob/720d7738b854dbb736d6c8d8c5a122fbf79cc2ba/src-tauri/src/plugins/amiami/parsers/send.rs",
+        "date": "2026-03-09"
+      },
+      "context": {
+        "reportedRole": "reported_shipment",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Mail-parser fixture: a retailer's shipping notice names Sagawa and links its tracking site."
+    },
+    {
+      "number": "471234567890",
+      "role": "negative",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-10-08",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ],
+        "not": [
+          "japan-post",
+          "sagawa",
+          "yamato"
+        ]
+      },
+      "note": "Invented twelve digits whose last digit is not the remainder of the first eleven divided by seven, so Japan Post, Sagawa and Yamato stay out of the suggestions."
+    },
+    {
+      "number": "300000000005",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-08",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "Synthetic twelve-digit waybill in the form the official app accepts, with the mod 7 check digit. Shared numeric shapes do not select Sagawa."
+    },
+    {
+      "number": "365729365455",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260915010707/https://k2k.sagawa-exp.co.jp/p/web/okurijosearch.do?okurijoNo=365729365455",
+        "date": "2026-09-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "poste-italiane",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A Sagawa tracking link archived by the Wayback Machine. The capture is Sagawa's own tracker showing the parcel in transit to the delivery office."
+    },
+    {
+      "number": "368170593136",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260909062210/https://k2k.sagawa-exp.co.jp/p/web/okurijosearch.do?okurijoNo=368170593136",
+        "date": "2026-09-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A Sagawa tracking link archived by the Wayback Machine. The capture is Sagawa's own tracker showing the parcel delivered."
+    },
+    {
+      "number": "440891443742",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260106233839/https://k2k.sagawa-exp.co.jp/p/web/okurijosearch.do?okurijoNo=440891443742",
+        "date": "2026-01-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A Sagawa tracking link archived by the Wayback Machine. The capture is Sagawa's own tracker showing the parcel in transit to the delivery office, with a delivery date and time slot."
+    },
+    {
+      "number": "450526163485",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260928144402/https://k2k.sagawa-exp.co.jp/p/web/okurijosearch.do?okurijoNo=450526163485",
+        "date": "2026-09-28",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "fedex",
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A Sagawa tracking link archived by the Wayback Machine. The capture is Sagawa's own tracker showing the parcel in transit to the delivery office."
+    },
+    {
+      "number": "491908774206",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260101144300/https://k2k.sagawa-exp.co.jp/p/web/okurijosearch.do?okurijoNo=491908774206",
+        "date": "2026-01-01",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "sf-express",
+          "gls-ch",
+          "mondial-relay",
+          "gls-fr",
+          "colis-prive",
+          "gls-de",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "gls-at",
+          "gls-pl",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A Sagawa tracking link archived by the Wayback Machine. The capture is Sagawa's own tracker showing the parcel delivered."
+    },
+    {
+      "number": "492207594082",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260912034213/https://k2k.sagawa-exp.co.jp/p/web/okurijosearch.do?okurijoNo=492207594082",
+        "date": "2026-09-12",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A Sagawa tracking link archived by the Wayback Machine. The capture is Sagawa's own tracker showing the parcel in transit to the delivery office, with a delivery date."
+    },
+    {
+      "number": "501917852354",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260527040006/https://k2k.sagawa-exp.co.jp/p/web/okurijosearch.do?okurijoNo=501917852354",
+        "date": "2026-05-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "japan-post",
+          "sf-express",
+          "sto",
+          "zto",
+          "yamato",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sagawa",
+          "sending"
+        ]
+      },
+      "note": "A Sagawa tracking link archived by the Wayback Machine. The capture is Sagawa's own tracker showing the parcel out for delivery."
+    }
+  ]
+}

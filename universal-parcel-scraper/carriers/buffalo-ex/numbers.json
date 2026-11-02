@@ -1,0 +1,122 @@
+{
+  "carrier": "buffalo-ex",
+  "records": [
+    {
+      "number": "BUFZA6033854919YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240402075215/https://www.buffaloex.com/track.html?order=BUFZA6033854919YQ",
+        "date": "2024-04-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "buffalo-ex",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on BUFFALO's own tracker shows this number from order confirmation in China through South African customs, the Johannesburg and Pretoria depots and hand-over to a local courier."
+    },
+    {
+      "number": "BUFZA6051394216YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240521094237/https://www.buffaloex.com/track.html?order=BUFZA6051394216YQ",
+        "date": "2024-05-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "buffalo-ex",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on BUFFALO's own tracker shows this number from order confirmation in China through customs clearance and the airport and Johannesburg depots to a driver collecting it for delivery."
+    },
+    {
+      "number": "BUFZA6031146119YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240327101526/https://www.buffaloex.com/track.html?order=BUFZA6031146119YQ",
+        "date": "2024-03-27",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "buffalo-ex",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on BUFFALO's own tracker shows this number from order confirmation in China through arrival at South African customs, tax payment and clearance."
+    },
+    {
+      "number": "890070087395447",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20171215225850/http://www.buffaloex.com:80/express/record/890070087395447?language=en",
+        "date": "2017-12-15",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "brt",
+          "yunda"
+        ]
+      },
+      "note": "An archived lookup on BUFFALO's former tracker shows this fifteen-digit number from order confirmation at its South China warehouse through air shipping and South African tax payment to receipt in Cape Town."
+    },
+    {
+      "number": "BUFZA2050017526YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20230406103024/https://www.buffaloex.com/express/record?order=BUFZA2050017526YQ",
+        "date": "2023-04-06",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "buffalo-ex",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on BUFFALO's own tracker address; the capture was opened, but the page loads the result by script, so the history was not visible."
+    },
+    {
+      "number": "BUFZA3070231229YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.chinapostaltracking.com/qa/my-package-may-be-stuck-93532/",
+        "access": "full_page"
+      },
+      "context": {
+        "service": "Buffalo (China->South Africa)",
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "buffalo-ex",
+        "confidence": "high"
+      },
+      "note": "A buyer's question on a parcel-help forum names Buffalo's China to South Africa service for this number."
+    }
+  ]
+}

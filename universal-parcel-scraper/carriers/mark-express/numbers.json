@@ -1,0 +1,24 @@
+{
+  "carrier": "mark-express",
+  "records": [
+    {
+      "number": "281517586",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240619164422/https://markexpress.co.in/Frm_DocTrack.aspx?docno=281517586&Tmp=1640840896736",
+        "date": "2024-06-19",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Mark Express's own former tracking page; the capture holds only the page shell, whose frame with the result was not archived, and the tracker no longer finds it."
+    }
+  ]
+}

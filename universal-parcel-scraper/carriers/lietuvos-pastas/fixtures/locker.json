@@ -1,0 +1,141 @@
+{
+  "mailGuid": "9a000000-0000-4000-8000-000000000011",
+  "mailBarcode": "CC900000006LT",
+  "mails": [
+    {
+      "mailGuid": "9a000000-0000-4000-8000-000000000011",
+      "mailBarcode": "CC900000006LT",
+      "type": "None",
+      "events": [
+        {
+          "publicStateType": "LABEL_CREATED",
+          "publicStateText": "Label created",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000001",
+          "mailBarcode": "CC900000006LT",
+          "eventDate": "2026-02-02T09:00:11.5+02:00",
+          "countryCode": "LT",
+          "publicEventType": "LABEL_CREATED",
+          "publicEventText": "The label for the parcel has been created",
+          "location": "Savitarna"
+        },
+        {
+          "publicStateType": "PARCEL_RECEIVED",
+          "publicStateText": "Parcel accepted",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000002",
+          "mailBarcode": "CC900000006LT",
+          "eventDate": "2026-02-02T15:10:00+02:00",
+          "countryCode": "LT",
+          "publicEventType": "ACCEPTED_TERMINAL",
+          "publicEventText": "The parcel has been placed in the UNISEND parcel locker for sending",
+          "location": "9001 paštomatas, Example Market, Sample g. 1, Example Town, 00001"
+        },
+        {
+          "publicStateType": "ON_THE_WAY",
+          "publicStateText": "Sent to receiver",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000003",
+          "mailBarcode": "CC900000006LT",
+          "eventDate": "2026-02-02T18:20:00+02:00",
+          "countryCode": "LT",
+          "publicEventType": "RECEIVED_TERMINAL_OUT",
+          "publicEventText": "The parcel was picked up by the courier from the UNISEND parcel locker",
+          "location": "9001 paštomatas, Example Market, Sample g. 1, Example Town, 00001"
+        },
+        {
+          "publicStateType": "ON_THE_WAY",
+          "publicStateText": "Sent to receiver",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000004",
+          "mailBarcode": "CC900000006LT",
+          "eventDate": "2026-02-02T22:30:00+02:00",
+          "countryCode": "LT",
+          "publicEventType": "RECEIVED_LC",
+          "publicEventText": "The parcel is at the distribution center",
+          "location": "Vilnius"
+        },
+        {
+          "publicStateType": "ON_THE_WAY",
+          "publicStateText": "Sent to receiver",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000005",
+          "mailBarcode": "CC900000006LT",
+          "eventDate": "2026-02-02T22:30:05+02:00",
+          "countryCode": "LT",
+          "publicEventType": "DELIVERY_TRANSFER",
+          "publicEventText": "The parcel is transported to another distribution center",
+          "location": "Vilnius"
+        },
+        {
+          "publicStateType": "ON_THE_WAY",
+          "publicStateText": "Sent to receiver",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000006",
+          "mailBarcode": "CC900000006LT",
+          "eventDate": "2026-02-03T05:40:00+02:00",
+          "countryCode": "LT",
+          "publicEventType": "RECEIVED_LC",
+          "publicEventText": "The parcel is at the distribution center",
+          "location": "Kaunas"
+        },
+        {
+          "publicStateType": "ON_THE_WAY",
+          "publicStateText": "Sent to receiver",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000007",
+          "mailBarcode": "CC900000006LT",
+          "eventDate": "2026-02-03T06:50:00+02:00",
+          "countryCode": "LT",
+          "publicEventType": "TRANSFERRED_FOR_DELIVERY_COURIER",
+          "publicEventText": "The parcel has been forwarded for delivery"
+        },
+        {
+          "publicStateType": "ON_THE_WAY",
+          "publicStateText": "Sent to receiver",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000008",
+          "mailBarcode": "CC900000006LT",
+          "eventDate": "2026-02-03T12:00:00+02:00",
+          "countryCode": "LT",
+          "publicEventType": "RECEIVED_TERMINAL",
+          "publicEventText": "The parcel was delivered to the UNISEND parcel locker",
+          "location": "9002 paštomatas, Sample Store, Example g. 2A, Sample City, LT-00002"
+        },
+        {
+          "publicStateType": "ON_THE_WAY",
+          "publicStateText": "Sent to receiver",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000009",
+          "mailBarcode": "CC900000006LT",
+          "eventDate": "2026-02-03T12:00:30+02:00",
+          "countryCode": "LT",
+          "publicEventType": "NOTIFICATIONS_INFORMED",
+          "publicEventText": "The recipient has been informed about the parcel"
+        },
+        {
+          "publicStateType": "PARCEL_DELIVERED",
+          "publicStateText": "Delivered",
+          "isRoutingToTerminalAvailable": false,
+          "isRoutingToHomeAvailable": false,
+          "id": "9a000000-0000-4000-8000-000000000010",
+          "mailBarcode": "CC900000006LT",
+          "eventDate": "2026-02-04T17:45:00+02:00",
+          "countryCode": "LT",
+          "publicEventType": "DELIVERY_DELIVERED",
+          "publicEventText": "The parcel has been delivered to the recipient",
+          "location": "9002 paštomatas, Sample Store, Example g. 2A, Sample City, LT-00002"
+        }
+      ]
+    }
+  ]
+}

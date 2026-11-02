@@ -1,0 +1,20 @@
+{
+  "carrier": "a-tu-hora-express",
+  "entries": [
+    {"code": "0", "wording": "Documentado", "stage": "registered", "language": "es", "confirmedBy": "live", "note": "The first row of a history: the sender recorded the shipment."},
+    {"code": "1", "wording": "En tránsito", "stage": "in_transit", "language": "es", "confirmedBy": "live"},
+    {"code": "11", "wording": "En agencia distribución", "stage": "in_transit", "language": "es", "confirmedBy": "live", "note": "The parcel reached the delivering depot."},
+    {"code": "2", "wording": "En reparto", "stage": "out_for_delivery", "language": "es", "confirmedBy": "live"},
+    {"code": "3", "wording": "Incidencia - Pendiente nuevo reparto", "stage": "failed_attempt", "language": "es", "confirmedBy": "live", "note": "An incident: the delivery failed and the parcel goes out again. Incidents share code 3; the reason after the dash tells them apart."},
+    {"code": "4", "wording": "Realizado con éxito", "stage": "delivered", "language": "es", "confirmedBy": "live"},
+    {"code": "5", "wording": "Pendiente de realizar", "language": "es", "confirmedBy": "live", "unmapped": true, "note": "Set with an incident, at the same clock, when the delivery is to be made again. The incident carries the stage."},
+    {"wording": "En realización", "stage": "out_for_delivery", "language": "es", "confirmedBy": "source", "note": "Quoted from the carrier's tracker in public OCU complaints against A Tu Hora Express. Shown while the delivery is under way, between En agencia distribución and the outcome."},
+    {"wording": "Entregado con éxito", "stage": "delivered", "language": "es", "confirmedBy": "source", "note": "Quoted from the carrier's tracker in public OCU complaints against A Tu Hora Express."},
+    {"wording": "Ausente", "stage": "failed_attempt", "language": "es", "confirmedBy": "source", "note": "Quoted from the carrier's tracker in public OCU complaints against A Tu Hora Express. Recipient not at home."},
+    {"wording": "Dirección incorrecta o incompleta", "stage": "failed_attempt", "language": "es", "confirmedBy": "source", "note": "Quoted from the carrier's tracker in public OCU complaints against A Tu Hora Express. Shown as an incident."},
+    {"wording": "Rechazado", "stage": "failed_attempt", "language": "es", "confirmedBy": "source", "note": "Quoted from the carrier's tracker in public OCU complaints against A Tu Hora Express. Shown as an incident: the recipient refused the parcel."},
+    {"wording": "Incidencia - No cumplimiento agencia", "stage": "exception", "language": "es", "confirmedBy": "source", "note": "Quoted from the carrier's tracker in public OCU complaints against A Tu Hora Express. The delivering agency did not carry out the delivery."},
+    {"wording": "Incidencia - Incumplimiento de la agencia", "stage": "exception", "language": "es", "confirmedBy": "source", "note": "Quoted from the carrier's tracker in public OCU complaints against A Tu Hora Express. The delivering agency did not carry out the delivery."},
+    {"wording": "Devuelto", "stage": "returned", "language": "es", "confirmedBy": "source", "note": "Quoted from the carrier's tracker in public OCU complaints against A Tu Hora Express."}
+  ]
+}

@@ -1,0 +1,883 @@
+{
+  "events": [
+    {
+      "eventDate": "2026-03-07T10:45:00",
+      "eventDateTo": null,
+      "location": {
+        "locationId": null,
+        "code": "",
+        "place": "-",
+        "countryCode": null
+      },
+      "description": null,
+      "eventCode": "Handover",
+      "masterEventCode": "Handover",
+      "group": "Handover",
+      "eventScopeType": "SHIPMENT",
+      "eventScopeId": null,
+      "timeStamp": null,
+      "cancelled": false,
+      "checked": true,
+      "hasHistory": false,
+      "hasContainerEvents": false,
+      "children": [
+        {
+          "eventDate": "2026-03-07T10:45:00",
+          "eventDateTo": null,
+          "location": {
+            "locationId": null,
+            "code": "",
+            "place": "-",
+            "countryCode": null
+          },
+          "description": "Handover responsibilty of cargo",
+          "eventCode": "Z70",
+          "masterEventCode": "Z70",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": false,
+          "hasContainerEvents": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "eventDate": "2026-03-06T18:10:00",
+      "eventDateTo": null,
+      "location": {
+        "locationId": null,
+        "code": "XCCCC",
+        "place": "Receivertown Apt",
+        "countryCode": "XC"
+      },
+      "description": null,
+      "eventCode": "Arrival",
+      "masterEventCode": "Arrival",
+      "group": "LAST_PORT",
+      "eventScopeType": "SHIPMENT",
+      "eventScopeId": null,
+      "timeStamp": null,
+      "cancelled": false,
+      "checked": true,
+      "hasHistory": false,
+      "hasContainerEvents": false,
+      "children": [
+        {
+          "eventDate": "2026-03-06T18:10:00",
+          "eventDateTo": null,
+          "location": {
+            "locationId": null,
+            "code": "XCCCC",
+            "place": "Receivertown Apt",
+            "countryCode": "XC"
+          },
+          "description": "Actual arrival",
+          "eventCode": "ARV",
+          "masterEventCode": "ARV",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": true,
+          "hasContainerEvents": false,
+          "children": [
+            {
+              "eventDate": "2026-03-05T06:40:00",
+              "eventDateTo": null,
+              "location": {
+                "locationId": null,
+                "code": "XBBBB",
+                "place": "-",
+                "countryCode": "XB"
+              },
+              "description": "Actual arrival",
+              "eventCode": "ARV",
+              "masterEventCode": "ARV",
+              "group": null,
+              "eventScopeType": "SHIPMENT",
+              "eventScopeId": null,
+              "timeStamp": "2026-03-08T09:00:00",
+              "cancelled": false,
+              "checked": false,
+              "hasHistory": false,
+              "hasContainerEvents": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "eventDate": "2026-03-06T18:00:00",
+          "eventDateTo": null,
+          "location": {
+            "locationId": null,
+            "code": "XCCCC",
+            "place": "Receivertown Apt",
+            "countryCode": "XC"
+          },
+          "description": "Estimated arrival",
+          "eventCode": "ETA",
+          "masterEventCode": "ETA",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": false,
+          "hasContainerEvents": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "eventDate": "2026-03-04T11:20:00",
+      "eventDateTo": null,
+      "location": {
+        "locationId": null,
+        "code": "XAAAA",
+        "place": "Example Airport",
+        "countryCode": "XA"
+      },
+      "description": null,
+      "eventCode": "Departure",
+      "masterEventCode": "Departure",
+      "group": "FIRST_PORT",
+      "eventScopeType": "SHIPMENT",
+      "eventScopeId": null,
+      "timeStamp": null,
+      "cancelled": false,
+      "checked": true,
+      "hasHistory": false,
+      "hasContainerEvents": false,
+      "children": [
+        {
+          "eventDate": "2026-03-04T11:20:00",
+          "eventDateTo": null,
+          "location": {
+            "locationId": null,
+            "code": "XAAAA",
+            "place": "Example Airport",
+            "countryCode": "XA"
+          },
+          "description": "Actual Departure",
+          "eventCode": "DEP",
+          "masterEventCode": "DEP",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": true,
+          "hasContainerEvents": false,
+          "children": [
+            {
+              "eventDate": "2026-03-05T21:15:00",
+              "eventDateTo": null,
+              "location": {
+                "locationId": null,
+                "code": "XBBBB",
+                "place": "-",
+                "countryCode": "XB"
+              },
+              "description": "Actual departure",
+              "eventCode": "DEP",
+              "masterEventCode": "DEP",
+              "group": null,
+              "eventScopeType": "SHIPMENT",
+              "eventScopeId": null,
+              "timeStamp": "2026-03-08T09:00:00",
+              "cancelled": false,
+              "checked": false,
+              "hasHistory": false,
+              "hasContainerEvents": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "eventDate": "2026-03-04T10:50:00",
+          "eventDateTo": null,
+          "location": {
+            "locationId": null,
+            "code": "XAAAA",
+            "place": "Example Airport",
+            "countryCode": "XA"
+          },
+          "description": "Estimated Departure",
+          "eventCode": "ETD",
+          "masterEventCode": "ETD",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": false,
+          "hasContainerEvents": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "eventDate": "2026-03-03T15:05:00",
+      "eventDateTo": null,
+      "location": {
+        "locationId": null,
+        "code": "XAAAA",
+        "place": "-",
+        "countryCode": "XA"
+      },
+      "description": null,
+      "eventCode": "Pickup",
+      "masterEventCode": "Pickup",
+      "group": "Pickup / Received",
+      "eventScopeType": "SHIPMENT",
+      "eventScopeId": null,
+      "timeStamp": null,
+      "cancelled": false,
+      "checked": true,
+      "hasHistory": false,
+      "hasContainerEvents": false,
+      "children": [
+        {
+          "eventDate": "2026-03-03T15:05:00",
+          "eventDateTo": null,
+          "location": {
+            "locationId": null,
+            "code": "XAAAA",
+            "place": "-",
+            "countryCode": "XA"
+          },
+          "description": "Cargo received",
+          "eventCode": "IRP",
+          "masterEventCode": "IRP",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": false,
+          "hasContainerEvents": false,
+          "children": []
+        },
+        {
+          "eventDate": "2026-03-03T09:30:00",
+          "eventDateTo": null,
+          "location": {
+            "locationId": null,
+            "code": "XA",
+            "place": "Example Airport",
+            "countryCode": "XA"
+          },
+          "description": "Estimated pickup",
+          "eventCode": "ESTIMATED_PICKUP",
+          "masterEventCode": "ESTIMATED_PICKUP",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": false,
+          "hasContainerEvents": false,
+          "children": []
+        },
+        {
+          "eventDate": "2026-03-03T09:30:00",
+          "eventDateTo": null,
+          "location": {
+            "locationId": null,
+            "code": "XA",
+            "place": "Example Airport",
+            "countryCode": "XA"
+          },
+          "description": "Requested pickup",
+          "eventCode": "REQUESTED_PICKUP",
+          "masterEventCode": "REQUESTED_PICKUP",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": false,
+          "hasContainerEvents": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "eventDate": "2026-03-02T00:00:00",
+      "eventDateTo": null,
+      "location": {
+        "locationId": null,
+        "code": "",
+        "place": null,
+        "countryCode": null
+      },
+      "description": null,
+      "eventCode": "Booking",
+      "masterEventCode": "Booking",
+      "group": "Booking",
+      "eventScopeType": "SHIPMENT",
+      "eventScopeId": null,
+      "timeStamp": null,
+      "cancelled": false,
+      "checked": true,
+      "hasHistory": false,
+      "hasContainerEvents": false,
+      "children": [
+        {
+          "eventDate": "2026-03-02T00:00:00",
+          "eventDateTo": null,
+          "location": {
+            "locationId": null,
+            "code": "",
+            "place": null,
+            "countryCode": null
+          },
+          "description": "Booking",
+          "eventCode": "BOOKING",
+          "masterEventCode": "BOOKING",
+          "group": null,
+          "eventScopeType": "SHIPMENT",
+          "eventScopeId": null,
+          "timeStamp": "2026-03-08T09:00:00",
+          "cancelled": false,
+          "checked": false,
+          "hasHistory": false,
+          "hasContainerEvents": false,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "legData": {
+    "firstEvents": [
+      {
+        "eventDate": "2026-03-07T10:45:00",
+        "eventDateTo": null,
+        "location": {
+          "locationId": null,
+          "code": "",
+          "place": "-",
+          "countryCode": null
+        },
+        "description": null,
+        "eventCode": "Handover",
+        "masterEventCode": "Handover",
+        "group": "Handover",
+        "eventScopeType": "SHIPMENT",
+        "eventScopeId": null,
+        "timeStamp": null,
+        "cancelled": false,
+        "checked": true,
+        "hasHistory": false,
+        "hasContainerEvents": false,
+        "children": [
+          {
+            "eventDate": "2026-03-07T10:45:00",
+            "eventDateTo": null,
+            "location": {
+              "locationId": null,
+              "code": "",
+              "place": "-",
+              "countryCode": null
+            },
+            "description": "Handover responsibilty of cargo",
+            "eventCode": "Z70",
+            "masterEventCode": "Z70",
+            "group": null,
+            "eventScopeType": "SHIPMENT",
+            "eventScopeId": null,
+            "timeStamp": "2026-03-08T09:00:00",
+            "cancelled": false,
+            "checked": false,
+            "hasHistory": false,
+            "hasContainerEvents": false,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "lastEvents": [
+      {
+        "eventDate": "2026-03-03T15:05:00",
+        "eventDateTo": null,
+        "location": {
+          "locationId": null,
+          "code": "XAAAA",
+          "place": "-",
+          "countryCode": "XA"
+        },
+        "description": null,
+        "eventCode": "Pickup",
+        "masterEventCode": "Pickup",
+        "group": "Pickup / Received",
+        "eventScopeType": "SHIPMENT",
+        "eventScopeId": null,
+        "timeStamp": null,
+        "cancelled": false,
+        "checked": true,
+        "hasHistory": false,
+        "hasContainerEvents": false,
+        "children": [
+          {
+            "eventDate": "2026-03-03T15:05:00",
+            "eventDateTo": null,
+            "location": {
+              "locationId": null,
+              "code": "XAAAA",
+              "place": "-",
+              "countryCode": "XA"
+            },
+            "description": "Cargo received",
+            "eventCode": "IRP",
+            "masterEventCode": "IRP",
+            "group": null,
+            "eventScopeType": "SHIPMENT",
+            "eventScopeId": null,
+            "timeStamp": "2026-03-08T09:00:00",
+            "cancelled": false,
+            "checked": false,
+            "hasHistory": false,
+            "hasContainerEvents": false,
+            "children": []
+          },
+          {
+            "eventDate": "2026-03-03T09:30:00",
+            "eventDateTo": null,
+            "location": {
+              "locationId": null,
+              "code": "XA",
+              "place": "Example Airport",
+              "countryCode": "XA"
+            },
+            "description": "Estimated pickup",
+            "eventCode": "ESTIMATED_PICKUP",
+            "masterEventCode": "ESTIMATED_PICKUP",
+            "group": null,
+            "eventScopeType": "SHIPMENT",
+            "eventScopeId": null,
+            "timeStamp": "2026-03-08T09:00:00",
+            "cancelled": false,
+            "checked": false,
+            "hasHistory": false,
+            "hasContainerEvents": false,
+            "children": []
+          },
+          {
+            "eventDate": "2026-03-03T09:30:00",
+            "eventDateTo": null,
+            "location": {
+              "locationId": null,
+              "code": "XA",
+              "place": "Example Airport",
+              "countryCode": "XA"
+            },
+            "description": "Requested pickup",
+            "eventCode": "REQUESTED_PICKUP",
+            "masterEventCode": "REQUESTED_PICKUP",
+            "group": null,
+            "eventScopeType": "SHIPMENT",
+            "eventScopeId": null,
+            "timeStamp": "2026-03-08T09:00:00",
+            "cancelled": false,
+            "checked": false,
+            "hasHistory": false,
+            "hasContainerEvents": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "eventDate": "2026-03-02T00:00:00",
+        "eventDateTo": null,
+        "location": {
+          "locationId": null,
+          "code": "",
+          "place": null,
+          "countryCode": null
+        },
+        "description": null,
+        "eventCode": "Booking",
+        "masterEventCode": "Booking",
+        "group": "Booking",
+        "eventScopeType": "SHIPMENT",
+        "eventScopeId": null,
+        "timeStamp": null,
+        "cancelled": false,
+        "checked": true,
+        "hasHistory": false,
+        "hasContainerEvents": false,
+        "children": [
+          {
+            "eventDate": "2026-03-02T00:00:00",
+            "eventDateTo": null,
+            "location": {
+              "locationId": null,
+              "code": "",
+              "place": null,
+              "countryCode": null
+            },
+            "description": "Booking",
+            "eventCode": "BOOKING",
+            "masterEventCode": "BOOKING",
+            "group": null,
+            "eventScopeType": "SHIPMENT",
+            "eventScopeId": null,
+            "timeStamp": "2026-03-08T09:00:00",
+            "cancelled": false,
+            "checked": false,
+            "hasHistory": false,
+            "hasContainerEvents": false,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "firstPort": {
+      "eventDate": "2026-03-04T11:20:00",
+      "eventDateTo": null,
+      "location": {
+        "locationId": null,
+        "code": "XAAAA",
+        "place": "Example Airport",
+        "countryCode": "XA"
+      },
+      "description": null,
+      "eventCode": "Departure",
+      "masterEventCode": "Departure",
+      "group": "FIRST_PORT",
+      "eventScopeType": "SHIPMENT",
+      "eventScopeId": null,
+      "timeStamp": null,
+      "cancelled": false,
+      "checked": true,
+      "hasHistory": false,
+      "hasContainerEvents": false,
+      "children": []
+    },
+    "lastPort": {
+      "eventDate": "2026-03-06T18:10:00",
+      "eventDateTo": null,
+      "location": {
+        "locationId": null,
+        "code": "XCCCC",
+        "place": "Receivertown Apt",
+        "countryCode": "XC"
+      },
+      "description": null,
+      "eventCode": "Arrival",
+      "masterEventCode": "Arrival",
+      "group": "LAST_PORT",
+      "eventScopeType": "SHIPMENT",
+      "eventScopeId": null,
+      "timeStamp": null,
+      "cancelled": false,
+      "checked": true,
+      "hasHistory": false,
+      "hasContainerEvents": false,
+      "children": []
+    },
+    "legs": [
+      {
+        "location": {
+          "code": "XCCCC",
+          "place": "Receivertown Apt",
+          "countryCode": "XC",
+          "country": "Exampleland C",
+          "type": "Unloading"
+        },
+        "estimatedDeparture": null,
+        "actualDeparture": null,
+        "departureModeOfTransport": null,
+        "departureMeansOfTransport": null,
+        "estimatedArrival": "2026-03-06T18:00:00",
+        "predictiveEta": null,
+        "actualArrival": "2026-03-06T18:10:00",
+        "arrivalModeOfTransport": "Air",
+        "arrivalMeansOfTransport": {
+          "id": "ZZ0001",
+          "name": null
+        },
+        "cargoCutOff": null,
+        "opened": false,
+        "legEvents": [
+          {
+            "code": "ARV",
+            "description": "Actual arrival",
+            "timestamp": "2026-03-08T09:00:00",
+            "date": "2026-03-06T18:10:00",
+            "dateTo": null,
+            "cancelled": false,
+            "history": [],
+            "sub": []
+          },
+          {
+            "code": "ETA",
+            "description": "Estimated arrival",
+            "timestamp": "2026-03-08T09:00:00",
+            "date": "2026-03-06T18:00:00",
+            "dateTo": null,
+            "cancelled": false,
+            "history": [],
+            "sub": []
+          }
+        ],
+        "mergedLegs": [],
+        "portType": "discharge",
+        "cargoAvailability": null,
+        "ctoCutoff": null,
+        "docsDue": null,
+        "vgmCutOff": null
+      },
+      {
+        "location": {
+          "code": "XBBBB",
+          "place": "Transit Hub",
+          "countryCode": "XB",
+          "country": "Exampleland B",
+          "type": "Loading"
+        },
+        "estimatedDeparture": "2026-03-05T21:30:00",
+        "actualDeparture": "2026-03-05T21:15:00",
+        "departureModeOfTransport": null,
+        "departureMeansOfTransport": null,
+        "estimatedArrival": "2026-03-05T06:40:00",
+        "predictiveEta": null,
+        "actualArrival": "2026-03-05T06:40:00",
+        "arrivalModeOfTransport": "Air",
+        "arrivalMeansOfTransport": {
+          "id": "ZZ0001",
+          "name": null
+        },
+        "cargoCutOff": null,
+        "opened": false,
+        "legEvents": [
+          {
+            "code": "ETD",
+            "description": "Estimated Departure",
+            "timestamp": "2026-03-08T09:00:00",
+            "date": "2026-03-05T21:30:00",
+            "dateTo": null,
+            "cancelled": false,
+            "history": [],
+            "sub": []
+          },
+          {
+            "code": "DEP",
+            "description": "Actual Departure",
+            "timestamp": "2026-03-08T09:00:00",
+            "date": "2026-03-05T21:15:00",
+            "dateTo": null,
+            "cancelled": false,
+            "history": [
+              {
+                "code": "DEP",
+                "description": "Actual departure",
+                "timestamp": "2026-03-08T09:00:00",
+                "date": "2026-03-05T22:05:00",
+                "dateTo": null,
+                "cancelled": false,
+                "history": [],
+                "sub": []
+              }
+            ],
+            "sub": []
+          },
+          {
+            "code": "ETA",
+            "description": "Estimated arrival",
+            "timestamp": "2026-03-08T09:00:00",
+            "date": "2026-03-05T06:40:00",
+            "dateTo": null,
+            "cancelled": false,
+            "history": [],
+            "sub": []
+          },
+          {
+            "code": "ARV",
+            "description": "Actual arrival",
+            "timestamp": "2026-03-08T09:00:00",
+            "date": "2026-03-05T06:40:00",
+            "dateTo": null,
+            "cancelled": false,
+            "history": [],
+            "sub": []
+          }
+        ],
+        "mergedLegs": [],
+        "portType": "transshipment",
+        "cargoAvailability": null,
+        "ctoCutoff": null,
+        "docsDue": null,
+        "vgmCutOff": null
+      },
+      {
+        "location": {
+          "code": "XAAAA",
+          "place": "Example Airport",
+          "countryCode": "XA",
+          "country": "Exampleland A",
+          "type": "Loading"
+        },
+        "estimatedDeparture": "2026-03-04T10:50:00",
+        "actualDeparture": "2026-03-04T11:20:00",
+        "departureModeOfTransport": null,
+        "departureMeansOfTransport": null,
+        "estimatedArrival": null,
+        "predictiveEta": null,
+        "actualArrival": null,
+        "arrivalModeOfTransport": "Air",
+        "arrivalMeansOfTransport": {
+          "id": "ZZ0001",
+          "name": null
+        },
+        "cargoCutOff": null,
+        "opened": false,
+        "legEvents": [
+          {
+            "code": "DEP",
+            "description": "Actual Departure",
+            "timestamp": "2026-03-08T09:00:00",
+            "date": "2026-03-04T11:20:00",
+            "dateTo": null,
+            "cancelled": false,
+            "history": [],
+            "sub": []
+          },
+          {
+            "code": "ETD",
+            "description": "Estimated Departure",
+            "timestamp": "2026-03-08T09:00:00",
+            "date": "2026-03-04T10:50:00",
+            "dateTo": null,
+            "cancelled": false,
+            "history": [],
+            "sub": []
+          }
+        ],
+        "mergedLegs": [],
+        "portType": "loading",
+        "cargoAvailability": null,
+        "ctoCutoff": null,
+        "docsDue": null,
+        "vgmCutOff": null
+      }
+    ],
+    "checked": true,
+    "firstLeg": {
+      "location": {
+        "code": "XAAAA",
+        "place": "Example Airport",
+        "countryCode": "XA",
+        "country": "Exampleland A",
+        "type": "Loading"
+      },
+      "estimatedDeparture": "2026-03-04T10:50:00",
+      "actualDeparture": "2026-03-04T11:20:00",
+      "departureModeOfTransport": null,
+      "departureMeansOfTransport": null,
+      "estimatedArrival": null,
+      "predictiveEta": null,
+      "actualArrival": null,
+      "arrivalModeOfTransport": "Air",
+      "arrivalMeansOfTransport": {
+        "id": "ZZ0001",
+        "name": null
+      },
+      "cargoCutOff": null,
+      "opened": false,
+      "legEvents": [
+        {
+          "code": "DEP",
+          "description": "Actual Departure",
+          "timestamp": "2026-03-08T09:00:00",
+          "date": "2026-03-04T11:20:00",
+          "dateTo": null,
+          "cancelled": false,
+          "history": [],
+          "sub": []
+        },
+        {
+          "code": "ETD",
+          "description": "Estimated Departure",
+          "timestamp": "2026-03-08T09:00:00",
+          "date": "2026-03-04T10:50:00",
+          "dateTo": null,
+          "cancelled": false,
+          "history": [],
+          "sub": []
+        }
+      ],
+      "mergedLegs": [],
+      "portType": "loading",
+      "cargoAvailability": null,
+      "ctoCutoff": null,
+      "docsDue": null,
+      "vgmCutOff": null
+    },
+    "lastLeg": {
+      "location": {
+        "code": "XCCCC",
+        "place": "Receivertown Apt",
+        "countryCode": "XC",
+        "country": "Exampleland C",
+        "type": "Unloading"
+      },
+      "estimatedDeparture": null,
+      "actualDeparture": null,
+      "departureModeOfTransport": null,
+      "departureMeansOfTransport": null,
+      "estimatedArrival": "2026-03-06T18:00:00",
+      "predictiveEta": null,
+      "actualArrival": "2026-03-06T18:10:00",
+      "arrivalModeOfTransport": "Air",
+      "arrivalMeansOfTransport": {
+        "id": "ZZ0001",
+        "name": null
+      },
+      "cargoCutOff": null,
+      "opened": false,
+      "legEvents": [
+        {
+          "code": "ARV",
+          "description": "Actual arrival",
+          "timestamp": "2026-03-08T09:00:00",
+          "date": "2026-03-06T18:10:00",
+          "dateTo": null,
+          "cancelled": false,
+          "history": [],
+          "sub": []
+        },
+        {
+          "code": "ETA",
+          "description": "Estimated arrival",
+          "timestamp": "2026-03-08T09:00:00",
+          "date": "2026-03-06T18:00:00",
+          "dateTo": null,
+          "cancelled": false,
+          "history": [],
+          "sub": []
+        }
+      ],
+      "mergedLegs": [],
+      "portType": "discharge",
+      "cargoAvailability": null,
+      "ctoCutoff": null,
+      "docsDue": null,
+      "vgmCutOff": null
+    },
+    "firstLegActualDepartureDate": "2026-03-04T11:20:00",
+    "firstLegEstimatedDepartureDate": "2026-03-04T10:50:00"
+  }
+}

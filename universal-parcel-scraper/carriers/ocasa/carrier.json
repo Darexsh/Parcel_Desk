@@ -1,0 +1,89 @@
+{
+  "id": "ocasa",
+  "displayName": "OCASA",
+  "aliases": [
+    "OCASA Logística General",
+    "OCASA Logística"
+  ],
+  "region": {
+    "countries": [
+      "AR"
+    ]
+  },
+  "brand": {
+    "color": "#0099a8"
+  },
+  "selectable": true,
+  "timezone": "America/Argentina/Buenos_Aires",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ocasa",
+    "steps": [
+      "direct",
+      "retry",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 797
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history"
+  ],
+  "portal": {
+    "url": "https://tracking.ocasa.com/Tracking/index?client=&airbillnumber={trackingNumber}&i=18&url=ocasa",
+    "searchUrl": "https://tracking.ocasa.com/TrackingOnline/index",
+    "canaryUrl": "https://tracking.ocasa.com/TrackingOnline/index",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "signatory",
+      "coordinates"
+    ],
+    "scraped": [
+      "status",
+      "history"
+    ],
+    "discarded": [
+      "location",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "signatory",
+      "coordinates"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "proof_of_delivery",
+      "delivered_at",
+      "offset_timestamps",
+      "provider_code"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "tracking.ocasa.com"
+      ],
+      "pathPattern": "^/(?:Tracking/index|TrackingOnline/index|tracking\\.aspx)/?$",
+      "params": [
+        "airbillnumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "ocasa-1",
+      "pattern": "^EC[23](?=[A-Z0-9]{10}$)[A-Z]{2,4}\\d{6,8}$",
+      "confidence": "low"
+    }
+  ]
+}

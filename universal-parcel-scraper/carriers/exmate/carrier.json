@@ -1,0 +1,91 @@
+{
+  "id": "exmate",
+  "displayName": "Exmate",
+  "aliases": [
+    "이엑스메이트",
+    "EXMATE"
+  ],
+  "region": {
+    "countries": [
+      "KR",
+      "JP"
+    ]
+  },
+  "brand": {
+    "color": "#3855c7"
+  },
+  "selectable": true,
+  "timezone": "Asia/Seoul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "exmate",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "url": "https://pod.exmate.net/pod/?exmno={trackingNumber}",
+    "searchUrl": "https://pod.exmate.net/",
+    "canaryUrl": "https://pod.exmate.net/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "progress_rail",
+      "origin",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "origin"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "pod.exmate.net"
+      ],
+      "pathPattern": "^/pod(?:/jpjp|/langchange)?/?$",
+      "params": [
+        "exmno"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "exmate-1",
+      "pattern": "^EXK\\d{8}J$",
+      "confidence": "high"
+    }
+  ]
+}

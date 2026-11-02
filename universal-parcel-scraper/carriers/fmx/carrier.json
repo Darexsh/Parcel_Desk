@@ -1,0 +1,89 @@
+{
+  "id": "fmx",
+  "displayName": "FMX",
+  "aliases": [
+    "eFMX",
+    "Freight Mark Express",
+    "FMX (M) Sdn Bhd"
+  ],
+  "region": {
+    "countries": [
+      "MY"
+    ]
+  },
+  "brand": {
+    "color": "#00539a"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kuala_Lumpur",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "fmx",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 147
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "url": "https://www.fmx.asia/result_detail.php?p=1&conno={trackingNumber}",
+    "searchUrl": "https://www.fmx.asia/",
+    "canaryUrl": "https://www.fmx.asia/",
+    "shows": [
+      "progress_rail",
+      "history",
+      "location",
+      "destination",
+      "customer_reference",
+      "departure_date",
+      "delivered_at",
+      "signatory"
+    ],
+    "scraped": [
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "progress_rail",
+      "destination",
+      "customer_reference",
+      "departure_date",
+      "delivered_at",
+      "signatory"
+    ],
+    "unavailable": [
+      "provider_code",
+      "eta",
+      "offset_timestamps",
+      "weight",
+      "service_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.fmx.asia",
+        "fmx.asia"
+      ],
+      "pathPattern": "^/(?:cn/)?result_detail\\.php$",
+      "params": [
+        "conno"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "fmx-1",
+      "pattern": "^MYX\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

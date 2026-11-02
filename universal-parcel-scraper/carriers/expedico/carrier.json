@@ -1,0 +1,63 @@
+{
+  "id": "expedico",
+  "displayName": "Expedico",
+  "aliases": [
+    "expedico.eu",
+    "Vinteco",
+    "Vinteco s.r.o."
+  ],
+  "region": {
+    "countries": [
+      "CZ",
+      "SK",
+      "HU",
+      "BG",
+      "HR",
+      "GR",
+      "PL",
+      "LT",
+      "EE",
+      "LV",
+      "SI",
+      "RO",
+      "IT",
+      "ES",
+      "PT",
+      "DE",
+      "AT"
+    ]
+  },
+  "brand": {
+    "color": "#0074e4"
+  },
+  "selectable": true,
+  "timezone": "Europe/Prague",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://expedico.eu/tracking?code={trackingNumber}",
+    "searchUrl": "https://expedico.eu/tracking",
+    "canaryUrl": "https://expedico.eu/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "expedico.eu",
+        "www.expedico.eu"
+      ],
+      "pathPattern": "^/tracking/?$",
+      "params": [
+        "code"
+      ]
+    }
+  ],
+  "detection": []
+}

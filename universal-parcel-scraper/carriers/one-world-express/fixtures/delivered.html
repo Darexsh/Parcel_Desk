@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>SmartTrack</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <script type="text/javascript">
+            function showsorterImage(sorterImage, trackingNumber){
+                $.ajax({
+                    url: "tracking.php?tracking_number="+trackingNumber,
+                    data: {func: "get_sorter_image", sorterImage: sorterImage},
+                    type: 'post'
+                });
+            }
+    </script>
+</head>
+<body class="page-container-bg-solid page-header-fixed ">
+<div class="page-container">
+    <div class="page-content-wrapper" >
+        <div class="" >
+            <ul class="page-breadcrumb breadcrumb"><li class=" ">   <a class="" href="index.php">Home</a><i class="fa fa-fa fa-circle"></i></li><li class=" active">   <span class="active">Tracking   </span></li></ul>
+        <ul class="breadcrumb">
+            <li><a href="../main/index.php">Home</a></li>
+            <li>->Parcel Tracking</li>
+        </ul>
+        <div class="portlet light">
+            <div class="portlet-title">
+                <div class="caption"><i class="fa fa-upload"></i>
+                    Parcel tracking
+                </div>
+            </div>
+            <div class="portlet-body">
+                                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <a class="dashboard-stat dashboard-stat-v2 green"
+                               href="javascript:{};">
+                                <div class="visual">
+                                    <i class="fa fa-home"></i>
+                                </div>
+                                <div class="details">
+                                    <div class="number">
+                                		<span data-counter="counterup" data-value="12,5">Delivered</span>
+									</div>
+                                    <div class="desc">
+                                        <small>Delivered</small>
+                                        <br/>
+                                        5 days  18 Hours transit time
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat2 bordered">
+                                <div class="c-content-title-1">
+                                    <h4 class="uppercase" style="margin-bottom: 3px;margin-top: 4px;">Have another shipment?</h4>
+                                    <div class="c-line-left bg-dark"></div>
+                                    <form action="tracking.php" method="get">
+                                        <div class="input-group input-group-lg c-square">
+                                            <input type="text" class="form-control c-square" name="tracking_number" placeholder="Tracking No." value="OWE900000000001">
+                                            <span class="input-group-btn">
+                                        		<button class="btn uppercase btn_track" type="submit">Track</button>
+													 <a   id="btnSorterImage" href="#" onclick="showsorterImage('20260301/OWE900000000001.jpg', 'OWE900000000001');" class="btn blue btnedit  show_sorter_image">Parcel Image</a>
+                                     		</span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h5 style="color: #3f444a;;">
+                                <strong> <i class="fa fa-info-circle"></i> SHIPMENT INFORMATION</strong>
+                            </h5>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="dashboard-stat2 bordered">
+                                <div class="display">
+                                    <div class="number">
+                                        <h3 class="font-green-sharp">
+                                            <span>9200190000000000000016</span>
+                                        </h3>
+                                        <small> Tracking Number</small>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="icon-pie-chart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="dashboard-stat2 bordered">
+                                <div class="display">
+                                    <div class="number">
+                                        <h3 class="font-red-haze">
+                                            <span>10000001</span>
+                                        </h3>
+                                        <small> Order # (Hawb)</small>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="icon-basket"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="dashboard-stat2 bordered">
+                                <div class="display">
+                                    <div class="number">
+                                        <h3 class="font-blue-sharp">
+                                            <span>India</span>
+                                        </h3>
+                                        <small> Origin Country</small>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="icon-flag"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="dashboard-stat2 bordered">
+                                <div class="display">
+                                    <div class="number">
+                                        <h3 class="font-purple-soft">
+                                            <span>United States</span>
+                                        </h3>
+                                        <small> Destination Country</small>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="icon-flag"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="mawb">
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="dashboard-stat2 bordered">
+                                <div class="display">
+                                    <div class="number">
+                                        <h3 class="font-red-haze">
+                                            <span>000-00000000S</span>
+                                        </h3>
+                                        <small> MAWB Number</small>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="icon-pie-chart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="dashboard-stat2 bordered">
+                                <div class="display">
+                                    <div class="number">
+                                        <h3 class="font-blue-steel">
+                                            <span>OWE FLIGHT</span>
+                                        </h3>
+                                        <small> Service Name</small>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="icon-directions"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="mt-element-step">
+                        <div class="row step-line">
+                            <div class="col-md-4 mt-step-col first active">
+                                <div class="mt-step-title uppercase font-grey-cascade">Picked Up</div>
+                            </div>
+                            <div class="col-md-4 mt-step-col  active">
+                                <div class="mt-step-title uppercase font-grey-cascade">On the Way</div>
+                            </div>
+                            <div class="col-md-4 mt-step-col last">
+                                <div class="mt-step-title uppercase font-grey-cascade">Delivered</div>
+                            </div>
+                        </div>
+                    </div>
+                    <table class="table table-striped table-bordered table-advance table-hover">
+                        <thead>
+                        <tr>
+                            <th colspan="4">
+                                <div class="caption">
+                                    <i class=" icon-layers"></i>
+                                    <span class="caption-subject bold uppercase">Tracking Events</span>
+                                </div>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                                        <tr>
+                                                                            <th>Date</th>
+                                        <th>Location</th>
+                                        <th>Description</th>
+                                        <th>Status</th>
+                                                                    </tr>
+                                <tr>
+                                <th colspan="4">Friday, March 6, 2026</th>
+                                </tr>
+                                    <tr>
+                                        <td width="90">18:20</td>
+                                        <td>
+											SAMPLETOWN										</td>
+                                        <td>
+											Delivered, signed by SAMPLE PERSON										</td>
+                                        <td>
+											Delivered										</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="90">10:05</td>
+                                        <td>
+											SAMPLETOWN										</td>
+                                        <td>
+											Out for delivery, driver +1 000 000 0000										</td>
+                                        <td>
+											Out for delivery										</td>
+                                    </tr>
+                                    <tr>
+                                                                    </tr>
+                                <tr>
+                                <th colspan="4">Thursday, March 5, 2026</th>
+                                </tr>
+                                    <tr>
+                                        <td width="90">22:10</td>
+                                        <td>
+											SAMPLE CITY HUB										</td>
+                                        <td>
+											Arrived at Destination Hub										</td>
+                                        <td>
+											Arrived										</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="90">22:10</td>
+                                        <td>
+											SAMPLE CITY HUB										</td>
+                                        <td>
+											Arrived at Destination Hub										</td>
+                                        <td>
+											Arrived										</td>
+                                    </tr>
+                                    <tr>
+                                                                    </tr>
+                                <tr>
+                                <th colspan="4">Tuesday, March 3, 2026</th>
+                                </tr>
+                                    <tr>
+                                        <td width="90">04:30</td>
+                                        <td>
+											NEW SAMPLE										</td>
+                                        <td>
+											Departed from Origin Facility										</td>
+                                        <td>
+											In Transit										</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="90">01:15</td>
+                                        <td>
+											NEW SAMPLE										</td>
+                                        <td>
+											Arrived at Origin Facility										</td>
+                                        <td>
+											Carrier Received										</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="90">01:14</td>
+                                        <td>
+											Sample Village										</td>
+                                        <td>
+											Shipment Handed Over										</td>
+                                        <td>
+											In Transit										</td>
+                                    </tr>
+                                    <tr>
+                                                                    </tr>
+                                <tr>
+                                <th colspan="4">Monday, March 2, 2026</th>
+                                </tr>
+                                    <tr>
+                                        <td width="90">09:00</td>
+                                        <td>
+											Sample Service Centre - IND										</td>
+                                        <td>
+											Arrived at Sort Facility Sample Service Centre - IND										</td>
+                                        <td>
+											Arrived										</td>
+                                    </tr>
+                                    <tr>
+                                                                    </tr>
+                                <tr>
+                                <th colspan="4">Sunday, March 1, 2026</th>
+                                </tr>
+                                    <tr>
+                                        <td width="90">23:45</td>
+                                        <td>
+											Sample Service Centre - IND										</td>
+                                        <td>
+											Data Received										</td>
+                                        <td>
+											Data Received										</td>
+                                    </tr>
+                                                            </tbody>
+                    </table>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+    <div class="page-footer">
+        <div class="page-footer-inner"> 2011-2026 &copy; SmartTrack</div>
+    </div>
+</body>
+</html>

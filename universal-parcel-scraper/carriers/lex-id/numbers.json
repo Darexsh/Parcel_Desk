@@ -1,0 +1,107 @@
+{
+  "carrier": "lex-id",
+  "records": [
+    {
+      "number": "LXAD-2716349580",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2022/11/13/surat-pembaca/seller-dan-kurir-lazada-belum-mengirim-barang-retur-saya",
+        "date": "2022-11-13",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "lex-id",
+        "confidence": "high"
+      },
+      "note": "A buyer's letter on a consumer complaints site gives this as the LEX ID waybill of a Lazada order it delivered."
+    },
+    {
+      "number": "LXAD-3625105547",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2024/10/01/surat-pembaca/buruknya-layanan-lazada-dan-lex-id",
+        "date": "2024-10-01",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "lex-id",
+        "confidence": "high"
+      },
+      "note": "A buyer's letter on a consumer complaints site gives this as the waybill of a Lazada order whose status had stopped changing."
+    },
+    {
+      "number": "LXAD-3993850876",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/05/10/surat-pembaca/lazada-dan-lex-id-sangat-tidak-direkomendasikan",
+        "date": "2025-05-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "lex-id",
+        "confidence": "high"
+      },
+      "note": "A buyer's letter on a consumer complaints site gives this as the LEX ID waybill of a Lazada order still on its way after more than a week."
+    },
+    {
+      "number": "LXAD-5028581289",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/07/17/surat-pembaca/paket-dengan-jasa-kirim-lazada-tidak-kunjung-sampai",
+        "date": "2025-07-17",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lex-id",
+        "confidence": "high"
+      },
+      "note": "A seller's letter on a consumer complaints site gives this as the LEX waybill of a parcel that stopped moving; LEX Indonesia's tracker reports it lost."
+    },
+    {
+      "number": "LXAD-5042762554",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/08/24/surat-pembaca/berat-paket-lex-id-lazada-tidak-sesuai-kenyataan-klaim-seller-ditolak-semena-mena",
+        "date": "2025-08-24",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "lex-id",
+        "confidence": "high"
+      },
+      "note": "One of the waybills a seller lists in a letter on a consumer complaints site about LEX ID's parcel weights; LEX Indonesia's tracker reports it delivered."
+    },
+    {
+      "number": "LXAD-9003583358",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2026/09/08/surat-pembaca/lazada-express-lex-membatalkan-pesanan-tanpa-konfirmasi",
+        "date": "2026-09-08",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "expect": {
+        "carrier": "lex-id",
+        "confidence": "high"
+      },
+      "note": "A buyer's letter on a consumer complaints site gives this as the waybill of a Lazada order that Lazada Express cancelled as undeliverable."
+    }
+  ]
+}

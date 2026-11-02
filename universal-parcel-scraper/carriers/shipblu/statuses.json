@@ -1,0 +1,31 @@
+{
+  "carrier": "shipblu",
+  "entries": [
+    {"code": "created", "wording": "Created", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The merchant created the order."},
+    {"code": "pickup_requested", "wording": "Pickup requested", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The merchant asked ShipBlu to collect the order."},
+    {"code": "out_for_pickup", "wording": "Out for pickup", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "A courier is on the way to collect the order from the merchant."},
+    {"code": "picked_up", "wording": "Picked up", "stage": "accepted", "language": "en", "confirmedBy": "live"},
+    {"code": "in_transit", "wording": "In transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "At a ShipBlu warehouse, as the API documentation defines the status; it alternates with en_route along the way."},
+    {"code": "en_route", "wording": "En route", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Moving from one warehouse to another, as the API documentation defines the status."},
+    {"code": "out_for_delivery", "wording": "Out for delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"code": "delivered", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"code": "pickup_rescheduled", "wording": "Pickup rescheduled", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Status in ShipBlu's API documentation: the merchant moved the pickup."},
+    {"code": "return_requested", "wording": "Return requested", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Status in ShipBlu's API documentation: the merchant asked ShipBlu to collect a return from the customer."},
+    {"code": "return_attempted", "wording": "Return attempted", "language": "en", "confirmedBy": "official-doc", "unmapped": true, "note": "Status in ShipBlu's API documentation: a courier could not collect a return from the customer, so the parcel is not in ShipBlu's hands yet."},
+    {"code": "delivery_attempted", "wording": "Delivery attempted", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc", "note": "Status in ShipBlu's API documentation; the courier gives the reason in the scan's comment."},
+    {"code": "return_to_origin", "wording": "Return to origin", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Status in ShipBlu's API documentation: the customer refused the order, its packaging broke ShipBlu's rules or the address is out of zone."},
+    {"code": "out_for_return", "wording": "Out for return", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Status in ShipBlu's API documentation: a courier is taking the order back to the merchant."},
+    {"code": "return_postponed", "wording": "Return postponed", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Status in ShipBlu's API documentation: the merchant moved the return to the next day."},
+    {"code": "return_refused", "wording": "Return refused", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Status in ShipBlu's API documentation: the merchant refused to take the order back."},
+    {"code": "returned", "wording": "Returned", "stage": "returned", "language": "en", "confirmedBy": "official-doc", "note": "Status in ShipBlu's API documentation: the order reached the merchant."},
+    {"code": "cancelled", "wording": "Cancelled", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "Status in ShipBlu's API documentation: the merchant cancelled the order before pickup."},
+    {"code": "picked_up", "wording": "تم استلام الطلب", "stage": "accepted", "language": "ar", "confirmedBy": "bundle", "note": "Arabic label of the step in the go.shipblu.com tracker's timeline."},
+    {"code": "in_transit", "wording": "En Route", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "Label of the step in the go.shipblu.com tracker's timeline."},
+    {"code": "in_transit", "wording": "في مركز التوزيع", "stage": "in_transit", "language": "ar", "confirmedBy": "bundle", "note": "Arabic label of the step in the go.shipblu.com tracker's timeline: at the distribution centre."},
+    {"code": "out_for_delivery", "wording": "طلبك في طريقه إليك", "stage": "out_for_delivery", "language": "ar", "confirmedBy": "bundle", "note": "Arabic label of the step in the go.shipblu.com tracker's timeline."},
+    {"code": "delivered", "wording": "تم تسليم الطلب", "stage": "delivered", "language": "ar", "confirmedBy": "bundle", "note": "Arabic label of the step in the go.shipblu.com tracker's timeline."},
+    {"code": "out_for_return", "wording": "طلبك فى طريقه للتاجر", "stage": "returned", "language": "ar", "confirmedBy": "bundle", "note": "Arabic label of the step in the go.shipblu.com tracker's timeline: the order is on its way back to the merchant."},
+    {"code": "returned", "wording": "تم ارجاع الطلب", "stage": "returned", "language": "ar", "confirmedBy": "bundle", "note": "Arabic label of the step in the go.shipblu.com tracker's timeline."},
+    {"wording": "On Hold", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "From ShipBlu's help article on the order timeline: the merchant's balance does not cover the shipping fee. The tracker shows it from the order's hold flag, not as a status."}
+  ]
+}

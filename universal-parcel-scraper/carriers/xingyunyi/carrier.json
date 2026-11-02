@@ -1,0 +1,53 @@
+{
+  "id": "xingyunyi",
+  "displayName": "XingYunYi",
+  "aliases": [
+    "XYY",
+    "XYY / XingYunYi",
+    "XingYunYi Logistics",
+    "XYY Logistics",
+    "行运易",
+    "行运易物流",
+    "广州行运易国际供应链有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#3b9dff"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.xingyunyi.com/tracking?nums={trackingNumber}",
+    "searchUrl": "https://www.xingyunyi.com/tracking",
+    "canaryUrl": "https://www.xingyunyi.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.xingyunyi.com",
+        "xingyunyi.com",
+        "www.xingyunyi.cn",
+        "xingyunyi.cn"
+      ],
+      "pathPattern": "^/(?:cn/)?tracking/?$",
+      "params": [
+        "nums"
+      ]
+    }
+  ],
+  "detection": []
+}

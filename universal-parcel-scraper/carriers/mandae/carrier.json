@@ -1,0 +1,49 @@
+{
+  "id": "mandae",
+  "displayName": "Mandaê",
+  "aliases": [
+    "Mandae",
+    "Nuvem Envio/Mandaê",
+    "Rastreaê"
+  ],
+  "region": {
+    "countries": [
+      "BR"
+    ]
+  },
+  "brand": {
+    "color": "#0050c3"
+  },
+  "selectable": true,
+  "timezone": "America/Sao_Paulo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://rastreae.com.br/resultado/{trackingNumber}",
+    "searchUrl": "https://rastreae.com.br/busca",
+    "canaryUrl": "https://rastreae.com.br/busca",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "rastreae.com.br"
+      ],
+      "path": "^/resultado/([A-Za-z0-9]+)/?$"
+    },
+    {
+      "domains": [
+        "app.mandae.com.br"
+      ],
+      "path": "^/rastreamento/([A-Za-z0-9]+)/?$"
+    }
+  ],
+  "detection": []
+}

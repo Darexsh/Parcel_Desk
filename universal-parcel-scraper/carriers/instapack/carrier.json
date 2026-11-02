@@ -1,0 +1,35 @@
+{
+  "id": "instapack",
+  "displayName": "Instapack",
+  "aliases": [
+    "Immediate Delivery S.L.",
+    "Mi Instapack"
+  ],
+  "region": {
+    "countries": [
+      "ES",
+      "FR"
+    ]
+  },
+  "brand": {
+    "color": "#36a8dd"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://back.instapack.es/client-dashboard/seguimiento-de-envios/",
+    "canaryUrl": "https://www.instapack.es/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

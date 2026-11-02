@@ -1,0 +1,43 @@
+{
+  "id": "transnatur",
+  "displayName": "TransNatur",
+  "aliases": [
+    "Transnatur S.A.",
+    "Transnatur Norte"
+  ],
+  "region": {
+    "countries": [
+      "ES",
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#1699cb"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://portal.transnatur.com/crm/track/{trackingNumber}/",
+    "searchUrl": "https://www.transnatur.com/",
+    "canaryUrl": "https://www.transnatur.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "portal.transnatur.com"
+      ],
+      "path": "^/crm/track/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

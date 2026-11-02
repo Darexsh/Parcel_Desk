@@ -1,0 +1,43 @@
+{
+  "carrier": "arrow-xl",
+  "records": [
+    {
+      "number": "848L00189549A087",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210923035850/https://askaxl.co.uk/tracking?upi=848L00189549A087",
+        "date": "2021-09-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A lookup archived from ArrowXL's own tracker; the capture was opened but the tracker, given no postcode, showed its invalid-reference notice instead of the parcel."
+    },
+    {
+      "number": "8CLG00927291A087",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/arrowxl/",
+        "date": "2026-10-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "ParcelPanel's ArrowXL courier page offers it as a sample to try."
+    }
+  ]
+}

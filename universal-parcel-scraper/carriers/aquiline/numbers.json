@@ -1,0 +1,71 @@
+{
+  "carrier": "aquiline",
+  "records": [
+    {
+      "number": "AQUAA6398680926YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/review/aquiline-tracking.com",
+        "date": "2026-09-14",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "aquiline"
+        ]
+      },
+      "note": "A customer review of Aquiline quotes this number for an order it delivered; its tracker answers it."
+    },
+    {
+      "number": "AQUAA0351151225YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251204061603/https://api.aquiline-tracking.com/api/v1/shiptrack/AQUAA0351151225YQ",
+        "date": "2025-12-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "aquiline"
+        ]
+      },
+      "note": "An archived lookup on Aquiline's own tracker asks for this number, and its tracker still answers it."
+    },
+    {
+      "number": "AQUAA9126450326YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260324000940/https://aquiline-tracking.com/app/?track=AQUAA9126450326YQ",
+        "date": "2026-03-24",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "aquiline"
+        ]
+      },
+      "note": "An archived lookup on Aquiline's own tracker asks for this number, and its tracker still answers it."
+    }
+  ]
+}

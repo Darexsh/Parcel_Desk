@@ -1,0 +1,85 @@
+{
+  "carrier": "gig-logistics",
+  "entries": [
+    {
+      "code": "MCRT",
+      "wording": "SHIPMENT CREATED BY CUSTOMER",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "Scan code MCRT of the public tracker's reply."
+    },
+    {
+      "code": "MAPT",
+      "wording": "SHIPMENT ASSIGNED FOR PICKUP",
+      "stage": "registered",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "Scan code MAPT of the public tracker's reply."
+    },
+    {
+      "code": "MSHC",
+      "wording": "SHIPMENT ENROUTE DELIVERY",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "Scan code MSHC of the public tracker's reply."
+    },
+    {
+      "code": "MSVC",
+      "wording": "SHIPMENT ARRIVED SERVICE CENTRE FOR ONWARD PROCESSING",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "Scan code MSVC of the public tracker's reply."
+    },
+    {
+      "code": "ARO",
+      "wording": "SHIPMENT ARRIVED OPERATIONS",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "Scan code ARO of the public tracker's reply."
+    },
+    {
+      "code": "DSC",
+      "wording": "SHIPMENT DEPART SERVICE CENTER",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "Scan code DSC of the public tracker's reply."
+    },
+    {
+      "code": "ACC",
+      "wording": "Shipment Arrives Collation Center",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "Scan code ACC of the public tracker's reply."
+    },
+    {
+      "code": "ARF",
+      "wording": "SHIPMENT ARRIVED FINAL DESTINATION",
+      "stage": "in_transit",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "Scan code ARF of the public tracker's reply."
+    },
+    {
+      "code": "WC",
+      "wording": "SHIPMENT WITH DELIVERY COURIER FOR DELIVERY",
+      "stage": "out_for_delivery",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "Scan code WC of the public tracker's reply."
+    },
+    {
+      "code": "OKT",
+      "wording": "SHIPMENT COLLECTED BY CUSTOMER",
+      "stage": "delivered",
+      "language": "en",
+      "confirmedBy": "live",
+      "note": "Scan code OKT of the public tracker's reply."
+    }
+  ]
+}

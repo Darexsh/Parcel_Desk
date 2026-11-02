@@ -1,0 +1,12 @@
+{
+  "carrier": "credifin",
+  "entries": [
+    {"wording": "En Sucursal Origen", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Event description; the tracker adds the origin branch's town, then a full stop."},
+    {"wording": "En Centro de Distribución Nodo", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Event description; the tracker adds the hub's name, then a full stop."},
+    {"wording": "Tu envío está en camino.", "stage": "in_transit", "language": "es", "confirmedBy": "portal"},
+    {"wording": "En Distribución Domiciliaria.", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal"},
+    {"wording": "En DEPOSITO", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Event state shown with the origin branch, hub and delivery events; it means the parcel is in a Credifin depot."},
+    {"wording": "En TRANSITO", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Event state of the trips between hubs."},
+    {"wording": "Entregado", "stage": "delivered", "language": "es", "confirmedBy": "official-doc", "note": "Event state the current tracker page colours green; read from its script."}
+  ]
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="/static/css/style.css" type="text/css" media="all" />
+<script src="/static/js/lib/jquery-2.2.4.min.js"></script>
+		<title>배송조회 - 로젠택배</title>
+    <script src="/static/js/lib/require.js"></script>
+    <script src="/static/js/app.js"></script>
+	<script src="/static/js/tkSearch.js"></script>
+</head>
+<body>
+<header class="personal">
+	<div class="headerTopWrap">
+		<div class="headerTop">
+			<h1 class="logo">
+				<a href="/web">LOGEN 로젠택배</a>
+            </h1>
+		</div>
+	</div>
+</header>
+<div id="contents" class="personal">
+	<section class="tkSearch">
+		<div class="wrap">
+			<h3 class="titleTop">배송조회</h3>
+
+			
+			<ul class="tabs03">
+				<li class="on"><a href="/web/personal/tkSearch">운송장 번호로 조회</a></li>
+				<li><a href="/web/personal/tkSearch?t=1">고객정보로 조회</a></li>
+				<li><a href="/web/personal/tkSearch?t=2">예약번호로 조회</a></li>
+			</ul>
+			
+
+			<div class="tab_container">
+				<div class="tab_contents">
+				 
+				
+			
+				
+			
+					<div class="subTit pdInfoTit mgt100">물품정보</div>
+					<table class="horizon pdInfo">
+						<caption>배송조회 물품정보</caption>
+						<colgroup>
+							<col style="width:200px;">
+							<col style="width:407px;">
+							<col style="width:200px;">
+							<col style="width:407px;">
+						</colgroup>
+						<tbody>
+							<tr>
+								<td class="tit">송장번호</td>
+								<td>200-0000-0005</td>
+								<td class="tit">상품명</td>
+								<td>가*****</td>
+							</tr>
+							<tr>
+								<td class="tit">집하일자</td>
+								<td>2026-10-13</td>
+								<td class="tit">배송지점</td>
+								<td>자차</td>
+							</tr>
+							<tr>
+								<td class="tit">집하지점</td>
+								<td>사아</td>
+								<td class="tit">수량</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td class="tit">보내시는 분</td>
+								<td>가****</td>
+								<td class="tit">받으시는 분</td>
+								<td>이**</td>
+							</tr>
+							<tr>
+								<td class="tit">주소</td>
+								<td colspan="3">부산 가상구 예시동</td>
+							</tr>
+							
+						</tbody>
+					</table>
+		
+					<!-- 배송정보 -->
+					<div class="subTit mgt100">배송정보</div>
+					<div class="tbTopRightBox">
+						<div class="btnResetForm">
+							<ul class="tkStep">
+								<li ><span>01</span>방문예정</li>
+								<li ><span>02</span>물품수거</li>
+								<li ><span>03</span>이동중</li>
+								<li class="on"><span>04</span>배송중</li>
+								<li ><span>05</span>배송완료</li>
+							</ul>
+						</div>
+					</div>
+					<table class="data tkInfo">		
+						<caption>배송정보</caption>
+						<colgroup>
+							<col style="width:185px;">
+							<col style="width:105px;">
+							<col style="width:115px;">
+							<col style="width:325px;">
+							<col style="width:115px;">
+							<col style="width:95px;">
+							<col style="width:115px;">
+							<col style="width:162px;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">날짜</th>
+								<th scope="col">사업장</th>
+								<th scope="col">배송상태</th>
+								<th scope="col">배송내용</th>
+								<th scope="col">담당직원</th>
+								<th scope="col">인수자</th>
+								<th scope="col">영업소</th>
+								<th scope="col">연락처</th>
+							</tr>
+						</thead>
+						<tbody>
+						
+							<tr>
+								<td>2026.10.13 18:12</td>
+								<td>사아</td>
+								<td>집하출고
+									
+								</td>
+								<td>
+								
+									
+									
+									카타터미널(으)로 출발하였습니다.
+									
+									
+								
+								</td>
+								<td>사아2-박영희</td>
+								<td>
+								
+									
+									
+								
+								</td>
+								<td>사아2-박영희</td>
+								<td>010-0000-0004</td>							
+							</tr>
+						
+							<tr>
+								<td>2026.10.13 23:58</td>
+								<td>카타터미널</td>
+								<td>터미널입고
+									
+								</td>
+								<td>
+								
+									
+									
+									사아에서 도착하였습니다.
+									
+									
+								
+								</td>
+								<td></td>
+								<td>
+								
+									
+									
+								
+								</td>
+								<td></td>
+								<td></td>							
+							</tr>
+						
+							<tr>
+								<td>2026.10.14 00:20</td>
+								<td>카타터미널</td>
+								<td>터미널출고
+									
+								</td>
+								<td>
+								
+									
+									
+									자차(으)로 출발하였습니다.
+									
+									
+								
+								</td>
+								<td>0505-000-0005</td>
+								<td>
+								
+									
+									
+								
+								</td>
+								<td></td>
+								<td></td>							
+							</tr>
+						
+							<tr>
+								<td>2026.10.14 07:41</td>
+								<td>자차</td>
+								<td>배송입고
+									
+								</td>
+								<td>
+								
+									
+									
+									자차지점에 도착했습니다.
+									
+									
+								
+								</td>
+								<td>자차지점</td>
+								<td>
+								
+									
+									
+								
+								</td>
+								<td>자차지점</td>
+								<td>0505-000-0005</td>							
+							</tr>
+						
+							<tr>
+								<td>2026.10.14 08:05</td>
+								<td>자차</td>
+								<td>배송출고
+									
+								</td>
+								<td>
+								
+									
+									
+									고객님께 물품을 배달 준비 중입니다.
+									
+									
+								
+								</td>
+								<td>배송예정</td>
+								<td>
+								
+									
+									18시~20시
+								
+								</td>
+								<td>자차3-홍길동</td>
+								<td>010-0000-0006</td>							
+							</tr>
+						
+						</tbody>
+					</table>
+					<!-- //배송정보 -->
+		
+					<div class="subTit mgt100">배송 영업소 정보</div>
+					<table class="horizon tkAreaInfo">
+						<caption>배송 영업소 정보</caption>
+						<tbody>
+							<tr>
+								<td class="tit">최종처리시간</td>
+								<td>2026.10.14  08:05 배송출고</td>
+								<td class="tit">배송예정시간</td>
+								<td>18시~20시</td>
+							</tr>
+							<tr>
+								<td class="tit">최종처리 사업장</td>
+								<td>자차</td>
+								<td class="tit">연락처1</td>
+								<td>0505-000-0005</td>
+							</tr>
+							<tr>
+								<td class="tit">영업사원</td>
+								<td>자차3-홍길동</td>
+								<td class="tit">연락처2</td>
+								<td>010-0000-0006</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<div class="btnPrint">
+						<a href="/web/personal/tkSearch" id="reloadPage">다시 조회하기</a> <a href="javascript://" id="printBtn" class="mgl20">출력하기</a>
+					</div>
+					<div class="gray2Box">
+						<div>
+							<div class="btnBox">
+								<a href="/web/customer/cs?slipNo=20000000005" class="btnSmall">고객문의</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+			<div class="downloadArea">
+				<div>로젠택배 <span>APP</span></div>
+			</div>
+		</div>
+
+	</section>
+</div>
+<div class="dimmed"></div>
+<!-- 인수자 서명 -->
+<div class="layerPop signPop">
+	<div class="popupCon">
+		<div>
+		
+		</div>
+		<a href="#" class="btnClosePopup">팝업 닫기</a>
+	</div>
+</div>
+<footer>
+	<div class="footerInfo">고객센터 1588-9988</div>
+</footer>
+</body>
+</html>

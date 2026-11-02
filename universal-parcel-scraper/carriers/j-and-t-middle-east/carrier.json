@@ -1,0 +1,91 @@
+{
+  "id": "j-and-t-middle-east",
+  "displayName": "J&T Express Middle East",
+  "aliases": [
+    "J&T Express (SA)",
+    "J&T Express Saudi Arabia",
+    "J&T Express KSA",
+    "J&T Express UAE",
+    "J&T Express (UAE)",
+    "J&T Express Kuwait"
+  ],
+  "region": {
+    "countries": [
+      "SA",
+      "AE",
+      "KW"
+    ]
+  },
+  "brand": {
+    "color": "#e60000"
+  },
+  "selectable": true,
+  "timezone": "Asia/Riyadh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "j-and-t-middle-east",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://www.jtexpress.me/KSA/trajectoryList?waybillNo={trackingNumber}&type=0",
+    "searchUrl": "https://www.jtexpress.me/KSA/trackOrder",
+    "canaryUrl": "https://www.jtexpress.me/KSA/trackOrder",
+    "shows": [
+      "status",
+      "history",
+      "provider_code",
+      "location",
+      "driver_name",
+      "contact_details",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "driver_name",
+      "contact_details",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "weight"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.jtexpress.me",
+        "jtexpress.me",
+        "www.jtexpress.ae",
+        "jtexpress.ae"
+      ],
+      "pathPattern": "^/(?:KSA|UAE|KW)/(?:trajectoryList|trajectoryQuery|subBillCode)/?$",
+      "params": [
+        "waybillNo"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "j-and-t-middle-east-1",
+      "pattern": "^JTE\\d{12}$",
+      "confidence": "high"
+    }
+  ]
+}

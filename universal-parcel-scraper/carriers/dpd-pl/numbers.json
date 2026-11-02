@@ -1,0 +1,260 @@
+{
+  "carrier": "dpd-pl",
+  "records": [
+    {
+      "number": "1050174241169U",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260902211513/https://tracktrace.dpd.com.pl/parcelDetails?typ=1&p1=1050174241169U&p2=&p3=&p4=&p5=&p6=&p7=&p8=&p9=&p10=",
+        "date": "2026-09-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dpd-pl",
+        "confidence": "high"
+      },
+      "note": "A DPD Poland tracking link archived by the Wayback Machine. DPD Poland's tracker returns its history."
+    },
+    {
+      "number": "1041517310381U",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260428220313/https://tracktrace.dpd.com.pl/parcelDetails?p1=1041517310381U",
+        "date": "2026-04-28",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dpd-pl",
+        "confidence": "high"
+      },
+      "note": "A DPD Poland tracking link archived by the Wayback Machine. DPD Poland's tracker returns its history."
+    },
+    {
+      "number": "0000044199542L",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260506003012/https://tracktrace.dpd.com.pl/parcelDetails?p1=0000044199542L",
+        "date": "2026-05-06",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dpd-pl",
+        "confidence": "high"
+      },
+      "relationships": [
+        {
+          "kind": "return_of",
+          "number": "1041517310381U",
+          "source": {
+            "url": "https://tracktrace.dpd.com.pl/EN/parcelDetails?typ=1&p1=1041517310381U",
+            "date": "2026-10-09",
+            "dateKind": "carrier tracker reply",
+            "access": "full_page"
+          }
+        }
+      ],
+      "note": "A DPD Poland tracking link archived by the Wayback Machine. DPD Poland's tracker returns its history, and names it as the return of the linked parcel."
+    },
+    {
+      "number": "0054312810885W",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260703132005/https://tracktrace.dpd.com.pl/parcelDetails?typ=1&p1=0054312810885W",
+        "date": "2026-07-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dpd-pl",
+        "confidence": "high"
+      },
+      "note": "A DPD Poland tracking link archived by the Wayback Machine. DPD Poland's tracker returns its history."
+    },
+    {
+      "number": "1046808153537U",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260714113620/https://tracktrace.dpd.com.pl/parcelDetails?p1=1046808153537U",
+        "date": "2026-07-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dpd-pl",
+        "confidence": "high"
+      },
+      "note": "A DPD Poland tracking link archived by the Wayback Machine. DPD Poland's tracker returns its history; the parcel holds a second package with its own history."
+    },
+    {
+      "number": "13649547289291",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20261003044720/https://tracktrace.dpd.com.pl/parcelDetails?typ=1&p1=13649547289291",
+        "date": "2026-10-03",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-pl",
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "hermes-de",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "A DPD Poland tracking link archived by the Wayback Machine. DPD Poland's tracker returns its history. Fourteen digits stay ambiguous; DPD Poland is listed first for this depot range."
+    },
+    {
+      "number": "13035101438631",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260312160738/https://tracktrace.dpd.com.pl/parcelDetails?p1=13035101438631",
+        "date": "2026-03-12",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-pl",
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "A DPD Poland tracking link archived by the Wayback Machine. DPD Poland's tracker returns its history. Fourteen digits stay ambiguous; DPD Poland is listed first for this depot range."
+    },
+    {
+      "number": "13579457266298",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260830133751/https://tracktrace.dpd.com.pl/EN/parcelDetails?p1=13579457266298",
+        "date": "2026-08-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-pl",
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "A DPD Poland tracking link archived by the Wayback Machine. DPD Poland's tracker returns its history. Fourteen digits stay ambiguous; DPD Poland is listed first for this depot range."
+    },
+    {
+      "number": "13699428011825",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260325092426/https://tracktrace.dpd.com.pl/EN/parcelDetails?typ=1&p1=13699428011825&p2=&p3=&p4=&p5=&p6=&p7=&p8=&p9=&p10=",
+        "date": "2026-03-25",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-pl",
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "delhivery",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk",
+          "xpressbees"
+        ]
+      },
+      "note": "A DPD Poland tracking link archived by the Wayback Machine. DPD Poland's tracker returns its history. Fourteen digits stay ambiguous; DPD Poland is listed first for this depot range."
+    }
+  ]
+}

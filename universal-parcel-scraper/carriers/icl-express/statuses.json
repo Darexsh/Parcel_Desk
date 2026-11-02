@@ -1,0 +1,28 @@
+{
+  "carrier": "icl-express",
+  "entries": [
+    {"wording": "SHIPMENT RECEIVED", "stage": "accepted", "language": "en", "confirmedBy": "portal"},
+    {"wording": "SHIPMENT SENT TO HYDERABAD", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "The city varies: the former tracker also showed SHIPMENT SENT TO BANGALORE."},
+    {"wording": "PICKED UP", "stage": "accepted", "language": "en", "confirmedBy": "portal"},
+    {"wording": "IN TRANSIT", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "PENDING OCTROI CLEARENCE", "stage": "customs", "language": "en", "confirmedBy": "portal", "note": "Held for octroi, the local entry tax Mumbai levied on goods; spelling as on the tracker."},
+    {"wording": "RELEASED FROM OCTROI", "stage": "customs", "language": "en", "confirmedBy": "portal"},
+    {"wording": "ARRIVED HUB", "stage": "in_transit", "language": "en", "confirmedBy": "portal"},
+    {"wording": "DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Shown as the current status in the shipment summary."},
+    {"wording": "Shipment Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Listed with the other texts below in the step keywords of the current tracker page's script."},
+    {"wording": "Sorted to Destination", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc"},
+    {"wording": "Open Manifest In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc"},
+    {"wording": "Open Manifest Arrived Hub", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc"},
+    {"wording": "Forwarded To Destination Sort facility(BM)", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc"},
+    {"wording": "Arrived Branch", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc"},
+    {"wording": "Forwarding To Destination", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc"},
+    {"wording": "OpenManifest In Trasit", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "Spelling as in the tracker script."},
+    {"wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc"},
+    {"wording": "Undelivered-High Security Area/Consignee Need to permit to enter Location", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc"},
+    {"wording": "Load Recived After Cut Off", "stage": "in_transit", "language": "en", "confirmedBy": "official-doc", "note": "The load reached the delivery branch after the day's cut-off; spelling as in the tracker script."},
+    {"wording": "Delivery will be arranged next business day", "language": "en", "confirmedBy": "official-doc", "note": "A rescheduling notice the tracker groups with the delivery step."},
+    {"wording": "POD Uploaded", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Proof of delivery uploaded."},
+    {"wording": "Sent to Origin(RTO)", "stage": "returned", "language": "en", "confirmedBy": "official-doc"},
+    {"wording": "Undelivered", "stage": "failed_attempt", "language": "en", "confirmedBy": "official-doc"}
+  ]
+}

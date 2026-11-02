@@ -1,0 +1,36 @@
+{
+  "carrier": "juxi-express",
+  "records": [
+    {
+      "number": "JXCYT7091667250YQ",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/juxiex/",
+        "date": "2026-10-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "juxi-express",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Juxi Express page offers it as a sample. No tracker of the carrier remains to confirm it."
+    },
+    {
+      "number": "JXCZZ9000000001YQ",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-21",
+      "expect": {
+        "carrier": "juxi-express",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of parcels a universal provider files under SHJX, Juxi Express's name there."
+    }
+  ]
+}

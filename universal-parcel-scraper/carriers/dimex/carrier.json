@@ -1,0 +1,55 @@
+{
+  "id": "dimex",
+  "displayName": "DIMEX",
+  "aliases": [
+    "Даймэкс",
+    "ДАЙМЭКС",
+    "Даймекс",
+    "Daimeks",
+    "DIMEX Express",
+    "Daily International Messenger Express"
+  ],
+  "region": {
+    "countries": [
+      "RU",
+      "KZ",
+      "BY",
+      "AM",
+      "KG",
+      "EE"
+    ]
+  },
+  "brand": {
+    "color": "#0e4097"
+  },
+  "selectable": true,
+  "timezone": "Europe/Moscow",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.dimex.ws/otslezhivanie-nakladnyh/?nomer={trackingNumber}&lng=rus",
+    "searchUrl": "https://www.dimex.ws/otslezhivanie-nakladnyh/",
+    "canaryUrl": "https://www.dimex.ws/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.dimex.ws",
+        "dimex.ws"
+      ],
+      "pathPattern": "^/otslezhivanie-nakladnyh/?$",
+      "params": [
+        "nomer"
+      ]
+    }
+  ],
+  "detection": []
+}

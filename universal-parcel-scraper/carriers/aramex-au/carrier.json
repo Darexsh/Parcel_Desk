@@ -1,0 +1,108 @@
+{
+  "id": "aramex-au",
+  "displayName": "Aramex Australia",
+  "aliases": [
+    "Aramex AU",
+    "Fastway Australia",
+    "Fastway Couriers Australia"
+  ],
+  "region": {
+    "countries": [
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#dc291e"
+  },
+  "selectable": true,
+  "timezone": "Australia/Sydney",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "aramex-au",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 445
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "provider_code",
+    "service_name",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://www.aramex.com.au/tools/track?l={trackingNumber}",
+    "searchUrl": "https://www.aramex.com.au/tools/track/",
+    "canaryUrl": "https://www.aramex.com.au/tools/track/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "progress_rail",
+      "service_name",
+      "delivery_instructions",
+      "customer_reference",
+      "signatory",
+      "signature",
+      "proof_of_delivery",
+      "pickup_point",
+      "pickup_point_address",
+      "office_opening_hours",
+      "coordinates",
+      "pickup_code"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "provider_code",
+      "service_name",
+      "canonical_tracking_number"
+    ],
+    "discarded": [
+      "progress_rail",
+      "delivery_instructions",
+      "customer_reference",
+      "signatory",
+      "signature",
+      "proof_of_delivery",
+      "pickup_point",
+      "pickup_point_address",
+      "office_opening_hours",
+      "coordinates",
+      "pickup_code"
+    ],
+    "unavailable": [
+      "sender_name",
+      "recipient_name",
+      "weight",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "aramex.com.au",
+        "fastway.com.au"
+      ],
+      "params": [
+        "l"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "aramex-au-1",
+      "pattern": "^(?!MX\\d{10}$)(?:[A-Z]{2}|\\d[A-Z])\\d{10}$",
+      "confidence": "low"
+    }
+  ]
+}

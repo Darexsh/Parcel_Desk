@@ -1,0 +1,57 @@
+{
+  "carrier": "ids-logistik",
+  "records": [
+    {
+      "number": "8005400002848005",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://de.trustpilot.com/review/ids-logistik.de",
+        "date": "2026-09-30",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "A Trustpilot review of IDS Logistik gives it as the Sendungsnummer of a bicycle IDS delivered."
+    },
+    {
+      "number": "4606003100969006",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220830121003/https://www.ids-logistik.de/api/shipping/status",
+        "date": "2022-08-30",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "correos-express",
+          "canada-post",
+          "tnt",
+          "evri-uk"
+        ]
+      },
+      "note": "Looked up on IDS's own tracking service, as an archived request shows; the capture echoes the number with an empty history."
+    }
+  ]
+}

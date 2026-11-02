@@ -1,0 +1,43 @@
+{
+  "cnote": {
+    "cnote_no": "JT12345078902",
+    "cnote_date": "2026-02-10T09:15:00.000+07:00",
+    "cnote_pod_date": "12 FEB 2026  14:03",
+    "cnote_pod_receiver": "BUDI PRIVATE:}",
+    "cnote_receiver_name": "BUDI PRIVATE",
+    "pod_status": "DELIVERED",
+    "pod_code": "D01",
+    "keterangan": "YANG BERSANGKUTAN",
+    "weight": "2.50",
+    "city_name": "DENPASAR, BALI",
+    "cnote_services_code": "REG",
+    "goods_desc": "SAMPLE GOODS",
+    "amount": "32000",
+    "signature": "https://example.invalid/sample-sig.jpg",
+    "photo": "https://example.invalid/sample-pod.jpg"
+  },
+  "detail": [
+    {
+      "cnote_no": "JT12345078902",
+      "cnote_date": "10-02-2026 09:15",
+      "cnote_weight": "2.50",
+      "cnote_origin": "SURABAYA",
+      "cnote_shipper_name": "PRIVATE SHIPPER",
+      "cnote_shipper_addr1": "JL SAMPLE NO 1",
+      "cnote_shipper_city": "SURABAYA",
+      "cnote_receiver_name": "BUDI PRIVATE",
+      "cnote_receiver_addr1": "JL SAMPLE NO 2",
+      "cnote_receiver_city": "DENPASAR"
+    }
+  ],
+  "history": [
+    { "date": "10-02-2026 09:15", "desc": "SHIPMENT RECEIVED AT [SURABAYA] [SURABAYA, AGEN SAMPLE]" },
+    { "date": "10-02-2026 09:40", "desc": "RECEIVED AT SORTING CENTER [SURABAYA] [SURABAYA, OTB SAMPLE]" },
+    { "date": "10-02-2026 10:02", "desc": "PROCESS AND FORWARD TO [DENPASAR, HUB BALI] [SURABAYA, OTB SAMPLE]" },
+    { "date": "11-02-2026 06:20", "desc": "RECEIVED AT WAREHOUSE [DENPASAR, HUB BALI] [DENPASAR, HUB BALI]" },
+    { "date": "11-02-2026 06:20", "desc": "RECEIVED AT WAREHOUSE [DENPASAR, HUB BALI] [DENPASAR, HUB BALI]" },
+    { "date": "12-02-2026 08:10", "desc": "WITH DELIVERY COURIER [DENPASAR, DROP POINT SAMPLE] [DENPASAR, DROP POINT SAMPLE]" },
+    { "date": "12-02-2026 14:03", "desc": "DELIVERED TO [BUDI PRIVATE:} | 12-02-2026 14:03 | DENPASAR ]" }
+  ],
+  "status": "00"
+}

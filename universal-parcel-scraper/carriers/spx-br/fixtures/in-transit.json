@@ -1,0 +1,485 @@
+{
+  "retcode": 0,
+  "data": {
+    "fulfillment_info": {
+      "deliver_type": 1
+    },
+    "sls_tracking_info": {
+      "sls_tn": "BR260000000002X",
+      "client_order_id": "1000000000000000001",
+      "receiver_name": "Pessoa Exemplo",
+      "receiver_type_name": "",
+      "records": [
+        {
+          "tracking_code": "F380",
+          "tracking_name": "Import Customs Checking",
+          "description": "Pedido em inspeção na alfândega de importação",
+          "display_flag": 1,
+          "actual_time": 1779632000,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pedido em inspeção na alfândega de importação",
+          "seller_description": "Pedido em inspeção na alfândega de importação",
+          "milestone_code": 4,
+          "milestone_name": "Arrived at {{Destination Country}}"
+        },
+        {
+          "tracking_code": "F366",
+          "tracking_name": "Import Customs Received",
+          "description": "Pedido está na alfândega de importação",
+          "display_flag": 1,
+          "actual_time": 1779549200,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pedido está na alfândega de importação",
+          "seller_description": "Pedido está na alfândega de importação",
+          "milestone_code": 4,
+          "milestone_name": "Arrived at {{Destination Country}}"
+        },
+        {
+          "tracking_code": "F360",
+          "tracking_name": "Arrived at Destination Port",
+          "description": "Pedido chegou no Brasil",
+          "display_flag": 1,
+          "actual_time": 1779545600,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Aeroporto Internacional Exemplo",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pedido chegou no Brasil",
+          "seller_description": "Pedido chegou no Brasil",
+          "milestone_code": 4,
+          "milestone_name": "Arrived at {{Destination Country}}"
+        },
+        {
+          "tracking_code": "F355",
+          "tracking_name": "Departed from Transit Port",
+          "description": "Pedido saiu do porto de trânsito : Cidade de Trânsito",
+          "display_flag": 1,
+          "actual_time": 1779499200,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Aeroporto de Trânsito",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pedido saiu do porto de trânsito : Cidade de Trânsito",
+          "seller_description": "Pedido saiu do porto de trânsito : Cidade de Trânsito",
+          "milestone_code": 3,
+          "milestone_name": "In transit to {{Destination Country}}"
+        },
+        {
+          "tracking_code": "F380",
+          "tracking_name": "Import Customs Checking",
+          "description": "Pedido em inspeção na alfândega de importação: RFB - Descrição insuficiente/incompleta",
+          "display_flag": 1,
+          "actual_time": 1779479200,
+          "reason_code": "RFB - Descrição insuficiente/incompleta",
+          "reason_desc": "RFB - Descrição insuficiente/incompleta",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pedido em inspeção na alfândega de importação: RFB - Descrição insuficiente/incompleta",
+          "seller_description": "Pedido em inspeção na alfândega de importação: RFB - Descrição insuficiente/incompleta",
+          "milestone_code": 4,
+          "milestone_name": "Arrived at {{Destination Country}}"
+        },
+        {
+          "tracking_code": "F350",
+          "tracking_name": "Arrived at Transit Port",
+          "description": "Pedido chegou no porto de trânsito: Cidade de Trânsito",
+          "display_flag": 1,
+          "actual_time": 1779459200,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Aeroporto de Trânsito",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pedido chegou no porto de trânsito: Cidade de Trânsito",
+          "seller_description": "Pedido chegou no porto de trânsito: Cidade de Trânsito",
+          "milestone_code": 3,
+          "milestone_name": "In transit to {{Destination Country}}"
+        },
+        {
+          "tracking_code": "F410",
+          "tracking_name": "Parcel Inbounded import dispatch Warehouse",
+          "description": "Parcel inbounded import dispatch warehouse",
+          "display_flag": 0,
+          "actual_time": 1779422800,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 0,
+          "buyer_description": "Parcel inbounded import dispatch warehouse",
+          "seller_description": "Parcel inbounded import dispatch warehouse",
+          "milestone_code": 4,
+          "milestone_name": "Arrived at {{Destination Country}}"
+        },
+        {
+          "tracking_code": "F341",
+          "tracking_name": "Departure From Origin Port",
+          "description": "Pedido saiu da origem: Cidade de Origem ",
+          "display_flag": 1,
+          "actual_time": 1779412800,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Aeroporto Amostra",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "Pedido saiu da origem: Cidade de Origem ",
+          "seller_description": "Pedido saiu da origem: Cidade de Origem ",
+          "milestone_code": 3,
+          "milestone_name": "In transit to {{Destination Country}}"
+        },
+        {
+          "tracking_code": "F339",
+          "tracking_name": "Export Customs Cleared",
+          "description": "[China]O pedido foi liberado na alfândega de exportação ",
+          "display_flag": 1,
+          "actual_time": 1779372800,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Aeroporto Amostra",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "[China]O pedido foi liberado na alfândega de exportação ",
+          "seller_description": "[China]O pedido foi liberado na alfândega de exportação ",
+          "milestone_code": 3,
+          "milestone_name": "In transit to {{Destination Country}}"
+        },
+        {
+          "tracking_code": "F300",
+          "tracking_name": "Forwarder Received Parcel",
+          "description": "[China]O pedido foi coletado pela transportadora responsável pelo envio ao Brasil.",
+          "display_flag": 1,
+          "actual_time": 1779336400,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Aeroporto Amostra",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "[China]O pedido foi coletado pela transportadora responsável pelo envio ao Brasil.",
+          "seller_description": "[China]O pedido foi coletado pela transportadora responsável pelo envio ao Brasil.",
+          "milestone_code": 3,
+          "milestone_name": "In transit to {{Destination Country}}"
+        },
+        {
+          "tracking_code": "F299",
+          "tracking_name": "Transit Warehouse Outbound",
+          "description": "[China] Pedido saiu do centro logístico de Cidade de Origem",
+          "display_flag": 1,
+          "actual_time": 1779286400,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Origem",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 12,
+          "buyer_description": "[China] Pedido saiu do centro logístico de Cidade de Origem",
+          "seller_description": "[China] Pedido saiu do centro logístico de Cidade de Origem",
+          "milestone_code": 2,
+          "milestone_name": "Processing for overseas shipment"
+        },
+        {
+          "tracking_code": "F230",
+          "tracking_name": "Packing In Transit Warehouse",
+          "description": "Embalando no Armazém de Trânsito",
+          "display_flag": 0,
+          "actual_time": 1779260000,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Origem",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 0,
+          "buyer_description": "Embalando no Armazém de Trânsito",
+          "seller_description": "Embalando no Armazém de Trânsito",
+          "milestone_code": 2,
+          "milestone_name": "Processing for overseas shipment"
+        },
+        {
+          "tracking_code": "F200",
+          "tracking_name": "Transit Warehouse Inbound",
+          "description": "[China] O pedido chegou ao centro de triagem de Cidade de Origem",
+          "display_flag": 1,
+          "actual_time": 1779240000,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Origem",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "[China] O pedido chegou ao centro de triagem de Cidade de Origem",
+          "seller_description": "[China] O pedido chegou ao centro de triagem de Cidade de Origem",
+          "milestone_code": 2,
+          "milestone_name": "Processing for overseas shipment"
+        },
+        {
+          "tracking_code": "F099",
+          "tracking_name": "Pickup From Cross Border Seller",
+          "description": "",
+          "display_flag": 1,
+          "actual_time": 1779220000,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "Cidade do Vendedor",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 13,
+          "buyer_description": "",
+          "seller_description": "",
+          "milestone_code": 2,
+          "milestone_name": "Processing for overseas shipment"
+        },
+        {
+          "tracking_code": "F000",
+          "tracking_name": "Manifested",
+          "description": "Recebemos o seu pedido no nosso armazém e estamos preparando para envio.",
+          "display_flag": 1,
+          "actual_time": 1779200000,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 12,
+          "buyer_description": "Recebemos o seu pedido no nosso armazém e estamos preparando para envio.",
+          "seller_description": "Recebemos o seu pedido no nosso armazém e estamos preparando para envio.",
+          "milestone_code": 1,
+          "milestone_name": "Preparing to ship"
+        },
+        {
+          "tracking_code": "A000",
+          "tracking_name": "SLSTN Created",
+          "description": "SLSTN has been created, sending request to logistic partners",
+          "display_flag": 0,
+          "actual_time": 1779199997,
+          "reason_code": "",
+          "reason_desc": "",
+          "epod": "",
+          "current_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "next_location": {
+            "location_name": "",
+            "location_type_name": "",
+            "lng": "",
+            "lat": "",
+            "full_address": ""
+          },
+          "display_flag_v2": 0,
+          "buyer_description": "SLSTN has been created, sending request to logistic partners",
+          "seller_description": "SLSTN has been created, sending request to logistic partners",
+          "milestone_code": 1,
+          "milestone_name": "Preparing to ship"
+        }
+      ]
+    },
+    "is_instant_order": false,
+    "is_shopee_market_order": true
+  },
+  "message": "success",
+  "detail": "",
+  "debug": ""
+}

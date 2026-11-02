@@ -1,0 +1,16 @@
+{
+  "carrier": "postex",
+  "entries": [
+    {"code": "0001", "wording": "At Merchant's Warehouse", "language": "en", "stage": "registered", "confirmedBy": "live", "note": "The reply names the merchant, as \"At SAMPLE STORE Warehouse\"; the adapter writes PostEx's own label for the code instead. The order is booked and waits for PostEx to pick it up."},
+    {"code": "0031", "wording": "Departed to PostEx. Warehouse", "language": "en", "stage": "accepted", "confirmedBy": "live", "note": "Picked up from the merchant. Sometimes logged in the same second as the warehouse's receipt."},
+    {"code": "0003", "wording": "Received at LHE Warehouse", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The station code varies; it is the scan's location."},
+    {"code": "0033", "wording": "Departed to LAHORE", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Names the city the parcel leaves for, not where it is."},
+    {"code": "0033", "wording": "Departed to KARACHI", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"code": "0035", "wording": "Arrived at Transit Hub LHE", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "The station code varies; it is the scan's location."},
+    {"code": "0035", "wording": "Arrived at Transit Hub KHI", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"code": "0038", "wording": "Waiting for Delivery", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "At the delivering hub, before a rider takes the parcel out."},
+    {"code": "0004", "wording": "Enroute for Delivery", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live"},
+    {"code": "0013", "wording": "Attempt Made: CNA(CUSTOMER NOT AVAILABLE)", "language": "en", "stage": "failed_attempt", "confirmedBy": "live", "note": "The reason follows the colon; the parcel goes out again."},
+    {"code": "0005", "wording": "Delivered to Customer", "language": "en", "stage": "delivered", "confirmedBy": "live"}
+  ]
+}

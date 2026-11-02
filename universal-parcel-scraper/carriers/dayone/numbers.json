@@ -1,0 +1,36 @@
+{
+  "carrier": "dayone",
+  "records": [
+    {
+      "number": "DOT0000000002256097",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260521203056/https://www.parcelpanel.com/couriers/dayonetrack/",
+        "date": "2026-05-21",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "dayone",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's DayOne page offered it to try. DayOne's tracker answers it as a parcel for Australia that Australia Post delivered."
+    },
+    {
+      "number": "DOT0000000000000017",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-22",
+      "expect": {
+        "carrier": "dayone",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of a DayOne parcel the app tracked and DayOne's tracker answered: DOT and sixteen digits."
+    }
+  ]
+}

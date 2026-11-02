@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body id="frameBody">
+              <div class="print-button">
+                <a class="print-link" onclick="window.print()" href="#">Print Shipment</a>
+              </div>
+
+	 	<!-- Array
+(
+    [barcode] => SP000000000000000025
+    [consignee] => PRIVATE RECIPIENT
+    [address1] => 1 PRIVATE STREET
+    [signer] => PRIVATE SIGNER
+    [scanloc] => PRIVATE DEPOT
+    [scanepoch] => 1700000000
+)
+<p><strong>Tracking Number:</strong> SP000000000000000025</p>
+<table><thead><tr><th>Date / Time</th><th>Location</th><th>Activity</th></tr></thead>
+<tbody><tr><td>01/01/2020 01:00:00 am</td><td>PRIVATE DEPOT</td><td>PRIVATE ACTIVITY</td></tr></tbody></table>
+ -->
+
+	<table class="u-full-width">
+		<tr valign="top">
+			<td style="width:130px;" class="text-right"><strong class="nowrap">Status:</strong></td>
+			<td>Delivered</td>
+		</tr>
+		<tr valign="top">
+			<td class="text-right"><strong class="nowrap">Delivered on:</strong></td>
+			<td>05/12/2026 10:20 am</td>
+		</tr>
+		<tr valign="top">
+			<td class="text-right"><strong class="nowrap">Signed by:</strong></td>
+			<td>PRIVATE SIGNER</td>
+		</tr>
+		<tr valign="top">
+			<td class="text-right"><strong class="nowrap">Delivered to:</strong></td>
+			<td>1 PRIVATE STREET<br>EXAMPLE CITY, IL</td>
+		</tr>
+		<tr valign="top">
+			<td class="text-right"><strong class="nowrap">Tracking Number:</strong></td>
+			<td>SP0000000000000017                    </td>
+		</tr>
+		
+		
+		
+	</table>
+	
+	<h3>Package Progress</h3>
+	<p><strong>Tracking Number:</strong> SP0000000000000017</p>
+	<table class="u-full-width">
+		<thead>
+			<tr>
+				<th>Date / Time</th>
+				<th>Location</th>
+				<th>Activity</th>
+			</tr>
+		</thead>
+		<tbody>
+									<tr class="odd">
+				<td>05/12/2026 10:20:00 am</td>
+				<td>EXAMPLE CITY, IL</td>
+				<td>Delivered</td>
+			</tr>
+									<tr class="even">
+				<td>05/12/2026 07:45:10 am</td>
+				<td>SAMPLE HUB, IL</td>
+				<td>OUT FOR DELIVERY (00000)</td>
+			</tr>
+									<tr class="odd">
+				<td>05/11/2026 09:30:00 pm</td>
+				<td>SAMPLE HUB, IL</td>
+				<td>ARRIVAL SCAN</td>
+			</tr>
+									<tr class="even">
+				<td>08/14/2023 01:10:00 pm</td>
+				<td>OTHER TOWN, IA</td>
+				<td>Delivered</td>
+			</tr>
+									<tr class="odd">
+				<td>08/14/2023 06:55:00 am</td>
+				<td>OTHER HUB, IA</td>
+				<td>OUT FOR DELIVERY (00000)</td>
+			</tr>
+									<tr class="even">
+				<td>08/12/2023 03:00:00 pm</td>
+				<td>ORIGIN TERMINAL, MN</td>
+				<td>ARRIVAL SCAN</td>
+			</tr>
+					</tbody>
+	</table>
+
+	<p>Tracking results provided by SPEE-DEE: <span class="nowrap">05/13/2026 09:00:00 am Central Time (USA)</span></p>
+	<p><small><strong>NOTICE:</strong> SPEE-DEE authorizes you to use SPEE-DEE tracking systems solely to track shipments tendered by or for you to SPEE-DEE for delivery and for no other purpose. Any other use of SPEE-DEE tracking systems and information is strictly prohibited.</small></p>
+
+	
+	<script type="text/javascript">
+		window.addEventListener("load", postSize, false);
+		function postSize(e){
+			var target = parent.postMessage ? parent : (parent.document.postMessage ? parent.document : undefined);
+			if (typeof target != "undefined" && document.body.scrollHeight) {
+				target.postMessage(document.getElementById("frameBody").scrollHeight, "*");
+			}
+
+			var url = document.location.href;
+            var url_parts = url.split("?");
+            var qsa = url_parts[1];
+            target.postMessage('/track-a-shipment/?'+qsa, "*");
+		}
+	</script>
+
+</body>

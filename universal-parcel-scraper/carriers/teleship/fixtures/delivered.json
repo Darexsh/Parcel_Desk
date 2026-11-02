@@ -1,0 +1,29 @@
+{
+  "status": "delivered",
+  "shipmentId": "00000000-0000-4000-8000-000000000001",
+  "shipDate": "2026-03-02T10:15:00.000Z",
+  "trackingNumber": "TSGBUSSMPL01000000001",
+  "trackingURL": "https://teleship.com/tracking?trackingNumber=TSGBUSSMPL01000000001",
+  "customerReference": "#0001",
+  "estimatedDelivery": "2026-03-10T06:59:59.999Z",
+  "shipTo": {
+    "name": "Sample Recipient",
+    "address": { "line1": "1 Sample Street", "city": "Sample City", "postcode": "00000", "country": "US" }
+  },
+  "lastMile": {
+    "carrier": "USPS",
+    "trackingNumber": "9400100000000000000001",
+    "trackingUrl": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9400100000000000000001"
+  },
+  "events": [
+    { "alias": "SHIPPER_LABEL", "code": "S_102", "description": "Shipment info received by carrier", "timestamp": "2026-03-02T10:05:12.345Z", "type": "label_created" },
+    { "alias": "FIRST_MILE_COLLECTED", "code": "F_101", "description": "Collected", "location": "Sample Town, UK", "timestamp": "2026-03-02T16:40:00.000Z", "type": "picked_up" },
+    { "alias": "HUB_ARRIVED", "code": "H_101", "description": "Arrived at Teleship hub", "location": "Mark 3, Sample Hub, UK", "timestamp": "2026-03-03T07:12:00.000Z", "type": "in_transit" },
+    { "alias": "HUB_ARRIVED", "code": "H_101", "description": "Arrived at Teleship hub", "location": "Mark 3, Sample Hub, UK", "timestamp": "2026-03-03T07:12:00.000Z", "type": "in_transit" },
+    { "alias": "HUB_DEPARTED", "code": "H_201", "description": "Departed hub", "location": "Pro Carrier, Sample Hub, UK", "timestamp": "2026-03-03T19:30:00.000Z", "type": "in_transit" },
+    { "alias": "CUSTOMS_RELEASED", "code": "C_201", "description": "Customs released", "location": "Sample Gateway, US", "timestamp": "2026-03-05T14:02:00.000Z", "type": "in_transit" },
+    { "alias": "LAST_MILE_HANDOVER", "code": "L_101", "description": "Handed to last-mile carrier", "location": "Sample Gateway, US", "timestamp": "2026-03-06T03:20:00.000Z", "type": "in_transit" },
+    { "alias": "LAST_MILE_OFD", "code": "L_301", "description": "Out for delivery", "location": "Sample City, US", "timestamp": "2026-03-09T13:05:00.000Z", "type": "out_for_delivery" },
+    { "alias": "LAST_MILE_DELIVERED", "code": "L_901", "description": "Delivered, signed for by SAMPLE PERSON", "location": "Sample City, US", "timestamp": "2026-03-09T18:44:00.000Z", "type": "delivered" }
+  ]
+}

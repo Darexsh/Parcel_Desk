@@ -1,0 +1,27 @@
+{
+  "carrier": "shipglobal-us",
+  "records": [
+    {
+      "number": "FFUSA792916",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.shipglobal.us/tracking?waybill=FFUSA792916",
+        "date": "2026-11-01",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "shipglobal-us"
+        ]
+      },
+      "note": "A web search lists ShipGlobal US's former tracker page for this waybill; its tracker answers it with a 2023 shipment delivered in New South Wales, Australia."
+    }
+  ]
+}

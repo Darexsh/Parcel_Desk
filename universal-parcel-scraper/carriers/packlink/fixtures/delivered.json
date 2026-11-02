@@ -1,0 +1,66 @@
+{
+  "shipment_reference": "ES2026COM0000000101",
+  "public_tracking_id": "SyntheticPublicId0001",
+  "last_synchronization_succeeded": "2026-05-13T19:40:11.512Z",
+  "current_status": "DELIVERED",
+  "status_history": [
+    {"status": "DELIVERED", "time": "2026-05-13T19:40:11.520Z"},
+    {"status": "OUT_FOR_DELIVERY_INCIDENT_02", "time": "2026-05-13T10:40:07.061Z"},
+    {"status": "IN_TRANSIT_02", "time": "2026-05-13T07:40:05.733Z"},
+    {"status": "IN_TRANSIT", "time": "2026-05-12T19:40:02.811Z"},
+    {"status": "READY_FOR_COLLECTION", "time": "2026-05-12T08:15:00.950Z"}
+  ],
+  "current_status_info": {"category": "DELIVERED", "is_incident": false},
+  "transit_start_time": "2026-05-12T17:30:00Z",
+  "transit_end_time": "2026-05-13T16:05:00Z",
+  "transit_duration": "PT22H35M",
+  "carrier_shipment_tracking_number": "3000000000000101",
+  "parcels": [
+    {
+      "current_status": "DELIVERED",
+      "current_status_info": {"category": "DELIVERED", "is_incident": false},
+      "carrier_tracking_number": "30000000000001010000001",
+      "transit_start_time": "2026-05-12T17:30:00Z",
+      "transit_end_time": "2026-05-13T16:05:00Z",
+      "transit_duration": "PT22H35M",
+      "checkpoints": [
+        {"status": "READY_FOR_COLLECTION", "status_info": {"category": "READY_FOR_COLLECTION", "is_incident": false},
+          "raw_carrier_status": {"code": "SIN RECEPCION", "description": "SIN RECEPCION"}, "occurred_at": "2026-05-12T08:15:00Z"},
+        {"status": "IN_TRANSIT", "status_info": {"category": "IN_TRANSIT", "is_incident": false},
+          "raw_carrier_status": {"code": "EN ARRASTRE", "description": "EN ARRASTRE"}, "occurred_at": "2026-05-12T17:30:00Z",
+          "location": {"country_code": "ES", "state": "Sample Province", "postal_code": "00001", "city": "Sample City", "coordinates": {"latitude": 0.5, "longitude": -0.5}}},
+        {"status": "IN_TRANSIT_02", "status_info": {"category": "IN_TRANSIT", "is_incident": false},
+          "raw_carrier_status": {"code": "DELEGACION DESTINO", "description": "DELEGACION DESTINO"}, "occurred_at": "2026-05-13T03:10:00Z"},
+        {"status": "OUT_FOR_DELIVERY", "status_info": {"category": "OUT_FOR_DELIVERY", "is_incident": false},
+          "raw_carrier_status": {"code": "EN REPARTO", "description": "EN REPARTO"}, "occurred_at": "2026-05-13T07:45:00Z"},
+        {"status": "OUT_FOR_DELIVERY_INCIDENT_02", "status_info": {"category": "OUT_FOR_DELIVERY", "is_incident": true},
+          "raw_carrier_status": {"code": "REPARTO FALLIDO", "description": "REPARTO FALLIDO"}, "occurred_at": "2026-05-13T09:20:00Z"},
+        {"status": "DELIVERED", "status_info": {"category": "DELIVERED", "is_incident": false},
+          "raw_carrier_status": {"code": "ENTREGADO", "description": "ENTREGADO"}, "occurred_at": "2026-05-13T16:05:00Z"}
+      ]
+    },
+    {
+      "current_status": "DELIVERED",
+      "current_status_info": {"category": "DELIVERED", "is_incident": false},
+      "carrier_tracking_number": "30000000000001010000002",
+      "transit_start_time": "2026-05-12T17:30:00Z",
+      "transit_end_time": "2026-05-13T16:05:00Z",
+      "transit_duration": "PT22H35M",
+      "checkpoints": [
+        {"status": "READY_FOR_COLLECTION", "status_info": {"category": "READY_FOR_COLLECTION", "is_incident": false},
+          "raw_carrier_status": {"code": "SIN RECEPCION", "description": "SIN RECEPCION"}, "occurred_at": "2026-05-12T08:15:00Z"},
+        {"status": "IN_TRANSIT", "status_info": {"category": "IN_TRANSIT", "is_incident": false},
+          "raw_carrier_status": {"code": "EN ARRASTRE", "description": "EN ARRASTRE"}, "occurred_at": "2026-05-12T17:30:00Z",
+          "location": {"country_code": "ES", "state": "Sample Province", "postal_code": "00001", "city": "Sample City", "coordinates": {"latitude": 0.5, "longitude": -0.5}}},
+        {"status": "IN_TRANSIT_02", "status_info": {"category": "IN_TRANSIT", "is_incident": false},
+          "raw_carrier_status": {"code": "DELEGACION DESTINO", "description": "DELEGACION DESTINO"}, "occurred_at": "2026-05-13T03:10:00Z"},
+        {"status": "OUT_FOR_DELIVERY", "status_info": {"category": "OUT_FOR_DELIVERY", "is_incident": false},
+          "raw_carrier_status": {"code": "EN REPARTO", "description": "EN REPARTO"}, "occurred_at": "2026-05-13T07:45:00Z"},
+        {"status": "OUT_FOR_DELIVERY_INCIDENT_02", "status_info": {"category": "OUT_FOR_DELIVERY", "is_incident": true},
+          "raw_carrier_status": {"code": "REPARTO FALLIDO", "description": "REPARTO FALLIDO"}, "occurred_at": "2026-05-13T09:20:00Z"},
+        {"status": "DELIVERED", "status_info": {"category": "DELIVERED", "is_incident": false},
+          "raw_carrier_status": {"code": "ENTREGADO", "description": "ENTREGADO"}, "occurred_at": "2026-05-13T16:05:00Z"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "carrier": "lao-post",
+  "records": [
+    {
+      "number": "RB033618140LA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190422033652/http://www.azerpost.az:80/az/tracking/RB033618140LA",
+        "date": "2019-04-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Azerpost's former tracker shows this registered item sent from Laos, accepted and dispatched at Lao Post's office of exchange LAVTEB."
+    },
+    {
+      "number": "RB034858420LA",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190625003508/http://azerpost.az:80/az/tracking/RB034858420LA",
+        "date": "2019-06-25",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "An archived lookup on Azerpost's former tracker shows this registered item accepted at Lao Post's office of exchange LAVTEB and arriving in Azerbaijan."
+    }
+  ]
+}

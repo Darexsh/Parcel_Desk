@@ -1,0 +1,148 @@
+{
+  "id": "gls-es",
+  "displayName": "GLS Spain",
+  "aliases": [
+    "GLS España",
+    "ASM Transporte Urgente",
+    "General Logistics Systems Spain",
+    "GLS Portugal",
+    "General Logistics Systems Portugal",
+    "GLOBALTRANS",
+    "GlobalTrans Toledo"
+  ],
+  "region": {
+    "countries": [
+      "ES",
+      "AD",
+      "PT"
+    ]
+  },
+  "brand": {
+    "color": "#ffdd00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gls-es",
+    "requirements": [
+      {
+        "field": "postcode",
+        "validator": "internationalPostcode",
+        "label": "Delivery postcode",
+        "type": "text",
+        "help": "GLS Spain shows a shipment only with its delivery postcode.",
+        "pattern": "^(?=.{3,12}$)(?=.*[0-9])[A-Za-z0-9]+(?:[ \\-][A-Za-z0-9]+)*$",
+        "maxLength": 12,
+        "inputMode": "text",
+        "autoComplete": "postal-code"
+      }
+    ],
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "delivered_at",
+    "eta",
+    "pickup_point",
+    "weight",
+    "provider_code",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://gls-group.com/ES/es/recibir-paquetes/seguimiento-envio/",
+    "searchUrl": "https://gls-group.com/ES/es/recibir-paquetes/seguimiento-envio/",
+    "canaryUrl": "https://gls-group.com/ES/es/recibir-paquetes/seguimiento-envio/",
+    "shows": [
+      "status",
+      "history",
+      "eta",
+      "delivered_at",
+      "pickup_point",
+      "pickup_point_address",
+      "pickup_deadline",
+      "pickup_code",
+      "weight",
+      "parcel_count",
+      "progress_rail",
+      "sender_name",
+      "customer_reference",
+      "origin",
+      "destination",
+      "office_contact_details",
+      "recipient_name",
+      "recipient_verification",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "eta",
+      "delivered_at",
+      "pickup_point",
+      "weight",
+      "provider_code",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "pickup_point_address",
+      "pickup_deadline",
+      "pickup_code",
+      "parcel_count",
+      "progress_rail",
+      "sender_name",
+      "customer_reference",
+      "origin",
+      "destination",
+      "office_contact_details",
+      "recipient_name",
+      "recipient_verification",
+      "payment_details"
+    ],
+    "unavailable": [
+      "location",
+      "service_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "mygls.gls-spain.es",
+        "mygls.gls-portugal.pt"
+      ],
+      "pathPattern": "^/e/?$",
+      "params": [
+        "codigo"
+      ]
+    },
+    {
+      "domains": [
+        "mygls.gls-spain.es",
+        "mygls.gls-portugal.pt"
+      ],
+      "path": "^/e/([A-Za-z0-9]{5,40})/[^/?#]+(?:/[a-z]{2})?/?$"
+    },
+    {
+      "domains": [
+        "gls-group.com",
+        "gls-group.eu"
+      ],
+      "pathPattern": "^/(?:ES|PT)/",
+      "params": [
+        "match",
+        "parcelNumber",
+        "matchParcelNumber"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "gls-es-1",
+      "pattern": "^1\\d{9}$",
+      "confidence": "low"
+    }
+  ]
+}

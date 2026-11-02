@@ -1,0 +1,29 @@
+{
+  "carrier": "dohrn-transfer",
+  "records": [
+    {
+      "number": "92734495",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20210410141353/https://facts.dohrn.com/scripts/cgiip.exe/protracexml.htm?pronum=92734495",
+        "date": "2021-04-10",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Dohrn's own XML trace shows the shipment and its history."
+    }
+  ]
+}

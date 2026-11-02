@@ -1,0 +1,48 @@
+{
+  "id": "u-envios",
+  "displayName": "U-ENVIOS",
+  "aliases": [
+    "U-ENVIOS E.I.R.L.",
+    "UE-Box"
+  ],
+  "region": {
+    "countries": [
+      "PE",
+      "US",
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#f8cf21"
+  },
+  "selectable": true,
+  "timezone": "America/Lima",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://u-envios.com/ue-tracking?orden={trackingNumber}",
+    "searchUrl": "https://u-envios.com/ue-tracking",
+    "canaryUrl": "https://u-envios.com/ue-tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "u-envios.com",
+        "www.u-envios.com"
+      ],
+      "pathPattern": "^/ue-tracking/?$",
+      "params": [
+        "orden"
+      ]
+    }
+  ],
+  "detection": []
+}

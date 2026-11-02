@@ -1,0 +1,54 @@
+{
+  "id": "nhat-tin",
+  "displayName": "Nhat Tin Logistics",
+  "aliases": [
+    "Nhất Tín Logistics",
+    "Nhất Tín",
+    "NTL",
+    "Nhat Tin Express"
+  ],
+  "region": {
+    "countries": [
+      "VN"
+    ]
+  },
+  "brand": {
+    "color": "#fdd800"
+  },
+  "selectable": true,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://ntlogistics.vn/tra-van-don.html?bill={trackingNumber}",
+    "searchUrl": "https://ntlogistics.vn/tra-van-don.html",
+    "canaryUrl": "https://ntlogistics.vn/tra-van-don.html",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "ntlogistics.vn",
+        "www.ntlogistics.vn"
+      ],
+      "pathPattern": "^/tra-van-don(?:\\.html)?/?$",
+      "params": [
+        "bill"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "nhat-tin-1",
+      "pattern": "^CP\\d{8}R?$",
+      "confidence": "low"
+    }
+  ]
+}

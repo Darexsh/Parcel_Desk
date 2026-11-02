@@ -1,0 +1,8 @@
+{
+  "carrier": "alem-tat",
+  "entries": [
+    {"wording": "УСПЕШНО ДОСТАВЛЕНО", "stage": "delivered", "language": "ru", "confirmedBy": "official-doc", "note": "A current-state value the tracker's own script (tracking.js) expects from the service and shows as a success label."},
+    {"wording": "ЧАСТИЧНО ДОСТАВЛЕНО", "language": "ru", "confirmedBy": "official-doc", "note": "A current-state value in the tracker's own script: only some pieces of a multi-piece waybill were delivered. No stage, since the rest is still under way."},
+    {"wording": "НЕ ДОСТАВЛЕНО", "language": "ru", "confirmedBy": "official-doc", "note": "A current-state value in the tracker's own script for a waybill not delivered yet; the page offers e-mail alerts with it, so it marks a parcel still under way rather than a failure. No stage."}
+  ]
+}

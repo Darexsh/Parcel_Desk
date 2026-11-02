@@ -1,0 +1,56 @@
+{
+  "id": "tuodatong",
+  "displayName": "Tuodatong",
+  "aliases": [
+    "Tuodatong Logistics",
+    "TDTWL",
+    "拓达通物流",
+    "拓達通物流",
+    "拓达通国际物流",
+    "深圳市拓达通国际物流服务有限公司",
+    "Shenzhen Tuodatong International Logistics Service Co., Ltd"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#2ab727"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.tuodatong56.com/tms/trackIndex.htm",
+    "canaryUrl": "https://www.tuodatong56.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.tuodatong56.com",
+        "tuodatong56.com"
+      ],
+      "pathPattern": "^/tms/(?:en/)?trackIndex\\.htm$",
+      "params": [
+        "documentCode"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "tuodatong-1",
+      "pattern": "^TDT\\d{10}CN$",
+      "confidence": "low"
+    }
+  ]
+}

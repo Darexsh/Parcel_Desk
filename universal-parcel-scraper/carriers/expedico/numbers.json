@@ -1,0 +1,31 @@
+{
+  "carrier": "expedico",
+  "records": [
+    {
+      "number": "2317575891739",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260820225233/https://expedico.eu/tracking?code=2317575891739",
+        "date": "2026-08-20",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste",
+          "correos-chile",
+          "yunda",
+          "korea-post",
+          "fan-courier"
+        ]
+      },
+      "note": "Archived lookup on Expedico's tracker; its tracking service answers the parcel id and names the partner that delivered it."
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Example Store - Order Tracking -  By Shiprocket</title>
+<meta charset="utf-8">
+<meta name="description" content="Track Example Store order status. Get real-time updates on your shipment and know exactly when your package will arrive. Powered by Shiprocket">
+<script src="https://www.google.com/recaptcha/api.js?render=6Lc0000000000000000000000000000000000000"></script>
+	</head>
+    <body>
+<div class="content inner_page">
+	<div id='main_cont' class="container">
+		<div class="row">
+			<div class="col-sm-12 col-xs-12">
+					<input type="hidden" name='company_id' id="company_id" value="1000001">
+				<div class="hp_cards recommend_info" style="margin: 20px 0px 0px 0px!important;">
+						<center>You don't have access to take any action on the tracking page. <a href="javascript:void(0);" onclick="open_otp_modalClickhere('1000001','8320000000002');"><strong>Click here</strong></a> to verify yourself as a buyer.</center>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+				<!-- tracking card -->
+				<div class="col-sm-6 col-xs-12">
+					<div class="hp_cards" style="margin-top:20px;">
+						<div class="hp_cards_info " id="doorAttempt">
+							<div style="padding-bottom: 10px;" class="clearfix  delievery_status">
+								<div class="">
+									<div class="status_check">
+									<span id="edd_text">Estimated Delivery Date</span>
+									<div id='edd_loader'>
+										<img src="/post_order/img/ajax-loader.gif">
+									</div>
+									<div style="margin-bottom: 10px;" class="clearfix">
+									<div class="edd_info" style='display: none;width: 100%;'>
+										<span style='display: inline;font-size: 24px !important;' class='edd_day sfproBold' id='edd_day'></span>
+										<small id='delay_text'></small>
+										<strong style="line-height: 14px;" class='edd_month sfproBold' id='edd_month'>#</strong>
+										<strong class="edd_date SFProSemibold" id='edd_date'></strong>
+									</div>
+									</div>
+								</div>
+									<!-- <span>Status</span> -->
+										<!-- Delivered or RTO delivered -->
+																<span style="margin-bottom:-10px;margin-top: 0;" class="SFProSemibold fs-16px" id='shipment_status_label'>Status:</span>
+									<p class="SFProRegular" id='shipment_status' >
+																				<!-- undelivered -->
+																					<span style="margin-bottom: 0;" class="status_green">Delivered</span>
+											<span style="font-size: 11px !important;margin-bottom: 0;" class="status_green"></span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="col-sm-12 col-xs-12 map-container">
+								<div class="mapouter">
+								<div class="gmap_canvas">
+									<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=00000, Exampleland&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+									</iframe>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="courier_info  clearfix" id="fakedoor" style="padding-bottom: 20px;">
+							<div class="pull-left courier_logo" style="background-image: url('https://shiprocket.co/post_order/img/courier/thumb/shiprocket_premium.png');background-repeat: no-repeat;">
+							</div>
+							<div class="pull-left">
+								<span class="fs-17px SFProSemibold"><b>SRX Premium</b></span>
+								<!-- <a href="#" class="tracking_id">Support?</a> -->
+							</div>
+							<div class="pull-right trackingid_mobile">
+								<span class="sfproBold" style="font-size: 13px;"><b>Tracking ID</b> </span>
+								<span class="tracking_id fs-12px sfproBold">8320000000002</span>
+							</div>
+						</div>
+						<div class="delievery_info pt-0 ulli_border">
+							<div class="delievery_list_wrap clearfix" style="margin-top: -18px">
+								<ul>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>Delivered</activity></span>
+																				<span class="fs-12px SFProMedium"><b>Location : </b>  <activity>FL, US</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>16 Sep</span>
+												<span class='time'>11:06 AM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>Out for Delivery</activity></span>
+																				<span class="fs-12px SFProMedium"><b>Location : </b>  <activity>FL, US</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>16 Sep</span>
+												<span class='time'>07:09 AM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>Arrived at USPS Regional Facility</activity></span>
+																				<span class="fs-12px SFProMedium"><b>Location : </b>  <activity>SAMPLEVILLE FL DISTRIBUTION CENTER</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>15 Sep</span>
+												<span class='time'>07:15 AM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>Arrived at origin facility</activity></span>
+																				<span class="fs-12px SFProMedium"><b>Location : </b>  <activity>EXAMPLETOWN, NEWYORK, US</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>11 Sep</span>
+												<span class='time'>11:25 AM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>CUSTOM CLEARED OVERSEAS</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>11 Sep</span>
+												<span class='time'>12:00 AM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>AWB Handed over to Flight</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>10 Sep</span>
+												<span class='time'>02:20 AM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>Connection Aligned</activity></span>
+																				<span class="fs-12px SFProMedium"><b>Location : </b>  <activity>DELHI</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>09 Sep</span>
+												<span class='time'>11:58 PM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>Order Departed from Facility</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>09 Sep</span>
+												<span class='time'>10:30 PM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>Received At DC</activity></span>
+																				<span class="fs-12px SFProMedium"><b>Location : </b>  <activity>DELHI</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>08 Sep</span>
+												<span class='time'>04:31 PM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>Dispatched - Delivering At Shiprocket Warehouse</activity></span>
+																				<span class="fs-12px SFProMedium"><b>Location : </b>  <activity>Exampur_Central_D (Delhi)</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>08 Sep</span>
+												<span class='time'>10:12 AM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>In Transit - Shipment picked up</activity></span>
+																				<span class="fs-12px SFProMedium"><b>Location : </b>  <activity>Demonagar_Depot_I (Uttar Pradesh)</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>04 Sep</span>
+												<span class='time'>03:39 PM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>Shipping Label Created, USPS Awaiting Item</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>03 Sep</span>
+												<span class='time'>10:49 PM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																										<li >
+																			<span class="fs-12px SFProMedium"><b>Activity : </b>  <activity>Order Received</activity></span>
+																				<span class="fs-12px SFProMedium"><b>Location : </b>  <activity>Sampleville</activity></span>
+																				<!-- Delivered or RTO delivered -->
+																				<!-- undelivered -->
+																				<div style="padding-left: 5px;" class="date_info_wrap fs-12px SFProMedium">
+																							<span class='date'>03 Sep</span>
+												<span class='time'>11:40 AM</span>
+																					</div>
+
+										<i class="circle_icon"></i>
+
+									</li>
+																																		</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- tracking card end-->
+			<div class="col-sm-6 col-xs-12">
+				<!-- order details -->
+				<div class="hp_cards information_block" style="margin-top:20px;">
+					<div class="hp_cards_info" style="margin-top:20px;">
+						<h5 class="fs-14px SFProSemibold"><i class="order_detail_icon"></i>Order Details</h5>
+						<div class="clearfix mb-20">
+							<span class="pull-left fs-12px sfproBold"><b>Order ID</b> </span><span class="pull-right fs-12px right_info">
+															*******001
+													</span>
+						</div>
+						<div class="clearfix mb-20">
+							<span class="pull-left fs-12px sfproBold"><b>Order Placed On</b></span> <span class="pull-right fs-12px right_info">03 Sep 2026</span>
+						</div>
+					</div>
+				</div>
+				<!-- order details end-->
+				<div class="recommend_info" id="nps_form">
+					<p style="line-height: 20px;" class="SFProSemibold">Based on your recent interaction with Example Store, how likely are you to recommend Example Store to friends &amp; family?</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<input type="hidden" value='0000000000000000000000000000000000000000000000000000000000000000' id="token" name="token">
+<input type="hidden" value='8320000000002' id="awb" name="awb">
+<input type="hidden" name="url" id="url" value="http://shiprocket.co/tracking/8320000000002">
+<input type="hidden" name="api_url" id="api_url" value="https://apiv2.shiprocket.co">
+<input type="hidden" name="order_id" id="order_id" value="1000000002">
+<script>
+	var api_url = $('#api_url').val();
+	function get_edd(){
+	    $.ajax({
+	        type: 'GET',
+	        data: {},
+	        url: api_url + '/pocx/tracking-order-edd/' + $('#order_id').val(),
+	    });
+	}
+</script>
+<script>
+		const apiHeader = "https://sr-wave-api.shiprocket.in";
+</script>
+    </body>
+</html>

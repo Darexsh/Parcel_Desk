@@ -1,0 +1,89 @@
+{
+  "carrier": "equick",
+  "records": [
+    {
+      "number": "611083981",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20170517023517/http://www.equick.cn:80/English/Track.aspx?inputEQUICKEXPRESSID=611083981",
+        "date": "2017-05-17",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt",
+          "tforce-freight",
+          "xpo-ltl"
+        ]
+      },
+      "note": "An archived lookup on Equick's own tracker shows this tracking number with its history from pick-up in Suzhou to delivery in Germany."
+    },
+    {
+      "number": "860566105",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20150313145557/http://www.equick.cn:80/English/Track.aspx?inputEQUICKEXPRESSID=860566105",
+        "date": "2015-03-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "cargus"
+        ]
+      },
+      "note": "An archived lookup on Equick's own tracker shows this tracking number with its history from Shanghai to delivery in Canada."
+    },
+    {
+      "number": "EQKPT8613050786YQ",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/equick-cn/",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "equick",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Equick China page offers it as the sample number to try. Equick's own tracker knows it."
+    },
+    {
+      "number": "EQKPT8586061210YQ",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://www.trackingmore.com/equick-cn-tracking",
+        "date": "2026-10-14",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "equick",
+        "confidence": "high"
+      },
+      "note": "TrackingMore's Equick China page gives it as a format example, in the layout of the numbers Equick's own tracker knows."
+    }
+  ]
+}

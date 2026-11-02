@@ -1,0 +1,35 @@
+{
+  "id": "ethiopian-post",
+  "displayName": "Ethiopian Postal Service",
+  "aliases": [
+    "Ethiopost",
+    "Ethiopian Post",
+    "Ethiopia Post"
+  ],
+  "region": {
+    "countries": [
+      "ET"
+    ]
+  },
+  "brand": {
+    "color": "#f8ac19"
+  },
+  "selectable": true,
+  "timezone": "Africa/Addis_Ababa",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://domestictrack.ethio.post/PostGlobal/WebTrack/Track.aspx",
+    "canaryUrl": "https://domestictrack.ethio.post/PostGlobal/WebTrack/Track.aspx",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": []
+}

@@ -1,0 +1,566 @@
+{
+  "carrier": "chronopost",
+  "records": [
+    {
+      "number": "0020 1000 4133 1740 8562 5338 724P",
+      "role": "full_barcode",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/mi-bloquearon-la-cuenta-y-nece/1882f5a17b1ddd17f2",
+        "date": "2026-02-02"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Publicly reported label code, called the tracking number next to the S10 shipment code. The source attributes it to Chronopost; no rule matches this shape."
+    },
+    {
+      "number": "12345678901234E",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "dpd-de",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Invented placeholder used as a shape check. Filed under Chronopost, which stays one candidate among several."
+    },
+    {
+      "number": "PZ123456785JF",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Made-up number that follows the published format."
+    },
+    {
+      "number": "XA547564856FR",
+      "role": "shipment",
+      "evidence": "merchant_published_example",
+      "source": {
+        "url": "https://marketplace.fnacdarty.com/s/article/Dois-je-obligatoirement-renseigner-un-num%C3%A9ro-de-suivi-tracking-pour-ma-commande?language=fr_BE"
+      },
+      "expect": {
+        "carrier": "la-poste",
+        "confidence": "high"
+      },
+      "note": "Published integration example, not a real shipment. The source attributes it to Chronopost; detection selects La Poste / Colissimo."
+    },
+    {
+      "number": "XF918805290FR",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://gist.github.com/zxp/e83a4a1b7294a5ed6207"
+      },
+      "expect": {
+        "carrier": "la-poste",
+        "confidence": "high"
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to Chronopost; detection selects La Poste / Colissimo."
+    },
+    {
+      "number": "XU123456785FR",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Made-up number that follows the published format."
+    },
+    {
+      "number": "XU130420145JF",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/mi-bloquearon-la-cuenta-y-nece/1882f5a17b1ddd17f2",
+        "date": "2026-02-02"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. Called the shipment code, next to a separate 28-character tracking number."
+    },
+    {
+      "number": "XW123456785TS",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-09-12",
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Made-up number that follows the published format."
+    },
+    {
+      "number": "XR123456785TS",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-10-08",
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of Chronopost parcels whose S10 check digit passes and whose TS suffix is no country."
+    },
+    {
+      "number": "XT123456785TS",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-10-08",
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of Chronopost parcels whose S10 check digit passes and whose TS suffix is no country."
+    },
+    {
+      "number": "NP123456789JB",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "invented",
+      "shapeConfirmed": "2026-10-08",
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Made-up number with Chronopost's own JB suffix and no S10 check digit, as its numbers outside the dedicated prefixes often have."
+    },
+    {
+      "number": "XT010847192TS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://suivi-de-colis.fr/chronopost/",
+        "access": "full_page",
+        "date": "2020-06-04",
+        "dateKind": "comment publication"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Parcel number a reader posted under a third-party Chronopost tracking page; the attribution was not independently verified."
+    },
+    {
+      "number": "XT335285235FR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://suivi-de-colis.fr/chronopost/",
+        "access": "full_page",
+        "date": "2020-06-18",
+        "dateKind": "comment publication"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Parcel number a reader posted under a third-party Chronopost tracking page, describing a Chronopost agency; the attribution was not independently verified."
+    },
+    {
+      "number": "XW295445484JF",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.paketda.de/fragen-antworten.php"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Publicly reported Chronopost reference linked to a German DPD waybill. The reported linkage must be confirmed against carrier history."
+    },
+    {
+      "number": "KU990760364FR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-non-remis-a-chrono-poste-t18700.html",
+        "date": "2013-08-22"
+      },
+      "expect": {
+        "carrier": "la-poste",
+        "confidence": "high"
+      },
+      "note": "The customer’s pasted Chronopost history labels this as the master shipment for a multi-parcel delivery. KU990760381FR is the child named by the merchant; GEO/KU9907603812489 is its partner reference. Detection selects the shared La Poste feed."
+    },
+    {
+      "number": "KU990760381FR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-non-remis-a-chrono-poste-t18700.html",
+        "date": "2013-08-23"
+      },
+      "expect": {
+        "carrier": "la-poste",
+        "confidence": "high"
+      },
+      "note": "The merchant independently names this Chronopost child parcel. The preceding history labels KU990760364FR as master and GEO/KU9907603812489 as partner reference; this identifier was not reconstructed. Detection selects the shared La Poste feed."
+    },
+    {
+      "number": "GEO/KU9907603812489",
+      "role": "composite",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://forum.quechoisir.org/colis-non-remis-a-chrono-poste-t18700.html",
+        "date": "2013-08-22"
+      },
+      "context": {
+        "assessment": "auxiliary"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "The pasted Chronopost history explicitly labels this as the partner reference of the child shipment later named KU990760381FR. Preserve the literal reference; it is not a canonical shipment number or an adapter credential.",
+      "quarantine": true
+    },
+    {
+      "number": "PZ282567966EE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260914161153/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=PZ282567966EE",
+        "date": "2026-09-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns its history, a label not yet handed over."
+    },
+    {
+      "number": "XY252584055RV",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260627090257/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=XY252584055RV&langue=en",
+        "date": "2026-06-27",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns its history: an appointment window, a failed attempt, then a pickup point."
+    },
+    {
+      "number": "XW269574225JF",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260616171529/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=XW269574225JF&langue=de",
+        "date": "2026-06-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns its history, delivered in Germany through the DPD network."
+    },
+    {
+      "number": "XN136114912JB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260714232410/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=XN136114912JB&langue=pt",
+        "date": "2026-07-14",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns its history. The JB suffix is Chronopost's own code, not a country."
+    },
+    {
+      "number": "XR657749906TS",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260708074108/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=XR657749906TS",
+        "date": "2026-07-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns its history, collected at a pickup point."
+    },
+    {
+      "number": "HV520454959JF",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260429164811/https://www.chronopost.fr/tracking-no-cms/suivi-page?langue=de&listeNumerosLT=HV520454959JF",
+        "date": "2026-04-29",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns its history, delivered in Spain through the DPD network."
+    },
+    {
+      "number": "FZ246006535JB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260408130255/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=FZ246006535JB",
+        "date": "2026-04-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns its history, dropped off at a relay by the sender. The JB suffix is Chronopost's own code, not a country."
+    },
+    {
+      "number": "NP989065909JB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260704104531/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=NP989065909JB&langue=de",
+        "date": "2026-07-04",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns its history. It has no S10 check digit, like many JB numbers whose prefix is not one of Chronopost's dedicated ones."
+    },
+    {
+      "number": "BC989633266JB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260630120634/https://www.chronopost.fr/tracking-no-cms/suivi-page?langue=es&listeNumerosLT=BC989633266JB",
+        "date": "2026-06-30",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns its history. It has no S10 check digit."
+    },
+    {
+      "number": "GH205472665JB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260602155627/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=GH205472665JB",
+        "date": "2026-06-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "chronopost",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns its history. Its S10 check digit passes, but the JB suffix names no country, so it is not international mail."
+    },
+    {
+      "number": "XS431625991FR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260407122309/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=XS431625991FR",
+        "date": "2026-04-07",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "la-poste",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns its history, collected from a locker. Detection selects La Poste's shared feed."
+    },
+    {
+      "number": "AH992514975FR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251023030852/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=AH992514975FR&langue=fr_FR",
+        "date": "2025-10-23",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "la-poste",
+        "confidence": "high"
+      },
+      "note": "Chronopost's tracker returns a later shipment's history under this number, so the number may have been reused. Detection selects La Poste's shared feed."
+    },
+    {
+      "number": "015750676972097",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260717114015/https://www.chronopost.fr/tracking-no-cms/suivi-page?listeNumerosLT=015750676972097&langue=en",
+        "date": "2026-07-17",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-de",
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "brt",
+          "yunda",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Chronopost's tracker returns its history: a DPD-network parcel entering France, delivered by Chronopost."
+    },
+    {
+      "number": "05368806451396L",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260610091508/https://www.chronopost.fr/tracking-no-cms/suivi-page?langue=es&listeNumerosLT=05368806451396L",
+        "date": "2026-06-10",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "chronopost",
+          "dpd-de",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Chronopost's tracker returns its history: a DPD-network parcel entering France, delivered by Chronopost."
+    },
+    {
+      "number": "04000000000019",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-11-01",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd",
+          "dpd-fr",
+          "chronopost",
+          "ciblex",
+          "seur",
+          "brt",
+          "dhl-ecommerce-uk",
+          "dpd-be",
+          "dpd-de",
+          "dpd-hu",
+          "dpd-nl",
+          "dpd-pt",
+          "dpd-uk"
+        ]
+      },
+      "note": "Made-up number in the shape of parcels the app tracked: a DPD parcel number's fourteen digits without its check character, which Chronopost's own tracker answered with their history. Fourteen digits are shared with DPD's networks, BRT, SEUR and others, so Chronopost is only a suggestion."
+    },
+    {
+      "number": "XN246813579024",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "donated_real",
+      "shapeConfirmed": "2026-10-24",
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "chronopost"
+        ]
+      },
+      "note": "Made-up number in the shape of a parcel Chronopost's tracker answered with its own scans, which a universal provider also names Chronopost France."
+    }
+  ]
+}

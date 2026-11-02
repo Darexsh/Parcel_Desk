@@ -1,0 +1,120 @@
+{
+  "carrier": "goodluck-courier",
+  "records": [
+    {
+      "number": "477069894",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240905153209/https://www.goodluckcourier.com/index.php?consignment=477069894",
+        "date": "2024-09-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "An archived lookup on Goodluck's own tracker shows this consignment booked at Golaghat and received at Guwahati in August 2024."
+    },
+    {
+      "number": "30820813",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.consumercomplaints.in/bycompany/goodluck-courier-a29888.html#get-cl1033096",
+        "date": "2015-03-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A ConsumerComplaints complaint on the Goodluck Courier page gives it as the c/n number of an undelivered materials packet dated 11 March 2015; the complainant says they rang Goodluck's Kolkata office."
+    },
+    {
+      "number": "30821051",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.consumercomplaints.in/bycompany/goodluck-courier-a29888.html#get-cl1033096",
+        "date": "2015-03-30",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The same complaint gives it as the c/n number of a second undelivered consignment of the same date."
+    },
+    {
+      "number": "16100621",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.consumercomplaints.in/bycompany/good-luck-courier-a420164.html#get-cl1827663",
+        "date": "2018-01-06",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "A ConsumerComplaints complaint on the Good Luck Courier page gives it as the consignment number of a parcel booked at the Ludhiana centre for Ranchi; the complainant says online tracking showed no detail."
+    },
+    {
+      "number": "16100623",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.consumercomplaints.in/bycompany/good-luck-courier-a420164.html#get-cl1827663",
+        "date": "2018-01-06",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "The same complaint gives it as the second consignment number of that booking."
+    }
+  ]
+}

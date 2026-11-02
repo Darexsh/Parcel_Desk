@@ -1,0 +1,50 @@
+{
+  "id": "hercules-freight",
+  "displayName": "Hercules Freight",
+  "aliases": [
+    "Hercules Forwarding",
+    "Hercules Forwarding, Inc."
+  ],
+  "region": {
+    "countries": [
+      "US",
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#004da9"
+  },
+  "selectable": true,
+  "timezone": "America/Los_Angeles",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://herculesfreight.com/Forms/TrackShipment",
+    "canaryUrl": "https://herculesfreight.com/Forms/TrackShipment",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.herculesfreight.com",
+        "herculesfreight.com"
+      ],
+      "path": "^/users/viewPRODetails/([^/?#]+)/?$"
+    },
+    {
+      "domains": [
+        "www.herculesfreight.com",
+        "herculesfreight.com"
+      ],
+      "path": "^/forms/viewprodetails/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

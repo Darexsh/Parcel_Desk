@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "code": 200,
+  "message": null,
+  "data": [
+    {
+      "logisticsName": "CJPacket Ordinary I",
+      "deliveryDay": 9,
+      "shipCountryCode": "CN",
+      "destCountryCode": "ES",
+      "cjTrackNumber": "CJPZZA0000000001YQ",
+      "customerOrderId": "DP0000000000000000001",
+      "trackNumber": "JSSMP0000000001YQ",
+      "lastTrackNumber": "0099990000000000000001",
+      "shopName": "Sample Shop",
+      "userOrderNum": "#SAMPLE1",
+      "statusDescription": "Arrived Courier Facility",
+      "status": 3,
+      "providerEnName": "CTT Express",
+      "providerPhone": null,
+      "providerUrl": "https://www.cttexpress.com/home/seguimiento-de-envios/",
+      "trackEvent": [
+        {
+          "eventTime": "2026-09-22 16:48:00",
+          "activity": "Inbound to customs temporary warehouse",
+          "location": "SMP",
+          "eventTimestamp": "1790092080000"
+        },
+        {
+          "eventTime": "2026-09-21 21:47:00",
+          "activity": "NOA-Notification of arrival from GHA",
+          "location": "SMP",
+          "eventTimestamp": "1790023620000"
+        },
+        {
+          "eventTime": "2026-09-21 10:22:00",
+          "activity": "Item Flight landing",
+          "location": "SMP",
+          "eventTimestamp": "1789982520000"
+        },
+        {
+          "eventTime": "2026-09-21 05:20:00",
+          "activity": "Item Flight departure",
+          "location": "CHINA",
+          "eventTimestamp": "1789939200000"
+        },
+        {
+          "eventTime": "2026-09-20 21:30:00",
+          "activity": "Released From Export Customs",
+          "location": "CHINA",
+          "eventTimestamp": "1789911000000"
+        },
+        {
+          "eventTime": "2026-09-20 07:36:55",
+          "activity": "Item departed from origin.",
+          "location": "CHINA,  SAMPLE TRANSIT CENTER",
+          "eventTimestamp": "1789861015000"
+        },
+        {
+          "eventTime": "2026-09-18 21:29:14",
+          "activity": "Item outbound in sorting center.",
+          "location": "SAMPLE WAREHOUSE-OPERATION CENTER",
+          "eventTimestamp": "1789738154000"
+        },
+        {
+          "eventTime": "2026-09-18 18:33:49",
+          "activity": "Item has been collected",
+          "location": "SAMPLE WAREHOUSE-OPERATION CENTER",
+          "eventTimestamp": "1789727629000"
+        },
+        {
+          "eventTime": "2026-09-18 12:44:15",
+          "activity": "Pendiente de recepción en CTT Express",
+          "location": "",
+          "eventTimestamp": "1789728255000"
+        },
+        {
+          "eventTime": "2026-09-14 17:08:20",
+          "activity": "Electronic notification of order creation received.",
+          "location": "SAMPLE WAREHOUSE-OPERATION CENTER",
+          "eventTimestamp": "1789376900000"
+        },
+        {
+          "eventTime": "2026-09-14 09:08:22",
+          "activity": "Label created. Warehouse is processing this order. Please wait in patience.",
+          "location": "",
+          "eventTimestamp": null
+        }
+      ]
+    }
+  ],
+  "requestId": null
+}

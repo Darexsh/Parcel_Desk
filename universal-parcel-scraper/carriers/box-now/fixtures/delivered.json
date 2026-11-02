@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "id": "9000000001",
+      "state": "delivered",
+      "lastPickUpTime": null,
+      "returnAllowed": true,
+      "compartmentSize": null,
+      "origin": {
+        "id": "100",
+        "title": null,
+        "name": "Example Shop Warehouse",
+        "addressLine1": "1 Sample Road",
+        "addressLine2": "Sampletown",
+        "postalCode": "11111",
+        "country": "GR",
+        "image": null,
+        "note": "",
+        "type": "warehouse",
+        "deliveryPartnerParcelId": null
+      },
+      "destination": {
+        "id": "200",
+        "title": "2 Example Avenue, 22222",
+        "name": "BOX NOW Example Kiosk",
+        "addressLine1": "2 Example Avenue",
+        "addressLine2": "Exampleville",
+        "postalCode": "22222",
+        "country": "GR",
+        "image": "https://example.invalid/locker.jpg",
+        "note": "Next to the example kiosk",
+        "lat": "37.00000",
+        "lng": "23.00000",
+        "type": "apm",
+        "deliveryPartnerParcelId": null
+      },
+      "events": [
+        { "type": "new", "locationDisplayName": "Example Shop Warehouse", "postalCode": "11111", "createTime": "2026-03-02T08:10:00.000Z" },
+        { "type": "accepted-to-locker", "locationDisplayName": "BOX NOW STORE - Sample Square", "postalCode": "33333", "createTime": "2026-03-02T12:20:00.000Z" },
+        { "type": "in-depot", "locationDisplayName": "SAMPLE HUB", "postalCode": "44444", "createTime": "2026-03-03T15:30:00.000Z" },
+        { "type": "in-depot", "locationDisplayName": "EXAMPLE DEPOT", "postalCode": "55555", "createTime": "2026-03-03T21:40:00.000Z" },
+        { "type": "final-destination", "locationDisplayName": "BOX NOW Example Kiosk", "postalCode": "22222", "createTime": "2026-03-04T09:50:00.000Z" },
+        { "type": "delivered", "createTime": "2026-03-04T17:05:00.000Z" }
+      ],
+      "payment": { "amount": { "amount": "0.00", "currency": "EUR" }, "mode": "prepaid", "state": "not-required", "vivaPayment": true }
+    }
+  ]
+}

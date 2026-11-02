@@ -1,0 +1,34 @@
+{
+  "track_code": "0000000002",
+  "baseOrder": "0000000098",
+  "status": {
+    "0": {"date": "6-4-2026", "time": "09:05:12", "status_code": "00", "text": "Новый заказ", "textMobile": "Новый заказ"},
+    "1": {"date": "07-04-2026", "time": "12:40:00", "status_code": "01", "text": "Груз принят на терминале", "textMobile": "Груз принят"},
+    "2": {"date": "08-04-2026", "time": "21:10:47", "status_code": "02", "text": "Груз отправлен", "textMobile": "Отправлен"},
+    "3": {"date": "14-04-2026", "time": "18:00:00", "status_code": "F2", "text": "Плановая дата прибытия", "textMobile": "Плановая дата"},
+    "4": {"date": "13-04-2026", "time": "06:55:09", "status_code": "03", "text": "Груз прибыл на терминал", "textMobile": "Прибыл"}
+  },
+  "cityOut": {"name": "Образцовск", "code": "000000000001"},
+  "cityIn": {"name": "Тестоград", "code": "000000000003"},
+  "address": "Тестоград, пр. Опытный, 3",
+  "phone": ["0000000000"],
+  "worktime": "Пн-Пт – 09:00-18:00",
+  "stepCount": 6,
+  "addressId": 102,
+  "daysoff": [],
+  "isDeliveryRequest": true,
+  "deliveryInfo": {
+    "EStPay": "2",
+    "ESubi": {"Vbelv": "", "Xblnr": "ОБРТСТ0000000002"},
+    "EGinf": {"Volum": "0.120", "Brgew": "35,5", "Kwmeng": "1.0"},
+    "EReci": {"Address": "ул. Получателя, 5, кв. 7", "Street": "Получателя", "HouseNum1": "5"},
+    "EsFrom": {"CityExt": "Город", "CityName": "Образцовск", "value": "ул. Синтетическая, 2"},
+    "EsTo": {"Werks": "0002", "value": "пр. Опытный, 3"}
+  },
+  "deliveryTime": "202604141800",
+  "possibleDelivery": true,
+  "deliveryType": "delivery",
+  "specialName": null,
+  "specialType": null,
+  "Ekit": null
+}

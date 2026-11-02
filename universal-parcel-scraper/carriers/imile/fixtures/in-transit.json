@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "resultCode": "",
+  "resultObject": {
+    "waybillNo": "6000000000002",
+    "sendSite": "Sample Origin Center",
+    "dispatchStation": "SMP 02",
+    "country": "COL",
+    "lmWaybillNo": "SAMPLELM000000002",
+    "trackInfos": [
+      {"content": "【SMP】 Clearance start.", "trackStage": null, "trackStageTx": null, "time": "2026-06-04 02:15:00", "operateStationName": null, "proofs": null},
+      {"content": "【SMP】Flight Arrived - Waiting for customs clearance.", "trackStage": 1002, "trackStageTx": "In Transit", "time": "2026-06-03 23:15:00", "operateStationName": null, "proofs": null},
+      {"content": "【HKG】The flight has taken off.", "trackStage": 1002, "trackStageTx": "In Transit", "time": "2026-06-02 18:00:00", "operateStationName": null, "proofs": null},
+      {"content": "Flight Schedule ETD【<HKG>】<2026-06-03 02:00:00>, ETA【<SMP>】<2026-06-03 12:00:00>.", "trackStage": 1002, "trackStageTx": "In Transit", "time": "2026-06-01 04:51:00", "operateStationName": null, "proofs": null},
+      {"content": "Your order has been picked up.", "trackStage": 2005, "trackStageTx": "Pick Up", "time": "2026-05-31 12:02:11", "operateStationName": "Sample Origin Center", "proofs": null},
+      {"content": "Your order has assigned pickup driver.", "trackStage": null, "trackStageTx": null, "time": "2026-05-31 08:40:00", "operateStationName": null, "proofs": null},
+      {"content": "Order submitted, pending to receive.", "trackStage": 1001, "trackStageTx": "Order Creation", "time": "2026-05-30 19:16:16", "operateStationName": null, "proofs": null}
+    ]
+  },
+  "message": "Successful operation!",
+  "traceId": "",
+  "requestToken": null
+}

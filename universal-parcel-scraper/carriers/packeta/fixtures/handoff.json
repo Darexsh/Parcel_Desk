@@ -1,0 +1,15 @@
+{
+  "barcode": "1234567890",
+  "packetStatusId": "31",
+  "packetStatus": "The package is on its way",
+  "sender": "Example Sender s.r.o.",
+  "courierId": "1",
+  "branchAddress": "DE Home Delivery HD",
+  "trackingDetails": [
+    { "text": "We are aware of your parcel and are waiting for the sender to hand it over to us.", "time": "2026-03-02 08:00:00" },
+    { "text": "The parcel has been assigned a tracking number: <a href=\"https://tracking.dpd.de/status/en_DE/parcel/01234567890128U\" rel=\"noopener noreferrer\">01234567890128U</a> and will soon be handed over to the carrier.", "time": "2026-03-02 08:00:05" },
+    { "text": "The parcel is currently on its way to the depot.", "time": "2026-03-02 15:30:00" },
+    { "text": "We have successfully received the parcel for transport. DEPO Example", "time": "2026-03-02 21:10:00" },
+    { "text": "The parcel has been handed over to the carrier. Tracking number: <a href=\"https://tracking.dpd.de/status/en_DE/parcel/01234567890128U\" rel=\"noopener noreferrer\">01234567890128U</a>", "time": "2026-03-03 06:45:00" }
+  ]
+}

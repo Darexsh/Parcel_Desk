@@ -1,0 +1,237 @@
+{
+  "carrier": "fg-delivery",
+  "records": [
+    {
+      "number": "FGD0009990000000001000101",
+      "role": "shipment",
+      "evidence": "synthetic",
+      "derivedFrom": "official_shape",
+      "shapeConfirmed": "2026-10-17",
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "Made-up number in the shape of FG Delivery's own shipment code: its help centre says the code starts with FGD and shows a label printing FGD and twenty-two digits under the barcode, at https://contattaci.fgdelivery.it/hc/it/articles/31618654707485-Dove-trovo-il-codice-di-spedizione-per-tracciare-il-mio-pacco."
+    },
+    {
+      "number": "CNITEC02244041FLM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/mancata-consegna/CPTIT01911912-42",
+        "date": "2023-11-07",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "Tracking code of an AliExpress parcel in an Altroconsumo complaint against Fulmine Group, whose reply says the shipment went back to the sender. FG Delivery's tracker does not find it, and its own codes start with FGD."
+    },
+    {
+      "number": "CNITEC02371814FLM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/falsa-attestazione-di-una-cons/2dded490e1ff0f54f3",
+        "date": "2024-01-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "Shipment code of an AliExpress parcel in an Altroconsumo complaint against Fulmine Group, whose replies name the shipment and say it was redelivered. FG Delivery's tracker does not find it, and its own codes start with FGD."
+    },
+    {
+      "number": "CNITEC02471707FLM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/articolo-mai-consegnato/8780a691ab58d60c03",
+        "date": "2024-02-13",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "Tracking code of an AliExpress order handed to FG Delivery, in an Altroconsumo complaint against FG Delivery. FG Delivery's tracker does not find it, and its own codes start with FGD."
+    },
+    {
+      "number": "CNITOM05403640FLM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/mancata-consegna-falsa-conseg/f15b4e411e4862be9f",
+        "date": "2024-04-04",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "Tracking code of an AliExpress parcel delivered by Fulmine Group in an Altroconsumo complaint against it, which the company answered. FG Delivery's tracker does not find it, and its own codes start with FGD."
+    },
+    {
+      "number": "CNITOM02272416FLM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/mancata-consegna-di-7-pacchi/CPTIT01605399-49",
+        "date": "2022-09-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "An Altroconsumo complaint against FG Delivery lists it among seven AliExpress parcels, and FG Delivery's reply names it among five it refunds. FG Delivery's tracker does not find it, and its own codes start with FGD."
+    },
+    {
+      "number": "CNITOM02536047FLM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/mancata-consegna-di-7-pacchi/CPTIT01605399-49",
+        "date": "2022-09-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "An Altroconsumo complaint against FG Delivery lists it among seven AliExpress parcels, and FG Delivery's reply names it among five it refunds. FG Delivery's tracker does not find it, and its own codes start with FGD."
+    },
+    {
+      "number": "CNITOM02570709FLM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/mancata-consegna-di-7-pacchi/CPTIT01605399-49",
+        "date": "2022-09-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "An Altroconsumo complaint against FG Delivery lists it among seven AliExpress parcels, and FG Delivery's reply names it among five it refunds. FG Delivery's tracker does not find it, and its own codes start with FGD."
+    },
+    {
+      "number": "CNITOM02822025FLM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/mancata-consegna-di-7-pacchi/CPTIT01605399-49",
+        "date": "2022-09-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "An Altroconsumo complaint against FG Delivery lists it among seven AliExpress parcels, and FG Delivery's reply names it among five it refunds. FG Delivery's tracker does not find it, and its own codes start with FGD."
+    },
+    {
+      "number": "CNITOM02698417FLM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/mancata-consegna-di-7-pacchi/CPTIT01605399-49",
+        "date": "2022-09-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "An Altroconsumo complaint against FG Delivery lists it among seven AliExpress parcels, and FG Delivery's reply names it among five it refunds. FG Delivery's tracker does not find it, and its own codes start with FGD."
+    },
+    {
+      "number": "CNITEC00967331FLM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/mancata-consegna-di-7-pacchi/CPTIT01605399-49",
+        "date": "2022-09-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "An Altroconsumo complaint against FG Delivery lists it among seven AliExpress parcels handed to Fulmine Group. FG Delivery's tracker does not find it, and its own codes start with FGD."
+    },
+    {
+      "number": "CNITOM02736144FLM",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/mancata-consegna-di-7-pacchi/CPTIT01605399-49",
+        "date": "2022-09-10",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "fg-delivery",
+        "confidence": "high"
+      },
+      "note": "An Altroconsumo complaint against FG Delivery lists it among seven AliExpress parcels handed to Fulmine Group. FG Delivery's tracker does not find it, and its own codes start with FGD."
+    }
+  ]
+}

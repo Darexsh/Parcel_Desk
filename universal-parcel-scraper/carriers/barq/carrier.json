@@ -1,0 +1,46 @@
+{
+  "id": "barq",
+  "displayName": "BARQ",
+  "aliases": [
+    "BARQ Fleet",
+    "Barq Logistics",
+    "برق"
+  ],
+  "region": {
+    "countries": [
+      "SA"
+    ]
+  },
+  "brand": {
+    "color": "#ffdf01"
+  },
+  "selectable": true,
+  "timezone": "Asia/Riyadh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://web.barqfleet.com/en/tracking-details?trackingId={trackingNumber}",
+    "searchUrl": "https://web.barqfleet.com/en/tracking",
+    "canaryUrl": "https://web.barqfleet.com/en/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "web.barqfleet.com"
+      ],
+      "pathPattern": "^/(?:en|ar)/tracking-details/?$",
+      "params": [
+        "trackingId"
+      ]
+    }
+  ],
+  "detection": []
+}

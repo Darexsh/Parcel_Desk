@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>Order Details - Domex</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+
+<body>
+<div class=" w-full">
+        <header class=" w-full fixed z-50">
+            <nav class=" w-full">
+                <ul>
+                    <li class=" font-[500] text-[13px]"><a class=" hover:text-[#FFCD05] font-bold  " href="https://domex.lk/about.php">ABOUT</a></li>
+                    <li class=" font-[500] text-[13px]"><a class=" hover:text-[#FFCD05] font-bold " href="https://domex.lk/branches.php">BRANCHES</a></li>
+                </ul>
+                <a href="https://portal.domex.lk/"><button style="font-family: Oxygen;">Login to Portal</button></a>
+            </nav>
+        </header>
+        <script>
+            $("#reg-btn").click(function () {
+                $("#reg-list").toggleClass(" hidden");
+            });
+        </script><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <style>
+        th,
+        td {
+            font-family: "Montserrat";
+        }
+    </style>
+</head>
+<body>
+    <!-- hotline -->
+
+    <div class=" w-full bg-[#FFCD05] min-[300px]:pt-[9vh] min-[800px]:pt-[10vh]">
+
+        <div class=" min-[300px]:w-full min-[800px]:w-[70%] mx-auto">
+
+            <h1
+
+                class=" min-[300px]:text-[13px] text-center min-[800px]:text-[35px] bg-[#FFCD05] min-[300px]:p-2 min-[800px]:p-5">
+
+                HOTLINE: <span href="tel:0110000000" class=" text-[#7A1B28]">011 0 000 000 </span>| PICK-UP-DESK: <span
+
+                    href="tel:0110000000" class=" text-[#7A1B28]">011 0 00 00 01</span></h1>
+
+        </div>
+
+    </div>
+<form method="get" action="/Order-Details.php" class="flex flex-row gap-5">
+    <div class=" w-full mt-[2rem]">
+        <div class=" min-[300px]:w-[95%] min-[800px]:w-[90%] mx-auto">
+            <div class=" grid grid-cols-1">
+                <div class=" w-full" style="background-color: #7a1b28; padding: 20px; text-align: center;">
+                    <input type="text" id="wbno" name="wbno" placeholder="Enter Waybill No:" class="focus-visible:outline-none:text-[13px]" style="min-width: 190px; max-width: 300px; height:40px; padding-left:10px;" value="00000000">
+                    <button style="background-color: #ffcd05; height: 40px; padding: 7px; border-radius: 6px; color: white; font-weight: bold; text-shadow: 0 0 2px black; margin-left: 5px;" >TRACK YOUR ORDER</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+            <div class=" w-full mt-[2rem]">
+            <div class=" min-[300px]:w-[95%] min-[800px]:w-[90%] mx-auto">
+                <div class=" grid grid-cols-1">
+                    <div class=" w-full">
+                        <div style="width: 100%; font-size: 1.2rem; padding: 30px 20px; text-align: center;">
+                            
+                            <h3 style="font-weight: bold; color:#781a28">Record Not Found!</h3>Sorry, the requested Waybill number is NOT found.                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- door-to door  -->
+
+    <div class=" w-full">
+        <h1 class=" text-center">Fast Door-to-Door <span class=" text-[#7A1B28]">Courier Service</span></h1>
+        <div>
+            <h1 id="countdown">0+</h1>
+            <h2>Branches</h2>
+        </div>
+    </div>
+<script>
+    let count = 0;
+    const countdownElement = document.getElementById('countdown');
+</script>
+    <footer class=" w-full">
+    <div class=" w-full  bg-[#7A1B28]">
+        <ul>
+            <li class="mb-2"><a href="https://domex.lk/branches.php" class="hover:underline">Branches & Delivery Schedule</a></li>
+            <li class="mb-2"><a href="https://domex.lk/contact.php" class="hover:underline">Contact Us</a></li>
+        </ul>
+    </div>
+</footer>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+
+</html>   
+</body>
+</html>

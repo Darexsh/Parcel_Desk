@@ -1,0 +1,47 @@
+{
+  "id": "penguin-box",
+  "displayName": "Penguin Box",
+  "aliases": [
+    "Penguin",
+    "PenguinBox",
+    "Penguin Box s.r.o.",
+    "Penguin Logistic"
+  ],
+  "region": {
+    "countries": [
+      "CZ"
+    ]
+  },
+  "brand": {
+    "color": "#ffda1a"
+  },
+  "selectable": true,
+  "timezone": "Europe/Prague",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.penguinbox.cz/sledovani-zasilky?track={trackingNumber}",
+    "searchUrl": "https://www.penguinbox.cz/sledovani-zasilky",
+    "canaryUrl": "https://www.penguinbox.cz/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.penguinbox.cz"
+      ],
+      "pathPattern": "^/sledovani-zasilky/?$",
+      "params": [
+        "track"
+      ]
+    }
+  ],
+  "detection": []
+}

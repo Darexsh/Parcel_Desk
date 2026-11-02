@@ -1,0 +1,118 @@
+{
+  "id": "fleetoptics",
+  "displayName": "FleetOptics",
+  "aliases": [
+    "FleetOptics Inc.",
+    "Fleet Optics",
+    "FleetOptics (CA)"
+  ],
+  "region": {
+    "countries": [
+      "CA"
+    ]
+  },
+  "brand": {
+    "color": "#02001e"
+  },
+  "selectable": true,
+  "timezone": "America/Toronto",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "fleetoptics",
+    "steps": [
+      "direct",
+      "retry",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 763
+    },
+    "localClocks": true,
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "offset_timestamps",
+    "eta",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://track.fleetopticsinc.com/?tracking_number={trackingNumber}",
+    "searchUrl": "https://track.fleetopticsinc.com/",
+    "canaryUrl": "https://track.fleetopticsinc.com/",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "offset_timestamps",
+      "eta",
+      "eta_window",
+      "delivered_at",
+      "delivery_options",
+      "proof_of_delivery",
+      "coordinates"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps",
+      "eta",
+      "delivered_at"
+    ],
+    "discarded": [
+      "progress_rail",
+      "eta_window",
+      "delivery_options",
+      "proof_of_delivery",
+      "coordinates"
+    ],
+    "unavailable": [
+      "weight",
+      "service_name",
+      "sender_name",
+      "recipient_name",
+      "signatory",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "track.fleetopticsinc.com"
+      ],
+      "pathPattern": "^/(?:fr/?)?$",
+      "params": [
+        "tracking_number"
+      ]
+    },
+    {
+      "domains": [
+        "delivery.fleetopticsinc.com"
+      ],
+      "pathPattern": "^/tracking/(?:fr/?)?$",
+      "params": [
+        "tracking_number"
+      ]
+    },
+    {
+      "domains": [
+        "fleetopticsinc.ca"
+      ],
+      "pathPattern": "^/(?:cons_portal\\.php|tracking/?)?$",
+      "params": [
+        "tracking_number"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "fleetoptics-1",
+      "pattern": "^F(?:OAESH\\d{7}|ONSP\\d{11}|DAV\\d{16}|DYNS[0-9A-Z]{11}|CLR\\d{12}|SLS\\d{15}|EPO\\d{15})$",
+      "confidence": "high"
+    }
+  ]
+}

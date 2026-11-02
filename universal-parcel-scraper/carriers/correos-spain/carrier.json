@@ -1,0 +1,102 @@
+{
+  "id": "correos-spain",
+  "displayName": "Correos",
+  "aliases": [
+    "Correos España",
+    "Correos de España",
+    "Correos y Telégrafos",
+    "Sociedad Estatal Correos y Telégrafos"
+  ],
+  "region": {
+    "countries": [
+      "ES"
+    ]
+  },
+  "brand": {
+    "color": "#ffcd00"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "correos-spain",
+    "steps": [
+      "direct"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "pickup_point",
+    "weight",
+    "dimensions",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://www.correos.es/es/es/herramientas/localizador/envios/detalle?tracking-number={trackingNumber}",
+    "searchUrl": "https://www.correos.es/es/es/herramientas/localizador/envios/detalle",
+    "helpUrl": "https://www.correos.es/es/es/atencion-al-cliente/tu-consulta-tu-reclamacion",
+    "canaryUrl": "https://www.correos.es/",
+    "shows": [
+      "status",
+      "history",
+      "recipient_name",
+      "recipient_address",
+      "signature",
+      "weight",
+      "dimensions",
+      "pickup_point"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "weight",
+      "dimensions",
+      "pickup_point",
+      "delivered_at"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address",
+      "signature"
+    ],
+    "unavailable": [
+      "eta",
+      "location"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "correos.es"
+      ],
+      "params": [
+        "tracking-number"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "correos-spain-1",
+      "pattern": "^PR\\d{15}C$",
+      "confidence": "high"
+    },
+    {
+      "id": "correos-spain-2",
+      "pattern": "^[A-Z][A-Z0-9]{5}\\d{16}[A-Z]$",
+      "confidence": "high",
+      "checksum": "correos-spain"
+    },
+    {
+      "id": "correos-spain-3",
+      "pattern": "^[A-Z]{2}\\d{9}ES$",
+      "confidence": "high",
+      "checksum": "s10"
+    },
+    {
+      "id": "correos-spain-4",
+      "pattern": "^[PD][A-Z][A-Z0-9]{4}\\d{9}[A-Z]$",
+      "confidence": "high",
+      "checksum": "correos-spain"
+    }
+  ]
+}

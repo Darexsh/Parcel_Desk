@@ -1,0 +1,18 @@
+{
+  "carrier": "chunil",
+  "entries": [
+    {"wording": "접수", "language": "ko", "stage": "accepted", "confirmedBy": "live", "firstSeen": "2026-10-19", "note": "The sending branch took the parcel in."},
+    {"wording": "발송", "language": "ko", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-19", "note": "Sent on from the sending branch."},
+    {"wording": "발송터미널하차", "language": "ko", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-19", "note": "Unloaded at the origin terminal."},
+    {"wording": "발송터미널출발", "language": "ko", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-19", "note": "Left the origin terminal."},
+    {"wording": "간선상차", "language": "ko", "stage": "in_transit", "confirmedBy": "prior-art", "firstSeen": "2026-10-19", "note": "Loaded onto a trunk-line truck. Listed for this tracker by an open-source Korean parcel tracker."},
+    {"wording": "간선하차", "language": "ko", "stage": "in_transit", "confirmedBy": "prior-art", "firstSeen": "2026-10-19", "note": "Unloaded from a trunk-line truck. Listed for this tracker by an open-source Korean parcel tracker."},
+    {"wording": "중계도착", "language": "ko", "stage": "in_transit", "confirmedBy": "prior-art", "firstSeen": "2026-10-19", "note": "Arrived at a relay terminal. Listed for this tracker by an open-source Korean parcel tracker."},
+    {"wording": "중계발송", "language": "ko", "stage": "in_transit", "confirmedBy": "prior-art", "firstSeen": "2026-10-19", "note": "Left a relay terminal. Listed for this tracker by an open-source Korean parcel tracker."},
+    {"wording": "도착터미널하차", "language": "ko", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-19", "note": "Unloaded at the destination terminal."},
+    {"wording": "도착", "language": "ko", "stage": "in_transit", "confirmedBy": "prior-art", "firstSeen": "2026-10-19", "note": "Arrived; the page's template has a block for it between the sending and terminal scans. Listed for this tracker by an open-source Korean parcel tracker."},
+    {"wording": "영업소도착", "language": "ko", "stage": "in_transit", "confirmedBy": "live", "firstSeen": "2026-10-19", "note": "Arrived at the delivering branch."},
+    {"wording": "배송출발", "language": "ko", "stage": "out_for_delivery", "confirmedBy": "prior-art", "firstSeen": "2026-10-19", "note": "Left the delivering branch for the recipient. Listed for this tracker by an open-source Korean parcel tracker."},
+    {"wording": "배송완료", "language": "ko", "stage": "delivered", "confirmedBy": "live", "firstSeen": "2026-10-19", "note": "Delivered; the page repeats it as the delivery result."}
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "pcs-logistics-vn",
+  "displayName": "PCS Logistics",
+  "aliases": [
+    "PCS Courier",
+    "Planet Courier Services",
+    "Chuyển phát nhanh PCS"
+  ],
+  "region": {
+    "countries": [
+      "VN"
+    ]
+  },
+  "brand": {
+    "color": "#ed543e"
+  },
+  "selectable": true,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "pcs-logistics-vn",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 686
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "offset_timestamps",
+    "provider_code",
+    "delivered_at",
+    "service_name",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://pcs-logistics.com/en/track-trace?code={trackingNumber}",
+    "searchUrl": "https://pcs-logistics.com/en/track-trace",
+    "canaryUrl": "https://pcs-logistics.com/en/track-trace",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps",
+      "delivered_at",
+      "service_name",
+      "origin",
+      "destination",
+      "weight",
+      "parcel_count",
+      "departure_date",
+      "customer_reference",
+      "recipient_name"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps",
+      "provider_code",
+      "delivered_at",
+      "service_name",
+      "destination_country"
+    ],
+    "discarded": [
+      "origin",
+      "weight",
+      "parcel_count",
+      "departure_date",
+      "customer_reference",
+      "recipient_name"
+    ],
+    "unavailable": [
+      "eta",
+      "sender_name",
+      "recipient_address",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "pcs-logistics.com"
+      ],
+      "pathPattern": "^/(?:vi|en|de|ko|ja|fr|zh-CN|zh-TW)/track-trace/?$",
+      "params": [
+        "code"
+      ]
+    }
+  ],
+  "detection": []
+}

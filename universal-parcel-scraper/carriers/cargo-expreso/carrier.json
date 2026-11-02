@@ -1,0 +1,49 @@
+{
+  "id": "cargo-expreso",
+  "displayName": "Cargo Expreso",
+  "aliases": [
+    "CAEX"
+  ],
+  "region": {
+    "countries": [
+      "GT",
+      "SV",
+      "HN",
+      "CR"
+    ]
+  },
+  "brand": {
+    "color": "#d32027"
+  },
+  "selectable": true,
+  "timezone": "America/Guatemala",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://cargoexpreso.com/tracking/?guia={trackingNumber}",
+    "searchUrl": "https://cargoexpreso.com/tracking/",
+    "canaryUrl": "https://cargoexpreso.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "cargoexpreso.com",
+        "www.cargoexpreso.com",
+        "www2.cargoexpreso.com"
+      ],
+      "pathPattern": "^/(?:(?:hn|sv|cr|pa)/)?tracking/?$",
+      "params": [
+        "guia"
+      ]
+    }
+  ],
+  "detection": []
+}

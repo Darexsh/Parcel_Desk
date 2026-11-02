@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passport Global Tracking Page</title>
+    <link rel="stylesheet" href="/css/passport-index.css">
+</head>
+<body>
+<div class="main">
+    <div class="status-block">
+    <div class="wrapper">
+
+<div class="delivery-date-block">
+    <div class="title-container">
+        <span class="title">
+            Estimated delivery date
+        </span>
+        <i class="icon-question edd-tooltip"></i>
+    </div>
+        <div class="date-container range ">
+            <div class="div">
+                    <div class="day-of-week">
+                        Wednesday
+                    </div>
+                    <div class="date range">
+                        Jan 07 -
+                    </div>
+            </div>
+            <div class="div">
+                    <div class="day-of-week">
+                        Friday
+                    </div>
+                    <div class="date range">
+                        Jan 09
+                    </div>
+            </div>
+        </div>
+        <div class="address-to">
+            <span class="caption">To: </span> Example City, AU
+        </div>
+</div>
+
+
+    <div class="last-mile-carrier">
+        <div class="title-container">
+            <div class="title">Your local delivery</div>
+        </div>
+        <div class="carrier-info">
+                <div class="logo">
+                        <a target="_blank" href="https://parcelrig.ht/00300000000000000017"><img src="https://p6t-prod-postal-service-logo.s3.amazonaws.com/example-logo.png" alt=""></a>
+                </div>
+            <div class="name">
+                    <a target="_blank" href="https://parcelrig.ht/00300000000000000017">Parcel Right</a>
+            </div>
+        </div>
+                <a class="tracking-code" target="_blank" href="https://parcelrig.ht/00300000000000000017">00300000000000000017</a>
+    </div>
+
+        <div class="tracking-details">
+    <div class="current-status-block ">
+        <div class="title">Current Status</div>
+
+        <div class="current-status milestone-out-for-delivery">
+            <div class="info">
+                <div class="icon icon-milestone-out-for-delivery"></div>
+                <div class="message">
+                        Your parcel’s on its way to you, almost there!
+                </div>
+            </div>
+            <div class="details">
+                <div class="address">
+                        <div class="city">Example City, QLD</div>
+                        <div class="country">AU</div>
+                </div>
+                <div class="datetime">
+                        <div class="date">Jan 06</div>
+                        <div id="current-status-time" class="time">05:55</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+        <div class="history">
+            <div class="title-container">
+                <span class="title">Previous status updates</span>
+            </div>
+
+            <div class="list">
+                <div class="accordion">
+
+                        <div class="tab">
+                            <div class="icon icon-milestone-crossing-border"></div>
+
+                            <div class="accordion" name="accordion" id="rd-0"></div>
+                            <label for="rd-0" class="tab-label">
+                                    Arrival in destination country
+                            </label>
+
+                            <div id="tab-0" class="tab-content">
+                                <div class='details'>
+                                        <div class="detail-item">
+                                            <span class="message">Your parcel’s on its way to you, almost there!</span>
+                                            <div class="date">Jan 06
+                                                <div class="delimiter"></div>
+                                                <div id='time-0' class="time">05:55</div>
+                                            </div>
+                                            <span class="address">EXAMPLE CITY, QLD, AU</span>
+                                            
+                                        </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="icon icon-milestone-at-customs"></div>
+
+                            <div class="accordion" name="accordion" id="rd-1"></div>
+                            <label for="rd-1" class="tab-label">
+                                    Customs clearance
+                            </label>
+
+                            <div id="tab-1" class="tab-content">
+                                <div class='details'>
+                                        <div class="detail-item">
+                                            <span class="message">Your parcel is being checked by customs. we’ll let you know when it’s cleared.</span>
+                                            <div class="date">Jan 05
+                                                <div class="delimiter"></div>
+                                                <div id='time-0' class="time">22:02</div>
+                                            </div>
+                                            <span class="address">EXAMPLE PARK, AU</span>
+                                            
+                                        </div>
+
+                                        <div class="detail-item">
+                                            <span class="message">Touchdown! your parcel has landed.</span>
+                                            <div class="date">Jan 05
+                                                <div class="delimiter"></div>
+                                                <div id='time-1' class="time">06:58</div>
+                                            </div>
+                                            <span class="address">XYZ, AU</span>
+                                            
+                                        </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="icon icon-milestone-preparing-to-export"></div>
+
+                            <div class="accordion" name="accordion" id="rd-2"></div>
+                            <label for="rd-2" class="tab-label">
+                                    Preparing for international export
+                            </label>
+
+                            <div id="tab-2" class="tab-content">
+                                <div class='details'>
+                                        <div class="detail-item">
+                                            <span class="message">Your parcel is in the air and is heading your way.</span>
+                                            <div class="date">Jan 03
+                                                <div class="delimiter"></div>
+                                                <div id='time-0' class="time">02:30</div>
+                                            </div>
+                                            <span class="address">EXAMPLEVILLE, IL, US</span>
+                                            
+                                        </div>
+
+                                        <div class="detail-item">
+                                            <span class="message">Shipped from origin processing center</span>
+                                            <div class="date">Jan 02
+                                                <div class="delimiter"></div>
+                                                <div id='time-1' class="time">14:31</div>
+                                            </div>
+                                            <span class="address">EXAMPLEVILLE, IL, US</span>
+                                            
+                                        </div>
+
+                                        <div class="detail-item">
+                                            <span class="message">Scanned at origin processing center</span>
+                                            <div class="date">Dec 31
+                                                <div class="delimiter"></div>
+                                                <div id='time-2' class="time">19:00</div>
+                                            </div>
+                                            <span class="address">US</span>
+                                            
+                                                <div class="time virtual-milestone">
+                                                    Estimated
+                                                    <button class="edd-tooltip"><i class="icon-alert-info"></i></button>
+                                                </div>
+
+                                        </div>
+
+                                        <div class="detail-item">
+                                            <span class="message">Processed and preparing for export</span>
+                                            <div class="date">Dec 31
+                                                <div class="delimiter"></div>
+                                                <div id='time-3' class="time">18:55</div>
+                                            </div>
+                                            <span class="address">EXAMPLEVILLE, IL, US</span>
+                                            
+                                        </div>
+
+                                        <div class="detail-item">
+                                            <span class="message">Received at origin processing center</span>
+                                            <div class="date">Dec 31
+                                                <div class="delimiter"></div>
+                                                <div id='time-4' class="time">18:55</div>
+                                            </div>
+                                            <span class="address">EXAMPLEVILLE, IL, US</span>
+                                            
+                                        </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <div class="icon icon-milestone-packing-order"></div>
+
+                            <div class="accordion" name="accordion" id="rd-3"></div>
+                            <label for="rd-3" class="tab-label">
+                                    Departed merchant facility
+                            </label>
+
+                            <div id="tab-3" class="tab-content">
+                                <div class='details'>
+                                        <div class="detail-item">
+                                            <span class="message">Passport does not have the package yet. your estimated delivery date will be updated once we receive it.</span>
+                                            <div class="date">Dec 29
+                                                <div class="delimiter"></div>
+                                                <div id='time-0' class="time">18:50</div>
+                                            </div>
+                                            <span class="address">EXAMPLEVILLE, IL, US</span>
+                                            
+                                        </div>
+
+                                        <div class="detail-item">
+                                            <span class="message">Shipment details sent to passport</span>
+                                            <div class="date">Dec 29
+                                                <div class="delimiter"></div>
+                                                <div id='time-1' class="time">18:37</div>
+                                            </div>
+                                            <span class="address">US</span>
+                                            
+                                        </div>
+
+                                        <div class="detail-item">
+                                            <span class="message">Thank you, order information received!</span>
+                                            <div class="date">Dec 29
+                                                <div class="delimiter"></div>
+                                                <div id='time-2' class="time">18:37</div>
+                                            </div>
+                                            <span class="address">US</span>
+                                            
+                                        </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+</div>
+    </div>
+    <div class="passport">
+        Going global with <a href="https://passportglobal.com/">Passport</a>
+    </div>
+</div>
+
+</div>
+<script src="/js/branded-page.min.js"></script>
+<script src="/js/bot-detection.js"></script>
+<script>
+    $(function() {
+        try {
+            BrandedPage.initialize({"id":"00000000000000000000000000000000000000000002","tracking_code":"PG1000000002AU","time_bought":1767033420,"carrier_service_id":2,"delivery_est":1767916799,"service_name":"PASSPORT","country_to":"au","reference":"ORDER-0002","merchant_id":2,"milestone_id":610,"is_return":0,"is_domestic":0,"isDelivered":false,"isIPAPlus":false,"isVirtualCurrentMilestone":false,"stage":6,"city":"Example City","state":"QLD","country":"AU","isLastMileHelperVisible":true,"lastMileCarrierName":"Parcel Right","lastMileDeliveryEst":1767916799,"isDelayed":false}, "example-store");
+            BrandedPage.convertTimeToLocalTimeZone();
+        } catch (error) {
+        }
+    });
+</script>
+</body>
+</html>

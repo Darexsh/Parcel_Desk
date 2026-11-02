@@ -1,0 +1,11 @@
+{
+  "carrier": "fm-transportes",
+  "entries": [
+    { "wording": "Pedido Criado | Aguardando Postagem Remetente", "stage": "registered", "language": "pt", "confirmedBy": "live" },
+    { "wording": "Encomenda Conferida", "stage": "accepted", "language": "pt", "confirmedBy": "live" },
+    { "wording": "Em Rota | Preparando para entrega", "stage": "in_transit", "language": "pt", "confirmedBy": "live", "note": "Preparation for delivery precedes the separate delivery-start scan." },
+    { "wording": "Processo de Entrega Iniciado", "stage": "out_for_delivery", "language": "pt", "confirmedBy": "live" },
+    { "wording": "Destinatario Ausente | Local Fechado", "stage": "failed_attempt", "language": "pt", "confirmedBy": "live" },
+    { "wording": "Encomenda Entregue", "stage": "delivered", "language": "pt", "confirmedBy": "live" }
+  ]
+}

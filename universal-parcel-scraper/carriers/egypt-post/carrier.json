@@ -1,0 +1,89 @@
+{
+  "id": "egypt-post",
+  "displayName": "Egypt Post",
+  "aliases": [
+    "Egyptian National Post Organization",
+    "ENPO",
+    "البريد المصري"
+  ],
+  "region": {
+    "countries": [
+      "EG"
+    ]
+  },
+  "brand": {
+    "color": "#007f3e"
+  },
+  "selectable": true,
+  "timezone": "Africa/Cairo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "egypt-post",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 944
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location"
+  ],
+  "portal": {
+    "searchUrl": "https://egyptpost.gov.eg/en-us/home/",
+    "canaryUrl": "https://egyptpost.gov.eg/en-us/home/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "progress_rail"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location"
+    ],
+    "discarded": [
+      "progress_rail"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps",
+      "sender_name",
+      "recipient_name",
+      "signatory"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "egyptpost.org",
+        "www.egyptpost.org"
+      ],
+      "pathPattern": "^/(?:enpo/(?:en|ar)/)?track-details/?$",
+      "params": [
+        "itemReference"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "egypt-post-1",
+      "pattern": "^(?:ENO|EXP|RCC)\\d{8}EG$",
+      "confidence": "low"
+    },
+    {
+      "id": "egypt-post-s10",
+      "pattern": "^[A-Z]{2}\\d{9}EG$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    }
+  ]
+}

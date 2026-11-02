@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>AEX</title>
+        <style>
+            .aex-tracking-status { display: flex; }
+            .tracking-event-row { display: flex; }
+        </style>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <div id="page-title" class="container-fluid">
+            <div class="container container-legacy">
+                <h3>
+                    <i class="fa fa-chevron-right"></i>
+                    Tracking de Paquetes
+                    <small>Verificá en donde se encuentran tus paquetes ingresando el número de guia.</small>
+                </h3>
+            </div>
+        </div>
+
+        <div class="container container-legacy">
+            <div class="row">
+                <div class="col-12 col-sm-8">
+                    <div class="card border-secondary">
+                        <div class="card-header">
+                            Historial de eventos - <small>Guía A000000001</small>
+                        </div>
+                                                    <div class="card-body">
+                                <p>
+                                    Si tenés alguna consulta o reclamo,
+                                    <a href="casos/nuevo" target="_blank">regístralo haciendo clic aquí</a> y
+                                    un ejecutivo de atención al cliente se va a poner en contacto contigo en la brevedad posible.
+                                </p>
+                            </div>
+                                                <div class="table-responsive">
+                            <div class="aex-tracking-status tema-verde mb-4"><div class="aex-tracking-step completado"><div class="aex-tracking-circle"></div><div class="aex-tracking-label">Guía generada</div></div><div class="aex-tracking-step completado"><div class="aex-tracking-circle"></div><div class="aex-tracking-label">Paquete recibido por AEX</div></div><div class="aex-tracking-step completado"><div class="aex-tracking-circle"></div><div class="aex-tracking-label">En camino</div></div><div class="aex-tracking-step completado"><div class="aex-tracking-circle"></div><div class="aex-tracking-label">Salió para entrega</div></div><div class="aex-tracking-step completado"><div class="aex-tracking-circle"></div><div class="aex-tracking-label">Entregada</div></div></div><div class="text-end mb-3"><button type="button" class="btn btn-link p-0 mx-2" id="toggleTrackingDetalle">Ver detalle</button></div><div id="trackingDetalle" style="display:none;"><div class="timeline-container"><h5 class="tracking-date-title">Viernes, 13 de Marzo del 2026</h5>
+                    <div class="tracking-event-row">
+                        <div class="tracking-hour">11:42:00</div>
+                        <div class="tracking-divider"></div>
+                        <div class="tracking-content">
+                            <div class="tracking-status">Entregada</div>
+                            <div class="tracking-event">Entrega Realizada</div><div class="tracking-comment">Recibido por: Juana Inventada 
+Nro. doc: 1234567 
+</div>
+                        </div>
+                    </div>
+                    <div class="tracking-event-row">
+                        <div class="tracking-hour">08:05:00</div>
+                        <div class="tracking-divider"></div>
+                        <div class="tracking-content">
+                            <div class="tracking-status">Asignado a repartidor para entrega</div>
+                            <div class="tracking-event">Asignado a repartidor para entrega</div>
+                        </div>
+                    </div>
+                    <div class="tracking-event-row">
+                        <div class="tracking-hour">08:04:00</div>
+                        <div class="tracking-divider"></div>
+                        <div class="tracking-content">
+                            <div class="tracking-status">Asignado a repartidor para entrega</div>
+                            <div class="tracking-event">Asignado a repartidor para entrega</div>
+                        </div>
+                    </div><h5 class="tracking-date-title">Jueves, 12 de Marzo del 2026</h5>
+                    <div class="tracking-event-row">
+                        <div class="tracking-hour">17:20:00</div>
+                        <div class="tracking-divider"></div>
+                        <div class="tracking-content">
+                            <div class="tracking-status">Recolección realizada</div>
+                            <div class="tracking-event">El paquete fue retirado y se encuentra en poder de AEX</div>
+                        </div>
+                    </div>
+                    <div class="tracking-event-row">
+                        <div class="tracking-hour">17:20:00</div>
+                        <div class="tracking-divider"></div>
+                        <div class="tracking-content">
+                            <div class="tracking-status">Recolección realizada</div>
+                            <div class="tracking-event">El paquete fue retirado y se encuentra en poder de AEX</div>
+                        </div>
+                    </div>
+                    <div class="tracking-event-row">
+                        <div class="tracking-hour">17:12:00</div>
+                        <div class="tracking-divider"></div>
+                        <div class="tracking-content">
+                            <div class="tracking-status">Paquete en oficinas de AEX</div>
+                            <div class="tracking-event">Recepción en oficina de AEX</div>
+                        </div>
+                    </div>
+                    <div class="tracking-event-row">
+                        <div class="tracking-hour">09:31:47</div>
+                        <div class="tracking-divider"></div>
+                        <div class="tracking-content">
+                            <div class="tracking-status">Guía generada</div>
+                            <div class="tracking-event">El remitente generó la etiqueta de envío y el paquete está pendiente de retiro por AEX</div>
+                        </div>
+                    </div></div></div>                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                    <div class='card border-secondary'>
+                        <div class="card-header">
+                            Ver otro envio
+                        </div>
+                        <div class='card-body'>
+                            <form name='frm_tracking' id="frm_tracking" method='GET' action='tracking.php'>
+                                <div class="input-group">
+                                    <input type="text" name='guia' id="guia" class="form-control" placeholder="Número de guia..."/>
+                                    <button class="btn btn-success" type="submit">VER</button>
+                                </div><!-- /input-group -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(function () {
+                $('#toggleTrackingDetalle').on('click', function () {
+                    $('#trackingDetalle').slideToggle(200);
+                });
+            });
+        </script>
+    </body>
+</html>

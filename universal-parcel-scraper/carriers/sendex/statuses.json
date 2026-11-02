@@ -1,0 +1,21 @@
+{
+  "carrier": "sendex",
+  "entries": [
+    {"wording": "RECIBIDO EN OFICINA", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Handed in at the origin branch; the first movement, at the guía's documentation time."},
+    {"wording": "EN TRÁNSITO", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "A movement at a branch or operations centre."},
+    {"wording": "RECIBIDO EN OFICINA DESTINO", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Arrived at the delivering branch."},
+    {"wording": "ENVÍO SALE DE COP", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Leaves the operations centre (COP). It can repeat daily at the delivering branch before the delivery round, and comes at the same minute as the round's own movement."},
+    {"wording": "EN RUTA PARA ENTREGA", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal"},
+    {"wording": "ENTREGADO", "stage": "delivered", "language": "es", "confirmedBy": "portal", "note": "The delivery movement; the page names who received the parcel under the movements."},
+    {"wording": "EL ENVÍO FUE RECOLECTADO EN ORIGEN POR SENDEX", "stage": "accepted", "language": "es", "confirmedBy": "portal", "note": "Picked up from the sender. Older guías use these sentences instead of the short labels."},
+    {"wording": "EL ENVÍO LLEGÓ A LAS INSTALACIONES DE SENDEX", "stage": "in_transit", "language": "es", "confirmedBy": "portal", "note": "Also written \"LLEGO A LAS INSTALACIÓNES\"."},
+    {"wording": "EL ENVÍO LLEGO A LAS INSTALACIÓNES DE SENDEX", "stage": "in_transit", "language": "es", "confirmedBy": "portal"},
+    {"wording": "EL ENVÍO SALIÓ HACIA LA OFICINA DESTINO O DE ENLACE", "stage": "in_transit", "language": "es", "confirmedBy": "portal"},
+    {"wording": "EL ENVÍO LLEGO A LA OFICINA DESTINO O DE ENLACE", "stage": "in_transit", "language": "es", "confirmedBy": "portal"},
+    {"wording": "EL ENVÍO SE ENCUENTRA EN EL VEHÍCULO PARA SU ENTREGA", "stage": "out_for_delivery", "language": "es", "confirmedBy": "portal"},
+    {"wording": "ENVÍO CON INTENTO DE ENTREGA NO EXITOSO", "stage": "failed_attempt", "language": "es", "confirmedBy": "portal", "note": "A delivery attempt that failed; the vehicle movement follows the next day."},
+    {"wording": "EL ENVÍO FUE ENTREGADO", "stage": "delivered", "language": "es", "confirmedBy": "portal"},
+    {"wording": "ENTREGADA", "stage": "delivered", "language": "es", "confirmedBy": "portal", "note": "The guía's overall status once delivered, not a movement. Seen in archived captures of Sendex's former tracker at sendex.mx; the current page shows no overall status."},
+    {"wording": "PENDIENTE", "language": "es", "confirmedBy": "portal", "note": "The guía's overall status before delivery, not a movement. Seen in archived captures of Sendex's former tracker at sendex.mx; the current page shows no overall status."}
+  ]
+}

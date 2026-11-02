@@ -1,0 +1,29 @@
+{
+  "carrier": "vitran-express",
+  "records": [
+    {
+      "number": "51176258",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250409152253/https://www.vitran.com/quicktrack.aspx?p=51176258",
+        "date": "2025-04-09",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colisweb",
+          "heppner"
+        ]
+      },
+      "note": "An archived lookup on Vitran's quick track page shows this PRO bill in transit between two Canadian cities with its pickup date, pieces and weight."
+    }
+  ]
+}

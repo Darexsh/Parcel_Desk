@@ -1,0 +1,81 @@
+{
+  "id": "correos-el-salvador",
+  "displayName": "Correos de El Salvador",
+  "aliases": [
+    "Dirección General de Correos de El Salvador",
+    "Correos El Salvador",
+    "Correo El Salvador",
+    "El Salvador Post"
+  ],
+  "region": {
+    "countries": [
+      "SV"
+    ]
+  },
+  "brand": {
+    "color": "#08416b"
+  },
+  "selectable": true,
+  "timezone": "America/El_Salvador",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "correos-el-salvador",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 577
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "weight",
+    "destination_country"
+  ],
+  "portal": {
+    "searchUrl": "https://www.correos.gob.sv/servicios/rastrear-paquete/",
+    "canaryUrl": "https://www.correos.gob.sv/servicios/rastrear-paquete/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "item_category",
+      "origin_country",
+      "destination_country"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "destination_country"
+    ],
+    "discarded": [
+      "item_category",
+      "origin_country"
+    ],
+    "unavailable": [
+      "eta",
+      "service_name",
+      "delivered_at",
+      "offset_timestamps",
+      "recipient_name",
+      "sender_name",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.correos.gob.sv"
+      ],
+      "path": "^/rastrear-paquete/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

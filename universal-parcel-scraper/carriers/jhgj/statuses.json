@@ -1,0 +1,22 @@
+{
+  "carrier": "jhgj",
+  "entries": [
+    {"wording": "广州处理中心已收寄", "language": "zh", "stage": "accepted", "confirmedBy": "live", "note": "The script's first row: the Guangzhou centre took the parcel in."},
+    {"wording": "邮件已完成分拣，准备发出", "language": "zh", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "邮件离开处理中心", "language": "zh", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "出口海关/放行", "language": "zh", "stage": "in_transit", "confirmedBy": "live", "note": "Export customs released the parcel, so it is back in transit."},
+    {"wording": "快件到达处理中心", "language": "zh", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "快件离开处理中心", "language": "zh", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "已交承运商运输", "language": "zh", "stage": "in_transit", "confirmedBy": "live", "note": "Handed to the carrier for transport."},
+    {"wording": "航空公司接收", "language": "zh", "stage": "in_transit", "confirmedBy": "live", "note": "The airline received the parcel."},
+    {"wording": "启运", "language": "zh", "stage": "in_transit", "confirmedBy": "live", "note": "The flight left."},
+    {"wording": "Arrive at Airport", "language": "en", "stage": "in_transit", "confirmedBy": "live"},
+    {"wording": "Customs clearanceisin progress", "language": "en", "stage": "customs", "confirmedBy": "live", "note": "Written without the spaces around \"is in\"."},
+    {"wording": "The import customs keep it for inspection", "language": "en", "stage": "customs", "confirmedBy": "live"},
+    {"wording": "Customs clearance completed", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "A cleared parcel is back in transit."},
+    {"wording": "Arrive at the mail processing center", "language": "en", "stage": "in_transit", "confirmedBy": "live", "note": "Followed by the recipient's town and postcode."},
+    {"wording": "Out for Delivery", "language": "en", "stage": "out_for_delivery", "confirmedBy": "live", "note": "Followed by the recipient's town and postcode."},
+    {"wording": "Delivered", "language": "en", "stage": "delivered", "confirmedBy": "live", "note": "Followed by the recipient's town and postcode."},
+    {"wording": "货物电子信息已经收到", "language": "zh", "stage": "registered", "confirmedBy": "prior-art", "note": "The platform writes this row itself for an order without scans, on its creation time."}
+  ]
+}

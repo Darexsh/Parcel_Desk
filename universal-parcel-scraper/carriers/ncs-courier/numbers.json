@@ -1,0 +1,56 @@
+{
+  "carrier": "ncs-courier",
+  "records": [
+    {
+      "number": "831304377730",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2025/09/15/surat-pembaca/pengiriman-kartu-visa-yup-selalu-gagal",
+        "date": "2025-09-15",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "mondial-relay",
+          "colis-prive",
+          "mrw",
+          "brt",
+          "sf-express",
+          "sto",
+          "zto",
+          "j-and-t",
+          "lbc-express",
+          "metropolitan-warehouse",
+          "sending"
+        ]
+      },
+      "note": "A customer's complaint about a payment card delivery names NCS as the courier together with this resi and says it could only be followed in the card issuer's app."
+    },
+    {
+      "number": "NCS230327007721S",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://mediakonsumen.com/2023/05/12/surat-pembaca/lebih-dari-1-bulan-kartu-ovo-u-card-bri-tak-kunjung-sampai",
+        "date": "2023-05-12",
+        "dateKind": "publication",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "A customer's complaint about a credit card delivery quotes this resi from the issuing bank and says the courier reported it returned to the bank; the text does not name the courier, but the number starts with NCS."
+    }
+  ]
+}

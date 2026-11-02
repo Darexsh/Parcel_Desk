@@ -1,0 +1,25 @@
+{
+  "carrier": "jifan",
+  "records": [
+    {
+      "number": "JFGJ131216132CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240925033428/http://www.szjf56.cn/index/tracknumber/getTrackingByNos?nos=JFGJ131216132CN",
+        "date": "2024-09-25",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "jifan",
+        "confidence": "high"
+      },
+      "note": "A lookup on Jifan's own tracker archived by the Wayback Machine; the reply shows the parcel's history from the order to its flight out of China. The tracker no longer holds it."
+    }
+  ]
+}

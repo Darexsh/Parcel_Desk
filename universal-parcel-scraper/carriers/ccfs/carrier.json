@@ -1,0 +1,93 @@
+{
+  "id": "ccfs",
+  "displayName": "CrossCountry Freight Solutions",
+  "aliases": [
+    "CCFS",
+    "Cross Country Freight Solutions"
+  ],
+  "region": {
+    "countries": [
+      "US"
+    ]
+  },
+  "brand": {
+    "color": "#ae2326"
+  },
+  "selectable": true,
+  "timezone": "America/Chicago",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "ccfs",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 739
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "eta",
+    "canonical_tracking_number"
+  ],
+  "portal": {
+    "url": "https://auth.ccfs.com/track/detail/{trackingNumber}",
+    "searchUrl": "https://auth.ccfs.com/track/search",
+    "canaryUrl": "https://auth.ccfs.com/track/search",
+    "shows": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "eta",
+      "canonical_tracking_number",
+      "departure_date",
+      "delivered_at",
+      "origin",
+      "destination",
+      "postcodes",
+      "signatory",
+      "office_contact_details",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "progress_rail",
+      "history",
+      "location",
+      "eta",
+      "canonical_tracking_number"
+    ],
+    "discarded": [
+      "departure_date",
+      "delivered_at",
+      "origin",
+      "destination",
+      "postcodes",
+      "signatory",
+      "office_contact_details",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "offset_timestamps",
+      "provider_code",
+      "service_name",
+      "weight",
+      "sender_name",
+      "recipient_name",
+      "recipient_address"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "auth.ccfs.com"
+      ],
+      "path": "^/track/detail/([A-Za-z0-9]+)(?:-\\d+)?/?$"
+    }
+  ],
+  "detection": []
+}

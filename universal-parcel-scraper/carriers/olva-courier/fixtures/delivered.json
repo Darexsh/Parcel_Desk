@@ -1,0 +1,189 @@
+{
+  "hasQuery": "1",
+  "queryType": "remito",
+  "tracking": "09999901",
+  "emision": "26",
+  "display": "26-09999901",
+  "trackingData": {
+    "tracking": {
+      "number": "26-09999901",
+      "externalCode": "0",
+      "type": "NACIONAL",
+      "weight": "2.50",
+      "unitOfWeight": "KG",
+      "content": "CAJA - MUESTRAS",
+      "consignee": "DESTINATARIA DE PRUEBA",
+      "destinationAddress": "SAN MUESTRA, EJEMPLO",
+      "destinationPhone": "9*****000",
+      "destinationDocument": "DNI 0****0000"
+    },
+    "currentStatus": {
+      "code": "ENTREGADO",
+      "name": "Entregado",
+      "date": "2026-10-07T11:02:18+00:00"
+    },
+    "timeline": [
+      {
+        "code": "ORIGEN",
+        "name": "Origen",
+        "legend": "Registro de envío exitoso",
+        "legendColor": "green",
+        "order": 1,
+        "completed": true,
+        "macro": {
+          "code": "ORIGEN",
+          "name": "Origen",
+          "detail": "VILLA EJEMPLO"
+        }
+      },
+      {
+        "code": "PROCESO_ENVIO",
+        "name": "Proceso de envío",
+        "legend": "En camino",
+        "legendColor": "green",
+        "order": 2,
+        "completed": true,
+        "macro": null
+      },
+      {
+        "code": "ENTREGADO",
+        "name": "Entregado",
+        "legend": "¡Entregado exitosamente!",
+        "legendColor": "green",
+        "order": 3,
+        "completed": true,
+        "macro": {
+          "code": "DESTINO",
+          "name": "Destino",
+          "detail": "SAN MUESTRA"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "code": "ORIGEN",
+        "name": "Origen",
+        "legend": "Registro de envío exitoso",
+        "legendColor": "green",
+        "status": "COMPLETADO",
+        "finishedAt": "04/10/2026",
+        "movementCount": 3,
+        "events": [
+          {
+            "statusCode": "REGISTRADO",
+            "title": "Envío registrado",
+            "description": "¡Envío Registrado!",
+            "date": "03/10/2026",
+            "time": "01:12:40",
+            "location": "VILLA EJEMPLO",
+            "color": "green"
+          },
+          {
+            "statusCode": "ALMACEN",
+            "title": "En almacén de VILLA EJEMPLO",
+            "description": "En almacén de VILLA EJEMPLO",
+            "date": "04/10/2026",
+            "time": "00:00:00",
+            "location": "VILLA EJEMPLO",
+            "color": "green"
+          },
+          {
+            "statusCode": "ALMACEN",
+            "title": "En almacén de VILLA EJEMPLO",
+            "description": "En almacén de VILLA EJEMPLO",
+            "date": "04/10/2026",
+            "time": "22:41:09",
+            "location": "VILLA EJEMPLO",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "code": "PROCESO_ENVIO",
+        "name": "Proceso de envío",
+        "legend": "En camino",
+        "legendColor": "green",
+        "status": "COMPLETADO",
+        "finishedAt": "06/10/2026",
+        "movementCount": 3,
+        "events": [
+          {
+            "statusCode": "REPARTO",
+            "title": "En camino a tu domicilio",
+            "description": "En camino a SAN MUESTRA",
+            "date": "05/10/2026",
+            "time": "00:20:31",
+            "location": "VILLA EJEMPLO",
+            "color": "yellow"
+          },
+          {
+            "statusCode": "EN_RUTA",
+            "title": "En camino a destino",
+            "description": "En almacén de SAN MUESTRA",
+            "date": "06/10/2026",
+            "time": "07:05:12",
+            "location": "SAN MUESTRA",
+            "color": "green"
+          },
+          {
+            "statusCode": "REPARTO",
+            "title": "En camino a tu domicilio",
+            "description": "En camino a tu domicilio",
+            "date": "06/10/2026",
+            "time": "08:44:57",
+            "location": "SAN MUESTRA",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "code": "ENTREGADO",
+        "name": "Entregado",
+        "legend": "¡Entregado exitosamente!",
+        "legendColor": "green",
+        "status": "COMPLETADO",
+        "finishedAt": "07/10/2026",
+        "movementCount": 4,
+        "events": [
+          {
+            "statusCode": "ENTREGADO",
+            "title": "Tu paquete ya fue entregado",
+            "description": "¡Entregado exitosamente!",
+            "date": "07/10/2026",
+            "time": "11:02:18",
+            "location": "SAN MUESTRA",
+            "color": "green"
+          },
+          {
+            "statusCode": "INCIDENCIA",
+            "title": "Incidencia en el envío",
+            "description": "Entrega fallida por motivo: ausente",
+            "date": "06/10/2026",
+            "time": "13:30:02",
+            "location": "SAN MUESTRA",
+            "color": "red"
+          },
+          {
+            "statusCode": "REPARTO",
+            "title": "En camino a tu domicilio",
+            "description": "En camino a tu domicilio",
+            "date": "07/10/2026",
+            "time": "09:15:40",
+            "location": "SAN MUESTRA",
+            "color": "yellow"
+          },
+          {
+            "statusCode": "REPARTO",
+            "title": "En camino a tu domicilio",
+            "description": "En camino a tu domicilio",
+            "date": "06/10/2026",
+            "time": "08:44:57",
+            "location": "SAN MUESTRA",
+            "color": "yellow"
+          }
+        ]
+      }
+    ]
+  },
+  "errorMsg": ""
+}

@@ -1,0 +1,113 @@
+{
+  "id": "mayiyinfu",
+  "displayName": "Mayi Yinfu",
+  "aliases": [
+    "Mayiyinfu",
+    "MYYF",
+    "蚂蚁银服",
+    "螞蟻銀服",
+    "广东蚂蚁银服国际物流有限公司",
+    "Mayi Yinfu International Logistics"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#000000"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "mayiyinfu",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "service_name",
+    "destination_country",
+    "canonical_tracking_number",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "canaryUrl": "https://t.17track.net/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "service_name",
+      "destination_country",
+      "canonical_tracking_number",
+      "delivery_tracking_number",
+      "parcel_count",
+      "weight",
+      "customer_reference",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "postcodes",
+      "signatory",
+      "signature",
+      "proof_of_delivery",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "service_name",
+      "destination_country",
+      "canonical_tracking_number",
+      "delivery_partner",
+      "delivery_tracking_number"
+    ],
+    "discarded": [
+      "parcel_count",
+      "weight",
+      "customer_reference",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "postcodes",
+      "signatory",
+      "signature",
+      "proof_of_delivery",
+      "payment_details"
+    ],
+    "unavailable": [
+      "eta",
+      "delivered_at",
+      "offset_timestamps"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "mayiyinfu.com.cn",
+        "www.mayiyinfu.com.cn"
+      ],
+      "pathPattern": "^/trackIndex\\.htm$",
+      "params": [
+        "documentCode"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "mayiyinfu-1",
+      "pattern": "^MY\\d{10}US$",
+      "confidence": "high"
+    }
+  ]
+}

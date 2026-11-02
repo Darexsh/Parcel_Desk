@@ -1,0 +1,85 @@
+{
+  "id": "gofo-es",
+  "displayName": "GOFO Spain",
+  "aliases": [
+    "GOFO ES"
+  ],
+  "region": {
+    "countries": [
+      "ES"
+    ]
+  },
+  "brand": {
+    "color": "#fc4c02"
+  },
+  "selectable": true,
+  "timezone": "Europe/Madrid",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "gofo-es",
+    "steps": [
+      "direct"
+    ],
+    "recognition": {
+      "rank": 465
+    },
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://www.gofo.com/es/tracking-results/?id={trackingNumber}",
+    "searchUrl": "https://www.gofo.com/es/tracking-results/",
+    "canaryUrl": "https://www.gofo.com/es/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "delivery_photo"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "service_name"
+    ],
+    "discarded": [
+      "delivery_detail",
+      "proof_images",
+      "personal_references",
+      "recipient_verification",
+      "unlabelled_weight",
+      "eta",
+      "notices"
+    ],
+    "unavailable": [
+      "delivery_photo"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "gofo.com"
+      ],
+      "pathPattern": "^/es(?:/|$)",
+      "params": [
+        "id"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "gofo-es-1",
+      "pattern": "^(?:GF|CI)ES\\d{13,14}$",
+      "confidence": "high"
+    }
+  ]
+}

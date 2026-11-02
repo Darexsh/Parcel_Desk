@@ -9,5 +9,26 @@ services:
       - order-data:/data
     security_opt:
       - no-new-privileges:true
+  tracking-scraper:
+    build: ./universal-parcel-scraper
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+  tracking-worker:
+    build: .
+    command: ["python", "tracking_worker.py"]
+    restart: unless-stopped
+    environment:
+      TRACKING_SCRAPER_URL: http://tracking-scraper:8080
+      TRACKING_POLL_SECONDS: ${TRACKING_POLL_SECONDS:-900}
+    volumes:
+      - order-data:/data
+    depends_on:
+      order-management:
+        condition: service_started
+      tracking-scraper:
+        condition: service_healthy
+    security_opt:
+      - no-new-privileges:true
 volumes:
   order-data:

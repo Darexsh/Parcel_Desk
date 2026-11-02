@@ -1,0 +1,81 @@
+{
+  "id": "redpack",
+  "displayName": "Redpack",
+  "aliases": [
+    "RedPack"
+  ],
+  "region": {
+    "countries": [
+      "MX"
+    ]
+  },
+  "brand": {
+    "color": "#e2211c"
+  },
+  "selectable": true,
+  "timezone": "America/Mexico_City",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "redpack",
+    "steps": [
+      "direct",
+      "refresh",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 15
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at",
+    "eta",
+    "service_name",
+    "weight",
+    "dimensions"
+  ],
+  "portal": {
+    "searchUrl": "https://www.redpack.com.mx/es/inicio/",
+    "canaryUrl": "https://www.redpack.com.mx/es/inicio/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "eta",
+      "delivered_at",
+      "service_name",
+      "weight",
+      "dimensions",
+      "recipient_name",
+      "proof_of_delivery",
+      "progress_rail"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "eta",
+      "delivered_at",
+      "service_name",
+      "weight",
+      "dimensions"
+    ],
+    "discarded": [
+      "recipient_name",
+      "recipient_address",
+      "postcodes",
+      "customer_reference",
+      "facility_identifiers",
+      "proof_of_delivery",
+      "progress_rail"
+    ],
+    "unavailable": [
+      "pickup_point"
+    ]
+  },
+  "links": [],
+  "detection": []
+}

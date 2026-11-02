@@ -1,0 +1,28 @@
+{
+  "carrier": "17feia",
+  "entries": [
+    {"wording": "Item information received.", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The order data, the one row without a label."},
+    {"code": "包裹在去设施路上", "wording": "The package is on the way to the facility.", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Written twelve hours after the order data, before 17FEIA's warehouse receives the parcel; the shared rules would read it as transit."},
+    {"code": "仓库收货", "wording": "Warehouse receipt.", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "17FEIA's warehouse in Shanghai or Shenzhen received the parcel; the first box of the tracking page's progress rail."},
+    {"code": "订单待客户确认", "wording": "The order has information pending customer confirmation.", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "The warehouse has the parcel and waits for the customer to confirm the order."},
+    {"code": "订单已确认", "wording": "Order Confirmed.", "stage": "accepted", "language": "en", "confirmedBy": "live"},
+    {"code": "订单已出库", "wording": "Order dispatched from warehouse.", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "出口报关中", "wording": "Export declaration in progress.", "stage": "customs", "language": "en", "confirmedBy": "live", "note": "Export customs in China."},
+    {"code": "预计起飞日期", "wording": "Estimated departure date: …", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "An estimate written before the flight, followed by its date: no scan, so the adapter drops the row."},
+    {"code": "航班延误", "wording": "Flight delayed.", "language": "en", "confirmedBy": "live", "unmapped": true, "firstSeen": "2026-10-22", "note": "Between the estimated departure and the take-off: not a movement, so the row keeps the stage of the one before it."},
+    {"code": "航班已起飞", "wording": "Flight has departed.", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "飞机起飞", "stage": "in_transit", "language": "zh", "confirmedBy": "bundle", "note": "The departure in the tracking page's progress rail; current replies label it 航班已起飞."},
+    {"code": "航班到达中转地", "wording": "Flight Arrived at Transit Hub.", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "航班在中转地起飞", "wording": "Flight Departed from Transit Hub.", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "航班抵达清关港", "wording": "Flight Arrived at Clearance Port.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The landing before import customs; the shared rules would read it as customs."},
+    {"code": "飞机落地", "stage": "in_transit", "language": "zh", "confirmedBy": "bundle", "note": "The landing in the tracking page's progress rail."},
+    {"code": "清关行提货到仓", "wording": "Broker picked up Shipment and delivered to warehouse.", "stage": "customs", "language": "en", "confirmedBy": "live", "note": "The customs broker takes the shipment to its warehouse for clearance; the shared rules would read a delivery."},
+    {"code": "清关中", "wording": "Customs Clearance is in progress.", "stage": "customs", "language": "en", "confirmedBy": "live"},
+    {"code": "清关完成", "wording": "Customs Clearance Completed.", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "已交仓，等待上网", "wording": "Arrived at delivery hub，Awaiting carrie scan.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "After the clearance, before the delivering partner's first scan: the parcel was handed in at the partner's depot and waits to enter its system."},
+    {"code": "运输途中", "wording": "The international shipment has been processed in the parcel center of origin", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Relayed from DHL in Germany, with DHL's place, country and offset. The label marks every relayed row; the stage comes from the partner's wording."},
+    {"code": "运输途中", "wording": "The international shipment has been processed in the export parcel center", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Relayed from DHL in Germany."},
+    {"code": "运输途中", "wording": "The shipment will be transported to the destination country/destination area and, from there, handed over to the delivery organization.", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Relayed from DHL in Germany, for a parcel bound for France."},
+    {"code": "成功签收", "stage": "delivered", "language": "zh", "confirmedBy": "bundle", "note": "The last box of the tracking page's progress rail."}
+  ]
+}

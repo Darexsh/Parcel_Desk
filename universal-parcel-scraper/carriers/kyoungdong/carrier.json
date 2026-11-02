@@ -1,0 +1,111 @@
+{
+  "id": "kyoungdong",
+  "displayName": "Kyungdong Express",
+  "aliases": [
+    "경동택배",
+    "Kyoungdong Express",
+    "KYOUNGDONG",
+    "Kyungdong Parcel",
+    "KDEXP",
+    "경동물류",
+    "Kyungdong Logistics"
+  ],
+  "region": {
+    "countries": [
+      "KR"
+    ]
+  },
+  "brand": {
+    "color": "#2f308d"
+  },
+  "selectable": true,
+  "timezone": "Asia/Seoul",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "kyoungdong",
+    "steps": [
+      "direct",
+      "retry"
+    ]
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "delivered_at"
+  ],
+  "portal": {
+    "url": "https://kdexp.com/service/delivery/etc/delivery.do?barcode={trackingNumber}",
+    "searchUrl": "https://kdexp.com/index.do",
+    "canaryUrl": "https://kdexp.com/index.do",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "order_contents",
+      "parcel_count",
+      "origin",
+      "destination",
+      "driver_name",
+      "office_contact_details",
+      "proof_of_delivery"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "provider_code",
+      "delivered_at"
+    ],
+    "discarded": [
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "contact_details",
+      "order_contents",
+      "parcel_count",
+      "origin",
+      "destination",
+      "driver_name",
+      "office_contact_details",
+      "proof_of_delivery"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "pickup_point"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "kdexp.com",
+        "www.kdexp.com"
+      ],
+      "pathPattern": "^/service/delivery/(?:etc|ns)/delivery\\.do$",
+      "params": [
+        "barcode"
+      ]
+    },
+    {
+      "domains": [
+        "kdexp.com",
+        "www.kdexp.com"
+      ],
+      "pathPattern": "^/(?:basicNewDelivery|del_search)\\.kd$",
+      "params": [
+        "barcode"
+      ]
+    }
+  ],
+  "detection": []
+}

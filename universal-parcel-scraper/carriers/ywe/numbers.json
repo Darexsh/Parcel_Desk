@@ -1,0 +1,26 @@
+{
+  "carrier": "ywe",
+  "records": [
+    {
+      "number": "YWE00001563351639",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260924143500/https://www.yanwenexpress.com/tracking.html?label=YWE00001563351639",
+        "date": "2026-09-24",
+        "access": "full_page",
+        "dateKind": "capture"
+      },
+      "context": {
+        "service": "YWE",
+        "reportedRole": "shipment_tracking",
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "ywe",
+        "confidence": "high"
+      },
+      "note": "A lookup on YWE's own tracking page archived by the Wayback Machine; the tracker's reply captured with it shows the parcel's US history from the order to a failed delivery."
+    }
+  ]
+}

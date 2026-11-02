@@ -1,0 +1,27 @@
+{
+  "waybillNo": "K0000000",
+  "referenceNo": "K0000000",
+  "groups": [
+    {
+      "waybill": "K0000000",
+      "date": "9 June 2026",
+      "events": [
+        { "time": "10:00", "description": "CONSIGNED IN Client Site." },
+        { "time": "12:01", "description": "INTO CONTAINER IN Client Site." },
+        { "time": "12:02", "description": "INTO CONTAINER IN Client Site." },
+        { "time": "12:03", "description": "INTO CONTAINER IN Client Site." },
+        { "time": "15:00", "description": "DEPARTED BY ROAD TO Exampleville Hub, Sampleton FROM Client Site." },
+        { "time": "18:00", "description": "ARRIVED BY ROAD FROM Client Site TO Exampleville Hub, Sampleton." }
+      ]
+    },
+    {
+      "waybill": "K0000000",
+      "date": "10 June 2026",
+      "events": [
+        { "time": "02:00", "description": "OUT OF CONTAINER IN Exampleville Hub, Sampleton." },
+        { "time": "04:00", "description": "DEPARTED BY ROAD TO Testtown Depot, Testtown FROM Exampleville Hub, Sampleton." },
+        { "time": "09:00", "description": "ARRIVED BY ROAD FROM Exampleville Hub, Sampleton TO Testtown Depot, Testtown." }
+      ]
+    }
+  ]
+}

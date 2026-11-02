@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Express One</title>
+</head>
+<body>
+<main>
+    <div class="media-container">
+        <h3>Track a shipment</h3>
+    </div>
+    <div style="display: none">
+        <form name="form" method="post" data-tracking-form="data-tracking-form" action="/en/tracking"><div><label for="form_bols" class="required">Bols</label><input type="text" id="form_bols" name="form[bols]" required="required" value="10000017" /></div><input type="hidden" id="form__token" name="form[_token]" data-controller="csrf-protection" value="0a1b2c3d.SyntheticTokenPart-One_000.SyntheticTokenPart-Two_000" /></form>
+    </div>
+    <div class="main-wrapper">
+        <div class="container-lg">
+            <div class="accordion-wrapper accordion-wrapper-colored" data-controller="accordion" data-accordion-expand-first-value="false">
+                <div class="card-wrapper card-full-wrapper">
+                    <div class="card-item-holder">
+                        <div class="card-container">
+                            <div class="text-wrapper">
+                                <p class="text-default">Enter a bill of lading number or multiple numbers, separated by a comma</p>
+                                <br>
+                                <div class="row gutter-xs">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+                                        <div class="input-field-grouped" data-controller="bol-tracking-page">
+                                            <input type="text" value="10000017" data-bol-tracking-page-target="input">
+                                            <button data-bol-tracking-page-target="submitBtn" data-action="bol-tracking-page#submit">Track</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper card-full-wrapper">
+    <div class="card-item-holder">
+        <div class="accordion-container">
+            <div class="accordion-header">
+                <a href="#" data-action="accordion#toggleAccordion">
+                    <span>Shipment N 10000017 -
+                                        Delivered
+
+                    </span>
+                    <i></i>
+                </a>
+            </div>
+            <div class="accordion-body">
+                <div class="table-responsive">
+                    <table class="flexible-table">
+                        <tbody>
+                            <tr class="active">
+                                <td><span></span></td>
+                                <td>
+                                    <span class="mobile-title">Date</span>
+                                    <p>
+                                        10.03.2026
+                                    </p></td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Day of the week</span>
+                                    <p>Tuesday</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Time</span>
+                                    <p>15:39</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Status</span>
+                                    <p>
+                                    Delivered - 
+                                    Примерно- Е1 | SAMPLEVILLE
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="row-separator">
+                                <td colspan="5" style="padding: 5px;border:0;"></td>
+                            </tr>
+                            <tr class="">
+                                <td><span></span></td>
+                                <td>
+                                    <span class="mobile-title">Date</span>
+                                    <p>
+                                        06.03.2026
+                                    </p></td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Day of the week</span>
+                                    <p>Friday</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Time</span>
+                                    <p>14:48</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Status</span>
+                                    <p>
+                                    Confirmed for delivery by PUDO - 
+                                    <a href="/en/80">Примерно- Е1 | SAMPLEVILLE</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="row-separator">
+                                <td colspan="5" style="padding: 5px;border:0;"></td>
+                            </tr>
+                            <tr class="">
+                                <td><span></span></td>
+                                <td>
+                                    <span class="mobile-title">Date</span>
+                                    <p>
+                                        06.03.2026
+                                    </p></td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Day of the week</span>
+                                    <p>Friday</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Time</span>
+                                    <p>14:48</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Status</span>
+                                    <p>
+                                    Available for office pickup - 
+                                     | SAMPLEVILLE
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="row-separator">
+                                <td colspan="5" style="padding: 5px;border:0;"></td>
+                            </tr>
+                            <tr class="">
+                                <td><span></span></td>
+                                <td>
+                                    <span class="mobile-title">Date</span>
+                                    <p>
+                                        06.03.2026
+                                    </p></td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Day of the week</span>
+                                    <p>Friday</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Time</span>
+                                    <p>14:48</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Status</span>
+                                    <p>
+                                    Available for office pickup - 
+                                     | SAMPLEVILLE
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="row-separator">
+                                <td colspan="5" style="padding: 5px;border:0;"></td>
+                            </tr>
+                            <tr class="">
+                                <td><span></span></td>
+                                <td>
+                                    <span class="mobile-title">Date</span>
+                                    <p>
+                                        05.03.2026
+                                    </p></td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Day of the week</span>
+                                    <p>Thursday</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Time</span>
+                                    <p>16:45</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Status</span>
+                                    <p>
+                                    Parcel is in ExpressOne office - 
+                                     | SAMPLEVILLE
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="row-separator">
+                                <td colspan="5" style="padding: 5px;border:0;"></td>
+                            </tr>
+                            <tr class="">
+                                <td><span></span></td>
+                                <td>
+                                    <span class="mobile-title">Date</span>
+                                    <p>
+                                        05.03.2026
+                                    </p></td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Day of the week</span>
+                                    <p>Thursday</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Time</span>
+                                    <p>09:46</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Status</span>
+                                    <p>
+                                    Not delivered - 
+                                    Примерно- Е1 | SAMPLEVILLE
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="row-separator">
+                                <td colspan="5" style="padding: 5px;border:0;"></td>
+                            </tr>
+                            <tr class="">
+                                <td><span></span></td>
+                                <td>
+                                    <span class="mobile-title">Date</span>
+                                    <p>
+                                        05.03.2026
+                                    </p></td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Day of the week</span>
+                                    <p>Thursday</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Time</span>
+                                    <p>07:48</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Status</span>
+                                    <p>
+                                    The shipment has been loaded to the van - 
+                                    Примерно- Е1 | SAMPLEVILLE
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="row-separator">
+                                <td colspan="5" style="padding: 5px;border:0;"></td>
+                            </tr>
+                            <tr class="">
+                                <td><span></span></td>
+                                <td>
+                                    <span class="mobile-title">Date</span>
+                                    <p>
+                                        05.03.2026
+                                    </p></td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Day of the week</span>
+                                    <p>Thursday</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Time</span>
+                                    <p>07:47</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Status</span>
+                                    <p>
+                                    Parcel is in ExpressOne office - 
+                                     | SAMPLEVILLE
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="row-separator">
+                                <td colspan="5" style="padding: 5px;border:0;"></td>
+                            </tr>
+                            <tr class="">
+                                <td><span></span></td>
+                                <td>
+                                    <span class="mobile-title">Date</span>
+                                    <p>
+                                        04.03.2026
+                                    </p></td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Day of the week</span>
+                                    <p>Wednesday</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Time</span>
+                                    <p>17:52</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Status</span>
+                                    <p>
+                                    HUB Inbound - 
+                                     | SPECIMEN CITY
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="row-separator">
+                                <td colspan="5" style="padding: 5px;border:0;"></td>
+                            </tr>
+                            <tr class="">
+                                <td><span></span></td>
+                                <td>
+                                    <span class="mobile-title">Date</span>
+                                    <p>
+                                        02.03.2026
+                                    </p></td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Day of the week</span>
+                                    <p>Monday</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Time</span>
+                                    <p>02:17</p>
+                                </td>
+                                <td class="flexible-col">
+                                    <span class="mobile-title">Status</span>
+                                    <p>
+                                    Data received - shipment pending
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

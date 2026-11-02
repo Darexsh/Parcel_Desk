@@ -1,0 +1,86 @@
+{
+  "id": "linhan",
+  "displayName": "LinHan International",
+  "aliases": [
+    "LinHan",
+    "林瀚国际",
+    "林瀚國際",
+    "林瀚国际物流",
+    "深圳市林瀚国际物流有限公司"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#eb5c20"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "linhan",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "localClocks": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "destination_country"
+  ],
+  "portal": {
+    "url": "https://www.linhan56.com/index/tracknumber/track?nos={trackingNumber}",
+    "searchUrl": "https://www.linhan56.com/index/tracknumber/track",
+    "canaryUrl": "https://www.linhan56.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "destination_country",
+      "postcodes"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "destination_country"
+    ],
+    "discarded": [
+      "postcodes"
+    ],
+    "unavailable": [
+      "eta",
+      "weight",
+      "service_name",
+      "provider_code",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "delivered_at",
+      "offset_timestamps",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "linhan56.com",
+        "www.linhan56.com"
+      ],
+      "pathPattern": "^/index/tracknumber/track/?$",
+      "params": [
+        "nos"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "linhan-1",
+      "pattern": "^LHGJ\\d{8}CD$",
+      "confidence": "high"
+    }
+  ]
+}

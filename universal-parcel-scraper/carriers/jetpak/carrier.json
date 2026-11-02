@@ -1,0 +1,52 @@
+{
+  "id": "jetpak",
+  "displayName": "Jetpak",
+  "aliases": [
+    "Jetpak Group",
+    "Jetpak Group AB",
+    "Jetpak Sverige",
+    "Jetpak Norge",
+    "Jetpak Danmark",
+    "Jetpak Finland",
+    "Jetpak Air",
+    "Jetpak Road",
+    "JetPak"
+  ],
+  "region": {
+    "countries": [
+      "SE",
+      "NO",
+      "DK",
+      "FI"
+    ]
+  },
+  "brand": {
+    "color": "#d60e1f"
+  },
+  "selectable": true,
+  "timezone": "Europe/Stockholm",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://my.jetpak.com/app/en/track/awb/{trackingNumber}",
+    "searchUrl": "https://my.jetpak.com/app/en/track",
+    "canaryUrl": "https://my.jetpak.com/app/en/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "my.jetpak.com"
+      ],
+      "path": "^/app/[a-z]{2}/track/awb/([^/]+)/?$"
+    }
+  ],
+  "detection": []
+}

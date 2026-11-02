@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <LBCTrackAndTraceResponse xmlns="http://tempuri.org/">
+      <LBCTrackAndTraceResult>
+        <TrackingStatus>
+          <StatusCode>0001</StatusCode><StatusMessage>SUCCESS!</StatusMessage>
+          <TrackingDetails><TrackingDetails>
+            <TrackingNo>100000000001</TrackingNo>
+            <ConsigneeName>PRIVATE SYNTHETIC RECIPIENT</ConsigneeName>
+            <ShipperAddress>PRIVATE SYNTHETIC ADDRESS</ShipperAddress>
+          </TrackingDetails></TrackingDetails>
+          <TrackingHistory>
+            <TrackingHistory>
+              <StatusId>8000</StatusId><DatePosted>10/1/2026</DatePosted><DatePostedTime>9:15:20 AM</DatePostedTime>
+              <StatusandLocation>Shipment has been accepted at SYNTHETIC DEPOT.</StatusandLocation>
+              <Remarks>PRIVATE SYNTHETIC REMARKS</Remarks>
+            </TrackingHistory>
+            <TrackingHistory>
+              <StatusId>8002</StatusId><DatePosted>10/2/2026</DatePosted><DatePostedTime>12:05:03 PM</DatePostedTime>
+              <StatusandLocation>Please expect delivery within the day.</StatusandLocation>
+            </TrackingHistory>
+            <TrackingHistory>
+              <StatusId>1</StatusId><DatePosted>10/2/2026</DatePosted><DatePostedTime>3:40:01 PM</DatePostedTime>
+              <StatusandLocation>Delivered to PRIVATE SYNTHETIC RECIPIENT on 10/02/2026.</StatusandLocation>
+              <InternalStatusandLocation>PRIVATE SYNTHETIC INTERNAL DATA</InternalStatusandLocation>
+              <Branch><BranchDescr>PRIVATE SYNTHETIC BRANCH</BranchDescr></Branch>
+            </TrackingHistory>
+          </TrackingHistory>
+        </TrackingStatus>
+      </LBCTrackAndTraceResult>
+    </LBCTrackAndTraceResponse>
+  </soap:Body>
+</soap:Envelope>

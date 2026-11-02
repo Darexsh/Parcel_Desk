@@ -1,0 +1,13 @@
+{
+  "carrier": "st-courier",
+  "entries": [
+    {"wording": "Received at Hub", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Scanned in at the hub the next line names, as \"Sample hub, TN\". The shared wording rules would read it as an acceptance."},
+    {"wording": "Forwarded to …", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Sent on; the wording ends with the next branch's code."},
+    {"wording": "Delivered to …", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The wording ends with the name of who took the parcel, which is dropped."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The summary's status for a booked consignment that was delivered, beside its delivery time; also seen as a scan in archived captures of the older tracker."},
+    {"wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The summary's status. A consignment the page has no booking for shows it with empty booking fields whatever its scans say, so only a booked summary is read."},
+    {"wording": "In-Transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Seen in archived captures of the older tracker for each hop between branches and hubs."},
+    {"wording": "Taken For Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "portal", "note": "Seen in an archived capture of the older tracker."},
+    {"wording": "Sorry, Invalid AWB Number..! (…)", "language": "en", "confirmedBy": "live", "note": "The result page's answer, with the number, for an eleven-digit number the tracker has no consignment for, including one it no longer keeps."}
+  ]
+}

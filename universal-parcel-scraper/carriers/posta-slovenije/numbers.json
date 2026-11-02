@@ -1,0 +1,155 @@
+{
+  "carrier": "posta-slovenije",
+  "records": [
+    {
+      "number": "CZ000000014SI",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.posta.si/poslovno/logisticne-storitve/informacijske-resitve/sledenje-posiljk",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "posta-slovenije",
+        "confidence": "high"
+      },
+      "note": "Pošta Slovenije's own tracking-service page uses it as the example of a tracking link; not a real shipment."
+    },
+    {
+      "number": "RR304372014SI",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20100302180417/http://sledenje.posta.si:80/?tracenumber=RR304372014SI&type1=1&type2=1",
+        "date": "2010-03-02",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "posta-slovenije",
+        "confidence": "high"
+      },
+      "note": "Pošta Slovenije's own tracker, archived by the Wayback Machine, shows its history: a registered item leaving the Ljubljana exchange office in October 2009."
+    },
+    {
+      "number": "LB027432089SI",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/slovenia-post/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "posta-slovenije",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Slovenia Post page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "CF369200778SI",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/slovenia-post/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "posta-slovenije",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Slovenia Post page offered it as a sample to try. Pošta Slovenije's own tracking returns its history."
+    },
+    {
+      "number": "CF369007664SI",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/slovenia-post/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "posta-slovenije",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Slovenia Post page offered it as a sample to try. Pošta Slovenije's own tracking returns its history."
+    },
+    {
+      "number": "CF369340877SI",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/slovenia-post/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "posta-slovenije",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Slovenia Post page offered it as a sample to try. Pošta Slovenije's own tracking returns its history."
+    },
+    {
+      "number": "LH013496345SI",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/slovenia-post/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "posta-slovenije",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Slovenia Post page offered it as a sample to try on 11 Oct 2026; it is not described as a live shipment."
+    },
+    {
+      "number": "CH843029136SI",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.parcelpanel.com/couriers/slovenia-post/",
+        "date": "2026-10-11",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "posta-slovenije",
+        "confidence": "high"
+      },
+      "note": "ParcelPanel's Slovenia Post page offered it as a sample to try. Pošta Slovenije's own tracking returns its history."
+    }
+  ]
+}

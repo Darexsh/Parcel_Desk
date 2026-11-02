@@ -1,0 +1,23 @@
+{
+  "data": [
+    {
+      "package_id": "LZ000000014NL",
+      "sender_name": "Példa Feladó",
+      "addressee_name": "Példa Címzett",
+      "package_details": { "weight": 120, "size": "0", "guard_time": "", "consignment_title": "Levél", "base_service_code": null },
+      "delivery_type": "Házhoz szállítás",
+      "delivery_type_key": "home_delivery",
+      "current_status": 4,
+      "events": [
+        { "alias": "Felvétel a feladótól", "status": "Felvétel", "message": "Felvétel a feladótól", "code": "1", "location": "", "date": "2026-04-06T09:15:00.000000Z" },
+        { "alias": "A bejövő küldemény átvétele a kicserélőben", "status": "Feldolgozás", "message": "A bejövő küldemény átvétele a kicserélőben", "code": "7", "location": "Nemzetközi Posta Kicserélő Központ|Példaváros", "date": "2026-04-08T10:02:00.000000Z" },
+        { "alias": "A küldemény feldolgozása folyamatban", "status": "Feldolgozás", "message": "A küldemény feldolgozása folyamatban", "code": "3", "location": "Nemzetközi Posta Kicserélő Központ|Példaváros", "date": "2026-04-08T11:30:00.000000Z" },
+        { "alias": "Egységképző átvétele (RESDES)", "status": "Szállítás", "message": "Egységképző átvétele (RESDES)", "code": "134", "location": "Nemzetközi repülőtér|Példaváros", "date": "2026-04-09T16:17:00.000000Z" },
+        { "alias": "Átvehető", "status": "Kézbesítés", "message": "A küldemény postán átvehető", "code": "PTKV", "location": "Példaváros 1 posta|Példaváros", "date": "2026-04-11T07:00:00.000000Z" }
+      ],
+      "consignment_type": "letter",
+      "consignment_direction": "international",
+      "delivery_info": { "alias": "Átvehető", "type": "default", "text": "A küldemény postán átvehető", "details": null }
+    }
+  ]
+}

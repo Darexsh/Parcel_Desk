@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Track Shipment - VRL Logistics Ltd</title>
+</head>
+<body>
+    <main class="mb-0">
+
+<div class="container d-flex justify-content-center">
+	<div class="branch-locator-container2">
+		<div class="site-finder-card">
+			<h4 class="site-finder-card__header">Track your order</h4>
+			<div class="site-finder-card__body">
+				<form id="trackingForm" method="post" action="/Tracking/TrackShipment">
+					<div class="site-button-tabs mb-2">
+						<input type="button" value="LR No." class="lrno active" />
+						<input type="button" value="Courier No." class="courrno" />
+					</div>
+					<div class="my-4 text-center">
+						<input type="text" name="lrno" id="lrnoo" class="track-textbox" placeholder="Enter your LR No." inputmode="numeric" pattern="[0-9]+" minlength="1" maxlength="20" />
+						<input type="submit" class="track-submit-button width-fit-content" value="Track Consignment" />
+					</div>
+				<input name="__RequestVerificationToken" type="hidden" value="SYNTHETIC-TOKEN" /></form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="track-page">
+	<div class="container">
+		<div class="track-stack">
+					<section class="track-card track-card--details">
+						<h2 class="track-id mb-3">Shipment Details</h2>
+						<div class="d-flex align-items-start gap-3">
+							<img src="/Images/box-icon.svg" alt="Box icon" class="track-icon" />
+							<div>
+								<h2 class="track-id" id="lrnum">#1000000002</h2>
+								<p class="track-meta">
+									IN-TRANSIT
+
+								</p>
+							</div>
+						</div>
+
+						<div class="row g-4 track-grid sml-scr">
+							<div class="col-6 col-lg-4 newwcrd sm-scr-card">
+								<p class="track-label">Booking From</p>
+								<p class="track-value">SAMPLE CITY SOUTH</p>
+							</div>
+
+							<div class="col-6 col-lg-4 newwcrd sm-scr-card">
+								<p class="track-label">Delivery To</p>
+								<p class="track-value">SAMPLE VILLAGE</p>
+							</div>
+
+							<div class="col-6 col-lg-4 newwcrd sm-scr-card">
+								<p class="track-label">Number of Package</p>
+								<p class="track-value">1</p>
+							</div>
+						</div>
+
+						<div class="row g-4 track-grid mt-0 sml-scr">
+							<div class="col-6 col-lg-6 newwcrd less sm-scr-card">
+								<p class="track-label">Booking Date</p>
+								<p class="track-value">28-Sep-2026</p>
+							</div>
+
+							<div class="col-6 col-lg-6 newwcrd less sm-scr-card">
+								<p class="track-label">Delivery Type</p>
+								<p class="track-value">
+									Door Delivery
+								</p>
+							</div>
+						</div>
+					</section>
+					<section class="track-card track-card--timeline">
+						<div class="row g-2 track-grid track-grid--secondary sml-scr pb-3">
+							<h2 class="track-id">Transit Details</h2>
+
+							<div class="col-6 col-lg-4 newwcrd sm-scr-card">
+								<p class="track-label">Consignment Arrived At</p>
+								<p class="track-value">SAMPLE HUB</p>
+							</div>
+
+							<div class="col-6 col-lg-4 newwcrd sm-scr-card">
+								<p class="track-label">Arrived On</p>
+								<p class="track-value">30-Sep-2026</p>
+							</div>
+
+							<div class="col-6 col-lg-4 newwcrd sm-scr-card">
+								<p class="track-label">Current Status</p>
+								<p class="track-value">IN-TRANSIT</p>
+							</div>
+						</div>
+
+						<header class="d-flex align-items-start gap-3 d-none">
+							<img src="/Images/box-icon.svg" alt="Box icon" class="track-icon" />
+							<div>
+								<h2 class="track-id">#1000000002</h2>
+								<p class="track-meta">
+									IN-TRANSIT 
+								</p>
+							</div>
+						</header>
+
+						<div class="track-route d-flex justify-content-between mobbscc">
+							<div class="mobdes">
+								<p class="track-label">From</p>
+								<p class="track-value">SAMPLE CITY SOUTH</p>
+							</div>
+							<div class="text-end mobdes">
+								<p class="track-label">To</p>
+								<p class="track-value">SAMPLE VILLAGE</p>
+							</div>
+						</div>
+
+						<div class="track-progress lg-scr-progress" style="--progress: 1;margin-bottom: 70px;">
+							<span class="track-step is-done">
+								<span class="step-dot"></span>
+								<span class="step-label">
+									<label style="font-size: 12px;">
+										ORIGIN
+									</label>
+									<label>
+										SAMPLE
+									</label>
+
+									<span class="hidden-content">
+										<label>
+											28-Sep-2026
+										</label>
+									</span>
+								</span>
+							</span>
+
+								<span class="track-step is-done">
+									<span class="step-dot"></span>
+									<span class="step-label">
+										<label style="font-size: 12px;">
+											IN-TRANSIT
+										</label>
+										<label>
+											28-Sep-2026
+										</label>
+										<span class="hidden-content">
+											<label>
+												20:09,
+											</label>
+											<br />
+											<label>
+												XSCS,
+											</label>
+											<br />
+											<label>
+												SAMPLE CITY SOUTH
+											</label>
+										</span>
+									</span>
+								</span>
+								<span class="track-step is-done">
+									<span class="step-dot"></span>
+									<span class="step-label">
+										<label style="font-size: 12px;">
+											IN-TRANSIT
+										</label>
+										<label>
+											30-Sep-2026
+										</label>
+										<span class="hidden-content">
+											<label>
+												06:09,
+											</label>
+											<br />
+											<label>
+												XSHB,
+											</label>
+											<br />
+											<label>
+												SAMPLE HUB
+											</label>
+										</span>
+									</span>
+								</span>
+
+							<span class="track-step destination-pending">
+								<span class="step-dot"></span>
+								<span class="step-label">
+									<label style="font-size: 12px;">DESTINATION</label>
+									<label>SAMPLE</label>
+								</span>
+							</span>
+						</div>
+
+
+
+						<div class="track-container sm-scr-progress">
+
+							<div class="track-stepp">
+								<div class="step-left">
+									<div class="step-line"></div>
+									<div class="step-dott mobile-completed-dot">
+										&#x2713;
+									</div>
+								</div>
+								<div class="step-content">
+									<div class="step-labell">
+										<div class="city">
+											SAMPLE
+										</div>
+										<div class="status">
+											ORIGIN
+										</div>
+									</div>
+
+									<label>
+										28-Sep-2026
+									</label>
+								</div>
+							</div>
+
+								<div class="track-stepp">
+									<div class="step-left">
+										<div class="step-line"></div>
+										<div class="step-dott mobile-completed-dot">
+											&#x2713;
+										</div>
+									</div>
+
+									<div class="step-content">
+										<div class="step-labell">
+											<div class="city">
+												SAMPLE CITY SOUTH
+											</div>
+											<div class="status">
+												XSCS
+											</div>
+										</div>
+										<label>
+											IN-TRANSIT
+										</label>
+
+										<div class="step-date">
+											20:09, 28-Sep-2026
+										</div>
+									</div>
+								</div>
+								<div class="track-stepp">
+									<div class="step-left">
+										<div class="step-line"></div>
+										<div class="step-dott mobile-completed-dot">
+											&#x2713;
+										</div>
+									</div>
+
+									<div class="step-content">
+										<div class="step-labell">
+											<div class="city">
+												SAMPLE HUB
+											</div>
+											<div class="status">
+												XSHB
+											</div>
+										</div>
+										<label>
+											IN-TRANSIT
+										</label>
+
+										<div class="step-date">
+											06:09, 30-Sep-2026
+										</div>
+									</div>
+								</div>
+
+							<div class="track-stepp">
+								<div class="step-left">
+									<div class="step-line"></div>
+									<div class="step-dott mobile-pending-dot"></div>
+								</div>
+
+								<div class="step-content">
+									<div class="step-labell">
+										<div class="city">
+											SAMPLE
+										</div>
+										<div class="status">
+											DESTINATION
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<p class="track-label" style="font-size:13px;">For shipment assistance, please contact our 24/7 customer support team at 1800 000 0000.</p>
+						</div>
+
+					</section>
+
+			<section class="track-card track-card--timeline d-none">
+				<header class="d-flex align-items-start gap-3">
+					<img src="/Images/box-icon.svg" alt="Box icon" class="track-icon" />
+					<div>
+						<h2 class="track-id">#SAMPLE00</h2>
+						<p class="track-meta">On the way <span class="dot">&bull;</span> ETA - 18th July</p>
+					</div>
+				</header>
+				<div class="track-progress" style="--progress: 0.6">
+					<span class="track-step is-done"><span class="step-dot"></span></span>
+					<span class="track-step is-pending"><span class="step-dot"></span></span>
+				</div>
+				<div class="track-route d-flex justify-content-between">
+					<div>
+						<p class="track-label">From</p>
+						<p class="track-value">Sample Origin</p>
+					</div>
+					<div class="text-end">
+						<p class="track-label">To</p>
+						<p class="track-value">Sample Destination</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="track-card track-card--accordion d-none">
+				<div class="track-accordion-header">Details</div>
+				<div class="track-accordion-item">
+					<p class="track-label">Actual ETA</p>
+					<p class="track-value">18 July</p>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+    </main>
+</body>
+</html>

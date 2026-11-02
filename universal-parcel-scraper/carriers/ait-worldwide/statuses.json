@@ -1,0 +1,26 @@
+{
+  "carrier": "ait-worldwide",
+  "entries": [
+    {"wording": "Initiated", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "Progress label of the current FasTrak page, over its first meter step."},
+    {"wording": "In Transit", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Progress label of the current FasTrak page."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "portal", "note": "Progress label of the current FasTrak page."},
+    {"code": "UPLOAD", "wording": "ORDER INFO SENT TO AIT: UPLOAD", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The shipper's order reached AIT; the freight is still with the shipper."},
+    {"code": "WEBENT", "wording": "ORDER INFO SENT TO AIT: WEB", "stage": "registered", "language": "en", "confirmedBy": "live", "note": "The same, for an order entered on AIT's website."},
+    {"code": "EMAILD", "wording": "EMAILED INFO", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "The shipment's details emailed to the shipper or the delivery location; it moves nothing."},
+    {"code": "PUCOMP", "wording": "CARGO PICKED UP", "stage": "accepted", "language": "en", "confirmedBy": "live"},
+    {"code": "INTRAN", "wording": "SHIPMENT IN TRANSIT", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "ARRHUB", "wording": "ARRIVAL HUB", "stage": "in_transit", "language": "en", "confirmedBy": "live"},
+    {"code": "ARRHUB", "wording": "ARRIVAL SCAN", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Earlier wording of the same code."},
+    {"code": "DEST", "wording": "ARRIVED AT SORTING FACILITY", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The destination terminal, before it unloads the freight."},
+    {"code": "RECOVD", "wording": "CHECKED INTO DELIVERY TERMINAL", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "A home delivery specialist then calls the recipient to book the delivery."},
+    {"code": "APPTDE", "wording": "APPOINTMENT DELIVERY SCHEDULED ON <date> BETWEEN <time> AND <time>", "language": "en", "confirmedBy": "live", "unmapped": true, "note": "A delivery appointment, stamped with its window's start: an estimate, not a scan."},
+    {"code": "OFD", "wording": "OUT FOR DELIVERY", "stage": "out_for_delivery", "language": "en", "confirmedBy": "live"},
+    {"code": "POD", "wording": "DELIVERED", "stage": "delivered", "language": "en", "confirmedBy": "live"},
+    {"wording": "SHIPMENT ACCEPTED BY AIT", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Former eaFasTrak tracker."},
+    {"wording": "PICKUP COMPLETE", "stage": "accepted", "language": "en", "confirmedBy": "portal", "note": "Former eaFasTrak tracker."},
+    {"wording": "CONFIRMED ON BOARD/ IN TRANSIT", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Former eaFasTrak tracker: loaded on the flight."},
+    {"wording": "SHIPMENT IS IN TRANSIT", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Former eaFasTrak tracker."},
+    {"wording": "ARRIVED @ DESTINATION TERMINAL", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Former eaFasTrak tracker."},
+    {"wording": "CALLING SHIPPER/CONSIGNEE", "stage": "in_transit", "language": "en", "confirmedBy": "portal", "note": "Former eaFasTrak tracker: the destination station calls to arrange delivery."}
+  ]
+}

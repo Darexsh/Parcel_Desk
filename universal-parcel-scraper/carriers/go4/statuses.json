@@ -1,0 +1,10 @@
+{
+  "carrier": "go4",
+  "entries": [
+    {"wording": "Objednaná", "stage": "registered", "language": "sk", "confirmedBy": "bundle", "note": "The tracking page's heading for the order time; the adapter names the order's scan with it."},
+    {"wording": "Na doručení", "stage": "accepted", "language": "sk", "confirmedBy": "bundle", "note": "The page heads the courier's collection time \"Na doručení od\" (on delivery since). A delivery can follow the next day, so it is the parcel's acceptance."},
+    {"wording": "Pokus o doručenie", "stage": "failed_attempt", "language": "sk", "confirmedBy": "bundle", "note": "Each row of the page's \"Predchádzajúce pokusy o doručenie\" table; the adapter adds the row's reason after a colon."},
+    {"wording": "Doručená", "stage": "delivered", "language": "sk", "confirmedBy": "bundle", "note": "The tracking page's heading for the delivery time."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "bundle", "note": "The main status of the sample record bundled in the tracker's script, with the detail \"in good condition\"."}
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "carrier": "tp-logistics-th",
+  "records": [
+    {
+      "number": "SPK021903160001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20190826022830/https://tptrack.info/ecom/tdetail.php?fn=a1&code=SPK021903160001",
+        "date": "2019-08-26",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tp-logistics-th"
+        ]
+      },
+      "note": "Archived lookup on TP Logistics' tracker; the opened capture shows the parcel's history from the origin branch to delivery."
+    },
+    {
+      "number": "SPK021910010001",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20191116014108/https://tptrack.info/ecom/tdetail.php?fn=a1&code=SPK021910010001",
+        "date": "2019-11-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tp-logistics-th"
+        ]
+      },
+      "note": "Archived lookup on TP Logistics' tracker; the opened capture shows the parcel's history from the origin branch to delivery."
+    },
+    {
+      "number": "SPK021910120009",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20191116014557/https://tptrack.info/ecom/tdetail.php?fn=a1&code=SPK021910120009",
+        "date": "2019-11-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tp-logistics-th"
+        ]
+      },
+      "note": "Archived lookup on TP Logistics' tracker; the opened capture shows the parcel's history from the origin branch to delivery."
+    },
+    {
+      "number": "SPK021910160003",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20191116020257/https://tptrack.info/ecom/tdetail.php?fn=a1&code=SPK021910160003",
+        "date": "2019-11-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tp-logistics-th"
+        ]
+      },
+      "note": "Archived history address on TP Logistics' tracker, listed by the Wayback index; the capture was not opened because the archive answered 404 for it."
+    },
+    {
+      "number": "SPK022009140004",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20201022070150/https://tptrack.info/ecom/dtrack.php?id=SPK022009140004&type=a1",
+        "date": "2020-10-22",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tp-logistics-th"
+        ]
+      },
+      "note": "Archived lookup on TP Logistics' tracker; the opened capture lists the parcel with the status Delivered and a button to its history."
+    }
+  ]
+}

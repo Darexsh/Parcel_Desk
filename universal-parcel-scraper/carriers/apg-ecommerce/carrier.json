@@ -1,0 +1,51 @@
+{
+  "id": "apg-ecommerce",
+  "displayName": "APG eCommerce Solutions",
+  "aliases": [
+    "APG eCommerce",
+    "Australia Post Global eCommerce Solutions",
+    "Australia Post Global eCommerce Solutions (UK) Limited",
+    "Aramex Global Solutions",
+    "Aramex Global Solutions (UK) Limited",
+    "StarTrack International"
+  ],
+  "region": {
+    "countries": [
+      "GB",
+      "AU"
+    ]
+  },
+  "brand": {
+    "color": "#d62d2d"
+  },
+  "selectable": true,
+  "timezone": "Europe/London",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://apgecommerce.com/track-result/?track_sequenceNo={trackingNumber}",
+    "searchUrl": "https://apgecommerce.com/track/",
+    "canaryUrl": "https://apgecommerce.com/track/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "apgecommerce.com",
+        "www.apgecommerce.com"
+      ],
+      "pathPattern": "^/track-result/?$",
+      "params": [
+        "track_sequenceNo"
+      ]
+    }
+  ],
+  "detection": []
+}

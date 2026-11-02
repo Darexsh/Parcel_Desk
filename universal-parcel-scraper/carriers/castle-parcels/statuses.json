@@ -1,0 +1,9 @@
+{
+  "carrier": "castle-parcels",
+  "entries": [
+    {"wording": "Label Created", "stage": "registered", "language": "en", "confirmedBy": "official-doc", "note": "Event status the receiver site's script hides when it is not the first event."},
+    {"wording": "Picked Up", "stage": "accepted", "language": "en", "confirmedBy": "official-doc", "note": "Event status the receiver site's script looks for to draw its first milestone."},
+    {"wording": "Out for Delivery", "stage": "out_for_delivery", "language": "en", "confirmedBy": "official-doc", "note": "Milestone the receiver site's script draws from the scan onto the delivering courier's vehicle."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "official-doc", "note": "Event status the receiver site's script uses for the delivered milestone."}
+  ]
+}

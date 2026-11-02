@@ -1,0 +1,97 @@
+{
+  "id": "upaya",
+  "displayName": "Upaya",
+  "aliases": [
+    "Upaya City Cargo",
+    "Upaya City Cargo Pvt. Ltd."
+  ],
+  "region": {
+    "countries": [
+      "NP"
+    ]
+  },
+  "brand": {
+    "color": "#003d87"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kathmandu",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "upaya",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 562
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "service_name",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://upaya.com.np/track/?tracking={trackingNumber}",
+    "searchUrl": "https://upaya.com.np/track/",
+    "canaryUrl": "https://upaya.com.np/track/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps",
+      "service_name",
+      "order_date",
+      "customer_reference",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "destination",
+      "payment_details",
+      "office_contact_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "offset_timestamps",
+      "service_name"
+    ],
+    "discarded": [
+      "order_date",
+      "customer_reference",
+      "sender_name",
+      "sender_address",
+      "recipient_name",
+      "recipient_address",
+      "destination",
+      "payment_details",
+      "office_contact_details"
+    ],
+    "unavailable": [
+      "provider_code"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "upaya.com.np"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "tracking"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "upaya-1",
+      "pattern": "^[A-Z]{6}\\d{11,12}$",
+      "rawPattern": "^[A-Z]{6}\\d{4,5}-\\d{7}$",
+      "confidence": "low"
+    }
+  ]
+}

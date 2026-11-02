@@ -1,0 +1,43 @@
+{
+  "status": true,
+  "code": 200,
+  "data": {
+    "shipment": {
+      "awb_number": "10000000000001",
+      "ship_status": "rto",
+      "pdd": 1767456000
+    },
+    "courier_info": {
+      "display_name": "Xpressbees"
+    },
+    "order_info": {
+      "order_id": "SYNTHETIC-ORDER"
+    },
+    "tracking": [
+      {
+        "awb_number": "10000000000001",
+        "event_time": 1767456000,
+        "status_code": "RTD",
+        "status": "Return Delivered",
+        "ship_status": "rto delivered",
+        "location": "Example origin"
+      },
+      {
+        "awb_number": "10000000000001",
+        "event_time": 1767423600,
+        "status_code": "RTO",
+        "status": "Return to Origin Out for Delivery",
+        "ship_status": "rto out for delivery",
+        "location": "Example origin"
+      },
+      {
+        "awb_number": "10000000000001",
+        "event_time": 1767362400,
+        "status_code": "IT",
+        "status": "InTransit",
+        "ship_status": "in-transit",
+        "location": "Example transit"
+      }
+    ]
+  }
+}

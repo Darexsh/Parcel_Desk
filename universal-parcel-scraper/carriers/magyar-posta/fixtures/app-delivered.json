@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "package_id": "PNZZZ00000013",
+      "custom_name": "Példa jegyzet",
+      "payment": null,
+      "level": "LOW",
+      "mpl_point": null,
+      "sender_name": "Példa Feladó Kft.",
+      "addressee_name": "Példa Címzett",
+      "ask_for_zip_code": true,
+      "max_zip_code_length": 4,
+      "available_provision_types": [],
+      "is_cancelled": false,
+      "package_details": {
+        "value": null,
+        "total_provision_fee": null,
+        "cod_value": null,
+        "weight": 0,
+        "size": "",
+        "guard_time": "5",
+        "consignment_title": "Üzleti csomag",
+        "base_service_code": "A_175_UZL"
+      },
+      "is_before_second_delivery": false,
+      "delivery_type": "Házhoz szállítás",
+      "delivery_type_key": "home_delivery",
+      "current_status": 5,
+      "events": [
+        { "alias": "Csomagot a feladó előrejelezte", "status": "Felvétel", "message": "A küldeményt a feladó előrejelezte, az átadást követően megkezdjük a feldolgozást", "code": "EFJBE", "location": "", "date": "2026-03-02T14:10:01.000000Z" },
+        { "alias": "Csomagfelvétel megtörtént", "status": "Felvétel", "message": "A küldeményt a feladótól átvettük", "code": "FETKU", "location": "Példavárosi Logisztikai Központ|Példaváros", "date": "2026-03-02T21:41:06.000000Z" },
+        { "alias": "Szállítás alatt", "status": "Szállítás", "message": "A küldemény szállítás alatt", "code": "ROJIC", "location": "Példavárosi Logisztikai Központ|Példaváros", "date": "2026-03-03T00:05:03.000000Z" },
+        { "alias": "Kézbesítés alatt", "status": "Kézbesítés", "message": "A küldemény a kézbesítőnél van", "code": "IKRKI", "location": "Példavárosi Operatív Osztály|Példaváros", "date": "2026-03-03T06:58:28.000000Z" },
+        { "alias": "Árufizetés", "status": "Kézbesített", "message": "Árufizetési összeg feladónak kifizetve", "code": "AFKIF", "location": "", "date": "2026-03-04T08:00:00.000000Z" },
+        { "alias": "Sikeresen kézbesítve", "status": "Kézbesített", "message": "Sikeres kézbesítés rögzítése belső rendszerben", "code": "KLKEZ", "location": "Példavárosi Operatív Osztály|Példaváros", "date": "2026-03-03T12:20:14.000000Z" },
+        { "alias": "Sikeresen kézbesítve", "status": "Kézbesített", "message": "Sikeresen kézbesítve háznál", "code": "KEZB", "location": "", "date": "2026-03-03T12:20:14.000000Z" },
+        { "alias": "Sikeresen kézbesítve", "status": "Kézbesített", "message": "Sikeresen kézbesítve háznál", "code": "KEZB", "location": "", "date": "2026-03-03T12:20:14.000000Z" }
+      ],
+      "consignment_type": "package",
+      "consignment_direction": "national",
+      "is_archive": true,
+      "delivery_info": {
+        "alias": "Sikeresen kézbesítve",
+        "type": "default",
+        "text": "Sikeresen kézbesítve háznál",
+        "details": null,
+        "show_parcelbox_replacement": true,
+        "phone_number": "+36 00 000 0000"
+      },
+      "is_subscribed": false,
+      "is_redelivery": false,
+      "created_at": "2026-03-05T09:00:00.000000Z"
+    }
+  ]
+}

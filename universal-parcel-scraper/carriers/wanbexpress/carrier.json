@@ -1,0 +1,80 @@
+{
+  "id": "wanbexpress",
+  "displayName": "WanbExpress",
+  "aliases": [
+    "Wanb Express",
+    "WanBang Express",
+    "WANB"
+  ],
+  "region": {
+    "countries": [
+      "CN"
+    ]
+  },
+  "brand": {
+    "color": "#da381b"
+  },
+  "selectable": true,
+  "timezone": "Asia/Shanghai",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "wanbexpress",
+    "steps": [
+      "direct",
+      "browser",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 33
+    },
+    "browserRecognition": {
+      "rank": 33
+    },
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "provider_code",
+    "origin_country",
+    "destination_country",
+    "delivery_partner",
+    "delivery_tracking_number"
+  ],
+  "portal": {
+    "canaryUrl": "https://tracking.wanbexpress.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "delivery_partner",
+      "delivery_tracking_number",
+      "origin_country",
+      "destination_country",
+      "delivery_photos",
+      "recipient_address"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "origin_country",
+      "destination_country"
+    ],
+    "discarded": [
+      "delivery_partner",
+      "delivery_tracking_number",
+      "delivery_photos",
+      "recipient_address"
+    ],
+    "unavailable": []
+  },
+  "links": [],
+  "detection": [
+    {
+      "id": "wanbexpress-1",
+      "pattern": "^WNB[A-Z]{2}\\d{10}YQ$",
+      "confidence": "high"
+    }
+  ]
+}

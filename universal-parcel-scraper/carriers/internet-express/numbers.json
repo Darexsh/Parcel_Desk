@@ -1,0 +1,24 @@
+{
+  "carrier": "internet-express",
+  "records": [
+    {
+      "number": "UAE9TB6GB",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260731092359/https://api.portal.internetexpress.co.za/tracking/shipments?tracking_reference=uae9tb6gb&provider_id=9",
+        "date": "2026-07-31",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Looked up in lower case on the tracking API behind Internet Express's portal; the opened capture returns the reference in capitals with the shipment collected at Internet Express Durban and outbound to Cape Town."
+    }
+  ]
+}

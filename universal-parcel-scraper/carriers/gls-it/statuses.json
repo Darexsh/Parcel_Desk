@@ -1,0 +1,200 @@
+{
+  "carrier": "gls-it",
+  "entries": [
+    {
+      "wording": "The shipment has been created by the sender, we are waiting for it to be entrusted to us for dispatch to its destination.",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "The sender booked the shipment and has not handed it over. The first scan."
+    },
+    {
+      "wording": "Shipped from sending Depot. In transit.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "The sending depot dispatched the shipment, its first physical scan."
+    },
+    {
+      "wording": "Shipment in transit.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "Sorted at a hub between the two depots."
+    },
+    {
+      "wording": "Arrived at final Depot.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "At the receiving depot, before the delivery round."
+    },
+    {
+      "wording": "The shipment has not yet arrived at the receiving GLS Depot.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "A delay notice the receiving depot writes while the shipment is still on its way to it; it can repeat on later days."
+    },
+    {
+      "wording": "The shipment did not arrive at the receiving GLS Depot.",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "The receiving depot's first delay notice for a shipment it expected."
+    },
+    {
+      "wording": "Delivery scheduled during the day.",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "The morning scan of the delivery round; the delivery or a failed attempt follows the same day. The rail's step is In delivery."
+    },
+    {
+      "wording": "Available for collection at GLS POINT.",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "Left at a GLS Point for the recipient to collect. The reply does not name the point."
+    },
+    {
+      "wording": "Delivered.",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "Delivered, at the door or collected from a GLS Point. The reply adds the masked name of who took it, which is not read."
+    },
+    {
+      "wording": "Parcel not delivered as the consignee was absent, please book redelivery within 3 working days as per instructions provided by email or sms.",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "A delivery attempt failed because nobody was in. The reply breaks it over three lines."
+    },
+    {
+      "wording": "Not in delivery. Awaiting instructions by link included in received email or sms",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "Held at the depot after a failed attempt until the recipient books a redelivery through the link."
+    },
+    {
+      "wording": "La spedizione e' stata creata dal mittente, attendiamo che ci venga affidata per l'invio a destinazione.",
+      "language": "it",
+      "english": "The shipment has been created by the sender, we are waiting for it to be entrusted to us for dispatch to its destination.",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "The Italian version of the sender's booking, before the hand-over."
+    },
+    {
+      "wording": "Partita dalla sede mittente. In transito.",
+      "language": "it",
+      "english": "Shipped from sending Depot. In transit.",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "The Italian version of the sending depot's dispatch."
+    },
+    {
+      "wording": "In transito.",
+      "language": "it",
+      "english": "Shipment in transit.",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "The Italian version of a hub scan between the two depots."
+    },
+    {
+      "wording": "Arrivata nella Sede GLS locale.",
+      "language": "it",
+      "english": "Arrived at final Depot.",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "The Italian version of the arrival at the receiving depot."
+    },
+    {
+      "wording": "Consegna prevista nel corso della giornata odierna.",
+      "language": "it",
+      "english": "Delivery scheduled during the day.",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "The Italian version of the morning scan of the delivery round."
+    },
+    {
+      "wording": "Consegnata.",
+      "language": "it",
+      "english": "Delivered.",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "The Italian version of the delivery."
+    },
+    {
+      "wording": "Destinatario assente al primo passaggio. Prego prenotare la consegna entro 3 giorni lavorativi, seguendo le istruzioni ricevute via mail o sms.",
+      "language": "it",
+      "english": "Parcel not delivered as the consignee was absent, please book redelivery within 3 working days as per instructions provided by email or sms.",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "The Italian version of a failed attempt because nobody was in."
+    },
+    {
+      "wording": "Spedizione non in consegna. Il destinatario puo' prenotare la riconsegna tramite link presente in email / sms ricevuto",
+      "language": "it",
+      "english": "Not in delivery. Awaiting instructions by link included in received email or sms",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "The Italian version of the hold until the recipient books a redelivery."
+    },
+    {
+      "code": "PREADVICE",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "A step of the progress rail, labelled Preadvice. Its current step stands in only when the newest scan's sentence gives no stage."
+    },
+    {
+      "code": "INTRANSIT",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "A step of the progress rail, labelled In transit. Its current step stands in only when the newest scan's sentence gives no stage."
+    },
+    {
+      "code": "INWAREHOUSE",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "A step of the progress rail, labelled Final parcel center. Its current step stands in only when the newest scan's sentence gives no stage."
+    },
+    {
+      "code": "INDELIVERY",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "A step of the progress rail, labelled In delivery. Its current step stands in only when the newest scan's sentence gives no stage."
+    },
+    {
+      "code": "DELIVERED",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-11",
+      "note": "A step of the progress rail, labelled Delivered. Its current step stands in only when the newest scan's sentence gives no stage."
+    }
+  ]
+}

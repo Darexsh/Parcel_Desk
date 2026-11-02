@@ -1,0 +1,64 @@
+{
+  "carrier": "la-poste-ci",
+  "records": [
+    {
+      "number": "UA000085916CI",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-ivory-coast-post/fr.html",
+        "date": "2018-02-10",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "intl-post",
+        "confidence": "high"
+      },
+      "note": "Posted on TrackingMore's Poste de Côte d'Ivoire review page as the nickname of a customer still waiting for a necklace; its CI suffix names La Poste de Côte d'Ivoire as the issuing post."
+    },
+    {
+      "number": "Cp311812357MY",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-ivory-coast-post/fr.html",
+        "date": "2018-05-24",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "pos-malaysia",
+        "confidence": "high"
+      },
+      "note": "Posted on the same review page as the nickname of a customer still waiting for a parcel; it is a Pos Malaysia number for an item La Poste de Côte d'Ivoire would deliver."
+    },
+    {
+      "number": "CI142565858FR",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.ship24.com/couriers/la-poste-de-cote-d-ivoire-tracking",
+        "date": "2026-10-16",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "Example on Ship24's La Poste de Côte d'Ivoire page; it is a French-issued international number, and an aggregator example never counts alone."
+    }
+  ]
+}

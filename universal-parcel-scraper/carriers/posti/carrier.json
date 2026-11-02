@@ -1,0 +1,142 @@
+{
+  "id": "posti",
+  "displayName": "Posti",
+  "aliases": [
+    "SmartPosti",
+    "Smartpost Itella",
+    "Itella SmartPOST",
+    "Itella Estonia",
+    "Itella"
+  ],
+  "region": {
+    "countries": [
+      "FI",
+      "EE",
+      "LV",
+      "LT"
+    ]
+  },
+  "brand": {
+    "color": "#ff8000"
+  },
+  "selectable": true,
+  "timezone": "Europe/Helsinki",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "posti",
+    "steps": [
+      "direct",
+      "refresh"
+    ],
+    "recognition": {
+      "rank": 710
+    }
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "weight",
+    "dimensions",
+    "pickup_point"
+  ],
+  "portal": {
+    "url": "https://www.posti.fi/en/tracking/{trackingNumber}",
+    "searchUrl": "https://www.posti.fi/en/tracking/",
+    "helpUrl": "https://www.posti.fi/asiakaspalvelu",
+    "canaryUrl": "https://www.posti.fi/en/tracking",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "dimensions",
+      "pickup_point",
+      "pickup_code",
+      "recipient_address"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "weight",
+      "dimensions",
+      "pickup_point"
+    ],
+    "discarded": [
+      "pickup_code",
+      "recipient_address"
+    ],
+    "unavailable": [
+      "sender_name",
+      "receiver_name"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "posti.fi"
+      ],
+      "path": "^/(?:[a-z]{2}/)?(?:tracking|seuranta|uppfoljning)/([^/?#]+)(?:/[0-9]+)?/?$"
+    },
+    {
+      "domains": [
+        "posti.fi"
+      ],
+      "pathPattern": "^/itemtracking/posti/search_by_shipment_id/?$",
+      "params": [
+        "ShipmentId"
+      ]
+    },
+    {
+      "domains": [
+        "smartposti.ee",
+        "smartposti.lt",
+        "smartposti.lv"
+      ],
+      "path": "^/(?:(?:[a-z]{2}/)?tracking|saadetise-jalgimine|siuntos-sekimas|pakas-meklesana)/([^/?#]+)(?:/[0-9]+)?/?$"
+    },
+    {
+      "domains": [
+        "smartposti.ee",
+        "smartposti.lt",
+        "smartposti.lv"
+      ],
+      "pathPattern": "^/(?:[a-z]{2}/)?receiving/parcel-tracking/?$",
+      "params": [
+        "trackingCode"
+      ]
+    },
+    {
+      "domains": [
+        "itella.ee",
+        "itella.lt",
+        "itella.lv"
+      ],
+      "pathPattern": "^/(?:[a-z]{2}/)?(?:private|business)-customer/track-shipment/?$",
+      "params": [
+        "trackingCode"
+      ]
+    }
+  ],
+  "detection": [
+    {
+      "id": "posti-1",
+      "pattern": "^[A-Z]{2}\\d{9}FI$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "s10"
+    },
+    {
+      "id": "posti-2",
+      "pattern": "^JJFI\\d{17}$",
+      "confidence": "high"
+    },
+    {
+      "id": "posti-3",
+      "pattern": "^00\\d64\\d{15}$",
+      "confidence": "low",
+      "preferred": true,
+      "checksum": "sscc"
+    }
+  ]
+}

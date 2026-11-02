@@ -1,0 +1,29 @@
+{
+  "provider": "Bosta",
+  "Type": "SEND",
+  "ScheduleDate": "2026-05-07T00:00:00.000Z",
+  "CurrentStatus": { "state": "Received at warehouse", "code": 24, "timestamp": "2026-05-06T15:02:33.100Z" },
+  "TransitEvents": [
+    { "timestamp": "2026-05-05T10:00:01.000Z", "state": "Your order is created, Bosta will pick it up once your shipper is ready", "code": 10 },
+    { "timestamp": "2026-05-05T15:20:10.500Z", "state": "Order is received at Bosta warehouses and being processed.", "code": 24 },
+    { "timestamp": "2026-05-06T06:45:00.250Z", "state": "Order is being prepared for delivery.", "code": 20 },
+    { "timestamp": "2026-05-06T07:30:12.000Z", "state": "Order is out for delivery", "msg": "Will be Deliverd from 10 AM to 6 PM According to the Courier Route", "code": 41 },
+    { "timestamp": "2026-05-06T13:10:40.800Z", "state": "Order is rescheduled as you were not reachable on the phone", "code": 47, "exceptionCode": "7" },
+    { "timestamp": "2026-05-06T15:02:33.100Z", "state": "Order is received at Bosta warehouses and being processed.", "code": 24 }
+  ],
+  "TrackingNumber": "81000001",
+  "CreateDate": "2026-05-05T10:00:00.900Z",
+  "PromisedDate": "2026-05-07T00:00:00.000Z",
+  "isEditableShipment": true,
+  "isBostaBoxDelivery": false,
+  "nextWorkingDay": [{ "dayDate": "2026-05-09", "dayName": "Saturday" }],
+  "collectedFromBusiness": "2026-05-05T15:20:10.420Z",
+  "canRequestPOSMachine": false,
+  "deliveryCountryCode": "SA",
+  "canPayOnline": false,
+  "isShipmentPaidOnline": false,
+  "businessId": "SyntheticBusiness0002",
+  "exceptionCode": 7,
+  "timezone": "GMT",
+  "isOnlinePaymentFeatureEnabled": true
+}

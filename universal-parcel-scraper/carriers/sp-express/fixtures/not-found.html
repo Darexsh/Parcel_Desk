@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="spx-green-legacy-layout">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/w2/css/frontend.css?v=2026100201" />
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/vendor-own/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=SYNTHETIC-SITE-KEY"></script>
+<title>SP Express</title>
+</head>
+<body>
+<section class="tracking">
+    <div class="trackCnt">
+        <div class="txt">
+            Track your shipment        </div>
+        <form method="POST" action="/tt" class="do-not-block">
+        <div class="trackInput">
+            <input placeholder="enter the number" type="text" name="id">
+        </div>
+        </form>
+    </div>
+</section>
+<header>
+    <div class="txt">Track&amp;trace</div>
+</header>
+
+<section id="simple">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="mainCnt">
+                        <div class="form">
+
+        <h2>Track&trace</h2>
+
+        <form id="tt-form" action="/tt" method="post">
+        
+
+        <div class="row">
+            <label for="id">ID shipment</label>            <input type="text" value="" name="id" id="id" />            <button class="btn btn-primary btn-default" type="submit" name="yt0">Check</button></form>        </div><!-- row -->
+
+
+    </div><!-- form -->
+
+    <br/>
+    <div class="text-center"><a href="/ttm" class="btn">Track up to 25 parcels at once.</a></div>
+    <br/><br/>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="bigTitle title text-center">
+            Contact us        </div>
+        <form id="ask-for-offer-form" action="/tt" method="post">
+            <input type="text" name="AskForOffer[name]" />
+        </form>
+    </div>
+</section>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+$.notify("Shipping not find the specified ID! Make sure that you correctly entered numer.Jeżeli the problem persists, then please contact us through us!", { allow_dismiss: true, type: "danger" , offset: {
+        x: 10,
+        y: 200
+    }, z_index: 99999});
+
+    $('#askForOfferModal').on('shown.bs.modal', function () {
+            grecaptcha.ready(function() {
+                grecaptcha.execute('SYNTHETIC-SITE-KEY', {action: 'submit'}).then(function(token) {
+                    $('#ask-for-offer-form').append('<input type="hidden" name="token" value="'+token+'" />');
+                    return true;
+                });
+            });
+        });
+});
+/*]]>*/
+</script>
+</body>
+</html>

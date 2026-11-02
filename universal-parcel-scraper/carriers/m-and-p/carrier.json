@@ -1,0 +1,89 @@
+{
+  "id": "m-and-p",
+  "displayName": "M&P",
+  "aliases": [
+    "M&P Express Logistics",
+    "M&P Courier",
+    "Muller & Phipps",
+    "Mulphilog"
+  ],
+  "region": {
+    "countries": [
+      "PK"
+    ]
+  },
+  "brand": {
+    "color": "#f26522"
+  },
+  "selectable": true,
+  "timezone": "Asia/Karachi",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "m-and-p",
+    "steps": [
+      "direct",
+      "retry",
+      "trawl"
+    ],
+    "recognition": {
+      "rank": 746
+    },
+    "browser": true
+  },
+  "capabilities": [
+    "history",
+    "location",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://www.mulphilog.com/tracking/{trackingNumber}",
+    "searchUrl": "https://www.mulphilog.com/",
+    "canaryUrl": "https://www.mulphilog.com/",
+    "shows": [
+      "status",
+      "history",
+      "location",
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "customer_reference",
+      "booking_details",
+      "delivered_at",
+      "signatory"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "location",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "customer_reference",
+      "booking_details",
+      "signatory"
+    ],
+    "unavailable": [
+      "eta",
+      "service_name",
+      "weight",
+      "proof_of_delivery"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "www.mulphilog.com",
+        "mulphilog.com"
+      ],
+      "path": "^/tracking/([^/?#]+)/?$"
+    }
+  ],
+  "detection": []
+}

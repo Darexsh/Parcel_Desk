@@ -1,0 +1,21 @@
+{
+  "carrier": "bangladesh-post",
+  "entries": [
+    {"wording": "Incomming", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "International tracker. An item from abroad reaching the office of exchange; spelled this way."},
+    {"wording": "Arrived at post office", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "International tracker. Recorded at each office the item reaches on its way to delivery, so it does not say the item waits for collection."},
+    {"wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "International tracker. The status its page's script checks for in the newest row."},
+    {"code": "Item_Booked", "wording": "Booked", "stage": "accepted", "language": "en", "confirmedBy": "live", "note": "Domestic tracker. The page labels the code."},
+    {"code": "Receive_Item", "wording": "Received", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "Domestic tracker. The page labels the code."},
+    {"code": "Delivered_To_Receipent", "wording": "Delivered to Customer", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "Domestic tracker. The page labels the code, spelled this way."},
+    {"code": "Forwarded", "wording": "Forwarded", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "Domestic tracker. In the page's script, which names the next office from the remarks."},
+    {"code": "Bag_Movement", "wording": "Bag Movement", "stage": "in_transit", "language": "en", "confirmedBy": "bundle", "note": "Domestic tracker. In the page's script: a move of the bag the item travels in."},
+    {"code": "NonDeliver", "wording": "NonDeliver", "stage": "failed_attempt", "language": "en", "confirmedBy": "bundle", "note": "Domestic tracker. In the page's script: a failed delivery at the branch, with the action the branch set."},
+    {"code": "Return_To_Sender", "wording": "Return", "stage": "returned", "language": "en", "confirmedBy": "bundle", "note": "Domestic tracker. In the page's script: the sender collected the item from the post office."},
+    {"code": "Item_Deleted", "wording": "Deleted", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "Domestic tracker. In the page's script: the head office deleted the booking at the sender's request."},
+    {"code": "Delivered_To_Receipent", "wording": "Delivered to customer was successful but due to rollback after set delivery attempt was unsuccessful", "stage": "failed_attempt", "language": "en", "confirmedBy": "bundle", "note": "Domestic tracker. The page's wording for a delivery a later scan of the item undid."},
+    {"code": "Return_To_Sender", "wording": "Return to sender was successful but due to rollback set return item to sender was unsuccessful", "stage": "failed_attempt", "language": "en", "confirmedBy": "bundle", "note": "Domestic tracker. The page's wording for a return to the sender a later scan of the item undid."},
+    {"code": "Lost", "wording": "Lost", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "A closing status the former domestic tracker's script checked for."},
+    {"code": "Garbage", "wording": "Garbage", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "A closing status the former domestic tracker's script checked for. The item was disposed of."},
+    {"code": "Expired", "wording": "Expired", "stage": "exception", "language": "en", "confirmedBy": "official-doc", "note": "A closing status the former domestic tracker's script checked for. The item was not collected in time."}
+  ]
+}

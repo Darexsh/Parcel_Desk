@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>Delnext: Faça o acompanhamento da sua encomenda</title>
+    <link rel="stylesheet" href="includes/templates/delnext/css/captcha-styles.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body id="trackyourparcelBody">
+    <div class="modal fade" id="login_modal" tabindex="-1" role="dialog">
+      <form name="login" action="https://www.delnext.com/PT/login" method="post">
+        <input type="email" name="email_address" placeholder="Email">
+        <div class="g-recaptcha" data-sitekey="example-site-key"></div>
+      </form>
+    </div>
+    <div class="modal fade" id="incident_modal" tabindex="-1" role="dialog">
+      <div class="modal-body">
+            <div class="back_office_message_modal_body" style="display: none;">
+              <p>
+              </p>
+              <p>
+                O parceiro da Delnext que vai entregar o seu volume é
+                <strong>
+                  
+                </strong>
+                e o número de tracking é
+                
+              </p>
+              <a target="_blank" href="" class="btn btn-primary btn-md btn-block">
+                Consultar local do Ponto de Recolha
+              </a>
+            </div>
+            <div class="new_delivery_date" style="display: none;">
+              <p style="margin-bottom: 0px;">
+                Selecione dia da entrega
+              </p>
+            </div>
+      </div>
+    </div>
+    <!-- Header Section already exist -->
+    <section class="track-info position-relative">
+      <div class="tracking-details position-none w-100 position-absolute">
+        <div class="tracking-details-box d-flex">
+              <div class="tracking-details-box-content border-right text-center">
+                <span class="tracking-title">Código de rastreio:</span>
+                <span class="tracking-details">TR8K2Q7</span>
+              </div>
+              <div class="tracking-details-box-content text-center">
+                <span class="tracking-title">Destino:</span>
+                <span class="tracking-details">Vila Exemplo </span>
+              </div>
+        </div>
+      </div>
+    </section>
+    <section class="product-tracking-area">
+        <div class="container container-large">
+          <div class="w-100 tracking-status position-relative">
+            <div class="row">
+              <div class="col-md">
+                <div class="tracking-status-inside active">
+                  <div class="tracking-status-content">
+                    <div class="status-date">
+                      &nbsp;
+                    </div>
+                    <div class="status-title">
+                      Registado
+                    </div>
+                    <div class="status-short-details">
+                      Envio registado no sistema Delnext
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="tracking-status-inside active">
+                  <div class="tracking-status-content">
+                    <div class="status-date">
+                      &nbsp;
+                    </div>
+                    <div class="status-title">
+                      Recolhido
+                    </div>
+                    <div class="status-short-details">
+                      A sua encomenda foi recebida pela Delnext
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="tracking-status-inside active">
+                  <div class="tracking-status-content">
+                    <div class="status-date">
+                      &nbsp;
+                    </div>
+                    <div class="status-title">
+                      Em trânsito
+                    </div>
+                    <div class="status-short-details that5">
+                      Entrega prevista entre: 14/01/2026
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="tracking-status-inside active">
+                  <div class="tracking-status-content">
+                    <div class="status-date">
+                      &nbsp;
+                    </div>
+                    <div class="status-title">
+                      Em distribuição
+                    </div>
+                    <div class="status-short-details">
+                      Esperamos fazer a entrega durante o dia de hoje
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="tracking-status-inside active">
+                  <div class="tracking-status-content">
+                    <div class="status-date">
+                      &nbsp;
+                    </div>
+                    <div class="status-title">
+                      Entregue
+                    </div>
+                    <div class="status-short-details">
+                      A sua encomenda foi entregue
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="details-information">
+      <div class="details-inner-box">
+              <div class="row no-gutters">
+                <div class="col-lg-8 p-4 p-md-5 order-2 order-lg-1">
+                  <h3 class="h3 font-weight-bold text-dark mb-4">
+                    Informação detalhada                    </h3>
+                    <div class="d-flex flex-column" style="padding-right: 1rem;">
+                        <div class="feed-item mb-5">
+                            <div class="feed-icon bg-light text-secondary">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 12h.01"></path></svg>
+                            </div>
+                            <div class="feed-item-left d-flex flex-column">
+                                <p class="text-dark mb-1 mt-0">
+                                  12/01/2026 07:15                                </p>
+                                <p class="small text-muted mb-1 mt-0">
+                                  07:15                                </p>
+                                <p class="small text-dark font-weight-bold mb-1 mt-0">
+                                  Armazém Sul                                </p>
+                            </div>
+                            <div class="feed-item-right">
+                                <p class="text-dark mb-1 mt-0">
+                                  Encomenda lida em armazém
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feed-item mb-5">
+                            <div class="feed-icon bg-light text-secondary">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 12h.01"></path></svg>
+                            </div>
+                            <div class="feed-item-left d-flex flex-column">
+                                <p class="text-dark mb-1 mt-0">
+                                  11/01/2026 19:30                                </p>
+                                <p class="small text-muted mb-1 mt-0">
+                                  19:30                                </p>
+                                <p class="small text-dark font-weight-bold mb-1 mt-0">
+                                  MÁLAGA                                </p>
+                            </div>
+                            <div class="feed-item-right">
+                                <p class="text-dark mb-1 mt-0">
+                                  Encomenda enviada: verifique a estimativa de entrega acima. Será notificado quando a encomenda entrar em distribuição
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feed-item mb-5">
+                            <div class="feed-icon bg-light text-secondary">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 12h.01"></path></svg>
+                            </div>
+                            <div class="feed-item-left d-flex flex-column">
+                                <p class="text-dark mb-1 mt-0">
+                                  11/01/2026 11:48                                </p>
+                                <p class="small text-muted mb-1 mt-0">
+                                  11:48                                </p>
+                                <p class="small text-dark font-weight-bold mb-1 mt-0">
+                                  Cidade Origem                                </p>
+                            </div>
+                            <div class="feed-item-right">
+                                <p class="text-dark mb-1 mt-0">
+                                  Envio registado no sistema Delnext
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 bg-light p-4 p-md-5 order-1 order-lg-2">
+                  <div class="alert alert-primary-custom" role="alert">
+                    <h4 class="alert-heading h5 font-weight-bold">Precisa de Ajuda?</h4>
+                  </div>
+                </div>
+              </div>
+      </div>
+    </section>
+
+    <script>
+    console.log("in ready");
+    tracking_code = "TR8K2Q7";
+    </script>
+  </body>
+</html>

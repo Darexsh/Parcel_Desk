@@ -1,0 +1,253 @@
+{
+  "carrier": "bpost",
+  "entries": [
+    {
+      "wording": "Item delivered",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Item available at Pick-up point",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Out for delivery - delivery not possible",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "The delivering partner abroad could not deliver: CTT's own scan at the same minute says the delivery was not achieved, and the item then waits at a pick-up point."
+    },
+    {
+      "wording": "Shipment presented without success. Addressee is informed.",
+      "language": "en",
+      "stage": "failed_attempt",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "The notice of the same attempt, an hour later, before the item is available at a pick-up point."
+    },
+    {
+      "wording": "Item arrived at the distribution center - Item can't be assigned to a delivery round - missing information",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "The item stays at the distribution center, off every delivery round, until the information it lacks is found."
+    },
+    {
+      "wording": "Irregularity item : problem address",
+      "language": "en",
+      "stage": "exception",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "Relayed from the post abroad, at the same minute as the return to Landmark Global: the address could not be delivered to."
+    },
+    {
+      "wording": "Returned to Landmark Global (bpost), Incorrect / illegible / incomplete address",
+      "language": "en",
+      "stage": "returned",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29",
+      "note": "The post abroad sent the item back to Landmark Global, bpost's cross-border network, for its address: a return under way."
+    },
+    {
+      "wording": "Item on it's way to bbox locker",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "bpost sends {{bboxRebrand}} for the locker; its tracker puts the name of the item's bboxRebrandCategory there, from its translations, and so does the parser. A parcel on its way to a locker, before it is available there."
+    },
+    {
+      "wording": "Item on it's way to Parcel Locker",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "source",
+      "firstSeen": "2026-10-21",
+      "note": "The same scan for the parcelLocker category, named from bpost's tracker translations."
+    },
+    {
+      "wording": "Item available at the bbox locker",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "bpost's Item available at the {{bboxRebrand}}, after the scan on its way to the locker: the parcel waits in the locker for its recipient."
+    },
+    {
+      "wording": "Item available at the Parcel Locker",
+      "language": "en",
+      "stage": "ready_for_pickup",
+      "confirmedBy": "source",
+      "firstSeen": "2026-10-21",
+      "note": "The same scan for the parcelLocker category, named from bpost's tracker translations."
+    },
+    {
+      "wording": "The postman's delivery round for your item has started",
+      "language": "en",
+      "stage": "out_for_delivery",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Your shipment has arrived at the postal operator of the country of destination and will be delivered in the coming days",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Your item has been sorted",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Item is ready for transport",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Shipment ready for transport",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Departure to country of destination",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Arrival at international depot",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Arrival at facilities",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "A parcel posted abroad, at a facility in the sending country before bpost's own scans."
+    },
+    {
+      "wording": "Item has passed a checkpoint",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "A movement scan, with or without a place, as a parcel posted abroad leaves the sending country or Belgium."
+    },
+    {
+      "wording": "Parcel is handled",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Landmark Global (bpost) has received the item",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Drop off item by the customer",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-21",
+      "note": "The sender's drop-off, before bpost's acceptance of it."
+    },
+    {
+      "wording": "Item accepted after deposit by sender",
+      "language": "en",
+      "stage": "accepted",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "wording": "The return item has been sorted and will be made available for the sender",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-23",
+      "note": "A return label's parcel on its way to the shop that issued the label, which bpost calls the sender."
+    },
+    {
+      "wording": "Confirmation of preparation of the shipment received",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Item is announced / Landmark Global (bpost) received the information",
+      "language": "en",
+      "stage": "registered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-09-28"
+    },
+    {
+      "wording": "Item delivered in mailbox",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "wording": "Item delivered at safeplace",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "wording": "Your parcel was delivered at one of your neighbours. You can find all delivery details in your mailbox.",
+      "language": "en",
+      "stage": "delivered",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-30",
+      "note": "Left with a neighbour; the notice in the mailbox names them."
+    },
+    {
+      "wording": "Awaiting presentation to Customs",
+      "language": "en",
+      "stage": "customs",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Mail from abroad at the international depot, before customs."
+    },
+    {
+      "wording": "No extra costs",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Customs cleared mail from abroad without charges."
+    },
+    {
+      "wording": "Departure to distribution network",
+      "language": "en",
+      "stage": "in_transit",
+      "confirmedBy": "live",
+      "firstSeen": "2026-10-22",
+      "note": "Mail from abroad leaves the international depot for the national network."
+    }
+  ]
+}

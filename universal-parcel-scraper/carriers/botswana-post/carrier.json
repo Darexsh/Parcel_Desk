@@ -1,0 +1,44 @@
+{
+  "id": "botswana-post",
+  "displayName": "Botswana Post",
+  "aliases": [
+    "BotswanaPost",
+    "Botswana Postal Services"
+  ],
+  "region": {
+    "countries": [
+      "BW"
+    ]
+  },
+  "brand": {
+    "color": "#e2211c"
+  },
+  "selectable": true,
+  "timezone": "Africa/Gaborone",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://posttracking.botswanapost.co.bw/postglobal/vpo/Track.aspx",
+    "canaryUrl": "https://posttracking.botswanapost.co.bw/postglobal/vpo/Track.aspx",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "posttracking.botswanapost.co.bw"
+      ],
+      "pathPattern": "^/postglobal/vpo/track\\.aspx$",
+      "params": [
+        "itemid"
+      ]
+    }
+  ],
+  "detection": []
+}

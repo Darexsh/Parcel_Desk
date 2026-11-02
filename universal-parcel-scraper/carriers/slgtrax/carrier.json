@@ -1,0 +1,119 @@
+{
+  "id": "slgtrax",
+  "displayName": "SLGTrax",
+  "aliases": [
+    "Trax",
+    "Trax Courier",
+    "Trax Online",
+    "SLG Trax",
+    "SLG-Trax",
+    "Secure Logistics Trax Group"
+  ],
+  "region": {
+    "countries": [
+      "PK"
+    ]
+  },
+  "brand": {
+    "color": "#2d7a52"
+  },
+  "selectable": true,
+  "timezone": "Asia/Karachi",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "slgtrax",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 561
+    }
+  },
+  "capabilities": [
+    "history",
+    "provider_code",
+    "delivered_at",
+    "offset_timestamps"
+  ],
+  "portal": {
+    "url": "https://sonic.pk/tracking?tracking_number={trackingNumber}",
+    "searchUrl": "https://sonic.pk/tracking",
+    "canaryUrl": "https://sonic.pk/tracking",
+    "shows": [
+      "status",
+      "history",
+      "provider_code",
+      "failed_delivery_reason",
+      "delivered_at",
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "recipient_contact",
+      "order_contents",
+      "weight",
+      "payment_details"
+    ],
+    "scraped": [
+      "status",
+      "history",
+      "provider_code",
+      "failed_delivery_reason",
+      "delivered_at",
+      "offset_timestamps"
+    ],
+    "discarded": [
+      "origin",
+      "destination",
+      "sender_name",
+      "recipient_name",
+      "recipient_address",
+      "recipient_contact",
+      "order_contents",
+      "weight",
+      "payment_details"
+    ],
+    "unavailable": [
+      "location",
+      "eta",
+      "service_name",
+      "proof_of_delivery",
+      "signatory"
+    ]
+  },
+  "links": [
+    {
+      "domains": [
+        "sonic.pk"
+      ],
+      "pathPattern": "^/(?:cod/)?tracking/?$",
+      "params": [
+        "tracking_number"
+      ]
+    },
+    {
+      "domains": [
+        "slgtrax.com",
+        "www.slgtrax.com"
+      ],
+      "pathPattern": "^/(?:tracking/?)?$",
+      "params": [
+        "tracking_number"
+      ]
+    },
+    {
+      "domains": [
+        "trax.pk",
+        "www.trax.pk",
+        "legacy.trax.pk"
+      ],
+      "pathPattern": "^/admin_cod/parcel_tracking\\.php$",
+      "params": [
+        "parcel_list"
+      ]
+    }
+  ],
+  "detection": []
+}

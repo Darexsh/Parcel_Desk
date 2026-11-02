@@ -1,0 +1,45 @@
+{
+  "id": "uparcel",
+  "displayName": "uParcel",
+  "aliases": [
+    "MXHL Pte Limited"
+  ],
+  "region": {
+    "countries": [
+      "SG",
+      "MY"
+    ]
+  },
+  "brand": {
+    "color": "#faaa19"
+  },
+  "selectable": true,
+  "timezone": "Asia/Singapore",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.uparcel.sg/track?tracking-code={trackingNumber}",
+    "searchUrl": "https://www.uparcel.sg/track",
+    "canaryUrl": "https://www.uparcel.sg/track",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.uparcel.sg"
+      ],
+      "pathPattern": "^/track/?$",
+      "params": [
+        "tracking-code"
+      ]
+    }
+  ],
+  "detection": []
+}

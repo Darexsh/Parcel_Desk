@@ -1,0 +1,16 @@
+{
+  "carrier": "fermopoint",
+  "entries": [
+    {"wording": "Consegna prenotata", "stage": "registered", "language": "it", "confirmedBy": "portal", "note": "First step of the former booking page: a delivery to a Fermo!Point was booked."},
+    {"wording": "Arrivato al Fermo!Point", "stage": "ready_for_pickup", "language": "it", "confirmedBy": "portal", "note": "Step of the former booking page: the parcel reached the shop."},
+    {"wording": "Ritiro prenotato", "stage": "registered", "language": "it", "confirmedBy": "portal", "note": "First step of the current booking page: a collection at a shop was booked."},
+    {"wording": "In Preparazione", "stage": "registered", "language": "it", "confirmedBy": "portal", "note": "The sender is preparing the parcel; seen before any carrier scan."},
+    {"wording": "In consegna", "stage": "in_transit", "language": "it", "confirmedBy": "portal", "note": "Step of the current booking page between preparation and arrival: the parcel is on its way to the shop, not to a door."},
+    {"wording": "Arrivato al negozio", "stage": "ready_for_pickup", "language": "it", "confirmedBy": "portal", "note": "Step of the current booking page: the parcel reached the shop."},
+    {"wording": "Pacco ritirato", "stage": "delivered", "language": "it", "confirmedBy": "portal", "note": "The recipient collected the parcel at the shop."},
+    {"wording": "Spedizione prenotata", "stage": "registered", "language": "it", "confirmedBy": "portal", "note": "First step of a parcel sent from a shop: the shipment was booked and paid."},
+    {"wording": "Consegnato al point di partenza", "stage": "accepted", "language": "it", "confirmedBy": "portal", "note": "The sender left the parcel at the shop it is sent from."},
+    {"wording": "Ritirato dal corriere", "stage": "in_transit", "language": "it", "confirmedBy": "portal", "note": "The courier collected the parcel from the shop it is sent from."},
+    {"wording": "Pacco ritirato dal destinatario", "stage": "delivered", "language": "it", "confirmedBy": "portal", "note": "The recipient received a parcel sent from a shop."}
+  ]
+}

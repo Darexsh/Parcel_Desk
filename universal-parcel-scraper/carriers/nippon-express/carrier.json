@@ -1,0 +1,75 @@
+{
+  "id": "nippon-express",
+  "displayName": "Nippon Express",
+  "aliases": [
+    "日本通運",
+    "日通",
+    "NX",
+    "Nittsu",
+    "NIPPON EXPRESS"
+  ],
+  "region": {
+    "countries": [
+      "JP"
+    ]
+  },
+  "brand": {
+    "color": "#8ec300"
+  },
+  "selectable": true,
+  "timezone": "Asia/Tokyo",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "nippon-express",
+    "steps": [
+      "direct",
+      "retry"
+    ],
+    "recognition": {
+      "rank": 941
+    }
+  },
+  "capabilities": [
+    "service_name"
+  ],
+  "portal": {
+    "url": "https://lp-trace.nittsu.co.jp/web/webarpaa702.srv?LANG=JP&denpyoNo1={trackingNumber}",
+    "searchUrl": "https://www.nipponexpress.com/jp/ja/",
+    "canaryUrl": "https://lp-trace.nittsu.co.jp/web/webarpaa701.srv",
+    "shows": [
+      "status",
+      "service_name",
+      "departure_date",
+      "yearless_eta",
+      "order_contents",
+      "parcel_count",
+      "weight",
+      "dimensions"
+    ],
+    "scraped": [
+      "status",
+      "service_name"
+    ],
+    "discarded": [
+      "departure_date",
+      "yearless_eta",
+      "order_contents",
+      "parcel_count",
+      "weight",
+      "dimensions"
+    ],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "lp-trace.nittsu.co.jp"
+      ],
+      "pathPattern": "^/web/webarpaa702\\.srv$",
+      "params": [
+        "denpyoNo1"
+      ]
+    }
+  ],
+  "detection": []
+}

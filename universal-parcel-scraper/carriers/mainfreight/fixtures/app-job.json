@@ -1,0 +1,16 @@
+{"document":{"document":{"documentID":"90000003","actualDocumentID":null,"foundDocumentID":null,"statusDocumentID":"90000003","view":{"code":"CW","lastUpdated":"2026-01-01T00:00:00"},
+ "created":"2026-04-02T15:05:00","statusDate":"2026-04-08T23:30:00","status":"Departed Origin","rawStatus":"DEP","system":"Cargowise","type":"Shipment","typeDisplayName":"Shipment",
+ "shortCode":"CW","primaryKey":"00000000-0000-4000-8000-000000000003","primaryReference":"S09990003","primaryDisplayedReference":"ZZHBL9990003","foundReference":"ZZHBL9990003",
+ "descriptionMetadata":"Sampleport to Exampleton","notificationKey":"SYNTHETIC-NOTIFICATION-KEY","defaultServiceTypeCode":"AirAndOcean",
+ "references":[
+  {"type":"ShipmentGUID","reference":"00000000-0000-4000-8000-000000000003","isPrimaryKey":true,"isPrimaryReference":false,"isPubliclySearchable":false,"isFoundReference":false,"carrierName":"","trackingUrl":""},
+  {"type":"ShipmentNumber","reference":"S09990003","isPrimaryKey":false,"isPrimaryReference":true,"isPubliclySearchable":true,"isFoundReference":true,"carrierName":"","trackingUrl":""},
+  {"type":"HouseBillNumber","reference":"ZZHBL9990003","isPrimaryKey":false,"isPrimaryReference":false,"isPubliclySearchable":true,"isFoundReference":false,"carrierName":"","trackingUrl":""},
+  {"type":"ContainerNumber","reference":"ZZZU0000003","isPrimaryKey":false,"isPrimaryReference":false,"isPubliclySearchable":false,"isFoundReference":false,"carrierName":"","trackingUrl":""},
+  {"type":"OrderReference","reference":"SAMPLE.ORDER","isPrimaryKey":false,"isPrimaryReference":false,"isPubliclySearchable":false,"isFoundReference":false,"carrierName":"","trackingUrl":""},
+  {"type":"MasterBillNumber","reference":"00012345675","isPrimaryKey":false,"isPrimaryReference":false,"isPubliclySearchable":true,"isFoundReference":false,"carrierName":"","trackingUrl":""}
+ ],
+ "parties":[],"metadata":[{"type":"Description","content":"Sampleport to Exampleton"}],"relatedDocuments":[]},
+ "resultDocument":{"status":"Departed Origin","system":"Cargowise","type":"Shipment","journey":"Sampleport to Exampleton","primaryReference":"S09990003","primaryDisplayedReference":"ZZHBL9990003","shortCode":"CW"},
+ "podUrl":"{\"FileName\":\"\",\"FileType\":\"\",\"PublicURL\":\"\"}"},
+ "success":true,"message":"","podUrl":""}

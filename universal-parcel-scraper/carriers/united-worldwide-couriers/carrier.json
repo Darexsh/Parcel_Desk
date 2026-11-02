@@ -1,0 +1,44 @@
+{
+  "id": "united-worldwide-couriers",
+  "displayName": "United Worldwide Couriers",
+  "aliases": [
+    "United Worldwide Couriers Pvt. Ltd."
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#0099ff"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "searchUrl": "https://www.unitedcouriers.biz/tracking",
+    "canaryUrl": "https://www.unitedcouriers.biz/tracking",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.unitedcouriers.biz",
+        "unitedcouriers.biz"
+      ],
+      "pathPattern": "^/TrackDetails\\.asp$",
+      "params": [
+        "afno"
+      ]
+    }
+  ],
+  "detection": []
+}

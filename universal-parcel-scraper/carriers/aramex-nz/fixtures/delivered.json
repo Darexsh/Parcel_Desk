@@ -1,0 +1,202 @@
+{
+  "result": {
+    "PickupFranchise": "Harbourside",
+    "PickupFranchiseCode": "HBS",
+    "PickupFranchiseCurrentDate": "07/04/2026",
+    "PickupFranchiseCurrentTime": "09:00:00",
+    "DeliveryFranchise": "Southvale",
+    "DeliveryFranchiseCode": "SVL",
+    "DeliveryFranchiseCurrentDate": "07/04/2026",
+    "DeliveryFranchiseCurrentTime": "09:00:00",
+    "DeliveryETADate": "06/04/2026",
+    "TSSDeliveryDays": "2",
+    "LabelNumber": "QZ0000000042",
+    "Signature": "Signer Fixture",
+    "DistributedTo": "Signer Fixture",
+    "DistributedDate": "",
+    "Reference": "REF-FIXTURE",
+    "OriginalLabelNumber": "QZ0000000042",
+    "IsOnforward": "",
+    "IsNZPostOnforward": false,
+    "OnforwardLabelNumber": "",
+    "CallingCard": "",
+    "CountryCode": "6",
+    "CallingCardLabelNumbers": [],
+    "HasDScan": true,
+    "LastScanDate": "",
+    "WasScannedLast24Hours": false,
+    "AddressOnParcel": null,
+    "AtDepot": false,
+    "IsInternationalJourney": false,
+    "ShouldLogParcelEnquiry": false,
+    "IsPriorityParcel": false,
+    "DeliveryServiceType": {
+      "ServiceCode": "ATL",
+      "Description": "If address is unattended, parcel will be left in a safe place where available"
+    },
+    "TransitHubs": {
+      "IsDelayed": false,
+      "Display": "Full",
+      "ReasonCode": "",
+      "Hubs": [
+        {
+          "transitRf": "HBS",
+          "transitName": "Harbourside",
+          "status": "Complete",
+          "type": "Pickup"
+        },
+        {
+          "transitRf": "SVL",
+          "transitName": "Southvale",
+          "status": "Complete",
+          "type": "Delivery"
+        }
+      ]
+    },
+    "ServiceDelay": {
+      "IsDelayed": false,
+      "Message": ""
+    },
+    "RealisedDate": "",
+    "HasBulkDropScans": false,
+    "HasPodPhoto": false,
+    "HasSignature": true,
+    "Scans": [
+      {
+        "Type": "P",
+        "Courier": "412",
+        "Description": "Picked up from sender",
+        "Date": "03/04/2026 15:10:22",
+        "RealDateTime": "2026-04-03 15:10:22",
+        "Name": "Harbourside",
+        "Franchise": "HBS",
+        "Status": "PPP",
+        "StatusDescription": "Our courier has picked up your parcel from the sender. You will receive updates as your parcel moves through the delivery network.",
+        "CompanyInfo": {
+          "contactName": "Recipient Fixture",
+          "company": "Fixture Ltd",
+          "address1": "1 Fixture Lane",
+          "address2": "",
+          "address3": "Southvale",
+          "address4": "",
+          "address5": "",
+          "address6": "",
+          "address7": "",
+          "address8": "",
+          "comment": "Leave in the safe place"
+        },
+        "UploadDate": "03/04/2026",
+        "Signature": "",
+        "ParcelConnectAgent": null
+      },
+      {
+        "Type": "T",
+        "Courier": "412",
+        "Description": "In transit",
+        "Date": "03/04/2026 19:40:00",
+        "RealDateTime": "2026-04-03 19:40:00",
+        "Name": "Harbourside",
+        "Franchise": "HBS",
+        "Status": "HBS",
+        "StatusDescription": "Your parcel has left our facility and is on its way to the next destination.",
+        "CompanyInfo": {
+          "contactName": "Recipient Fixture",
+          "company": "Fixture Ltd",
+          "address1": "1 Fixture Lane",
+          "address2": "",
+          "address3": "Southvale",
+          "address4": "",
+          "address5": "",
+          "address6": "",
+          "address7": "",
+          "address8": "",
+          "comment": "Leave in the safe place"
+        },
+        "UploadDate": "03/04/2026",
+        "Signature": "",
+        "ParcelConnectAgent": null
+      },
+      {
+        "Type": "T",
+        "Courier": "518",
+        "Description": "In transit",
+        "Date": "05/04/2026 02:30:00",
+        "RealDateTime": "2026-04-05 02:30:00",
+        "Name": "Southvale",
+        "Franchise": "SVL",
+        "Status": "SVL",
+        "StatusDescription": "Your parcel has left our facility and is on its way to the next destination.",
+        "CompanyInfo": {
+          "contactName": "Recipient Fixture",
+          "company": "Fixture Ltd",
+          "address1": "1 Fixture Lane",
+          "address2": "",
+          "address3": "Southvale",
+          "address4": "",
+          "address5": "",
+          "address6": "",
+          "address7": "",
+          "address8": "",
+          "comment": "Leave in the safe place"
+        },
+        "UploadDate": "05/04/2026",
+        "Signature": "",
+        "ParcelConnectAgent": null
+      },
+      {
+        "Type": "T",
+        "Courier": "518",
+        "Description": "Onboard for delivery",
+        "Date": "06/04/2026 07:05:12",
+        "RealDateTime": "2026-04-06 07:05:12",
+        "Name": "Southvale Zone 214",
+        "Franchise": "SVL",
+        "Status": "ONB",
+        "StatusDescription": "Your parcel is onboard with your local courier and en route to your delivery address.",
+        "CompanyInfo": {
+          "contactName": "Recipient Fixture",
+          "company": "Fixture Ltd",
+          "address1": "1 Fixture Lane",
+          "address2": "",
+          "address3": "Southvale",
+          "address4": "",
+          "address5": "",
+          "address6": "",
+          "address7": "",
+          "address8": "",
+          "comment": "Leave in the safe place"
+        },
+        "UploadDate": "06/04/2026",
+        "Signature": "",
+        "ParcelConnectAgent": null
+      },
+      {
+        "Type": "D",
+        "Courier": "518",
+        "Description": "Delivered",
+        "Date": "06/04/2026 11:42:09",
+        "RealDateTime": "2026-04-06 11:42:09",
+        "Name": "Southvale Zone 214",
+        "Franchise": "SVL",
+        "Status": "R36",
+        "StatusDescription": "Your parcel has been successfully delivered to your address as per the specified delivery instructions.",
+        "CompanyInfo": {
+          "contactName": "Recipient Fixture",
+          "company": "Fixture Ltd",
+          "address1": "1 Fixture Lane",
+          "address2": "",
+          "address3": "Southvale",
+          "address4": "",
+          "address5": "",
+          "address6": "",
+          "address7": "",
+          "address8": "",
+          "comment": "Leave in the safe place"
+        },
+        "UploadDate": "06/04/2026",
+        "Signature": "Signer Fixture",
+        "ParcelConnectAgent": null
+      }
+    ]
+  }
+}

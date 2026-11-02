@@ -1,0 +1,58 @@
+{
+  "id": "shree-mahavir",
+  "displayName": "Shree Mahavir Express Services",
+  "aliases": [
+    "Shree Mahavir Express",
+    "Shree Mahavir Courier",
+    "SMESPL",
+    "Shree Mahavir Express Services Pvt. Ltd."
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#e31e25"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.shreemahavircourier.com/Frm_DocTrack.aspx?docno={trackingNumber}",
+    "searchUrl": "https://www.shreemahavircourier.com/",
+    "canaryUrl": "https://www.shreemahavircourier.com/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "www.shreemahavircourier.com",
+        "shreemahavircourier.com"
+      ],
+      "pathPattern": "^/Frm_DocTrack\\.aspx$",
+      "params": [
+        "docno"
+      ]
+    },
+    {
+      "domains": [
+        "www.smespl.in",
+        "smespl.in"
+      ],
+      "pathPattern": "^/Frm_DocTrackWeb\\.aspx$",
+      "params": [
+        "docno"
+      ]
+    }
+  ],
+  "detection": []
+}

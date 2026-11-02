@@ -1,0 +1,117 @@
+{
+  "carrier": "libanpost",
+  "records": [
+    {
+      "number": "PX10003092102",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20250513122330/https://www.libanpost.com/arabic/tools-support/track-and-trace?sn=PX10003092102",
+        "date": "2025-05-13",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "la-poste"
+        ]
+      },
+      "note": "Archived lookup on LibanPost's own tracker; the opened capture shows the number in the tracking field behind a CAPTCHA, so the history was not visible."
+    },
+    {
+      "number": "RY334745545CN",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20251016163923/https://www.libanpost.com/english/tools-support/track-and-trace?sn=RY334745545CN",
+        "date": "2025-10-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "china-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on LibanPost's own tracker for an inbound item from China; the capture was not opened, so the history was not visible."
+    },
+    {
+      "number": "RB587275870SG",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240616090025/https://www.libanpost.com/english/tools-support/track-and-trace?sn=RB587275870SG",
+        "date": "2024-06-16",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "singapore-post",
+        "confidence": "high"
+      },
+      "note": "Archived lookup on LibanPost's own tracker for an inbound item from Singapore; the capture was not opened, so the history was not visible."
+    },
+    {
+      "number": "CY543604824DE",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trackingmore.com/review-liban-post.html",
+        "date": "2021-04-20",
+        "dateKind": "comment",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "candidate"
+      },
+      "expect": {
+        "carrier": "dhl",
+        "confidence": "high"
+      },
+      "note": "A customer review on LibanPost's TrackingMore page asks where this inbound item from Germany is."
+    },
+    {
+      "number": "3244683326",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20110604183547/http://www.libanpost.com.lb:80/TrackTrace/tabid/59/TypeOfMail/IPX/TrackingNumber/3244683326/Default.aspx",
+        "date": "2011-06-04",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "scope_review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-express",
+          "dhl",
+          "mondial-relay",
+          "relais-colis",
+          "tipsa",
+          "estafeta",
+          "packeta",
+          "acs-courier",
+          "box-now",
+          "dhl-ecommerce-es",
+          "geniki-taxydromiki"
+        ]
+      },
+      "note": "The opened capture of LibanPost's former tracker shows this express (IPX) waybill picked up in Beirut and then carried by DHL, so the number belongs to DHL Express."
+    }
+  ]
+}

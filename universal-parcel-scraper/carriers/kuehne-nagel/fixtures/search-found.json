@@ -1,0 +1,72 @@
+{
+  "totalResults": 1,
+  "searchResultsByType": [
+    {
+      "kind": "reference.TN",
+      "numberOfResults": 1,
+      "shipments": [
+        {
+          "id": 900000001,
+          "modeOfTransport": "road",
+          "trackingNumber": "RWM999000001",
+          "from": "Musterstadt / DE",
+          "to": "Villefictive / FR",
+          "stage": "stage.completed",
+          "currentMilestone": {
+            "milestone": "information-milestone.pod-available"
+          },
+          "currentMilestoneDate": {
+            "actualAchievementDateTime": {
+              "condition": "ACTUAL",
+              "dateTime": {
+                "date": "2026-03-12",
+                "time": "10:15:00",
+                "offset": "+01:00",
+                "localDateTime": "2026-03-12T10:15:00",
+                "offsetDateTime": "2026-03-12T10:15:00+01:00"
+              }
+            }
+          },
+          "completionMilestone": {
+            "milestone": "location-milestone.destination.cargo-delivered.road",
+            "location": "Villefictive / FR"
+          },
+          "completionMilestoneDate": {
+            "actualAchievementDateTime": {
+              "condition": "ACTUAL",
+              "dateTime": {
+                "date": "2026-03-12",
+                "time": "09:40:00",
+                "offset": "+01:00",
+                "localDateTime": "2026-03-12T09:40:00",
+                "offsetDateTime": "2026-03-12T09:40:00+01:00"
+              }
+            },
+            "plannedAchievementDateTime": {
+              "condition": "PLANNED",
+              "dateTime": {
+                "date": "2026-03-11",
+                "time": "18:00:00",
+                "offset": "+01:00",
+                "localDateTime": "2026-03-11T18:00:00",
+                "offsetDateTime": "2026-03-11T18:00:00+01:00"
+              }
+            }
+          },
+          "weight": {
+            "value": "120.50",
+            "unit": "content.weightUnit.kg"
+          },
+          "volume": {
+            "value": "0.400",
+            "unit": "content.volumeUnit.m2"
+          },
+          "isFollowed": false,
+          "isFavorite": false,
+          "favorite": false,
+          "followed": false
+        }
+      ]
+    }
+  ]
+}

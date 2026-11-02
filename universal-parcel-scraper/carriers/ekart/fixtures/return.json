@@ -1,0 +1,101 @@
+{
+  "BSIC0000000001": {
+    "expectedDeliveryDate": 1767571200000,
+    "faShipment": false,
+    "reachedNearestHub": true,
+    "sourceCity": "Example origin",
+    "destinationCity": "Example destination",
+    "shipmentTrackingDetails": [
+      {
+        "date": 1767225600000,
+        "city": "Example origin",
+        "statusDetails": "OutForPickupEvent - OriginHub_AAA_PL"
+      },
+      {
+        "date": 1767229200000,
+        "city": "Example origin",
+        "statusDetails": "NotPickedEvent - OriginHub_AAA_PL"
+      },
+      {
+        "date": 1767232800000,
+        "city": "Example origin",
+        "statusDetails": "OutForPickupEvent - OriginHub_AAA_PL"
+      },
+      {
+        "date": 1767236400000,
+        "city": "Example origin",
+        "statusDetails": "PickupReceived - OriginHub_AAA_PL"
+      },
+      {
+        "date": 1767240000000,
+        "city": "Example origin",
+        "statusDetails": "ShipmentGrouped - OriginHub_AAA_PL"
+      },
+      {
+        "date": 1767243600000,
+        "city": "Example origin",
+        "statusDetails": "ShipmentInTransit - OriginHub_AAA_PL"
+      },
+      {
+        "date": 1767247200000,
+        "city": "Example junction",
+        "statusDetails": "InscannedAtFacility - MotherHub_BBB"
+      },
+      {
+        "date": 1767250800000,
+        "city": "Example junction",
+        "statusDetails": "dispatched - ExampleFlex_BBB"
+      },
+      {
+        "date": 1767254400000,
+        "city": "Example destination",
+        "statusDetails": "Expected - DestinationHub_CCC"
+      },
+      {
+        "date": 1767258000000,
+        "city": "Example destination",
+        "statusDetails": "InscannedAtDH - DestinationHub_CCC"
+      },
+      {
+        "date": 1767261600000,
+        "city": "Example destination",
+        "statusDetails": "PrimaryDHInscan - DestinationHub_CCC"
+      },
+      {
+        "date": 1767265200000,
+        "city": "Example destination",
+        "statusDetails": "Out For Delivery"
+      },
+      {
+        "date": 1767268800000,
+        "city": "Example destination",
+        "statusDetails": "undelivered_attempted - DestinationHub_CCC"
+      },
+      {
+        "date": 1767272400000,
+        "city": "Example destination",
+        "statusDetails": "undelivered_unattempted - DestinationHub_CCC"
+      },
+      {
+        "date": 1767276000000,
+        "city": "Example destination",
+        "statusDetails": "ShipmentRtoConfirmed - DestinationHub_CCC"
+      },
+      {
+        "date": 1767279600000,
+        "city": "Example junction",
+        "statusDetails": "RtoExpected - MotherHub_BBB"
+      },
+      {
+        "date": 1767283200000,
+        "city": "Example junction",
+        "statusDetails": "RtoReceived - MotherHub_BBB"
+      },
+      {
+        "date": 1767286800000,
+        "city": "Example origin",
+        "statusDetails": "InscannedAtDH - OriginHub_AAA"
+      }
+    ]
+  }
+}

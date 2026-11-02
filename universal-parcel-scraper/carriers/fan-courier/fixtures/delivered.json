@@ -1,0 +1,95 @@
+{
+  "content": "PRIVATE contents",
+  "awbNumber": "4000000000010",
+  "date": "2026-01-05 00:00:00",
+  "weight": 2,
+  "paymentDate": "2026-01-07 00:00:00",
+  "returnAwbNumber": null,
+  "redirectionAwbNumber": null,
+  "reimbursementAwbNumber": "4000000000099",
+  "oPODAwbNumber": null,
+  "confirmation": {
+    "name": "P****E N***E",
+    "date": "2026-01-07 14:05"
+  },
+  "service": null,
+  "options": null,
+  "barcodes": null,
+  "serviceId": 1,
+  "optionCodes": [
+    "X"
+  ],
+  "dimensions": {
+    "height": 10,
+    "width": 20,
+    "length": 30
+  },
+  "events": [
+    {
+      "id": "C0",
+      "name": "Shipment picked up",
+      "location": "Exampleville",
+      "date": "2026-01-05 15:10:00"
+    },
+    {
+      "id": "H3",
+      "name": "Shipment sorted",
+      "location": "Exampleville",
+      "date": "2026-01-05 21:40:12"
+    },
+    {
+      "id": "H10",
+      "name": "Shipment in transit to the destination warehouse",
+      "location": "Exampleville",
+      "date": "2026-01-05 22:05:43"
+    },
+    {
+      "id": "H1",
+      "name": "Shipment unloaded in the destination warehouse",
+      "location": "Sample Town",
+      "date": "2026-01-06 08:12:30"
+    },
+    {
+      "id": "C1",
+      "name": "Shipment taken over for delivery",
+      "location": "Sample Town",
+      "date": "2026-01-06 09:30:00"
+    },
+    {
+      "id": "S1",
+      "name": "Delivery in process",
+      "location": "Sample Town",
+      "date": "2026-01-06 09:30:41"
+    },
+    {
+      "id": "S3",
+      "name": "Recipient notified",
+      "location": "Sample Town",
+      "date": "2026-01-06 16:02:19"
+    },
+    {
+      "id": "C1",
+      "name": "Shipment taken over for delivery",
+      "location": "Sample Town",
+      "date": "2026-01-07 08:45:00"
+    },
+    {
+      "id": "S1",
+      "name": "Delivery in process",
+      "location": "Sample Town",
+      "date": "2026-01-07 08:45:22"
+    },
+    {
+      "id": "S2",
+      "name": "Delivered",
+      "location": "Sample Town",
+      "date": "2026-01-07 14:05:51"
+    },
+    {
+      "id": "H12",
+      "name": "Shipment in the warehouse",
+      "location": "Sample Town",
+      "date": "2026-01-07 18:30:00"
+    }
+  ]
+}

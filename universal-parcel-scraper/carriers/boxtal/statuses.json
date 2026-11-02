@@ -1,0 +1,14 @@
+{
+  "carrier": "boxtal",
+  "entries": [
+    {"code": "A", "wording": "Waiting for pick up", "stage": "registered", "language": "en", "confirmedBy": "bundle", "note": "The page's label for state A; the parcel waits for the carrier to collect it."},
+    {"code": "B", "wording": "Waiting for drop off", "stage": "registered", "language": "en", "confirmedBy": "bundle", "note": "The page's label for state B; the parcel waits for the shipper to drop it off."},
+    {"code": "C", "wording": "In transit", "stage": "in_transit", "language": "en", "confirmedBy": "live", "note": "The page's label for state C, which Boxtal gives every scan between collection and delivery, the drop-off at a relay point included."},
+    {"code": "D", "wording": "Exception", "stage": "exception", "language": "en", "confirmedBy": "bundle", "note": "The page's label for state D."},
+    {"code": "E", "wording": "Delivery attempt", "stage": "failed_attempt", "language": "en", "confirmedBy": "bundle", "note": "The page's label for state E."},
+    {"code": "F", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "live", "note": "The page's label for state F, Boxtal's \"Livré\"."},
+    {"code": "G", "wording": "At relay point", "stage": "ready_for_pickup", "language": "en", "confirmedBy": "bundle", "note": "The page's label for state G; the parcel waits at the recipient's relay point."},
+    {"code": "H", "wording": "Delivered", "stage": "delivered", "language": "en", "confirmedBy": "bundle", "note": "The page's label for state H, the second of its two delivered states."},
+    {"code": "R", "wording": "Returned", "stage": "returned", "language": "en", "confirmedBy": "bundle", "note": "The page's label for state R."}
+  ]
+}

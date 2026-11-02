@@ -1,0 +1,47 @@
+{
+  "id": "akash-ganga",
+  "displayName": "Akash Ganga Courier",
+  "aliases": [
+    "Akash Ganga Courier Limited",
+    "Akash Ganga",
+    "AGC"
+  ],
+  "region": {
+    "countries": [
+      "IN"
+    ]
+  },
+  "brand": {
+    "color": "#024182"
+  },
+  "selectable": true,
+  "timezone": "Asia/Kolkata",
+  "tracking": {
+    "mode": "automatic",
+    "adapter": "universal",
+    "steps": []
+  },
+  "capabilities": [],
+  "portal": {
+    "url": "https://www.akashganga.info/Tracking.aspx?AWB={trackingNumber}",
+    "searchUrl": "https://www.akashganga.info/",
+    "canaryUrl": "https://www.akashganga.info/",
+    "shows": [],
+    "scraped": [],
+    "discarded": [],
+    "unavailable": []
+  },
+  "links": [
+    {
+      "domains": [
+        "akashganga.info"
+      ],
+      "pathPattern": "^/(?:online)?tracking\\.aspx$",
+      "params": [
+        "AWB",
+        "ConNo"
+      ]
+    }
+  ],
+  "detection": []
+}

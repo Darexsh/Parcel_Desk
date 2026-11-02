@@ -1,0 +1,62 @@
+{
+  "others": {
+    "position": { "longitude": -3.7, "latitude": 40.4 },
+    "offices": [
+      {
+        "address": "Avenida Ejemplo, 9",
+        "cityCode": 2800000,
+        "burofax": "000000001",
+        "phoneNumber": "000000002",
+        "provinceCode": 28,
+        "latitude": 40.41,
+        "longitude": -3.71,
+        "postalCode": "00002",
+        "cityName": "Villaejemplo",
+        "officeId": "2800002",
+        "urlOfficeId": "https://example.invalid/2800002",
+        "timetables": { "desMondayToFriday": "DE 08:30 A 14:30", "desSaturday": "SIN SERVICIO", "desHoliday": "SIN SERVICIO" },
+        "provinceName": "Madrid",
+        "officeType": "SU",
+        "statusCode": 2,
+        "distance": 120,
+        "fax": "000000001",
+        "email": "oficina.vecina@example.invalid",
+        "appointments": true,
+        "specialServices": [],
+        "isOpenNow": false,
+        "ruralType": false,
+        "unitName": "OFICINA EXAMPLE VECINA",
+        "typeName": "SUCURSAL URBANA"
+      },
+      {
+        "address": "Plaza Ejemplo, 2",
+        "cityCode": 2800000,
+        "burofax": "000000003",
+        "phoneNumber": "000000004",
+        "provinceCode": 28,
+        "latitude": 40.42,
+        "longitude": -3.72,
+        "postalCode": "00001",
+        "cityName": "Villaejemplo",
+        "officeId": "2800001",
+        "urlOfficeId": "https://example.invalid/2800001",
+        "timetables": { "desMondayToFriday": "DE 08:30 A 20:30", "desSaturday": "DE 09:30 A 13:00", "desHoliday": "SIN SERVICIO" },
+        "provinceName": "Madrid",
+        "officeType": "OP",
+        "statusCode": 2,
+        "distance": 340,
+        "fax": "000000003",
+        "email": "oficina.central@example.invalid",
+        "appointments": true,
+        "specialServices": [{ "serviceCode": "EXAMP", "serviceName": "SERVICIO EJEMPLO" }],
+        "isOpenNow": true,
+        "ruralType": false,
+        "unitName": "OFICINA EXAMPLE CENTRAL",
+        "typeName": "OFICINA PRINCIPAL"
+      }
+    ],
+    "mailboxes": [],
+    "citypaqs": [],
+    "conveniencepoints": []
+  }
+}

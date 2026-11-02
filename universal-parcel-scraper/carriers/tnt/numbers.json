@@ -1,0 +1,301 @@
+{
+  "carrier": "tnt",
+  "records": [
+    {
+      "number": "1319298002846673",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a58c1f15d75ae6cf50b8bf7",
+        "date": "2026-07-16"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to TNT France, which stays one candidate among several."
+    },
+    {
+      "number": "1320002490250705",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://www.trustpilot.com/reviews/6a636f2d0801a8c8be5d2c1b",
+        "date": "2026-07-24"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dhl-ecommerce",
+          "tnt"
+        ]
+      },
+      "note": "Publicly reported shipment number; the attribution was not independently verified. The source attributes it to TNT France, which stays one candidate among several."
+    },
+    {
+      "number": "211691259",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://gist.github.com/zxp/e83a4a1b7294a5ed6207",
+        "date": "2015-08-29"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to TNT, which stays one candidate among several."
+    },
+    {
+      "number": "928567507",
+      "role": "shipment",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://gist.github.com/zxp/e83a4a1b7294a5ed6207",
+        "date": "2015-08-29"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to TNT, which stays one candidate among several."
+    },
+    {
+      "number": "1158418300904",
+      "role": "quarantined",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://gist.github.com/zxp/e83a4a1b7294a5ed6207",
+        "date": "2015-08-29"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "dpd-fr",
+          "la-poste",
+          "correos-chile",
+          "delhivery",
+          "yunda",
+          "korea-post"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to TNT, which no rule claims."
+    },
+    {
+      "number": "MY33217326",
+      "role": "quarantined",
+      "evidence": "open_source_example",
+      "source": {
+        "url": "https://gist.github.com/zxp/e83a4a1b7294a5ed6207",
+        "date": "2015-08-29"
+      },
+      "quarantine": true,
+      "context": {
+        "assessment": "review"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt-it"
+        ]
+      },
+      "note": "Open-source project example, not a real shipment. The source attributes it to TNT; only the TNT Italy national waybill rule matches this shape."
+    },
+    {
+      "number": "403923212",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://express.tnt.com/expresswebservices-website/docs/ExpressConnect%20Shipping%20Integration%20Guide%20v3.7.pdf"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt"
+        ]
+      },
+      "note": "Official Appendix I checksum example, not a real shipment."
+    },
+    {
+      "number": "403923214",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://express.tnt.com/expresswebservices-website/docs/ExpressConnect%20Shipping%20Integration%20Guide%20v3.7.pdf"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt",
+          "tforce-freight",
+          "xpo-ltl"
+        ]
+      },
+      "note": "Official Appendix I checksum example, not a real shipment."
+    },
+    {
+      "number": "505650117",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260920180029/https://www.tnt.com/api/v3/shipment?con=505650117&locale=de_CH&searchType=CON&channel=OPENTRACK",
+        "date": "2026-09-20",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt"
+        ]
+      },
+      "note": "A TNT consignment number looked up on tnt.com and listed in the Wayback Machine's capture index. TNT's tracking returned its express delivery from China to Switzerland."
+    },
+    {
+      "number": "284243058",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20260820074800/https://www.tnt.com/api/v3/shipment?con=284243058&locale=en_GB&searchType=CON&channel=OPENTRACK",
+        "date": "2026-08-20",
+        "access": "indexed_excerpt",
+        "dateKind": "capture"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "tnt"
+        ]
+      },
+      "note": "A TNT consignment number looked up on tnt.com and listed in the Wayback Machine's capture index. TNT's tracking returned its delivered history."
+    },
+    {
+      "number": "GE100312111WW",
+      "role": "shipment",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://express.tnt.com/expresswebservices-website/docs/ExpressConnect%20Shipping%20Integration%20Guide%20v3.7.pdf"
+      },
+      "expect": {
+        "carrier": "tnt",
+        "confidence": "high"
+      },
+      "note": "The consignment number example in ExpressConnect's guide, not a real shipment: nine digits between the UPU-style letters GE and WW."
+    },
+    {
+      "number": "GE123456789WW",
+      "role": "negative",
+      "evidence": "official_documentation_example",
+      "source": {
+        "url": "https://www.tnt.it/tracking/instructions/tracking_online.pdf"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "none"
+      },
+      "note": "tnt.it's example of an international consignment with its letters, not a real shipment. Its digits fail the modulus 11 check, so no rule claims it."
+    },
+    {
+      "number": "GPO002066019",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240808052543/https://www.tnt.com/api/v3/shipment?con=GPO002066019&locale=en_AU&searchType=CON&channel=OPENTRACK",
+        "date": "2024-08-08",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "TNT Australia domestic"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "Looked up on TNT's tracking API from its Australian site, as an archived reply shows; TNT answers that it is a TNT Australia domestic consignment and sends the lookup to TNT Australia's own tracker."
+    },
+    {
+      "number": "IHN000001852",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20240802030239/https://www.tnt.com/api/v3/shipment?con=IHN000001852&locale=en_AU&searchType=CON&channel=OPENTRACK",
+        "date": "2024-08-02",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "TNT Australia domestic"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "Looked up on TNT's tracking API from its Australian site, as an archived reply shows; TNT answers that it is a TNT Australia domestic consignment and sends the lookup to TNT Australia's own tracker."
+    },
+    {
+      "number": "UNY000004143",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20220715035326/https://www.tnt.com/api/v3/shipment?con=UNY000004143&locale=en_AU&searchType=CON&channel=OPENTRACK",
+        "date": "2022-07-15",
+        "dateKind": "capture",
+        "access": "indexed_excerpt"
+      },
+      "context": {
+        "assessment": "candidate",
+        "service": "TNT Australia domestic"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "colis-prive",
+          "purolator",
+          "tnt-au"
+        ]
+      },
+      "note": "Looked up on TNT's tracking API from its Australian site, as an archived reply shows; TNT answers that it is a TNT Australia domestic consignment and sends the lookup to TNT Australia's own tracker."
+    }
+  ]
+}

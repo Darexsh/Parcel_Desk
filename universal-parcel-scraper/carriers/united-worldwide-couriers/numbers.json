@@ -1,0 +1,27 @@
+{
+  "carrier": "united-worldwide-couriers",
+  "records": [
+    {
+      "number": "9202816",
+      "role": "shipment",
+      "evidence": "public_shipment_report",
+      "source": {
+        "url": "https://web.archive.org/web/20090505063722/http://www.unitedcouriers.biz:80/TrackDetails.asp?afno=9202816",
+        "date": "2009-05-05",
+        "dateKind": "capture",
+        "access": "full_page"
+      },
+      "context": {
+        "assessment": "confirmed"
+      },
+      "expect": {
+        "carrier": "unknown",
+        "confidence": "low",
+        "candidates": [
+          "seur"
+        ]
+      },
+      "note": "United's former tracker, archived by the Wayback Machine, shows this air waybill booked for the United States and in transit with UPS under a separate forwarding number."
+    }
+  ]
+}
