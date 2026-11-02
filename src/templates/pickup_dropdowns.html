@@ -1,0 +1,10 @@
+<div class="page-head"><div><div class="eyebrow">Bestellvorgaben</div><h1>Abholdropdowns</h1><p class="subtitle">Vordefinierte Paketziele und Ablageorte für die Abholung verwalten.</p></div><a class="btn secondary" href="{{url_for('settings')}}">← Zurück zu Einstellungen</a></div>
+<form class="card" method="post" style="max-width:900px">
+  <input type="hidden" name="csrf" value="{{csrf}}">
+  <p class="muted" style="font-size:13px">Ein Eintrag pro Zeile. Diese Werte stehen beim Abholen als Dropdown zur Verfügung; weitere Orte können dort als Sonstiges eingetragen werden.</p>
+  <div class="grid">
+    <div><label>Paketziele</label><textarea name="pickup_destinations" rows="6" maxlength="8000" placeholder="Warenannahme">{{pickup_destinations_text}}</textarea></div>
+    <div><label>Ablageorte für Lieferschein / Rechnung</label><textarea name="pickup_document_locations" rows="6" maxlength="8000" placeholder="Postfach am Empfang&#10;Einkauf, Raum 2.14">{{pickup_document_locations_text}}</textarea></div>
+  </div>
+  <p style="margin:20px 0 0"><button class="btn primary">Abholdropdowns speichern</button></p>
+</form>

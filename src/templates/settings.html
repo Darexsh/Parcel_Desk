@@ -1,5 +1,12 @@
 <div class="page-head"><div><div class="eyebrow">Administration</div><h1>Einstellungen</h1><p class="subtitle">Standardwerte für neue Bestellungen verwalten.</p></div></div>
-<div class="grid settings-links" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr));max-width:760px"><a class="card" href="{{url_for('groups')}}" style="color:inherit;text-decoration:none"><div class="eyebrow">Zugriff</div><h2 style="margin:10px 0 5px">Gruppen verwalten ↗</h2><p class="muted" style="margin:0;font-size:13px">Zugriff auf Bestellungen nach Gruppen trennen.</p></a><a class="card" href="{{url_for('users')}}" style="color:inherit;text-decoration:none"><div class="eyebrow">Administration</div><h2 style="margin:10px 0 5px">Teamverwaltung ↗</h2><p class="muted" style="margin:0;font-size:13px">Mitarbeiterkonten und Zugriffsrechte verwalten.</p></a><a class="card" href="{{url_for('password')}}" style="color:inherit;text-decoration:none"><div class="eyebrow">Konto</div><h2 style="margin:10px 0 5px">Passwort ändern ↗</h2><p class="muted" style="margin:0;font-size:13px">Das eigene Zugangspasswort aktualisieren.</p></a></div>
+<div class="grid settings-links" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr));max-width:1020px">
+  <a class="card" href="{{url_for('groups')}}" style="color:inherit;text-decoration:none"><div class="eyebrow">Zugriff</div><h2 style="margin:10px 0 5px">Gruppen verwalten ↗</h2><p class="muted" style="margin:0;font-size:13px">Zugriff auf Bestellungen nach Gruppen trennen.</p></a>
+  <a class="card" href="{{url_for('users')}}" style="color:inherit;text-decoration:none"><div class="eyebrow">Administration</div><h2 style="margin:10px 0 5px">Teamverwaltung ↗</h2><p class="muted" style="margin:0;font-size:13px">Mitarbeiterkonten und Zugriffsrechte verwalten.</p></a>
+  <a class="card" href="{{url_for('password')}}" style="color:inherit;text-decoration:none"><div class="eyebrow">Konto</div><h2 style="margin:10px 0 5px">Passwort ändern ↗</h2><p class="muted" style="margin:0;font-size:13px">Das eigene Zugangspasswort aktualisieren.</p></a>
+</div>
+<div class="grid settings-links" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr));max-width:1020px;margin-top:0">
+  <a class="card" href="{{url_for('pickup_dropdowns')}}" style="color:inherit;text-decoration:none"><div class="eyebrow">Bestellvorgaben</div><h2 style="margin:10px 0 5px">Abholdropdowns ↗</h2><p class="muted" style="margin:0;font-size:13px">Vordefinierte Paketziele und Ablageorte verwalten.</p></a>
+</div>
 <form class="card" method="post" style="max-width:760px">
   <input type="hidden" name="csrf" value="{{csrf}}">
   <h2 style="margin-top:0">Bestellvorgaben</h2>

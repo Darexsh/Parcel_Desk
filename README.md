@@ -94,7 +94,7 @@ Cart → Cart ready → Ordered → In transit → Arrived → Picked up
 * Mark the cart ready when it can be ordered.
 * When moving an order to **In transit**, enter its tracking number and carrier if not already recorded.
 * If a tracking number is already present, mark the order in transit directly without reopening the tracking dialog.
-* When marking an order as **Picked up**, record who collected the package, where it was delivered, and where the delivery note and invoice were left. All three details are required and saved with the order. You can correct them in the edit form or remove them there to reset the order to **Arrived** and repeat the pickup flow.
+* When marking an order as **Picked up**, record who collected the package, where it was delivered, and where the delivery note and invoice were left. All three details are required and saved with the order. You can correct them in the edit form or remove them there to reset the order to **Arrived** and repeat the pickup flow. Administrators can configure reusable package destinations and document locations in Settings; **Other** allows custom entries.
 * Set a status manually when the normal next step does not apply; marking an order as picked up still requires the pickup details.
 
 ### Mouser XLS import

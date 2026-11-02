@@ -135,6 +135,29 @@ def setting(key,default=''):
     row=db().execute('SELECT value FROM settings WHERE key=?',(key,)).fetchone()
     return row['value'] if row else default
 
+def setting_list(key):
+    values=[];seen=set()
+    for line in setting(key).splitlines():
+        value=line.strip()[:200]
+        marker=value.casefold()
+        if value and value!='__custom__' and marker not in seen:
+            values.append(value);seen.add(marker)
+    return values[:40]
+
+def pickup_form_value(name,option_key,default=''):
+    option=request.form.get(name+'_option','').strip()
+    if option=='__custom__':
+        value=request.form.get(name+'_custom','')
+    elif option:
+        values=setting_list(option_key)
+        if option not in values: abort(400,'Ungültiger Abholort')
+        value=option
+    elif name in request.form:
+        value=request.form.get(name,default)
+    else:
+        value=default
+    return value.strip()[:500]
+
 def login_required(fn):
     @wraps(fn)
     def wrapper(*a,**kw):
@@ -173,7 +196,9 @@ def csrf():
 
 
 def page(template,**kwargs):
-    body=render_template(template,csrf=session['csrf'],statuses=STATUSES,**kwargs)
+    context={'csrf':session['csrf'],'statuses':STATUSES,'pickup_destinations':setting_list('pickup_destinations'),'pickup_document_locations':setting_list('pickup_document_locations')}
+    context.update(kwargs)
+    body=render_template(template,**context)
     return render_template('base.html',content=body,csrf=session['csrf'],user=getattr(g,'user',None))
 
 @app.route('/login',methods=['GET','POST'])
@@ -277,8 +302,8 @@ def save_order(oid=None):
         if status=='Abgeholt' and previous_status!='Abgeholt':
             abort(400,'Bitte die Abholung über den Abholschritt dokumentieren')
         pickup_collected_by='' if clear_pickup else request.form.get('pickup_collected_by',old['pickup_collected_by'] or '').strip()[:200]
-        pickup_destination='' if clear_pickup else request.form.get('pickup_destination',old['pickup_destination'] or '').strip()[:500]
-        pickup_documents_location='' if clear_pickup else request.form.get('pickup_documents_location',old['pickup_documents_location'] or '').strip()[:500]
+        pickup_destination='' if clear_pickup else pickup_form_value('pickup_destination','pickup_destinations',old['pickup_destination'] or '')
+        pickup_documents_location='' if clear_pickup else pickup_form_value('pickup_documents_location','pickup_document_locations',old['pickup_documents_location'] or '')
         if not clear_pickup and (status=='Abgeholt' or previous_status=='Abgeholt' or any((pickup_collected_by,pickup_destination,pickup_documents_location))) and not all((pickup_collected_by,pickup_destination,pickup_documents_location)):
             abort(400,'Bitte alle Abholangaben ausfüllen')
         d.execute('UPDATE orders SET title=?,supplier=?,order_number=?,tracking_number=?,carrier=?,link=?,notes=?,status=?,group_id=?,pickup_collected_by=?,pickup_destination=?,pickup_documents_location=?,updated_at=? WHERE id=?',(title,*vals,status,group_id,pickup_collected_by,pickup_destination,pickup_documents_location,t,oid))
@@ -325,8 +350,8 @@ def change_status(oid):
         t=now();tracking=request.form.get('tracking_number')
         if s=='Abgeholt':
             collected_by=request.form.get('pickup_collected_by','').strip()[:200]
-            destination=request.form.get('pickup_destination','').strip()[:500]
-            documents_location=request.form.get('pickup_documents_location','').strip()[:500]
+            destination=pickup_form_value('pickup_destination','pickup_destinations')
+            documents_location=pickup_form_value('pickup_documents_location','pickup_document_locations')
             if not collected_by or not destination or not documents_location:
                 abort(400,'Bitte alle Abholangaben ausfüllen')
             d.execute('UPDATE orders SET status=?,pickup_collected_by=?,pickup_destination=?,pickup_documents_location=?,updated_at=? WHERE id=?',(s,collected_by,destination,documents_location,t,oid))
@@ -522,6 +547,22 @@ def settings():
             d.execute('INSERT INTO settings(key,value) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET value=excluded.value',('telegram_language',telegram_language))
         d.commit();flash('Einstellungen gespeichert');return redirect(url_for('settings'))
     return page('settings.html',default_supplier=setting('default_supplier'),default_carrier=setting('default_carrier'),telegram_language=setting('telegram_language','en'),telegram_configured=bool(os.getenv('TELEGRAM_BOT_TOKEN','').strip() and os.getenv('TELEGRAM_CHAT_ID','').strip()))
+
+@app.route('/settings/pickup-dropdowns',methods=['GET','POST'])
+@admin_required
+def pickup_dropdowns():
+    d=db()
+    if request.method=='POST':
+        for key in ('pickup_destinations','pickup_document_locations'):
+            values=[];seen=set()
+            for line in request.form.get(key,'').splitlines():
+                value=line.strip()[:200]
+                marker=value.casefold()
+                if value and value!='__custom__' and marker not in seen:
+                    values.append(value);seen.add(marker)
+            d.execute('INSERT INTO settings(key,value) VALUES(?,?) ON CONFLICT(key) DO UPDATE SET value=excluded.value',(key,'\n'.join(values[:40])))
+        d.commit();flash('Abholdropdowns gespeichert');return redirect(url_for('pickup_dropdowns'))
+    return page('pickup_dropdowns.html',pickup_destinations_text=setting('pickup_destinations'),pickup_document_locations_text=setting('pickup_document_locations'))
 
 @app.post('/settings/telegram-test')
 @admin_required
