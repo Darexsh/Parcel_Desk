@@ -24,7 +24,7 @@
 
 The application is designed for a small team using a shared internal service. Employees can register themselves, while an administrator approves accounts and assigns them to one or more groups. Each order belongs to one group; employees can see orders from every group they belong to, and administrators can see all orders.
 
-The interface is available in **English and German**. English is the default for new browsers, and each browser remembers its selected language across reloads.
+The interface is available in **English and German**. English is the default for new browsers, and each browser remembers its selected language across reloads. Users can also choose from four color themes, including dark mode; the selected theme is remembered in that browser.
 
 ### Why Parcel Desk exists
 

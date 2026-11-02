@@ -1,6 +1,6 @@
 const parcelTranslations = {
   'Übersicht':'Overview','Neue Bestellung':'New order','Einstellungen':'Settings','Zurück zu Einstellungen':'Back to settings','Passwort':'Password','Abmelden ↗':'Log out ↗','Angemeldet als':'Signed in as',
-  'Bestellübersicht':'Order overview','Bestellzentrale':'Order hub','Alles unterwegs. Alles an einem Ort.':'Everything in motion. All in one place.','＋ Neue Bestellung':'＋ New order',
+  'Farbschema':'Color theme','Farbschema ändern':'Change color theme','Dunkel':'Dark mode','Bestellübersicht':'Order overview','Bestellzentrale':'Order hub','Alles unterwegs. Alles an einem Ort.':'Everything in motion. All in one place.','＋ Neue Bestellung':'＋ New order',
   'Warenkorb fertig':'Cart ready','Warenkorb':'Cart','Bestellt':'Ordered','Unterwegs':'In transit','Angekommen':'Arrived','Abgeholt':'Picked up','Noch nicht hinterlegt':'Not added yet',
   'Suche nach Bestellung, Shop oder Sendungsnummer …':'Search orders, shops, or tracking numbers …','Alle Bestellungen':'All orders','Alle Jahre':'All years','Bestellt / angekommen':'Ordered / arrived','Treffer':'results','Bestellung':'Order','Bestellungen':'Orders','Shop':'Shop','Tracking':'Tracking','Versanddienstleister':'Carrier','Versanddienstleister ↗':'Shipping carriers ↗','Versanddienstleister speichern':'Save shipping carriers','Vorgegebene Versanddienstleister verwalten.':'Manage preset shipping carriers.','Vorgegebene Versanddienstleister für Bestellungen verwalten.':'Manage preset shipping carriers for orders.','Ein Eintrag pro Zeile. Diese Werte stehen bei Bestellungen und beim Erfassen des Versands als Dropdown zur Verfügung.':'One entry per line. These options are available when creating orders or entering shipping details.','z. B. DHL':'e.g. DHL','Status':'Status','Artikel':'Item','Ansehen ↗':'View ↗','Als unterwegs markieren':'Mark as in transit','Bestellbereit markieren':'Mark as ready to order','Als bestellt markieren':'Mark as ordered','Als angekommen markieren':'Mark as arrived','Als abgeholt markieren':'Mark as picked up','Abholung dokumentieren':'Record pickup details','Paketabholung dokumentieren':'Record package pickup','Bitte Abholung, Zielort und Ablageort der Unterlagen dokumentieren.':'Record who collected the package, where it was delivered, and where its documents were left.','Abholung':'Pickup','Abholdaten':'Pickup details','Abholdaten für diese Bestellung bearbeiten.':'Edit the pickup details for this order.','Abholdropdowns':'Pickup dropdowns','Vordefinierte Paketziele und Ablageorte für die Abholung verwalten.':'Manage preset package destinations and document locations for pickup.','Abholdropdowns ↗':'Pickup dropdowns ↗','Vordefinierte Paketziele und Ablageorte verwalten.':'Manage preset package destinations and document locations.','Vorgegebene Versanddienstleister verwalten.':'Manage preset shipping carriers.','Vorgegebene Versanddienstleister für Bestellungen verwalten.':'Manage preset shipping carriers for orders.','Versanddienstleister speichern':'Save shipping carriers','Ein Eintrag pro Zeile. Diese Werte stehen beim Abholen als Dropdown zur Verfügung; weitere Orte können dort als Sonstiges eingetragen werden.':'One entry per line. These appear as dropdown options during pickup; choose Other to enter a custom location.','Paketziele':'Package destinations','Ablageorte für Lieferschein / Rechnung':'Delivery note / invoice storage locations','Abholdropdowns speichern':'Save pickup dropdowns','Bitte auswählen':'Select a location','Sonstiges':'Other','Sonstiges (Eigene Eingabe)':'Other (custom entry)','Postfach am Empfang\nEinkauf, Raum 2.14':'Mail tray at reception\nPurchasing, room 2.14','Abholdaten entfernen':'Remove pickup details','Abholdaten entfernen setzt den Status auf Angekommen zurück, damit der Abholschritt erneut ausgeführt werden kann.':'Removing pickup details resets the status to Arrived so you can record the pickup again.','Abgeholt von':'Picked up by','Versand / Abholung':'Shipping / Pickup','Dienstleister / Zielort':'Carrier / Destination','Gebracht nach':'Delivered to','Abgeholt von *':'Picked up by *','Wohin wurde das Paket gebracht? *':'Where was the package delivered? *','Wohin wurden Lieferschein / Rechnung gelegt? *':'Where were the delivery note / invoice left? *','z. B. Max Mustermann':'e.g. Alex Morgan','z. B. Einkauf, Raum 2.14':'e.g. Purchasing, room 2.14','z. B. Postfach am Empfang':'e.g. Mail tray at reception','Paket gebracht nach':'Package delivered to','Lieferschein / Rechnung abgelegt bei':'Delivery note / invoice left at','Speichern & als abgeholt markieren':'Save and mark as picked up','Versand erfassen':'Enter shipping details','Sendung ist unterwegs':'Shipment is in transit','Sendungsnummer für die Sendungsverfolgung eintragen.':'Enter the tracking number so the team can track the delivery.','Sendungsnummer *':'Tracking number *','Sendungsnummer':'Tracking number','z. B. 003404…':'e.g. 003404…','Abbrechen':'Cancel','Speichern & unterwegs markieren':'Save and mark as in transit','Keine passenden Bestellungen.':'No matching orders.','Suchbegriff oder Statusfilter anpassen.':'Adjust your search or status filter.',
   'Anmelden':'Sign in','Benutzername':'Username','Passwort':'Password','Angemeldet bleiben':'Keep me signed in','(30 Tage)':'(30 days)','Neues Konto registrieren':'Register a new account','Konto erstellen':'Create an account','Registrierung':'Registration','Ein Administrator muss das Konto vor der ersten Anmeldung freischalten.':'An administrator must approve the account before the first sign-in.','Name *':'Name *','Rolle':'Role','Rolle *':'Role *','Mitarbeiter':'Employee','Extern':'External','Administrator':'Administrator','Passwort * (mindestens 12 Zeichen)':'Password * (at least 12 characters)','Passwort wiederholen *':'Confirm password *','Registrierung absenden':'Submit registration',
@@ -42,6 +42,56 @@ document.addEventListener('DOMContentLoaded', () => {
   try { language = localStorage.getItem('parcel-language') === 'de' ? 'de' : 'en'; } catch (_) {}
   window.parcelLanguage = language;
   const toggle = document.getElementById('language-toggle');
+  const themeToggle = document.getElementById('theme-toggle');
+  const themeMenu = document.getElementById('theme-menu');
+  const availableThemes = ['sage','ocean','lavender','dark'];
+  const themeColor = document.querySelector('meta[name="theme-color"]');
+  let theme = 'sage';
+  try {
+    const savedTheme = localStorage.getItem('parcel-theme');
+    if (availableThemes.includes(savedTheme)) theme = savedTheme;
+  } catch (_) {}
+  const applyTheme = selectedTheme => {
+    theme = availableThemes.includes(selectedTheme) ? selectedTheme : 'sage';
+    document.documentElement.dataset.theme = theme;
+    if (themeColor) themeColor.content = getComputedStyle(document.documentElement).getPropertyValue('--page-bg').trim();
+    document.querySelectorAll('[data-theme-choice]').forEach(option => {
+      const active = option.dataset.themeChoice === theme;
+      option.classList.toggle('active', active);
+      option.setAttribute('aria-pressed', String(active));
+    });
+  };
+  const closeThemeMenu = () => {
+    if (!themeMenu || !themeToggle) return;
+    themeMenu.hidden = true;
+    themeToggle.setAttribute('aria-expanded', 'false');
+  };
+  applyTheme(theme);
+  if (themeToggle && themeMenu) {
+    themeToggle.addEventListener('click', () => {
+      const willOpen = themeMenu.hidden;
+      themeMenu.hidden = !willOpen;
+      themeToggle.setAttribute('aria-expanded', String(willOpen));
+      if (willOpen) {
+        const rect = themeToggle.getBoundingClientRect();
+        themeMenu.style.top = `${Math.min(rect.bottom + 8, window.innerHeight - 210)}px`;
+        themeMenu.style.right = `${Math.max(12, window.innerWidth - rect.right)}px`;
+      }
+    });
+    themeMenu.querySelectorAll('[data-theme-choice]').forEach(option => {
+      option.addEventListener('click', () => {
+        applyTheme(option.dataset.themeChoice);
+        try { localStorage.setItem('parcel-theme', theme); } catch (_) {}
+        closeThemeMenu();
+      });
+    });
+    document.addEventListener('click', event => {
+      if (!themeMenu.contains(event.target) && !themeToggle.contains(event.target)) closeThemeMenu();
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeThemeMenu();
+    });
+  }
   const translatePage = () => {
     if (language === 'en') {
       const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
