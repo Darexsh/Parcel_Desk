@@ -12,7 +12,7 @@
 ![Database](https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite&logoColor=white)
 
 ![Languages](https://img.shields.io/badge/Interface-German%20%7C%20English-405D37)
-![License](https://img.shields.io/badge/License-NonCommercial-blue)
+![License](https://img.shields.io/badge/License-GPLv3-blue)
 
 </div>
 
@@ -313,13 +313,17 @@ docker compose down
 📜 License
 ----------
 
-This project is licensed under the **Non-Commercial Software License (MIT-style) v1.0** and was developed as an educational project. You are free to use, modify, and distribute the code for **non-commercial purposes only**, and must credit the author:
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+This license applies to the updater application code in this repository. Upstream patch and app projects remain under their own licenses and notice terms.
 
 **Copyright (c) 2026 Darexsh by Daniel Sichler**
 
-Please include the following notice with any use or distribution:
+You are free to use, study, modify, and redistribute this software under the terms of GPL-3.0.
 
-> Developed by Daniel Sichler aka Darexsh. Licensed under the Non-Commercial Software License (MIT-style) v1.0. See `LICENSE` for details.
+Please include the following notice when redistributing this project:
+
+> **Developer:** Darexsh by Daniel Sichler. Licensed under GNU GPL v3.0. See `LICENSE` for details.
 
 The full license is available in the [LICENSE](LICENSE) file.
 
